@@ -164,7 +164,12 @@ distances:
     time: '07:30'
     via: ''
     driveable: 1
+airports:
+  - BLR Bangalore airport
+  - BLR  Bangalore
 ---
+
+
 
 
 

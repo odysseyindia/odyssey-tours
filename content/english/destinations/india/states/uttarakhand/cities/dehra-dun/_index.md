@@ -84,7 +84,10 @@ distances:
     time: '05:00'
     via: 'NULL'
     driveable: 1
+airports:
+  - DEH  Dehra Dun
 ---
+
 
 
 

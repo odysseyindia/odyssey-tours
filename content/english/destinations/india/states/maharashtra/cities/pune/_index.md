@@ -44,7 +44,10 @@ distances:
     time: '17:30'
     via: ''
     driveable: 1
+airports:
+  - PNQ  Pune
 ---
+
 
 
 

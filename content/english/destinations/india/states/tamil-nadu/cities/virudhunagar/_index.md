@@ -13,5 +13,8 @@ type: city
 tags:
   - Cities
   - Virudhunagar
+airports:
+  - VRD  Virudhunagar
 ---
+
 Virudhunagar is a town 53 km south of Madurai. It emerged as an important trade centre during the British rule. Since rerently it has an airport.  

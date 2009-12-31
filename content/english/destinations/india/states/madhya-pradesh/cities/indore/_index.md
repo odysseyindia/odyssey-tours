@@ -84,7 +84,10 @@ distances:
     time: '11:30'
     via: ''
     driveable: 1
+airports:
+  - IDR  Indore
 ---
+
 
 
 

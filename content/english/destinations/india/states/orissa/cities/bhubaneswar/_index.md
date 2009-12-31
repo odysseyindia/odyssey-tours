@@ -54,7 +54,10 @@ distances:
     time: '02:00'
     via: ''
     driveable: 1
+airports:
+  - BBI  Bhubaneswar
 ---
+
 
 
 

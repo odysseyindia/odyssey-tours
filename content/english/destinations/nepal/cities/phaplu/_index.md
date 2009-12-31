@@ -13,5 +13,8 @@ type: city
 tags:
   - Cities
   - Phaplu
+airports:
+  - PPL  Phaplu
 ---
+
 Phaplu Airport is a domestic airport located in Phaplu, Solududhkunda serving Solukhumbu District.

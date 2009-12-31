@@ -54,7 +54,10 @@ distances:
     time: '01:30'
     via: ''
     driveable: 1
+airports:
+  - IXL  Leh
 ---
+
 
 
 

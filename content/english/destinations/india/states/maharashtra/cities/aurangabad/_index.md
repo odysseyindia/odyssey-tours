@@ -49,7 +49,10 @@ distances:
     time: '10:30'
     via: ''
     driveable: 1
+airports:
+  - IXU  Aurangabad
 ---
+
 
 
 

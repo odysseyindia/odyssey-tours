@@ -119,7 +119,10 @@ distances:
     time: '04:00'
     via: ''
     driveable: 1
+airports:
+  - RAJ  Rajkot
 ---
+
 
 
 

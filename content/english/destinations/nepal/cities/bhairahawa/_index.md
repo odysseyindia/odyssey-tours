@@ -19,7 +19,10 @@ distances:
     time: '00:30'
     via: ''
     driveable: 1
+airports:
+  - BWA  Bhairawa
 ---
+
 
 
 

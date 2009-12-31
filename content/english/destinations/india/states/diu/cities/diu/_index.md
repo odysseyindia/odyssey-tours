@@ -119,7 +119,10 @@ distances:
     time: '06:00'
     via: ''
     driveable: 1
+airports:
+  - DIU  Diu
 ---
+
 
 
 

@@ -13,5 +13,8 @@ type: city
 tags:
   - Cities
   - Kullu
+airports:
+  - KUU  Kullu
 ---
+
 The Kullu Valley, or the 'Valley of Gods', hosts each year the dramatically colourful Dusshera festival. There are fruit and apple orchards, rice paddies and wheat fields along the valley floor and lower slopes, and deodar forests higher up the slopes, with rocky, snow-crowned peaks towering behind. It is a good base for walks into the surrounding hills.

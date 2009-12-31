@@ -164,7 +164,10 @@ distances:
     time: '10:00'
     via: ''
     driveable: 1
+airports:
+  - CJB  Coimbatore
 ---
+
 
 
 

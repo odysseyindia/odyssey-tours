@@ -299,7 +299,10 @@ distances:
     time: '05:00'
     via: Kumbhalgarh Ranakpur
     driveable: 1
+airports:
+  - UDR  Udaipur
 ---
+
 
 
 

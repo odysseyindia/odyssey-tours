@@ -13,5 +13,8 @@ type: city
 tags:
   - Cities
   - Biratnagar
+airports:
+  - BIR  Biratnagar
 ---
+
 Biratnagar Airport is a domestic airport located in the south-east of Nepal.

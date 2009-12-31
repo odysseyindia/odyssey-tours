@@ -89,7 +89,10 @@ distances:
     time: '05:00'
     via: ''
     driveable: 1
+airports:
+  - BHO  Bhopal
 ---
+
 
 
 

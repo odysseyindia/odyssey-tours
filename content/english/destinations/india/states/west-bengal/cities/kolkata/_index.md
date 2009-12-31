@@ -39,7 +39,10 @@ distances:
     time: '03:30'
     via: 'NULL'
     driveable: 1
+airports:
+  - CCU  Kolkata
 ---
+
 
 
 

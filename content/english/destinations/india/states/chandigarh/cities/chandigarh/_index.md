@@ -104,7 +104,10 @@ distances:
     time: '04:30'
     via: 'NULL'
     driveable: 1
+airports:
+  - IXC  Chandigarh
 ---
+
 
 
 

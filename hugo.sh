@@ -1,0 +1,1 @@
+hugo server --renderToDisk --bind 0.0.0.0 --baseURL http://192.168.0.142

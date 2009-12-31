@@ -99,7 +99,10 @@ distances:
     time: '09:30'
     via: ''
     driveable: 1
+airports:
+  - HJR  Khajuraho
 ---
+
 
 
 

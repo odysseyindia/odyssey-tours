@@ -44,7 +44,12 @@ distances:
     time: '19:00'
     via: ''
     driveable: 1
+airports:
+  - BOM International terminal
+  - BOM Domestic airport
 ---
+
+
 
 
 

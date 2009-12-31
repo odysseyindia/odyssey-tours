@@ -139,7 +139,10 @@ distances:
     time: '04:30'
     via: ''
     driveable: 1
+airports:
+  - BDQ  Vadodara
 ---
+
 
 
 

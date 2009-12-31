@@ -69,7 +69,10 @@ distances:
     time: '12:00'
     via: ''
     driveable: 1
+airports:
+  - VNS  Varanasi
 ---
+
 
 
 

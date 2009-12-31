@@ -184,7 +184,12 @@ distances:
     time: '03:00'
     via: ''
     driveable: 1
+airports:
+  - DEL Indira Gandhi International airport
+  - DEL Domestic airport
 ---
+
+
 
 
 

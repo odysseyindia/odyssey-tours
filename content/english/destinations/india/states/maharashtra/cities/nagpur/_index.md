@@ -54,7 +54,10 @@ distances:
     time: '02:30'
     via: ''
     driveable: 1
+airports:
+  - NAG  Nagpur
 ---
+
 
 
 

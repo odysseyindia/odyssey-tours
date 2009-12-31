@@ -269,7 +269,10 @@ distances:
     time: '06:30'
     via: ''
     driveable: 1
+airports:
+  - JAS  Jaisalmer
 ---
+
 
 
 

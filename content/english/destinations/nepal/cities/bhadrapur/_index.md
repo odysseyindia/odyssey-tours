@@ -34,7 +34,10 @@ distances:
     time: '03:30'
     via: ''
     driveable: 1
+airports:
+  - BDP  Bhadrapur
 ---
+
 
 
 

@@ -29,7 +29,10 @@ distances:
     time: '09:00'
     via: 'NULL'
     driveable: 1
+airports:
+  - SXR  Srinagar
 ---
+
 
 
 

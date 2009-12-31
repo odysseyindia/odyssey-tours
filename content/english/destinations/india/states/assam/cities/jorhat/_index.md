@@ -74,7 +74,10 @@ distances:
     time: '07:00'
     via: ''
     driveable: 1
+airports:
+  - JRH  Jorhat
 ---
+
 
 
 

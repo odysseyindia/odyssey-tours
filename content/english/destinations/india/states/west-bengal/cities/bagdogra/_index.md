@@ -89,7 +89,10 @@ distances:
     time: '03:00'
     via: ''
     driveable: 1
+airports:
+  - IXB  Bagdogra
 ---
+
 
 
 

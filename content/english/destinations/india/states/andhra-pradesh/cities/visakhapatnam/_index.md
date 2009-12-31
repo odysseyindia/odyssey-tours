@@ -13,5 +13,8 @@ type: city
 tags:
   - Cities
   - Visakhapatnam
+airports:
+  - VTZ  Visakhapatnam
 ---
+
 Visakhapatnam is a port city on the Bay of Bengal. It's known for its many beaches, including Ramakrishna Beach, home to a preserved submarine at the Kursura Submarine Museum. Nearby are the elaborate Kali Temple and the Visakha Museum, an old Dutch bungalow housing local maritime and historical exhibits.

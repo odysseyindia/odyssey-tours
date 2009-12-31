@@ -59,7 +59,10 @@ distances:
     time: '05:30'
     via: ''
     driveable: 1
+airports:
+  - LKO  Lucknow
 ---
+
 
 
 

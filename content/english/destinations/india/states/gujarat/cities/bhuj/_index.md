@@ -119,7 +119,10 @@ distances:
     time: '08:00'
     via: ''
     driveable: 1
+airports:
+  - BHJ  Bhuj
 ---
+
 
 
 

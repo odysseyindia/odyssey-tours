@@ -124,7 +124,10 @@ distances:
     time: '13:00'
     via: ''
     driveable: 1
+airports:
+  - TRV  Thiruvananthapuram
 ---
+
 
 
 
