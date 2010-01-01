@@ -1,0 +1,23 @@
+{{- define "main" }}
+
+{{- .Scratch.Set "layout" "layouts/reports/hotel-rates/single.html" -}}
+
+<section id="{{ .Scratch.Get "id" | lower }}">  
+  {{ partial "heading.html" . }}
+  <div class="container">
+    <h2>test</h2>
+    {{- range (where (where .Site.Pages "Section" "destinations") ".Params.type" "hotels") }}
+    <h2>{{ .Title }}</h2>
+   
+    {{- end }}
+     {{- range (where (where .Site.RegularPages "Section" "experience") ".Params.id" "interest") }}
+     {{  .}}test
+     {{end}}
+  </div>
+</section>
+
+{{ end }}
+{{- define "postscript" }}
+
+
+{{ end }}

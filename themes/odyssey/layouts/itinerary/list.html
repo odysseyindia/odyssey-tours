@@ -259,6 +259,7 @@
         <div class="row dossier">
           <div>
             <a  href="#0" class="button" onclick="saveItinerary()" data-toggle="tooltip" title="Save"><i class="icon-floppy"></i></a>
+            <a  href="#0" class="button" onclick="copyToTours()" data-toggle="tooltip" title="Save to Tours"><i class="icon-floppy"></i></a>
             <a href="#0" class="button" id="toggleContent" data-toggle="tooltip" title="Compact" onclick="toggleContent()"><i class="icon-plus-squared"></i></a>
             <a href="#0" class="button" id="toggleCalendar" data-toggle="tooltip" title="Display dates" onclick="toggleCalendar()"><i class="icon-blind"></i></a>
             <a href="#0" class="button" data-toggle="tooltip" title="Insert a day" onclick="insertDay()"><i class="icon-plus"></i></a>
@@ -1596,6 +1597,35 @@ function editItem(obj){
       inputs[(i)].value = data[i].innerHTML;
     }
   } 
+};
+
+function copyToTours(){
+
+  const source = document.querySelector("#region");
+  const region = source[source.selectedIndex].value ;
+
+  var from = host[2];
+  var to   = region
+alert('from ',from)
+alert('to ',to)
+  docLoad({
+        url:    'copytotours',
+        method: 'POST',  
+        data: JSON.stringify({
+          "from": from,
+          "to": to
+        })
+      })
+      .then(
+
+      function(response){
+        alert("Copied "+from+" to "+to);
+      }, 
+      function(Error) {
+        alert(Error);
+        console.log(Error);
+      });
+
 };
 
 
