@@ -1,0 +1,130 @@
+stats:
+  timestamp: '1610999286.41'
+  query_time: '1.42'
+  total_backlinks: 23
+  total_collection: 1
+  total_results: 23
+  total_stock: 6
+  total_filtered_results: 6
+  positive: false
+code: 200
+messages: []
+results:
+  matches:
+    - domain: fotolia.com
+      backlinks:
+        - url: >-
+            https://t3.ftcdn.net/jpg/01/26/00/22/240_F_126002215_i1lrL1r9k5M2pP331YaehJCDZAB0oumN.jpg
+          crawl_date: '2017-01-25'
+          backlink: https://pl.fotolia.com/tag/cave?offset=83600
+      format: JPEG
+      filesize: 51522
+      overlay: >-
+        overlay/0c5b56d4e3e65973d6a6b6dd34d33922ff8139cc/10e5ec2a07ac462f5649f7afa3d402d31456896708f24b18ba0bda2281ecc810?m21=-0.0308801&m22=1.2148&m23=15.5705&m11=1.2148&m13=-75.911&m12=0.0308801
+      height: 240
+      width: 426
+      score: 15.686
+      image_url: >-
+        https://img.tineye.com/result/10e5ec2a07ac462f5649f7afa3d402d31456896708f24b18ba0bda2281ecc810
+      query_hash: 0c5b56d4e3e65973d6a6b6dd34d33922ff8139cc
+      tags:
+        - stock
+      size: 102240
+    - domain: stock.adobe.com
+      backlinks:
+        - url: ''
+          crawl_date: '2019-05-24'
+          backlink: https://stock.adobe.com/126002215
+      format: jpeg
+      filesize: 103193
+      overlay: >-
+        overlay/0c5b56d4e3e65973d6a6b6dd34d33922ff8139cc/e4bd0072255ecfd94744080fbdb6531900791c53e072152a0067a3643317939b?m21=-0.0255542&m22=1.03707&m23=15.3883&m11=1.03707&m13=-76.3236&m12=0.0255542
+      height: 282
+      width: 500
+      score: 13.725
+      image_url: >-
+        https://img.tineye.com/result/e4bd0072255ecfd94744080fbdb6531900791c53e072152a0067a3643317939b
+      query_hash: 0c5b56d4e3e65973d6a6b6dd34d33922ff8139cc
+      tags:
+        - stock
+      size: 141000
+    - domain: istockphoto.com
+      backlinks:
+        - url: >-
+            https://media.istockphoto.com/photos/cave-number-26-of-the-ajanta-caves-picture-id879265162
+          crawl_date: '2020-09-16'
+          backlink: >-
+            https://www.istockphoto.com/photo/cave-number-26-of-the-ajanta-caves-gm879265162-245113758
+      format: JPEG
+      filesize: 49738
+      overlay: >-
+        overlay/0c5b56d4e3e65973d6a6b6dd34d33922ff8139cc/e261d62dd36107efcb4844a8d75248b2c1e277ad8d5b6dbc1c97f23b7e258237?m21=-0.0244996&m22=0.965377&m23=16.3934&m11=0.965377&m13=-75.4442&m12=0.0244996
+      height: 3240
+      width: 5760
+      score: 13.725
+      image_url: >-
+        https://img.tineye.com/result/e261d62dd36107efcb4844a8d75248b2c1e277ad8d5b6dbc1c97f23b7e258237
+      query_hash: 0c5b56d4e3e65973d6a6b6dd34d33922ff8139cc
+      tags:
+        - stock
+      size: 18662400
+    - domain: istockphoto.com
+      backlinks:
+        - url: >-
+            https://media.istockphoto.com/photos/cave-26-ajanta-caves-india-picture-id624684252
+          crawl_date: '2020-09-19'
+          backlink: >-
+            https://www.istockphoto.com/photo/cave-26-ajanta-caves-india-gm624684252-109836005
+      format: JPEG
+      filesize: 62510
+      overlay: >-
+        overlay/0c5b56d4e3e65973d6a6b6dd34d33922ff8139cc/6279eb768dc3dd87f801e1c65f4f3867340e0ae87bf85a8a46592cfc5dfd2113?m21=-0.0224619&m22=0.966586&m23=15.4888&m11=0.966586&m13=-75.6022&m12=0.0224619
+      height: 3240
+      width: 5760
+      score: 13.725
+      image_url: >-
+        https://img.tineye.com/result/6279eb768dc3dd87f801e1c65f4f3867340e0ae87bf85a8a46592cfc5dfd2113
+      query_hash: 0c5b56d4e3e65973d6a6b6dd34d33922ff8139cc
+      tags:
+        - stock
+      size: 18662400
+    - domain: gettyimages.com
+      backlinks:
+        - url: >-
+            https://media.istockphoto.com/photos/cave-number-26-of-the-ajanta-caves-picture-id879265162
+          crawl_date: '2020-09-16'
+          backlink: >-
+            https://www.gettyimages.com/detail/photo/cave-number-26-of-the-ajanta-caves-royalty-free-image/879265162
+      format: JPEG
+      filesize: 49738
+      overlay: >-
+        overlay/0c5b56d4e3e65973d6a6b6dd34d33922ff8139cc/e261d62dd36107efcb4844a8d75248b2c1e277ad8d5b6dbc1c97f23b7e258237?m21=-0.0244996&m22=0.965377&m23=16.3934&m11=0.965377&m13=-75.4442&m12=0.0244996
+      height: 3240
+      width: 5760
+      score: 13.725
+      image_url: >-
+        https://img.tineye.com/result/e261d62dd36107efcb4844a8d75248b2c1e277ad8d5b6dbc1c97f23b7e258237
+      query_hash: 0c5b56d4e3e65973d6a6b6dd34d33922ff8139cc
+      tags:
+        - stock
+      size: 18662400
+    - domain: gettyimages.com
+      backlinks:
+        - url: >-
+            https://media.istockphoto.com/photos/cave-26-ajanta-caves-india-picture-id624684252
+          crawl_date: '2020-09-19'
+          backlink: >-
+            https://www.gettyimages.com/detail/photo/cave-26-ajanta-caves-india-royalty-free-image/624684252
+      format: JPEG
+      filesize: 62510
+      overlay: >-
+        overlay/0c5b56d4e3e65973d6a6b6dd34d33922ff8139cc/6279eb768dc3dd87f801e1c65f4f3867340e0ae87bf85a8a46592cfc5dfd2113?m21=-0.0224619&m22=0.966586&m23=15.4888&m11=0.966586&m13=-75.6022&m12=0.0224619
+      height: 3240
+      width: 5760
+      score: 13.725
+      image_url: >-
+        https://img.tineye.com/result/6279eb768dc3dd87f801e1c65f4f3867340e0ae87bf85a8a46592cfc5dfd2113
+      query_hash: 0c5b56d4e3e65973d6a6b6dd34d33922ff8139cc
+      tags:
+        - stock
+      size: 18662400

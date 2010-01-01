@@ -1,0 +1,71 @@
+stats:
+  timestamp: '1611651097.30'
+  query_time: '4.08'
+  total_backlinks: 5
+  total_collection: 0
+  total_results: 5
+  total_stock: 3
+  total_filtered_results: 3
+  positive: false
+code: 200
+messages: []
+results:
+  matches:
+    - domain: alamy.com
+      backlinks:
+        - url: >-
+            https://c8.alamy.com/comp/BM5P28/steps-leading-to-victory-gate-at-jama-masjid-mosque-or-friday-mosque-BM5P28.jpg
+          crawl_date: '2018-12-07'
+          backlink: >-
+            https://www.alamy.com/stock-photo-steps-leading-to-victory-gate-at-jama-masjid-mosque-or-friday-mosque-29630560.html
+      format: JPEG
+      filesize: 186363
+      overlay: >-
+        overlay/92e3608286a846f025dc81ad16e5274b46099a20/00ff5c4a03680da4108710bfad0bcbd6ba71254a279b3b7bf9d3d149836118de?m21=0.0310511&m22=0.904393&m23=-2.21605&m11=0.904393&m13=46.3228&m12=-0.0310511
+      height: 956
+      width: 1300
+      score: 15.033
+      image_url: >-
+        https://img.tineye.com/result/00ff5c4a03680da4108710bfad0bcbd6ba71254a279b3b7bf9d3d149836118de
+      query_hash: 92e3608286a846f025dc81ad16e5274b46099a20
+      tags:
+        - stock
+      size: 1242800
+    - domain: alamy.com
+      backlinks:
+        - url: >-
+            http://n7.alamy.com/zooms/ffeb51f2439b4e77aa9f17c398897b05/steps-leading-to-victory-gate-at-jama-masjid-mosque-or-friday-mosque-bm5p28.jpg
+          crawl_date: '2016-12-13'
+          backlink: http://www.alamy.com/stock-photo/the-gate-leading.html?page=10
+      format: JPEG
+      filesize: 87535
+      overlay: >-
+        overlay/92e3608286a846f025dc81ad16e5274b46099a20/375830e402beb4eb0f63a5ae8838b81fffa250a129ab79eb4c8bbb0e9fafe15c?m21=0.0284076&m22=0.848682&m23=-1.40852&m11=0.848682&m13=47.2873&m12=-0.0284076
+      height: 446
+      width: 640
+      score: 13.725
+      image_url: >-
+        https://img.tineye.com/result/375830e402beb4eb0f63a5ae8838b81fffa250a129ab79eb4c8bbb0e9fafe15c
+      query_hash: 92e3608286a846f025dc81ad16e5274b46099a20
+      tags:
+        - stock
+      size: 285440
+    - domain: alamy.com
+      backlinks:
+        - url: ''
+          crawl_date: '2015-01-30'
+          backlink: >-
+            http://www.alamy.com/image-details-popup.asp?imageid={FFEB51F2-439B-4E77-AA9F-17C398897B05}
+      format: JPEG
+      filesize: 285440
+      overlay: >-
+        overlay/92e3608286a846f025dc81ad16e5274b46099a20/0a703eda1c2f40e16fa5bfda8eed6dfc7548f6af25f90fa1909af172ed7f1f0b?m21=0.011784&m22=0.868313&m23=-1.58334&m11=0.868313&m13=44.4537&m12=-0.011784
+      height: 446
+      width: 640
+      score: 11.765
+      image_url: >-
+        https://img.tineye.com/result/0a703eda1c2f40e16fa5bfda8eed6dfc7548f6af25f90fa1909af172ed7f1f0b
+      query_hash: 92e3608286a846f025dc81ad16e5274b46099a20
+      tags:
+        - stock
+      size: 285440

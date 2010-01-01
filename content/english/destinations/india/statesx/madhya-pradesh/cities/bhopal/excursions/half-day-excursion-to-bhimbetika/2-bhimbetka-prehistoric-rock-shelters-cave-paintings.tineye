@@ -1,0 +1,50 @@
+stats:
+  timestamp: '1611004286.67'
+  query_time: '2.07'
+  total_backlinks: 6
+  total_collection: 0
+  total_results: 5
+  total_stock: 2
+  total_filtered_results: 2
+  positive: false
+code: 200
+messages: []
+results:
+  matches:
+    - domain: stock.adobe.com
+      backlinks:
+        - url: ''
+          crawl_date: '2020-06-12'
+          backlink: https://stock.adobe.com/353882067
+      format: jpeg
+      filesize: 113214
+      overlay: >-
+        overlay/0d23e36c2f8d065090965928a9b3da8d8443e227/25e5ebeffebf6809361959edcba602f9fd1f7fb455e8d0afd9779276f15bd876?m21=0.000978622&m22=1.54882&m23=27.8806&m11=1.54882&m13=-322.994&m12=-0.000978622
+      height: 332
+      width: 500
+      score: 13.725
+      image_url: >-
+        https://img.tineye.com/result/25e5ebeffebf6809361959edcba602f9fd1f7fb455e8d0afd9779276f15bd876
+      query_hash: 0d23e36c2f8d065090965928a9b3da8d8443e227
+      tags:
+        - stock
+      size: 166000
+    - domain: shutterstock.com
+      backlinks:
+        - url: ''
+          crawl_date: '2018-06-20'
+          backlink: >-
+            http://www.shutterstock.com/pic-1112442122/stock-photo-bhimbetka-rock-shelters-madhya-pradesh-india-declared-a-unesco-world-heritage-site-in-the.html
+      format: jpeg
+      filesize: 216681
+      overlay: >-
+        overlay/0d23e36c2f8d065090965928a9b3da8d8443e227/1167209d7d90559503eac33021f423572a8ad15c9a0c3d1d05a7238e709b8bc3?m21=-0.0076921&m22=1.64924&m23=31.3195&m11=1.64924&m13=-321.579&m12=0.0076921
+      height: 319
+      width: 450
+      score: 13.072
+      image_url: >-
+        https://img.tineye.com/result/1167209d7d90559503eac33021f423572a8ad15c9a0c3d1d05a7238e709b8bc3
+      query_hash: 0d23e36c2f8d065090965928a9b3da8d8443e227
+      tags:
+        - stock
+      size: 143550

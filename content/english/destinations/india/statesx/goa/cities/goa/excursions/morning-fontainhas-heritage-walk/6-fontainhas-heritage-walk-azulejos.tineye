@@ -1,0 +1,110 @@
+stats:
+  timestamp: '1611651540.36'
+  query_time: '4.02'
+  total_backlinks: 14
+  total_collection: 0
+  total_results: 9
+  total_stock: 5
+  total_filtered_results: 5
+  positive: false
+code: 200
+messages: []
+results:
+  matches:
+    - domain: mediabakery.com
+      backlinks:
+        - url: ''
+          crawl_date: '2019-02-26'
+          backlink: >-
+            https://www.mediabakery.com/IMK1237990-a-blue-and-white-plate-with-the-name-of-the-house-at-the-entrance-of-a-building-panaji-goa-india-asia.html
+      format: jpeg
+      filesize: 13535
+      overlay: >-
+        overlay/834a64f44f9a077e8fdb1295c823eaa322ea268e/f1528147681b4165fe18f950810f08c303262eeedb8bcce50316092973d27763?m21=-0.0238664&m22=1.59137&m23=-30.5723&m11=1.59137&m13=-71.3453&m12=0.0238664
+      height: 217
+      width: 325
+      score: 24.837
+      image_url: >-
+        https://img.tineye.com/result/f1528147681b4165fe18f950810f08c303262eeedb8bcce50316092973d27763
+      query_hash: 834a64f44f9a077e8fdb1295c823eaa322ea268e
+      tags:
+        - stock
+      size: 70525
+    - domain: gettyimages.com
+      backlinks:
+        - url: ''
+          crawl_date: '2015-11-04'
+          backlink: >-
+            http://www.gettyimages.com/detail/news-photo/blue-and-white-plate-with-the-name-of-the-house-at-the-news-photo/463205357
+      format: JPEG
+      filesize: 235224
+      overlay: >-
+        overlay/834a64f44f9a077e8fdb1295c823eaa322ea268e/05d6ea07ace816f3e6e24d825ad4d8c128166feb24d79c8d47d53c7bb7de5e01?m21=-0.0197029&m22=1.14053&m23=-28.4117&m11=1.14053&m13=-70.625&m12=0.0197029
+      height: 396
+      width: 594
+      score: 24.837
+      image_url: >-
+        https://img.tineye.com/result/05d6ea07ace816f3e6e24d825ad4d8c128166feb24d79c8d47d53c7bb7de5e01
+      query_hash: 834a64f44f9a077e8fdb1295c823eaa322ea268e
+      tags:
+        - stock
+      size: 235224
+    - domain: alamy.com
+      backlinks:
+        - url: >-
+            http://c7.alamy.com/comp/E7AFNA/a-blue-and-white-plate-with-the-name-of-the-house-at-the-entrance-E7AFNA.jpg
+          crawl_date: '2017-10-16'
+          backlink: >-
+            http://www.alamy.com/stock-photo-a-blue-and-white-plate-with-the-name-of-the-house-at-the-entrance-73375942.html
+      format: JPEG
+      filesize: 141395
+      overlay: >-
+        overlay/834a64f44f9a077e8fdb1295c823eaa322ea268e/0ff5ed6149313af3f25e21f7fe9ba5138e6f86f6cd96dbe505dbdd5c878e6baf?m21=-0.0162093&m22=1.26924&m23=-31.3052&m11=1.26924&m13=-71.4882&m12=0.0162093
+      height: 957
+      width: 1300
+      score: 21.569
+      image_url: >-
+        https://img.tineye.com/result/0ff5ed6149313af3f25e21f7fe9ba5138e6f86f6cd96dbe505dbdd5c878e6baf
+      query_hash: 834a64f44f9a077e8fdb1295c823eaa322ea268e
+      tags:
+        - stock
+      size: 1244100
+    - domain: alamy.com
+      backlinks:
+        - url: >-
+            https://c8.alamy.com/comp/F50J0H/a-blue-and-white-plate-with-the-name-of-the-house-at-the-entrance-F50J0H.jpg
+          crawl_date: '2018-11-21'
+          backlink: >-
+            https://www.alamy.com/stock-photo-a-blue-and-white-plate-with-the-name-of-the-house-at-the-entrance-89139249.html
+      format: JPEG
+      filesize: 139997
+      overlay: >-
+        overlay/834a64f44f9a077e8fdb1295c823eaa322ea268e/0d5be3479d70fc716039b55b4db242bf5d8786c15feef536a9d7a8079f8c521b?m21=0.00955003&m22=1.29982&m23=-40.6754&m11=1.29982&m13=-73.1532&m12=-0.00955003
+      height: 957
+      width: 1300
+      score: 18.954
+      image_url: >-
+        https://img.tineye.com/result/0d5be3479d70fc716039b55b4db242bf5d8786c15feef536a9d7a8079f8c521b
+      query_hash: 834a64f44f9a077e8fdb1295c823eaa322ea268e
+      tags:
+        - stock
+      size: 1244100
+    - domain: alamy.com
+      backlinks:
+        - url: ''
+          crawl_date: '2015-01-05'
+          backlink: >-
+            http://www.alamy.com/image-details-popup.asp?imageid={B90A7C2B-2837-433A-9B5B-0388809E8131}
+      format: JPEG
+      filesize: 286080
+      overlay: >-
+        overlay/834a64f44f9a077e8fdb1295c823eaa322ea268e/d882ed6e7961b092d00c137d52b2a09c33ee9841a5a9224c5645decab7de70f7?m21=-0.0215392&m22=1.19732&m23=-28.6586&m11=1.19732&m13=-70.5379&m12=0.0215392
+      height: 447
+      width: 640
+      score: 18.954
+      image_url: >-
+        https://img.tineye.com/result/d882ed6e7961b092d00c137d52b2a09c33ee9841a5a9224c5645decab7de70f7
+      query_hash: 834a64f44f9a077e8fdb1295c823eaa322ea268e
+      tags:
+        - stock
+      size: 286080

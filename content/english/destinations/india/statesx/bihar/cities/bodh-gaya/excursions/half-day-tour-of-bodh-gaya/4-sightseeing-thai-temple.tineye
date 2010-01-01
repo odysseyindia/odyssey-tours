@@ -1,0 +1,33 @@
+stats:
+  timestamp: '1610991762.35'
+  query_time: '1.29'
+  total_backlinks: 15
+  total_collection: 0
+  total_results: 13
+  total_stock: 1
+  total_filtered_results: 1
+  positive: false
+code: 200
+messages: []
+results:
+  matches:
+    - domain: gettyimages.com
+      backlinks:
+        - url: >-
+            https://media.gettyimages.com/photos/tourists-at-temple-wat-chalong-picture-id562813969
+          crawl_date: '2018-11-16'
+          backlink: >-
+            https://www.gettyimages.com/detail/photo/tourists-at-temple-wat-chalong-royalty-free-image/562813969
+      format: JPEG
+      filesize: 313948
+      overlay: >-
+        overlay/391dd1ff14041b86afa51f0059dfc584ebd84901/f8d60e7acd4122ff7bdad2413bec8f886a283f41cb972052baa787d56b3acd24?m21=0.012277&m22=1.01994&m23=14.399&m11=1.01994&m13=-35.5802&m12=-0.012277
+      height: 768
+      width: 1024
+      score: 11.765
+      image_url: >-
+        https://img.tineye.com/result/f8d60e7acd4122ff7bdad2413bec8f886a283f41cb972052baa787d56b3acd24
+      query_hash: 391dd1ff14041b86afa51f0059dfc584ebd84901
+      tags:
+        - stock
+      size: 786432

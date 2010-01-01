@@ -1,0 +1,53 @@
+stats:
+  timestamp: '1611067089.24'
+  query_time: '1.12'
+  total_backlinks: 3
+  total_collection: 0
+  total_results: 3
+  total_stock: 2
+  total_filtered_results: 2
+  positive: false
+code: 200
+messages: []
+results:
+  matches:
+    - domain: istockphoto.com
+      backlinks:
+        - url: >-
+            https://media.istockphoto.com/photos/golden-temple-harmindar-sahib-amritsar-picture-id1139546371?k=6&m=1139546371&s=170667a&w=0&h=6mG18HV5YFgQ2DDrLdOaDnFqPsAC12IaGRLZfzC8oNs=
+          crawl_date: '2020-12-18'
+          backlink: >-
+            https://www.istockphoto.com/photo/golden-temple-harmindar-sahib-amritsar-gm1139546371-304616773
+      format: JPEG
+      filesize: 35617
+      overlay: >-
+        overlay/6558b0922b58dfb9c8b151f6e7d2627412aae935/87f3b097b681494f4ed8945c721fab4d86723dd9578d674ccc07851c6d65c8fa?m21=-0.0147835&m22=0.662246&m23=38.6608&m11=0.662246&m13=59.105&m12=0.0147835
+      height: 3998
+      width: 6014
+      score: 11.765
+      image_url: >-
+        https://img.tineye.com/result/87f3b097b681494f4ed8945c721fab4d86723dd9578d674ccc07851c6d65c8fa
+      query_hash: 6558b0922b58dfb9c8b151f6e7d2627412aae935
+      tags:
+        - stock
+      size: 24043972
+    - domain: gettyimages.com
+      backlinks:
+        - url: >-
+            https://media.istockphoto.com/photos/golden-temple-harmindar-sahib-amritsar-picture-id1139546371?k=6&m=1139546371&s=170667a&w=0&h=6mG18HV5YFgQ2DDrLdOaDnFqPsAC12IaGRLZfzC8oNs=
+          crawl_date: '2020-12-18'
+          backlink: >-
+            https://www.gettyimages.com/detail/photo/golden-temple-harmindar-sahib-amritsar-royalty-free-image/1139546371
+      format: JPEG
+      filesize: 35617
+      overlay: >-
+        overlay/6558b0922b58dfb9c8b151f6e7d2627412aae935/87f3b097b681494f4ed8945c721fab4d86723dd9578d674ccc07851c6d65c8fa?m21=-0.0147835&m22=0.662246&m23=38.6608&m11=0.662246&m13=59.105&m12=0.0147835
+      height: 3998
+      width: 6014
+      score: 11.765
+      image_url: >-
+        https://img.tineye.com/result/87f3b097b681494f4ed8945c721fab4d86723dd9578d674ccc07851c6d65c8fa
+      query_hash: 6558b0922b58dfb9c8b151f6e7d2627412aae935
+      tags:
+        - stock
+      size: 24043972

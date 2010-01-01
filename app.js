@@ -133,6 +133,278 @@ app.post('/import',function (req, res) {
         console.log("Route import writing "+city+": " + error.message);
       }
 
+    } else if ( request.file == 'carhire.csv') {
+
+      /*
+      0=state,1=service_city,city,3=organisation,carhire_id,addressbook_id,6=vehicles_id,7=frompax,8=topax,9=wef,10=wet,costnonac,12=costac,
+      fit,remarks,costpertour,16=costperkmac,costperkmnonac,18=minimumkm,costinterstate,20=costnighthalt,coststatetax,
+      commission,masters_id,currencies_id,25=TollTax,ServiceCities_id,27=CostEscort, 28=vehicle
+      */
+      var state     = urlize(array[0]);
+      var city      = urlize(array[1]);
+      
+      var mdfile = dir+'/destinations/india/states/'+state+'/cities/'+city+'/carhire/';
+
+      console.log('Processing ',mdfile);
+
+      const made = mkdirp.sync(mdfile);
+
+
+      try {
+        var fileContents = fs.readFileSync(mdfile+'_index.md', 'utf8', (err) => {       
+          if (err) throw err; 
+        }) 
+      } 
+      catch (error) {
+        var fileContents = "---\n---\n";
+      }
+
+      try {
+
+        let contents = fileContents.split("---");
+        let data     = yaml.loadAll(contents[1]);
+
+        data[0] = {};
+        data[0].title           = array[3];
+        data[0].translationKey  = urlize(array[3]);
+        data[0].type            = 'carhire';
+
+        var ratesData = {};
+        ratesData.vehicle         = array[28];
+        ratesData.fromPax         = Number(array[7]) || 0;
+        ratesData.toPax           = Number(array[8]) || 0;
+        ratesData.wef             = (array[9]); 
+        ratesData.wet             = (array[10]);
+        ratesData.cost            = Number(array[12]) || 0;
+        ratesData.tollTax         = Number(array[25]) || 0;
+        ratesData.escort          = Number(array[27]) || 0;
+        
+        if (typeof data[0].rates === 'undefined'){
+          data[0].rates = [];
+        };
+
+        // reset rates to null
+        // data[0].rates = []; 
+        data[0].rates.push( ratesData );
+
+        let output = `---\n` + yaml.dump(data[0]) + "---\n" + contents[2] ;
+
+        fs.writeFileSync(mdfile+'_index.md', output, 'utf8', (err) => {       
+          if (err) throw err; 
+        })
+      } catch (error) {
+        console.log("Route import writing "+state+": " + error.message);
+      } 
+
+ } else if ( request.file == 'point2point.csv') {
+
+      /*
+     0=state
+     1=city
+     2=organisation
+     4=to_city
+     5=vehicle
+     6=frompax
+     7=topax
+     8=wef
+     9=wet
+     11=costac
+     12=currencies_id
+     13=commission
+     14=rep
+     15=guide
+
+      */
+      var state     = urlize(array[0]);
+      var city      = urlize(array[1]);
+      
+      var mdfile = dir+'/destinations/india/states/'+state+'/cities/'+city+'/point2point/';
+
+      console.log('Processing ',mdfile);
+
+      const made = mkdirp.sync(mdfile);
+
+
+      try {
+        var fileContents = fs.readFileSync(mdfile+'_index.md', 'utf8', (err) => {       
+          if (err) throw err; 
+        }) 
+      } 
+      catch (error) {
+        var fileContents = "---\n---\n";
+      }
+
+      try {
+
+        let contents = fileContents.split("---");
+        let data     = yaml.loadAll(contents[1]);
+
+        data[0] = {};
+        data[0].title           = array[4];
+        data[0].translationKey  = urlize(array[4]);
+        data[0].type            = 'point2point';
+
+        var ratesData = {};
+        ratesData.vehicle         = array[28];
+        ratesData.fromPax         = Number(array[7]) || 0;
+        ratesData.toPax           = Number(array[8]) || 0;
+        ratesData.wef             = (array[9]); 
+        ratesData.wet             = (array[10]);
+        ratesData.cost            = Number(array[12]) || 0;
+        ratesData.tollTax         = Number(array[25]) || 0;
+        ratesData.escort          = Number(array[27]) || 0;
+        
+        if (typeof data[0].rates === 'undefined'){
+          data[0].rates = [];
+        };
+
+        // reset rates to null
+        // data[0].rates = []; 
+        data[0].rates.push( ratesData );
+
+        let output = `---\n` + yaml.dump(data[0]) + "---\n" + contents[2] ;
+
+        fs.writeFileSync(mdfile+'_index.md', output, 'utf8', (err) => {       
+          if (err) throw err; 
+        })
+      } catch (error) {
+        console.log("Route import writing "+state+": " + error.message);
+      } 
+
+   } else if ( request.file == 'costservices-entrance.csv') {
+
+      /*
+      0=state,1=city,2=organisation,3=description,costservices_id,addressbook_id,services_id,7=wef,8=remarks,tourleaderfree,
+      10=servicecharges,11=agentcharges,12=commissionontransport,cities_id,costservicesdistinct_id,costservicesentrancefees_id,costservices_id,
+      17=frompax,18=topax,19=cost,tourleaderfree,21=remarks,22=currencies_id,23=resident,SpecialGst,nett
+       */
+      var state     = urlize(array[0]);
+      var city      = urlize(array[1]);
+      
+      var mdfile = dir+'/destinations/india/states/'+state+'/cities/'+city+'/excursions/'+urlize(array[3])+'/'+urlize(array[2])+'/';
+
+      console.log('Processing ',mdfile);
+
+      const made = mkdirp.sync(mdfile);
+     
+
+      try {
+        var fileContents = fs.readFileSyncgiy(mdfile+'_index.md', 'utf8', (err) => {       
+          if (err) throw err; 
+        }) 
+      } 
+      catch (error) {
+        var fileContents = "---\n---\n";
+      }
+
+      try {
+
+        let contents = fileContents.split("---");
+        let data     = yaml.loadAll(contents[1]);
+
+        data[0].title           = array[2];
+        data[0].translationKey  = urlize(array[2]);
+        data[0].type            = 'costservices';
+
+        var ratesData = {};
+        ratesData.wef             = array[7]; 
+        ratesData.wet             = '';
+        ratesData.serviceCharges  = Number(array[10]) || 0;
+        ratesData.agentCharges    = Number(array[11]) || 0;
+        ratesData.commissionOnTransport  = Number(array[12]) || 0;
+        ratesData.fromPax         = Number(array[17]) || 0;
+        ratesData.toPax           = Number(array[18]) || 0;
+        ratesData.cost            = Number(array[19]) || 0;
+        ratesData.remarks         = array[21];
+        ratesData.currency        = (array[22] == 13) ? 'INR' : array(22);
+        ratesData.resident        = array[23];
+        ratesData.gst             = array[24];
+        ratesData.nett            = array[25];
+
+        if (typeof data[0].entranceFees === 'undefined'){
+          data[0].entranceFees = [];
+        };
+
+        // reset rates to null
+        // data[0].entranceFees = []; 
+        data[0].entranceFees.push( ratesData );
+
+        let output = `---\n` + yaml.dump(data[0]) + "---\n" + array[8] ;
+
+        fs.writeFileSync(mdfile+'_index.md', output, 'utf8', (err) => {       
+          if (err) throw err; 
+        })
+      } catch (error) {
+        console.log("Route import writing "+state+": " + error.message);
+      } 
+ } else if ( request.file == 'costservices-guides.csv') {
+
+      /*
+     0=state,1=city,2=organisation,3=description,costservices_id,addressbook_id,services_id,
+     7=wef,8=remarks,tourleaderfree,10=servicecharges,11=agentcharges,12=commissionontransport,cities_id,costservicesdistinct_id,
+     costservicesguides_id,costservices_id,17=frompax,18=topax,19=cost,tourleaderfree,21=remarks,22=currencies_id,23=resident,24=SpecialGst,25=nett
+  */
+      var state     = urlize(array[0]);
+      var city      = urlize(array[1]);
+      
+      var mdfile = dir+'/destinations/india/states/'+state+'/cities/'+city+'/excursions/'+urlize(array[3])+'/'+urlize(array[2])+'/';
+
+      console.log('Processing ',mdfile);
+
+      const made = mkdirp.sync(mdfile);
+     
+
+      try {
+        var fileContents = fs.readFileSync(mdfile+'_index.md', 'utf8', (err) => {       
+          if (err) throw err; 
+        }) 
+      } 
+      catch (error) {
+        var fileContents = "---\n---\n";
+      }
+
+      try {
+
+        let contents = fileContents.split("---");
+        let data     = yaml.loadAll(contents[1]);
+console.table(data);
+        data = {};
+        data.title           = array[2];
+        data.translationKey  = urlize(array[2]);
+        data.type            = 'costservices';
+
+        var ratesData = {};
+        ratesData.wef             = array[7]; 
+        ratesData.wet             = '';
+        ratesData.serviceCharges  = Number(array[10]) || 0;
+        ratesData.agentCharges    = Number(array[11]) || 0;
+        ratesData.commissionOnTransport  = Number(array[12]) || 0;
+        ratesData.fromPax         = Number(array[17]) || 0;
+        ratesData.toPax           = Number(array[18]) || 0;
+        ratesData.cost            = Number(array[19]) || 0;
+        ratesData.remarks         = array[21];
+        ratesData.currency        = (array[22] == 13) ? 'INR' : array(22);
+        ratesData.resident        = array[23];
+        ratesData.gst             = array[24];
+        ratesData.nett            = array[25];
+        
+        if (typeof data.guides === 'undefined'){
+          data.guides = [];
+        };
+
+        // reset rates to null
+        // data[0].guides = []; 
+        data.guides.push( ratesData );
+console.table(data)
+        let output = `---\n` + yaml.dump(data[0]) + "---\n" + array[8] ;
+
+        fs.writeFileSync(mdfile+'_index.md', output, 'utf8', (err) => {       
+          if (err) throw err; 
+        })
+      } catch (error) {
+        console.log("Route import writing "+state+": " + error.message);
+      } 
+
     } else if ( request.file == 'states.csv') {
 
       var state     = urlize(array[0]);
@@ -161,10 +433,7 @@ app.post('/import',function (req, res) {
         frontMatter.type            = 'state';
         frontMatter.tags            = ['States',array[0].replace(/[.]/g, '') ];
 
-        let output = `---\n` 
-        + yaml.dump(frontMatter) 
-        + "---\n" 
-        + (array[2] == 'NULL' ? '' : array[2].replace(/[`]/g, "'"));
+        let output = `---\n`+yaml.dump(frontMatter)+"---\n"+(array[2] == 'NULL' ? '' : array[2].replace(/[`]/g, "'"));
 
         fs.writeFileSync(mdfile+'_index.md', output, 'utf8', (err) => {       
           if (err) throw err; 
@@ -366,7 +635,7 @@ console.log(airportData);
 
         fs.writeFileSync(mdfile, output, 'utf8', (err) => {       
          if (err) throw err; 
-       }) 
+        }) 
       } 
       catch (error) {
         console.log("Route import writing "+city+": " + error.message);

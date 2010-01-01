@@ -1,0 +1,91 @@
+stats:
+  timestamp: '1611116386.86'
+  query_time: '13.63'
+  total_backlinks: 4
+  total_collection: 0
+  total_results: 4
+  total_stock: 4
+  total_filtered_results: 4
+  positive: false
+code: 200
+messages: []
+results:
+  matches:
+    - domain: bigstockphoto.com
+      backlinks:
+        - url: https://static1.bigstockphoto.com/0/0/3/large2/300520909.jpg
+          crawl_date: '2019-05-15'
+          backlink: >-
+            https://www.bigstockphoto.com/image-300520909/stock-photo-chand-baori-well%2C-stepwell-in-abhaneri-village-near-jaipur%2C-rajasthan-chand-baori-was-built-by-king
+      format: JPEG
+      filesize: 57433
+      overlay: >-
+        overlay/d5fd53ddc9792ca5926f26cf5352b460451f896e/806c56b9f0cce8763241127a8991582c1e6396a85e314b49cb318a0c5abe33db?m21=0.0217922&m22=1.07728&m23=-69.5582&m11=1.07728&m13=-23.7732&m12=-0.0217922
+      height: 357
+      width: 450
+      score: 12.418
+      image_url: >-
+        https://img.tineye.com/result/806c56b9f0cce8763241127a8991582c1e6396a85e314b49cb318a0c5abe33db
+      query_hash: d5fd53ddc9792ca5926f26cf5352b460451f896e
+      tags:
+        - stock
+      size: 160650
+    - domain: shutterstock.com
+      backlinks:
+        - url: ''
+          crawl_date: '2019-04-02'
+          backlink: >-
+            http://www.shutterstock.com/pic-1348533794/stock-photo-chand-baori-stepwell-in-rajasthan-india.html
+      format: jpeg
+      filesize: 260065
+      overlay: >-
+        overlay/d5fd53ddc9792ca5926f26cf5352b460451f896e/6fa3d9bf7ffab783cb68d060f52fc8169faaa939004a49c2e84609ffc9b38cd4?m21=-0.0218083&m22=1.01662&m23=6.58599&m11=1.01662&m13=-26.6666&m12=0.0218083
+      height: 320
+      width: 450
+      score: 11.765
+      image_url: >-
+        https://img.tineye.com/result/6fa3d9bf7ffab783cb68d060f52fc8169faaa939004a49c2e84609ffc9b38cd4
+      query_hash: d5fd53ddc9792ca5926f26cf5352b460451f896e
+      tags:
+        - stock
+      size: 144000
+    - domain: istockphoto.com
+      backlinks:
+        - url: >-
+            https://media.istockphoto.com/photos/chand-baori-well-stepwell-in-abhaneri-village-near-jaipur-rajasthan-picture-id1148436574?s=170667a
+          crawl_date: '2020-12-18'
+          backlink: >-
+            https://www.istockphoto.com/photo/chand-baori-well-stepwell-in-abhaneri-village-near-jaipur-rajasthan-chand-baori-was-gm1148436574-310150974
+      format: JPEG
+      filesize: 46457
+      overlay: >-
+        overlay/d5fd53ddc9792ca5926f26cf5352b460451f896e/8827a3a24810935b9a244d938ad51087690cb019473f03f2f40c04806c3c5916?m21=0.0102939&m22=1.02121&m23=-68.8124&m11=1.02121&m13=-26.4161&m12=-0.0102939
+      height: 3141
+      width: 4189
+      score: 11.765
+      image_url: >-
+        https://img.tineye.com/result/8827a3a24810935b9a244d938ad51087690cb019473f03f2f40c04806c3c5916
+      query_hash: d5fd53ddc9792ca5926f26cf5352b460451f896e
+      tags:
+        - stock
+      size: 13157649
+    - domain: gettyimages.com
+      backlinks:
+        - url: >-
+            https://media.istockphoto.com/photos/chand-baori-well-stepwell-in-abhaneri-village-near-jaipur-rajasthan-picture-id1148436574?s=170667a
+          crawl_date: '2020-12-18'
+          backlink: >-
+            https://www.gettyimages.com/detail/photo/chand-baori-well-stepwell-in-abhaneri-village-near-royalty-free-image/1148436574
+      format: JPEG
+      filesize: 46457
+      overlay: >-
+        overlay/d5fd53ddc9792ca5926f26cf5352b460451f896e/8827a3a24810935b9a244d938ad51087690cb019473f03f2f40c04806c3c5916?m21=0.0102939&m22=1.02121&m23=-68.8124&m11=1.02121&m13=-26.4161&m12=-0.0102939
+      height: 3141
+      width: 4189
+      score: 11.765
+      image_url: >-
+        https://img.tineye.com/result/8827a3a24810935b9a244d938ad51087690cb019473f03f2f40c04806c3c5916
+      query_hash: d5fd53ddc9792ca5926f26cf5352b460451f896e
+      tags:
+        - stock
+      size: 13157649

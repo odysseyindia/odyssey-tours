@@ -1,0 +1,206 @@
+stats:
+  timestamp: '1611162681.54'
+  query_time: '0.93'
+  total_backlinks: 298
+  total_collection: 0
+  total_results: 52
+  total_stock: 26
+  total_filtered_results: 26
+  positive: false
+code: 200
+messages: []
+results:
+  matches:
+    - domain: istockphoto.com
+      backlinks:
+        - url: >-
+            https://media.istockphoto.com/photos/ancient-architecture-of-mahabilipuram-temples-picture-id1135561319
+          crawl_date: '2020-10-03'
+          backlink: >-
+            https://www.istockphoto.com/photo/ancient-architecture-of-mahabilipuram-temples-gm1135561319-302136690
+      format: JPEG
+      filesize: 54727
+      overlay: >-
+        overlay/29a85f21654a066deffd3edde898448fe4940ef1/3b598dd4482f8c86d97fd1aa4f96de98c37e11b9ad343c77bab5af93f416947e?m21=-9.7578e-05&m22=0.906482&m23=1.58318&m11=0.906482&m13=28.4102&m12=9.7578e-05
+      height: 4016
+      width: 6016
+      score: 18.954
+      image_url: >-
+        https://img.tineye.com/result/3b598dd4482f8c86d97fd1aa4f96de98c37e11b9ad343c77bab5af93f416947e
+      query_hash: 29a85f21654a066deffd3edde898448fe4940ef1
+      tags:
+        - stock
+      size: 24160256
+    - domain: gettyimages.com
+      backlinks:
+        - url: >-
+            https://media.istockphoto.com/photos/ancient-architecture-of-mahabilipuram-temples-picture-id1135561319
+          crawl_date: '2020-10-03'
+          backlink: >-
+            https://www.gettyimages.com/detail/photo/ancient-architecture-of-mahabilipuram-temples-royalty-free-image/1135561319
+      format: JPEG
+      filesize: 54727
+      overlay: >-
+        overlay/29a85f21654a066deffd3edde898448fe4940ef1/3b598dd4482f8c86d97fd1aa4f96de98c37e11b9ad343c77bab5af93f416947e?m21=-9.7578e-05&m22=0.906482&m23=1.58318&m11=0.906482&m13=28.4102&m12=9.7578e-05
+      height: 4016
+      width: 6016
+      score: 18.954
+      image_url: >-
+        https://img.tineye.com/result/3b598dd4482f8c86d97fd1aa4f96de98c37e11b9ad343c77bab5af93f416947e
+      query_hash: 29a85f21654a066deffd3edde898448fe4940ef1
+      tags:
+        - stock
+      size: 24160256
+    - domain: gettyimages.com
+      backlinks:
+        - url: ''
+          crawl_date: '2015-06-02'
+          backlink: >-
+            http://www.gettyimages.com/detail/photo/india-tamil-nadu-mamallapuram-high-res-stock-photography/463288013
+      format: JPEG
+      filesize: 171366
+      overlay: >-
+        overlay/29a85f21654a066deffd3edde898448fe4940ef1/b59617630427b52b08aef7ed425f5a8ef6dc05878681aea4dcc86f740e1d2579?m21=-0.00903365&m22=1.04812&m23=-14.0803&m11=1.04812&m13=-59.373&m12=0.00903365
+      height: 338
+      width: 507
+      score: 15.686
+      image_url: >-
+        https://img.tineye.com/result/b59617630427b52b08aef7ed425f5a8ef6dc05878681aea4dcc86f740e1d2579
+      query_hash: 29a85f21654a066deffd3edde898448fe4940ef1
+      tags:
+        - stock
+      size: 171366
+    - domain: mediabakery.com
+      backlinks:
+        - url: ''
+          crawl_date: '2014-03-22'
+          backlink: >-
+            http://www.mediabakery.com/PNS0070885-India-Tamil-Nadu-Mamallapuram-Mahabalipuram.html
+      format: jpeg
+      filesize: 21431
+      overlay: >-
+        overlay/29a85f21654a066deffd3edde898448fe4940ef1/77ec52451d8784b33719038949e702ebdc556f5a30b610a6a8c21199f61da3e4?m21=0.00561939&m22=1.31351&m23=-43.3275&m11=1.31351&m13=-54.695&m12=-0.00561939
+      height: 267
+      width: 400
+      score: 15.033
+      image_url: >-
+        https://img.tineye.com/result/77ec52451d8784b33719038949e702ebdc556f5a30b610a6a8c21199f61da3e4
+      query_hash: 29a85f21654a066deffd3edde898448fe4940ef1
+      tags:
+        - stock
+      size: 106800
+    - domain: mauritius-images.com
+      backlinks:
+        - url: >-
+            https://img.mauritius.sodatech.com/dsf/preview_watermarked/ME-PI-3392293/save_as_name/mauritius%20images%20-%2002337875.jpg
+          crawl_date: '2020-02-04'
+          backlink: >-
+            https://www.mauritius-images.com/en/asset/ME-PI-3392293_mauritius_images_bildnummer_02337875_india-tamil-nadu-mamallapuram-mahabalipuram-krishna-mandapam-temple
+      format: JPEG
+      filesize: 58757
+      overlay: >-
+        overlay/29a85f21654a066deffd3edde898448fe4940ef1/c7267f1fdcc36d581c01f28196ea738c1c5712651f0ca17f496d7c569a867350?m21=0.00412528&m22=1.16498&m23=-42.779&m11=1.16498&m13=-55.014&m12=-0.00412528
+      height: 400
+      width: 600
+      score: 14.379
+      image_url: >-
+        https://img.tineye.com/result/c7267f1fdcc36d581c01f28196ea738c1c5712651f0ca17f496d7c569a867350
+      query_hash: 29a85f21654a066deffd3edde898448fe4940ef1
+      tags:
+        - stock
+      size: 240000
+    - domain: inmagine.com
+      backlinks:
+        - url: >-
+            http://images.inmagine.com/400nwm/iris/photononstop-043/ptg01204426.jpg
+          crawl_date: '2014-08-26'
+          backlink: http://gb.inmagine.com/searchterms/mandapam.html
+      format: JPEG
+      filesize: 56749
+      overlay: >-
+        overlay/29a85f21654a066deffd3edde898448fe4940ef1/72e7c5c21daf082af4fcab9bc1e9c352e4f156714f99177e3c1108f91e327e32?m21=-0.00928194&m22=1.30128&m23=-37.317&m11=1.30128&m13=-51.768&m12=0.00928194
+      height: 264
+      width: 396
+      score: 14.379
+      image_url: >-
+        https://img.tineye.com/result/72e7c5c21daf082af4fcab9bc1e9c352e4f156714f99177e3c1108f91e327e32
+      query_hash: 29a85f21654a066deffd3edde898448fe4940ef1
+      tags:
+        - stock
+      size: 104544
+    - domain: shutterstock.com
+      backlinks:
+        - url: ''
+          crawl_date: '2019-06-04'
+          backlink: >-
+            http://www.shutterstock.com/pic-1280289286/stock-photo-ancient-architecture-of-mahabalipuram-caves.html
+      format: jpeg
+      filesize: 115509
+      overlay: >-
+        overlay/29a85f21654a066deffd3edde898448fe4940ef1/f5b59569042a0abb1bde82bb82e2e0409cf1009e990adb1d06c051ad938259fc?m21=-0.000285834&m22=0.967075&m23=1.94026&m11=0.967075&m13=28.6518&m12=0.000285834
+      height: 321
+      width: 450
+      score: 13.725
+      image_url: >-
+        https://img.tineye.com/result/f5b59569042a0abb1bde82bb82e2e0409cf1009e990adb1d06c051ad938259fc
+      query_hash: 29a85f21654a066deffd3edde898448fe4940ef1
+      tags:
+        - stock
+      size: 144450
+    - domain: mediabakery.com
+      backlinks:
+        - url: ''
+          crawl_date: '2018-03-18'
+          backlink: >-
+            https://www.mediabakery.com/PNS0070885india-tamil-nadu-mamallapuram-mahabalipuram-krishna-mandapam-temple.html
+      format: jpeg
+      filesize: 32616
+      overlay: >-
+        overlay/29a85f21654a066deffd3edde898448fe4940ef1/2407a872cb63d8446aca5f2cd12cc5f1f1ae21856626940a99350bbcad73c1f9?m21=0.00942436&m22=1.62793&m23=-44.9763&m11=1.62793&m13=-56.4101&m12=-0.00942436
+      height: 217
+      width: 325
+      score: 13.725
+      image_url: >-
+        https://img.tineye.com/result/2407a872cb63d8446aca5f2cd12cc5f1f1ae21856626940a99350bbcad73c1f9
+      query_hash: 29a85f21654a066deffd3edde898448fe4940ef1
+      tags:
+        - stock
+      size: 70525
+    - domain: mediabakery.com
+      backlinks:
+        - url: ''
+          crawl_date: '2019-02-21'
+          backlink: >-
+            https://www.mediabakery.com/AFS3070156-india-tamiol-nadu-state-mamallapuram-city-arjunas-pennance-rock-cut-architecture-esculpture-detail.html
+      format: jpeg
+      filesize: 22710
+      overlay: >-
+        overlay/29a85f21654a066deffd3edde898448fe4940ef1/b4fe067ac7df1fbc916e7e56852d9dd12ea49e68d4d371c18f80d260ebe94662?m21=0.00809653&m22=1.02067&m23=69.3815&m11=1.02067&m13=-44.0693&m12=-0.00809653
+      height: 217
+      width: 325
+      score: 13.725
+      image_url: >-
+        https://img.tineye.com/result/b4fe067ac7df1fbc916e7e56852d9dd12ea49e68d4d371c18f80d260ebe94662
+      query_hash: 29a85f21654a066deffd3edde898448fe4940ef1
+      tags:
+        - stock
+      size: 70525
+    - domain: mediabakery.com
+      backlinks:
+        - url: ''
+          crawl_date: '2019-02-14'
+          backlink: >-
+            https://www.mediabakery.com/AFS1731301-india-tamil-nadu-mamallapuram-mahabalipuram-krishna-mandapam-temple.html
+      format: jpeg
+      filesize: 25671
+      overlay: >-
+        overlay/29a85f21654a066deffd3edde898448fe4940ef1/7ac70e1a0c998a15d26db56a3b7d37ef452f9d949f4bf73cf513ca72b26258e0?m21=-0.0123608&m22=1.60332&m23=-38.2016&m11=1.60332&m13=-54.0364&m12=0.0123608
+      height: 216
+      width: 325
+      score: 13.072
+      image_url: >-
+        https://img.tineye.com/result/7ac70e1a0c998a15d26db56a3b7d37ef452f9d949f4bf73cf513ca72b26258e0
+      query_hash: 29a85f21654a066deffd3edde898448fe4940ef1
+      tags:
+        - stock
+      size: 70200

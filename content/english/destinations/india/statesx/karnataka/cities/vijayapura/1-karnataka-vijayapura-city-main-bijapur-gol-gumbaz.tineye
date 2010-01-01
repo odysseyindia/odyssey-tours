@@ -1,0 +1,129 @@
+stats:
+  timestamp: '1610997641.58'
+  query_time: '1.36'
+  total_backlinks: 65
+  total_collection: 0
+  total_results: 24
+  total_stock: 6
+  total_filtered_results: 6
+  positive: false
+code: 200
+messages: []
+results:
+  matches:
+    - domain: alamy.com
+      backlinks:
+        - url: >-
+            https://c8.alamy.com/comp/R714Y8/gol-gumbaz-bijapur-karnataka-india-R714Y8.jpg
+          crawl_date: '2019-03-07'
+          backlink: >-
+            https://www.alamy.com/gol-gumbaz-bijapur-karnataka-india-image228063228.html
+      format: JPEG
+      filesize: 235769
+      overlay: >-
+        overlay/2c3d51efbdce6a3c18cdaeefd17e2cca8ec52628/30e3d5f8f3df3607749a1207ff962e2e9b3a06cbaa2fa42b45193e28bb9c11d9?m21=-0.012206&m22=0.95683&m23=-25.3836&m11=0.95683&m13=79.9851&m12=0.012206
+      height: 1390
+      width: 878
+      score: 19.608
+      image_url: >-
+        https://img.tineye.com/result/30e3d5f8f3df3607749a1207ff962e2e9b3a06cbaa2fa42b45193e28bb9c11d9
+      query_hash: 2c3d51efbdce6a3c18cdaeefd17e2cca8ec52628
+      tags:
+        - stock
+      size: 1220420
+    - domain: alamy.com
+      backlinks:
+        - url: ''
+          crawl_date: '2015-01-30'
+          backlink: >-
+            http://www.alamy.com/image-details-popup.asp?imageid={D5947CD2-8EC2-48DA-A143-D6DD85EE5462}
+      format: JPEG
+      filesize: 284160
+      overlay: >-
+        overlay/2c3d51efbdce6a3c18cdaeefd17e2cca8ec52628/c45046034743f521e3857aa195703b64830b2fc451cce24c5b77d0907ec9ee7a?m21=-0.0209582&m22=0.855819&m23=-2.3564&m11=0.855819&m13=12.1709&m12=0.0209582
+      height: 444
+      width: 640
+      score: 15.033
+      image_url: >-
+        https://img.tineye.com/result/c45046034743f521e3857aa195703b64830b2fc451cce24c5b77d0907ec9ee7a
+      query_hash: 2c3d51efbdce6a3c18cdaeefd17e2cca8ec52628
+      tags:
+        - stock
+      size: 284160
+    - domain: alamy.com
+      backlinks:
+        - url: >-
+            https://c8.alamy.com/comp/M5BJJF/view-of-gol-gumbaz-bijapur-karnataka-india-M5BJJF.jpg
+          crawl_date: '2019-02-05'
+          backlink: >-
+            https://www.alamy.com/stock-photo-view-of-gol-gumbaz-bijapur-karnataka-india-175433063.html
+      format: JPEG
+      filesize: 187795
+      overlay: >-
+        overlay/2c3d51efbdce6a3c18cdaeefd17e2cca8ec52628/77777ab07ed552db2429314bb4a8f6ac1db65e2d9b76a4bd7f034721c5363be4?m21=-0.00612706&m22=0.907751&m23=5.807&m11=0.907751&m13=27.0889&m12=0.00612706
+      height: 956
+      width: 1300
+      score: 14.379
+      image_url: >-
+        https://img.tineye.com/result/77777ab07ed552db2429314bb4a8f6ac1db65e2d9b76a4bd7f034721c5363be4
+      query_hash: 2c3d51efbdce6a3c18cdaeefd17e2cca8ec52628
+      tags:
+        - stock
+      size: 1242800
+    - domain: alamy.com
+      backlinks:
+        - url: ''
+          crawl_date: '2014-10-16'
+          backlink: >-
+            http://www.alamy.com/image-details-popup.asp?imageid={3852818B-CB6F-4D48-ACCA-4C3FFDA4EDA2}
+      format: JPEG
+      filesize: 284160
+      overlay: >-
+        overlay/2c3d51efbdce6a3c18cdaeefd17e2cca8ec52628/0301801176f3afff8d2c69024e6555f39d241c8cdd67c4a8ff993bfd37e77d92?m21=-0.0125217&m22=0.857045&m23=-3.27714&m11=0.857045&m13=13.2279&m12=0.0125217
+      height: 444
+      width: 640
+      score: 13.725
+      image_url: >-
+        https://img.tineye.com/result/0301801176f3afff8d2c69024e6555f39d241c8cdd67c4a8ff993bfd37e77d92
+      query_hash: 2c3d51efbdce6a3c18cdaeefd17e2cca8ec52628
+      tags:
+        - stock
+      size: 284160
+    - domain: alamy.com
+      backlinks:
+        - url: ''
+          crawl_date: '2014-11-12'
+          backlink: >-
+            http://www.alamy.com/image-details-popup.asp?imageid={962D544C-83CE-4350-B7F8-36038D2F1513}
+      format: JPEG
+      filesize: 187920
+      overlay: >-
+        overlay/2c3d51efbdce6a3c18cdaeefd17e2cca8ec52628/cd1a188c1dfe264bf2cc2f993e5e616ef5a35bafd62896271c14b715f60b9c9b?m21=-0.0248148&m22=1.00028&m23=-63.0928&m11=1.00028&m13=67.2262&m12=0.0248148
+      height: 540
+      width: 348
+      score: 12.418
+      image_url: >-
+        https://img.tineye.com/result/cd1a188c1dfe264bf2cc2f993e5e616ef5a35bafd62896271c14b715f60b9c9b
+      query_hash: 2c3d51efbdce6a3c18cdaeefd17e2cca8ec52628
+      tags:
+        - stock
+      size: 187920
+    - domain: alamy.com
+      backlinks:
+        - url: ''
+          crawl_date: '2015-01-30'
+          backlink: >-
+            http://www.alamy.com/image-details-popup.asp?imageid={FDA953F0-C331-4DAB-8093-5E21F6372A55}
+      format: JPEG
+      filesize: 281600
+      overlay: >-
+        overlay/2c3d51efbdce6a3c18cdaeefd17e2cca8ec52628/b11f122b1ce0f3e871573eb371fdde13e310e5f72ef5b7623436246338123cbe?m21=0.030031&m22=1.00307&m23=-24.6156&m11=1.00307&m13=-45.1948&m12=-0.030031
+      height: 440
+      width: 640
+      score: 11.765
+      image_url: >-
+        https://img.tineye.com/result/b11f122b1ce0f3e871573eb371fdde13e310e5f72ef5b7623436246338123cbe
+      query_hash: 2c3d51efbdce6a3c18cdaeefd17e2cca8ec52628
+      tags:
+        - stock
+      size: 281600

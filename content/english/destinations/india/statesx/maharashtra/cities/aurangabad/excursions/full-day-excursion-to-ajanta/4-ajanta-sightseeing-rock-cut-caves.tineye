@@ -1,0 +1,227 @@
+stats:
+  timestamp: '1610999301.42'
+  query_time: '2.60'
+  total_backlinks: 29
+  total_collection: 0
+  total_results: 16
+  total_stock: 9
+  total_filtered_results: 9
+  positive: false
+code: 200
+messages: []
+results:
+  matches:
+    - domain: depositphotos.com
+      backlinks:
+        - url: >-
+            https://st3.depositphotos.com/8572744/12672/i/1600/depositphotos_126722026-stock-photo-lovely-couple-in-a-hut.jpg
+          crawl_date: '2019-03-22'
+          backlink: >-
+            https://depositphotos.com/126722026/stock-photo-lovely-couple-in-a-hut.html
+      format: JPEG
+      filesize: 486618
+      overlay: >-
+        overlay/692930abe4a5bb3e846e739abdd6dfb53e278030/8ce89559973280df99ad5c338d1c2a9596dcf34d75cc1be9bbb57b94594286b1?m21=0.0248752&m22=1.51904&m23=-33.8225&m11=1.51904&m13=-112.911&m12=-0.0248752
+      height: 1083
+      width: 1600
+      score: 15.686
+      image_url: >-
+        https://img.tineye.com/result/8ce89559973280df99ad5c338d1c2a9596dcf34d75cc1be9bbb57b94594286b1
+      query_hash: 692930abe4a5bb3e846e739abdd6dfb53e278030
+      tags:
+        - stock
+      size: 1732800
+    - domain: alamy.com
+      backlinks:
+        - url: >-
+            https://c8.alamy.com/comp/H45AC4/ajanta-caves-cut-in-a-solid-rock-india-H45AC4.jpg
+          crawl_date: '2019-01-16'
+          backlink: >-
+            https://www.alamy.com/stock-photo-ajanta-caves-cut-in-a-solid-rock-india-123049140.html
+      format: JPEG
+      filesize: 325661
+      overlay: >-
+        overlay/692930abe4a5bb3e846e739abdd6dfb53e278030/d72a7f92e58f5c10572dc2954c354689546507f22da79a4b7dca6bfecd558608?m21=0.0257403&m22=1.53006&m23=-33.007&m11=1.53006&m13=-112.794&m12=-0.0257403
+      height: 889
+      width: 1300
+      score: 15.033
+      image_url: >-
+        https://img.tineye.com/result/d72a7f92e58f5c10572dc2954c354689546507f22da79a4b7dca6bfecd558608
+      query_hash: 692930abe4a5bb3e846e739abdd6dfb53e278030
+      tags:
+        - stock
+      size: 1155700
+    - domain: shutterstock.com
+      backlinks:
+        - url: ''
+          crawl_date: '2017-05-25'
+          backlink: >-
+            http://www.shutterstock.com/pic-497749096/stock-photo-ajanta-caves-cut-in-a-solid-rock-india.html
+      format: jpeg
+      filesize: 65582
+      overlay: >-
+        overlay/692930abe4a5bb3e846e739abdd6dfb53e278030/2840b4c7afa96fb905685fb9ed99929c5f7310bd229f18e11bcc987335351413?m21=0.0244853&m22=1.49642&m23=-33.4018&m11=1.49642&m13=-114.089&m12=-0.0244853
+      height: 296
+      width: 450
+      score: 13.725
+      image_url: >-
+        https://img.tineye.com/result/2840b4c7afa96fb905685fb9ed99929c5f7310bd229f18e11bcc987335351413
+      query_hash: 692930abe4a5bb3e846e739abdd6dfb53e278030
+      tags:
+        - stock
+      size: 133200
+    - domain: istockphoto.com
+      backlinks:
+        - url: >-
+            https://media.istockphoto.com/photos/ajanta-caves-picture-id614501294
+          crawl_date: '2020-09-21'
+          backlink: https://www.istockphoto.com/photo/ajanta-caves-gm614501294-106360213
+      format: JPEG
+      filesize: 85278
+      overlay: >-
+        overlay/692930abe4a5bb3e846e739abdd6dfb53e278030/262dc8fbf44141562b5ae7632be606de1a8e1c141628b4e24db1f6b45e323d4c?m21=0.0220178&m22=1.37372&m23=-33.1411&m11=1.37372&m13=-112.599&m12=-0.0220178
+      height: 1911
+      width: 3110
+      score: 12.418
+      image_url: >-
+        https://img.tineye.com/result/262dc8fbf44141562b5ae7632be606de1a8e1c141628b4e24db1f6b45e323d4c
+      query_hash: 692930abe4a5bb3e846e739abdd6dfb53e278030
+      tags:
+        - stock
+      size: 5943210
+    - domain: gettyimages.com
+      backlinks:
+        - url: >-
+            https://media.istockphoto.com/photos/ajanta-caves-picture-id614501294
+          crawl_date: '2020-09-21'
+          backlink: >-
+            https://www.gettyimages.com/detail/photo/ajanta-caves-royalty-free-image/614501294
+      format: JPEG
+      filesize: 85278
+      overlay: >-
+        overlay/692930abe4a5bb3e846e739abdd6dfb53e278030/262dc8fbf44141562b5ae7632be606de1a8e1c141628b4e24db1f6b45e323d4c?m21=0.0220178&m22=1.37372&m23=-33.1411&m11=1.37372&m13=-112.599&m12=-0.0220178
+      height: 1911
+      width: 3110
+      score: 12.418
+      image_url: >-
+        https://img.tineye.com/result/262dc8fbf44141562b5ae7632be606de1a8e1c141628b4e24db1f6b45e323d4c
+      query_hash: 692930abe4a5bb3e846e739abdd6dfb53e278030
+      tags:
+        - stock
+      size: 5943210
+    - domain: fotolia.com
+      backlinks:
+        - url: >-
+            https://t3.ftcdn.net/jpg/01/23/50/36/240_F_123503618_4mRgwpICQO2IdlnCUWHv9Axivd3hNe4H.jpg
+          crawl_date: '2017-01-03'
+          backlink: https://pt.fotolia.com/search?similar=120550628
+        - url: >-
+            https://t3.ftcdn.net/jpg/01/23/50/36/240_F_123503618_4mRgwpICQO2IdlnCUWHv9Axivd3hNe4H.jpg
+          crawl_date: '2017-01-07'
+          backlink: https://de.fotolia.com/search?similar=129345229
+        - url: >-
+            https://t3.ftcdn.net/jpg/01/23/50/36/240_F_123503618_4mRgwpICQO2IdlnCUWHv9Axivd3hNe4H.jpg
+          crawl_date: '2017-07-16'
+          backlink: https://de.fotolia.com/search?similar=140224382
+        - url: >-
+            https://t3.ftcdn.net/jpg/01/23/50/36/240_F_123503618_4mRgwpICQO2IdlnCUWHv9Axivd3hNe4H.jpg
+          crawl_date: '2017-01-04'
+          backlink: https://cl.fotolia.com/search?similar=120550628
+        - url: >-
+            https://t3.ftcdn.net/jpg/01/23/50/36/240_F_123503618_4mRgwpICQO2IdlnCUWHv9Axivd3hNe4H.jpg
+          crawl_date: '2017-01-04'
+          backlink: https://br.fotolia.com/search?similar=120550628
+        - url: >-
+            https://t3.ftcdn.net/jpg/01/23/50/36/240_F_123503618_4mRgwpICQO2IdlnCUWHv9Axivd3hNe4H.jpg
+          crawl_date: '2017-01-04'
+          backlink: https://fr.fotolia.com/search?similar=120550628
+      format: JPEG
+      filesize: 55791
+      overlay: >-
+        overlay/692930abe4a5bb3e846e739abdd6dfb53e278030/ee7f9e3cd482409a82a3a32489c5499ffc9dbb84731b6d0563606d348591cf3d?m21=0.028011&m22=1.71294&m23=-32.9879&m11=1.71294&m13=-111.945&m12=-0.028011
+      height: 240
+      width: 391
+      score: 12.418
+      image_url: >-
+        https://img.tineye.com/result/ee7f9e3cd482409a82a3a32489c5499ffc9dbb84731b6d0563606d348591cf3d
+      query_hash: 692930abe4a5bb3e846e739abdd6dfb53e278030
+      tags:
+        - stock
+      size: 93840
+    - domain: fotolia.com
+      backlinks:
+        - url: >-
+            https://t3.ftcdn.net/jpg/01/23/50/36/500_F_123503618_4mRgwpICQO2IdlnCUWHv9Axivd3hNe4H.jpg
+          crawl_date: '2017-01-03'
+          backlink: https://pt.fotolia.com/search?similar=120550628
+        - url: >-
+            https://t3.ftcdn.net/jpg/01/23/50/36/500_F_123503618_4mRgwpICQO2IdlnCUWHv9Axivd3hNe4H.jpg
+          crawl_date: '2017-01-07'
+          backlink: https://de.fotolia.com/search?similar=129345229
+        - url: >-
+            https://t3.ftcdn.net/jpg/01/23/50/36/500_F_123503618_4mRgwpICQO2IdlnCUWHv9Axivd3hNe4H.jpg
+          crawl_date: '2017-07-16'
+          backlink: https://de.fotolia.com/search?similar=140224382
+        - url: >-
+            https://t3.ftcdn.net/jpg/01/23/50/36/500_F_123503618_4mRgwpICQO2IdlnCUWHv9Axivd3hNe4H.jpg
+          crawl_date: '2017-01-04'
+          backlink: https://cl.fotolia.com/search?similar=120550628
+        - url: >-
+            https://t3.ftcdn.net/jpg/01/23/50/36/500_F_123503618_4mRgwpICQO2IdlnCUWHv9Axivd3hNe4H.jpg
+          crawl_date: '2017-01-04'
+          backlink: https://br.fotolia.com/search?similar=120550628
+        - url: >-
+            https://t3.ftcdn.net/jpg/01/23/50/36/500_F_123503618_4mRgwpICQO2IdlnCUWHv9Axivd3hNe4H.jpg
+          crawl_date: '2017-01-04'
+          backlink: https://fr.fotolia.com/search?similar=120550628
+      format: JPEG
+      filesize: 125242
+      overlay: >-
+        overlay/692930abe4a5bb3e846e739abdd6dfb53e278030/10441c2d6adbed190b8a900d396a79ed80d1e8f48b7c390218e11f4be3dac1d8?m21=0.0239431&m22=1.37456&m23=-33.3141&m11=1.37456&m13=-112.721&m12=-0.0239431
+      height: 307
+      width: 500
+      score: 12.418
+      image_url: >-
+        https://img.tineye.com/result/10441c2d6adbed190b8a900d396a79ed80d1e8f48b7c390218e11f4be3dac1d8
+      query_hash: 692930abe4a5bb3e846e739abdd6dfb53e278030
+      tags:
+        - stock
+      size: 153500
+    - domain: stock.adobe.com
+      backlinks:
+        - url: ''
+          crawl_date: '2019-05-19'
+          backlink: https://stock.adobe.com/123503618
+      format: jpeg
+      filesize: 125114
+      overlay: >-
+        overlay/692930abe4a5bb3e846e739abdd6dfb53e278030/6dc114ec8d019894aca31516629d1773260729cc3648674358ad3c619a0db4a6?m21=0.0232444&m22=1.36938&m23=-32.6322&m11=1.36938&m13=-111.771&m12=-0.0232444
+      height: 307
+      width: 500
+      score: 11.765
+      image_url: >-
+        https://img.tineye.com/result/6dc114ec8d019894aca31516629d1773260729cc3648674358ad3c619a0db4a6
+      query_hash: 692930abe4a5bb3e846e739abdd6dfb53e278030
+      tags:
+        - stock
+      size: 153500
+    - domain: depositphotos.com
+      backlinks:
+        - url: >-
+            https://st3.depositphotos.com/8572744/12672/i/950/depositphotos_126722026-stock-photo-lovely-couple-in-a-hut.jpg
+          crawl_date: '2019-03-22'
+          backlink: >-
+            https://depositphotos.com/126722026/stock-photo-lovely-couple-in-a-hut.html
+      format: JPEG
+      filesize: 193112
+      overlay: >-
+        overlay/692930abe4a5bb3e846e739abdd6dfb53e278030/e86db2b081382dd6ebde625f5e3c8bbcf09fa2d7b67691ac68fb60e7eb0f37eb?m21=0.0210902&m22=1.3766&m23=-33.1734&m11=1.3766&m13=-113.162&m12=-0.0210902
+      height: 629
+      width: 1024
+      score: 11.765
+      image_url: >-
+        https://img.tineye.com/result/e86db2b081382dd6ebde625f5e3c8bbcf09fa2d7b67691ac68fb60e7eb0f37eb
+      query_hash: 692930abe4a5bb3e846e739abdd6dfb53e278030
+      tags:
+        - stock
+      size: 644096

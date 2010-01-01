@@ -1,0 +1,32 @@
+stats:
+  timestamp: '1611121132.83'
+  query_time: '15.45'
+  total_backlinks: 1
+  total_collection: 0
+  total_results: 1
+  total_stock: 1
+  total_filtered_results: 1
+  positive: false
+code: 200
+messages: []
+results:
+  matches:
+    - domain: fotolia.com
+      backlinks:
+        - url: >-
+            https://t2.ftcdn.net/jpg/00/41/25/03/240_F_41250341_6dm2uVBFyb9KHydIiitUEzMPYeL52TSy.jpg
+          crawl_date: '2016-05-22'
+          backlink: https://de.fotolia.com/search?similar=89102897
+      format: JPEG
+      filesize: 33973
+      overlay: >-
+        overlay/18f4f21d0353da288876a881caa72f5cbbe19d1c/c595cdbc64957cd969862e05e9978be05edc6af2c57b0bd343780b9ecb55b406?m21=-0.00521384&m22=1.3677&m23=-4.17101&m11=1.3677&m13=-40.1272&m12=0.00521384
+      height: 240
+      width: 355
+      score: 11.765
+      image_url: >-
+        https://img.tineye.com/result/c595cdbc64957cd969862e05e9978be05edc6af2c57b0bd343780b9ecb55b406
+      query_hash: 18f4f21d0353da288876a881caa72f5cbbe19d1c
+      tags:
+        - stock
+      size: 85200

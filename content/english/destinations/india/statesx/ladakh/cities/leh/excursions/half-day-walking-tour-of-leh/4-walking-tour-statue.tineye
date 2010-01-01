@@ -1,0 +1,207 @@
+stats:
+  timestamp: '1611066289.80'
+  query_time: '3.80'
+  total_backlinks: 1688
+  total_collection: 16
+  total_results: 577
+  total_stock: 246
+  total_filtered_results: 246
+  positive: false
+code: 200
+messages: []
+results:
+  matches:
+    - domain: depositphotos.com
+      backlinks:
+        - url: >-
+            https://st.depositphotos.com/1873225/2224/i/450/depositphotos_22241319-stock-photo-detail-of-buddha-face.jpg
+          crawl_date: '2017-10-02'
+          backlink: >-
+            https://pl.depositphotos.com/84497594/stock-photo-gold-statuette-of-buddha-head.html
+      format: JPEG
+      filesize: 38395
+      overlay: >-
+        overlay/e25760eee587af6330bafa41e0116ca794eccb5c/78216793a6f36d26eaf4a42d8158ea9ce69c0723e6027a10806ab46ca348a7ff?m21=-0.0498512&m22=1.01191&m23=-6.85097&m11=1.01191&m13=47.5274&m12=0.0498512
+      height: 450
+      width: 300
+      score: 33.333
+      image_url: >-
+        https://img.tineye.com/result/78216793a6f36d26eaf4a42d8158ea9ce69c0723e6027a10806ab46ca348a7ff
+      query_hash: e25760eee587af6330bafa41e0116ca794eccb5c
+      tags:
+        - stock
+      size: 135000
+    - domain: depositphotos.com
+      backlinks:
+        - url: >-
+            https://st.depositphotos.com/1873225/2224/i/950/depositphotos_22241319-stock-photo-detail-of-buddha-face.jpg
+          crawl_date: '2019-08-06'
+          backlink: >-
+            https://depositphotos.com/22241319/stock-photo-detail-of-buddha-face.html
+      format: JPEG
+      filesize: 178751
+      overlay: >-
+        overlay/e25760eee587af6330bafa41e0116ca794eccb5c/c0dc3b8616cd44ea9670692898be75e0a310f0c7d37fb7562902fc95475b1865?m21=-0.0507263&m22=1.01398&m23=-6.87163&m11=1.01398&m13=47.2239&m12=0.0507263
+      height: 1023
+      width: 682
+      score: 31.373
+      image_url: >-
+        https://img.tineye.com/result/c0dc3b8616cd44ea9670692898be75e0a310f0c7d37fb7562902fc95475b1865
+      query_hash: e25760eee587af6330bafa41e0116ca794eccb5c
+      tags:
+        - stock
+      size: 697686
+    - domain: istockphoto.com
+      backlinks:
+        - url: >-
+            https://media.istockphoto.com/photos/detail-of-buddha-head-picture-id118513029?s=170667a
+          crawl_date: '2020-12-18'
+          backlink: >-
+            https://www.istockphoto.com/photo/detail-of-buddha-head-gm118513029-11124521
+      format: JPEG
+      filesize: 102681
+      overlay: >-
+        overlay/e25760eee587af6330bafa41e0116ca794eccb5c/eb637ea23e360396cd75dd2db5920229f69005c85fc0f1b952574e5d3c3ec0dc?m21=-0.0504767&m22=1.01496&m23=-7.21102&m11=1.01496&m13=47.1908&m12=0.0504767
+      height: 3950
+      width: 2633
+      score: 30.719
+      image_url: >-
+        https://img.tineye.com/result/eb637ea23e360396cd75dd2db5920229f69005c85fc0f1b952574e5d3c3ec0dc
+      query_hash: e25760eee587af6330bafa41e0116ca794eccb5c
+      tags:
+        - stock
+      size: 10400350
+    - domain: gettyimages.com
+      backlinks:
+        - url: >-
+            https://media.istockphoto.com/photos/detail-of-buddha-head-picture-id118513029?s=170667a
+          crawl_date: '2020-12-18'
+          backlink: >-
+            https://www.gettyimages.com/detail/photo/detail-of-buddha-head-royalty-free-image/118513029
+      format: JPEG
+      filesize: 102681
+      overlay: >-
+        overlay/e25760eee587af6330bafa41e0116ca794eccb5c/eb637ea23e360396cd75dd2db5920229f69005c85fc0f1b952574e5d3c3ec0dc?m21=-0.0504767&m22=1.01496&m23=-7.21102&m11=1.01496&m13=47.1908&m12=0.0504767
+      height: 3950
+      width: 2633
+      score: 30.719
+      image_url: >-
+        https://img.tineye.com/result/eb637ea23e360396cd75dd2db5920229f69005c85fc0f1b952574e5d3c3ec0dc
+      query_hash: e25760eee587af6330bafa41e0116ca794eccb5c
+      tags:
+        - stock
+      size: 10400350
+    - domain: gettyimages.com
+      backlinks:
+        - url: ''
+          crawl_date: '2014-10-31'
+          backlink: >-
+            http://www.gettyimages.com/detail/photo/detail-of-buddha-head-royalty-free-image/100796194
+      format: JPEG
+      filesize: 170522
+      overlay: >-
+        overlay/e25760eee587af6330bafa41e0116ca794eccb5c/7116bc666ea76eea9e1ece47af0940612cf0319f0f2740bdcac91604db4d288c?m21=-0.0466167&m22=1.00692&m23=-6.46064&m11=1.00692&m13=48.0304&m12=0.0466167
+      height: 506
+      width: 337
+      score: 28.105
+      image_url: >-
+        https://img.tineye.com/result/7116bc666ea76eea9e1ece47af0940612cf0319f0f2740bdcac91604db4d288c
+      query_hash: e25760eee587af6330bafa41e0116ca794eccb5c
+      tags:
+        - stock
+      size: 170522
+    - domain: gettyimages.com
+      backlinks:
+        - url: ''
+          crawl_date: '2014-12-08'
+          backlink: >-
+            http://www.gettyimages.com/detail/photo/detail-of-buddha-head-royalty-free-image/118513029
+      format: JPEG
+      filesize: 171366
+      overlay: >-
+        overlay/e25760eee587af6330bafa41e0116ca794eccb5c/06ba2c6f727626e3e527ff54c6d80cd0a41dd3d56f139554a6de1b2cfb6340ef?m21=-0.0469848&m22=1.00855&m23=-6.83078&m11=1.00855&m13=47.7856&m12=0.0469848
+      height: 507
+      width: 338
+      score: 28.105
+      image_url: >-
+        https://img.tineye.com/result/06ba2c6f727626e3e527ff54c6d80cd0a41dd3d56f139554a6de1b2cfb6340ef
+      query_hash: e25760eee587af6330bafa41e0116ca794eccb5c
+      tags:
+        - stock
+      size: 171366
+    - domain: alamy.com
+      backlinks:
+        - url: ''
+          crawl_date: '2015-01-30'
+          backlink: >-
+            http://www.alamy.com/image-details-popup.asp?imageid={E491126E-5FB0-465C-AAD3-C30E6FE18C6B}
+      format: JPEG
+      filesize: 186840
+      overlay: >-
+        overlay/e25760eee587af6330bafa41e0116ca794eccb5c/d6c45bc2060213547a1274d01b507973bef9fd9720f11739b0109785cf123a77?m21=-0.0496075&m22=1.04462&m23=-22.8286&m11=1.04462&m13=41.8071&m12=0.0496075
+      height: 540
+      width: 346
+      score: 28.105
+      image_url: >-
+        https://img.tineye.com/result/d6c45bc2060213547a1274d01b507973bef9fd9720f11739b0109785cf123a77
+      query_hash: e25760eee587af6330bafa41e0116ca794eccb5c
+      tags:
+        - stock
+      size: 186840
+    - domain: 123rf.com
+      backlinks:
+        - url: >-
+            http://us.123rf.com/450wm/kodda/kodda1003/kodda100300040/6620759-detail-of-buddha-head.jpg?ver=6
+          crawl_date: '2015-09-02'
+          backlink: http://www.123rf.com/photo_15985833_monastery-in-leh-india.html
+      format: JPEG
+      filesize: 27230
+      overlay: >-
+        overlay/e25760eee587af6330bafa41e0116ca794eccb5c/ade3cd32c9c4bcbd9c75b452e6e6a83be14537f0f768d4573503b7a6f20fb8f6?m21=-0.0594336&m22=1.30241&m23=-7.38526&m11=1.30241&m13=47.7445&m12=0.0594336
+      height: 350
+      width: 233
+      score: 28.105
+      image_url: >-
+        https://img.tineye.com/result/ade3cd32c9c4bcbd9c75b452e6e6a83be14537f0f768d4573503b7a6f20fb8f6
+      query_hash: e25760eee587af6330bafa41e0116ca794eccb5c
+      tags:
+        - stock
+      size: 81550
+    - domain: shutterstock.com
+      backlinks:
+        - url: ''
+          crawl_date: '2017-09-26'
+          backlink: >-
+            http://www.shutterstock.com/pic-719512441/stock-photo-big-buddha-image-in-tiksey-monastery-leh-ladakh.html
+      format: jpeg
+      filesize: 61470
+      overlay: >-
+        overlay/e25760eee587af6330bafa41e0116ca794eccb5c/fd9ac02f3ccdf02ba5e9160a9b4b08b1643f078c2a5a93155169e85aa6d4ca22?m21=-0.0470954&m22=1.01598&m23=-12.7492&m11=1.01598&m13=44.1215&m12=0.0470954
+      height: 470
+      width: 338
+      score: 26.144
+      image_url: >-
+        https://img.tineye.com/result/fd9ac02f3ccdf02ba5e9160a9b4b08b1643f078c2a5a93155169e85aa6d4ca22
+      query_hash: e25760eee587af6330bafa41e0116ca794eccb5c
+      tags:
+        - stock
+      size: 158860
+    - domain: shutterstock.com
+      backlinks:
+        - url: ''
+          crawl_date: '2019-03-07'
+          backlink: >-
+            http://www.shutterstock.com/pic-1312256384/stock-photo-buddha-statue-in-a-buddhist-temple-in-thiksey-india.html
+      format: jpeg
+      filesize: 288533
+      overlay: >-
+        overlay/e25760eee587af6330bafa41e0116ca794eccb5c/8866ac2177328e7a3563e921e32bdea7039effb06edef14a3cabdbdb22ffe91c?m21=-0.0436498&m22=0.979007&m23=-16.3002&m11=0.979007&m13=44.8756&m12=0.0436498
+      height: 470
+      width: 300
+      score: 24.183
+      image_url: >-
+        https://img.tineye.com/result/8866ac2177328e7a3563e921e32bdea7039effb06edef14a3cabdbdb22ffe91c
+      query_hash: e25760eee587af6330bafa41e0116ca794eccb5c
+      tags:
+        - stock
+      size: 141000

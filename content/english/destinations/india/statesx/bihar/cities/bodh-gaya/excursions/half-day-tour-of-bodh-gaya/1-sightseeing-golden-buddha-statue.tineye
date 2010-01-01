@@ -1,0 +1,71 @@
+stats:
+  timestamp: '1610991710.90'
+  query_time: '1.05'
+  total_backlinks: 436
+  total_collection: 0
+  total_results: 126
+  total_stock: 3
+  total_filtered_results: 3
+  positive: false
+code: 200
+messages: []
+results:
+  matches:
+    - domain: alamy.com
+      backlinks:
+        - url: >-
+            http://n7.alamy.com/zooms/ccd8e7781ebd495ba68c5e4102b32b6c/buddha-statue-in-the-mahabodhi-temple-bodh-gaya-india-the-place-of-an4wbw.jpg
+          crawl_date: '2016-07-23'
+          backlink: http://www.alamy.com/stock-photo/lord-buddha-statue.html
+      format: JPEG
+      filesize: 95321
+      overlay: >-
+        overlay/b49d2c6ba82403869d2ac9af7b1e1c5485a333bc/af6c69b271c71624e2771679eac520a23a4d765b53344d69f3807a2ad63961de?m21=-0.000142392&m22=1.11323&m23=15.7887&m11=1.11323&m13=-3.11201&m12=0.000142392
+      height: 476
+      width: 640
+      score: 37.908
+      image_url: >-
+        https://img.tineye.com/result/af6c69b271c71624e2771679eac520a23a4d765b53344d69f3807a2ad63961de
+      query_hash: b49d2c6ba82403869d2ac9af7b1e1c5485a333bc
+      tags:
+        - stock
+      size: 304640
+    - domain: alamy.com
+      backlinks:
+        - url: ''
+          crawl_date: '2015-01-05'
+          backlink: >-
+            http://www.alamy.com/image-details-popup.asp?imageid={CCD8E778-1EBD-495B-A68C-5E4102B32B6C}
+      format: JPEG
+      filesize: 304640
+      overlay: >-
+        overlay/b49d2c6ba82403869d2ac9af7b1e1c5485a333bc/fd8ef1d1427b148c01b715f9b74c92980b8bb1d3527109cd34cbe61eac4b81d7?m21=0.00210946&m22=1.11351&m23=14.8863&m11=1.11351&m13=-2.8666&m12=-0.00210946
+      height: 476
+      width: 640
+      score: 32.68
+      image_url: >-
+        https://img.tineye.com/result/fd8ef1d1427b148c01b715f9b74c92980b8bb1d3527109cd34cbe61eac4b81d7
+      query_hash: b49d2c6ba82403869d2ac9af7b1e1c5485a333bc
+      tags:
+        - stock
+      size: 304640
+    - domain: alamy.com
+      backlinks:
+        - url: >-
+            http://c7.alamy.com/comp/AN4WBW/buddha-statue-in-the-mahabodhi-temple-bodh-gaya-india-the-place-of-AN4WBW.jpg
+          crawl_date: '2016-07-23'
+          backlink: >-
+            http://www.alamy.com/stock-photo-buddha-statue-in-the-mahabodhi-temple-bodh-gaya-india-the-place-of-15412572.html
+      format: JPEG
+      filesize: 185370
+      overlay: >-
+        overlay/b49d2c6ba82403869d2ac9af7b1e1c5485a333bc/56013ded994677fc76240e8b1e56e2257f3714e882118633e8896467a85d8a0e?m21=4.03299e-05&m22=1.1745&m23=15.3168&m11=1.1745&m13=-3.52003&m12=-4.03299e-05
+      height: 1015
+      width: 1300
+      score: 27.451
+      image_url: >-
+        https://img.tineye.com/result/56013ded994677fc76240e8b1e56e2257f3714e882118633e8896467a85d8a0e
+      query_hash: b49d2c6ba82403869d2ac9af7b1e1c5485a333bc
+      tags:
+        - stock
+      size: 1319500

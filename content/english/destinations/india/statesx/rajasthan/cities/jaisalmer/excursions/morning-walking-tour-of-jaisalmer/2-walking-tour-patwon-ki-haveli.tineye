@@ -1,0 +1,136 @@
+stats:
+  timestamp: '1611150485.97'
+  query_time: '2.17'
+  total_backlinks: 11
+  total_collection: 1
+  total_results: 10
+  total_stock: 6
+  total_filtered_results: 6
+  positive: false
+code: 200
+messages: []
+results:
+  matches:
+    - domain: istockphoto.com
+      backlinks:
+        - url: >-
+            https://media.istockphoto.com/photos/haveli-town-house-in-jaisalmer-india-picture-id184275049?s=170667a
+          crawl_date: '2020-12-18'
+          backlink: >-
+            https://www.istockphoto.com/photo/haveli-town-house-in-jaisalmer-india-gm184275049-16942905
+      format: JPEG
+      filesize: 78623
+      overlay: >-
+        overlay/f7d75cfd73843206766eb8ca7635b1c35509fd06/32090c82e9c8e7b918aa642a7124a9c2024cc73daaedb2e0c8ab3ee7f7f21c9e?m21=0.0101005&m22=0.953128&m23=-27.5062&m11=0.953128&m13=34.5547&m12=-0.0101005
+      height: 4288
+      width: 2848
+      score: 18.954
+      image_url: >-
+        https://img.tineye.com/result/32090c82e9c8e7b918aa642a7124a9c2024cc73daaedb2e0c8ab3ee7f7f21c9e
+      query_hash: f7d75cfd73843206766eb8ca7635b1c35509fd06
+      tags:
+        - stock
+      size: 12212224
+    - domain: gettyimages.com
+      backlinks:
+        - url: >-
+            https://media.istockphoto.com/photos/haveli-town-house-in-jaisalmer-india-picture-id184275049?s=170667a
+          crawl_date: '2020-12-18'
+          backlink: >-
+            https://www.gettyimages.com/detail/photo/haveli-town-house-in-jaisalmer-india-royalty-free-image/184275049
+      format: JPEG
+      filesize: 78623
+      overlay: >-
+        overlay/f7d75cfd73843206766eb8ca7635b1c35509fd06/32090c82e9c8e7b918aa642a7124a9c2024cc73daaedb2e0c8ab3ee7f7f21c9e?m21=0.0101005&m22=0.953128&m23=-27.5062&m11=0.953128&m13=34.5547&m12=-0.0101005
+      height: 4288
+      width: 2848
+      score: 18.954
+      image_url: >-
+        https://img.tineye.com/result/32090c82e9c8e7b918aa642a7124a9c2024cc73daaedb2e0c8ab3ee7f7f21c9e
+      query_hash: f7d75cfd73843206766eb8ca7635b1c35509fd06
+      tags:
+        - stock
+      size: 12212224
+    - domain: alamy.com
+      backlinks:
+        - url: ''
+          crawl_date: '2014-10-08'
+          backlink: >-
+            http://www.alamy.com/image-details-popup.asp?imageid={2644380A-610D-4444-A261-C59D72C25B44}
+      format: JPEG
+      filesize: 320000
+      overlay: >-
+        overlay/f7d75cfd73843206766eb8ca7635b1c35509fd06/cc846e2b6e25a6a718d6e224e1065cd116c025bdac3996fee0c679f599f99343?m21=0.00426245&m22=0.923828&m23=-20.9328&m11=0.923828&m13=42.4961&m12=-0.00426245
+      height: 500
+      width: 640
+      score: 15.686
+      image_url: >-
+        https://img.tineye.com/result/cc846e2b6e25a6a718d6e224e1065cd116c025bdac3996fee0c679f599f99343
+      query_hash: f7d75cfd73843206766eb8ca7635b1c35509fd06
+      tags:
+        - stock
+      size: 320000
+    - domain: alamy.com
+      backlinks:
+        - url: >-
+            http://n7.alamy.com/zooms/2644380a610d4444a261c59d72c25b44/india-rajasthan-jaisalmer-patwon-ki-haveli-decoratively-carved-sandstone-e1ca58.jpg
+          crawl_date: '2016-03-13'
+          backlink: >-
+            http://www.alamy.com/stock-photo/caravanserai-architecture.html?page=7
+      format: JPEG
+      filesize: 160629
+      overlay: >-
+        overlay/f7d75cfd73843206766eb8ca7635b1c35509fd06/becd7a06c9a5abe31d1faf4eccbe119314b79cd68d200ab5fde0c050c84bcbc9?m21=0.00277369&m22=0.923127&m23=-20.71&m11=0.923127&m13=42.3786&m12=-0.00277369
+      height: 500
+      width: 640
+      score: 15.033
+      image_url: >-
+        https://img.tineye.com/result/becd7a06c9a5abe31d1faf4eccbe119314b79cd68d200ab5fde0c050c84bcbc9
+      query_hash: f7d75cfd73843206766eb8ca7635b1c35509fd06
+      tags:
+        - stock
+      size: 320000
+    - domain: alamy.com
+      backlinks:
+        - url: >-
+            https://c8.alamy.com/comp/E1CA58/india-rajasthan-jaisalmer-patwon-ki-haveli-decoratively-carved-sandstone-E1CA58.jpg
+          crawl_date: '2019-01-07'
+          backlink: >-
+            https://www.alamy.com/stock-photo-india-rajasthan-jaisalmer-patwon-ki-haveli-decoratively-carved-sandstone-69727540.html
+        - url: >-
+            https://c8.alamy.com/comp/E1CA58/india-rajasthan-jaisalmer-patwon-ki-haveli-decoratively-carved-sandstone-E1CA58.jpg
+          crawl_date: '2019-02-10'
+          backlink: >-
+            https://www.alamy.com/india-rajasthan-jaisalmer-patwon-ki-haveli-decoratively-carved-sandstone-image69727540.html
+      format: JPEG
+      filesize: 394459
+      overlay: >-
+        overlay/f7d75cfd73843206766eb8ca7635b1c35509fd06/57934a27daf1f9f84e3e7295ddb55aad7eb24e93ee079837f3dffa97c8468791?m21=0.00152902&m22=0.966659&m23=-20.324&m11=0.966659&m13=41.8584&m12=-0.00152902
+      height: 1064
+      width: 1300
+      score: 12.418
+      image_url: >-
+        https://img.tineye.com/result/57934a27daf1f9f84e3e7295ddb55aad7eb24e93ee079837f3dffa97c8468791
+      query_hash: f7d75cfd73843206766eb8ca7635b1c35509fd06
+      tags:
+        - stock
+      size: 1383200
+    - domain: gettyimages.com
+      backlinks:
+        - url: ''
+          crawl_date: '2014-10-09'
+          backlink: >-
+            http://www.gettyimages.com/detail/photo/haveli-town-house-in-jaisalmer-india-royalty-free-image/184275049
+      format: JPEG
+      filesize: 171196
+      overlay: >-
+        overlay/f7d75cfd73843206766eb8ca7635b1c35509fd06/f1db497a767bcd0530c33ca896444e7f2ac64aa26e09e24cbbbf5feacd286438?m21=0.00580353&m22=0.955518&m23=-26.7037&m11=0.955518&m13=32.9396&m12=-0.00580353
+      height: 508
+      width: 337
+      score: 11.765
+      image_url: >-
+        https://img.tineye.com/result/f1db497a767bcd0530c33ca896444e7f2ac64aa26e09e24cbbbf5feacd286438
+      query_hash: f7d75cfd73843206766eb8ca7635b1c35509fd06
+      tags:
+        - stock
+      size: 171196

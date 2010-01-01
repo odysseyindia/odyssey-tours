@@ -1,0 +1,207 @@
+stats:
+  timestamp: '1611172516.28'
+  query_time: '1.03'
+  total_backlinks: 327
+  total_collection: 1
+  total_results: 138
+  total_stock: 29
+  total_filtered_results: 29
+  positive: false
+code: 200
+messages: []
+results:
+  matches:
+    - domain: alamy.com
+      backlinks:
+        - url: >-
+            http://n7.alamy.com/zooms/40449bf0c0a24c28bfd157a7ce45d103/the-magnificent-taj-mahal-on-the-yamuna-river-has-been-described-as-bn2chm.jpg
+          crawl_date: '2016-05-11'
+          backlink: >-
+            http://www.alamy.com/stock-photo/agra-india-reflection-river.html?page=3
+      overlay: >-
+        overlay/705443548dba1d88b795cc07b38f8dbf8dded20e/640b0fa6287a6ecc0aa5530f563674009ca616b322ffbf1224e34af6a2b2e7ee?m21=-0.00182676&m22=1.12778&m23=-14.8051&m11=1.12778&m13=-39.9094&m12=0.00182676
+      format: JPEG
+      height: 438
+      width: 640
+      score: 27.451
+      image_url: >-
+        https://img.tineye.com/result/640b0fa6287a6ecc0aa5530f563674009ca616b322ffbf1224e34af6a2b2e7ee
+      filesize: 49031
+      size: 280320
+      tags:
+        - stock
+      query_hash: 705443548dba1d88b795cc07b38f8dbf8dded20e
+    - domain: alamy.com
+      backlinks:
+        - url: ''
+          crawl_date: '2014-10-16'
+          backlink: >-
+            http://www.alamy.com/image-details-popup.asp?imageid={40449BF0-C0A2-4C28-BFD1-57A7CE45D103}
+      overlay: >-
+        overlay/705443548dba1d88b795cc07b38f8dbf8dded20e/9e7ddd693b9fdbf374e2e15730993859f2d67c9480d75f171ec345810991c007?m21=-0.00156924&m22=1.12586&m23=-14.8327&m11=1.12586&m13=-39.528&m12=0.00156924
+      format: JPEG
+      height: 438
+      width: 640
+      score: 24.837
+      image_url: >-
+        https://img.tineye.com/result/9e7ddd693b9fdbf374e2e15730993859f2d67c9480d75f171ec345810991c007
+      filesize: 280320
+      size: 280320
+      tags:
+        - stock
+      query_hash: 705443548dba1d88b795cc07b38f8dbf8dded20e
+    - domain: gettyimages.com
+      backlinks:
+        - url: >-
+            https://media.gettyimages.com/photos/taj-mahal-and-jamid-masjid-picture-id522205844
+          crawl_date: '2018-10-25'
+          backlink: >-
+            https://www.gettyimages.com/detail/photo/taj-mahal-and-jamid-masjid-royalty-free-image/522205844
+      overlay: >-
+        overlay/705443548dba1d88b795cc07b38f8dbf8dded20e/ea05c126effa232810b6fa5f41284944f9a268cad616460bcc9ac87f44f765dd?m21=-0.00367591&m22=0.967926&m23=7.87308&m11=0.967926&m13=-31.9578&m12=0.00367591
+      format: JPEG
+      height: 685
+      width: 1024
+      score: 22.876
+      image_url: >-
+        https://img.tineye.com/result/ea05c126effa232810b6fa5f41284944f9a268cad616460bcc9ac87f44f765dd
+      filesize: 316395
+      size: 701440
+      tags:
+        - stock
+      query_hash: 705443548dba1d88b795cc07b38f8dbf8dded20e
+    - domain: mediabakery.com
+      backlinks:
+        - url: ''
+          crawl_date: '2014-02-19'
+          backlink: >-
+            http://www.mediabakery.com/CRB0059123-Taj-Mahal-and-Jamid-Masjid.html
+      overlay: >-
+        overlay/705443548dba1d88b795cc07b38f8dbf8dded20e/9aa3251801bf8a56fcce5e9fa7f99505947923998ad71d8eff90d5821b5062aa?m21=-0.0160855&m22=1.09608&m23=8.40607&m11=1.09608&m13=-34.1408&m12=0.0160855
+      format: jpeg
+      height: 267
+      width: 400
+      score: 19.608
+      image_url: >-
+        https://img.tineye.com/result/9aa3251801bf8a56fcce5e9fa7f99505947923998ad71d8eff90d5821b5062aa
+      filesize: 33382
+      size: 106800
+      tags:
+        - stock
+      query_hash: 705443548dba1d88b795cc07b38f8dbf8dded20e
+    - domain: gettyimages.com
+      backlinks:
+        - url: ''
+          crawl_date: '2015-06-30'
+          backlink: >-
+            http://www.gettyimages.com/detail/photo/taj-mahal-and-jamid-masjid-royalty-free-image/79999527
+      overlay: >-
+        overlay/705443548dba1d88b795cc07b38f8dbf8dded20e/15436182595d257021124e787c3225f04e1cd29787a944adce90568c515dec38?m21=-0.00870628&m22=0.981743&m23=7.06884&m11=0.981743&m13=-34.3102&m12=0.00870628
+      format: JPEG
+      height: 338
+      width: 507
+      score: 19.608
+      image_url: >-
+        https://img.tineye.com/result/15436182595d257021124e787c3225f04e1cd29787a944adce90568c515dec38
+      filesize: 171366
+      size: 171366
+      tags:
+        - stock
+      query_hash: 705443548dba1d88b795cc07b38f8dbf8dded20e
+    - domain: fotosearch.com
+      backlinks:
+        - url: http://sr.photos3.fotosearch.com/bthumb/corbis/DGT076/cb053675.jpg
+          crawl_date: '2016-07-22'
+          backlink: http://www.fotosearch.com/DGT157/bld0083/
+        - url: http://sr.photos3.fotosearch.com/bthumb/corbis/DGT076/cb053675.jpg
+          crawl_date: '2016-02-13'
+          backlink: http://www.fotosearch.com/DGT077/cb057600/
+      overlay: >-
+        overlay/705443548dba1d88b795cc07b38f8dbf8dded20e/88bb585a5ac950b08dc02aa4cad2387d037cd7badec564459bb906766b16adf0?m21=-0.0507409&m22=2.64261&m23=6.48696&m11=2.64261&m13=-37.9348&m12=0.0507409
+      format: JPEG
+      height: 113
+      width: 170
+      score: 18.954
+      image_url: >-
+        https://img.tineye.com/result/88bb585a5ac950b08dc02aa4cad2387d037cd7badec564459bb906766b16adf0
+      filesize: 3518
+      size: 19210
+      tags:
+        - stock
+      query_hash: 705443548dba1d88b795cc07b38f8dbf8dded20e
+    - domain: fotosearch.com
+      backlinks:
+        - url: http://cdn.grid.fotosearch.com/corbis/DGT076/cb053675.jpg
+          crawl_date: '2015-12-28'
+          backlink: http://www.fotosearch.com/photos-images/mughal.html
+      overlay: >-
+        overlay/705443548dba1d88b795cc07b38f8dbf8dded20e/c0fbcb25c39dfdfb4d4b80fe77be05f12d3b2ebe1174f16f16fe01aae34a8660?m21=-0.0356282&m22=1.65714&m23=8.34845&m11=1.65714&m13=-37.5472&m12=0.0356282
+      format: JPEG
+      height: 179
+      width: 270
+      score: 18.954
+      image_url: >-
+        https://img.tineye.com/result/c0fbcb25c39dfdfb4d4b80fe77be05f12d3b2ebe1174f16f16fe01aae34a8660
+      filesize: 7298
+      size: 48330
+      tags:
+        - stock
+      query_hash: 705443548dba1d88b795cc07b38f8dbf8dded20e
+    - domain: corbisimages.com
+      backlinks:
+        - url: ''
+          crawl_date: '2014-10-16'
+          backlink: >-
+            http://www.corbisimages.com/stock-photo/rights-managed/42-36576566/india-uttar-pradesh-state-agra-taj-mahal
+      overlay: >-
+        overlay/705443548dba1d88b795cc07b38f8dbf8dded20e/97b17cd04999f3cab4a279a38172b95c1a703bae1aa0484e647f64289e4effca?m21=-0.0168236&m22=1.05629&m23=-18.2771&m11=1.05629&m13=-33.7396&m12=0.0168236
+      format: JPEG
+      height: 425
+      width: 640
+      score: 18.301
+      image_url: >-
+        https://img.tineye.com/result/97b17cd04999f3cab4a279a38172b95c1a703bae1aa0484e647f64289e4effca
+      filesize: 272000
+      size: 272000
+      tags:
+        - stock
+      query_hash: 705443548dba1d88b795cc07b38f8dbf8dded20e
+    - domain: agefotostock.com
+      backlinks:
+        - url: >-
+            http://t.agefotostock.com/previewimage/gallage/917d87acc6af6cd114cd3918c8d59610/cob-cb053675.jpg
+          crawl_date: '2016-11-21'
+          backlink: http://www.agefotostock.com/age/en/Stock-Images/shah-jahan.html
+      overlay: >-
+        overlay/705443548dba1d88b795cc07b38f8dbf8dded20e/51af1d12bf3a09dc787104668f0b1ba9f1c3d7030e93a8623330dc1d769337ab?m21=-0.0069475&m22=1.07392&m23=7.19379&m11=1.07392&m13=-33.9635&m12=0.0069475
+      format: JPEG
+      height: 465
+      width: 639
+      score: 18.301
+      image_url: >-
+        https://img.tineye.com/result/51af1d12bf3a09dc787104668f0b1ba9f1c3d7030e93a8623330dc1d769337ab
+      filesize: 50969
+      size: 297135
+      tags:
+        - stock
+      query_hash: 705443548dba1d88b795cc07b38f8dbf8dded20e
+    - domain: masterfile.com
+      backlinks:
+        - url: >-
+            http://image1.masterfile.com/getImage/857-03193031em-Reflection-of-a-mausoleum-in-water--Taj-Mahal--Agra--Uttar-Pradesh--In.jpg
+          crawl_date: '2015-08-01'
+          backlink: >-
+            http://www.masterfile.com/stock-photography/image/857-03193031/Reflection-of-a-mausoleum-in-water-Taj-Mahal-Agra-Uttar-Pradesh-India
+      overlay: >-
+        overlay/705443548dba1d88b795cc07b38f8dbf8dded20e/58eca8b4887b2ad7b221aa9f2d70b45e6bb830b10967024b6437afb9c563544f?m21=0.0033868&m22=0.956551&m23=-2.31375&m11=0.956551&m13=-5.19081&m12=-0.0033868
+      format: JPEG
+      height: 299
+      width: 450
+      score: 16.993
+      image_url: >-
+        https://img.tineye.com/result/58eca8b4887b2ad7b221aa9f2d70b45e6bb830b10967024b6437afb9c563544f
+      filesize: 33768
+      size: 134550
+      tags:
+        - stock
+      query_hash: 705443548dba1d88b795cc07b38f8dbf8dded20e
