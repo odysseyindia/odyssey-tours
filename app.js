@@ -164,7 +164,7 @@ app.post('/import',function (req, res) {
         let contents = fileContents.split("---");
         let data     = yaml.loadAll(contents[1]);
 
-        data[0] = {};
+    //    data[0] = {};
         data[0].title           = array[3];
         data[0].translationKey  = urlize(array[3]);
         data[0].type            = 'carhire';
@@ -184,7 +184,7 @@ app.post('/import',function (req, res) {
         };
 
         // reset rates to null
-        // data[0].rates = []; 
+    //    data[0].rates = []; 
         data[0].rates.push( ratesData );
 
         let output = `---\n` + yaml.dump(data[0]) + "---\n" + contents[2] ;
