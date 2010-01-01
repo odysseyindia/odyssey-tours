@@ -280,7 +280,7 @@ app.post('/import',function (req, res) {
       /*
       0=state,1=city,2=organisation,3=description,costservices_id,addressbook_id,services_id,7=wef,8=remarks,tourleaderfree,
       10=servicecharges,11=agentcharges,12=commissionontransport,cities_id,costservicesdistinct_id,costservicesentrancefees_id,costservices_id,
-      17=frompax,18=topax,19=cost,tourleaderfree,21=remarks,22=currencies_id,23=resident,SpecialGst,nett
+      17=frompax,18=topax,19=cost,tourleaderfree,21=remarks,22=currencies_id,23=resident,24=SpecialGst,25=nett
        */
       var state     = urlize(array[0]);
       var city      = urlize(array[1]);
@@ -306,6 +306,7 @@ app.post('/import',function (req, res) {
         let contents = fileContents.split("---");
         let data     = yaml.loadAll(contents[1]);
 
+        data = {};
         data[0].title           = array[2];
         data[0].translationKey  = urlize(array[2]);
         data[0].type            = 'costservices';
@@ -331,7 +332,7 @@ app.post('/import',function (req, res) {
 
         // reset rates to null
         // data[0].entranceFees = []; 
-        data[0].entranceFees.push( ratesData );
+     //   data[0].entranceFees.push( ratesData );
 
         let output = `---\n` + yaml.dump(data[0]) + "---\n" + array[8] ;
 
