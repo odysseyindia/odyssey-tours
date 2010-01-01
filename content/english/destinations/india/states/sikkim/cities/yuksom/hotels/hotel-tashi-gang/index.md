@@ -13,5 +13,150 @@ tags:
   - Hotel Tashi Gang
 categories:
   - 23
+rates:
+  - roomType: Standard Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 2500
+    costSingleAcPT: 0
+    costDouble: ''
+    costDoublePT: ''
+    costDoubleAc: '3200'
+    costDoubleAcPT: ''
+    nett: 0
+    nettPT: 0
+    freeTransfer: '2'
+    extraBed: 0
+    extraBedPT: 0
+    wef: '16210'
+    wet: '2212'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: ''
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: 0
+    agentCommission: 0
+  - roomType: Standard Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 2500
+    costSingleAcPT: 0
+    costDouble: ''
+    costDoublePT: ''
+    costDoubleAc: '3200'
+    costDoubleAcPT: ''
+    nett: 0
+    nettPT: 0
+    freeTransfer: '2'
+    extraBed: 0
+    extraBedPT: 0
+    wef: '17225'
+    wet: '2212'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: ''
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: 0
+    agentCommission: 0
+  - roomType: Standard Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 2500
+    costSingleAcPT: 0
+    costDouble: ''
+    costDoublePT: ''
+    costDoubleAc: '3200'
+    costDoubleAcPT: ''
+    nett: 0
+    nettPT: 0
+    freeTransfer: '2'
+    extraBed: 0
+    extraBedPT: 0
+    wef: '17226'
+    wet: '2212'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: ''
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: 0
+    agentCommission: 0
+  - roomType: Standard Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 2500
+    costSingleAcPT: 0
+    costDouble: ''
+    costDoublePT: ''
+    costDoubleAc: '3200'
+    costDoubleAcPT: ''
+    nett: 0
+    nettPT: 0
+    freeTransfer: '2'
+    extraBed: 0
+    extraBedPT: 0
+    wef: '18152'
+    wet: '2212'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: ''
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: 0
+    agentCommission: 0
 ---
-Located on an upper street in Yuksom, and near the 'king's coronation' stupa, the Tashi Gang Resort is a pleasant two-storey building in the plaster and timber-work style of Sikkimese houses. It has a large lawn in the front, complete with tables and sun umbrellas. The rooms are simple, but comfortable, and are always clean. Traditional rugs and hand-woven cloth brighten the interiors.
+undefined

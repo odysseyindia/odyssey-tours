@@ -12,5 +12,42 @@ tags:
   - Hotels
   - Olaulim Backyards
 category: Standard hotel
+rates:
+  - roomType: Cottage
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 4000
+    costDouble: ''
+    costDoublePT: ''
+    costDoubleAc: ''
+    costDoubleAcPT: '4500'
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 2
+    extraBedPT: 0
+    wef: '15939'
+    wet: '2546'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '10'
+    commission: '0'
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: ''
+    defaultAc: '0'
+    specialPeriod: '1'
+    notes: 0
+    agentCommission: 0
 ---
-Olaulim Backyards is located in one of Goa's most picturesque, peaceful spots. A small homestay, it offers fan- and breeze-cooled cottages made out of local bamboo, laterite stone and wood, over many lakeside acres. Natural boulders are kept intact and the beds are built around them, and the semi-outdoor bathrooms are delightful and well planned. Each room offers verandahs overlooking the forest or the lake. A lagoon-shaped pool, hammocks, kayaks and cycles offer plenty of active possibilities, watched over by a pony, dogs, and even a donkey! The meals are fresh and tasty, and the whole setup gives you a very different Goan experience. 
+undefined

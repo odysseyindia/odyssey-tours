@@ -11,7 +11,43 @@ type: hotels
 tags:
   - Hotels
   - The Maidens Hotel
-categories:
-
+categories: null
+rates:
+  - roomType: Heritage Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: '10700'
+    costDoublePT: ''
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: '10700'
+    nettPT: 0
+    freeTransfer: '2'
+    extraBed: 0
+    extraBedPT: 0
+    wef: '17544'
+    wet: '798'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: '10'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: ''
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: 0
+    agentCommission: 0
 ---
-A brilliant white colonnaded colonial mansion in sprawling gardens and lawns close to Old Delhi. This gracious hotel offers spacious rooms, a coffee shop and a very English restaurant with Raj photographs and a good Continental menu. The pool is in a separate part of the large grounds. There is also a tennis court, and plenty of lovely seating areas and mini-lounges in which to pretend to be a colonial-era bigwig.
+undefined

@@ -11,7 +11,151 @@ type: hotels
 tags:
   - Hotels
   - Golden Tulip Khajuraho
-categories:
-
+categories: null
+rates:
+  - roomType: Deluxe Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: '3200'
+    costDoublePT: ''
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: '3200'
+    nettPT: 0
+    freeTransfer: '2'
+    extraBed: 0
+    extraBedPT: 0
+    wef: '16480'
+    wet: '2978'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: ''
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
+  - roomType: Deluxe Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: '2500'
+    costDoublePT: ''
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: '2500'
+    nettPT: 0
+    freeTransfer: '2'
+    extraBed: 0
+    extraBedPT: 0
+    wef: '17002'
+    wet: '2978'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: ''
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
+  - roomType: Deluxe Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: '3200'
+    costDoublePT: ''
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: '3200'
+    nettPT: 0
+    freeTransfer: '2'
+    extraBed: 0
+    extraBedPT: 0
+    wef: '17861'
+    wet: '2978'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: rates copied from 2019-2020
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
+  - roomType: Deluxe Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: '2500'
+    costDoublePT: ''
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: '2500'
+    nettPT: 0
+    freeTransfer: '2'
+    extraBed: 0
+    extraBedPT: 0
+    wef: '17862'
+    wet: '2978'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: rates copied from 2019-2020
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
 ---
-This cheerful mid-range hotel has large, bright, clean rooms, with modern bathrooms. There is a V-shaped swimming pool, and a large restaurant. There are also plenty of comfortable, well-decorated public areas in which to relax, and a peaceful location just 500 metres from the temples and the market.
+undefined

@@ -12,5 +12,294 @@ tags:
   - Hotels
   - Castle Bijaipur
 category: Standard hotel
+rates:
+  - roomType: Deluxe Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: '3500'
+    costDoublePT: ''
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: '3800'
+    nettPT: 0
+    freeTransfer: '2'
+    extraBed: 0
+    extraBedPT: 0
+    wef: '15870'
+    wet: '863'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 400
+    defaultRoomType: ''
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
+  - roomType: Suite
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: '7000'
+    costDoublePT: ''
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: '9000'
+    nettPT: 0
+    freeTransfer: '2'
+    extraBed: 0
+    extraBedPT: 0
+    wef: '15870'
+    wet: '863'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 400
+    defaultRoomType: ''
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
+  - roomType: Deluxe Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: '4500'
+    costDoublePT: ''
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: '5000'
+    nettPT: 0
+    freeTransfer: '2'
+    extraBed: 0
+    extraBedPT: 0
+    wef: '16163'
+    wet: '863'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 400
+    defaultRoomType: '24/12: 2400 + tax per person  31/12: 3300 + tax per person'
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
+  - roomType: Suite
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: '8000'
+    costDoublePT: ''
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: '10000'
+    nettPT: 0
+    freeTransfer: '2'
+    extraBed: 0
+    extraBedPT: 0
+    wef: '16163'
+    wet: '863'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 400
+    defaultRoomType: '24/12: 2400 + tax per person  31/12: 3300 + tax per person'
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
+  - roomType: Deluxe Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: '3587'
+    costDoublePT: ''
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: '3895'
+    nettPT: 0
+    freeTransfer: '2'
+    extraBed: 0
+    extraBedPT: 0
+    wef: '17123'
+    wet: '863'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 400
+    defaultRoomType: '24/12: 2400 + tax per person  31/12: 3300 + tax per person'
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
+  - roomType: Suite
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: '7175'
+    costDoublePT: ''
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: '9225'
+    nettPT: 0
+    freeTransfer: '2'
+    extraBed: 0
+    extraBedPT: 0
+    wef: '17123'
+    wet: '863'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 400
+    defaultRoomType: '24/12: 2400 + tax per person  31/12: 3300 + tax per person'
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
+  - roomType: Deluxe Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: '4612'
+    costDoublePT: ''
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: '5125'
+    nettPT: 0
+    freeTransfer: '2'
+    extraBed: 0
+    extraBedPT: 0
+    wef: '17124'
+    wet: '863'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 400
+    defaultRoomType: '24/12: 2500 + tax per person  31/12: 3500 + tax per person'
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
+  - roomType: Suite
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: '8200'
+    costDoublePT: ''
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: '10250'
+    nettPT: 0
+    freeTransfer: '2'
+    extraBed: 0
+    extraBedPT: 0
+    wef: '17124'
+    wet: '863'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 400
+    defaultRoomType: '24/12: 2500 + tax per person  31/12: 3500 + tax per person'
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
 ---
-Castle Bijaipur is a 16th-century castle with attractive domes and arched windows and doorways. The castle offers rooms of varying sizes and decor, simply furnished using local materials. There is a lovely swimming pool where you can relax. If you feel more energetic, you can explore the village, lakeside and nearby forts by cycle, horse or jeep, or go trekking in the surrounding hills.
+undefined

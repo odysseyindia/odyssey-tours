@@ -12,5 +12,150 @@ tags:
   - Hotels
   - Courtyard House
 category: Standard hotel
+rates:
+  - roomType: Standard Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: '6500'
+    costDoublePT: ''
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: '7500'
+    nettPT: 0
+    freeTransfer: '4'
+    extraBed: 0
+    extraBedPT: 0
+    wef: '16051'
+    wet: '2733'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: ''
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: 0
+    agentCommission: 0
+  - roomType: Standard Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: '6500'
+    costDoublePT: ''
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: '7500'
+    nettPT: 0
+    freeTransfer: '4'
+    extraBed: 0
+    extraBedPT: 0
+    wef: '16053'
+    wet: '2733'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: ''
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: 0
+    agentCommission: 0
+  - roomType: Standard Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: '6500'
+    costDoublePT: ''
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: '7500'
+    nettPT: 0
+    freeTransfer: '4'
+    extraBed: 0
+    extraBedPT: 0
+    wef: '17856'
+    wet: '2733'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: rates copied from 2019-2020
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: 0
+    agentCommission: 0
+  - roomType: Standard Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: '6500'
+    costDoublePT: ''
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: '7500'
+    nettPT: 0
+    freeTransfer: '4'
+    extraBed: 0
+    extraBedPT: 0
+    wef: '17857'
+    wet: '2733'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: rates copied from 2019-2020
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: 0
+    agentCommission: 0
 ---
-A small, comfortable and upmarket country retreat with lots of thoughtful touches. The lodge is built in the Indian style around a central courtyard, with alcoves and patio allowing guests to mingle or have privacy to relax and chill out. The rooms are large, well equipped and very comfortable. Dining takes place together around a large table where you can share your experiences of the day.
+undefined

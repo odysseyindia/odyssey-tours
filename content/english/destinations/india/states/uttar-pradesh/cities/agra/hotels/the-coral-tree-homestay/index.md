@@ -12,5 +12,78 @@ tags:
   - Hotels
   - The Coral Tree Homestay
 category: Standard hotel
+rates:
+  - roomType: Standard Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: '2000'
+    costDoublePT: ''
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: '2500'
+    nettPT: 0
+    freeTransfer: '2'
+    extraBed: 0
+    extraBedPT: 0
+    wef: '16034'
+    wet: '2882'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: ''
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
+  - roomType: Standard Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: '2000'
+    costDoublePT: ''
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: '2500'
+    nettPT: 0
+    freeTransfer: '2'
+    extraBed: 0
+    extraBedPT: 0
+    wef: '17644'
+    wet: '2882'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: rates copied from 2019-2020
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
 ---
-This six-room home-stay is just a short walk away from the entrance to the Taj Mahal. The bright, cheerful rooms, verandahs and garden are all decorated with interesting pieces of art. The well-travelled owners are keen to interact with their guests, and are full of ideas to help you to get the most out of your time in Agra. 
+undefined

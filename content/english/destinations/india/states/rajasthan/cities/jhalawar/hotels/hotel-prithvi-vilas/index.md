@@ -11,7 +11,155 @@ type: hotels
 tags:
   - Hotels
   - Hotel Prithvi Vilas
-categories:
-
+categories: null
+rates:
+  - roomType: Annex Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: ''
+    costDoublePT: '6890'
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: 0
+    nettPT: '7480'
+    freeTransfer: 0
+    extraBed: 4
+    extraBedPT: 0
+    wef: '17304'
+    wet: '3201'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: The tariff may change during the fairs & festivals time.
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
+  - roomType: Palace Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: ''
+    costDoublePT: '9246'
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: 0
+    nettPT: '10424'
+    freeTransfer: 0
+    extraBed: 4
+    extraBedPT: 0
+    wef: '17304'
+    wet: '3201'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: The tariff may change during the fairs & festivals time.
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
+  - roomType: Annex Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: ''
+    costDoublePT: '6890'
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: 0
+    nettPT: '7480'
+    freeTransfer: 0
+    extraBed: 4
+    extraBedPT: 0
+    wef: '17847'
+    wet: '3201'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: >-
+      rates copied from 2019-2020  The tariff may change during the fairs &
+      festivals time.
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
+  - roomType: Palace Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: ''
+    costDoublePT: '9246'
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: 0
+    nettPT: '10424'
+    freeTransfer: 0
+    extraBed: 4
+    extraBedPT: 0
+    wef: '17847'
+    wet: '3201'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: >-
+      rates copied from 2019-2020  The tariff may change during the fairs &
+      festivals time.
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
 ---
-Over 130 years old, the Prithvi Vilas Hotel is a former hunting lodge that still retains its authentic grandeur. Now the Maharaja's summer residence, it has been converted into a wonderful heritage hotel. The interiors are strewn with chandeliers and sepia photos, the rooms have been modernised, but still offer rustic charm, and the palace grounds are charmingly overgrown, with peacocks strolling about.
+undefined

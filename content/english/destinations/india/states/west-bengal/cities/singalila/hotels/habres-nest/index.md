@@ -12,5 +12,78 @@ tags:
   - Hotels
   - Habre's Nest
 category: Standard hotel
+rates:
+  - roomType: Standard Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: ''
+    costDoublePT: ''
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 0
+    wef: '17626'
+    wet: '3243'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '8'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: 'Price based on a stay of minimum 3 nights. '
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
+  - roomType: Standard Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: ''
+    costDoublePT: ''
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 0
+    wef: '17625'
+    wet: '3243'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '8'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: 'Price based on a stay of minimum 3 nights. '
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
 ---
-Right on the Indian-Nepalese border, Habre's Nest is a quaint homestay perched on the Singalila ridge at 2,900m. It is a small, intimate lodge with just four double rooms, and although remote, it still provides the amenities needed for a comfortable stay. Named after the Nepalese for red panda, Habre’s Nest is a research hub to help protect the red panda and its habitat. As part of their conservation efforts, they also aim to educate their guests about the red panda, benefit the local community by employing local people and contribute 20% of the profits to conservation.
+undefined

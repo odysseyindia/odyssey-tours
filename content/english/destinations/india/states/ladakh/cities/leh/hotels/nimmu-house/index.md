@@ -12,5 +12,114 @@ tags:
   - Hotels
   - Nimmu House
 category: Comfortable hotel
+rates:
+  - roomType: Standard Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 8900
+    costDouble: ''
+    costDoublePT: ''
+    costDoubleAc: ''
+    costDoubleAcPT: '8900'
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 2
+    extraBedPT: 0
+    wef: '17631'
+    wet: '3246'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '10'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: ''
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
+  - roomType: Standard Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 8900
+    costDouble: ''
+    costDoublePT: ''
+    costDoubleAc: ''
+    costDoubleAcPT: '8900'
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 2
+    extraBedPT: 0
+    wef: '17632'
+    wet: '3246'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '10'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: ''
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
+  - roomType: Standard Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 10700
+    costDouble: ''
+    costDoublePT: ''
+    costDoubleAc: ''
+    costDoubleAcPT: '10700'
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 2
+    extraBedPT: 0
+    wef: '17633'
+    wet: '3246'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '10'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: ''
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
 ---
-Nimmu House is a charming eco-resort nestled at 10,000 feet in the village of Nimmoo, 35km outside Leh. It is both a wellness retreat (offering yoga and spa therapies), and a great base to explore the Leh valley, with both traditionally-styled rooms and luxury tents in a beautiful orchard. The main building once belonged to a cousin of the Ladakhi king, and has been restored to offer cosy lounges and a great restaurant.
+undefined

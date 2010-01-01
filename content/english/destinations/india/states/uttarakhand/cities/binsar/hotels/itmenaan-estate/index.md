@@ -12,5 +12,42 @@ tags:
   - Hotels
   - Itmenaan Estate
 category: Standard hotel
+rates:
+  - roomType: Standard Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: ''
+    costDoublePT: ''
+    costDoubleAc: '0'
+    costDoubleAcPT: ''
+    nett: 0
+    nettPT: 0
+    freeTransfer: '4'
+    extraBed: 0
+    extraBedPT: 0
+    wef: '17641'
+    wet: '3251'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '8'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: ''
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
 ---
-Itmenaan Estate is a fairytale resort near Binsar, one of the most beautiful spots in the Kumaon Himalayas. The 10-acre resort includes virgin pine, oak and rhododendron trees and even a little natural spring. This restored 100-year-old house offers panoramic views of the Himalayas including the majestic Nanda Devi, and plenty of pleasant walks around - or just a delightful place to put your feet up and enjoy Kumaoni hospitality.
+undefined

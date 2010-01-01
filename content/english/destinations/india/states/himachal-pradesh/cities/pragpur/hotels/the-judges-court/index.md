@@ -12,5 +12,78 @@ tags:
   - Hotels
   - The Judges Court
 category: Standard hotel
+rates:
+  - roomType: Deluxe Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 4000
+    costSingleAcPT: 0
+    costDouble: ''
+    costDoublePT: ''
+    costDoubleAc: '4500'
+    costDoubleAcPT: ''
+    nett: 0
+    nettPT: 0
+    freeTransfer: '2'
+    extraBed: 0
+    extraBedPT: 0
+    wef: '18122'
+    wet: '1374'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: rates copied from 2014-2015
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
+  - roomType: Suite
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 5300
+    costSingleAcPT: 0
+    costDouble: ''
+    costDoublePT: ''
+    costDoubleAc: '5300'
+    costDoubleAcPT: ''
+    nett: 0
+    nettPT: 0
+    freeTransfer: '2'
+    extraBed: 0
+    extraBedPT: 0
+    wef: '18122'
+    wet: '1374'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: rates copied from 2014-2015
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
 ---
-The stately country manor of Judge's Court has it all; rooms with period furniture and fire places, fields to wander in, the colourful, rustic heritage village of Pragpur at its very doorstep, birds to watch and carp to catch. Originally built as a home in 1918 to commemorate a son's graduation from law college in England, Judge's Court has only a few rooms, each unique, housed in different buildings on the property and some even in a 300 year old cottage in the village.
+undefined

@@ -12,5 +12,114 @@ tags:
   - Hotels
   - The Abode
 category: Standard hotel
+rates:
+  - roomType: Abode Simple Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: ''
+    costDoublePT: '7900'
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: 0
+    nettPT: '7900'
+    freeTransfer: 0
+    extraBed: 2
+    extraBedPT: 0
+    wef: '17583'
+    wet: '3240'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: ''
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
+  - roomType: Abode Luxury Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: ''
+    costDoublePT: '9100'
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: 0
+    nettPT: '9100'
+    freeTransfer: 0
+    extraBed: 2
+    extraBedPT: 0
+    wef: '17583'
+    wet: '3240'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: ''
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
+  - roomType: Abode Super Luxury Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: ''
+    costDoublePT: '12500'
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: 0
+    nettPT: '12500'
+    freeTransfer: 0
+    extraBed: 2
+    extraBedPT: 0
+    wef: '17583'
+    wet: '3240'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: ''
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
 ---
-Mumbai's first real boutique hotel, The Abode draws on the city's art deco heritage to create a quirky little space a minute away from the Gateway of India. The small but cheerful rooms bring old Mumbai styles right to you, and the delightful cafe serves as a common and reception area, with Mumbai chai and snacks. A great, fun option if you want to explore South Mumbai's colonial past.
+undefined

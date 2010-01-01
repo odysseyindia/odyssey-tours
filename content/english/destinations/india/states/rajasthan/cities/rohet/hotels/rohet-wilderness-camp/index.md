@@ -11,7 +11,115 @@ type: hotels
 tags:
   - Hotels
   - Rohet Wilderness Camp
-categories:
-
+categories: null
+rates:
+  - roomType: Luxury Tent
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 7500
+    costSingleAcPT: 0
+    costDouble: ''
+    costDoublePT: ''
+    costDoubleAc: '8500'
+    costDoubleAcPT: ''
+    nett: 0
+    nettPT: 0
+    freeTransfer: '3'
+    extraBed: 0
+    extraBedPT: 0
+    wef: '16486'
+    wet: '2203'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '12'
+    commission: '0'
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: 'Christmas & New Year Supplement: Rs. 2,000/- p.p. + Tax'
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
+  - roomType: Luxury Tent
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: ''
+    costDoublePT: ''
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 0
+    wef: '17008'
+    wet: '2203'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '12'
+    commission: '0'
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: ''
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
+  - roomType: Luxury Tent
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 8250
+    costSingleAcPT: 0
+    costDouble: ''
+    costDoublePT: ''
+    costDoubleAc: '9350'
+    costDoubleAcPT: ''
+    nett: 0
+    nettPT: 0
+    freeTransfer: '3'
+    extraBed: 0
+    extraBedPT: 0
+    wef: '17009'
+    wet: '2203'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '12'
+    commission: '0'
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: 'Christmas & New Year Supplement: Rs. 2,200/- p.p. + Tax'
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
 ---
-This beautiful camp has deluxe tents in a picturesque location. The tents are very spacious and have solid wooden furniture. There is a large thatched pavilion which is the gathering place for the camp guests and the safari riders who may visit at sunset. The dining room is also similarly constructed with the thatch and traditional mud plaster of the Bishnoi tribe. Comfortable cushions on L-shaped seats are great for relaxing.
+undefined

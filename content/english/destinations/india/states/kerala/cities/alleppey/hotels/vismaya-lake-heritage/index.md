@@ -12,5 +12,78 @@ tags:
   - Hotels
   - Vismaya Lake Heritage
 category: Superior hotel
+rates:
+  - roomType: Privacy Suite
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: ''
+    costDoublePT: '14000'
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: 0
+    nettPT: '14000'
+    freeTransfer: 0
+    extraBed: 2
+    extraBedPT: 0
+    wef: '17514'
+    wet: '2934'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: ''
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
+  - roomType: Privacy Suite
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: ''
+    costDoublePT: '14000'
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: 0
+    nettPT: '14000'
+    freeTransfer: 0
+    extraBed: 2
+    extraBedPT: 0
+    wef: '17653'
+    wet: '2934'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: rates copied from 2019-2020
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
 ---
-Sitting on the edge of a peninsula, surrounded by three sides of the pristine Vembanad lake, Vismaya is a boutique 2-room hideaway, a 400-year-old royal house that has been completely restored and renovated by a Swiss architect. This is an airy refuge, meant for tranquil relaxation with great meals and breathtaking lake views all around. 
+undefined

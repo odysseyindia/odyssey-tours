@@ -1,5 +1,5 @@
 ---
-title: 'Infinity Resort, Kaziranga'
+title: Infinity Resort, Kaziranga
 translationKey: infinity-resort-kaziranga
 addressbook_id: 3180
 postalcode: ''
@@ -10,7 +10,80 @@ id: hotel
 type: hotels
 tags:
   - Hotels
-  - 'Infinity Resort, Kaziranga'
+  - Infinity Resort, Kaziranga
 category: Comfortable hotel
+rates:
+  - roomType: Luxury Cottage
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: '6500'
+    costDoublePT: ''
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: '8000'
+    nettPT: 0
+    freeTransfer: '4'
+    extraBed: 0
+    extraBedPT: 0
+    wef: '16846'
+    wet: '3180'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: ''
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
+  - roomType: Luxury Cottage
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: '6500'
+    costDoublePT: ''
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: '8000'
+    nettPT: 0
+    freeTransfer: '4'
+    extraBed: 0
+    extraBedPT: 0
+    wef: '17860'
+    wet: '3180'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: rates copied from 2019-2020
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
 ---
-One of Kaziranga's newer resorts, it is set in the midst of a thick bamboo grove, together with a wide variety of medicinal plants and a plantation of betel nuts and fruit trees. Its architecture is reminiscent of old Assamese houses, set atop bamboo stilts, blending in with the thick foliage. The resort is enhanced by a beautiful lake on the grounds. The rooms are comfy and spacious, with traditional hand-made walls.
+undefined

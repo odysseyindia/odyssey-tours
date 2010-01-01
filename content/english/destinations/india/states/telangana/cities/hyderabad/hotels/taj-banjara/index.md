@@ -12,5 +12,42 @@ tags:
   - Hotels
   - Taj Banjara
 category: Comfortable hotel
+rates:
+  - roomType: Standard Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: '7400'
+    costDoublePT: ''
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: '7400'
+    nettPT: 0
+    freeTransfer: '1'
+    extraBed: 1
+    extraBedPT: 0
+    wef: '18144'
+    wet: '1453'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '10'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: Eates not updated correctly. Please check first.
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
 ---
-An old-fashioned business hotel with character. Built in 1949, the hotel offers spacious rooms with comfortable furnishings. The coffee shop and kebab restaurant serve South Indian and North Indian food specialities, with a particular emphasis on regional cuisine.
+undefined

@@ -12,5 +12,42 @@ tags:
   - Hotels
   - Chidambara Vilas
 category: Standard hotel
+rates:
+  - roomType: Heritage Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: '6500'
+    costDoublePT: ''
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: '6950'
+    nettPT: 0
+    freeTransfer: '2'
+    extraBed: 0
+    extraBedPT: 0
+    wef: '16949'
+    wet: '3191'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: ''
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
 ---
-A splendid 19th-century mansion, Chidambara Vilas is full of the Burma teak pillars, Belgian chandeliers and other exotic touches that define the Chettinad houses. Walk through imposing courtyards, explore the roof with its wonderful views and enjoy the serene pool. The rooms are large and comfortable, with Balinese furniture, and make time for vast meals, central to the Chettiar tradition.
+undefined

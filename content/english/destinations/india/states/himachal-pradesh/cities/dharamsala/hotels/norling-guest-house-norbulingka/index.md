@@ -12,5 +12,78 @@ tags:
   - Hotels
   - Norling Guest House Norbulingka
 category: Standard hotel
+rates:
+  - roomType: Superior Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: ''
+    costDoublePT: '3410'
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: 0
+    nettPT: '3410'
+    freeTransfer: 0
+    extraBed: 1
+    extraBedPT: 0
+    wef: '18127'
+    wet: '2424'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: '10'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: rates copied from 2018-2019
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: 0
+    agentCommission: 0
+  - roomType: Suite
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: ''
+    costDoublePT: '5016'
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: 0
+    nettPT: '5016'
+    freeTransfer: 0
+    extraBed: 1
+    extraBedPT: 0
+    wef: '18127'
+    wet: '2424'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: '10'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: rates copied from 2018-2019
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: 0
+    agentCommission: 0
 ---
-Norling Guesthouse is located within the Norbulingka Institute in Lower Dharamsala, a 20-minute drive from McLeod Ganj. This is a warm, cosy place with lovely Tibetan art, and the beautiful grounds of the Institute and temple around it. A comfortable guesthouse, this intimate place provides access to the sacred traditional art forms of Thangka painting, applique work and wood and metal work that are practised in the institute.
+undefined

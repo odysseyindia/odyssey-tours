@@ -12,5 +12,42 @@ tags:
   - Hotels
   - The Denmark Tavern
 category: Comfortable hotel
+rates:
+  - roomType: Deluxe Room
+    mealPlan: Indian Rupee
+    mealPlanPT: Indian Rupee
+    currency: USD
+    currencyPT: USD
+    costSingle: 13
+    costSinglePT: 13
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: '6000'
+    costDoublePT: ''
+    costDoubleAc: ''
+    costDoubleAcPT: ''
+    nett: '6000'
+    nettPT: 0
+    freeTransfer: '2'
+    extraBed: 0
+    extraBedPT: 0
+    wef: '17564'
+    wet: '3236'
+    fromPax: 0
+    toPax: 0
+    git: '1'
+    serviceCharges: '15'
+    commission: '0'
+    commissionPT: '0'
+    commissionOnPlan: '0'
+    commissionOnPlanPT: '0'
+    serviceChargesOnPlan: '0'
+    blackout: '0'
+    dayOfTheWeek: 127
+    defaultRoomType: ''
+    defaultAc: '0'
+    specialPeriod: '0'
+    notes: '0'
+    agentCommission: 0
 ---
-This 232-year-old two-storied structure by the banks of the Hooghly was a tavern and hotel where the Danes kept their flagstaff and cannons. It took around two years to restore the tavern to its former glory, and is now a very attractive hotel, with a cafe attached. Inside you'll find a cosy colonial ambience and lovely, high-ceilinged rooms with the hotel's pretty green shutters.
+undefined
