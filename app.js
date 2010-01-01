@@ -215,10 +215,12 @@ app.post('/import',function (req, res) {
      15=guide
 
       */
-      var state     = urlize(array[0]);
-      var city      = urlize(array[1]);
+      var state        = urlize(array[0]);
+      var city         = urlize(array[1]);
+      var to_city      = urlize(array[4]);
+      var organisation = urlize(array[2]);
       
-      var mdfile = dir+'/destinations/india/states/'+state+'/cities/'+city+'/point2point/';
+      var mdfile = dir+'/destinations/india/states/'+state+'/cities/'+city+'/point2point/'+to_city+'/'+organisation+'/';
 
       console.log('Processing ',mdfile);
 
@@ -239,27 +241,29 @@ app.post('/import',function (req, res) {
         let contents = fileContents.split("---");
         let data     = yaml.loadAll(contents[1]);
 
-        data[0] = {};
-        data[0].title           = array[4];
-        data[0].translationKey  = urlize(array[4]);
+    //    data[0] = {};
+        data[0].title           = array[2];
+        data[0].translationKey  = urlize(array[2]);
         data[0].type            = 'point2point';
 
         var ratesData = {};
         ratesData.vehicle         = array[28];
-        ratesData.fromPax         = Number(array[7]) || 0;
-        ratesData.toPax           = Number(array[8]) || 0;
-        ratesData.wef             = (array[9]); 
-        ratesData.wet             = (array[10]);
-        ratesData.cost            = Number(array[12]) || 0;
-        ratesData.tollTax         = Number(array[25]) || 0;
-        ratesData.escort          = Number(array[27]) || 0;
+        ratesData.fromPax         = Number(array[6]) || 0;
+        ratesData.toPax           = Number(array[7]) || 0;
+        ratesData.wef             = (array[8]); 
+        ratesData.wet             = (array[9]);
+        ratesData.cost            = Number(array[11]) || 0;
+        ratesData.currency        = (array[12] == 13) ? 'INR' : array(12);
+        ratesData.commission      = Number(array[13]) || 0;
+        ratesData.rep             = Number(array[14]) || 0;
+        ratesData.guide           = Number(array[15]) || 0;
         
         if (typeof data[0].rates === 'undefined'){
           data[0].rates = [];
         };
 
         // reset rates to null
-        // data[0].rates = []; 
+     // data[0].rates = []; 
         data[0].rates.push( ratesData );
 
         let output = `---\n` + yaml.dump(data[0]) + "---\n" + contents[2] ;
