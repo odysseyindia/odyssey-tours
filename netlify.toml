@@ -1,0 +1,93 @@
+[build] 
+  publish = "public"
+  functions = "./functions"
+
+[build.processing.images]
+  compress = true
+
+[context.production.environment]
+  HUGO_VERSION = "0.73.0" 
+  HUGO_ENV = "production"
+  HUGO_ENABLEGITINFO = "true" 
+
+[context.deploy-preview.environment]
+  HUGO_VERSION = "0.73.0"
+
+[context.branch-deploy.environment]
+  HUGO_VERSION = "0.73.0"
+  NODE_ENV = "development"
+
+[context.master] 
+  command = "hugo -b $URL --gc --minify"
+  HUGO_VERSION = "0.73.0" 
+  HUGO_ENV = "production"
+  HUGO_ENABLEGITINFO = "true" 
+
+[context.develop] 
+  command = "hugo --gc --minify"
+  HUGO_VERSION = "0.73.0" 
+  HUGO_ENV = "development"
+  HUGO_ENABLEGITINFO = "true" 
+
+[context.feature] # 'feature' is a branch name
+  command = "echo 'feature'"
+  base = "feature"
+
+[dev]
+  port = 8888
+  publish = "dist"
+  autoLaunch = true 
+
+[[plugins]]
+package = "netlify-plugin-a11y"
+ 
+  [plugins.inputs]
+  checkPaths = ['/'] # you can give an array of directories or paths to html files, that you want to run a11y checks on
+  # ignoreDirectories = ['/admin']  # explicitly ignore these directories
+  resultMode = "warn" # is "error" by default
+  # debugMode = true # extra logging for plugin developers
+
+[[plugins]]
+package = "@netlify/plugin-lighthouse"
+  [plugins.inputs]
+  # optional, defaults to scanning the current built version of the site
+  audit_url = 'https://develop--summertimegoa.netlify.app'
+  # optional, fails build when a category is below a threshold
+  [plugins.inputs.thresholds]
+    performance = 0
+    accessibility = 0
+    best-practices = 0
+    seo = 0
+    pwa = 0
+
+[[plugins]]
+package = "@netlify/plugin-functions-core"
+
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
+
+
+## Cache Control
+# Paste the below in https://play.netlify.com/headers to test
+# Set max-age to 1 year (31536000 seconds) 
+[[headers]]
+  for = "*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+
+[[headers]]
+  for = "*.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+
+[[headers]]
+  for = "*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
