@@ -1,0 +1,27 @@
+      {{ "<!-- breadcrumbs -->" | safeHTML }}
+      <div class="row">
+        <nav  class="bread-bar ml-auto justify-content-between" aria-label="breadcrumb">
+          <div class="row">
+            <nav  class="bread-bar float-right justify-content-between" aria-label="breadcrumb">
+              <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+                <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                  <a href="{{"/" | relLangURL }}" aria-label="{{ i18n "home"}}" itemprop="item">
+                    <i class="icon-home" ></i>
+                    <meta itemprop="name" content="{{ i18n "the-villa" }}" />
+                    <meta itemprop="position" content="1" />
+                  </a>
+                </li>
+                  {{- range (split .RelPermalink "/") }}
+                  {{- if gt (len . ) 2 }}
+                  <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <span itemprop="name">{{ . | humanize }}</span>
+                    <meta itemprop="position" content="2" />
+                  </li>
+                  {{- end }} 
+                  {{- end }}
+              </ol>
+            </nav>
+          </div>
+        </nav>
+      </div>
+      {{ "<!-- end breadcrumbs -->" | safeHTML }}

@@ -1,0 +1,39 @@
+{{- $siteLanguages := site.Languages}}
+{{- $pageLang := .Page.Lang}}
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown99" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Language switcher">
+             {{- range .Page.AllTranslations }}
+                {{- $translation := . }}
+                {{- range sort $siteLanguages "Weight" "asc" }}
+                    {{- if eq $translation.Lang .Lang }}
+                        {{- if eq $pageLang .Lang}}
+                <span class="menu" aria-hidden="true" role="img" aria-label="{{ .Params.languageName }}">
+                  <img class="lazyload flag" data-src="/img/{{ substr .Params.languageCode 0 2 }}.svg" alt="{{ .Params.languageName }}">
+                  <span class="language"> {{ .Params.languageName }}</span>
+                </span> 
+                      {{- end }}
+                    {{- end }}
+                {{- end }}
+            {{- end }}
+            </a>
+            <div class="dropdown-menu dropflag" aria-labelledby="navbarDropdown99">
+{{- range .Page.AllTranslations }}
+    {{- $translation := . }}
+    {{- range sort $siteLanguages "Weight" "asc" }}
+        {{- if eq $translation.Lang .Lang }}
+            {{- if eq $pageLang .Lang}}
+              <a class="dropdown-item flagselect" role="img" aria-label="{{ .Params.languageName }}" href="{{ $translation.Permalink | relURL }}">
+                    <img class="lazyload flag" data-src="/img/{{ substr .Params.languageCode 0 2 }}.svg" alt="{{ .Params.languageName }}">
+                    <span class="language"> {{ .Params.languageName }}</span>
+              </a>
+                {{- else }}
+              <a class="dropdown-item flagnoselect" role="img" aria-label="{{ .Params.languageName }}" href="{{ $translation.Permalink | relURL }}">
+                    <img class="lazyload flag" data-src="/img/{{ substr .Params.languageCode 0 2 }}.svg" alt="{{ .Params.languageName }}">
+                    <span class="language"> {{ .Params.languageName }}</span>
+              </a>
+          {{- end }}
+        {{- end }}
+    {{- end }}
+{{- end }}
+            </div>
+          </li>

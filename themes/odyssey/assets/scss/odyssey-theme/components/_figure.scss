@@ -1,0 +1,106 @@
+
+$primary: #63582C;
+$secondary: #b4a258;
+$tertiary: #776644;
+$body: #6c757d; 
+$anchor: #0072ed;
+$anchor-hover: #0056b3;
+$form: beige;
+$cadetblue: cadetblue;
+$gold: #FFD700;
+$footer: #171717;
+
+$white: #fff;
+$black: #000;
+$softblack: #292f36;
+$darkgray: #4e595f;
+$silver: silver;
+$lightgray: #ddd;
+
+$youtube: #bb0000; 
+$facebook: #3B5998;
+$flickr: #f40083; 
+$instagram: #125688;
+$linkedin: #007bb5;
+$pinterest: #cb2027;
+$streetview: #dd4b39; 
+$twitter: #55acee; 
+$google: #dd4b39; 
+$tripadvisor: #00c094;
+$google-star: #F4B400;
+$whatsapp: #25D366;
+$reddit: #ff5700; 
+$stumbleupon: #EB4823; 
+
+$twitter-hover: #4c9ad6; 
+$google-hover: #c64333; 
+$facebook-hover: #2f4779; 
+$linkedin-hover: #4069a2; 
+$stumbleupon-hover: #d3401f; 
+$pinterest-hover: #AD0000; 
+$reddit-hover: #e54e00;
+
+$success: #155724;
+$info: #6bf;
+$warning: #fd6;
+$danger: #f66;
+
+$latest-post: #292F36;
+$post-comment: #F76C5E;
+$twitter-feed: #6cb670;
+
+$icon-circle: '\f10c';
+
+
+// Z-indexes
+// `l-` prefix for layout
+// `c-` prefix for components
+$z-indexes: (
+    // position the cover below the whole blog
+    'l-cover':             -1,
+    'l-main':              10,
+    'c-post-header-cover': 15,
+    'l-header':            20,
+    'l-sidebar':           20,
+    'l-about':             30,
+    'c-mask':              30,
+    'c-post-bottom-bar':   40,
+    'c-share-options-bar': 50,
+    'c-tooltip':           1000,
+    'c-overlay':           1009,
+    'c-modal':             1010
+);
+
+// Media Query Ranges
+// If you want to change ranges screen size, you can do it easily by changing only `$screen-min` values
+$screen-min: (
+    'xs-min': 320px,
+    'sm-min': 480px,
+     // If you change value of `md-min`,
+     // you have to change value of `mediumScreenWidth` too in `source/_js/sidebar.js`
+    'md-min': 768px,
+    'lg-min': 1024px,
+    'xlg-min': 1280px
+);
+$screen-max: (
+    'xs-max': map-get($screen-min, sm-min) - 1,
+    'sm-max': map-get($screen-min, md-min) - 1,
+    'md-max': map-get($screen-min, lg-min) - 1,
+    'lg-max': map-get($screen-min, xlg-min) - 1
+);
+// Merged screen-* Maps
+$screen: map-merge($screen-min, $screen-max);
+// Shortcuts for medias
+$xsmall-and-down: "only screen and (max-width : #{map-get($screen, xs-max)})" !default;
+$small-and-down:  "only screen and (max-width : #{map-get($screen, sm-max)})" !default;
+$small-only:      "only screen and (min-width : #{map-get($screen, sm-min)}) and (max-width : #{map-get($screen, sm-max)})" !default;
+$small-and-up:    "only screen and (min-width : #{map-get($screen, sm-min)})" !default;
+$medium-and-down: "only screen and (max-width : #{map-get($screen, md-max)})" !default;
+$medium-only:     "only screen and (min-width : #{map-get($screen, md-min)}) and (max-width : #{map-get($screen, md-max)})" !default;
+$medium-and-up:   "only screen and (min-width : #{map-get($screen, md-min)})" !default;
+$large-and-down:  "only screen and (max-width : #{map-get($screen, lg-max)})" !default;
+$large-only:      "only screen and (min-width : #{map-get($screen, lg-min)}) and (max-width : #{map-get($screen, lg-max)})" !default;
+$large-and-up:    "only screen and (min-width : #{map-get($screen, lg-min)})" !default;
+$xlarge-and-up:   "only screen and (min-width : #{map-get($screen, xlg-min)})" !default; 
+
+$font-family-sans-serif: "OpenSans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";

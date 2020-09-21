@@ -1,0 +1,6 @@
+
+.icon-camera:before { content: '\e800'; } /* '' */
+.icon-flight:before { content: '\e801'; } /* '' */
+.icon-cab:before { content: '\f1b9'; } /* '' */
+.icon-bed:before { content: '\f236'; } /* '' */
+.icon-train:before { content: '\f238'; } /* '' */

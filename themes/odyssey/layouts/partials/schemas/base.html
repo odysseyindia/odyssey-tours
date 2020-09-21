@@ -1,0 +1,172 @@
+{{- $contactdata     := index .Site.Data "contact" }}
+{{- $words           := countwords (truncate 25 .Summary) }}
+{{- $description     := cond ( gt $words 5 ) (truncate 25 .Summary) .Site.Params.description }}
+{{- $reviewers       := len (where .Site.Pages "Params.media" "tripadvisor") -}}
+{{- $ISO8601 	       := "2006-01-02T15:04:05-07:00" }}
+{{- $amounts         := slice }}
+{{- $currentCurrency := cond (eq .Site.Language.Lang "en") "INR" "EUR" }}
+{{- $data            := .Site.Data.rates }}
+{{- $symbol          := "₹" }}
+
+{{- with $data }}
+  {{- range $data.rates }}
+    {{- range .currency }}
+      {{- if eq .forex $currentCurrency }} {{- $amounts = $amounts | append .rate }} {{ end }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+ 
+{{- range $data.currencies }}
+  {{- if eq .forex $currentCurrency }} {{ $symbol = .symbol }} {{ end }}
+{{- end }}
+
+{{- $amounts := sort $amounts }}
+{{- $minrate := (index $amounts 0) }}
+{{- $maxrate := (index $amounts ( sub (len $amounts) 1 )) }}
+
+{{- with .Site.Social.googleplus -}}
+	<link rel="publisher" href="{{ . }}"/>
+{{- end }}
+	<meta itemprop="name" content="{{ .Title }}">
+	<meta itemprop="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
+{{- if .IsPage }}
+	{{- if not .PublishDate.IsZero }}
+	<meta itemprop="datePublished" content="{{ .PublishDate.Format $ISO8601 | safeHTML }}" />
+	{{- end }}
+{{- end }}
+{{- if not .Date.IsZero }}
+	<meta itemprop="dateModified" content="{{ .Date.Format $ISO8601 | safeHTML }}" />
+{{- end }}
+{{- with .Params.images }}
+	{{- range first 6 . }}
+	<meta itemprop="image" content="{{ . | absURL }}">
+	{{- end }}
+{{- else }}
+	{{- with .Params.carousel }}
+  	{{- range first 6 . }}
+	<meta itemprop="image" content="{{ .url | absURL }}">
+	  {{- end }}
+	{{- end }}
+{{- end }}
+    <meta property="og:type" content="{{ .Site.Params.Schema.Type }}" /> 
+    <meta name="author" content="{{ .Site.Params.author }}" />
+    <script defer type="application/ld+json">
+      {
+      "@context"      : "http://www.schema.org",
+      "@graph":[
+      {
+          "@type"         : "{{ .Site.Params.Schema.Type }}",
+          "name"          : "{{ .Site.Params.Schema.Name }}",
+          "alternateName" : "{{ .Site.Params.Schema.AlternateName }}",
+          "url"           : "{{ "/" | absLangURL }}",
+          "description"   : "{{ .Site.Params.description }}",
+          "numberOfRooms" : 3,
+          "award"         : "{{ .Site.Params.Schema.Award }}",
+          "starRating"    : { 
+            "@type"       : "Rating",
+            "ratingValue" : 5,
+            "name"        : "World Boutique Hotels"
+          },
+          "checkinTime"   : "{{ .Site.Params.Schema.checkinTime }}",
+          "checkoutTime"  : "{{ .Site.Params.Schema.checkoutTime }}",
+          "petsAllowed"   : "false",
+          "smokingAllowed": "false",
+          "amenityFeature": ["pool","gardens","koi pond","waterfall"],
+          "address": {
+            "@type"          : "PostalAddress",
+            "streetAddress"  : "{{ $contactdata.address.address }}",
+            "addressLocality": "{{ $contactdata.address.locality }}",
+            "addressRegion"  : "{{ $contactdata.address.region }}",
+            "postalCode"     : "{{ $contactdata.address.pincode }}",
+            "addressCountry" : "{{ $contactdata.address.country }}"
+          },
+
+          "geo":{
+            "@type":"GeoCoordinates",
+            "latitude":  {{ $contactdata.latitude }},
+            "longitude": {{ $contactdata.longitude }}
+          },
+          "hasmap":"https://www.google.nl/maps/place/Summertime/@15.5363794,73.7709031,17z/data=!3m1!4b1!4m12!1m6!3m5!1s0x3bbfc1dd1433b8dd:0xd28c28dd4485515e!2sSummertime!8m2!3d15.5363742!4d73.7730971!3m4!1s0x3bbfc1dd1433b8dd:0xd28c28dd4485515e!8m2!3d15.5363742!4d73.7730971?hl=en",
+          "logo": {{ $contactdata.logo_url | absLangURL}},   
+          "image": {
+            "@type": "imageObject",
+            "url":"{{ .Site.Params.Schema.Image | absLangURL }}"
+          },
+          "photo":{ 
+            "@type":"Photograph",
+            "url": "{{ .Site.Params.Schema.Photo | absLangURL}}"
+          },
+          "telephone" : {{ $contactdata.telephone.number }},
+          "email"     : "mailto:{{ $contactdata.email.id }}",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.9,
+            "bestRating" : 5,
+            "ratingCount": {{ $reviewers }}
+          },
+          {{- with $minrate }}
+            "priceRange"   :"{{ $symbol }} {{ $minrate }} - {{ $symbol }} {{ $maxrate }}",
+          {{- end }}
+          "sameAs" : [
+              {{- range $i,$e := .Site.Params.social }}
+              {{- if $i }}, {{ end }}
+              {{ .url  }}
+              {{- end }}
+             ]
+    },
+    {
+      "@type": "Organization",
+        "memberOf": "World Boutique Awards",
+        "parentOrganization": "Odyssey Tours & Travels Pvt Ltd"
+    }, 
+    {
+         "@type":"WebSite",
+         "@id" :"{{ .Site.Params.Schema.publisher }}/#website",
+         "url" :"{{ .Site.Params.Schema.publisher }}/",
+         "name":"{{ .Site.Title }}",
+         "description":"{{ .Site.Params.description }}",
+         "publisher":{
+            "@id":"{{ .Site.Params.Schema.publisher }}/#organization"     
+          },
+         "potentialAction":{
+            "@type" :"SearchAction",
+            "target":"{{ .Site.Params.Schema.publisher }}/?s={search_term_string}",
+            "query-input":"required name=search_term_string"
+          }  
+    },
+    {
+         "@type":"ImageObject",
+         "@id":"{{ .Params.image | absURL }}#primaryimage",
+         "url":"{{ .Params.image | absURL }}",
+         "width":1920,
+         "height":1050,
+         "caption":"{{ i18n .Params.translationKey }}"
+    },
+    {
+        "@type":"BreadcrumbList",
+        "@id":"{{ .Permalink }}#breadcrumb",
+        "itemListElement":[  
+        {
+          "@type":"ListItem",
+          "position":1,
+          "item":{
+              "@type":"WebPage",
+              "@id":"{{ .Site.Params.Schema.publisher }}/",
+              "url":"{{ .Site.Params.Schema.publisher }}/",
+              "name":"{{ i18n "home" }}"
+              }
+        },
+        {
+          "@type":"ListItem",
+          "position":2,
+          "item":{
+              "@type":"WebPage",
+              "@id":"{{ .Permalink | absURL }}",
+              "url":"{{ .Permalink | absURL }}",
+              "name":"{{ if gt (len (i18n .Params.translationKey)) 0 }}{{ i18n .Params.translationKey }}{{else}}{{ .Params.translationKey }}{{ end }}"
+              }
+        }]
+      }
+  ]
+}
+    </script>

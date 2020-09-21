@@ -1,0 +1,169 @@
+{{- $scratch      := newScratch }}
+{{- $guestReviews := ((site.GetPage "guest-reviews").RegularPages).ByParam "rating" }}
+
+{{ range $i, $v := $guestReviews}}
+  {{- if not $i }} {{ $scratch.Set "worstRating" $v.Params.rating }}{{ end }}
+  {{- $scratch.Add "totalvalue" $v.Params.rating }}
+{{- end }}
+
+{{- $amounts         := slice }}
+{{- $currentCurrency := cond (eq .Site.Language.Lang "en") "INR" "EUR" }}
+{{- $data            := .Site.Data.rates }}
+{{- $symbol          := "₹" }}
+
+{{- with $data }}
+  {{- range $data.rates }}
+    {{- range .currency }}
+      {{- if eq .forex $currentCurrency }} {{- $amounts = $amounts | append .rate }} {{ end }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+ 
+{{- range $data.currencies }}
+  {{- if eq .forex $currentCurrency }} {{ $symbol = .symbol }} {{ end }}
+{{- end }}
+
+{{- $amounts := sort $amounts }}
+{{- $minrate := (index $amounts 0) }}
+{{- $maxrate := (index $amounts ( sub (len $amounts) 1 )) }}
+
+    <meta property="og:type" content="Suite" /> 
+    <script defer type="application/ld+json">
+    {
+      "@context": "http://www.schema.org",
+      "@graph":
+      [
+      {{- with .Params.numberofbeds }}
+        { 
+            "@type"         : "Suite",
+            "name"          : "{{ $.Title }}",
+            "url"           : "{{ "/" | absLangURL }}",
+            "description"   : "{{ $.Params.description }}",
+            "logo"          : "/img/logo.svg",
+            "petsAllowed"   : "False",
+            "smokingAllowed": "False",
+            "bed"           :
+            {
+              "@type"       : "BedDetails",
+              "numberOfBeds": {{ with $.Params.numberofbeds }}{{.}}{{ end }},
+              "typeOfBed"   : "{{ with $.Params.typeofbed    }}{{.}}{{ end }}"
+            },
+            "occupancy": 
+            { 
+              "@type"     : "QuantitativeValue",
+              "maxValue"  : 2
+            }
+        },
+      {{- end }}
+        {
+             "@type"      : "WebSite",
+             "@id"        : "{{ .Site.Params.Schema.publisher }}/#website",
+             "url"        : "{{ .Site.Params.Schema.publisher }}/",
+             "name"       : "{{ .Site.Title }}",
+             "description": "{{ .Site.Params.description }}",
+             "publisher"  :
+             {
+                "@id":"{{ .Site.Params.Schema.publisher }}/#organization"     
+              },
+             "potentialAction":
+             {
+                "@type"       : "SearchAction",
+                "target"      : "{{ .Site.Params.Schema.publisher }}/?s={search_term_string}",
+                "query-input" : "required name=search_term_string"
+              }  
+        },
+        {
+             "@type"  : "ImageObject",
+             "@id"    : "{{ .Params.image | absURL }}#primaryimage",
+             "url"    : "{{ .Params.image | absURL }}",
+             "width"  : 1920,
+             "height" : 1050,
+             "caption": "{{ i18n .Params.translationKey }}"
+        },
+        {
+            "@type"           : "BreadcrumbList",
+            "@id"             : "{{ .Permalink }}#breadcrumb",
+            "itemListElement" : [  
+            {
+              "@type"   : "ListItem",
+              "position": 1,
+              "item"    :
+                {
+                  "@type" : "WebPage",
+                  "@id"   : "{{ .Site.Params.Schema.publisher }}/",
+                  "url"   : "{{ .Site.Params.Schema.publisher }}/",
+                  "name"  : "{{ i18n "home" }}"
+                }
+            },
+            {
+              "@type"   : "ListItem",
+              "position": 2,
+              "item"    :
+              {
+                  "@type" : "WebPage",
+                  "@id"   : "{{ .Permalink | absURL }}",
+                  "url"   : "{{ .Permalink | absURL }}",
+                  "name"  : "{{ i18n .Params.translationKey }}"
+              }
+            }]
+        },
+        {
+            "mpn"   : 2020,
+            "@type" : "Product",
+            "@id"   : "https:\/\/summertimegoa.com/#product",
+            "description": "Would you like to stay in luxury, peace, and in the midst of nature? Located in the bustling Calangute, you might wonder how it’ll be peaceful at this property. But once you get here, the Zen-like tranquility is a revelation. The Balinese-style villa has generously-sized rooms, and the property has plant and animal life integrated into how it’s built. Check out the on-site waterfall! Spend your days lounging about in the infinity pool or the beautifully designed common areas. Minimum stay is 3 nights.",
+            "name"  : {{ .Site.Title }},
+            "brand" : {{ .Site.Title }},
+            "sku"   : 2020,
+            "review": 
+            {
+                "@type"         : "Review",
+                "author"        : "Tripadvisor",
+                "reviewRating": 
+                {
+                    "@type"      : "Rating",
+                    "bestRating" : 5,
+                    "ratingValue": 5,
+                    "worstRating": {{ $scratch.Get "worstRating" }}
+                }
+            },
+            "aggregateRating": 
+            {
+                "@type": "AggregateRating",
+                "ratingValue": 5,
+                "bestRating" : 5,
+                "ratingCount": {{ len $guestReviews }}
+            },
+            "offers": [
+{{- range $data.rates }}
+            {
+                "type"               : "Offer",
+                "description"        : {{ $.Params.description }},
+                "availabilityStarts" : {{ .start }},
+                "availabilityEnds"   : {{ .end   }},
+                "priceValidUntil"    : {{ .end   }},
+                "url"                : {{ $.Permalink }},
+                "availability"       : "InStock",
+                  {{- range .currency }}
+                  {{- if eq .forex $currentCurrency }}
+                "priceCurrency"      : "{{ .forex }}",
+                "priceSpecification" : 
+                {
+                    "@type"         : "UnitPriceSpecification",
+                    "price"         : {{ .rate  }},
+                    "priceCurrency" : "{{ .forex }}",
+                    "unitCode"      : "DAY"
+                }
+                  {{- end }}
+                  {{- end }}
+            },                               
+{{- end }}
+            ],
+            "image":
+            {
+                "@id":"\/accommodation\/koi-suite\/koi-suite.jpg/#primaryimage"
+            }
+        }
+      ]
+    }
+    </script>

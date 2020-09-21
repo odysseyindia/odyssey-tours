@@ -1,0 +1,21 @@
+{{- $icon := .Get "item" -}}
+
+{{- if eq $icon "s/s" -}}
+<i class="tour icon-camera"></i>
+{{- end -}}
+
+{{- if eq $icon "drive" -}}
+<i class="tour icon-cab"></i>
+{{- end -}}
+
+{{- if eq $icon "hotel" -}}
+<i class="tour icon-bed"></i>
+{{- end -}}
+
+{{- if eq $icon "train" -}}
+<i class="tour icon-train"></i>
+{{- end -}}
+
+{{- if eq $icon "flight" -}}
+<i class="tour icon-flight"></i>
+{{- end -}}

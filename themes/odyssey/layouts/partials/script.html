@@ -1,0 +1,70 @@
+{{ "<!-- Bootstrap -->" | safeHTML }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" async></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/popper.min.js" type="module"   crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"   crossorigin="anonymous"></script>
+{{"<!-- scripts-->" | safeHTML }}
+{{- with .Params.javascript }}
+{{"<!-- Customs scripts -->" | safeHTML }}
+  {{- range . }}
+<script src="{{.}}" ></script>
+  {{- end }}
+{{- end }}
+
+{{- $style := resources.Get "css/odyssey.css" | fingerprint }}
+<script>
+(function() {
+    var cssMain = document.createElement('link');
+    cssMain.href = "{{ $style.Permalink }}";
+    cssMain.rel = 'stylesheet';
+    cssMain.type = 'text/css';
+    document.getElementsByTagName('head')[0].appendChild(cssMain);
+})();
+</script>
+
+{{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey -}}
+{{- $scss := printf "scss/main/%s.scss" $id -}}
+{{- if fileExists (printf "assets/%s" $scss) -}}
+{{- $style := resources.Get $scss | toCSS | minify}}
+<script>
+(function() {
+    var cssMain = document.createElement('link');
+    cssMain.href = "{{ $style.Permalink }}";
+    cssMain.rel = 'stylesheet';
+    cssMain.type = 'text/css';
+    document.getElementsByTagName('head')[0].appendChild(cssMain);
+})();
+</script>
+{{- end }}
+
+{{- $cookie  := resources.Get "js/cookie-consent.js" | resources.ExecuteAsTemplate (printf "js/%s/cookie-consent.js" .Lang) . }}
+
+{{- $toggle  := resources.Get "/js/dropdownToggle.js" -}}
+{{- $lazy    := resources.Get "/js/lazysizes.min.js" -}}
+{{- $sw      := resources.Get "/js/sw.js" -}}
+{{- $mobile  := resources.Get "/js/mobile-menu.js" -}}
+{{- $tooltip := resources.Get "/js/tooltip.js" -}}
+{{- $js      := slice  $toggle $lazy $mobile $tooltip $cookie | resources.Concat "js/script.js"   }}
+<script src="{{ $js.RelPermalink }}" defer></script>
+
+{{- if eq $.Params.translationKey "gallery" }}
+{{"<!-- Gallery script -->" | safeHTML }}
+  {{- $gallery := resources.Get "/js/gallery.js" -}}
+<script src="{{ $gallery.RelPermalink }}" defer></script>
+{{- end }}
+
+<script>
+  if('serviceWorker' in navigator) {
+      navigator.serviceWorker
+          .register('/sw.js', { scope: '/' })
+          .then(function(registration) {
+              //console.log('Service Worker Registered');
+          });
+
+      navigator.serviceWorker
+          .ready
+          .then(function(registration) {
+              //console.log('Service Worker Ready');
+          });
+  }
+</script>

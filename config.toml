@@ -1,2 +1,52 @@
-languageCode = "en-us"
-title = "My New Netlify Victor Hugo Site"
+baseURL 				= "/"
+languageCode 			= "en-gb"
+title 					= "Odyssey Tours"
+theme                   = "odyssey"
+paginate 				= "6"
+summaryLength 			= "15"
+disqusShortname 		= "" # get your shortname form here : https://disqus.com
+DefaultContentLanguage 	= "en"
+disableKinds 			= ["RSS"]
+googleAnalytics         = "" 
+# enableGitInfo         = true
+enableRobotsTXT         = true
+# canonifyURLs          = true
+
+[params]
+env           = "PUBLIC"
+gtm_id        = "GTM-K4W9GX8"
+gtm_datalayer = "basic"
+disallow_search_engines = false 
+logo          = "/logo.gif"
+
+
+  
+
+[Languages]
+  [Languages.en]
+    languageName = "English"
+    languageCode = "en-gb"
+    contentDir = "content/english"
+    languageFlag = "🇬🇧"
+    weight = 1
+    home = "Home"
+    unicode = "&#127468;&#127463;"
+
+    [[Languages.en.menu.main]]
+    name = "Home"
+    identifier = "home"
+    pre = "home"
+    url = "/"
+    weight = 1
+  [[Languages.en.menu.main]]
+    name = "Tours"
+    identifier = "tours"
+    pre = "pen-tool"
+    url = "/tours/"
+    weight = 2
+  [[Languages.en.menu.main]]
+    name = "Tags"
+    identifier = "tags"
+    pre = "tag"
+    url = "/tags/"
+    weight = 3

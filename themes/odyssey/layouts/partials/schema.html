@@ -1,0 +1,160 @@
+{{- $contactdata  := index .Site.Data "contact" }}
+{{- $words        := countwords (truncate 25 .Summary) }}
+{{- $description  := cond ( gt $words 5 ) (truncate 25 .Summary) .Site.Params.description }}
+{{- $reviewers    := len (where .Site.Pages "Params.media" "tripadvisor") -}}
+{{- $ISO8601 	  := "2006-01-02T15:04:05-07:00" }}
+	{{- with .Site.Social.googleplus -}}
+	<link rel="publisher" href="{{ . }}"/>
+	{{- end }}
+	<meta itemprop="name" content="{{ .Title }}">
+	<meta itemprop="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
+	{{- if .IsPage }}
+	{{- if not .PublishDate.IsZero }}
+	<meta itemprop="datePublished" content="{{ .PublishDate.Format $ISO8601 | safeHTML }}" />
+	{{- end }}
+	{{- end }}
+
+	{{- if not .Date.IsZero }}
+	<meta itemprop="dateModified" content="{{ .Date.Format $ISO8601 | safeHTML }}" />
+	{{- end }}
+
+	{{- with .Params.images }}
+	{{- range first 6 . }}
+	<meta itemprop="image" content="{{ . | absURL }}">
+	{{- end }}
+	{{- else }}
+	{{- with .Params.carousel }}
+	{{- range first 6 . }}
+	<meta itemprop="image" content="{{ .url | absURL }}">
+	{{- end }}
+	{{- end }}
+	{{- end }}
+
+	{{/*<!-- Articles -->" */}}
+	  
+{{- if eq .Section "reviews" }}
+
+ 	{{- $subject := index (split .RelPermalink "/") 2}}
+    {{- $paginator := (where .Pages "Section" $subject ) }}
+	      
+
+  {{- if $paginator }}
+    <link rel="first" href="{{ $paginator.First.URL }}">
+    <link rel="last" href="{{ $paginator.Last.URL }}">
+    {{- if $paginator.HasPrev }}
+    <link rel="prev" href="{{ $paginator.Prev.URL }}">
+    {{- end }}
+    {{- if $paginator.HasNext }}
+    <link rel="next" href="{{ $paginator.Next.URL }}">
+    {{- end }}
+  {{- end }}
+    <meta property="og:type" content="article" />
+    <meta property="article:publisher" content="{{ .Site.Social.facebook }}" /> 
+    <meta property="og:article:published_time" content={{ .Date.Format "2006-01-02T15:04:05Z0700" | safeHTML }} /> 
+    <meta property="article:published_time" content={{ .Date.Format "2006-01-02T15:04:05Z0700" | safeHTML }} />
+  {{- with.Params.author }} 
+    <meta property="og:article:author" content="{{ humanize . }}" />
+    <meta property="article:author" content="{{ humanize . }}" /> 
+    <meta name="author" content="{{ humanize . }}" /> 
+  {{- end }}
+  {{- with .Params.category }} 
+    <meta name="news_keywords" content="{{ index . 0 }}" />
+    <meta property="article:section" content="{{ index . 0 }}" /> 
+  {{- end }}
+    <script defer type="application/ld+json">
+      {
+        "@context"	: "https://schema.org",
+        "@type"		: "NewsArticle",
+        "mainEntityOfPage": {
+        "@type"	: "WebPage",
+        "@id"	: "{{ .Params.link }}"
+        },
+        "headline": {{ .Title }},
+    {{- with .Params.author }}
+        "author": {
+          "@type" : "Person",
+          "name"  : "{{.}}"
+        },
+    {{- end }}
+        "datePublished"   : "{{ .Date.Format "2006-01-02" }}",
+        "description"     : "{{ $description }}",
+        "mainEntityOfPage": "True",
+        "dateModified"    : "{{ .Lastmod.Format "2006-01-02" }}",
+        "image": {
+          "@type" : "imageObject",
+          "url"   : "{{ with .Params.image }}{{ $.Permalink }}{{ end }}"
+        }
+    {{- with .Params.Publisher }}   
+        ,"publisher": {
+          "@type" : "Organization",
+          "name"  : "{{.}}",
+          "logo"  : {
+            "@type" : "imageObject",
+            "url"   : "{{ range $i,$e := $.Params.Images }}{{ if eq $i 0 $e }}{{end}}{{end}}"
+          }
+        }
+    {{- end }}    
+      }
+    </script>
+{{- else }}
+    <meta property="og:type" content="{{ .Site.Params.Schema.Type }}" /> 
+    <meta name="author" content="{{ .Site.Params.author }}" />
+    <script defer type="application/ld+json">
+      {
+      "@context"      : "http://www.schema.org",
+      "@type"         : "{{ .Site.Params.Schema.Type }}",
+      "name"          : "{{ .Site.Params.Schema.Name }}",
+      "alternateName" : "{{ .Site.Params.Schema.AlternateName }}",
+      "url"           : "{{ "/" | absLangURL }}",
+      "description"   : "{{ .Site.Params.description }}",
+      "numberOfRooms" : 3,
+      "award"         : "{{ .Site.Params.Schema.Award }}",
+      "starRating"    : { 
+        "@type"       : "Rating",
+        "ratingValue" : 5
+      },
+      "checkinTime"   : "{{ .Site.Params.Schema.checkinTime }}",
+      "checkoutTime"  : "{{ .Site.Params.Schema.checkoutTime }}",
+      "petsAllowed"   : "false",
+      "amenityFeature": ["pool","gardens","koi pond","waterfall"],
+      "address": {
+        "@type"          : "PostalAddress",
+        "streetAddress"  : "{{ $contactdata.address.address }}",
+        "addressLocality": "{{ $contactdata.address.locality }}",
+        "addressRegion"  : "{{ $contactdata.address.region }}",
+        "postalCode"     : "{{ $contactdata.address.pincode }}",
+        "addressCountry" : "{{ $contactdata.address.country }}"
+      },
+      "geo":{
+        "@type":"GeoCoordinates",
+        "latitude":  {{ $contactdata.latitude }},
+        "longitude": {{ $contactdata.longitude }}
+      },
+      "hasmap":"https://www.google.nl/maps/place/Summertime/@15.5363794,73.7709031,17z/data=!3m1!4b1!4m12!1m6!3m5!1s0x3bbfc1dd1433b8dd:0xd28c28dd4485515e!2sSummertime!8m2!3d15.5363742!4d73.7730971!3m4!1s0x3bbfc1dd1433b8dd:0xd28c28dd4485515e!8m2!3d15.5363742!4d73.7730971?hl=en",
+      "logo": {{ $contactdata.logo_url | absLangURL}},   
+      "image": {
+        "@type": "imageObject",
+        "url":"{{ .Site.Params.Schema.Image | absLangURL }}"
+      },
+      "photo":{ 
+        "@type":"Photograph",
+        "url": "{{ .Site.Params.Schema.Photo | absLangURL}}"
+      },
+      "telephone" : {{ $contactdata.telephone.number }},
+      "email"     : "mailto:{{ $contactdata.email.id }}",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.9,
+        "bestRating" : 5,
+        "ratingCount": {{ $reviewers }}
+      },
+      "priceRange":"{{ .Site.Params.Schema.PriceRange }}",
+      "sameAs" : [
+          {{- range $i,$e := .Site.Params.social }}
+          {{- if $i }}, {{ end }}
+          {{ .url  }}
+          {{- end }}
+         ]
+    }
+    </script>
+  {{- end }}

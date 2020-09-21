@@ -1,0 +1,113 @@
+{{- $contactdata  := index .Site.Data "contact" }}
+{{- $words        := countwords (truncate 25 .Summary) }}
+{{- $description  := cond ( gt $words 5 ) (truncate 25 .Summary) .Site.Params.description }}
+{{- $reviewers    := len (where .Site.Pages "Params.media" "tripadvisor") -}}
+{{- $ISO8601 	    := "2006-01-02T15:04:05-07:00" }}
+
+	{{- with .Site.Social.googleplus -}}
+	<link rel="publisher" href="{{ . }}"/>
+	{{- end }}
+	<meta itemprop="name" content="{{ .Title }}">
+	<meta itemprop="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
+	{{- if .IsPage }}
+	{{- if not .PublishDate.IsZero }}
+	<meta itemprop="datePublished" content="{{ .PublishDate.Format $ISO8601 | safeHTML }}" />
+	{{- end }}
+	{{- end }}
+
+	{{- if not .Date.IsZero }}
+	<meta itemprop="dateModified" content="{{ .Date.Format $ISO8601 | safeHTML }}" />
+	{{- end }}
+
+	{{- with .Params.images }}
+	{{- range first 6 . }}
+	<meta itemprop="image" content="{{ . | absURL }}">
+	{{- end }}
+	{{- else }}
+	{{- with .Params.carousel }}
+	{{- range first 6 . }}
+	<meta itemprop="image" content="{{ .url | absURL }}">
+	{{- end }}
+	{{- end }}
+	{{- end }}
+	{{/*<!-- Articles -->" */}}
+    <meta property="og:type" content="article" />
+    <meta property="article:publisher" content="{{ .Site.Social.facebook }}" /> 
+    <meta property="og:article:published_time" content={{ .Date.Format "2006-01-02T15:04:05Z0700" | safeHTML }} /> 
+    <meta property="article:published_time" content={{ .Date.Format "2006-01-02T15:04:05Z0700" | safeHTML }} />
+  {{- with.Params.author }} 
+    <meta property="og:article:author" content="{{ humanize . }}" />
+    <meta property="article:author" content="{{ humanize . }}" /> 
+    <meta name="author" content="{{ humanize . }}" /> 
+  {{- end }}
+  {{- with .Params.category }} 
+    <meta name="news_keywords" content="{{ index . 0 }}" />
+    <meta property="article:section" content="{{ index . 0 }}" /> 
+  {{- end }}
+
+{{- if eq .CurrentSection.Params.id "guest-reviews" }}
+    <script defer type="application/ld+json">
+     {
+  "@context": "http://schema.org",
+  "@type": "Hotel",
+  "name": "{{.Site.Title}}",
+  "image": "https://www.summertimegoa.com",
+  "aggregateRating": {
+    "@type"      : "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": {{ $reviewers }}
+  },
+  "review": [
+    {
+      "@type"         : "Review",
+      "author"        : "{{.Params.client}}",
+      "datePublished" : "{{ dateFormat "2/1/2006" .Params.date }}",
+      "description"   : "{{ .Summary }}",
+      "name"          : "{{ .Title }}",
+      "reviewRating": {
+        "@type"      : "Rating",
+        "bestRating" : 5,
+        "ratingValue": 5,
+        "worstRating": 4
+      }
+    }
+  ]
+}
+</script>  
+    </script>
+{{- else }}
+    <script defer type="application/ld+json">
+      {
+        "@context"	: "https://schema.org",
+        "@type"		: "NewsArticle",
+        "mainEntityOfPage": {
+           "@type"	: "Hotel",
+           "@id"	  : "{{ .Params.link }}"
+        },
+        "headline": {{ .Title }},
+    {{- with .Params.author }}
+        "author": {
+          "@type" : "Person",
+          "name"  : "{{.}}"
+        },
+    {{- end }}
+        "datePublished"   : "{{ .Date }}",
+        "description"     : "{{ $description }}",
+        "dateModified"    : "{{ .Lastmod }}",
+        "image": {
+          "@type" : "imageObject",
+          "url"   : "{{ with .Params.image }}{{ $.Permalink }}{{ end }}"
+        }
+    {{- with .Params.Publisher }}   
+        ,"publisher": {
+          "@type" : "Organization",
+          "name"  : "{{.}}",
+          "logo"  : {
+            "@type" : "imageObject",
+            "url"   : "{{ range $i,$e := $.Params.Images }}{{ if eq $i 0 $e }}{{.}}{{end}}{{end}}"
+          }
+        }
+    {{- end }}    
+      }
+    </script>
+{{- end }}

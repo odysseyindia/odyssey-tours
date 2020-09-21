@@ -1,0 +1,21 @@
+<header>
+    <div id="nav-border" class="container">
+    <nav id="nav" class="nav justify-content-center">
+        <div class="logo">
+        <img src="{{.Site.Params.logo}}" title="{{.Site.Title}}" alt="{{.Site.Title}} logo">
+        </div>
+        {{ range .Site.Menus.main }}
+        <div class="nomenu">
+        <a class="nav-link" href="{{ .URL }}">
+        {{ if .Pre }}
+        {{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
+        {{ $icon }}
+        {{ end }}
+        {{ .Name | safeHTML }}
+        </a>
+        </div>
+        {{ end }}
+        </div>
+    </nav>
+</div>
+</header>
