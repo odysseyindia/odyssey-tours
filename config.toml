@@ -59,7 +59,7 @@ logo          = "/logo.gif"
     name = "Cities"
     identifier = "cities"
     pre = "pen-tool"
-    url = "/states/gujarat/cities/"
+    url = "/cities/"
     weight = 4
   [[Languages.en.menu.main]]
     name = "Tags"

@@ -5,8 +5,6 @@ date: 2020-09-21T12:59:23+02:00
 draft: false
 image: gujarat.jpg
 tags: ["gujarat", "states"] 
-javascript: [ "http://www.travellers-palm.com/lg-map/raphael.js", "http://www.travellers-palm.com/lg-map/scale.raphael.js", "http://www.travellers-palm.com/lg-map/lg-map.js" ]
-
 ---
 
 Grossly underrated and often completely overlooked by travellers, Gujarat is an ideal tourist destination offering a little bit of everything.
