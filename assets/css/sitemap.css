@@ -1,0 +1,11 @@
+#sitemap ul {
+  list-style-type: square;
+  color: #b4a258; }
+#sitemap li {
+  font-size: 1rem; }
+#sitemap a {
+  color: #6c757d; }
+  #sitemap a:hover {
+    color: initial; }
+
+/*# sourceMappingURL=sitemap.css.map */

@@ -12,6 +12,11 @@ googleAnalytics         = ""
 enableRobotsTXT         = true
 # canonifyURLs          = true
 
+
+[taxonomies]
+  tag = "tags"
+
+
 [params]
 env           = "PUBLIC"
 gtm_id        = "GTM-K4W9GX8"
@@ -45,8 +50,25 @@ logo          = "/logo.gif"
     url = "/tours/"
     weight = 2
   [[Languages.en.menu.main]]
+    name = "States"
+    identifier = "states"
+    pre = "pen-tool"
+    url = "/states/"
+    weight = 3
+  [[Languages.en.menu.main]]
+    name = "Cities"
+    identifier = "cities"
+    pre = "pen-tool"
+    url = "/states/gujarat/cities/"
+    weight = 4
+  [[Languages.en.menu.main]]
     name = "Tags"
     identifier = "tags"
     pre = "tag"
     url = "/tags/"
-    weight = 3
+    weight = 50
+  [[Languages.en.menu.main]]
+    name = "Sitemap"
+    parent = "tags"
+    url = "/sitemap/"
+    weight = 51

@@ -38,6 +38,9 @@ font-family: "Proxima Nova", -apple-system, BlinkMacSystemFont, "Segoe UI", Robo
 */
    }
 
+h2 {
+  text-align: center; }
+  
 a {
   color: $anchor;
   text-decoration: none;
@@ -72,17 +75,6 @@ ol:before.no-content, li:before.no-content {
 p.left, div.left {
   text-align: left; }
 
-h3, #content h4 {
-  text-align: center; }
-
-h3 {
-  font-size: 2rem;
-  padding-bottom: 15px;
-  padding-top: 15px; 
-  font-family: JosefinSans;}
-
-h4 {
-  font-size: 1.5rem; }
 
 .block {
   display: block; }
@@ -139,12 +131,3 @@ iframe .gtm {
   display:none; 
   visibility:hidden;
   }
-
-
-h2.image-title {
-  position: relative;
-  font-weight: normal;
-  top: -50px;
-  left: 5px;
-  color: #fff;
-}

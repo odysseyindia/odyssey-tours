@@ -1,0 +1,36 @@
+{{ define "main" }}
+
+{{"<!-- Start Section -->" | safeHTML}}
+<section id="sitemap">
+  <div class="container">
+    <div class="row">
+      <div class="mx-auto w-50 p-1">
+        {{"<!-- content -->" | safeHTML}}
+        <h3>{{ .Title }}</h3>  
+        <div class="left">
+          <ul>
+            {{- range sort .Site.Sections.ByTitle  }}
+            {{- $section := . }}
+            {{ if ne (substr $section.Title 0 3) "404" }}
+            <h4 class="left">{{ $section.Title }}</h4>
+            <div class="grid left">
+              {{- range $section.Pages.ByTitle }}
+              <h5 class="left"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h5> 
+              <ul>
+                {{- range .Data.Pages }}
+                <li class="left"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                {{- end -}}
+              </ul> 
+              {{- end -}}
+            </div>
+            {{- end }}
+            {{- end }}
+          </ul>
+        </div>
+        {{"<!-- end content -->" | safeHTML}}
+      </div>
+    </div>
+  </div>
+</section>
+{{"<!-- end Section -->" | safeHTML}}
+{{- end }}

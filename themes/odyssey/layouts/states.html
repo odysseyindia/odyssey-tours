@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+{{ "<!-- The CONTENT Now -->" | safeHTML }}
+{{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
+<section id="{{ $id | lower }}">
+  <div class="container">
+    <div class="row">
+      <div class="w-50">
+      	{{- $image := cond (isset .Params "image") ( .Params.image ) (.CurrentSection.Params.image) }}
+	    {{- with $image }}
+	    <img class="lazyload" src="{{.}}" title="{{$.Params.Title}}" 
+	    alt="{{$.Params.Title}}" srcset="{{.}} 500w, {{.}} 800w, {{.}} 1200w, {{.}} 1500w">
+	    {{- end }}
+      	<h2 class="image-title">{{ .Title }}</h2>
+        {{ .Content }}
+      </div>
+      <div class="w-50">
+        <div class="lg-map-wrapper" data-map="http://www.travellers-palm.com/lg-map/india.js">
+          <div id="lg-map"></div>
+          <div class="lg-map-text"></div>
+          <img class="lazyload" src="map.png" alt="Map of Indian states" title="Map of the Indian states">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

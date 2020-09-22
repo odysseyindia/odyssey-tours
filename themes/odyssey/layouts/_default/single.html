@@ -1,4 +1,6 @@
 {{ define "main" }}
+
+
 {{ "<!-- The CONTENT Now -->" | safeHTML }}
 {{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
 <section id="{{ $id | lower }}">

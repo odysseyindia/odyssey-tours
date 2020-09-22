@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEC,WAAG;EACA,eAAe,EAAE,MAAM;EACvB,KAAK,ECHC,OAAO;ADMhB,WAAG;EACA,SAAS,EAAE,IAAI;AAGlB,UAAE;EACC,KAAK,ECRF,OAAO;EDSV,gBAAQ;IACP,KAAK,EAAE,OAAO",
+"sources": ["../scss/_sitemap.scss","../../themes/summertime/assets/scss/summertime-theme/utils/_variables.scss"],
+"names": [],
+"file": "sitemap.css"
+}

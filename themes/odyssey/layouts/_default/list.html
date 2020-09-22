@@ -2,13 +2,14 @@
 
 {{"<!-- Start CONTENT Section -->" | safeHTML}}
 {{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
+
 <section id="{{ $id | lower }}"> 
   <div class="container">
     <div class="row">
       <div class="col-12">
         {{"<!-- section title -->" | safeHTML}}
         <div class="title text-center wow fadeInDown">
-          <h3>{{ .Title }}</h3>
+          <h2>{{ .Title }}</h2>
           {{ .Content }}
           <div class="border-meghna"></div>
         </div>
@@ -18,7 +19,11 @@
       <div class="card-deck">
         <div class="row row-cols-1 row-cols-md-3">
       {{- range $paginator.Pages }}
-      {{ .Render "tour" }}
+        {{- if eq .Section "states" }}
+        {{- .Render "state" }}
+        {{- else if eq .Section "tours" }}
+        {{- .Render "tour" }}
+        {{- end }}
       {{- end }}
     </div>
     </div>
