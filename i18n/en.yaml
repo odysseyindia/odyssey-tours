@@ -1,0 +1,180 @@
+- id: blogTitle
+  translation: Latest News
+- id: readMore
+  translation: Read more
+- id: readBlog
+  translation: Read this blog
+- id: readArticle
+  translation: Read this article
+- id: readReview
+  translation: Read review
+- id: viewAllPost
+  translation: View All Post
+- id: share
+  translation: Share
+- id: aboutAuthor
+  translation: About author
+- id: authorsPosts
+  translation: Author's posts
+- id: submit
+  translation: Submit
+- id: all
+  translation: All
+- id: copyright
+  translation: " "
+- id: email
+  translation: Email
+- id: address
+  translation: Address
+- id: phone
+  translation: Telephone
+- id: mobile
+  translation: Mobile
+- id: accommodation
+  translation: Accommodation
+- id: the-villa
+  translation: The Villa
+- id: living-room
+  translation: Living Room
+- id: koi-suite
+  translation: Koi Suite
+- id: coral-suite
+  translation: Coral Suite
+- id: sunflower-suite
+  translation: Sunflower Suite
+- id: gardens
+  translation: The Gardens
+- id: gardens-and-pool
+  translation: Gardens & Pool
+- id: private-pool
+  translation: Private Pool
+- id: tropical-gardens
+  translation: Tropical Gardens
+- id: waterfall-and-pond
+  translation: Waterfall & Koi Pond
+- id: waterfall-and-koi-pond
+  translation: Waterfall & Koi Pond
+- id: rates
+  translation: Rates
+- id: ratesrates
+  translation: Rates
+- id: myrates
+  translation: Rates
+- id: inclusions
+  translation: Inclusions
+- id: amenities-and-inclusions
+  translation: Amenities and Inclusions
+- id: faq
+  translation: FAQ
+- id: conditions
+  translation: Conditions
+- id: contact
+  translation: Contact
+- id: contact-us
+  translation: Contact Us
+- id: about-us
+  translation: About Us
+- id: gallery
+  translation: Gallery
+- id: reviews
+  translation: Reviews
+- id: guest-reviews
+  translation: Guest Reviews
+- id: press-reviews
+  translation: Press Reviews
+- id: press-kit
+  translation: Press Kit
+- id: press-release
+  translation: Press Release
+- id: blog
+  translation: Blog
+- id: your-country
+  translation: Your Country of Residence
+- id: your-name
+  translation: Your Name
+- id: your-email-address
+  translation: Your Email Address
+- id: your-arrival-date
+  translation: Your expected arrival date
+- id: your-message
+  translation: Your Message
+- id: home
+  translation: Home
+- id: a-luxury-villa-in-goa
+  translation: A Luxury Villa in Goa
+- id: nature-retreat
+  translation: Nature Retreat
+- id: cookie-statement
+  translation: Cookie Statement
+- id: policies
+  translation: Policies
+- id: sitemap
+  translation: Sitemap
+- id: make-a-villa-enquiry
+  translation: Make a Villa Enquiry
+- id: wish-to-rent
+  translation: Wish to rent this nature retreat in Goa?
+- id: wish-to-rent-text
+  translation: If you'd like to ask any questions about our villa, we are always on hand to help.
+- id: users-on
+  translation: Users on 
+- id: have-rated
+  translation: have rated our property as
+- id: with-a-score-of
+  translation:  with a score of
+- id: based-on
+  translation: based on
+- id: inclusions-subtitle
+  translation: What's included in the rental price for Summertime? What's not?
+- id: registered-office
+  translation: Registered Office
+- id: incorporated
+  translation: Summertime Goa is a trading name for Odyssey Tours & Travels Pvt Ltd, incorporated in the state of Maharashtra, India.
+- id: send-us-a-message
+  translation: Send us a message using the form below or an email. 
+- id: goa-nature-retreat
+  translation: Accommodation
+- id: streetview
+  translation: 360°
+- id: english
+  translation: "🇬🇧"
+- id: dutch
+  translation: "🇳🇱"
+- id: language
+  translation: Language
+- id: pagination.next
+  translation: next
+- id: pagination.previous
+  translation: previous
+- id: global.share_on
+  translation: Share on 
+- id: global.share_by
+  translation: Share by 
+- id: not-found
+  translation: Not Found 
+- id: sorry
+  translation: Sorry, but we couldn't find the page you're looking for.
+- id: head-back
+  translation: Please head back
+- id: nights
+  translation: "Daily Rate (minimum stay is 3 nights)"
+- id: "message"
+  translation: This website uses cookies to ensure you get the best experience on our website. By using our site, you are agreeing to our use of cookies. Please consult our 
+- id: "reject"
+  translation: Reject
+- id: "decline"
+  translation: Decline
+- id: "allow"
+  translation: Allow Cookies
+- id: is-available-on
+  translation: is available on
+- id: longer-stays
+  translation: Summertime available for longer stays
+- id: special-discounts
+  translation: Contact us for special discounts
+- id: up-to
+  translation: up to  
+- id: click-for-details
+  translation: Click here for details.
+- id: thank-you
+  translation: Thank you!

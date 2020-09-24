@@ -11,7 +11,6 @@ googleAnalytics         = ""
 enableRobotsTXT         = true
 # canonifyURLs          = true
 
-
 [taxonomies]
   tag = "tags"
 
@@ -22,9 +21,6 @@ gtm_id        = "GTM-K4W9GX8"
 gtm_datalayer = "basic"
 disallow_search_engines = false 
 logo          = "/logo.gif"
-
-
-  
 
 [Languages]
   [Languages.en]
