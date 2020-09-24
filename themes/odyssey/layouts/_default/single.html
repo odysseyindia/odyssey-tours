@@ -1,11 +1,10 @@
 {{ define "main" }}
-
-
 {{ "<!-- The CONTENT Now -->" | safeHTML }}
 {{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
 <section id="{{ $id | lower }}">
   <div class="container">
     <div class="row">
+      TEST
       <div class="mx-auto w-50 p-1">
       	{{- $image := cond (isset .Params "image") ( .Params.image ) (.CurrentSection.Params.image) }}
 	    {{- with $image }}

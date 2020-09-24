@@ -1,0 +1,78 @@
+{{ define "main" }}
+{{ "<!-- The CONTENT Now -->" | safeHTML }}
+{{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
+<section id="{{ $id | lower }}">
+  <div class="container">
+   
+      <div class="image">
+        {{- $image := cond (isset .Params "image") ( .Params.image ) (.CurrentSection.Params.image) }}
+        {{- with $image }}
+        <img class="lazyload" src="{{.}}" title="{{$.Params.Title}}" 
+        alt="{{$.Params.Title}}" srcset="{{.}} 500w, {{.}} 800w, {{.}} 1200w, {{.}} 1500w">
+        {{- end }}
+      </div>
+      <div class="heading">
+        <h2>{{ .Title }}</h2>
+        <h3>{{ .Params.subtitle }}</h3>
+      </div>
+      <div class="price-bar row">
+        <div class="item">
+          <span class="bold">Duration</span> {{.Params.duration |upper }} 
+        </div>
+        <div class="item">
+          <span class="bold">Price from </span>EUR {{with .Params.price }} {{ . | lang.NumFmt 2 }} {{ end }}
+        </div>
+        <div class="item price-bar row">
+          <div class="item2">
+            <span class="bold">Start</span><br>{{ .Params.start }}
+          </div>
+          <div class="item2">
+            <span class="bold">End</span><br>{{ .Params.end }}
+          </div>
+        </div>
+        <div class="item">
+          <span class="bold">Best time to go</span><br>{{ .Params.time }}
+        </div>
+      </div>
+      <div class="mx-auto w-50 p-1">
+        <br>
+        <p class="intro">{{ .Params.intro }}</p>
+        <div class="can-be-tailored">
+          <p>All trips can be tailored to your needs!<br>
+          Get in touch with us <a href="/contact">here</a></p>
+        </div>
+        <div class="tabs">
+          <ul class="nav nav-tabs nav-fill ">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#itinerary">Itinerary</a>
+            </li>
+             <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#map">Map</a>
+            </li>
+             <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#similar">Similar Itineraries</a>
+            </li>
+          </ul>
+          <div class="tab-content">
+            <div id="itinerary" class="tab-pane active">
+              {{ .Content }}
+            </div>
+            <div id="map" class="tab-pane">
+              <div class="row">
+                picture of the map
+            </div>
+            </div>
+            <div id="similar" class="tab-pane">
+              <div class="row">
+                similar itineraries here
+              </div>
+            </div>
+        </div> 
+      </div>
+      <div class="can-be-tailored">
+        <p>Possible extensions to this trip</p>
+      </div>
+  </div>
+</section>
+{{"<!-- end Content -->" | safeHTML}}
+{{- end }}

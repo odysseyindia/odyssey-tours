@@ -1,13 +1,19 @@
 ---
-title: "Classic India 11 days"
+title: "Classic India"
+subtitle: "Some subtitle"
 date: 2020-09-21T12:59:23+02:00
 draft: false
 image: classic-india.jpg
 tags: ["rajasthan", "tours"] 
-price: 1040
+layout: "tours"
+duration: 6 days
+price: 510
+start: Delhi
+end: Delhi
+time: October-March
+intro: "A classic adventure in northern India. The journey includes the palaces of Jaipur, the immortal beauty of the Taj Mahal, the medieval temple town of Orchha, the erotic statues of Khajuraho and sunrise over the sacred Ganges. A boat ride on the Ganges at dawn, when it is full of pilgrims making their sin-cleansing dip in the holy river is an amazing experience."
 ---
 
-A classic adventure in northern India. The journey includes the palaces of Jaipur, the immortal beauty of the Taj Mahal, the medieval temple town of Orchha, the erotic statues of Khajuraho and sunrise over the sacred Ganges. A boat ride on the Ganges at dawn, when it is full of pilgrims making their sin-cleansing dip in the holy river is an amazing experience.
 
 ### Delhi, Day 1
 

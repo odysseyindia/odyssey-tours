@@ -1,12 +1,97 @@
 #tours {
 
+.container{
+	max-width: 100vw;
+	padding-left: 0;
+	padding-right: 0;
+}
+
 .city {
 	font-weight: 600;
 	color: $black;
 }
-
+ 
 .day {
 	color: blue;
 }
+
+.image{
+	width: 100vw;
+}
+
+h2,h3{
+	margin-bottom:0;
+}
+
+.heading {
+	background-color: $primary;
+	color: $white;
+	text-align: center;
+	
+}
+.price-bar {
+	background-color: $white;
+	color: $primary;
+	display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.item {
+	flex-grow: 1;
+	text-align: center;
+	width: 25%;
+	border-left: 2px solid $primary;
+
+}
+
+.can-be-tailored {
+	background-color: $primary;
+	color: $white;
+	text-align: center;
+	font-size: 1rem;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+	& a {
+	color: $white;
+	text-decoration: underline;
+	}
+	& p {
+		margin-bottom: 0;
+	}
+}
+
+img {
+	max-width: 100%;
+}
+
+.nav-item {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+a.nav-link {
+	color: $body;
+}
+
+.nav-tabs .nav-link, .nav-tabs .nav-item.show .nav-link {
+    border-color: gray gray $white;
+    background-color: #d3d3d3;
+}
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    border-color: $primary $primary $white;
+    background-color: $white;
+}
+
+
+
+
+
+.tab-content {
+	margin-top: 20px;
+}
+
 
 }
