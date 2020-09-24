@@ -3,22 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/cities/ahmedabad/</loc>
-    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tours/another-tour/</loc>
-    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/cities/bandhavgarh/</loc>
-    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/cities/</loc>
     <lastmod>2020-09-21T12:59:23+02:00</lastmod>
   </url>
   
@@ -54,11 +39,6 @@
   
   <url>
     <loc>/tags/gujarat/</loc>
-    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/cities/kanha/</loc>
     <lastmod>2020-09-21T12:59:23+02:00</lastmod>
   </url>
   
@@ -119,11 +99,6 @@
   
   <url>
     <loc>/tags/tamil-nadu/</loc>
-    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/cities/</loc>
     <lastmod>2020-09-21T12:59:23+02:00</lastmod>
   </url>
   
