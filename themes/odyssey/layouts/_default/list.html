@@ -2,7 +2,6 @@
 
 {{"<!-- Start CONTENT Section -->" | safeHTML}}
 {{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
-
 <section id="{{ $id | lower }}"> 
   <div class="container">
     <div class="row">
@@ -19,11 +18,17 @@
       <div class="card-deck">
         <div class="row row-cols-1 row-cols-md-3">
       {{- range $paginator.Pages }}
-        {{- if eq .Section "states" }}
+
+        {{- if eq .Section "cities" }}
+        {{- .Render "city" }}
+        {{- else if eq .Section "states" }}
         {{- .Render "state" }}
         {{- else if eq .Section "tours" }}
         {{- .Render "tour" }}
+        {{- else }}
+        {{- .Render "summary" }}
         {{- end }}
+        
       {{- end }}
     </div>
     </div>

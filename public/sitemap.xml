@@ -3,15 +3,147 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/categories/</loc>
+    <loc>/cities/ahmedabad/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tours/another-tour/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cities/bandhavgarh/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/cities/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tours/classic-india/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/states/delhi/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/delhi/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/states/goa/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/goa/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/states/gujarat/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/gujarat/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cities/kanha/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/states/kerala/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/kerala/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/states/maharashtra/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/maharashtra/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/states/rajasthan/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/rajasthan/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tours/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/states/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/states/tamil-nadu/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/tamil-nadu/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cities/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/states/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/tours/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/offline/</loc>
+    <lastmod>2020-06-27T19:28:41+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/sitemap/</loc>
   </url>
   
 </urlset>

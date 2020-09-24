@@ -4,6 +4,7 @@ subtitle: "One of India's most colourful states"
 date: 2020-09-21T12:59:23+02:00
 draft: false
 image: gujarat.jpg
+translationkey: "gujarat"
 tags: ["gujarat", "states"] 
 ---
 

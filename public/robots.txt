@@ -1,7 +1,2 @@
 User-agent: *
-{{ if ne ( getenv "HUGO_ENV" ) "production" -}}
 Disallow: /
-{{- else -}}
-Disallow: /admin/
-Disallow: /xmisc/
-{{- end -}}
