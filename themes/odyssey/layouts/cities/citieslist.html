@@ -2,6 +2,16 @@
 
 {{"<!-- Start CONTENT Section -->" | safeHTML}}
 {{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
+
+{{ $pages := slice }}
+{{ $currentSection := .CurrentSection }}
+
+{{ range where .Site.RegularPages "Section" .Section }}
+  {{ if in (.Permalink | string) $currentSection.RelPermalink }}
+    {{ $pages = $pages | append . }}
+  {{ end }}
+{{ end }}
+
 <section id="{{ $id | lower }}"> 
   <div class="container">
     <div class="row">
@@ -14,13 +24,11 @@
         </div>
       </div>
       {{"<!-- show the articles -->" | safeHTML}}
-      {{- $paginator := .Paginate .Data.Pages }}
+      {{- $paginator := .Paginate $pages }}
       <div class="card-deck">
         <div class="row row-cols-1 row-cols-md-3">
       {{- range $paginator.Pages }}
-
-        {{- .Render "summary" }}
-        
+        {{- .Render "city" }}
       {{- end }}
     </div>
     </div>
