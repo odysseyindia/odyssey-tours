@@ -64,11 +64,14 @@ margin-bottom: 30px;
   left: -50px;
   top: 25px;
 }
+
 .icon-camera { content: '\e800'; } 
 .icon-flight { border-color: #ca5; color: #ca5;} 
 .icon-cab { border-color: #c09eda; color: #c09eda;} 
 .icon-bed { border-color: #fea700; color: #fea700;} 
 .icon-train { border-color: #f49ac1; color: #f49ac1;}
+.icon-home { color: $primary;}
+
 
 .spacing {
   margin: 10px;

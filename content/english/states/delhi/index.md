@@ -1,13 +1,13 @@
 ---
 title: "Delhi"
-subtitle: "The capital of India, perfectly blending historic and modern India."
+subtitle: "The Capital City"
 date: 2020-09-21T12:59:23+02:00
 draft: false
 image: delhi.jpg
-tags: ["delhi", "states"] 
-
+translationKey: delhi
+id: state
+layout: "state"
 ---
-
 
 Old Delhi was the capital of Moghul India between the 12th and the 19th centuries. You will find here many mosques, monuments and forts of the Moghul period of India's history.
 

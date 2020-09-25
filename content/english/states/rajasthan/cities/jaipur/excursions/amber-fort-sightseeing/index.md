@@ -1,0 +1,13 @@
+---
+title: "Amber Fort Sightseeing"
+draft: false
+date: 2020-09-21T12:59:23+02:00
+translationKey: amber-fort-sightseeing
+id: "excursions"
+tags: ["Rajasthan", "Jaipur", "Excursions"] 
+carousel:
+  - url: 1-rajasthan-jaipur-excursions-amber-fort-ganesh-pol.jpg
+  - url: 2-rajasthan-jaipur-excursions-amber-fort-courtyard.jpg
+  - url: 3-rajasthan-jaipur-excursions-amber-fort-pillared-pavilion.jpg
+  - url: 4-rajasthan-jaipur-excursions-amber-fort-large-stepwell.jpg
+---

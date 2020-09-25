@@ -48,22 +48,37 @@ logo          = "/logo.gif"
     name = "States"
     identifier = "states"
     pre = "pen-tool"
+    weight = 30  
+  [[Languages.en.menu.main]]
+    name = "States"
+    parent = "states"
+    pre = "pen-tool"
     url = "/states/"
-    weight = 3
+    weight = 31
+  [[Languages.en.menu.main]]
+    name = "Interstates"
+    parent = "states"
+    pre = "pen-tool"
+    url = "/interstates/"
+    weight = 32
   [[Languages.en.menu.main]]
     name = "Cities"
     identifier = "cities"
     pre = "pen-tool"
-    url = "/cities/"
+    url = "/states/uttar-pradesh/cities/"
     weight = 4
   [[Languages.en.menu.main]]
     name = "Tags"
     identifier = "tags"
     pre = "tag"
-    url = "/tags/"
     weight = 50
+  [[Languages.en.menu.main]]
+    name = "Tags"
+    parent = "tags"
+    url = "/tags/"
+    weight = 51
   [[Languages.en.menu.main]]
     name = "Sitemap"
     parent = "tags"
     url = "/sitemap/"
-    weight = 51
+    weight = 52

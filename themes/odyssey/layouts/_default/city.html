@@ -1,18 +1,42 @@
-{{- "<!-- city info -->" | safeHTML }}
-<div class="col mb-4">
-  <div class="card h-100">
-    {{- with .Params.image -}}
-      <div class="card-img-top press-logo">
-        <img class="mr-3 publisher lazyload" itemprop="image" data-src="{{ $.Page.Permalink }}{{ . }}" alt=">{{ $.Title }}">
+{{- define "main" }}
+{{"<!-- display city -->" | safeHTML}}
+{{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
+{{- $image := cond (isset .Params "image") ( .Params.image ) (.CurrentSection.Params.image) }}
+
+<section id="{{ $id | lower }}"> 
+  <div class="container">
+      <div class="row">
+      <div class="mx-auto w-50 p-1">
+        {{- with $image }}
+        <img class="lazyload" src="{{.}}" title="{{$.Params.Title}}" 
+        alt="{{$.Params.Title}}" srcset="{{.}} 500w, {{.}} 800w, {{.}} 1200w, {{.}} 1500w">
+        {{- end }}
+        {{"<!-- section title -->" | safeHTML}}
+        <h2>{{ .Title }}</h2>
+        {{ with .Params.subtitle }}<h3>{{ . }}</h3>{{ end }}
+        {{ .Content }}
       </div>
-    {{- end -}}
-      <div class="card-body">
-      <h3 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>     
-       <h4>{{ .Params.subtitle }}</h4> 
-      <p class="card-text"><span itemprop="description">{{ .Content }}</span></p>
+      <div class="col-12">
+           <div class="icon-bar mx-auto w-50 p-1">
+      {{"<!-- show the items -->" | safeHTML}}
+
+  
+
+      {{- $paginator := .Paginate .Data.Pages }}
+      {{- with $paginator }}
+        {{- range $paginator.Pages }}
+          <div class="item">
+          <a href="{{ .Permalink }}">
+          {{ if eq .Params.id "excursions"}}<i class="icon icon-camera"></i>{{ end }}
+          {{ if eq .Params.id "hotels"}}<i class="icon icon-bed"></i>{{ end }}
+          </a>  
+          </div>
+        {{- end }}
+      {{- end }}
+      </div>
     </div>
-    <div class="card-footer">
-      <a href="{{ .Permalink }}" aria-label="Read more about {{ $.Params.Title}}"><small>Read more about {{ $.Params.Title}}</small></a>
     </div>
   </div>
-</div>
+</section>
+{{"<!-- end Content -->" | safeHTML}}
+{{- end }}

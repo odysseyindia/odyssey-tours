@@ -7,15 +7,15 @@
                 <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                   <a href="{{"/" | relLangURL }}" aria-label="{{ i18n "home"}}" itemprop="item">
                     <i class="icon-home" ></i>
-                    <meta itemprop="name" content="{{ i18n "the-villa" }}" />
+                    <meta itemprop="name" content="{{ i18n "home page" }}" />
                     <meta itemprop="position" content="1" />
                   </a>
                 </li>
-                  {{- range (split .RelPermalink "/") }}
-                  {{- if gt (len . ) 2 }}
+                  {{- range $index, $e := (split .RelPermalink "/") }}
+                  {{- if gt (len $e ) 2 }}
                   <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                    <span itemprop="name">{{ . | humanize }}</span>
-                    <meta itemprop="position" content="2" />
+                    <span itemprop="name">{{ $e | humanize | truncate 15 }}</span>
+                    <meta itemprop="position" content="{{ add 2 $index }}" />
                   </li>
                   {{- end }} 
                   {{- end }}

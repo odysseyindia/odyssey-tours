@@ -1,0 +1,18 @@
+{{- "<!-- list cities -->" | safeHTML }}
+<div class="col mb-4">
+  <div class="card h-100">
+    {{- with .Params.image -}}
+      <div class="card-img-top press-logo">
+        <img class="mr-3 publisher lazyload" itemprop="image" data-src="{{ $.Page.Permalink }}{{ . }}" alt="{{ $.Title }}">
+      </div>
+    {{- end -}}
+      <div class="card-body">
+      <h3 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>     
+       <h4>{{ .Params.subtitle }}</h4> 
+      <p class="card-text"><span itemprop="description">{{ .Content }}</span></p>
+    </div>
+    <div class="card-footer">
+      <a href="{{ .Permalink }}" aria-label="Read more about {{ $.Params.Title}}"><small>Read more about {{ $.Params.Title}}</small></a>
+    </div>
+  </div>
+</div>

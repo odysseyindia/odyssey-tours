@@ -1,20 +1,45 @@
-<header>
-    <div id="nav-border" class="container">
-        <nav id="nav" class="nav justify-content-center">
-            <div class="logo">
-                <img src="{{.Site.Params.logo}}" title="{{.Site.Title}}" alt="{{.Site.Title}} logo">
-            </div>
-            {{ range .Site.Menus.main }}
-            <div class="nomenu">
-                <a class="nav-link" href="{{ .URL }}">
-                {{ if .Pre }}
-                {{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
-                {{ $icon }}
-                {{ end }}
-                {{ .Name | safeHTML }}
-                </a>
-            </div>
-            {{ end }}
-        </nav>
+<header id="header" class="navbar-static-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-fade fixed-top">
+    <a class="navbar-brand" href="{{ "/" | absLangURL }}">
+        <div class="logo">
+            <img src="{{.Site.Params.logo}}" title="{{.Site.Title}}" alt="{{.Site.Title}} logo">
+        </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="menu" class="flex-container">
+        <div class="collapse navbar-collapse" id="navbarsDefault">
+        <ul class="navbar-nav ml-auto nav-pills nav-fill">
+        {{- $currentPage := . }}
+        {{- range $k, $v := .Site.Menus.main }}
+          {{- if .HasChildren }}
+          <li class="nav-item dropdown {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown{{ $k }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="alternative for screen readers" title="dropdown menu">
+                <i class='{{ $v.Pre }} menu'></i> {{ $v.Name }}
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown{{ $k }}">
+              {{- range sort .Children }}
+              {{- if eq .Weight 52 }}
+              <a class="dropdown-item" href="{{ .URL }}" target="_blank" rel="noreferrer">{{ .Name }}</a>
+              {{- else }}
+              <a class="dropdown-item" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+              {{- end }}
+              {{- end }} 
+              </div>
+          </li>
+          {{- else }}
+          <li class="nav-item">
+              <a href="{{ $v.URL | absLangURL }}" class="nav-link dropdown-toggle" id="navbarDropdown{{ $k }}">
+             <i class='{{ $v.Pre }} menu'></i> {{ $v.Name }}
+             </a>
+          </li>
+          {{- end }}
+        {{- end }}
+          {{- partial "language-switcher.html" . }}
+        </ul>
+      </div>
+      {{- partial "breadcrumbs.html" . }}
     </div>
+  </nav>
 </header>

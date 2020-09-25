@@ -1,0 +1,25 @@
+{{- "<!-- list hotels -->" | safeHTML }}
+{{ $scratch := newScratch }}
+{{- with .Params.carousel }}
+{{- range $index, $e := $.Page.Params.carousel }}
+{{ if eq $index 0}} 
+  {{ $scratch.Set "image" .url }}
+{{- end }}
+{{- end }}
+{{- end }}
+{{- $image := $scratch.Get "image" }}
+
+<div class="col mb-4">
+  <div class="card h-100">
+    {{- with $image -}}
+      <div class="card-img-top press-logo">
+        <img class="mr-3 publisher lazyload" itemprop="image" data-src="{{ $.Page.Permalink }}{{ . }}" alt="Tour">
+      </div>
+    {{- end -}}
+      <div class="card-body">
+      <h3 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>     
+      <h4>{{ .Params.subtitle }}</h4> 
+      <p class="card-text"><span itemprop="description">{{ .Content }}</span></p>
+    </div>
+  </div>
+</div>

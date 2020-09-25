@@ -1,19 +1,19 @@
 {{ define "main" }}
 {{ "<!-- The CONTENT Now -->" | safeHTML }}
-{{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
+{{- $id    := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
+{{- $image := cond (isset .Params "image") ( .Params.image ) (.CurrentSection.Params.image) }}
+        
 <section id="{{ $id | lower }}">
   <div class="container">
     <div class="row">
       <div class="mx-auto w-50 p-1">
-      	{{- $image := cond (isset .Params "image") ( .Params.image ) (.CurrentSection.Params.image) }}
-	    {{- with $image }}
-	    <img class="lazyload" src="{{.}}" title="{{$.Params.Title}}" 
-	    alt="{{$.Params.Title}}" srcset="{{.}} 500w, {{.}} 800w, {{.}} 1200w, {{.}} 1500w">
-	    {{- end }}
-      	<h2 class="image-title">{{ .Title }}</h2>
-        {{ .Content }}
-
-      
+      	{{- with $image }}
+  	    <img class="lazyload" src="{{.}}" title="{{$.Params.Title}}" 
+  	    alt="{{$.Params.Title}}" srcset="{{.}} 500w, {{.}} 800w, {{.}} 1200w, {{.}} 1500w">
+  	    {{- end }}
+        <br><br>
+        <h2 class="image-title">{{ .Title }}</h2>
+        {{ .Content }}      
       </div>
     </div>
   </div>
