@@ -1,7 +1,6 @@
 +++
 carousel = []
 date = 2020-09-26T10:46:35Z
-draft = true
 id = "excursions"
 tags = ["Gujarat", "Ahmedabad"]
 title = "Heritage walk "
