@@ -24,3 +24,5 @@ fields:
   - type: file
     name: url
     label: url
+pages:
+- content/english/heritage-walk.md
