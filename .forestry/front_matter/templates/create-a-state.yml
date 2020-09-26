@@ -1,0 +1,28 @@
+---
+label: Create a State
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: subtitle
+  label: subtitle
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: image
+  label: image
+- type: text
+  name: translationkey
+  label: translationkey
+- type: text
+  name: id
+  label: id
+- type: text
+  name: layout
+  label: layout
+- type: list
+  name: tags
+  label: tags
