@@ -28,6 +28,7 @@ fields:
     name: url
     label: url
 pages:
+- content/english/emerald-isle.md
 - content/english/hotel-accolade.md
 - content/english/mansingh-palace.md
 - content/english/the-house-of-mangaldas-girdhardas.md
