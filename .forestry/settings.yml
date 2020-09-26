@@ -5,6 +5,13 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: content/english/states
+  label: States
+  create: all
+  match: "**/*"
+  templates:
+  - create-a-state
+- type: directory
   path: content
   label: Pages
   create: all
