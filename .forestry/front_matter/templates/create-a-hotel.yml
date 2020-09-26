@@ -8,12 +8,15 @@ fields:
 - type: datetime
   name: date
   label: date
+  default: now
 - type: text
   name: translationKey
   label: translationKey
 - type: text
   name: id
   label: id
+  default: hotels
+  hidden: true
 - type: list
   name: tags
   label: tags
