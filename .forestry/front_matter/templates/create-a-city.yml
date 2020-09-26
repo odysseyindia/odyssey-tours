@@ -11,6 +11,7 @@ fields:
 - type: datetime
   name: date
   label: date
+  default: now
 - type: file
   name: image
   label: image
@@ -20,9 +21,13 @@ fields:
 - type: text
   name: id
   label: id
+  default: city
+  hidden: true
 - type: text
   name: layout
   label: layout
+  hidden: true
+  default: city
 - type: list
   name: tags
   label: tags
