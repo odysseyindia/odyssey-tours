@@ -1,7 +1,6 @@
 +++
 carousel = []
 date = 2020-09-26T10:45:30Z
-draft = true
 id = "excursions"
 tags = []
 title = "Gandhi's Sabarmati Ashram & Law Garden Market"
