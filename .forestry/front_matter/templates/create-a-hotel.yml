@@ -1,0 +1,26 @@
+---
+label: Create a hotel
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: translationKey
+  label: translationKey
+- type: text
+  name: id
+  label: id
+- type: list
+  name: tags
+  label: tags
+- type: field_group_list
+  name: carousel
+  label: carousel
+  fields:
+  - type: file
+    name: url
+    label: url
