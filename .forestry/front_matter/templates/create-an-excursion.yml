@@ -33,6 +33,7 @@ fields:
     name: title
     label: title
 pages:
+- content/english/afternoon-excursion-to-the-wagah-border.md
 - content/english/gandhi-s-sabarmati-ashram-law-garden-market.md
 - content/english/half-day-city-tour-of-amritsar.md
 - content/english/heritage-walk-1.md
