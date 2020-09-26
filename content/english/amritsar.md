@@ -1,0 +1,13 @@
++++
+date = 2020-09-26T11:02:33Z
+id = "city"
+image = ""
+layout = "city"
+subtitle = ""
+tags = []
+title = "Amritsar"
+translationKey = ""
+
++++
+
+Situated on the north-western border of India, in Punjab, the 400-year-old city of the Golden Temple is the paramount seat of Sikh history and culture. More recently, it has also become known for the unique border-closing ceremony that takes place every evening at nearby Wagah, at the only open land border between India and Pakistan.
