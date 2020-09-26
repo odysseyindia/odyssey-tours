@@ -2356,7 +2356,8 @@ body {
   */ }
 
 h2 {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 30px; }
 
 a {
   color: #0072ed;
@@ -2452,20 +2453,282 @@ iframe .gtm {
   display: none;
   visibility: hidden; }
 
-h1 {
-  text-align: left;
-  position: absolute;
-  margin-top: 0;
-  top: 5px; }
-
-.nav {
-  display: flex; }
-
-.nomenu {
-  margin-left: auto; }
-
 .logo img {
   height: 100px; }
+
+/*===  main menu ===*/
+@supports (position: sticky) {
+  .sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1020; } }
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0; }
+
+.sr-only-focusable:active, .sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  clip: auto;
+  white-space: normal; }
+
+.navbar-dark .navbar-nav .show > .nav-link,
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #000; }
+
+nav {
+  top: 0;
+  width: 100%;
+  z-index: 10; }
+
+.navbar {
+  background-color: #fff; }
+
+ul.navbar-nav {
+  margin-top: 0;
+  background-color: transparent;
+  padding-right: 0px; }
+
+.nav-item {
+  padding-right: 5px; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #000;
+  line-height: 2; }
+
+a#navbarDropdown0.nav-link.dropdown-toggle:hover,
+a#navbarDropdown1.nav-link.dropdown-toggle:hover,
+a#navbarDropdown2.nav-link.dropdown-toggle:hover,
+a#navbarDropdown3.nav-link.dropdown-toggle:hover,
+a#navbarDropdown4.nav-link.dropdown-toggle:hover,
+a#navbarDropdown5.nav-link.dropdown-toggle:hover,
+a#navbarDropdown6.nav-link.dropdown-toggle:hover,
+a#navbarDropdown7.nav-link.dropdown-toggle:hover,
+a#navbarDropdown8.nav-link.dropdown-toggle:hover,
+a#navbarDropdown9.nav-link.dropdown-toggle:hover,
+a#navbarDropdown99.nav-link.dropdown-toggle:hover,
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: #fff;
+  color: #000; }
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center; }
+
+.collapse:not(.show) {
+  display: none; }
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center; }
+
+.dropup, .dropright, .dropdown, .dropleft {
+  position: relative; }
+
+.dropdown-toggle {
+  white-space: nowrap; }
+
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent; }
+
+.dropdown-toggle:empty::after {
+  margin-left: 0; }
+
+.dropdown-toggle::after, a.dropdown-item::after {
+  display: none; }
+
+.dropdown-menu {
+  background-color: rgba(128, 128, 128, 0.5); }
+
+.dropdown-menu.show {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  opacity: 0.9; }
+
+a.nav-link {
+  font-size: 1.2rem;
+  font-weight: bold; }
+
+.navbar-scroll {
+  background-color: rgba(0, 123, 255, 0.4);
+  transition: background-color 0.5s; }
+
+.bg-primary {
+  background-color: #191970 !important; }
+
+.dropdown-item {
+  font-weight: 600;
+  color: white;
+  font-size: 1rem;
+  background: gray;
+  padding: .25rem 0 .25rem 0.5rem; }
+
+/*=== breadcrumbs ===*/
+ol.breadcrumb {
+  background-color: transparent;
+  margin-bottom: 0px;
+  justify-content: flex-end;
+  margin-right: 30px; }
+
+.breadcrumb ol {
+  min-height: 24px;
+  line-height: 24px;
+  list-style: none;
+  overflow: auto; }
+
+.breadcrumb-item, .breadcrumb-item a, .breadcrumb-item.active {
+  color: #000;
+  font-weight: bold;
+  font-size: 0.9rem; }
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: #63582C;
+  content: "*"; }
+
+@media screen and (max-width: 778px) {
+  p, li {
+    line-height: 1.5rem;
+    font-size: .9rem; }
+
+  .navbar {
+    background-color: transparent; } }
+@media screen and (max-width: 991px) {
+  .w-50, .w-25, .w-75 {
+    width: 100% !important; }
+
+  .navbar {
+    background-color: transparent; }
+
+  .navbar-toggler {
+    visibility: visible; }
+
+  a.nav-link:hover {
+    background-color: menu; }
+
+  .navbar-dark .navbar-toggler {
+    border-color: #b4a258; }
+
+  .navbar-toggler {
+    background-color: #63582C;
+    border-width: 2px;
+    color: white;
+    background-image: url(/img/mobile-menu.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat; }
+
+  .navbar-toggler:focus, .navbar-toggler:hover {
+    background-color: #FFD700;
+    border-color: #63582C; }
+
+  .navbar-dark.color-changed {
+    background-color: #282a28 !important;
+    opacity: 0.96; }
+
+  .dropdown-item {
+    background-color: #343a40;
+    opacity: 0.96;
+    text-align: center; }
+
+  .mybar {
+    text-align: right; }
+
+  .nav-item {
+    text-align: left;
+    padding-right: 0; }
+
+  .bread-bar {
+    display: none; }
+
+  .navbar-nav .nav-link {
+    padding-left: 10px;
+    font-size: 1rem; }
+
+  #content h3 {
+    font-size: 1.6rem; } }
+@media screen and (min-width: 992px) {
+  .navbar {
+    padding: 0px 10px; }
+
+  .navbar-toggler {
+    display: none; }
+
+  .dropdown-menu {
+    background-color: rgba(128, 128, 128, 0.5);
+    margin-top: 0; } }
+.dropdown-item {
+  font-weight: 600;
+  color: white; }
+
+.navbar-nav .nav-link {
+  font-size: 1.0625rem;
+  font-weight: 600;
+  padding: 0;
+  color: white; }
+
+.bread-bar {
+  visibility: visible; }
+
+.menu-language {
+  display: none; }
+
+.fa.menu {
+  display: inline; }
+
+/*=== Flag language navigation ===*/
+@media screen and (min-width: 992px) {
+  .language {
+    display: none; } }
+.flagselect {
+  display: none;
+  padding: 0px;
+  margin: 0px;
+  font-size: 90%; }
+
+.flagnoselect {
+  padding: 0px;
+  margin: 0px;
+  font-size: 90%; }
+
+.flag {
+  width: 20px; }
+
+.dropdown-menu.dropflag {
+  min-width: 2rem;
+  text-align: center; }
+
+/* non clickable menu */
+@media screen and (min-width: 768px) {
+  .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu {
+    display: block; }
+
+  .dropdown-menu {
+    margin-top: 0; }
+
+  .dropdown-toggle {
+    margin-bottom: 2px; }
+
+  .navbar .dropdown-toggle, .nav-tabs .dropdown-toggle {
+    margin-bottom: 0; } }
 
 /*# sourceMappingURL=critical.css.map */
 </style>
@@ -2490,75 +2753,94 @@ h1 {
 <![endif]
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> --> 
 </head>
-<body><header>
-    <div id="nav-border" class="container">
-        <nav id="nav" class="nav justify-content-center">
-            <div class="logo">
-                <img src="/logo.gif" title="Odyssey Tours" alt="Odyssey Tours logo">
+<body><header id="header" class="navbar-static-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-fade fixed-top">
+    <a class="navbar-brand" href="/">
+        <div class="logo">
+            <img src="/logo.gif" title="Odyssey Tours" alt="Odyssey Tours logo">
+        </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="menu" class="flex-container">
+        <div class="collapse navbar-collapse" id="navbarsDefault">
+        <ul class="navbar-nav ml-auto nav-pills nav-fill">
+          <li class="nav-item">
+              <a href="/" class="nav-link dropdown-toggle" id="navbarDropdown0">
+             <i class='home menu'></i> Home
+             </a>
+          </li>
+          <li class="nav-item">
+              <a href="/tours/" class="nav-link dropdown-toggle" id="navbarDropdown1">
+             <i class='pen-tool menu'></i> Tours
+             </a>
+          </li>
+          <li class="nav-item">
+              <a href="/states/uttar-pradesh/cities/" class="nav-link dropdown-toggle" id="navbarDropdown2">
+             <i class='pen-tool menu'></i> Cities
+             </a>
+          </li>
+          <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="alternative for screen readers" title="dropdown menu">
+                <i class='pen-tool menu'></i> States
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+              <a class="dropdown-item" href="/states/">States</a>
+              <a class="dropdown-item" href="/interstates/">Interstates</a> 
+              </div>
+          </li>
+          <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="alternative for screen readers" title="dropdown menu">
+                <i class='tag menu'></i> Tags
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
+              <a class="dropdown-item" href="/tags/">Tags</a>
+              <a class="dropdown-item" href="/sitemap/" target="_blank" rel="noreferrer">Sitemap</a> 
+              </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown99" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Language switcher">
+            </a>
+            <div class="dropdown-menu dropflag" aria-labelledby="navbarDropdown99">
             </div>
-            
-            <div class="nomenu">
-                <a class="nav-link" href="/">
-                
-                
-                <i data-feather="home"></i> 
-                
-                Home
-                </a>
-            </div>
-            
-            <div class="nomenu">
-                <a class="nav-link" href="/tours/">
-                
-                
-                <i data-feather="pen-tool"></i> 
-                
-                Tours
-                </a>
-            </div>
-            
-            <div class="nomenu">
-                <a class="nav-link" href="/states/">
-                
-                
-                <i data-feather="pen-tool"></i> 
-                
-                States
-                </a>
-            </div>
-            
-            <div class="nomenu">
-                <a class="nav-link" href="/cities/">
-                
-                
-                <i data-feather="pen-tool"></i> 
-                
-                Cities
-                </a>
-            </div>
-            
-            <div class="nomenu">
-                <a class="nav-link" href="/tags/">
-                
-                
-                <i data-feather="tag"></i> 
-                
-                Tags
-                </a>
-            </div>
-            
+          </li>
+        </ul>
+      </div>      <!-- breadcrumbs -->
+      <div class="row">
+        <nav  class="bread-bar ml-auto justify-content-between" aria-label="breadcrumb">
+          <div class="row">
+            <nav  class="bread-bar float-right justify-content-between" aria-label="breadcrumb">
+              <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+                <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                  <a href="/" aria-label="Home" itemprop="item">
+                    <i class="icon-home" ></i>
+                    <meta itemprop="name" content="" />
+                    <meta itemprop="position" content="1" />
+                  </a>
+                </li>
+                  <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <span itemprop="name">Offline</span>
+                    <meta itemprop="position" content="3" />
+                  </li>
+              </ol>
+            </nav>
+          </div>
         </nav>
+      </div>
+      <!-- end breadcrumbs -->
     </div>
+  </nav>
 </header>
 <!-- The CONTENT Now -->
-<section id="">
+        
+<section id="home">
   <div class="container">
     <div class="row">
       <div class="mx-auto w-50 p-1">
-      	<h2 class="image-title">Oops, you are offline.</h2>
+        <br><br>
+        <h2 class="image-title">Oops, you are offline.</h2>
         <p>Please try to find some internet connection to browse here.</p>
-
-
       
       </div>
     </div>
@@ -2566,7 +2848,7 @@ h1 {
 </section>
 <footer>
 	<hr>
-	<p class="center">Copyright (c) 2020 Odyssey Tours & Travels Pvt Ltd</p>
+	<p class="center"><i class="icon-copyright"></i> 2015-2020 Odyssey Tours & Travels Pvt Ltd</p>
 </footer><!-- Bootstrap -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" async></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"  crossorigin="anonymous"></script>
@@ -2576,7 +2858,16 @@ h1 {
 <script>
 (function() {
     var cssMain = document.createElement('link');
-    cssMain.href = "\/css\/odyssey.529df36dc3944a4de55e461ccfcdf2ae54ea281440ebfa1a5fe9631619220be8.css";
+    cssMain.href = "\/css\/odyssey.5ed3316bf37c0b7cd146b13a01d4efe65b33950aedb20f7e3db96beb4fdd8717.css";
+    cssMain.rel = 'stylesheet';
+    cssMain.type = 'text/css';
+    document.getElementsByTagName('head')[0].appendChild(cssMain);
+})();
+</script>
+<script>
+(function() {
+    var cssMain = document.createElement('link');
+    cssMain.href = "\/scss\/main\/home.min.css";
     cssMain.rel = 'stylesheet';
     cssMain.type = 'text/css';
     document.getElementsByTagName('head')[0].appendChild(cssMain);
