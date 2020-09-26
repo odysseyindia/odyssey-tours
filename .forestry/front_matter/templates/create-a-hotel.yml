@@ -27,3 +27,5 @@ fields:
   - type: file
     name: url
     label: url
+pages:
+- content/english/hotel-accolade.md
