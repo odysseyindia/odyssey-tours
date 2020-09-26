@@ -1,0 +1,12 @@
++++
+carousel = []
+date = 2020-09-26T11:03:00Z
+draft = true
+id = "excursions"
+tags = ["Amritsar"]
+title = "Half day city tour of Amritsar"
+translationKey = ""
+
++++
+
+Amritsar's highlights are clustered in the attractive area around the Golden Temple. The Partition Museum in the historic Town Hall tells the story of India's independence and the tragically violent division of India and Pakistan. Jallianwala Bagh is a garden dedicated to those massacred here by the British in 1919. The big draw is visiting the serene Golden Temple, capped by the communal, free meal offered to thousands every day.
