@@ -26,3 +26,5 @@ fields:
 - type: list
   name: tags
   label: tags
+pages:
+- content/english/states/lakshadweep/cities/agatti.md
