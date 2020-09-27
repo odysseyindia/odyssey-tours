@@ -12,8 +12,7 @@ tags: ["Karnataka", "States"]
 
 Karnataka has a great variety of scenery, monuments and traditions.
 
-From game reserves, excellent trekking opportunities in the coffee and spice-growing region of Coorg, and outstanding temple monuments at Belur & Halebid, to the awesome ruins in the ghost city of Hampi and 21st century ingenuity and style in boomtown Bangalore - this state has a diverse range of options for holiday-goers to choose from.
- 
+This state has a diverse range of options for holiday-goers to choose from. From game reserves, excellent trekking opportunities in the coffee and spice-growing region of Coorg, and outstanding temple monuments at Belur & Halebid, to the awesome ruins in the ghost city of Hampi and 21st century ingenuity and style in boomtown Bangalore.
 
 Bangalore, the capital of Karnataka, has developed into an important economic centre, particularly in the fields of software and information technology. Parts of the city are amongst the most modern and westernized areas of India, featuring shopping malls, bars and fast food restaurants.
 
