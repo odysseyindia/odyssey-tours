@@ -15,7 +15,7 @@ fields:
 - type: text
   name: id
   label: id
-  default: hotels
+  default: hotel
   hidden: true
 - type: list
   name: tags
@@ -28,16 +28,4 @@ fields:
     name: url
     label: url
 pages:
-- content/english/emerald-isle.md
-- content/english/fort-amla.md
-- content/english/golden-sarovar-portico-1.md
-- content/english/hotel-accolade.md
 - content/english/hotel-amarpreet.md
-- content/english/hotel-green-olive.md
-- content/english/kettuvallam-houseboat.md
-- content/english/m.k.hotel.md
-- content/english/mansingh-palace.md
-- content/english/raheem-residency.md
-- content/english/ranjits-svaasa.md
-- content/english/the-house-of-mangaldas-girdhardas.md
-- content/english/zimskhang-hotel.md
