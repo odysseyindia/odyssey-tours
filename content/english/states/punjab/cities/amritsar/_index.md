@@ -6,7 +6,7 @@ layout = "city"
 subtitle = ""
 tags = []
 title = "Amritsar"
-translationKey = ""
+translationKey = "amritsar"
 
 +++
 

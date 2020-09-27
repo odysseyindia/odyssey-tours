@@ -3,7 +3,7 @@ title: "Amber Fort Sightseeing"
 draft: false
 date: 2020-09-21T12:59:23+02:00
 translationKey: amber-fort-sightseeing
-id: "excursions"
+id: "excursion"
 tags: ["Rajasthan", "Jaipur", "Excursions"] 
 carousel:
   - url: 1-rajasthan-jaipur-excursions-amber-fort-ganesh-pol.jpg

@@ -20,7 +20,7 @@
            <div class="icon-bar mx-auto w-50 p-1">
       {{"<!-- show the items -->" | safeHTML}}
 
-  
+  {{-  .Data.Pages }}
 
       {{- $paginator := .Paginate .Data.Pages }}
       {{- with $paginator }}

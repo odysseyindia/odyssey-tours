@@ -5,7 +5,7 @@ date: 2020-09-21T12:59:23.000+02:00
 image: ahmedabad.jpg
 translationKey: ahmedabad
 id: city
-layout: xcity
+layout: city
 tags:
 - Cities
 - Ahmedabad

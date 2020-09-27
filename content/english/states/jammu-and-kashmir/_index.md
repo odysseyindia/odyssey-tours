@@ -14,8 +14,6 @@ Jammu and Kashmir is India's northernmost state, bordering Pakistan and China's 
 
 The predominantly Muslim Kashmir Valley is a lush and mountainous area whilst Buddhist Ladakh has an almost moon-like barren landscape interspersed by oasis villages with monasteries and ancient palaces perched on lofty hilltops.
 
-
-
 Jammu and Kashmir is India's northernmost state, bordering Pakistan, and China's Tibetan plateau. It's three distinct regions - Jammu, the Kashmir Valley and Ladakh - offer a rich diversity of landscapes, religions and people.
 
 Jammu is predominantly Hindu. Encompassing plains, mountains and foothills, Jammu boasts the famous hilltop shrine of Vaishno Devi, an important pilgrimage site for Hindus.

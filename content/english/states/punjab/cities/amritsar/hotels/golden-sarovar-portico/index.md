@@ -1,7 +1,7 @@
 +++
 carousel = []
 date = 2020-09-26T11:05:48Z
-id = "excursions"
+id = "hotel"
 tags = ["Amritsar"]
 title = "Golden Sarovar Portico"
 translationKey = "golden-sarovar-portico"

@@ -1,7 +1,7 @@
 +++
 carousel = []
 date = 2020-09-26T10:56:32Z
-id = "hotels"
+id = "hotel"
 tags = []
 title = "Mansingh Palace"
 translationKey = "mansingh-palace"
