@@ -7,7 +7,7 @@ image: goa.jpg
 translationkey: "goa"
 id: "state"
 layout: "state"
-tags: ["Goa", "States"] 
+tags: ["States"] 
 ---
 
 Goa is so beautiful that it is not surprising that the Portuguese stayed on for 450 years! They endowed the predominantly Hindu land with a Latin language and flavour that is still very alive and thriving, decades after the Portuguese heyday.

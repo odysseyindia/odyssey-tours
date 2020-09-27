@@ -7,7 +7,7 @@ image: manipur.jpg
 translationkey: "manipur"
 id: "state"
 layout: "state"
-tags: ["Manipur", "States"] 
+tags: ["States"] 
 ---
 
 Manipur, located on the far north east border below Nagaland, has been described it as the Jewel of the East owing to its picturesque hills and valleys. Imphal, the capital, is surrounded by wooded hills and lakes.

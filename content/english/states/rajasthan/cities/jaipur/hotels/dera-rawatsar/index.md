@@ -4,7 +4,7 @@ draft: false
 date: 2020-09-21T12:59:23+02:00
 translationKey: "dera-rawatsar"
 id: "hotel"
-tags: ["Rajasthan", "Jaipur", "Hotels"] 
+tags: ["Jaipur", "Hotels"] 
 carousel:
   - url: 1-rajasthan-jaipur-hotels-dera-rawatsar-cosy-lounge.jpg
   - url: 2-rajasthan-jaipur-hotels-dera-rawatsar-swimming-pool.jpg

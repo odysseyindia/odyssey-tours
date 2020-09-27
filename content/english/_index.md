@@ -1,5 +1,5 @@
 ---
-title: "Unique tailor-made holidays throughout India"
+title: "Odyssey Tours Itinerary Management"
 layout: "index"
 translationKey: "home"
 ---

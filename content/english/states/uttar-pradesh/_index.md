@@ -7,7 +7,7 @@ image: uttar-pradesh.jpg
 translationkey: "uttar-pradesh"
 id: "state"
 layout: "state"
-tags: ["Uttar Pradesh", "States"] 
+tags: ["States"] 
 ---
 
 The northern state of Uttar Pradesh, popularly know as UP, is India's most populous state. It is the heartland of Hindi, the principal indigenous language of India, and the official language of government.

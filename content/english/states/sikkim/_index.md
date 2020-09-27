@@ -7,7 +7,7 @@ image: sikkim.jpg
 translationkey: "sikkim"
 id: "state"
 layout: "state"
-tags: ["Sikkim", "States"] 
+tags: ["States"] 
 ---
 
 Sikkim is one of India's smallest but most beautiful states, situated in the far north-east of the subcontinent. It is considered to be still one of the last Himalayan 'Shangri-las' as a result of its remoteness, spectacular mountain terrain, hundreds of varieties of orchids, and ancient Buddhist monasteries.

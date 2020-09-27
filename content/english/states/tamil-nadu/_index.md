@@ -7,7 +7,7 @@ image: tamil-nadu.jpg
 translationkey: "tamil-nadu"
 id: "state"
 layout: "state"
-tags: ["Tamil Nadu", "States"] 
+tags: [ "States"] 
 ---
 
 Tamil Nadu has all that a visitor could look for. A dramatic coastline, beautiful beaches and dense forests. Apart from this, Tamil Nadu has also some of India's most magnificent temples, many still active centres of religious practice.

@@ -4,7 +4,7 @@ draft: false
 date: 2020-09-21T12:59:23+02:00
 translationKey: day-trip-from-Delhi-to-agra-by-gatimaan-express-train
 id: "excursions"
-tags: ["Uttar Pradesh", "Agra", "Excursions", "Day trip from Delhi to Agra by Gatimaan Express train"] 
+tags: ["Agra", "Excursions"] 
 ---
 
 You travel from Delhi to Agra by the Gatimaan Express, which covers the 200km distance in less than 2 hours. An at-seat service of breakfast is included on-board. On arrival in Agra you will be met by your guide. In the morning you will visit the Taj Mahal,  one of the most fascinating and beautiful monuments in the world. You can enjoy the gardens, the mausoleum and the mosque for about three hours. Don't miss the marble inlay work and the various vantage points offered throughout the peaceful gardens.

@@ -7,7 +7,7 @@ image: rajasthan.jpg
 translationkey: "rajasthan"
 id: "state"
 layout: "state"
-tags: ["Rajasthan", "States"] 
+tags: ["States"] 
 ---
 
 Overflowing with monuments and heritage buildings, many of which are now open to guests, Rajasthan offers the most interesting accommodation options: historical forts, elegant palaces, traditional mud huts, desert tents, and wonderful home stays.

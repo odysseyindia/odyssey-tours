@@ -7,7 +7,7 @@ image: orissa.jpg
 translationkey: "orissa"
 id: "state"
 layout: "state"
-tags: ["Orissa", "States"] 
+tags: ["States"] 
 ---
 
 The state of Orissa is not widely visited by foreign tourists, despite having many attractions: These include the Sun temple at Konarak, outstanding temple architecture in Bhubaneswar and Puri, and the serenely beautiful Chilika lake, Asia's largest saltwater body.

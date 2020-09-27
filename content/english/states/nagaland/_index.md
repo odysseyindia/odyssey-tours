@@ -7,7 +7,7 @@ image: nagaland.jpg
 translationkey: "nagaland"
 id: "state"
 layout: "state"
-tags: ["Nagaland", "States"] 
+tags: ["States"] 
 ---
 
 Nagaland is a narrow strip of mountain territory with a long border with Myanmar to the east.

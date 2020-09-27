@@ -7,7 +7,7 @@ image: uttaranchal.jpg
 translationkey: "uttaranchal"
 id: "state"
 layout: "state"
-tags: ["Uttaranchal", "States"] 
+tags: ["States"] 
 ---
 
 In the year 2000 the northern state of Uttaranchal was carved out of the hill areas of Uttar Pradesh. It is a small state filled to the brim with religious sites, wildlife reserves and cool hills that invite escape.

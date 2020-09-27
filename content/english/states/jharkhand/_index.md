@@ -7,7 +7,7 @@ image: jharkhand.jpg
 translationkey: "jharkhand"
 id: "state"
 layout: "state"
-tags: ["Jharkhand", "States"] 
+tags: ["States"] 
 ---
 
 

@@ -7,7 +7,7 @@ image: kerala.jpg
 translationkey: "kerala"
 id: "state"
 layout: "state"
-tags: ["Kerala", "States"] 
+tags: ["States"] 
 
 ---
 

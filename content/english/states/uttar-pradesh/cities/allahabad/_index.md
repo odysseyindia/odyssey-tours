@@ -4,9 +4,9 @@ id = "city"
 image = ""
 layout = "city"
 subtitle = ""
-tags = []
+tags = ["Cities"]
 title = "Allahabad"
-translationKey = ""
+translationKey = "allahabad"
 
 +++
 

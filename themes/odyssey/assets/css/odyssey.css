@@ -1,20 +1,4 @@
 @charset "UTF-8";
-@font-face {
-  font-family: 'fontello';
-  src: url("../font/fontello.eot?43199680");
-  src: url("../font/fontello.eot?43199680#iefix") format("embedded-opentype"), url("../font/fontello.woff2?43199680") format("woff2"), url("../font/fontello.woff?43199680") format("woff"), url("../font/fontello.ttf?43199680") format("truetype"), url("../font/fontello.svg?43199680#fontello") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
-/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
-/*
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: 'fontello';
-    src: url('../font/fontello.svg?43199680#fontello') format('svg');
-  }
-}
-*/
 [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "fontello";
   font-style: normal;
@@ -596,5 +580,28 @@ h2.center {
 .image-box div {
   padding: 3px;
   margin: 0; }
+
+#tag-terms .tag--small, #tag-terms a.tag--small {
+  font-size: 1.3rem;
+  padding: 2px 10px; }
+#tag-terms .tag--primary, #tag-terms a.tag--primary {
+  color: #349ef3 !important;
+  border: 1px solid lightgray; }
+#tag-terms .tag, #tag-terms a.tag {
+  display: inline-block;
+  background: #fff;
+  width: auto;
+  height: auto;
+  border-radius: 3px;
+  letter-spacing: .01em;
+  cursor: pointer;
+  margin: 0;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-right: 4px;
+  margin-bottom: 7px; }
+#tag-terms input {
+  margin-bottom: 20px;
+  background-color: lightcoral; }
 
 /*# sourceMappingURL=odyssey.css.map */

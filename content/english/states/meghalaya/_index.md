@@ -7,7 +7,7 @@ image: meghalaya.jpg
 translationkey: "meghalaya"
 id: "state"
 layout: "state"
-tags: ["Meghalaya", "States"] 
+tags: ["States"] 
 ---
 
 Meghalaya is one of north-east India's most attractive states. It has a wealth of rolling green, thickly forested hills that nurture an amazing ecological diversity, populated by tribal groups who follow a matrilineal system of inheritance.

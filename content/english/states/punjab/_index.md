@@ -7,7 +7,7 @@ image: punjab.jpg
 translationkey: "punjab"
 id: "state"
 layout: "state"
-tags: ["Punjab", "States"] 
+tags: ["States"] 
 ---
 
 Punjab is known as "the bread basket of the nation" as it is the largest single provider of wheat to India.

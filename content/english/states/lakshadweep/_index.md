@@ -7,7 +7,7 @@ image: lakshadweep.jpg
 translationkey: "lakshadweep"
 id: "state"
 layout: "state"
-tags: ["Lakshadweep", "States"] 
+tags: ["States"] 
 ---
 
 Coral hideaway in the Arabian Sea

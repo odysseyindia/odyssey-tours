@@ -7,7 +7,7 @@ image: jammu-and-kashmir.jpg
 translationkey: "jammu-and-kashmir"
 id: "state"
 layout: "state"
-tags: ["Jammu & Kashmir", "States"] 
+tags: ["States"] 
 ---
 
 Jammu and Kashmir is India's northernmost state, bordering Pakistan and China's Tibetan plateau. It's three distinct regions - Jammu, the Kashmir Valley and Ladakh - offer a rich diversity of landscapes, religions and people.

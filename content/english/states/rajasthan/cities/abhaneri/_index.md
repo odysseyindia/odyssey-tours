@@ -4,7 +4,7 @@ id = "city"
 image = ""
 layout = "city"
 subtitle = ""
-tags = []
+tags = ["Cities"]
 title = "Abhaneri"
 translationKey = ""
 

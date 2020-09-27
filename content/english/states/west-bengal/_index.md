@@ -7,7 +7,7 @@ image: west-bengal.jpg
 translationkey: "west-bengal"
 id: "state"
 layout: "state"
-tags: ["West Bengal", "States"] 
+tags: ["States"] 
 ---
 
 West Bengal is unique among Indian states as it stretches from the sea to the mountains.

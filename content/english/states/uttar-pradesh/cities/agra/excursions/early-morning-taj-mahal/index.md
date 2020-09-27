@@ -4,7 +4,7 @@ draft: false
 date: 2020-09-21T12:59:23+02:00
 translationKey: early-morning-taj-mahal
 id: "excursions"
-tags: ["Uttar Pradesh", "Agra", "Excursions", "Early morning Taj Mahal"] 
+tags: [ "Agra", "Excursions"] 
 carousel:
   - url: "1-uttar-pradesh-agra-excursions-early-morning-taj-mahal-view.jpg"
     title: "view of the Taj Mahal"

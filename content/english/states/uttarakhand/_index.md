@@ -7,5 +7,5 @@ image:
 translationkey: "uttarakhand"
 id: "state"
 layout: "state"
-tags: ["Uttarakhand", "States"] 
+tags: ["States"] 
 ---

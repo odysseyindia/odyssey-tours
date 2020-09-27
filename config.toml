@@ -4,15 +4,17 @@ theme                   = "odyssey"
 paginate 				= "50"
 summaryLength 			= "15"
 disqusShortname 		= "" # get your shortname form here : https://disqus.com
-DefaultContentLanguage 	= "en"
+defaultContentLanguage 	= "en"
 disableKinds 			= ["RSS"]
 googleAnalytics         = "" 
 # enableGitInfo         = true
 enableRobotsTXT         = true
 # canonifyURLs          = true
 
+
 [taxonomies]
-  tag = "tags"
+  tag         = "tags"
+  category    = "categories"
 
 [params]
 env           = "PUBLIC"
@@ -36,13 +38,13 @@ logo          = "/logo.gif"
     identifier = "home"
     pre = "home"
     url = "/"
-    weight = 1
+    weight = 10
   [[Languages.en.menu.main]]
     name = "Tours"
     identifier = "tours"
     pre = "pen-tool"
     url = "/tours/"
-    weight = 2
+    weight = 20
   [[Languages.en.menu.main]]
     name = "States"
     identifier = "states"
@@ -64,8 +66,8 @@ logo          = "/logo.gif"
     name = "Cities"
     identifier = "cities"
     pre = "pen-tool"
-    url = "/states/uttar-pradesh/cities/"
-    weight = 4
+    url = "/tags/#cities-list"
+    weight = 40
   [[Languages.en.menu.main]]
     name = "Tags"
     identifier = "tags"

@@ -7,7 +7,7 @@ image: gujarat.jpg
 translationkey: "gujarat"
 id: "state"
 layout: "state"
-tags: ["Gujarat", "States"] 
+tags: ["States"] 
 ---
 
 Grossly underrated and often completely overlooked by travellers, Gujarat is an ideal tourist destination offering a little bit of everything.

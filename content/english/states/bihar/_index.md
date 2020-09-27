@@ -7,7 +7,7 @@ image: bihar.jpg
 translationkey: "bihar"
 id: "state"
 layout: "state"
-tags: ["Bihar", "States"] 
+tags: ["States"] 
 ---
 
 

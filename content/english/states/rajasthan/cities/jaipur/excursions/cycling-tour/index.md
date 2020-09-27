@@ -4,7 +4,7 @@ draft: false
 date: 2020-09-21T12:59:23+02:00
 translationKey: cycling-tour
 id: "excursion"
-tags: ["Rajasthan", "Jaipur", "Excursions"] 
+tags: [ "Jaipur", "Excursions"] 
 carousel:
   - url: 1-rajasthan-jaipur-excursions-pink-city-cycling-street-food.jpg
   - url: 2-rajasthan-jaipur-excursions-pink-city-cycling-flower-market-visit.jpg

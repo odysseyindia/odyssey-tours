@@ -4,7 +4,7 @@ draft: false
 date: 2020-09-21T12:59:23+02:00
 translationKey: early-morning-guided-visit-to-the-taj
 id: "excursions"
-tags: ["Uttar Pradesh", "Agra", "Excursions", "Early morning guided visit to the Taj"] 
+tags: ["Agra", "Excursions"] 
   
 ---
 

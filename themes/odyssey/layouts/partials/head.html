@@ -101,7 +101,7 @@
 {{- end }}   
 {{"<!-- Stylesheets -->" | safeHTML }}
 <style>
-{{- with resources.Get "css/critical.css"  -}} 
+{{- with resources.Get "css/critical.css" | minify -}} 
   {{ .Content | safeCSS }}
 {{- end -}}
 </style>

@@ -7,7 +7,7 @@ image: karnataka.jpg
 translationkey: "karnataka"
 id: "state"
 layout: "state"
-tags: ["Karnataka", "States"] 
+tags: ["States"] 
 ---
 
 Karnataka has a great variety of scenery, monuments and traditions.

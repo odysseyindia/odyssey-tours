@@ -7,7 +7,7 @@ image: mizoram.jpg
 translationkey: "mizoram"
 id: "state"
 layout: "state"
-tags: ["Mizoram", "States"] 
+tags: ["States"] 
 ---
 
 Mizoram cannot boast of five star facilities nor of any exceptional amenities and tourist services. Except for visitors from various Christian organizations, persons on official visits and the odd research scholar, few tourists visit Mizoram.

@@ -7,7 +7,7 @@ image: chandigarh.jpg
 translationkey: "chandigarh"
 id: "state"
 layout: "state"
-tags: ["Chandigarh", "States"] 
+tags: ["States"] 
 ---
 
 Chandigarh, the capital of both Haryana and Punjab, is famous for its design and layout. The city was planned by the French architect Le Corbusier in the early 1950s, and today remains one of India's most pleasant, well-planned state capitals, with the hills of Himachal Pradesh beginning just on the outskirts.

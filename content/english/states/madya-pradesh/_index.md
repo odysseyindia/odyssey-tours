@@ -7,7 +7,7 @@ image: madhya-pradesh.jpg
 translationkey: "madhya-pradesh"
 id: "state"
 layout: "state"
-tags: ["Madhya Pradesh", "States"] 
+tags: [ "States"] 
 ---
 
 Few regions in India are as fascinating as Madhya Pradesh, the heart of India. Intersected by rivers and dotted with hills and lakes, the state has varied landscapes, each more beautiful than the other.

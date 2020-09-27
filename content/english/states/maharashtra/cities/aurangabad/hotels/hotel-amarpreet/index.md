@@ -2,7 +2,7 @@
 carousel = []
 date = 2020-09-26T11:11:15Z
 id = "hotels"
-tags = ["Ajanta", "Ellora", "Aurangabad"]
+tags = ["Hotels", "Aurangabad"]
 title = "Hotel Amarpreet"
 translationKey = "hotel-amarpreet"
 

@@ -7,7 +7,7 @@ image: assam.jpg
 translationkey: "assam"
 id: "state"
 layout: "state"
-tags: ["Assam", "States"] 
+tags: ["States"] 
 ---
 
 

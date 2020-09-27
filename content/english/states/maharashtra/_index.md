@@ -7,7 +7,7 @@ image: maharashtra.jpg
 translationkey: "maharashtra"
 id: "state"
 layout: "state"
-tags: ["Maharashtra", "States"] 
+tags: [States"] 
 ---
 
 Maharashtra has a beautiful long coast line with countless inlets, ridges and valleys, and is known for its ancient forts. Inland, parallel to the Arabian Sea, are the Western Ghats, with their own range of forts and picturesque hill stations.
