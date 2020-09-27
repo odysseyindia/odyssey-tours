@@ -31,17 +31,3 @@ fields:
 - type: list
   name: tags
   label: tags
-pages:
-- content/english/abhaneri.md
-- content/english/aizawl.md
-- content/english/ajabgarh.md
-- content/english/ajanta.md
-- content/english/ajmer.md
-- content/english/alchi.md
-- content/english/allahabad.md
-- content/english/alleppey.md
-- content/english/almora.md
-- content/english/amla.md
-- content/english/amritsar.md
-- content/english/aurangabad.md
-- content/english/auroville.md
