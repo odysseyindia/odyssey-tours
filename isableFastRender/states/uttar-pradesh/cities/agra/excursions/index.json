@@ -1,0 +1,62 @@
+{
+	"data" : 
+    {
+        
+            "section" : "states",
+        
+        
+        "count" : "6"
+        ,"items" : [
+        
+            {
+    "title": "Afternoon guided city tour of Agra",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/uttar-pradesh/cities/agra/excursions/afternoon-other-monuments/index.json",
+    "summary" : "Agra has much to offer besides the Taj Mahal, such as Agra Fort, a masterpiece of design and construction."
+}
+        
+            , {
+    "title": "Day trip from Delhi to Agra by Gatimaan Express train",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/uttar-pradesh/cities/agra/excursions/day-trip-from-delhi-to-agra-by-gatimaan-express-train/index.json",
+    "summary" : "You travel from Delhi to Agra by the Gatimaan Express, which covers the 200km distance in less than 2 hours."
+}
+        
+            , {
+    "title": "Early morning guided visit to the Taj",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/uttar-pradesh/cities/agra/excursions/early-morning-guided-visit-to-the-taj/index.json",
+    "summary" : "The best time of day to appreciate this stunning monument is as soon as the Taj Mahal opens, when it is at its quietest and most serene."
+}
+        
+            , {
+    "title": "Early morning visit to the Taj Mahal (without guide)",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/uttar-pradesh/cities/agra/excursions/early-morning-taj-mahal/index.json",
+    "summary" : "The best time of day to appreciate this stunning monument is as soon as the Taj Mahal opens, when it is at its quietest and most serene."
+}
+        
+            , {
+    "title": "Half day city tour of Agra",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/uttar-pradesh/cities/agra/excursions/half-day-city-tour-of-agra/index.json",
+    "summary" : "The Taj Mahal is one of the most fascinating and beautiful monuments in the world. About 20,000 workers were employed in its construction, which took some 20 years."
+}
+        
+            , {
+    "title": "Half-day excursion to Fatehpur Sikri",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/uttar-pradesh/cities/agra/excursions/half-day-excursion-to-fatehpur-sikri/index.json",
+    "summary" : "An hour outside Agra is the deserted Mughal city of Fatehpur Sikri, a complex of sandstone forts, palaces and mosques."
+}
+        
+        ]
+    }
+
+}

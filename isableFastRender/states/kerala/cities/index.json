@@ -1,0 +1,22 @@
+{
+	"data" : 
+    {
+        
+            "section" : "states",
+        
+        
+        "count" : "1"
+        ,"items" : [
+        
+            {
+    "title": "Alleppey",
+    "date": "2020-09-26 10:59:20 +0000 UTC",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/kerala/cities/alleppey/index.json",
+    "summary" : "Alleppey (also called Allapuzha) is a bustling town south of Kochi, and a major trading centre for the coir industry."
+}
+        
+        ]
+    }
+
+}

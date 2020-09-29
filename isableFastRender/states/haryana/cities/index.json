@@ -1,0 +1,22 @@
+{
+	"data" : 
+    {
+        
+            "section" : "states",
+        
+        
+        "count" : "1"
+        ,"items" : [
+        
+            {
+    "title": "test",
+    "date": "2020-09-26 10:57:18 +0000 UTC",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/haryana/cities/test/index.json",
+    "summary" : "Founded in the early 12th century, the religious enclave of Alchi houses an extraordinary wealth of ancient wall paintings and wood sculpture inside five tiny mud-walled temples."
+}
+        
+        ]
+    }
+
+}

@@ -23,6 +23,11 @@ gtm_datalayer = "basic"
 disallow_search_engines = false 
 logo          = "/logo.gif"
 
+[outputs]
+ home = [ "HTML"]
+ section = [ "HTML", "JSON"]
+ pages = [ "HTML", "JSON"]
+
 [Languages]
   [Languages.en]
     languageName = "English"
@@ -45,6 +50,12 @@ logo          = "/logo.gif"
     pre = "pen-tool"
     url = "/tours/"
     weight = 20
+  [[Languages.en.menu.main]]
+    name = "TIM"
+    identifier = "tim"
+    pre = "pen-tool"
+    url = "/tim/"
+    weight = 25
   [[Languages.en.menu.main]]
     name = "States"
     identifier = "states"

@@ -1,0 +1,30 @@
+{
+	"data" : 
+    {
+        
+            "section" : "states",
+        
+        
+        "count" : "2"
+        ,"items" : [
+        
+            {
+    "title": "Allahabad",
+    "date": "2020-09-26 10:58:48 +0000 UTC",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/uttar-pradesh/cities/allahabad/index.json",
+    "summary" : "Allahabad is the meeting point for three rivers, the Ganges, the Yamuna and the invisible Saraswati, and is therefore one of the seven sacred cities for Hindus."
+}
+        
+            , {
+    "title": "Agra",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/uttar-pradesh/cities/agra/index.json",
+    "summary" : "Agra is home to possibly the most famous and beautiful building in the world: the Taj Mahal, built in the 17th century by the Mughal emperor Shah Jahan as a tomb and memorial for his wife Mumtaz Mahal."
+}
+        
+        ]
+    }
+
+}

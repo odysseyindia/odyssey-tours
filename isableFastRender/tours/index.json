@@ -1,0 +1,30 @@
+{
+	"data" : 
+    {
+        
+            "section" : "tours",
+        
+        
+        "count" : "2"
+        ,"items" : [
+        
+            {
+    "title": "Another tour 7 days",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "tours",
+    "permalink" : "//localhost:1313/tours/another-tour/index.json",
+    "summary" : "A classic adventure in northern India. The journey includes the palaces of Jaipur, the immortal beauty of the Taj Mahal, the medieval temple town of Orchha, the erotic statues of Khajuraho and sunrise over the sacred Ganges."
+}
+        
+            , {
+    "title": "Classic India",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "tours",
+    "permalink" : "//localhost:1313/tours/classic-india/index.json",
+    "summary" : "Delhi, Day 1 Welcome to Delhi! You are met at the airport and transferred to your hotel."
+}
+        
+        ]
+    }
+
+}

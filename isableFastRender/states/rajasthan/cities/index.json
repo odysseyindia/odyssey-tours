@@ -1,0 +1,38 @@
+{
+	"data" : 
+    {
+        
+            "section" : "states",
+        
+        
+        "count" : "3"
+        ,"items" : [
+        
+            {
+    "title": "Abhaneri",
+    "date": "2020-09-26 11:16:29 +0000 UTC",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/rajasthan/cities/abhaneri/index.json",
+    "summary" : "Just off the Jaipur-Agra highway is the village of Abhaneri. Here you will see the ruins of the 10th-century Harshat Mata Temple, with interesting stone carvings, and the impressive Chand Baoli Step Well."
+}
+        
+            , {
+    "title": "Ajmer",
+    "date": "2020-09-26 10:55:34 +0000 UTC",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/rajasthan/cities/ajmer/index.json",
+    "summary" : "At the heart of predominantly Hindu Rajasthan is the Muslim city of Ajmer. This busy city is most famous for the shrine of the Sufi saint Mu&rsquo;inuddin Chishti who was instrumental in spreading Islam throughout northern India in the 12th century."
+}
+        
+            , {
+    "title": "Jaipur",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/rajasthan/cities/jaipur/index.json",
+    "summary" : "blah blah missing as yet"
+}
+        
+        ]
+    }
+
+}

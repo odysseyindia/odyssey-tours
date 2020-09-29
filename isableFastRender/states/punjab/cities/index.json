@@ -1,0 +1,22 @@
+{
+	"data" : 
+    {
+        
+            "section" : "states",
+        
+        
+        "count" : "1"
+        ,"items" : [
+        
+            {
+    "title": "Amritsar",
+    "date": "2020-09-26 11:02:33 +0000 UTC",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/punjab/cities/amritsar/index.json",
+    "summary" : "Situated on the north-western border of India, in Punjab, the 400-year-old city of the Golden Temple is the paramount seat of Sikh history and culture."
+}
+        
+        ]
+    }
+
+}

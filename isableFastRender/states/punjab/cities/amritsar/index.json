@@ -1,0 +1,54 @@
+{
+	"data" : 
+    {
+        
+            "section" : "states",
+        
+        
+        "count" : "5"
+        ,"items" : [
+        
+            {
+    "title": "Ranjits Svaasa",
+    "date": "2020-09-26 11:07:11 +0000 UTC",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/punjab/cities/amritsar/hotels/ranjits-svaasa/index.json",
+    "summary" : "This lovely heritage spa resort is located in the heart of Amritsar. The large lawns and ancient trees create a peaceful, idyllic space."
+}
+        
+            , {
+    "title": "Golden Sarovar Portico",
+    "date": "2020-09-26 11:05:48 +0000 UTC",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/punjab/cities/amritsar/hotels/golden-sarovar-portico/index.json",
+    "summary" : "A brand-new, modern hotel, the Golden Sarovar Portico offers a calming environment, with well-appointed rooms and bang up-to-date bathrooms."
+}
+        
+            , {
+    "title": "M.K.Hotel",
+    "date": "2020-09-26 11:05:07 +0000 UTC",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/punjab/cities/amritsar/hotels/m.k.hotel/index.json",
+    "summary" : "One of the city&rsquo;s older hotels, the spacious M K Hotel has been well looked after, with attractive wooden décor."
+}
+        
+            , {
+    "title": "Night visit of the Golden Temple",
+    "date": "2020-09-26 11:04:22 +0000 UTC",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/punjab/cities/amritsar/excursions/night-visit-of-the-golden-temple/index.json",
+    "summary" : "It is well worth visiting this spectacular monument in the evening. The golden light from the main temple is brilliantly reflected in the surrounding pool of water, and pilgrims and locals relax here, enjoying the cooling breeze after the oppressive heat of the day."
+}
+        
+            , {
+    "title": "Afternoon excursion to the Wagah Border",
+    "date": "2020-09-26 11:03:44 +0000 UTC",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/punjab/cities/amritsar/excursions/afternoon-excursion-to-the-wagah-border/index.json",
+    "summary" : "The daily border closing ceremony at the Wagah Border between India and Pakistan is extraordinary street theatre."
+}
+        
+        ]
+    }
+
+}

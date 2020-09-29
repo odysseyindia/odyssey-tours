@@ -1,0 +1,54 @@
+{
+	"data" : 
+    {
+        
+            "section" : "states",
+        
+        
+        "count" : "5"
+        ,"items" : [
+        
+            {
+    "title": "Hotel Amarpreet",
+    "date": "2020-09-26 11:11:15 +0000 UTC",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/maharashtra/cities/aurangabad/hotels/hotel-amarpreet/index.json",
+    "summary" : "The Amarpreet Hotel offers possibly the best mid-range accommodation in Aurangabad . Although a simple hotel, it has comfortable rooms, good service and memorable food at an affordable price."
+}
+        
+            , {
+    "title": "Hotel Green Olive",
+    "date": "2020-09-26 11:10:38 +0000 UTC",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/maharashtra/cities/aurangabad/hotels/hotel-green-olive/index.json",
+    "summary" : "A comfortable, modern hotel in the heart of Auranbagad, the Green Olive has a good location, clean rooms and a nice Indian-cuisine restaurant."
+}
+        
+            , {
+    "title": "Half day excursion to Ellora",
+    "date": "2020-09-26 11:09:49 +0000 UTC",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/maharashtra/cities/aurangabad/excursions/half-day-excursion-to-ellora/index.json",
+    "summary" : "Artists worked at the cave site of Ellora, 30km from Aurangabad, from about 600 to 1000 A."
+}
+        
+            , {
+    "title": "Full day excursion to Ajanta",
+    "date": "2020-09-26 11:09:07 +0000 UTC",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/maharashtra/cities/aurangabad/excursions/full-day-excursion-to-ajanta/index.json",
+    "summary" : "The Ajanta Caves reflect the peak of ancient Indian art and architecture. The caves were cut in rocky cliffs above a horseshoe-shaped valley to provide prayer halls and a place of residence for Buddhist monks."
+}
+        
+            , {
+    "title": "Half day city tour of Aurangabad",
+    "date": "2020-09-26 11:08:28 +0000 UTC",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/maharashtra/cities/aurangabad/excursions/half-day-city-tour-of-aurangabad/index.json",
+    "summary" : "Built by Aurangzeb&rsquo;s son as a mausoleum to his mother, the Bibi-Ka-Maqbara is the finest example of Mughal architecture in the Deccan plateau."
+}
+        
+        ]
+    }
+
+}

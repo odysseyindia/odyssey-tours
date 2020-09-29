@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>//localhost:1313/states/rajasthan/cities/abhaneri/index.json</loc>
+    <lastmod>2020-09-26T11:16:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tags/cities/</loc>
+    <lastmod>2020-09-26T11:16:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2020-09-26T11:16:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2020-09-26T11:16:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/pondicherry/cities/auroville/index.json</loc>
+    <lastmod>2020-09-26T11:12:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tags/aurangabad/</loc>
+    <lastmod>2020-09-26T11:11:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/maharashtra/cities/aurangabad/hotels/hotel-amarpreet/index.json</loc>
+    <lastmod>2020-09-26T11:11:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tags/hotels/</loc>
+    <lastmod>2020-09-26T11:11:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/maharashtra/cities/aurangabad/hotels/hotel-green-olive/index.json</loc>
+    <lastmod>2020-09-26T11:10:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/maharashtra/cities/aurangabad/excursions/half-day-excursion-to-ellora/index.json</loc>
+    <lastmod>2020-09-26T11:09:49+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/maharashtra/cities/aurangabad/excursions/full-day-excursion-to-ajanta/index.json</loc>
+    <lastmod>2020-09-26T11:09:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/maharashtra/cities/aurangabad/excursions/half-day-city-tour-of-aurangabad/index.json</loc>
+    <lastmod>2020-09-26T11:08:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/maharashtra/cities/aurangabad/index.json</loc>
+    <lastmod>2020-09-26T11:08:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/lakshadweep/cities/agatti/index.json</loc>
+    <lastmod>2020-09-26T11:07:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tags/amritsar/</loc>
+    <lastmod>2020-09-26T11:07:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tags/lakshadweep/</loc>
+    <lastmod>2020-09-26T11:07:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/punjab/cities/amritsar/hotels/ranjits-svaasa/index.json</loc>
+    <lastmod>2020-09-26T11:07:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/punjab/cities/amritsar/hotels/golden-sarovar-portico/index.json</loc>
+    <lastmod>2020-09-26T11:05:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/punjab/cities/amritsar/hotels/m.k.hotel/index.json</loc>
+    <lastmod>2020-09-26T11:05:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/punjab/cities/amritsar/excursions/night-visit-of-the-golden-temple/index.json</loc>
+    <lastmod>2020-09-26T11:04:22+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/punjab/cities/amritsar/excursions/afternoon-excursion-to-the-wagah-border/index.json</loc>
+    <lastmod>2020-09-26T11:03:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/punjab/cities/amritsar/index.json</loc>
+    <lastmod>2020-09-26T11:02:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tags/amla/</loc>
+    <lastmod>2020-09-26T11:02:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/madya-pradesh/cities/amla/hotels/fort-amla/index.json</loc>
+    <lastmod>2020-09-26T11:02:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/madya-pradesh/cities/amla/index.json</loc>
+    <lastmod>2020-09-26T11:01:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/uttarakhand/cities/almora/index.json</loc>
+    <lastmod>2020-09-26T11:01:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tags/alleppey/</loc>
+    <lastmod>2020-09-26T11:00:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/kerala/cities/alleppey/hotels/raheem-residency/index.json</loc>
+    <lastmod>2020-09-26T11:00:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/kerala/cities/alleppey/hotels/kettuvallam-houseboat/index.json</loc>
+    <lastmod>2020-09-26T11:00:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/kerala/cities/alleppey/hotels/emerald-isle/index.json</loc>
+    <lastmod>2020-09-26T10:59:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/kerala/cities/alleppey/index.json</loc>
+    <lastmod>2020-09-26T10:59:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/uttar-pradesh/cities/allahabad/index.json</loc>
+    <lastmod>2020-09-26T10:58:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/jammu-and-kashmir/cities/alchi/hotels/zimskhang-hotel/index.json</loc>
+    <lastmod>2020-09-26T10:58:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/jammu-and-kashmir/cities/alchi/excursions/visit-to-alchi-monastery/index.json</loc>
+    <lastmod>2020-09-26T10:57:49+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/jammu-and-kashmir/cities/alchi/index.json</loc>
+    <lastmod>2020-09-26T10:57:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tags/jammu-kashmir/</loc>
+    <lastmod>2020-09-26T10:57:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/haryana/cities/test/index.json</loc>
+    <lastmod>2020-09-26T10:57:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/rajasthan/cities/ajmer/hotels/mansingh-palace/index.json</loc>
+    <lastmod>2020-09-26T10:56:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/rajasthan/cities/ajmer/index.json</loc>
+    <lastmod>2020-09-26T10:55:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/maharashtra/cities/ajanta/index.json</loc>
+    <lastmod>2020-09-26T10:54:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/mizoram/cities/aizawl/index.json</loc>
+    <lastmod>2020-09-26T10:53:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/uttar-pradesh/cities/agra/excursions/afternoon-other-monuments/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tags/agra/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/uttar-pradesh/cities/agra/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/interstates/agra-jaipur-or-vv/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tags/ahmedabad/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/gujarat/cities/ahmedabad/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/rajasthan/cities/jaipur/excursions/amber-fort-sightseeing/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tags/andaman-nicobar/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/andaman-and-nicobar/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tours/another-tour/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/assam/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/madya-pradesh/cities/bandhavgarh/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/bihar/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/chandigarh/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tours/classic-india/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/rajasthan/cities/jaipur/excursions/cycling-tour/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/uttar-pradesh/cities/agra/excursions/day-trip-from-delhi-to-agra-by-gatimaan-express-train/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/delhi/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/rajasthan/cities/jaipur/hotels/dera-rawatsar/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/diu/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/uttar-pradesh/cities/agra/excursions/early-morning-guided-visit-to-the-taj/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/uttar-pradesh/cities/agra/excursions/early-morning-taj-mahal/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tags/excursions/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/uttar-pradesh/cities/agra/excursions/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/rajasthan/cities/jaipur/excursions/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/goa/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/gujarat/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/uttar-pradesh/cities/agra/excursions/half-day-city-tour-of-agra/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/uttar-pradesh/cities/agra/excursions/half-day-excursion-to-fatehpur-sikri/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/haryana/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/himachal-pradesh/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/uttar-pradesh/cities/agra/hotels/hotel-mansingh-palace/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/uttar-pradesh/cities/agra/hotels/hotel-taj-resorts/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/interstates/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tags/jaipur/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/rajasthan/cities/jaipur/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/jammu-and-kashmir/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/jharkhand/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/madya-pradesh/cities/kanha/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/karnataka/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/kerala/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/lakshadweep/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tags/madhya-pradesh/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/madya-pradesh/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/maharashtra/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/manipur/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/meghalaya/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/mizoram/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/nagaland/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/orissa/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/pondicherry/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/punjab/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/rajasthan/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tags/rajasthan/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/sikkim/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tours/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tags/states/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/tamil-nadu/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/assam/cities/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/bihar/cities/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/chandigarh/cities/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/diu/cities/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/goa/cities/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/gujarat/cities/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/haryana/cities/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/himachal-pradesh/cities/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/jammu-and-kashmir/cities/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/jharkhand/cities/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/karnataka/cities/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/kerala/cities/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/madya-pradesh/cities/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/maharashtra/cities/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/manipur/cities/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/meghalaya/cities/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/mizoram/cities/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/nagaland/cities/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/orissa/cities/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/pondicherry/cities/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/punjab/cities/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/rajasthan/cities/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/sikkim/cities/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/tamil-nadu/cities/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/andaman-and-nicobar/cities/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/lakshadweep/cities/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/tripura/cities/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/uttar-pradesh/cities/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/uttarakhand/cities/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/uttaranchal/cities/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/west-bengal/cities/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/uttar-pradesh/cities/agra/hotels/the-coral-house-homestay-/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/uttar-pradesh/cities/agra/hotels/the-coral-tree-homestay/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/uttar-pradesh/cities/agra/hotels/the-grand-imperial/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/uttar-pradesh/cities/agra/hotels/the-oberoi-amarvilas/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tags/tours/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/uttar-pradesh/cities/agra/hotels/trident-agra/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tags/uttar-pradesh/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/uttar-pradesh/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/uttarakhand/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/uttaranchal/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/west-bengal/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/uttar-pradesh/cities/agra/hotels/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/mizoram/cities/aizawl/hotels/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/rajasthan/cities/jaipur/hotels/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/states/haryana/cities/test/hotels/index.json</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/offline/index.json</loc>
+    <lastmod>2020-06-27T19:28:41+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/sitemap/index.json</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tim/index.json</loc>
+  </url>
+  
+</urlset>

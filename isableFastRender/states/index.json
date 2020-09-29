@@ -1,0 +1,264 @@
+{
+	"data" : 
+    {
+        
+            "section" : "states",
+        
+        
+        "count" : "31"
+        ,"items" : [
+        
+            {
+    "title": "Andaman & Nicobar",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/andaman-and-nicobar/index.json",
+    "summary" : "This string of more than 300 almost virgin islands lies quietly in the Andaman Sea, east of the Bay of Bengal, hardly touched by modern civilization."
+}
+        
+            , {
+    "title": "Assam",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/assam/index.json",
+    "summary" : "Spread along the valley of the Brahmaputra river, Assam is rich in natural resources and wild life, and is also famous for aromatic tea that is grown all along the hillsides."
+}
+        
+            , {
+    "title": "Bihar",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/bihar/index.json",
+    "summary" : "One of the least visited states of North India, Bihar is in fact an important place in the history of Indian civilization, as the birthplace of Buddhism - for it was here, at Bodh Gaya, that the Buddha gained enlightenment."
+}
+        
+            , {
+    "title": "Chandigarh",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/chandigarh/index.json",
+    "summary" : "Chandigarh, the capital of both Haryana and Punjab, is famous for its design and layout. The city was planned by the French architect Le Corbusier in the early 1950s, and today remains one of India&rsquo;s most pleasant, well-planned state capitals, with the hills of Himachal Pradesh beginning just on the outskirts."
+}
+        
+            , {
+    "title": "Delhi",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/delhi/index.json",
+    "summary" : "Old Delhi was the capital of Moghul India between the 12th and the 19th centuries. You will find here many mosques, monuments and forts of the Moghul period of India&rsquo;s history."
+}
+        
+            , {
+    "title": "Diu",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/diu/index.json",
+    "summary" : "Goa, Daman and Diu were Portuguese possessions in India which were liberated in 1961. Whilst Goa became a State, a Union Territory was formed in 1987 consisting of the two separate districts of Daman and Diu."
+}
+        
+            , {
+    "title": "Goa",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/goa/index.json",
+    "summary" : "Goa is so beautiful that it is not surprising that the Portuguese stayed on for 450 years!"
+}
+        
+            , {
+    "title": "Gujarat",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/gujarat/index.json",
+    "summary" : "Grossly underrated and often completely overlooked by travellers, Gujarat is an ideal tourist destination offering a little bit of everything."
+}
+        
+            , {
+    "title": "Haryana",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/haryana/index.json",
+    "summary" : "Haryana is bordered by Punjab and Himachal Pradesh to the north, and by Rajasthan to the west and south."
+}
+        
+            , {
+    "title": "Himachal Pradesh",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/himachal-pradesh/index.json",
+    "summary" : "Himachal Pradesh is India&rsquo;s most popular and easily accessible hill state. The snowy mountains and steep hillsides have ensured that the region has remained an idyllic place, little touched by the fast changing world around it."
+}
+        
+            , {
+    "title": "Jammu & Kashmir",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/jammu-and-kashmir/index.json",
+    "summary" : "Jammu and Kashmir is India&rsquo;s northernmost state, bordering Pakistan and China&rsquo;s Tibetan plateau. It&rsquo;s three distinct regions - Jammu, the Kashmir Valley and Ladakh - offer a rich diversity of landscapes, religions and people."
+}
+        
+            , {
+    "title": "Jharkhand",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/jharkhand/index.json",
+    "summary" : "The new state of Jharkhand, in what was southern Bihar, came into being in 2000. An area of great natural beauty, Jharkand comprises a forested plateau, home to a large population of tribal people with distinctive cultures."
+}
+        
+            , {
+    "title": "Karnataka",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/karnataka/index.json",
+    "summary" : "Karnataka has a great variety of scenery, monuments and traditions.
+This state has a diverse range of options for holiday-goers to choose from."
+}
+        
+            , {
+    "title": "Kerala",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/kerala/index.json",
+    "summary" : "Kerala is a narrow, fertile strip of land wedged between the verdant hills and rain forests of the Western Ghats and the wide beaches of the Arabian Sea."
+}
+        
+            , {
+    "title": "Lakshadweep",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/lakshadweep/index.json",
+    "summary" : "Coral hideaway in the Arabian Sea
+Deep in the azure waters of the Indian Ocean lies the last of the enchanted isles."
+}
+        
+            , {
+    "title": "Madhya Pradesh",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/madya-pradesh/index.json",
+    "summary" : "Few regions in India are as fascinating as Madhya Pradesh, the heart of India. Intersected by rivers and dotted with hills and lakes, the state has varied landscapes, each more beautiful than the other."
+}
+        
+            , {
+    "title": "Maharashtra",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/maharashtra/index.json",
+    "summary" : "Maharashtra has a beautiful long coast line with countless inlets, ridges and valleys, and is known for its ancient forts."
+}
+        
+            , {
+    "title": "Manipur",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/manipur/index.json",
+    "summary" : "Manipur, located on the far north east border below Nagaland, has been described it as the Jewel of the East owing to its picturesque hills and valleys."
+}
+        
+            , {
+    "title": "Meghalaya",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/meghalaya/index.json",
+    "summary" : "Meghalaya is one of north-east India&rsquo;s most attractive states. It has a wealth of rolling green, thickly forested hills that nurture an amazing ecological diversity, populated by tribal groups who follow a matrilineal system of inheritance."
+}
+        
+            , {
+    "title": "Mizoram",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/mizoram/index.json",
+    "summary" : "Mizoram cannot boast of five star facilities nor of any exceptional amenities and tourist services. Except for visitors from various Christian organizations, persons on official visits and the odd research scholar, few tourists visit Mizoram."
+}
+        
+            , {
+    "title": "Nagaland",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/nagaland/index.json",
+    "summary" : "Nagaland is a narrow strip of mountain territory with a long border with Myanmar to the east."
+}
+        
+            , {
+    "title": "Orissa",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/orissa/index.json",
+    "summary" : "The state of Orissa is not widely visited by foreign tourists, despite having many attractions: These include the Sun temple at Konarak, outstanding temple architecture in Bhubaneswar and Puri, and the serenely beautiful Chilika lake, Asia&rsquo;s largest saltwater body."
+}
+        
+            , {
+    "title": "Pondicherry",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/pondicherry/index.json",
+    "summary" : "The Union Territory of Pondicherry comprises four coastal regions: Pondicherry and Karaikal, situated on the east coast of Tamil Nadu, Yanam in Andra Pradesh and Mahe on the west coast of Kerala."
+}
+        
+            , {
+    "title": "Punjab",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/punjab/index.json",
+    "summary" : "Punjab is known as &ldquo;the bread basket of the nation&rdquo; as it is the largest single provider of wheat to India."
+}
+        
+            , {
+    "title": "Rajasthan",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/rajasthan/index.json",
+    "summary" : "Overflowing with monuments and heritage buildings, many of which are now open to guests, Rajasthan offers the most interesting accommodation options: historical forts, elegant palaces, traditional mud huts, desert tents, and wonderful home stays."
+}
+        
+            , {
+    "title": "Sikkim",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/sikkim/index.json",
+    "summary" : "Sikkim is one of India&rsquo;s smallest but most beautiful states, situated in the far north-east of the subcontinent."
+}
+        
+            , {
+    "title": "Tamil Nadu",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/tamil-nadu/index.json",
+    "summary" : "Tamil Nadu has all that a visitor could look for. A dramatic coastline, beautiful beaches and dense forests."
+}
+        
+            , {
+    "title": "Uttar Pradesh",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/uttar-pradesh/index.json",
+    "summary" : "The northern state of Uttar Pradesh, popularly know as UP, is India&rsquo;s most populous state. It is the heartland of Hindi, the principal indigenous language of India, and the official language of government."
+}
+        
+            , {
+    "title": "Uttarakhand",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/uttarakhand/index.json",
+    "summary" : ""
+}
+        
+            , {
+    "title": "Uttaranchal",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/uttaranchal/index.json",
+    "summary" : "In the year 2000 the northern state of Uttaranchal was carved out of the hill areas of Uttar Pradesh."
+}
+        
+            , {
+    "title": "West Bengal",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/west-bengal/index.json",
+    "summary" : "West Bengal is unique among Indian states as it stretches from the sea to the mountains."
+}
+        
+        ]
+    }
+
+}

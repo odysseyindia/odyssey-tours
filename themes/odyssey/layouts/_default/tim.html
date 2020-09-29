@@ -1,0 +1,35 @@
+{{ define "main" }}
+{{ "<!-- The CONTENT Now -->" | safeHTML }}
+{{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
+<section id="{{ $id | lower }}">
+		<h2 class="center">{{ .Title }}</h2>
+  	<div class="container">
+    	<div class="row">
+	      		<div class="w-50 p-1">
+	      			<h3 class="center"> </h3>
+				{{ .Content }}
+			</div>
+			<div class="w-50 p-1">
+				<h3 class="center">Library</h3>
+
+<form id="myForm" autocomplete="off" onclick="hide_items();">
+	<div class="autocomplete" style="width:300px;">
+		<input id="myInput" type="text" name="myData" placeholder="City">
+	</div>
+	<input type="submit" >
+</form>
+<div id="first" >
+	
+</div>
+<div id="second" >
+	
+</div>
+
+
+
+
+			</div>
+    	</div>
+  	</div>
+</section>
+{{ end }}

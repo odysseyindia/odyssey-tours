@@ -1,0 +1,22 @@
+{
+	"data" : 
+    {
+        
+            "section" : "states",
+        
+        
+        "count" : "1"
+        ,"items" : [
+        
+            {
+    "title": "Aizawl",
+    "date": "2020-09-26 10:53:28 +0000 UTC",
+    "type": "states",
+    "permalink" : "//localhost:1313/states/mizoram/cities/aizawl/index.json",
+    "summary" : "Aizawl (pronounced Eye-jull), the isolated capital of Mizoram, is built along a central ridge and several surrounding spurs."
+}
+        
+        ]
+    }
+
+}
