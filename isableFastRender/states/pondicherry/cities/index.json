@@ -12,8 +12,9 @@
     "title": "Auroville",
     "date": "2020-09-26 11:12:27 +0000 UTC",
     "type": "states",
-    "permalink" : "//localhost:1313/states/pondicherry/cities/auroville/index.json",
-    "summary" : "Auroville is the home of the Sri Aurobindo Ashram, now largely a museum dedicated to the life of its founder, invariably known simply as &ldquo;The Mother&rdquo; who died in 1973."
+    "permalink" : "//localhost:1313/states/pondicherry/cities/auroville/",
+    "content" : "<p>Auroville is the home of the Sri Aurobindo Ashram, now largely a museum dedicated to the life of its founder, invariably known simply as &ldquo;The Mother&rdquo; who died in 1973. Her unique experiment in international living, the community of Auroville, continues to prosper nearby.</p>
+"
 }
         
         ]

@@ -12,16 +12,16 @@
     "title": "Excursions in Agra",
     "date": "2020-09-21 12:59:23 +0200 CEST",
     "type": "states",
-    "permalink" : "//localhost:1313/states/uttar-pradesh/cities/agra/excursions/index.json",
-    "summary" : ""
+    "permalink" : "//localhost:1313/states/uttar-pradesh/cities/agra/excursions/",
+    "content" : ""
 }
         
             , {
     "title": "Where to stay in Agra",
     "date": "2020-09-21 12:59:23 +0200 CEST",
     "type": "states",
-    "permalink" : "//localhost:1313/states/uttar-pradesh/cities/agra/hotels/index.json",
-    "summary" : ""
+    "permalink" : "//localhost:1313/states/uttar-pradesh/cities/agra/hotels/",
+    "content" : ""
 }
         
         ]

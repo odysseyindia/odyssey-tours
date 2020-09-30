@@ -12,24 +12,27 @@
     "title": "Amla",
     "date": "2020-09-26 11:01:34 +0000 UTC",
     "type": "states",
-    "permalink" : "//localhost:1313/states/madya-pradesh/cities/amla/index.json",
-    "summary" : "Amla is a quaint little village that seems to be stuck in a time warp. Life here carries on as it must have for centuries, with the odd exception of an electrical flour mill."
+    "permalink" : "//localhost:1313/states/madya-pradesh/cities/amla/",
+    "content" : "<p>Amla is a quaint little village that seems to be stuck in a time warp. Life here carries on as it must have for centuries, with the odd exception of an electrical flour mill. Amla has been ruled for generations by the family of Raghavendra Singh, who operates the Fort Amla heritage hotel.</p>
+"
 }
         
             , {
     "title": "Bandhavgarh",
     "date": "2020-09-21 12:59:23 +0200 CEST",
     "type": "states",
-    "permalink" : "//localhost:1313/states/madya-pradesh/cities/bandhavgarh/index.json",
-    "summary" : "The Bandhavgarh National Park is one of the best places in India to spot a tiger and is also home to a wide range of other game such as nilgai, jungle cat, wild boar, hyenas and many species of birdlife."
+    "permalink" : "//localhost:1313/states/madya-pradesh/cities/bandhavgarh/",
+    "content" : "<p>The Bandhavgarh National Park is one of the best places in India to spot a tiger and is also home to a wide range of other game such as nilgai, jungle cat, wild boar, hyenas and many species of birdlife. The park is set in extremely rugged terrain with many hills. There are also interesting cave shrines scattered around the park, with Brahmin inscriptions dating from the first century BC. The park is dominated by the majestic Bandhavgarh Fort.</p>
+"
 }
         
             , {
     "title": "Kanha",
     "date": "2020-09-21 12:59:23 +0200 CEST",
     "type": "states",
-    "permalink" : "//localhost:1313/states/madya-pradesh/cities/kanha/index.json",
-    "summary" : "Kanha National Park is considered to be one of the best places in the world to see tigers."
+    "permalink" : "//localhost:1313/states/madya-pradesh/cities/kanha/",
+    "content" : "<p>Kanha National Park is considered to be one of the best places in the world to see tigers. You can explore this fabulous sanctuary by jeep from mid October to end June. Amongst the other wildlife you can see leopards, Indian bison, sambhar, blackbuck and wild dogs. Kanha has also a rich variety of bird life with 230 species recorded. Apart from this, Kanha is possibly one of the most beautiful national parks in India.</p>
+"
 }
         
         ]

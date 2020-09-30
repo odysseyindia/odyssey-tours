@@ -12,8 +12,9 @@
     "title": "Agatti",
     "date": "2020-09-26 11:07:11 +0000 UTC",
     "type": "states",
-    "permalink" : "//localhost:1313/states/lakshadweep/cities/agatti/index.json",
-    "summary" : "Agatti is the only one of the Lakshadweep islands with an airport. From here you can go by boat to neighbouring Bangaram."
+    "permalink" : "//localhost:1313/states/lakshadweep/cities/agatti/",
+    "content" : "<p>Agatti is the only one of the Lakshadweep islands with an airport. From here you can go by boat to neighbouring Bangaram.</p>
+"
 }
         
         ]
