@@ -1,0 +1,30 @@
+{
+	"data" : 
+    {
+        
+            "section" : "states",
+        
+        
+        "count" : "2"
+        ,"items" : [
+        
+            {
+    "title": "Excursions in Jaipur",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "/states/rajasthan/cities/jaipur/excursions/",
+    "content" : ""
+}
+        
+            , {
+    "title": "Where to stay in Jaipur",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "/states/rajasthan/cities/jaipur/hotels/",
+    "content" : ""
+}
+        
+        ]
+    }
+
+}

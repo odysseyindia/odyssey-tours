@@ -1,0 +1,30 @@
+{
+	"data" : 
+    {
+        
+            "section" : "states",
+        
+        
+        "count" : "2"
+        ,"items" : [
+        
+            {
+    "title": "Amber Fort Sightseeing",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "/states/rajasthan/cities/jaipur/excursions/amber-fort-sightseeing/",
+    "content" : ""
+}
+        
+            , {
+    "title": "Cycling tour",
+    "date": "2020-09-21 12:59:23 +0200 CEST",
+    "type": "states",
+    "permalink" : "/states/rajasthan/cities/jaipur/excursions/cycling-tour/",
+    "content" : ""
+}
+        
+        ]
+    }
+
+}
