@@ -3,10 +3,10 @@
 {{- if eq $id "city"}}
 
     {
-"title": "{{ .Title }}" 
-"subtitle": "{{ .Params.subtitle }}" 
-"image": "{{ .Params.image }}" 
-"content": {{ .Content }}
+"title": "{{ .Title }}", 
+"subtitle": "{{ .Params.subtitle }}", 
+"image": "{{ .Params.image }}", 
+"content": "{{ .Content }}",
 "permalink" : "{{.Permalink }}"
  }
  
