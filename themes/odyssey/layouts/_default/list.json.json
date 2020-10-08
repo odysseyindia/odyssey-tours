@@ -3,16 +3,20 @@
 {{- if eq $id "city"}}
 
     {
-"title": "{{ .Title | jsonify }}", 
-{{ with .Params.subtitle }}"subtitle": "{{ . | jsonify }}", {{ end }} 
-{{ with .Params.image }}"image": {{ . }}, {{ end }} 
-"content": {{ .Content | plainify }},
-"permalink": "{{.Permalink }}"
- }
+"title": 		"{{ .Title }}", 
+{{- with .Params.subtitle }}
+"subtitle": 	"{{ . }}", 
+{{- end }} 
+{{- with .Params.image }}
+"image": 		"{{ . }}", 
+{{- end }} 
+"content": 		"{{ .Content | plainify }}",
+"permalink": 	"{{ .Permalink }}"
+ 	}
  
  {{- else }}
 
- {     
+ 	{     
         "count" : "{{ len .Data.Pages }}"
         ,"items" : [
         {{ range $i, $e := .Data.Pages }}
