@@ -3,5 +3,5 @@
     "date": "{{ .Date }}",
     "type": "{{ .Type }}",
     "permalink" : "{{ .Permalink }}",
-    "content": "{{ .Content | jsonify }}"
+    "content": "{{ .Content | plainify }}"
 }
