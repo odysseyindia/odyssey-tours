@@ -208,6 +208,11 @@
   </url>
   
   <url>
+    <loc>/about-us/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/states/uttar-pradesh/cities/agra/excursions/afternoon-other-monuments/</loc>
     <lastmod>2020-09-21T12:59:23+02:00</lastmod>
   </url>
@@ -253,7 +258,7 @@
   </url>
   
   <url>
-    <loc>/tours/another-tour/</loc>
+    <loc>/tour-ideas/another-tour/</loc>
     <lastmod>2020-09-21T12:59:23+02:00</lastmod>
   </url>
   
@@ -278,7 +283,7 @@
   </url>
   
   <url>
-    <loc>/tours/classic-india/</loc>
+    <loc>/tour-ideas/classic-india/</loc>
     <lastmod>2020-09-21T12:59:23+02:00</lastmod>
   </url>
   
@@ -329,6 +334,21 @@
   
   <url>
     <loc>/states/rajasthan/cities/jaipur/excursions/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/experiences/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/explore-india/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/faq/</loc>
     <lastmod>2020-09-21T12:59:23+02:00</lastmod>
   </url>
   
@@ -458,6 +478,11 @@
   </url>
   
   <url>
+    <loc>/about-us/our-team/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/states/pondicherry/</loc>
     <lastmod>2020-09-21T12:59:23+02:00</lastmod>
   </url>
@@ -483,12 +508,22 @@
   </url>
   
   <url>
-    <loc>/tours/</loc>
+    <loc>/tour-ideas/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/special-hotels/</loc>
     <lastmod>2020-09-21T12:59:23+02:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/states/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/sustainability/</loc>
     <lastmod>2020-09-21T12:59:23+02:00</lastmod>
   </url>
   
@@ -733,6 +768,11 @@
   </url>
   
   <url>
+    <loc>/about-us/why-us/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/offline/</loc>
     <lastmod>2020-06-27T19:28:41+02:00</lastmod>
   </url>
@@ -742,7 +782,19 @@
   </url>
   
   <url>
+    <loc>/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>/contact/contact-us/</loc>
+  </url>
+  
+  <url>
     <loc>/sitemap/</loc>
+  </url>
+  
+  <url>
+    <loc>/contact/thank-you/</loc>
   </url>
   
   <url>

@@ -2,12 +2,11 @@
 	"data" : 
 
     {
-"title": "Jaipur" 
-"subtitle": "The Pink City" 
-"image": "jaipur.jpg" 
-"content": <p>blah blah missing as yet</p>
-
-"permalink" : "/states/rajasthan/cities/jaipur/"
+"title": ""Jaipur"", 
+"subtitle": ""The Pink City"", 
+"image": ""jaipur.jpg"", 
+"content": ""\u003cp\u003eblah blah missing as yet\u003c/p\u003e\n"",
+"permalink" : ""/states/rajasthan/cities/jaipur/""
  }
 
 }
