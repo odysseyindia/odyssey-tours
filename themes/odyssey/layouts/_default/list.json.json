@@ -3,11 +3,11 @@
 {{- if eq $id "city"}}
 
     {
-"title": "{{ .Title }}", 
-"subtitle": "{{ .Params.subtitle }}", 
-"image": "{{ .Params.image }}", 
-"content": "{{ .Content }}",
-"permalink" : "{{.Permalink }}"
+"title": "{{ .Title | jsonify }}", 
+"subtitle": "{{ .Params.subtitle | jsonify }}", 
+"image": "{{ .Params.image | jsonify }}", 
+"content": "{{ .Content | jsonify }}",
+"permalink" : "{{.Permalink | jsonify }}"
  }
  
  {{- else }}
