@@ -1,0 +1,6 @@
+[submodule "themes/json-api"]
+	path = themes/json-api
+	url = https://github.com/dwalkr/hugo-json-api-component
+[submodule "themes/juliette-hugo-component"]
+	path = themes/juliette-hugo-component
+	url = https://github.com/regisphilibert/juliette-hugo-component

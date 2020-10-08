@@ -1,59 +1,13 @@
 {
 	"data" : 
+
     {
-        
-            "section" : "states",
-        
-        
-        "count" : "5"
-        ,"items" : [
-        
-            {
-    "title": "Hotel Amarpreet",
-    "date": "2020-09-26 11:11:15 +0000 UTC",
-    "type": "states",
-    "permalink" : "/states/maharashtra/cities/aurangabad/hotels/hotel-amarpreet/",
-    "content" : "<p>The Amarpreet Hotel offers possibly the best mid-range accommodation in Aurangabad . Although a simple hotel, it has comfortable rooms, good service and memorable food at an affordable price. This hotel draws crowds of local residents on weekends, who come to dine at the in-house restaurant, which is known for its Indian tandoori and Chinese food, and regular barbeques on the front lawn.</p>
-"
-}
-        
-            , {
-    "title": "Hotel Green Olive",
-    "date": "2020-09-26 11:10:38 +0000 UTC",
-    "type": "states",
-    "permalink" : "/states/maharashtra/cities/aurangabad/hotels/hotel-green-olive/",
-    "content" : "<p>A comfortable, modern hotel in the heart of Auranbagad, the Green Olive has a good location, clean rooms and a nice Indian-cuisine restaurant. A good choice for a visit to the city of the Buddhist caves.</p>
-"
-}
-        
-            , {
-    "title": "Half day excursion to Ellora",
-    "date": "2020-09-26 11:09:49 +0000 UTC",
-    "type": "states",
-    "permalink" : "/states/maharashtra/cities/aurangabad/excursions/half-day-excursion-to-ellora/",
-    "content" : "<p>Artists worked at the cave site of Ellora, 30km from Aurangabad, from about 600 to 1000 A.D. They created Buddhist, Hindu, and Jain caves next to each other. The masterpiece at Ellora is the astonishing temple dedicated to the Hindu god Shiva. It is the world&rsquo;s largest monolithic sculpture, carved out of one single rock cliff by 7,000 labourers over 150 years.</p>
-"
-}
-        
-            , {
-    "title": "Full day excursion to Ajanta",
-    "date": "2020-09-26 11:09:07 +0000 UTC",
-    "type": "states",
-    "permalink" : "/states/maharashtra/cities/aurangabad/excursions/full-day-excursion-to-ajanta/",
-    "content" : "<p>The Ajanta Caves reflect the peak of ancient Indian art and architecture. The caves were cut in rocky cliffs above a horseshoe-shaped valley to provide prayer halls and a place of residence for Buddhist monks. Craftworkers cut out the rock and sculpted it while others made beautiful murals depicting places, royalty, culture and tales of everyday life in ancient India.</p>
-"
-}
-        
-            , {
-    "title": "Half day city tour of Aurangabad",
-    "date": "2020-09-26 11:08:28 +0000 UTC",
-    "type": "states",
-    "permalink" : "/states/maharashtra/cities/aurangabad/excursions/half-day-city-tour-of-aurangabad/",
-    "content" : "<p>Built by Aurangzeb&rsquo;s son as a mausoleum to his mother, the Bibi-Ka-Maqbara is the finest example of Mughal architecture in the Deccan plateau. Modelled on the Taj Mahal, it is about half its size. Panchakki is a 17th-century water mill, famous for its underground water channel. The Aurangabad Caves, hacked into a high hillside cleft, are a World Heritage Site from the Buddhist era.</p>
-"
-}
-        
-        ]
-    }
+"title": "Aurangabad" 
+"subtitle": "" 
+"image": "" 
+"content": <p>Aurangabad, named after the Mughal emperor Aurangzeb, is the gateway to the World Heritage Sites of Ajanta and Ellora. These complexes of caves are superb examples of rock cut architecture. Also worth visiting are the Bibi ka Maqbara, built to rival the Taj Mahal, and the magnificent hilltop fortress of Daulatabad.</p>
+
+"permalink" : "/states/maharashtra/cities/aurangabad/"
+ }
 
 }

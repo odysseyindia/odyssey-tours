@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -1796,8 +1798,8 @@ input[type="button"].btn-block {
   border-radius: 0.25rem; }
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #63582C; }
+  color: #63582C;
+  background-color: #fff; }
 
 .nav-fill > .nav-link,
 .nav-fill .nav-item {
@@ -2131,13 +2133,45 @@ input[type="button"].btn-block {
 .media-body {
   flex: 1; }
 
-@font-face {
-  font-family: 'Proxima Nova';
-  font-style: normal;
+:root {
+  --font-primary: "Raleway",sans-serif;
+  --font-secondary: "Playfair Display",sans-serif; }
+
+*,
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  font-family: sans-serif;
+  line-height: 1.15; }
+
+article,
+aside,
+figure,
+footer,
+header,
+nav,
+section {
+  display: block; }
+
+body {
+  font-family: var(--font-primary);
+  font-size: 1rem;
   font-weight: 400;
-  font-display: swap;
-  src: url("/fonts/proxima_ssv/ProximaNova-Regular.woff2") format("woff2"), url("/fonts/proxima_ssv/ProximaNova-Regular.woff") format("woff"), url("/fonts/proxima_ssv/ProximaNova-Regular.ttf") format("truetype");
-  /* Safari, Android, iOS */ }
+  line-height: 1.7; }
+
+hr {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible; }
+
 @font-face {
   font-family: 'fontello';
   font-weight: normal;
@@ -2154,14 +2188,6 @@ input[type="button"].btn-block {
   }
 }
 */
-body {
-  font-size: 1rem;
-  color: #052530;
-  /*  
-  changed this in bootstrap variables to reduce redundency
-  font-family: "Proxima Nova", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
-  */ }
-
 h2 {
   text-align: center;
   margin-bottom: 30px; }
@@ -2261,7 +2287,7 @@ iframe .gtm {
   visibility: hidden; }
 
 .logo img {
-  height: 100px; }
+  height: 70px; }
 
 /*===  main menu ===*/
 @supports (position: sticky) {
@@ -2287,11 +2313,14 @@ iframe .gtm {
   clip: auto;
   white-space: normal; }
 
-.navbar-dark .navbar-nav .show > .nav-link,
-.navbar-dark .navbar-nav .active > .nav-link,
-.navbar-dark .navbar-nav .nav-link.show,
-.navbar-dark .navbar-nav .nav-link.active {
-  color: #000; }
+#menu.flex-container {
+  margin-top: 0; }
+
+.navbar-nav .show > .nav-link,
+.navbar-nav .active > .nav-link,
+.navbar-nav .nav-link.show,
+.navbar-nav .nav-link.active {
+  color: #252525; }
 
 nav {
   top: 0;
@@ -2309,8 +2338,8 @@ ul.navbar-nav {
 .nav-item {
   padding-right: 5px; }
 
-.navbar-dark .navbar-nav .nav-link {
-  color: #000;
+.navbar-nav .nav-link {
+  color: #252525;
   line-height: 2; }
 
 a#navbarDropdown0.nav-link.dropdown-toggle:hover,
@@ -2327,12 +2356,18 @@ a#navbarDropdown99.nav-link.dropdown-toggle:hover,
 .dropdown-item:hover,
 .dropdown-item:focus {
   background-color: #fff;
-  color: #000; }
+  color: #63582C; }
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #63582C;
+  background-color: #fff; }
 
 .navbar-collapse {
   flex-basis: 100%;
   flex-grow: 1;
-  align-items: center; }
+  align-items: center;
+  height: 50px; }
 
 .collapse:not(.show) {
   display: none; }
@@ -2365,47 +2400,42 @@ a#navbarDropdown99.nav-link.dropdown-toggle:hover,
   display: none; }
 
 .dropdown-menu {
-  background-color: rgba(128, 128, 128, 0.5); }
+  background-color: #fff; }
 
 .dropdown-menu.show {
   padding-top: 0px;
-  padding-bottom: 0px;
-  opacity: 0.9; }
+  padding-bottom: 0px; }
 
 a.nav-link {
   font-size: 1.2rem;
-  font-weight: bold; }
-
-.navbar-scroll {
-  background-color: rgba(0, 123, 255, 0.4);
-  transition: background-color 0.5s; }
-
-.bg-primary {
-  background-color: #191970 !important; }
+  font-weight: bold;
+  padding-bottom: 0; }
 
 .dropdown-item {
-  font-weight: 600;
-  color: white;
-  font-size: 1rem;
-  background: gray;
-  padding: .25rem 0 .25rem 0.5rem; }
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 13px 20px 11px;
+  border-bottom: 1px dashed #e5e5e5;
+  color: var(--main-primary-font);
+  font-size: 15px;
+  font-weight: 500; }
 
 /*=== breadcrumbs ===*/
 ol.breadcrumb {
+  padding: 0 1rem 0 1rem;
   background-color: transparent;
   margin-bottom: 0px;
   justify-content: flex-end;
   margin-right: 30px; }
-
-.breadcrumb ol {
-  min-height: 24px;
-  line-height: 24px;
-  list-style: none;
-  overflow: auto; }
+  ol.breadcrumb .breadcrumb ol {
+    min-height: 24px;
+    line-height: 24px;
+    list-style: none;
+    overflow: auto; }
 
 .breadcrumb-item, .breadcrumb-item a, .breadcrumb-item.active {
-  color: #000;
-  font-weight: bold;
+  color: #252525;
   font-size: 0.9rem; }
 
 .breadcrumb-item + .breadcrumb-item::before {
@@ -2432,7 +2462,7 @@ ol.breadcrumb {
   a.nav-link:hover {
     background-color: menu; }
 
-  .navbar-dark .navbar-toggler {
+  .navbar-toggler {
     border-color: #b4a258; }
 
   .navbar-toggler {
@@ -2447,7 +2477,7 @@ ol.breadcrumb {
     background-color: #FFD700;
     border-color: #63582C; }
 
-  .navbar-dark.color-changed {
+  .color-changed {
     background-color: #282a28 !important;
     opacity: 0.96; }
 
@@ -2472,26 +2502,6 @@ ol.breadcrumb {
 
   #content h3 {
     font-size: 1.6rem; } }
-@media screen and (min-width: 992px) {
-  .navbar {
-    padding: 0px 10px; }
-
-  .navbar-toggler {
-    display: none; }
-
-  .dropdown-menu {
-    background-color: rgba(128, 128, 128, 0.5);
-    margin-top: 0; } }
-.dropdown-item {
-  font-weight: 600;
-  color: white; }
-
-.navbar-nav .nav-link {
-  font-size: 1.0625rem;
-  font-weight: 600;
-  padding: 0;
-  color: white; }
-
 .bread-bar {
   visibility: visible; }
 

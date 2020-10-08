@@ -1,0 +1,17 @@
+<!-- 
+    child-src configures behavior for web workers and nested scripts (i.e. in an iframe tag)
+    font-src configures where fonts can be loaded from
+    form-action restricts where form data can be submitted to
+    frame-src configures what domains can serve content to iframe tags
+    img-src configures image sources
+    object-src configures plug-ins
+    style-src configures stylesheets
+    script-src configures JavaScript behavior
+
+    The unsafe-inline allows using JavaScript embedded in <script> tags (as opposed to being loaded from external files). The fact that I don’t include unsafe-eval means no execution of JavaScript from dynamic strings is allowed. An alternative to unsafe-inline is to use a special sha256-hash approach. The violation will show a hash for the inline script, then you can add that hash to the CSP and as long as the inline script doesn’t change, it will be allowed.
+-->
+
+
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; 
+child-src {{ delimit .Site.Params.csp.childsrc " "  | safeHTML }}
+script-src {{ delimit .Site.Params.csp.scriptsrc " "  | safeHTML }} ;">

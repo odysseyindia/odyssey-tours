@@ -1,32 +1,13 @@
 {
 	"data" : 
+
     {
-        
-            "section" : "states",
-        
-        
-        "count" : "2"
-        ,"items" : [
-        
-            {
-    "title": "Zimskhang Hotel",
-    "date": "2020-09-26 10:58:19 +0000 UTC",
-    "type": "states",
-    "permalink" : "/states/jammu-and-kashmir/cities/alchi/hotels/zimskhang-hotel/",
-    "content" : "<p>This simple hotel is in the heart of the small village of Alchi, just 100 metres from the famous monastery. The 16 rooms are large and simply furnished, with en-suite bathrooms. There are few luxuries, though flat-screen televisions have recently been added, but in any case you may well prefer the view from the very pleasant garden restaurant.</p>
-"
-}
-        
-            , {
-    "title": "Visit to Alchi Monastery",
-    "date": "2020-09-26 10:57:49 +0000 UTC",
-    "type": "states",
-    "permalink" : "/states/jammu-and-kashmir/cities/alchi/excursions/visit-to-alchi-monastery/",
-    "content" : "<p>Most buildings in ancient India were built of wood. The Sumstek Temple, built in the 11th century at Alchi and still very much in use, is a perfect example, and shows a Hellenic influence in the Grecian engravings, while the capitals of the pillars are in the Ionic style. You&rsquo;ll see chortens here, Buddhist motifs, and a three-storey atrium, with a skylight made in an ancient style.</p>
-"
-}
-        
-        ]
-    }
+"title": "Alchi" 
+"subtitle": "" 
+"image": "" 
+"content": <p>Founded in the early 12th century, the religious enclave of Alchi houses an extraordinary wealth of ancient wall paintings and wood sculpture inside five tiny mud-walled temples. It is considered the jewel among Ladakh&rsquo;s monasteries, one of the few that escaped the Muslim depredations of the 14th century.</p>
+
+"permalink" : "/states/jammu-and-kashmir/cities/alchi/"
+ }
 
 }

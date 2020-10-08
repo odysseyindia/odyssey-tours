@@ -1,22 +1,13 @@
 {
 	"data" : 
+
     {
-        
-            "section" : "states",
-        
-        
-        "count" : "1"
-        ,"items" : [
-        
-            {
-    "title": "Where to stay in Aizawl",
-    "date": "2020-09-21 12:59:23 +0200 CEST",
-    "type": "states",
-    "permalink" : "/states/mizoram/cities/aizawl/hotels/",
-    "content" : ""
-}
-        
-        ]
-    }
+"title": "Aizawl" 
+"subtitle": "" 
+"image": "" 
+"content": <p>Aizawl (pronounced Eye-jull), the isolated capital of Mizoram, is built along a central ridge and several surrounding spurs. White-painted churches stand out above residential buildings that cling precariously to the hillsides. Built on steep slopes, Aizawl could well be the world&rsquo;s steepest capital. Houses often have front doors at street level while the backs stand precariously on stilts three times higher than their roofs.</p>
+
+"permalink" : "/states/mizoram/cities/aizawl/"
+ }
 
 }

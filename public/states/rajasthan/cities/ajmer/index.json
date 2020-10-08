@@ -1,23 +1,13 @@
 {
 	"data" : 
+
     {
-        
-            "section" : "states",
-        
-        
-        "count" : "1"
-        ,"items" : [
-        
-            {
-    "title": "Mansingh Palace",
-    "date": "2020-09-26 10:56:32 +0000 UTC",
-    "type": "states",
-    "permalink" : "/states/rajasthan/cities/ajmer/hotels/mansingh-palace/",
-    "content" : "<p>A modern hotel, built like a mock fortress, in quiet surroundings northwest of town on the shores of Ana Sagar. The interiors, dominated by white marble, are pleasantly cool. There are 60 centrally air-conditioned and well-appointed rooms. The hotel also has a swimming pool, tennis, golf, water sports, health club, a multi-cuisine restaurant and a bar.</p>
-"
-}
-        
-        ]
-    }
+"title": "Ajmer" 
+"subtitle": "" 
+"image": "" 
+"content": <p>At the heart of predominantly Hindu Rajasthan is the Muslim city of Ajmer. This busy city is most famous for the shrine of the Sufi saint Mu&rsquo;inuddin Chishti who was instrumental in spreading Islam throughout northern India in the 12th century. The tomb (Dargah) is now a major pilgrimage place for Moslems, particularly during the annual commemoration of the saint&rsquo;s death.</p>
+
+"permalink" : "/states/rajasthan/cities/ajmer/"
+ }
 
 }

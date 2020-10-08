@@ -30,7 +30,7 @@
 <meta name="twitter:image" content="/" />
 <meta name="twitter:image:src" content="/" />
 <!-- Date, Sitemap, and RSS Tags -->
-<meta property="og:updated_time" content="2020-08-31" />
+<meta property="og:updated_time" content="2020-09-07" />
 <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
 <!-- Schema -->
 	<meta itemprop="name" content="Tour Itinerary Management">
@@ -162,7 +162,7 @@
 <!-- Open Graph -->
 <meta property="og:title" content="Tour Itinerary Management" />
 	<meta property="og:description" content="" />
-	<meta property="og:type" content="article" />
+	<meta property="og:type" content="website" />
 	<meta property="og:url" content="/tim/" />
 	
 	
@@ -292,17 +292,30 @@
   </nav>
 </header>
 <!-- The CONTENT Now -->
-        
 <section id="tim">
-  <div class="container">
-    <div class="row">
-      <div class="mx-auto w-50 p-1">
-        <br><br>
-        <h2 class="image-title">Tour Itinerary Management</h2>
-              
-      </div>
-    </div>
-  </div>
+	<h2 class="center">Tour Itinerary Management</h2>
+  	<div class="container">
+    	<div class="row">
+      		<div class="w-40">
+				<h3 class="center">Library</h3>
+				<form id="myForm" autocomplete="off" onclick="hide_items();">
+					<div class="autocomplete" style="width:300px;">
+						<input id="myInput" type="text" name="myData" placeholder="City">
+					</div>
+					<input type="submit" >
+				</form>
+				<div id="first" >
+					
+				</div>
+				<div id="second" >
+					
+				</div>
+			</div>
+			<div class="w-60">
+
+			</div>
+    	</div>
+  	</div>
 </section>
 <footer>
 	<hr>
@@ -317,6 +330,15 @@
 (function() {
     var cssMain = document.createElement('link');
     cssMain.href = "\/css\/odyssey.afe6b7f808e0825b772f2f5c803bf3cc0ca231dc09497b7abf136a52dca9daf4.css";
+    cssMain.rel = 'stylesheet';
+    cssMain.type = 'text/css';
+    document.getElementsByTagName('head')[0].appendChild(cssMain);
+})();
+</script>
+<script>
+(function() {
+    var cssMain = document.createElement('link');
+    cssMain.href = "\/scss\/main\/tim.min.css";
     cssMain.rel = 'stylesheet';
     cssMain.type = 'text/css';
     document.getElementsByTagName('head')[0].appendChild(cssMain);

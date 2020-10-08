@@ -1,0 +1,22 @@
+enable      : true
+ro          : "302 Sai Chambers, Santa Cruz East, Mumbai - 400 0551"
+cin         : "CIN: U92410MH1992PTC066430"
+gst         : "GST: 30 AAACO0488P 1ZA"
+form_action : "#" #contact form works with https://formspree.io
+latitude    : "15.5363794"
+longitude   : "73.7709031"
+logo_url    : "/img/logo.png"
+address:
+  address   : "286 Boa Viagem Road"
+  locality  : Calangute
+  pincode   : 403516
+  region    : Goa
+  country   : India
+  icon      : "icon-home"  
+email:       
+  id        : "res@odyssey.co.in"
+  icon      : icon-mail 
+telephone: 
+  icon      : icon-phone 
+  number    : "+91 832 2776941"
+  active    : true

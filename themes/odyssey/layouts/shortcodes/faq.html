@@ -1,0 +1,26 @@
+</div>
+<div class="mx-auto w-80 p-1">
+{{"<!-- Question -->" | safeHTML }}
+<div id="accordion" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+{{- range $i,$e := $.Page.Params.questions }}
+  <div class="card">
+    <div class="card-header" id="heading{{$i}}">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapse{{$i}}" aria-expanded="true" aria-controls="collapse{{$i}}">
+          <h4 itemprop="name">{{ .faq }}</h4>
+        </button>
+      </h5>
+    </div>
+    <div id="collapse{{$i}}" class="collapse" aria-labelledby="heading{{$i}}" data-parent="#accordion">
+      <div class="card-body">
+        <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <div itemprop="text">
+            {{ .text }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{{- end }}
+</div>
+<br>

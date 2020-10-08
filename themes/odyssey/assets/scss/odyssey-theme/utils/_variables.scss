@@ -2,7 +2,7 @@
 $primary: #63582C;
 $secondary: #b4a258;
 $tertiary: #776644;
-$body: #052530;
+$body: #252525;
 $anchor: #0072ed;
 $anchor-hover: #0056b3;
 $form: beige;
@@ -51,6 +51,8 @@ $twitter-feed: #6cb670;
 
 $icon-circle: '\f10c';
 
+$nav-pills-link-active-color: $primary;
+$nav-pills-link-active-bg: $white;
 
 // Z-indexes
 // `l-` prefix for layout
@@ -103,4 +105,3 @@ $large-only:      "only screen and (min-width : #{map-get($screen, lg-min)}) and
 $large-and-up:    "only screen and (min-width : #{map-get($screen, lg-min)})" !default;
 $xlarge-and-up:   "only screen and (min-width : #{map-get($screen, xlg-min)})" !default; 
 
-$font-family-sans-serif: "Proxima Nova", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";

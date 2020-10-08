@@ -1,5 +1,5 @@
 ---
-title: "Odyssey Tours Itinerary Management"
+title: "Odyssey Tours"
 layout: "index"
 translationKey: "home"
 ---

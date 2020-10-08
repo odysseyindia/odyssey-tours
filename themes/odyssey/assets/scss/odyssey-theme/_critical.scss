@@ -1,12 +1,52 @@
-@font-face {
-  font-family: 'Proxima Nova';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('/fonts/proxima_ssv/ProximaNova-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/fonts/proxima_ssv/ProximaNova-Regular.woff') format('woff'), /* Modern Browsers */
-       url('/fonts/proxima_ssv/ProximaNova-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+:root {
+  --font-primary: "Raleway",sans-serif; 
+  --font-secondary:  "Playfair Display",sans-serif;
 }
+
+
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap");
+*,
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  font-family: sans-serif;
+  line-height: 1.15
+}
+
+article,
+aside,
+figure,
+footer,
+header,
+nav,
+section {
+  display: block
+}
+
+body {
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+hr {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible
+}
+
 
 @font-face {
   font-family: 'fontello';
@@ -29,14 +69,7 @@
 }
 */
 
-body {
-  font-size: 1rem;
-  color: $body;
-/*  
-changed this in bootstrap variables to reduce redundency
-font-family: "Proxima Nova", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
-*/
-   }
+
 
 h2 {
   text-align: center; 

@@ -1,0 +1,34 @@
+{{- $data := index .Site.Data "contact" }}
+{{- if $data.enable }}
+{{- with $data }}
+{{"<!-- Start address details -->" | safeHTML}}
+<img src="contact-us_1.jpg" title="" alt="summertime luxury villa in goa">
+<hr>
+<div class="contact-details">
+	<i class="{{ .address.icon }}" aria-hidden="true"></i> 
+	{{ i18n "address" }}<br>
+	<small>{{ .address.address }}<br>
+		{{ .address.locality }}, {{ .address.region }} {{ .address.pincode }}<br>
+		{{ .address.country }}
+	</small>
+	<hr>
+	{{- if eq .telephone.active true }}
+	<i class="{{ $data.telephone.icon }}" aria-hidden="true"></i> 
+	{{ i18n "phone" }}<br>
+	<small>{{ .telephone.number }}</small>
+	<hr>
+	{{- end }}
+	<i class="{{ $data.email.icon }}" aria-hidden="true"></i> 
+	{{ i18n "email" }}<br>
+	<small><a class="contact-us" href="mailto:{{ .email.id }}"> {{ .email.id }}</a></small>
+	<hr>
+	<small>
+    {{ i18n "incorporated" | markdownify }} {{ i18n "registered-office" }}: {{ .ro  | markdownify }}<br>
+    {{ .cin | markdownify }}<br>
+    {{ .gst | markdownify }}
+    </small>
+    <hr>
+</div>
+{{"<!-- end address details -->" | safeHTML}}
+{{- end }}
+{{- end }}

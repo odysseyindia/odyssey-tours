@@ -1,6 +1,6 @@
 baseURL 				= "/"
 title 					= "Odyssey Tours"
-theme                   = "odyssey"
+theme                   = ["odyssey"]
 paginate 				= "50"
 summaryLength 			= "15"
 disqusShortname 		= "" # get your shortname form here : https://disqus.com
@@ -10,23 +10,37 @@ googleAnalytics         = ""
 # enableGitInfo         = true
 enableRobotsTXT         = true
 # canonifyURLs          = true
-
+ignoreErrors            = ["error-output-taxonomy"]
 
 [taxonomies]
-  tag         = "tags"
-  category    = "categories"
+  tag                   = "tags"
+  category              = "categories"
 
 [params]
-env           = "PUBLIC"
-gtm_id        = "GTM-K4W9GX8"
-gtm_datalayer = "basic"
+env                     = "PUBLIC"
+gtm_id                  = "GTM-K4W9GX8"
+gtm_datalayer           = "basic"
 disallow_search_engines = false 
-logo          = "/logo.gif"
+logo                    = "/logo.gif"
+
+[params.csp] 
+  childsrc = ["'self'"]
+  fontsrc = ["'self'"]
+  formaction = ["'self'"]
+  framesrc = ["'self'"]
+  imgsrc = ["'self'"]
+  objectsrc = ["'none'"]
+  stylesrc = ["'self'"]
+  scriptsrc = ["'self'",
+    "'unsafe-inline'",
+    "https://www.googletagservices.com",
+    "cdnjs.cloudflare.com/"]
 
 [outputs]
- home = [ "HTML"]
- section = [ "HTML", "JSON"]
- pages = [ "HTML", "JSON"]
+home                    = ["html"]
+page                    = ["html","json"]
+section                 = ["html","json"]
+taxonomy                = ["html","json"]
 
 [Languages]
   [Languages.en]
@@ -45,52 +59,89 @@ logo          = "/logo.gif"
     url = "/"
     weight = 10
   [[Languages.en.menu.main]]
-    name = "Tours"
-    identifier = "tours"
+    name = "Tour Ideas"
+    identifier = "tour-ideas"
     pre = "pen-tool"
-    url = "/tours/"
+    url = "/tour-ideas/"
     weight = 20
   [[Languages.en.menu.main]]
-    name = "TIM"
-    identifier = "tim"
-    pre = "pen-tool"
-    url = "/tim/"
-    weight = 25
-  [[Languages.en.menu.main]]
-    name = "States"
-    identifier = "states"
+    name = "Explore"
+    identifier = "explore"
     pre = "pen-tool"
     weight = 30  
   [[Languages.en.menu.main]]
-    name = "States"
-    parent = "states"
+    name = "Explore by Region"
+    parent = "explore"
     pre = "pen-tool"
     url = "/states/"
     weight = 31
   [[Languages.en.menu.main]]
-    name = "Interstates"
-    parent = "states"
+    name = "Explore by State"
+    parent = "explore"
     pre = "pen-tool"
-    url = "/interstates/"
+    url = "/states/"
     weight = 32
   [[Languages.en.menu.main]]
-    name = "Cities"
-    identifier = "cities"
+    name = "Explore by City"
+    parent = "explore"
     pre = "pen-tool"
     url = "/tags/#cities-list"
+    weight = 33
+  [[Languages.en.menu.main]]
+    name = "Experiences"
+    identifier = "experiences"
+    pre = "pen-tool"
+    url = "/experiences/"
     weight = 40
   [[Languages.en.menu.main]]
-    name = "Tags"
-    identifier = "tags"
-    pre = "tag"
+    name = "Unique experiences"
+    parent = "experiences"
+    pre = "pen-tool"
+    url = "/experiences/unique-experiences/"
+    weight = 41
+  [[Languages.en.menu.main]]
+    name = "Explore by Interest"
+    parent = "experiences"
+    pre = "pen-tool"
+    url = "/experiences/explore-by-interest/"
+    weight = 42
+  [[Languages.en.menu.main]]
+    name = "Special Hotels"
+    identifier = "hotels"
+    pre = "bed"
+    url = "/special-hotels/"
     weight = 50
   [[Languages.en.menu.main]]
-    name = "Tags"
-    parent = "tags"
-    url = "/tags/"
-    weight = 51
+    name = "About Us"
+    identifier = "about"
+    pre = "bed"
+    url = "/about-us/"
+    weight = 60
   [[Languages.en.menu.main]]
-    name = "Sitemap"
-    parent = "tags"
-    url = "/sitemap/"
-    weight = 52
+    name = "Why Us?"
+    parent = "about"
+    url = "/about-us/why-us/"
+    weight = 61
+  [[Languages.en.menu.main]]
+    name = "Our Team"
+    parent = "about"
+    url = "/about-us/our-team/"
+    weight = 62
+   [[Languages.en.menu.main]]
+    name = "Sustainability"
+    identifier = "sustainability"
+    pre = "bed"
+    url = "/sustainability/"
+    weight = 70
+   [[Languages.en.menu.main]]
+    name = "FAQ"
+    identifier = "faq"
+    pre = "bed"
+    url = "/faq/"
+    weight = 80
+   [[Languages.en.menu.main]]
+    name = "Contact"
+    identifier = "contact"
+    pre = "bed"
+    url = "/contact-us/"
+    weight = 90

@@ -1,12 +1,18 @@
 {{ define "response" }}
+{{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
+{{- if eq $id "city"}}
+
     {
-        {{ with eq .Kind  "section"}}
-            "section" : "{{ $.Section }}",
-        {{ end }}
-        {{ with eq .Kind  "taxonomy"}}
-            "taxonomy" : "{{ $.Data.Singular }}",
-            "term" : "{{ $.Data.Term }}",
-        {{ end }}
+"title": "{{ .Title }}" 
+"subtitle": "{{ .Params.subtitle }}" 
+"image": "{{ .Params.image }}" 
+"content": {{ .Content }}
+"permalink" : "{{.Permalink }}"
+ }
+ 
+ {{- else }}
+
+ {     
         "count" : "{{ len .Data.Pages }}"
         ,"items" : [
         {{ range $i, $e := .Data.Pages }}
@@ -14,4 +20,5 @@
         {{ end }}
         ]
     }
+{{- end }}
 {{ end }}

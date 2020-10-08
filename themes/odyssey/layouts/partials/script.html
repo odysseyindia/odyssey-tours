@@ -44,7 +44,7 @@
 {{- $sw      := resources.Get "/js/sw.js" -}}
 {{- $mobile  := resources.Get "/js/mobile-menu.js" -}}
 {{- $tooltip := resources.Get "/js/tooltip.js" -}}
-{{- $js      := slice  $toggle $lazy $mobile $tooltip $cookie | resources.Concat "js/script.js"   }}
+{{- $js      := slice  $toggle $lazy $mobile  $cookie | resources.Concat "js/script.js"   }}
 <script src="{{ $js.RelPermalink }}" defer></script>
 
 {{- if eq $.Params.translationKey "gallery" }}
