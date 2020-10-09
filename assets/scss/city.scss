@@ -1,5 +1,40 @@
 #city {
 
+.hero.hero-image  {
+    height: calc(300px + 200*((100vw - 768px)/832));
+}
+
+.hero:not(.bg-white) {
+    color: #fff;
+}
+.hero:not(.hero--bg) {
+    background-color: #737778;
+}
+
+.hero {
+    display: block;
+    position: relative;
+    align-items: center;
+}
+
+.hero-image {
+  
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
 	.icon-bar  {
 		display: flex;
 		flex-flow: row nowrap;

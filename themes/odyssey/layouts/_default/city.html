@@ -4,19 +4,15 @@
 {{- $image := cond (isset .Params "image") ( .Params.image ) (.CurrentSection.Params.image) }}
 
 <section id="{{ $id | lower }}"> 
+   <div class="hero hero-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('{{.Permalink }}{{.Params.image }}');" >
+    <div class="hero-text">
+       <h2 class="hero1">{{ .Title }}</h2>
+        {{ with .Params.subtitle }}<h3  class="hero1">{{ . }}</h3>{{ end }}
+    </div>
+  </div>
   <div class="container">
       <div class="row">
-
-      <div class="w-50">
-        {{- with $image }}
-        <img class="lazyload" src="{{.}}" title="{{$.Params.Title}}" 
-        alt="{{$.Params.Title}}" srcset="{{.}} 500w, {{.}} 800w, {{.}} 1200w, {{.}} 1500w">
-        {{- end }}
-      </div>
-       <div class="w-50 p-3">
-        {{"<!-- section title -->" | safeHTML}}
-        <h2>{{ .Title }}</h2>
-        {{ with .Params.subtitle }}<h3>{{ . }}</h3>{{ end }}
+       <div class="mx-auto w-50 p-3">
         {{ .Content }}
       </div>
       <div class="col-12">
@@ -46,6 +42,7 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" data-toggle="tab" href="#hotel-options">Hotel Options</a>
+
             </li>
             <li class="nav-item">
                 <a class="nav-link" data-toggle="tab" href="#map">Map</a>
