@@ -88,25 +88,25 @@ taxonomy                = ["html","json"]
     url = "/tags/#cities-list"
     weight = 33
   [[Languages.en.menu.main]]
-    name = "Experiences"
-    identifier = "experiences"
+    name = "Experience"
+    identifier = "experience"
     pre = "pen-tool"
-    url = "/experiences/"
+    url = "/experience/"
     weight = 40
   [[Languages.en.menu.main]]
     name = "Unique experiences"
-    parent = "experiences"
+    parent = "experience"
     pre = "pen-tool"
-    url = "/experiences/unique-experiences/"
+    url = "/experience/unique-experiences/"
     weight = 41
   [[Languages.en.menu.main]]
     name = "Explore by Interest"
-    parent = "experiences"
+    parent = "experience"
     pre = "pen-tool"
-    url = "/experiences/explore-by-interest/"
+    url = "/experience/explore-by-interest/"
     weight = 42
   [[Languages.en.menu.main]]
-    name = "Special Hotels"
+    name = "Hotels"
     identifier = "hotels"
     pre = "bed"
     url = "/special-hotels/"
@@ -127,12 +127,11 @@ taxonomy                = ["html","json"]
     parent = "about"
     url = "/about-us/our-team/"
     weight = 62
-   [[Languages.en.menu.main]]
-    name = "Sustainability"
-    identifier = "sustainability"
-    pre = "bed"
-    url = "/sustainability/"
-    weight = 70
+  [[Languages.en.menu.main]]
+    name = "Sustainable Travel"
+    parent = "about"
+    url = "/about-us/sustainable-travel/"
+    weight = 62
    [[Languages.en.menu.main]]
     name = "FAQ"
     identifier = "faq"
