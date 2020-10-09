@@ -7,12 +7,13 @@
   <div class="container">
       <div class="row">
 
-      <div class="mx-auto w-50 p-1">
-         <h3>{{ .Permalink }}</h3>
+      <div class="w-50">
         {{- with $image }}
         <img class="lazyload" src="{{.}}" title="{{$.Params.Title}}" 
         alt="{{$.Params.Title}}" srcset="{{.}} 500w, {{.}} 800w, {{.}} 1200w, {{.}} 1500w">
         {{- end }}
+      </div>
+       <div class="w-50 p-3">
         {{"<!-- section title -->" | safeHTML}}
         <h2>{{ .Title }}</h2>
         {{ with .Params.subtitle }}<h3>{{ . }}</h3>{{ end }}
@@ -37,6 +38,44 @@
       {{- end }}
       </div>
     </div>
+ 
+    <div class="tariff">
+        <ul class="nav nav-tabs bg">
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#things-to-do">Things to Do</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#hotel-options">Hotel Options</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#map">Map</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#itineraries">Suggested Itineraries</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div id="things-to-do" class="tab-pane ">
+                    <div class="row">
+                      
+                    </div>
+            </div>
+            <div id="hotel-options" class="tab-pane ">
+                    <div class="row">
+                      
+                    </div>
+            </div>
+            <div id="map" class="tab-pane ">
+                    <div class="row">
+                      
+                    </div>
+            </div>
+            <div id="itineraries" class="tab-pane ">
+                    <div class="row">        
+                    </div>
+            </div>
+        </div> 
+
     </div>
   </div>
 </section>

@@ -26,4 +26,70 @@
 		font-style: italic;
 		font-size: 0.9rem;
 	}
+
+/* tab pages */
+
+
+  .navbar-toggler-icon {
+    height:0; 
+    }
+
+  .nav-tabs {
+    background-color: $white; 
+    border-bottom: 0;
+    }
+
+  .nav-tabs .nav-link {
+    border-right: 1px solid $secondary;
+    border-left:  1px solid $secondary;
+    border-top:   1px solid $secondary; 
+    }
+
+  .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: $secondary;
+    background-color: $form;
+    }
+
+  a.nav-link {
+    color: $primary }
+
+  .tab-content {
+    background-color: $form;
+    padding: 20px; 
+    }
+
+  .rates.nav-item li::before {
+    visibility: hidden; 
+    }
+
+  ul.bg {
+    background-color: $form; 
+    }
+
+  ul.nav.nav-tabs {
+    margin-bottom: 0;
+    background-color: $white; 
+    }
+
+  .tariff {
+    padding: 5px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    text-align: center; 
+    background-color: $white;
+    }
+
+  li {
+    font-size: 1.2rem; 
+    }
+
+  a.nav-link {
+    color: $secondary; 
+    }
+
+  
+
+
+
+
 }
