@@ -14,34 +14,15 @@
       <div class="row">
        <div class="mx-auto w-50 p-3">
         {{ .Content }}
-      </div>
-      <div class="col-12">
-           <div class="icon-bar mx-auto w-50 p-1">
-      {{"<!-- show the items -->" | safeHTML}}
-
-  {{-  .Data.Pages }}
-
-      {{- $paginator := .Paginate .Data.Pages }}
-      {{- with $paginator }}
-        {{- range $paginator.Pages }}
-          <div class="item">
-          <a href="{{ .Permalink }}">
-          {{ if eq .Params.id "excursions"}}<i class="icon icon-camera"></i>{{ end }}
-          {{ if eq .Params.id "hotels"}}<i class="icon icon-bed"></i>{{ end }}
-          </a>  
-          </div>
-        {{- end }}
-      {{- end }}
-      </div>
-    </div>
- 
+     </div>
+  <div class="mx-auto w-75">
     <div class="tariff">
         <ul class="nav nav-tabs bg">
             <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#things-to-do">Things to Do</a>
+                <a class="nav-link" data-toggle="tab" href="#things-to-do"><i class="icon icon-camera"></i> Things to Do</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#hotel-options">Hotel Options</a>
+                <a class="nav-link" data-toggle="tab" href="#hotel-options"><i class="icon icon-bed"></i> Hotel Options</a>
 
             </li>
             <li class="nav-item">
@@ -53,14 +34,28 @@
         </ul>
         <div class="tab-content">
             <div id="things-to-do" class="tab-pane ">
-                    <div class="row">
-                      
-                    </div>
+              <div class="row">
+              {{- range .Data.Pages }}
+                {{- range .Data.Pages }}
+                  {{- if in .CurrentSection.Permalink  "excursions" }}
+                <h4>{{ .Title }}</h4>
+                <p class="left">{{ .Content | plainify }}</p>
+                  {{- end }}
+                {{- end }}
+              {{- end }}
+              </div>
             </div>
             <div id="hotel-options" class="tab-pane ">
-                    <div class="row">
-                      
-                    </div>
+              <div class="row">
+              {{- range .Data.Pages }}
+                {{- range .Data.Pages }}
+                  {{- if in .CurrentSection.Permalink  "hotels" }}
+                <h4>{{ .Title }}</h4>
+                <p class="left">{{ .Content | plainify }}</p>
+                 {{- end }}
+                {{- end }}
+              {{- end }}
+              </div>
             </div>
             <div id="map" class="tab-pane ">
                     <div class="row">

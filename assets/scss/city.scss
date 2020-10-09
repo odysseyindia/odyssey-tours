@@ -1,66 +1,80 @@
 #city {
 
-.hero.hero-image  {
-    height: calc(300px + 200*((100vw - 768px)/832));
-}
+  .hero.hero-image  {
+      height: calc(300px + 200*((100vw - 768px)/832));
+  }
 
-.hero:not(.bg-white) {
-    color: #fff;
-}
-.hero:not(.hero--bg) {
-    background-color: #737778;
-}
+  .hero:not(.bg-white) {
+      color: #fff;
+  }
 
-.hero {
-    display: block;
+  .hero:not(.hero--bg) {
+      background-color: #737778;
+  }
+
+  .hero {
+      display: block;
+      position: relative;
+      align-items: center;
+  }
+
+  .hero-image {
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
-    align-items: center;
-}
+  }
 
-.hero-image {
-  
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
 
 	.icon-bar  {
 		display: flex;
 		flex-flow: row nowrap;
-		justify-content: flex-end;
-	  	
+		justify-content: flex-end;  	
 	}
+
 	i.icon {
 	font-weight: 600;
-	  	padding: 0.3em;
-	  	text-align: center;
-	  	width: 2.25rem;
+	  padding: 0.3em;
+	  text-align: center;
+	  width: 2.25rem;
 	}
 
 	.item {
-	width: 50px;
+	  width: 50px;
 	}
 
 	h2 {
 		margin-top: 20px;
-       margin-bottom: 0;
+    margin-bottom: 0;
 	}
+
 	h3 {
 		text-align: center;
 		font-style: italic;
 		font-size: 0.9rem;
 	}
+
+  h4 {
+    text-align: center;
+    font-style: italic;
+    color: $primary; 
+    width: 100%;
+  }
+
+  p {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
 /* tab pages */
 
