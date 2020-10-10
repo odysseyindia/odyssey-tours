@@ -1,0 +1,18 @@
+<div class="image-box">
+    {{- range $index, $e := $.Page.Params.carousel }}
+    {{ if eq $index 0 }} 
+    <div class="main-image"> 
+        <img src="{{ $e.url }}">
+    </div>
+    {{ end }}
+    {{ end }}
+    <div class="image-box-red">
+    {{- range $index, $e := $.Page.Params.carousel }}
+    {{ if ne $index 0 }}     
+    <div>
+        <img src="{{ $e.url }}">
+    </div>
+    {{- end }}
+    {{ end }}
+    </div>
+</div>

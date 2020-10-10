@@ -1,7 +1,8 @@
 {{- define "main" }}
 {{"<!-- display city -->" | safeHTML}}
-{{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
-{{- $image := cond (isset .Params "image") ( .Params.image ) (.CurrentSection.Params.image) }}
+{{- $id       := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
+{{- $image    := cond (isset .Params "image") ( .Params.image ) (.CurrentSection.Params.image) }}
+{{- $scratch  := newScratch }}
 
 <section id="{{ $id | lower }}"> 
    <div class="hero hero-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('{{.Permalink }}{{.Params.image }}');" >
@@ -15,7 +16,7 @@
        <div class="mx-auto w-50 p-3">
         {{ .Content }}
      </div>
-  <div class="mx-auto w-75">
+  <div class="mx-auto w-50">
     <div class="tariff">
         <ul class="nav nav-tabs bg">
             <li class="nav-item">
@@ -39,7 +40,7 @@
                 {{- range .Data.Pages }}
                   {{- if in .CurrentSection.Permalink  "excursions" }}
                 <h4>{{ .Title }}</h4>
-                <p class="left">{{ .Content | plainify }}</p>
+                <p class="left">{{ .Content  }}</p>
                   {{- end }}
                 {{- end }}
               {{- end }}
@@ -50,8 +51,31 @@
               {{- range .Data.Pages }}
                 {{- range .Data.Pages }}
                   {{- if in .CurrentSection.Permalink  "hotels" }}
-                <h4>{{ .Title }}</h4>
-                <p class="left">{{ .Content | plainify }}</p>
+                <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+                <p class="left">{{ .Content  }}</p>
+{{"<!-- Images -->" | safeHTML}}
+                {{- $scratch.Set "permalink" .Permalink }}
+                <div class="image-box">
+                    {{- range $index, $e := .Params.carousel }}
+                    {{ if eq $index 0 }} 
+                    <div class="main-image"> 
+                        <img src="{{ $scratch.Get "permalink" }}
+{{ $e.url }}">
+                    </div>
+                    {{ end }}
+                    {{ end }}
+                    <div class="image-box-red">
+                    {{- range $index, $e := .Params.carousel }}
+                    {{ if ne $index 0 }}     
+                    <div>
+                        <img src="{{ $scratch.Get "permalink"  }}
+{{ $e.url }}">
+                    </div>
+                    {{- end }}
+                    {{ end }}
+                    </div>
+                </div>
+{{"<!-- end Images -->" | safeHTML}}
                  {{- end }}
                 {{- end }}
               {{- end }}

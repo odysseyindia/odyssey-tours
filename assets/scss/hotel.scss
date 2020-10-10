@@ -1,0 +1,44 @@
+#hotel {
+
+    .content {
+        margin: 30px;
+    }
+
+    /* carousel */
+    .multi-item-carousel {
+      overflow: hidden;
+    }
+    .multi-item-carousel .carousel-indicators {
+      margin-right: 25%;
+      margin-left: 25%;
+    }
+    .multi-item-carousel .carousel-control-prev, 
+    .multi-item-carousel .carousel-control-next {
+      background: rgba(0, 0, 0, 0.9);
+      width: 25%;
+      z-index: 11;  /* .carousel-caption has z-index 10 */
+      & .carousel-caption { visibility: hidden; }
+    }
+    .multi-item-carousel .carousel-inner {
+      width: 150%;
+      left: -25%;
+
+    }
+    .carousel-inner > .carousel-item.next, 
+    .carousel-inner > .carousel-item.active.right {
+      -webkit-transform: translate3d(33%, 0, 0);
+      transform: translate3d(33%, 0, 0);
+    }
+    .carousel-inner > .carousel-item.prev, 
+    .carousel-inner > .carousel-item.active.left {
+      -webkit-transform: translate3d(-33%, 0, 0);
+      transform: translate3d(-33%, 0, 0);
+    }
+    .item__third {
+      float: left;
+      position: relative;  /* captions can now be added */
+      width: 33.33333333%;
+    }
+
+    
+}

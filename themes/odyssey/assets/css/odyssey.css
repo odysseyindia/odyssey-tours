@@ -567,7 +567,7 @@ h2.center {
 
 .image-box {
   display: flex;
-  margin: 0; }
+  margin-bottom: 20px; }
 
 .main-image {
   flex: 1 0;
