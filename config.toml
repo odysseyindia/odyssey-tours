@@ -86,7 +86,7 @@ taxonomy                = ["html","json"]
     name = "Explore by City"
     parent = "explore"
     pre = "pen-tool"
-    url = "/tags/#cities-list"
+    url = "/explore-india/explore-by-city"
     weight = 33
   [[Languages.en.menu.main]]
     name = "Experience"

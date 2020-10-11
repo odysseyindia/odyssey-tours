@@ -1,0 +1,71 @@
+{{ define "main" }}
+{{ "<!-- The CONTENT Now -->" | safeHTML }}
+{{- $id    := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
+{{- $image := cond (isset .Params "image") ( .Params.image ) (.CurrentSection.Params.image) }}
+      
+
+<style>
+
+select {
+  width: 300px;
+  background-color: burlywood;
+  padding: 5px;
+
+}
+
+.select-flex {
+  display: flex;
+}
+
+.select-flex > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 5px;
+}
+
+.custom-select{
+   margin-right:20px;
+}
+
+input {
+  background-color: blue;
+  font-weight: 600;
+  padding: 0 20px 0 20px;
+  color: white;
+}
+</style>  
+
+<section id="{{ $id | lower }}">
+  <div class="container">
+    <div class="row">
+      <div class="mx-auto w-50 p-1">
+        {{- with $image }}
+        <img class="lazyload" src="{{.}}" title="{{$.Params.Title}}" 
+        alt="{{$.Params.Title}}" srcset="{{.}} 500w, {{.}} 800w, {{.}} 1200w, {{.}} 1500w">
+        {{- end }}
+        <br><br>
+        <h2 class="image-title">{{ .Title }}</h2>
+      </div>
+    </div>
+     <form id="selectForm" action="#">
+    <div  class="select-flex">
+   
+      <div class="custom-select">
+      <select id="url">
+         <option value="">Select a city</option>
+        {{ range (where (where .Site.Pages "Section" "states") ".Params.id" "city") }}
+          <option value="{{ .Permalink }}">{{ .Title }} </option>
+        {{ end }}
+      </select>
+      </div>
+      <div>
+       <input type="submit" value="Submit"></input>
+     </div>
+  </div>
+   </form>  
+  </div>
+</section>
+{{ end }}
+          
+                   
+
