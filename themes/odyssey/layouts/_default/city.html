@@ -5,93 +5,147 @@
 {{- $scratch  := newScratch }}
 
 <section id="{{ $id | lower }}"> 
-   <div class="hero hero-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('{{.Permalink }}{{.Params.image }}');" >
+  <div class="hero hero-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('{{.Permalink }}{{.Params.image }}');" >
     <div class="hero-text">
-       <h2 class="hero1">{{ .Title }}</h2>
-        {{ with .Params.subtitle }}<h3  class="hero1">{{ . }}</h3>{{ end }}
+      <h2 class="hero1">{{ .Title }}</h2>
+      {{ with .Params.subtitle }}<h3  class="hero1">{{ . }}</h3>{{ end }}
     </div>
   </div>
   <div class="container">
-      <div class="row">
-       <div class="mx-auto w-50 p-3">
+    <div class="row">
+      <div class="mx-auto w-50 p-3">
         {{ .Content }}
-     </div>
-  <div class="mx-auto w-50">
-    <div class="tariff">
-        <ul class="nav nav-tabs bg">
-            <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#things-to-do"><i class="icon icon-camera"></i> Things to Do</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#hotel-options"><i class="icon icon-bed"></i> Hotel Options</a>
+      </div>
+    </div>
+    <div class="tab-wrapper">
+      <ul class="nav nav-tabs bg nav-justified" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#things-to-do">
+            <i class="icon-camera"></i> Things to Do
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#hotel-options">
+            <i class="icon-bed"></i> Hotel Options
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#map">
+            <i class="icon-globe"></i> Map
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#itineraries">
+            <i class="icon-emo-happy"></i> Suggested Itineraries
+          </a>
+        </li>
+      </ul>
+      <div class="tab-content">
 
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#map">Map</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#itineraries">Suggested Itineraries</a>
-            </li>
-        </ul>
-        <div class="tab-content">
-            <div id="things-to-do" class="tab-pane ">
-              <div class="row">
-              {{- range .Data.Pages }}
-                {{- range .Data.Pages }}
-                  {{- if in .CurrentSection.Permalink  "excursions" }}
-                <h4>{{ .Title }}</h4>
-                <p class="left">{{ .Content  }}</p>
-                  {{- end }}
-                {{- end }}
-              {{- end }}
-              </div>
+        <div id="things-to-do" class="tab-pane ">
+          <div class="row">
+            {{- range .Data.Pages }}
+            {{- range .Data.Pages }}
+            {{- if in .CurrentSection.Permalink  "excursions" }}
+            <h4>{{ .Title }}</h4>
+            <div class="w-50">
+              <p class="left">{{ .Content  }}</p>
             </div>
-            <div id="hotel-options" class="tab-pane ">
-              <div class="row">
-              {{- range .Data.Pages }}
-                {{- range .Data.Pages }}
-                  {{- if in .CurrentSection.Permalink  "hotels" }}
-                <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-                <p class="left">{{ .Content  }}</p>
-{{"<!-- Images -->" | safeHTML}}
-                {{- $scratch.Set "permalink" .Permalink }}
-                <div class="image-box">
-                    {{- range $index, $e := .Params.carousel }}
-                    {{ if eq $index 0 }} 
-                    <div class="main-image"> 
-                        <img src="{{ $scratch.Get "permalink" }}
-{{ $e.url }}">
-                    </div>
-                    {{ end }}
-                    {{ end }}
-                    <div class="image-box-red">
-                    {{- range $index, $e := .Params.carousel }}
-                    {{ if ne $index 0 }}     
-                    <div>
-                        <img src="{{ $scratch.Get "permalink"  }}
-{{ $e.url }}">
-                    </div>
-                    {{- end }}
-                    {{ end }}
-                    </div>
+            <div class="w-50">
+              {{"<!-- Images -->" | safeHTML}}
+              {{- $scratch.Set "permalink" .Permalink }}
+              <div class="image-box">
+                {{- range $index, $e := .Params.carousel }}
+                {{- if eq $index 0 }} 
+                <div class="main-image"> 
+                  <img src="{{ $scratch.Get "permalink" }}
+                  {{ $e.url }}">
                 </div>
-{{"<!-- end Images -->" | safeHTML}}
-                 {{- end }}
                 {{- end }}
-              {{- end }}
+                {{- end }}
+                <div class="image-box-red">
+                  {{- range $index, $e := .Params.carousel }}
+                  {{- if ne $index 0 }}     
+                  <div>
+                    <img src="{{ $scratch.Get "permalink"  }}
+                    {{ $e.url }}">
+                  </div>
+                  {{- end }}
+                  {{- end }}
+                </div>
               </div>
+              {{"<!-- end Images -->" | safeHTML}}
             </div>
-            <div id="map" class="tab-pane ">
-                    <div class="row">
-                      
-                    </div>
-            </div>
-            <div id="itineraries" class="tab-pane ">
-                    <div class="row">        
-                    </div>
-            </div>
-        </div> 
+            <hr>
+            {{- end }}
+            {{- end }}
+            {{- end }}
+          </div>
+        </div>
 
+        <div id="hotel-options" class="tab-pane ">
+          <div class="row">
+            {{- range .Data.Pages }}
+            {{- range .Data.Pages }}
+            {{- if in .CurrentSection.Permalink  "hotels" }}
+            <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+            <div class="w-50">
+              <p class="left">{{ .Content  }}</p>
+            </div>
+            <div class="w-50">
+              {{"<!-- Images -->" | safeHTML}}
+              {{- $scratch.Set "permalink" .Permalink }}
+              <div class="image-box">
+                {{- range $index, $e := .Params.carousel }}
+                {{- if eq $index 0 }} 
+                <div class="main-image"> 
+                  <img src="{{ $scratch.Get "permalink" }}
+                  {{ $e.url }}">
+                </div>
+                {{- end }}
+                {{- end }}
+                <div class="image-box-red">
+                  {{- range $index, $e := .Params.carousel }}
+                  {{- if ne $index 0 }}     
+                  <div>
+                    <img src="{{ $scratch.Get "permalink"  }}
+                    {{ $e.url }}">
+                  </div>
+                  {{- end }}
+                  {{- end }}
+                </div>
+              </div>
+              {{"<!-- end Images -->" | safeHTML}}
+            </div>
+            <hr>
+            {{- end }}
+            {{- end }}
+            {{- end }}
+          </div>
+        </div>
+
+        <div id="map" class="tab-pane ">
+          <div id="gmap"></div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1817276.599309798!2d76.85940498287556!3d27.17615710601146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39740d857c2f41d9%3A0x784aef38a9523b42!2sAgra%2C%20Uttar%20Pradesh%2C%20India!5e0!3m2!1snl!2snl!4v1602354870306!5m2!1snl!2snl" width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+
+        <div id="itineraries" class="tab-pane ">
+          <div class="row">   
+            {{ $section := where $.Site.RegularPages "Section" "tour-ideas"}}
+            {{- range $section }}
+            <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+            <div class="w-50">
+              <p class="left">{{ .Summary  }}</p>
+            </div>
+            <div class="w-50"> 
+              <img src="{{ .Permalink }}{{ .Params.image }}">
+            </div>
+            <hr>
+            {{- end }}
+          </div>
+        </div>
+
+      </div> 
     </div>
   </div>
 </section>

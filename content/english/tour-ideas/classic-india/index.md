@@ -13,7 +13,7 @@ end: Delhi
 time: October-March
 intro: "A classic adventure in northern India. The journey includes the palaces of Jaipur, the immortal beauty of the Taj Mahal, the medieval temple town of Orchha, the erotic statues of Khajuraho and sunrise over the sacred Ganges. A boat ride on the Ganges at dawn, when it is full of pilgrims making their sin-cleansing dip in the holy river is an amazing experience."
 ---
-
+A classic adventure in northern India. The journey includes the palaces of Jaipur, the immortal beauty of the Taj Mahal, the medieval temple town of Orchha, the erotic statues of Khajuraho and sunrise over the sacred Ganges. A boat ride on the Ganges at dawn, when it is full of pilgrims making their sin-cleansing dip in the holy river is an amazing experience.
 
 ### Delhi, Day 1
 

@@ -1,6 +1,7 @@
 #city {
 
- 
+  
+
 
 	.icon-bar  {
 		display: flex;
@@ -8,11 +9,12 @@
 		justify-content: flex-end;  	
 	}
 
-	i.icon {
+	i[class*="icon-"] {
 	font-weight: 600;
 	  padding: 0.3em;
 	  text-align: center;
 	  width: 2.25rem;
+    color: $primary;
 	}
 
 	.item {
@@ -67,45 +69,51 @@
     }
 
   a.nav-link {
-    color: $primary }
+    color: $primary;
+    font-size: 1rem; }
 
   .tab-content {
     background-color: $form;
     padding: 20px; 
     }
 
-  .rates.nav-item li::before {
-    visibility: hidden; 
-    }
-
   ul.bg {
     background-color: $form; 
-    }
+  }
 
   ul.nav.nav-tabs {
     margin-bottom: 0;
     background-color: $white; 
-    }
+  }
 
-  .tariff {
+  .tab-wrapper {
     padding: 5px;
     margin-bottom: 25px;
     margin-top: 20px;
     text-align: center; 
     background-color: $white;
-    }
+  }
 
   li {
     font-size: 1.2rem; 
-    }
+  }
 
   a.nav-link {
     color: $secondary; 
-    }
+  }
 
   
 
+hr {
+  border: 1px solid white;
+  width: 100%;
+}
 
+/* Google Map */
+  
+  #gmap {
+    height: 100%;
+  }
 
 
 }

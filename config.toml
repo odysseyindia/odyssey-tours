@@ -22,6 +22,7 @@ gtm_id                  = "GTM-K4W9GX8"
 gtm_datalayer           = "basic"
 disallow_search_engines = false 
 logo                    = "/logo.gif"
+googleMapsAPIKey        = "AIzaSyD7brYWRgjb-1K4vXXGxSPukB1dXxwvK7o"
 
 [params.csp] 
   childsrc = ["'self'"]

@@ -44,7 +44,8 @@
 {{- $sw      := resources.Get "/js/sw.js" -}}
 {{- $mobile  := resources.Get "/js/mobile-menu.js" -}}
 {{- $tooltip := resources.Get "/js/tooltip.js" -}}
-{{- $js      := slice  $toggle $lazy $mobile  $cookie | resources.Concat "js/script.js"   }}
+{{- $gmap    := resources.Get "/js/gmap.js" -}}
+{{- $js      := slice  $toggle $lazy $mobile $cookie | resources.Concat "js/script.js"   }}
 <script src="{{ $js.RelPermalink }}" defer></script>
 
 {{- if eq $.Params.translationKey "gallery" }}
@@ -90,4 +91,22 @@ $('.carousel-item', '.multi-item-carousel').each(function(){
   prev.children(':nth-last-child(2)').clone().prependTo($(this));
 });
 
+</script>
+
+<!-- Google Maps -->
+ <script
+      src="https://maps.googleapis.com/maps/api/js?key={{ .Site.Params.googleMapsAPIKey}}&callback=initMap&libraries=&v=weekly"
+      defer
+    >
+</script>
+
+<script>
+let map;
+
+function initMap() {
+  map = new google.maps.Map(document.getElementById('gmap'), {
+    center: {lat: {{ .Params.longitude }}, lng: {{ .Params.latitude }} },
+    zoom: 8
+  });
+}
 </script>
