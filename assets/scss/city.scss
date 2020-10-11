@@ -63,19 +63,26 @@
     border-top:   1px solid $secondary; 
     }
 
-  .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+  .nav-link.active {
     color: $secondary;
     background-color: $form;
+    .tab-content > .tab-pane {
+      display: block;
     }
+  }
 
   a.nav-link {
-    color: $primary;
-    font-size: 1rem; }
+    color: $secondary;
+    font-size: 1rem; 
+    border-left: 1px solid $primary;
+    border-right: 1px solid $primary;
+    border-top: 1px solid $primary;
+  }
 
   .tab-content {
     background-color: $form;
     padding: 20px; 
-    }
+  }
 
   ul.bg {
     background-color: $form; 
@@ -98,11 +105,11 @@
     font-size: 1.2rem; 
   }
 
-  a.nav-link {
-    color: $secondary; 
+@media screen and (max-width: 760px) { 
+  .nav {
+    flex-direction: column;
   }
-
-  
+}
 
 hr {
   border: 1px solid white;

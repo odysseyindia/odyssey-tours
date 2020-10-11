@@ -18,28 +18,23 @@
       </div>
     </div>
     <div class="tab-wrapper">
-      <ul class="nav nav-tabs bg nav-justified" role="tablist">
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#things-to-do">
+      <nav class="nav flex-column flex-sm-row" >
+          <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#things-to-do">
             <i class="icon-camera"></i> Things to Do
           </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#hotel-options">
+        
+          <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#hotel-options">
             <i class="icon-bed"></i> Hotel Options
           </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#map">
+       
+          <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#map">
             <i class="icon-globe"></i> Map
           </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#itineraries">
+        
+          <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#itineraries">
             <i class="icon-emo-happy"></i> Suggested Itineraries
           </a>
-        </li>
-      </ul>
+      </nav>
       <div class="tab-content">
 
         <div id="things-to-do" class="tab-pane ">
@@ -58,8 +53,7 @@
                 {{- range $index, $e := .Params.carousel }}
                 {{- if eq $index 0 }} 
                 <div class="main-image"> 
-                  <img src="{{ $scratch.Get "permalink" }}
-                  {{ $e.url }}">
+                  <img src="{{ $scratch.Get "permalink" }}{{ $e.url }}">
                 </div>
                 {{- end }}
                 {{- end }}
@@ -67,8 +61,7 @@
                   {{- range $index, $e := .Params.carousel }}
                   {{- if ne $index 0 }}     
                   <div>
-                    <img src="{{ $scratch.Get "permalink"  }}
-                    {{ $e.url }}">
+                    <img src="{{ $scratch.Get "permalink" }}{{ $e.url }}">
                   </div>
                   {{- end }}
                   {{- end }}
@@ -99,8 +92,7 @@
                 {{- range $index, $e := .Params.carousel }}
                 {{- if eq $index 0 }} 
                 <div class="main-image"> 
-                  <img src="{{ $scratch.Get "permalink" }}
-                  {{ $e.url }}">
+                  <img src="{{ $scratch.Get "permalink"}}{{ $e.url }}">
                 </div>
                 {{- end }}
                 {{- end }}
@@ -108,8 +100,7 @@
                   {{- range $index, $e := .Params.carousel }}
                   {{- if ne $index 0 }}     
                   <div>
-                    <img src="{{ $scratch.Get "permalink"  }}
-                    {{ $e.url }}">
+                    <img src="{{ $scratch.Get "permalink"}}{{ $e.url }}">
                   </div>
                   {{- end }}
                   {{- end }}

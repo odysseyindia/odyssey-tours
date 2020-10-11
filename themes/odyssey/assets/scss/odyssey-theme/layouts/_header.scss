@@ -3,6 +3,15 @@
 	height: 70px;
 }
 
+h1 {
+  font-family: var(--font-secondary);
+  color: $primary;
+  color: #63582c;
+  position: absolute;
+  top: 20px;
+  left: 130px;
+}
+
 /*===  main menu ===*/
 
 @supports (position: sticky) {
@@ -186,14 +195,26 @@ ol.breadcrumb {
 
   .navbar {
     background-color: transparent; } 
+
+
+
+
 }
 
 @media screen and (max-width: 991px) {
+
+
+
+
   .w-50, .w-25, .w-75 {
     width: 100% !important; }
 
-  .navbar {
+  .navbar  {
     background-color: transparent; }
+
+  header  .collapse {
+    background-color: $secondary;
+   }
 
   .navbar-toggler {
     visibility: visible; }
@@ -213,7 +234,7 @@ ol.breadcrumb {
     background-repeat: no-repeat no-repeat; }
 
   .navbar-toggler:focus, .navbar-toggler:hover {
-    background-color: #FFD700;
+    background-color: $secondary;
     border-color: $primary; }
 
   .color-changed{
@@ -225,6 +246,7 @@ ol.breadcrumb {
     background-color: $gray-800;
     opacity: 0.96;
     text-align: center;
+    color: $white;
   }
 
   .mybar {
