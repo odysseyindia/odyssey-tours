@@ -17,14 +17,31 @@
     </div>
     <div class="tab-wrapper">
       <nav class="nav flex-column flex-sm-row" >
+          {{- range .Data.Pages }}
+          {{- range .Data.Pages }}
+          {{- if in .CurrentSection.Permalink  "excursions" }}
+          {{ $scratch.Set "excursions" 1 }}
+          {{- end }}
+          {{- end }}
+          {{- end }}
+          {{ if eq ($scratch.Get "excursions") 1 }}
           <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#things-to-do">
             <i class="icon-camera"></i> Things to Do
           </a>
-        
+          {{- end }}
+
+          {{- range .Data.Pages }}
+          {{- range .Data.Pages }}
+          {{- if in .CurrentSection.Permalink  "hotels" }}
+          {{ $scratch.Set "hotels" 1 }}
+            {{- end }}
+          {{- end }}
+          {{- end }}
+          {{ if eq ($scratch.Get "hotels") 1 }}
           <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#hotel-options">
             <i class="icon-bed"></i> Hotel Options
           </a>
-       
+          {{- end }}
           <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#map">
             <i class="icon-globe"></i> Map
           </a>
