@@ -8,54 +8,86 @@
   width: 100%;
   margin: auto; }
 
-#carousel {
+#carousel, #mobile-carousel {
   margin-bottom: 30px; }
 
-@media screen and (min-width: 991px) {
-  .carousel-overlay {
-    background: black;
-    opacity: 0.7;
-    /* radial-gradient(ellipse, black, transparent); */
-    border-radius: 99px;
-    font-weight: 600;
-    padding: 10px; 
-  }
-}
-
-@media screen and (max-width: 991px) {
-  .carousel-caption {
-    visibility: hidden;
-  }
-}
-
-.carousel-control .icon-prev {
-  left: 25px;
-  font-size: 40px; }
-
-.carousel-control .icon-next {
-  right: 25px;
-  font-size: 40px; }
-
 .carousel-control .icon-prev::before {
-  content: "«";
-  color: white; }
+  content: "<";
+ }
 
 .carousel-control .icon-next::before {
-  content: "»";
-  color: white; }
+  content: ">";
+  }
 
 .carousel-control-next-icon:after {
-  content: "»";
   font-size: 40px;
-  color: white;
-  background: #b4a258;
-  padding: 20px 5px 20px 5px;
-  border-radius: 5px; }
+ }
 
 .carousel-control-prev-icon:after {
-  content: "«";
   font-size: 40px;
-  color: white;
-  background: #b4a258;
-  padding: 20px 5px 20px 5px;
-  border-radius: 5px; }
+ }
+
+@media screen and (max-width: 991px) {
+    #mobile-carousel {
+      display: visible;
+    }
+    #carousel {
+      display: none;
+    }    
+}
+
+@media screen and (min-width: 991px) {
+    
+    #carousel {
+      display: visible;
+    }
+    #mobile-carousel {
+      display: none;
+    }
+
+    carousel-overlay {
+      background: black;
+      opacity: 0.7;
+      /* radial-gradient(ellipse, black, transparent); */
+      border-radius: 99px;
+      font-weight: 600;
+      padding: 10px; 
+    }
+
+    .multi-item-carousel {
+      overflow: hidden;
+    }
+    .multi-item-carousel .carousel-indicators {
+      margin-right: 25%;
+      margin-left: 25%;
+    }
+    .multi-item-carousel .carousel-control-prev, 
+    .multi-item-carousel .carousel-control-next {
+      background: rgba(0, 0, 0, 0.9);
+      width: 25%;
+      z-index: 11;  /* .carousel-caption has z-index 10 */
+      & .carousel-caption { visibility: hidden; }
+    }
+    .multi-item-carousel .carousel-inner {
+      width: 150%;
+      left: -25%;
+
+    }
+    .carousel-inner > .carousel-item.next, 
+    .carousel-inner > .carousel-item.active.right {
+      -webkit-transform: translate3d(33%, 0, 0);
+      transform: translate3d(33%, 0, 0);
+    }
+    .carousel-inner > .carousel-item.prev, 
+    .carousel-inner > .carousel-item.active.left {
+      -webkit-transform: translate3d(-33%, 0, 0);
+      transform: translate3d(-33%, 0, 0);
+    }
+    .item__third {
+      float: left;
+      position: relative;  /* captions can now be added */
+      width: 33.33333333%;
+    }
+  }
+
+  

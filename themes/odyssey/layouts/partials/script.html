@@ -73,7 +73,7 @@
 
 <!-- carousel -->
 <script>
-$('#myCarousel').carousel({
+$('#carousel').carousel({
     interval: 4000
 })
 
@@ -94,10 +94,7 @@ $('.carousel-item', '.multi-item-carousel').each(function(){
 </script>
 
 <!-- Google Maps -->
- <script
-      src="https://maps.googleapis.com/maps/api/js?key={{ .Site.Params.googleMapsAPIKey}}&callback=initMap&libraries=&v=weekly"
-      defer
-    >
+ <script defer src="https://maps.googleapis.com/maps/api/js?key={{ .Site.Params.googleMapsAPIKey}}&callback=initMap&libraries=&v=weekly">
 </script>
 
 <script>
@@ -111,10 +108,10 @@ function initMap() {
 }
 </script>
 
+<!-- tim -->
 <script>
 function submit_by_id() {
   var url = document.getElementById("url").value;
   window.location.href = url;
 }
-
 </script>
