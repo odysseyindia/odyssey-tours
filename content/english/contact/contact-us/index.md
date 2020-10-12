@@ -1,10 +1,10 @@
 ---
-title: Interested in getting more information about our luxury villa in Goa? Make an enquiry!
+title: Interested in getting more information about our tours in India? Make an enquiry!
 image: /contact/contact-us/contact-us.jpg
 draft: false
-keywords: "villas goa, villas in goa, villa goa, goa rentals, holiday villas in goa, luxury villas goa, goa holidays, luxury holidays goa" 
-description: "Interested in staying in a fully serviced villa in Goa? Make an enquiry to know more about our spectacular luxury villa with private pool and tropical gardens."
-metattitle: "Make an enquiry for our luxury villa in Goa"
+keywords: "" 
+description: ""
+metattitle: "Make an enquiry for our tours in Goa"
 translationKey: "contact-us"
 id: "contact-us"
 css: [

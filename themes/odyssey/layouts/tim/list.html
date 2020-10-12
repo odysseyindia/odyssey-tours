@@ -15,7 +15,7 @@
         <img class="lazyload" src="{{.}}" title="{{$.Params.Title}}" 
         alt="{{$.Params.Title}}" srcset="{{.}} 500w, {{.}} 800w, {{.}} 1200w, {{.}} 1500w">
         {{- end }}
-        <h2>{{ .Params.name }}</h2>
+        <h2>{{ .Params.tour }}</h2>
         <h3>{{ .Title }}</h3>
       </div>
     </div>
@@ -68,11 +68,11 @@
 </section>
 {{ else }}
 
-  <section id="tag-terms">
+  <section id="tim">
         <div class="container">
-        <div id="tags-archives" class="row main-content-wrap">
+        <div id="tags-archives">
           <form id="filter-form" action="#">
-            <input name="tag" type="text" class="form-control input--xlarge" placeholder="{{ i18n "global.search_tag" }}" autofocus="autofocus">
+            <input name="tag" type="text" class="form-control input--xlarge" placeholder="{{ i18n "global.search_client" }}" autofocus="autofocus">
           </form>
           <h4 class="archive-result text-color-base text-xlarge"
               data-message-zero="{{ i18n "global.tags_found.zero" }}"
@@ -84,9 +84,9 @@
                 <div id="{{ .Name | urlize }}-list" class="archive box" data-tag="{{ .Name | lower }}">
                   <h4 class="archive-title">
                     <a class="link-unstyled" href="{{ .Name | urlize }}">
-                      {{ .Name }} ({{ .Pages | len }})
+                      {{ .Name }} ({{ .Params.tour }})<!-- ({{ .Pages | len }}) -->
                     </a>
-                  </h4>
+                  </h4> 
                   <ul class="archive-posts">
                     {{ range .Pages.ByDate }}
                       <li class="archive-post">

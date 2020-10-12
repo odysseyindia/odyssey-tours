@@ -138,10 +138,10 @@ taxonomy                = ["html","json"]
     identifier = "faq"
     pre = "bed"
     url = "/faq/"
-    weight = 80
+    weight = 70
    [[Languages.en.menu.main]]
     name = "Contact"
     identifier = "contact"
     pre = "bed"
-    url = "/contact-us/"
-    weight = 90
+    url = "/contact/contact-us/"
+    weight = 80

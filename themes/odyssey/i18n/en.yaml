@@ -41,6 +41,9 @@
 - id: "global.search_tag"
   translation: "Search tag"
 
+- id: "global.search_client"
+  translation: "Search client"
+
 - id: "global.search_date"
   translation: "Search date (YYYY/MM/DD)"
 

@@ -1,6 +1,6 @@
 ---
 title: Alfred Tuinman
-name: Delhi Agra Jaipur 
+tour: Delhi Agra Jaipur 
 id: itinerary
 itinerary:
   - day: 1
