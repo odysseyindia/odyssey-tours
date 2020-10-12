@@ -606,10 +606,6 @@ a.cc-allow:hover {
   text-align: center;
 }
 
-h2.center {
-  margin-bottom: 30px;
-}
-
 /* --- WIA ARIA --- */
 .visually-hidden {
   clip: rect(1px, 1px, 1px, 1px);

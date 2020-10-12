@@ -6,14 +6,12 @@
 
 <section id="{{ $id | lower }}"> 
   <div class="hero hero-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('{{.Permalink }}{{.Params.image }}');" >
-    <div class="hero-text">
-      <h2 class="hero1">{{ .Title }}</h2>
-      {{ with .Params.subtitle }}<h3  class="hero1">{{ . }}</h3>{{ end }}
-    </div>
   </div>
   <div class="container">
     <div class="row">
       <div class="mx-auto w-50 p-3">
+        <h2>{{ .Title }}</h2>
+        {{ with .Params.subtitle }}<h3>{{ . }}</h3>{{ end }}
         {{ .Content }}
       </div>
     </div>
@@ -36,7 +34,6 @@
           </a>
       </nav>
       <div class="tab-content">
-
         <div id="things-to-do" class="tab-pane ">
           <div class="row">
             {{- range .Data.Pages }}
@@ -78,6 +75,7 @@
 
         <div id="hotel-options" class="tab-pane ">
           <div class="row">
+
             {{- range .Data.Pages }}
             {{- range .Data.Pages }}
             {{- if in .CurrentSection.Permalink  "hotels" }}

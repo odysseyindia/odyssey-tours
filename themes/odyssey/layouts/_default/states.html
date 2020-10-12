@@ -1,9 +1,7 @@
-
-
 {{- define "main" }}
 
 {{"<!-- Start CONTENT Section -->" | safeHTML}}
-{{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
+{{- $id      := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
 {{- $scratch := newScratch }}
 
 <section id="{{ $id | lower }}"> 
@@ -29,7 +27,6 @@
         <div class="row row-cols-1 row-cols-md-4">
         {{- range $paginator.Pages }}
             {{- "<!-- list states -->" | safeHTML }}
-
 
 {{- $scratch.Set "permalink" .Permalink }}
 {{- $scratch.Set "title" .Title }}

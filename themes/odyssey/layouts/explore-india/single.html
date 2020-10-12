@@ -55,7 +55,7 @@ label{
       <div class="custom-select">
       <label for="cities">Choose a city</label>
       <select name="cities" id="url">
-        {{ range (where (where .Site.Pages "Section" "states") ".Params.id" "city") }}
+        {{ range (where (where .Site.Pages "Section" "states").ByTitle ".Params.id" "city") }}
           <option value="{{ .Permalink }}">{{ .Title }} </option>
         {{ end }}
       </select>
