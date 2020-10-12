@@ -1,29 +1,112 @@
-{{ define "main" }}
-{{ "<!-- The CONTENT Now -->" | safeHTML }}
 {{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
-<section id="{{ $id | lower }}">
-	<h2 class="center">{{ .Title }}</h2>
-  	<div class="container">
-    	<div class="row">
-      		<div class="w-40">
-				<h3 class="center">Library</h3>
-				<form id="myForm" autocomplete="off" onclick="hide_items();">
-					<div class="autocomplete" style="width:300px;">
-						<input id="myInput" type="text" name="myData" placeholder="City">
-					</div>
-					<input type="submit" >
-				</form>
-				<div id="first" >
-					
-				</div>
-				<div id="second" >
-					
-				</div>
-			</div>
-			<div class="w-60">
 
-			</div>
-    	</div>
-  	</div>
-</section>
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body>
+        {{- partial "header.html" . -}}
+
+{{ if eq $id "itinerary" }}
+<section id="{{ $id | lower }}">
+  <div class="container">
+    <div class="row">
+      <div class="mx-auto w-50 p-1">
+        {{- with .Params.image }}
+        <img class="lazyload" src="{{.}}" title="{{$.Params.Title}}" 
+        alt="{{$.Params.Title}}" srcset="{{.}} 500w, {{.}} 800w, {{.}} 1200w, {{.}} 1500w">
+        {{- end }}
+        <h2>{{ .Params.name }}</h2>
+        <h3>{{ .Title }}</h3>
+      </div>
+    </div>
+    <div class="row">
+        <div class="itinerary">
+          <h3>Itinerary</h3>
+          {{ range $index,$e := .Params.itinerary }}
+          <div>
+            <h5>Day {{ add $index 1 }}</h5>
+            {{ range .item }}
+            {{ if in .url "excursions"}}
+            <i class="icon-camera"></i>
+            {{ else if in .url "hotels"}}
+            <i class="icon-bed"></i>
+            {{ end }}
+            
+{{ with .url }}
+{{ with $.Site.GetPage "page" . }}{{.Title}}{{end}}
 {{ end }}
+
+            {{ .desc }}<br>
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
+        <div class="workspace">
+          <h3>Workspace</h3>
+        </div>
+        <div class="search">
+          <h3>Search</h3>
+          <form id="selectForm" action="#">
+            <div  class="select-flex">
+              <div class="custom-select">
+                <select id="url">
+                   <option value="">Select a city</option>
+                  {{ range (where (where .Site.Pages "Section" "states") ".Params.id" "city") }}
+                    <option value="{{ .Permalink }}">{{ .Title }} </option>
+                  {{ end }}
+                </select>
+              </div>
+              <div>
+                <input type="submit" value="Submit">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div> 
+    </div>
+  </div>
+</section>
+{{ else }}
+
+  <section id="tag-terms">
+        <div class="container">
+        <div id="tags-archives" class="row main-content-wrap">
+          <form id="filter-form" action="#">
+            <input name="tag" type="text" class="form-control input--xlarge" placeholder="{{ i18n "global.search_tag" }}" autofocus="autofocus">
+          </form>
+          <h4 class="archive-result text-color-base text-xlarge"
+              data-message-zero="{{ i18n "global.tags_found.zero" }}"
+              data-message-one="{{ i18n "global.tags_found.one" }}"
+              data-message-other="{{ i18n "global.tags_found.other" }}"></h4>
+            <div class="boxes">
+              
+              {{ range (where (where .Site.Pages "Section" "tim") ".Params.id" "itinerary") }}
+                <div id="{{ .Name | urlize }}-list" class="archive box" data-tag="{{ .Name | lower }}">
+                  <h4 class="archive-title">
+                    <a class="link-unstyled" href="{{ .Name | urlize }}">
+                      {{ .Name }} ({{ .Pages | len }})
+                    </a>
+                  </h4>
+                  <ul class="archive-posts">
+                    {{ range .Pages.ByDate }}
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="{{ .Permalink }}">
+                          {{ .Title }}
+                        </a>
+                      </li>
+                    {{ end }}
+                  </ul>
+                </div>
+              {{ end }}
+          
+         </div>
+         </div>
+       </div>
+     </section>
+{{ end }}
+
+    {{- partial "footer.html" . -}}
+    {{- partial "script.html" . -}}
+    {{- partial "script-tag.html" . -}}
+    </body>
+</html>

@@ -112,11 +112,9 @@ function initMap() {
 </script>
 
 <script>
-  document.getElementById("selectForm").addEventListener("submit", myFunction);
-
-  function myFunction() {
-    var url = document.getElementById('url').value;
-    location = url;
+function submit_by_id() {
+  var url = document.getElementById("url").value;
+  window.location.href = url;
 }
 
 </script>

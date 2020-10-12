@@ -1,0 +1,45 @@
+#itinerary {
+	
+
+h2{
+	margin-bottom: 0;
+}
+h3 {
+	text-align: center;
+}
+.container {
+	max-width: 95%;
+}
+
+.pagina {
+	display: flex;
+	flex: 1 0 auto;
+}
+
+.itinerary {
+	background-color: lightgreen;
+	padding: 10px;
+	width: 34%;
+	h5 {
+	margin-bottom: 0;
+	}
+}
+
+.workspace {
+	background-color: beige ;
+	padding: 10px;
+	width: 43%;
+}
+
+.search {
+	background-color: lightgray;
+	padding: 10px;
+	width: 23%;
+}
+
+.icon-bed {
+	color: black;
+}
+
+
+}

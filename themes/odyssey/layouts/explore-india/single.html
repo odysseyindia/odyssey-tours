@@ -18,13 +18,9 @@ select {
 }
 
 .select-flex > div {
-  background-color: #f1f1f1;
-  margin: 10px;
-  padding: 5px;
-}
-
-.custom-select{
    margin-right:20px;
+   padding: 0px;
+   border-color: transparent;
 }
 
 input {
@@ -32,6 +28,12 @@ input {
   font-weight: 600;
   padding: 0 20px 0 20px;
   color: white;
+  border-color: transparent;
+}
+
+label{
+  background-color: white;
+  margin-right:10px;
 }
 </style>  
 
@@ -47,19 +49,19 @@ input {
         <h2 class="image-title">{{ .Title }}</h2>
       </div>
     </div>
-     <form id="selectForm" action="#">
+     <form id="selectForm" action="#" >
     <div  class="select-flex">
    
       <div class="custom-select">
-      <select id="url">
-         <option value="">Select a city</option>
+      <label for="cities">Choose a city</label>
+      <select name="cities" id="url">
         {{ range (where (where .Site.Pages "Section" "states") ".Params.id" "city") }}
           <option value="{{ .Permalink }}">{{ .Title }} </option>
         {{ end }}
       </select>
       </div>
       <div>
-       <input type="submit" value="Submit"></input>
+       <input type="button" name="submit" id="btn_id" value="Submit" onclick="submit_by_id()"/>
      </div>
   </div>
    </form>  
