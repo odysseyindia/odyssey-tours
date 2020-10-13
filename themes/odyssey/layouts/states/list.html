@@ -1,0 +1,17 @@
+{{- define "main" }}
+
+{{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
+
+{{- if eq $id "state" }}
+  {{ partial "layouts/state.html" . }}
+{{- else if eq $id "city"}}
+  {{ partial "layouts/city.html" . }}
+{{- else if eq $id "cities"}}
+  {{ partial "layouts/cities.html" . }}
+{{- else if eq $id "hotels"}}
+  {{ partial "layouts/hotels.html" . }}
+{{- else }}
+  {{ partial "layouts/states.html" . }}
+{{- end }}
+
+{{- end }}

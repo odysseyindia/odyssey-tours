@@ -1,4 +1,4 @@
-{{- define "main" }}
+
 
 {{"<!-- display state -->" | safeHTML}}
 {{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
@@ -18,4 +18,3 @@
     </div>
   </div>
 </section>
-{{- end }}

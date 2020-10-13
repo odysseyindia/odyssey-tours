@@ -1,5 +1,10 @@
 #hotels {
 	
+	.bg{
+		background-color: lightslategrey;
+		padding: 30px;
+	}
+
 	.card-deck .card {
 	    flex: 1 0 0%;
 	    margin-right: 15px;
@@ -18,9 +23,9 @@
 	    word-wrap: break-word;
 	    background-color: $white;
 	    background-clip: border-box;
-	    border: 1px solid yellow;
 	    border-radius: .25rem;
 	    padding: 10px;
+	    margin: 30px;
 	}
 
 	.card-footer {
@@ -39,5 +44,6 @@
 	.mb-4{
 		padding-right:0;
 		padding-left:0;
+		margin-bottom: 30px;
 	}
 }

@@ -1,0 +1,45 @@
+{{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
+{{- $scratch := newScratch }}
+
+<section id="{{ $id | lower }}"> 
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2>{{ .Title }}</h2>
+      </div>
+    </div>
+  </div>
+  <div class="bg">
+      {{"<!-- show the items -->" | safeHTML}}
+      <div class="card-deck">
+        <div class="row row-cols-1 row-cols-md-4">
+        {{- range .Data.Pages }}
+          {{- "<!-- list cities -->" | safeHTML }}
+          {{- $scratch.Set "permalink" .Permalink }}
+          {{- $scratch.Set "title" .Title }}
+          <div class="col mb-4">
+            <div class="card h-100">
+               <div class="card-header img-top">
+              {{- with .Params.image -}}
+                  <img class="mr-4 publisher lazyload" itemprop="image" data-src="{{- $scratch.Get "permalink" }}{{ . }}" alt="the state of {{- $scratch.Get "title" }}">
+              {{- else }}
+                  <img class="mr-4 publisher lazyload" itemprop="image" data-src="/img/dummy-city.jpg" alt="the state of {{- $scratch.Get "title" }}">
+              {{- end -}}
+               </div>
+                <div class="card-body">
+                  <h3 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>     
+                   <!-- <h4>{{ .Params.subtitle }}</h4>  -->
+                  <p class="card-text"><span itemprop="description">{{ .Summary }}</span></p>
+                </div>
+                <div class="card-footer">
+                  <a href="{{ .Permalink }}" aria-label="See tours in {{- $scratch.Get "title" }}"><small>More about {{ .Title }}</small></a>
+                </div>
+            </div>
+          </div>
+          {{- "<!-- end list cities -->" | safeHTML }}   
+        {{- end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

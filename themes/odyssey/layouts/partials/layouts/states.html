@@ -1,7 +1,4 @@
-{{- define "main" }}
-
-{{"<!-- Start CONTENT Section -->" | safeHTML}}
-{{- $id      := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
+{{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
 {{- $scratch := newScratch }}
 
 <section id="{{ $id | lower }}"> 
@@ -33,18 +30,22 @@
 
 <div class="col mb-4">
   <div class="card h-100">
-    {{- with .Params.image -}}
+   
       <div class="card-header img-top">
+        {{- with .Params.image -}}
         <img class="mr-4 publisher lazyload" itemprop="image" data-src="{{- $scratch.Get "permalink" }}{{ . }}" alt="the state of {{- $scratch.Get "title" }}">
+        {{- else }}
+        <img class="mr-4 publisher lazyload" itemprop="image" data-src="/img/dummy-state.jpg" alt="the state of {{- $scratch.Get "title" }}">
+        {{- end -}}
       </div>
-    {{- end -}}
+   
       <div class="card-body">
         <h3 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>     
          <!-- <h4>{{ .Params.subtitle }}</h4>  -->
         <p class="card-text"><span itemprop="description">{{ .Summary }}</span></p>
       </div>
       <div class="card-footer">
-        <a href="{{ .Permalink }}" aria-label="See tours in {{- $scratch.Get "title" }}"><small>See tours</small></a>
+        <a href="{{ .Permalink }}" aria-label="See tours in {{- $scratch.Get "title" }}"><small>See more</small></a>
       </div>
   </div>
 </div>
@@ -58,5 +59,3 @@
     </div>
   </div>
 </section>
-{{"<!-- end Content -->" | safeHTML}}
-{{- end }}

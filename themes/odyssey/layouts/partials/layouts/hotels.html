@@ -1,0 +1,46 @@
+{{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
+{{- $scratch  := newScratch }}
+{{ $scratch.Set "permalink" .Permalink }}
+
+<section id="{{ $id | lower }}"> 
+  <div class="container">
+    <div class="row">
+      <div class="col mb-12">
+        <h2>{{ .Title }}</h2>
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+  <div class="bg">
+    <div class="card-deck">
+      <div class="row row-cols-1 row-cols-md-3">
+      {{- range .Data.Pages }}
+        <div class="col mb-4">
+          <div class="card h-100">
+              <div class="card-img-top press-logo">
+              {{ with .Resources.ByType "image" }}
+                <div class="Image">
+                {{ range $index,$img := . }}
+                 {{- if eq $index 0}}
+                  <img src="{{ $img.RelPermalink }}">
+                  {{- end }}
+                {{ end }}
+                </div>
+              {{ end }}
+              </div>      
+              <div class="card-body">
+                <h3 class="card-title">
+                  <a href="{{ .Permalink }}">{{ .Title }}</a>
+                </h3>     
+                <h4>{{ .Params.subtitle }}</h4> 
+                <p class="card-text">
+                  <span itemprop="description">{{ .Content }}</span>
+                </p>
+            </div>
+          </div>
+        </div>     
+      {{- end }}
+      </div>
+    </div>
+  </div>
+</section>

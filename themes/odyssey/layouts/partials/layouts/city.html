@@ -1,4 +1,3 @@
-{{- define "main" }}
 {{"<!-- display city -->" | safeHTML}}
 {{- $id       := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
 {{- $image    := cond (isset .Params "image") ( .Params.image ) (.CurrentSection.Params.image) }}
@@ -150,10 +149,8 @@
             {{- end }}
           </div>
         </div>
-
       </div> 
     </div>
   </div>
 </section>
 {{"<!-- end Content -->" | safeHTML}}
-{{- end }}

@@ -1,0 +1,9 @@
+<a 
+{{- with .Get "href" -}} 
+{{ if eq "http" (substr . 0 4) }} href="{{.}}" {{ else }} href="{{ . | absLangURL }}" {{end}} 
+{{- end -}}
+{{- with .Get "title" }} title="{{.}}" aria-label="{{.}}" {{ end }}  
+{{- with .Get "target" }} target="{{.}}" rel="noreferrer" {{end}} 
+{{- with .Get "class" }} class="{{.}}" {{ end }}>
+	{{- .Inner }}
+</a>

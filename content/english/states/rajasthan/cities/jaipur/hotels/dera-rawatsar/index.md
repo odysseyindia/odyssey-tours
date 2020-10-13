@@ -13,4 +13,4 @@ carousel:
   - url: 5-rajasthan-jaipur-hotels-dera-rawatsar-modern-bathrooms.jpg
 ---
 
-slide show to be added here
+story about this hotel
