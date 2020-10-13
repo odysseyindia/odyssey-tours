@@ -1,0 +1,96 @@
+#sustainable {
+
+/* tab pages */
+
+  .row {
+  margin:0;
+  }
+
+  .card-title > a {
+    color: $primary;
+  }
+
+  .navbar-toggler-icon {
+    height:0; 
+    }
+
+  .nav-tabs {
+    background-color: $white; 
+    border-bottom: 0;
+    }
+
+  .nav-tabs .nav-link {
+    border-right: 1px solid $secondary;
+    border-left:  1px solid $secondary;
+    border-top:   1px solid $secondary; 
+    }
+
+  .nav-link.active {
+    color: $secondary;
+    background-color: $form;
+    .tab-content > .tab-pane {
+      display: block;
+    }
+  }
+
+  a.nav-link {
+    color: $secondary;
+    font-size: 1rem; 
+    border-left: 1px solid $primary;
+    border-right: 1px solid $primary;
+    border-top: 1px solid $primary;
+  }
+
+  .tab-content {
+    background-color: $form;
+    padding: 20px; 
+  }
+
+  ul.bg {
+    background-color: $form; 
+  }
+
+  ul.nav.nav-tabs {
+    margin-bottom: 0;
+    background-color: $white; 
+  }
+
+  .tab-wrapper {
+    padding: 5px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    text-align: center; 
+    background-color: $white;
+  }
+
+  li {
+    font-size: 1.2rem; 
+  }
+
+@media screen and (max-width: 760px) { 
+  .nav {
+    flex-direction: column;
+  }
+}
+
+/* button */
+.note{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.button {
+  flex-shrink: 1;
+  background-color: $primary;
+  padding: 10px 20px 10px 20px;
+  color: $white;
+  font-weight:600;
+  border-radius: 15px;
+  a {
+  color: white;
+  }
+}
+
+
+}
