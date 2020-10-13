@@ -3,40 +3,6 @@
 {{- $id    := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
 {{- $image := cond (isset .Params "image") ( .Params.image ) (.CurrentSection.Params.image) }}
       
-
-<style>
-
-select {
-  width: 300px;
-  background-color: burlywood;
-  padding: 5px;
-
-}
-
-.select-flex {
-  display: flex;
-}
-
-.select-flex > div {
-   margin-right:20px;
-   padding: 0px;
-   border-color: transparent;
-}
-
-input {
-  background-color: blue;
-  font-weight: 600;
-  padding: 0 20px 0 20px;
-  color: white;
-  border-color: transparent;
-}
-
-label{
-  background-color: white;
-  margin-right:10px;
-}
-</style>  
-
 <section id="{{ $id | lower }}">
   <div class="container">
     <div class="row">
@@ -47,27 +13,81 @@ label{
         {{- end }}
         <br><br>
         <h2 class="image-title">{{ .Title }}</h2>
+        {{.Content}}
       </div>
     </div>
-     <form id="selectForm" action="#" >
-    <div  class="select-flex">
-   
-      <div class="custom-select">
-      <label for="cities">Choose a city</label>
-      <select name="cities" id="url">
-        {{ range (where (where .Site.Pages "Section" "states").ByTitle ".Params.id" "city") }}
-          <option value="{{ .Permalink }}">{{ .Title }} </option>
-        {{ end }}
-      </select>
-      </div>
-      <div>
-       <input type="button" name="submit" id="btn_id" value="Submit" onclick="submit_by_id()"/>
-     </div>
+    <div clas="center">
+      <form id="selectForm" action="#" >
+        <div  class="select-flex">
+          <div class="custom-select">
+            <label for="cities">Search by name</label>
+            <select name="cities" id="url">
+              {{ range (where (where .Site.Pages "Section" "states").ByTitle ".Params.id" "city") }}
+                <option value="{{ .Permalink }}">{{ .Title }} </option>
+              {{ end }}
+            </select>
+          </div>
+          <div>
+            <input type="button" name="submit" id="btn_id" value="Submit" onclick="submit_by_id()"/>
+          </div>
+        </div>
+      </form>  
+      <form id="selectForm" action="#" >
+        <div  class="select-flex">
+          <div class="custom-select">
+            <label for="cities">Search by interest</label>
+            <select name="cities" id="url">
+              {{ range (where (where .Site.Pages "Section" "states").ByTitle ".Params.id" "interest") }}
+                <option value="{{ .Permalink }}">{{ .Title }} </option>
+              {{ end }}
+            </select>
+          </div>
+          <div>
+            <input type="button" name="submit" id="btn_id" value="Submit" onclick="submit_by_id()"/>
+          </div>
+        </div>
+      </form>  
+    </div>
   </div>
-   </form>  
+  <div class="row">
+    <div class="container bg">
+      <div class="mx-auto w-50 p-1">
+        <h3 class="center">{{.Params.subtitle}}</h3>
+        <p class="center">{{ .Params.header }}</p>
+      </div>
+    <div>
+  </div>
+  <div class="card-deck">
+    <div class="row row-cols-1 row-cols-md-3">
+      {{- range .Params.cities}}
+      {{- with $.Site.GetPage . }}
+      <div class="col mb-4">
+        <div class="card h-100">
+            <div class="card-img-top press-logo">
+            {{- with .Resources.ByType "image" }}
+              <div class="Image">
+              {{- range $index,$img := . }}
+              {{- if eq $index 0}}
+                <img src="{{ $img.RelPermalink }}">
+              {{- end }}
+              {{- end }}
+              </div>
+            {{- end }}
+            </div>      
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+              </h3>     
+              <h4>{{ .Params.subtitle }}</h4> 
+              <p class="card-text">
+                <span itemprop="description">{{ .Summary }}</span>
+              </p>
+          </div>
+        </div>
+      </div>     
+      {{- end }}
+      {{- end }}
+    </div>
   </div>
 </section>
-{{ end }}
-          
-                   
-
+{{- end }}

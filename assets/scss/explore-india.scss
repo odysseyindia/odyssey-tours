@@ -1,0 +1,77 @@
+#explore-india {
+
+select {
+  width: 300px;
+  background-color: burlywood;
+  padding: 5px;
+
+}
+
+.select-flex {
+  display: flex;
+}
+
+.select-flex > div {
+   margin-right:20px;
+   padding: 0px;
+   border-color: transparent;
+}
+
+input {
+  background-color: blue;
+  font-weight: 600;
+  padding: 0 20px 0 20px;
+  color: white;
+  border-color: transparent;
+}
+
+label{
+  background-color: white;
+  margin-right:10px;
+}
+
+.bg {
+  background-color: lightslategrey;
+  margin-top: 30px;
+  padding-top: 30px;
+  color: white;
+}
+
+.card-deck .card {
+      flex: 1 0 0%;
+      margin: 15px;
+  }
+
+  .card {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      word-wrap: break-word;
+      background-color: $white;
+      background-clip: border-box;
+      border-radius: .25rem;
+      padding: 10px;
+      margin: 30px;
+  }
+
+  img {
+     width: 100%;
+  }
+
+  .w-50 {
+     padding: 10px;
+  }
+  .mb-4{
+    margin-bottom:20px;
+    padding-bottom:20px;
+  }
+
+form {
+  display: flex;
+justify-content: center;
+align-items: center;
+height: 100px;
+}
+
+}
