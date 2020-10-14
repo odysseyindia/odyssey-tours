@@ -7,7 +7,7 @@ tags: ["rajasthan", "tours"]
 cost: 999
 currency: EUR
 days: 7
-categories: ["PopularTours"]
+categories: ["Popular Tours"]
 highlights:
 - "Walk the narrow lanes of Chandni Chowk bazaar in Old Delhi"
 - "Visit the Taj Mahal at sunrise"

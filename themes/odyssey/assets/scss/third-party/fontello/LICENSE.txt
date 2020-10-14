@@ -28,15 +28,6 @@ Font license info
    Homepage:  http://aristeides.com/
 
 
-## Fontelico
-
-   Copyright (C) 2012 by Fontello project
-
-   Author:    Crowdsourced, for Fontello project
-   License:   SIL (http://scripts.sil.org/OFL)
-   Homepage:  http://fontello.com
-
-
 ## Typicons
 
    (c) Stephen Hutchings 2012
@@ -44,15 +35,6 @@ Font license info
    Author:    Stephen Hutchings
    License:   SIL (http://scripts.sil.org/OFL)
    Homepage:  http://typicons.com/
-
-
-## Maki
-
-   Copyright (C) Mapbox, LCC
-
-   Author:    Mapbox
-   License:   BSD (https://github.com/mapbox/maki/blob/gh-pages/LICENSE.txt)
-   Homepage:  http://mapbox.com/maki/
 
 
 ## MFG Labs

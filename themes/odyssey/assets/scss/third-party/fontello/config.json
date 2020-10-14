@@ -91,6 +91,12 @@
       "src": "entypo"
     },
     {
+      "uid": "62e4fa2c664818d20ce4740cadbf9aeb",
+      "css": "rupee",
+      "code": 61782,
+      "src": "fontawesome"
+    },
+    {
       "uid": "c77fd2fd065b5fe16d6f2b41e190b266",
       "css": "pencil",
       "code": 59397,
@@ -101,6 +107,12 @@
       "css": "street-view",
       "code": 61981,
       "src": "fontawesome"
+    },
+    {
+      "uid": "513ac180ff85bd275f2b736720cbbf5e",
+      "css": "home",
+      "code": 59398,
+      "src": "entypo"
     },
     {
       "uid": "6a12c2b74456ea21cc984e11dec227a1",
@@ -205,52 +217,10 @@
       "src": "fontawesome"
     },
     {
-      "uid": "6d3728ea0e5678ab9cf6840c4a040e34",
-      "css": "ferry",
-      "code": 59414,
-      "src": "maki"
-    },
-    {
-      "uid": "c64623255a4a7c72436b199b05296c4f",
-      "css": "emo-happy",
-      "code": 59398,
-      "src": "fontelico"
-    },
-    {
-      "uid": "62e4fa2c664818d20ce4740cadbf9aeb",
-      "css": "rupee",
-      "code": 61782,
+      "uid": "9dd9e835aebe1060ba7190ad2b2ed951",
+      "css": "search",
+      "code": 59412,
       "src": "fontawesome"
-    },
-    {
-      "uid": "486b835e9eebf54eee78ed12b4291b86",
-      "css": "euro",
-      "code": 61779,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "297fe6c2ef08198b03d706ba52f51b7f",
-      "css": "flight",
-      "code": 59413,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "9937d762aee170b7350b15dd02dd34a3",
-      "css": "cab",
-      "code": 61881,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "4df54de7f9081aefcc1476068d4464e9",
-      "css": "train",
-      "code": 62008,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "513ac180ff85bd275f2b736720cbbf5e",
-      "css": "home",
-      "code": 59415,
-      "src": "entypo"
     }
   ]
 }
