@@ -4,7 +4,7 @@
     <body>
         {{- partial "header.html" . -}}
 
-  <section id="tag-terms">
+      <section id="tag-terms">
         <div class="container">
         <div id="tags-archives" class="row main-content-wrap">
           <form id="filter-form" action="#">
@@ -14,7 +14,6 @@
               data-message-zero="{{ i18n "global.tags_found.zero" }}"
               data-message-one="{{ i18n "global.tags_found.one" }}"
               data-message-other="{{ i18n "global.tags_found.other" }}"></h4>
-
           <div>
               {{ range .Data.Terms.ByCount }}
                 <a class="tag tag--primary tag--small" href="#{{ .Name | urlize }}-list" data-tag="{{ .Name | lower }}">

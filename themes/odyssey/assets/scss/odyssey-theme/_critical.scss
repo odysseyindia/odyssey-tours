@@ -34,7 +34,7 @@ section {
 
 body {
   font-family: var(--font-primary);
-  font-size: 1rem;
+  font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));
   font-weight: 400;
   line-height: 1.7;
 }

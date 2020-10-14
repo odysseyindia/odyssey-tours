@@ -1,0 +1,49 @@
+{{- define "template" }}
+{{- if ne (getenv "HUGO_ENV") "production" -}}
+
+{{- partial "show-template" (dict "Which" .Kind "Template" "layouts/faq/single.html") -}}
+
+{{- end }}
+{{- end }}
+
+{{- define "main" }}
+
+{{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
+
+<section id="{{ $id | lower }}"> 
+  {{ partial "heading.html" . }}
+  <div class="container">
+    <div class="row">
+      <div class="mx-auto w-50 p-3">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+  <div class="mx-auto w-80 p-1">
+    <div id="accordion" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    {{"<!-- Questions -->" | safeHTML }}
+    {{- range $i,$e := $.Page.Params.questions }}
+      <div class="card">
+        <div class="card-header" id="heading{{$i}}">
+          <h5 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapse{{$i}}" aria-expanded="true" aria-controls="collapse{{$i}}">
+              <h4 itemprop="name">{{ .faq }}</h4>
+            </button>
+          </h5>
+        </div>
+        <div id="collapse{{$i}}" class="collapse" aria-labelledby="heading{{$i}}" data-parent="#accordion">
+          <div class="card-body">
+            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                {{ .text }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    {{- end }}
+    </div>
+  </div>
+</section>
+{{"<!-- end Content -->" | safeHTML}}
+{{- end }} 
