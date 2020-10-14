@@ -1,18 +1,25 @@
+{{- define "template" }}
+{{- if ne (getenv "HUGO_ENV") "production" -}}
+
+{{- partial "show-template" (dict "Which" .Kind "Template" "layouts/sustainable/list.html") -}}
+
+{{- end }}
+{{- end }}
+
 {{- define "main" }}
 
 {{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
 
 <section id="{{ $id | lower }}"> 
-  <div class="hero hero-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('{{.Permalink }}{{.Params.image }}');" >
-  </div>
+  {{ partial "heading.html" . }}
   <div class="container">
     <div class="row">
       <div class="mx-auto w-50 p-3">
-        <h2>{{ .Title }}</h2>
         {{ with .Params.subtitle }}<h3>{{ . }}</h3>{{ end }}
         {{ .Content }}
       </div>
     </div>
+  </div>
     <div class="tab-wrapper">
       <nav class="nav flex-column flex-sm-row" >
          
@@ -200,7 +207,7 @@
         Get in touch with us <a href="/contact/contact-us/">here</a>
       </div>
     </div>
-  </div>
+  
 </section>
 {{"<!-- end Content -->" | safeHTML}}
 {{- end }} 

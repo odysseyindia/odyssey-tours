@@ -1,0 +1,36 @@
+.card-deck .card {
+    flex: 1 0 0%;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: $white;
+    background-clip: border-box;
+    border-radius: .5rem;
+    padding: 10px;
+    margin: 30px;
+}
+
+.card-footer {
+    padding: .75rem 1.25rem;
+    background-color: $white;
+    border-top: 0px solid $white;
+}
+
+.card-spacing {
+	padding-right:0;
+	padding-left:0;
+	margin-bottom: 30px;
+}
+
+.bg {
+    background-color: lightslategrey;
+    padding: 30px;
+}

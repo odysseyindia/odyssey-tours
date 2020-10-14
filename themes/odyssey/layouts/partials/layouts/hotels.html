@@ -3,44 +3,49 @@
 {{ $scratch.Set "permalink" .Permalink }}
 
 <section id="{{ $id | lower }}"> 
+  {{ partial "heading.html" . }}
   <div class="container">
     <div class="row">
       <div class="col mb-12">
-        <h2>{{ .Title }}</h2>
         {{ .Content }}
       </div>
     </div>
   </div>
+  {{"<!-- list items -->" | safeHTML }}
   <div class="bg">
     <div class="card-deck">
       <div class="row row-cols-1 row-cols-md-3">
-      {{- range .Data.Pages }}
-        <div class="col mb-4">
+        {{- range .Data.Pages }}
+        <div class="card-spacing">
           <div class="card h-100">
-              <div class="card-img-top press-logo">
-              {{ with .Resources.ByType "image" }}
-                <div class="Image">
-                {{ range $index,$img := . }}
-                 {{- if eq $index 0}}
-                  <img src="{{ $img.RelPermalink }}">
-                  {{- end }}
-                {{ end }}
-                </div>
+            <!-- header -->
+            <div class="card-header img-top">
+            {{ with .Resources.ByType "image" }}
+              <div class="Image">
+              {{ range $index,$img := . }}
+               {{- if eq $index 0}}
+                <img class="lazyload" data-src="{{ $img.RelPermalink }}" itemprop="image" alt="{{ $img | humanize }}">
+                {{- end }}
               {{ end }}
-              </div>      
-              <div class="card-body">
-                <h3 class="card-title">
-                  <a href="{{ .Permalink }}">{{ .Title }}</a>
-                </h3>     
-                <h4>{{ .Params.subtitle }}</h4> 
-                <p class="card-text">
-                  <span itemprop="description">{{ .Content }}</span>
-                </p>
+              </div>
+            {{ end }}
+            </div>    
+            <!-- body -->
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+              </h3>     
+              <h4>{{ .Params.subtitle }}</h4> 
+              <p class="card-text">
+                <span itemprop="description">{{ .Content }}</span>
+              </p>
             </div>
+            <!-- no footer -->
           </div>
         </div>     
-      {{- end }}
+        {{- end }}
       </div>
     </div>
   </div>
+  {{"<!-- end list items -->" | safeHTML }}
 </section>

@@ -9,6 +9,10 @@
     width: 100% !important; }
 }
 
+@media print {
+  header, footer { display: none; }  
+}
+
 .center {
    text-align: center;
 }
@@ -42,14 +46,7 @@
 
 .gj-icon {
   visibility: hidden;
-  }
-
-/* --- print --- */
-
-@media print {
-  #menu, footer { display: none; }  
-  }
-
+}
 
 .tour  {
   font-weight: 600;
@@ -78,10 +75,11 @@
   border-color: gold;
 }
 
+/* image box */
 .image-box { 
   display: flex;
   margin-bottom :20px;
-  }
+}
 
 .main-image{
   flex: 1 0 ;

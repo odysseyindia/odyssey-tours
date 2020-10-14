@@ -1,22 +1,35 @@
+{{- define "template" }}
+{{- if ne (getenv "HUGO_ENV") "production" -}}
+
+{{- partial "show-template" (dict "Which" .Kind "Template" "layouts/_default/list.html") -}}
+
+{{- end }}
+{{- end }}
+
 {{- define "main" }}
 
 {{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
 
 <section id="{{ $id | lower }}"> 
+  {{ partial "heading.html" . }}
   <div class="container">
     <div class="row">
-      <div class="col-12">
-        <h2>{{ .Title }}</h2>
-        {{ .Content }}
-      </div>
-      <div class="card-deck">
-        <div class="row row-cols-1 row-cols-md-3">
-        {{- range .Data.Pages }}
-        {{- .Render "summary" }}
-        {{- end }}
+        <div class="content mx-auto w-50 p-3">
+          {{ .Content }}
         </div>
-      </div>
     </div>
   </div>
+      <!-- items -->
+      <div class="bg">
+        <div class="card-deck">
+          <div class="row row-cols-1 row-cols-md-4">
+          {{- range .Data.Pages }}
+          {{- .Render "summary" }}
+          {{- end }}
+          </div>
+        </div>
+      </div>
+      <!-- end items -->
+   
 </section>
 {{- end }}

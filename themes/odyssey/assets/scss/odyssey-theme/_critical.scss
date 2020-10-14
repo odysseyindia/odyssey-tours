@@ -1,8 +1,8 @@
 :root {
-  --font-primary: "Raleway",sans-serif; 
-  --font-secondary:  "Playfair Display",sans-serif;
+  --font-primary: "Raleway", sans-serif; 
+  --font-secondary: "Raleway",sans-serif; 
 }
-
+/* --font-secondary:  "Playfair Display",sans-serif; */
 
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap");
@@ -69,12 +69,15 @@ hr {
 }
 */
 
-h2 {
+div > h2 {
   text-align: center;
   font-family: var(--font-secondary);
   text-align: center; 
   margin-bottom: 20px;
-  font-size: 3rem; }
+  font-size: 2rem; 
+  background: linear-gradient(0deg, $primary, $secondary);
+  color: $white;
+  }
   
 a {
   color: $anchor;

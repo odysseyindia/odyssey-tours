@@ -1,18 +1,20 @@
+{{- define "template" }}
+{{- if ne (getenv "HUGO_ENV") "production" -}}
+
+{{- partial "show-template" (dict "Which" .Kind "Template" "layouts/explore-india/single.html") -}}
+
+{{- end }}
+{{- end }}
+
 {{ define "main" }}
 {{ "<!-- The CONTENT Now -->" | safeHTML }}
-{{- $id    := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
-{{- $image := cond (isset .Params "image") ( .Params.image ) (.CurrentSection.Params.image) }}
+{{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
       
 <section id="{{ $id | lower }}">
+  {{ partial "heading.html" . }}
   <div class="container">
     <div class="row">
       <div class="mx-auto w-50 p-1">
-        {{- with $image }}
-        <img class="lazyload" src="{{.}}" title="{{$.Params.Title}}" 
-        alt="{{$.Params.Title}}" srcset="{{.}} 500w, {{.}} 800w, {{.}} 1200w, {{.}} 1500w">
-        {{- end }}
-        <br><br>
-        <h2 class="image-title">{{ .Title }}</h2>
         {{.Content}}
       </div>
     </div>
@@ -49,44 +51,44 @@
       </form>  
     </div>
   </div>
-  <div class="row">
-    <div class="container bg">
-      <div class="mx-auto w-50 p-1">
-        <h3 class="center">{{.Params.subtitle}}</h3>
-        <p class="center">{{ .Params.header }}</p>
-      </div>
-    <div>
-  </div>
-  <div class="card-deck">
-    <div class="row row-cols-1 row-cols-md-3">
-      {{- range .Params.cities}}
-      {{- with $.Site.GetPage . }}
-      <div class="col mb-4">
-        <div class="card h-100">
-            <div class="card-img-top press-logo">
-            {{- with .Resources.ByType "image" }}
-              <div class="Image">
-              {{- range $index,$img := . }}
-              {{- if eq $index 0}}
-                <img src="{{ $img.RelPermalink }}">
+  <div class="bg">
+    <div class="mx-auto w-50 p-1">
+      <h3 class="center">{{.Params.subtitle}}</h3>
+      <p class="center">{{ .Params.header }}</p>
+    </div>
+    <div class="card-deck">
+      <div class="row row-cols-1 row-cols-md-3">
+        {{- range .Params.cities}}
+        {{- with $.Site.GetPage . }}
+        <div class="card-spacing">
+          <div class="card h-100">
+              <!-- header -->
+              <div class="card-header img-top">
+              {{- with .Resources.ByType "image" }}
+                <div class="Image">
+                {{- range $index,$img := . }}
+                {{- if eq $index 0}}
+                  <img src="{{ $img.RelPermalink }}">
+                {{- end }}
+                {{- end }}
+                </div>
               {{- end }}
-              {{- end }}
-              </div>
-            {{- end }}
-            </div>      
-            <div class="card-body">
-              <h3 class="card-title">
-                <a href="{{ .Permalink }}">{{ .Title }}</a>
-              </h3>     
-              <h4>{{ .Params.subtitle }}</h4> 
-              <p class="card-text">
-                <span itemprop="description">{{ .Summary }}</span>
-              </p>
+              </div>   
+              <!-- body -->   
+              <div class="card-body">
+                <h3 class="card-title">
+                  <a href="{{ .Permalink }}">{{ .Title }}</a>
+                </h3>     
+                <h4>{{ .Params.subtitle }}</h4> 
+                <p class="card-text">
+                  <span itemprop="description">{{ .Summary }}</span>
+                </p>
+            </div>
           </div>
-        </div>
-      </div>     
-      {{- end }}
-      {{- end }}
+        </div>     
+        {{- end }}
+        {{- end }}
+      </div>
     </div>
   </div>
 </section>

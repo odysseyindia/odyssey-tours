@@ -8,9 +8,8 @@ social:
     link : "mailto:suchetapotnis@gmail.com"
   - icon : "icon-facebook-circled"
     link : "https://www.facebook.com/sucheta.potnis"
-
-images: 
-  - "/authors/sucheta/sucheta.jpg"
 ---
 
-Sucheta studied Psychology and Public Relations and Marketing in Mumbai. Her interests range from wildlife, nature and the many handicrafts of India. Apart from looking after the marketing of Odyssey Tours & Travels Pvt Ltd, Sucheta is also a freelance writer and has contributed to many magazines and guidebooks, Indian and international.
+Sucheta studied Psychology and Public Relations and Marketing in Mumbai. Her interests range from wildlife, nature and the many handicrafts of India. 
+
+Apart from looking after the marketing of Odyssey Tours & Travels Pvt Ltd, Sucheta is also a freelance writer and has contributed to many magazines and guidebooks, Indian and international.

@@ -1,0 +1,27 @@
+#experience {
+
+
+
+/* button */
+
+.note{
+  display: flex;
+  justify-content: center;
+  margin-top:30px;
+  
+}
+
+.button {
+  flex-shrink: 1;
+  background-color: $primary;
+  padding: 10px 20px 10px 20px;
+  color: $white;
+  font-weight:600;
+  border-radius: 15px;
+  a {
+  color: white;
+  }
+}
+
+
+}

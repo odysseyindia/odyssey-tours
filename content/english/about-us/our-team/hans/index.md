@@ -13,4 +13,8 @@ images:
   - "/authors/hans/hans.jpg"
 ---
 
-Born in the Netherlands, Hans studied History & Anthropology in Amsterdam and Sydney and wrote a thesis on the "Untouchables of India". Married to Sucheta, they started together organising tours to India in the early eighties. Now settled in Goa, they also look after their luxury villa "Summertime", which is adjacent to their home.
+Born in the Netherlands, Hans studied History & Anthropology in Amsterdam and Sydney and wrote a thesis on the "Untouchables of India". 
+
+Married to Sucheta, they started together organising tours to India in the early eighties. 
+
+Now settled in Goa, they also look after the luxury villa "Summertime", which is adjacent to their home.

@@ -2702,10 +2702,11 @@ input[type=button].btn-block {
 }
 
 :root {
-  --font-primary: "Raleway",sans-serif;
-  --font-secondary: "Playfair Display",sans-serif;
+  --font-primary: "Raleway", sans-serif;
+  --font-secondary: "Raleway",sans-serif;
 }
 
+/* --font-secondary:  "Playfair Display",sans-serif; */
 *,
 :after,
 :before {
@@ -2763,12 +2764,14 @@ hr {
   }
 }
 */
-h2 {
+div > h2 {
   text-align: center;
   font-family: var(--font-secondary);
   text-align: center;
   margin-bottom: 20px;
-  font-size: 3rem;
+  font-size: 2rem;
+  background: linear-gradient(0deg, #63582C, #b4a258);
+  color: #fff;
 }
 
 a {

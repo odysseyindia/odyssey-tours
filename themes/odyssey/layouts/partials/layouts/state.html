@@ -3,15 +3,10 @@
 {{"<!-- display state -->" | safeHTML}}
 {{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
 <section id="{{ $id | lower }}">
+  {{ partial "heading.html" . }}
   <div class="container">
     <div class="row">
       <div class="mx-auto w-50 p-1">
-        {{- $image := cond (isset .Params "image") ( .Params.image ) (.CurrentSection.Params.image) }}
-      {{- with $image }}
-      <img class="lazyload" src="{{.}}" title="{{$.Params.Title}}" 
-      alt="{{$.Params.Title}}" srcset="{{.}} 500w, {{.}} 800w, {{.}} 1200w, {{.}} 1500w">
-      {{- end }}
-        <h2 class="image-title">{{ .Title }}</h2>
         {{ .Content }}
         <a href="{{.Permalink}}cities/" alt="Cities in {{.Title}}">See the places in {{.Title}}</a>
       </div>

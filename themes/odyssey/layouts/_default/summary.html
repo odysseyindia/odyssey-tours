@@ -1,15 +1,17 @@
-{{- "<!-- info -->" | safeHTML }}
-<div class="col mb-4">
+{{- "<!-- items -->" | safeHTML }}
+<div class="card-spacing">
   <div class="card h-100">
-    <div class="card-img-top press-logo">
+    <!-- header -->
+    <div class="card-header img-top">
     {{- with .Resources.ByType "image" }}
     {{- range $index,$img := . }}
-    {{- if eq $index 0}}
-      <img class="mr-3 publisher lazyload" itemprop="image" data-src="{{ $.Page.Permalink }}{{ $img }}" alt="Tour">
+    {{- if eq $index 0 }}
+      <img class="mr-3 publisher lazyload" itemprop="image" data-src="{{ $.Page.Permalink }}{{ $img }}" alt="{{ substr  $img 0 -4 | replaceRE "[^a-z]" " " |humanize }}">
     {{- end }}
     {{- end }}  
     {{- end }}
     </div>
+    <!-- body -->
     <div class="card-body">
       <h3 class="card-title">
         <a href="{{ .Permalink }}">{{ .Title }}</a>
@@ -19,5 +21,6 @@
         <span itemprop="description">{{ .Summary }}</span>
       </p>
     </div>
+    <!-- no footer -->
   </div>
 </div>
