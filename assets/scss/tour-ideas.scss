@@ -138,8 +138,21 @@ text-align: center;
 label {
     display: inline-block;
     margin-bottom: .5rem;
+    font-size: 0.8rem; 
 }
 
+.label {
+	font-size: 0.8rem; 
+	font-weight: 800;
+}
+
+#counter {
+	font-size: 0.8rem; 
+}
+
+a#showall {
+	visibility: none;
+}
 .input-group {
     position: relative;
     display: -webkit-box;
@@ -179,12 +192,10 @@ label {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #495057;
     text-align: center;
     white-space: nowrap;
-    background-color: #e9ecef;
-    border: 1px solid #ced4da;
-    border-radius: .25rem;
+ 	background-color: $secondary;
+ 	color: $white;
 }
 
 .input-group>.input-group-prepend>.input-group-text {
@@ -225,10 +236,11 @@ label {
 }
 
 
+
 /* slider bar */
 
 .custom-range {
-	color: red;
+	
 }
 
 
