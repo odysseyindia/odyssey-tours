@@ -31,13 +31,25 @@ article {
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 	border: solid 1px $primary;
 	padding: 5px;
 	margin-top: 10px;
 	font-size: 80%;
 	background-color: $white;
 
+}
+
+.article {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	flex-wrap: nowrap;
+	padding: 5px;
+	margin: 0;
+	font-size: 80%;
+	background-color: $white;
+	flex-grow: 1;
 }
 
 ul {
@@ -47,10 +59,12 @@ ul {
 .article-image {
 	width:30%;
 	padding-right: 5px;
+	flex-grow: 1;
 }
+
 .article-details {
 	flex-grow: 1;
-	h4 {
+    h4 {
 		margin-bottom: 0 ;
 	}
 	h5 {

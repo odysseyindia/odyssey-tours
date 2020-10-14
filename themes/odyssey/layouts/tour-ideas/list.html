@@ -82,21 +82,23 @@
                 </a>
             </figure>
           </div>
-          <div class="article-details" >       
-            <h4>{{ $e.Title }}</h4>
-            <h5>{{ $e.Params.subtitle }}</h5>
-            <ul>
-            {{ range $e.Params.highlights }}
-            <li>{{ . }}</li>
-            {{ end }}
-          </ul>
-          </div>
-          <div class="article-pricing">
-            <div class="days">{{ $e.Params.days }} Days</div>
-            <div>from</div>
-            <div class="price">{{ $e.Params.currency }} {{ $e.Params.cost }}</div>
-            <div class="button"><a title="View this tour" href="{{ $e.Permalink }}">View this tour</a></div>
-            <div class="button"><a title="View this tour" href="/contact/contact-us">Request a quote</a></div>
+          <div class="article">
+            <div class="article-details" >       
+              <h4>{{ $e.Title }}</h4>
+              <h5>{{ $e.Params.subtitle }}</h5>
+              <ul>
+              {{ range $e.Params.highlights }}
+              <li>{{ . }}</li>
+              {{ end }}
+            </ul>
+            </div>
+            <div class="article-pricing">
+              <div class="days">{{ $e.Params.days }} Days</div>
+              <div>from</div>
+              <div class="price">{{ $e.Params.currency }} {{ $e.Params.cost }}</div>
+              <div class="button"><a title="View this tour" href="{{ $e.Permalink }}">View this tour</a></div>
+              <div class="button"><a title="View this tour" href="/contact/contact-us">Request a quote</a></div>
+            </div>
           </div>
         </article>
     </div>
