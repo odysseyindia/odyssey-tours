@@ -5,8 +5,7 @@ date: 2020-09-21T12:59:23+02:00
 draft: false
 image: classic-india.jpg
 tags: ["rajasthan", "tours"] 
-layout: "tours"
-days: 6 days
+days: 10
 cost: 510
 currency: EUR
 start: Delhi

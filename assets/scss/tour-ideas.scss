@@ -1,7 +1,5 @@
 #tour-ideas {
 
-
-
 .topbar {
 	background-color: $primary;
 	text-align: center;
@@ -14,9 +12,8 @@
 #content {
 	background-color: lightgray;
 }
+
 .filter {
-	background-color: $white;
-	padding: 10px;
 	margin: 10px 0 10px 10px;
 }
 .itineraries {
@@ -70,6 +67,10 @@ ul {
 	}
 }
 
+.hover-effect {
+	color: $primary;
+}
+
 .article-pricing{
 width:20%;
 padding-left: 5px;
@@ -87,24 +88,17 @@ text-align: center;
 	color: $primary;
 	font-weight: 600;
 }
-.button {
-	border: solid 1px $secondary;
-	text-transform: uppercase;
-	padding: 5px;
-  	font-size: 0.6rem;
-  	margin-top:10px;
-  	a {
-  		color: $primary;
-  	}
-}
 
+.request {
+  border: solid 1px $secondary;
+  margin-bottom:5px;
+  a {
+  color: $primary;
+}}
 
-.box, .box2 {
+.box {
 	background-color: beige;
 	margin-bottom: 10px;
-	padding: 0 10px 0 10px;
-}
-.box2 {
 	padding: 10px;
 }
 
@@ -233,48 +227,40 @@ a#showall {
 
 /* slider bar */
 
-.custom-range {
+.range {
 	width: 100%;
 }
-
-
-.slidecontainer {
-  width: 100%; /* Width of the outside container */
-}
-
-/* The slider itself */
 .slider {
-  -webkit-appearance: none;  /* Override default CSS styles */
-  appearance: none;
-  width: 100%; /* Full-width */
-  height: 25px; /* Specified height */
-  background: #d3d3d3; /* Grey background */
-  outline: none; /* Remove outline */
-  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
-  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
-  transition: opacity .2s;
+  position: relative;
+  margin: 0 auto 3rem;
+}
+.bubble {
+  background: $primary;
+  color: white;
+  padding: 4px 12px;
+  margin-top: 30px;
+  position: absolute;
+  border-radius: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.bubble::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 5px;
+  background: $primary;
+  top: -5px;
+  left: 50%;
+}
+.flex-range {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-/* Mouse-over effects */
-.slider:hover {
-  opacity: 1; /* Fully shown on mouse-over */
-}
-
-/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
-.slider::-webkit-slider-thumb {
-  -webkit-appearance: none; /* Override default look */
-  appearance: none;
-  width: 25px; /* Set a specific slider handle width */
-  height: 25px; /* Slider handle height */
-  background: #4CAF50; /* Green background */
-  cursor: pointer; /* Cursor on hover */
-}
-
-.slider::-moz-range-thumb {
-  width: 25px; /* Set a specific slider handle width */
-  height: 25px; /* Slider handle height */
-  background: #4CAF50; /* Green background */
-  cursor: pointer; /* Cursor on hover */
+input#price-range, input#duration-range,  {
+  cursor: pointer; 
 }
 
 /* end */

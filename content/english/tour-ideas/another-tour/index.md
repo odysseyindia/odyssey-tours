@@ -4,7 +4,7 @@ date: 2020-09-21T12:59:23+02:00
 draft: false
 image: classic-india.jpg
 tags: ["rajasthan", "tours"]
-cost: 999
+cost: 990
 currency: EUR
 days: 7
 categories: ["Popular Tours"]

@@ -73,6 +73,7 @@
 {{"<!-- items -->" | safeHTML }}
 <div class="hotel-list listing-style3 hotel">
     {{ range $i,$e := .Data.Pages }}
+
     <div id="itin-{{ $i }}" data-cost="{{ $e.Params.cost }}" data-duration="{{ $e.Params.numdays }}">
         <article data-cost="{{ $e.Params.cost }}" data-duration="{{ $e.Params.numdays }}">
           <div class="article-image">
@@ -83,9 +84,11 @@
             </figure>
           </div>
           <div class="article">
-            <div class="article-details" >       
-              <h4>{{ $e.Title }}</h4>
-              <h5>{{ $e.Params.subtitle }}</h5>
+            <div class="article-details" > 
+              <a  href="{{ $e.Permalink }}" class="hover-effect">      
+                <h4>{{ $e.Title }}</h4>
+                <h5>{{ $e.Params.subtitle }}</h5>
+              </a>
               <ul>
               {{ range $e.Params.highlights }}
               <li>{{ . }}</li>
@@ -96,8 +99,8 @@
               <div class="days">{{ $e.Params.days }} Days</div>
               <div>from</div>
               <div class="price">{{ $e.Params.currency }} {{ $e.Params.cost }}</div>
-              <div class="button"><a title="View this tour" href="{{ $e.Permalink }}">View this tour</a></div>
-              <div class="button"><a title="View this tour" href="/contact/contact-us">Request a quote</a></div>
+              <div class="request"><a title="View this tour" href="{{ $e.Permalink }}">View this tour</a></div>
+              <div class="request"><a title="Request a quote" href="/contact/contact-us">Request a quote</a></div>
             </div>
           </div>
         </article>

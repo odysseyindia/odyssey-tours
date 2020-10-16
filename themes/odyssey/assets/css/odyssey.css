@@ -736,4 +736,22 @@ a.cc-allow:hover {
   margin: 0;
 }
 
+/* button */
+.note {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  flex-shrink: 1;
+  background-color: #63582C;
+  padding: 10px 20px 10px 20px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 15px;
+}
+.button a {
+  color: white;
+}
+
 /*# sourceMappingURL=odyssey.css.map */

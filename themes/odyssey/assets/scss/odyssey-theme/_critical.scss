@@ -69,15 +69,20 @@ hr {
 }
 */
 
-div > h2 {
+div.heading {
   text-align: center;
   font-family: var(--font-secondary);
   text-align: center; 
-  margin-bottom: 20px;
-  font-size: 2rem; 
   background: linear-gradient(0deg, $primary, $secondary);
   color: $white;
+  h2 {
+    font-size: 2rem; 
+    margin:0px;
+    line-height:1.7;}
+  h2.with {
+    line-height:1.3;
   }
+}
   
 a {
   color: $anchor;

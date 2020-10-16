@@ -6,6 +6,11 @@
 {{- end }}
 {{- end }}
 {{- end }}
-  <div>
-    <h2>{{ .Title }}</h2>
+  <div  class="heading">
+    {{- with .Params.subtitle }}
+    <h2 class="with">{{ $.Title }}</h2>
+    <h3>{{ . }}</h3>
+ 	{{- else }}
+ 	<h2>{{ .Title }}</h2>
+    {{- end }}
   </div>
