@@ -32,7 +32,7 @@
           <h3>Itinerary</h3>
           {{ range $index,$e := .Params.itinerary }}
           <div>
-            <h5>Day {{ add $index 1 }}</h5>
+            <hr class="hr-text" data-content="Day {{ add $index 1 }}"> 
             {{ range .item }}
             {{ if in .url "excursions"}}
             <i class="icon-camera"></i>
@@ -46,7 +46,7 @@
 
             {{ .desc }}<br>
             {{ end }}
-            <hr>
+          
           </div>
           {{ end }}
         </div>

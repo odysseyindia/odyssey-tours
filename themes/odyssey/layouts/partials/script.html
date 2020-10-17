@@ -46,7 +46,8 @@
 {{- $tooltip := resources.Get "/js/tooltip.js" -}}
 {{- $gmap    := resources.Get "/js/gmap.js" -}}
 {{- $tours   := resources.Get "/js/tours.js" -}}
-{{- $js      := slice  $toggle $lazy $mobile $cookie  $tours| resources.Concat "js/script.js"   }}
+{{- $hotels  := resources.Get "/js/hotels.js" -}}
+{{- $js      := slice  $toggle $lazy $mobile $cookie  $tours $hotels | resources.Concat "js/script.js"   }}
 <script src="{{ $js.RelPermalink }}" defer></script>
 
 {{- if eq $.Params.translationKey "gallery" }}

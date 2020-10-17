@@ -10,6 +10,8 @@
 
 {{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
 
+{{- $hotels := sort (where (where .Site.Pages "Section" "states") ".Params.id" "hotel") ".Params.rating" "desc" }}
+
 <section id="{{ $id | lower }}"> 
   	{{ partial "heading.html" . }}
   	<div class="container">
@@ -34,7 +36,7 @@
   				<div class="filter">
 
 				    <div class="box">
-				      <span id="counter"> <i class="icon-info-circled"></i> {{ len .Data.Pages }} hotels found</span>
+				      <span id="counter"> <i class="icon-info-circled"></i> {{ len $hotels }} hotels found</span>
 				      <div id="showAll"> 
 				        <a href="#">&nbsp;</a>
 				      </div>
@@ -47,9 +49,9 @@
 				              	<div class="input-group">  
 					                <select name="city" class="dropdown">
 {{- $cities := slice }}
-{{- range (where (where .Site.Pages "Section" "states") ".Params.id" "hotel") }}  
-{{ .Title }}<br>
-  {{- $data := printf "%s@%s" (urls.Parse .CurrentSection.Parent.Permalink).Path   .CurrentSection.Parent.Title }} 
+{{- range $i,$e := sort (where (where .Site.Pages "Section" "states") ".Params.id" "hotel") ".Title" "desc" }}  
+{{ $e.Title }}<br>
+  {{- $data := printf "%s@%s" (urls.Parse $e.CurrentSection.Parent.Permalink).Path   $e.CurrentSection.Parent.Title }} 
   {{- $cities = $cities | append $data }}
 {{- end }}
 					                	{{- range $cities | uniq }}  
@@ -96,7 +98,7 @@
           	{{"<!-- show the items -->" | safeHTML}}
             <div class="card-deck">
               	<div class="row row-cols-1 row-cols-md-4">
-                	{{ range (where (where .Site.Pages "Section" "states") ".Params.id" "hotel") }}    
+                	{{ range $hotels }}    
 	               	<div class="card-spacing">
 	                  	<div class="card h-100">
 		                    <div class="card-header img-top">
