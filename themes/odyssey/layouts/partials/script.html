@@ -45,7 +45,8 @@
 {{- $mobile  := resources.Get "/js/mobile-menu.js" -}}
 {{- $tooltip := resources.Get "/js/tooltip.js" -}}
 {{- $gmap    := resources.Get "/js/gmap.js" -}}
-{{- $js      := slice  $toggle $lazy $mobile $cookie | resources.Concat "js/script.js"   }}
+{{- $tours   := resources.Get "/js/tours.js" -}}
+{{- $js      := slice  $toggle $lazy $mobile $cookie  $tours| resources.Concat "js/script.js"   }}
 <script src="{{ $js.RelPermalink }}" defer></script>
 
 {{- if eq $.Params.translationKey "gallery" }}
@@ -116,35 +117,3 @@ function submit_by_id() {
 }
 </script>
 
-<script>
-// slider
-
-const allRanges = document.querySelectorAll(".slider");
-allRanges.forEach(wrap => {
-  const range = wrap.querySelector(".range");
-  const bubble = wrap.querySelector(".bubble");
-
-  range.addEventListener("input", () => {
-    setBubble(range, bubble);
-  });
-  setBubble(range, bubble);
-});
-
-function setBubble(range, bubble) {
-  const val = range.value;
-  const min = range.min ? range.min : 0;
-  const max = range.max ? range.max : 100;
-  const newVal = Number(((val - min) * 100) / (max - min));
-  bubble.innerHTML = val;
-  if (val == max) {
-    bubble.style.opacity = 0;
-  } else {
-    bubble.style.opacity = 1;
-  }
-
-  // Sorta magic numbers based on size of the native UI thumb
-  bubble.style.left = `calc(${newVal}% + (${8 - newVal * 0.15}px))`;
-}
-
-
-</script>

@@ -81,7 +81,7 @@
                   <ul class="archive-posts">
                     {{ range ($.Scratch.GetSortedMapValues $path) }}
                       <li class="archive-post">
-                        <a class="archive-post-title" href="{{ .RelPermalink }}">{{ .Title }}</a><span class="archive-post-date"> - {{ partial "internal/date" . }}</span>
+                        <a class="archive-post-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
                       </li>
                     {{ end }}
                     {{ range seq ($.Scratch.Get "max-level") }}
@@ -105,7 +105,7 @@
                       <a class="archive-post-title" href="{{ .Permalink }}">
                         {{ .Title }}
                       </a>
-                      <span class="archive-post-date"> - {{ partial "internal/date" . }}</span>
+                     
                     </li>
                   {{ end }}
                 </ul>

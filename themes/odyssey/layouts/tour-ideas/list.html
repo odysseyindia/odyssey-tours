@@ -73,9 +73,8 @@
 {{"<!-- items -->" | safeHTML }}
 <div class="hotel-list listing-style3 hotel">
     {{ range $i,$e := .Data.Pages }}
-
-    <div id="itin-{{ $i }}" data-cost="{{ $e.Params.cost }}" data-duration="{{ $e.Params.numdays }}">
-        <article data-cost="{{ $e.Params.cost }}" data-duration="{{ $e.Params.numdays }}">
+    
+        <article id="itin-{{ $i }}" dataCost="{{ $e.Params.cost }}" dataDuration="{{ $e.Params.days }}">
           <div class="article-image">
             <figure >
                 <a  href="{{ $e.Permalink }}" class="hover-effect">
@@ -104,7 +103,7 @@
             </div>
           </div>
         </article>
-    </div>
+   
     {{- end }}
 </div>
 {{"<!-- end items -->" | safeHTML }}
