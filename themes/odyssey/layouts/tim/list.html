@@ -1,3 +1,11 @@
+{{- define "template" }}
+{{- if ne (getenv "HUGO_ENV") "production" -}}
+
+{{- partial "show-template" (dict "Which" .Kind "Template" "layouts/tim/list.html") -}}
+
+{{- end }}
+{{- end }}
+
 {{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
 
 <!DOCTYPE html>
@@ -38,6 +46,7 @@
 
             {{ .desc }}<br>
             {{ end }}
+            <hr>
           </div>
           {{ end }}
         </div>

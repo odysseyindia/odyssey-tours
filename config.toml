@@ -1,11 +1,11 @@
-baseURL 				= "/"
-title 					= "Odyssey Tours"
+baseURL 				        = "/"
+title 					        = "Odyssey Tours"
 theme                   = ["odyssey"]
-paginate 				= "50"
-summaryLength 			= "15"
-disqusShortname 		= "" # get your shortname form here : https://disqus.com
+paginate 				        = "50"
+summaryLength 			    = "15"
+disqusShortname 		    = "" # get your shortname form here : https://disqus.com
 defaultContentLanguage 	= "en"
-disableKinds 			= ["RSS"]
+disableKinds 			      = ["RSS"]
 googleAnalytics         = "" 
 # enableGitInfo         = true
 enableRobotsTXT         = true

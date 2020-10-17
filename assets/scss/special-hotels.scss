@@ -1,0 +1,238 @@
+#special-hotels {
+
+.card {
+  border-radius: 0;
+}
+.card-header {
+  padding:  0;
+}
+
+.card-title > a {
+  color: $primary;
+}
+.card-body {
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+.card-body > h4 {
+  text-transform: uppercase; 
+  > a {
+    color: $body;}
+}
+.card-deck {
+  margin-right: 15px;
+}
+.h-100 {
+  margin-top: 10px;
+  margin-right:5;
+  margin-left: 5;
+  padding: 0;
+}
+.topbar {
+	background-color: $primary;
+	text-align: center;
+	text-transform: uppercase;
+	color: $white;
+	padding:5px;
+	width: 100%;
+}
+
+.dollars, .image {
+    position: absolute;
+}
+
+p.dollars {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 0 10px 0 10px;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: 600;
+    margin: 0;
+}
+
+#content {
+	background-color: lightgray;
+}
+
+.filter {
+	margin: 10px 0 10px 10px;
+}
+.itineraries {
+	margin: 10px 10px 10px 0;
+}
+
+#main {
+  background-color: lightgray;
+}
+
+ul {
+	margin-left: -25px;
+}
+
+.box {
+	background-color: white;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+
+.dropdown {
+  width: 100%;
+}
+
+label {
+  display: inline-block;
+    margin-bottom: .5rem; 
+  colow: black;
+  font-weight: 800;
+}
+
+.label {
+  font-weight: 800;
+}
+.col-auto {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+}
+
+.form-row>[class*=col-] {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+
+
+
+
+a#showall {
+	visibility: none;
+}
+.input-group {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+
+.mb-2, .my-2 {
+    margin-bottom: .5rem!important;
+}
+
+.input-group-prepend {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.input-group-prepend {
+    margin-right: -1px;
+}
+
+.input-group-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: .375rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    white-space: nowrap;
+ 	background-color: $secondary;
+ 	color: $white;
+}
+
+.input-group>.input-group-prepend>.input-group-text {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.input-group>.custom-file, .input-group>.custom-select, .input-group>.form-control {
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 1%;
+    margin-bottom: 0;
+}
+
+.input-group>.custom-file, .input-group>.custom-select, .input-group>.form-control {
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 1%;
+    margin-bottom: 0;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+
+/* slider bar */
+
+.range {
+	width: 100%;
+}
+.sliderCost, .sliderDuration {
+  position: relative;
+  margin: 0 auto 3rem;
+}
+.bubble {
+  background: $primary;
+  color: white;
+  padding: 4px 12px;
+  margin-top: 30px;
+  position: absolute;
+  border-radius: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.bubble::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 5px;
+  background: $primary;
+  top: -5px;
+  left: 50%;
+}
+.flex-range {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+input#price-range, input#duration-range,  {
+  cursor: pointer; 
+}
+
+/* end */
+}
