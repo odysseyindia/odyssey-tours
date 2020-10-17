@@ -1,19 +1,22 @@
+var valueRating;
+var citySelected = "Show all";
 
-// hotel slider
+function cityFunction(selector) {
+  citySelected = selector.options[selector.selectedIndex].text;
+  refresh();
+};
 
-const costRanges = document.querySelectorAll(".sliderCost");
-var filter = 'cost';
-var valueCost, valueDuration;
+const ratingRanges = document.querySelectorAll(".sliderRating");
 
-costRanges.forEach(wrap => {
+ratingRanges.forEach(wrap => {
   const range = wrap.querySelector(".range");
   const bubble = wrap.querySelector(".bubble");
 
   range.addEventListener("input", () => {
-    valueCost = setBubble(range, bubble);
+    valueRating = setBubble(range, bubble);
     refresh(); 
   });
-  valueCost = setBubble(range, bubble);
+  valueRating = setBubble(range, bubble);
    refresh(); 
 });
 
@@ -21,14 +24,15 @@ costRanges.forEach(wrap => {
 function refresh(){
   var article, i;
 
-  article = document.querySelectorAll(".card");
+  article = document.querySelectorAll("article");
     
   for (i = 0; i < article.length; i++) {
      
-    var cost = article[i].attributes.dataCost.value;  
-    var duration = article[i].attributes.dataDuration.value;
+    var rating = article[i].attributes.dataRating.value;  
+    var city   = article[i].attributes.city.value;  
+    
 
-    if ( +cost > +valueCost  ||  +duration > +valueDuration ) {
+    if ( +rating > +valueRating || (citySelected != city && citySelected != "Show all") ) {
       article[i].style.display = "none";
     } else {
        article[i].style.display = "flex";

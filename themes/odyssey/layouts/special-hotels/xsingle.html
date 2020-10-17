@@ -48,7 +48,6 @@
 				              	<label for="city">Filter by Place</label>
 				              	<div class="input-group">  
 					                <select onChange="cityFunction(this)" name="city" class="dropdown">
-					                	<option value="0" selected>Show all</option>
 {{- $cities := slice }}
 {{- range $i,$e := sort (where (where .Site.Pages "Section" "states") ".Params.id" "hotel") ".Title" "desc" }}  
   {{- $data := printf "%s@%s" (urls.Parse $e.CurrentSection.Parent.Permalink).Path   $e.CurrentSection.Parent.Title }} 
@@ -93,44 +92,36 @@
 				</div>
 		    </div>
 		    <div class="col-sm-8 col-md-9">
-          		<div class='hotels'> 
-		          	{{"<!-- items -->" | safeHTML }}
-					<div class="hotel-list listing-style3 hotel">
-					    {{ range $i,$e := $hotels }}    
-					       <article dataRating={{ with .Params.rating }}"{{ . }}"{{ else }}"0"{{ end }} city="{{ .CurrentSection.Parent.Title }}">
-					          <div class="article-image">
-					            <figure >
-								{{- with $e.Resources.ByType "image" }}  	
-					          	{{- range $index,$img := . }}
-					          	{{- if eq $index 0}}
-					      		<img class="mr-3 lazyload" itemprop="image" src="{{ $img.RelPermalink }}" alt="{{ $img.Title }}">     
-					          	{{- end }}
-					          	{{- end }}
-					        	{{- end }}  
-					            </figure>
-					          </div>
-					          <div class="article">
-					            <div class="article-details" > 
-					              <a  href="{{ $e.Permalink }}" class="hover-effect">      
-					                <h3>{{ $e.Title }}</h3>
-					                 </a>
-					                <h4>{{ .CurrentSection.Parent.Title }}</h4>
-					             {{ $e.Summary }}
-					            </div>
-					            <div class="article-pricing">
-					              	<div class="days">
-					              		{{- with .Params.rating }}
-										{{ "$" | strings.Repeat . }}
-										{{- end }}
-									</div>
-					            </div>
-					          </div>
-					        </article>
-					    {{- end }}
-					</div>
-					{{"<!-- end items -->" | safeHTML }}
-				</div>
-			</div>
+          	{{"<!-- show the items -->" | safeHTML}}
+            <div class="card-deck">
+              	<div class="row row-cols-1 row-cols-md-4">
+                	{{ range $hotels }}    
+	               	<div class="card-spacing">
+	                  	<div class="card h-100" dataRating={{ with .Params.rating }}"{{ . }}"{{ else }}"0"{{ end }} city="{{ .CurrentSection.Parent.Title }}" >
+		                    <div class="card-header img-top">
+										{{- with .Resources.ByType "image" }}  	
+				                      	{{- range $index,$img := . }}
+				                      	{{- if eq $index 0}}
+				                        <img class="mr-3 lazyload" itermprop="image" data-src="{{ $img.RelPermalink }}" alt="{{ $img.Title }}">
+				                      	{{- end }}
+				                      	{{- end }}
+				                    	{{- end }}
+								{{- with .Params.rating }}
+								<p class="dollars">{{ "$" | strings.Repeat . }}</p>
+								{{- end }}
+		                    </div>    
+		                    <div class="card-body">
+		                      	<h3 class="card-title">
+		                        	<a href="{{ .Permalink }}">{{ .Title }}</a>
+		                      	</h3>     
+		                      	<h4><a href="{{ .CurrentSection.Parent.Permalink }}" >{{ .CurrentSection.Parent.Title }}</a></h4> 
+		                    </div>
+	                  	</div>
+	                </div>          
+                	{{- end }}
+              	</div>
+        	</div>
+        	{{"<!-- end of the items -->" | safeHTML}}
         </div>
     </div>
 </section>
