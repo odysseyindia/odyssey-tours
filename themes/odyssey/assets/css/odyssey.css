@@ -626,6 +626,10 @@ a.cc-allow:hover {
   height: 100% !important;
 }
 
+.mx-auto.w-50 {
+  margin-top: 30px;
+}
+
 @media screen and (max-width: 991px) {
   .w-50, .w-25, .w-75 {
     width: 100% !important;

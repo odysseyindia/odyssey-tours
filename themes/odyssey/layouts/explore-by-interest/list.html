@@ -1,0 +1,44 @@
+{{- define "template" -}}
+{{- if ne (getenv "HUGO_ENV") "production" -}}
+
+{{- partial "show-template" (dict "Which" .Kind "Template" "layouts/explore-by-interest/list.html") -}}
+
+{{- end -}}
+{{- end -}}
+
+{{- define "main" -}}
+
+{{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey -}}
+
+<section id="{{ $id | lower }}"> 
+  	{{ partial "heading.html" . }}
+  	<div class="container">
+    	<div class="row">
+      		<div class="mx-auto w-50 p-3">
+        	{{ with .Params.subtitle }}<h3>{{ . }}</h3>{{ end }}
+        	{{ .Content }}
+      		</div>
+    	</div>
+  	</div>
+    <div id="main">
+       	<div class="row">
+      	{{"<!-- show the items -->" | safeHTML}}
+        <div class="card-deck">
+        	{{- range .Data.Pages }} 	
+    	 	<div class="card">
+                <div class="card-header">
+                  	<a href="{{ .Permalink }}">
+                  		<img class="lazyload" itemprop="image" data-src="{{ .Permalink }}{{ printf "%s.jpg" .Params.translationKey }}" alt="{{ .Title }}">
+                  	</a>
+                </div>    
+                <div class="card-body">
+                	{{ .Title }}
+                </div>
+          	</div>
+           	{{- end }}
+    	</div>
+    	{{"<!-- end of the items -->" | safeHTML}}
+    </div>
+</section>
+
+{{- end }}
