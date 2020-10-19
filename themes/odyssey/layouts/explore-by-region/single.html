@@ -1,0 +1,123 @@
+{{- define "template" }}
+{{- if ne (getenv "HUGO_ENV") "production" -}}
+
+{{- partial "show-template" (dict "Which" .Kind "Template" "layouts/explore-by-region/single.html") -}}
+
+{{- end }}
+{{- end }}
+
+{{- define "main" }}
+
+{{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
+
+<section id="{{ $id | lower }}"> 
+  {{ partial "heading.html" . }}
+  <div class="container">
+    <div class="row">
+      <div class="mx-auto w-50 p-3">
+        {{ with .Params.subtitle }}<h3>{{ . }}</h3>{{ end }}
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+
+  <!--
+  <div class="container">
+    <div class="row">
+      <div class="topbar">Filters</div>
+    </div>
+  </div>   
+  -->
+    <div id="main">
+
+       <div class="row">
+        {{ partial "filter.html" . }}  
+        <div class="col-sm-8 col-md-9">
+          <div class="itineraries">
+            <!--
+          <div class="sort-by-section clearfix">
+            <h4 class="sort-by-title block-sm">Sort results by:</h4>
+            <ul class="sort-bar clearfix block-sm">
+              <li class="sort-by-name [% IF order == 'popularity-desc' || order == 'popularity' %]active[% END %]">
+                <a class="sort-by-container" href="[% request.uri_base %]/destinations/[% country %]/[% pathname %]/[% IF filter == 'regions' %][% regionname %]/[% END %][% IF filter == 'states' %][% state %]/[% END %][% display %]/[% IF order == 'popularity-desc' %]popularity[% ELSE %]popularity-desc[% END %]">
+                  <span>Popularity</span>
+                </a>
+              </li>
+              <li class="sort-by-name [% IF order == 'days-desc' || order == 'days' %]active[% END %]">
+                <a class="sort-by-container" href="[% request.uri_base %]/destinations/[% country %]/[% pathname %]/[% IF filter == 'regions' %][% regionname %]/[% END %][% IF filter == 'states' %][% state %]/[% END %][% display %]/[% IF order == 'days-desc' %]days[% ELSE %]days-desc[% END %]">
+                  <span>days</span>
+                </a>
+              </li>
+              <li class="sort-by-price [% IF order == 'price-desc' || order == 'price' %]active[% END %]">
+                <a class="sort-by-container" href="[% request.uri_base %]/destinations/[% country %]/[% pathname %]/[% IF filter == 'regions' %][% regionname %]/[% END %][% IF filter == 'states' %][% state %]/[% END %][% display %]/[% IF order == 'price-desc' %]price[% ELSE %]price-desc[% END %]">
+                  <span>price</span>
+                </a>
+              </li>
+              <li class="clearer visible-sms"></li>
+            </ul>
+            <ul class="swap-tiles clearfix block-sm">
+              <li class="swap-list [% IF display == 'list'  %]active[% END %]">
+                <a href="[% request.uri_base %]/destinations/[% country %]/[% pathname %]/[% IF filter == 'regions' %][% regionname %][% END %][% IF filter == 'states' %][% state %][% END %]/list"><i class="soap-icon-list"></i></a>
+              </li>
+              <li class="swap-grid [% IF display == 'grid'  %]active[% END %]">
+                <a href="[% request.uri_base %]/destinations/[% country %]/[% pathname %]/[% IF filter == 'regions' %][% regionname %][% END %][% IF filter == 'states' %][% state %][% END %]/grid"><i class="soap-icon-grid"></i></a>
+              </li>
+              <li class="swap-block [% IF display == 'block'  %]active[% END %]">
+                <a href="[% request.uri_base %]/destinations/[% country %]/[% pathname %]/[% IF filter == 'regions' %][% regionname %][% END %][% IF filter == 'states' %][% state %][% END %]/block"><i class="soap-icon-block"></i></a>
+              </li>
+            </ul>
+          </div>
+-->
+          <div id='itineraries'> 
+
+{{"<!-- items -->" | safeHTML }}
+<div class="hotel-list listing-style3 hotel">
+    {{ range $i,$e := .Data.Pages }}
+    
+        <article id="itin-{{ $i }}" dataCost="{{ $e.Params.cost }}" dataDuration="{{ $e.Params.days }}">
+          <div class="article-image">
+            <figure >
+                <a  href="{{ $e.Permalink }}" class="hover-effect">
+                <img alt="{{ $e.Title}}" src="{{ $e.Permalink }}/{{ $e.Params.image }}">
+                </a>
+            </figure>
+          </div>
+          <div class="article">
+            <div class="article-details" > 
+              <a  href="{{ $e.Permalink }}" class="hover-effect">      
+                <h4>{{ $e.Title }}</h4>
+                <h5>{{ $e.Params.subtitle }}</h5>
+              </a>
+              <ul>
+              {{ range $e.Params.highlights }}
+              <li>{{ . }}</li>
+              {{ end }}
+            </ul>
+            </div>
+            <div class="article-pricing">
+              <div class="days">{{ $e.Params.days }} Days</div>
+              <div>from</div>
+              <div class="price">{{ $e.Params.currency }} {{ $e.Params.cost }}</div>
+              <div class="request"><a title="View this tour" href="{{ $e.Permalink }}">View this tour</a></div>
+              <div class="request"><a title="Request a quote" href="/contact/contact-us">Request a quote</a></div>
+            </div>
+          </div>
+        </article>
+   
+    {{- end }}
+</div>
+{{"<!-- end items -->" | safeHTML }}
+
+
+           
+          
+        </div>
+      </div>
+    </div>
+    </div>
+ </div>
+</section>
+
+
+
+{{ end }}

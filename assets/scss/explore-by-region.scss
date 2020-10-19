@@ -1,8 +1,17 @@
 #explore-by-region {
 
+	#map {
+		position: absolute;
+		top: 0;
+		right:0;
+		bottom: 0;
+		left:0;	
+	}
+
   	.content {
     	margin-top: 30px;
     	margin-bottom: 30px;
+    	padding-left: 30px;
   	}
 
 	.icon-star {
@@ -16,37 +25,37 @@
 		margin-bottom: 0;
 	}
 
-.bg {
-	background-color: lightgray;
-}
-.bg2 {
-	background-color: lightslategrey;
-}
-h3.footnote, h4.footnote {
-	text-align: center;
-	width: 100%;
-	padding-top: 20px;
-	color: white;
-}
-.footnote{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-evenly;
-	width: 100%;
-	margin-bottom: 30px;
-}
-.submit {
-	text-align: center;
-	width: 100%;
-}
-.button{
-	border-radius: 0;
-	color: white;
-}
-section {
-	padding-bottom: 30px;
-}
+	.bg {
+		background-color: lightgray;
+	}
+	.bg2 {
+		background-color: lightslategrey;
+	}
+	h3.footnote, h4.footnote {
+		text-align: center;
+		width: 100%;
+		padding-top: 20px;
+		color: white;
+	}
+	.footnote{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-evenly;
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.submit {
+		text-align: center;
+		width: 100%;
+	}
+	.button{
+		border-radius: 0;
+		color: white;
+	}
+	section {
+		padding-bottom: 30px;
+	}
 
 /* end */
 }
