@@ -1,0 +1,52 @@
+#explore-by-region {
+
+  	.content {
+    	margin-top: 30px;
+    	margin-bottom: 30px;
+  	}
+
+	.icon-star {
+		color: $secondary;
+	}
+
+	.card-header > img {
+		width: 100%;
+	}
+	.card , card-body {
+		margin-bottom: 0;
+	}
+
+.bg {
+	background-color: lightgray;
+}
+.bg2 {
+	background-color: lightslategrey;
+}
+h3.footnote, h4.footnote {
+	text-align: center;
+	width: 100%;
+	padding-top: 20px;
+	color: white;
+}
+.footnote{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.submit {
+	text-align: center;
+	width: 100%;
+}
+.button{
+	border-radius: 0;
+	color: white;
+}
+section {
+	padding-bottom: 30px;
+}
+
+/* end */
+}

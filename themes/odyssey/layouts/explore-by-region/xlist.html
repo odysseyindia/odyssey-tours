@@ -1,0 +1,57 @@
+{{- define "template" }}
+{{- if ne (getenv "HUGO_ENV") "production" -}}
+
+{{- partial "show-template" (dict "Which" .Kind "Template" "layouts/explore-by-region/list.html") -}}
+
+{{- end }}
+{{- end }}
+<!-- Start -->
+{{ define "main" }}
+{{- $id    := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
+{{- $image := cond (isset .Params "image") ( .Params.image ) (.CurrentSection.Params.image) }}
+        
+<section id="{{ $id | lower }}">
+  	{{ partial "heading.html" . }}
+  	<div class="container">
+    	<div class="row">
+			<div class="col-sms-6 col-sm-8 col-md-9">
+          		<div class="regions-map">
+            		<div id="thememap"></div>
+            		<h2 class="center">Where would you like to go?</h2>
+          		</div>
+        	</div>
+	        <div class="col-sms-6 col-sm-4 col-md-3">
+	          	<div class="content">
+	           		{{ .Content }}
+				</div>
+			</div>
+ 		</div>
+ 		<div class="row">
+			{{"<!-- list states -->" | safeHTML }}
+
+			{{ range .Data.Pages }}
+			<div class="col mb-4">
+			  	<div class="card h-100">
+			 		<!-- header -->  
+			      	<div class="card-header img-top">
+						<img class="lazyload" itemprop="image" data-src="{{ .Permalink }}{{ printf "%s.jpg" .Params.translationKey }}" alt="{{ .Title }}">
+			      	</div>
+			   		<!-- body -->
+			      	<div class="card-body">
+			        	<h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>     
+			         	<h4>***</h4>
+			        	{{ .Content }}
+			      	</div>
+			      	<!-- footer -->
+			      	<div class="card-footer">
+			        	<a href="{{ .Permalink }}" aria-label="See all tours in {{ .Title }}"><small>See all tours</small></a>
+			      	</div>
+
+			  	</div>
+			</div>
+			{{- end }}
+			{{"<!-- end list states -->" | safeHTML }}   
+		</div>
+  	</div>
+</section>
+{{ end }}

@@ -1,0 +1,29 @@
+{
+	"data": 
+
+ 	{     
+        "count" : "2"
+        ,"items" : [
+        
+            {
+    "title": 		"Interested in getting more information about our tours in India? Make an enquiry!",
+    "date": 		"0001-01-01 00:00:00 +0000 UTC",
+    "type": 		"contact",
+    "permalink": 	"/contact/contact-us/",
+    "content": 		""
+}
+        
+            , {
+    "title": 		"Thank you",
+    "date": 		"0001-01-01 00:00:00 +0000 UTC",
+    "type": 		"contact",
+    "permalink": 	"/contact/thank-you/",
+    "content": 		"Thanks a lot for your enquiry. We would love to see you at Summertime.
+We will check availability for your preferred dates and get back to you as soon as possible.
+"
+}
+        
+        ]
+    }
+
+}

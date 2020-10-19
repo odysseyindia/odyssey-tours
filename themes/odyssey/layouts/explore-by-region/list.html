@@ -1,0 +1,77 @@
+{{- define "template" }}
+{{- if ne (getenv "HUGO_ENV") "production" -}}
+
+{{- partial "show-template" (dict "Which" .Kind "Template" "layouts/explore-by-region/list.html") -}}
+
+{{- end }}
+{{- end }}
+
+{{- define "main" }}
+
+{{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
+
+<section id="{{ $id | lower }}"> 
+  {{ partial "heading.html" . }}
+  <div class="container">
+    <div class="row">
+      <div class="col-sms-6 col-sm-8 col-md-9">
+        <div class="regions-map">
+          <div id="thememap"></div>
+          <h2 class="center">Where would you like to go?</h2>
+        </div>
+      </div>
+      <div class="col-sms-6 col-sm-4 col-md-3">
+        <div class="content">
+          {{ .Content }}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg">
+    <div class="card-deck">
+      <div class="row row-cols-1 row-cols-md-4">
+        {{"<!-- list items -->" | safeHTML }}
+        {{ range .Data.Pages }}
+        <div class="col mb-4">
+          <div class="card h-100">
+            <!-- header -->  
+            <div class="card-header img-top">
+              <img class="lazyload" itemprop="image" data-src="{{ .Permalink }}{{ printf "%s.jpg" .Params.translationKey }}" alt="{{ .Title }}">
+            </div>
+            <!-- body -->
+            <div class="card-body">
+              <h3 class="center"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>     
+              <div class="center">
+                <i class="icon-star"></i>
+                <i class="icon-star"></i>
+                <i class="icon-star"></i>
+              </div>
+              {{ .Content }}
+            </div>
+          </div>
+        </div>
+        {{- end }}
+        {{"<!-- end list states -->" | safeHTML }}  
+      </div>
+    </div>
+  </div>
+</div>
+<div>&nbsp;<br>
+</div>
+  <div class="row bg2">
+    <h3 class="footnote">All our trips can be tailored to your needs!</h3>
+    <h4 class="footnote">Tell us your travel plans and a specialist will be in touch</h4>
+    <div class="footnote">
+        <div><input name="region" placeholder="Region"></div>
+        <div><input name="interest" placeholder="Interest"></div>
+        <div><input name="month" placeholder="Month of travel"></div>
+        <div><input name="number" placeholder="Number of people"></div>
+        <div><input name="email" placeholder="Email id"></div> 
+    </div>
+    <div class="submit">
+      <a class="button">Submit</a>
+    </div>
+  </div>
+  <div>&nbsp;<br>
+</section>
+{{- end }}
