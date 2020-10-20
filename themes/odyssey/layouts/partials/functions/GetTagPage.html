@@ -1,0 +1,17 @@
+<!--
+{{ range .Params.tags }}
+  {{ with partial "func/GPetTagPage" . }}
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  {{ end }}
+{{ end }}
+-->
+
+{{ $tag := false }}
+
+{{ with index site.Taxonomies.tags (urlize .) }}
+  {{ with .Page }}
+    {{ $tag = . }}
+  {{ end }}
+{{ end }}
+
+{{ return $tag }}

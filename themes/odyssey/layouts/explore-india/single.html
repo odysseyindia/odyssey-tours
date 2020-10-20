@@ -6,89 +6,35 @@
 {{- end }}
 {{- end }}
 
-{{ define "main" }}
-{{ "<!-- The CONTENT Now -->" | safeHTML }}
+{{- define "main" }}
+
 {{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
-      
-<section id="{{ $id | lower }}">
+
+{{- $pages := (where .Site.RegularPages "Section" "tour-ideas") }}
+
+<section id="{{ $id | lower }}"> 
   {{ partial "heading.html" . }}
   <div class="container">
     <div class="row">
-      <div class="mx-auto w-50 p-1">
-        {{.Content}}
+      <div class="mx-auto w-50 p-3">
+        {{- with .Params.subtitle }}<h3>{{ . }}</h3>{{ end }}
+        {{ .Content }}
       </div>
     </div>
-    <div clas="center">
-      <form id="selectForm" action="#" >
-        <div  class="select-flex">
-          <div class="custom-select">
-            <label for="cities">Search by name</label>
-            <select name="cities" id="url">
-              {{ range (where (where .Site.Pages "Section" "states").ByTitle ".Params.id" "city") }}
-                <option value="{{ .Permalink }}">{{ .Title }} </option>
-              {{ end }}
-            </select>
-          </div>
-          <div>
-            <input type="button" name="submit" id="btn_id" value="Submit" onclick="submit_by_id()"/>
-          </div>
-        </div>
-      </form>  
-      <form id="selectForm" action="#" >
-        <div  class="select-flex">
-          <div class="custom-select">
-            <label for="cities">Search by interest</label>
-            <select name="cities" id="url">
-              {{ range (where (where .Site.Pages "Section" "states").ByTitle ".Params.id" "interest") }}
-                <option value="{{ .Permalink }}">{{ .Title }} </option>
-              {{ end }}
-            </select>
-          </div>
-          <div>
-            <input type="button" name="submit" id="btn_id" value="Submit" onclick="submit_by_id()"/>
-          </div>
-        </div>
-      </form>  
-    </div>
   </div>
+  {{ partial "tours-topbar.html" . }}
   <div class="bg">
-    <div class="mx-auto w-50 p-1 center">
-      {{.Content }}
-    </div>
-    <div class="card-deck">
-      <div class="row row-cols-1 row-cols-md-3">
-        {{- range .Params.cities}}
-        {{- with $.Site.GetPage . }}
-        <div class="card-spacing">
-          <div class="card h-100">
-              <!-- header -->
-              <div class="card-header img-top">
-              {{- with .Resources.ByType "image" }}
-                <div class="Image">
-                {{- range $index,$img := . }}
-                {{- if eq $index 0}}
-                  <img src="{{ $img.RelPermalink }}">
-                {{- end }}
-                {{- end }}
-                </div>
-              {{- end }}
-              </div>   
-              <!-- body -->   
-              <div class="card-body">
-                <h3 class="card-title">
-                  <a href="{{ .Permalink }}">{{ .Title }}</a>
-                </h3>     
-                <h4>{{ .Params.subtitle }}</h4> 
-                <p class="card-text">
-                  <span itemprop="description">{{ .Summary }}</span>
-                </p>
-            </div>
-          </div>
-        </div>     
-        {{- end }}
-        {{- end }}
+    <div class="row">
+      {{ partial "filter.html" (dict "dot" . "pages" $pages ) }}  
+      <div class="col-sm-8 col-md-9">
+        <div class="itineraries">   
+        {{"<!-- items -->" | safeHTML }}
+        {{- partial "tour-listing.html" (dict "pages" $pages ) }}
+        {{"<!-- end items -->" | safeHTML }}
+        </div>
       </div>
     </div>
   </div>
 </section>
+
 {{- end }}

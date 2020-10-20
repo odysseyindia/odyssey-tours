@@ -1,7 +1,7 @@
 {{- define "template" }}
 {{- if ne (getenv "HUGO_ENV") "production" -}}
 
-{{- partial "show-template" (dict "Which" .Kind "Template" "layouts/explore-by-region/list.html") -}}
+{{- partial "show-template" (dict "Which" .Kind "Template" "layouts/explore-by-region/list.html" ) -}}
 
 {{- end }}
 {{- end }}

@@ -4,3 +4,9 @@
 [submodule "themes/juliette-hugo-component"]
 	path = themes/juliette-hugo-component
 	url = https://github.com/regisphilibert/juliette-hugo-component
+[submodule "hugo-module-img-srcset"]
+	path = hugo-module-img-srcset
+	url = git@github.com:jan-xyz/hugo-module-img-srcset.git
+[submodule "themes/hugo-module-img-srcset"]
+	path = themes/hugo-module-img-srcset
+	url = git@github.com:jan-xyz/hugo-module-img-srcset.git

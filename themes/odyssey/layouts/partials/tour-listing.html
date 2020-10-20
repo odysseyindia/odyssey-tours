@@ -1,0 +1,31 @@
+{{- range $i, $e := .pages }}
+<article id="itin-{{ $i }}" dataCost="{{ $e.Params.cost }}" dataDuration="{{ $e.Params.days }}">
+  <div class="article-image">
+    <figure >
+        <a  href="{{ $e.Permalink }}" class="hover-effect">
+        <img alt="{{ $e.Title}}" src="{{ $e.Permalink }}/{{ $e.Params.image }}">
+        </a>
+    </figure>
+  </div>
+  <div class="article">
+    <div class="article-details" > 
+      <a  href="{{ $e.Permalink }}" class="hover-effect">  
+        <h4>{{ $e.Title }}</h4>
+        <h5>{{ $e.Params.subtitle }}</h5>
+      </a>
+      <ul>
+      {{ range $e.Params.highlights }}
+      <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+    </div>
+    <div class="article-pricing">
+      <div class="days">{{ $e.Params.days }} Days</div>
+      <div>from</div>
+      <div class="price">{{ $e.Params.currency }} {{ $e.Params.cost }}</div>
+      <div class="request"><a title="View this tour" href="{{ $e.Permalink }}">View this tour</a></div>
+      <div class="request"><a title="Request a quote" href="/contact/contact-us">Request a quote</a></div>
+    </div>
+  </div>
+</article>
+{{- end }}

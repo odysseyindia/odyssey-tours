@@ -1,0 +1,26 @@
+<!--
+{{ range .Params.tags }}
+  {{ with partial "func/GetTermPage" (dict "taxonomy" "tags" "term" .) }}
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  {{ end }}
+{{ end }}
+-->
+
+{{ $return := false }}
+
+{{ $taxonomy := "tags" }}
+{{ with .taxonomy }}
+  {{ $taxonomy = . }}
+{{ end }}
+
+{{ with $term := .term }}
+  {{ with index site.Taxonomies $taxonomy }}
+    {{ with index . (urlize $term) }}
+      {{ with .Page }}
+        {{ $return = . }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ return $return }}

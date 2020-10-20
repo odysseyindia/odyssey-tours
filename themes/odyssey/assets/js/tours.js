@@ -1,5 +1,5 @@
 
-// slider
+// slider for tours
 
 const costRanges = document.querySelectorAll(".sliderCost");
 var filter = 'cost';
@@ -60,7 +60,7 @@ function setBubble(range, bubble) {
   // Sorta magic numbers based on size of the native UI thumb
   bubble.style.left = `calc(${newVal}% + (${8 - newVal * 0.15}px))`;
 
-   if (val == max) {
+   if (val == min || val == max ) {
     bubble.style.opacity = 0;
   } else {
     bubble.style.opacity = 1;
