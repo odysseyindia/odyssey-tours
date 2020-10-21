@@ -89,3 +89,20 @@
     }
   </script>
 {{- end }}
+
+
+<script>
+{{- range (where .Site.RegularPages "Section" "explore-india") }}
+{{- if in .Permalink "by-region" }} 
+
+document.getElementById("{{ .Params.translationKey }}").onchange = function() {
+  myFunction("{{ .Params.translationKey }}")
+};
+
+function myFunction(region) {
+  window.location.href = "/regions/" + region;
+};
+
+{{ end }}
+{{ end }}
+</script>

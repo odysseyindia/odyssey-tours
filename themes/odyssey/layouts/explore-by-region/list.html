@@ -17,7 +17,6 @@
       <div class="col-sms-6 col-sm-8 col-md-9">
         <div class="regions-map">
           <div id="map"></div>
-          <h2 class="center">Where would you like to go?</h2>
         </div>
       </div>
       <div class="col-sms-6 col-sm-4 col-md-3">
@@ -27,6 +26,7 @@
       </div>
     </div>
   </div>
+  <h2 class="where-to-go">Where would you like to go?</h2>
   <div class="bg">
     <div class="card-deck">
       <div class="row row-cols-1 row-cols-md-4">
@@ -40,7 +40,7 @@
             </div>
             <!-- body -->
             <div class="card-body">
-              <h3 class="center"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>     
+              <h3 class="center"><a href="/regions/{{ path.Base .RelPermalink }}">{{ .Title }}</a></h3>     
               <div class="center">
                 <i class="icon-star"></i>
                 <i class="icon-star"></i>

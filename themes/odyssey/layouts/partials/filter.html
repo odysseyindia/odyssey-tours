@@ -72,7 +72,7 @@
              {{- range (where .dot.Site.RegularPages "Section" "experience") }}
               {{- if in (.Permalink | string) "explore-by-interest" }} 
             <div class="form-check">
-              <input type="checkbox" class="custom-control-input" id="{{ .Params.translationKey }}" {{ if eq  .Params.translationKey $.Params.translationKey }}checked {{ end }} >
+              <input type="checkbox" class="custom-control-input" id="{{ .Params.translationKey }}" {{ if eq  .Params.translationKey $.Params.translationKey }}checked {{ end }} >&nbsp;
               <label class="custom-control-label" for="{{ .Params.translationKey }}"> {{ .Title }}</label>
             </div>
             {{- end }} 
@@ -85,9 +85,9 @@
         <div class="panel style1 arrow-right">
           <h4 class="label">Filter by region</h4>
             {{- range (where .dot.Site.RegularPages "Section" "explore-india") }}
-            {{- if in .Permalink "explore-by-region" }} 
+            {{- if in .Permalink "by-region" }} 
             <div class="form-check">
-              <input type="checkbox" class="custom-control-input" id="r{{ .Params.translationKey }}" {{ if eq  .Params.translationKey $.dot.Page.Title }}checked {{ end }} >
+              <input type="checkbox" class="custom-control-input" id="{{ .Params.translationKey }}" {{ if eq  .Params.translationKey $.dot.Page.Title }}checked {{ end }} >&nbsp;
               <label class="custom-control-label" for="r{{ .Params.translationKey }}"> {{ .Title }}</label>
             </div>
             {{- end }} 
