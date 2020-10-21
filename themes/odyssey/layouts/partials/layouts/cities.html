@@ -2,7 +2,7 @@
 {{- $scratch := newScratch }}
 
 <section id="{{ $id | lower }}"> 
-  {{ partial "heading.html" . }}
+  {{ partial "heading.html" (dict "dot" . "title" .Title ) }}
   {{"<!-- show the items -->" | safeHTML}}
   <div class="bg">
       <div class="card-deck">

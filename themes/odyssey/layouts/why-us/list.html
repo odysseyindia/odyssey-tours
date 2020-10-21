@@ -11,7 +11,7 @@
 {{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
 
 <section id="{{ $id | lower }}"> 
-  {{ partial "heading.html" . }}
+  {{ partial "heading.html" (dict "dot" . "title" .Title ) }}
   <div class="container">
     <div class="row">
         <div class="content mx-auto w-50 p-3">

@@ -10,12 +10,12 @@
 
 {{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
 
-{{- $pagesx := cond (isset .Data "RegularPages") .Data.RegularPages "[]" }}
-
 {{- $pages := where .Data.Pages "Type" "tour-ideas" }}
 
+{{- $title := (.Site.GetPage (printf "/explore-india/by-region/%s" (path.Base .RelPermalink))).Title }}
+
 <section id="tour-ideas"> 
-  {{ partial "heading.html" . }}
+  {{ partial "heading.html" (dict "dot" . "title" $title ) }}
   <div class="container">
     <div class="row">
       <div class="mx-auto w-50 p-3">

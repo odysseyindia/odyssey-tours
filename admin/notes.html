@@ -2,6 +2,9 @@ find the key
 
 {{ trim (index (findRE `([^//]+)//?$` (index (findRE `([^//]+)\/[^//]+\/?$` .RelPermalink ) 0)) 0 ) "/" }}
 
+the section or base name
+{{ (path.Base (path.Split .Path).Dir) }}
+
 print tags
 {{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}
 
