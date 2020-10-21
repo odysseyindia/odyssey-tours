@@ -1,0 +1,15 @@
+find the key 
+
+{{ trim (index (findRE `([^//]+)//?$` (index (findRE `([^//]+)\/[^//]+\/?$` .RelPermalink ) 0)) 0 ) "/" }}
+
+print tags
+{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}
+
+first in array
+{{ feature := index (.Params.features ) 0 }}
+
+
+<a href={{ .Destination | safeURL }}
+    {{ if strings.HasPrefix .Destination "mailto" -}} target=_blank {{end}}
+    {{ if strings.HasPrefix .Destination "http" -}} target=_blank rel="noopener noreferrer" {{- end }}
+>{{ .PlainText | htmlEscape }}</a>

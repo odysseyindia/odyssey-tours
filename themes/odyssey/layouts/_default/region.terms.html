@@ -1,0 +1,41 @@
+{{- define "template" }}
+{{- if ne (getenv "HUGO_ENV") "production" -}}
+
+{{- partial "show-template" (dict "Which" .Kind "Template" "layouts/taxonomy/region.html") -}}
+
+{{- end }}
+{{- end }}
+
+{{- define "main" }}
+
+{{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
+
+{{- $pages := .Data.RegularPages }}
+
+<section id="tour-ideas"> 
+  {{ partial "heading.html" . }}
+
+  <div class="container">
+    <div class="row">
+      <div class="mx-auto w-50 p-3">
+        {{- with .Params.subtitle }}<h3>{{ . }}</h3>{{ end }}
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+  {{ partial "tours-topbar.html" . }}
+  <div class="bg">
+    <div class="row">
+      {{ partial "filter.html" (dict "dot" . "pages" $pages ) }}  
+      <div class="col-sm-8 col-md-9">
+        <div class="itineraries">   
+        {{"<!-- items -->" | safeHTML }}
+        {{- partial "tour-listing.html" (dict "pages" $pages ) }}
+        {{"<!-- end items -->" | safeHTML }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

@@ -4,7 +4,8 @@
   <div class="filter">
 
     <div class="box">
-      <span id="counter"> <i class="icon-info-circled"></i> {{ len .pages }} tours found</span>
+      <span id="counter"> <i class="icon-info-circled"></i> 
+      {{- len .pages }} tours found</span>
       <div id="showAll"> 
         <a href="#">&nbsp;</a>
       </div>
@@ -29,7 +30,7 @@
       <div class="sliderCost">
         <label for="price-range" class="label">Price range</label><br> 
         <div class="flex-range">
-          <div>{{ $currencies.eur.symbol }} {{ $min }}</div>
+          <div>{{ $currencies.eur.symbol }} {{ cond (eq $min 10000) 0 $min  }}</div>
           <div>{{ $currencies.eur.symbol }} {{ $max }}</div>
         </div>
         <input type="range" class="range" min="{{ $min}}" max="{{ $max }}" id="price-range" value="{{ $max }}" >
@@ -56,7 +57,7 @@
         <div class="sliderDuration">
         <label for="duration-range" class="label">Duration</label><br>
          <div class="flex-range">
-          <div>{{ $min }} days</div>
+          <div>{{ cond (eq $min 10000) 0 $min  }} days</div>
           <div>{{ $max }} days</div>
         </div>
         <input type="range" class="range" min="{{ $min }}" max="{{ $max }}" id="duration-range" value="{{ $max }}">
@@ -71,7 +72,7 @@
              {{- range (where .dot.Site.RegularPages "Section" "experience") }}
               {{- if in (.Permalink | string) "explore-by-interest" }} 
             <div class="form-check">
-              <input type="checkbox" class="custom-control-input" id="{{ .Params.translationKey }}" checked  >
+              <input type="checkbox" class="custom-control-input" id="{{ .Params.translationKey }}" {{ if eq  .Params.translationKey $.Params.translationKey }}checked {{ end }} >
               <label class="custom-control-label" for="{{ .Params.translationKey }}"> {{ .Title }}</label>
             </div>
             {{- end }} 
@@ -84,9 +85,9 @@
         <div class="panel style1 arrow-right">
           <h4 class="label">Filter by region</h4>
             {{- range (where .dot.Site.RegularPages "Section" "explore-india") }}
-            {{- if in (.Permalink | string) "explore-by-region" }} 
+            {{- if in .Permalink "explore-by-region" }} 
             <div class="form-check">
-              <input type="checkbox" class="custom-control-input" id="r{{ .Params.translationKey }}" checked>
+              <input type="checkbox" class="custom-control-input" id="r{{ .Params.translationKey }}" {{ if eq  .Params.translationKey $.dot.Page.Title }}checked {{ end }} >
               <label class="custom-control-label" for="r{{ .Params.translationKey }}"> {{ .Title }}</label>
             </div>
             {{- end }} 

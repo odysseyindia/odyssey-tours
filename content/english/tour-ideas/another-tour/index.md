@@ -3,7 +3,9 @@ title: "Another tour 7 days"
 date: 2020-09-21T12:59:23+02:00
 draft: false
 image: classic-india.jpg
-tags: ["rajasthan", "tours"]
+tags: ["kerala", "tours"]
+themes: ["popular"]
+regions: ["kerala"]
 cost: 990
 currency: EUR
 days: 7

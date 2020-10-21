@@ -5,6 +5,8 @@ date: 2020-09-21T12:59:23+02:00
 draft: false
 image: classic-india.jpg
 tags: ["rajasthan", "tours"] 
+themes: ["culture"]
+regions: ["rajasthan-and-the-north"]
 days: 10
 cost: 510
 currency: EUR

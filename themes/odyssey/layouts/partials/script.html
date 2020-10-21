@@ -18,7 +18,8 @@
 </script>
 
 <!-- append page specific style sheet -->
-{{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey -}}
+{{- $id := cond (isset .Params "id") .Params.id ( cond (eq .CurrentSection.Kind "taxonomy") "tour-ideas" .CurrentSection.Params.translationKey ) -}}
+
 {{- $scss := printf "scss/main/%s.scss" $id -}}
 {{- if fileExists (printf "assets/%s" $scss) -}}
 {{- $style := resources.Get $scss | toCSS | minify}}

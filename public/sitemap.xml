@@ -323,6 +323,11 @@
   </url>
   
   <url>
+    <loc>/regions/andaman-and-nicobar-islands/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tour-ideas/another-tour/</loc>
     <lastmod>2020-09-21T12:59:23+02:00</lastmod>
   </url>
@@ -383,17 +388,17 @@
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/states/chandigarh/</loc>
     <lastmod>2020-09-21T12:59:23+02:00</lastmod>
   </url>
   
   <url>
     <loc>/tour-ideas/classic-india/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/themes/culture/</loc>
     <lastmod>2020-09-21T12:59:23+02:00</lastmod>
   </url>
   
@@ -478,6 +483,11 @@
   </url>
   
   <url>
+    <loc>/regions/foothills-of-the-himalaya/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/faq/</loc>
     <lastmod>2020-09-21T12:59:23+02:00</lastmod>
   </url>
@@ -499,6 +509,11 @@
   
   <url>
     <loc>/explore-india/explore-by-region/gujarat-and-central-india/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/regions/gujarat-and-central-india/</loc>
     <lastmod>2020-09-21T12:59:23+02:00</lastmod>
   </url>
   
@@ -583,6 +598,11 @@
   </url>
   
   <url>
+    <loc>/regions/karnataka-and-tamil-nadu/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/explore-india/explore-by-region/kerala/</loc>
     <lastmod>2020-09-21T12:59:23+02:00</lastmod>
   </url>
@@ -593,7 +613,22 @@
   </url>
   
   <url>
+    <loc>/tags/kerala/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/regions/kerala/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/explore-india/explore-by-region/kolkata-and-the-east/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/regions/kolkata-and-the-east/</loc>
     <lastmod>2020-09-21T12:59:23+02:00</lastmod>
   </url>
   
@@ -658,6 +693,11 @@
   </url>
   
   <url>
+    <loc>/regions/mumbai-goa-and-the-deccan/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/states/nagaland/</loc>
     <lastmod>2020-09-21T12:59:23+02:00</lastmod>
   </url>
@@ -688,7 +728,7 @@
   </url>
   
   <url>
-    <loc>/categories/popular-tours/</loc>
+    <loc>/themes/popular/</loc>
     <lastmod>2020-09-21T12:59:23+02:00</lastmod>
   </url>
   
@@ -718,12 +758,17 @@
   </url>
   
   <url>
-    <loc>/experience/explore-by-interest/religion/</loc>
+    <loc>/regions/rajasthan-and-the-north/</loc>
     <lastmod>2020-09-21T12:59:23+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/romance/</loc>
+    <loc>/regions/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/experience/explore-by-interest/religion/</loc>
     <lastmod>2020-09-21T12:59:23+02:00</lastmod>
   </url>
   
@@ -954,6 +999,16 @@
   
   <url>
     <loc>/states/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/regions/the-lakshadweep-islands/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/themes/</loc>
     <lastmod>2020-09-21T12:59:23+02:00</lastmod>
   </url>
   
@@ -1199,6 +1254,10 @@
   
   <url>
     <loc>/tim/sucheta-potnis/</loc>
+  </url>
+  
+  <url>
+    <loc>/test/</loc>
   </url>
   
   <url>

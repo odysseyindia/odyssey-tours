@@ -8,9 +8,9 @@
 {{- end }}
   <div  class="heading">
     {{- with .Params.subtitle }}
-    <h2 class="with">{{ $.Title }}</h2>
+    <h2 class="with">{{ $.Title | humanize }}</h2>
     <h3>{{ . }}</h3>
  	{{- else }}
- 	<h2>{{ .Title }}</h2>
+ 	<h2>{{ .Title | humanize}}</h2>
     {{- end }}
   </div>

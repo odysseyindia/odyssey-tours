@@ -97,7 +97,7 @@ window.cookieconsent.initialise({
 });
 ;
 
-// slider
+// slider for tours
 
 const costRanges = document.querySelectorAll(".sliderCost");
 var filter = 'cost';
@@ -158,7 +158,7 @@ function setBubble(range, bubble) {
   // Sorta magic numbers based on size of the native UI thumb
   bubble.style.left = `calc(${newVal}% + (${8 - newVal * 0.15}px))`;
 
-   if (val == max) {
+   if (val == min || val == max ) {
     bubble.style.opacity = 0;
   } else {
     bubble.style.opacity = 1;
@@ -181,15 +181,15 @@ ratingRanges.forEach(wrap => {
   const bubble = wrap.querySelector(".bubble");
 
   range.addEventListener("input", () => {
-    valueRating = setBubble(range, bubble);
-    refresh(); 
+    valueRating = setBubbleHotels(range, bubble);
+    refreshHotels(); 
   });
-  valueRating = setBubble(range, bubble);
-   refresh(); 
+  valueRating = setBubbleHotels(range, bubble);
+   refreshHotels(); 
 });
 
 
-function refresh(){
+function refreshHotels(){
   var article, i;
 
   article = document.querySelectorAll("article");
@@ -208,7 +208,7 @@ function refresh(){
   }
 };
 
-function setBubble(range, bubble) {
+function setBubbleHotels(range, bubble) {
   const val = range.value;
   const min = range.min ? range.min : 0;
   const max = range.max ? range.max : 100;
@@ -218,7 +218,7 @@ function setBubble(range, bubble) {
   // Sorta magic numbers based on size of the native UI thumb
   bubble.style.left = `calc(${newVal}% + (${8 - newVal * 0.15}px))`;
 
-   if (val == max) {
+   if (val == min || val == max) {
     bubble.style.opacity = 0;
   } else {
     bubble.style.opacity = 1;

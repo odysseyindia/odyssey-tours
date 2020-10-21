@@ -1,0 +1,27 @@
+{
+	"data": 
+
+ 	{     
+        "count" : "2"
+        ,"items" : [
+        
+            {
+    "title": 		"Kolkata and the East",
+    "date": 		"0001-01-01 00:00:00 +0000 UTC",
+    "type": 		"taxonomy",
+    "permalink": 	"/taxonomy/regions/kolkata-and-the-east/",
+    "content": 		""
+}
+        
+            , {
+    "title": 		"Rajasthan and the North",
+    "date": 		"0001-01-01 00:00:00 +0000 UTC",
+    "type": 		"taxonomy",
+    "permalink": 	"/taxonomy/regions/rajasthan-and-the-north/",
+    "content": 		""
+}
+        
+        ]
+    }
+
+}

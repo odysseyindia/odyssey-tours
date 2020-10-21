@@ -1,6 +1,6 @@
 baseURL 				        = "/"
 title 					        = "Odyssey Tours"
-theme                   = ["odyssey"]
+theme                   = ["odyssey","hugo-module-img-srcset"]
 paginate 				        = "50"
 summaryLength 			    = "15"
 disqusShortname 		    = "" # get your shortname form here : https://disqus.com
@@ -14,7 +14,8 @@ ignoreErrors            = ["error-output-taxonomy"]
 
 [taxonomies]
   tag                   = "tags"
-  category              = "categories"
+  theme                 = "themes"
+  region                = "regions"
 
 [params]
 env                     = "PUBLIC"
@@ -74,7 +75,7 @@ taxonomy                = ["html","json"]
     name = "Explore by Region"
     parent = "explore"
     pre = "pen-tool"
-    url = "/explore-india/explore-by-region/"
+    url = "/explore-india/by-region/"
     weight = 31
   [[Languages.en.menu.main]]
     name = "Explore by State"
@@ -86,7 +87,7 @@ taxonomy                = ["html","json"]
     name = "Explore by City"
     parent = "explore"
     pre = "pen-tool"
-    url = "/explore-india/explore-by-city"
+    url = "/explore-india/by-city"
     weight = 33
   [[Languages.en.menu.main]]
     name = "Experience"

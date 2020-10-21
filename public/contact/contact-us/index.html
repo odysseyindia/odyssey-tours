@@ -31,7 +31,7 @@
 <meta name="twitter:image" content="/contact/contact-us/contact-us.jpg" />
 <meta name="twitter:image:src" content="/contact/contact-us/contact-us.jpg" />
 <!-- Date, Sitemap, and RSS Tags -->
-<meta property="og:updated_time" content="2020-09-20" />
+<meta property="og:updated_time" content="2020-09-22" />
 <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
 <!-- Schema -->
 	<meta itemprop="name" content="Interested in getting more information about our tours in India? Make an enquiry!">
@@ -347,80 +347,26 @@
 <footer>
 	<hr>
 	<p class="center"><i class="icon-copyright"></i> 2015-2020 Odyssey Tours & Travels Pvt Ltd</p>
-</footer><!-- Bootstrap -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZ1TWStdIWQYeNDBKpE6SgJSEd4EerEdg&amp;callback=initMap" async="" defer=""></script>
-
-
-
-<script>
-  
-  var locations = [
-  [26.92555556, 75.82361111, 'image_1.png', '/explore-india/explore-by-region/rajasthan-the-north/'],
-  [32.28555556, 77.16222222, 'image_2.png', '/explore-india/explore-by-region/foothills-of-the-himalaya/'],
-  [24.63750000, 87.84861100, 'image_3.png', '/explore-india/explore-by-region/kolkata-the-east/'],
-  [23.02166667, 72.59027778, 'image_4.png', '/explore-india/explore-by-region/gujarat-central-india/'],
-  [18.999803, 72.817383,     'image_5.png', '/explore-india/explore-by-region/mumbai-goa-the-deccan/'],
-  [13.05027778, 80.23222222, 'image_6.png', '/explore-india/explore-by-region/karnataka-tamil-nadu/'],
-  [8.36944444, 77.00444444,  'image_7.png', '/explore-india/explore-by-region/kerala/'],
-  [11.63722222, 92.72805556, 'image_8.png', '/explore-india/explore-by-region/andaman-nicobar-islands/'],
-  [10.951111, 72.287778,     'image_9.png', '/explore-india/explore-by-region/the-lakshadweep-islands/'],
-  ];
-
-  function initMap() {
-    map = new google.maps.Map(document.getElementById('thememap'), {
-      zoom: 4,
-      center: new google.maps.LatLng(23.268764, 81.474609),
-      mapTypeId: google.maps.MapTypeId.TERRAIN,
-      mapTypeControl: false,
-      streetViewControl: false,
-      panControl: false,
-      scrollwheel: false,
-      navigationControl: false,
-      scaleControl: false,
-      draggable: false,
-      disableDefaultUI: true,
-    });
-
-    var gmarkers = new Array();
-
-    for (var i = 0; i < locations.length; i++) { 
-
-      var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(locations[i][0], locations[i][1]),
-        map: map,
-        icon: '/markers/' + locations[i][2],
-        url: locations[i][3]
-      });
-
-      gmarkers.push(marker);
-
-      google.maps.event.addListener(marker, 'click', function() {
-        window.location.href = this.url;
-      });
-    };
-  };
-
-</script>
-
-
+</footer><!-- Cookie consent -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" async></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"  crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/popper.min.js" type="module"   crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"   crossorigin="anonymous"></script>
-<!-- scripts-->
-<!-- Customs scripts -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/js/bootstrap-datepicker.min.js" ></script>
-<script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" ></script>
-<script src="/js/contact-form.js" ></script>
+<!-- Bootstrap requirements -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/popper.min.js" type="module" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+
 <script>
 (function() {
     var cssMain = document.createElement('link');
-    cssMain.href = "\/css\/odyssey.c4d99d68b2b797556825e10fe1a7d93df4d5e3b2c7b7cff2cbc6d92f0def4e57.css";
+    cssMain.href = "\/css\/odyssey.cb4944136c368db84c7242bdc8ef7b73d1b7bc806fa4fcb2243ef306d062d174.css";
     cssMain.rel = 'stylesheet';
     cssMain.type = 'text/css';
     document.getElementsByTagName('head')[0].appendChild(cssMain);
 })();
 </script>
+
+
+
 <script>
 (function() {
     var cssMain = document.createElement('link');
@@ -430,57 +376,13 @@
     document.getElementsByTagName('head')[0].appendChild(cssMain);
 })();
 </script>
+
+
 <script src="/js/script.js" defer></script>
 
 
-<script>
-  if('serviceWorker' in navigator) {
-      navigator.serviceWorker
-          .register('/sw.js', { scope: '/' })
-          .then(function(registration) {
-              
-          });
 
-      navigator.serviceWorker
-          .ready
-          .then(function(registration) {
-              
-          });
-  }
-</script>
-
-
-<script>
-$('#carousel').carousel({
-    interval: 4000
-})
-
-$('.carousel-item', '.multi-item-carousel').each(function(){
-  var next = $(this).next();
-  if (! next.length) {
-    next = $(this).siblings(':first');
-  }
-  next.children(':first-child').clone().appendTo($(this));
-}).each(function(){
-  var prev = $(this).prev();
-  if (! prev.length) {
-    prev = $(this).siblings(':last');
-  }
-  prev.children(':nth-last-child(2)').clone().prependTo($(this));
-});
-
-</script>
-
-
-<script>
-function submit_by_id() {
-  var url = document.getElementById("url").value;
-  window.location.href = url;
-}
-</script>
-
-
-
+<!-- custom scripts -->
 <div>
      <p>Template: <span>layouts/_default/single.html</span> - Kind: <span>page</span> </p>
 </div>
