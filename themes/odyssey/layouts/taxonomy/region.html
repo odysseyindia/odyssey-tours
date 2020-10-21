@@ -39,4 +39,36 @@
   </div>
 </section>
 
-{{ end }}
+{{- end }}
+{{- define "scripts"}}
+
+<script>
+{{- range (where .Site.RegularPages "Section" "explore-india") }}
+{{- if in .Permalink "by-region" }} 
+
+document.getElementById("{{ .Params.translationKey }}").onchange = function() {
+  myRegion("{{ .Params.translationKey }}")
+};
+
+function myRegion(region) {
+  window.location.href = "/regions/" + region;
+};
+
+{{- end }}
+{{- end }}
+
+{{- range (where .Site.RegularPages "Section" "experience") }}
+{{- if in .Permalink "by-interest" }} 
+
+document.getElementById("{{ .Params.translationKey }}").onchange = function() {
+  myInterest("{{ .Params.translationKey }}")
+};
+
+function myInterest(interest) {
+  window.location.href = "/interests/" + interest;
+};
+
+{{- end }}
+{{- end }}
+</script>
+{{- end }}

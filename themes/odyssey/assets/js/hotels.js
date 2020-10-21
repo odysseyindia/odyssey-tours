@@ -3,13 +3,13 @@ var citySelected = "Show all";
 
 function cityFunction(selector) {
   citySelected = selector.options[selector.selectedIndex].text;
-  refresh();
+  refreshHotels();
 };
 
 const ratingRanges = document.querySelectorAll(".sliderRating");
 
 ratingRanges.forEach(wrap => {
-  const range = wrap.querySelector(".range");
+  const range  = wrap.querySelector(".range");
   const bubble = wrap.querySelector(".bubble");
 
   range.addEventListener("input", () => {
@@ -22,7 +22,8 @@ ratingRanges.forEach(wrap => {
 
 
 function refreshHotels(){
-  var article, i;
+  var article, i; 
+  var numHotels = 0;
 
   article = document.querySelectorAll("article");
     
@@ -30,14 +31,17 @@ function refreshHotels(){
      
     var rating = article[i].attributes.dataRating.value;  
     var city   = article[i].attributes.city.value;  
-    
 
-    if ( +rating > +valueRating || (citySelected != city && citySelected != "Show all") ) {
+    if ( +rating < +valueRating || (citySelected != city && citySelected != "Show all") ) {
       article[i].style.display = "none";
     } else {
        article[i].style.display = "flex";
+       numHotels += 1;
     }  
   }
+  
+    document.getElementById("numHotels").innerHTML = numHotels;
+  
 };
 
 function setBubbleHotels(range, bubble) {

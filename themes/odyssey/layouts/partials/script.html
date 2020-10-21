@@ -6,7 +6,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js" crossorigin="anonymous"></script>
 
 <!-- append odyssey style sheet -->
-{{- $style := resources.Get "css/odyssey.css" | fingerprint }}
+{{- $style := resources.Get "css/odyssey.css" | fingerprint -}}
 <script>
 (function() {
     var cssMain = document.createElement('link');
@@ -21,19 +21,20 @@
 {{- $id := cond (isset .Params "id") .Params.id ( cond (eq .CurrentSection.Kind "taxonomy") "tour-ideas" .CurrentSection.Params.translationKey ) -}}
 
 {{- $scss := printf "scss/main/%s.scss" $id -}}
-{{- if fileExists (printf "assets/%s" $scss) -}}
-{{- $style := resources.Get $scss | toCSS | minify}}
 
-<script>
-(function() {
-    var cssMain = document.createElement('link');
-    cssMain.href = "{{ $style.Permalink }}";
-    cssMain.rel = 'stylesheet';
-    cssMain.type = 'text/css';
-    document.getElementsByTagName('head')[0].appendChild(cssMain);
-})();
-</script>
-{{- end }}
+{{- if fileExists (printf "assets/%s" $scss) -}}
+  {{- $style := resources.Get $scss | toCSS | minify -}}
+
+  <script>
+  (function() {
+      var cssMain = document.createElement('link');
+      cssMain.href = "{{ $style.Permalink }}";
+      cssMain.rel = 'stylesheet';
+      cssMain.type = 'text/css';
+      document.getElementsByTagName('head')[0].appendChild(cssMain);
+  })();
+  </script>
+{{- end -}}
 
 <!-- get scripts ready to bundle as /js/script.js -->
 {{- $cookie  := resources.Get "js/cookie-consent.js" | resources.ExecuteAsTemplate "js/cookie-consent.js" . }}
@@ -43,22 +44,14 @@
 {{- $mobile  := resources.Get "/js/mobile-menu.js" -}}
 {{- $tooltip := resources.Get "/js/tooltip.js" -}}
 {{- $tours   := resources.Get "/js/tours.js" -}}
-{{- $hotels  := resources.Get "/js/hotels.js" -}}
 {{- $region  := resources.Get "/js/region.js" -}}
 <!-- bundle the above now -->
-{{- $js      := slice  $toggle $lazy $mobile $cookie $tours $hotels  | resources.Concat "js/script.js" }}
+{{- $js      := slice  $toggle $lazy $mobile $cookie | resources.Concat "js/script.js" }}
 <script src="{{ $js.RelPermalink }}" defer></script>
 <!-- bundle completed -->
 
 
 {{"<!-- custom scripts -->" | safeHTML }}
-
-{{- if $.Param "regionMap" -}}
-  {{"<!-- Google map -->" | safeHTML }}
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZ1TWStdIWQYeNDBKpE6SgJSEd4EerEdg&amp;callback=initMap" async="" defer=""></script>
-  {{- $js := resources.Get "/js/region.js" -}}
-  <script src="{{ $js.RelPermalink }}" defer></script>
-{{- end }}
 
 {{- if $.Param "tim" -}}
   {{"<!-- TIM -->" | safeHTML }}
@@ -91,33 +84,3 @@
 {{- end }}
 
 
-<script>
-{{- range (where .Site.RegularPages "Section" "explore-india") }}
-{{- if in .Permalink "by-region" }} 
-
-document.getElementById("{{ .Params.translationKey }}").onchange = function() {
-  myRegion("{{ .Params.translationKey }}")
-};
-
-function myRegion(region) {
-  window.location.href = "/regions/" + region;
-};
-
-{{ end }}
-{{ end }}
-
-
-{{- range (where .Site.RegularPages "Section" "experience") }}
-{{- if in .Permalink "by-interest" }} 
-
-document.getElementById("{{ .Params.translationKey }}").onchange = function() {
-  myInterest("{{ .Params.translationKey }}")
-};
-
-function myInterest(interest) {
-  window.location.href = "/interests/" + interest;
-};
-
-{{ end }}
-{{ end }}
-</script>

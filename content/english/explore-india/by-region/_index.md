@@ -4,7 +4,6 @@ date: 2020-09-21T12:59:23+02:00
 type: "explore-by-region"
 translationKey: "by-region"
 id: "explore-by-region"
-regionMap: true
 ---
 
 Explore India your own way by using our unique range of short itineraries as a guideline or as building blocks of a longer tour. This way you can create your own personal holiday to places where you most want to go.

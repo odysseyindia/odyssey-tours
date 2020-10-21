@@ -105,7 +105,7 @@ taxonomy                = ["html","json"]
     name = "Explore by Interest"
     parent = "experience"
     pre = "pen-tool"
-    url = "/experience/explore-by-interest/"
+    url = "/experience/by-interest/"
     weight = 42
   [[Languages.en.menu.main]]
     name = "Hotels"

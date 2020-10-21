@@ -62,11 +62,21 @@
     <h3 class="footnote">All our trips can be tailored to your needs!</h3>
     <h4 class="footnote">Tell us your travel plans and a specialist will be in touch</h4>
     <div class="footnote">
-        <div><input name="region" placeholder="Region"></div>
-        <div><input name="interest" placeholder="Interest"></div>
-        <div><input name="month" placeholder="Month of travel"></div>
-        <div><input name="number" placeholder="Number of people"></div>
-        <div><input name="email" placeholder="Email id"></div> 
+        <div>
+          <input name="region" placeholder="Region">
+        </div>
+        <div>
+          <input name="interest" placeholder="Interest">
+        </div>
+        <div>
+          <input name="month" placeholder="Month of travel">
+        </div>
+        <div>
+          <input name="number" placeholder="Number of people">
+        </div>
+        <div>
+          <input name="email" placeholder="Email id">
+        </div> 
     </div>
     <div class="submit">
       <a class="button">Submit</a>
@@ -74,4 +84,13 @@
   </div>
   <div>&nbsp;<br>
 </section>
+
+{{- end }}
+{{- define "scripts"}}
+
+{{"<!-- Google map -->" | safeHTML }}
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZ1TWStdIWQYeNDBKpE6SgJSEd4EerEdg&amp;callback=initMap" async="" defer=""></script>
+{{- $js := resources.Get "/js/region.js" -}}
+<script src="{{ $js.RelPermalink }}" defer></script>
+
 {{- end }}

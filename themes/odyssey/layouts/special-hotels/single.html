@@ -32,72 +32,13 @@
 	-->
     <div id="main">
        	<div class="row">
-       		<div class="col-sm-4 col-md-3 ">
-  				<div class="filter">
-
-				    <div class="box">
-				      <span id="counter"> <i class="icon-info-circled"></i> {{ len $hotels }} hotels found</span>
-				      <div id="showAll"> 
-				        <a href="#">&nbsp;</a>
-				      </div>
-				    </div>
-
-					<div class="box">
-				        <form class="form-inline">
-				          	<div class="form-group">
-				              	<label for="city">Filter by Place</label>
-				              	<div class="input-group">  
-					                <select onChange="cityFunction(this)" name="city" class="dropdown">
-					                	<option value="0" selected>Show all</option>
-{{- $cities := slice }}
-{{- range $i,$e := sort (where (where .Site.Pages "Section" "states") ".Params.id" "hotel") ".Title" "desc" }}  
-  {{- $data := printf "%s@%s" (urls.Parse $e.CurrentSection.Parent.Permalink).Path   $e.CurrentSection.Parent.Title }} 
-  {{- $cities = $cities | append $data }}
-{{- end }}
-					                	{{- range $cities | uniq }}  
-					                	{{- $data := (split . "@" ) }}
-					                	<option value="{{ index $data 0 | relURL}}">{{ index $data 1 }}</option>
-					                	{{- end }}
-					                </select>
-				              	</div>
-				            </div>
-				        </form>
-				    </div>
-
-				    <div class="box">
-				      <div class="sliderRating">
-				        <label for="price-range">Rating</label><br> 
-				        <div class="flex-range">
-				          <div>1</div>
-				          <div>5</div>
-				        </div>
-				        <input type="range" class="range" min="1" max="5" step="1" id="price-range" value="5" >
-				        <output class="bubble"></output>
-				      </div>
-				    </div>
-   
-				    <div class="box">
-				        <form class="form-inline">
-				          <div class="form-group">
-				              <label for="search">Search</label>
-				              <div class="input-group mb-2">  
-				                <input type="text" class="form-control" id="search" placeholder="Search">
-				                <div class="input-group-prepend">
-				                  <div class="input-group-text"><i class="icon-search"></i></div>
-				                </div>
-				              </div>
-				          </div>
-				        </form>
-				    </div>
-
-				</div>
-		    </div>
+       		{{ partial "filter-hotels.html" (dict "dot" . "hotels" $hotels ) }}
 		    <div class="col-sm-8 col-md-9">
           		<div class='hotels'> 
 		          	{{"<!-- items -->" | safeHTML }}
 					<div class="hotel-list listing-style3 hotel">
 					    {{ range $i,$e := $hotels }}    
-					       <article dataRating={{ with .Params.rating }}"{{ . }}"{{ else }}"0"{{ end }} city="{{ .CurrentSection.Parent.Title }}">
+					       <article dataRating={{ with .Params.rating }}"{{ . }}"{{ else }}"1"{{ end }} city="{{ .CurrentSection.Parent.Title }}">
 					          <div class="article-image">
 					            <figure >
 								{{- with $e.Resources.ByType "image" }}  	
@@ -136,3 +77,10 @@
 </section>
 
 {{- end }}
+{{define "scripts"}}
+
+{{- $hotels := resources.Get "/js/hotels.js" -}}
+{{- $js := slice $hotels | resources.Concat "js/hotels.js" }}
+<script src="{{ $js.RelPermalink }}" defer></script>
+
+{{end}}

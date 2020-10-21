@@ -1,0 +1,72 @@
+
+<div class="col-sm-4 col-md-3 ">
+		<div class="filter">
+
+	    <div class="box">
+	      	<div id="counter"> <i class="icon-info-circled"></i> <span id="numHotels"></span> hotels found</div>
+	    </div>
+<!-- city -->
+		<div class="box">
+	        <form class="form-inline">
+	          	<div class="form-group">
+	              	<label for="city">Filter by Place</label>
+	              	<div class="input-group">  
+		                <select onChange="cityFunction(this)" name="city" class="dropdown">
+		                	<option value="0" selected>Show all</option>
+{{- $cities := slice }}
+{{- range $i,$e := sort (where (where .dot.Site.Pages "Section" "states") ".Params.id" "hotel") ".Title" "desc" }}  
+{{- $data := printf "%s@%s" (urls.Parse $e.CurrentSection.Parent.Permalink).Path   $e.CurrentSection.Parent.Title }} 
+{{- $cities = $cities | append $data }}
+{{- end }}
+		                	{{- range $cities | uniq }}  
+		                	{{- $data := (split . "@" ) }}
+		                	<option value="{{ index $data 0 | relURL}}">{{ index $data 1 }}</option>
+		                	{{- end }}
+		                </select>
+	              	</div>
+	            </div>
+	        </form>
+	    </div>
+<!-- rating -->
+{{- $min := 5 -}}
+{{- $max := 0 -}}
+
+{{- range .hotels -}}
+
+{{- if gt .Params.cost $max -}}
+{{-   $max = .Params.cost -}}
+{{- end -}}
+
+{{- if lt .Params.cost $min -}}
+{{-   $min = .Params.cost -}}
+{{- end -}}
+
+{{- end -}}
+	    <div class="box">
+	      <div class="sliderRating">
+	        <label for="price-range">Rating</label><br> 
+	        <div class="flex-range">
+	          <div>1</div>
+	          <div>5</div>
+	        </div>
+	        <input type="range" class="range" min="1" max="5" step="1" id="price-range" value="1" >
+	        <output class="bubble"></output>
+	      </div>
+	    </div>
+<!-- search -->   
+	    <div class="box">
+	        <form class="form-inline">
+	          <div class="form-group">
+	              <label for="search">Search</label>
+	              <div class="input-group mb-2">  
+	                <input type="text" class="form-control" id="search" placeholder="Search">
+	                <div class="input-group-prepend">
+	                  <div class="input-group-text"><i class="icon-search"></i></div>
+	                </div>
+	              </div>
+	          </div>
+	        </form>
+	    </div>
+
+	</div>
+</div>
