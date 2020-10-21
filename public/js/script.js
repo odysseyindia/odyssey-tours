@@ -165,6 +165,7 @@ function setBubble(range, bubble) {
   }
   return val;
 }
+
 ;
 var valueRating;
 var citySelected = "Show all";

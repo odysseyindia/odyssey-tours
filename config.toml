@@ -14,7 +14,7 @@ ignoreErrors            = ["error-output-taxonomy"]
 
 [taxonomies]
   tag                   = "tags"
-  theme                 = "themes"
+  interest              = "interests"
   region                = "regions"
 
 [params]

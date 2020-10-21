@@ -96,11 +96,26 @@
 {{- if in .Permalink "by-region" }} 
 
 document.getElementById("{{ .Params.translationKey }}").onchange = function() {
-  myFunction("{{ .Params.translationKey }}")
+  myRegion("{{ .Params.translationKey }}")
 };
 
-function myFunction(region) {
+function myRegion(region) {
   window.location.href = "/regions/" + region;
+};
+
+{{ end }}
+{{ end }}
+
+
+{{- range (where .Site.RegularPages "Section" "experience") }}
+{{- if in .Permalink "by-interest" }} 
+
+document.getElementById("{{ .Params.translationKey }}").onchange = function() {
+  myInterest("{{ .Params.translationKey }}")
+};
+
+function myInterest(interest) {
+  window.location.href = "/interests/" + interest;
 };
 
 {{ end }}

@@ -5,6 +5,9 @@ find the key
 the section or base name
 {{ (path.Base (path.Split .Path).Dir) }}
 
+the last url part
+{{ (path.Base .RelPermalink) }}
+
 print tags
 {{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}
 

@@ -25,17 +25,17 @@
       	{{"<!-- show the items -->" | safeHTML}}
         <div class="card-deck">
         	{{- range .Data.Pages }} 	
-    	 	<div class="card">
-                <div class="card-header">
-                  	<a href="{{ .Permalink }}">
-                  		<img class="lazyload" itemprop="image" data-src="{{ .Permalink }}{{ printf "%s.jpg" .Params.translationKey }}" alt="{{ .Title }}">
-                  	</a>
-                </div>    
-                <div class="card-body">
-                	{{ .Title }}
-                </div>
-          	</div>
-           	{{- end }}
+    	 	  <div class="card">
+            <div class="card-header">
+              	<a href="/interests/{{ (path.Base .RelPermalink) }}">
+              		<img class="lazyload" itemprop="image" data-src="{{ .Permalink }}{{ printf "%s.jpg" .Params.translationKey }}" alt="{{ .Title }}">
+              	</a>
+            </div>    
+            <div class="card-body">
+            	{{ .Title }}
+            </div>
+      	</div>
+       	{{- end }}
     	</div>
     	{{"<!-- end of the items -->" | safeHTML}}
     </div>

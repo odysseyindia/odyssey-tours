@@ -398,11 +398,6 @@
   </url>
   
   <url>
-    <loc>/themes/culture/</loc>
-    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/states/rajasthan/cities/jaipur/excursions/cycling-tour/</loc>
     <lastmod>2020-09-21T12:59:23+02:00</lastmod>
   </url>
@@ -554,6 +549,11 @@
   
   <url>
     <loc>/about-us/sustainable-travel/how-to-travel-sustainably/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/interests/</loc>
     <lastmod>2020-09-21T12:59:23+02:00</lastmod>
   </url>
   
@@ -728,12 +728,12 @@
   </url>
   
   <url>
-    <loc>/themes/popular/</loc>
+    <loc>/experience/explore-by-interest/popular-tours/</loc>
     <lastmod>2020-09-21T12:59:23+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/experience/explore-by-interest/popular-tours/</loc>
+    <loc>/interests/popular-tours/</loc>
     <lastmod>2020-09-21T12:59:23+02:00</lastmod>
   </url>
   
@@ -774,6 +774,11 @@
   
   <url>
     <loc>/experience/explore-by-interest/romance/</loc>
+    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/interests/romance/</loc>
     <lastmod>2020-09-21T12:59:23+02:00</lastmod>
   </url>
   
@@ -1004,11 +1009,6 @@
   
   <url>
     <loc>/regions/the-lakshadweep-islands/</loc>
-    <lastmod>2020-09-21T12:59:23+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/themes/</loc>
     <lastmod>2020-09-21T12:59:23+02:00</lastmod>
   </url>
   

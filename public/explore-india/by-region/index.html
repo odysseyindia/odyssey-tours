@@ -321,14 +321,13 @@
   <div class="hero hero-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/explore-india/by-region/the-lakshadweep-islands.jpg');" >
   </div>
   <div  class="heading">
- 	<h2>Explore by region</h2>
+ 	<h2>Explore by Region</h2>
   </div>
   <div class="container">
     <div class="row">
       <div class="col-sms-6 col-sm-8 col-md-9">
         <div class="regions-map">
           <div id="map"></div>
-          <h2 class="center">Where would you like to go?</h2>
         </div>
       </div>
       <div class="col-sms-6 col-sm-4 col-md-3">
@@ -341,6 +340,7 @@
       </div>
     </div>
   </div>
+  <h2 class="where-to-go">Where would you like to go?</h2>
   <div class="bg">
     <div class="card-deck">
       <div class="row row-cols-1 row-cols-md-4">
@@ -354,7 +354,7 @@
             </div>
             
             <div class="card-body">
-              <h3 class="center"><a href="/explore-india/by-region/andaman-and-nicobar-islands/">Andaman &amp; Nicobar Islands</a></h3>     
+              <h3 class="center"><a href="/regions/andaman-and-nicobar-islands">Andaman &amp; Nicobar Islands</a></h3>     
               <div class="center">
                 <i class="icon-star"></i>
                 <i class="icon-star"></i>
@@ -373,7 +373,7 @@
             </div>
             
             <div class="card-body">
-              <h3 class="center"><a href="/explore-india/by-region/foothills-of-the-himalaya/">Foothills of the Himalaya</a></h3>     
+              <h3 class="center"><a href="/regions/foothills-of-the-himalaya">Foothills of the Himalaya</a></h3>     
               <div class="center">
                 <i class="icon-star"></i>
                 <i class="icon-star"></i>
@@ -392,7 +392,7 @@
             </div>
             
             <div class="card-body">
-              <h3 class="center"><a href="/explore-india/by-region/gujarat-and-central-india/">Gujarat &amp; Central India</a></h3>     
+              <h3 class="center"><a href="/regions/gujarat-and-central-india">Gujarat &amp; Central India</a></h3>     
               <div class="center">
                 <i class="icon-star"></i>
                 <i class="icon-star"></i>
@@ -411,7 +411,7 @@
             </div>
             
             <div class="card-body">
-              <h3 class="center"><a href="/explore-india/by-region/karnataka-and-tamil-nadu/">Karnataka &amp; Tamil Nadu</a></h3>     
+              <h3 class="center"><a href="/regions/karnataka-and-tamil-nadu">Karnataka &amp; Tamil Nadu</a></h3>     
               <div class="center">
                 <i class="icon-star"></i>
                 <i class="icon-star"></i>
@@ -430,7 +430,7 @@
             </div>
             
             <div class="card-body">
-              <h3 class="center"><a href="/explore-india/by-region/kerala/">Kerala</a></h3>     
+              <h3 class="center"><a href="/regions/kerala">Kerala</a></h3>     
               <div class="center">
                 <i class="icon-star"></i>
                 <i class="icon-star"></i>
@@ -449,7 +449,7 @@
             </div>
             
             <div class="card-body">
-              <h3 class="center"><a href="/explore-india/by-region/kolkata-and-the-east/">Kolkata &amp; The East</a></h3>     
+              <h3 class="center"><a href="/regions/kolkata-and-the-east">Kolkata &amp; The East</a></h3>     
               <div class="center">
                 <i class="icon-star"></i>
                 <i class="icon-star"></i>
@@ -468,7 +468,7 @@
             </div>
             
             <div class="card-body">
-              <h3 class="center"><a href="/explore-india/by-region/mumbai-goa-and-the-deccan/">Mumbai, Goa &amp; The Deccan</a></h3>     
+              <h3 class="center"><a href="/regions/mumbai-goa-and-the-deccan">Mumbai, Goa &amp; The Deccan</a></h3>     
               <div class="center">
                 <i class="icon-star"></i>
                 <i class="icon-star"></i>
@@ -487,7 +487,7 @@
             </div>
             
             <div class="card-body">
-              <h3 class="center"><a href="/explore-india/by-region/rajasthan-and-the-north/">Rajasthan and The North</a></h3>     
+              <h3 class="center"><a href="/regions/rajasthan-and-the-north">Rajasthan and The North</a></h3>     
               <div class="center">
                 <i class="icon-star"></i>
                 <i class="icon-star"></i>
@@ -506,7 +506,7 @@
             </div>
             
             <div class="card-body">
-              <h3 class="center"><a href="/explore-india/by-region/the-lakshadweep-islands/">The Lakshadweep Islands</a></h3>     
+              <h3 class="center"><a href="/regions/the-lakshadweep-islands">The Lakshadweep Islands</a></h3>     
               <div class="center">
                 <i class="icon-star"></i>
                 <i class="icon-star"></i>
@@ -579,6 +579,110 @@
 
 <!-- custom scripts --><!-- Google map -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZ1TWStdIWQYeNDBKpE6SgJSEd4EerEdg&amp;callback=initMap" async="" defer=""></script><script src="/js/region.js" defer></script>
+
+
+<script> 
+
+document.getElementById("andaman-and-nicobar-islands").onchange = function() {
+  myFunction("andaman-and-nicobar-islands")
+};
+
+function myFunction(region) {
+  window.location.href = "/regions/" + region;
+};
+
+
+ 
+
+document.getElementById("foothills-of-the-himalaya").onchange = function() {
+  myFunction("foothills-of-the-himalaya")
+};
+
+function myFunction(region) {
+  window.location.href = "/regions/" + region;
+};
+
+
+ 
+
+document.getElementById("gujarat-and-central-india").onchange = function() {
+  myFunction("gujarat-and-central-india")
+};
+
+function myFunction(region) {
+  window.location.href = "/regions/" + region;
+};
+
+
+ 
+
+document.getElementById("karnataka-and-tamil-nadu").onchange = function() {
+  myFunction("karnataka-and-tamil-nadu")
+};
+
+function myFunction(region) {
+  window.location.href = "/regions/" + region;
+};
+
+
+ 
+
+document.getElementById("kerala").onchange = function() {
+  myFunction("kerala")
+};
+
+function myFunction(region) {
+  window.location.href = "/regions/" + region;
+};
+
+
+ 
+
+document.getElementById("kolkata-and-the-east").onchange = function() {
+  myFunction("kolkata-and-the-east")
+};
+
+function myFunction(region) {
+  window.location.href = "/regions/" + region;
+};
+
+
+ 
+
+document.getElementById("mumbai-goa-and-the-deccan").onchange = function() {
+  myFunction("mumbai-goa-and-the-deccan")
+};
+
+function myFunction(region) {
+  window.location.href = "/regions/" + region;
+};
+
+
+ 
+
+document.getElementById("rajasthan-and-the-north").onchange = function() {
+  myFunction("rajasthan-and-the-north")
+};
+
+function myFunction(region) {
+  window.location.href = "/regions/" + region;
+};
+
+
+ 
+
+document.getElementById("the-lakshadweep-islands").onchange = function() {
+  myFunction("the-lakshadweep-islands")
+};
+
+function myFunction(region) {
+  window.location.href = "/regions/" + region;
+};
+
+
+
+
+</script>
 <div>
      <p>Template: <span>layouts/explore-by-region/list.html</span> - Kind: <span>section</span> </p>
 </div>
