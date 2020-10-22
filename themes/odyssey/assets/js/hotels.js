@@ -40,8 +40,7 @@ function refreshHotels(){
     }  
   }
   
-    document.getElementById("numHotels").innerHTML = numHotels;
-  
+  document.getElementById("numHotels").innerHTML = numHotels;
 };
 
 function setBubbleHotels(range, bubble) {

@@ -34,7 +34,8 @@ durationRanges.forEach(wrap => {
 
 function refresh(){
   var article, i;
-
+  var numTours = 0;
+  
   article = document.querySelectorAll("article");
     
   for (i = 0; i < article.length; i++) {
@@ -46,8 +47,10 @@ function refresh(){
       article[i].style.display = "none";
     } else {
        article[i].style.display = "flex";
+       numTours += 1;
     }  
   }
+  document.getElementById("numTours").innerHTML = numTours;
 };
 
 function setBubble(range, bubble) {

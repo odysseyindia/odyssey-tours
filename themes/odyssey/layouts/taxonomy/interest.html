@@ -1,14 +1,6 @@
-{{- define "template" }}
-{{- if ne (getenv "HUGO_ENV") "production" -}}
-
-{{- partial "show-template" (dict "Which" .Kind "Template" "layouts/taxonomy/region.html") -}}
-
-{{- end }}
-{{- end }}
+{{- .Scratch.Set "layout" "layouts/taxonomy/region.html" -}}
 
 {{- define "main" }}
-
-{{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
 
 {{- $pages := where .Data.Pages "Type" "tour-ideas" }}
 
@@ -27,7 +19,7 @@
   {{ partial "tours-topbar.html" . }}
   <div class="bg">
     <div class="row">
-      {{ partial "filter.html" (dict "dot" . "pages" $pages ) }}  
+      {{ partial "filter-tours.html" (dict "dot" . "pages" $pages ) }}  
       <div class="col-sm-8 col-md-9">
         <div class="itineraries">   
         {{"<!-- items -->" | safeHTML }}
@@ -40,3 +32,4 @@
 </section>
 
 {{ end }}
+

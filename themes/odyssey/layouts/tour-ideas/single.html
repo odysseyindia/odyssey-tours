@@ -1,14 +1,7 @@
-{{- define "template" }}
-{{- if ne (getenv "HUGO_ENV") "production" -}}
-
-{{- partial "show-template" (dict "Which" .Kind "Template" "layouts/tour-ideas/single.html") -}}
-
-{{- end }}
-{{- end }}
+{{- .Scratch.Set "layout" "layouts/tour-ideas/single.html" -}}
 
 {{ define "main" }}
-{{ "<!-- The CONTENT Now -->" | safeHTML }}
-{{- $id    := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
+
 {{- $image := cond (isset .Params "image") ( .Params.image ) (.CurrentSection.Params.image) }}
         
 <section id="tours">

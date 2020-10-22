@@ -1,17 +1,10 @@
-{{- define "template" }}
-{{- if ne (getenv "HUGO_ENV") "production" -}}
-
-{{- partial "show-template" (dict "Which" .Kind "Template" "layouts/_default/single.html") -}}
-
-{{- end }}
-{{- end }}
+{{ .Scratch.Set "layout" "layouts/_default/single.html" -}}
 
 {{ define "main" }}
-{{ "<!-- The CONTENT Now -->" | safeHTML }}
-{{- $id    := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
+
 {{- $image := cond (isset .Params "image") ( .Params.image ) (.CurrentSection.Params.image) }}
         
-<section id="{{ $id | lower }}">
+<section id="{{ .Scratch.Get "id" | lower }}"> 
   {{ partial "heading.html" (dict "dot" . "title" .Title ) }}
   <div class="container">
     <div class="row">

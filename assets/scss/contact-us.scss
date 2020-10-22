@@ -3,23 +3,24 @@
   label {
   text-align: left;  }
 
-  .bot{
+  .bot {
     display: none; }
 
-  & .icon {
+  .icon {
     color: $primary;
     font-size: 1.0rem; }
 
-  & .contact-details {
+  .contact-details {
     font-size: 1rem; }
 
-  & .wrapper {
+  .wrapper {
+    width: 75%;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 20px;
-    background-color: $form; }
-
-  & .form-header {
+  }
+  
+  .form-header {
     margin-right: 0;
     margin-left: 0;
     padding-left: 10px;
@@ -52,4 +53,3 @@
     }
   }
 }
-

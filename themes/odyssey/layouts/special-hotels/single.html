@@ -1,18 +1,10 @@
-{{- define "template" }}
-{{- if ne (getenv "HUGO_ENV") "production" -}}
-
-{{- partial "show-template" (dict "Which" .Kind "Template" "layouts/special-hotels/single.html") -}}
-
-{{- end }}
-{{- end }}
+{{- .Scratch.Set "layout" "layouts/special-hotels/single.html" -}}
 
 {{- define "main" }}
 
-{{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
-
 {{- $hotels := sort (where (where .Site.Pages "Section" "states") ".Params.id" "hotel") ".Params.rating" "desc" }}
 
-<section id="{{ $id | lower }}"> 
+<section id="{{ .Scratch.Get "id" | lower }}"> 
   	{{ partial "heading.html" (dict "dot" . "title" .Title ) }}
   	<div class="container">
     	<div class="row">
@@ -83,4 +75,5 @@
 {{- $js := slice $hotels | resources.Concat "js/hotels.js" }}
 <script src="{{ $js.RelPermalink }}" defer></script>
 
-{{end}}
+{{- end }}
+

@@ -1,18 +1,10 @@
-{{- define "template" }}
-{{- if ne (getenv "HUGO_ENV") "production" -}}
-
-{{- partial "show-template" (dict "Which" .Kind "Template" "layouts/tour-ideas/list.html") -}}
-
-{{- end }}
-{{- end }}
+{{- .Scratch.Set "layout" "layouts/tour-ideas/list.html" -}}
 
 {{- define "main" }}
 
-{{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey -}}
-
 {{- $pages := .Data.Pages }}
 
-<section id="{{ $id | lower }}"> 
+<section id="{{ .Scratch.Get "id" | lower }}"> 
   {{ partial "heading.html" (dict "dot" . "title" .Title ) }}
   <div class="container">
     <div class="row">
@@ -25,7 +17,7 @@
   {{ partial "tours-topbar.html" . }}
   <div class="bg">
     <div class="row">
-      {{ partial "filter.html" (dict "dot" . "pages" $pages ) }}  
+      {{ partial "filter-tours.html" (dict "dot" . "pages" $pages ) }}  
       <div class="col-sm-8 col-md-9">
         <div class="itineraries">   
         {{"<!-- items -->" | safeHTML }}
@@ -38,3 +30,37 @@
 </section>
 
 {{ end }}
+
+{{- define "scripts"}}
+
+<script>
+{{- range (where .Site.RegularPages "Section" "explore-india") }}
+{{- if in .Permalink "by-region" }} 
+
+document.getElementById("{{ .Params.translationKey }}").onchange = function() {
+  myRegion("{{ .Params.translationKey }}")
+};
+
+function myRegion(region) {
+  window.location.href = "/regions/" + region;
+};
+
+{{- end }}
+{{- end }}
+
+{{- range (where .Site.RegularPages "Section" "experience") }}
+{{- if in .Permalink "by-interest" }} 
+
+document.getElementById("{{ .Params.translationKey }}").onchange = function() {
+  myInterest("{{ .Params.translationKey }}")
+};
+
+function myInterest(interest) {
+  window.location.href = "/interests/" + interest;
+};
+
+{{- end }}
+{{- end }}
+</script>
+{{- end }}
+

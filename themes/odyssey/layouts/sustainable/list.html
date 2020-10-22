@@ -1,16 +1,8 @@
-{{- define "template" }}
-{{- if ne (getenv "HUGO_ENV") "production" -}}
-
-{{- partial "show-template" (dict "Which" .Kind "Template" "layouts/sustainable/list.html") -}}
-
-{{- end }}
-{{- end }}
+{{- .Scratch.Set "layout" "layouts/sustainable/list.html" -}}
 
 {{- define "main" }}
 
-{{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
-
-<section id="{{ $id | lower }}"> 
+<section id="{{ .Scratch.Get "id" | lower }}"> 
   {{ partial "heading.html" (dict "dot" . "title" .Title ) }}
   <div class="container">
     <div class="row">
@@ -206,3 +198,4 @@
 </section>
 {{"<!-- end Content -->" | safeHTML}}
 {{- end }} 
+

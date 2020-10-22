@@ -1,25 +1,21 @@
-{{- define "template" }}
-{{- if ne (getenv "HUGO_ENV") "production" -}}
-
-{{- partial "show-template" (dict "Which" .Kind "Template" "layouts/_default/mysitemap.html") -}}
-
-{{- end }}
-{{- end }}
+{{ .Scratch.Set "layout" "layouts/_default/mysitemap.html" -}}
 
 {{ define "main" }}
 
-{{"<!-- Start Section -->" | safeHTML}}
 <section id="sitemap">
   <div class="container">
     <div class="row">
-      <div class="mx-auto w-50 p-1">
-        {{"<!-- content -->" | safeHTML}}
-        <h3>{{ .Title }}</h3>  
+      <div class="mx-auto w-50 p-3">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+  <div class="mx-auto w-80 p-1">
         <div class="left">
           <ul>
             {{- range sort .Site.Sections.ByTitle  }}
             {{- $section := . }}
-            {{ if ne (substr $section.Title 0 3) "404" }}
+            {{- if ne (substr $section.Title 0 3) "404" }}
             <h4 class="left">{{ $section.Title }}</h4>
             <div class="grid left">
               {{- range $section.Pages.ByTitle }}
@@ -35,10 +31,6 @@
             {{- end }}
           </ul>
         </div>
-        {{"<!-- end content -->" | safeHTML}}
       </div>
-    </div>
-  </div>
 </section>
-{{"<!-- end Section -->" | safeHTML}}
 {{- end }}

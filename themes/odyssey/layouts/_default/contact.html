@@ -1,0 +1,121 @@
+{{- .Scratch.Set "layout" "layouts/contact.html" -}}
+
+{{- define "main" -}}
+
+<section id="{{ .Scratch.Get "id" | lower }}"> 
+  {{ partial "heading.html" (dict "dot" . "title" .Title ) }}
+  <div class="container">
+    <div class="row">
+      <div class="mx-auto w-50 p-3">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+
+	<div class="row">
+	<div class="container">
+		
+		{{ "<!-- contact form -->" | safeHTML }}
+    <div class="wrapper">
+        <div class="form-header">
+        	{{ i18n "send-us-a-message" }} 
+        </div> 
+        <br>
+        <form id="formContact" name="contact-form" class="contact-form form-hover" method="post" netlify-honeypot="bot-field">
+            <div class="bot"><label>Don't fill this out if you are human: </label><input name="bot-field" /></div>
+            <div class="form-group"> 
+                <label class="visually-hidden" for="name">Name</label>
+                <input type="text" placeholder="{{ i18n "your-name" }}" class="form-control" name="name" id="name">
+            </div>
+            <div class="form-group">
+                <label class="visually-hidden" for="email">Email address</label>
+                <input type="email" placeholder="{{ i18n "your-email-address"}}" class="form-control" name="email" id="email"> 
+            </div>
+            <div class="form-group">
+            <select class="form-control" id="country" name="country">
+                <option value=" ">{{ i18n "your-country" }}</option>
+                {{ partial "countries.html" . }}
+            </select> 
+            </div>
+            <div id="date-picker-example" class="form-group">
+                <label class="visually-hidden" for="arrdate">Arrival date</label>
+                <input type="text" placeholder="{{ i18n "your-arrival-date" }}" class="form-control" name="arrdate" id="arrdate">
+            </div>
+             <div class="form-group"> 
+                <label class="visually-hidden" for="message">Your message</label>
+                <textarea name="message" rows="5" class="form-control" type="text" placeholder="{{ i18n "your-message" }}" name="message" id="message"></textarea>
+            </div>
+            <div id="cf-submit">
+                <button type="submit" id="contact-submit" class="btn btn-primary" aria-label="menu" value="Submit">{{ i18n "submit" }}
+                </button>
+            </div>
+        </form>
+    </div>
+
+{{ "<!-- end contact form -->" | safeHTML }}
+
+			</div>
+		</div>
+		<div class="">
+		
+		</div>
+	</div>
+
+
+</section>
+{{- end }}
+{{- define "postscript" }}
+
+<link rel="stylesheet" href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.min.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/js/bootstrap-datepicker.min.js">
+<script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js">
+
+<script>
+
+// Date Picker Initialization
+$('#arrdate').datepicker({
+    uiLibrary: 'bootstrap4',
+    format: 'dd/mm/yyyy',
+    startDate: (new Date()),
+    todayBtn: true,
+    autoclose: true,
+    assumeNearbyYear: true
+});
+
+// email confirmation message
+formContact.onsubmit = async (e) => {
+    
+  e.preventDefault();
+
+  formData = new FormData(formContact);
+  var object = {};
+  formData.forEach((value, key) => {
+      // Reflect.has in favor of: object.hasOwnProperty(key)
+      if(!Reflect.has(object, key)){
+          object[key] = value;
+          return;
+      }
+      if(!Array.isArray(object[key])){
+          object[key] = [object[key]];    
+      }
+      object[key].push(value);
+  });
+  var json = JSON.stringify(object);
+
+  let response = await fetch('/.netlify/functions/contact', {
+      method: 'POST',
+      body: json
+  });
+
+  let result = await response.json();
+    
+  if (result.result == 200){
+    window.location.href = "/contact/thank-you";
+  }
+};
+
+</script>
+
+{{- end }}

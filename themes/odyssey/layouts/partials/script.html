@@ -9,16 +9,16 @@
 {{- $style := resources.Get "css/odyssey.css" | fingerprint -}}
 <script>
 (function() {
-    var cssMain = document.createElement('link');
-    cssMain.href = "{{ $style.Permalink }}";
-    cssMain.rel = 'stylesheet';
-    cssMain.type = 'text/css';
-    document.getElementsByTagName('head')[0].appendChild(cssMain);
+  var cssMain  = document.createElement('link');
+  cssMain.href = "{{ $style.Permalink }}";
+  cssMain.rel  = 'stylesheet';
+  cssMain.type = 'text/css';
+  document.getElementsByTagName('head')[0].appendChild(cssMain);
 })();
 </script>
 
 <!-- append page specific style sheet -->
-{{- $id := cond (isset .Params "id") .Params.id ( cond (eq .CurrentSection.Kind "taxonomy") "tour-ideas" .CurrentSection.Params.translationKey ) -}}
+{{- $id := cond (isset .Params "id") .Params.id (path.Base .RelPermalink) }}
 
 {{- $scss := printf "scss/main/%s.scss" $id -}}
 
@@ -27,11 +27,11 @@
 
   <script>
   (function() {
-      var cssMain = document.createElement('link');
-      cssMain.href = "{{ $style.Permalink }}";
-      cssMain.rel = 'stylesheet';
-      cssMain.type = 'text/css';
-      document.getElementsByTagName('head')[0].appendChild(cssMain);
+    var cssMain  = document.createElement('link');
+    cssMain.href = "{{ $style.Permalink }}";
+    cssMain.rel  = 'stylesheet';
+    cssMain.type = 'text/css';
+    document.getElementsByTagName('head')[0].appendChild(cssMain);
   })();
   </script>
 {{- end -}}
@@ -44,9 +44,8 @@
 {{- $mobile  := resources.Get "/js/mobile-menu.js" -}}
 {{- $tooltip := resources.Get "/js/tooltip.js" -}}
 {{- $tours   := resources.Get "/js/tours.js" -}}
-{{- $region  := resources.Get "/js/region.js" -}}
 <!-- bundle the above now -->
-{{- $js      := slice  $toggle $lazy $mobile $cookie | resources.Concat "js/script.js" }}
+{{- $js      := slice $cookie $toggle $lazy $mobile $tours | resources.Concat "js/script.js" }}
 <script src="{{ $js.RelPermalink }}" defer></script>
 <!-- bundle completed -->
 
