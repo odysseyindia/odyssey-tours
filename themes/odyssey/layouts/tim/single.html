@@ -1,11 +1,7 @@
 {{- define "template" }}
 {{- if ne (getenv "HUGO_ENV") "production" -}}
 
-{{- partial "show-template" (dict "Which" .Kind "Template" "layouts/tim/single.html") -}}
-
-{{- end }}
-{{- end }}
-
+{{- partial "show-template" (dict "Which" .Kind "Template" "layouts/tim/single.html" -}}
 
 {{ define "main" }}
 

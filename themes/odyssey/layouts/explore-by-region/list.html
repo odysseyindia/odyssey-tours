@@ -1,5 +1,5 @@
-{{- .Scratch.Set "layout" "layouts/explore-by-region/list.html" }}
 {{- define "main" }}
+{{- .Scratch.Set "layout" "layouts/explore-by-region/list.html" }}
 
 <section id="{{ .Scratch.Get "id" | lower }}"> 
   {{ partial "heading.html" (dict "dot" . "title" .Title ) }}
@@ -77,7 +77,7 @@
 </section>
 
 {{- end }}
-{{- define "scripts"}}
+{{- define "postscript"}}
 
 {{"<!-- Google map -->" | safeHTML }}
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZ1TWStdIWQYeNDBKpE6SgJSEd4EerEdg&amp;callback=initMap" async="" defer=""></script>

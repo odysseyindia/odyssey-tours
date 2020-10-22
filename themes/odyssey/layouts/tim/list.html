@@ -1,10 +1,4 @@
-{{- define "template" }}
-{{- if ne (getenv "HUGO_ENV") "production" -}}
-
-{{- partial "show-template" (dict "Which" .Kind "Template" "layouts/tim/list.html") -}}
-
-{{- end }}
-{{- end }}
+{{- .Scratch.Set "layout" "layouts/tim/list.html" -}}
 
 {{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
 

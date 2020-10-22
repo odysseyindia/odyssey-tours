@@ -1,6 +1,5 @@
-{{- .Scratch.Set "layout" "layouts/states/list.html" -}}
-
 {{- define "main" }}
+{{- .Scratch.Set "layout" "layouts/states/list.html" -}}
 
 {{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
 

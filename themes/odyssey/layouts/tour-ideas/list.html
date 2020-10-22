@@ -1,6 +1,5 @@
-{{- .Scratch.Set "layout" "layouts/tour-ideas/list.html" -}}
-
 {{- define "main" }}
+{{- .Scratch.Set "layout" "layouts/tour-ideas/list.html" -}}
 
 {{- $pages := .Data.Pages }}
 
@@ -31,7 +30,7 @@
 
 {{ end }}
 
-{{- define "scripts"}}
+{{- define "postscript"}}
 
 <script>
 {{- range (where .Site.RegularPages "Section" "explore-india") }}

@@ -1,6 +1,5 @@
-{{- .Scratch.Set "layout" "layouts/special-hotels/single.html" -}}
-
 {{- define "main" }}
+{{- .Scratch.Set "layout" "layouts/special-hotels/single.html" -}}
 
 {{- $hotels := sort (where (where .Site.Pages "Section" "states") ".Params.id" "hotel") ".Params.rating" "desc" }}
 
@@ -69,7 +68,7 @@
 </section>
 
 {{- end }}
-{{define "scripts"}}
+{{define "postscript"}}
 
 {{- $hotels := resources.Get "/js/hotels.js" -}}
 {{- $js := slice $hotels | resources.Concat "js/hotels.js" }}

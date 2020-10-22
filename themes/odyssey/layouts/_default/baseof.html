@@ -1,4 +1,6 @@
-{{- .Scratch.Set "id" (cond (isset .Params "id") .Params.id (path.Base .RelPermalink)) }}
+{{- .Scratch.Set "id" (cond (isset .Params "id") .Params.id (cond (isset .Params "type" ) .Params.type (path.Base .RelPermalink))) }}
+
+{{ $id := .Scratch.Get "id" }}
 <!DOCTYPE html>
 <html>
     	{{- partial "head.html" . -}}
@@ -16,7 +18,9 @@
         {{- block "template" . }}{{ end }} 
 
         {{- if ne (getenv "HUGO_ENV") "production" -}}
-			{{- partial "show-template" (dict "Which" .Kind "Template" .Scratch.Get "layout" ) -}}
+        {{- with .Scratch.Get "layout" }}
+			{{- partial "show-template" (dict "Which" $.Kind "Template" . "ID" $id ) -}}
+        {{- end }}
 		{{- end }}
     </body>
 </html>

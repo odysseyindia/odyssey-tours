@@ -1,6 +1,5 @@
-{{- .Scratch.Set "layout" "layouts/experience/single.html" -}}
-
 {{- define "main" }}
+{{- .Scratch.Set "layout" "layouts/experience/single.html" -}}
 
 <section id="{{ .Scratch.Get "id" | lower }}">  
   {{ partial "heading.html" (dict "dot" . "title" .Title ) }}
@@ -48,6 +47,7 @@
         {{- end }}
       </div>
     </div>
+    <br>
     <div class="note">
       <div class="button">
         All trips can be tailored to your needs!<br>

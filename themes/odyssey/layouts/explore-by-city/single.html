@@ -1,0 +1,53 @@
+{{ define "main" }}
+{{ .Scratch.Set "layout" "layouts/explore-by-city/single.html" -}}
+
+{{- $image := cond (isset .Params "image") ( .Params.image ) (.CurrentSection.Params.image) }}
+        
+<section id="{{ .Scratch.Get "id" | lower }}"> 
+  {{ partial "heading.html" (dict "dot" . "title" .Title ) }}
+  <div class="container">
+    <div class="row">
+      <div class="mx-auto w-50 p-1">
+        {{ .Content }}      
+      </div>
+    </div>
+    {{- "<!-- items -->" | safeHTML }}
+    <div class="card-deck">
+        <div class="row row-cols-1 row-cols-md-4">
+					{{- range .Params.cities }}
+
+					{{- with $.Site.GetPage . }}
+					<div class="col mb-4">
+					  <div class="card h-100">
+					    <!-- header -->
+					    <div class="card-header img-top">
+					    {{- with .Resources.ByType "image" }}
+					    {{- range $index,$img := . }}
+					    {{- if eq $index 0 }}
+					      <img class="mr-3 publisher lazyload" itemprop="image" data-src="{{ $img.Permalink }}" alt="{{ substr  $img 0 -4 | replaceRE "[^a-z]" " " |humanize }}">
+					    {{- end }}
+					    {{- end }}  
+					    {{- end }}
+					    </div>
+					    <!-- body -->
+					    <div class="card-body">
+					      <h3 class="card-title">
+					        <a href="{{ .Permalink }}">{{ .Title }}</a>
+					      </h3>     
+					      <p class="card-text">
+					        <span itemprop="description"></span>
+					      </p>
+					    </div>
+					    <!-- no footer -->
+					  </div>
+					</div>
+					{{ end }}
+					{{ end }}
+				</div>
+			</div>
+		</div>
+		{{- "<!-- end items -->" | safeHTML }}
+  </div>
+</section>
+
+{{ end }}
