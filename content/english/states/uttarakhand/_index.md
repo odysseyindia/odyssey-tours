@@ -6,6 +6,6 @@ draft: false
 image: 
 translationkey: "uttarakhand"
 id: "state"
-layout: "state"
+type: "state"
 tags: ["States"] 
 ---

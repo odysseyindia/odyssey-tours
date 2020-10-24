@@ -6,7 +6,7 @@ draft: false
 image: madhya-pradesh.jpg
 translationkey: "madhya-pradesh"
 id: "state"
-layout: "state"
+type: "state"
 tags: [ "States"] 
 ---
 

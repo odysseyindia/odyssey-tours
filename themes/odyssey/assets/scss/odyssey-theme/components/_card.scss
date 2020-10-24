@@ -1,36 +1,81 @@
-.card-deck .card {
-    flex: 1 0 0%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 5px;
-}
-
-.card {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: $white;
-    background-clip: border-box;
-    border-radius: .5rem;
-    padding: 10px;
-    margin: 30px;
-}
-
-.card-footer {
-    padding: .75rem 1.25rem;
-    background-color: $white;
-    border-top: 0px solid $white;
-}
-
-.card-spacing {
-	padding-right:0;
-	padding-left:0;
-	margin-bottom: 30px;
-}
-
 .bg {
     background-color: lightslategrey;
     padding: 30px;
+}
+
+img {
+  width: 100%;
+  }
+
+.card-deck {
+  display: flex; 
+  flex-flow: row wrap;
+  align-content: space-between;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0 -5px; /* Remove extra left and right margins, due to padding */
+  border: 1px solid silver;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+}
+
+.card-holder {
+  width: 25%;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .card-holder {
+    width: 33%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .card-holder { 
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .card-holder {
+    width: 100%;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .5);
+  text-align: center;
+  background-color: $white; // #f1f1f1;
+  padding: 5px;
+  height: 100%;
+  margin: 10px;
+  text-align: center;
+}
+
+.card-title {
+  margin-top: 15px;
+  margin-bottom: 0;
+  a, > h4 { 
+    color: $secondary;  
+  }
+}
+
+.subtitle {
+  color: $secondary;
+  font-style: italic;  
+}
+
+.card-text {
+  padding: 0 10px 0px 10px;
+  margin-bottom: 0;
 }

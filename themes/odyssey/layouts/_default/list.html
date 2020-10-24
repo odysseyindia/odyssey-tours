@@ -9,18 +9,9 @@
           {{ .Content }}
         </div>
     </div>
+    {{- range .Data.Pages }}
+    {{- .Render "summary" }}
+    {{- end }}
   </div>
-      <!-- items -->
-      <div class="bg">
-        <div class="card-deck">
-          <div class="row row-cols-1 row-cols-md-4">
-          {{- range .Data.Pages }}
-          {{- .Render "summary" }}
-          {{- end }}
-          </div>
-        </div>
-      </div>
-      <!-- end items -->
-   
 </section>
 {{- end }}

@@ -1,9 +1,8 @@
-{{- .Scratch.Set "layout" "layouts/contact.html" -}}
-
 {{- define "main" -}}
+{{- .Scratch.Set "layout" "layouts/_default/contact.html" -}}
 
 <section id="{{ .Scratch.Get "id" | lower }}"> 
-  {{ partial "heading.html" (dict "dot" . "title" .Title ) }}
+  {{ partial "heading.html" . }}
   <div class="container">
     <div class="row">
       <div class="mx-auto w-50 p-3">

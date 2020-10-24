@@ -6,7 +6,7 @@ draft: false
 image: agra.jpg
 translationKey: agra
 id: city
-layout: "city"
+type: "city" 
 tags: ["Cities", "Agra"] 
 longitude: 77.996490
 latitude: 27.278732

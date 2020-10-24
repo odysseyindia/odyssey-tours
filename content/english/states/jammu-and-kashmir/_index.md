@@ -6,7 +6,7 @@ draft: false
 image: jammu-and-kashmir.jpg
 translationkey: "jammu-and-kashmir"
 id: "state"
-layout: "state"
+type: "state"
 tags: ["States"] 
 ---
 

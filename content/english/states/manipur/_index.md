@@ -6,7 +6,7 @@ draft: false
 image: manipur.jpg
 translationkey: "manipur"
 id: "state"
-layout: "state"
+type: "state"
 tags: ["States"] 
 ---
 
@@ -28,10 +28,8 @@ The majority of the population belongs to the Meithe tribe who lives in the vall
 
 Manipur has recently begun taking steps to develop its tourist potential, which is essential as the state struggles to overcome poverty in rural areas and rebellions between ethnic groups, particularly between Kukis and Nagas.
 
-## IMPORTANT
+### IMPORTANT
 
-In a move widely welcomed, the policy which requires special permits for travel in some areas of North East India has been dissolved as of 1 January, 2011. Now, only a valid visa is necessary for tourists visiting Manipur, Mizoram and Nagaland. However, travel to Arunachal Pradesh will still
-
-require special permission.
+In a move widely welcomed, the policy which requires special permits for travel in some areas of North East India has been dissolved as of 1 January, 2011. Now, only a valid visa is necessary for tourists visiting Manipur, Mizoram and Nagaland. However, travel to Arunachal Pradesh will still require special permission.
 
 Foreigners no longer require a Protected Area Permit (PAP). However they must register themselves at the local Foreigners Registration Office (FRO) of the districts they visit within 24 hours of arrival.

@@ -2,7 +2,7 @@
 {{- .Scratch.Set "layout" "layouts/explore-by-interest/list.html" -}}
 
 <section id="{{ .Scratch.Get "id" | lower }}"> 
-  	{{ partial "heading.html" (dict "dot" . "title" .Title ) }}
+	{{ partial "heading.html" (dict "dot" . "title" .Title ) }}
 	<div class="container">
   	<div class="row">
     		<div class="mx-auto w-50 p-3">
@@ -12,28 +12,33 @@
   	</div>
 	</div>
 
+
   {{"<!-- show the items -->" | safeHTML}}
   <div class="bg">
-   <div class="card-deck">
-      <div class="row row-cols-1 row-cols-md-3">
-        	{{- range .Data.Pages }} 	
-          <div class="card-spacing">
-    	 	   <div class="card h-100">
-            <div class="card-header">
-              	<a href="/interests/{{ (path.Base .RelPermalink) }}">
-              		<img class="lazyload" itemprop="image" data-src="{{ .Permalink }}{{ printf "%s.jpg" .Params.translationKey }}" alt="{{ .Title }}">
-              	</a>
-            </div>    
-            <div class="card-body">
-            	{{ .Title }}
-            </div>
-      	</div>
-      </div>
-       	{{- end }}
-    	</div>
-    	{{"<!-- end of the items -->" | safeHTML}}
+    <div class="card-deck">
+    	{{- range .Data.Pages }} 	
+	 	  <div class="card-holder">
+        <div class="card">
+          <!-- header -->
+          <div class="card-header">
+            {{ range (.Resources.ByType "image") }} 
+            {{ if not (findRE "banner" .RelPermalink 1) }} 
+            <a href="/interests/{{ (path.Base .RelPermalink) }}">
+            <img class="lazyload" itemprop="image" data-src="{{ .RelPermalink }}" alt="{{ substr .Title  0 -4 | humanize }}">
+            </a> 
+            {{ end }}
+            {{ end }}   
+          </div>  
+          <!-- body -->    
+          <div class="card-body">
+        	  {{ .Title }}
+          </div>
+          <!-- footer -->
+        </div>
+      </div> 
+     	{{- end }}
     </div>
   </div>
+  {{"<!-- end of the items -->" | safeHTML}}
 </section>
-
 {{- end }}

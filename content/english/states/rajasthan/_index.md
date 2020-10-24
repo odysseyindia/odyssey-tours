@@ -6,7 +6,7 @@ draft: false
 image: rajasthan.jpg
 translationkey: "rajasthan"
 id: "state"
-layout: "state"
+type: "state"
 tags: ["States"] 
 ---
 

@@ -19,3 +19,24 @@ first in array
     {{ if strings.HasPrefix .Destination "mailto" -}} target=_blank {{end}}
     {{ if strings.HasPrefix .Destination "http" -}} target=_blank rel="noopener noreferrer" {{- end }}
 >{{ .PlainText | htmlEscape }}</a>
+
+
+<!-- image(s) -->
+{{ range first 1 ((.Resources.ByType "image").Match "banner*") }} 
+<a href="/interests/{{ (path.Base .RelPermalink) }}">
+<img class="lazyload" itemprop="image" data-src="{{ .RelPermalink }}" alt="{{ substr .Title  0 -4 | humanize }}">
+</a> 
+{{ end }}   
+
+{{- with .Resources.ByType "image" }}
+{{- range $index,$img := . }}
+{{ path.Dir .RelPermalink }} {{ len .Permalink }} <br>
+{{- if eq $index 0}}
+ <a href="/interests/{{ (path.Base .RelPermalink) }}">
+<img class="lazyload" itemprop="image" data-src="{{ .RelPermalink }}" alt="{{ substr .Title  0 -4 | humanize }}">
+{{- end }}
+{{- end }}  
+{{- end }}
+
+ {{ if not (findRE "banner" .RelPermalink 1) }} 
+ {{ if eq (len (path.Dir .RelPermalink)) (len (path.Dir $.RelPermalink )) }}

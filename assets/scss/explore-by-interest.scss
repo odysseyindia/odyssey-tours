@@ -1,45 +1,5 @@
 #explore-by-interest {
 
-.card-deck {
-  display: flex; 
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: stretch;
-  width: 100%;
-  display: block;
-  margin-left: 5px;
-  @media only screen and (min-width: 700px) {
-    display: flex;
-  }
-}
-
-.card {
-  border: 0;
-  margin: 10px;
-  padding:0;
-  img {
-    width: 100%;
-  }
-  @media only screen and (min-width: 700px) {
-    flex: 1 auto;
-  }
-}
-
-.card-header{
-  margin:0;
-  padding:0;
-  border:0;  
-}
-
-.card-body{
-  position: absolute;
-  top: 0px;
-  background-color: black;
-  opacity: 0.5;
-  padding: 0 20px 0 20px;
-  color: white;
-  font-weight: 600;
-}
 
 
 

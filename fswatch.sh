@@ -10,20 +10,27 @@ fswatch -0 -r --event Created /home/alfred/webapps/odyssey-tours/content/english
 
         result="${file%"${file##*[!/]}"}" # extglob-free multi-trailing-/ trim
         result="${result##*/}"            # remove everything before the last /
-
+        
     	echo "bingo! Created ${result}"
         echo "Now adding to ${file}"
-    	mkdir "${file}/excursions"
-    	cp "/home/alfred/webapps/odyssey-tours/content/template/excursions/_index.md" "${file}/excursions/_index_md"
-    	mkdir "${file}/hotels"
-    	cp "/home/alfred/webapps/odyssey-tours/content/template/hotels/_index.md" "${file}/hotels/_index.md"
 
-        sed -i -e "s/city/${result}/g" "${file}/excursions/_index_md"
+        path="$(echo ${file} | awk '{print tolower(substr($1,1))}' )"
+        mv "${file}" "${path}" 
+
+    	cp "/home/alfred/webapps/odyssey-tours/content/template/_index.md" "${path}/_index.md"
+        mkdir "${path}/excursions"
+        cp "/home/alfred/webapps/odyssey-tours/content/template/excursions/_index.md" "${path}/excursions/_index_md"
+        mkdir "${path}/hotels"
+        cp "/home/alfred/webapps/odyssey-tours/content/template/hotels/_index.md" "${path}/hotels/_index.md"
+
+        city="$(echo ${result} | awk '{print tolower(substr($1,1))}' )"
+        sed -i -e "s/-CITY-/${city}/g" "${path}/_index.md"
+        sed -i -e "s/city/${city}/g"   "${path}/excursions/_index_md"
 
         city="$(echo ${result} | awk '{print toupper(substr($1,1,1)) tolower(substr($1,2))}' )"
-
-        sed -i -e "s/CITY/${city}/g" "${file}/hotels/_index.md"
-        sed -i -e "s/CITY/${city}/g" "${file}/excursions/_index_md"
+        sed -i -e "s/CITY/${city}/g" "${path}/_index.md"
+        sed -i -e "s/CITY/${city}/g" "${path}/hotels/_index.md"
+        sed -i -e "s/CITY/${city}/g" "${path}/excursions/_index_md"
 	fi
   fi
 done

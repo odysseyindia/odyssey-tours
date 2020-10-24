@@ -6,7 +6,7 @@ draft: false
 image: diu.jpg
 translationkey: "diu"
 id: "state"
-layout: "state"
+type: "state"
 tags: [ "States"] 
 ---
 Goa, Daman and Diu were Portuguese possessions in India which were liberated in 1961. Whilst Goa became a State, a Union Territory was formed in 1987 consisting of the two separate districts of Daman and Diu.

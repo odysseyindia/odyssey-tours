@@ -6,7 +6,7 @@ draft: false
 image: pondicherry.jpg
 translationkey: "pondicherry"
 id: "state"
-layout: "state"
+type: "state"
 tags: ["States"] 
 ---
 The Union Territory of Pondicherry comprises four coastal regions: Pondicherry and Karaikal, situated on the east coast of Tamil Nadu, Yanam in Andra Pradesh and Mahe on the west coast of Kerala. Pondicherry is the capital of this Union Territory.

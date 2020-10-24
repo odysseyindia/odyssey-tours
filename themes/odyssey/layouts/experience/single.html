@@ -2,7 +2,7 @@
 {{- .Scratch.Set "layout" "layouts/experience/single.html" -}}
 
 <section id="{{ .Scratch.Get "id" | lower }}">  
-  {{ partial "heading.html" (dict "dot" . "title" .Title ) }}
+  {{ partial "heading.html" . }}
   <div class="container">
     <div class="row">
       <div class="mx-auto w-50 p-3">
@@ -13,48 +13,21 @@
   
   {{"<!-- show the items -->" | safeHTML}}
   <div class="bg">
-   <div class="card-deck">
-      <div class="row row-cols-1 row-cols-md-3">
-        {{- range .Params.cities}}
-        {{- with $.Site.GetPage . }}
-        <div class="card-spacing">
-          <div class="card h-100">
-              <!-- header -->
-              <div class="card-header img-top">
-              {{- with .Resources.ByType "image" }}
-                <div class="Image">
-                {{- range $index,$img := . }}
-                {{- if eq $index 0}}
-                  <img src="{{ $img.RelPermalink }}">
-                {{- end }}
-                {{- end }}
-                </div>
-              {{- end }}
-              </div>   
-              <!-- body -->   
-              <div class="card-body">
-                <h3 class="card-title">
-                  <a href="{{ .Permalink }}">{{ .Title }}</a>
-                </h3>     
-                <h4>{{ .Params.subtitle }}</h4> 
-                <p class="card-text">
-                  <span itemprop="description">{{ .Summary }}</span>
-                </p>
-            </div>
-          </div>
-        </div>     
-        {{- end }}
-        {{- end }}
-      </div>
-    </div>
-    <br>
-    <div class="note">
-      <div class="button">
-        All trips can be tailored to your needs!<br>
-        Get in touch with us <a href="/contact/contact-us/">here</a>
-      </div>
+    <div class="card-deck">
+      {{- range .Params.cities}}
+      {{- with $.Site.GetPage . }}
+      <div class="card-holder">
+        <div class="card">
+          {{- partial "card-header.html" . -}}
+          {{- partial "card-body-summary.html" . }}
+        </div>  
+      </div>   
+      {{- end }}
+      {{- end }}
     </div>
   </div>
+  {{"<!-- end items -->" | safeHTML -}}
+
+  {{ partial "can-be-tailored.html" . }}
 </section>
-<!-- end Content -->
 {{- end }} 

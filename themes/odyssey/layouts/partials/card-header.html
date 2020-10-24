@@ -1,0 +1,3 @@
+{{ range first 1 (.Resources.ByType "image") }} 
+    <img class="lazyload" itemprop="image" data-src="{{ .RelPermalink }}" alt="{{ substr .Title  0 -4 | humanize }}">
+{{ end }}

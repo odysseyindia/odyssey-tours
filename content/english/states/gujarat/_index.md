@@ -6,7 +6,7 @@ draft: false
 image: gujarat.jpg
 translationkey: "gujarat"
 id: "state"
-layout: "state"
+type: "state"
 tags: ["States"] 
 ---
 

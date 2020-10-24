@@ -1,13 +1,6 @@
-{{- define "template" }}
-{{- if ne (getenv "HUGO_ENV") "production" -}}
-
-{{- partial "show-template" (dict "Which" .Kind "Template" "layouts/tim/single.html" -}}
-
-{{ define "main" }}
-
-{{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
-{{- $image := cond (isset .Params "image") ( .Params.image ) (.CurrentSection.Params.image) }}
-      
+{{- define "main" }}
+{{- .Scratch.Set "layout" "layouts/tim/single.html" -}}
+     
 
 <style>
 

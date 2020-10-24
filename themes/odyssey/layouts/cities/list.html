@@ -1,0 +1,23 @@
+{{- define "main" }}
+{{- .Scratch.Set "layout" "layouts/cities/list.html" }}
+
+{{- $scratch := newScratch }}
+
+<section id="{{ .Scratch.Get "id" | lower }}"> 
+  {{ partial "heading.html" . }}
+
+  <div class="nobg">
+    <div class="card-deck">
+      {{- range .Data.Pages -}}
+      <div class="card-holder">
+        <div class="card">
+          {{- partial "card-header" . }}
+          {{- partial "card-body"   . }}
+        </div>
+      </div>   
+      {{- end }}
+    </div>
+  </div>
+ 
+</section>
+{{- end }}

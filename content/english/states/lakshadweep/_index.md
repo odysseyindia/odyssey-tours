@@ -6,7 +6,7 @@ draft: false
 image: lakshadweep.jpg
 translationkey: "lakshadweep"
 id: "state"
-layout: "state"
+type: "state"
 tags: ["States"] 
 ---
 

@@ -1,9 +1,10 @@
 {{ define "main" }}
+{{- .Scratch.Set "layout" "layouts/tour-ideas/single.html" -}}
 
 {{- $image := cond (isset .Params "image") ( .Params.image ) (.CurrentSection.Params.image) }}
         
-<section id="tours">
-  {{ partial "heading.html" (dict "dot" . "title" .Title ) }}
+<section id="{{ .Scratch.Get "id" | lower }}"> 
+  {{ partial "heading.html" . }}
   <div class="container">
     <div class="row">
       <div class="mx-auto w-50 p-1">

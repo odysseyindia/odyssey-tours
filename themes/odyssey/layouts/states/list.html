@@ -1,18 +1,45 @@
 {{- define "main" }}
-{{- .Scratch.Set "layout" "layouts/states/list.html" -}}
+{{- .Scratch.Set "layout" "layouts/states/list.html" }}
 
-{{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
+{{- $scratch := newScratch }}
 
-{{- if eq $id "state" }}
-  {{ partial "layouts/state.html" . }}
-{{- else if eq $id "city"}}
-  {{ partial "layouts/city.html" . }}
-{{- else if eq $id "cities"}}
-  {{ partial "layouts/cities.html" . }}
-{{- else if eq $id "hotels"}}
-  {{ partial "layouts/hotels.html" . }}
-{{- else }}
-  {{ partial "layouts/states.html" . }}
-{{- end }}
+<section id="{{ .Scratch.Get "id" | lower }}"> 
+  {{ partial "heading.html" . }}
+  <div class="container">
+    <div class="row">
+      <div class="col-8">
+        pending: map of India 
+        <div class="lg-map-wrapper" data-map="{{ $.Site.BaseURL }}/lg-map/india.js">
+          <div id="lg-map"></div>
+          <div class="lg-map-text"></div>
+        </div>
+      </div>
+      <div class="col-4">
+        <br>
+     {{ .Content }}
+      </div>
+    </div>
+  </div>
 
+  <div class="bg">
+    <div class="card-deck">
+      {{- range .Data.Pages -}}
+      <div class="card-holder">
+        <div class="card">
+          <div class="card-header">
+            {{ range first 1 (.Resources.ByType "image") }} 
+              <img class="lazyload" data-src="{{ .RelPermalink }}" alt="{{ substr .Title  0 -4 | humanize }}">
+            {{ end }}
+          </div>
+          {{- partial "card-body"   . }}
+        </div>
+      </div>   
+      {{- end }}
+    </div>
+  </div>
+  <div class="col-12">
+    {{- partial "pagination.html" . }}
+  </div>
+ 
+</section>
 {{- end }}

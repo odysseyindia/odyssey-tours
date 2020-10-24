@@ -1,14 +1,15 @@
-+++
-date = 2020-09-26T10:57:18Z
-id = "city"
-image = ""
-layout = "city"
-subtitle = ""
-tags = ["Cities","Delhi"]
-title = "Delhi"
-translationKey = "delhi"
-
-+++
+---
+date: 2020-09-26T10:57:18Z
+id: "city"
+layout: "city"
+subtitle: "The Capital City"
+tags: ["Cities","Delhi"]
+title: "Delhi"
+translationKey: "delhi"
+resources:
+- src: delhi.jpg
+  title : "New Delhi"
+---
 
 Old Delhi was the capital of Moghul India between the 12th and the 19th centuries. You will find here many mosques, monuments and forts of the Moghul period of India's history.
 

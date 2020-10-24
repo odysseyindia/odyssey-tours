@@ -1,19 +1,13 @@
-{{- .Scratch.Set "layout" "layouts/_default/hotel.html" -}}
-
 {{- define "main" }}
-
-{{"<!-- display city -->" | safeHTML}}
+{{- .Scratch.Set "layout" "layouts/_default/hotel.html" -}}
 
 {{- $image := cond (isset .Params "image") ( .Params.image ) (.CurrentSection.Params.image) }}
 
 <section id="{{ .Scratch.Get "id" | lower }}">  
-   <div class="hero hero-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('{{.Permalink }}{{ range $index, $e := .Params.carousel }}{{ if eq $index 0 }}{{ $e.url }}{{ end }}{{ end }}');" >
-  </div>
+  {{ partial "heading.html" . }}
   <div class="container">
     <div class="row">
       <div class="content mx-auto w-50 p-3">
-        <h2>{{ .Title }}</h2>
-          {{- with .Params.subtitle }}<h3>{{ . }}</h3>{{ end }}
         {{ .Content }}
       </div>
     </div>

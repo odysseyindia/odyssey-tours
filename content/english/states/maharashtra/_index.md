@@ -6,7 +6,7 @@ draft: false
 image: maharashtra.jpg
 translationkey: "maharashtra"
 id: "state"
-layout: "state"
+type: "state"
 tags: [States"] 
 ---
 

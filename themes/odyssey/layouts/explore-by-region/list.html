@@ -18,34 +18,34 @@
     </div>
   </div>
   <h2 class="where-to-go">Where would you like to go?</h2>
+  
+  {{"<!-- show the items -->" | safeHTML}}
   <div class="bg">
     <div class="card-deck">
-      <div class="row row-cols-1 row-cols-md-4">
-        {{"<!-- list items -->" | safeHTML }}
         {{ range .Data.Pages }}
-        <div class="col mb-4">
-          <div class="card h-100">
-            <!-- header -->  
-            <div class="card-header img-top">
-              <img class="lazyload" itemprop="image" data-src="{{ .Permalink }}{{ printf "%s.jpg" .Params.translationKey }}" alt="{{ .Title }}">
-            </div>
+        <div class="card-holder"> 
+          <div class="card">
+            {{ partial "card-header.html" . }}
             <!-- body -->
             <div class="card-body">
-              <h3 class="center"><a href="/regions/{{ path.Base .RelPermalink }}">{{ .Title }}</a></h3>     
+              <h3 class="card-title">
+                <a href="/regions/{{ path.Base .RelPermalink }}">{{ .Title }}</a>
+              </h3>     
               <div class="center">
                 <i class="icon-star"></i>
                 <i class="icon-star"></i>
                 <i class="icon-star"></i>
               </div>
-              {{ .Content }}
+              <p class="card-text">
+                  <span itemprop="description">{{ .Content }}</span>
+                </p>
             </div>
           </div>
         </div>
-        {{- end }}
-        {{"<!-- end list states -->" | safeHTML }}  
-      </div>
+        {{- end }} 
     </div>
   </div>
+
 </div>
 <div>&nbsp;<br>
 </div>

@@ -1,18 +1,9 @@
-{{- define "template" }}
-{{- if ne (getenv "HUGO_ENV") "production" -}}
-
-{{- partial "show-template" (dict "Which" .Kind "Template" "layouts/taxonomy/region.html") -}}
-
-{{- end }}
-{{- end }}
-
-{{- define "main" }}
-
-{{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
+{{ define "main" }}
+{{ .Scratch.Set "layout" "layouts/_default/region.terms.html" -}}
 
 {{- $pages := .Data.RegularPages }}
 
-<section id="tour-ideas"> 
+<section id="{{ .Scratch.Get "id" | lower }}"> 
   {{ partial "heading.html" . }}
 
   <div class="container">

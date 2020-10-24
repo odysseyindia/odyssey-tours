@@ -6,7 +6,7 @@ draft: false
 image: andaman-and-nicobar.jpg
 translationkey: "andaman-and-nicobar"
 id: "state"
-layout: "state"
+type: "state"
 tags: ["Andaman & Nicobar", "States"] 
 ---
 This string of more than 300 almost virgin islands lies quietly in the Andaman Sea, east of the Bay of Bengal, hardly touched by modern civilization.

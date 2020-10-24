@@ -21,6 +21,10 @@
    text-align: center;
 }
 
+h2 > span {
+font-size: 1rem;
+font-style: italic;
+}
   
 /* --- WIA ARIA --- */
 
@@ -101,25 +105,26 @@
 }
 
 
-/* button */
-.note{
+/* trips can be tailored */
+.note {
   display: flex;
   justify-content: center;
-  
-}
-
-.button {
-  flex-shrink: 1;
-  background-color: $primary;
-  padding: 10px 20px 10px 20px;
-  color: $white;
-  font-weight:600;
-  border-radius: 5px;
-  a {
-  color: white;
+  > .tailored {
+    flex-shrink: 1;
+    background-color: $primary;
+    padding: 10px 20px 10px 20px;
+    margin-top: 20px;
+    color: $white;
+    font-weight:600;
+    text-align: center;
+    border-radius: 5px;
+    a {
+      color: white;
+    }
   }
 }
 
+/* the development mode support bottom bar */
 .template {
   margin-bottom: 30px;
 }

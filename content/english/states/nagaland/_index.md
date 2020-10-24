@@ -6,7 +6,7 @@ draft: false
 image: nagaland.jpg
 translationkey: "nagaland"
 id: "state"
-layout: "state"
+type: "state"
 tags: ["States"] 
 ---
 

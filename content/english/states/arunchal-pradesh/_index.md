@@ -6,6 +6,6 @@ draft: true
 image: arunchal-pradesh.jpg
 translationkey: "arunchal-pradesh"
 id: "state"
-layout: "state"
+type: "state"
 tags: ["Arunchal Pradesh", "States"] 
 ---

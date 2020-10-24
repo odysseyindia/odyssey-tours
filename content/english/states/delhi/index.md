@@ -6,7 +6,7 @@ draft: false
 image: delhi.jpg
 translationKey: delhi
 id: state
-layout: "state"
+type: "state"
 tags: ["States"] 
 ---
 

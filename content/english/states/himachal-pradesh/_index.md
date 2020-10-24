@@ -6,7 +6,7 @@ draft: false
 image: himachal-pradesh.jpg
 translationkey: "himachal-pradesh"
 id: "state"
-layout: "state"
+type: "state"
 tags: ["States"] 
 ---
 Himachal Pradesh is India's most popular and easily accessible hill state. The snowy mountains and steep hillsides have ensured that the region has remained an idyllic place, little touched by the fast changing world around it.
