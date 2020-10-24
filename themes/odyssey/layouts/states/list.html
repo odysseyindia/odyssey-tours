@@ -43,3 +43,16 @@
  
 </section>
 {{- end }}
+{{- define "postscript" }}
+<!-- Map scripts -->
+<script src="/lg-map/raphael.js" ></script>
+<script src="/lg-map/scale.raphael.js"></script>
+<script src="/lg-map/lg-map.js" ></script>
+
+<script>
+define([ "/lg-map" ], function( Raphael ) {
+  console.log( Raphael );
+});
+</script>
+
+{{- end }}
