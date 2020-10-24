@@ -8,10 +8,12 @@
   <div class="container">
     <div class="row">
       <div class="col-8">
-        pending: map of India 
-        <div class="lg-map-wrapper" data-map="{{ $.Site.BaseURL }}/lg-map/india.js">
-          <div id="lg-map"></div>
-          <div class="lg-map-text"></div>
+        <div class="mapcontainer">
+            <div class="map">
+                <span>The map of India</span>
+            </div>
+            <div class="areaLegend"></div>
+            <div class="plotLegend"></div>
         </div>
       </div>
       <div class="col-4">
@@ -37,22 +39,62 @@
       {{- end }}
     </div>
   </div>
-  <div class="col-12">
-    {{- partial "pagination.html" . }}
-  </div>
  
 </section>
-{{- end }}
+{{ end}}
 {{- define "postscript" }}
-<!-- Map scripts -->
-<script src="/lg-map/raphael.js" ></script>
-<script src="/lg-map/scale.raphael.js"></script>
-<script src="/lg-map/lg-map.js" ></script>
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mapael/2.1.0/js/jquery.mapael.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="/mapael/india_states.js" charset="utf-8"></script>
 
 <script>
-define([ "/lg-map" ], function( Raphael ) {
-  console.log( Raphael );
-});
-</script>
+$(".mapcontainer").mapael(
+{
+    "map": {
+        "name" : "india_states",
+      //  "zoom": {
+      //      "enabled": true,
+      //      "maxLevel": 10,
+      //  }
+    }
+,areas: {
+
+{{- range .Data.Pages }}
+
+  "{{ .Title }}": {
+    attrs: {
+      fill: "green"
+    },
+    tooltip: {
+      content: "{{ .Title }}"
+    },
+    eventHandlers: {
+      click: function () {
+        var updatedOptions = {'areas': {}};
+
+        {{- range $.Data.Pages }}
+          updatedOptions.areas["{{ .Title }}"] = {
+             attrs:{fill:"green"}
+          }
+        {{- end }}
+        
+        updatedOptions.areas["{{ .Title }}"] = {
+          attrs:{fill:"red"}
+        }
+        $(".mapcontainer").trigger('update', [{
+          mapOptions: updatedOptions, 
+          animDuration: 300
+        }]);
+      }
+    }
+  },
 
 {{- end }}
+
+}
+});
+
+</script>
+{{ end }}

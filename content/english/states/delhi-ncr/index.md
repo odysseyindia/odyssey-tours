@@ -1,5 +1,5 @@
 ---
-title: "Delhi"
+title: "Delhi NCR"
 subtitle: "The Capital City"
 date: 2020-09-21T12:59:23+02:00
 draft: false
