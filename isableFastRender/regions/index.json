@@ -1,0 +1,83 @@
+{
+	"data": 
+
+ 	{     
+        "count" : "9"
+        ,"items" : [
+        
+            {
+    "title": 		"andaman-and-nicobar-islands",
+    "date": 		"2020-09-21 12:59:23 +0200 CEST",
+    "type": 		"regions",
+    "permalink": 	"//localhost:1313/regions/andaman-and-nicobar-islands/",
+    "content": 		""
+}
+        
+            , {
+    "title": 		"foothills-of-the-himalaya",
+    "date": 		"2020-09-21 12:59:23 +0200 CEST",
+    "type": 		"regions",
+    "permalink": 	"//localhost:1313/regions/foothills-of-the-himalaya/",
+    "content": 		""
+}
+        
+            , {
+    "title": 		"gujarat-and-central-india",
+    "date": 		"2020-09-21 12:59:23 +0200 CEST",
+    "type": 		"regions",
+    "permalink": 	"//localhost:1313/regions/gujarat-and-central-india/",
+    "content": 		""
+}
+        
+            , {
+    "title": 		"karnataka-and-tamil-nadu",
+    "date": 		"2020-09-21 12:59:23 +0200 CEST",
+    "type": 		"regions",
+    "permalink": 	"//localhost:1313/regions/karnataka-and-tamil-nadu/",
+    "content": 		""
+}
+        
+            , {
+    "title": 		"kerala",
+    "date": 		"2020-09-21 12:59:23 +0200 CEST",
+    "type": 		"regions",
+    "permalink": 	"//localhost:1313/regions/kerala/",
+    "content": 		""
+}
+        
+            , {
+    "title": 		"kolkata-and-the-east",
+    "date": 		"2020-09-21 12:59:23 +0200 CEST",
+    "type": 		"regions",
+    "permalink": 	"//localhost:1313/regions/kolkata-and-the-east/",
+    "content": 		""
+}
+        
+            , {
+    "title": 		"mumbai-goa-and-the-deccan",
+    "date": 		"2020-09-21 12:59:23 +0200 CEST",
+    "type": 		"regions",
+    "permalink": 	"//localhost:1313/regions/mumbai-goa-and-the-deccan/",
+    "content": 		""
+}
+        
+            , {
+    "title": 		"rajasthan-and-the-north",
+    "date": 		"2020-09-21 12:59:23 +0200 CEST",
+    "type": 		"regions",
+    "permalink": 	"//localhost:1313/regions/rajasthan-and-the-north/",
+    "content": 		""
+}
+        
+            , {
+    "title": 		"the-lakshadweep-islands",
+    "date": 		"2020-09-21 12:59:23 +0200 CEST",
+    "type": 		"regions",
+    "permalink": 	"//localhost:1313/regions/the-lakshadweep-islands/",
+    "content": 		""
+}
+        
+        ]
+    }
+
+}

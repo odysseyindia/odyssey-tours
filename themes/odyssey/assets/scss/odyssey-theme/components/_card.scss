@@ -1,5 +1,5 @@
 .bg {
-    background-color: lightslategrey;
+    background-color: $form;
     padding: 30px;
 }
 
@@ -53,7 +53,7 @@ img {
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .5);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
   text-align: center;
   background-color: $white; // #f1f1f1;
   padding: 5px;
@@ -79,3 +79,7 @@ img {
   padding: 0 10px 0px 10px;
   margin-bottom: 0;
 }
+
+.card:hover{
+    box-shadow: none;
+  }

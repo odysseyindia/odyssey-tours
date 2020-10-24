@@ -1,0 +1,38 @@
+{
+	"data": 
+
+ 	{     
+        "count" : "3"
+        ,"items" : [
+        
+            {
+    "title": 		"Raheem Residency",
+    "date": 		"2020-09-26 11:00:36 +0000 UTC",
+    "type": 		"states",
+    "permalink": 	"//localhost:1313/states/kerala/cities/alleppey/hotels/raheem-residency/",
+    "content": 		"A treasure-trove close to the beach, this colonial bungalow once hosted Mahatma Gandhi and Jawaharlal Nehru, and has been lovingly restored. The large house has just 4 rooms accessed from sunny corridors, a well-sized and quiet pool, and a grand lounge. Verandahs run almost the length of the house, and there are lovely, lazy nooks everywhere, and a restaurant with views of the sea and the lighthouse.
+"
+}
+        
+            , {
+    "title": 		"Kettuvallam (Houseboat)",
+    "date": 		"2020-09-26 11:00:08 +0000 UTC",
+    "type": 		"states",
+    "permalink": 	"//localhost:1313/states/kerala/cities/alleppey/hotels/kettuvallam-houseboat/",
+    "content": 		"One of the most tranquil and relaxing things you can do in India is to cruise through the backwaters in a Kerala houseboat, known as a kettuvallam. There is an open sitting area where you can relax and watch the world go by, sipping from a tender coconut and enjoying the sheer peace of the surroundings. Freshly cooked Indian food and chilled beer make the experience even more enjoyable.
+"
+}
+        
+            , {
+    "title": 		"Emerald Isle",
+    "date": 		"2020-09-26 10:59:43 +0000 UTC",
+    "type": 		"states",
+    "permalink": 	"//localhost:1313/states/kerala/cities/alleppey/hotels/emerald-isle/",
+    "content": 		"A wonderful old heritage home on Kerala&rsquo;s backwaters with a very friendly host who believes passionately in preserving his family&rsquo;s traditions. Time can be spent watching the toddy tappers climbing the tall trees, walking among the paddy fields or along the river banks, or rowing through the narrow canals in a country boat.
+"
+}
+        
+        ]
+    }
+
+}

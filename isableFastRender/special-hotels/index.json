@@ -1,11 +1,12 @@
 {
 	"data": 
-
- 	{     
-        "count" : "0"
-        ,"items" : [
-        
-        ]
-    }
+	{
+    "title": 		"Special hotels",
+    "date": 		"2020-09-21 12:59:23 +0200 CEST",
+    "type": 		"special-hotels",
+    "permalink": 	"//localhost:1313/special-hotels/",
+    "content": 		"We specialise in small, hand picked boutique hotels and hoestays - many of these are destinations in their own right. You can find here a list of the options across India.
+"
+}
 
 }

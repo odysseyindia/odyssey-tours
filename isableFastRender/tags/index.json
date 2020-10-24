@@ -2,7 +2,7 @@
 	"data": 
 
  	{     
-        "count" : "18"
+        "count" : "21"
         ,"items" : [
         
             {
@@ -70,18 +70,34 @@
 }
         
             , {
-    "title": 		"Agra",
-    "date": 		"2020-09-21 12:59:23 +0200 CEST",
+    "title": 		"Japur",
+    "date": 		"2020-09-26 10:56:32 +0000 UTC",
     "type": 		"tags",
-    "permalink": 	"//localhost:1313/tags/agra/",
+    "permalink": 	"//localhost:1313/tags/japur/",
     "content": 		""
 }
         
             , {
     "title": 		"Ahmedabad",
-    "date": 		"2020-09-21 12:59:23 +0200 CEST",
+    "date": 		"2020-09-26 10:48:07 +0000 UTC",
     "type": 		"tags",
     "permalink": 	"//localhost:1313/tags/ahmedabad/",
+    "content": 		""
+}
+        
+            , {
+    "title": 		"Gujarat",
+    "date": 		"2020-09-26 10:48:07 +0000 UTC",
+    "type": 		"tags",
+    "permalink": 	"//localhost:1313/tags/gujarat/",
+    "content": 		""
+}
+        
+            , {
+    "title": 		"Agra",
+    "date": 		"2020-09-21 12:59:23 +0200 CEST",
+    "type": 		"tags",
+    "permalink": 	"//localhost:1313/tags/agra/",
     "content": 		""
 }
         
@@ -106,6 +122,14 @@
     "date": 		"2020-09-21 12:59:23 +0200 CEST",
     "type": 		"tags",
     "permalink": 	"//localhost:1313/tags/jaipur/",
+    "content": 		""
+}
+        
+            , {
+    "title": 		"kerala",
+    "date": 		"2020-09-21 12:59:23 +0200 CEST",
+    "type": 		"tags",
+    "permalink": 	"//localhost:1313/tags/kerala/",
     "content": 		""
 }
         

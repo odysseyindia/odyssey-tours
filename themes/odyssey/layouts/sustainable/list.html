@@ -2,7 +2,7 @@
 {{- .Scratch.Set "layout" "layouts/sustainable/list.html" -}}
 
 <section id="{{ .Scratch.Get "id" | lower }}"> 
-  {{ partial "heading.html" (dict "dot" . "title" .Title ) }}
+  {{ partial "heading.html" . }}
   <div class="container">
     <div class="row">
       <div class="mx-auto w-50 p-3">
@@ -12,9 +12,9 @@
     </div>
   </div>
     <div class="tab-wrapper">
-      <nav class="nav flex-column flex-sm-row" >
+      <nav id="myTab" class="nav flex-column flex-sm-row" >
          
-          <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#principles">
+          <a id="principles" class="flex-sm-fill text-sm-center nav-link active" data-toggle="tab" href="#principles" >
             Our Principles
           </a>
           
@@ -31,36 +31,18 @@
           </a>
       </nav>
       <div class="tab-content">
-        <div id="principles" class="tab-pane ">
+        <div id="principles" class="tab-pane active">
           <div class="row">
             {{"<!-- show the items -->" | safeHTML}}
-            <div class="card-deck">
-              <div class="row row-cols-1 row-cols-md-4">
+            <div class="bg">
+              <div class="card-deck">
                 {{- range .Data.Pages }}
                 {{- if in .CurrentSection.Permalink  "our-principles" }}
                 {{- range .Data.Pages }}                
-                <div class="col mb-4">
-                  <div class="card h-100">
-                    <div class="card-img-top press-logo">
-                    {{- with .Resources.ByType "image" }}
-                      <div class="Image">
-                      {{- range $index,$img := . }}
-                      {{- if eq $index 0}}
-                        <img src="{{ $img.RelPermalink }}">
-                      {{- end }}
-                      {{- end }}
-                      </div>
-                    {{- end }}
-                    </div>      
-                    <div class="card-body">
-                      <h3 class="card-title">
-                        <a href="{{ .Permalink }}">{{ .Title }}</a>
-                      </h3>     
-                      <h4>{{ .Params.subtitle }}</h4> 
-                      <p class="card-text">
-                        <span itemprop="description">{{ .Content }}</span>
-                      </p>
-                    </div>
+                <div class="card-holder">
+                  <div class="card">
+                    {{ partial "card-header.html" .}}
+                    {{ partial "card-body.html" .}}
                   </div>
                 </div>                  
                 {{- end }}
@@ -73,33 +55,15 @@
         <div id="sustainably" class="tab-pane ">
            <div class="row">
             {{"<!-- show the items -->" | safeHTML}}
-            <div class="card-deck">
-              <div class="row row-cols-1 row-cols-md-4 mb-4">
+            <div class="bg">
+              <div class="card-deck">
                 {{- range .Data.Pages }}
                 {{- if in .CurrentSection.Permalink  "sustainably" }}
                 {{- range .Data.Pages }}                
-                <div class="col mb-4">
-                  <div class="card h-100">
-                    <div class="card-img-top press-logo">
-                    {{- with .Resources.ByType "image" }}
-                      <div class="Image">
-                      {{- range $index,$img := . }}
-                      {{- if eq $index 0}}
-                        <img src="{{ $img.RelPermalink }}">
-                      {{- end }}
-                      {{- end }}
-                      </div>
-                    {{- end }}
-                    </div>      
-                    <div class="card-body">
-                      <h3 class="card-title">
-                        <a href="{{ .Permalink }}">{{ .Title }}</a>
-                      </h3>     
-                      <h4>{{ .Params.subtitle }}</h4> 
-                      <p class="card-text">
-                        <span itemprop="description">{{ .Content }}</span>
-                      </p>
-                    </div>
+                <div class="card-holder">
+                  <div class="card ">     
+                    {{ partial "card-header.html" .}}
+                    {{ partial "card-body.html" .}}
                   </div>
                 </div>                  
                 {{- end }}
@@ -114,33 +78,15 @@
         <div id="giving-back" class="tab-pane ">
            <div class="row">
             {{"<!-- show the items -->" | safeHTML}}
-            <div class="card-deck">
-              <div class="row row-cols-1 row-cols-md-4">
+           <div class="bg">
+              <div class="card-deck">
                 {{- range .Data.Pages }}
                 {{- if in .CurrentSection.Permalink  "giving-back" }}
                 {{- range .Data.Pages }}                
-                <div class="col mb-4">
-                  <div class="card h-100">
-                    <div class="card-img-top press-logo">
-                    {{- with .Resources.ByType "image" }}
-                      <div class="Image">
-                      {{- range $index,$img := . }}
-                      {{- if eq $index 0}}
-                        <img src="{{ $img.RelPermalink }}">
-                      {{- end }}
-                      {{- end }}
-                      </div>
-                    {{- end }}
-                    </div>      
-                    <div class="card-body">
-                      <h3 class="card-title">
-                        <a href="{{ .Permalink }}">{{ .Title }}</a>
-                      </h3>     
-                      <h4>{{ .Params.subtitle }}</h4> 
-                      <p class="card-text">
-                        <span itemprop="description">{{ .Content }}</span>
-                      </p>
-                    </div>
+                <div class="card-holder">
+                  <div class="card">
+                    {{ partial "card-header.html" .}}
+                    {{ partial "card-body.html" .}}
                   </div>
                 </div>                  
                 {{- end }}
@@ -154,33 +100,15 @@
         <div id="covid" class="tab-pane ">
            <div class="row">
             {{"<!-- show the items -->" | safeHTML}}
-            <div class="card-deck">
-              <div class="row row-cols-1 row-cols-md-4">
+            <div class="bg">
+              <div class="card-deck">
                 {{- range .Data.Pages }}
                 {{- if in .CurrentSection.Permalink  "covid-19" }}
                 {{- range .Data.Pages }}                
-                <div class="col mb-4">
-                  <div class="card h-100">
-                    <div class="card-img-top press-logo">
-                    {{- with .Resources.ByType "image" }}
-                      <div class="Image">
-                      {{- range $index,$img := . }}
-                      {{- if eq $index 0}}
-                        <img src="{{ $img.RelPermalink }}">
-                      {{- end }}
-                      {{- end }}
-                      </div>
-                    {{- end }}
-                    </div>      
-                    <div class="card-body">
-                      <h3 class="card-title">
-                        <a href="{{ .Permalink }}">{{ .Title }}</a>
-                      </h3>     
-                      <h4>{{ .Params.subtitle }}</h4> 
-                      <p class="card-text">
-                        <span itemprop="description">{{ .Content }}</span>
-                      </p>
-                    </div>
+                <div class="card-holder">
+                  <div class="card">
+                    {{ partial "card-header.html" .}}
+                    {{ partial "card-body.html" .}}
                   </div>
                 </div>                  
                 {{- end }}
@@ -197,4 +125,16 @@
 </section>
 {{"<!-- end Content -->" | safeHTML}}
 {{- end }} 
+{{- define "postscript" }}
 
+<script>
+$('#myTab a[href="#principles"]').tab('show') 
+
+$('#myTab a').on('click', function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+</script>
+
+
+{{ end }}

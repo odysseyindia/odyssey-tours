@@ -12,7 +12,26 @@
   	</div>
 	</div>
 
+<style>
 
+  .card-holder: {
+    margin-top: 10px; 
+  }
+  .card {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .cardbody {
+  position: absolute;
+  background-color: black;
+  opacity: 0.5;
+  color: white;
+  font-weight: 600;
+  padding: 0 15px 0 15px;
+  z-index: 20;
+}
+</style>
   {{"<!-- show the items -->" | safeHTML}}
   <div class="bg">
     <div class="card-deck">
@@ -21,6 +40,9 @@
         <div class="card">
           <!-- header -->
           <div class="card-header">
+            <span class="cardbody">
+            {{ .Title }}
+          </span>
             {{ range (.Resources.ByType "image") }} 
             {{ if not (findRE "banner" .RelPermalink 1) }} 
             <a href="/interests/{{ (path.Base .RelPermalink) }}">
@@ -28,10 +50,9 @@
             </a> 
             {{ end }}
             {{ end }}   
-          </div>  
+           
           <!-- body -->    
-          <div class="card-body">
-        	  {{ .Title }}
+          
           </div>
           <!-- footer -->
         </div>
