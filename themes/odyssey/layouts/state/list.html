@@ -1,20 +1,20 @@
 {{- define "main" }}
 {{- .Scratch.Set "layout" "layouts/state/list.html" }}
 
-{{- $scratch := newScratch }}
-
 <section id="{{ .Scratch.Get "id" | lower }}"> 
   {{ partial "heading.html" . }}
   <div class="container">
     <div class="row">
-      <div class="col-8">
-        pending: map of India 
-        <div class="lg-map-wrapper" data-map="{{ $.Site.BaseURL }}/lg-map/india.js">
-          <div id="lg-map"></div>
-          <div class="lg-map-text"></div>
+      <div class="w-50">
+        <div class="mapcontainer">
+            <div class="map">
+                <span> </span>
+            </div>
+            <div class="areaLegend"></div>
+            <div class="plotLegend"></div>
         </div>
       </div>
-      <div class="col-4">
+      <div class="w-50">
         <br>
         {{ .Content }}
       </div>
@@ -43,3 +43,74 @@
  
 </section>
 {{- end }}
+{{- define "postscript" }}
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mapael/2.1.0/js/jquery.mapael.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="/mapael/india_states.js" charset="utf-8"></script>
+
+<script>
+$(".mapcontainer").mapael(
+{
+    "map": {
+        "name" : "india_states",
+          defaultPlot: {
+              attrs: {
+                  fill: "#004a9b"
+                  , opacity: 0.6
+              }
+              , attrsHover: {
+                  opacity: 1
+              }
+              , text: {
+                  attrs: {
+                      fill: "#505444"
+                  }
+                  , attrsHover: {
+                      fill: "#000"
+                  }
+              }
+          },
+          defaultArea: {
+              attrs: {
+                  fill: "#f4f4e8"
+                  , stroke: "black"
+              }
+              , attrsHover: {
+                  fill: "#a4e100"
+              }
+              , text: {
+                  attrs: {
+                      fill: "#505444"
+                  }
+                  , attrsHover: {
+                      fill: "#000"
+                  }
+              }
+          }
+    },
+    areas: {
+
+{{- range where (where .Site.Pages "Section" "states") ".Params.id" "state" -}}
+
+  "{{ .Title }}": {
+    text: {content: "{{ .Title }}", attrs: {"font-size": 24}},
+{{- if eq .Title $.Title }}
+attrs: {
+      fill: "red"
+    },
+{{- end }}
+    tooltip: {
+      content: "{{ .Title }}"
+    },
+    href: {{ .Permalink }},
+  },
+
+{{- end }}
+
+}
+});
+
+</script>
+{{ end }}

@@ -7,18 +7,19 @@
   {{ partial "heading.html" . }}
   <div class="container">
     <div class="row">
-      <div class="col-8">
+      <div class="col-xs-12 col-sm-12 col-md-6">
         <div class="mapcontainer">
             <div class="map">
                 <span>The map of India</span>
             </div>
             <div class="areaLegend"></div>
             <div class="plotLegend"></div>
+            <i>Click once for information, twice to visit the state</i>
         </div>
       </div>
-      <div class="col-4">
-        <br>
-     {{ .Content }}
+      <div class="col-xs-12 col-sm-12 col-md-6">
+        <div><h2 id="map-heading"></h2></div>
+        <div id="map-content">{{ .Content }}</div>
       </div>
     </div>
   </div>
@@ -57,15 +58,62 @@ $(".mapcontainer").mapael(
       //  "zoom": {
       //      "enabled": true,
       //      "maxLevel": 10,
-      //  }
-    }
-,areas: {
+      //  },
+          defaultPlot: {
+              attrs: {
+                  fill: "#004a9b"
+                  , opacity: 0.6
+              }
+              , attrsHover: {
+                  opacity: 1
+              }
+              , text: {
+                  attrs: {
+                      fill: "#505444"
+                  }
+                  , attrsHover: {
+                      fill: "#000"
+                  }
+              }
+          },
+          defaultArea: {
+              attrs: {
+                  fill: "#f4f4e8"
+                  , stroke: "black"
+              }
+              , attrsHover: {
+                  fill: "#a4e100"
+              }
+              , text: {
+                  attrs: {
+                      fill: "#505444"
+                  }
+                  , attrsHover: {
+                      fill: "#000"
+                  }
+              }
+          }
+    },
+    legend: {
+        area: {
+            mode: "horizontal",
+            title: "Double click to go to the state",
+            labelAttrs: {
+              "font-size": 12
+            },
+            marginLeft: 5,
+            marginLeftLabel: 5,
+        }
+    },
+    areas: {
 
+{{- $scratch := newScratch }}
 {{- range .Data.Pages }}
 
   "{{ .Title }}": {
+    text: {content: "{{ .Title }}", attrs: {"font-size": 24}},
     attrs: {
-      fill: "green"
+      fill: "#f4f4e8"
     },
     tooltip: {
       content: "{{ .Title }}"
@@ -74,9 +122,15 @@ $(".mapcontainer").mapael(
       click: function () {
         var updatedOptions = {'areas': {}};
 
-        {{- range $.Data.Pages }}
+          {{- $scratch.Set "state" .Title }}
+          {{- range $.Data.Pages }}
+          {{- if eq .Title ($scratch.Get "state") }}
+          document.getElementById('map-heading').innerHTML = "{{ .Title }}";
+          document.getElementById('map-content').innerHTML = "{{ .Content }}";
+          {{- end }}
+
           updatedOptions.areas["{{ .Title }}"] = {
-             attrs:{fill:"green"}
+             attrs:{fill:"#f4f4e8"}
           }
         {{- end }}
         
@@ -87,6 +141,9 @@ $(".mapcontainer").mapael(
           mapOptions: updatedOptions, 
           animDuration: 300
         }]);
+      },
+      dblclick: function (e, id, mapElem, textElem) {
+        window.location.href = {{ .Permalink }};
       }
     }
   },
@@ -95,6 +152,7 @@ $(".mapcontainer").mapael(
 
 }
 });
+
 
 </script>
 {{ end }}
