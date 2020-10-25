@@ -1,6 +1,6 @@
 baseURL 				        = "/"
 title 					        = "Odyssey Tours"
-theme                   = ["odyssey","hugo-module-img-srcset"]
+theme                   = ["odyssey"] # ,"hugo-module-img-srcset"]
 paginate 				        = "50"
 summaryLength 			    = "15"
 disqusShortname 		    = "" # get your shortname form here : https://disqus.com
