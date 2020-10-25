@@ -23,15 +23,16 @@
 {{- $scss := printf "scss/main/%s.scss" $id -}}
 
 {{- if fileExists (printf "assets/%s" $scss) -}}
+
   {{- $style := resources.Get $scss | toCSS | minify -}}
 
   <script>
   (function() {
-    var cssMain  = document.createElement('link');
-    cssMain.href = "{{ $style.Permalink }}";
-    cssMain.rel  = 'stylesheet';
-    cssMain.type = 'text/css';
-    document.getElementsByTagName('head')[0].appendChild(cssMain);
+    var cssPage  = document.createElement('link');
+    cssPage.href = "{{ $style.Permalink }}";
+    cssPage.rel  = 'stylesheet';
+    cssPage.type = 'text/css';
+    document.getElementsByTagName('head')[0].appendChild(cssPage);
   })();
   </script>
 {{- end -}}

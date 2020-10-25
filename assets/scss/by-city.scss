@@ -1,0 +1,33 @@
+#by-city {
+	
+	.bg {
+		background-color: beige;
+	}
+	
+	.subtitle {
+		display: none;
+	}
+
+	.mx-auto.w-50 {
+		text-align: center; 
+	}
+
+	label {
+  		text-align: left;  
+  	}
+
+   	.form-control {
+	    background-color: white;
+	    border-radius: 0;
+	    padding: 5px 10px;
+	    border: 1px solid $secondary;
+	    color: $body;
+	    display: initial;
+	    margin: 20px;
+	}
+
+   	select {
+    	color:$body;
+    	width: 150px;
+	}
+}

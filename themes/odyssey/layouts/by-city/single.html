@@ -1,0 +1,64 @@
+{{ define "main" }}
+{{ .Scratch.Set "layout" "layouts/by-city/single.html" -}}
+
+<section id="{{ .Scratch.Get "id" | lower }}"> 
+	{{ partial "heading.html" . }}
+	<div class="container">
+		
+			<div class="mx-auto w-50 p-1">
+				{{ .Content }}      
+			
+			<form>
+			<div class="center>">
+				<label>Seach by name</label>
+				<select class="form-control" id="name" name="name">
+					{{ range ( sort (where (where .Site.Pages "Section" "states") ".Params.id" "city") ".Title" "asc" ) }}	
+    	            <option value="{{ .RelPermalink }}">{{ .Title }}</option>
+            	    {{ end }}
+	            </select> 
+			</div>
+
+
+			<div class="center>">
+				<label>Seach by interest</label>
+				<select class="form-control" id="interest" name="interest">
+					{{ range where .Data.Pages "Section" "interest" }}	
+    	            <option value="{{ .RelPermalink }}">{{ .Title }}</option>
+            	    {{ end }}
+	            </select> 
+			</div>
+			</form>
+</div>
+	</div>
+			{{- "<!-- items -->" | safeHTML }}
+			<div class="bg"> 
+				<div>
+				<h2 class="center">Popular places to visit in India</h2>
+				<div class="container">
+				<p class="center">Featuring heavily on our itinerary ideas for visiting India, these places are destinations that we know prove consistently popular with our travellers. How you choose to include them in your trip can be tailored into a route that best suits your preferences.</p>
+				</div>
+			</div>
+			<div class="card-deck">
+				{{- range .Params.cities }}
+				{{- with $.Site.GetPage . }}
+				<div class="card-holder">
+					<div class="card">
+						<!-- header -->
+						{{- partial "card-header.html" . -}}
+						<!-- body -->
+						<div class="card-body">
+						    <h3 class="card-title">
+						      	<a href="{{ .Permalink }}">{{ .Title }}</a>
+						    </h3>
+						</div>
+						<!-- no footer -->
+					</div>
+				</div>
+				{{ end }}
+				{{ end }}
+			</div>
+		</div>
+	</div>
+	{{ partial "can-be-tailored.html" . }}
+</section>
+{{ end }}
