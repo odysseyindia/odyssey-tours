@@ -1,6 +1,8 @@
 {{- define "main" }}
 {{- .Scratch.Set "layout" "layouts/explore-by-region/list.html" }}
 
+{{- $month := index .Site.Data "date" }}
+
 <section id="{{ .Scratch.Get "id" | lower }}"> 
   {{ partial "heading.html" . }}
   <div class="container">
@@ -16,8 +18,8 @@
         </div>
       </div>
     </div>
+    <h2 class="where-to-go">Where would you like to go?</h2>
   </div>
-  <h2 class="where-to-go">Where would you like to go?</h2>
   
   {{"<!-- show the items -->" | safeHTML}}
   <div class="bg">
@@ -46,34 +48,62 @@
     </div>
   </div>
 
-</div>
-<div>&nbsp;<br>
-</div>
-  <div class="row bg2">
-    <h3 class="footnote">All our trips can be tailored to your needs!</h3>
-    <h4 class="footnote">Tell us your travel plans and a specialist will be in touch</h4>
-    <div class="footnote">
-        <div>
-          <input name="region" placeholder="Region">
-        </div>
-        <div>
-          <input name="interest" placeholder="Interest">
-        </div>
-        <div>
-          <input name="month" placeholder="Month of travel">
-        </div>
-        <div>
-          <input name="number" placeholder="Number of people">
-        </div>
-        <div>
-          <input name="email" placeholder="Email id">
-        </div> 
+  <div>&nbsp;</div>
+
+  <div id="footnote" class="row bg2">
+    <h3>All our trips can be tailored to your needs!</h3>
+    <h4>Tell us your travel plans and a specialist will be in touch</h4>
+    <form id="formContact" name="contact-form" class="contact-form form-hover" method="post" netlify-honeypot="bot-field">
+    <div class="bot">
+      <label>Don't fill this out if you are human: </label>
+      <input name="bot-field" />
+    </div>
+    <div class="wrapper">
+      <div>
+        <label for="interest">Interest</label>
+        <select name="interest" required>
+          <option value="">Interest</option>
+          {{- range (where .Site.RegularPages "Section" "experience") }}
+          {{- if in (.Permalink | string) "by-interest" }} 
+          <option value="{{ .RelPermalink }}">{{ .Params.translationKey }} </option>
+          {{- end }} 
+          {{- end }} 
+        </select>
+      </div>
+      <div>
+        <label for="region">Region</label>
+        <select name="region" required>
+          <option value="">Region</option>
+          {{- range (where .Site.RegularPages "Section" "explore-india") }}
+          {{- if in .Permalink "by-region" }} 
+          <option value="{{ .RelPermalink }}">{{ .Params.translationKey }} </option>
+          {{- end }}
+          {{- end }}
+        </select>
+      </div>
+      <div>
+        <label for="month">Month</label>
+        <select name="month" required>
+          <option value="">Month</option>
+          {{- range $month.month_names }}
+          <option value="{{ . }}">{{ . }} </option>
+          {{- end }}
+        </select>
+      </div>
+      <div>
+        <label for="number">Number of people</label>
+        <input class="number" name="number" placeholder="Number of people" required>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input class="email" name="email" placeholder="Email id" required>
+      </div> 
     </div>
     <div class="submit">
-      <a class="button">Submit</a>
+      <button type="submit" id="contact-submit" class="btn btn-primary" aria-label="menu" value="Submit">Submit</button>
     </div>
-  </div>
-  <div>&nbsp;<br>
+  </form>
+  <div>&nbsp;</div>
 </section>
 
 {{- end }}
@@ -83,6 +113,43 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZ1TWStdIWQYeNDBKpE6SgJSEd4EerEdg&amp;callback=initMap" async="" defer=""></script>
 {{- $js := resources.Get "/js/region.js" -}}
 <script src="{{ $js.RelPermalink }}" defer></script>
+
+<script>
+
+// email confirmation message 
+formContact.onsubmit = async (e) => {
+    
+  e.preventDefault();
+
+  formData = new FormData(formContact);
+  var object = {};
+  formData.forEach((value, key) => {
+      // Reflect.has in favor of: object.hasOwnProperty(key)
+      if(!Reflect.has(object, key)){
+          object[key] = value;
+          return;
+      }
+      if(!Array.isArray(object[key])){
+          object[key] = [object[key]];    
+      }
+      object[key].push(value);
+  });
+  var json = JSON.stringify(object);
+
+  let response = await fetch('/.netlify/functions/tour-enquiry', {
+      method: 'POST',
+      body: json
+  });
+
+  let result = await response.json();
+    
+  if (result.result == 200){
+    window.location.href = "/contact/thank-you";
+  }
+};
+
+</script> 
+
 
 {{- end }}
 

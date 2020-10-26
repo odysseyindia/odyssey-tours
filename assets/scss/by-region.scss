@@ -30,14 +30,25 @@
 	}
 	.bg2 {
 		background-color: lightslategrey;
+
 	}
-	h3.footnote, h4.footnote {
+	
+	#footnote > h3, #footnote > h4 {
 		text-align: center;
 		width: 100%;
-		padding-top: 20px;
 		color: white;
 	}
-	.footnote{
+	#footnote > h3 {
+		padding-top: 20px;
+	}
+	#footnote > h4 {
+		padding-top: 0px;
+		margin-bottom: 40px;
+	}
+	label {
+	  visibility: hidden;
+	}
+	.wrapper{
 		display: flex;
 		flex-direction: row;
 		flex-wrap: nowrap;
@@ -45,17 +56,24 @@
 		width: 100%;
 		margin-bottom: 30px;
 	}
+
 	.submit {
 		text-align: center;
 		width: 100%;
 	}
-	.button{
-		border-radius: 0;
+	button{
 		color: white;
+		background-color: $primary;
+		padding: 10px 20px 10px 20px;
+		border: solid 1px $secondary;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
 	}
 	section {
 		padding-bottom: 30px;
 	}
+
+	.bot{
+    display: none; }
 
 /* end */
 }
