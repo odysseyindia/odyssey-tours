@@ -2,36 +2,17 @@
 {{- .Scratch.Set "layout" "layouts/by-interest/list.html" -}}
 
 <section id="{{ .Scratch.Get "id" | lower }}"> 
-	{{ partial "heading.html" (dict "dot" . "title" .Title ) }}
+	{{ partial "heading.html" . }}
 	<div class="container">
   	<div class="row">
     		<div class="mx-auto w-50 p-3">
       	{{ with .Params.subtitle }}<h3>{{ . }}</h3>{{ end }}
-      	{{ .Content }}
+      	{{ .Content }}    
+
     		</div>
   	</div>
 	</div>
 
-<style>
-
-  .card-holder: {
-    margin-top: 10px; 
-  }
-  .card {
-    padding: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  .cardbody {
-  position: absolute;
-  background-color: black;
-  opacity: 0.5;
-  color: white;
-  font-weight: 600;
-  padding: 0 15px 0 15px;
-  z-index: 20;
-}
-</style>
   {{"<!-- show the items -->" | safeHTML}}
   <div class="bg">
     <div class="card-deck">
@@ -45,21 +26,16 @@
           </span>
             {{ range (.Resources.ByType "image") }} 
             {{ if not (findRE "banner" .RelPermalink 1) }} 
-            <a href="/interests/{{ (path.Base .RelPermalink) }}">
+            <a href="/experience/by-interest/{{ replace (path.Base .RelPermalink) ".jpg" "" }}">
             <img class="lazyload" itemprop="image" data-src="{{ .RelPermalink }}" alt="{{ substr .Title  0 -4 | humanize }}">
             </a> 
             {{ end }}
-            {{ end }}   
-           
-          <!-- body -->    
-          
+            {{ end }}         
           </div>
-          <!-- footer -->
         </div>
       </div> 
      	{{- end }}
     </div>
   </div>
-  {{"<!-- end of the items -->" | safeHTML}}
-</section>
+ </section>
 {{- end }}

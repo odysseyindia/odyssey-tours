@@ -14,13 +14,7 @@
     	</div>
   	</div>
 
-  	<!--
-  <div class="container">
-    <div class="row">
-      <div class="topbar">Filters</div>
-    </div>
-  </div>   
-	-->
+  	
     <div id="main">
        	<div class="row">
        		{{ partial "filter-hotels.html" (dict "dot" . "hotels" $hotels ) }}
@@ -28,6 +22,7 @@
           		<div class='hotels'> 
 		          	{{"<!-- items -->" | safeHTML }}
 					<div class="hotel-list listing-style3 hotel">
+
 					    {{ range $i,$e := $hotels }}    
 					       <article dataRating={{ with .Params.rating }}"{{ . }}"{{ else }}"1"{{ end }} city="{{ .CurrentSection.Parent.Title }}">
 					          <div class="article-image">
@@ -58,6 +53,7 @@
 					            </div>
 					          </div>
 					        </article>
+					        
 					    {{- end }}
 					</div>
 					{{"<!-- end items -->" | safeHTML }}

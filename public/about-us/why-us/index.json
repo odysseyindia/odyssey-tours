@@ -1,0 +1,47 @@
+{
+	"data": 
+
+ 	{     
+        "count" : "4"
+        ,"items" : [
+        
+            {
+    "title": 		"Handpicked Accommodation",
+    "date": 		"2020-09-21 12:59:23 +0200 CEST",
+    "type": 		"about-us",
+    "permalink": 	"/about-us/why-us/handpicked-accommodation/",
+    "content": 		"We are NOT a listing website. Out of the thousands of hotels that India offers, we have zeroed in on only a few hundred that we feel are unique in some way. These special places may differ in standard and price from moderate to luxury but they all guarantee a memorable experience.
+"
+}
+        
+            , {
+    "title": 		"Local knowledge",
+    "date": 		"2020-09-21 12:59:23 +0200 CEST",
+    "type": 		"about-us",
+    "permalink": 	"/about-us/why-us/local-knowledge/",
+    "content": 		"We believe that your trip should be truly unforgettable, so we don&rsquo;t take any chances. We have personally visited each and every village, town, city and hotel featured on the website. Our personal visits have given us an insight into these places, revealing their individual quirks and peculiarities.
+"
+}
+        
+            , {
+    "title": 		"Safety and Trust",
+    "date": 		"2020-09-21 12:59:23 +0200 CEST",
+    "type": 		"about-us",
+    "permalink": 	"/about-us/why-us/safety-and-trust/",
+    "content": 		"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+"
+}
+        
+            , {
+    "title": 		"Tailored to Your Interests",
+    "date": 		"2020-09-21 12:59:23 +0200 CEST",
+    "type": 		"about-us",
+    "permalink": 	"/about-us/why-us/tailored-to-your-interests/",
+    "content": 		"We believe that travel is an extremely personal experience. You choose how and where you want to go and have a chance to be intensely involved in designing the perfect trip. After all, a really enjoyable and memorable holiday is one that centres around your interests, tastes, expectations and budget. Whether you want to concentrate on culture or adventure, action or relaxation, we will help you create your own unique holiday by combining our ideas with your preferences.
+"
+}
+        
+        ]
+    }
+
+}

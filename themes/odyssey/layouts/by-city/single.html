@@ -10,25 +10,25 @@
 			
 			<form>
 			<div class="center>">
-				<label>Seach by name</label>
-				<select class="form-control" id="name" name="name">
-					{{ range ( sort (where (where .Site.Pages "Section" "states") ".Params.id" "city") ".Title" "asc" ) }}	
-    	            <option value="{{ .RelPermalink }}">{{ .Title }}</option>
-            	    {{ end }}
-	            </select> 
+				<label>Seach by city</label>
+				<select class="form-control" id="name" name="name" onchange="myRelocation(this.value)">
+					{{ range ( sort (where (where .Site.Pages "Section" "states") ".Params.id" "city") ".Title" "asc" ) }}
+    	    <option value="{{ .RelPermalink }}">{{ .Title }}</option>
+          {{ end }}
+	      </select> 
 			</div>
-
 
 			<div class="center>">
 				<label>Seach by interest</label>
-				<select class="form-control" id="interest" name="interest">
-					{{ range where .Data.Pages "Section" "interest" }}	
-    	            <option value="{{ .RelPermalink }}">{{ .Title }}</option>
-            	    {{ end }}
-	            </select> 
+				<select class="form-control" id="interest" name="interest" onchange="myRelocation(this.value)">
+					{{ range ( sort (where (where .Site.Pages "Section" "experience") ".Params.id" "interest") ".Title" "asc" ) }}
+    	    <option value="{{ .RelPermalink }}">{{ .Title }}</option>
+          {{ end }}
+	      </select> 
 			</div>
+
 			</form>
-</div>
+		</div>
 	</div>
 			{{- "<!-- items -->" | safeHTML }}
 			<div class="bg"> 
@@ -61,4 +61,14 @@
 	</div>
 	{{ partial "can-be-tailored.html" . }}
 </section>
+{{ end }}
+{{ define "postscript" }}
+
+<script>
+function myRelocation(url){
+ 	window.location.href = url;
+}
+
+</script>
+
 {{ end }}

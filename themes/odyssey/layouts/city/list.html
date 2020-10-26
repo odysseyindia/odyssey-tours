@@ -46,7 +46,7 @@
           </a>
       </nav>
       <div class="tab-content">
-        <div id="things-to-do" class="tab-pane ">
+        <div id="things-to-do" class="tab-pane active">
           <div class="row">
             {{- range .Data.Pages }}
             {{- range .Data.Pages }}
@@ -132,17 +132,8 @@
 
         <div id="itineraries" class="tab-pane ">
           <div class="row">   
-            {{ $section := where $.Site.RegularPages "Section" "tour-ideas"}}
-            {{- range $section }}
-            <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-            <div class="w-50">
-              <p class="left">{{ .Summary  }}</p>
-            </div>
-            <div class="w-50"> 
-              <img src="{{ .Permalink }}{{ .Params.image }}">
-            </div>
-            <hr>
-            {{- end }}
+            {{ $pages := where $.Site.RegularPages "Section" "tour-ideas"}}
+            {{- partial "tour-listing.html" (dict "pages" $pages ) }}
           </div>
         </div>
       </div> 
@@ -170,6 +161,17 @@ function initMap() {
     map: map,
   });
 }
+
+</script>
+
+<script>
+$('#myTab a[href="#things-to-do"]').tab('show') 
+
+$('#myTab a').on('click', function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
 </script>
 
 {{- end }}
+

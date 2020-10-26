@@ -121,5 +121,87 @@ hr {
   /* The width is the width of the web page */
 }
 
+/* itinerary */
+
+
+
+.itineraries {
+  margin: 10px 10px 10px 0;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  border: solid 1px $primary;
+  padding: 5px;
+  margin-top: 10px;
+  background-color: $white;
+}
+
+.article {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  padding: 5px;
+  margin: 0;
+  background-color: $white;
+  flex-grow: 1;
+}
+
+.article-image {
+  width:30%;
+  padding-right: 5px;
+  flex-grow: 1;
+}
+
+.article-details {
+  flex-grow: 1;
+  h4 {
+    margin-bottom: 0 ;
+  }
+  h5 {
+    font-style: italic;
+    color: $primary;
+  }
+}
+
+.hover-effect {
+  color: $primary;
+}
+
+.article-pricing{
+  width:20%;
+  padding-left: 5px;
+  text-align: center;
+}
+
+
+.days {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.price {
+  font-size: 1.5rem;
+  color: $primary;
+  font-weight: 600;
+}
+
+.request {
+  border: solid 1px $secondary;
+  margin-bottom:5px;
+  a {
+    color: $primary;
+  }
+}
+
+
+.ul{
+  text-align: left;
+}
+
 
 }

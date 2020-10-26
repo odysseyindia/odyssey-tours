@@ -5,6 +5,7 @@ date: 2020-09-21T12:59:23+02:00
 translationKey: "family"
 interests: "family"
 type: "explore-by-interest"
+id: interest
 ---
 Family travel has come a long way: no longer are mere swimming pools or beaches alone enough for the more active and curious children of today. The 'smart generation' wants adventure, exotic locales, wildlife and castles and mysterious forts, too.
 

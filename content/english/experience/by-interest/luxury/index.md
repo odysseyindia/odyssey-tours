@@ -5,6 +5,8 @@ date: 2020-09-21T12:59:23+02:00
 translationKey: "luxury"
 interests: "luxury"
 type: "explore-by-interest"
+id: interest
+
 ---
 Luxury, like beauty, is in the eye of the beholder. For some it may be the mod-cons in opulent surroundings at top dollar, for some others it can be a place to stay with oodles of history, for some, privacy is the clincher.
 
