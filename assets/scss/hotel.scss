@@ -7,6 +7,64 @@
     font-family: var(--font-secondary);
   } 
 
-  
-    
+/* tab pages */
+  .navbar-toggler-icon {
+    height:0; 
+    }
+
+  .nav-tabs {
+    background-color: $white; 
+    border-bottom: 0;
+    }
+
+  .nav-tabs .nav-link {
+    border-right: 1px solid $secondary;
+    border-left:  1px solid $secondary;
+    border-top:   1px solid $secondary; 
+    }
+
+  .nav-link.active {
+    color: $secondary;
+    background-color: $form;
+    .tab-content > .tab-pane {
+      display: block;
+    }
+  }
+
+a.nav-link {
+    color: $secondary;
+    font-size: 1rem; 
+    border-left: 1px solid $primary;
+    border-right: 1px solid $primary;
+    border-top: 1px solid $primary;
+  }
+
+  .tab-content {
+    background-color: $form;
+    padding: 20px; 
+  }
+
+  ul.bg {
+    background-color: $form; 
+  }
+
+  ul.nav.nav-tabs {
+    margin-bottom: 0;
+    background-color: $white; 
+  }
+
+  .tab-wrapper {
+    padding: 5px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    text-align: center; 
+    background-color: $white;
+  }
+
+@media screen and (max-width: 760px) { 
+  .nav {
+    flex-direction: column;
+  }
+}
+
 }

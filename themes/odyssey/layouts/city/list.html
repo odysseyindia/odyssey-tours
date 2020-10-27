@@ -6,8 +6,11 @@
   {{ partial "heading.html" . }}
   <div class="container">
     <div class="row">
-      <div class="mx-auto w-50 p-3">
+      <div class="w-50 p-3">
         {{ .Content }}
+      </div>
+      <div class="w-50 p-3">
+        <div id="map"></div>
       </div>
     </div>
     <div class="tab-wrapper">
@@ -20,7 +23,7 @@
           {{- end }}
           {{- end }}
           {{ if eq ($scratch.Get "excursions") 1 }}
-          <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#things-to-do">
+          <a class="flex-sm-fill text-sm-center nav-link active" data-toggle="tab" href="#things-to-do">
             <i class="icon-camera"></i> Things to Do
           </a>
           {{- end }}
@@ -33,101 +36,52 @@
           {{- end }}
           {{- end }}
           {{ if eq ($scratch.Get "hotels") 1 }}
-          <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#hotel-options">
+          <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#hotels">
             <i class="icon-bed"></i> Hotel Options
           </a>
           {{- end }}
           <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#map">
             <i class="icon-globe"></i> Map
           </a>
-        
           <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#itineraries">
             <i class="icon-emo-happy"></i> Suggested Itineraries
           </a>
       </nav>
       <div class="tab-content">
+
         <div id="things-to-do" class="tab-pane active">
           <div class="row">
+            <div class="mx-auto w-50 p-3">
             {{- range .Data.Pages }}
             {{- range .Data.Pages }}
             {{- if in .CurrentSection.Permalink  "excursions" }}
-            <h4>{{ .Title }}</h4>
-            <div class="w-50">
+              <article>
+              <h4>{{ .Title }}</h4>
               <p class="left">{{ .Content  }}</p>
+              {{- with .Resources.ByType "image" }}   
+              {{- partial "image-box.html" (dict "images" . ) }}
+              {{- end }}
+              </article>
+            {{- end }}
+            {{- end }}
+            {{- end }}
             </div>
-            <div class="w-50">
-              {{"<!-- Images -->" | safeHTML}}
-              {{- $scratch.Set "permalink" .Permalink }}
-              <div class="image-box">
-                {{- range $index, $e := .Params.carousel }}
-                {{- if eq $index 0 }} 
-                <div class="main-image"> 
-                  <img src="{{ $scratch.Get "permalink" }}{{ $e.url }}">
-                </div>
-                {{- end }}
-                {{- end }}
-                <div class="image-box-red">
-                  {{- range $index, $e := .Params.carousel }}
-                  {{- if ne $index 0 }}     
-                  <div>
-                    <img src="{{ $scratch.Get "permalink" }}{{ $e.url }}">
-                  </div>
-                  {{- end }}
-                  {{- end }}
-                </div>
-              </div>
-              {{"<!-- end Images -->" | safeHTML}}
-            </div>
-            <hr>
-            {{- end }}
-            {{- end }}
-            {{- end }}
           </div>
         </div>
 
-        <div id="hotel-options" class="tab-pane ">
+        <div id="hotels" class="tab-pane ">
           <div class="row">
-
+             <div class="mx-auto w-50 p-3">
             {{- range .Data.Pages }}
-            {{- range .Data.Pages }}
-            {{- if in .CurrentSection.Permalink  "hotels" }}
-            <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-            <div class="w-50">
-              <p class="left">{{ .Content  }}</p>
-            </div>
-            <div class="w-50">
-              {{"<!-- Images -->" | safeHTML}}
-              {{- $scratch.Set "permalink" .Permalink }}
-              <div class="image-box">
-                {{- range $index, $e := .Params.carousel }}
-                {{- if eq $index 0 }} 
-                <div class="main-image"> 
-                  <img src="{{ $scratch.Get "permalink"}}{{ $e.url }}">
-                </div>
-                {{- end }}
-                {{- end }}
-                <div class="image-box-red">
-                  {{- range $index, $e := .Params.carousel }}
-                  {{- if ne $index 0 }}     
-                  <div>
-                    <img src="{{ $scratch.Get "permalink"}}{{ $e.url }}">
-                  </div>
-                  {{- end }}
-                  {{- end }}
-                </div>
-              </div>
-              {{"<!-- end Images -->" | safeHTML}}
-            </div>
-            <hr>
+            {{- $pages := .Data.Pages }}
+            {{- partial "hotel-listing.html" (dict "pages" $pages) }}
             {{- end }}
-            {{- end }}
-            {{- end }}
+          </div>
           </div>
         </div>
 
-        <div id="map" class="tab-pane ">
-          <div id="gmap"></div>
-        
+        <div id="xmap" class="tab-pane ">
+          <div id="xgmap"></div>
         </div>
 
         <div id="itineraries" class="tab-pane ">
@@ -165,7 +119,6 @@ function initMap() {
 </script>
 
 <script>
-$('#myTab a[href="#things-to-do"]').tab('show') 
 
 $('#myTab a').on('click', function (e) {
   e.preventDefault()

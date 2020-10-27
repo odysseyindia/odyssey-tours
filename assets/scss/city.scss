@@ -18,23 +18,7 @@
 	  width: 50px;
 	}
 
-	h2 {
-    margin-bottom: 0;
-	}
-
-	h3 {
-		text-align: center;
-		font-style: italic;
-		margin-bottom: 20px;
-	}
-
-  h4, h4 a {
-    text-align: center;
-    font-style: italic;
-    color: $primary; 
-    width: 100%;
-  }
-
+	
   p {
     text-align: left;
     padding-left: 20px;
@@ -97,9 +81,7 @@
     background-color: $white;
   }
 
-  li {
-    font-size: 1.2rem; 
-  }
+ 
 
 @media screen and (max-width: 760px) { 
   .nav {
@@ -112,95 +94,129 @@ hr {
   width: 100%;
 }
 
-/* Google Map */
+
+#things-to-do {
+
+  article {
+    border: solid 1px $secondary;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px 20px 0 20px;
+  }
+}
   
- #map {
+#map {
   height: 400px;
   /* The height is 400 pixels */
   width: 100%;
   /* The width is the width of the web page */
 }
 
-/* itinerary */
+#itineraries {
 
-
-
-.itineraries {
-  margin: 10px 10px 10px 0;
-}
-
-article {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  border: solid 1px $primary;
-  padding: 5px;
-  margin-top: 10px;
-  background-color: $white;
-}
-
-.article {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  flex-wrap: nowrap;
-  padding: 5px;
-  margin: 0;
-  background-color: $white;
-  flex-grow: 1;
-}
-
-.article-image {
-  width:30%;
-  padding-right: 5px;
-  flex-grow: 1;
-}
-
-.article-details {
-  flex-grow: 1;
+  .itineraries {
+    margin: 10px 10px 10px 0;
+  }
+  h3, h4.highlights {
+    color: $black;
+    text-align: left;
+  }
   h4 {
-    margin-bottom: 0 ;
+    color: $primary;
+    text-align: left;
   }
-  h5 {
-    font-style: italic;
+  article {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border: solid 1px $primary;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: $white;
+  }
+
+  .article {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    padding: 5px;
+    margin: 0;
+    background-color: $white;
+    flex-grow: 1;
+  }
+
+  .article-image {
+    width:30%;
+    padding-right: 5px;
+    flex-grow: 1;
+  }
+
+  .article-details {
+    flex-grow: 1;
+  }
+
+  .hover-effect {
     color: $primary;
   }
-}
 
-.hover-effect {
-  color: $primary;
-}
+  .article-pricing{
+    width:20%;
+    padding-left: 5px;
+    text-align: center;
+  }
 
-.article-pricing{
-  width:20%;
-  padding-left: 5px;
-  text-align: center;
-}
+  .days {
+    text-transform: uppercase;
+    font-size: 1rem;
+  }
 
-
-.days {
-  text-transform: uppercase;
-  font-size: 1rem;
-}
-
-.price {
-  font-size: 1.5rem;
-  color: $primary;
-  font-weight: 600;
-}
-
-.request {
-  border: solid 1px $secondary;
-  margin-bottom:5px;
-  a {
+  .price {
+    font-size: 1.5rem;
     color: $primary;
+    font-weight: 600;
+  }
+
+  .view {
+    border: solid 1px $secondary;
+    margin-bottom:5px;
+    a {
+      color: $primary;
+    }
+  }
+
+  .request {
+    border: solid 1px $secondary;
+    margin-bottom:5px;
+  }
+
+  .ul{
+    text-align: left;
   }
 }
 
+#hotels {
 
-.ul{
-  text-align: left;
+  article {
+    border: solid 1px $secondary;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .article-image {
+    width:30%;
+    padding-right: 5px;
+  }
+
+  h3 {
+    margin-top: 20px;
+  }
+  h3, h3 > a {
+    color: $primary;
+  }
+  h4 {
+    display: none;
+  }
 }
 
 

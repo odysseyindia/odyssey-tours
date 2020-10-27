@@ -127,6 +127,84 @@
   </div>
   {{ "<!-- end of carousel --> " | safeHTML }}
 
+
+ <div class="tab-wrapper">
+      <nav id="myTab" class="nav flex-column flex-sm-row" >
+         
+          <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#other-hotels">
+            Other hotels
+          </a>
+         
+          <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="city-info">
+            city info 
+          </a>
+        
+          <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#things-to-do">
+            Things to do
+          </a>
+          <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#itineraries">
+            Itineraries
+          </a>
+      </nav>
+      <div class="tab-content">
+       
+        <div id="other-hotels" class="tab-pane ">
+           <div class="row">
+              <div class="mx-auto w-50 p-3">
+              {{- range .Data.Pages }}
+              {{- $pages := .Data.Pages }}
+              {{- partial "hotel-listing.html" (dict "pages" $pages) }}
+              {{- end }}
+            </div>
+          </div>
+        </div>
+
+        <div id="city-info" class="tab-pane ">
+           <div class="row">
+                      
+          </div>
+        </div>
+
+        <div id="things-to-do" class="tab-pane ">
+           <div class="row">
+             <div class="mx-auto w-50 p-3">
+            {{- range .Data.Pages }}
+            {{- range .Data.Pages }}
+            {{- if in .CurrentSection.Permalink  "excursions" }}
+              <article>
+              <h4>{{ .Title }}</h4>
+              <p class="left">{{ .Content  }}</p>
+              {{- with .Resources.ByType "image" }}   
+              {{- partial "image-box.html" (dict "images" . ) }}
+              {{- end }}
+              </article>
+            {{- end }}
+            {{- end }}
+            {{- end }}
+            </div>
+          </div>
+        </div>
+
+        <div id="itineraries" class="tab-pane ">
+           <div class="row">
+           {{ $pages := where $.Site.RegularPages "Section" "tour-ideas"}}
+            {{- partial "tour-listing.html" (dict "pages" $pages ) }}
+          </div>
+        </div>
+
+      </div> 
+    </div>
+
+
+
+
+
 </section>
 {{"<!-- end Content -->" | safeHTML}}
+{{- end }}
+{{- define "postscript" }}
+
+{{- $js := resources.Get "/js/carousel.js" -}}
+<script src="{{ $js.RelPermalink }}" defer></script>
+
 {{- end }}

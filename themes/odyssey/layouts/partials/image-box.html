@@ -1,0 +1,18 @@
+<div class="image-box">
+    {{- range $index, $e := .images }}
+    {{ if eq $index 0 }} 
+    <div class="main-image"> 
+        <img src="{{.RelPermalink}}">
+    </div>
+    {{ end }}
+    {{ end }}
+    <div class="image-box-red">
+    {{- range $index, $e := .images }}
+    {{ if ne $index 0 }}     
+    <div>
+        <img src="{{.RelPermalink}}">
+    </div>
+    {{- end }}
+    {{ end }}
+    </div>
+</div>
