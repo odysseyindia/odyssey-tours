@@ -40,6 +40,9 @@
   autoLaunch = true 
 
 [[plugins]]
+package = "dotenv"
+
+[[plugins]]
 package = "netlify-plugin-a11y"
  
   [plugins.inputs]

@@ -3,6 +3,8 @@
 
 {{- $image := cond (isset .Params "image") ( .Params.image ) (.CurrentSection.Params.image) }}
 
+{{- $city := replace .RelPermalink (printf "%s%s" "/hotels/" (path.Base (path.Split .Path).Dir)) "" }}
+
 <section id="{{ .Scratch.Get "id" | lower }}">  
   {{ partial "heading.html" . }}
   <div class="container">
@@ -135,8 +137,8 @@
             Other hotels
           </a>
          
-          <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="city-info">
-            city info 
+          <a class="flex-sm-fill text-sm-center nav-link active" data-toggle="tab" href="city-info">
+            {{ (.GetPage $city).Title }} information 
           </a>
         
           <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#things-to-do">
@@ -159,9 +161,11 @@
           </div>
         </div>
 
-        <div id="city-info" class="tab-pane ">
+        <div id="city-info" class="tab-pane active">
            <div class="row">
-                      
+             <div class="mx-auto w-50 p-3">
+             {{ (.GetPage $city).Content }}  
+             </div>       
           </div>
         </div>
 
@@ -206,5 +210,13 @@
 
 {{- $js := resources.Get "/js/carousel.js" -}}
 <script src="{{ $js.RelPermalink }}" defer></script>
+
+<script>
+
+$('#myTab a').on('click', function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+</script>
 
 {{- end }}
