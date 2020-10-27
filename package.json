@@ -19,7 +19,8 @@
   "dependencies": {
     "a11y": "^0.5.1",
     "dotenv": "^8.2.0",
-    "lighthouse": "^6.4.1"
+    "lighthouse": "^6.4.1",
+    "mailgun-js": "^0.22.0"
   },
   "devDependencies": {}
 }
