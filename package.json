@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ourmaninindia/odyssey-tours#readme",
   "dependencies": {
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "lighthouse": "^6.4.1"
   }
 }
