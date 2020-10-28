@@ -5,56 +5,50 @@
 <section id="{{ .Scratch.Get "id" | lower }}">  
   {{ partial "heading.html" . }}
   <div class="container">
-    <div class="row">
-      <div class="w-50 p-3">
+      <div class="mx-auto w-50 p-3">
         {{ .Content }}
       </div>
-      <div class="w-50 p-3">
-        <div id="map"></div>
-      </div>
     </div>
+    <div class="container">
     <div class="tab-wrapper">
       <nav class="nav flex-column flex-sm-row" >
-          {{- range .Data.Pages }}
-          {{- range .Data.Pages }}
-          {{- if in .CurrentSection.Permalink  "excursions" }}
-          {{ $scratch.Set "excursions" 1 }}
-          {{- end }}
-          {{- end }}
-          {{- end }}
-          {{ if eq ($scratch.Get "excursions") 1 }}
-          <a class="flex-sm-fill text-sm-center nav-link active" data-toggle="tab" href="#things-to-do">
+          <a class="flex-sm-fill text-sm-center nav-link active" data-toggle="tab" href="#map">
+            <i class="icon-globe"></i> Map
+          </a>
+
+          {{- range where .Data.Pages ".RelPermalink" (printf "%s%s" .RelPermalink "hotels/") }} 
+          {{- if (len .Data.Pages) }}
+          <a class="flex-sm-fill text-sm-center nav-link " data-toggle="tab" href="#things-to-do">
             <i class="icon-camera"></i> Things to Do
           </a>
           {{- end }}
+          {{- end }}
 
-          {{- range .Data.Pages }}
-          {{- range .Data.Pages }}
-          {{- if in .CurrentSection.Permalink  "hotels" }}
-          {{ $scratch.Set "hotels" 1 }}
-            {{- end }}
-          {{- end }}
-          {{- end }}
-          {{ if eq ($scratch.Get "hotels") 1 }}
+          {{- range where .Data.Pages ".RelPermalink" (printf "%s%s" .RelPermalink "hotels/") }} 
+          {{- if (len .Data.Pages) }}
           <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#hotels">
             <i class="icon-bed"></i> Hotel Options
           </a>
           {{- end }}
-          <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#map">
-            <i class="icon-globe"></i> Map
-          </a>
+          {{- end }}
+
           <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#itineraries">
             <i class="icon-emo-happy"></i> Suggested Itineraries
           </a>
       </nav>
+
+      
       <div class="tab-content">
 
-        <div id="things-to-do" class="tab-pane active">
+        <div id="map" class="tab-pane active">
+          <div id="gmap"></div>
+        </div>
+
+        <div id="things-to-do" class="tab-pane">
           <div class="row">
             <div class="mx-auto w-50 p-3">
+            {{- range where .Data.Pages ".RelPermalink" (printf "%s%s" .RelPermalink "excursions/") }}  
             {{- range .Data.Pages }}
-            {{- range .Data.Pages }}
-            {{- if in .CurrentSection.Permalink  "excursions" }}
               <article>
               <h4>{{ .Title }}</h4>
               <p class="left">{{ .Content  }}</p>
@@ -64,33 +58,33 @@
               </article>
             {{- end }}
             {{- end }}
-            {{- end }}
             </div>
           </div>
         </div>
 
         <div id="hotels" class="tab-pane ">
           <div class="row">
-             <div class="mx-auto w-50 p-3">
+            <div class="mx-auto w-50 p-3">
+            {{- range where .Data.Pages ".RelPermalink" (printf "%s%s" .RelPermalink "hotels/") }}  
             {{- range .Data.Pages }}
-            {{- $pages := .Data.Pages }}
-            {{- partial "hotel-listing.html" (dict "pages" $pages) }}
+            {{- partial "hotel-listing.html" . }}
+            {{- end }}
             {{- end }}
           </div>
           </div>
         </div>
 
-        <div id="xmap" class="tab-pane ">
-          <div id="xgmap"></div>
-        </div>
-
         <div id="itineraries" class="tab-pane ">
           <div class="row">   
-            {{ $pages := where $.Site.RegularPages "Section" "tour-ideas"}}
-            {{- partial "tour-listing.html" (dict "pages" $pages ) }}
+           
+            {{- range where $.Site.RegularPages "Section" "tour-ideas"}}
+            {{- partial "tour-listing.html" . }}
+            {{- end }}
+           
           </div>
         </div>
       </div> 
+    </div>
     </div>
   </div>
 </section>

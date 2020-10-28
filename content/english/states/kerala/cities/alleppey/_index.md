@@ -2,7 +2,7 @@
 date = 2020-09-26T10:59:20Z
 id = "city"
 image = ""
-layout = "city"
+type = "city"
 subtitle = ""
 tags = ["Cities"]
 title = "Alleppey"

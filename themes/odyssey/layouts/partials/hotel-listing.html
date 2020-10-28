@@ -1,19 +1,15 @@
-{{- range $i, $e := .pages }}
-{{- if in .CurrentSection.Permalink  "hotels" }}
 <article dataRating={{ with .Params.rating }}"{{ . }}"{{ else }}"1"{{ end }} city="{{ .CurrentSection.Parent.Title }}">
 	<h3>
-		<a href="{{ $e.Permalink }}">{{ $e.Title }}</a> &nbsp;
+		<a href="{{ .Permalink }}">{{ .Title }}</a> &nbsp;
 		{{ with .Params.rating }}
 		{{ "$" | strings.Repeat . }}
 		{{- end }}
 	</h3>
-	<h4>{{ .CurrentSection.Parent.Title }}</h4>
-	{{ $e.Content }}
+	<h4 class="subtitle">{{ .CurrentSection.Parent.Title }}</h4>
+	{{ .Content }}
 	<figure >
-		{{- with $e.Resources.ByType "image" }}  	
+		{{- with .Resources.ByType "image" }}  	
 		{{- partial "image-box.html" (dict "images" . ) }}
 		{{- end }}
 	</figure>
 </article>
-{{- end }}   
-{{- end }}   

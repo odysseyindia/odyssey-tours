@@ -6,7 +6,7 @@ draft: false
 image: "bandhavgarh.jpg"
 translationKey: bandhavgarh
 id: "city"
-layout: city
+type: city
 tags: ["Cities", "Madhya Pradesh"] 
 carousel:
   - url: "bandhavgarh.jpg"

@@ -6,7 +6,7 @@ draft: false
 image: kanha.jpg
 translationKey: kanha
 id: city
-layout: "city"
+type: "city"
 tags: ["Cities", "Madhya Pradesh"] 
 carousel:
   - url: "kanha.jpg"

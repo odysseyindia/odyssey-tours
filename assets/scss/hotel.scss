@@ -73,4 +73,106 @@ a.nav-link {
 	}
 }
 
+  article {
+  border: solid 1px $secondary;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px 10px 0 10px;
+  }
+  a {
+    color:$primary;
+  }
+
+h4.subtitle {
+  display: none;
+}
+
+#itineraries {
+
+  .itineraries {
+    margin: 10px 10px 10px 0;
+  }
+  h3, h4.highlights {
+    color: $black;
+    text-align: left;
+  }
+  h4 {
+    color: $primary;
+    text-align: left;
+  }
+  article {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border: solid 1px $primary;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: $white;
+    border-radius:0;
+  }
+
+  .article {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    padding: 5px;
+    margin: 0;
+    background-color: $white;
+    flex-grow: 1;
+  }
+
+  .article-image {
+    width:30%;
+    padding-right: 5px;
+    flex-grow: 1;
+  }
+
+  .article-details {
+    flex-grow: 1;
+  }
+
+  .hover-effect {
+    color: $primary;
+  }
+
+  .article-pricing{
+    width:20%;
+    padding-left: 5px;
+    text-align: center;
+  }
+
+  .days {
+    text-transform: uppercase;
+    font-size: 1rem;
+  }
+
+  .price {
+    font-size: 1.5rem;
+    color: $primary;
+    font-weight: 600;
+  }
+
+  .view {
+    border: solid 1px $secondary;
+    margin-bottom:5px;
+    a {
+      color: $primary;
+    }
+  }
+
+  .request {
+    border: solid 1px $secondary;
+    margin-bottom:5px;
+    a {
+      color: blue;
+    }
+  }
+
+  .ul{
+    text-align: left;
+  }
+}
+/* end */
 }

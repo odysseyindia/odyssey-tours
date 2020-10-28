@@ -20,7 +20,9 @@
       <div class="col-sm-8 col-md-9">
         <div class="itineraries">   
         {{"<!-- items -->" | safeHTML }}
-        {{- partial "tour-listing.html" (dict "pages" $pages ) }}
+        {{- range .Data.Pages }}
+        {{- partial "tour-listing.html" . }}
+        {{- end }}
         {{"<!-- end items -->" | safeHTML }}
         </div>
       </div>

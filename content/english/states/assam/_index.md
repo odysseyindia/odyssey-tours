@@ -10,12 +10,9 @@ type: "state"
 tags: ["States"] 
 ---
 
-
-
 Spread along the valley of the Brahmaputra river, Assam is rich in natural resources and wild life, and is also famous for aromatic tea that is grown all along the hillsides.
 
-Blessed with such a wealth of natural beauty and fertile land, Assam is a great holiday destination. From spotting rhinos at the Kaziranga National Park, to watching dancing monks at Majuli Island, and experiencing stay at a traditional tea bungalow in Jorhat or Dibrugarh, Assam has something to offer every kind of traveller!
- 
+Blessed with such a wealth of natural beauty and fertile land, Assam is a great holiday destination. From spotting rhinos at the Kaziranga National Park, to watching dancing monks at Majuli Island, and experiencing stay at a traditional tea bungalow in Jorhat or Dibrugarh, Assam has something to offer every kind of traveller! 
 
 Assam is an incredibly beautiful state with a diverse range of cultures and landscapes. It shares its borders in the North and East with the Kingdom of Bhutan and Arunachal Pradesh. Along its southern region are Nagaland, Manipur and Mizoram. Meghalaya lies to her South-West, Bengal and Bangladesh to her West.
 

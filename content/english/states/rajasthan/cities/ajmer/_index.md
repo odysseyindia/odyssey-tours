@@ -2,7 +2,7 @@
 date = 2020-09-26T10:55:34Z
 id = "city"
 image = ""
-layout = "city"
+type = "city"
 subtitle = ""
 tags = ["Cities"]
 title = "Ajmer"

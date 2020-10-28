@@ -6,7 +6,7 @@ draft: false
 image: jaipur.jpg
 translationKey: jaipur
 id: city
-layout: city 
+type: city 
 tags: ["Cities", "Jaipur"] 
 ---
 

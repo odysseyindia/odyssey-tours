@@ -14,7 +14,6 @@ The northern state of Uttar Pradesh, popularly know as UP, is India's most popul
 
 The plains of Uttar Pradesh have always been a fertile land, nourished by the Ganges and its tributaries. Here you find the famous Taj Mahal and other great monuments of the Moghul era in India, as well as the holy Hindu city of Varanasi and the Buddhist stupas of Sarnath.
  
-
 The ethereal marble masterpiece that is the Taj Mahal in Agra is what first attracts tourists to Uttar Pradesh. Its perfect proportions and finely detailed pietra dura work leaves every single visitor spellbound. Agra's other monuments are often overshadowed by the glory of the Taj, but a trip to see the awe-inspiring red sandstone bastions of Agra Fort is worthwhile, not least for the views of the Taj Mahal in the distance.
 
 Lucknow is the geographical and commercial centre of the state, but it still retains much of its colonial heritage. The crumbling remains of the British Residency mark the site of the decisive battle of the Mutiny of 1857, and buildings like the Bara and Chhota Imambura stand testimony to the opulent and grandiose lifestyles of the erstwhile Nawabs.

@@ -1,32 +1,30 @@
-{{- range $i, $e := .pages }}
-<article id="itin-{{ $i }}" dataCost="{{ $e.Params.cost }}" dataDuration="{{ $e.Params.days }}">
+<article dataCost="{{ .Params.cost }}" dataDuration="{{ .Params.days }}">
   <div class="article-image">
     <figure >
-        <a  href="{{ $e.Permalink }}" class="hover-effect">
-        <img alt="{{ $e.Title}}" src="{{ $e.Permalink }}/{{ $e.Params.image }}">
+        <a  href="{{ .Permalink }}" class="hover-effect">
+        <img alt="{{ .Title}}" src="{{ .Permalink }}/{{ .Params.image }}">
         </a>
     </figure>
   </div>
   <div class="article">
     <div class="article-details" > 
-      <a  href="{{ $e.Permalink }}" class="hover-effect">  
-        <h3>{{ $e.Title }}</h4>
-        <h4>{{ $e.Params.subtitle }}</h5>
+      <a  href="{{ .Permalink }}" class="hover-effect">  
+        <h3>{{ .Title }}</h4>
+        <h4>{{ .Params.subtitle }}</h5>
       </a>
       <h4 class="highlights">Highlights:</h4>
       <ul class="ul">
-      {{ range $e.Params.highlights }}
+      {{ range .Params.highlights }}
       <li>{{ . }}</li>
       {{ end }}
     </ul>
     </div>
     <div class="article-pricing">
-      <div class="days">{{ $e.Params.days }} Days</div>
+      <div class="days">{{ .Params.days }} Days</div>
       <div>from</div>
-      <div class="price">{{ $e.Params.currency }} {{ $e.Params.cost }}</div>
-      <div class="view"><a title="View this tour" href="{{ $e.Permalink }}">View this tour</a></div>
+      <div class="price">{{ .Params.currency }} {{ .Params.cost }}</div>
+      <div class="view"><a title="View this tour" href="{{ .Permalink }}">View this tour</a></div>
       <div class="request"><a title="Request a quote" href="/contact/contact-us">Request a quote</a></div>
     </div>
   </div>
 </article>
-{{- end }}

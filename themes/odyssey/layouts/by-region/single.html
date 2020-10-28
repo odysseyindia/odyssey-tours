@@ -1,16 +1,15 @@
 {{- define "main" }}
-{{- .Scratch.Set "layout" "layouts/taxonomy/region.html" -}}
+{{- .Scratch.Set "layout" "layouts/by-region/single.html" -}}
 
 {{- $pages := where .Data.Pages "Type" "tour-ideas" }}
 
 {{- $title := (.Site.GetPage (printf "/explore-india/by-region/%s" (path.Base .RelPermalink))).Title }}
 
 <section id="tour-ideas"> 
-  {{ partial "heading.html" (dict "dot" . "title" $title ) }}
+  {{ partial "heading.html" . }}
   <div class="container">
     <div class="row">
       <div class="mx-auto w-50 p-3">
-        {{- with .Params.subtitle }}<h3>{{ . }}</h3>{{ end }}
         {{ .Content }}
       </div>
     </div>

@@ -3,8 +3,6 @@
 
 {{- $image := cond (isset .Params "image") ( .Params.image ) (.CurrentSection.Params.image) }}
 
-{{- $city := replace .RelPermalink (printf "%s%s" "/hotels/" (path.Base (path.Split .Path).Dir)) "" }}
-
 <section id="{{ .Scratch.Get "id" | lower }}">  
   {{ partial "heading.html" . }}
   <div class="container">
@@ -129,7 +127,8 @@
   </div>
   {{ "<!-- end of carousel --> " | safeHTML }}
 
-
+ <div class="container">
+   
  <div class="tab-wrapper">
       <nav id="myTab" class="nav flex-column flex-sm-row" >
          
@@ -138,7 +137,7 @@
           </a>
          
           <a class="flex-sm-fill text-sm-center nav-link active" data-toggle="tab" href="city-info">
-            {{ (.GetPage $city).Title }} information 
+            {{ (.GetPage .CurrentSection.Parent.RelPermalink ).Title }} information 
           </a>
         
           <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#things-to-do">
@@ -153,9 +152,12 @@
         <div id="other-hotels" class="tab-pane ">
            <div class="row">
               <div class="mx-auto w-50 p-3">
+              {{- range where (where .Site.Pages "Section" "states") ".RelPermalink" (printf "%s%s" .CurrentSection.Parent.RelPermalink "hotels/") }}
               {{- range .Data.Pages }}
-              {{- $pages := .Data.Pages }}
-              {{- partial "hotel-listing.html" (dict "pages" $pages) }}
+              {{ if ne .Title $.Title }}
+              {{- partial "hotel-listing.html" . }}
+              {{- end }}
+              {{- end }}
               {{- end }}
             </div>
           </div>
@@ -164,7 +166,7 @@
         <div id="city-info" class="tab-pane active">
            <div class="row">
              <div class="mx-auto w-50 p-3">
-             {{ (.GetPage $city).Content }}  
+             {{ (.GetPage .CurrentSection.Parent.RelPermalink).Content }}  
              </div>       
           </div>
         </div>
@@ -172,33 +174,32 @@
         <div id="things-to-do" class="tab-pane ">
            <div class="row">
              <div class="mx-auto w-50 p-3">
-            {{- range .Data.Pages }}
-            {{- range .Data.Pages }}
-            {{- if in .CurrentSection.Permalink  "excursions" }}
+              {{- range where (where .Site.Pages "Section" "states") ".RelPermalink" (printf "%s%s"  .CurrentSection.Parent.RelPermalink "excursions/" ) }}
+              {{- range .Data.Pages }}
               <article>
-              <h4>{{ .Title }}</h4>
+              <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
               <p class="left">{{ .Content  }}</p>
               {{- with .Resources.ByType "image" }}   
               {{- partial "image-box.html" (dict "images" . ) }}
               {{- end }}
               </article>
-            {{- end }}
-            {{- end }}
-            {{- end }}
+              {{- end }}
+              {{- end }}
             </div>
           </div>
         </div>
 
         <div id="itineraries" class="tab-pane ">
-           <div class="row">
-           {{ $pages := where $.Site.RegularPages "Section" "tour-ideas"}}
-            {{- partial "tour-listing.html" (dict "pages" $pages ) }}
+          <div class="row">
+            {{ range where $.Site.RegularPages "Section" "tour-ideas"}}
+            {{- partial "tour-listing.html" . }}
+            {{- end }}
           </div>
         </div>
 
       </div> 
     </div>
-
+</div>
 
 
 
