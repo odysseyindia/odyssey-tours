@@ -45,6 +45,9 @@ first in array
 parent:
 {{ .CurrentSection.Parent.RelPermalink }}
 
+to get a specific section you can do:
+{{ $section := .Site.GetPage "section" "blog" }}
+
 
 
 between second and third /
@@ -56,3 +59,30 @@ http://(?:[^/]*/){5}([^/]*)
 
 
  /(\/[\w+-]+)/g
+
+    {{ range $key, $taxonomy := .Site.Taxonomies.regions }}
+     <h2>{{ if eq $key "kerala" }}</h2>
+      <ul>
+           {{ range $taxonomy.Pages }}
+               <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+          {{ end }}
+          {{ end }}
+
+          {{ range $taxonomy.WeightedPages}}
+           <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{ end }}
+
+for listing of taxonomy:
+{{ $taxo := "regions" }}
+<ul>
+  {{ with ($.Site.GetPage (printf "/%s" $taxo)) }}
+    {{ range .Pages }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title  }}</a></li>
+    {{ end }}
+  {{ end }}
+</ul>
+
+
+{{ range .Site.RegularPages ".Params.regions" "intersect" (slice "kerala") }}
+
+{{ end }}

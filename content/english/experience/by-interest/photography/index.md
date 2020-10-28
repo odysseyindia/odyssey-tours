@@ -4,7 +4,7 @@ draft: false
 date: 2020-09-21T12:59:23+02:00
 translationKey: "photography"
 interests: "photography"
-type: "explore-by-interest"
+type: "by-interest"
 id: interest
 ---
 Are you an accomplished photographer or an enthusiastic amateur? We invite you to one of the most photographed countries, India. Colourful festivals, textured landscapes and always something unexpected around the corner.

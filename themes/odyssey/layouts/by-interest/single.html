@@ -1,9 +1,9 @@
 {{- define "main" }}
-{{- .Scratch.Set "layout" "layouts/by-region/single.html" -}}
+{{- .Scratch.Set "layout" "layouts/by-interest/single.html" -}}
 
-{{- $pages := where .Site.RegularPages ".Params.regions" "intersect" (slice (.Title | urlize)) }}
+{{- $pages := where .Site.RegularPages ".Params.interests" "intersect" (slice (.Title | urlize)) }}
 
-{{- $title := (.Site.GetPage (printf "/explore-india/by-region/%s" (path.Base .RelPermalink))).Title }}
+{{- $title := (.Site.GetPage (printf "/explore-india/by-interest/%s" (path.Base .RelPermalink))).Title }}
 
 <section id="tour-ideas"> 
   {{ partial "heading.html" . }}

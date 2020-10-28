@@ -18,14 +18,11 @@
 </script>
 
 <!-- append page specific style sheet -->
-{{- $id := cond (isset .Params "id") .Params.id (path.Base .RelPermalink) }}
+{{- $id := cond (isset .Params "id") .Params.id (cond (isset .Params "type" ) .Params.type (path.Base .RelPermalink)) }}
 
 {{- $scss := printf "scss/main/%s.scss" $id -}}
-
 {{- if fileExists (printf "assets/%s" $scss) -}}
-
   {{- $style := resources.Get $scss | toCSS | minify -}}
-
   <script>
   (function() {
     var cssPage  = document.createElement('link');
