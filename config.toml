@@ -38,6 +38,28 @@ googleMapsAPIKey        = "AIzaSyD7brYWRgjb-1K4vXXGxSPukB1dXxwvK7o"
     "https://www.googletagservices.com",
     "cdnjs.cloudflare.com/"]
 
+################## social icons ################
+
+[[params.social]]
+icon = "icon-facebook-circled"
+url  = "https://www.facebook.com/summertimevillagoa/"
+name = "Facebook"
+
+[[params.social]]
+icon = "icon-flickr-circled"
+url  = "https://www.flickr.com/photos/143560724@N08/albums"
+name = "Flickr"
+
+[[params.social]]
+icon = "icon-twitter-circled"
+url  = "https://www.twitter.com/summertime_goa"
+name = "Twitter"
+
+[[params.social]]
+icon = "icon-linkedin-circled"
+url  = "https://www.linkedin.com/company/odyssey-tours-&-travels-pvt-ltd/"
+name = "LinkedIn"
+
 [outputs]
 home                    = ["html"]
 page                    = ["html","json"]
@@ -146,3 +168,4 @@ taxonomy                = ["html","json"]
     pre = "bed"
     url = "/contact/contact-us/"
     weight = 80
+

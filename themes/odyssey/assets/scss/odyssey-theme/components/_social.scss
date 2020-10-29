@@ -1,0 +1,139 @@
+
+.icon-facebook-circled {
+  color: $facebook; }
+  .icon-facebook-circled:hover {
+    opacity: 0.5; }
+
+.icon-twitter-circled {
+  color: $twitter;}
+  .icon-twitter-circled:hover {
+    opacity: 0.5; }
+
+.icon-gplus-circled {
+  color: $google;}
+  .icon-gplus-circled:hover {
+    opacity: 0.5; }
+
+.icon-street-view {
+  color: $streetview;}
+  .icon-street-view:hover {
+    opacity: 0.5; }
+
+.icon-linkedin-circled {
+  color: $linkedin; }
+  .icon-linkedin-circled:hover {
+    opacity: 0.5; }
+
+.icon-youtube-squared {
+  color: $youtube;}
+
+.icon-instagram {
+  color: $instagram; }
+  .icon-instagram:hover {
+    opacity: 0.5; }
+
+.icon-pinterest-circled {
+  color: $pinterest;  }
+  .icon-pinterest-circled:hover {
+    opacity: 0.5; }
+
+.icon-flickr-circled {
+  color: $flickr;}
+  .icon-flickr-circled:hover {
+    opacity: 0.5; }
+
+.icon-up-circled {
+  color: $primary; 
+  font-size: 35px;
+  &:hover {
+    color: $secondary; 
+  }
+}
+
+.icon-social {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px; }
+
+ul.social-icons {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+li.social {
+  float: left;
+  padding-right: 1px; 
+  font-size: 35px; }
+
+li a.fa {
+  display: block;
+  padding: 8px; }
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-self: center; 
+  margin-top: 20px;
+  width: 100%;
+
+}
+.social-li {
+font-size: 2rem;
+}
+
+.social-icon {
+  padding: 60px 0 35px;}
+.social-icon ul {
+  text-align: center;}
+.social-icon ul li {
+  margin-bottom: 4px;}
+.social-icon ul li a {
+  background-color: $softblack;
+  border: 1px solid transparent;
+  display: block;
+  height: 70px;
+  width: 70px;
+  transition: all 400ms ease-out 0s;}
+.social-icon ul li a:hover {
+  background: $anchor;}
+.social-icon ul li a:hover i {
+  color: $white;
+  opacity: 1;}
+.social-icon ul li a i {
+  color: $darkgray;
+  display: inline-block;
+  font-size: 32px;
+  line-height: 70px;
+  margin: 0;
+  opacity: 0.3;
+  transition: all 400ms ease-out 0s;}
+
+
+#scrollUp {
+  border: 1px solid #4e595f;
+  bottom: 15px;
+  color: $white;
+  display: none;
+  padding: 8px 12px;
+  position: fixed;
+  right: 20px;
+  z-index: 600;}
+
+  #scrollUp:hover {
+  background-color: $anchor;
+  border: 1px solid $anchor;}
+
+@media screen and (max-width: 400px) {
+  .stack{
+    width:1.5em !important;}
+}
+
+@media screen and (min-width: 991px) {
+  li.social {
+    font-size: 2rem;
+    padding-right: 5px; } }

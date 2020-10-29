@@ -2,10 +2,8 @@
 {{- if $data.enable }}
 {{- with $data }}
 {{"<!-- Start address details -->" | safeHTML}}
-<img src="contact-us_1.jpg" title="" alt="summertime luxury villa in goa">
-<hr>
 <div class="contact-details">
-	<i class="{{ .address.icon }}" aria-hidden="true"></i> 
+	<i class=" address {{ .address.icon }}" aria-hidden="true"></i> 
 	{{ i18n "address" }}<br>
 	<small>{{ .address.address }}<br>
 		{{ .address.locality }}, {{ .address.region }} {{ .address.pincode }}<br>
@@ -13,14 +11,29 @@
 	</small>
 	<hr>
 	{{- if eq .telephone.active true }}
-	<i class="{{ $data.telephone.icon }}" aria-hidden="true"></i> 
+	<i class="address {{ $data.telephone.icon }}" aria-hidden="true"></i> 
 	{{ i18n "phone" }}<br>
 	<small>{{ .telephone.number }}</small>
 	<hr>
 	{{- end }}
-	<i class="{{ $data.email.icon }}" aria-hidden="true"></i> 
+	<i class="address {{ $data.email.icon }}" aria-hidden="true"></i> 
 	{{ i18n "email" }}<br>
 	<small><a class="contact-us" href="mailto:{{ .email.id }}"> {{ .email.id }}</a></small>
+	<hr>
+	{{ "<!-- socials --> " | safeHTML }}
+	<div class="social">
+	                {{- range $.Site.Params.social }}
+	
+	                <div class="social-li {{ .name | lower}}">
+	                    <a title="{{ .name }}" href="{{ .url | safeURL}}" rel="noreferrer" target="_blank" data-toggle="tooltip">
+	                        <i class="{{ .icon }}" aria-hidden="true"></i>
+	                        <span class="visually-hidden">{{ .name }}</span>
+	                    </a>
+	                </div>
+	                {{- end }}
+	       
+	       
+	</div>
 	<hr>
 	<small>
     {{ i18n "incorporated" | markdownify }} {{ i18n "registered-office" }}: {{ .ro  | markdownify }}<br>

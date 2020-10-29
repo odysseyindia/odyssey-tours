@@ -11,56 +11,183 @@
     </div>
   </div>
 
-	<div class="row">
-	<div class="container">
-		
-		{{ "<!-- contact form -->" | safeHTML }}
-    <div class="wrapper">
-        <div class="form-header">
-        	{{ i18n "send-us-a-message" }} 
+  <!-- parallax -->
+  <div class="container">
+
+    <div class="parallax">
+      <h3>Start planning your trip</h3>
+      <h3 class="blank"></h3>
+      <h4>How we create your itinerary</h4>
+
+      <div class="row create">
+        <div class="green"><hr></div>
+        <div class="red">
+          <div class="green-img"><img class="st" src="/about-us/our-team/sucheta/0-sucheta-potnis.jpg" alt="a consultant"></div>
+          <div class="bluep">  <p class="st">1. Call us or use the contact form below</p></div>
+        </div>
+        <div class="blue"><hr></div>
+
+        <div class="green"><hr></div>
+        <div class="red">
+          <div class="green-img"><img class="st" src="/about-us/our-team/vardhan/0-vardhan.jpg" alt="a consultant"></div>
+          <div class="bluep">  <p class="st">1. Call us or use the contact form below</p></div>
+        </div>
+        <div class="blue"><hr></div>
+
+        <div class="green"><hr></div>
+        <div class="red">
+          <div class="green-img"><img class="st" src="/about-us/our-team/hans/0-hans-tuinman.jpg" alt="a consultant"></div>
+          <div class="bluep">  <p class="st">1. Call us or use the contact form below</p></div>
+        </div>
+        <div class="blue"><hr></div>
+
+        <div class="green"><hr></div>
+        <div class="red">
+          <div class="green-img"><img class="st" src="/about-us/our-team/alfred/0-alfred-tuinman.jpg" alt="a consultant"></div>
+          <div class="bluep">  <p class="st">1. Call us or use the contact form below</p></div>
+        </div>
+        <div class="blue"><hr></div>
+
+      </div> 
+    </div>
+  </div>
+
+
+  <div class="container travel-plans">
+    <div class="row ">
+      <div class="col-sms-0 col-sm-0 col-md-3">
+        &nbsp;
+      </div>
+      <div class="col-sms-6 col-sm-6 col-md-6">
+        <h3 class="travel-plans">Your travel plans</h3>
+        <hr class="travel-plans">
+        <div class="banner">
+          <div class="corner">&nbsp;</div>
+          Interested in the itinerary?<br>
+          <b>"India's Golden Triangle & Tiger"</b>
+        </div>
+
+        <h5 class="travel-plans">Travel plans</h5>
+        <div class="selectboxes row">
+          <div class="w-50 p-0">
+            {{"<!-- interests -->" | safeHTML }}
+            <div class="box left">
+              <div class="panel style1 arrow-right">
+                <h4 class="label">Interest</h4>
+                {{- range (where .Site.RegularPages "Section" "experience") }}
+                {{- if in (.Permalink | string) "by-interest" }} 
+                <div class="form-check">
+                  <input type="checkbox" class="custom-control-input" id="{{ .Params.translationKey }}">&nbsp;
+                  <label class="custom-control-label" for="{{ .Params.translationKey }}"> {{ .Title }}</label>
+                </div>
+                {{- end }} 
+                {{- end }} 
+              </div>
+            </div>
+          </div>
+          <div class="w-50 p-0">
+            {{"<!-- regions -->" | safeHTML }}
+            <div class="box right">
+              <div class="panel style1 arrow-right">
+                <h4 class="label">Region of India</h4>
+                {{- range (where .Site.RegularPages "Section" "explore-india") }}
+                {{- if in .Permalink "by-region" }} 
+                <div class="form-check">
+                  <input type="checkbox" class="custom-control-input" id="{{ .Params.translationKey }}">&nbsp;
+                  <label class="custom-control-label" for="r{{ .Params.translationKey }}"> {{ .Title }}</label>
+                </div>
+                {{- end }} 
+                {{- end }}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {{- $month := index .Site.Data "date" }}
+
+        <div class="selectboxes row">
+          <div class="w-50 p-0">
+            <div class="box">
+              <label for="number">Number of people</label>
+              <input class="number" name="number" required>
+            </div>
+            <div class="box">
+              <label for="number">Level of accommodation</label>
+              <input class="number" name="number" required>
+            </div>
+          </div>
+          <div class="w-50 p-0">
+           <div class="box">
+            <label for="number">Likely start of travel</label>
+            <input class="number" name="number" placeholder="dd/mm/yyyy" required>
+          </div>
+          <div class="box">
+            <label for="number">Duration</label>
+            <input class="number" name="number" required>
+          </div>
+        </div>
+      </div>
+
+
+      <h5 class="travel-plans">Is there anything you would like to add?</h5>
+
+      <textarea rows = "5" class="comments" name="comments" placeholder="i.e. fitness levels, special interest, etc." >
+      </textarea>
+      <h3 class="travel-plans">Your details</h3>
+      <hr class="travel-plans">
+
+      <alert class="info">Your privacy is paramount to us as we will never share your personal data with anyone for further info. Please see our <b>privacy policy</b></alert>
+
+
+      <div class="form-group"> 
+        <label for="name">Name</label>
+        <input type="text" placeholder="{{ i18n "your-name" }}" class="form-control" name="name" id="name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" placeholder="{{ i18n "your-email-address"}}" class="form-control" name="email" id="email"> 
+      </div>
+      <div class="form-group">
+        <label for="email">Phone</label>
+        <input type="text" placeholder="Your phone with international prefix" class="form-control" name="phone" id="phone"> 
+      </div>
+      <div class="form-check">
+        <label class="custom-control-label" for="video">Video call</label> &nbsp;
+        <input type="checkbox" class="custom-control-input" id="video">&nbsp;Tick here if you would like us to arrange a virtual meeting to discuss your travel plans.
+      </div>
+      <div class="box-nm">
+        <div class="margin">
+        <h3 class="further-info">Further information</h3>
+        <hr class="travel-plans">
+        
+        <div class="form-group">
+          <label for="further-info">What prompted you to get in touch today? </label>
+          <input type="text" class="form-control" name="further-info" id="further-info"> 
+        </div>
+
+        <div class="form-check">
+          <label for="video">Newsletter</label> &nbsp;
+          <input type="checkbox" class="custom-control-input" id="video">&nbsp;Tick here to receive our newsletter
+          <span>If you've already subscribed and wish to unsubscribe, please follow the link in the newsletter</span>  
+        </div>  
+
+      </div>
+        <div class="submit form-check">
+          <div class="button">
+            <button type="submit" id="contact-submit" class="btn" aria-label="menu" value="Submit">Send enquiry
+            </button>
+          </div>
         </div> 
-        <br>
-        <form id="formContact" name="contact-form" class="contact-form form-hover" method="post" netlify-honeypot="bot-field">
-            <div class="bot"><label>Don't fill this out if you are human: </label><input name="bot-field" /></div>
-            <div class="form-group"> 
-                <label class="visually-hidden" for="name">Name</label>
-                <input type="text" placeholder="{{ i18n "your-name" }}" class="form-control" name="name" id="name">
-            </div>
-            <div class="form-group">
-                <label class="visually-hidden" for="email">Email address</label>
-                <input type="email" placeholder="{{ i18n "your-email-address"}}" class="form-control" name="email" id="email"> 
-            </div>
-            <div class="form-group">
-            <select class="form-control" id="country" name="country">
-                <option value=" ">{{ i18n "your-country" }}</option>
-                {{ partial "countries.html" . }}
-            </select> 
-            </div>
-            <div id="date-picker-example" class="form-group">
-                <label class="visually-hidden" for="arrdate">Arrival date</label>
-                <input type="text" placeholder="{{ i18n "your-arrival-date" }}" class="form-control" name="arrdate" id="arrdate">
-            </div>
-             <div class="form-group"> 
-                <label class="visually-hidden" for="message">Your message</label>
-                <textarea name="message" rows="5" class="form-control" type="text" placeholder="{{ i18n "your-message" }}" name="message" id="message"></textarea>
-            </div>
-            <div id="cf-submit">
-                <button type="submit" id="contact-submit" class="btn btn-primary" aria-label="menu" value="Submit">{{ i18n "submit" }}
-                </button>
-            </div>
-        </form>
+      </div>
     </div>
 
-{{ "<!-- end contact form -->" | safeHTML }}
-
-			</div>
-		</div>
-		<div class="">
-		
-		</div>
-	</div>
-
-
+    <div class="col-sms-6 col-sm-6 col-md-3">
+      <div class="contact">
+        Contact Us
+        {{ partial "address-details.html" .}}
+      </div>
+    </div>
+  </div>
 </section>
 {{- end }}
 {{- define "postscript" }}
@@ -69,23 +196,23 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.min.css">
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/js/bootstrap-datepicker.min.js">
-<script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js">
+  <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js">
 
-<script>
+  <script>
 
 // Date Picker Initialization
 $('#arrdate').datepicker({
-    uiLibrary: 'bootstrap4',
-    format: 'dd/mm/yyyy',
-    startDate: (new Date()),
-    todayBtn: true,
-    autoclose: true,
-    assumeNearbyYear: true
+  uiLibrary: 'bootstrap4',
+  format: 'dd/mm/yyyy',
+  startDate: (new Date()),
+  todayBtn: true,
+  autoclose: true,
+  assumeNearbyYear: true
 });
 
 // email confirmation message
 formContact.onsubmit = async (e) => {
-    
+
   e.preventDefault();
 
   formData = new FormData(formContact);
@@ -93,23 +220,23 @@ formContact.onsubmit = async (e) => {
   formData.forEach((value, key) => {
       // Reflect.has in favor of: object.hasOwnProperty(key)
       if(!Reflect.has(object, key)){
-          object[key] = value;
-          return;
+        object[key] = value;
+        return;
       }
       if(!Array.isArray(object[key])){
-          object[key] = [object[key]];    
+        object[key] = [object[key]];    
       }
       object[key].push(value);
-  });
+    });
   var json = JSON.stringify(object);
 
   let response = await fetch('/.netlify/functions/contact', {
-      method: 'POST',
-      body: json
+    method: 'POST',
+    body: json
   });
 
   let result = await response.json();
-    
+
   if (result.result == 200){
     window.location.href = "/contact/thank-you";
   }

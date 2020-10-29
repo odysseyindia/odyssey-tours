@@ -1,0 +1,17 @@
+{{ "<!-- socials --> " | safeHTML }}
+<div class="container">
+    <div class="social">
+        <div>
+            <ul class="social-icons full-width">
+                {{- range $.Site.Params.social }}
+                <li class="social {{ .name | lower}}">
+                    <a title="{{ .name }}" href="{{ .url | safeURL}}" rel="noreferrer" target="_blank" data-toggle="tooltip">
+                        <i class="{{ .icon }}" aria-hidden="true"></i>
+                        <span class="visually-hidden">{{ .name }}</span>
+                    </a>
+                </li>
+                {{- end }}
+            </ul>
+        </div>
+    </div>
+</div>
