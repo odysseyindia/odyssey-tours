@@ -233,6 +233,9 @@ footer .row {
   justify-content: space-evenly;
   display: flex;
 }
+footer a {
+  color: gold;
+}
 
 .to-top {
   text-align: right;

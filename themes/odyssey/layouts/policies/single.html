@@ -1,0 +1,31 @@
+{{- define "main" }}
+{{- .Scratch.Set "layout" "layouts/testing/single.html" -}}
+
+<section id="{{ .Scratch.Get "id" | lower }}"> 
+  {{ partial "heading.html" . }}
+  {{- with .Params.quote }}
+  <div class="container">
+    <div class="row">
+      <div class="mx-auto w-50 p-3">
+        <blockquote><p>{{ . }}</p></blockquote>
+      </div>
+    </div>
+  </div>
+  {{- end }}
+  <div class="mx-auto p-1">
+  	<div class="container">
+      <div class="newspaper left">
+          <div class="alert alert-info">{{ .Params.note }}<a href="mailto: dpo@odyssey.co.in"> {{ .Site.Params.dpoEmail }}</a>
+          </div>
+          <h3>Table of Contents</h3>
+          {{ .Page.TableOfContents }} 
+          <br>
+          <span>{{ .Content }}</span>
+          <br>
+          Date last modified: {{ .PublishDate.Format "January 2, 2006" }}{{ if ne .PublishDate .Lastmod }}, last updated {{ .Lastmod.Format "January 2, 2006" }}{{ end }}
+        </div>
+      </div>
+  </div>
+</section>
+
+{{- end }}

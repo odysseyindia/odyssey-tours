@@ -7,7 +7,7 @@ disqusShortname 		    = "" # get your shortname form here : https://disqus.com
 defaultContentLanguage 	= "en"
 disableKinds 			      = ["RSS"]
 googleAnalytics         = "" 
-# enableGitInfo         = true
+enableGitInfo           = true
 enableRobotsTXT         = true
 # canonifyURLs          = true
 ignoreErrors            = ["error-output-taxonomy"]
@@ -24,6 +24,7 @@ gtm_datalayer           = "basic"
 disallow_search_engines = false 
 logo                    = "/logo.gif"
 googleMapsAPIKey        = "AIzaSyD7brYWRgjb-1K4vXXGxSPukB1dXxwvK7o"
+dpoEmail                = "dpo@odyssey.co.in"
 
 [params.csp] 
   childsrc = ["'self'"]
