@@ -1,7 +1,30 @@
-footer{
-	background-color: #fff;
+footer {
+	background-color:#607D8B;
 	text-align: center;
 	font-size: 0.8rem;
 	line-height: 2rem;
-	color: #7d97a4;
+	color: #f4f6f6 ;
+	padding: 10px;
+	hr {
+		border:solid 1px  #808b96 ;
+		margin: 0;
+	} 
+	p {
+		color: #f4f6f6;
+		margin-bottom:0;
+	}
+	h6 {
+		font-family: var(--font-secondary);
+		font-size: 1rem;
+		font-weight: 400;
+	}
+	.row {
+		flex-direction: row;
+		justify-content: space-evenly;
+		display: flex;
+	}
+} 
+.to-top {
+	text-align: right;
+	display:block;
 }

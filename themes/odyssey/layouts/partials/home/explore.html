@@ -1,0 +1,19 @@
+<div id="explore">
+  <div class="container">
+    <h3 class="h3">Explore India with Odyssey Tours</h3>
+    <div class="card-deck">
+      {{- range .Params.explore }}
+      <div class="card-holder">
+        <div class="card">
+          <a href="{{ .url }}"><img class="lazyload" itemprop="image" data-src="{{ .image }}" alt="{{ .title }}"></a>
+          <div class="card-body">
+            <h3 class="card-title">
+              <a href="{{ .url }}">{{ .title }}</a>
+            </h3>
+          </div>
+        </div>  
+      </div>   
+      {{- end }}
+    </div>
+  </div>
+</div>

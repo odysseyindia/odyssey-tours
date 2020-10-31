@@ -4867,10 +4867,9 @@ input[type=button].btn-block {
 }
 :root {
   --font-primary: "Raleway", sans-serif;
-  --font-secondary: "Raleway",sans-serif;
+  --font-secondary: "Playfair Display",sans-serif;
 }
 
-/* --font-secondary:  "Playfair Display",sans-serif; */
 *,
 :after,
 :before {

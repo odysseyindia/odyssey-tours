@@ -1,35 +1,26 @@
 {{"<!-- show the items -->" | safeHTML}}
-<div class="card-deck">
-  {{- range .array }}
-  {{ . }}<br>
-  {{- with $.Site.GetPage . }}
-  <div class="card-holder">
-    <div class="card">
-      <!-- header -->
-      <div class="card-header img-top">
-        {{- with .Resources.ByType "image" }}
-        <div class="Image">
-          {{- range $index,$img := . }}
-          {{- if eq $index 0}}
-          <img class="lazyload" data-src="{{ $img.RelPermalink }}">
-          {{- end }}
-          {{- end }}
+<div class="bg">
+  <div class="card-deck">
+    {{- range .Data.Pages }}
+    <div class="card-holder">
+      <div class="card">
+        <!-- header -->
+        {{ range first 1 (.Resources.ByType "image") }} 
+        <img class="lazyload" itemprop="image" data-src="{{ .RelPermalink }}" alt="{{ substr .Title  0 -4 | humanize }}">
+        {{ end }}
+        <!-- body -->   
+        <div class="card-body">
+          <h3 class="card-title">
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+          </h3>     
+          <h4 class="subtitle">{{ .Params.subtitle }}</h4> 
+          <p class="card-text">
+            <span itemprop="description">{{ .Summary }}</span>
+          </p>
         </div>
-        {{- end }}
-      </div>   
-      <!-- body -->   
-      <div class="card-body">
-        <h3 class="card-title">
-          <a href="{{ .Permalink }}">{{ .Title }}</a>
-        </h3>     
-        <h4>{{ .Params.subtitle }}</h4> 
-        <p class="card-text">
-          <span itemprop="description">{{ .Summary }}</span>
-        </p>
-      </div>
-    </div>  
-  </div>   
-  {{- end }}
-  {{- end }}
+      </div>  
+    </div>   
+    {{- end }}
+  </div>
 </div>
 {{"<!-- end items -->" | safeHTML -}}

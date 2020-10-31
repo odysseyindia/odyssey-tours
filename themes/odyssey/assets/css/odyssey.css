@@ -208,11 +208,35 @@
 
 /* '' */
 footer {
-  background-color: #fff;
+  background-color: #607D8B;
   text-align: center;
   font-size: 0.8rem;
   line-height: 2rem;
-  color: #7d97a4;
+  color: #f4f6f6;
+  padding: 10px;
+}
+footer hr {
+  border: solid 1px #808b96;
+  margin: 0;
+}
+footer p {
+  color: #f4f6f6;
+  margin-bottom: 0;
+}
+footer h6 {
+  font-family: var(--font-secondary);
+  font-size: 1rem;
+  font-weight: 400;
+}
+footer .row {
+  flex-direction: row;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.to-top {
+  text-align: right;
+  display: block;
 }
 
 .bg {
@@ -294,6 +318,10 @@ img {
 .card-text {
   padding: 0 10px 0px 10px;
   margin-bottom: 0;
+}
+
+.card:hover {
+  box-shadow: none;
 }
 
 .cc-window {

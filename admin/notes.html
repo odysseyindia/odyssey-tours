@@ -1,3 +1,19 @@
+{{ if not (findRE "banner" .RelPermalink 1) }} 
+
+{{- range ( where ( where .Site.RegularPages "Section" "experience") ".Params.id" "interest" ) }}
+
+
+{{ range first 1 (after $after (where (where .Site.RegularPages "Section" "video") ".File.BaseFileName" "in" .Params.videos ))  }}
+
+
+{{- range (readDir "content/english/experience/by-interest") }}
+  {{.Name}}<br>
+{{end}}
+
+{{- with (.Site.GetPage "/experience/by-interest") }}
+  {{.Name}}<br>
+{{end}}
+
 find the key 
 
 {{ trim (index (findRE `([^//]+)//?$` (index (findRE `([^//]+)\/[^//]+\/?$` .RelPermalink ) 0)) 0 ) "/" }}

@@ -1,15 +1,84 @@
-{{ define "main" }}
+{{- define "main" }}
+{{- .Scratch.Set "layout" "layouts/index.html" }}
 
-<section id="home"> 
-  <div class="hero hero-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('{{ .Permalink }}/banner.jpg');" >
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="mx-auto w-50 p-1">
-        <br>
-        {{ .Content }}      
-      </div>
-    </div>
-  </div>
+<section id="{{ .Scratch.Get "id" | lower }}"> 
+  
+
+<!-- First Parallax Section -->
+<div class="jumbotron paral paralsec">
+<h3 class="display-1">Great! It looks like you're thinking<br>of a trip to India!</h3>
+<p class="lead">
+<a class="btn btn-lg btn-md" href="/tour-ideas/" role="button">Welcome</a>
+</p>
+</div>
+
+{{ partial "home/we-are-odyssey.html" . }}
+
+<!-- Second Parallax Section -->
+<div class="jumbotron paral paralsec1">
+<h3 class="display-2">Tell us where you would like to go.<br /><em>We Provide You An Ultimate Travel Experience</em></h3>
+<p class="lead">
+<a class="btn btn-lg btn-md" href="/explore-india/by-state/" role="button">Have a taste</a>
+</p>
+</div>
+
+{{ partial "home/explore.html" . }}
+
+<!-- Third Parallax Section -->
+<div class="jumbotron paral paralsec2">
+<h3 class="display-2">What experiences or activities do you fancy?</h3>
+<p class="lead"><em>Just get in touch and we will start advising and planning ith you</em></p>
+<p class="lead">
+<a class="btn btn-lg btn-md" href="/experience/unique-experiences/" role="button">Explore</a>
+</p>
+</div>
+
+{{ partial "home/themes.html" . }}
+
+{{ partial "home/region.html" . }}
+
+<!-- Fourth Parallax Section -->
+<div class="jumbotron paral paralsec3">
+<h3 class="display-2">Start planning your trip!</h3>
+<p class="lead"><em>We are just a chat session away</em></p>
+<p class="lead">
+</div>
+
+{{ partial "home/newspaper.html" . }}
+  
 </section>
+{{ end }}
+{{ define "postscript" }}
+
+<script>
+$('#myCarousel').carousel({
+  interval: 4000
+})
+
+$('.carousel .carousel-item').each(function(){
+    var minPerSlide = 3;
+    var next = $(this).next();
+    if (!next.length) {
+    next = $(this).siblings(':first');
+    }
+    next.children(':first-child').clone().appendTo($(this));
+    
+    for (var i=0;i<minPerSlide;i++) {
+        next=next.next();
+        if (!next.length) {
+          next = $(this).siblings(':first');
+        }
+        
+        next.children(':first-child').clone().appendTo($(this));
+      }
+});
+
+</script>
+
+{{"<!-- Google map -->" | safeHTML }}
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZ1TWStdIWQYeNDBKpE6SgJSEd4EerEdg&amp;callback=initMap" async="" defer=""></script>
+{{- $js := resources.Get "/js/region.js" }}
+<script src="{{ $js.RelPermalink }}" defer></script>
+
+
 {{ end }} 

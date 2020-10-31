@@ -1,9 +1,23 @@
 {{- define "main" }}
 {{- .Scratch.Set "layout" "layouts/test.single.html" -}}
 
-{{ range where (where .Site.Pages "Section" "states") ".Params.layout" "city" }}
-{{.Title}}, {{ (.CurrentSection.Parent).CurrentSection.Parent.Title }} -> {{ .Params.Type }}<br>
-{{ end }}
+
+
+{{- range $index,$e := (where ( where .Site.Pages "Section" "experience") ".Params.id" "interest" ) }}
+
+{{ $e.Params.id }}<br>
+
+      {{ ( printf "%s%s%s" $e.Permalink  ($e.Name | urlize) ".jpg")}}<br>
+     
+      {{- $src := .Resources.GetMatch $e.Params.translationKey }}
+     
+      {{- if $src }}
+ok<br>
+{{else}}
+
+no<br>
+{{end}}
+{{end}}
 
 {{ end}}
 {{- define "postscript" }}
