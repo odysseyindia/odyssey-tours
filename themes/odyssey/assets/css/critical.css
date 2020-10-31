@@ -4936,6 +4936,7 @@ div.heading {
 }
 div.heading h2 {
   font-size: 2rem;
+  font-weight: 400;
   margin: 0px;
   line-height: 1.7;
 }
@@ -5094,6 +5095,7 @@ iframe .gtm {
 
 h1 {
   font-family: var(--font-secondary);
+  font-weight: 400;
   color: #63582C;
   color: #63582c;
   position: absolute;

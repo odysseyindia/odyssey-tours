@@ -1,0 +1,32 @@
+#sitemap {
+
+	#newspaper {
+    margin-top: 30px;
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: lightgray;
+    column-width: 100px;
+    margin-bottom: 30px;
+    h2 {
+      column-span: all;
+    }
+  	}
+
+	ul {
+	   list-style-type: square;
+	   color: $primary;
+	   }
+
+	li {
+	   font-size: 1rem;
+	   }
+
+	a {
+	   color: $body;
+	   &:hover {
+	   	color: initial;
+	   }
+	}
+}

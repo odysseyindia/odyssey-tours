@@ -1,3 +1,4 @@
 ---
 type: test
+nopublic: true
 ---

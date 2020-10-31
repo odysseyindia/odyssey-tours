@@ -70,11 +70,13 @@ hr {
 div.heading {
   text-align: center;
   font-family: var(--font-secondary);
+
   text-align: center; 
   background: linear-gradient(0deg, $primary, $secondary);
   color: $white;
   h2 {
     font-size: 2rem; 
+    font-weight: 400;
     margin:0px;
     line-height:1.7;}
   h2.with {
