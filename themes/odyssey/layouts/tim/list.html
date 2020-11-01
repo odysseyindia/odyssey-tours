@@ -1,115 +1,77 @@
+{{- define "main" }}
 {{- .Scratch.Set "layout" "layouts/tim/list.html" -}}
 
-{{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
-
-<!DOCTYPE html>
-<html>
-    {{- partial "head.html" . -}}
-    <body>
-        {{- partial "header.html" . -}}
-
-{{ if eq $id "itinerary" }}
-<section id="{{ $id | lower }}">
+<section id="{{ .Scratch.Get "id" | lower }}"> 
   <div class="container">
-    <div class="row">
-      <div class="mx-auto w-50 p-1">
-        {{- with .Params.image }}
-        <img class="lazyload" src="{{.}}" title="{{$.Params.Title}}" 
-        alt="{{$.Params.Title}}" srcset="{{.}} 500w, {{.}} 800w, {{.}} 1200w, {{.}} 1500w">
-        {{- end }}
-        <h2>{{ .Params.tour }}</h2>
-        <h3>{{ .Title }}</h3>
+    
+    <input type="text" list="datalist" onkeyup="ac(this.value)"> 
+    <datalist id="datalist"> 
+      {{- range (where (where .Site.Pages "Section" "tim") ".Params.id" "itinerary") }}
+      <option value="{{.RelPermalink}}">{{.Title}}</option> 
+      {{- end }}
+    </datalist> 
+   
+      <div class="table">
+        <div class="item"><b>Name</b></div>
+        <div class="item"><b>Trip name</b></div>
+        <div class="item"><b>Last modified</b></div>
       </div>
-    </div>
-    <div class="row">
-        <div class="itinerary">
-          <h3>Itinerary</h3>
-          {{ range $index,$e := .Params.itinerary }}
-          <div>
-            <hr class="hr-text" data-content="Day {{ add $index 1 }}"> 
-            {{ range .item }}
-            {{ if in .url "excursions"}}
-            <i class="icon-camera"></i>
-            {{ else if in .url "hotels"}}
-            <i class="icon-bed"></i>
-            {{ end }}
-            
-{{ with .url }}
-{{ with $.Site.GetPage "page" . }}{{.Title}}{{end}}
-{{ end }}
-
-            {{ .desc }}<br>
-            {{ end }}
-          
+      {{- range $i,$e := (where (where .Site.Pages "Section" "tim") ".Params.id" "itinerary") }}
+      <div class="noshow" id="data-{{ $i }}">
+        <div class="table">
+          <div class="item">
+            <a class="link-unstyled" href="{{ .Name | urlize }}">
+            {{ $e.Name }} 
+            </a>
           </div>
-          {{ end }}
+          <div class="item">{{ $e.Params.tour }}</div>
+          <div class="item">{{ $e.Lastmod.Format "02/01/2006"}}</div>
         </div>
-        <div class="workspace">
-          <h3>Workspace</h3>
-        </div>
-        <div class="search">
-          <h3>Search</h3>
-          <form id="selectForm" action="#">
-            <div  class="select-flex">
-              <div class="custom-select">
-                <select id="url">
-                   <option value="">Select a city</option>
-                  {{ range (where (where .Site.Pages "Section" "states") ".Params.id" "city") }}
-                    <option value="{{ .Permalink }}">{{ .Title }} </option>
-                  {{ end }}
-                </select>
-              </div>
-              <div>
-                <input type="submit" value="Submit">
-              </div>
-            </div>
-          </form>
-        </div>
-      </div> 
+      </div>
+      {{- end }}
+     
     </div>
+   
   </div>
 </section>
-{{ else }}
 
-  <section id="tim">
-        <div class="container">
-        <div id="tags-archives">
-          <form id="filter-form" action="#">
-            <input name="tag" type="text" class="form-control input--xlarge" placeholder="{{ i18n "global.search_client" }}" autofocus="autofocus">
-          </form>
-          <h4 class="archive-result text-color-base text-xlarge"
-              data-message-zero="{{ i18n "global.tags_found.zero" }}"
-              data-message-one="{{ i18n "global.tags_found.one" }}"
-              data-message-other="{{ i18n "global.tags_found.other" }}"></h4>
-            <div class="boxes">
-              
-              {{ range (where (where .Site.Pages "Section" "tim") ".Params.id" "itinerary") }}
-                <div id="{{ .Name | urlize }}-list" class="archive box" data-tag="{{ .Name | lower }}">
-                  <h4 class="archive-title">
-                    <a class="link-unstyled" href="{{ .Name | urlize }}">
-                      {{ .Name }} ({{ .Params.tour }})<!-- ({{ .Pages | len }}) -->
-                    </a>
-                  </h4> 
-                  <ul class="archive-posts">
-                    {{ range .Pages.ByDate }}
-                      <li class="archive-post">
-                        <a class="archive-post-title" href="{{ .Permalink }}">
-                          {{ .Title }}
-                        </a>
-                      </li>
-                    {{ end }}
-                  </ul>
-                </div>
-              {{ end }}
-          
-         </div>
-         </div>
-       </div>
-     </section>
 {{ end }}
+{{ define "postscript" }}
 
-    {{- partial "footer.html" . -}}
-    {{- partial "script.html" . -}}
-    {{- partial "script-tag.html" . -}}
-    </body>
-</html>
+<script>
+  var tags = [
+
+    {{- range (where (where .Site.Pages "Section" "tim") ".Params.id" "itinerary") }}
+     "{{ .Title }}", 
+    {{- end }}
+    ];
+
+  var n= tags.length;     
+  var str = ("data-");
+
+  function ac(value) { 
+    document.getElementById('datalist').innerHTML = ''; 
+    l=value.length; 
+   
+
+    for (var i = 0; i<n; i++) { 
+      if(((tags[i].toLowerCase()).indexOf(value.toLowerCase()))>-1) 
+      { 
+        var node = document.createElement("option"); 
+        var val = document.createTextNode(tags[i]); 
+        node.appendChild(val); 
+        // document.getElementById("datalist").appendChild(node); 
+
+        var item = str.concat(i);
+        document.getElementById(item).style.display = "block";
+
+      } else {
+
+        var item = str.concat(i);
+        document.getElementById(item).style.display = "none";
+      }
+    }
+  } 
+</script>
+
+{{ end }}

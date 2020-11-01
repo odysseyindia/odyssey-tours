@@ -3,21 +3,16 @@
 
 
 
-{{- range $index,$e := (where ( where .Site.Pages "Section" "experience") ".Params.id" "interest" ) }}
+{{- range (where (where .Site.Pages "Section" "tim") ".Params.id" "itinerary") }}
 
-{{ $e.Params.id }}<br>
+"{{ .Title }}"<br> 
 
-      {{ ( printf "%s%s%s" $e.Permalink  ($e.Name | urlize) ".jpg")}}<br>
-     
-      {{- $src := .Resources.GetMatch $e.Params.translationKey }}
-     
-      {{- if $src }}
-ok<br>
-{{else}}
+{{ end }}
 
-no<br>
-{{end}}
-{{end}}
+
+
+
+
 
 {{ end}}
 {{- define "postscript" }}

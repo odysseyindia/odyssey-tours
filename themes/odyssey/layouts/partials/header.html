@@ -31,11 +31,19 @@
               </div>
           </li>
           {{- else }}
-          <li class="nav-item">
-              <a href="{{ $v.URL | absLangURL }}" class="nav-link dropdown-toggle" id="navbarDropdown{{ $k }}">
-             <i class='{{ $v.Pre }} menu'></i> {{ $v.Name }}
-             </a>
-          </li>
+              {{- if (and (eq $v.URL "TIM") (ne (getenv "HUGO_ENV") "production")) -}}
+                  <li class="nav-item">
+                  <a href="{{ $v.URL | absLangURL }}" class="nav-link dropdown-toggle" id="navbarDropdown{{ $k }}">
+                 <i class='{{ $v.Pre }} menu'></i> {{ $v.Name }}
+                 </a>
+              </li>
+              {{- else }}
+              <li class="nav-item">
+                  <a href="{{ $v.URL | absLangURL }}" class="nav-link dropdown-toggle" id="navbarDropdown{{ $k }}">
+                 <i class='{{ $v.Pre }} menu'></i> {{ $v.Name }}
+                 </a>
+              </li>
+              {{- end }}
           {{- end }}
         {{- end }}
           {{- partial "language-switcher.html" . }}
