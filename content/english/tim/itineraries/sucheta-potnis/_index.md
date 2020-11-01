@@ -2,6 +2,7 @@
 title: Sucheta Potnis
 name: South India
 id: itinerary
+type: itinerary
 itinerary:
 - day: 1
   item:
