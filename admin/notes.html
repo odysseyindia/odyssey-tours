@@ -2,6 +2,8 @@
 
 {{- range ( where ( where .Site.RegularPages "Section" "experience") ".Params.id" "interest" ) }}
 
+{{ range where (where .Site.RegularPages "Type" "blog") "File.Dir" "blog/tip" ))  }}
+
 
 {{ range first 1 (after $after (where (where .Site.RegularPages "Section" "video") ".File.BaseFileName" "in" .Params.videos ))  }}
 

@@ -11,57 +11,103 @@
       </div>
     </div>
   </div>
+  <div id="note">Note</div>
   <div class="row">
+    <div class="itinerary">
+      <h3>Itinerary</h3>
+      <div class="droptarget">
+        {{ range $index,$e := .Params.itinerary }}
+        <div>
+          <hr class="hr-text" data-content="Day {{ add $index 1 }}">
+          <div id="day{{ $index }}" class="list-group">
 
-        <div class="itinerary">
-          <h3>Itinerary</h3>
-          {{ range $index,$e := .Params.itinerary }}
-          <div>
-            <hr class="hr-text" data-content="Day {{ add $index 1 }}"> 
-            {{ range .item }}
-            {{ if in .url "excursions"}}
-            <i class="icon-camera"></i>
-            {{ else if in .url "hotels"}}
-            <i class="icon-bed"></i>
-            {{ end }}
+            {{ range $i,$item := .item }}
             
-{{ with .url }}
-{{ with $.Site.GetPage "page" . }}{{.Title}}{{end}}
-{{ end }}
-
-            {{ .desc }}<br>
-            {{ end }}
-          
-          </div>
-          {{ end }}
-        </div>
-
-        <div class="workspace">
-          <h3>Workspace</h3>
-        </div>
-
-        <div class="search">
-          <h3>Search</h3>
-          <form id="selectForm" action="#">
-            <div  class="select-flex">
-              <div class="custom-select">
-                <select id="url">
-                   <option value="">Select a city</option>
-                  {{ range (where (where .Site.Pages "Section" "states") ".Params.id" "city") }}
-                    <option value="{{ .Permalink }}">{{ .Title }} </option>
-                  {{ end }}
-                </select>
-              </div>
-              <div>
-                <input type="submit" value="Submit">
-              </div>
+            {{ with $item.url }}
+            <div class="list-group-item">
+              {{ with $.Site.GetPage "page" . }}
+              {{- if in .RelPermalink "excursions"}}
+              <i class="icon-camera"></i>
+              {{- else if in .RelPermalink "hotels"}}
+              <i class="icon-bed"></i>
+              {{- end }}
+              {{ .Title }}
+              {{ end }}
             </div>
-          </form>
-        </div>
+            {{ end }}
 
-      </div> 
+            {{ $item.desc }}
+            {{ end }}
+
+          </div>
+        </div>
+        {{ end }}
+      </div>
     </div>
-  </div>
+
+    <div class="workspace">
+      <h3>Workspace</h3>
+      <div id="workspace" class="list-group">
+        <div class="list-group-item">This is </div>
+        <div class="list-group-item">It works with Bootstrap...</div>
+        <div class="list-group-item">...out of the box.</div>
+        <div class="list-group-item">It has support for touch devices.</div>
+        <div class="list-group-item">Just drag some elements around.</div>
+      </div>
+      <div class="droptarget"></div>
+    </div>
+
+    <div class="search" draggable="true">
+      <h3>Search</h3>
+      <form id="selectForm" action="#">
+        <div  class="select-flex">
+          <div class="custom-select">
+            <select id="url">
+              <option value="">Select a city</option>
+              {{ range ( sort (where (where .Site.Pages "Section" "states") ".Params.id" "city") ".Title" "asc" ) }}
+              <option value="{{ .Permalink }}">{{ .Title }} </option>
+              {{ end }}
+            </select>
+          </div>
+          <div>
+            <input type="submit" class="btn btn-primary" value="Submit">
+          </div>
+        </div>
+      </form>
+    </div>
+
+  </div> 
+</div>
+</div>
 </section>
+
+{{- end }}
+{{- define "postscript" }}
+
+<script src="https://cdn.jsdelivr.net/gh/RubaXa/Sortable/Sortable.min.js"></script>
+
+<script>
+
+  Sortable.create(workspace, {
+    animation: 100,
+    group: 'list-1',
+    draggable: '.list-group-item',
+    handle: '.list-group-item',
+    sort: true,
+    filter: '.sortable-disabled',
+    chosenClass: 'active'
+  });
+
+  Sortable.create(day0, {
+    group: 'list-1',
+    handle: '.list-group-item'
+  });
+
+  Sortable.create(day1, {
+    group: 'list-1',
+    handle: '.list-group-item'
+  });
+
+</script>
 
 {{- end }}

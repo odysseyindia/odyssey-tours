@@ -1,6 +1,5 @@
 #itinerary {
 	
-
 .hr-text {
   line-height: 1em;
   position: relative;
@@ -51,8 +50,8 @@ h3 {
 
 .itinerary {
 	background-color: lightgreen;
-	padding: 10px;
-	width: 34%;
+	padding: 25px;
+	width: 33%;
 	h5 {
 	margin-bottom: 0;
 	}
@@ -61,18 +60,57 @@ h3 {
 .workspace {
 	background-color: beige ;
 	padding: 10px;
-	width: 43%;
+	width: 33%;
 }
 
 .search {
 	background-color: lightgray;
-	padding: 10px;
-	width: 23%;
+	padding: 25px;
+	width: 33%;
 }
 
 .icon-bed {
 	color: black;
 }
 
+
+.box {
+  border: 3px solid #666;
+  background-color: #ddd;
+  border-radius: .5em;
+  padding: 10px;
+  cursor: move;
+}
+.box.over {
+  border: 3px dotted #666;
+}
+
+.droptarget {
+  min-height: 100px;
+}
+
+select {
+  padding: 5px 10px 5px 10px;
+  width: 100%;
+}
+
+.btn {
+  background-color: blue;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.125);
+}
+.list-group-item + .list-group-item {
+    border-top-width: 0;
+}
+.glyphicon-move {
+  cursor: move;
+  cursor: -webkit-grabbing;
+}
 
 }
