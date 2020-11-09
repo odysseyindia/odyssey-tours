@@ -11,102 +11,208 @@
       </div>
     </div>
   </div>
-  <div id="note">Note</div>
-  <div class="row">
-    <div class="itinerary">
-      <h3>Itinerary</h3>
-      <div class="droptarget">
-        {{ range $index,$e := .Params.itinerary }}
-        <div>
-          <hr class="hr-text" data-content="Day {{ add $index 1 }}">
-          <div id="day{{ $index }}" class="list-group">
 
-            {{ range $i,$item := .item }}
-            
-            {{ with $item.url }}
-            <div class="list-group-item">
-              {{ with $.Site.GetPage "page" . }}
-              {{- if in .RelPermalink "excursions"}}
-              <i class="icon-camera"></i>
-              {{- else if in .RelPermalink "hotels"}}
-              <i class="icon-bed"></i>
-              {{- end }}
-              {{ .Title }}
-              {{ end }}
+File: {{ .RelPermalink }}
+<button onclick="saveThis()">Save</button>
+  <div class="main-container">
+    <div class="columns">
+
+      <div id="itin" class="column itinerary-column">
+        <div class="column-header">
+          <h4>Itinerary</h4>
+        </div>
+        {{- range $index,$e := .Params.itinerary }}
+        <hr class="hr-text" data-content="Day {{ add $index 1 }}">
+        <div class="containers">
+          {{- range .url }}
+        <div class="draggable" draggable="true" url="{{ . }}">
+            {{- with $.Site.GetPage "page" . }}
+            {{- if in .RelPermalink "excursions"}}
+            <i class="icon-camera"></i>&nbsp;
+            {{- else if in .RelPermalink "hotels"}}
+            <i class="icon-bed"></i>&nbsp;
+            {{- end }}
+            {{ .Title }}
+            {{- end }}
+        </div>
+          {{- end }}
+        </div>
+        {{- end }}
+      </div>
+
+      <div class="column workspace-column">
+        <div class="column-header">
+          <h4>Workspace</h4>
+        </div>
+        <div class="containers" id="workspace">
+          <div class="draggable" draggable="true">
+            <p>Hypothesis</p>
+          </div>
+          <div class="draggable" draggable="true">
+            <p>User Testing</p>
+          </div>
+          <div class="draggable" draggable="true">
+            <p>Prototype</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column to-do-column">
+        <div class="column-header">
+          <h4>Search</h4>
+        </div>
+        
+        <form id="selectForm" action="#">
+          <div  class="select-flex">
+            <div class="custom-select">
+              <select id="url">
+                <option value="">Select a city</option>
+                {{ range ( sort (where (where .Site.Pages "Section" "states") ".Params.id" "city") ".Title" "asc" ) }}
+                <option value="{{ .Permalink }}">{{ .Title }} </option>
+                {{ end }}
+              </select>
             </div>
-            {{ end }}
+            
+          </div>
+          <div class="column-button">
+            <button id="search" class="button search-button" onclick="search()">Search</button>
+          </div>
+          </form>
 
-            {{ $item.desc }}
-            {{ end }}
-
+        <br>
+        <div class="new-task-column">
+          <div class="column-header">
+            <h4>Add New Task</h4>
+          </div>
+           <div class="containers" id="new-task">
+          <div class="draggable" draggable="true">
+            <input type="text" id="taskText" placeholder="New Task..." onkeydown="if (event.keyCode == 13) document.getElementById('add').click()">
+          </div>
+          <div class="column-button">
+            <button id="add" class="button add-button" onclick="addTask()">Add New Task</button></div>
           </div>
         </div>
-        {{ end }}
-      </div>
-    </div>
+          <br>
 
-    <div class="workspace">
-      <h3>Workspace</h3>
-      <div id="workspace" class="list-group">
-        <div class="list-group-item">This is </div>
-        <div class="list-group-item">It works with Bootstrap...</div>
-        <div class="list-group-item">...out of the box.</div>
-        <div class="list-group-item">It has support for touch devices.</div>
-        <div class="list-group-item">Just drag some elements around.</div>
-      </div>
-      <div class="droptarget"></div>
-    </div>
+          <div class="trash-column">
+            <div class="column-header">
+              <h4>Trash</h4>
+            </div>
+            <div class="containers" id="trash">
+              <div class="draggable" draggable="true">
+                <p>Interviews</p>
+              </div>
+              <div class="draggable" draggable="true">
+                <p>Research</p>
+              </div>
+            </div>
+            <div class="column-button">
+              <button class="button delete-button" onclick="emptyTrash()">Delete</button>
+            </div>
+          </div>
 
-    <div class="search" draggable="true">
-      <h3>Search</h3>
-      <form id="selectForm" action="#">
-        <div  class="select-flex">
-          <div class="custom-select">
-            <select id="url">
-              <option value="">Select a city</option>
-              {{ range ( sort (where (where .Site.Pages "Section" "states") ".Params.id" "city") ".Title" "asc" ) }}
-              <option value="{{ .Permalink }}">{{ .Title }} </option>
-              {{ end }}
-            </select>
-          </div>
-          <div>
-            <input type="submit" class="btn btn-primary" value="Submit">
-          </div>
         </div>
-      </form>
-    </div>
 
-  </div> 
-</div>
-</div>
+      </div> 
+
+
+    </div>
+  </div>
+
 </section>
 
 {{- end }}
 {{- define "postscript" }}
 
-<script src="https://cdn.jsdelivr.net/gh/RubaXa/Sortable/Sortable.min.js"></script>
-
 <script>
 
-  Sortable.create(workspace, {
-    animation: 100,
-    group: 'list-1',
-    draggable: '.list-group-item',
-    handle: '.list-group-item',
-    sort: true,
-    filter: '.sortable-disabled',
-    chosenClass: 'active'
-  });
+const draggables = document.querySelectorAll('.draggable')
+const containers = document.querySelectorAll('.containers')
 
-  Sortable.create(day0, {
-    group: 'list-1',
-    handle: '.list-group-item'
-  });
+draggables.forEach(draggable => {
+  draggable.addEventListener('dragstart',() => {
+    draggable.classList.add('dragging')
+  })
 
-  Sortable.create(day1, {
-    group: 'list-1',
-    handle: '.list-group-item'
-  });
+  draggable.addEventListener('dragend',() => {
+    draggable.classList.remove('dragging')
+  })
+
+})
+
+containers.forEach(container => {
+  container.addEventListener('dragover',e => {
+    e.preventDefault()
+    const afterElement = getDragAfterElement(container,e.clientY)
+    const draggable = document.querySelector('.dragging')
+    if (afterElement == null){
+      container.appendChild(draggable)
+    } else {
+      container.insertBefore(draggable,afterElement)
+    }
+   
+  })
+})
+
+function getDragAfterElement(container,y){
+  const draggableElements = [...container.querySelectorAll('.draggable:not(.dragging)')]
+
+  return draggableElements.reduce((closest,child) => {
+    const box = child.getBoundingClientRect()
+    const offset = y - box.top - box.height / 2
+    
+    if (offset < 0 && offset > closest.offset) {
+      return { offset: offset, element: child }
+    } else {
+      return closest
+    }
+  },{offset: Number.NEGATIVE_INFINITY}).element
+}
+
+function saveThis(){
+
+  // collect the data as it is now
+  let data = [];
+  let dataDays = [];
+
+  let days = document.getElementById('itin').getElementsByClassName('containers')
+  
+  for(let i=0;i<days.length;i++) {
+  
+    var items = days[i].getElementsByTagName('div')
+    dataDays = []
+
+    for(let j=0;j<items.length;j++) {
+
+      var url = items[j].getAttributeNode("url").value
+      dataDays.push(url); 
+    }
+    data.push(dataDays)
+    //data += {'day': $i}
+  }
+  // save this data
+  var status = writeData(data)
+  console.log(status)
+}
+
+function writeData(data){
+
+  const xhr = new XMLHttpRequest();
+  const url='http://localhost:1314/ajax';
+  xhr.open('POST',url,true );
+  xhr.setRequestHeader("Content-Type", "application/json");
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4 && xhr.status === 200) {
+      var jsonResponse = JSON.parse(xhr.responseText);
+      console.log(jsonResponse["Data"]);
+      alert(jsonResponse.data);
+    }
+  };
+  var data = JSON.stringify({ "file": {{ .RelPermalink }}, "data": data });
+  xhr.send(data);
+  //console.log(xhr.status);
+  return xhr.status;
+}
 
 </script>
 

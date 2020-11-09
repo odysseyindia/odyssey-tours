@@ -1,0 +1,20 @@
+---
+title: Alfred Tuinman
+tour: Delhi Agra Jaipur
+id: itinerary
+type: itinerary
+itinerary:
+  - day: 1
+    url:
+      - /states/uttar-pradesh/cities/agra/hotels/hotel-mansingh-palace
+      - /states/uttar-pradesh/cities/agra/excursions/early-morning-taj-mahal
+  - day: 2
+    url:
+      - /states/rajasthan/cities/jaipur/hotels/dera-rawatsar
+      - /states/rajasthan/cities/jaipur/excursions/amber-fort-sightseeing
+  - day: 3
+    url:
+      - 'AI123 from Mumbai to Goa 12:00/14:20'
+      - Mangla Express
+---
+test 2

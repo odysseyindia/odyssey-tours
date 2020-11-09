@@ -20,14 +20,13 @@
     "a11y": "^0.5.1",
     "commonjs": "0.0.1",
     "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
     "lighthouse": "^6.4.1",
-    "mailgun-js": "^0.22.0"
+    "mailgun-js": "^0.22.0",
+    "requirejs": "^2.3.6",
+    "sortablejs": "^1.12.0"
   },
   "devDependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
-    "fs": "0.0.1-security",
-    "js-yaml": "^3.14.0",
-    "requirejs": "^2.3.6"
+    "jquery-sortablejs": "^1.0.1"
   }
 }
