@@ -4,17 +4,17 @@ tour: Delhi Agra Jaipur
 id: itinerary
 type: itinerary
 itinerary:
-  - day: 1
+  - day: 0
     url:
-      - /states/uttar-pradesh/cities/agra/hotels/hotel-mansingh-palace
       - /states/uttar-pradesh/cities/agra/excursions/early-morning-taj-mahal
-  - day: 2
+      - /states/uttar-pradesh/cities/agra/hotels/hotel-mansingh-palace
+  - day: 1
     url:
       - /states/rajasthan/cities/jaipur/hotels/dera-rawatsar
       - /states/rajasthan/cities/jaipur/excursions/amber-fort-sightseeing
-  - day: 3
+  - day: 2
     url:
-      - 'AI123 from Mumbai to Goa 12:00/14:20'
-      - Mangla Express
+      - '#ZgotmplZ'
+      - Mangla%20Express
 ---
-test 2
+Notes about this booking

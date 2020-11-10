@@ -6,14 +6,17 @@
   <div class="container">
     <div class="row">
       <div class="mx-auto w-50 p-3">
-        {{ with .Params.subtitle }}<h3>{{ . }}</h3>{{ end }}
         {{ .Content }}
+         <div id="message" class="alert " role="alert"></div>
       </div>
     </div>
   </div>
 
 File: {{ .RelPermalink }}
-<button onclick="saveThis()">Save</button>
+<button class="save" onclick="saveThis()">Save</button>
+&nbsp;
+<button class="edit" onclick="editThis()">Edit</button>
+
   <div class="main-container">
     <div class="columns">
 
@@ -62,22 +65,36 @@ File: {{ .RelPermalink }}
           <h4>Search</h4>
         </div>
         
-        <form id="selectForm" action="#">
-          <div  class="select-flex">
-            <div class="custom-select">
-              <select id="url">
-                <option value="">Select a city</option>
-                {{ range ( sort (where (where .Site.Pages "Section" "states") ".Params.id" "city") ".Title" "asc" ) }}
-                <option value="{{ .Permalink }}">{{ .Title }} </option>
-                {{ end }}
-              </select>
-            </div>
-            
+        <div id="cityImage"></div>
+        <div  class="select-flex">
+          <div class="custom-select">
+            <label for="city">City</label>
+            <select id="city" name="city" onchange="changeCity()">
+              <option value="">Select a city</option>
+              {{ range ( sort (where (where .Site.Pages "Section" "states") ".Params.id" "city") ".Title" "asc" ) }}
+              <option value="{{ .RelPermalink }}">{{ .Title }} </option>
+              {{ end }}
+            </select>
           </div>
-          <div class="column-button">
-            <button id="search" class="button search-button" onclick="search()">Search</button>
+        </div>
+          
+        <div class="select-flex">
+          <div class="custom-select" id="selectHotels">
+            <label for="hotels">Hotels</label>
+            <select id="hotels" name="hotels">
+            </select>
+             <i class="select icon icon-bed"></i>
           </div>
-          </form>
+        </div>
+
+        <div class="select-flex">
+          <div class="custom-select" id="selectExcursions">
+            <label for="excursions">Excursions</label>
+            <select id="excursions" name="excursions">
+            </select>
+            <i class="select icon icon-camera"></i>
+          </div>
+        </div>
 
         <br>
         <div class="new-task-column">
@@ -92,33 +109,28 @@ File: {{ .RelPermalink }}
             <button id="add" class="button add-button" onclick="addTask()">Add New Task</button></div>
           </div>
         </div>
-          <br>
+        <br>
 
-          <div class="trash-column">
-            <div class="column-header">
-              <h4>Trash</h4>
+        <div class="trash-column">
+          <div class="column-header">
+            <h4>Trash</h4>
+          </div>
+          <div class="containers" id="trash">
+            <div class="draggable" draggable="true">
+              <p>Interviews</p>
             </div>
-            <div class="containers" id="trash">
-              <div class="draggable" draggable="true">
-                <p>Interviews</p>
-              </div>
-              <div class="draggable" draggable="true">
-                <p>Research</p>
-              </div>
-            </div>
-            <div class="column-button">
-              <button class="button delete-button" onclick="emptyTrash()">Delete</button>
+            <div class="draggable" draggable="true">
+              <p>Research</p>
             </div>
           </div>
-
+          <div class="column-button">
+            <button class="button delete-button" onclick="emptyTrash()">Delete</button>
+          </div>
         </div>
 
       </div> 
-
-
     </div>
   </div>
-
 </section>
 
 {{- end }}
@@ -171,48 +183,146 @@ function getDragAfterElement(container,y){
 
 function saveThis(){
 
-  // collect the data as it is now
-  let data = [];
-  let dataDays = [];
-
+  var data = [];
   let days = document.getElementById('itin').getElementsByClassName('containers')
   
   for(let i=0;i<days.length;i++) {
   
+    var urls  = [];
     var items = days[i].getElementsByTagName('div')
-    dataDays = []
-
+    
     for(let j=0;j<items.length;j++) {
-
+     
       var url = items[j].getAttributeNode("url").value
-      dataDays.push(url); 
+    
+      urls.push(url)
     }
-    data.push(dataDays)
-    //data += {'day': $i}
+    data.push({"day":i,'url':urls})
   }
-  // save this data
-  var status = writeData(data)
-  console.log(status)
-}
+  writeData(data)
+};
+
+
 
 function writeData(data){
 
-  const xhr = new XMLHttpRequest();
+  var xhr = new XMLHttpRequest();
   const url='http://localhost:1314/ajax';
   xhr.open('POST',url,true );
   xhr.setRequestHeader("Content-Type", "application/json");
+
   xhr.onreadystatechange = function () {
     if (xhr.readyState === 4 && xhr.status === 200) {
-      var jsonResponse = JSON.parse(xhr.responseText);
-      console.log(jsonResponse["Data"]);
-      alert(jsonResponse.data);
+       console.log(xhr.responseText);
+    } else {
+      console.error(xhr.statusText);
     }
   };
+
+  xhr.onerror = function (e) {
+    console.error(xhr.statusText);
+  };
+
   var data = JSON.stringify({ "file": {{ .RelPermalink }}, "data": data });
-  xhr.send(data);
-  //console.log(xhr.status);
-  return xhr.status;
+
+  let css = document.getElementById("message");
+  css.innerHTML = 'in progress';
+  css.classList.add('alert-info');
+
+  xhr.send(data)
+
 }
+
+
+function changeCity(){
+  let city = document.getElementById("city").value;
+  let img  = document.getElementById("cityImage");
+
+  if (city){
+
+    img.style["background-image"] = "url("+city+"agra.jpg)";
+
+    displayHotels(city);
+    displayExcursions(city);
+  }
+};
+
+
+
+ 
+
+function displayHotels(city){
+ 
+  var xhr = new XMLHttpRequest();
+  var url='http://localhost:1313'+city+"hotels/index.json";
+
+  xhr.open('get',url );
+  xhr.setRequestHeader("Content-Type", "application/json");
+
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4 && xhr.status === 200) {
+      var data = JSON.parse(xhr.responseText);
+      var items = data.data.items
+      var sel = '<option value="" selected></option>';
+//console.log(items.length)
+      if (items.length > 0) {
+        for(let i=0;i<items.length;i++) {
+          sel += "<option value='"+items[i].permalink+"'>"+items[i].title+"</option>"
+        }
+
+        document.getElementById("selectHotels").style.visibility = "visible"; 
+        document.getElementById("hotels").innerHTML = sel;
+      } else {
+        document.getElementById("selectHotels").style.visibility = "hidden";
+      }
+    } else {
+      console.error(xhr.statusText);
+    }
+  };
+
+  xhr.send()
+};
+
+function displayExcursions(city){
+
+  var xhr = new XMLHttpRequest();
+  var url='http://localhost:1313'+city+"excursions/index.json";
+ console.log(url) 
+  xhr.open('get',url );
+  xhr.setRequestHeader("Content-Type", "application/json");
+
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4 && xhr.status === 200) {
+ //console.table(xhr.responseText);      
+      var data = JSON.parse(xhr.responseText);
+      var items = data.data.items
+      var sel = '<option value="" selected></option>';
+
+      if (items.length > 0) {
+        for(let i=0;i<items.length;i++) {
+          sel += "<option value='"+items[i].permalink+"'>"+items[i].title+"</option>"
+        }
+
+        document.getElementById("selectExcursions").style.visibility = "visible"; 
+        document.getElementById("excursions").innerHTML = sel;
+      } else {
+        document.getElementById("selectExcursions").style.visibility = "hidden";
+      }
+    } else {
+      console.error(xhr.statusText);
+    }
+  };
+
+  xhr.send()
+};
+
+
+  
+
+
+function changeHotel(){
+  // 
+};
 
 </script>
 

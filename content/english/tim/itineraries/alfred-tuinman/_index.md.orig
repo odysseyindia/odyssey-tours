@@ -1,4 +1,4 @@
---- #
+---
 title: Alfred Tuinman
 tour: Delhi Agra Jaipur 
 id: itinerary
@@ -16,5 +16,5 @@ itinerary:
     url: 
       - "AI123 from Mumbai to Goa 12:00/14:20"
       - "Mangla Express"
---- #
-test 2
+---
+Notes about this booking

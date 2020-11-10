@@ -1,0 +1,13 @@
+{{- define "response" }}
+{{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
+
+{     
+  "count" : "{{ len .Data.Pages }}",
+  "items" : [
+  {{- range $i, $e := .Data.Pages }}
+    {{- if $i }}, {{ end }}{{ .Render "item" }}
+  {{- end }}
+  ]
+}
+
+{{- end }}

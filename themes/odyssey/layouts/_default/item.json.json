@@ -1,7 +1,6 @@
 {
-    "title": 		"{{ .Title }}",
-    "date": 		"{{ .Date }}",
-    "type": 		"{{ .Type }}",
-    "permalink": 	"{{ .Permalink }}",
-    "content": 		"{{ .Content | plainify }}"
+  "title": "{{ .Title }}",
+  "date": "{{ .Date }}",
+  "type": "{{ .Type }}",
+  "permalink": "{{ .RelPermalink }}"
 }

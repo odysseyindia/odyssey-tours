@@ -8,47 +8,11 @@
  
 </style>
 
-File name: {{ .RelPermalink }}<br>
-
-<button onclick="writeFile()">test</button>
-
+<button onclick="saveThis()">Save</button>
 
 {{ end}}
 {{- define "postscript" }}
 
-<script>
-
-function writeFile(){
-
-  const xhr = new XMLHttpRequest();
-  const url='http://localhost:1314/ajax';
-  xhr.open('POST',url,true );
-  xhr.setRequestHeader("Content-Type", "application/json");
-  xhr.onreadystatechange = function () {
-    if (xhr.readyState === 4 && xhr.status === 200) {
-        var json = JSON.parse(xhr.responseText);
-        alert(json.data);
-    }
-  };
-  var data = JSON.stringify({"data": "test"});
-  xhr.send(data);
-  console.log(xhr.status);
-}
-
-
-
-
-
-
-</script> 
-
-
-
-
-
-
-
-
-
+ 
 
 {{- end }}

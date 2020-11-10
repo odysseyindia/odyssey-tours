@@ -1,5 +1,23 @@
 #itinerary {
 	
+.mx-auto.w-50 {
+  margin-top: 0;
+}
+
+#cityImage {
+  height: 200px;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+
+label {
+  width: 100px;
+  padding-left: 10px;
+}
+select {
+  width: 300px;
+}
+
 .hr-text {
   line-height: 1em;
   position: relative;
@@ -194,6 +212,15 @@ input {
   height: 4rem;
 }
 
+.select.icon {
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  width: auto; ;
+}
 
+#selectHotels, #selectExcursions {
+  visibility: hidden;
+}
 
 }
