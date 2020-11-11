@@ -1,0 +1,15 @@
+{{- define "response" }}
+
+    {
+"title": 		"{{ .Title }}", 
+{{- with .Params.subtitle }}
+"subtitle": 	"{{ . }}", 
+{{- end }} 
+{{- with .Params.image }}
+"image": 		"{{ . }}", 
+{{- end }} 
+"content": 		"{{ .Content | plainify }}",
+"permalink": 	"{{ .Permalink }}"
+ 	}
+ 
+{{- end }}

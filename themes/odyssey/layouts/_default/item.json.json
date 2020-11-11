@@ -1,6 +1,8 @@
 {
   "title": "{{ .Title }}",
   "date": "{{ .Date }}",
-  "type": "{{ .Type }}",
-  "permalink": "{{ .RelPermalink }}"
+  "draft": "{{ .Params.draft }}",
+  "id": "{{ .Params.id }}",
+  "permalink": "{{ .RelPermalink }}",
+  "translationKey": "{{ .Params.translationKey }}"
 }

@@ -58,7 +58,9 @@ select {
 
 /* ----- */
 
-
+.containers {
+  min-height: 200px;
+}
 .add-task-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -156,27 +158,6 @@ select {
   background-color: #fa7070;
 }
 
-.add-button {
-  background-color: #ffcb1e;
-  padding: 0 1rem;
-  height: 2.8rem;
-  margin-top: 0.6rem;
-}
-
-.add-button:hover {
-  background-color: #ffdd6e;
-}
-
-.search-button {
-  background-color: #ff872f;
-  padding: 0 1rem;
-  height: 2.8rem;
-  margin-top: 0.6rem;
-}
-
-.search-button:hover {
-  background-color: #ff872f;
-}
 
 @import url("https://fonts.googleapis.com/css?family=Arimo:400,700|Roboto+Slab:400,700");
 .draggable {

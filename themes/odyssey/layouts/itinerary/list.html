@@ -48,15 +48,6 @@ File: {{ .RelPermalink }}
           <h4>Workspace</h4>
         </div>
         <div class="containers" id="workspace">
-          <div class="draggable" draggable="true">
-            <p>Hypothesis</p>
-          </div>
-          <div class="draggable" draggable="true">
-            <p>User Testing</p>
-          </div>
-          <div class="draggable" draggable="true">
-            <p>Prototype</p>
-          </div>
         </div>
       </div>
 
@@ -68,8 +59,8 @@ File: {{ .RelPermalink }}
         <div id="cityImage"></div>
         <div  class="select-flex">
           <div class="custom-select">
-            <label for="city">City</label>
-            <select id="city" name="city" onchange="changeCity()">
+            <label for="cities">City</label>
+            <select id="cities" name="cities">
               <option value="">Select a city</option>
               {{ range ( sort (where (where .Site.Pages "Section" "states") ".Params.id" "city") ".Title" "asc" ) }}
               <option value="{{ .RelPermalink }}">{{ .Title }} </option>
@@ -83,7 +74,7 @@ File: {{ .RelPermalink }}
             <label for="hotels">Hotels</label>
             <select id="hotels" name="hotels">
             </select>
-             <i class="select icon icon-bed"></i>
+             <i class="select icon icon-bed" onclick="addHotel()"></i>
           </div>
         </div>
 
@@ -92,39 +83,17 @@ File: {{ .RelPermalink }}
             <label for="excursions">Excursions</label>
             <select id="excursions" name="excursions">
             </select>
-            <i class="select icon icon-camera"></i>
+            <i class="select icon icon-camera"  onclick="addExcursion()"></i>
           </div>
         </div>
 
-        <br>
-        <div class="new-task-column">
-          <div class="column-header">
-            <h4>Add New Task</h4>
-          </div>
-           <div class="containers" id="new-task">
-          <div class="draggable" draggable="true">
-            <input type="text" id="taskText" placeholder="New Task..." onkeydown="if (event.keyCode == 13) document.getElementById('add').click()">
-          </div>
-          <div class="column-button">
-            <button id="add" class="button add-button" onclick="addTask()">Add New Task</button></div>
-          </div>
-        </div>
-        <br>
+        <div id="info"></div>
 
         <div class="trash-column">
           <div class="column-header">
-            <h4>Trash</h4>
+            <h4>Trash &nbsp;<i class="select icon icon-camera"  onclick="emptyTrash()"></i></h4>
           </div>
           <div class="containers" id="trash">
-            <div class="draggable" draggable="true">
-              <p>Interviews</p>
-            </div>
-            <div class="draggable" draggable="true">
-              <p>Research</p>
-            </div>
-          </div>
-          <div class="column-button">
-            <button class="button delete-button" onclick="emptyTrash()">Delete</button>
           </div>
         </div>
 
@@ -138,33 +107,44 @@ File: {{ .RelPermalink }}
 
 <script>
 
-const draggables = document.querySelectorAll('.draggable')
-const containers = document.querySelectorAll('.containers')
-
-draggables.forEach(draggable => {
-  draggable.addEventListener('dragstart',() => {
-    draggable.classList.add('dragging')
-  })
-
-  draggable.addEventListener('dragend',() => {
-    draggable.classList.remove('dragging')
-  })
-
+document.addEventListener('DOMContentLoaded', (event) => {
+  draggable();
 })
+document.getElementById("cities").addEventListener("change", changeCity);
+document.getElementById("hotels").addEventListener("change", changeHotel);
+document.getElementById("excursions").addEventListener("change", changeExcursion);
 
-containers.forEach(container => {
-  container.addEventListener('dragover',e => {
-    e.preventDefault()
-    const afterElement = getDragAfterElement(container,e.clientY)
-    const draggable = document.querySelector('.dragging')
-    if (afterElement == null){
-      container.appendChild(draggable)
-    } else {
-      container.insertBefore(draggable,afterElement)
-    }
-   
+
+
+function draggable(){
+  var draggables = document.querySelectorAll('.draggable')
+  var containers = document.querySelectorAll('.containers')
+
+  draggables.forEach(draggable => {
+    draggable.addEventListener('dragstart',() => {
+      draggable.classList.add('dragging')
+    })
+
+    draggable.addEventListener('dragend',() => {
+      draggable.classList.remove('dragging')
+    })
+
   })
-})
+
+  containers.forEach(container => {
+    container.addEventListener('dragover',e => {
+      e.preventDefault()
+      const afterElement = getDragAfterElement(container,e.clientY)
+      const draggable = document.querySelector('.dragging')
+      if (afterElement == null){
+        container.appendChild(draggable)
+      } else {
+        container.insertBefore(draggable,afterElement)
+      }
+     
+    })
+  })
+}
 
 function getDragAfterElement(container,y){
   const draggableElements = [...container.querySelectorAll('.draggable:not(.dragging)')]
@@ -235,21 +215,21 @@ function writeData(data){
 
 
 function changeCity(){
-  let city = document.getElementById("city").value;
+  const source = document.querySelector("#cities")
+  var url  = source[source.selectedIndex].value ;
+  var path = 'http://localhost:1313'+url+"index.json";
   let img  = document.getElementById("cityImage");
 
-  if (city){
+  if (url){
 
-    img.style["background-image"] = "url("+city+"agra.jpg)";
+    var info = getData(path);
+    img.style["background-image"]="url("+url+info.translationKey+".jpg)";
 
     displayHotels(city);
     displayExcursions(city);
   }
 };
 
-
-
- 
 
 function displayHotels(city){
  
@@ -261,10 +241,10 @@ function displayHotels(city){
 
   xhr.onreadystatechange = function () {
     if (xhr.readyState === 4 && xhr.status === 200) {
-      var data = JSON.parse(xhr.responseText);
+      var data  = JSON.parse(xhr.responseText);
       var items = data.data.items
-      var sel = '<option value="" selected></option>';
-//console.log(items.length)
+      var sel   = '<option value="">Select a hotel</option>';
+
       if (items.length > 0) {
         for(let i=0;i<items.length;i++) {
           sel += "<option value='"+items[i].permalink+"'>"+items[i].title+"</option>"
@@ -287,16 +267,16 @@ function displayExcursions(city){
 
   var xhr = new XMLHttpRequest();
   var url='http://localhost:1313'+city+"excursions/index.json";
- console.log(url) 
+ 
   xhr.open('get',url );
   xhr.setRequestHeader("Content-Type", "application/json");
 
   xhr.onreadystatechange = function () {
     if (xhr.readyState === 4 && xhr.status === 200) {
- //console.table(xhr.responseText);      
-      var data = JSON.parse(xhr.responseText);
+     
+      var data  = JSON.parse(xhr.responseText);
       var items = data.data.items
-      var sel = '<option value="" selected></option>';
+      var sel   = '<option value="">Select an excursion</option>';
 
       if (items.length > 0) {
         for(let i=0;i<items.length;i++) {
@@ -317,12 +297,102 @@ function displayExcursions(city){
 };
 
 
-  
+function addHotel(){
 
+  const source = document.querySelector("#hotels")
+  const i      = source.selectedIndex;
+  const url    = source[i].value ;
+  const hotel  = source[i].innerHTML;
+  
+  var html = '<div class="draggable" draggable="true" url="' + url + '"><i class="icon-bed"></i>&nbsp;' + hotel + '</div>'
+
+  document.getElementById("workspace").innerHTML += html;
+  draggable()
+
+};
+
+function addExcursion(){
+
+  const source    = document.querySelector("#excursions")
+  const i         = source.selectedIndex;
+  const url       = source[i].value ;
+  const excursion = source[i].innerHTML;
+  
+  var html = '<div class="draggable" draggable="true" url="' + url + '"><i class="icon-bed"></i>&nbsp;' + excursion + '</div>'
+
+  document.getElementById("workspace").innerHTML += html;
+  draggable()
+};
+
+function emptyTrash(){
+  var trash = document.getElementById("trash")
+  trash.innerHTML = ""
+}
 
 function changeHotel(){
-  // 
-};
+  const source = document.querySelector("#hotels")
+  const url    = source[source.selectedIndex].value ;
+  const path   ='http://localhost:1313'+ url + "index.json";
+
+  var xhr = new XMLHttpRequest();
+  xhr.open('get',path );
+  xhr.setRequestHeader("Content-Type", "application/json");
+
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4 && xhr.status === 200) {
+      
+      var data = JSON.parse(xhr.responseText);
+      
+      document.getElementById("info").innerHTML = data.permalink
+    } else {
+      console.error(xhr.statusText);
+    }
+  };
+
+  xhr.send()
+}
+
+function changeExcursion(){
+  const source = document.querySelector("#excursions")
+  const url    = source[source.selectedIndex].value ;
+  const path   ='http://localhost:1313'+ url + "index.json";
+
+  var xhr = new XMLHttpRequest();
+  xhr.open('get',path );
+  xhr.setRequestHeader("Content-Type", "application/json");
+
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4 && xhr.status === 200) {
+      
+      var data = JSON.parse(xhr.responseText);
+      
+      document.getElementById("info").innerHTML = data.permalink
+    } else {
+      console.error(xhr.statusText);
+    }
+  };
+
+  xhr.send()
+}
+
+function getData(path){
+  var xhr = new XMLHttpRequest();
+  xhr.open('get',path );
+  xhr.setRequestHeader("Content-Type", "application/json");
+
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4 && xhr.status === 200) {
+      
+      var data = JSON.parse(xhr.responseText);
+      
+      document.getElementById("info").innerHTML = data.data.permalink
+    } else {
+      console.error(xhr.statusText);
+    }
+  };
+
+  xhr.send()
+}
 
 </script>
 
