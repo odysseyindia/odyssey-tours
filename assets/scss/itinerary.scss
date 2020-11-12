@@ -4,10 +4,16 @@
   margin-top: 0;
 }
 
-#cityImage {
+#image {
   height: 200px;
   background-size: cover;
   margin-bottom: 10px;
+}
+
+#info {
+padding: 10px;
+background-color: $white;
+color: $body;
 }
 
 label {

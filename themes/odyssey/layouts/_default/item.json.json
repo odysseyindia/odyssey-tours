@@ -4,5 +4,7 @@
   "draft": "{{ .Params.draft }}",
   "id": "{{ .Params.id }}",
   "permalink": "{{ .RelPermalink }}",
+  "content": "{{ .Content | plainify }}",
   "translationKey": "{{ .Params.translationKey }}"
+ 
 }

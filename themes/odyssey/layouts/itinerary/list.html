@@ -56,7 +56,7 @@ File: {{ .RelPermalink }}
           <h4>Search</h4>
         </div>
         
-        <div id="cityImage"></div>
+       
         <div  class="select-flex">
           <div class="custom-select">
             <label for="cities">City</label>
@@ -87,6 +87,7 @@ File: {{ .RelPermalink }}
           </div>
         </div>
 
+        <div id="image"></div>
         <div id="info"></div>
 
         <div class="trash-column">
@@ -107,14 +108,12 @@ File: {{ .RelPermalink }}
 
 <script>
 
-document.addEventListener('DOMContentLoaded', (event) => {
-  draggable();
-})
 document.getElementById("cities").addEventListener("change", changeCity);
 document.getElementById("hotels").addEventListener("change", changeHotel);
 document.getElementById("excursions").addEventListener("change", changeExcursion);
-
-
+document.addEventListener('DOMContentLoaded', (event) => {
+  draggable();
+})
 
 function draggable(){
   var draggables = document.querySelectorAll('.draggable')
@@ -182,8 +181,6 @@ function saveThis(){
   writeData(data)
 };
 
-
-
 function writeData(data){
 
   var xhr = new XMLHttpRequest();
@@ -194,8 +191,6 @@ function writeData(data){
   xhr.onreadystatechange = function () {
     if (xhr.readyState === 4 && xhr.status === 200) {
        console.log(xhr.responseText);
-    } else {
-      console.error(xhr.statusText);
     }
   };
 
@@ -210,26 +205,56 @@ function writeData(data){
   css.classList.add('alert-info');
 
   xhr.send(data)
-
 }
 
 
 function changeCity(){
   const source = document.querySelector("#cities")
-  var url  = source[source.selectedIndex].value ;
-  var path = 'http://localhost:1313'+url+"index.json";
-  let img  = document.getElementById("cityImage");
+  const city   = source[source.selectedIndex].value ;
+  const img    = document.getElementById("cityImage");
 
-  if (url){
-
-    var info = getData(path);
-    img.style["background-image"]="url("+url+info.translationKey+".jpg)";
-
+  if (city){
+    displayCity(city);
     displayHotels(city);
     displayExcursions(city);
   }
 };
 
+function displayCity(url){
+  
+  const city   = url.split("/")[(url.split("/")).length-2] 
+  // json url for the city is one step lower in the url tree
+  var   newUrl = url.split("/")
+  newUrl.pop()
+  newUrl.pop()
+  
+  const path = 'http://localhost:1313'+(newUrl.join("/"))+"/index.json";
+
+  var xhr = new XMLHttpRequest();
+  xhr.open('get',path );
+  xhr.setRequestHeader("Content-Type", "application/json");
+
+  xhr.onreadystatechange = function () {
+
+    if (xhr.readyState === 4 && xhr.status === 200) {
+
+      const nonl   = xhr.responseText.replace(/(\n)/gm,"")
+      const data   = JSON.parse(nonl);
+      const cities = data.data.items
+
+      for(let i=0;i<cities.length;i++) {
+        if (cities[i].translationKey == city ){
+          citydata = cities[i]
+        }
+      }
+
+      const img = 'url("http://localhost:1313'+url+citydata.translationKey+'.jpg")'
+      document.getElementById("image").style["background-image"]=img;
+      document.getElementById("info").innerHTML = citydata.content
+    }
+  };
+  xhr.send()
+}
 
 function displayHotels(city){
  
@@ -241,9 +266,11 @@ function displayHotels(city){
 
   xhr.onreadystatechange = function () {
     if (xhr.readyState === 4 && xhr.status === 200) {
-      var data  = JSON.parse(xhr.responseText);
-      var items = data.data.items
-      var sel   = '<option value="">Select a hotel</option>';
+
+      const nonl  = xhr.responseText.replace(/(\n)/gm,"")
+      const data  = JSON.parse(nonl);
+      const items = data.data.items
+      var   sel   = '<option value="">Select a hotel</option>';
 
       if (items.length > 0) {
         for(let i=0;i<items.length;i++) {
@@ -255,11 +282,8 @@ function displayHotels(city){
       } else {
         document.getElementById("selectHotels").style.visibility = "hidden";
       }
-    } else {
-      console.error(xhr.statusText);
     }
   };
-
   xhr.send()
 };
 
@@ -274,9 +298,10 @@ function displayExcursions(city){
   xhr.onreadystatechange = function () {
     if (xhr.readyState === 4 && xhr.status === 200) {
      
-      var data  = JSON.parse(xhr.responseText);
-      var items = data.data.items
-      var sel   = '<option value="">Select an excursion</option>';
+      const nonl  = xhr.responseText.replace(/(\n)/gm,"")
+      const data  = JSON.parse(nonl);
+      const items = data.data.items
+      var sel     = '<option value="">Select an excursion</option>';
 
       if (items.length > 0) {
         for(let i=0;i<items.length;i++) {
@@ -288,11 +313,8 @@ function displayExcursions(city){
       } else {
         document.getElementById("selectExcursions").style.visibility = "hidden";
       }
-    } else {
-      console.error(xhr.statusText);
     }
   };
-
   xhr.send()
 };
 
@@ -303,12 +325,12 @@ function addHotel(){
   const i      = source.selectedIndex;
   const url    = source[i].value ;
   const hotel  = source[i].innerHTML;
-  
-  var html = '<div class="draggable" draggable="true" url="' + url + '"><i class="icon-bed"></i>&nbsp;' + hotel + '</div>'
+  const html   = '<div class="draggable" draggable="true" url="' + url + '"><i class="icon-bed"></i>&nbsp;' + hotel + '</div>'
 
-  document.getElementById("workspace").innerHTML += html;
-  draggable()
-
+  if (i) {
+    document.getElementById("workspace").innerHTML += html;
+    draggable()
+  }
 };
 
 function addExcursion(){
@@ -317,11 +339,12 @@ function addExcursion(){
   const i         = source.selectedIndex;
   const url       = source[i].value ;
   const excursion = source[i].innerHTML;
-  
-  var html = '<div class="draggable" draggable="true" url="' + url + '"><i class="icon-bed"></i>&nbsp;' + excursion + '</div>'
+  const html      = '<div class="draggable" draggable="true" url="' + url + '"><i class="icon-bed"></i>&nbsp;' + excursion + '</div>'
 
-  document.getElementById("workspace").innerHTML += html;
-  draggable()
+  if (i) {
+    document.getElementById("workspace").innerHTML += html;
+    draggable()
+  }
 };
 
 function emptyTrash(){
@@ -333,6 +356,7 @@ function changeHotel(){
   const source = document.querySelector("#hotels")
   const url    = source[source.selectedIndex].value ;
   const path   ='http://localhost:1313'+ url + "index.json";
+  const hotel  = url.split("/")[(url.split("/")).length-2] 
 
   var xhr = new XMLHttpRequest();
   xhr.open('get',path );
@@ -341,22 +365,21 @@ function changeHotel(){
   xhr.onreadystatechange = function () {
     if (xhr.readyState === 4 && xhr.status === 200) {
       
-      var data = JSON.parse(xhr.responseText);
-      
-      document.getElementById("info").innerHTML = data.permalink
-    } else {
-      console.error(xhr.statusText);
+      const nonl   = xhr.responseText.replace(/(\n)/gm,"")
+      const data   = JSON.parse(nonl);
+
+      document.getElementById("info").innerHTML = data.data.content
     }
   };
-
   xhr.send()
 }
 
 function changeExcursion(){
-  const source = document.querySelector("#excursions")
-  const url    = source[source.selectedIndex].value ;
-  const path   ='http://localhost:1313'+ url + "index.json";
-
+  const source    = document.querySelector("#excursions")
+  const url       = source[source.selectedIndex].value ;
+  const path      ='http://localhost:1313'+ url + "index.json";
+  const excursion = url.split("/")[(url.split("/")).length-2] 
+  
   var xhr = new XMLHttpRequest();
   xhr.open('get',path );
   xhr.setRequestHeader("Content-Type", "application/json");
@@ -364,33 +387,12 @@ function changeExcursion(){
   xhr.onreadystatechange = function () {
     if (xhr.readyState === 4 && xhr.status === 200) {
       
-      var data = JSON.parse(xhr.responseText);
-      
-      document.getElementById("info").innerHTML = data.permalink
-    } else {
-      console.error(xhr.statusText);
+      const nonl  = xhr.responseText.replace(/(\n)/gm,"")
+      const data  = JSON.parse(nonl);
+
+      document.getElementById("info").innerHTML = data.data.content
     }
   };
-
-  xhr.send()
-}
-
-function getData(path){
-  var xhr = new XMLHttpRequest();
-  xhr.open('get',path );
-  xhr.setRequestHeader("Content-Type", "application/json");
-
-  xhr.onreadystatechange = function () {
-    if (xhr.readyState === 4 && xhr.status === 200) {
-      
-      var data = JSON.parse(xhr.responseText);
-      
-      document.getElementById("info").innerHTML = data.data.permalink
-    } else {
-      console.error(xhr.statusText);
-    }
-  };
-
   xhr.send()
 }
 

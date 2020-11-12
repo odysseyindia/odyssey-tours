@@ -1,20 +1,4 @@
 {{- define "response" }}
-{{- $id := cond (isset .Params "id") .Params.id .CurrentSection.Params.translationKey }}
-{{- if eq $id "city"}}
-
-    {
-"title": 		"{{ .Title }}", 
-{{- with .Params.subtitle }}
-"subtitle": 	"{{ . }}", 
-{{- end }} 
-{{- with .Params.image }}
-"image": 		"{{ . }}", 
-{{- end }} 
-"content": 		"{{ .Content | plainify }}",
-"permalink": 	"{{ .Permalink }}"
- 	}
- 
- {{- else }}
 
 {     
   "count" : "{{ len .Data.Pages }}"
@@ -24,5 +8,4 @@
   {{ end }}
   ]
 }
-{{- end }}
 {{- end }}

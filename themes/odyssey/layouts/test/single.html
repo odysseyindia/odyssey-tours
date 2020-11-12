@@ -8,11 +8,24 @@
  
 </style>
 
-<button onclick="saveThis()">Save</button>
+<button onclick="testThis()">Save</button>
+
+<div id="info"></div>
 
 {{ end}}
 {{- define "postscript" }}
 
- 
+<script>
+function testThis(path){
+ let phrase
+  if (true) {
+  phrase = "Hello!";
+
+  alert(phrase+" 1"); // Hello!
+}
+
+alert(phrase+" 2"); // Error, no such variable!
+}
+</script>
 
 {{- end }}
