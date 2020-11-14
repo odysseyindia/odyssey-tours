@@ -5283,6 +5283,11 @@ ol.breadcrumb .breadcrumb ol {
 .breadcrumb-item + .breadcrumb-item::before {
   color: #63582C;
   content: "*";
+  font-size: 1rem;
+}
+
+.icon-home-1 {
+  color: #63582C;
 }
 
 @media screen and (max-width: 778px) {

@@ -4,103 +4,107 @@
 {{ $now := now.Format "2006-01-02" }}
 
 <section id="{{ .Scratch.Get "id" | lower }}"> 
-  <div class="container">
-    <div class="row nowrap">
 
-      <div class="navbar">
-        <button>
-          <i class="icon-plus"></i>New Trip
-        </button>
+  <div class="row nowrap">
+    <div id="navbar">
+      <div class="wrapper">
 
-        <div class="input-icon">
+      <button>
+        <i class="icon-plus"></i>New Trip
+      </button>
+
+      <ul>
+        <li id="trips-all-trips">
+          <span class="mouse">
+            <i class="icon-group"></i>
+            All Trips
+          </span>
+        </li>
+        <li id="trips-my-trips">
+          <span class="mouse">
+            <i class="icon-adult"></i> 
+            My Trips
+          </span>
+        </li>
+        <li id="trips-archived">
+          <span class="mouse">
+            <i class="icon-archive"></i>
+            Archived
+          </span>
+        </li>
+      </ul>
+      <h5>Filter by Type</h5>
+      <ul>
+        <li id="type-proposal">
+          <span class="mouse">
+            <i class="icon-folder-open-empty"></i>Proposal
+          </span>
+        </li>
+        <li id="type-itinerary">
+          <span class="mouse">
+            <i class="icon-folder-open-empty"></i> 
+            Itinerary
+          </span>
+        </li>
+      </ul>
+      <h5>Filter by Date</h5>
+      <ul>
+        <li id="date-upcoming">
+          <span class="mouse">
+            <i class="icon-forward"></i> 
+            Upcoming
+          </span>
+        </li>
+        <li id="date-in-progress">
+          <span class="mouse">
+            <i class="icon-spin3"></i> 
+            In progress
+          </span>
+        </li>
+        <li id="date-past">
+          <span class="mouse">
+            <i class="icon-archive"></i> 
+            Past
+          </span>
+        </li>
+      </ul>
+      <h5>Filter by Status</h5>
+      <ul>
+        <li id="status-quote">
+          <span class="mouse">
+            <i class="icon-hourglass"></i>
+            Quote
+          </span>
+        </li>
+        <li id="status-confirmed">
+          <span class="mouse">
+            <i class="icon-check"></i> 
+            Confirmed
+          </span>
+        </li>
+        <li id="status-paid">
+          <span class="mouse">
+            <i class="icon-rupee"></i>
+            Paid
+          </span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+    <div id="listing">
+        <div class="row">
+          <div class="input-icons">
           <i class="icon-search"></i>
-          <input type="text" list="datalist" placeholder="Search" onkeyup="ac(this.value)"> 
-          <datalist id="datalist"> 
-            {{- range (where (where .Site.Pages "Section" "tim") ".Params.id" "itinerary") }}
-            <option value="{{.RelPermalink}}">{{.Title}}</option> 
-            {{- end }}
-          </datalist> 
+          <input class="input-field" type="text" list="datalist" placeholder="Search" onkeyup="ac(this.value)"> 
+            <datalist id="datalist"> 
+              {{- range (where (where .Site.Pages "Section" "tim") ".Params.id" "itinerary") }}
+              <option value="{{.RelPermalink}}">{{.Title}}</option> 
+              {{- end }}
+            </datalist> 
+          </div>
         </div>
 
-        <ul>
-          <li id="trips-all-trips">
-            <span class="mouse">
-              <i class="icon-group"></i>
-              All Trips
-            </span>
-          </li>
-          <li id="trips-my-trips">
-            <span class="mouse">
-              <i class="icon-adult"></i> 
-              My Trips
-            </span>
-          </li>
-          <li id="trips-archived">
-            <span class="mouse">
-              <i class="icon-archive"></i>
-              Archived
-            </span>
-          </li>
-        </ul>
-        <h5>Filter by Type</h5>
-        <ul>
-          <li id="type-proposal">
-            <span class="mouse">
-              <i class="icon-folder-open-empty"></i>Proposal
-            </span>
-          </li>
-          <li id="type-itinerary">
-            <span class="mouse">
-              <i class="icon-folder-open-empty"></i> 
-              Itinerary
-            </span>
-          </li>
-        </ul>
-        <h5>Filter by Date</h5>
-        <ul>
-          <li id="date-upcoming">
-            <span class="mouse">
-              <i class="icon-forward"></i> 
-              Upcoming
-            </span>
-          </li>
-          <li id="date-in-progress">
-            <span class="mouse">
-              <i class="icon-spin3"></i> 
-              In progress
-            </span>
-          </li>
-          <li id="date-past">
-            <span class="mouse">
-              <i class="icon-archive"></i> 
-              Past
-            </span>
-          </li>
-        </ul>
-        <h5>Filter by Status</h5>
-        <ul>
-          <li id="status-quote">
-            <span class="mouse">
-              <i class="icon-hourglass"></i>
-              Quote
-            </span>
-          </li>
-          <li id="status-confirmed">
-            <span class="mouse">
-              <i class="icon-check"></i> 
-              Confirmed
-            </span>
-          </li>
-          <li id="status-paid">
-            <span class="mouse">
-              <i class="icon-rupee"></i>
-              Paid
-            </span>
-          </li>
-        </ul>
-      </div>
-
-      <div id="listing">
         <div class="table">
           <div class="item-1"><b>Name</b></div>
           <div class="item-2"><b>Trip name</b></div>
@@ -109,11 +113,10 @@
           <div class="item-icon"></div>
           <div class="item-icon"></div>
           <div class="item-icon"></div>
-       <!--   <div class="item-icon"></div> -->
         </div>
         {{- range $i,$e := (where (where .Site.Pages "Section" "tim") ".Params.id" "itinerary") }}
 
-        <div class="noshow {{if not (modBool $i 2)}}odd{{else}}even{{end}}" tabindex="-1" id="data-{{ $i }}" type="" >
+        <div class="booking {{if not (modBool $i 2)}}odd{{else}}even{{end}}" tabindex="-1" id="data-{{ $i }}" type="" >
           <div class="table">
             <div class="item-1">
               <a class="link-unstyled" href="{{ .RelPermalink }}">
@@ -140,19 +143,24 @@
               {{ if eq $e.Params.status "paid" }}icon-rupee{{ end }}"></i>
             </div>
             <div class="item-icon">
-            <i class="{{ if and (ge $now .Params.arrdate) (le now .Params.depdate) }}icon-spin3{{end}}
-            {{with .Params.depdate}}{{ if gt $now . }}icon-fast-backward{{end}}{{end}} {{ if gt .Params.arrdate $now}}icon-forward{{end}}"></i>
-          </div>
-          <div class="item-icon">
+              <i class="{{ if and (ge $now .Params.arrdate) (le now .Params.depdate) }}icon-spin3{{end}}
+              {{with .Params.depdate}}{{ if gt $now . }}icon-fast-backward{{end}}{{end}} {{ if gt .Params.arrdate $now}}icon-forward{{end}}"></i>
+            </div>
+            <div class="item-icon">
               <i class="{{ if eq  $e.Params.draft true }}icon-archive{{ end }}"></i>
-          </div>
+            </div>
 
         </div>
       </div>
       {{- end }}
     </div>
 
-    <div id="sidebar" class="sidebar">
+    <div id="sidebar">
+       <div class="row">
+       <div id="closebtn">
+        <i class="icon-plus" ></i>
+       </div>
+      </div>
       <div class="row">
         <div >
           <i class="icon-pencil" id="edit"></i><br>Edit
@@ -167,8 +175,8 @@
           <i class="icon-archive" id="archive"></i><br>Archive
         </div>
       </div>
-
-        <div class="row">
+      <hr>
+      <div class="row">
         <div class="label">
           <label for="name">Contact</label>
         </div>
@@ -247,40 +255,40 @@
         <div class="input" id="url"></div>
       </div>
 
-       <div class="row">
+      <div class="row">
         <div class="input" id="save"><button>Save</button>
         </div>
       </div>
 
     </div>
-  </div>
-</section>
+  </section>
 
-{{ end }}
-{{ define "postscript" }}
+  {{ end }}
+  {{ define "postscript" }}
 
-<script>
-  var tags = [
+  <script>
+    /* search script */
+    var tags = [
 
-  {{- range (where (where .Site.Pages "Section" "tim") ".Params.id" "itinerary") }}
-  "{{ .Title }}", 
-  {{- end }}
-  ];
+    {{- range (where (where .Site.Pages "Section" "tim") ".Params.id" "itinerary") }}
+    "{{ .Title }}", 
+    {{- end }}
+    ];
 
-  var n= tags.length;     
-  var str = ("data-");
+    var n= tags.length;     
+    var str = ("data-");
 
-  function ac(value) { 
-    document.getElementById('datalist').innerHTML = ''; 
-    l=value.length; 
+    function ac(value) { 
+      document.getElementById('datalist').innerHTML = ''; 
+      l=value.length; 
 
 
-    for (var i = 0; i<n; i++) { 
-      if(((tags[i].toLowerCase()).indexOf(value.toLowerCase()))>-1) 
-      { 
-        var node = document.createElement("option"); 
-        var val = document.createTextNode(tags[i]); 
-        node.appendChild(val); 
+      for (var i = 0; i<n; i++) { 
+        if(((tags[i].toLowerCase()).indexOf(value.toLowerCase()))>-1) 
+        { 
+          var node = document.createElement("option"); 
+          var val = document.createTextNode(tags[i]); 
+          node.appendChild(val); 
         // document.getElementById("datalist").appendChild(node); 
 
         var item = str.concat(i);
@@ -297,7 +305,8 @@
 
 <script>
 
-  var userSelection = document.getElementsByClassName('noshow');
+  document.getElementById("sidebar").style.width = "0";
+  var userSelection = document.getElementsByClassName('booking');
 
   for(var i = 0; i < userSelection.length; i++) {
     (function(index) {
@@ -308,7 +317,10 @@
   }
 
   function openNav(index) {
-   
+
+    document.getElementById("sidebar").style.width = "350px";
+    document.getElementById("navbar").style.display = "none";
+
     const divs      = userSelection[index].getElementsByTagName('div')  
     const permalink = divs[0].firstElementChild.firstElementChild.getAttribute("href") 
 
@@ -319,46 +331,41 @@
 
     xhr.onreadystatechange = function () {
       if (xhr.readyState === 4 && xhr.status === 200) {
-          const data  = JSON.parse(xhr.responseText);
-          const items = data.data.items
+        const data  = JSON.parse(xhr.responseText);
+        const items = data.data.items
 
         for(let i=0;i<items.length;i++) {
           if (items[i].permalink == permalink ){
             let myData = items[i]
-            console.table(myData)
 
-    document.getElementById("sidebar").style.width = "250px";
-    document.getElementById("name").value       = myData.title
-    document.getElementById("arrdate").value    = myData.arrdate
-    document.getElementById("depdate").value    = myData.depdate
-    document.getElementById("stage").value      = myData.stage
-    document.getElementById("status").value     = myData.status
-    document.getElementById("archived").value   = myData.archived
-    document.getElementById("consultant").value = myData.consultant
-    document.getElementById("url").innerHTML    = myData.permalink
-
+            document.getElementById("name").value       = myData.title
+            document.getElementById("arrdate").value    = myData.arrdate
+            document.getElementById("depdate").value    = myData.depdate
+            document.getElementById("stage").value      = myData.stage
+            document.getElementById("status").value     = myData.status
+            document.getElementById("archived").value   = myData.archived
+            document.getElementById("consultant").value = myData.consultant
+            document.getElementById("url").innerHTML    = myData.permalink
           }
         }
-
       }
     }
     xhr.send()
   };
 
+  document.getElementById("closebtn").addEventListener('click', () => {
+    document.getElementById("sidebar").style.width = "0";
+    document.getElementById("navbar").style.display = "block";
+  });
+
   function capitalize(word) {
     return word.charAt(0).toUpperCase() + word.slice(1)
   }
 
-  function closeNav() {
-    document.getElementById("sidebar").style.width = "0";
-    document.getElementById("listing").style.marginRight= "0";
-  }
-
-
   document.getElementById("trips-all-trips").addEventListener('click', () => {
     var numTours = 0;
 
-    row = document.querySelectorAll(".noshow");
+    row = document.querySelectorAll(".booking");
 
     for (i = 0; i < row.length; i++) {
       numTours += 1;
@@ -367,34 +374,33 @@
     }
   });
 
+  document.getElementById("edit").onclick = function() {
+    window.location.href =  document.getElementById("url").innerHTML 
+  }
 
-document.getElementById("edit").onclick = function() {
-  window.location.href =  document.getElementById("url").innerHTML 
-}
+  document.getElementById("preview").onclick = function() {
 
-document.getElementById("preview").onclick = function() {
+  }
 
-}
+  document.getElementById("copy").onclick = function() {
 
-document.getElementById("copy").onclick = function() {
+  }
 
-}
+  document.getElementById("archive").onclick = function() {
+   document.getElementById("archived").value = true
+ }
 
-document.getElementById("archive").onclick = function() {
- document.getElementById("archived").value = true
-}
-
-document.getElementById("save").onclick = function() {
+ document.getElementById("save").onclick = function() {
   const url = document.getElementById("url").innerHTML 
   var data  = [];
   
-data.push({"name":document.getElementById("name").value})
-data.push({"arrdate":document.getElementById("arrdate").value})
-data.push({"depdate":document.getElementById("depdate").value})
-data.push({"stage":document.getElementById("stage").value})
-data.push({"status":document.getElementById("status").value})
-data.push({"archived":document.getElementById("archived").value})
-data.push({"consultant":document.getElementById("consultant").value})
+  data.push({"name":document.getElementById("name").value})
+  data.push({"arrdate":document.getElementById("arrdate").value})
+  data.push({"depdate":document.getElementById("depdate").value})
+  data.push({"stage":document.getElementById("stage").value})
+  data.push({"status":document.getElementById("status").value})
+  data.push({"archived":document.getElementById("archived").value})
+  data.push({"consultant":document.getElementById("consultant").value})
 
   var xhr = new XMLHttpRequest();
   const xurl='http://localhost:1314/save';
@@ -403,92 +409,91 @@ data.push({"consultant":document.getElementById("consultant").value})
 
   xhr.onreadystatechange = function () {
     if (xhr.readyState === 4 && xhr.status === 200) {
-       console.log(xhr.responseText);
-    }
-  };
+     console.log(xhr.responseText);
+   }
+ };
 
-  xhr.onerror = function (e) {
-    console.error(xhr.statusText);
-  };
+ xhr.onerror = function (e) {
+  console.error(xhr.statusText);
+};
 
-  var data = JSON.stringify({ "file": url , "data": data });
+var data = JSON.stringify({ "file": url , "data": data });
 
-  let css = document.getElementById("message");
-  css.innerHTML = 'in progress';
-  css.classList.add('alert-info');
+let css = document.getElementById("message");
+css.innerHTML = 'in progress';
+css.classList.add('alert-info');
 
-  xhr.send(data)
+xhr.send(data)
 }
 
 
 
-  document.getElementById("type-proposal").onclick = function() {
+document.getElementById("type-proposal").onclick = function() {
 
-    display(5,"Proposal")
-  }
+  display(5,"Proposal")
+}
 
-  document.getElementById("type-itinerary").onclick = function() {
+document.getElementById("type-itinerary").onclick = function() {
 
-    display(5,"Itinerary")
-  }
+  display(5,"Itinerary")
+}
 
-  document.getElementById("status-quote").onclick = function() {
+document.getElementById("status-quote").onclick = function() {
 
-    display(6,"Quote")
-  }
+  display(6,"Quote")
+}
 
-  document.getElementById("status-confirmed").onclick = function() {
+document.getElementById("status-confirmed").onclick = function() {
 
-    display(6,"Confirmed")
-  }
+  display(6,"Confirmed")
+}
 
-  document.getElementById("status-paid").onclick = function() {
+document.getElementById("status-paid").onclick = function() {
 
-    display(6,"Paid")
-  }
+  display(6,"Paid")
+}
 
-  document.getElementById("date-upcoming").onclick = function() {
+document.getElementById("date-upcoming").onclick = function() {
 
-    display(7,"Upcoming")
-  }
+  display(7,"Upcoming")
+}
 
-  document.getElementById("date-in-progress").onclick = function() {
+document.getElementById("date-in-progress").onclick = function() {
 
-    display(7,"In Progress")
-  }
+  display(7,"In Progress")
+}
 
-  document.getElementById("date-past").onclick = function() {
+document.getElementById("date-past").onclick = function() {
 
-    display(7,"Past")
-  }
+  display(7,"Past")
+}
 
 
+function display(column,title){
 
-  function display(column,title){
+  var   numTours = 0;
+  const row = document.querySelectorAll(".booking");
 
-    var   numTours = 0;
-    const row = document.querySelectorAll(".noshow");
-
-    for (i = 0; i < row.length; i++) {
-      var items = row[i].getElementsByTagName('div')  
-      var status = items[column].getAttribute("title")
-      if (status == title){
-        numTours += 1;
-        row[i].classList.add(isOdd(numTours))
-        row[i].style.display = "block"
-      } else {
-        row[i].style.display = "none"
-      }
-    }
-  }
-
-  function isOdd(num) { 
-    if (num % 2) {
-      return "odd"
+  for (i = 0; i < row.length; i++) {
+    var items = row[i].getElementsByTagName('div')  
+    var status = items[column].getAttribute("title")
+    if (status == title){
+      numTours += 1;
+      row[i].classList.add(isOdd(numTours))
+      row[i].style.display = "block"
     } else {
-      return "even"
+      row[i].style.display = "none"
     }
   }
+}
+
+function isOdd(num) { 
+  if (num % 2) {
+    return "odd"
+  } else {
+    return "even"
+  }
+}
 
 </script>
 

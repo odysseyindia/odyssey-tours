@@ -187,7 +187,12 @@ ol.breadcrumb {
 
 .breadcrumb-item + .breadcrumb-item::before {
     color: $primary; 
-    content: "*"; }
+    content: "*";
+    font-size: 1rem; }
+.icon-home-1 {
+  color: $primary;
+} 
+
 
 @media screen and (max-width: 778px) {
   p, li {
