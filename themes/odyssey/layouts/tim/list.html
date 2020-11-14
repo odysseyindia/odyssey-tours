@@ -1,37 +1,258 @@
 {{- define "main" }}
 {{- .Scratch.Set "layout" "layouts/tim/list.html" -}}
 
+{{ $now := now.Format "2006-01-02" }}
+
 <section id="{{ .Scratch.Get "id" | lower }}"> 
   <div class="container">
-    
-    <input type="text" list="datalist" onkeyup="ac(this.value)"> 
-    <datalist id="datalist"> 
-      {{- range (where (where .Site.Pages "Section" "tim") ".Params.id" "itinerary") }}
-      <option value="{{.RelPermalink}}">{{.Title}}</option> 
-      {{- end }}
-    </datalist> 
-   
-      <div class="table">
-        <div class="item"><b>Name</b></div>
-        <div class="item"><b>Trip name</b></div>
-        <div class="item"><b>Last modified</b></div>
+    <div class="row nowrap">
+
+      <div class="navbar">
+        <button>
+          <i class="icon-plus"></i>New Trip
+        </button>
+
+        <div class="input-icon">
+          <i class="icon-search"></i>
+          <input type="text" list="datalist" placeholder="Search" onkeyup="ac(this.value)"> 
+          <datalist id="datalist"> 
+            {{- range (where (where .Site.Pages "Section" "tim") ".Params.id" "itinerary") }}
+            <option value="{{.RelPermalink}}">{{.Title}}</option> 
+            {{- end }}
+          </datalist> 
+        </div>
+
+        <ul>
+          <li id="trips-all-trips">
+            <span class="mouse">
+              <i class="icon-group"></i>
+              All Trips
+            </span>
+          </li>
+          <li id="trips-my-trips">
+            <span class="mouse">
+              <i class="icon-adult"></i> 
+              My Trips
+            </span>
+          </li>
+          <li id="trips-archived">
+            <span class="mouse">
+              <i class="icon-archive"></i>
+              Archived
+            </span>
+          </li>
+        </ul>
+        <h5>Filter by Type</h5>
+        <ul>
+          <li id="type-proposal">
+            <span class="mouse">
+              <i class="icon-folder-open-empty"></i>Proposal
+            </span>
+          </li>
+          <li id="type-itinerary">
+            <span class="mouse">
+              <i class="icon-folder-open-empty"></i> 
+              Itinerary
+            </span>
+          </li>
+        </ul>
+        <h5>Filter by Date</h5>
+        <ul>
+          <li id="date-upcoming">
+            <span class="mouse">
+              <i class="icon-forward"></i> 
+              Upcoming
+            </span>
+          </li>
+          <li id="date-in-progress">
+            <span class="mouse">
+              <i class="icon-spin3"></i> 
+              In progress
+            </span>
+          </li>
+          <li id="date-past">
+            <span class="mouse">
+              <i class="icon-archive"></i> 
+              Past
+            </span>
+          </li>
+        </ul>
+        <h5>Filter by Status</h5>
+        <ul>
+          <li id="status-quote">
+            <span class="mouse">
+              <i class="icon-hourglass"></i>
+              Quote
+            </span>
+          </li>
+          <li id="status-confirmed">
+            <span class="mouse">
+              <i class="icon-check"></i> 
+              Confirmed
+            </span>
+          </li>
+          <li id="status-paid">
+            <span class="mouse">
+              <i class="icon-rupee"></i>
+              Paid
+            </span>
+          </li>
+        </ul>
       </div>
-      {{- range $i,$e := (where (where .Site.Pages "Section" "tim") ".Params.id" "itinerary") }}
-      <div class="noshow" id="data-{{ $i }}">
+
+      <div id="listing">
         <div class="table">
-          <div class="item">
-            <a class="link-unstyled" href="{{ .RelPermalink }}">
-            {{ $e.Title }} 
-            </a>
+          <div class="item-1"><b>Name</b></div>
+          <div class="item-2"><b>Trip name</b></div>
+          <div class="item-date"><b>Date</b></div>
+          <div class="item-date"><b>Action</b></div>
+          <div class="item-icon"></div>
+          <div class="item-icon"></div>
+          <div class="item-icon"></div>
+       <!--   <div class="item-icon"></div> -->
+        </div>
+        {{- range $i,$e := (where (where .Site.Pages "Section" "tim") ".Params.id" "itinerary") }}
+
+        <div class="noshow {{if not (modBool $i 2)}}odd{{else}}even{{end}}" tabindex="-1" id="data-{{ $i }}" type="" >
+          <div class="table">
+            <div class="item-1">
+              <a class="link-unstyled" href="{{ .RelPermalink }}">
+                {{ $e.Title }} 
+              </a>
+            </div>
+            <div class="item-2">
+              {{ $e.Params.tour }}
+            </div>
+            <div class="item-date">
+              {{- with $e.Params.arrdate }}
+              {{ dateFormat "02/01/06" . }}
+              {{- end }}
+            </div>
+            <div class="item-date">
+              {{ $e.Lastmod.Format "02/01/06" }}
+            </div>
+            <div class="item-icon">
+              <i class="{{ if eq $e.Params.stage "proposal" }}icon-folder-empty{{ else }}icon-folder-open-empty{{ end }}"></i>
+            </div>
+            <div class="item-icon">
+              <i class="{{ if eq $e.Params.status "quote" }}icon-hourglass{{ end }}
+              {{ if eq $e.Params.status "confirmed" }}icon-check{{ end }}
+              {{ if eq $e.Params.status "paid" }}icon-rupee{{ end }}"></i>
+            </div>
+            <div class="item-icon">
+            <i class="{{ if and (ge $now .Params.arrdate) (le now .Params.depdate) }}icon-spin3{{end}}
+            {{with .Params.depdate}}{{ if gt $now . }}icon-fast-backward{{end}}{{end}} {{ if gt .Params.arrdate $now}}icon-forward{{end}}"></i>
           </div>
-          <div class="item">{{ $e.Params.tour }}</div>
-          <div class="item">{{ $e.Lastmod.Format "02/01/2006"}}</div>
+          <div class="item-icon">
+              <i class="{{ if eq  $e.Params.draft true }}icon-archive{{ end }}"></i>
+          </div>
+
         </div>
       </div>
       {{- end }}
-     
     </div>
-   
+
+    <div id="sidebar" class="sidebar">
+      <div class="row">
+        <div >
+          <i class="icon-pencil" id="edit"></i><br>Edit
+        </div>
+        <div >
+          <i class="icon-file-pdf" id="preview"></i><br>Preview
+        </div>
+        <div >
+          <i class="icon-copyright" id="copy"></i><br>Copy
+        </div>
+        <div >
+          <i class="icon-archive" id="archive"></i><br>Archive
+        </div>
+      </div>
+
+        <div class="row">
+        <div class="label">
+          <label for="name">Contact</label>
+        </div>
+        <div class="input">
+          <input name="name" id="name" placeholder="Contact person">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="label">
+          <label for="stage">Stage</label>
+        </div>
+        <div class="select">
+          <select id="stage" name="stage">
+            <option></option>
+            <option value="itinerary">Itinerary</option>
+            <option value="proposal">Proposal</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="label">
+          <label for="status">Status</label>
+        </div>
+        <div class="select">
+          <select id="status" name="status">
+            <option ></option>
+            <option value="quote">Quote</option>
+            <option value="confirmed">Confirmed</option>
+            <option value="paid">Paid</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="label">
+          <label for="archived">Archived</label>
+        </div>
+        <div class="select">
+          <select name="archived" id="archived">
+            <option value="false">No</option>
+            <option value="true">Yes</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="label">
+          <label for="consultant">Consultant</label>
+        </div>
+        <div class="input">
+          <input name="consultant" id="consultant" placeholder="Consultant">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="label">
+          <label for="arrdate">Arrival Date</label>
+        </div>
+        <div class="input">
+          <input name="arrdate" id="arrdate" placeholder="dd/mm/yyyy">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="label">
+          <label for="depdate">Departure Date</label>
+        </div>
+        <div class="input">
+          <input name="depdate" id="depdate" placeholder="dd/mm/yyyy">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input" id="url"></div>
+      </div>
+
+       <div class="row">
+        <div class="input" id="save"><button>Save</button>
+        </div>
+      </div>
+
+    </div>
   </div>
 </section>
 
@@ -41,10 +262,10 @@
 <script>
   var tags = [
 
-    {{- range (where (where .Site.Pages "Section" "tim") ".Params.id" "itinerary") }}
-     "{{ .Title }}", 
-    {{- end }}
-    ];
+  {{- range (where (where .Site.Pages "Section" "tim") ".Params.id" "itinerary") }}
+  "{{ .Title }}", 
+  {{- end }}
+  ];
 
   var n= tags.length;     
   var str = ("data-");
@@ -52,7 +273,7 @@
   function ac(value) { 
     document.getElementById('datalist').innerHTML = ''; 
     l=value.length; 
-   
+
 
     for (var i = 0; i<n; i++) { 
       if(((tags[i].toLowerCase()).indexOf(value.toLowerCase()))>-1) 
@@ -72,6 +293,203 @@
       }
     }
   } 
+</script>
+
+<script>
+
+  var userSelection = document.getElementsByClassName('noshow');
+
+  for(var i = 0; i < userSelection.length; i++) {
+    (function(index) {
+      userSelection[index].addEventListener("click", function() {
+       openNav(index);
+     })
+    })(i);
+  }
+
+  function openNav(index) {
+   
+    const divs      = userSelection[index].getElementsByTagName('div')  
+    const permalink = divs[0].firstElementChild.firstElementChild.getAttribute("href") 
+
+    var xhr = new XMLHttpRequest();
+    const url="http://localhost:1313/tim/itineraries/index.json";
+    xhr.open('GET',url,true );
+    xhr.setRequestHeader("Content-Type", "application/json");
+
+    xhr.onreadystatechange = function () {
+      if (xhr.readyState === 4 && xhr.status === 200) {
+          const data  = JSON.parse(xhr.responseText);
+          const items = data.data.items
+
+        for(let i=0;i<items.length;i++) {
+          if (items[i].permalink == permalink ){
+            let myData = items[i]
+            console.table(myData)
+
+    document.getElementById("sidebar").style.width = "250px";
+    document.getElementById("name").value       = myData.title
+    document.getElementById("arrdate").value    = myData.arrdate
+    document.getElementById("depdate").value    = myData.depdate
+    document.getElementById("stage").value      = myData.stage
+    document.getElementById("status").value     = myData.status
+    document.getElementById("archived").value   = myData.archived
+    document.getElementById("consultant").value = myData.consultant
+    document.getElementById("url").innerHTML    = myData.permalink
+
+          }
+        }
+
+      }
+    }
+    xhr.send()
+  };
+
+  function capitalize(word) {
+    return word.charAt(0).toUpperCase() + word.slice(1)
+  }
+
+  function closeNav() {
+    document.getElementById("sidebar").style.width = "0";
+    document.getElementById("listing").style.marginRight= "0";
+  }
+
+
+  document.getElementById("trips-all-trips").addEventListener('click', () => {
+    var numTours = 0;
+
+    row = document.querySelectorAll(".noshow");
+
+    for (i = 0; i < row.length; i++) {
+      numTours += 1;
+      row[i].classList.add(isOdd(numTours))
+      row[i].style.display = "block"
+    }
+  });
+
+
+document.getElementById("edit").onclick = function() {
+  window.location.href =  document.getElementById("url").innerHTML 
+}
+
+document.getElementById("preview").onclick = function() {
+
+}
+
+document.getElementById("copy").onclick = function() {
+
+}
+
+document.getElementById("archive").onclick = function() {
+ document.getElementById("archived").value = true
+}
+
+document.getElementById("save").onclick = function() {
+  const url = document.getElementById("url").innerHTML 
+  var data  = [];
+  
+data.push({"name":document.getElementById("name").value})
+data.push({"arrdate":document.getElementById("arrdate").value})
+data.push({"depdate":document.getElementById("depdate").value})
+data.push({"stage":document.getElementById("stage").value})
+data.push({"status":document.getElementById("status").value})
+data.push({"archived":document.getElementById("archived").value})
+data.push({"consultant":document.getElementById("consultant").value})
+
+  var xhr = new XMLHttpRequest();
+  const xurl='http://localhost:1314/save';
+  xhr.open('POST',xurl,true );
+  xhr.setRequestHeader("Content-Type", "application/json");
+
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4 && xhr.status === 200) {
+       console.log(xhr.responseText);
+    }
+  };
+
+  xhr.onerror = function (e) {
+    console.error(xhr.statusText);
+  };
+
+  var data = JSON.stringify({ "file": url , "data": data });
+
+  let css = document.getElementById("message");
+  css.innerHTML = 'in progress';
+  css.classList.add('alert-info');
+
+  xhr.send(data)
+}
+
+
+
+  document.getElementById("type-proposal").onclick = function() {
+
+    display(5,"Proposal")
+  }
+
+  document.getElementById("type-itinerary").onclick = function() {
+
+    display(5,"Itinerary")
+  }
+
+  document.getElementById("status-quote").onclick = function() {
+
+    display(6,"Quote")
+  }
+
+  document.getElementById("status-confirmed").onclick = function() {
+
+    display(6,"Confirmed")
+  }
+
+  document.getElementById("status-paid").onclick = function() {
+
+    display(6,"Paid")
+  }
+
+  document.getElementById("date-upcoming").onclick = function() {
+
+    display(7,"Upcoming")
+  }
+
+  document.getElementById("date-in-progress").onclick = function() {
+
+    display(7,"In Progress")
+  }
+
+  document.getElementById("date-past").onclick = function() {
+
+    display(7,"Past")
+  }
+
+
+
+  function display(column,title){
+
+    var   numTours = 0;
+    const row = document.querySelectorAll(".noshow");
+
+    for (i = 0; i < row.length; i++) {
+      var items = row[i].getElementsByTagName('div')  
+      var status = items[column].getAttribute("title")
+      if (status == title){
+        numTours += 1;
+        row[i].classList.add(isOdd(numTours))
+        row[i].style.display = "block"
+      } else {
+        row[i].style.display = "none"
+      }
+    }
+  }
+
+  function isOdd(num) { 
+    if (num % 2) {
+      return "odd"
+    } else {
+      return "even"
+    }
+  }
+
 </script>
 
 {{ end }}

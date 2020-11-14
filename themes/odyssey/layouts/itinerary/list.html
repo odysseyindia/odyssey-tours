@@ -248,8 +248,11 @@ function displayCity(url){
         }
       }
 
-      const img = 'url("http://localhost:1313'+url+citydata.translationKey+'.jpg")'
+      const img = 'url("http://localhost:1313'+url+citydata.image+'")'
+      
+      if (img){
       document.getElementById("image").style["background-image"]=img;
+      }
       document.getElementById("info").innerHTML = citydata.content
     }
   };
@@ -367,7 +370,11 @@ function changeHotel(){
       
       const nonl   = xhr.responseText.replace(/(\n)/gm,"")
       const data   = JSON.parse(nonl);
+      const img = 'url("http://localhost:1313'+url+(data.data.image)+'")'
 
+      if (img){
+        document.getElementById("image").style["background-image"]=img;
+      }
       document.getElementById("info").innerHTML = data.data.content
     }
   };
@@ -389,7 +396,11 @@ function changeExcursion(){
       
       const nonl  = xhr.responseText.replace(/(\n)/gm,"")
       const data  = JSON.parse(nonl);
-
+      const img   = 'url("http://localhost:1313'+url+(data.data.image)+'")'
+      
+      if (img){
+        document.getElementById("image").style["background-image"]=img;
+      }
       document.getElementById("info").innerHTML = data.data.content
     }
   };

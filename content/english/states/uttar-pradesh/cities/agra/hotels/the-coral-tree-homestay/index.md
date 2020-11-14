@@ -6,6 +6,7 @@ translationKey: "The Coral Tree Homestay"
 id: "hotel"
 layout: "hotel"
 tags: ["Agra", "Hotels"] 
+
 carousel:
   - url: 1-uttar-pradesh-agra-hotels-coral-tree-homestay-facade.jpg
   - url: 2-uttar-pradesh-agra-hotels-coral-tree-homestay-room.jpg

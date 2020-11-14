@@ -41,9 +41,8 @@
 {{- $sw      := resources.Get "/js/sw.js" -}}
 {{- $mobile  := resources.Get "/js/mobile-menu.js" -}}
 {{- $tooltip := resources.Get "/js/tooltip.js" -}}
-{{- $tours   := resources.Get "/js/tours.js" -}}
 <!-- bundle the above now -->
-{{- $js      := slice $cookie $toggle $lazy $mobile $tours | resources.Concat "js/script.js" }}
+{{- $js      := slice $cookie $toggle $lazy $mobile | resources.Concat "js/script.js" }}
 <script src="{{ $js.RelPermalink }}" defer></script>
 <!-- bundle completed -->
 

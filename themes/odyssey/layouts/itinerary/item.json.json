@@ -6,10 +6,5 @@
   "content": 		"{{ trim (.Content | plainify ) "\n" }}",
   "draft": 			"{{ .Params.draft }}",
   "id": 			"{{ .Params.id }}",
-  "translationKey": "{{ .Params.translationKey }}"
-  {{- range $i,$e := (.Resources.ByType "image") }} 
-    {{- if eq $i 0 }}
-  ,"image": 		"{{ . }}"
-    {{- end }}
-{{- end }} 
+ "proposal": "{{.Params.proposal}}"
 }
