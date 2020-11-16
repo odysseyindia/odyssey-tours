@@ -114,54 +114,79 @@
           <div class="item-icon"></div>
           <div class="item-icon"></div>
         </div>
+        <div class="wrapper">
         {{- range $i,$e := (where (where .Site.Pages "Section" "tim") ".Params.id" "itinerary") }}
 
-        <div class="booking {{if not (modBool $i 2)}}odd{{else}}even{{end}}" tabindex="-1" id="data-{{ $i }}" type="" >
+        <div class="booking {{if not (modBool $i 2)}}odd{{end}}" tabindex="-1" id="data-{{ $i }}" type="" >
           <div class="table">
+            <!-- field 1 -->
             <div class="item-1">
               <a class="link-unstyled" href="{{ .RelPermalink }}">
                 {{ $e.Title }} 
               </a>
             </div>
+            <!-- field 2 -->
             <div class="item-2">
               {{ $e.Params.tour }}
             </div>
+            <!-- field 3 -->
             <div class="item-date">
               {{- with $e.Params.arrdate }}
               {{ dateFormat "02/01/06" . }}
               {{- end }}
             </div>
+            <!-- field 4 -->
             <div class="item-date">
               {{ $e.Lastmod.Format "02/01/06" }}
             </div>
+            <!-- field 5 -->
             <div class="item-icon">
               <i class="{{ if eq $e.Params.stage "proposal" }}icon-folder-empty{{ else }}icon-folder-open-empty{{ end }}"></i>
             </div>
+            <!-- field 6 -->
             <div class="item-icon">
               <i class="{{ if eq $e.Params.status "quote" }}icon-hourglass{{ end }}
               {{ if eq $e.Params.status "confirmed" }}icon-check{{ end }}
               {{ if eq $e.Params.status "paid" }}icon-rupee{{ end }}"></i>
             </div>
+            <!-- field 7 -->
             <div class="item-icon">
               <i class="{{ if and (ge $now .Params.arrdate) (le now .Params.depdate) }}icon-spin3{{end}}
               {{with .Params.depdate}}{{ if gt $now . }}icon-fast-backward{{end}}{{end}} {{ if gt .Params.arrdate $now}}icon-forward{{end}}"></i>
             </div>
+            <!-- field 8 -->
             <div class="item-icon">
-              <i class="{{ if eq  $e.Params.draft true }}icon-archive{{ end }}"></i>
+              <i class="{{ if eq  $e.Params.archived true }}icon-archive{{ end }}"></i>
             </div>
-
+            <!-- field 9: stage (enquiry/proposal/itinerary -->
+            <div class="hide">{{- cond (isset .Params "stage") .Params.stage "enquiry" -}}
+              </div>
+            <!-- field 10: in progress-->
+            <div class="hide">{{- if and (ge $now .Params.arrdate) (le now .Params.depdate) -}}1{{- end -}}
+              {{- with .Params.depdate -}}
+                {{- if gt $now . -}}0{{- end -}}
+              {{- end -}} 
+              {{- if gt .Params.arrdate $now -}}2{{- end -}}
+            </div>
+            <!-- field 11: archived -->
+            <div class="hide">{{- cond (isset .Params "archived") .Params.archived false -}}</div>
+            <!-- field 12: status -->
+            <div class="hide">{{ .Params.status }}</div>
+            <!-- field 13: consultant -->
+            <div class="hide">{{ .Params.consultant }}</div>
         </div>
       </div>
       {{- end }}
     </div>
+    </div>
 
     <div id="sidebar">
-       <div class="row">
-       <div id="closebtn">
-        <i class="icon-plus" ></i>
-       </div>
-      </div>
       <div class="row">
+        <div id="closebtn">
+          <i class="icon-plus" ></i>
+        </div>
+      </div>
+      <div class="row menu">
         <div >
           <i class="icon-pencil" id="edit"></i><br>Edit
         </div>
@@ -176,6 +201,18 @@
         </div>
       </div>
       <hr>
+
+      <div class="row">
+        <div class="label">
+          <label>URL</label>
+        </div>
+        <div  id="url"></div>
+      </div>
+
+      <div class="row hidden">
+         <div id="permalink"></div>
+      </div>
+
       <div class="row">
         <div class="label">
           <label for="name">Contact</label>
@@ -191,7 +228,7 @@
         </div>
         <div class="select">
           <select id="stage" name="stage">
-            <option></option>
+            <option value="enquiry">Enquiry</option>
             <option value="itinerary">Itinerary</option>
             <option value="proposal">Proposal</option>
           </select>
@@ -249,10 +286,6 @@
         <div class="input">
           <input name="depdate" id="depdate" placeholder="dd/mm/yyyy">
         </div>
-      </div>
-
-      <div class="row">
-        <div class="input" id="url"></div>
       </div>
 
       <div class="row">
@@ -337,7 +370,7 @@
         for(let i=0;i<items.length;i++) {
           if (items[i].permalink == permalink ){
             let myData = items[i]
-
+// console.table(myData)
             document.getElementById("name").value       = myData.title
             document.getElementById("arrdate").value    = myData.arrdate
             document.getElementById("depdate").value    = myData.depdate
@@ -345,7 +378,8 @@
             document.getElementById("status").value     = myData.status
             document.getElementById("archived").value   = myData.archived
             document.getElementById("consultant").value = myData.consultant
-            document.getElementById("url").innerHTML    = myData.permalink
+            document.getElementById("url").innerHTML    =  myData.permalink.split("/")[(myData.permalink.split("/")).length-2]
+            document.getElementById("permalink").innerHTML    =  myData.permalink
           }
         }
       }
@@ -362,24 +396,32 @@
     return word.charAt(0).toUpperCase() + word.slice(1)
   }
 
-  document.getElementById("trips-all-trips").addEventListener('click', () => {
-    var numTours = 0;
-
-    row = document.querySelectorAll(".booking");
-
-    for (i = 0; i < row.length; i++) {
-      numTours += 1;
-      row[i].classList.add(isOdd(numTours))
-      row[i].style.display = "block"
-    }
-  });
+  
 
   document.getElementById("edit").onclick = function() {
-    window.location.href =  document.getElementById("url").innerHTML 
+    window.location.href =  "/tim/itineraries/"+document.getElementById("url").innerHTML 
   }
 
   document.getElementById("preview").onclick = function() {
+    const link = document.getElementById("permalink").innerText
+    const file = document.getElementById("url").innerText
 
+    var xhr = new XMLHttpRequest();
+    const url='http://localhost:1314/pdf';
+    xhr.open('POST',url,true );
+    xhr.setRequestHeader("Content-Type", "application/json");
+
+    xhr.onreadystatechange = function () {
+      if (xhr.readyState === 4 && xhr.status === 200) {
+         console.log(xhr.responseText);
+      }
+    };
+
+    var data = JSON.stringify({ "url": link, "filename": file });
+
+    xhr.send(data)
+
+    alert('PDF created');
   }
 
   document.getElementById("copy").onclick = function() {
@@ -388,9 +430,9 @@
 
   document.getElementById("archive").onclick = function() {
    document.getElementById("archived").value = true
- }
+  }
 
- document.getElementById("save").onclick = function() {
+document.getElementById("save").onclick = function() {
   const url = document.getElementById("url").innerHTML 
   var data  = [];
   
@@ -402,71 +444,78 @@
   data.push({"archived":document.getElementById("archived").value})
   data.push({"consultant":document.getElementById("consultant").value})
 
-  var xhr = new XMLHttpRequest();
-  const xurl='http://localhost:1314/save';
-  xhr.open('POST',xurl,true );
-  xhr.setRequestHeader("Content-Type", "application/json");
-
   xhr.onreadystatechange = function () {
     if (xhr.readyState === 4 && xhr.status === 200) {
-     console.log(xhr.responseText);
-   }
- };
+       console.log(xhr.responseText);
+    }
+  };
 
- xhr.onerror = function (e) {
-  console.error(xhr.statusText);
-};
+  xhr.onerror = function (e) {
+    console.error(xhr.statusText);
+  };
 
-var data = JSON.stringify({ "file": url , "data": data });
+  var data = JSON.stringify({ "file": {{ .RelPermalink }}, "data": data });
 
-let css = document.getElementById("message");
-css.innerHTML = 'in progress';
-css.classList.add('alert-info');
+  let css = document.getElementById("message");
+  css.innerHTML = 'in progress';
+  css.classList.add('alert-info');
 
-xhr.send(data)
+  xhr.send(data)
 }
 
+document.getElementById("trips-all-trips").addEventListener('click', () => {
+    var numTours = 0;
 
+    row = document.querySelectorAll(".booking");
+
+    for (i = 0; i < row.length; i++) {
+      numTours += 1;
+      row[i].classList.add(isOdd(numTours))
+      row[i].style.display = "block"
+    }
+  });
+
+document.getElementById("trips-my-trips").onclick = function() {
+  display(13,"hans")
+}
+
+document.getElementById("trips-archived").onclick = function() {
+  display(11,"true")
+}
 
 document.getElementById("type-proposal").onclick = function() {
-
-  display(5,"Proposal")
+  display(9,"proposal")
 }
 
 document.getElementById("type-itinerary").onclick = function() {
-
-  display(5,"Itinerary")
+  display(9,"itinerary")
 }
 
 document.getElementById("status-quote").onclick = function() {
-
-  display(6,"Quote")
+  display(12,"quote")
 }
 
 document.getElementById("status-confirmed").onclick = function() {
-
-  display(6,"Confirmed")
+  display(12,"confirmed")
 }
 
 document.getElementById("status-paid").onclick = function() {
-
-  display(6,"Paid")
+  display(12,"paid")
 }
 
 document.getElementById("date-upcoming").onclick = function() {
-
-  display(7,"Upcoming")
+  display(10,2)
 }
 
 document.getElementById("date-in-progress").onclick = function() {
-
-  display(7,"In Progress")
+  display(10,1)
 }
 
 document.getElementById("date-past").onclick = function() {
-
-  display(7,"Past")
+  display(10,0)
 }
+
+
 
 
 function display(column,title){
@@ -476,7 +525,8 @@ function display(column,title){
 
   for (i = 0; i < row.length; i++) {
     var items = row[i].getElementsByTagName('div')  
-    var status = items[column].getAttribute("title")
+    console.table(items[column])
+    var status = items[column].innerText
     if (status == title){
       numTours += 1;
       row[i].classList.add(isOdd(numTours))

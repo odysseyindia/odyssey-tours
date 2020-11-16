@@ -1,27 +1,27 @@
-      {{ "<!-- breadcrumbs -->" | safeHTML }}
-      <div class="row">
-        <nav  class="bread-bar ml-auto justify-content-between" aria-label="breadcrumb">
-              <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
-                <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                  <a href="{{"/" | relLangURL }}" aria-label="{{ i18n "home"}}" itemprop="item">
-                    <i class="icon-home-1" ></i>
-                    <meta itemprop="name" content="{{ i18n "home page" }}" />
-                    <meta itemprop="position" content="1" />
-                  </a>
-                </li>
-                  {{- $scratch := newScratch }}
-                  {{- $scratch.Set "url" "" }}
-                  {{- range $index, $e := (split .RelPermalink "/") }}
-                  {{- if gt (len $e ) 2 }}
-                  <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                    {{- $scratch.Add "url" "/" }}
-                    {{- $scratch.Add "url" $e }}
-                    <span itemprop="name"><a href="{{ $scratch.Get "url" }}" >{{ $e | humanize | truncate 15 }}</a></span>
-                    <meta itemprop="position" content="{{ add 2 $index }}" />
-                  </li>
-                  {{- end }} 
-                  {{- end }}
-              </ol>
-        </nav>
-      </div>
-      {{ "<!-- end breadcrumbs -->" | safeHTML }}
+{{ "<!-- breadcrumbs -->" | safeHTML }}
+<div class="row">
+  <nav  class="bread-bar ml-auto justify-content-between" aria-label="breadcrumb">
+    <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+      <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="{{"/" | relLangURL }}" aria-label="{{ i18n "home"}}" itemprop="item">
+          <i class="icon-home-1" ></i>
+          <meta itemprop="name" content="{{ i18n "home page" }}" />
+          <meta itemprop="position" content="1" />
+        </a>
+      </li>
+      {{- $scratch := newScratch }}
+      {{- $scratch.Set "url" "" }}
+      {{- range $index, $e := (split .RelPermalink "/") }}
+      {{- if gt (len $e ) 2 }}
+      <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        {{- $scratch.Add "url" "/" }}
+        {{- $scratch.Add "url" $e }}
+        <span itemprop="name"><a href="{{ $scratch.Get "url" }}" >{{ $e | humanize | truncate 15 }}</a></span>
+        <meta itemprop="position" content="{{ add 2 $index }}" />
+      </li>
+      {{- end }} 
+      {{- end }}
+    </ol>
+  </nav>
+</div>
+{{ "<!-- end breadcrumbs -->" | safeHTML }}

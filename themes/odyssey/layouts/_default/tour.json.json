@@ -3,16 +3,13 @@
 {
   "title": 			"{{ .Title }}",
   "date": 			"{{ .Date }}",
-  "permalink": 		"{{ .RelPermalink }}",
+  "permalink": 	"{{ .RelPermalink }}",
   "content": 		"{{ trim (.Content | plainify ) "\n" }}",
-  "archived": 		"{{ .Params.archived }}",
-  "stage":          "{{ .Params.stage }}",
-  "status":         "{{ .Params.status }}",
-  "consultant":     "{{ .Params.consultant }}",
-  "arrdate":        {{ with .Params.arrdate }}"{{ . | dateFormat "02/01/06" }}"{{else}}""{{end}},
-  "depdate":        {{ with .Params.depdate }}"{{ . | dateFormat "02/01/06" }}"{{else}}""{{end}},
-  "inprogress":     "{{- if and (ge $now .Params.arrdate) (le now .Params.depdate) }}1{{end}}
-            		{{- with .Params.depdate}}
-            		{{- if gt $now . }}0{{end}}{{end}} 
-            		{{- if gt .Params.arrdate $now}}2{{end}}"
+  "archived": 	"{{- cond (isset .Params "archived") .Params.archived false -}}",
+  "stage":      "{{- cond (isset .Params "stage") .Params.stage "enquiry" -}}",
+  "status":     "{{ .Params.status }}",
+  "consultant": "{{ .Params.consultant }}",
+  "arrdate":    {{- with .Params.arrdate }}"{{ . | dateFormat "02/01/06" }}"{{else}}""{{end}},
+  "depdate":    {{- with .Params.depdate }}"{{ . | dateFormat "02/01/06" }}"{{else}}""{{end}},
+  "inprogress": "{{- if and (ge $now .Params.arrdate) (le now .Params.depdate) }}1{{end}}            		{{- with .Params.depdate -}}{{- if gt $now . }}0{{- end -}}{{- end -}}{{- if gt .Params.arrdate $now}}2{{- end -}}"
 }
