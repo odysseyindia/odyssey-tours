@@ -1,5 +1,12 @@
 #itinerary {
 	
+textarea {
+  width: 100%;
+}
+
+.editable {
+
+}
 .mx-auto.w-50 {
   margin-top: 0;
 }
@@ -21,22 +28,30 @@ label {
   padding-left: 10px;
 }
 select {
-  width: 300px;
+  height: 40px;
+  overflow: hidden;
 }
 
+.maxwidth  {
+  width: 60%;
+}
+
+i,select {
+  display:inline-block;
+}
 .hr-text {
   line-height: 1em;
   position: relative;
   outline: 0;
   border: 0;
-  color: black;
+  color: lightgray;
   text-align: left;
   height: 1.5em;
   &:before {
     content: '';
     // use the linear-gradient for the fading effect
     // use a solid background color for a solid bar
-    background: linear-gradient(to right, #000, #000,  #000);
+    background: lightgray;
     position: absolute;
     left: 0;
     top: 50%;
@@ -47,16 +62,33 @@ select {
     content: attr(data-content);
     position: relative;
     display: inline-block;
-    color: black;
-
     padding: 0 .5em;
     line-height: 1.5em;
     // this is really the only tricky part, you need to specify the background color of the container element...
     color: #000;
-    background-color: #90ee90;
+    background-color: white;
   }
 }
 
+[class^="icon-"] {
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 5px;
+}
+.icon-bed {
+  background-color: orange;
+}
+.icon-camera {
+  background-color: darkgreen;
+}
+.icon-pencil {
+  background-color: blue;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
 
 /* ----- */
 
@@ -76,9 +108,8 @@ select {
 }
 
 .main-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
+  margin-top: 30px;
 }
 
 .columns {
@@ -88,47 +119,34 @@ select {
   -webkit-box-align: start;
   -ms-flex-align: start;
   margin: 1.6rem auto;
-  width: 100%;
   margin-top: 0;
 }
 
-.column {
-  width: 33%;
+#itinerary {
   margin: 0 0.6rem;
-  background: #a8a8a8;
-  border: #000013 0.2rem solid;
+  width: 70%; 
+}
+
+.to-do-column {
+  width: 30%; 
+  margin: 0 0.6rem;
+  background-color: #d3d3d31c;
+  border: lightgray 1px solid;
   border-radius: 0.2rem;
+  color: gray;
 }
 
 .column-header {
   padding: 0.1rem;
-  border-bottom: #000013 0.2rem solid;
-}
-
-.column-header h4 {
-  text-align: center;
-}
-
-.to-do-column .column-header {
-  background: #ff872f;
-}
-
-.workspace-column .column-header {
-  background: #13a4d9;
-}
-
-.itinerary-column .column-header {
-  background: #15d072;
-}
-
-.new-task-column .column-header {
-  background: #ffcb1e;
-  border-top: #000013 .2rem solid;
+  background: lightblue;
+  h4 {
+    text-align: center;
+  }
 }
 
 .trash-column .column-header {
   background: #ff4444;
-  border-top: #000013 .2rem solid;
+  color: white;
 }
 
 .task-list {
@@ -138,6 +156,15 @@ select {
 .column-button {
   text-align: center;
   padding: 0.1rem;
+}
+
+.day {
+  width: 5%;
+  text-align: center;
+}
+.program {
+width: 95%;
+  flex-grow: 1;
 }
 
 .button {
@@ -162,18 +189,19 @@ select {
 
 
 @import url("https://fonts.googleapis.com/css?family=Arimo:400,700|Roboto+Slab:400,700");
+
 .draggable {
   display: flex;
   vertical-align: middle;
   list-style-type: none;
   background: #fff;
   transition: all 0.3s;
-  margin: 0.4rem;
-  height: 4rem;
-  border: #000013 0.15rem solid;
+  margin-bottom: 20px;
+  height: 100%;
+  border: #d3d3d333 .15rem solid;
   border-radius: 0.2rem;
   cursor: move;
-  text-align: center;
+  text-align: left;
   vertical-align: middle;
   font-family: "Roboto Slab", serif;
   &.dragging {
@@ -181,6 +209,19 @@ select {
     background-color: yellow;
     border: dashed 1px red;
   }
+  .editButton > i {
+    display: none;
+  }
+  &:hover{
+    .editButton > i {
+      display: block;
+      cursor: pointer;
+    }
+  }
+}
+
+.draggable:hover {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
 
 
@@ -199,11 +240,72 @@ input {
   background-color: blue;
   color: white;
   padding: 5px;
-  width: auto; ;
 }
+
+
 
 #selectHotels, #selectExcursions {
   visibility: hidden;
 }
+.content {
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+}
+.image {
+  width: 150px;
+  min-width: 150px;
+  padding-right: 10px;
+}
+
+
+
+ /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto; /* % from the top and centered */
+  padding: 20px;
+  
+  width: 80%; /* Could be more or less, depending on screen size */
+  height: 80%;
+  #modelContent {
+    padding:20px;
+    border: 1px solid lightgray;
+  }
+}
+.close-btn{
+   background-color: #fefefe;
+}
+/* The Close Button */
+.close-btn > i {
+  color: red;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+} 
+
+
 
 }

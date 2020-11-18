@@ -82,6 +82,19 @@ app.post('/save',function (req, res) {
     res.end();
 });
 
+app.post('/pdf',function (req, res) {
+  var fs      = require('fs');
+  var pdf     = require('html-pdf');
+  var html    = fs.readFileSync(req.body.url, 'utf8');
+  var options = { format: 'A4' };
+     
+  pdf.create(html, options).toFile(req.body.filename+'.pdf', function(err, res) {
+    if (err) return console.log(err);
+    console.log(res); // { filename: '/app/businesscard.pdf' }
+  });
+});
+
+
 app.listen(1314, function () {
   console.log('POST server is running on port 1314');
 });

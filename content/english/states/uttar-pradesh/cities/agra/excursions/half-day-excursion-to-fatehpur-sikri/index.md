@@ -3,7 +3,7 @@ title: "Half-day excursion to Fatehpur Sikri"
 draft: false
 date: 2020-09-21T12:59:23+02:00
 translationKey: half-day-excursion-to-fatehpur-sikri
-id: "excursions"
+id: "excursion"
 tags: ["Agra", "Excursions"] 
 ---
 

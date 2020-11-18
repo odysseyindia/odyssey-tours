@@ -47,6 +47,11 @@
 }
 
 /* '☞' */
+.icon-flight:before {
+  content: "✈";
+}
+
+/* '✈' */
 .icon-search:before {
   content: "✓";
 }
@@ -187,6 +192,11 @@
 }
 
 /* '' */
+.icon-docs:before {
+  content: "";
+}
+
+/* '' */
 .icon-circle-empty:before {
   content: "";
 }
@@ -222,6 +232,11 @@
 }
 
 /* '' */
+.icon-cab:before {
+  content: "";
+}
+
+/* '' */
 .icon-file-pdf:before {
   content: "";
 }
@@ -242,6 +257,11 @@
 }
 
 /* '' */
+.icon-train:before {
+  content: "";
+}
+
+/* '' */
 .icon-registered:before {
   content: "";
 }

@@ -110,6 +110,9 @@
 		}
 
 		/* the booking listing */
+		.wrapper {
+			background-color: #dae5f4;
+		}
 		.table {
 			display: flex;
 			flex-direction: row;
@@ -143,6 +146,9 @@
 		.even {
 			background-color: #dae5f4;
 		}
+		.hide {
+			display: none;
+		}
 	}
 
 	#sidebar {
@@ -159,10 +165,12 @@
 			right: 25px;
 		}
 
-		.row {
+		.row.menu {
 			justify-content: space-around;
-			font-size: 0.8rem;
 			text-align: center;
+		}
+		.row{
+			font-size: 0.8rem;
 			padding:0 10px 10px 10px;
 			margin: 0px 10px 0 0;
 		}
@@ -200,9 +208,7 @@
 			font-weight: 600;
 		}
 
-		input {
-			text-align: right;
-		}
+	
 		select , input {
 			width: 90%;
 			border: 0;
@@ -218,8 +224,10 @@
 
 		#url {
 			color: gray;
-			text-align: left;
-			padding-left: 20px;
+		}
+
+		.row.hidden {
+			display: none;
 		}
 
 		#edit:hover, #preview:hover, #copy:hover, #archive:hover {

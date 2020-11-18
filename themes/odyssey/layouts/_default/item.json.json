@@ -3,7 +3,7 @@
   "title": 			"{{ .Title }}",
   "date": 			"{{ .Date }}",
   "permalink": 		"{{ .RelPermalink }}",
-  "content": 		"{{ trim (.Content | plainify ) "\n" }}",
+  "content": 		"{{ replace (trim (.Content ) "\n") "\n" "linebreak" }}",
   "draft": 			"{{ .Params.draft }}",
   "id": 			"{{ .Params.id }}",
   "translationKey": "{{ .Params.translationKey }}"

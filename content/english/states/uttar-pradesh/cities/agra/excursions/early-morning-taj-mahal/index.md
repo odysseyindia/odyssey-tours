@@ -3,7 +3,7 @@ title: "Early morning visit to the Taj Mahal (without guide)"
 draft: false
 date: 2020-09-21T12:59:23+02:00
 translationKey: early-morning-taj-mahal
-id: "excursions"
+id: "excursion"
 tags: [ "Agra", "Excursions"] 
 image: 1-uttar-pradesh-agra-excursions-early-morning-taj-mahal-view.jpg
 carousel:

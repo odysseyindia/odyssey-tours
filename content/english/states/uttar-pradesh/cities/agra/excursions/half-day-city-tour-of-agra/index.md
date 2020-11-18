@@ -3,7 +3,7 @@ title: "Half day city tour of Agra"
 draft: false
 date: 2020-09-21T12:59:23+02:00
 translationKey: half-day-city-tour-of-agra
-id: "excursions"
+id: "excursion"
 tags: ["Agra", "Excursions"]  
 ---
 

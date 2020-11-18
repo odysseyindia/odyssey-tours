@@ -20,22 +20,47 @@ File: {{ .RelPermalink }}
   <div class="main-container">
     <div class="columns">
 
-      <div id="itin" class="column itinerary-column">
-        <div class="column-header">
-          <h4>Itinerary</h4>
-        </div>
+      <div id="itinerary">
         {{- range $index,$e := .Params.itinerary }}
-        <hr class="hr-text" data-content="Day {{ add $index 1 }}">
+        <hr class="hr-text">
         <div class="containers">
           {{- range .url }}
         <div class="draggable" draggable="true" url="{{ . }}">
             {{- with $.Site.GetPage "page" . }}
+            <div>
             {{- if in .RelPermalink "excursions"}}
-            <i class="icon-camera"></i>&nbsp;
+              <i class="icon-camera"></i>
             {{- else if in .RelPermalink "hotels"}}
-            <i class="icon-bed"></i>&nbsp;
+              <i class="icon-bed"></i>
+            {{- else if in .RelPermalink "flights"}}
+              <i class="icon-flight"></i>
+            {{- else if in .RelPermalink "ferries"}}
+              <i class="icon-ferry"></i>
+            {{- else if in .RelPermalink "hotels"}}
+              <i class="icon-train"></i>
+            {{- else if in .RelPermalink "cars"}}
+              <i class="icon-cab"></i>
             {{- end }}
-            {{ .Title }}
+            </div>
+            <div class="program">
+              <div>
+                <h4>{{ .Title }}, {{ path.Base .Parent.Parent.RelPermalink | humanize }}</h4>
+              </div>
+              <div class="content">
+                <div class="image">
+                  <img class="lazyload" 
+sizes="(min-width: 35em) 150px, 10vw"
+data-srcset="{{ .RelPermalink }}{{ .Params.image }} 150w"
+                  data-src="{{ .RelPermalink }}{{ .Params.image }}" alt="{{ .Title }}">
+                </div>
+                <div class="mr-10">
+                  {{ .Content }}
+                </div>
+              </div>
+            </div>
+            <div class="editButton">
+              <i class="icon-pencil"></i>
+            </div>
             {{- end }}
         </div>
           {{- end }}
@@ -43,24 +68,15 @@ File: {{ .RelPermalink }}
         {{- end }}
       </div>
 
-      <div class="column workspace-column">
-        <div class="column-header">
-          <h4>Workspace</h4>
-        </div>
-        <div class="containers" id="workspace">
-        </div>
-      </div>
-
-      <div class="column to-do-column">
+      <div class="to-do-column">
         <div class="column-header">
           <h4>Search</h4>
         </div>
         
-       
         <div  class="select-flex">
           <div class="custom-select">
             <label for="cities">City</label>
-            <select id="cities" name="cities">
+            <select class="maxwidth" id="cities" name="cities">
               <option value="">Select a city</option>
               {{ range ( sort (where (where .Site.Pages "Section" "states") ".Params.id" "city") ".Title" "asc" ) }}
               <option value="{{ .RelPermalink }}">{{ .Title }} </option>
@@ -72,7 +88,7 @@ File: {{ .RelPermalink }}
         <div class="select-flex">
           <div class="custom-select" id="selectHotels">
             <label for="hotels">Hotels</label>
-            <select id="hotels" name="hotels">
+            <select class="maxwidth" id="hotels" name="hotels">
             </select>
              <i class="select icon icon-bed" onclick="addHotel()"></i>
           </div>
@@ -81,7 +97,7 @@ File: {{ .RelPermalink }}
         <div class="select-flex">
           <div class="custom-select" id="selectExcursions">
             <label for="excursions">Excursions</label>
-            <select id="excursions" name="excursions">
+            <select class="maxwidth" id="excursions" name="excursions">
             </select>
             <i class="select icon icon-camera"  onclick="addExcursion()"></i>
           </div>
@@ -89,6 +105,12 @@ File: {{ .RelPermalink }}
 
         <div id="image"></div>
         <div id="info"></div>
+
+        <div class="column-header">
+          <h4>Workspace</h4>
+        </div>
+        <div class="containers" id="workspace">
+        </div>
 
         <div class="trash-column">
           <div class="column-header">
@@ -101,6 +123,16 @@ File: {{ .RelPermalink }}
       </div> 
     </div>
   </div>
+   
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <div contenteditable="true" id="modelContent"></div>
+    <div class="close-btn"><i class="icon-plus"></i></div>
+  </div>
+</div> 
+
 </section>
 
 {{- end }}
@@ -108,6 +140,14 @@ File: {{ .RelPermalink }}
 
 <script>
 
+const source = document.querySelector("#cities");
+const city   = source[source.selectedIndex].value ;
+var   host   = window.location.href.split("/");
+var   host   = host[0] + "//" + host[2];
+
+changeCity(city);
+
+// add EventListeners
 document.getElementById("cities").addEventListener("change", changeCity);
 document.getElementById("hotels").addEventListener("change", changeHotel);
 document.getElementById("excursions").addEventListener("change", changeExcursion);
@@ -115,17 +155,26 @@ document.addEventListener('DOMContentLoaded', (event) => {
   draggable();
 })
 
+var btns = document.querySelectorAll(".editButton");
+Array.from(btns).forEach(item => {
+  item.addEventListener("click", () => {
+    editItem(item.parentElement.getAttribute("url"));
+  });
+});
+
+// draggables
+
 function draggable(){
-  var draggables = document.querySelectorAll('.draggable')
-  var containers = document.querySelectorAll('.containers')
+  var draggables = document.querySelectorAll('.draggable');
+  var containers = document.querySelectorAll('.containers');
 
   draggables.forEach(draggable => {
     draggable.addEventListener('dragstart',() => {
-      draggable.classList.add('dragging')
+      draggable.classList.add('dragging');
     })
 
     draggable.addEventListener('dragend',() => {
-      draggable.classList.remove('dragging')
+      draggable.classList.remove('dragging');
     })
 
   })
@@ -136,9 +185,9 @@ function draggable(){
       const afterElement = getDragAfterElement(container,e.clientY)
       const draggable = document.querySelector('.dragging')
       if (afterElement == null){
-        container.appendChild(draggable)
+        container.appendChild(draggable);
       } else {
-        container.insertBefore(draggable,afterElement)
+        container.insertBefore(draggable,afterElement);
       }
      
     })
@@ -149,42 +198,42 @@ function getDragAfterElement(container,y){
   const draggableElements = [...container.querySelectorAll('.draggable:not(.dragging)')]
 
   return draggableElements.reduce((closest,child) => {
-    const box = child.getBoundingClientRect()
-    const offset = y - box.top - box.height / 2
+    const box = child.getBoundingClientRect();
+    const offset = y - box.top - box.height / 2;
     
     if (offset < 0 && offset > closest.offset) {
-      return { offset: offset, element: child }
+      return { offset: offset, element: child };
     } else {
-      return closest
+      return closest;
     }
-  },{offset: Number.NEGATIVE_INFINITY}).element
+  },{offset: Number.NEGATIVE_INFINITY}).element;
 }
 
 function saveThis(){
 
   var data = [];
-  let days = document.getElementById('itin').getElementsByClassName('containers')
+  let days = document.getElementById('itin').getElementsByClassName('containers');
   
   for(let i=0;i<days.length;i++) {
   
     var urls  = [];
-    var items = days[i].getElementsByTagName('div')
+    var items = days[i].getElementsByTagName('div');
     
     for(let j=0;j<items.length;j++) {
      
-      var url = items[j].getAttributeNode("url").value
+      var url = items[j].getAttributeNode("url").value;
     
-      urls.push(url)
+      urls.push(url);
     }
-    data.push({"day":i,'url':urls})
+    data.push({"day":i,'url':urls});
   }
-  writeData(data)
+  writeData(data);
 };
 
 function writeData(data){
 
   var xhr = new XMLHttpRequest();
-  const url='http://localhost:1314/ajax';
+  const url='{{ getenv "APP" }}/ajax';
   xhr.open('POST',url,true );
   xhr.setRequestHeader("Content-Type", "application/json");
 
@@ -204,7 +253,7 @@ function writeData(data){
   css.innerHTML = 'in progress';
   css.classList.add('alert-info');
 
-  xhr.send(data)
+  xhr.send(data);
 }
 
 
@@ -222,13 +271,13 @@ function changeCity(){
 
 function displayCity(url){
   
-  const city   = url.split("/")[(url.split("/")).length-2] 
-  // json url for the city is one step lower in the url tree
-  var   newUrl = url.split("/")
-  newUrl.pop()
-  newUrl.pop()
+  const city = url.split("/")[(url.split("/")).length-2];
+  // the json url for the city is one step lower in the url tree
+  var   newUrl = url.split("/");
+  newUrl.pop();
+  newUrl.pop();
   
-  const path = 'http://localhost:1313'+(newUrl.join("/"))+"/index.json";
+  const path = host+(newUrl.join("/"))+"/index.json";
 
   var xhr = new XMLHttpRequest();
   xhr.open('get',path );
@@ -238,22 +287,21 @@ function displayCity(url){
 
     if (xhr.readyState === 4 && xhr.status === 200) {
 
-      const nonl   = xhr.responseText.replace(/(\n)/gm,"")
-      const data   = JSON.parse(nonl);
-      const cities = data.data.items
+      const data   = JSON.parse(xhr.responseText);
+      const cities = data.data.items;
 
       for(let i=0;i<cities.length;i++) {
         if (cities[i].translationKey == city ){
-          citydata = cities[i]
+          citydata = cities[i];
         }
       }
 
-      const img = 'url("http://localhost:1313'+url+citydata.image+'")'
+      const img = 'url("'+host+url+citydata.image+'")'
       
       if (img){
       document.getElementById("image").style["background-image"]=img;
       }
-      document.getElementById("info").innerHTML = citydata.content
+      document.getElementById("info").innerHTML = citydata.content;
     }
   };
   xhr.send()
@@ -262,7 +310,7 @@ function displayCity(url){
 function displayHotels(city){
  
   var xhr = new XMLHttpRequest();
-  var url='http://localhost:1313'+city+"hotels/index.json";
+  var url=host+city+"hotels/index.json";
 
   xhr.open('get',url );
   xhr.setRequestHeader("Content-Type", "application/json");
@@ -270,14 +318,13 @@ function displayHotels(city){
   xhr.onreadystatechange = function () {
     if (xhr.readyState === 4 && xhr.status === 200) {
 
-      const nonl  = xhr.responseText.replace(/(\n)/gm,"")
-      const data  = JSON.parse(nonl);
-      const items = data.data.items
+      const data  = JSON.parse(xhr.responseText);
+      const items = data.data.items;
       var   sel   = '<option value="">Select a hotel</option>';
 
       if (items.length > 0) {
         for(let i=0;i<items.length;i++) {
-          sel += "<option value='"+items[i].permalink+"'>"+items[i].title+"</option>"
+          sel += "<option value='"+items[i].permalink+"'>"+items[i].title+"</option>";
         }
 
         document.getElementById("selectHotels").style.visibility = "visible"; 
@@ -287,23 +334,23 @@ function displayHotels(city){
       }
     }
   };
-  xhr.send()
+  xhr.send();
 };
 
 function displayExcursions(city){
 
   var xhr = new XMLHttpRequest();
-  var url='http://localhost:1313'+city+"excursions/index.json";
+  var url = host+city+"excursions/index.json";
  
   xhr.open('get',url );
   xhr.setRequestHeader("Content-Type", "application/json");
 
   xhr.onreadystatechange = function () {
     if (xhr.readyState === 4 && xhr.status === 200) {
-     
-      const nonl  = xhr.responseText.replace(/(\n)/gm,"")
-      const data  = JSON.parse(nonl);
-      const items = data.data.items
+      const nonl  = xhr.responseText.replace(/(\n)/gm,"");
+      var data    = JSON.parse(nonl);
+      //data.replace(/^/gm,"\n");
+      const items = data.data.items;
       var sel     = '<option value="">Select an excursion</option>';
 
       if (items.length > 0) {
@@ -318,21 +365,20 @@ function displayExcursions(city){
       }
     }
   };
-  xhr.send()
+  xhr.send();
 };
-
 
 function addHotel(){
 
-  const source = document.querySelector("#hotels")
+  const source = document.querySelector("#hotels");
   const i      = source.selectedIndex;
   const url    = source[i].value ;
   const hotel  = source[i].innerHTML;
-  const html   = '<div class="draggable" draggable="true" url="' + url + '"><i class="icon-bed"></i>&nbsp;' + hotel + '</div>'
+  const html   = '<div class="draggable" draggable="true" url="' + url + '"><i class="icon-bed"></i>&nbsp;' + hotel + '</div>';
 
   if (i) {
     document.getElementById("workspace").innerHTML += html;
-    draggable()
+    draggable();
   }
 };
 
@@ -342,71 +388,110 @@ function addExcursion(){
   const i         = source.selectedIndex;
   const url       = source[i].value ;
   const excursion = source[i].innerHTML;
-  const html      = '<div class="draggable" draggable="true" url="' + url + '"><i class="icon-bed"></i>&nbsp;' + excursion + '</div>'
+  const html      = '<div class="draggable" draggable="true" url="' + url + '"><i class="icon-camera"></i>&nbsp;' + excursion + '</div>'
 
   if (i) {
     document.getElementById("workspace").innerHTML += html;
-    draggable()
+    draggable();
   }
 };
 
 function emptyTrash(){
-  var trash = document.getElementById("trash")
-  trash.innerHTML = ""
+  var trash = document.getElementById("trash");
+  trash.innerHTML = "";
 }
 
 function changeHotel(){
-  const source = document.querySelector("#hotels")
+  const source = document.querySelector("#hotels");
   const url    = source[source.selectedIndex].value ;
-  const path   ='http://localhost:1313'+ url + "index.json";
-  const hotel  = url.split("/")[(url.split("/")).length-2] 
 
-  var xhr = new XMLHttpRequest();
-  xhr.open('get',path );
-  xhr.setRequestHeader("Content-Type", "application/json");
-
-  xhr.onreadystatechange = function () {
-    if (xhr.readyState === 4 && xhr.status === 200) {
-      
-      const nonl   = xhr.responseText.replace(/(\n)/gm,"")
-      const data   = JSON.parse(nonl);
-      const img = 'url("http://localhost:1313'+url+(data.data.image)+'")'
-
-      if (img){
-        document.getElementById("image").style["background-image"]=img;
-      }
-      document.getElementById("info").innerHTML = data.data.content
-    }
-  };
-  xhr.send()
+  processRequest(url);
 }
 
 function changeExcursion(){
-  const source    = document.querySelector("#excursions")
-  const url       = source[source.selectedIndex].value ;
-  const path      ='http://localhost:1313'+ url + "index.json";
-  const excursion = url.split("/")[(url.split("/")).length-2] 
-  
+  const source = document.querySelector("#excursions");
+  const url    = source[source.selectedIndex].value ;
+
+  processRequest(url);
+}
+
+function processRequest(url){
   var xhr = new XMLHttpRequest();
-  xhr.open('get',path );
+  xhr.open('get',host+url+"index.json" );
+  xhr.setRequestHeader("Content-Type", "application/json");
+
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4 && xhr.status === 200) { 
+      
+      var data    = JSON.parse(xhr.responseText);
+      var content = data.data.content;  
+      content     = content.replace(/linebreak/gm,"")
+
+      document.getElementById("info").innerHTML = content;
+
+      if ( data.data.image != undefined){
+        const image = 'url("'+host+url+(data.data.image)+'")';
+        document.getElementById("image").style["background-image"] = image;
+      }
+    }
+  };
+  xhr.send();
+}
+
+function editItem(url){
+ 
+  var span  = document.getElementsByClassName("close")[0];
+  var modal = document.getElementById("myModal");
+  var modelContent = document.getElementById("modelContent");
+
+  modal.style.display = "block";
+ 
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  } 
+
+  var xhr = new XMLHttpRequest();
+  xhr.open('get',host+url+"/index.json" );
   xhr.setRequestHeader("Content-Type", "application/json");
 
   xhr.onreadystatechange = function () {
     if (xhr.readyState === 4 && xhr.status === 200) {
       
-      const nonl  = xhr.responseText.replace(/(\n)/gm,"")
-      const data  = JSON.parse(nonl);
-      const img   = 'url("http://localhost:1313'+url+(data.data.image)+'")'
-      
-      if (img){
-        document.getElementById("image").style["background-image"]=img;
-      }
-      document.getElementById("info").innerHTML = data.data.content
+      const data = JSON.parse(xhr.responseText);
+      var content = data.data.content;  
+      content     = content.replace(/linebreak/gm,"");
+ 
+      modelContent.innerHTML=content;
     }
   };
-  xhr.send()
+  xhr.send();
 }
 
+document.getElementById("close-btn").addEventListener('click', () => {
+  
+var newText = document.getElementById("close-btn");
+alert(newText);
+});
+
+function getText() {
+  let element = document.querySelector('div[contenteditable]');
+  let firstTag = element.firstChild.nodeName;
+  let keyTag = new RegExp(
+    firstTag === '#text' ? '<br' : '</' + firstTag,
+    'i'
+  );
+  let tmp = document.createElement('p');
+  tmp.innerHTML = element.innerHTML
+    .replace(/<[^>]+>/g, (m, i) => (keyTag.test(m) ? '{ß®}' : ''))
+    .replace(/{ß®}$/, '');
+  return tmp.innerText.replace(/{ß®}/g, '\n');
+}
 </script>
 
 {{- end }}
