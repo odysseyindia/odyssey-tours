@@ -57,11 +57,36 @@
 }
 
 /* '✓' */
+.icon-cancel:before {
+  content: "✕";
+}
+
+/* '✕' */
+.icon-forward-2:before {
+  content: "➦";
+}
+
+/* '➦' */
+.icon-forward-1:before {
+  content: "";
+}
+
+/* '' */
+.icon-backward:before {
+  content: "";
+}
+
+/* '' */
 .icon-blind:before {
   content: "";
 }
 
 /* '' */
+.icon-edit-alt:before {
+  content: "";
+}
+
+/* '' */
 .icon-archive:before {
   content: "";
 }
@@ -297,6 +322,11 @@
 }
 
 /* '' */
+.icon-floppy:before {
+  content: "💾";
+}
+
+/* '\1f4be' */
 footer {
   background-color: #607D8B;
   text-align: center;

@@ -49,9 +49,9 @@ File: {{ .RelPermalink }}
               <div class="content">
                 <div class="image">
                   <img class="lazyload" 
-sizes="(min-width: 35em) 150px, 10vw"
-data-srcset="{{ .RelPermalink }}{{ .Params.image }} 150w"
-                  data-src="{{ .RelPermalink }}{{ .Params.image }}" alt="{{ .Title }}">
+                    sizes="(min-width: 35em) 150px, 10vw"
+                    data-srcset="{{ .RelPermalink }}{{ .Params.image }} 150w"
+                    data-src="{{ .RelPermalink }}{{ .Params.image }}" alt="{{ .Title }}">
                 </div>
                 <div class="mr-10">
                   {{ .Content }}
@@ -59,7 +59,7 @@ data-srcset="{{ .RelPermalink }}{{ .Params.image }} 150w"
               </div>
             </div>
             <div class="editButton">
-              <i class="icon-pencil"></i>
+              <i class="icon-edit-alt"></i>
             </div>
             {{- end }}
         </div>
@@ -126,10 +126,31 @@ data-srcset="{{ .RelPermalink }}{{ .Params.image }} 150w"
    
 
 <!-- The Modal -->
-<div id="myModal" class="modal">
+<div id="modal-lodging" class="modal">
   <div class="modal-content">
-    <div contenteditable="true" id="modelContent"></div>
-    <div class="close-btn"><i class="icon-plus"></i></div>
+    <div class="container">
+    <div class="row">
+      <div><i class="icon-bed"></i></div>
+      <div class="cancel" id="close-btn-lodging"><i class="icon-cancel"></i></div>
+    </div>
+    <div class="row">
+      <div class="input content" contenteditable="true"></div>
+    </div>
+    <div class="row">
+      <div><label for="check-in-date">Check-in</label></div>
+      <div><input name="check-in-date" placeholder="dd/mm/yyyy" class="input" ></div>
+      <div><input name="check-in-time" placeholder="hh:mm" class="input" ></div>
+    </div>
+    <div class="row">
+      <div><label for="check-out-date">Check-out</label></div>
+      <div><input name="check-out-date" placeholder="dd/mm/yyyy" class="input" ></div>
+      <div><input name="check-out-time" placeholder="hh:mm" class="input" ></div>
+    </div>
+    <div class="row buttons">
+      <div><button class="default" id="default-btn-lodging"><i class="icon-trash"></i>Default</button></div>
+      <div><button class="save" id=save-btn-lodging><i class="icon-floppy"></i>Save</button></div>
+    </div>
+  </div>
   </div>
 </div> 
 
@@ -440,8 +461,8 @@ function processRequest(url){
 
 function editItem(url){
  
-  var span  = document.getElementsByClassName("close")[0];
-  var modal = document.getElementById("myModal");
+  var span  = document.getElementById("close-btn-lodging");
+  var modal = document.getElementById("modal-lodging");
   var modelContent = document.getElementById("modelContent");
 
   modal.style.display = "block";
@@ -473,10 +494,21 @@ function editItem(url){
   xhr.send();
 }
 
-document.getElementById("close-btn").addEventListener('click', () => {
+document.getElementById("close-btn-lodging").addEventListener('click', () => {
   
-var newText = document.getElementById("close-btn");
-alert(newText);
+  document.getElementById("lodgingModal").style.display = "none";
+
+});
+
+document.getElementById("save-btn-lodging").addEventListener('click', () => {
+  
+  var data = document.getElementById("lodgingModal").getElementsByClassName('input');
+    for(let i=0;i<data.length;i++) {
+  console.log('value='+data[i].innerText);
+  console.log('text='+data[i].value);
+    }
+  console.table(data);
+
 });
 
 function getText() {

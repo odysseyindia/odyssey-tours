@@ -216,6 +216,8 @@ width: 95%;
     .editButton > i {
       display: block;
       cursor: pointer;
+      color: white;
+      background-color: blue;
     }
   }
 }
@@ -276,36 +278,88 @@ input {
 }
 
 /* Modal Content/Box */
-.modal-content {
-  background-color: #fefefe;
-  margin: 5% auto; /* % from the top and centered */
-  padding: 20px;
-  
-  width: 80%; /* Could be more or less, depending on screen size */
-  height: 80%;
-  #modelContent {
-    padding:20px;
-    border: 1px solid lightgray;
+#modal-lodging {
+  margin: 0px 20px 0px 20px;
+  width: 100%;
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* % from the top and centered */
+    padding: 20px;
+    width: 80%; /* Could be more or less, depending on screen size */
+    height: 80%;
+
+    #modelContent {
+      padding:20px;
+      border: 1px solid lightgray;
+    }
   }
-}
-.close-btn{
-   background-color: #fefefe;
-}
-/* The Close Button */
-.close-btn > i {
-  color: red;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
 
-.close-btn:hover,
-.close-btn:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-} 
+  .input.content {
+    width: 100%;
+    border: solid 1px lightgray;
+    min-height: 50px;
+  }
 
+  .close-btn{
+     background-color: #fefefe;
+  }
+  /* The Close Button */
+  .close-btn > i {
+    color: red;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
 
+  .close-btn:hover,
+  .close-btn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  } 
+
+    .row {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+      align-items: center;
+      margin-bottom: 20px;
+      &.buttons {
+        margin-top: 30px;
+      }
+    }
+    label {
+      margin-bottom: 0;
+    }
+    input {
+      border: solid 1px lightgray;
+      height: 3rem;
+    }
+
+    [class^="icon-"] {
+      border-radius: 0;
+      color: black;
+    }
+    button {
+      padding: 0 20px 0 10px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    }
+    button.default {
+      background-color: darkgray;
+    }
+    button.save {
+      background-color: red;
+    }
+    .cancel {
+      width: 100%;
+      text-align: right;
+    }
+    .icon-cancel {
+        color: $body;
+        font-size: 1.5rem;
+        cursor: pointer;
+      }
+  }
 
 }

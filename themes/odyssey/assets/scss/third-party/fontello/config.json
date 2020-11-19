@@ -329,6 +329,42 @@
       "css": "docs",
       "code": 61637,
       "src": "fontawesome"
+    },
+    {
+      "uid": "5211af474d3a9848f67f945e2ccaf143",
+      "css": "cancel",
+      "code": 10005,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "a76bd0de8b24c94f7fe0e1f93c34e65f",
+      "css": "backward",
+      "code": 57515,
+      "src": "elusive"
+    },
+    {
+      "uid": "86bf86dba2ca65051aa87794221fee1c",
+      "css": "forward-1",
+      "code": 57491,
+      "src": "elusive"
+    },
+    {
+      "uid": "32eebd7bef491a0cbf9bc839e40d271c",
+      "css": "forward-2",
+      "code": 10150,
+      "src": "websymbols"
+    },
+    {
+      "uid": "6059b7737287728091ce7e4c600cca56",
+      "css": "edit-alt",
+      "code": 57581,
+      "src": "elusive"
+    },
+    {
+      "uid": "f4445feb55521283572ee88bc304f928",
+      "css": "floppy",
+      "code": 128190,
+      "src": "fontawesome"
     }
   ]
 }
