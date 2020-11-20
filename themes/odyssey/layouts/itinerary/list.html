@@ -25,7 +25,11 @@ File: {{ .RelPermalink }}
         <hr class="hr-text">
         <div class="containers">
           {{- range .url }}
-        <div class="draggable" draggable="true" url="{{ . }}">
+
+    {{- $myUrl := printf "%s%s" (substr $.RelPermalink 0 -1) . }}<br>
+    {{- $url := (cond (fileExists $myUrl) $myUrl . )}}
+    
+        <div class="draggable" draggable="true" url="{{ $url }}">
             {{- with $.Site.GetPage "page" . }}
             <div>
             {{- if in .RelPermalink "excursions"}}
@@ -53,7 +57,7 @@ File: {{ .RelPermalink }}
                     data-srcset="{{ .RelPermalink }}{{ .Params.image }} 150w"
                     data-src="{{ .RelPermalink }}{{ .Params.image }}" alt="{{ .Title }}">
                 </div>
-                <div class="mr-10">
+                <div class="mr-10 content-text">
                   {{ .Content }}
                 </div>
               </div>
@@ -165,6 +169,27 @@ const source = document.querySelector("#cities");
 const city   = source[source.selectedIndex].value ;
 var   host   = window.location.href.split("/");
 var   host   = host[0] + "//" + host[2];
+
+var renewables = document.querySelectorAll(".draggable");
+
+renewables.forEach(renewable => {
+  let url = renewable.getAttribute("url");
+  let myClass = renewable.getElementsByClassName("content-text");
+
+  if (url.includes("{{ htmlUnescape .RelPermalink }}")){
+  let xhr = new XMLHttpRequest();
+  xhr.open('get',url+"/index.json" );
+  xhr.setRequestHeader("Content-Type", "application/json");
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4 && xhr.status === 200) { 
+      let data = JSON.parse(xhr.responseText);
+      myClass[0].innerText = data.data.content;
+    };
+  };
+  xhr.send();
+  }
+});
+
 
 changeCity(city);
 
@@ -546,7 +571,7 @@ function saveModal(url, data){
   };
 
   xhr.onerror = function (e) {
-    console.log(xhr.statusText);
+    alert("There is an issue saving. Please contact the administrator.");
   };
 
   var data = JSON.stringify({ "file": url, "data": data });

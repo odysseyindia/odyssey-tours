@@ -18,10 +18,6 @@ itinerary:
     url:
       - /states/rajasthan/cities/jaipur/hotels/dera-rawatsar
       - /states/rajasthan/cities/jaipur/excursions/amber-fort-sightseeing
-  - day: 2
-    url:
-      - '#ZgotmplZ'
-      - Mangla%20Express
 
 ---
 Notes about this booking
