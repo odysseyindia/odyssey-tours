@@ -1,0 +1,223 @@
+{{- define "main" }}
+{{- .Scratch.Set "layout" "layouts/_default/hotel.html" -}}
+
+{{- $image := cond (isset .Params "image") ( .Params.image ) (.CurrentSection.Params.image) }}
+
+<section id="{{ .Scratch.Get "id" | lower }}">  
+  {{ partial "heading.html" . }}
+  <div class="container">
+    <div class="row">
+      <div class="content mx-auto w-50 p-3">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+
+  {{ "<!-- image carousel --> " | safeHTML }}
+  <div id="carousel" class="carousel slide multi-item-carousel" data-ride="carousel">
+    <ol class="carousel-indicators">
+      {{- range $index, $e := $.Page.Params.carousel }}
+      <li data-target="#carousel" data-slide-to="{{ $index }}" {{ if eq $index 0 }} class="active" {{ end }}></li>
+      {{- end }}
+    </ol>
+    <div class="carousel-inner">
+      {{- range $index, $e := $.Page.Params.carousel }}
+      {{- $src := $.Page.Resources.GetMatch ( printf "*%s*" ($e.url)) }}
+      {{- if $src }}
+
+      {{- $tinyw   := default "500x" }}
+      {{- $smallw  := default "800x" }}
+      {{- $mediumw := default "1200x" }}
+      {{- $largew  := default "1500x" }}
+
+      {{- $.Scratch.Set "tiny"   ($src.Resize $tinyw) }}
+      {{- $.Scratch.Set "small"  ($src.Resize $smallw) }}
+      {{- $.Scratch.Set "medium" ($src.Resize $mediumw) }}
+      {{- $.Scratch.Set "large"  ($src.Resize $largew) }}
+
+      {{- $tiny   := $.Scratch.Get "tiny" }}
+      {{- $small  := $.Scratch.Get "small" }}
+      {{- $medium := $.Scratch.Get "medium" }}
+      {{- $large  := $.Scratch.Get "large" }}
+      <div class="carousel-item {{ if eq $index 0 }} active {{ end }}">
+        <div class="item__third">
+          <img class="lazyload d-block w-100" sizes="(min-width: 35em) 1200px, 100vw" data-srcset="
+          {{ with $tiny.RelPermalink }} {{.}} 500w{{ end }}
+          {{ with $small.RelPermalink }},{{.}} 800w{{ end }}
+          {{ with $medium.RelPermalink }},{{.}} 1200w{{ end }}
+          {{ with $large.RelPermalink }},{{.}} 1500w{{ end }}"
+          data-src="{{- $src.RelPermalink -}}" alt="{{ (index . "title") }}" >
+          <!--
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+          </div> 
+          -->
+        </div>
+      </div>
+      {{- end }}
+      {{- end }}
+    </div>
+      <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true">
+        </span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true">
+        </span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  {{ "<!-- end image carousel --> " | safeHTML }}
+
+  {{ "<!-- mobile image carousel --> " | safeHTML }}
+  
+  <div id="mobile-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+    {{- range $index, $e := $.Page.Params.carousel }}
+      <li data-target="#mobile-carousel" data-slide-to="{{ $index }}" {{ if eq $index 0 }}class="active"{{ end }}></li>{{- end }}
+    </ol>
+    <div class="carousel-inner">
+      {{- range $index, $e := $.Page.Params.carousel }}
+      {{- $src := $.Page.Resources.GetMatch ( printf "*%s*" ($e.url)) }}
+      {{- if $src }}
+
+      {{- $tinyw   := default "500x" }}
+      {{- $smallw  := default "800x" }}
+      {{- $mediumw := default "1200x" }}
+      {{- $largew  := default "1500x" }}
+
+      {{- $.Scratch.Set "tiny"   ($src.Resize $tinyw) }}
+      {{- $.Scratch.Set "small"  ($src.Resize $smallw) }}
+      {{- $.Scratch.Set "medium" ($src.Resize $mediumw) }}
+      {{- $.Scratch.Set "large"  ($src.Resize $largew) }}
+
+      {{- $tiny   := $.Scratch.Get "tiny" }}
+      {{- $small  := $.Scratch.Get "small" }}
+      {{- $medium := $.Scratch.Get "medium" }}
+      {{- $large  := $.Scratch.Get "large" }}
+
+      <div class="carousel-item {{ if eq $index 0 }} active {{ end }}">
+        <img class="lazyload" sizes="(min-width: 35em) 1200px, 100vw" data-srcset="
+          {{ with $tiny.RelPermalink }} {{.}} 500w{{ end }}
+          {{ with $small.RelPermalink }},{{.}} 800w{{ end }}
+          {{ with $medium.RelPermalink }},{{.}} 1200w{{ end }}
+          {{ with $large.RelPermalink }},{{.}} 1500w{{ end }}"
+          data-src="{{- $src.RelPermalink -}}" alt="{{ (index . "title") }}" >
+        <div class="carousel-caption  d-none d-md-block">
+          <h5>
+            <span class="carousel-overlay">{{ (index . "title") }}</span>
+          </h5>
+          <p> </p>
+        </div>
+      </div> 
+      {{- end }}
+      {{- end }} 
+      <a class="carousel-control-prev" href="#mobile-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true">
+        </span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#mobile-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true">
+        </span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  {{ "<!-- end of carousel --> " | safeHTML }}
+
+ <div class="container">
+   
+ <div class="tab-wrapper">
+      <nav id="myTab" class="nav flex-column flex-sm-row" >
+         
+          <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#other-hotels">
+            Other hotels
+          </a>
+         
+          <a class="flex-sm-fill text-sm-center nav-link active" data-toggle="tab" href="city-info">
+            {{ (.GetPage .CurrentSection.Parent.RelPermalink ).Title }} information 
+          </a>
+        
+          <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#things-to-do">
+            Things to do
+          </a>
+          <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#itineraries">
+            Itineraries
+          </a>
+      </nav>
+      <div class="tab-content">
+       
+        <div id="other-hotels" class="tab-pane ">
+           <div class="row">
+              <div class="mx-auto w-50 p-3">
+              {{- range where (where .Site.Pages "Section" "states") ".RelPermalink" (printf "%s%s" .CurrentSection.Parent.RelPermalink "hotels/") }}
+              {{- range .Data.Pages }}
+              {{ if ne .Title $.Title }}
+              {{- partial "hotel-listing.html" . }}
+              {{- end }}
+              {{- end }}
+              {{- end }}
+            </div>
+          </div>
+        </div>
+
+        <div id="city-info" class="tab-pane active">
+           <div class="row">
+             <div class="mx-auto w-50 p-3">
+             {{ (.GetPage .CurrentSection.Parent.RelPermalink).Content }}  
+             </div>       
+          </div>
+        </div>
+
+        <div id="things-to-do" class="tab-pane ">
+           <div class="row">
+             <div class="mx-auto w-50 p-3">
+              {{- range where (where .Site.Pages "Section" "states") ".RelPermalink" (printf "%s%s"  .CurrentSection.Parent.RelPermalink "excursions/" ) }}
+              {{- range .Data.Pages }}
+              <article>
+              <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+              <p class="left">{{ .Content  }}</p>
+              {{- with .Resources.ByType "image" }}   
+              {{- partial "image-box.html" (dict "images" . ) }}
+              {{- end }}
+              </article>
+              {{- end }}
+              {{- end }}
+            </div>
+          </div>
+        </div>
+
+        <div id="itineraries" class="tab-pane ">
+          <div class="row">
+            {{ range where $.Site.RegularPages "Section" "tour-ideas"}}
+            {{- partial "tour-listing.html" . }}
+            {{- end }}
+          </div>
+        </div>
+
+      </div> 
+    </div>
+</div>
+
+
+
+
+</section>
+{{"<!-- end Content -->" | safeHTML}}
+{{- end }}
+{{- define "postscript" }}
+
+{{- $js := resources.Get "/js/carousel.js" -}}
+<script src="{{ $js.RelPermalink }}" defer></script>
+
+<script>
+
+$('#myTab a').on('click', function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+</script>
+
+{{- end }}

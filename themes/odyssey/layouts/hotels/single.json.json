@@ -1,0 +1,18 @@
+
+{
+  "this":           "hotel.json.son",
+  "title": 			    "{{ .Title }}",
+  "date": 			    "{{ .Date }}",
+  "permalink":	    "{{ .RelPermalink }}",
+  "content": 		    "{{ replace (trim (.Content | plainify ) "\n") "\n" "linebreak" }}",
+  "draft": 			    "{{ .Params.draft }}",
+  "eta": "{{ cond (isset .Params "eta") .Params.eta "12:00"}}",
+  "etd": "{{ cond (isset .Params "etd") .Params.etd "12:00"}}",
+  "id":             "{{ .Params.id }}",
+  "translationKey": "{{ .Params.translationKey }}"
+  {{- range $i,$e := (.Resources.ByType "image") }} 
+    {{- if eq $i 0 }}
+  ,"image": "{{ . }}"
+    {{- end }}
+{{- end }} 
+}

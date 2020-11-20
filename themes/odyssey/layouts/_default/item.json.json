@@ -1,9 +1,10 @@
 
 {
+  "this":"item.json.son",
   "title": 			"{{ .Title }}",
   "date": 			"{{ .Date }}",
   "permalink": 		"{{ .RelPermalink }}",
-  "content": 		"{{ replace (trim (.Content ) "\n") "\n" "linebreak" }}",
+  "content": 		"{{ replace (trim (.Content | plainify ) "\n") "\n" "linebreak" }}",
   "draft": 			"{{ .Params.draft }}",
   "id": 			"{{ .Params.id }}",
   "translationKey": "{{ .Params.translationKey }}"

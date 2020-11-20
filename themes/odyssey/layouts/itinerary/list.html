@@ -138,13 +138,13 @@ File: {{ .RelPermalink }}
     </div>
     <div class="row">
       <div><label for="check-in-date">Check-in</label></div>
-      <div><input name="check-in-date" placeholder="dd/mm/yyyy" class="input" ></div>
-      <div><input name="check-in-time" placeholder="hh:mm" class="input" ></div>
+      <div><input type="date" name="check-in-date"  placeholder="dd/mm/yyyy" class="input" ></div>
+      <div><input type="time" name="check-in-time" placeholder="hh:mm" class="input" ></div>
     </div>
     <div class="row">
       <div><label for="check-out-date">Check-out</label></div>
-      <div><input name="check-out-date" placeholder="dd/mm/yyyy" class="input" ></div>
-      <div><input name="check-out-time" placeholder="hh:mm" class="input" ></div>
+      <div><input type="date" name="check-out-date" placeholder="dd/mm/yyyy" class="input" ></div>
+      <div><input type="time" name="check-out-time" placeholder="hh:mm" class="input" ></div>
     </div>
     <div class="row buttons">
       <div><button class="default" id="default-btn-lodging"><i class="icon-trash"></i>Default</button></div>
@@ -461,21 +461,46 @@ function processRequest(url){
 
 function editItem(url){
  
-  var span  = document.getElementById("close-btn-lodging");
   var modal = document.getElementById("modal-lodging");
-  var modelContent = document.getElementById("modelContent");
-
-  modal.style.display = "block";
  
-  span.onclick = function() {
-    modal.style.display = "none";
-  }
+  modal.style.display = "block";
 
   window.onclick = function(event) {
     if (event.target == modal) {
       modal.style.display = "none";
     }
   } 
+  
+  var xhr = new XMLHttpRequest();
+  xhr.open('get',host+url+"/index.json" );
+  xhr.setRequestHeader("Content-Type", "application/json");
+
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4 && xhr.status === 200) {
+        
+      const data  = JSON.parse(xhr.responseText);
+      var content = data.content;  
+      let modal   = document.getElementById("modal-lodging").getElementsByClassName('input');
+
+      modal[0].url = url;
+      modal[0].innerText = content.replace(/linebreak/gm,"");
+      modal[2].innerText = data.eta;
+      modal[4].innerText = data.etd;
+    }
+  };
+
+  xhr.send();
+}
+
+document.getElementById("close-btn-lodging").addEventListener('click', () => {
+  
+  document.getElementById("modal-lodging").style.display = "none";
+});
+
+document.getElementById("save-btn-lodging").addEventListener('click', () => {
+  
+  var modal = document.getElementById("modal-lodging").getElementsByClassName('input');
+  var url   = modal[0].url;
 
   var xhr = new XMLHttpRequest();
   xhr.open('get',host+url+"/index.json" );
@@ -483,33 +508,57 @@ function editItem(url){
 
   xhr.onreadystatechange = function () {
     if (xhr.readyState === 4 && xhr.status === 200) {
+     
+      var oldData = JSON.parse(xhr.responseText);
       
-      const data = JSON.parse(xhr.responseText);
-      var content = data.data.content;  
-      content     = content.replace(/linebreak/gm,"");
- 
-      modelContent.innerHTML=content;
+      oldData.arrdate = modal[1].value ; 
+      oldData.eta     = modal[2].value ;
+      oldData.depdate = modal[3].value ;
+      oldData.etd     = modal[4].value ;
+
+      if (! url.includes("{{ .RelPermalink }}") ){
+        url = "{{ substr .RelPermalink 0 -1 }}" + url;
+      } 
+
+      var data = new Object;
+      data[1] = modal[0].innerText;
+      delete oldData.content;
+      delete oldData.permalink;
+      delete oldData.this;
+      data[0] = oldData;
+
+      saveModal(url,data);
     }
   };
   xhr.send();
-}
-
-document.getElementById("close-btn-lodging").addEventListener('click', () => {
-  
-  document.getElementById("lodgingModal").style.display = "none";
-
 });
 
-document.getElementById("save-btn-lodging").addEventListener('click', () => {
-  
-  var data = document.getElementById("lodgingModal").getElementsByClassName('input');
-    for(let i=0;i<data.length;i++) {
-  console.log('value='+data[i].innerText);
-  console.log('text='+data[i].value);
+function saveModal(url, data){
+// {{ getenv "APP" }}
+  var xhr = new XMLHttpRequest();
+  xhr.open('POST','http://localhost:1314/edit', true );
+  xhr.setRequestHeader("Content-Type", "application/json");
+
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4 && xhr.status === 200) {
+       console.log(xhr.responseText);
     }
-  console.table(data);
+  };
 
-});
+  xhr.onerror = function (e) {
+    console.log(xhr.statusText);
+  };
+
+  var data = JSON.stringify({ "file": url, "data": data });
+  
+  var css  = document.getElementById("message");
+  css.innerHTML = 'Writing in progress';
+  css.classList.add('alert-info');
+
+  xhr.send(data);
+};
+
+
 
 function getText() {
   let element = document.querySelector('div[contenteditable]');
