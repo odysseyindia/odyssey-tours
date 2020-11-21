@@ -9,6 +9,7 @@
   "depdate":        "{{ .Params.depdate }}",
   "etd":            "{{ cond (isset .Params "etd") .Params.etd "09:00"}}",
   "duration":       "{{ .Params.duration }}",
+  "vehicle" :       "{{ .Params.vehicle }}",
   "id":             "{{ .Params.id }}",
   "type":           "{{ .Params.type }}",
   "translationKey": "{{ .Params.translationKey }}"

@@ -5,7 +5,7 @@ textarea {
 }
 
 .editable {
-
+ 
 }
 .mx-auto.w-50 {
   margin-top: 0;
@@ -85,6 +85,14 @@ i,select {
 .icon-pencil {
   background-color: blue;
 }
+.icon-search, .icon-spin3 {
+  color: gray;
+}
+button.save {
+  background-color: blue;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
 
 .mr-10 {
   margin-right: 10px;
@@ -146,9 +154,19 @@ i,select {
 
 .trash-column .column-header {
   background: #ff4444;
-  color: white;
+  color: gray;
+  .icon-trash{
+   background: #ff4444;
+   color: gray;
+   cursor: pointer;
+  }
 }
 
+.dossier {
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px 10px 20px;
+}
 .task-list {
   min-height: 3rem;
 }

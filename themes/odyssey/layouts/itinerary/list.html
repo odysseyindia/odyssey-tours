@@ -7,17 +7,21 @@
     <div class="row">
       <div class="mx-auto w-50 p-3">
         {{ .Content }}
-         <div id="message" class="alert " role="alert"></div>
+        <div id="message" class="alert " role="alert"></div>
       </div>
     </div>
   </div>
 
-File: {{ .RelPermalink }}
-<button class="save" onclick="saveThis()">Save</button>
-&nbsp;
-<button class="edit" onclick="editThis()">Edit</button>
-
   <div class="main-container">
+    <div class="row dossier">
+    <div>Dossier: {{ .RelPermalink }}</div>
+    <div>
+      <button class="save" onclick="saveThis()">
+        <i class="icon-floppy"></i>Save
+      </button>
+    </div>
+  </div>
+
     <div class="columns">
 
       <div id="itinerary">
@@ -26,25 +30,25 @@ File: {{ .RelPermalink }}
         <div class="containers">
           {{- range .url }}
 
-    {{- $myUrl := printf "%s%s" (substr $.RelPermalink 0 -1) . }}<br>
-    {{- $url := (cond (fileExists $myUrl) $myUrl . )}}
-    
-        <div class="draggable" draggable="true" url="{{ $url }}">
+          {{- $myUrl := printf "%s%s" (substr $.RelPermalink 0 -1) . }}<br>
+          {{- $url := (cond (fileExists $myUrl) $myUrl . )}}
+
+          <div class="draggable" draggable="true" url="{{ $url }}">
             {{- with $.Site.GetPage "page" . }}
             <div>
-            {{- if in .RelPermalink "excursions"}}
+              {{- if in .RelPermalink "excursions"}}
               <i class="icon-camera"></i>
-            {{- else if in .RelPermalink "hotels"}}
+              {{- else if in .RelPermalink "hotels"}}
               <i class="icon-bed"></i>
-            {{- else if in .RelPermalink "flights"}}
+              {{- else if in .RelPermalink "flights"}}
               <i class="icon-flight"></i>
-            {{- else if in .RelPermalink "ferries"}}
+              {{- else if in .RelPermalink "ferries"}}
               <i class="icon-ferry"></i>
-            {{- else if in .RelPermalink "hotels"}}
+              {{- else if in .RelPermalink "hotels"}}
               <i class="icon-train"></i>
-            {{- else if in .RelPermalink "cars"}}
+              {{- else if in .RelPermalink "cars"}}
               <i class="icon-cab"></i>
-            {{- end }}
+              {{- end }}
             </div>
             <div class="program">
               <div>
@@ -53,9 +57,9 @@ File: {{ .RelPermalink }}
               <div class="content">
                 <div class="image">
                   <img class="lazyload" 
-                    sizes="(min-width: 35em) 150px, 10vw"
-                    data-srcset="{{ .RelPermalink }}{{ .Params.image }} 150w"
-                    data-src="{{ .RelPermalink }}{{ .Params.image }}" alt="{{ .Title }}">
+                  sizes="(min-width: 35em) 150px, 10vw"
+                  data-srcset="{{ .RelPermalink }}{{ .Params.image }} 150w"
+                  data-src="{{ .RelPermalink }}{{ .Params.image }}" alt="{{ .Title }}">
                 </div>
                 <div class="mr-10 content-text">
                   {{ .Content }}
@@ -66,7 +70,7 @@ File: {{ .RelPermalink }}
               <i class="icon-edit-alt"></i>
             </div>
             {{- end }}
-        </div>
+          </div>
           {{- end }}
         </div>
         {{- end }}
@@ -74,7 +78,7 @@ File: {{ .RelPermalink }}
 
       <div class="to-do-column">
         <div class="column-header">
-          <h4>Search</h4>
+          <h4><i class="icon-search"></i>Search</h4>
         </div>
         
         <div  class="select-flex">
@@ -88,13 +92,13 @@ File: {{ .RelPermalink }}
             </select>
           </div>
         </div>
-          
+
         <div class="select-flex">
           <div class="custom-select" id="selectHotels">
             <label for="hotels">Hotels</label>
             <select class="maxwidth" id="hotels" name="hotels">
             </select>
-             <i class="select icon icon-bed" onclick="addHotel()"></i>
+            <i class="select icon icon-bed" onclick="addHotel()"></i>
           </div>
         </div>
 
@@ -111,14 +115,14 @@ File: {{ .RelPermalink }}
         <div id="info"></div>
 
         <div class="column-header">
-          <h4>Workspace</h4>
+          <h4><i class="icon-spin3"></i>Workspace</h4>
         </div>
         <div class="containers" id="workspace">
         </div>
 
         <div class="trash-column">
           <div class="column-header">
-            <h4>Trash &nbsp;<i class="select icon icon-camera"  onclick="emptyTrash()"></i></h4>
+            <h4><i class="icon-trash"  onclick="emptyTrash()"></i> Trash</h4>
           </div>
           <div class="containers" id="trash">
           </div>
@@ -127,41 +131,41 @@ File: {{ .RelPermalink }}
       </div> 
     </div>
   </div>
-   
 
-<!-- The Modal -->
-<div id="modal-lodging" class="modal">
-  <div class="modal-content">
-    <div class="container">
-    <div class="row">
-      <div id="modal-category"></div>
-      <div class="cancel" id="close-btn-lodging">
-        <i class="icon-cancel"></i>
+
+  <!-- The Modal -->
+  <div id="modal-lodging" class="modal">
+    <div class="modal-content">
+      <div class="container">
+        <div class="row">
+          <div id="modal-category"></div>
+          <div class="cancel" id="close-btn-lodging">
+            <i class="icon-cancel"></i>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input content" contenteditable="true"></div>
+        </div>
+        <div class="row">
+          <div><label for="check-in-date">Check-in</label></div>
+          <div><input type="date" name="check-in-date"  placeholder="dd/mm/yyyy" class="input" ></div>
+          <div><input type="time" name="check-in-time" placeholder="hh:mm" class="input" ></div>
+        </div>
+        <div class="row">
+          <div><label for="check-out-date">Check-out</label></div>
+          <div><input type="date" name="check-out-date" placeholder="dd/mm/yyyy" class="input"></div>
+          <div><label for="check-out-time">etd</label></div>
+          <div><input type="time" name="check-out-time" placeholder="hh:mm" class="input"></div>
+          <div><label for="duration">Duration</label></div>
+          <div><input type="time" name="duration" placeholder="hh:mm" class="input"></div>
+        </div>
+        <div class="row buttons">
+          <div><button class="default" id="default-btn-lodging"><i class="icon-trash"></i>Default</button></div>
+          <div><button class="save" id=save-btn-lodging><i class="icon-floppy"></i>Save</button></div>
+        </div>
       </div>
     </div>
-    <div class="row">
-      <div class="input content" contenteditable="true"></div>
-    </div>
-    <div class="row">
-      <div><label for="check-in-date">Check-in</label></div>
-      <div><input type="date" name="check-in-date"  placeholder="dd/mm/yyyy" class="input" ></div>
-      <div><input type="time" name="check-in-time" placeholder="hh:mm" class="input" ></div>
-    </div>
-    <div class="row">
-      <div><label for="check-out-date">Check-out</label></div>
-      <div><input type="date" name="check-out-date" placeholder="dd/mm/yyyy" class="input"></div>
-       <div><label for="check-out-time">etd</label></div>
-      <div><input type="time" name="check-out-time" placeholder="hh:mm" class="input"></div>
-       <div><label for="duration">Duration</label></div>
-      <div><input type="time" name="duration" placeholder="hh:mm" class="input"></div>
-    </div>
-    <div class="row buttons">
-      <div><button class="default" id="default-btn-lodging"><i class="icon-trash"></i>Default</button></div>
-      <div><button class="save" id=save-btn-lodging><i class="icon-floppy"></i>Save</button></div>
-    </div>
-  </div>
-  </div>
-</div> 
+  </div> 
 
 </section>
 
@@ -170,33 +174,33 @@ File: {{ .RelPermalink }}
 
 <script>
 
-const source = document.querySelector("#cities");
-const city   = source[source.selectedIndex].value ;
-var   host   = window.location.href.split("/");
-var   host   = host[0] + "//" + host[2];
+  const source = document.querySelector("#cities");
+  const city   = source[source.selectedIndex].value ;
+  var   host   = window.location.href.split("/");
+  var   host   = host[0] + "//" + host[2];
 
-var renewables = document.querySelectorAll(".draggable");
+  var renewables = document.querySelectorAll(".draggable");
 
-renewables.forEach(renewable => {
-  let url = renewable.getAttribute("url");
-  let myClass = renewable.getElementsByClassName("content-text");
+  renewables.forEach(renewable => {
+    let url = renewable.getAttribute("url");
+    let myClass = renewable.getElementsByClassName("content-text");
 
-  if (url.includes("{{ htmlUnescape .RelPermalink }}")){
-  let xhr = new XMLHttpRequest();
-  xhr.open('get',url+"/index.json" );
-  xhr.setRequestHeader("Content-Type", "application/json");
-  xhr.onreadystatechange = function () {
-    if (xhr.readyState === 4 && xhr.status === 200) { 
-      let data = JSON.parse(xhr.responseText);
-      myClass[0].innerText = data.content;
-    };
-  };
-  xhr.send();
-  }
-});
+    if (url.includes("{{ htmlUnescape .RelPermalink }}")){
+      let xhr = new XMLHttpRequest();
+      xhr.open('get',url+"/index.json" );
+      xhr.setRequestHeader("Content-Type", "application/json");
+      xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4 && xhr.status === 200) { 
+          let data = JSON.parse(xhr.responseText);
+          myClass[0].innerText = data.content;
+        };
+      };
+      xhr.send();
+    }
+  });
 
 
-changeCity(city);
+  changeCity(city);
 
 // add EventListeners
 document.getElementById("cities").addEventListener("change", changeCity);
@@ -240,7 +244,7 @@ function draggable(){
       } else {
         container.insertBefore(draggable,afterElement);
       }
-     
+
     })
   })
 }
@@ -267,14 +271,14 @@ function saveThis(){
   let days = document.getElementById('itin').getElementsByClassName('containers');
   
   for(let i=0;i<days.length;i++) {
-  
+
     var urls  = [];
     var items = days[i].getElementsByTagName('div');
     
     for(let j=0;j<items.length;j++) {
-     
+
       var url = items[j].getAttributeNode("url").value;
-    
+
       urls.push(url);
     }
     data.push({"day":i,'url':urls});
@@ -291,21 +295,21 @@ function writeData(data){
 
   xhr.onreadystatechange = function () {
     if (xhr.readyState === 4 && xhr.status === 200) {
-       console.log(xhr.responseText);
-    }
-  };
+     console.log(xhr.responseText);
+   }
+ };
 
-  xhr.onerror = function (e) {
-    console.error(xhr.statusText);
-  };
+ xhr.onerror = function (e) {
+  console.error(xhr.statusText);
+};
 
-  var data = JSON.stringify({ "file": {{ .RelPermalink }}, "data": data });
+var data = JSON.stringify({ "file": {{ .RelPermalink }}, "data": data });
 
-  let css = document.getElementById("message");
-  css.innerHTML = 'in progress';
-  css.classList.add('alert-info');
+let css = document.getElementById("message");
+css.innerHTML = 'in progress';
+css.classList.add('alert-info');
 
-  xhr.send(data);
+xhr.send(data);
 }
 
 
@@ -322,7 +326,7 @@ function changeCity(){
 };
 
 function displayCity(url){
-  
+
   const city = url.split("/")[(url.split("/")).length-2];
   // the json url for the city is one step lower in the url tree
   var   newUrl = url.split("/");
@@ -351,7 +355,7 @@ function displayCity(url){
       const img = 'url("'+host+url+citydata.image+'")'
       
       if (img){
-      document.getElementById("image").style["background-image"]=img;
+        document.getElementById("image").style["background-image"]=img;
       }
       document.getElementById("info").innerHTML = citydata.content;
     }
@@ -360,7 +364,7 @@ function displayCity(url){
 }
 
 function displayHotels(city){
- 
+
   var xhr = new XMLHttpRequest();
   var url=host+city+"hotels/index.json";
 
@@ -393,7 +397,7 @@ function displayExcursions(city){
 
   var xhr = new XMLHttpRequest();
   var url = host+city+"excursions/index.json";
- 
+
   xhr.open('get',url );
   xhr.setRequestHeader("Content-Type", "application/json");
 
@@ -474,7 +478,7 @@ function processRequest(url){
 
   xhr.onreadystatechange = function () {
     if (xhr.readyState === 4 && xhr.status === 200) { 
-      
+
       var data    = JSON.parse(xhr.responseText);
       var content = data.data.content;  
       content     = content.replace(/linebreak/gm,"")
@@ -491,9 +495,11 @@ function processRequest(url){
 }
 
 function editItem(url){
- 
-  var modal = document.getElementById("modal-lodging");
+
   var icon;
+  var modal     =document.getElementById("modal-lodging");
+  var iconImg   =document.getElementById("modal-category");
+  var defaultBtn=document.getElementById("default-btn-lodging");
 
   modal.style.display = "block";
 
@@ -503,45 +509,50 @@ function editItem(url){
     }
   } 
   
-if (url.includes("hotels")){
-  icon = "bed";
-} else if (url.includes("excursions")){
-  icon = "camera";
-} else if (url.includes("flights")){
-  icon = "flight";
-} else if (url.includes("trains")){
-  icon = "train";
-} else if (url.includes("ferry")){
-  icon = "ferry";
-}
+  if (url.includes("hotels")){
+    icon = "bed";
+  } else if (url.includes("excursions")){
+    icon = "camera";
+  } else if (url.includes("flights")){
+    icon = "flight";
+  } else if (url.includes("trains")){
+    icon = "train";
+  } else if (url.includes("ferry")){
+    icon = "ferry";
+  }
 
-document.getElementById("modal-category").innerHTML = '<i class="icon-'+icon+'"></i>"';
+  iconImg.innerHTML = '<i class="icon-'+icon+'"></i>"';
+
+  if (url.includes("{{ htmlUnescape .RelPermalink }}")){
+    defaultBtn.style.display = "block"
+  } else {
+    defaultBtn.style.display = "none"
+  }
 
   var xhr = new XMLHttpRequest();
   xhr.open('get',host+url+"/index.json" );
   xhr.setRequestHeader("Content-Type", "application/json");
-
   xhr.onreadystatechange = function () {
     if (xhr.readyState === 4 && xhr.status === 200) {
-        
+
       const data  = JSON.parse(xhr.responseText);
       let content = data.content;  
-      let modal   = document.getElementById("modal-lodging").getElementsByClassName('input');
-      let rows    = document.getElementById("modal-lodging").getElementsByClassName('row');
+      let modals  = modal.getElementsByClassName('input');
+      let rows    = modal.getElementsByClassName('row');
 
-      modal[0].url   = url;
-      modal[0].innerText = content.replace(/linebreak/gm,"");
+      modals[0].url   = url;
+      modals[0].innerText = content.replace(/linebreak/gm,"");
       if (icon == "bed"){
-      modal[1].value = data.arrdate;
-      modal[2].value = data.eta;
-      modal[8].style.display = "none"; // duration
+        modals[1].value = data.arrdate;
+        modals[2].value = data.eta;
+        modals[8].style.display = "none"; // duration
       } else {
-      rows[2].style.display = "none"; // arrival details
-      rows[3].childNodes[1].innerText = "Departure";
-      modal[5].value = data.duration;
+        rows[2].style.display = "none"; // arrival details
+        rows[3].childNodes[1].innerText = "Departure";
+        modals[5].value = data.duration;
       }
-      modal[3].value = data.depdate;
-      modal[4].value = data.etd;
+      modals[3].value = data.depdate;
+      modals[4].value = data.etd;
     }
   };
 
@@ -549,12 +560,12 @@ document.getElementById("modal-category").innerHTML = '<i class="icon-'+icon+'">
 }
 
 document.getElementById("close-btn-lodging").addEventListener('click', () => {
-  
+
   document.getElementById("modal-lodging").style.display = "none";
 });
 
 document.getElementById("save-btn-lodging").addEventListener('click', () => {
-  
+
   var modal = document.getElementById("modal-lodging").getElementsByClassName('input');
   var url   = modal[0].url;
 
@@ -564,7 +575,7 @@ document.getElementById("save-btn-lodging").addEventListener('click', () => {
 
   xhr.onreadystatechange = function () {
     if (xhr.readyState === 4 && xhr.status === 200) {
-     
+
       var oldData = JSON.parse(xhr.responseText);
       
       oldData.arrdate  = modal[1].value ; 
@@ -592,27 +603,27 @@ document.getElementById("save-btn-lodging").addEventListener('click', () => {
 
 function saveModal(url, data){
 // {{ getenv "APP" }}
-  var xhr = new XMLHttpRequest();
-  xhr.open('POST','http://localhost:1314/edit', true );
-  xhr.setRequestHeader("Content-Type", "application/json");
+var xhr = new XMLHttpRequest();
+xhr.open('POST','http://localhost:1314/edit', true );
+xhr.setRequestHeader("Content-Type", "application/json");
 
-  xhr.onreadystatechange = function () {
-    if (xhr.readyState === 4 && xhr.status === 200) {
-       console.log(xhr.responseText);
-    }
-  };
+xhr.onreadystatechange = function () {
+  if (xhr.readyState === 4 && xhr.status === 200) {
+   console.log(xhr.responseText);
+ }
+};
 
-  xhr.onerror = function (e) {
-    alert("There is an issue saving. Please contact the administrator.");
-  };
+xhr.onerror = function (e) {
+  alert("There is an issue saving. Please contact the administrator.");
+};
 
-  var data = JSON.stringify({ "file": url, "data": data });
-  
-  var css  = document.getElementById("message");
-  css.innerHTML = 'Writing in progress';
-  css.classList.add('alert-info');
+var data = JSON.stringify({ "file": url, "data": data });
 
-  xhr.send(data);
+var css  = document.getElementById("message");
+css.innerHTML = 'Writing in progress';
+css.classList.add('alert-info');
+
+xhr.send(data);
 };
 
 
@@ -623,11 +634,11 @@ function getText() {
   let keyTag = new RegExp(
     firstTag === '#text' ? '<br' : '</' + firstTag,
     'i'
-  );
+    );
   let tmp = document.createElement('p');
   tmp.innerHTML = element.innerHTML
-    .replace(/<[^>]+>/g, (m, i) => (keyTag.test(m) ? '{ß®}' : ''))
-    .replace(/{ß®}$/, '');
+  .replace(/<[^>]+>/g, (m, i) => (keyTag.test(m) ? '{ß®}' : ''))
+  .replace(/{ß®}$/, '');
   return tmp.innerText.replace(/{ß®}/g, '\n');
 }
 </script>
