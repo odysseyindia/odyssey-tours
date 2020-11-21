@@ -4,6 +4,9 @@ draft: false
 date: 2020-09-21T12:59:23+02:00
 translationKey: afternon-other-monuments
 id: "excursion"
+type: "excursions"
+duration: 3
+etd: "14:00"
 tags: ["Agra", "Excursions"] 
 carousel:
   - url: 1-uttar-pradesh-agra-excursion-other-monuments-red-fort-exterior.jpg

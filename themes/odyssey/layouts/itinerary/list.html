@@ -134,8 +134,10 @@ File: {{ .RelPermalink }}
   <div class="modal-content">
     <div class="container">
     <div class="row">
-      <div><i class="icon-bed"></i></div>
-      <div class="cancel" id="close-btn-lodging"><i class="icon-cancel"></i></div>
+      <div id="modal-category"></div>
+      <div class="cancel" id="close-btn-lodging">
+        <i class="icon-cancel"></i>
+      </div>
     </div>
     <div class="row">
       <div class="input content" contenteditable="true"></div>
@@ -147,8 +149,11 @@ File: {{ .RelPermalink }}
     </div>
     <div class="row">
       <div><label for="check-out-date">Check-out</label></div>
-      <div><input type="date" name="check-out-date" placeholder="dd/mm/yyyy" class="input" ></div>
-      <div><input type="time" name="check-out-time" placeholder="hh:mm" class="input" ></div>
+      <div><input type="date" name="check-out-date" placeholder="dd/mm/yyyy" class="input"></div>
+       <div><label for="check-out-time">etd</label></div>
+      <div><input type="time" name="check-out-time" placeholder="hh:mm" class="input"></div>
+       <div><label for="duration">Duration</label></div>
+      <div><input type="time" name="duration" placeholder="hh:mm" class="input"></div>
     </div>
     <div class="row buttons">
       <div><button class="default" id="default-btn-lodging"><i class="icon-trash"></i>Default</button></div>
@@ -208,7 +213,7 @@ Array.from(btns).forEach(item => {
   });
 });
 
-// draggables
+// allow drag and drop
 
 function draggable(){
   var draggables = document.querySelectorAll('.draggable');
@@ -255,6 +260,7 @@ function getDragAfterElement(container,y){
   },{offset: Number.NEGATIVE_INFINITY}).element;
 }
 
+// save this itinerary
 function saveThis(){
 
   var data = [];
@@ -487,7 +493,8 @@ function processRequest(url){
 function editItem(url){
  
   var modal = document.getElementById("modal-lodging");
- 
+  var icon;
+
   modal.style.display = "block";
 
   window.onclick = function(event) {
@@ -496,6 +503,20 @@ function editItem(url){
     }
   } 
   
+if (url.includes("hotels")){
+  icon = "bed";
+} else if (url.includes("excursions")){
+  icon = "camera";
+} else if (url.includes("flights")){
+  icon = "flight";
+} else if (url.includes("trains")){
+  icon = "train";
+} else if (url.includes("ferry")){
+  icon = "ferry";
+}
+
+document.getElementById("modal-category").innerHTML = '<i class="icon-'+icon+'"></i>"';
+
   var xhr = new XMLHttpRequest();
   xhr.open('get',host+url+"/index.json" );
   xhr.setRequestHeader("Content-Type", "application/json");
@@ -506,11 +527,19 @@ function editItem(url){
       const data  = JSON.parse(xhr.responseText);
       let content = data.content;  
       let modal   = document.getElementById("modal-lodging").getElementsByClassName('input');
+      let rows    = document.getElementById("modal-lodging").getElementsByClassName('row');
 
       modal[0].url   = url;
       modal[0].innerText = content.replace(/linebreak/gm,"");
+      if (icon == "bed"){
       modal[1].value = data.arrdate;
       modal[2].value = data.eta;
+      modal[8].style.display = "none"; // duration
+      } else {
+      rows[2].style.display = "none"; // arrival details
+      rows[3].childNodes[1].innerText = "Departure";
+      modal[5].value = data.duration;
+      }
       modal[3].value = data.depdate;
       modal[4].value = data.etd;
     }
@@ -538,11 +567,12 @@ document.getElementById("save-btn-lodging").addEventListener('click', () => {
      
       var oldData = JSON.parse(xhr.responseText);
       
-      oldData.arrdate = modal[1].value ; 
-      oldData.eta     = modal[2].value ;
-      oldData.depdate = modal[3].value ;
-      oldData.etd     = modal[4].value ;
-
+      oldData.arrdate  = modal[1].value ; 
+      oldData.eta      = modal[2].value ;
+      oldData.depdate  = modal[3].value ;
+      oldData.etd      = modal[4].value ;
+      oldData.duration = modal[5].value ;
+      
       if (! url.includes("{{ .RelPermalink }}") ){
         url = "{{ substr .RelPermalink 0 -1 }}" + url;
       } 

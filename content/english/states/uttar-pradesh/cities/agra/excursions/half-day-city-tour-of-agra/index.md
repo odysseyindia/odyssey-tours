@@ -4,6 +4,9 @@ draft: false
 date: 2020-09-21T12:59:23+02:00
 translationKey: half-day-city-tour-of-agra
 id: "excursion"
+type: "excursions"
+duration: 3
+etd: "09:00"
 tags: ["Agra", "Excursions"]  
 ---
 

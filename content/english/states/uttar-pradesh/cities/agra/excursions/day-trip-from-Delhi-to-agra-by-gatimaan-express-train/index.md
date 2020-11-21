@@ -4,6 +4,9 @@ draft: false
 date: 2020-09-21T12:59:23+02:00
 translationKey: day-trip-from-Delhi-to-agra-by-gatimaan-express-train
 id: "excursion"
+type: "excursions"
+duration: 6
+etd: "09:00"
 tags: ["Agra", "Excursions"]  
 ---
 

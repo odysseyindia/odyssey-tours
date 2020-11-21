@@ -4,6 +4,9 @@ draft: false
 date: 2020-09-21T12:59:23+02:00
 translationKey: early-morning-guided-visit-to-the-taj
 id: "excursion"
+type: "excursions"
+duration: 2
+etd: "07:00"
 tags: ["Agra", "Excursions"] 
   
 ---

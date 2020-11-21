@@ -4,6 +4,9 @@ draft: false
 date: 2020-09-21T12:59:23+02:00
 translationKey: early-morning-taj-mahal
 id: "excursion"
+type: "excursions"
+duration: 2
+etd: "07:00"
 tags: [ "Agra", "Excursions"] 
 image: 1-uttar-pradesh-agra-excursions-early-morning-taj-mahal-view.jpg
 carousel:
