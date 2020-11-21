@@ -183,7 +183,7 @@ renewables.forEach(renewable => {
   xhr.onreadystatechange = function () {
     if (xhr.readyState === 4 && xhr.status === 200) { 
       let data = JSON.parse(xhr.responseText);
-      myClass[0].innerText = data.data.content;
+      myClass[0].innerText = data.content;
     };
   };
   xhr.send();
@@ -504,13 +504,15 @@ function editItem(url){
     if (xhr.readyState === 4 && xhr.status === 200) {
         
       const data  = JSON.parse(xhr.responseText);
-      var content = data.content;  
+      let content = data.content;  
       let modal   = document.getElementById("modal-lodging").getElementsByClassName('input');
 
-      modal[0].url = url;
+      modal[0].url   = url;
       modal[0].innerText = content.replace(/linebreak/gm,"");
-      modal[2].innerText = data.eta;
-      modal[4].innerText = data.etd;
+      modal[1].value = data.arrdate;
+      modal[2].value = data.eta;
+      modal[3].value = data.depdate;
+      modal[4].value = data.etd;
     }
   };
 
