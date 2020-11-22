@@ -132,36 +132,70 @@
     </div>
   </div>
 
-
-  <!-- The Modal -->
-  <div id="modal-lodging" class="modal">
+  <div id="modal" class="modal">
     <div class="modal-content">
       <div class="container">
         <div class="row">
           <div id="modal-category"></div>
-          <div class="cancel" id="close-btn-lodging">
+          <div class="cancel" id="close-btn">
             <i class="icon-cancel"></i>
           </div>
         </div>
         <div class="row">
-          <div class="input content" contenteditable="true"></div>
+          <div class="input content" contenteditable="true">
+          </div>
         </div>
         <div class="row">
-          <div><label for="check-in-date">Check-in</label></div>
-          <div><input type="date" name="check-in-date"  placeholder="dd/mm/yyyy" class="input" ></div>
-          <div><input type="time" name="check-in-time" placeholder="hh:mm" class="input" ></div>
+          <div>
+            <label for="check-in-date" class="label">
+              Check-in
+            </label>
+          </div>
+          <div>
+            <input type="date" name="check-in-date"  placeholder="dd/mm/yyyy" class="input">
+          </div>
+          <div>
+            <label for="check-in-time">ETA</label>
+          </div>
+          <div>
+            <input type="time" name="check-in-time" placeholder="hh:mm" class="input">
+          </div>
         </div>
         <div class="row">
-          <div><label for="check-out-date">Check-out</label></div>
-          <div><input type="date" name="check-out-date" placeholder="dd/mm/yyyy" class="input"></div>
-          <div><label for="check-out-time">etd</label></div>
-          <div><input type="time" name="check-out-time" placeholder="hh:mm" class="input"></div>
-          <div><label for="duration">Duration</label></div>
-          <div><input type="time" name="duration" placeholder="hh:mm" class="input"></div>
+          <div>
+            <label for="check-out-date" class="label">
+              Check-out
+            </label>
+          </div>
+          <div>
+            <input type="date" name="check-out-date" placeholder="dd/mm/yyyy" class="input">
+          </div>
+          <div>
+            <label for="check-out-time">ETD</label>
+          </div>
+          <div>
+            <input type="time" name="check-out-time" placeholder="hh:mm" class="input">
+          </div>
+          <div>
+            <label for="duration">Duration</label>
+          </div>
+          <div>
+            <input type="time" name="duration" placeholder="hh:mm" class="input">
+          </div>
         </div>
         <div class="row buttons">
-          <div><button class="default" id="default-btn-lodging"><i class="icon-trash"></i>Default</button></div>
-          <div><button class="save" id=save-btn-lodging><i class="icon-floppy"></i>Save</button></div>
+          <div>
+            <button class="default" id="default-btn">
+              <i class="icon-trash"></i>
+              Default
+            </button>
+          </div>
+          <div>
+            <button class="save" id=save-btn>
+            <i class="icon-floppy"></i>
+              Save
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -199,13 +233,18 @@
     }
   });
 
-
   changeCity(city);
 
 // add EventListeners
-document.getElementById("cities").addEventListener("change", changeCity);
-document.getElementById("hotels").addEventListener("change", changeHotel);
-document.getElementById("excursions").addEventListener("change", changeExcursion);
+document.getElementById("cities")
+  .addEventListener("change", changeCity);
+
+document.getElementById("hotels")
+  .addEventListener("change", changeHotel);
+
+document.getElementById("excursions")
+  .addEventListener("change", changeExcursion);
+
 document.addEventListener('DOMContentLoaded', (event) => {
   draggable();
 })
@@ -216,6 +255,48 @@ Array.from(btns).forEach(item => {
     editItem(item.parentElement.getAttribute("url"));
   });
 });
+
+document.getElementById("close-btn")
+  .addEventListener('click', () => {
+    document.getElementById("modal").style.display = "none";
+});
+
+document.getElementById("save-btn")
+  .addEventListener('click', () => {
+
+  var modal = document.getElementById("modal").getElementsByClassName('input');
+  var url   = modal[0].url;
+
+  docLoad({url: host+url+"/index.json"})
+  .then(
+    function(response) {
+ 
+      var oldData          = JSON.parse(response);
+          oldData.arrdate  = modal[1].value ; 
+          oldData.eta      = modal[2].value ;
+          oldData.depdate  = modal[3].value ;
+          oldData.etd      = modal[4].value ;
+          oldData.duration = modal[5].value ;
+      
+      if (! url.includes("{{ .RelPermalink }}") ){
+        url = "{{ substr .RelPermalink 0 -1 }}" + url;
+      } 
+
+      var data = new Object;
+      data[1] = modal[0].innerText;
+      delete oldData.content;
+      delete oldData.permalink;
+      delete oldData.this;
+      data[0] = oldData;
+
+      saveModal(url,data);
+    }, 
+    function(Error) {
+      console.log(Error);
+    }
+  );
+});
+
 
 // allow drag and drop
 
@@ -278,39 +359,34 @@ function saveThis(){
     for(let j=0;j<items.length;j++) {
 
       var url = items[j].getAttributeNode("url").value;
+          urls.push(url);
+    };
 
-      urls.push(url);
-    }
     data.push({"day":i,'url':urls});
   }
-  writeData(data);
+
+  let css           = document.getElementById("message");
+      css.innerHTML = 'in progress';
+      css.classList.add('alert-info');
+
+  docLoad({
+    url:    'ajax', 
+    method: 'POST',
+    data:   JSON.stringify({ 
+      "file": {{ .RelPermalink }}, 
+      "data": data })
+    })
+    .then(
+
+    function(response) {
+      console.log(statusText);
+    }, 
+
+    function(Error) {
+      console.log(Error);
+    }
+  );
 };
-
-function writeData(data){
-
-  var xhr = new XMLHttpRequest();
-  const url='{{ getenv "APP" }}/ajax';
-  xhr.open('POST',url,true );
-  xhr.setRequestHeader("Content-Type", "application/json");
-
-  xhr.onreadystatechange = function () {
-    if (xhr.readyState === 4 && xhr.status === 200) {
-     console.log(xhr.responseText);
-   }
- };
-
- xhr.onerror = function (e) {
-  console.error(xhr.statusText);
-};
-
-var data = JSON.stringify({ "file": {{ .RelPermalink }}, "data": data });
-
-let css = document.getElementById("message");
-css.innerHTML = 'in progress';
-css.classList.add('alert-info');
-
-xhr.send(data);
-}
 
 
 function changeCity(){
@@ -332,18 +408,12 @@ function displayCity(url){
   var   newUrl = url.split("/");
   newUrl.pop();
   newUrl.pop();
-  
-  const path = host+(newUrl.join("/"))+"/index.json";
 
-  var xhr = new XMLHttpRequest();
-  xhr.open('get',path );
-  xhr.setRequestHeader("Content-Type", "application/json");
+  docLoad({url: host+(newUrl.join("/"))+"/index.json"}).then(
 
-  xhr.onreadystatechange = function () {
+    function(response) {
 
-    if (xhr.readyState === 4 && xhr.status === 200) {
-
-      const data   = JSON.parse(xhr.responseText);
+      const data   = JSON.parse(response);
       const cities = data.data.items;
 
       for(let i=0;i<cities.length;i++) {
@@ -352,29 +422,27 @@ function displayCity(url){
         }
       }
 
-      const img = 'url("'+host+url+citydata.image+'")'
+      const image = 'url("'+host+url+citydata.image+'")';
       
-      if (img){
-        document.getElementById("image").style["background-image"]=img;
+      if (image){
+        document.getElementById("image").style["background-image"]=image;
       }
       document.getElementById("info").innerHTML = citydata.content;
+    }, 
+
+    function(Error) {
+      console.log(Error);
     }
-  };
-  xhr.send()
-}
+  );
+};
 
 function displayHotels(city){
 
-  var xhr = new XMLHttpRequest();
-  var url=host+city+"hotels/index.json";
+  docLoad({url: host+city+"hotels/index.json"}).then(
 
-  xhr.open('get',url );
-  xhr.setRequestHeader("Content-Type", "application/json");
+    function(response){
 
-  xhr.onreadystatechange = function () {
-    if (xhr.readyState === 4 && xhr.status === 200) {
-
-      const data  = JSON.parse(xhr.responseText);
+      const data  = JSON.parse(response);
       const items = data.data.items;
       var   sel   = '<option value="">Select a hotel</option>';
 
@@ -388,26 +456,23 @@ function displayHotels(city){
       } else {
         document.getElementById("selectHotels").style.visibility = "hidden";
       }
+    }, 
+
+    function(Error) {
+      console.log(Error);
     }
-  };
-  xhr.send();
+  );
 };
 
 function displayExcursions(city){
 
-  var xhr = new XMLHttpRequest();
-  var url = host+city+"excursions/index.json";
+  docLoad({url: host+city+"excursions/index.json"}).then(
 
-  xhr.open('get',url );
-  xhr.setRequestHeader("Content-Type", "application/json");
-
-  xhr.onreadystatechange = function () {
-    if (xhr.readyState === 4 && xhr.status === 200) {
-      const nonl  = xhr.responseText.replace(/(\n)/gm,"");
-      var data    = JSON.parse(nonl);
-      //data.replace(/^/gm,"\n");
+    function(response) {
+      const nonl  = response.replace(/(\n)/gm,"");
+      var   data  = JSON.parse(nonl);
       const items = data.data.items;
-      var sel     = '<option value="">Select an excursion</option>';
+      var   sel   = '<option value="">Select an excursion</option>';
 
       if (items.length > 0) {
         for(let i=0;i<items.length;i++) {
@@ -419,9 +484,12 @@ function displayExcursions(city){
       } else {
         document.getElementById("selectExcursions").style.visibility = "hidden";
       }
+    }, 
+
+    function(Error) {
+      console.log(Error);
     }
-  };
-  xhr.send();
+  );
 };
 
 function addHotel(){
@@ -472,34 +540,35 @@ function changeExcursion(){
 }
 
 function processRequest(url){
-  var xhr = new XMLHttpRequest();
-  xhr.open('get',host+url+"index.json" );
-  xhr.setRequestHeader("Content-Type", "application/json");
 
-  xhr.onreadystatechange = function () {
-    if (xhr.readyState === 4 && xhr.status === 200) { 
+  docLoad({url: host+url+"/index.json"}).then(
 
-      var data    = JSON.parse(xhr.responseText);
+    function(response) {
+
+      var data    = JSON.parse(response);
       var content = data.data.content;  
-      content     = content.replace(/linebreak/gm,"")
+      content     = content.replace(/linebreak/gm,"");
 
       document.getElementById("info").innerHTML = content;
 
       if ( data.data.image != undefined){
         const image = 'url("'+host+url+(data.data.image)+'")';
         document.getElementById("image").style["background-image"] = image;
-      }
+      };
+    }, 
+
+    function(Error) {
+      console.log(Error);
     }
-  };
-  xhr.send();
+  );
 }
 
 function editItem(url){
 
   var icon;
-  var modal     =document.getElementById("modal-lodging");
-  var iconImg   =document.getElementById("modal-category");
-  var defaultBtn=document.getElementById("default-btn-lodging");
+  var modal     = document.getElementById("modal");
+  var iconImg   = document.getElementById("modal-category");
+  var defaultBtn= document.getElementById("default-btn");
 
   modal.style.display = "block";
 
@@ -521,7 +590,7 @@ function editItem(url){
     icon = "ferry";
   }
 
-  iconImg.innerHTML = '<i class="icon-'+icon+'"></i>"';
+  iconImg.innerHTML = '<i class="icon-'+icon+'"></i>';
 
   if (url.includes("{{ htmlUnescape .RelPermalink }}")){
     defaultBtn.style.display = "block"
@@ -529,118 +598,103 @@ function editItem(url){
     defaultBtn.style.display = "none"
   }
 
-  var xhr = new XMLHttpRequest();
-  xhr.open('get',host+url+"/index.json" );
-  xhr.setRequestHeader("Content-Type", "application/json");
-  xhr.onreadystatechange = function () {
-    if (xhr.readyState === 4 && xhr.status === 200) {
+  docLoad({url: host+url+"/index.json"})
 
-      const data  = JSON.parse(xhr.responseText);
+  .then(
+    function(response) {
+
+      const data  = JSON.parse(response);
       let content = data.content;  
       let modals  = modal.getElementsByClassName('input');
       let rows    = modal.getElementsByClassName('row');
 
-      modals[0].url   = url;
+      modals[0].url = url;
       modals[0].innerText = content.replace(/linebreak/gm,"");
       if (icon == "bed"){
         modals[1].value = data.arrdate;
         modals[2].value = data.eta;
-        modals[8].style.display = "none"; // duration
+        // arrival details row
+        rows[2].style.display = "flex";
+        // set label to check-out
+        rows[3].childNodes[1].childNodes[0].innerText = "Check-out"; 
+        // duration label 
+        rows[3].childNodes[9].style.display = "none"; 
+        // duration input
+        rows[3].childNodes[11].style.display = "none"; 
       } else {
-        rows[2].style.display = "none"; // arrival details
-        rows[3].childNodes[1].innerText = "Departure";
+        // arrival details row
+        rows[2].style.display = "none"; 
+        // change the label check-out to departure
+        rows[3].childNodes[1].childNodes[0].innerText = "Departure";
+        // duration label 
+        rows[3].childNodes[9].style.display = "block"; 
+         // duration input
+        rows[3].childNodes[11].style.display = "block"; 
         modals[5].value = data.duration;
       }
       modals[3].value = data.depdate;
       modals[4].value = data.etd;
+    }, 
+    function(Error) {
+      console.log(Error);
     }
-  };
+  );
+};
 
-  xhr.send();
-}
-
-document.getElementById("close-btn-lodging").addEventListener('click', () => {
-
-  document.getElementById("modal-lodging").style.display = "none";
-});
-
-document.getElementById("save-btn-lodging").addEventListener('click', () => {
-
-  var modal = document.getElementById("modal-lodging").getElementsByClassName('input');
-  var url   = modal[0].url;
-
-  var xhr = new XMLHttpRequest();
-  xhr.open('get',host+url+"/index.json" );
-  xhr.setRequestHeader("Content-Type", "application/json");
-
-  xhr.onreadystatechange = function () {
-    if (xhr.readyState === 4 && xhr.status === 200) {
-
-      var oldData = JSON.parse(xhr.responseText);
-      
-      oldData.arrdate  = modal[1].value ; 
-      oldData.eta      = modal[2].value ;
-      oldData.depdate  = modal[3].value ;
-      oldData.etd      = modal[4].value ;
-      oldData.duration = modal[5].value ;
-      
-      if (! url.includes("{{ .RelPermalink }}") ){
-        url = "{{ substr .RelPermalink 0 -1 }}" + url;
-      } 
-
-      var data = new Object;
-      data[1] = modal[0].innerText;
-      delete oldData.content;
-      delete oldData.permalink;
-      delete oldData.this;
-      data[0] = oldData;
-
-      saveModal(url,data);
-    }
-  };
-  xhr.send();
-});
 
 function saveModal(url, data){
-// {{ getenv "APP" }}
-var xhr = new XMLHttpRequest();
-xhr.open('POST','http://localhost:1314/edit', true );
-xhr.setRequestHeader("Content-Type", "application/json");
+  
+  var css           = document.getElementById("message");
+      css.innerHTML = 'Writing in progress';
+      css.classList.add('alert-info');
 
-xhr.onreadystatechange = function () {
-  if (xhr.readyState === 4 && xhr.status === 200) {
-   console.log(xhr.responseText);
- }
-};
-
-xhr.onerror = function (e) {
-  alert("There is an issue saving. Please contact the administrator.");
-};
-
-var data = JSON.stringify({ "file": url, "data": data });
-
-var css  = document.getElementById("message");
-css.innerHTML = 'Writing in progress';
-css.classList.add('alert-info');
-
-xhr.send(data);
+  docLoad({
+    url:   'edit',
+    method:'POST',
+    data:   JSON.stringify({ "file": url, "data": data })
+  })
+  .then(
+    function(response) {
+      console.log(response);
+  }, 
+  function(Error) {
+    console.log(Error);
+    alert("There is an issue saving. Please contact the administrator.");
+  });
 };
 
 
+function docLoad(object) {
 
-function getText() {
-  let element = document.querySelector('div[contenteditable]');
-  let firstTag = element.firstChild.nodeName;
-  let keyTag = new RegExp(
-    firstTag === '#text' ? '<br' : '</' + firstTag,
-    'i'
-    );
-  let tmp = document.createElement('p');
-  tmp.innerHTML = element.innerHTML
-  .replace(/<[^>]+>/g, (m, i) => (keyTag.test(m) ? '{ß®}' : ''))
-  .replace(/{ß®}$/, '');
-  return tmp.innerText.replace(/{ß®}/g, '\n');
+  return new Promise(function(resolve, reject) {
+
+    var host = ((object.method == 'POST')? 
+        {{- if (len (getenv "APP")) }}
+          {{ getenv "APP" }}
+        {{- else -}}
+        {{ .Site.Params.appHost }}
+        {{- end -}}
+         : "")+object.url;
+
+    var request = new XMLHttpRequest();
+        request.open(object.method || "GET", host);
+        request.setRequestHeader("Content-Type", "application/json");
+   
+    request.onload = function() {
+      if (request.status === 200) {
+        resolve(request.response);
+      } else {
+        reject(Error('Document requested did not load successfully; error code:' + request.statusText));
+      }
+    };
+
+    request.onerror = function() {
+        reject(Error('There was a network error.'));
+    };
+    request.send(JSON.stringify(object));
+  });
 }
+
 </script>
 
 {{- end }}

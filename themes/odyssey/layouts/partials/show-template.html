@@ -1,3 +1,6 @@
 <div class="template">
-  Template: <span>{{ .Template }}</span> - Kind: <span>{{ .Which }}</span> - ID: <span><b>{{ .ID }}</span>
+  Template: <span>{{ .Template }}</span> - 
+  Kind: <span>{{ .Which }}</span> - 
+  ID: <span>{{ .ID }}</span> - 
+  Environment: <span>{{ with .Environment }}{{.}}{{ else }}Not on Netlify{{end}}</span>
 </div>

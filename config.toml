@@ -1,6 +1,6 @@
 baseURL 				        = "/"
 title 					        = "Odyssey Tours"
-theme                   = ["odyssey"] # ,"hugo-module-img-srcset"]
+theme                   = ["odyssey","pdf"] # ,"hugo-module-img-srcset"]
 paginate 				        = "50"
 summaryLength 			    = "15"
 disqusShortname 		    = "" # get your shortname form here : https://disqus.com
@@ -25,6 +25,7 @@ disallow_search_engines = false
 logo                    = "/logo.gif"
 googleMapsAPIKey        = "AIzaSyD7brYWRgjb-1K4vXXGxSPukB1dXxwvK7o"
 dpoEmail                = "dpo@odyssey.co.in"
+appHost                 = "http://localhost:1314/"
 
 [params.csp] 
   childsrc = ["'self'"]

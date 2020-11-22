@@ -4,6 +4,7 @@ draft: false
 date: 2020-09-21T12:59:23+02:00
 translationKey: "dera-rawatsar"
 id: "hotel"
+type: hotels
 tags: ["Jaipur", "Hotels"] 
 rating: 4
 image: 4-rajasthan-jaipur-hotels-dera-rawatsar-courtyard-dining.jpg

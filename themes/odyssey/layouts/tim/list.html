@@ -9,112 +9,119 @@
     <div id="navbar">
       <div class="wrapper">
 
-      <button>
-        <i class="icon-plus"></i>New Trip
-      </button>
+        <button>
+          <i class="icon-plus"></i>New Trip
+        </button>
 
-      <ul>
-        <li id="trips-all-trips">
-          <span class="mouse">
-            <i class="icon-group"></i>
-            All Trips
-          </span>
-        </li>
-        <li id="trips-my-trips">
-          <span class="mouse">
-            <i class="icon-adult"></i> 
-            My Trips
-          </span>
-        </li>
-        <li id="trips-archived">
-          <span class="mouse">
-            <i class="icon-archive"></i>
-            Archived
-          </span>
-        </li>
-      </ul>
-      <h5>Filter by Type</h5>
-      <ul>
-        <li id="type-proposal">
-          <span class="mouse">
-            <i class="icon-folder-open-empty"></i>Proposal
-          </span>
-        </li>
-        <li id="type-itinerary">
-          <span class="mouse">
-            <i class="icon-folder-open-empty"></i> 
-            Itinerary
-          </span>
-        </li>
-      </ul>
-      <h5>Filter by Date</h5>
-      <ul>
-        <li id="date-upcoming">
-          <span class="mouse">
-            <i class="icon-forward"></i> 
-            Upcoming
-          </span>
-        </li>
-        <li id="date-in-progress">
-          <span class="mouse">
-            <i class="icon-spin3"></i> 
-            In progress
-          </span>
-        </li>
-        <li id="date-past">
-          <span class="mouse">
-            <i class="icon-archive"></i> 
-            Past
-          </span>
-        </li>
-      </ul>
-      <h5>Filter by Status</h5>
-      <ul>
-        <li id="status-quote">
-          <span class="mouse">
-            <i class="icon-hourglass"></i>
-            Quote
-          </span>
-        </li>
-        <li id="status-confirmed">
-          <span class="mouse">
-            <i class="icon-check"></i> 
-            Confirmed
-          </span>
-        </li>
-        <li id="status-paid">
-          <span class="mouse">
-            <i class="icon-rupee"></i>
-            Paid
-          </span>
-        </li>
-      </ul>
+        <ul>
+          <li id="trips-all-trips">
+            <span class="mouse">
+              <i class="icon-group"></i>
+              All Trips
+            </span>
+          </li>
+          <li id="trips-my-trips">
+            <span class="mouse">
+              <i class="icon-adult"></i> 
+              My Trips
+            </span>
+          </li>
+          <li id="trips-archived">
+            <span class="mouse">
+              <i class="icon-archive"></i>
+              Archived
+            </span>
+          </li>
+        </ul>
+        <h5>Filter by Type</h5>
+        <ul>
+          <li id="type-proposal">
+            <span class="mouse">
+              <i class="icon-folder-open-empty"></i>Proposal
+            </span>
+          </li>
+          <li id="type-itinerary">
+            <span class="mouse">
+              <i class="icon-folder-open-empty"></i> 
+              Itinerary
+            </span>
+          </li>
+        </ul>
+        <h5>Filter by Date</h5>
+        <ul>
+          <li id="date-upcoming">
+            <span class="mouse">
+              <i class="icon-forward"></i> 
+              Upcoming
+            </span>
+          </li>
+          <li id="date-in-progress">
+            <span class="mouse">
+              <i class="icon-spin3"></i> 
+              In progress
+            </span>
+          </li>
+          <li id="date-past">
+            <span class="mouse">
+              <i class="icon-archive"></i> 
+              Past
+            </span>
+          </li>
+        </ul>
+        <h5>Filter by Status</h5>
+        <ul>
+          <li id="status-quote">
+            <span class="mouse">
+              <i class="icon-hourglass"></i>
+              Quote
+            </span>
+          </li>
+          <li id="status-confirmed">
+            <span class="mouse">
+              <i class="icon-check"></i> 
+              Confirmed
+            </span>
+          </li>
+          <li id="status-paid">
+            <span class="mouse">
+              <i class="icon-rupee"></i>
+              Paid
+            </span>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
 
     <div id="listing">
-        <div class="row">
-          <div class="input-icons">
+      <div class="row alerts">
+    <div class="alert alert-success"></div>
+    <div class="alert alert-warning"></div>
+    <div class="alert alert-danger"></div>
+  </div>
+
+      <div class="row">
+        <div class="input-icons">
           <i class="icon-search"></i>
           <input class="input-field" type="text" list="datalist" placeholder="Search" onkeyup="ac(this.value)"> 
-            <datalist id="datalist"> 
-              {{- range (where (where .Site.Pages "Section" "tim") ".Params.id" "itinerary") }}
-              <option value="{{.RelPermalink}}">{{.Title}}</option> 
-              {{- end }}
-            </datalist> 
-          </div>
+          <datalist id="datalist"> 
+            {{- range (where (where .Site.Pages "Section" "tim") ".Params.id" "itinerary") }}
+            <option value="{{.RelPermalink}}">{{.Title}}</option> 
+            {{- end }}
+          </datalist> 
         </div>
+      </div>
 
-        <div class="table">
-          <div class="item-1"><b>Name</b></div>
-          <div class="item-2"><b>Trip name</b></div>
-          <div class="item-date"><b>Date</b></div>
-          <div class="item-date"><b>Action</b></div>
-          <div class="item-icon"></div>
-          <div class="item-icon"></div>
-          <div class="item-icon"></div>
-        </div>
-        <div class="wrapper">
+  
+      <div class="table">
+        <div class="item-1"><b>Name</b></div>
+        <div class="item-2"><b>Trip name</b></div>
+        <div class="item-date"><b>Date</b></div>
+        <div class="item-date"><b>Action</b></div>
+        <div class="item-icon"></div>
+        <div class="item-icon"></div>
+        <div class="item-icon"></div>
+      </div>
+      <div class="wrapper">
         {{- range $i,$e := (where (where .Site.Pages "Section" "tim") ".Params.id" "itinerary") }}
 
         <div class="booking {{if not (modBool $i 2)}}odd{{end}}" tabindex="-1" id="data-{{ $i }}" type="" >
@@ -160,11 +167,11 @@
             </div>
             <!-- field 9: stage (enquiry/proposal/itinerary -->
             <div class="hide">{{- cond (isset .Params "stage") .Params.stage "enquiry" -}}
-              </div>
+            </div>
             <!-- field 10: in progress-->
             <div class="hide">{{- if and (ge $now .Params.arrdate) (le now .Params.depdate) -}}1{{- end -}}
               {{- with .Params.depdate -}}
-                {{- if gt $now . -}}0{{- end -}}
+              {{- if gt $now . -}}0{{- end -}}
               {{- end -}} 
               {{- if gt .Params.arrdate $now -}}2{{- end -}}
             </div>
@@ -174,10 +181,10 @@
             <div class="hide">{{ .Params.status }}</div>
             <!-- field 13: consultant -->
             <div class="hide">{{ .Params.consultant }}</div>
+          </div>
         </div>
+        {{- end }}
       </div>
-      {{- end }}
-    </div>
     </div>
 
     <div id="sidebar">
@@ -210,118 +217,118 @@
       </div>
 
       <div class="row hidden">
-         <div id="permalink"></div>
-      </div>
+       <div id="permalink"></div>
+     </div>
 
-      <div class="row">
-        <div class="label">
-          <label for="name">Contact</label>
-        </div>
-        <div class="input">
-          <input name="name" id="name" placeholder="Contact person">
-        </div>
+     <div class="row">
+      <div class="label">
+        <label for="name">Contact</label>
       </div>
-
-      <div class="row">
-        <div class="label">
-          <label for="stage">Stage</label>
-        </div>
-        <div class="select">
-          <select id="stage" name="stage">
-            <option value="enquiry">Enquiry</option>
-            <option value="itinerary">Itinerary</option>
-            <option value="proposal">Proposal</option>
-          </select>
-        </div>
+      <div class="input">
+        <input name="name" id="name" placeholder="Contact person">
       </div>
-
-      <div class="row">
-        <div class="label">
-          <label for="status">Status</label>
-        </div>
-        <div class="select">
-          <select id="status" name="status">
-            <option ></option>
-            <option value="quote">Quote</option>
-            <option value="confirmed">Confirmed</option>
-            <option value="paid">Paid</option>
-          </select>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="label">
-          <label for="archived">Archived</label>
-        </div>
-        <div class="select">
-          <select name="archived" id="archived">
-            <option value="false">No</option>
-            <option value="true">Yes</option>
-          </select>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="label">
-          <label for="consultant">Consultant</label>
-        </div>
-        <div class="input">
-          <input name="consultant" id="consultant" placeholder="Consultant">
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="label">
-          <label for="arrdate">Arrival Date</label>
-        </div>
-        <div class="input">
-          <input name="arrdate" id="arrdate" placeholder="dd/mm/yyyy">
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="label">
-          <label for="depdate">Departure Date</label>
-        </div>
-        <div class="input">
-          <input name="depdate" id="depdate" placeholder="dd/mm/yyyy">
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="input" id="save"><button>Save</button>
-        </div>
-      </div>
-
     </div>
-  </section>
 
-  {{ end }}
-  {{ define "postscript" }}
+    <div class="row">
+      <div class="label">
+        <label for="stage">Stage</label>
+      </div>
+      <div class="select">
+        <select id="stage" name="stage">
+          <option value="enquiry">Enquiry</option>
+          <option value="itinerary">Itinerary</option>
+          <option value="proposal">Proposal</option>
+        </select>
+      </div>
+    </div>
 
-  <script>
-    /* search script */
-    var tags = [
+    <div class="row">
+      <div class="label">
+        <label for="status">Status</label>
+      </div>
+      <div class="select">
+        <select id="status" name="status">
+          <option ></option>
+          <option value="quote">Quote</option>
+          <option value="confirmed">Confirmed</option>
+          <option value="paid">Paid</option>
+        </select>
+      </div>
+    </div>
 
-    {{- range (where (where .Site.Pages "Section" "tim") ".Params.id" "itinerary") }}
-    "{{ .Title }}", 
-    {{- end }}
-    ];
+    <div class="row">
+      <div class="label">
+        <label for="archived">Archived</label>
+      </div>
+      <div class="select">
+        <select name="archived" id="archived">
+          <option value="false">No</option>
+          <option value="true">Yes</option>
+        </select>
+      </div>
+    </div>
 
-    var n= tags.length;     
-    var str = ("data-");
+    <div class="row">
+      <div class="label">
+        <label for="consultant">Consultant</label>
+      </div>
+      <div class="input">
+        <input name="consultant" id="consultant" placeholder="Consultant">
+      </div>
+    </div>
 
-    function ac(value) { 
-      document.getElementById('datalist').innerHTML = ''; 
-      l=value.length; 
+    <div class="row">
+      <div class="label">
+        <label for="arrdate">Arrival Date</label>
+      </div>
+      <div class="input">
+        <input name="arrdate" id="arrdate" placeholder="dd/mm/yyyy">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="label">
+        <label for="depdate">Departure Date</label>
+      </div>
+      <div class="input">
+        <input name="depdate" id="depdate" placeholder="dd/mm/yyyy">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="input" id="save"><button>Save</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+{{ end }}
+{{ define "postscript" }}
+
+<script>
+  /* search script */
+  var tags = [
+
+  {{- range (where (where .Site.Pages "Section" "tim") ".Params.id" "itinerary") }}
+  "{{ .Title }}", 
+  {{- end }}
+  ];
+
+  var n= tags.length;     
+  var str = ("data-");
+
+  function ac(value) { 
+    document.getElementById('datalist').innerHTML = ''; 
+    l=value.length; 
 
 
-      for (var i = 0; i<n; i++) { 
-        if(((tags[i].toLowerCase()).indexOf(value.toLowerCase()))>-1) 
-        { 
-          var node = document.createElement("option"); 
-          var val = document.createTextNode(tags[i]); 
-          node.appendChild(val); 
+    for (var i = 0; i<n; i++) { 
+      if(((tags[i].toLowerCase()).indexOf(value.toLowerCase()))>-1) 
+      { 
+        var node = document.createElement("option"); 
+        var val = document.createTextNode(tags[i]); 
+        node.appendChild(val); 
         // document.getElementById("datalist").appendChild(node); 
 
         var item = str.concat(i);
@@ -338,132 +345,17 @@
 
 <script>
 
-  document.getElementById("sidebar").style.width = "0";
   var userSelection = document.getElementsByClassName('booking');
 
   for(var i = 0; i < userSelection.length; i++) {
     (function(index) {
-      userSelection[index].addEventListener("click", function() {
+      userSelection[index].addEventListener("click", function(){
        openNav(index);
      })
     })(i);
   }
 
-  function openNav(index) {
-
-    document.getElementById("sidebar").style.width = "350px";
-    document.getElementById("navbar").style.display = "none";
-
-    const divs      = userSelection[index].getElementsByTagName('div')  
-    const permalink = divs[0].firstElementChild.firstElementChild.getAttribute("href") 
-
-    var xhr = new XMLHttpRequest();
-    const url="http://localhost:1313/tim/itineraries/index.json";
-    xhr.open('GET',url,true );
-    xhr.setRequestHeader("Content-Type", "application/json");
-
-    xhr.onreadystatechange = function () {
-      if (xhr.readyState === 4 && xhr.status === 200) {
-        const data  = JSON.parse(xhr.responseText);
-        const items = data.data.items
-
-        for(let i=0;i<items.length;i++) {
-          if (items[i].permalink == permalink ){
-            let myData = items[i]
-// console.table(myData)
-            document.getElementById("name").value       = myData.title
-            document.getElementById("arrdate").value    = myData.arrdate
-            document.getElementById("depdate").value    = myData.depdate
-            document.getElementById("stage").value      = myData.stage
-            document.getElementById("status").value     = myData.status
-            document.getElementById("archived").value   = myData.archived
-            document.getElementById("consultant").value = myData.consultant
-            document.getElementById("url").innerHTML    =  myData.permalink.split("/")[(myData.permalink.split("/")).length-2]
-            document.getElementById("permalink").innerHTML    =  myData.permalink
-          }
-        }
-      }
-    }
-    xhr.send()
-  };
-
-  document.getElementById("closebtn").addEventListener('click', () => {
-    document.getElementById("sidebar").style.width = "0";
-    document.getElementById("navbar").style.display = "block";
-  });
-
-  function capitalize(word) {
-    return word.charAt(0).toUpperCase() + word.slice(1)
-  }
-
-  
-
-  document.getElementById("edit").onclick = function() {
-    window.location.href =  "/tim/itineraries/"+document.getElementById("url").innerHTML 
-  }
-
-  document.getElementById("preview").onclick = function() {
-    const link = document.getElementById("permalink").innerText
-    const file = document.getElementById("url").innerText
-
-    var xhr = new XMLHttpRequest();
-    const url='http://localhost:1314/pdf';
-    xhr.open('POST',url,true );
-    xhr.setRequestHeader("Content-Type", "application/json");
-
-    xhr.onreadystatechange = function () {
-      if (xhr.readyState === 4 && xhr.status === 200) {
-         console.log(xhr.responseText);
-      }
-    };
-
-    var data = JSON.stringify({ "url": link, "filename": file });
-
-    xhr.send(data)
-
-    alert('PDF created');
-  }
-
-  document.getElementById("copy").onclick = function() {
-
-  }
-
-  document.getElementById("archive").onclick = function() {
-   document.getElementById("archived").value = true
-  }
-
-document.getElementById("save").onclick = function() {
-  const url = document.getElementById("url").innerHTML 
-  var data  = [];
-  
-  data.push({"name":document.getElementById("name").value})
-  data.push({"arrdate":document.getElementById("arrdate").value})
-  data.push({"depdate":document.getElementById("depdate").value})
-  data.push({"stage":document.getElementById("stage").value})
-  data.push({"status":document.getElementById("status").value})
-  data.push({"archived":document.getElementById("archived").value})
-  data.push({"consultant":document.getElementById("consultant").value})
-
-  xhr.onreadystatechange = function () {
-    if (xhr.readyState === 4 && xhr.status === 200) {
-       console.log(xhr.responseText);
-    }
-  };
-
-  xhr.onerror = function (e) {
-    console.error(xhr.statusText);
-  };
-
-  var data = JSON.stringify({ "file": {{ .RelPermalink }}, "data": data });
-
-  let css = document.getElementById("message");
-  css.innerHTML = 'in progress';
-  css.classList.add('alert-info');
-
-  xhr.send(data)
-}
-
-document.getElementById("trips-all-trips").addEventListener('click', () => {
+  document.getElementById("trips-all-trips").addEventListener('click', () => {
     var numTours = 0;
 
     row = document.querySelectorAll(".booking");
@@ -475,75 +367,229 @@ document.getElementById("trips-all-trips").addEventListener('click', () => {
     }
   });
 
-document.getElementById("trips-my-trips").onclick = function() {
-  display(13,"hans")
-}
+  document.getElementById("trips-my-trips").onclick = function() {
+    display(13,"hans")
+  }
 
-document.getElementById("trips-archived").onclick = function() {
-  display(11,"true")
-}
+  document.getElementById("trips-archived").onclick = function() {
+    display(11,"true")
+  }
 
-document.getElementById("type-proposal").onclick = function() {
-  display(9,"proposal")
-}
+  document.getElementById("type-proposal").onclick = function() {
+    display(9,"proposal")
+  }
 
-document.getElementById("type-itinerary").onclick = function() {
-  display(9,"itinerary")
-}
+  document.getElementById("type-itinerary").onclick = function() {
+    display(9,"itinerary")
+  }
 
-document.getElementById("status-quote").onclick = function() {
-  display(12,"quote")
-}
+  document.getElementById("status-quote").onclick = function() {
+    display(12,"quote")
+  }
 
-document.getElementById("status-confirmed").onclick = function() {
-  display(12,"confirmed")
-}
+  document.getElementById("status-confirmed").onclick = function() {
+    display(12,"confirmed")
+  }
 
-document.getElementById("status-paid").onclick = function() {
-  display(12,"paid")
-}
+  document.getElementById("status-paid").onclick = function() {
+    display(12,"paid")
+  }
 
-document.getElementById("date-upcoming").onclick = function() {
-  display(10,2)
-}
+  document.getElementById("date-upcoming").onclick = function() {
+    display(10,2)
+  }
 
-document.getElementById("date-in-progress").onclick = function() {
-  display(10,1)
-}
+  document.getElementById("date-in-progress").onclick = function() {
+    display(10,1)
+  }
 
-document.getElementById("date-past").onclick = function() {
-  display(10,0)
-}
+  document.getElementById("date-past").onclick = function() {
+    display(10,0)
+  }
+
+  document.getElementById("closebtn").addEventListener('click', () => {
+    document.getElementById("sidebar").style.display = "none";
+    document.getElementById("navbar").style.display  = "block";
+  });
+
+  document.getElementById("edit").onclick = function() {
+    window.location.href =  "/tim/itineraries/"
+    + document.getElementById("url").innerHTML 
+  }
+
+  document.getElementById("preview").onclick = function() {
+    const file = document.getElementById("url").innerText;
+    var data;
+
+    docLoad({url: url+"index.html"}).then(
+
+    function(response){
+      data = JSON.parse(response);
+    }, 
+
+    function(Error) {
+      console.log(Error);
+    });
+
+console.log("file ="+file);
+console.log("data = "+data);
 
 
+    docLoad({
+      url: 'pdf', 
+      method: 'POST',
+      data: JSON.stringify({
+        "file": file,
+        "data": "" })
+    })
+    .then(
+      function(response){
+        alert('PDF created');
+      }, 
 
+      function(Error) {
+        console.log(Error);
+        document.querySelector(".alert-warning").innerText = Error;
+      });
+  };
 
-function display(column,title){
+  document.getElementById("copy").onclick = function(){
 
-  var   numTours = 0;
-  const row = document.querySelectorAll(".booking");
+  };
 
-  for (i = 0; i < row.length; i++) {
-    var items = row[i].getElementsByTagName('div')  
-    console.table(items[column])
-    var status = items[column].innerText
-    if (status == title){
-      numTours += 1;
-      row[i].classList.add(isOdd(numTours))
-      row[i].style.display = "block"
-    } else {
-      row[i].style.display = "none"
+  document.getElementById("archive").onclick = function(){
+    document.getElementById("archived").value = true;
+  }
+
+  document.getElementById("save").onclick = function() {
+    const url = document.getElementById("url").innerHTML 
+    var data  = [];
+
+    data.push({"name":document.getElementById("name").value})
+    data.push({"arrdate":document.getElementById("arrdate").value})
+    data.push({"depdate":document.getElementById("depdate").value})
+    data.push({"stage":document.getElementById("stage").value})
+    data.push({"status":document.getElementById("status").value})
+    data.push({"archived":document.getElementById("archived").value})
+    data.push({"consultant":document.getElementById("consultant").value})
+
+    docLoad({
+      url:    'ajax',
+      method: 'POST',  
+      data: {
+        file: url,
+        data: data
+      } 
+    }).then(
+
+    function(response){
+
+    }, 
+
+    function(Error) {
+      alert(Error);
+      console.log(Error);
+    }
+
+    );
+  }
+
+  function display(column,title){
+
+    var   numTours = 0;
+    const row = document.querySelectorAll(".booking");
+
+    for (i = 0; i < row.length; i++) {
+      var items  = row[i].getElementsByTagName('div')  
+      var status = items[column].innerText
+      if (status == title){
+        numTours += 1;
+        row[i].classList.add(isOdd(numTours))
+        row[i].style.display = "block"
+      } else {
+        row[i].style.display = "none"
+      }
     }
   }
-}
 
-function isOdd(num) { 
-  if (num % 2) {
-    return "odd"
-  } else {
-    return "even"
+  function capitalize(word) {
+    return word.charAt(0).toUpperCase() + word.slice(1)
   }
-}
+
+  function isOdd(num) { 
+    if (num % 2) {
+      return "odd"
+    } else {
+      return "even"
+    }
+  }
+
+  function openNav(index) {
+
+    document.getElementById("sidebar").style.display = "block";
+    document.getElementById("sidebar").style.width = "350px;";
+    document.getElementById("navbar").style.display = "none";
+
+    const divs      = userSelection[index].getElementsByTagName('div')  
+    const permalink = divs[0].firstElementChild.firstElementChild.getAttribute("href") 
+
+    docLoad({url: "/tim/itineraries/index.json"}).then(
+      function(response){
+
+        const data  = JSON.parse(response);
+        const items = data.data.items
+
+        for(let i=0;i<items.length;i++) {
+          if (items[i].permalink == permalink ){
+            let myData = items[i]
+
+            document.getElementById("name").value       = myData.title
+            document.getElementById("arrdate").value    = myData.arrdate
+            document.getElementById("depdate").value    = myData.depdate
+            document.getElementById("stage").value      = myData.stage
+            document.getElementById("status").value     = myData.status
+            document.getElementById("archived").value   = myData.archived
+            document.getElementById("consultant").value = myData.consultant
+            document.getElementById("url").innerHTML    =  myData.permalink.split("/")[(myData.permalink.split("/")).length-2]
+            document.getElementById("permalink").innerHTML    =  myData.permalink
+          }
+        }
+      }, 
+      function(Error) {
+        console.log(Error);
+      });
+  };
+
+  function docLoad(object) {
+
+    return new Promise(function(resolve, reject) {
+
+      var host = ((object.method == 'POST')? 
+        {{- if (len (getenv "APP")) }}
+        {{ getenv "APP" }}
+        {{- else -}}
+        {{ .Site.Params.appHost }}
+        {{- end -}}
+        : "")+object.url;
+
+      var request = new XMLHttpRequest();
+      request.open(object.method || "GET", host);
+      request.setRequestHeader("Content-Type", "application/json");
+
+      request.onload = function() {
+        if (request.status === 200) {
+          resolve(request.response);
+        } else {
+          reject(Error('Document requested did not load successfully; error code:' + request.statusText));
+        }
+      };
+
+      request.onerror = function() {
+        reject(Error('There was a network error.'));
+      };
+      request.send(JSON.stringify(object));
+    });
+  }
 
 </script>
 

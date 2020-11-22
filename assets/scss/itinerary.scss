@@ -40,13 +40,15 @@ i,select {
   display:inline-block;
 }
 .hr-text {
-  line-height: 1em;
+  line-height: 2em;
   position: relative;
   outline: 0;
   border: 0;
-  color: lightgray;
-  text-align: left;
-  height: 1.5em;
+  color: black;
+  text-align: center;
+  height: 2em;
+  opacity: .5;
+  font-size: 1.4em;
   &:before {
     content: '';
     // use the linear-gradient for the fading effect
@@ -165,7 +167,7 @@ button.save {
 .dossier {
   justify-content: space-between;
   align-items: center;
-  margin: 0 20px 10px 20px;
+  margin: 0 0px 10px 0px;
 }
 .task-list {
   min-height: 3rem;
@@ -296,7 +298,7 @@ input {
 }
 
 /* Modal Content/Box */
-#modal-lodging {
+#modal {
   margin: 0px 20px 0px 20px;
   width: 100%;
 
@@ -348,7 +350,11 @@ input {
       }
     }
     label {
-      margin-bottom: 0;
+      margin: 0;
+      padding: 0;
+      .label {
+      width: 100px;
+      }
     }
     input {
       border: solid 1px lightgray;
@@ -357,7 +363,7 @@ input {
 
     [class^="icon-"] {
       border-radius: 0;
-      color: black;
+      color: white;
     }
     button {
       padding: 0 20px 0 10px;

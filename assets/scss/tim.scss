@@ -112,6 +112,9 @@
 		/* the booking listing */
 		.wrapper {
 			background-color: #dae5f4;
+			&:hover{
+			cursor:pointer;
+			}
 		}
 		.table {
 			display: flex;
@@ -154,7 +157,7 @@
 	#sidebar {
 		
 		height: 100%;
-		width: 0;
+		display: none;
 		z-index: 1;
 		overflow-x: hidden;
 		transition: 0.5s;

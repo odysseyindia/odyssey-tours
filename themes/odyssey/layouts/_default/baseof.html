@@ -19,7 +19,7 @@
 
         {{- if ne (getenv "HUGO_ENV") "production" -}}
         {{- with .Scratch.Get "layout" }}
-			{{- partial "show-template" (dict "Which" $.Kind "Template" . "ID" $id ) -}}
+			{{- partial "show-template" (dict "Which" $.Kind "Template" . "ID" $id "Environment" (getenv "HUGO_ENV")) -}}
         {{- end }}
 		{{- end }}
     </body>
