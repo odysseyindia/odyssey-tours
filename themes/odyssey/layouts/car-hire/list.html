@@ -1,0 +1,34 @@
+{{- define "main" }}
+{{- .Scratch.Set "layout" "layouts/car-hire/list.html" -}}
+
+<section id="{{ .Scratch.Get "id" | lower }}"> 
+  {{ partial "heading.html" . }}
+  <div class="container">
+    <div class="row">
+      <div class="content mx-auto w-50 p-3">
+        {{ .Content }}
+
+      </div>
+    </div>
+
+   <div class="bg">
+    <div class="card-deck">
+      {{- range .Data.Pages  -}}
+      <div class="card-holder">
+        <div class="card">
+          <div class="card-header">
+            {{ $.Scratch.Set "test" .Params.translationKey}}
+           {{- range  ( where .Site.RegularPages "Section" "cars")  }}
+{{ if eq .Params.translationKey ($.Scratch.Get "test") }}
+              <img src="{{ printf "%s%s%s%s%s" "/cars/" .Params.translationKey "/" .Params.translationKey ".jpg" }}" alt="{{ printf "%s%s%s%s%s" "/cars/" .Params.translationKey "/" .Params.translationKey ".jpg" }}"><br>
+            {{ end }}
+{{end}}
+          </div>
+          {{- partial "card-body"   . }}
+        </div>
+      </div>   
+      {{- end }}
+    </div>
+  </div>
+</section>
+{{- end }}

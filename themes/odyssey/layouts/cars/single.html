@@ -1,8 +1,9 @@
 {{ define "main" }}
-{{ .Scratch.Set "layout" "layouts/_default/single.html" -}}
+{{ .Scratch.Set "layout" "layouts/cars/single.html" -}}
 
 {{- $image := cond (isset .Params "image") ( .Params.image ) (.CurrentSection.Params.image) }}
         
+
 <section id="{{ .Scratch.Get "id" | lower }}"> 
   {{ partial "heading.html" . }}
   <div class="container">
@@ -11,7 +12,12 @@
         {{ .Content }}      
         <img class="lazyload" data-src="{{ printf "%s/%s%s" .RelPermalink .Params.translationKey ".jpg" }}" alt="{{ .Title }}" sizes="(min-width: 35em) 150px, 10vw" data-srcset="{{ printf "%s/%s%s" .RelPermalink .Params.translationKey ".jpg"}} 150w"> 
       </div>
+       <div class="mx-auto w-50 p-1">
+       Max {{ .Params.people }} passengers
+      </div>
     </div>
   </div>
 </section>
+
+
 {{ end }}

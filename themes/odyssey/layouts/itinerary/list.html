@@ -111,6 +111,15 @@
           </div>
         </div>
 
+        <div class="select-flex">
+          <div class="custom-select" id="selectCars">
+            <label for="cars">Cars</label>
+            <select class="maxwidth" id="cars" name="cars">
+            </select>
+            <i class="select icon icon-cab"  onclick="addCar()"></i>
+          </div>
+        </div>
+
         <div id="image"></div>
         <div id="info"></div>
 
@@ -244,6 +253,9 @@ document.getElementById("hotels")
 
 document.getElementById("excursions")
   .addEventListener("change", changeExcursion);
+
+document.getElementById("cars")
+  .addEventListener("change", changeCar);
 
 document.addEventListener('DOMContentLoaded', (event) => {
   draggable();
@@ -398,6 +410,7 @@ function changeCity(){
     displayCity(city);
     displayHotels(city);
     displayExcursions(city);
+    displayCars(city);
   }
 };
 
@@ -492,6 +505,36 @@ function displayExcursions(city){
   );
 };
 
+function displayCars(city){
+
+console.log(host+city+"car-hire/index.json");
+
+  docLoad({url: host+city+"car-hire/index.json"}).then(
+
+    function(response) {
+      const nonl  = response.replace(/(\n)/gm,"");
+      var   data  = JSON.parse(nonl);
+      const items = data.data.items;
+      var   sel   = '<option value="">Select a car</option>';
+
+      if (items.length > 0) {
+        for(let i=0;i<items.length;i++) {
+          sel += "<option value='"+items[i].permalink+"'>"+items[i].title+"</option>"
+        }
+
+        document.getElementById("selectCars").style.visibility = "visible"; 
+        document.getElementById("cars").innerHTML = sel;
+      } else {
+        document.getElementById("selectCars").style.visibility = "hidden";
+      }
+    }, 
+
+    function(Error) {
+      console.log(Error);
+    }
+  );
+};
+
 function addHotel(){
 
   const source = document.querySelector("#hotels");
@@ -520,6 +563,20 @@ function addExcursion(){
   }
 };
 
+function addCar(){
+
+  const source    = document.querySelector("#cars")
+  const i         = source.selectedIndex;
+  const url       = source[i].value ;
+  const excursion = source[i].innerHTML;
+  const html      = '<div class="draggable" draggable="true" url="' + url + '"><i class="icon-cab"></i>&nbsp;' + excursion + '</div>'
+
+  if (i) {
+    document.getElementById("workspace").innerHTML += html;
+    draggable();
+  }
+};
+
 function emptyTrash(){
   var trash = document.getElementById("trash");
   trash.innerHTML = "";
@@ -534,6 +591,13 @@ function changeHotel(){
 
 function changeExcursion(){
   const source = document.querySelector("#excursions");
+  const url    = source[source.selectedIndex].value ;
+
+  processRequest(url);
+}
+
+function changeCar(){
+  const source = document.querySelector("#cars");
   const url    = source[source.selectedIndex].value ;
 
   processRequest(url);

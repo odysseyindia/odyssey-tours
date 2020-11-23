@@ -1,5 +1,5 @@
 {{- define "main" }}
-{{- .Scratch.Set "layout" "layouts/_default/list.html" -}}
+{{- .Scratch.Set "layout" "layouts/cars/list.html" -}}
 
 <section id="{{ .Scratch.Get "id" | lower }}"> 
   {{ partial "heading.html" . }}
