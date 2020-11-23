@@ -1,0 +1,39 @@
+{{- define "main" }}
+{{- .Scratch.Set "layout" "layouts/_default/list.html" -}}
+
+<section id="{{ .Scratch.Get "id" | lower }}"> 
+  {{ partial "heading.html" . }}
+  <div class="container">
+    <div class="row">
+      <div class="content mx-auto w-50 p-3">
+        {{ .Content }}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="child1"><h3>Name</h3></div>
+      <div class="child2"><h3>Description</h3></div>
+      <div class="child3"><h3>People</h3></div> 
+      <div class="child4"><h3>Category</h3></div> 
+    </div>
+
+    {{- range .Data.Pages }}
+    <div class="row">
+      <div class="child1">
+        <h3 class="title">
+          <a href="{{ .Permalink }}">
+            <img class="lazyload" data-src="{{ printf "%s/%s%s" .RelPermalink .Params.translationKey ".jpg" }}" alt="{{ .Title }}" sizes="(min-width: 35em) 150px, 10vw" data-srcset="{{ printf "%s/%s%s" .RelPermalink .Params.translationKey ".jpg"}} 150w"> 
+          </a>
+        </h3>
+      </div>
+      <div class="child2">
+        <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+        <span itemprop="description">{{ .Summary }}</span>
+      </div>
+      <div class="child3">{{ .Params.people }}</div> 
+      <div class="child4">{{ .Params.category }}</div> 
+    </div>
+    {{- end }}
+  </div>
+</section>
+{{- end }}

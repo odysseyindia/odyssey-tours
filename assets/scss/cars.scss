@@ -1,0 +1,30 @@
+#cars {
+	
+	.row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: auto;
+	margin-bottom: 20px;
+	border-bottom: solid 1px lightgray;
+	padding-bottom: 10px;
+	}
+}
+.child1 {
+	width: 150px;
+	align-self: stretch;
+}
+.child2 {
+	width: 40%;
+	align-self: stretch;
+}
+.child3, .child4 {
+	width: 10%;
+	text-align: center;
+	align-self: stretch;
+}
+
+img {
+	width: 150px;
+}

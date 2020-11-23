@@ -2,7 +2,7 @@
 title: Alfred Tuinman
 tour: Delhi Agra Jaipur
 id: itinerary
-type: pdf
+type: itinerary
 arrdate: 2021-03-03T14:15:59-06:00
 depdate:
 status: quote
