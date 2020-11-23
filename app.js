@@ -54,6 +54,21 @@ res.end();
 });
 
 
+app.post('/copy',function (req, res) {
+
+  var request = JSON.parse(req.body.data);
+  var from    = dir + "/tim/itineraries/" +request.from;
+  var to      = dir + "/tim/itineraries/" +request.to;
+  var copydir = require('copy-dir');
+ 
+  copydir(from, to, {utimes:false, mode:true, cover:false
+  }, function(err){
+    if(err) throw err;
+    console.log('done');
+  });
+});
+
+
 app.post('/save',function (req, res) {
 
   var request = JSON.parse(req.body.data);
@@ -106,43 +121,23 @@ app.post('/edit',function (req, res) {
       console.log('No need to create directories')  
     } else {
      console.log('Created directories')
-   }}
-   );
+   }
+ });
 
   let output = `---\n` + yaml.safeDump(request.data[0]) + "---\n" + request.data[1]
 
   try {
-  	fs.writeFileSync(path, output, 'utf8', (err) => {       
+   fs.writeFileSync(path, output, 'utf8', (err) => {       
      if (err) throw err; 
      console.log("File written successfully"); 
    });
-  } catch(err) { 
-    console.error(err); 
-  };
+ } catch(err) { 
+  console.error(err); 
+};
 
-  res.end();
+res.end();
 });
 
-
-app.post('/pdf',function (req, res) {
-
-  var request = JSON.parse(req.body.data);
-  var pdf     = require('html-pdf');
-  
-  try {
-    const content = fs.readFileSync(request.file, 'utf8', (err) => {
-      if (err) throw err; 
-    }) 
-  } catch (error) {
-    console.log('Route /pdf reading: ' + error.message);
-    return res;
-  };
-
-  pdf.create(content, { format: 'A4' }).toFile(request.file + '.pdf', function(err, res) {
-    if (err) return console.log(err);
-    console.log(res); 
-  });
-});
 
 app.get('/', function(req, res){ 
   res.send({ title: 'Welcome to Odyssey Tours',test:'Success, the server is running' }); 

@@ -1,5 +1,11 @@
 #tim {
 
+.alert {
+  padding: 0;
+}
+.row.alerts{
+  display: none;
+}
 	.nowrap {
 		flex-wrap: nowrap;
 		align-items:stretch;	
@@ -89,7 +95,7 @@
 
 		.input-icons { 
 			width: 100%; 
-			margin: 20px;
+			margin: 0 20px 20px 20px;
 		} 
 
 		.icon-search { 
@@ -247,4 +253,97 @@
 			box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.6);
 		}
 	}
+
+	 /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+}
+
+/* Modal Content/Box */
+#modal {
+  margin: 0px 20px 0px 20px;
+  width: 100%;
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* % from the top and centered */
+    padding: 20px;
+    width: 30%; /* Could be more or less, depending on screen size */
+    height: 40%;
+
+    #modelContent {
+      padding:20px;
+      border: 1px solid lightgray;
+    }
+  }
+
+  .input.content {
+    width: 50%;
+    border: solid 1px lightgray;
+    min-height: 50px;
+  }
+
+  .close-btn{
+     background-color: #fefefe;
+  }
+
+
+  /* The Close Button */
+  .close-btn > i {
+    color: red;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close-btn:hover,
+  .close-btn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  } 
+
+  .icon-docs {
+  color: darkred;
+  }
+    .row {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+      align-items: center;
+      margin-bottom: 20px;
+      &.buttons {
+        margin-top: 30px;
+      }
+    }
+
+    button {
+      padding: 0 20px 0 10px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    }
+    
+    button.save {
+      background-color: red;
+    }
+    .cancel {
+      width: 100%;
+      text-align: right;
+    }
+    .icon-cancel {
+        color: $body;
+        font-size: 1.5rem;
+        cursor: pointer;
+      }
+  }
+
 }

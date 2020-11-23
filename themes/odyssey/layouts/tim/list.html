@@ -201,7 +201,7 @@
           <i class="icon-file-pdf" id="preview"></i><br>Preview
         </div>
         <div >
-          <i class="icon-copyright" id="copy"></i><br>Copy
+          <i class="icon-docs" id="copy"></i><br>Copy
         </div>
         <div >
           <i class="icon-archive" id="archive"></i><br>Archive
@@ -299,8 +299,35 @@
       <div class="input" id="save"><button>Save</button>
       </div>
     </div>
-
   </div>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <div class="container">
+        <div class="row">
+          <div><i class="icon-docs"></i></div>
+          <div class="cancel" id="close-modal-btn">
+            <i class="icon-cancel"></i>
+          </div>
+        </div>
+        <div id="content">
+          <div><label for="copyto"></label>
+          </div>
+          <div><input type="text" name="copyto" required>
+          </div>
+        </div>
+        <div class="row buttons">
+          <div>
+            <button class="save" id=save-modal-btn>
+            <i class="icon-floppy"></i>
+              Save
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+
 </section>
 
 {{ end }}
@@ -419,42 +446,15 @@
 
   document.getElementById("preview").onclick = function() {
     const file = document.getElementById("url").innerText;
-    var data;
-
-    docLoad({url: url+"index.html"}).then(
-
-    function(response){
-      data = JSON.parse(response);
-    }, 
-
-    function(Error) {
-      console.log(Error);
-    });
-
-console.log("file ="+file);
-console.log("data = "+data);
-
-
-    docLoad({
-      url: 'pdf', 
-      method: 'POST',
-      data: JSON.stringify({
-        "file": file,
-        "data": "" })
-    })
-    .then(
-      function(response){
-        alert('PDF created');
-      }, 
-
-      function(Error) {
-        console.log(Error);
-        document.querySelector(".alert-warning").innerText = Error;
-      });
+    window.open("{{ .Permalink }}/itineraries/"+file);
   };
 
   document.getElementById("copy").onclick = function(){
+    document.getElementById("modal").style.display = "block"
+;
+    var url = document.getElementById("url").innerText;
 
+    document.getElementById("content").children[2].firstChild.innerHTML = "Copy <b>"+url+"</b> to ";
   };
 
   document.getElementById("archive").onclick = function(){
@@ -477,10 +477,11 @@ console.log("data = "+data);
       url:    'ajax',
       method: 'POST',  
       data: {
-        file: url,
-        data: data
+        "file": url,
+        "data": data
       } 
-    }).then(
+    })
+    .then(
 
     function(response){
 
@@ -489,10 +490,41 @@ console.log("data = "+data);
     function(Error) {
       alert(Error);
       console.log(Error);
-    }
-
-    );
+    });
   }
+
+document.getElementById("close-modal-btn")
+  .addEventListener('click', () => {
+    document.getElementById("modal").style.display = "none";
+});
+
+document.getElementById("save-modal-btn")
+  .addEventListener('click', () => {
+
+  document.getElementById("modal").style.display = "none";
+var from = document.getElementById("url").innerText;
+var to   = document.getElementById("content").children[3].children[0].value;
+
+docLoad({
+      url:    'copy',
+      method: 'POST',  
+      data: JSON.stringify({
+        "from": from,
+        "to": to
+      })
+    })
+    .then(
+
+    function(response){
+      alert("Copied "+from+" to "+to);
+    }, 
+
+    function(Error) {
+      alert(Error);
+      console.log(Error);
+    });
+
+});
 
   function display(column,title){
 
