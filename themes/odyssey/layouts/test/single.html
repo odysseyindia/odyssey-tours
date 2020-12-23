@@ -8,24 +8,22 @@
  
 </style>
 
-<button onclick="testThis()">Save</button>
+<h2>Without index.md</h2>
+{{- $url := "/states/rajasthan/cities/jaipur/excursions/amber-fort-sightseeing/" }}
+fileExists: &nbsp; {{- fileExists $url }}<br>
+Title using GetPage: &nbsp; {{ with .Site.GetPage $url }}{{ .Title }}{{ end }}<br>
 
-<div id="info"></div>
+{{- $urlmd := printf "%s%s" $url "index.md" }}
+
+<h2>with index.md</h2>
+fileExists: &nbsp; {{- fileExists $urlmd }}<br>
+Title using GetPage: &nbsp; {{ with .Site.GetPage $urlmd }}{{ .Title }}{{ end }}<br>
 
 {{ end}}
 {{- define "postscript" }}
 
 <script>
-function testThis(path){
- let phrase
-  if (true) {
-  phrase = "Hello!";
 
-  alert(phrase+" 1"); // Hello!
-}
-
-alert(phrase+" 2"); // Error, no such variable!
-}
 </script>
 
 {{- end }}

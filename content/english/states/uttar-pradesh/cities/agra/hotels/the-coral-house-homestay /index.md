@@ -1,5 +1,5 @@
 ---
-title: "The Coral House Homestay "
+title: "The Coral House Homestay"
 draft: false
 date: 2020-09-21T12:59:23+02:00
 translationKey: "the-coral-house-homestay"

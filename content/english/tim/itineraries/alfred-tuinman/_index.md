@@ -1,23 +1,59 @@
----
-title: Alfred Tuinman
-tour: Delhi Agra Jaipur
+--- 
 id: itinerary
-type: itinerary
-arrdate: 2021-03-03T14:15:59-06:00
-depdate:
-status: quote
-draft: false
-stage: itinerary
-consultant: hans
-itinerary:
+itinerary: 
   - day: 0
-    url:
-      - /states/uttar-pradesh/cities/agra/excursions/early-morning-taj-mahal
-      - /states/uttar-pradesh/cities/agra/hotels/hotel-mansingh-palace
+    item: 
+      - type: excursion
+        url: /states/uttar-pradesh/cities/agra/excursions/early-morning-taj-mahal/
+        date: 24/07/1960
+        etd: 16:00
+        duration: 03:00
+        content:
+        note:
+      - type: hotel 
+        checkInDate: 
+        checkInTime: 
+        checkOutDate: 
+        checkOutTime: 
+        url: /states/uttar-pradesh/cities/agra/hotels/the-coral-tree-homestay/
+        content:
+        note:
   - day: 1
-    url:
-      - /states/rajasthan/cities/jaipur/hotels/dera-rawatsar
-      - /states/rajasthan/cities/jaipur/excursions/amber-fort-sightseeing
-
+    item:  
+      - type: excursion
+        url: /states/rajasthan/cities/jaipur/excursions/amber-fort-sightseeing/
+        date: 24/07/1960
+        etd: 16:00
+        duration: 03:00
+        content:
+        note:
+      - type: hotel
+        checkInDate: 
+        checkInTime: 
+        checkOutDate: 
+        checkOutTime: 
+        url: /states/rajasthan/cities/jaipur/hotels/dera-rawatsar/
+        content:
+        note:
+      - type: flight
+        url: /states/uttar-pradesh/cities/agra/airports/agr/
+        date:
+        etd:
+        duration:
+        content:
+        note:
+  - day: 2
+    item:
+      - type: hotel 
+        checkInDate: 
+        checkInTime: 
+        checkOutDate: 
+        checkOutTime: 
+        url: /states/uttar-pradesh/cities/agra/hotels/the-oberoi-amarvilas/
+        content:
+        note:
+title: "Alfred Tuinman"
+tour: "Delhi Agra Jaipur"
+type: itinerary
 ---
 Notes about this booking

@@ -1,6 +1,5 @@
-
 {
-  "this":           "hotel.json.son",
+  "this":           "hotel.json.json",
   "title": 			    "{{ .Title }}",
   "date": 			    "{{ .Date }}",
   "permalink":	    "{{ .RelPermalink }}",

@@ -2,9 +2,10 @@
 title: "The Coral Tree Homestay"
 draft: false
 date: 2020-09-21T12:59:23+02:00
-translationKey: "The Coral Tree Homestay"
+translationKey: "the-coral-tree-homestay"
 id: "hotel"
 layout: "hotel"
+image:  1-uttar-pradesh-agra-hotels-coral-tree-homestay-facade.jpg
 tags: ["Agra", "Hotels"] 
 
 carousel:

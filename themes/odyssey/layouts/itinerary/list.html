@@ -14,45 +14,44 @@
 
   <div class="main-container">
     <div class="row dossier">
-    <div>Dossier: {{ .RelPermalink }}</div>
-    <div>
-      <button class="save" onclick="saveThis()">
-        <i class="icon-floppy"></i>Save
-      </button>
+      <div>Dossier: {{ .RelPermalink }}</div>
+      <div>
+        <button class="save" onclick="saveItinerary()">
+          <i class="icon-floppy"></i>Save
+        </button>
+      </div>
     </div>
-  </div>
 
     <div class="columns">
 
-      <div id="itinerary">
+      <div id="myItinerary">
         {{- range $index,$e := .Params.itinerary }}
-        <hr class="hr-text">
+        <hr class="hr-text" data-content="Day {{add $index 1 }}">
         <div class="containers">
-          {{- range .url }}
+          {{- range .item }}
 
-          {{- $myUrl := printf "%s%s" (substr $.RelPermalink 0 -1) . }}<br>
-          {{- $url := (cond (fileExists $myUrl) $myUrl . )}}
+          <div class="draggable" draggable="true" url="{{ .url }}">
 
-          <div class="draggable" draggable="true" url="{{ $url }}">
-            {{- with $.Site.GetPage "page" . }}
             <div>
-              {{- if in .RelPermalink "excursions"}}
+              {{- if (eq .type "excursion") }}
               <i class="icon-camera"></i>
-              {{- else if in .RelPermalink "hotels"}}
+              {{- else if (eq .type "hotel") }}
               <i class="icon-bed"></i>
-              {{- else if in .RelPermalink "flights"}}
+              {{- else if (eq .type "flight") }}
               <i class="icon-flight"></i>
-              {{- else if in .RelPermalink "ferries"}}
+              {{- else if (eq .type "ferry") }}
               <i class="icon-ferry"></i>
-              {{- else if in .RelPermalink "hotels"}}
+              {{- else if (eq .type "train") }}
               <i class="icon-train"></i>
-              {{- else if in .RelPermalink "cars"}}
+              {{- else if (eq .type "car-hire") }}
               <i class="icon-cab"></i>
               {{- end }}
             </div>
             <div class="program">
               <div>
-                <h4>{{ .Title }}, {{ path.Base .Parent.Parent.RelPermalink | humanize }}</h4>
+                {{- $url :=  printf "%s%s" .url "index.md" }}
+                {{- $content := .mycontent | default "" }}
+                <h4>{{- with $.Site.GetPage (string $url) }}{{ .Title }}, </h4>
               </div>
               <div class="content">
                 <div class="image">
@@ -62,14 +61,93 @@
                   data-src="{{ .RelPermalink }}{{ .Params.image }}" alt="{{ .Title }}">
                 </div>
                 <div class="mr-10 content-text">
-                  {{ .Content }}
-                </div>
+                  {{ cond (gt (len $content) 0) $content .Content }}
+                {{ end }}
+                  {{- if (eq .type "excursion") }}
+                  <div class="details">
+                    <div>
+                      Date {{ .date }}
+                    </div>
+                    <div>
+                      ETD {{ .etd }}
+                    </div>
+                    <div>
+                      Duration {{ .duration }}
+                    </div>
+                  </div>
+                  {{- else if (eq .type "hotel") }}
+                  <div class="details">
+                    <div>
+                      Check-in {{ .checkInDate }}
+                    </div>
+                    <div>
+                      ETA {{ .checkInTime }}
+                    </div>
+                    <div>
+                      Check-out {{ .checkOutDate }}
+                    </div>
+                    <div>
+                      ETD {{ .checkOutTime }}
+                    </div>
+                  </div>
+                  {{- else if (eq .type "flight") }}
+                  <div class="details">
+                    <div>
+                      Date {{ .date }}
+                    </div>
+                    <div>
+                      Flight No {{ .flightNumber }}
+                    </div>
+                    <div>
+                      From {{ .from }}
+                    </div>
+                    <div>
+                      To {{ .to }}
+                    </div>
+                    <div>
+                      ETD {{ .etd }}
+                    </div>
+                    <div>
+                      ETA {{ .eta }}
+                    </div>
+                  </div>
+                  {{- else if (eq .type "train") }}
+                  <div class="details">
+                    <div>
+                      Date {{ .date }}
+                    </div>
+                    <div>
+                      Flight No {{ .trainNumber }}
+                    </div>
+                    <div>
+                      From {{ .from }}
+                    </div>
+                    <div>
+                      To {{ .to }}
+                    </div>
+                    <div>
+                      ETD {{ .etd }}
+                    </div>
+                    <div>
+                      ETA {{ .eta }}
+                    </div>
+                  </div>
+                  {{- else if (eq .type "car-hire") }}
+                  <div class="details">
+                    <div>
+                      From {{ .city }}
+                    </div>
+                    <div>
+                      Days {{ .duration }} 
+                    </div>
+                  </div>
+                  {{- end }}  
+                </div>            
               </div>
             </div>
             <div class="editButton">
               <i class="icon-edit-alt"></i>
             </div>
-            {{- end }}
           </div>
           {{- end }}
         </div>
@@ -80,7 +158,7 @@
         <div class="column-header">
           <h4><i class="icon-search"></i>Search</h4>
         </div>
-        
+
         <div  class="select-flex">
           <div class="custom-select">
             <label for="cities">City</label>
@@ -112,11 +190,37 @@
         </div>
 
         <div class="select-flex">
+          <div class="custom-select" id="selectCarHire">
+            <label for="carhire">Car hire</label>
+            <select class="maxwidth" id="carhire" name="carhire">
+            </select>
+          </div>
+        </div>
+
+        <div class="select-flex">
           <div class="custom-select" id="selectCars">
             <label for="cars">Cars</label>
             <select class="maxwidth" id="cars" name="cars">
             </select>
             <i class="select icon icon-cab"  onclick="addCar()"></i>
+          </div>
+        </div>
+
+        <div class="select-flex">
+          <div class="custom-select" id="selectFlights">
+            <label for="flights">Flights</label>
+            <select class="maxwidth" id="flights" name="flights">
+            </select>
+            <i class="select icon icon-flight"  onclick="addFlight()"></i>
+          </div>
+        </div>
+
+        <div class="select-flex">
+          <div class="custom-select" id="selectTrains">
+            <label for="trains">Trains</label>
+            <select class="maxwidth" id="trains" name="trains">
+            </select>
+            <i class="select icon icon-train"  onclick="addTrain()"></i>
           </div>
         </div>
 
@@ -141,12 +245,12 @@
     </div>
   </div>
 
-  <div id="modal" class="modal">
+  <div id="modal-accommodation" class="modal">
     <div class="modal-content">
       <div class="container">
         <div class="row">
-          <div id="modal-category"></div>
-          <div class="cancel" id="close-btn">
+          <div id="modal-category-accommodation"></div>
+          <div class="cancel close-modal-btn">
             <i class="icon-cancel"></i>
           </div>
         </div>
@@ -154,54 +258,113 @@
           <div class="input content" contenteditable="true">
           </div>
         </div>
-        <div class="row">
-          <div>
-            <label for="check-in-date" class="label">
-              Check-in
-            </label>
-          </div>
-          <div>
-            <input type="date" name="check-in-date"  placeholder="dd/mm/yyyy" class="input">
-          </div>
-          <div>
-            <label for="check-in-time">ETA</label>
-          </div>
-          <div>
-            <input type="time" name="check-in-time" placeholder="hh:mm" class="input">
-          </div>
-        </div>
-        <div class="row">
-          <div>
-            <label for="check-out-date" class="label">
-              Check-out
-            </label>
-          </div>
-          <div>
-            <input type="date" name="check-out-date" placeholder="dd/mm/yyyy" class="input">
-          </div>
-          <div>
-            <label for="check-out-time">ETD</label>
-          </div>
-          <div>
-            <input type="time" name="check-out-time" placeholder="hh:mm" class="input">
-          </div>
-          <div>
-            <label for="duration">Duration</label>
-          </div>
-          <div>
-            <input type="time" name="duration" placeholder="hh:mm" class="input">
-          </div>
-        </div>
+        {{ partial "modal-accommodation.html" . }}
         <div class="row buttons">
           <div>
-            <button class="default" id="default-btn">
+            <button class="default default-modal-btn">
               <i class="icon-trash"></i>
               Default
             </button>
           </div>
           <div>
-            <button class="save" id=save-btn>
-            <i class="icon-floppy"></i>
+            <button class="save" id="save-modal-accommodation">
+              <i class="icon-floppy"></i>
+              Save
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+  <div id="modal-excursions" class="modal">
+    <div class="modal-content">
+      <div class="container">
+        <div class="row">
+          <div id="modal-category-excursions"></div>
+          <div class="cancel close-modal-btn">
+            <i class="icon-cancel"></i>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input content" contenteditable="true">
+          </div>
+        </div>
+        {{ partial "modal-excursions.html" . }}
+        <div class="row buttons">
+          <div>
+            <button class="default default-modal-btn">
+              <i class="icon-trash"></i>
+              Default
+            </button>
+          </div>
+          <div>
+            <button class="save" id="save-modal-excursions">
+              <i class="icon-floppy"></i>
+              Save
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+  <div id="modal-car-hire" class="modal">
+    <div class="modal-content">
+      <div class="container">
+        <div class="row">
+          <div id="modal-category-car-hire"></div>
+          <div class="cancel close-modal-btn">
+            <i class="icon-cancel"></i>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input content" contenteditable="true">
+          </div>
+        </div>
+        {{ partial "modal-car-hire.html" . }}
+        <div class="row buttons">
+          <div>
+            <button class="default default-modal-btn">
+              <i class="icon-trash"></i>
+              Default
+            </button>
+          </div>
+          <div>
+            <button class="save" id="save-modal-car-hire">
+              <i class="icon-floppy"></i>
+              Save
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+  <div id="modal-flights" class="modal">
+    <div class="modal-content">
+      <div class="container">
+        <div class="row">
+          <div id="modal-category-flights"></div>
+          <div class="cancel close-modal-btn">
+            <i class="icon-cancel"></i>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input content" contenteditable="true">
+          </div>
+        </div>
+        {{ partial "modal-flights.html" . }}
+        <div class="row buttons">
+          <div>
+            <button class="default default-modal-btn">
+              <i class="icon-trash"></i>
+              Default
+            </button>
+          </div>
+          <div>
+            <button class="save" id="save-modal-flights">
+              <i class="icon-floppy"></i>
               Save
             </button>
           </div>
@@ -245,57 +408,60 @@
   changeCity(city);
 
 // add EventListeners
-document.getElementById("cities")
-  .addEventListener("change", changeCity);
+document.getElementById("cities").addEventListener("change", changeCity() );
+document.getElementById("hotels").addEventListener("change", changeHotel() );
+document.getElementById("excursions").addEventListener("change", changeExcursion() );
+document.getElementById("carhire").addEventListener("change", changeCarHire() );
+document.getElementById("cars").addEventListener("change", changeCar() );
+document.getElementById("flights").addEventListener("change", changeFlight() );
+document.getElementById("trains").addEventListener("change", changeTrain() );
+document.addEventListener('DOMContentLoaded', (event) => { draggable(); });
 
-document.getElementById("hotels")
-  .addEventListener("change", changeHotel);
+var clickClose = document.getElementsByClassName("close-modal-btn");
+var clickEdit  = document.getElementsByClassName("editButton");
 
-document.getElementById("excursions")
-  .addEventListener("change", changeExcursion);
+for(var i = 0; i < clickClose.length; i++) {
+  (function(index) {
+    clickClose[index].addEventListener("click", function() {
+      var close = document.getElementsByClassName("modal");
+      for(var i = 0; i < close.length; i++) {
+        close[index].style.display = "none";
+      };
+    })
+  })(i);
+}
 
-document.getElementById("cars")
-  .addEventListener("change", changeCar);
+for(var i = 0; i < clickEdit.length; i++) {
+  (function(index) {
+    clickEdit[index].addEventListener("click", function() {
+      editItem(clickEdit[index].parentElement.getAttribute("url"));
+    })
+  })(i);
+}
 
-document.addEventListener('DOMContentLoaded', (event) => {
-  draggable();
-})
+document.getElementById("save-modal-accommodation").addEventListener("click", function(){
 
-var btns = document.querySelectorAll(".editButton");
-Array.from(btns).forEach(item => {
-  item.addEventListener("click", () => {
-    editItem(item.parentElement.getAttribute("url"));
-  });
-});
-
-document.getElementById("close-btn")
-  .addEventListener('click', () => {
-    document.getElementById("modal").style.display = "none";
-});
-
-document.getElementById("save-btn")
-  .addEventListener('click', () => {
-
-  var modal = document.getElementById("modal").getElementsByClassName('input');
-  var url   = modal[0].url;
+  var elements = document.getElementById("modal-accommodation");
+  var inputs   = elements.getElementsByClassName('input');
+  var url      = inputs[0].url;
 
   docLoad({url: host+url+"/index.json"})
-  .then(
+  .then
+  (
     function(response) {
- 
-      var oldData          = JSON.parse(response);
-          oldData.arrdate  = modal[1].value ; 
-          oldData.eta      = modal[2].value ;
-          oldData.depdate  = modal[3].value ;
-          oldData.etd      = modal[4].value ;
-          oldData.duration = modal[5].value ;
-      
+
+      var oldData      = JSON.parse(response);
+      oldData.arrdate  = inputs[1].value ; 
+      oldData.eta      = inputs[2].value ;
+      oldData.depdate  = inputs[3].value ;
+      oldData.etd      = inputs[4].value ;
+
       if (! url.includes("{{ .RelPermalink }}") ){
         url = "{{ substr .RelPermalink 0 -1 }}" + url;
       } 
 
       var data = new Object;
-      data[1] = modal[0].innerText;
+      data[1] = inputs[0].innerText;
       delete oldData.content;
       delete oldData.permalink;
       delete oldData.this;
@@ -306,9 +472,8 @@ document.getElementById("save-btn")
     function(Error) {
       console.log(Error);
     }
-  );
+    );
 });
-
 
 // allow drag and drop
 
@@ -357,49 +522,6 @@ function getDragAfterElement(container,y){
   },{offset: Number.NEGATIVE_INFINITY}).element;
 }
 
-// save this itinerary
-function saveThis(){
-
-  var data = [];
-  let days = document.getElementById('itin').getElementsByClassName('containers');
-  
-  for(let i=0;i<days.length;i++) {
-
-    var urls  = [];
-    var items = days[i].getElementsByTagName('div');
-    
-    for(let j=0;j<items.length;j++) {
-
-      var url = items[j].getAttributeNode("url").value;
-          urls.push(url);
-    };
-
-    data.push({"day":i,'url':urls});
-  }
-
-  let css           = document.getElementById("message");
-      css.innerHTML = 'in progress';
-      css.classList.add('alert-info');
-
-  docLoad({
-    url:    'ajax', 
-    method: 'POST',
-    data:   JSON.stringify({ 
-      "file": {{ .RelPermalink }}, 
-      "data": data })
-    })
-    .then(
-
-    function(response) {
-      console.log(statusText);
-    }, 
-
-    function(Error) {
-      console.log(Error);
-    }
-  );
-};
-
 
 function changeCity(){
   const source = document.querySelector("#cities")
@@ -410,9 +532,59 @@ function changeCity(){
     displayCity(city);
     displayHotels(city);
     displayExcursions(city);
-    displayCars(city);
+    displayCarHire(city);
+    displayFlights(city);
+    // displayTrains(city);
   }
 };
+
+
+function saveItinerary(){
+
+  var data = [];
+  let days = document.getElementById('myItinerary').getElementsByClassName('containers');
+  
+  for(let i=0;i<days.length;i++) {
+
+    var urls  = [];
+    var items = days[i].getElementsByClassName('draggable');
+
+    for(let j=0;j<items.length;j++) {
+
+      var url = items[j].getAttribute("url");
+      if (url != undefined){
+        urls.push(url);
+      }
+    }
+
+    data.push({"day":i,'url':urls});
+  };
+
+  let css       = document.getElementById("message");
+  css.innerHTML = 'in progress';
+  css.classList.add('alert-info');
+
+  docLoad({
+    url:    'ajax', 
+    method: 'POST',
+    data:   JSON.stringify({ 
+      "file": {{ .RelPermalink }}, 
+      "data": data })
+  })
+  .then(
+
+    function(response) {
+      console.log(statusText);
+    }, 
+
+    function(Error) {
+      console.log(Error);
+    }
+    );
+};
+
+
+
 
 function displayCity(url){
 
@@ -446,7 +618,7 @@ function displayCity(url){
     function(Error) {
       console.log(Error);
     }
-  );
+    );
 };
 
 function displayHotels(city){
@@ -474,7 +646,7 @@ function displayHotels(city){
     function(Error) {
       console.log(Error);
     }
-  );
+    );
 };
 
 function displayExcursions(city){
@@ -502,14 +674,42 @@ function displayExcursions(city){
     function(Error) {
       console.log(Error);
     }
-  );
+    );
 };
 
-function displayCars(city){
-
-console.log(host+city+"car-hire/index.json");
+function displayCarHire(city){
 
   docLoad({url: host+city+"car-hire/index.json"}).then(
+
+    function(response) {
+      const nonl  = response.replace(/(\n)/gm,"");
+      var   data  = JSON.parse(nonl);
+      const items = data.data.items;
+      var   sel   = '<option value="">Select a car hire</option>';
+
+      if (items.length > 0) {
+        for(let i=0;i<items.length;i++) {
+          sel += "<option value='"+items[i].permalink+"'>"+items[i].title+"</option>"
+        }
+
+        document.getElementById("selectCarHire").style.visibility = "visible"; 
+        document.getElementById("selectCars").style.visibility = "visible"; 
+        document.getElementById("carhire").innerHTML = sel;
+      } else {
+        document.getElementById("selectCarHire").style.visibility = "hidden";
+        document.getElementById("selectCars").style.visibility = "hidden";
+      }
+    }, 
+
+    function(Error) {
+      console.log(Error);
+    }
+    );
+};
+
+function displayCars(carhire){
+
+  docLoad({url: carhire+"/index.json"}).then(
 
     function(response) {
       const nonl  = response.replace(/(\n)/gm,"");
@@ -532,6 +732,62 @@ console.log(host+city+"car-hire/index.json");
     function(Error) {
       console.log(Error);
     }
+    );
+};
+
+function displayFlights(city){
+
+  docLoad({url: host+city+"airports/index.json"}).then(
+
+   function(response) {
+    const nonl  = response.replace(/(\n)/gm,"");
+    var   data  = JSON.parse(nonl);
+    const items = data.data.items;
+    var   sel   = '<option value="">Select a flight</option>';
+
+    if (items.length > 0) {
+      for(let i=0;i<items.length;i++) {
+        sel += "<option value='"+items[i].permalink+"'>"+items[i].title+"</option>"
+      }
+
+      document.getElementById("selectFlights").style.visibility = "visible"; 
+      document.getElementById("flights").innerHTML = sel;
+    } else {
+      document.getElementById("selectFlights").style.visibility = "hidden";
+    }
+  }, 
+
+  function(Error) {
+    console.log(Error);
+  }
+  );
+};
+
+function displayTrains(city){
+
+  docLoad({url: host+city+"railways/index.json"}).then(
+
+   function(response) {
+    const nonl  = response.replace(/(\n)/gm,"");
+    var   data  = JSON.parse(nonl);
+    const items = data.data.items;
+    var   sel   = '<option value="">Select a train</option>';
+
+    if (items.length > 0) {
+      for(let i=0;i<items.length;i++) {
+        sel += "<option value='"+items[i].permalink+"'>"+items[i].title+"</option>"
+      }
+
+      document.getElementById("selectTrains").style.visibility = "visible"; 
+      document.getElementById("trains").innerHTML = sel;
+    } else {
+      document.getElementById("selectTrains").style.visibility = "hidden";
+    }
+  }, 
+
+  function(Error) {
+    console.log(Error);
+  }
   );
 };
 
@@ -541,7 +797,7 @@ function addHotel(){
   const i      = source.selectedIndex;
   const url    = source[i].value ;
   const hotel  = source[i].innerHTML;
-  const html   = '<div class="draggable" draggable="true" url="' + url + '"><i class="icon-bed"></i>&nbsp;' + hotel + '</div>';
+  var html   = '<div class="draggable" draggable="true" url="' + url + '"><i class="icon-bed"></i>&nbsp;' + hotel+'</div>';
 
   if (i) {
     document.getElementById("workspace").innerHTML += html;
@@ -568,8 +824,36 @@ function addCar(){
   const source    = document.querySelector("#cars")
   const i         = source.selectedIndex;
   const url       = source[i].value ;
-  const excursion = source[i].innerHTML;
-  const html      = '<div class="draggable" draggable="true" url="' + url + '"><i class="icon-cab"></i>&nbsp;' + excursion + '</div>'
+  const car       = source[i].innerHTML;
+  const html      = '<div class="draggable" draggable="true" url="' + url + '"><i class="icon-cab"></i>&nbsp;' + car + '</div>'
+
+  if (i) {
+    document.getElementById("workspace").innerHTML += html;
+    draggable();
+  }
+};
+
+function addFlight(){
+
+  const source    = document.querySelector("#flights")
+  const i         = source.selectedIndex;
+  const url       = source[i].value ;
+  const flight    = source[i].innerHTML;
+  const html      = '<div class="draggable" draggable="true" url="' + url + '"><i class="icon-flight"></i>&nbsp;' + flight + '</div>'
+
+  if (i) {
+    document.getElementById("workspace").innerHTML += html;
+    draggable();
+  }
+};
+
+function addTrain(){
+
+  const source    = document.querySelector("#trains")
+  const i         = source.selectedIndex;
+  const url       = source[i].value ;
+  const train     = source[i].innerHTML;
+  const html      = '<div class="draggable" draggable="true" url="' + url + '"><i class="icon-train"></i>&nbsp;' + train + '</div>'
 
   if (i) {
     document.getElementById("workspace").innerHTML += html;
@@ -584,28 +868,56 @@ function emptyTrash(){
 
 function changeHotel(){
   const source = document.querySelector("#hotels");
-  const url    = source[source.selectedIndex].value ;
-
-  processRequest(url);
+  if ( typeof source[source.selectedIndex] !== 'undefined'){
+    var url = source[source.selectedIndex].value;
+    processRequest(url);
+  }
 }
 
 function changeExcursion(){
   const source = document.querySelector("#excursions");
-  const url    = source[source.selectedIndex].value ;
+  if ( typeof source[source.selectedIndex] !== 'undefined'){
+    var url = source[source.selectedIndex].value;
+    processRequest(url);
+  }
+}
 
-  processRequest(url);
+function changeCarHire(){
+  const source = document.querySelector("#carhire");
+  if ( typeof source[source.selectedIndex] !== 'undefined'){
+    var url = source[source.selectedIndex].value;
+    displayCars(url);
+    processRequest(url);
+  }
 }
 
 function changeCar(){
   const source = document.querySelector("#cars");
-  const url    = source[source.selectedIndex].value ;
+  if ( typeof source[source.selectedIndex] !== 'undefined'){
+    var url = source[source.selectedIndex].value;
+    processRequest(url);
+  }
+}
 
-  processRequest(url);
+function changeFlight(){
+  const source = document.querySelector("#flights");
+  if ( typeof source[source.selectedIndex] !== 'undefined'){
+    var url = source[source.selectedIndex].value;
+    processRequest(url);
+  }
+}
+
+function changeTrain(){
+  const source = document.querySelector("#trains");
+  if ( typeof source[source.selectedIndex] !== 'undefined'){
+    var url = source[source.selectedIndex].value;
+    processRequest(url);
+  }
 }
 
 function processRequest(url){
 
-  docLoad({url: host+url+"/index.json"}).then(
+  docLoad({url: host+url+"index.json"}).then(
 
     function(response) {
 
@@ -624,17 +936,12 @@ function processRequest(url){
     function(Error) {
       console.log(Error);
     }
-  );
+    );
 }
 
 function editItem(url){
 
   var icon;
-  var modal     = document.getElementById("modal");
-  var iconImg   = document.getElementById("modal-category");
-  var defaultBtn= document.getElementById("default-btn");
-
-  modal.style.display = "block";
 
   window.onclick = function(event) {
     if (event.target == modal) {
@@ -643,18 +950,28 @@ function editItem(url){
   } 
   
   if (url.includes("hotels")){
-    icon = "bed";
+    icon  = "bed";
+    modal = document.getElementById("modal-accommodation");
   } else if (url.includes("excursions")){
-    icon = "camera";
-  } else if (url.includes("flights")){
-    icon = "flight";
-  } else if (url.includes("trains")){
-    icon = "train";
+    icon  = "camera";
+    modal = document.getElementById("modal-excursions");
+  } else if (url.includes("airports")){
+    icon  = "flight";
+    modal = document.getElementById("modal-flights");
+  } else if (url.includes("railways")){
+    icon  = "train";
+    modal = document.getElementById("modal-trains");
   } else if (url.includes("ferry")){
-    icon = "ferry";
+    icon  = "ferry";
+    modal = document.getElementById("modal-ferry");
+  } else if (url.includes("car-hire")){
+    icon  = "cab";
+    modal = document.getElementById("modal-car-hire");
   }
 
-  iconImg.innerHTML = '<i class="icon-'+icon+'"></i>';
+  modal.style.display = "block";
+
+  var defaultBtn= modal.querySelector(".default-modal-btn");
 
   if (url.includes("{{ htmlUnescape .RelPermalink }}")){
     defaultBtn.style.display = "block"
@@ -662,55 +979,71 @@ function editItem(url){
     defaultBtn.style.display = "none"
   }
 
-  docLoad({url: host+url+"/index.json"})
+// let testUrl = host+url+"index.json";
 
-  .then(
-    function(response) {
+docLoad({url: host+url+"index.json"})
 
-      const data  = JSON.parse(response);
-      let content = data.content;  
-      let modals  = modal.getElementsByClassName('input');
-      let rows    = modal.getElementsByClassName('row');
+.then
+(
+  function(response) 
+  {
 
-      modals[0].url = url;
-      modals[0].innerText = content.replace(/linebreak/gm,"");
-      if (icon == "bed"){
-        modals[1].value = data.arrdate;
-        modals[2].value = data.eta;
-        // arrival details row
-        rows[2].style.display = "flex";
-        // set label to check-out
-        rows[3].childNodes[1].childNodes[0].innerText = "Check-out"; 
-        // duration label 
-        rows[3].childNodes[9].style.display = "none"; 
-        // duration input
-        rows[3].childNodes[11].style.display = "none"; 
-      } else {
-        // arrival details row
-        rows[2].style.display = "none"; 
-        // change the label check-out to departure
-        rows[3].childNodes[1].childNodes[0].innerText = "Departure";
-        // duration label 
-        rows[3].childNodes[9].style.display = "block"; 
-         // duration input
-        rows[3].childNodes[11].style.display = "block"; 
-        modals[5].value = data.duration;
+    const data  = JSON.parse(response);
+    let content = data.content;  
+    let inputs  = modal.getElementsByClassName('input');
+    let rows    = modal.getElementsByClassName('row');
+
+    rows[0].children[0].innerHTML = '<i class="icon-'+icon+'"></i>';
+
+    inputs[0].url = url;
+    inputs[0].innerText = content.replace(/linebreak/gm,"");
+
+    if (content == undefined){
+      content = "Private car with driver ";
+    } 
+
+    if (icon == "bed"){
+      inputs[1].value = data.arrdate;
+      inputs[2].value = data.eta;
+      inputs[3].value = data.depdate;
+      inputs[4].value = data.etd;
+    } else if (icon == "cab"){
+      inputs[1].value = data.depdate;
+      inputs[2].value = data.etd;
+      inputs[3].value = data.duration;
+    } else if (icon == "flight"){
+      if (data.depdate) {
+        inputs[1].value = data.depdate;
+        inputs[2].value = data.flight;
+        inputs[3].value = data.from;
+        inputs[4].value = data.to;
+        inputs[5].value = data.etd;
+        inputs[6].value = data.eta;
       }
-      modals[3].value = data.depdate;
-      modals[4].value = data.etd;
-    }, 
-    function(Error) {
-      console.log(Error);
+      content = "Flight ";
+    } else if (icon == "train"){
+      inputs[1].value = data.depdate;
+      inputs[2].value = data.train;
+      inputs[3].value = data.from;
+      inputs[4].value = data.to;
+      inputs[5].value = data.etd;
+      inputs[6].value = data.eta;
+      content = "Train ";
     }
+  }, 
+  function(Error) 
+  {
+    console.log(Error);
+  }
   );
 };
 
 
 function saveModal(url, data){
-  
-  var css           = document.getElementById("message");
-      css.innerHTML = 'Writing in progress';
-      css.classList.add('alert-info');
+
+  var css       = document.getElementById("message");
+  css.innerHTML = 'Writing in progress';
+  css.classList.add('alert-info');
 
   docLoad({
     url:   'edit',
@@ -720,11 +1053,11 @@ function saveModal(url, data){
   .then(
     function(response) {
       console.log(response);
-  }, 
-  function(Error) {
-    console.log(Error);
-    alert("There is an issue saving. Please contact the administrator.");
-  });
+    }, 
+    function(Error) {
+      console.log(Error);
+      alert("There is an issue saving. Please contact the administrator.");
+    });
 };
 
 
@@ -733,17 +1066,17 @@ function docLoad(object) {
   return new Promise(function(resolve, reject) {
 
     var host = ((object.method == 'POST')? 
-        {{- if (len (getenv "APP")) }}
-          {{ getenv "APP" }}
-        {{- else -}}
-        {{ .Site.Params.appHost }}
-        {{- end -}}
-         : "")+object.url;
+      {{- if (len (getenv "APP")) }}
+      {{ getenv "APP" }}
+      {{- else -}}
+      {{ .Site.Params.appHost }}
+      {{- end -}}
+      : "")+object.url;
 
     var request = new XMLHttpRequest();
-        request.open(object.method || "GET", host);
-        request.setRequestHeader("Content-Type", "application/json");
-   
+    request.open(object.method || "GET", host);
+    request.setRequestHeader("Content-Type", "application/json");
+
     request.onload = function() {
       if (request.status === 200) {
         resolve(request.response);
@@ -753,7 +1086,7 @@ function docLoad(object) {
     };
 
     request.onerror = function() {
-        reject(Error('There was a network error.'));
+      reject(Error('There was a network error.'));
     };
     request.send(JSON.stringify(object));
   });

@@ -25,9 +25,9 @@ app.post('/ajax',function (req, res) {
 
  var request = JSON.parse(req.body.data);
  var file    = dir + request.file + '_index.md';
-
+console.log('Reading '+file);
  try {
-   var fileContents = fs.readFileSync(file+'.orig', 'utf8', (err) => {       
+   var fileContents = fs.readFileSync(file, 'utf8', (err) => {       
      if (err) throw err; 
    }) 
  } catch (error) {
@@ -112,7 +112,7 @@ app.post('/save',function (req, res) {
 app.post('/edit',function (req, res) {
 
   var request = JSON.parse(req.body.data);
-  var path    = dir + request.file + '/index.md';
+  var path    = dir + request.file + 'index.md';
 
   console.log('Editing ' + path);
 

@@ -2,8 +2,6 @@
 title: Tata Nexon
 translationKey: "tata-nexon"
 fromdate:
-fromtime:
-totime:
-duration:
+todate:
 type: "car-hire"
 ---

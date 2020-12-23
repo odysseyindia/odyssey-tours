@@ -1,6 +1,5 @@
 ---
+title: testing
 type: test
-nopublic: true
-proposal: true
 ---
 testing
