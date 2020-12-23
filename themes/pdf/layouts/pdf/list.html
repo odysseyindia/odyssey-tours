@@ -1,0 +1,102 @@
+{{- define "main" }}
+
+<section id="{{ .Scratch.Get "id" | lower }}"> 
+
+  <div class="container">
+
+    <div class="main-container">
+      <div class="row dossier">
+        <div>Dossier: {{ .RelPermalink }}</div>
+        <div>
+          <button class="save" onclick="printThis()">
+            <i class="icon-file-pdf"></i>Print pdf
+          </button>
+        </div>
+      </div>
+
+      <div id="element-to-print">
+
+        <div class="block">
+          <h2>{{ .Title }}</h2>
+          <h3>{{ .Params.tour }}</h3>
+          <h4>From {{ dateFormat "2 Jan 2006" .Params.arrdate }} {{ with .Params.depdate }} to {{ dateFormat "2 Jan 2006" .}}{{ end }}</h4>
+        </div>
+
+        <div id="itinerary">
+          {{- range $index,$e := .Params.itinerary }}
+          <hr class="hr-text" data-content="Day {{add $index 1 }}">
+          <div class="containers">
+            {{- range .url -}}
+
+            {{- $myUrl := printf "%s%s" (substr $.RelPermalink 0 -1) . }}<br>
+            {{- $url := (cond (fileExists $myUrl) $myUrl . ) -}}
+
+            <div class="draggable" draggable="true" url="{{ $url }}">
+              {{- with $.Site.GetPage "page" . }}
+              <div>
+                {{- if in .RelPermalink "excursions"}}
+                <i class="icon-camera"></i>
+                {{- else if in .RelPermalink "hotels"}}
+                <i class="icon-bed"></i>
+                {{- else if in .RelPermalink "flights"}}
+                <i class="icon-flight"></i>
+                {{- else if in .RelPermalink "ferries"}}
+                <i class="icon-ferry"></i>
+                {{- else if in .RelPermalink "hotels"}}
+                <i class="icon-train"></i>
+                {{- else if in .RelPermalink "cars"}}
+                <i class="icon-cab"></i>
+                {{- end }}
+              </div>
+              <div class="program">
+                <div>
+                  <h4>{{ .Title }}, {{ path.Base .Parent.Parent.RelPermalink | humanize }}</h4>
+                </div>
+                <div class="content">
+                  <div class="image">
+                    <img class="lazyload" 
+                    sizes="(min-width: 35em) 150px, 10vw"
+                    data-srcset="{{ .RelPermalink }}{{ .Params.image }} 150w"
+                    data-src="{{ .RelPermalink }}{{ .Params.image }}" alt="{{ .Title }}">
+                  </div>
+                  <div class="mr-10 content-text">
+                    {{ .Content }}
+                  </div>
+                </div>
+              </div>
+              <div class="editButton">
+                <i class="icon-edit-alt"></i>
+              </div>
+              {{- end }}
+            </div>
+            {{- end }}
+          </div>
+          {{- end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{- end }}
+{{- define "postscript" }}
+
+<script src="https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
+
+<script>
+  printThis();
+  
+  function printThis(){
+    var element = document.getElementById('element-to-print');
+    var options = {
+      margin:       1,
+//  filename:     'myfile.pdf',
+image:        { type: 'jpeg', quality: 0.98 },
+html2canvas:  { scale: 2 },
+jsPDF:        { unit: 'cm', format: 'A4', orientation: 'portrait' },
+pagebreak:    { mode: 'avoid-all'}
+};
+html2pdf(element,options);
+}
+</script>
+{{- end }}

@@ -1,0 +1,68 @@
+<head>
+<meta charset="utf-8">
+<!-- {{ partial "csp.html" . }} -->
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+{{"<!-- Title Tags -->" | safeHTML }}
+<title itemprop="name">Odyssey Tours | {{ .Title }}</title>
+<meta itemprop="name" content="{{ .Title }} | {{ .Site.Title }}" />
+<meta name="application-name" content="{{ .Title }} | {{ .Site.Title }}" />
+{{"<!-- Description Tags -->" | safeHTML }}
+<meta name="description" content="{{- with .Params.description }}{{.}}{{ else }}{{ $description }}{{ end }}" />
+{{"<!-- Link Tags -->" | safeHTML }}
+<base href="{{ .Permalink }}">
+<link rel="canonical" href="{{ .Permalink }}" itemprop="url" />
+<meta name="url" content="{{ .Permalink }}" />
+{{"<!-- Favicon Tags -->" | safeHTML }}
+{{- partial "favicons.html" . }} 
+{{"<!-- Search Engine Crawler Tags -->" | safeHTML }}
+<meta name="robots" content="noindex,nofollow" />
+<meta name="googlebot" content="noindex,nofollow" />
+<link rel="publisher" href="https://plus.google.com/u/0/b/100518806882374754841/100518806882374754841">
+{{- with .Site.Params.author }}
+<link rel="author" href="{{ $.Site.Params.author_link }}" title="{{ . }}">
+{{- end }}
+{{"<!-- Other Tags -->" | safeHTML }}
+<link rel="manifest" href="/manifest.json" />
+<meta name="copyright" content="&copy; {{ .Site.Params.copyrightYear }} {{ .Site.Params.copyright }}">
+<meta name="theme-color" content="#b4a258;" /> 
+<meta name="msapplication-TileColor" content="#141414" />
+<meta name="keywords" content="{{- with .Params.keyword -}} {{ . }} {{- else -}} {{- with .Site.Params.keywords -}} {{ . }} {{ end }} {{ end }}" />
+<meta name="imagemode" content="force" />
+<meta name="coverage" content="Worldwide" /> 
+<meta name="distribution" content="Global" />
+<meta name="HandheldFriendly" content="True" /> 
+<meta name="msapplication-tap-highlight" content="no" />
+<meta name="apple-mobile-web-app-title" content="{{ .Site.Params.sitename }}" /> 
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-touch-fullscreen" content="yes" />   
+{{ hugo.Generator }}
+<link rel="preconnect" href="https://cdnjs.cloudflare.com">
+{{"<!-- plugins -->" | safeHTML }}
+{{- range .Site.Params.plugins.css }}
+<link rel="stylesheet" href="{{ .link | absURL }} ">
+{{- end }}   
+{{"<!-- Stylesheets -->" | safeHTML }}
+<style>
+{{- with resources.Get "css/pdf.css" | minify -}} 
+  {{ .Content | safeCSS }}
+{{- end -}}
+</style>
+{{- with .Params.css }}
+{{"<!-- Customs scripts -->" | safeHTML }}
+  {{- range . }}
+<link src="{{.}}" rel="stylesheet"/>
+  {{- end }}
+{{- end }}
+{{- `<!-- CSS for IE -->
+<!--[if lte IE 9]>
+<link rel="stylesheet" type="text/css" href="../css/ie.css" />
+<![endif]-->
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script type='text/javascript' src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script type='text/javascript' src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+<![endif]
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> --> `| safeHTML}}
+</head>
