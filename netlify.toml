@@ -61,8 +61,7 @@ package = "@netlify/plugin-lighthouse"
     seo = 0
     pwa = 0
 
-[[plugins]]
-package = "@netlify/plugin-functions-core"
+
 
 [[redirects]]
   from = "/*"
