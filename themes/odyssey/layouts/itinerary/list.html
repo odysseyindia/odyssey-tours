@@ -28,29 +28,29 @@
         {{- range $index,$e := .Params.itinerary }}
         <hr class="hr-text" data-content="Day {{add $index 1 }}">
         <div class="containers">
-          {{- range .item }}
+          {{- range $i,$v := .item }}
 
-          <div class="draggable" draggable="true" url="{{ .url }}">
+          <div class="draggable" draggable="true" type="{{- if (eq $v.type "excursion") }}excursion{{- else if (eq $v.type "hotel") }}hotel{{- else if (eq $v.type "flight") }}flight{{- else if (eq $v.type "ferry") }}ferry{{- else if (eq $v.type "train") }}train{{- else if (eq $v.type "car-hire") }}car-hire{{- end }}" day={{ $index }} index={{ $i }} url="{{ .url }}">
 
             <div>
-              {{- if (eq .type "excursion") }}
+              {{- if (eq $v.type "excursion") }}
               <i class="icon-camera"></i>
-              {{- else if (eq .type "hotel") }}
+              {{- else if (eq $v.type "hotel") }}
               <i class="icon-bed"></i>
-              {{- else if (eq .type "flight") }}
+              {{- else if (eq $v.type "flight") }}
               <i class="icon-flight"></i>
-              {{- else if (eq .type "ferry") }}
+              {{- else if (eq $v.type "ferry") }}
               <i class="icon-ferry"></i>
-              {{- else if (eq .type "train") }}
+              {{- else if (eq $v.type "train") }}
               <i class="icon-train"></i>
-              {{- else if (eq .type "car-hire") }}
+              {{- else if (eq $v.type "car-hire") }}
               <i class="icon-cab"></i>
               {{- end }}
             </div>
             <div class="program">
               <div>
-                {{- $url :=  printf "%s%s" .url "index.md" }}
-                {{- $content := .mycontent | default "" }}
+                {{- $url :=  printf "%s%s" $v.url "index.md" }}
+                {{- $content := $v.content | default "" }}
                 <h4>{{- with $.Site.GetPage (string $url) }}{{ .Title }}, </h4>
               </div>
               <div class="content">
@@ -60,86 +60,69 @@
                   data-srcset="{{ .RelPermalink }}{{ .Params.image }} 150w"
                   data-src="{{ .RelPermalink }}{{ .Params.image }}" alt="{{ .Title }}">
                 </div>
-                <div class="mr-10 content-text">
+                <div class="mr-10 content-text details1"> 
                   {{ cond (gt (len $content) 0) $content .Content }}
                 {{ end }}
-                  {{- if (eq .type "excursion") }}
-                  <div class="details">
-                    <div>
-                      Date {{ .date }}
-                    </div>
-                    <div>
-                      ETD {{ .etd }}
-                    </div>
-                    <div>
-                      Duration {{ .duration }}
-                    </div>
+                  {{- if (eq $v.type "excursion") }}
+                  <div class="rowdetails">
+                    <div>Date:  </div> 
+                    <div class="details" attr="date" value="{{ $v.date }}">{{ with $v.date }} {{ dateFormat  "02-01-2006" . }} {{ end }}</div>
+                    <div>ETD:  </div> 
+                    <div class="details" attr="etd" value="{{ $v.etd }}">{{ with $v.etd }} {{ dateFormat  "15:04" . }} {{ end }}</div>
+                    <div>Duration:  </div> 
+                    <div class="details" attr="duration">{{ $v.duration }}</div>
                   </div>
-                  {{- else if (eq .type "hotel") }}
-                  <div class="details">
-                    <div>
-                      Check-in {{ .checkInDate }}
-                    </div>
-                    <div>
-                      ETA {{ .checkInTime }}
-                    </div>
-                    <div>
-                      Check-out {{ .checkOutDate }}
-                    </div>
-                    <div>
-                      ETD {{ .checkOutTime }}
-                    </div>
+                  {{- else if (eq $v.type "hotel") }}
+                  <div class="rowdetails">
+                    <div>Check-in:  </div> 
+                    <div class="details" attr="checkInDate" value="{{ $v.checkInDate }}">{{ with $v.checkInDate }} {{ dateFormat  "02-01-2006" . }} {{ end }}</div>
+                    <div>ETA: </div> 
+                    <div class="details" attr="checkInTime" value="{{ $v.checkInTime }}">{{ with $v.checkInTime }} {{ dateFormat  "15:04" . }} {{ end }}</div>
+                    <div>Check-out: </div> 
+                    <div class="details" attr="checkOutDate" value="{{ $v.checkOutDate }}">{{ with $v.checkOutDate }} {{ dateFormat  "02-01-2006" . }}{{ end }}</div>
+                    <div>ETD: </div> 
+                    <div class="details" attr="checkOutTime" value="{{ $v.checkOutTime }}">{{ with $v.checkOutTime }} {{ dateFormat  "15:04" . }} {{ end }}</div>
                   </div>
-                  {{- else if (eq .type "flight") }}
-                  <div class="details">
-                    <div>
-                      Date {{ .date }}
-                    </div>
-                    <div>
-                      Flight No {{ .flightNumber }}
-                    </div>
-                    <div>
-                      From {{ .from }}
-                    </div>
-                    <div>
-                      To {{ .to }}
-                    </div>
-                    <div>
-                      ETD {{ .etd }}
-                    </div>
-                    <div>
-                      ETA {{ .eta }}
-                    </div>
+                  {{- else if (eq $v.type "flight") }}
+                  <div class="rowdetails">
+                    <div>Date:  </div> 
+                    <div class="details" attr="date" value="{{ $v.date }}">{{ with $v.date }} {{ dateFormat  "02-01-2006" . }} {{ end }}</div>
+                    <div>Flight No:  </div> 
+                    <div class="details" attr="flightNo">{{ $v.flightNo }}</div>
+                    <div>From: </div> 
+                    <div class="details" attr="from"> {{ $v.from }}</div>
+                    <div>To:  </div> 
+                    <div class="details" attr="to">{{ $v.to }}</div>
+                    <div>ETD: </div> 
+                    <div class="details" attr="etd" value="{{ $v.etd }}">{{ with $v.etd }} {{ dateFormat  "15:04" . }} {{ end }}</div>
+                    <div>ETA:  </div> 
+                    <div class="details" attr="eta" value="{{ $v.eta }}">{{ with $v.eta }} {{ dateFormat  "15:04" . }} {{ end }}</div>
                   </div>
-                  {{- else if (eq .type "train") }}
-                  <div class="details">
-                    <div>
-                      Date {{ .date }}
-                    </div>
-                    <div>
-                      Flight No {{ .trainNumber }}
-                    </div>
-                    <div>
-                      From {{ .from }}
-                    </div>
-                    <div>
-                      To {{ .to }}
-                    </div>
-                    <div>
-                      ETD {{ .etd }}
-                    </div>
-                    <div>
-                      ETA {{ .eta }}
-                    </div>
+                  {{- else if (eq $v.type "train") }}
+                  <div class="rowdetails">
+                    <div>Date:  </div> 
+                    <div class="details" attr="date" value="{{ $v.date }}">{{ dateFormat  "02-01-2006" $v.date }}</div>
+                    <div>Train No: </div> 
+                    <div class="details" attr="trainNo">{{ $v.trainNo }}</div>
+                    <div>Train Name:  </div> 
+                    <div class="details" attr="train">{{ $v.train }}</div>
+                    <div>From:  </div> 
+                    <div class="details" attr="from">{{ $v.from }}</div>
+                    <div>To:  </div> 
+                    <div class="details" attr="to">{{ $v.to }}</div>
+                    <div>ETD:  </div> 
+                    <div class="details" attr="etd" value="{{ $v.etd }}">{{ with $v.etd }} {{ dateFormat  "15:04" . }} {{ end }}</div>
+                    <div>ETA:  </div> 
+                    <div class="details" attr="eta" value="{{ $v.eta }}">{{ with $v.eta }} {{ dateFormat  "15:04" . }} {{ end }}</div>
                   </div>
-                  {{- else if (eq .type "car-hire") }}
-                  <div class="details">
-                    <div>
-                      From {{ .city }}
-                    </div>
-                    <div>
-                      Days {{ .duration }} 
-                    </div>
+                  {{- else if (eq $v.type "car-hire") }}
+                  <div class="rowdetails">
+                    <div>Date: </div> 
+                    <div class="details" attr="date" value="{{ $v.date }}">{{ with $.date }} {{ dateFormat  "02-01-2006" . }} {{ end }}</div>
+                    <div>From:  </div> 
+                    <div class="details" attr="city">{{ $v.city }}</div>
+                    <div>Days: </div> 
+                    <div class="details" attr="duration"> {{ $v.duration }}</div>
                   </div>
                   {{- end }}  
                 </div>            
@@ -408,7 +391,9 @@
   changeCity(city);
 
 // add EventListeners
-document.getElementById("cities").addEventListener("change", changeCity() );
+document.getElementById("cities").addEventListener("change", (event) => {
+  changeCity();
+});
 document.getElementById("hotels").addEventListener("change", changeHotel() );
 document.getElementById("excursions").addEventListener("change", changeExcursion() );
 document.getElementById("carhire").addEventListener("change", changeCarHire() );
@@ -434,7 +419,11 @@ for(var i = 0; i < clickClose.length; i++) {
 for(var i = 0; i < clickEdit.length; i++) {
   (function(index) {
     clickEdit[index].addEventListener("click", function() {
-      editItem(clickEdit[index].parentElement.getAttribute("url"));
+      editItem(
+        clickEdit[index].parentElement.getAttribute("day"),
+        clickEdit[index].parentElement.getAttribute("index"),
+        clickEdit[index].parentElement.getAttribute("url"),
+         clickEdit[index].parentElement);
     })
   })(i);
 }
@@ -444,35 +433,24 @@ document.getElementById("save-modal-accommodation").addEventListener("click", fu
   var elements = document.getElementById("modal-accommodation");
   var inputs   = elements.getElementsByClassName('input');
   var url      = inputs[0].url;
+  var day      = inputs[0].day;
+  var index    = inputs[0].index;
 
-  docLoad({url: host+url+"/index.json"})
-  .then
-  (
-    function(response) {
+  let days = document.getElementById('myItinerary').getElementsByClassName('containers');
+  
+  var items = days[day].getElementsByClassName('draggable');
+  var data  = items[index].getElementsByClassName('details');
+  
+  data[0].setAttribute("value", inputs.checkInDate.value ) ; 
+  data[1].setAttribute("value", inputs.checkInTime.value ) ;
+  data[2].setAttribute("value", inputs.checkOutDate.value) ;
+  data[3].setAttribute("value", inputs.checkOutTime.value) ;
+  data[0].innerHTML  = inputs.checkInDate.value ; 
+  data[1].innerHTML  = inputs.checkInTime.value ;
+  data[2].innerHTML  = inputs.checkOutDate.value ;
+  data[3].innerHTML  = inputs.checkOutTime.value ;
 
-      var oldData      = JSON.parse(response);
-      oldData.arrdate  = inputs[1].value ; 
-      oldData.eta      = inputs[2].value ;
-      oldData.depdate  = inputs[3].value ;
-      oldData.etd      = inputs[4].value ;
-
-      if (! url.includes("{{ .RelPermalink }}") ){
-        url = "{{ substr .RelPermalink 0 -1 }}" + url;
-      } 
-
-      var data = new Object;
-      data[1] = inputs[0].innerText;
-      delete oldData.content;
-      delete oldData.permalink;
-      delete oldData.this;
-      data[0] = oldData;
-
-      saveModal(url,data);
-    }, 
-    function(Error) {
-      console.log(Error);
-    }
-    );
+  document.getElementById("modal-accommodation").style.display = "none";
 });
 
 // allow drag and drop
@@ -546,18 +524,30 @@ function saveItinerary(){
   
   for(let i=0;i<days.length;i++) {
 
-    var urls  = [];
-    var items = days[i].getElementsByClassName('draggable');
+    var details = [];
+    var items   = days[i].getElementsByClassName('draggable');
 
     for(let j=0;j<items.length;j++) {
 
-      var url = items[j].getAttribute("url");
-      if (url != undefined){
-        urls.push(url);
+      var obj = {};
+      obj.type    = items[j].getAttribute("type");
+      obj.url     = items[j].getAttribute("url");
+      let test = (items[j].getElementsByClassName('details1'))[0].childNodes[0].nextSibling.innerText;
+      obj.content = (items[j].getElementsByClassName('details1'))[0].childNodes[0].nextSibling.innerText;
+      let inputs  = items[j].getElementsByClassName('details');
+    
+      for(let k=0;k<inputs.length;k++) {
+        let attr  = inputs[k].getAttribute("attr");
+        let value = inputs[k].getAttribute("value");
+        obj[attr] = (value != null) ? new Date(value) : inputs[k].innerText ;
       }
+      details.push(obj);
     }
 
-    data.push({"day":i,'url':urls});
+    let object = {};
+    object.day = i;
+    object.item = details;
+    data.push( object );
   };
 
   let css       = document.getElementById("message");
@@ -797,7 +787,7 @@ function addHotel(){
   const i      = source.selectedIndex;
   const url    = source[i].value ;
   const hotel  = source[i].innerHTML;
-  var html   = '<div class="draggable" draggable="true" url="' + url + '"><i class="icon-bed"></i>&nbsp;' + hotel+'</div>';
+  var html   = '<div class="draggable" draggable="true" type ="hotel" url="' + url + '"><i class="icon-bed"></i>&nbsp;' + hotel+'</div>';
 
   if (i) {
     document.getElementById("workspace").innerHTML += html;
@@ -811,7 +801,7 @@ function addExcursion(){
   const i         = source.selectedIndex;
   const url       = source[i].value ;
   const excursion = source[i].innerHTML;
-  const html      = '<div class="draggable" draggable="true" url="' + url + '"><i class="icon-camera"></i>&nbsp;' + excursion + '</div>'
+  const html      = '<div class="draggable" draggable="true" type ="excursion" url="' + url + '"><i class="icon-camera"></i>&nbsp;' + excursion + '</div>'
 
   if (i) {
     document.getElementById("workspace").innerHTML += html;
@@ -825,7 +815,7 @@ function addCar(){
   const i         = source.selectedIndex;
   const url       = source[i].value ;
   const car       = source[i].innerHTML;
-  const html      = '<div class="draggable" draggable="true" url="' + url + '"><i class="icon-cab"></i>&nbsp;' + car + '</div>'
+  const html      = '<div class="draggable" draggable="true" type="car-hire" url="' + url + '"><i class="icon-cab"></i>&nbsp;' + car + '</div>'
 
   if (i) {
     document.getElementById("workspace").innerHTML += html;
@@ -839,7 +829,7 @@ function addFlight(){
   const i         = source.selectedIndex;
   const url       = source[i].value ;
   const flight    = source[i].innerHTML;
-  const html      = '<div class="draggable" draggable="true" url="' + url + '"><i class="icon-flight"></i>&nbsp;' + flight + '</div>'
+  const html      = '<div class="draggable" draggable="true" type="flight" url="' + url + '"><i class="icon-flight"></i>&nbsp;' + flight + '</div>'
 
   if (i) {
     document.getElementById("workspace").innerHTML += html;
@@ -853,7 +843,7 @@ function addTrain(){
   const i         = source.selectedIndex;
   const url       = source[i].value ;
   const train     = source[i].innerHTML;
-  const html      = '<div class="draggable" draggable="true" url="' + url + '"><i class="icon-train"></i>&nbsp;' + train + '</div>'
+  const html      = '<div class="draggable" draggable="true" type="train" url="' + url + '"><i class="icon-train"></i>&nbsp;' + train + '</div>'
 
   if (i) {
     document.getElementById("workspace").innerHTML += html;
@@ -939,7 +929,7 @@ function processRequest(url){
     );
 }
 
-function editItem(url){
+function editItem(day,index,url,obj){
 
   var icon;
 
@@ -979,63 +969,23 @@ function editItem(url){
     defaultBtn.style.display = "none"
   }
 
-// let testUrl = host+url+"index.json";
+  let inputs  = modal.getElementsByClassName('input');
+  let rows    = modal.getElementsByClassName('row');
+  let content = obj.getElementsByClassName('content-text');
 
-docLoad({url: host+url+"index.json"})
-
-.then
-(
-  function(response) 
-  {
-
-    const data  = JSON.parse(response);
-    let content = data.content;  
-    let inputs  = modal.getElementsByClassName('input');
-    let rows    = modal.getElementsByClassName('row');
-
-    rows[0].children[0].innerHTML = '<i class="icon-'+icon+'"></i>';
-
-    inputs[0].url = url;
-    inputs[0].innerText = content.replace(/linebreak/gm,"");
-
-    if (content == undefined){
-      content = "Private car with driver ";
-    } 
-
-    if (icon == "bed"){
-      inputs[1].value = data.arrdate;
-      inputs[2].value = data.eta;
-      inputs[3].value = data.depdate;
-      inputs[4].value = data.etd;
-    } else if (icon == "cab"){
-      inputs[1].value = data.depdate;
-      inputs[2].value = data.etd;
-      inputs[3].value = data.duration;
-    } else if (icon == "flight"){
-      if (data.depdate) {
-        inputs[1].value = data.depdate;
-        inputs[2].value = data.flight;
-        inputs[3].value = data.from;
-        inputs[4].value = data.to;
-        inputs[5].value = data.etd;
-        inputs[6].value = data.eta;
-      }
-      content = "Flight ";
-    } else if (icon == "train"){
-      inputs[1].value = data.depdate;
-      inputs[2].value = data.train;
-      inputs[3].value = data.from;
-      inputs[4].value = data.to;
-      inputs[5].value = data.etd;
-      inputs[6].value = data.eta;
-      content = "Train ";
+  rows[0].children[0].innerHTML = '<i class="icon-'+icon+'"></i>';
+  rows[1].children[0].innerText = content[0].childNodes[0].wholeText;
+  inputs[0].day   = day;
+  inputs[0].index = index;
+  inputs[0].url   = url;
+  
+  let data = obj.getElementsByClassName('details');
+ 
+  for(let i=0;i<inputs.length;i++) {
+     if (data[i]) {
+        inputs[(i+1)].value = data[i].innerText;
     }
-  }, 
-  function(Error) 
-  {
-    console.log(Error);
-  }
-  );
+  } 
 };
 
 
@@ -1048,7 +998,7 @@ function saveModal(url, data){
   docLoad({
     url:   'edit',
     method:'POST',
-    data:   JSON.stringify({ "file": url, "data": data })
+    data:   JSON.stringify({"file": {{ .RelPermalink }},"data": data })
   })
   .then(
     function(response) {

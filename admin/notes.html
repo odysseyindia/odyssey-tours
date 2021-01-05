@@ -1,3 +1,13 @@
+This is how you .GetPage:
+
+{{ .Site.GetPage (print ( strings.TrimSuffix "/" $url )) }}
+
+This is how you check if index.md exists:
+
+{{- fileExists (print "/content/english" $url "index.md") }}
+
+
+
 {{ if not (findRE "banner" .RelPermalink 1) }} 
 
 {{- range ( where ( where .Site.RegularPages "Section" "experience") ".Params.id" "interest" ) }}
