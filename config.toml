@@ -83,13 +83,24 @@ taxonomy                = ["html","json"]
     identifier = "home"
     pre = "home"
     url = "/"
-    weight = 10
+    weight = 0
   [[Languages.en.menu.main]]
     name = "TIM"
     identifier = "tim"
     pre = "tim"
-    url = "/tim"
+    weight = 10
+  [[Languages.en.menu.main]]
+    name = "Itineraries"
+    parent = "tim"
+    pre = "tim"
+    url = "/tim/itineraries"
     weight = 11
+  [[Languages.en.menu.main]]
+    name = "Geo Locator"
+    parent = "tim"
+    pre = "tim"
+    url = "/tim/geo-location/"
+    weight = 12
   [[Languages.en.menu.main]]
     name = "Tour Ideas"
     identifier = "tour-ideas"

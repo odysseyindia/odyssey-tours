@@ -1,13 +1,13 @@
-var express 		  = require('express');
-var cors          = require('cors');
-var bodyParser  	= require('body-parser');
+var   express 		= require('express');
+var   cors        = require('cors');
+var   bodyParser  = require('body-parser');
 const mkdirp      = require('mkdirp');
 const fs 			    = require('fs'); 
 var   getDirName  = require('path').dirname;
 const yaml 			  = require('js-yaml');
 var   app 			  = express();
-const port = 1314;
-const dir  = "/home/alfred/webapps/odyssey-tours/content/english";
+const port        = 1314;
+const dir         = "/home/alfred/webapps/odyssey-tours/content/english";
 
 app.use(express.json());
 app.use(cors());
@@ -20,6 +20,7 @@ app.use(function (req, res, next) {
   res.setHeader('Content-Type', 'application/json');
   next();
 });
+
 
 app.post('/ajax',function (req, res) {
 
