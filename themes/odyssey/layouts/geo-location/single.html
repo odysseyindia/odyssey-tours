@@ -9,10 +9,77 @@
   <div class="container">
     <div class="row">
       <div class="content mx-auto w-50 p-3">
-        {{ .Content }}
+        <form onsubmit="geoLocation()">
+		  <label for="location">Location</label>
+		  <input type="text" id="location" name="location"><br><br>
+		  <input type="submit" value="Submit">
+		</form> 
       </div>
+      <div id="message"> </div>
     </div>
   </div>
 
+
+{{ end }}
+{{- define "postscript" }}
+<script>
+function geoLocation(){
+
+	address = document.getElementById("location").value;
+
+ docLoad({
+    url:    'geolocation', 
+    method: 'POST',
+    data:   JSON.stringify({ 
+      "address": address })
+  })
+  .then(
+
+    function(response) {
+      var element = document.getElementById("message");
+      element.innerHTML = "<p class='green'>"+response+"</p>";
+      console.table(response);
+    }, 
+
+    function(Error) {
+      var element = document.getElementById("message");
+      element.innerHTML = "<p class='red'>"+Error+"</p>";
+      console.log(Error);
+    }
+  );
+};
+
+function docLoad(object) {
+
+  return new Promise(function(resolve, reject) {
+
+    var host = ((object.method == 'POST')? 
+      {{- if (len (getenv "APP")) }}
+      {{ getenv "APP" }}
+      {{- else -}}
+      {{ .Site.Params.appHost }}
+      {{- end -}}
+      : "")+object.url;
+
+    var request = new XMLHttpRequest();
+    request.open(object.method || "GET", host);
+    request.setRequestHeader("Content-Type", "application/json");
+
+    request.onload = function() {
+      if (request.status === 200) {
+        resolve(request.response);
+      } else {
+        reject(Error('Document requested did not load successfully; error code:' + request.statusText));
+      }
+    };
+
+    request.onerror = function() {
+      reject(Error('There was a network error.'));
+    };
+    request.send(JSON.stringify(object));
+  });
+}
+
+</script>
 
 {{ end }}

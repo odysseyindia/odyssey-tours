@@ -1,0 +1,91 @@
+{{- define "main" }}
+
+{{- .Scratch.Set "layout" "layouts/import/single.html" -}}
+
+{{- $image := cond (isset .Params "image") ( .Params.image ) (.CurrentSection.Params.image) }}
+
+<section id="{{ .Scratch.Get "id" | lower }}">  
+  {{ partial "heading.html" . }}
+  <div class="container">
+    <div class="row">
+      <div class="content mx-auto w-50 p-3">
+       	<form onsubmit="importdata()">
+       		<label for="files">Choose a csv file</label>
+        <select name='files' id="file" >
+        	<option value="cities.csv">Cities</option>
+			<option value="hotels.csv">Hotels</option>
+			<option value="services.csv">Services</option>
+		</select>
+		 <div>
+		 	<input type="submit" value="Submit">
+		 </div>
+		</form> 
+      </div>
+      <div id="message"> </div>
+    </div>
+  </div>
+
+
+{{ end }}
+{{- define "postscript" }}
+<script>
+function importdata(){
+
+	file = document.getElementById("file").value;
+
+ 	docLoad({
+    url:    'import', 
+    method: 'POST',
+    data:   JSON.stringify({ 
+      "file": file })
+  })
+  .then(
+
+    function(response) {
+      var element = document.getElementById("message");
+      element.innerHTML = "<p class='green'>"+response+"</p>";
+      console.table(response);
+    }, 
+
+    function(Error) {
+      var element = document.getElementById("message");
+      element.innerHTML = "<p class='red'>"+Error+"</p>";
+      console.log(Error);
+    }
+  );
+};
+
+function docLoad(object) {
+
+  return new Promise(function(resolve, reject) {
+
+    var host = ((object.method == 'POST')? 
+      {{- if (len (getenv "APP")) }}
+      {{ getenv "APP" }}
+      {{- else -}}
+      {{ .Site.Params.appHost }}
+      {{- end -}}
+      : "")+object.url;
+
+    var request = new XMLHttpRequest();
+    request.open(object.method || "GET", host);
+    request.setRequestHeader("Content-Type", "application/json");
+
+    request.onload = function() {
+      if (request.status === 200) {
+        resolve(request.response);
+      } else {
+        reject(Error('Document requested did not load successfully; error code:' + request.statusText));
+      }
+    };
+
+    request.onerror = function() {
+      reject(Error('There was a network error.'));
+    };
+    request.send(JSON.stringify(object));
+  });
+}
+
+</script>
+
+{{ end }}

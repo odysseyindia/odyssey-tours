@@ -7,7 +7,8 @@ var   getDirName  = require('path').dirname;
 const yaml 			  = require('js-yaml');
 var   app 			  = express();
 const port        = 1314;
-const dir         = "/home/alfred/webapps/odyssey-tours/content/english";
+const root        = "/home/alfred/webapps/odyssey-tours/"
+const dir         = root+"content/english";
 
 app.use(express.json());
 app.use(cors());
@@ -19,6 +20,182 @@ app.use(function (req, res, next) {
   res.setHeader('Access-Control-Allow-Credentials', true);
   res.setHeader('Content-Type', 'application/json');
   next();
+});
+
+
+app.post('/import',function (req, res) {
+
+  const readline = require('readline');
+  var request    = JSON.parse(req.body.data);
+  var file       = root + request.file;
+
+  console.log('Reading '+file);
+
+  // select city,  cities.writeUp, DefaultDays, cities.longitude,cities.latitude, cities.display, state from cities join states on cities.states_id=states.states_id join states s on s.states_id=cities.states_id where cities.display=1
+
+  const readInterface = readline.createInterface({
+        input: fs.createReadStream(file),
+        // output: process.stdout,
+        console: false
+  });
+
+  var lineno = 0;
+
+// replace possible errors in the database output
+// readInterface.replace(/,,,,,\n+/g,'');
+
+  readInterface.on('line', function (line) {
+
+    lineno++;
+
+
+    var lineArray = CSVToArray(line);
+    var array = lineArray[0];
+   
+// console.log(array);
+
+    var city   = array[0];
+        city   = city.toString().replace(/ +/g,'-').toLowerCase();
+    var state  = array[6];
+
+    if (typeof state === "undefined") throw "state for "+city+" is undefined";
+
+    state = state.replace(/ +/g,'-').toLowerCase(); 
+
+    var mdfile = dir+'/states/'+state+'/cities/'+city+'/';
+
+    console.log('Processing ',mdfile);
+
+    const made = mkdirp.sync(mdfile);
+
+//    try {
+//       var mdContents = fs.readFileSync(mdfile+'_index.md', 'utf8', (err) => {       
+//         if (err) throw err; 
+//       }) 
+//     } catch (error) {
+//       // console.log('Route import reading'+mdfile+': ' + error.message);
+//     } 
+
+     try {
+//    let data = yaml.safeLoadAll(mdContents);
+
+      frontMatter = {};
+
+      frontMatter.title           = array[0];
+      frontMatter.translationKey  = city;
+      frontMatter.defaultDays     = Number(array[2]) || 0;
+      frontMatter.latitude        = Number(array[3]) || '';
+      frontMatter.longitude       = Number(array[4]) || '';
+      frontMatter.draft           = (array[5]==1) ? false : true; // web
+      frontMatter.id              = 'city';
+      frontMatter.type            = 'city';
+      frontMatter.tags            = ['Cities',array[0] ];
+
+      let output = `---\n` 
+      + yaml.safeDump(frontMatter) 
+      + "---\n" 
+      + array[1]
+
+      var test = yaml.safeDump( frontMatter );
+      if (typeof test === "undefined"){
+        console.log(city+' has an issue');
+        console.table( array );
+      } else {
+        // console.table( output );
+        fs.writeFileSync(mdfile+'_index.md', output, 'utf8', (err) => {       
+          if (err) throw err; 
+        })
+      }; 
+    } catch (error) {
+      console.log("Route import writing "+city+": " + error.message);
+    } 
+
+  });
+
+
+    function CSVToArray( strData, strDelimiter ){
+        // Check to see if the delimiter is defined. If not,
+        // then default to comma.
+        strDelimiter = (strDelimiter || ",");
+
+        // Create a regular expression to parse the CSV values.
+        var objPattern = new RegExp(
+            (
+                // Delimiters.
+                "(\\" + strDelimiter + "|\\r?\\n|\\r|^)" +
+
+                // Quoted fields.
+                "(?:\"([^\"]*(?:\"\"[^\"]*)*)\"|" +
+
+                // Standard fields.
+                "([^\"\\" + strDelimiter + "\\r\\n]*))"
+            ),
+            "gi"
+            );
+
+
+        // Create an array to hold our data. Give the array
+        // a default empty first row.
+        var arrData = [[]];
+
+        // Create an array to hold our individual pattern
+        // matching groups.
+        var arrMatches = null;
+
+
+        // Keep looping over the regular expression matches
+        // until we can no longer find a match.
+        while (arrMatches = objPattern.exec( strData )){
+
+            // Get the delimiter that was found.
+            var strMatchedDelimiter = arrMatches[ 1 ];
+
+            // Check to see if the given delimiter has a length
+            // (is not the start of string) and if it matches
+            // field delimiter. If id does not, then we know
+            // that this delimiter is a row delimiter.
+            if (
+                strMatchedDelimiter.length &&
+                strMatchedDelimiter !== strDelimiter
+                ){
+
+                // Since we have reached a new row of data,
+                // add an empty row to our data array.
+                arrData.push( [] );
+
+            }
+
+            var strMatchedValue;
+
+            // Now that we have our delimiter out of the way,
+            // let's check to see which kind of value we
+            // captured (quoted or unquoted).
+            if (arrMatches[ 2 ]){
+
+                // We found a quoted value. When we capture
+                // this value, unescape any double quotes.
+                strMatchedValue = arrMatches[ 2 ].replace(
+                    new RegExp( "\"\"", "g" ),
+                    "\""
+                    );
+
+            } else {
+
+                // We found a non-quoted value.
+                strMatchedValue = arrMatches[ 3 ];
+
+            }
+
+
+            // Now that we have our value string, let's add
+            // it to the data array.
+            arrData[ arrData.length - 1 ].push( strMatchedValue );
+        }
+
+        // Return the parsed data.
+        return( arrData );
+    }
+
 });
 
 
@@ -138,6 +315,85 @@ app.post('/edit',function (req, res) {
 
 res.end();
 });
+
+
+app.post('/geolocation',function (req, res) {
+
+  const fs = require('fs'); 
+  const fetch = require('node-fetch');
+  const Bluebird = require('bluebird');
+ 
+  fetch.Promise = Bluebird;
+
+  
+
+
+  const nodeGeocoder = require("node-geocoder");
+  require('dotenv').config();
+  // console.log( process.env );
+
+  const API_KEY = process.env.googleAPI;
+
+  var request = JSON.parse(req.body.data);
+  var address = request.address;
+
+  const options = {
+    provider: 'google',
+    // Optional depending on the providers
+    fetch: 'JSON',
+    apiKey: API_KEY, 
+    formatter: null // 'gpx', 'string', ...
+  };
+
+  let geoCoder = nodeGeocoder(options);
+
+const { promisify } = require('util');
+const sleep = promisify(setTimeout);
+
+// console.log("address=",address);
+
+  try {
+   var dataStr = fs.readFileSync('CityArray.txt', 'utf8', (err) => {       
+     if (err) throw err; }) 
+  } 
+  catch (error) {
+    console.log('Route geolocation: ' + error.message);
+  } 
+
+  var dataArray = dataStr.split(",");
+  var lines = "";
+
+// dataArray.length
+
+  for (var i = 0, len = 3; i < len; i++) {
+    
+    sleep(6000).then(() => {
+
+      console.log( dataArray[i] );
+
+      let url = "https://maps.googleapis.com/maps/api/geocode/json?address='"+dataArray[i]+"'&key="+API_KEY;
+      // geoCoder.geocode(dataArray[i])
+
+      const body = { a: 1 };
+       
+      fetch(url, {
+              method: 'post',
+              body:    JSON.stringify(body),
+              headers: { 'Content-Type': 'application/json' },
+          })
+          .then(res => res.json())
+          .then(json => console.log(json));
+            
+          });
+          
+        }; 
+
+      fs.writeFileSync('CityArray.csv', lines, 'utf8', (err) => {  
+        if (err) throw err; 
+    });
+ 
+});
+
 
 
 app.get('/', function(req, res){ 
