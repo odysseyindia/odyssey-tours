@@ -1,0 +1,510 @@
+Maharashtra,Aurangabad,Half day excursion to Ellora,04:00,NULL,NULL,NULL,1,123,NULL,0,0,1
+Maharashtra,Aurangabad,Full day excursion to Ajanta,08:00,00:00.0,NULL,NULL,1,125,NULL,0,0,1
+Madhya Pradesh,Bandhavgarh,Transfer from Bandhavgarh to Umaria railway station,01:00,NULL,Departure transfer,Dep,1,NULL,Umaria,409,1,0
+Uttar Pradesh,Agra,Transfer from hotel to Tundla railway station,01:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Uttar Pradesh,Varanasi,Excursion to Sarnath,04:00,NULL,NULL,NULL,1,127,NULL,0,1,1
+Uttar Pradesh,Varanasi,Half day excursion to Ramnagar,04:00,NULL,NULL,NULL,1,127,NULL,0,1,1
+Delhi,Delhi,Transfer from International airport to hotel,01:00,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Rajasthan,Mandawa,Camel ride to villages near Mandawa,02:00,30:00.0,NULL,NULL,1,127,NULL,0,1,0
+Rajasthan,Jaipur,Full day sightseeing of Jaipur and Amber Fort,08:00,NULL,NULL,NULL,1,127,NULL,0,1,1
+Rajasthan,Jaisalmer,Half day walking tour of Jaisalmer,04:00,NULL,NULL,NULL,1,127,NULL,0,1,1
+Rajasthan,Jaisalmer,Afternoon excursion to the Thar desert,04:00,00:00.0,NULL,NULL,1,127,NULL,0,1,0
+West Bengal,Darjeeling,Early morning trip to Tiger Hill & Ghoom Monastery,04:00,00:00.0,NULL,NULL,1,127,NULL,0,1,1
+Uttar Pradesh,Agra,Transfer from Tundla railway station to hotel,01:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Rajasthan,Udaipur,Boat ride on Lake Pichola (by shared boat),01:00,NULL,NULL,NULL,1,127,NULL,0,1,0
+Tamil Nadu,Madurai,Half day city tour of Madurai,04:00,NULL,NULL,NULL,1,127,NULL,0,0,1
+Karnataka,Mysore,Half day city tour of Mysore,04:00,NULL,NULL,NULL,1,127,NULL,0,0,1
+Karnataka,Bangalore,Transfer from hotel to airport,01:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Tamil Nadu,Chennai,Transfer from airport to hotel,01:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Tamil Nadu,Chennai,Transfer from hotel to airport,01:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Tamil Nadu,Chennai,Transfer from railway station to hotel,01:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Tamil Nadu,Chennai,Transfer from hotel to railway station,01:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Tamil Nadu,Chennai,Full day excursion to Mamallapuram and Kanchipuram,08:00,NULL,NULL,NULL,1,127,NULL,0,0,1
+Tamil Nadu,Chennai,Excursion to Mamallapuram (with local guide),06:00,NULL,NULL,NULL,1,127,NULL,0,0,1
+Uttar Pradesh,Agra,Transfer from hotel to railway station,00:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Tamil Nadu,Chennai,Half day city tour of Chennai,04:00,NULL,NULL,NULL,1,127,NULL,0,0,1
+Tamil Nadu,Madurai,Transfer from airport to hotel,00:45,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Tamil Nadu,Madurai,Transfer from hotel to airport,00:45,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Tamil Nadu,Madurai,Transfer from railway station to hotel,00:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Tamil Nadu,Madurai,Transfer from hotel to railway station,00:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Kerala,Thekkady,Boat trip on Periyar lake,01:30,NULL,NULL,NULL,1,127,NULL,0,0,0
+Kerala,Trivandrum,Transfer from airport to hotel,00:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Kerala,Trivandrum,Transfer from hotel to airport,00:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Kerala,Trivandrum,Transfer from railway station to hotel,00:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Kerala,Trivandrum,Transfer from hotel to railway station,00:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Kerala,Kovalam,Full day excursion to Kanyakumari and Padmanabhaupuram,08:00,NULL,NULL,NULL,1,127,NULL,0,1,1
+Kerala,Kochi,Transfer from airport to hotel,02:00,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Kerala,Kochi,Transfer from hotel to airport,02:00,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Kerala,Kochi,Transfer from railway station to hotel,01:15,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Kerala,Kochi,Transfer from hotel to railway station,01:15,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Kerala,Kochi,Evening Kathakali dance performance,02:00,NULL,NULL,NULL,1,127,NULL,0,0,0
+Karnataka,Bangalore,Transfer from airport to hotel,01:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Karnataka,Bangalore,Transfer from railway station to hotel,00:45,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Karnataka,Bangalore,Transfer from hotel to railway station,00:45,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Karnataka,Bangalore,Half day city tour of Bangalore,04:00,NULL,NULL,NULL,1,127,NULL,0,1,1
+Lakshadweep,Agatti,Boat transfer from Agatti airport to Bangaram hotel,01:00,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Lakshadweep,Agatti,Boat transfer from Bangaram hotel to Agatti airport,01:00,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Karnataka,Mysore,Transfer from railway station to hotel,00:45,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Karnataka,Mysore,Transfer from hotel to railway station,00:45,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Goa,Goa,Transfer from airport to hotel,01:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Goa,Goa,Transfer from hotel to airport,01:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Goa,Goa,Half day city tour of Panjim and the Churches of Old Goa,04:00,NULL,NULL,NULL,1,127,NULL,0,0,1
+Maharashtra,Mumbai,Transfer from International airport to hotel,01:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Maharashtra,Mumbai,Transfer from hotel to International airport,01:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Maharashtra,Mumbai,Transfer from Domestic airport to hotel,01:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Maharashtra,Mumbai,Transfer from hotel to Domestic airport,01:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Maharashtra,Mumbai,Transfer from railway station to City hotel,00:45,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Maharashtra,Mumbai,Transfer from City hotel to railway station,00:45,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Maharashtra,Mumbai,Half day city tour of Mumbai,04:00,NULL,NULL,NULL,1,127,NULL,0,0,1
+Maharashtra,Aurangabad,Half day city tour of Aurangabad,03:00,NULL,NULL,NULL,1,127,NULL,0,0,1
+Maharashtra,Aurangabad,Transfer from airport to hotel,00:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Maharashtra,Aurangabad,Transfer from hotel to airport,00:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Maharashtra,Aurangabad,Transfer from railway station to hotel,00:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Maharashtra,Aurangabad,Transfer from hotel to railway station,00:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Maharashtra,Nagpur,Transfer from airport to hotel,00:45,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Maharashtra,Nagpur,Transfer from hotel to airport,00:45,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Maharashtra,Nagpur,Transfer from railway station to hotel,00:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Maharashtra,Nagpur,Transfer from hotel to railway station,00:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Gujarat,Ahmedabad,Transfer from airport to hotel,00:45,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Gujarat,Ahmedabad,Transfer from hotel to airport,00:45,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Gujarat,Ahmedabad,Transfer from railway station to hotel,00:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Gujarat,Ahmedabad,Transfer from hotel to railway station,00:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Gujarat,Sasangir,Jeep safari into Sasangir National Park,03:00,NULL,NULL,NULL,1,127,NULL,0,0,0
+Rajasthan,Jaipur,Half day city tour of Jaipur,04:00,NULL,NULL,NULL,1,127,NULL,0,1,1
+Rajasthan,Jaipur,Transfer from airport to hotel,00:45,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Rajasthan,Jaipur,Transfer from hotel to airport,00:45,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Rajasthan,Jaipur,Transfer from railway station to hotel,00:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Rajasthan,Jaipur,Transfer from hotel to railway station,00:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Rajasthan,Udaipur,Transfer from airport to hotel,01:00,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Rajasthan,Udaipur,Half day city tour of Udaipur,03:00,NULL,NULL,NULL,1,127,NULL,0,1,1
+Rajasthan,Udaipur,Transfer from hotel to airport,01:00,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Rajasthan,Udaipur,Transfer from railway station to hotel,00:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Rajasthan,Udaipur,Transfer from hotel to railway station,00:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Rajasthan,Jodhpur,Audio-guide tour of Jodhpur's Meherangarh Fort,04:00,NULL,NULL,NULL,1,127,NULL,0,1,0
+Rajasthan,Jodhpur,Transfer from airport to hotel,00:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Rajasthan,Jodhpur,Transfer from hotel to airport,00:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Rajasthan,Jodhpur,Transfer from railway station to hotel,00:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Rajasthan,Jodhpur,Transfer from hotel to railway station,00:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Rajasthan,Bikaner,Half day city tour of Bikaner,04:00,NULL,NULL,NULL,1,127,NULL,0,1,1
+Rajasthan,Bikaner,Transfer from railway station to hotel,00:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Rajasthan,Bikaner,Transfer from hotel to railway station,00:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Rajasthan,Jaisalmer,Transfer from airport to hotel,00:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Rajasthan,Jaisalmer,Transfer from hotel to airport,00:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Rajasthan,Jaisalmer,Transfer from railway station to hotel,00:15,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Rajasthan,Jaisalmer,Transfer from hotel to railway station,00:15,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Rajasthan,Sariska,Jeep safari to Sariska National Park,04:00,NULL,NULL,NULL,1,127,NULL,0,0,0
+Uttar Pradesh,Agra,Half day city tour of Agra,04:00,NULL,NULL,NULL,1,95,NULL,0,1,1
+Uttar Pradesh,Agra,Transfer from railway station to hotel,00:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Uttar Pradesh,Agra,Transfer from airport to hotel,00:45,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Uttar Pradesh,Agra,Transfer from hotel to airport,00:45,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Uttar Pradesh,Varanasi,Transfer from airport to hotel,01:30,NULL,Arrival transfer,Arr,1,NULL,NULL,NULL,1,0
+Uttar Pradesh,Varanasi,Transfer from hotel to airport,01:30,NULL,Departure transfer,Dep,1,NULL,NULL,NULL,1,0
+Uttar Pradesh,Varanasi,Transfer from railway station to hotel,01:00,NULL,Arrival transfer,Arr,1,NULL,NULL,NULL,1,0
+Uttar Pradesh,Varanasi,Transfer from hotel to railway station,01:00,NULL,Departure transfer,Dep,1,NULL,NULL,NULL,1,0
+Uttar Pradesh,Varanasi,Transfer from Mughal Sarai railway station to hotel,01:30,NULL,Arrival transfer,Arr,1,NULL,NULL,NULL,1,0
+Uttar Pradesh,Varanasi,Transfer from hotel to Mughal Sarai railway station,01:30,NULL,Departure transfer,Dep,1,NULL,NULL,NULL,1,0
+Madhya Pradesh,Khajuraho,Half day tour of Khajuraho temples,04:00,NULL,NULL,NULL,1,127,NULL,0,1,1
+Madhya Pradesh,Khajuraho,Transfer from airport to hotel,00:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Madhya Pradesh,Khajuraho,Transfer from hotel to airport,00:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Madhya Pradesh,Gwalior,Transfer airport to hotel,01:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Madhya Pradesh,Gwalior,Transfer from hotel to airport,01:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Madhya Pradesh,Gwalior,Transfer from railway station to hotel,00:45,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Madhya Pradesh,Gwalior,Transfer from hotel to railway station,00:45,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Madhya Pradesh,Gwalior,Half day city tour of Gwalior,04:00,NULL,NULL,NULL,1,127,NULL,0,1,1
+Uttar Pradesh,Lucknow,Transfer from airport to hotel,01:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Uttar Pradesh,Lucknow,Transfer from hotel to airport,01:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Uttar Pradesh,Lucknow,Transfer from railway station to hotel,01:00,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Uttar Pradesh,Lucknow,Transfer from hotel to railway station,01:00,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Uttar Pradesh,Lucknow,Half day city tour of Lucknow,04:00,NULL,NULL,NULL,1,127,NULL,0,1,1
+West Bengal,Kolkata,Transfer from airport to hotel,01:00,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+West Bengal,Kolkata,Transfer from hotel to airport,01:00,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+West Bengal,Kolkata,Transfer from railway station to hotel,00:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+West Bengal,Kolkata,Transfer from hotel to railway station,00:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+West Bengal,Kolkata,Half day city tour of Kolkata,04:00,NULL,NULL,NULL,1,127,NULL,0,0,1
+Madhya Pradesh,Jabalpur,Transfer from Jabalpur airport to hotel,01:00,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Madhya Pradesh,Jabalpur,Transfer from hotel to Jabalpur airport,01:00,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Madhya Pradesh,Jabalpur,Transfer from Jabalpur railway station to hotel,00:20,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Madhya Pradesh,Jabalpur,Transfer from hotel to Jabalpur railway station,00:20,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Orissa,Bhubaneswar,Transfer from airport to hotel,00:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Orissa,Bhubaneswar,Transfer from hotel to airport,00:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Orissa,Bhubaneswar,Transfer from railway station to hotel,00:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Orissa,Bhubaneswar,Transfer from hotel to railway station,00:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Orissa,Bhubaneswar,Half day city tour of Bhubaneshwar temples,04:00,NULL,NULL,NULL,1,127,NULL,0,1,1
+Delhi,Delhi,Transfer from hotel to International airport,01:00,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Delhi,Delhi,Transfer from Domestic airport to hotel,01:00,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Delhi,Delhi,Transfer from hotel to Domestic airport,01:00,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Delhi,Delhi,Transfer from railway station to hotel,00:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Delhi,Delhi,Transfer from hotel to railway station,00:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Uttar Pradesh,Agra,Half day excursion to Fatehpur Sikri,04:00,NULL,NULL,NULL,1,127,NULL,0,1,1
+Tamil Nadu,Thanjavur,Half day city tour of Thanjavur,04:00,NULL,NULL,NULL,1,127,NULL,0,1,1
+Tamil Nadu,Mamallapuram,Half day sightseeing of Mamallapuram,04:00,NULL,NULL,NULL,1,127,NULL,0,0,1
+Uttaranchal,Corbett,Jeep safari in Corbett National Park,04:00,NULL,NULL,NULL,1,127,NULL,0,0,0
+Rajasthan,Jaipur,Half day excursion to Amber Fort,04:00,NULL,NULL,NULL,1,127,NULL,0,1,1
+Rajasthan,Sawai Madhopur,Transfer from railway station to hotel,01:00,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Assam,Guwahati,Transfer from airport to hotel,01:00,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Assam,Guwahati,Transfer from hotel to airport,01:00,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Assam,Guwahati,Transfer from railway station to hotel,00:45,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Assam,Guwahati,Transfer from hotel to railway station,00:45,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Rajasthan,Sawai Madhopur,Transfer from hotel to railway station,01:00,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Punjab,Amritsar,Transfer from airport to hotel,00:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Punjab,Amritsar,Transfer from hotel to airport,00:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Punjab,Amritsar,Transfer from railway station to hotel,00:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Punjab,Amritsar,Transfer from hotel to railway station,00:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Punjab,Amritsar,Half day city tour of Amritsar,04:00,NULL,NULL,NULL,1,127,NULL,0,0,1
+Punjab,Amritsar,Night visit of the Golden Temple,02:00,NULL,NULL,NULL,1,127,NULL,0,0,1
+Telengana,Hyderabad,Transfer from airport to hotel,01:00,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Telengana,Hyderabad,Transfer from hotel to airport,01:00,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Telengana,Hyderabad,Transfer from railway station to hotel,01:00,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Telengana,Hyderabad,Transfer from hotel to railway station,01:00,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Telengana,Hyderabad,Half day city tour of Hyderabad,04:00,NULL,NULL,NULL,1,127,NULL,0,1,1
+Rajasthan,Sawai Madhopur,Visit of Ranthambhore Fort,03:00,NULL,NULL,NULL,1,127,NULL,0,0,1
+Madhya Pradesh,Bhopal,Transfer from airport to hotel,00:45,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Madhya Pradesh,Bhopal,Transfer from hotel to airport,00:45,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Madhya Pradesh,Bhopal,Transfer from railway station to hotel,00:45,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Madhya Pradesh,Bhopal,Transfer from hotel to railway station,00:45,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Madhya Pradesh,Bhopal,Half-day city tour of Bhopal,04:00,NULL,NULL,NULL,1,127,NULL,0,1,1
+Madhya Pradesh,Bhopal,Full-day excursion to Sanchi & Udaigiri,08:00,NULL,NULL,NULL,1,127,NULL,0,1,1
+Madhya Pradesh,Bhopal,Half-day excursion to Bhimbetika,04:00,NULL,NULL,NULL,1,127,NULL,0,1,1
+Madhya Pradesh,Indore,Transfer from Indore airport to hotel,00:45,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Madhya Pradesh,Indore,Transfer from hotel to Indore airport,00:45,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Madhya Pradesh,Indore,Transfer from Indore railway station to hotel,00:45,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Madhya Pradesh,Indore,Transfer from hotel to Indore railway station,00:45,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Ladakh,Leh,"Full day excursion to Shey, Thiksey and Hemis",08:00,NULL,NULL,NULL,1,127,NULL,0,0,1
+Rajasthan,Udaipur,Boat ride on Lake Pichola (by private boat),01:00,NULL,NULL,NULL,1,127,NULL,0,1,0
+Ladakh,Leh,Transfer from airport to hotel,01:00,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Ladakh,Leh,Transfer from hotel to airport,01:00,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Ladakh,Leh,Half day walking tour of Leh,04:00,NULL,NULL,NULL,1,127,NULL,0,0,1
+Karnataka,Hospet,Transfer from railway station to hotel,00:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Karnataka,Hospet,Transfer from hotel to railway station,00:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Assam,Guwahati,Half day city tour of Guwahati,04:00,NULL,NULL,NULL,1,127,NULL,0,1,1
+Sikkim,Gangtok,Excursion to Phodang & Labrang by NAC Jeep,06:00,NULL,NULL,NULL,1,127,NULL,0,1,0
+Meghalaya,Shillong,Half day city tour of Shillong,04:00,NULL,NULL,NULL,1,127,NULL,0,1,0
+Meghalaya,Shillong,Full day excursion to Cherapunji,08:00,NULL,NULL,NULL,1,127,NULL,0,1,0
+Rajasthan,Karauli,Walking tour of Karauli,03:00,NULL,NULL,NULL,1,127,NULL,0,0,0
+Delhi,Delhi,Half day tour of Old Delhi,04:00,NULL,NULL,NULL,1,127,NULL,0,0,1
+Delhi,Delhi,Half day tour of New Delhi,04:00,NULL,NULL,NULL,1,127,NULL,0,0,1
+Goa,Goa,Transfer from Margao railway station to hotel,01:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Goa,Goa,Transfer from hotel to Margao railway station,01:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Tamil Nadu,Mamallapuram,Transfer from Chennai airport to hotel,01:00,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Tamil Nadu,Mamallapuram,Transfer from hotel to Chennai airport,01:00,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Chandigarh,Chandigarh,Transfer from airport to hotel,01:00,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Chandigarh,Chandigarh,Transfer from hotel to airport,01:00,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Chandigarh,Chandigarh,Transfer from railway station to hotel,00:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Chandigarh,Chandigarh,Transfer from hotel to railway station,00:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Orissa,Puri,Transfer from railway station to hotel,01:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Orissa,Puri,Transfer from hotel to railway station,01:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Himachal Pradesh,Shimla,Transfer from airport to hotel,01:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Himachal Pradesh,Shimla,Transfer from hotel to airport,01:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Himachal Pradesh,Shimla,Transfer from railway station to hotel,00:30,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Himachal Pradesh,Shimla,Transfer from hotel to railway station,00:30,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Himachal Pradesh,Dharamsala,Transfer from airport to hotel,00:45,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Himachal Pradesh,Dharamsala,Transfer from hotel to airport,00:45,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Maharashtra,Mumbai,Transfer from railway station to Suburban hotel,00:45,NULL,Arrival transfer,Arr,1,NULL,NULL,0,1,0
+Maharashtra,Mumbai,Transfer from Suburban hotel to railway station,00:45,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Delhi,Delhi,Full day city tour of Old & New Delhi,08:00,NULL,NULL,NULL,1,127,NULL,0,0,1
+Madhya Pradesh,Umaria,Transfer from Umaria railway station to Bandhavgarh,01:00,NULL,Arrival transfer,Arr,1,NULL,Bandhavgarh,22,1,0
+Kerala,Kovalam,Transfer from Kovalam hotel to Thiruvananthapuram airport,00:45,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Kerala,Kovalam,Transfer from Kovalam hotel to Thiruvananthapuram railway station,01:00,NULL,Departure transfer,Dep,1,NULL,NULL,0,1,0
+Sikkim,Martam,Transfer from hotel to Bagdogra airport,04:30,NULL,Departure transfer,Dep,1,NULL,Bagdogra,164,1,0
+Sikkim,Martam,Transfer from hotel to New Jalpaiguri railway station,04:00,NULL,Departure transfer,Dep,1,NULL,New Jalpaiguri,308,1,0
+Sikkim,Martam,Transfer from hotel to Siliguri railway station,04:00,NULL,Departure transfer,Dep,1,NULL,Siliguri,376,1,0
+Sikkim,Martam,Transfer from hotel to Gangtok,00:30,NULL,None,No,1,NULL,Gangtok,131,1,0
+Sikkim,Martam,Transfer from hotel to Pelling,05:30,NULL,None,No,1,NULL,Pelling,331,1,0
+Sikkim,Martam,Transfer from hotel to Kalimpong,03:30,NULL,None,No,1,NULL,Kalimpong,198,1,0
+Sikkim,Martam,Transfer from hotel to Darjeeling,05:30,NULL,None,No,1,NULL,Darjeeling,99,1,0
+Sikkim,Martam,Transfer from hotel to Jaldapara,08:00,NULL,None,No,1,NULL,Jaldapara,178,1,0
+Rajasthan,Rohet,Village safari,03:30,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Chhattisgarh,Raipur,Transfer from Raipur airport to hotel,01:00,NULL,Arrival transfer,Arr,1,NULL,NULL,NULL,0,0
+Chhattisgarh,Raipur,Transfer from hotel to Raipur airport,01:00,NULL,Departure transfer,Dep,1,NULL,NULL,NULL,0,0
+Chhattisgarh,Raipur,Transfer from Raipur railway station to hotel,01:00,NULL,Arrival transfer,Arr,1,NULL,NULL,NULL,0,0
+Chhattisgarh,Raipur,Transfer from hotel to Raipur railway station,01:00,NULL,Departure transfer,Dep,1,NULL,NULL,NULL,0,0
+Goa,Goa,Transfer from Thivim railway station to hotel,00:45,NULL,Arrival transfer,Arr,1,NULL,NULL,NULL,1,0
+Goa,Goa,Transfer from hotel to Thivim railway station,00:45,NULL,Departure transfer,Dep,1,NULL,NULL,NULL,1,0
+Kerala,Thekkady,Nature walk in Periyar Wildlife Sanctuary,03:00,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Uttaranchal,Corbett,Canter safari to Dhikala,06:00,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Goa,Goa,Transfer from airport to Yab Yum Beach Resort,02:00,NULL,Arrival transfer,Arr,1,NULL,NULL,NULL,1,0
+Goa,Goa,Transfer from Yab Yum Beach Resort to airport,02:00,NULL,Departure transfer,Dep,1,NULL,NULL,NULL,1,0
+Rajasthan,Chandelao,Jeep safari to villages surrounding Chandelao,03:30,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Rajasthan,Deogarh,Jeep safari (Rural Ramble),03:00,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Uttar Pradesh,Varanasi,Transfer from hotel to Manduadih railway station,01:00,NULL,Departure transfer,Dep,1,NULL,NULL,NULL,1,0
+Uttar Pradesh,Varanasi,Transfer from Manduadih railway station to hotel,01:00,NULL,Arrival transfer,Arr,1,NULL,NULL,NULL,1,0
+Haryana,Gurgaon,Transfer from Delhi International airport to hotel,01:00,NULL,Arrival transfer,Arr,1,NULL,NULL,NULL,1,0
+Haryana,Gurgaon,Transfer from hotel to Delhi International airport,01:00,NULL,Arrival transfer,Arr,1,NULL,NULL,NULL,1,0
+Haryana,Gurgaon,Transfer from Delhi Domestic airport to hotel,01:00,NULL,Arrival transfer,Arr,1,NULL,NULL,NULL,1,0
+Haryana,Gurgaon,Transfer from hotel to Delhi Domestic airport,01:00,NULL,Arrival transfer,Arr,1,NULL,NULL,NULL,1,0
+Punjab,Amritsar,Afternoon excursion to the Wagah Border,03:00,NULL,NULL,NULL,1,127,NULL,NULL,0,1
+Haryana,Gurgaon,Transfer from hotel to Delhi railway station,01:00,NULL,Departure transfer,Dep,1,NULL,NULL,NULL,1,0
+Haryana,Gurgaon,Transfer from Delhi railway station to hotel,01:00,NULL,Arrival transfer,Arr,1,NULL,NULL,NULL,1,0
+Kerala,Kochi,Half day city tour of Fort Cochin,04:00,NULL,NULL,NULL,1,127,NULL,NULL,0,1
+Rajasthan,Bhenswara,Village and leopard safari by Jeep,03:30,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Rajasthan,Osian,Afternoon camel ride in the Thar desert,01:30,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Rajasthan,Sawai Madhopur,Jeep safari in Ranthambhore N.P,03:00,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Rajasthan,Sawai Madhopur,Game ride by canter in Ranthambhore N.P.,03:00,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Himachal Pradesh,Dharamsala,Half day city tour,04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,1
+Himachal Pradesh,Dharamsala,Full day city tour,08:00,NULL,NULL,NULL,1,127,NULL,NULL,1,1
+West Bengal,Darjeeling,"Half day tour of Himalayan Mountaineering Institute, Zoo and Tibetan Refugee Centre",04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,1
+Madhya Pradesh,Bandhavgarh,Transfer from Umaria railway station to Bandhavgarh.,01:00,NULL,Arrival transfer,Arr,1,NULL,Umaria,409,1,0
+Tamil Nadu,Mamallapuram,Transfer from Chennai railway station to hotel,01:00,NULL,Arrival transfer,Arr,1,NULL,NULL,NULL,1,0
+Tamil Nadu,Mamallapuram,Transfer from hotel to Chennai railway station,01:00,NULL,Departure transfer,Dep,1,NULL,NULL,NULL,1,0
+Kerala,Kovalam,Transfer from Thiruvananthapuram railway station to Kovalam hotel,01:00,NULL,Arrival transfer,Arr,1,NULL,NULL,NULL,1,0
+Kerala,Kovalam,Transfer from Thirivananthapuram airport to Kovalam hotel,00:45,NULL,Arrival transfer,Arr,1,NULL,NULL,NULL,1,0
+Kerala,Thekkady,Full day trekking and bamboo rafting in Periyar Tiger Reserve,09:00,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Kerala,Thekkady,Spice plantation visit,02:00,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Kerala,Mararikulam,Transfer from hotel to Kochi airport,02:00,NULL,Departure transfer,Dep,1,NULL,NULL,NULL,1,0
+Kerala,Mararikulam,Transfer from Kochi airport to hoyel,02:00,NULL,Arrival transfer,Arr,1,NULL,NULL,NULL,1,0
+Gujarat,Dasada,Wildlife safari in the Little Rann of Kutch,03:00,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Gujarat,Dasada,Afternoon birdwatching trip,03:00,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Gujarat,Palitana,Early morning hike to the Palitana temples,06:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Madhya Pradesh,Orchha,Half day tour of Orchha,04:00,NULL,NULL,NULL,1,127,NULL,NULL,0,1
+Rajasthan,Bharatpur,Visit to the bird sanctuary,02:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Rajasthan,Mandawa,Walking tour of Mandawa,03:00,NULL,NULL,NULL,1,127,NULL,NULL,1,1
+Uttaranchal,Haridwar,Transfer from railway station to hotel,00:30,NULL,Arrival transfer,Arr,1,NULL,NULL,NULL,1,0
+Uttaranchal,Haridwar,Transfer from hotel to railway station,00:30,NULL,Departure transfer,Dep,1,NULL,NULL,NULL,1,0
+Madhya Pradesh,Jabalpur,Half day city tour and visit to the Marble Rocks,06:00,NULL,NULL,NULL,1,127,NULL,NULL,0,1
+Karnataka,Hampi,Full day sightseeing of Hampi,08:00,NULL,NULL,NULL,1,127,NULL,NULL,0,1
+Karnataka,Hospet,Full day sightseeing Hampi,08:00,NULL,NULL,NULL,1,127,NULL,NULL,0,1
+Madhya Pradesh,Khajuraho,Transfer from railway station to hotel,00:30,NULL,Arrival transfer,Arr,1,NULL,NULL,NULL,1,0
+Madhya Pradesh,Khajuraho,Transfer from hotel to railway station,00:30,NULL,Departure transfer,Dep,1,NULL,NULL,NULL,1,0
+Karnataka,Hampi,Transfer from Hospet railway station to Hampi hotel,01:00,NULL,Arrival transfer,Arr,1,NULL,NULL,NULL,1,0
+Karnataka,Hampi,Transfer from Hampi hotel to Hospet railway station,01:00,NULL,Departure transfer,Dep,1,NULL,NULL,NULL,1,0
+Karnataka,Nagarhole,Safari in Nagarhole National Park,04:00,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Kerala,Munnar,Excursion to Eravikulam National Park and the Tea Museum in Munnar,04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,1
+Assam,Kaziranga,Morning and afternoon jeep safaris in Central and Western Range,06:00,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Uttar Pradesh,Varanasi,Evening aarti ceremony by boat,02:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Jammu & Kashmir,Srinagar,Transfer from airport to hotel,01:00,NULL,Arrival transfer,Arr,1,NULL,NULL,NULL,1,0
+Jammu & Kashmir,Srinagar,Transfer from hotel to airport,01:00,NULL,Arrival transfer,Arr,1,NULL,NULL,NULL,1,0
+Jammu & Kashmir,Srinagar,Sightseeing tour of the Moghul Gardens,03:00,NULL,NULL,NULL,1,127,NULL,NULL,1,1
+Ladakh,Alchi,Visit to Alchi Monastery,02:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Ladakh,Themisgaam,Visit to Themisgaam gompa,02:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Assam,Majuli,Majuli sightseeing,04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Assam,Dibrugarh,Excursion to Name Phake and Digboi,08:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Assam,Dibrugarh,Excursion to Nam Phake,04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Nagaland,Mokokchung,Visit to Longkhum and Mopunchuket,06:00,NULL,NULL,NULL,1,127,NULL,NULL,1,1
+Nagaland,Mon,Visit to Longwa and Hongphoi,08:00,NULL,NULL,NULL,1,127,NULL,NULL,1,1
+Bihar,Bodh Gaya,Half day tour of Bodh Gaya,04:00,NULL,NULL,NULL,1,127,NULL,NULL,0,1
+Maharashtra,Tadoba,Jeep safari in Tadoba National Park,03:00,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Maharashtra,Tadoba,Morning and afternoon jeep safaries in Tadoba National Park,12:00,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Himachal Pradesh,Mashobra,Full day tour of Shimla,05:00,NULL,NULL,NULL,1,127,NULL,NULL,0,1
+Rajasthan,Sawai Madhopur,Private jeep safari in Ranthambhore N.P,03:00,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Goa,Goa,Transfer from Dwarka Beach Resort to airport,02:00,NULL,Departure transfer,Dep,1,NULL,NULL,NULL,1,0
+Goa,Goa,Transfer from airport to Dwarka Beach Resort,02:00,NULL,Arrival transfer,Arr,1,NULL,NULL,NULL,1,0
+Rajasthan,Jaipur,See a Bollywood movie,03:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Rajasthan,Udaipur,Indian cooking class,03:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Maharashtra,Mumbai,Mumbai heritage walk,02:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Sikkim,Pelling,Visit to Pemyangtse Monastery,03:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Sikkim,Pelling,Hike to Sanga Choling Monastery,02:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Uttar Pradesh,Varanasi,Early morning Ganges river boat trip followed by a short walk through the Old City,02:00,NULL,NULL,NULL,1,127,NULL,NULL,1,1
+Pondicherry,Pondicherry,Cycling tour of Pondicherry,01:30,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Rajasthan,Barli,Bullock cart trip through Barli village,02:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Gujarat,Velavadar,Jeep safari into Velavadar National Park,03:00,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Rajasthan,Chittaurgarh,Visit to Chittaurgarh Fort,04:00,NULL,NULL,NULL,1,127,NULL,NULL,0,1
+Assam,Kaziranga,Jeep safari in Central Range,03:00,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Assam,Kaziranga,Jeep safari in Western Range,03:00,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Assam,Kaziranga,Jeep safari in Eastern Range,03:00,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Delhi,Delhi,Half day tour of Old Delhi by metro & rickshaw,04:00,NULL,NULL,NULL,1,127,NULL,NULL,0,1
+Madhya Pradesh,Pench,Shared jeep safari in Pench National Park,03:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Orissa,Puri,Excursion to Raghurajpur,03:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+West Bengal,Sunderbans,Afternoon birding and game cruise,02:00,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Gujarat,Sasangir,Morning and afternoon jeep safaris into Sasangir National Park,06:00,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Orissa,Konarak,Visit to the Sun Temple,02:00,NULL,NULL,NULL,1,127,NULL,NULL,1,1
+Orissa,Chilika lake,Boat trip on Chilika Lake,02:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Gujarat,Ahmedabad,Heritage walk,02:45,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Rajasthan,Chittaurgarh,Cooking class,02:00,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Kerala,Mararikulam,Transfer from airport to hotel,01:15,NULL,Arrival transfer,Arr,1,NULL,NULL,NULL,1,0
+Kerala,Mararikulam,Transfer from hotel to airport,01:15,NULL,Arrival transfer,Arr,1,NULL,NULL,NULL,1,0
+Rajasthan,Chanoud,Jeep safari,02:00,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Rajasthan,Chanoud,Cooking class,02:00,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Rajasthan,Chanoud,Village walk,02:00,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Meghalaya,Cherrapunji,Trek to the living root bridges,05:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Nagaland,Tuophema,Tuophema village walk,03:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Nagaland,Khonoma,Khonoma village walk,03:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Nagaland,Kohima,Half day sightseeing tour of Kohima,04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,1
+Assam,Jorhat,Transfer from hotel to airport,00:30,NULL,Departure transfer,Dep,1,NULL,NULL,NULL,1,0
+Assam,Jorhat,Transfer from airport to hotel,00:30,NULL,Arrival transfer,Arr,1,NULL,NULL,NULL,1,0
+Assam,Jorhat,Tea tour,01:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Assam,Dibrugarh,Transfer from airport to hotel,01:00,NULL,Arrival transfer,Arr,1,NULL,NULL,NULL,1,0
+Assam,Dibrugarh,Transfer from hotel to airport,01:00,NULL,Departure transfer,Dep,1,NULL,NULL,NULL,1,0
+Assam,Dibrugarh,Afternoon tea,00:30,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Meghalaya,Shillong,Day excursion to Mawlynnong,08:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Gujarat,Ahmedabad,Gandhi's Sabarmati Ashram & Law Garden Market,03:00,NULL,NULL,NULL,1,127,NULL,NULL,1,1
+Maharashtra,Mumbai,Dharavi slum tour,04:30,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Maharashtra,Mumbai,Mumbai street food tour,04:00,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Rajasthan,Udaipur,Explore Udaipur Old City on bikes,02:30,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+West Bengal,Sunderbans,Full day cruise to explore the Sunderbans,08:00,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+West Bengal,Sunderbans,Village walk followed by boat trip,03:00,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Rajasthan,Jaipur,Excursion to Elephantastic,04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Uttar Pradesh,Agra,Early morning visit to the Taj Mahal (without guide),02:00,NULL,NULL,NULL,1,95,NULL,NULL,1,0
+Ladakh,Lamayuru,Visit to Lamayuru monastery,01:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Ladakh,Hundar,Visit to Deskit monastery followed by a camel ride,04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Ladakh,Kyagar,"Excursion to Samstanling gompa, Yarab Tso & Panamik hotsprings",04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Himachal Pradesh,Dharamsala,Trek from Satobari to Kareri (1900m - 4/5 hours walk),05:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Himachal Pradesh,Dharamsala,Trek from Kareri to Bahl (2000m - 5/6 hours walk),06:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Himachal Pradesh,Dharamsala,Trek from Bahl to Triund (2900m - 4/5 hours walk),05:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Himachal Pradesh,Dharamsala,Trek from Laheta to Bhagsu Nag (3 hours walk),03:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Uttar Pradesh,Vrindavan,Tour of Vrindavan and Mathura,04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Uttar Pradesh,Agra,Afternoon guided city tour of Agra,04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,1
+Gujarat,Dasada,Village safari,03:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Rajasthan,Jaipur,Pink Inside cycle tour,03:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Rajasthan,Jaipur,Pink city walk,03:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Himachal Pradesh,Dharamsala,Trek to Himalayan Gaddi Kingdom,09:00,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Rajasthan,Karauli,Camel cart ride to Old City Palace,03:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Rajasthan,Deogarh,Train excursion with jeep transfers,03:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Delhi,Delhi,Delhi by cycle (Shah Jahan Tour),03:30,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Rajasthan,Kumbhalgarh,Visit to Kumbhalgarh Fort,02:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Delhi,Delhi,Full day tour of New Delhi,08:00,NULL,NULL,NULL,1,127,NULL,NULL,0,1
+Himachal Pradesh,Dharamsala,Yoga class,02:00,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Rajasthan,Narlai,Narlai village walk,01:30,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Madhya Pradesh,Bandhavgarh,Jeep safari in Bandhavgarh National Park,03:00,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Madhya Pradesh,Bandhavgarh,Morning and afternoon jeep safaris in Bandhavgarh National Park,12:00,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Madhya Pradesh,Kanha,Jeep safari in Kanha National Park,03:00,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Madhya Pradesh,Kanha,Morning and afternoon jeep safaris in Kanha National Park,12:00,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Uttar Pradesh,Agra,Day trip from Delhi to Agra by Gatimaan Express train,08:00,NULL,NULL,NULL,1,95,NULL,NULL,0,1
+Gujarat,Ahmedabad,Heritage walk from House of MG,02:00,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Nagaland,Kohima,Half day excursion to Khonoma,04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,1
+Delhi,Delhi,Delhi by cycle (Yamuna Tour),03:30,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+Goa,Goa,Transfer from airport to Agonda hotel,02:00,NULL,Arrival transfer,Arr,1,NULL,NULL,NULL,1,0
+Goa,Goa,Transfer from Agonda hotel to airport,02:00,NULL,Departure transfer,Dep,1,NULL,NULL,NULL,1,0
+Goa,Goa,Transfer from Panjim hotel to Yab Yum,01:00,NULL,Arrival transfer,Arr,1,NULL,NULL,NULL,1,0
+Ladakh,Tso Moriri,Visit Tso Moriri lake,04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Ladakh,Hundar,Excursion to Tukruk,08:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Ladakh,Leh,Half day excursion to Shey & Tikse,04:00,NULL,NULL,NULL,1,127,NULL,NULL,0,1
+Ladakh,Leh,Full day excursion to Hemis festival,08:00,NULL,NULL,NULL,1,127,NULL,NULL,0,1
+Rajasthan,Jaipur,"A culinary tour with an Indian housewife, lunch or dinner",03:30,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Rajasthan,Udaipur,Udaipur outskirts cycling,02:30,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Rajasthan,Chandelao,Excursion to Pipar bazaar,03:00,NULL,NULL,NULL,1,127,NULL,NULL,0,0
+West Bengal,Bagdogra,Transfer from airport to hotel,01:00,NULL,Arrival transfer,Arr,1,NULL,NULL,NULL,1,0
+West Bengal,Bagdogra,Transfer from hotel to airport,01:00,NULL,Departure transfer,Dep,1,NULL,NULL,NULL,1,0
+Rajasthan,Jaipur,Private Pink Inside cycle tour,03:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Kerala,Thattekad,Bird watching trip,03:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Kerala,Thattekad,"Walking, cycling & kayaking",03:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Uttar Pradesh,Varanasi,"Early morning Ganges aarti, boat ride and walking tour",02:30,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Goa,Goa,Transfer from airport to Mangaal Farm Homestay,01:30,NULL,Arrival transfer,Arr,1,NULL,NULL,NULL,1,0
+Goa,Goa,Transfer from Mangaal Farm Homestay to airport,01:30,NULL,Departure transfer,Dep,1,NULL,NULL,NULL,1,0
+Goa,Goa,Transfer from Mangaal Farm Homestay to Agonda hotel,00:30,NULL,Departure transfer,Dep,1,NULL,NULL,NULL,1,0
+Rajasthan,Padarla,Wildlife safari,03:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Karnataka,Mysore,Half day excursion to Somnathpur,04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,1
+Kerala,Thrissur,Visit to local artisans near the Nila river,04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,1
+Kerala,Thrissur,Visit to a Kalamandalam - a performing arts centre,03:30,NULL,NULL,NULL,1,62,NULL,NULL,1,1
+Chhattisgarh,Bhoramdeo,Guided visit to local tribal villages,08:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Chhattisgarh,Bhoramdeo,Guided nature walk in the hills around Bhoramdeo,04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Goa,Goa,Lunch at Palácio do Deão,02:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Goa,Goa,Transfer Panjim-Quepem-Netraviali,04:20,NULL,Departure transfer,Dep,1,NULL,NULL,NULL,1,0
+Uttar Pradesh,Agra,Early morning guided visit to the Taj,02:00,NULL,NULL,NULL,1,95,NULL,NULL,0,1
+Rajasthan,Jaipur,Private Pink city walk,03:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+West Bengal,Darjeeling,Walk to Sirikhola,02:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+West Bengal,Darjeeling,Walk to Gurdum,04:30,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+West Bengal,Darjeeling,Walk to Sandakphu,05:30,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+West Bengal,Darjeeling,Walk back to Rimbik,06:30,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Kerala,Thekkady,Bullock Cart Ride and Village Tour,02:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+West Bengal,Rimbik,Walk to Sirikhola,02:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+West Bengal,Rimbik,Walk to Gurdum,04:30,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+West Bengal,Rimbik,Walk to Sandakphu,05:30,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+West Bengal,Rimbik,Walk back to Rimbik,06:30,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Rajasthan,Jodhpur,Walking tour of Jodhpur,02:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Rajasthan,Dholpur,Chambal boat safari,01:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Rajasthan,Dholpur,Chambal jeep safari,05:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Rajasthan,Bijaynagar,Ox cart ride,03:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Chandigarh,Chandigarh,Half-day sightseeing of Chandigarh,04:00,NULL,NULL,NULL,1,127,NULL,NULL,0,1
+Madhya Pradesh,Khajuraho,Excursion to Panna National Park,03:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Rajasthan,Udaipur,Half day city tour of Udaipur followed by a boat trip on Lake Pichola (by shared boat),04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,1
+West Bengal,Darjeeling,Half day Tea Garden tour,04:00,NULL,NULL,NULL,1,125,NULL,NULL,1,1
+Himachal Pradesh,Shimla,Half day city tour,04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,1
+Goa,Goa,Transfer from hotel to Vasco railway station,01:30,NULL,Departure transfer,Dep,1,NULL,NULL,NULL,1,0
+Goa,Goa,Transfer from Vasco railway station to hotel,01:30,NULL,Arrival transfer,Arr,1,NULL,NULL,NULL,1,0
+Tamil Nadu,Tiruchirappalli,Airport to hotel,01:00,NULL,Arrival transfer,Arr,1,NULL,NULL,NULL,1,0
+Tamil Nadu,Tiruchirappalli,Hotel to airport,01:00,NULL,Departure transfer,Dep,1,NULL,NULL,NULL,1,0
+Rajasthan,Bundi,Half day sightseeing of Bundi,04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,1
+Rajasthan,Bundi,Bundi School of Painting workshop,02:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Maharashtra,Nagzira,Jeep safari in Nagzira National Park,03:30,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Rajasthan,Sawai Madhopur,Morning and afternoon jeep safaris in Ranthambore N.P.,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Rajasthan,Jaipur,Bollywood dance workshop,01:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Madhya Pradesh,Satpura,Private jeep safari with naturalist in Satpura National Park,03:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Uttar Pradesh,Bah,River safari,03:30,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Madhya Pradesh,Panna,Jeep safari with naturalist in Panna National Park,03:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Orissa,Dhenkanal,Full day exploration of Dhenkanal,08:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Goa,Goa,Fontainhas Heritage Walk,02:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Delhi,Delhi,Delhi by cycle (Nizamuddin tour),03:30,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Karnataka,Hassan,Day excursion to Belur & Halebid,08:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Rajasthan,Udaipur,Sunset boat ride on Lake Pichola (by shared boat),01:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Rajasthan,Udaipur,Sunset boat ride on Lake Pichola (by private boat),01:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Ladakh,Tangtse,Visit to Pangong Lake,03:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Madhya Pradesh,Bandhavgarh,Private jeep safari in Bandhavgarh N.P.,03:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Madhya Pradesh,Kanha,Private jeep safari in Kanha N.P.,03:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Ladakh,Tso Kar,Visit Tsokar lake,04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Goa,Goa,Feni and Tapas Food Trail,03:30,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Maharashtra,Mumbai,Bollywood Dance Workshop,01:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Tamil Nadu,Chennai,Walking trail of Mylapore,03:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Pondicherry,Pondicherry,Colonial walk in Pondicherry,02:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Tamil Nadu,Madurai,Evening Madurai food trail,03:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Himachal Pradesh,Dharamsala,Toy train Kangra to Palampur,05:00,NULL,NULL,NULL,1,127,NULL,NULL,1,1
+Madhya Pradesh,Satpura,Jeep safari in Satpura National Park,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Gujarat,Bhuj,"Excursion to Bhujodi, Ajrakpur and Dhaneti",04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Rajasthan,Bijaipur,Activities at Castle Bijaipur,04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Karnataka,Chikmagalur,Day at leisure at Flameback Lodges,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+West Bengal,Darjeeling,Half day train ride up to Ghoom and return by car,04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,1
+Rajasthan,Dungarpur,Day at leisure in Dungarpur,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Tamil Nadu,Kodaikanal,Activities at Elephant Valley,08:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Uttaranchal,Binsar,Bird watching with naturalist,03:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Uttaranchal,Bhimtal,Exploring lakes and birding,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Uttaranchal,Thikalna,Walk to Thikalna,01:30,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Uttaranchal,Thikalna,Walk around Thikalna,04:30,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Uttaranchal,Kotnaikana,Walk to Kotnaikana village,05:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Uttaranchal,Binsar,Walk to Binsar,04:30,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Uttaranchal,Binsar,Day at leisure at Itmenaan Estate,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Rajasthan,Deogarh,Rural ramble with picnic,03:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Tamil Nadu,Chettinad,Day at leisure in Chettinad,04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Karnataka,Madikeri,Day at leisure in Madikeri,04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Madhya Pradesh,Maheshwar,Day at leisure in Maheshwar,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Madhya Pradesh,Maheshwar,Excursion to Mandu,04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Pondicherry,Pondicherry,Day at leisure in Pondicherry,04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Sikkim,Rinchenpong,Day at leisure in Rinchenpong,04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Rajasthan,Shahpura,Day at leisure in Shahpura,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Karnataka,Siddhapura,Activities around the hotel,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Kerala,Teekoy,Day at leisure at Vanilla County,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Kerala,Alleppey,Day at leisure in Alleppey,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Rajasthan,Bera,Morning and evening leopard safaris,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Rajasthan,Bera,Morning birdwatching safari,03:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Rajasthan,Samode,Day at leisure in Samode,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Rajasthan,Khempur,Day at leisure in Kempur,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Kerala,Kumarakom,Day at leisure in Kumarakom,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Himachal Pradesh,Manali,Day at leisure in Manali,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Kerala,Mararikulam,Day at leisure in Marari,12:00,NULL,NULL,NULL,1,0,NULL,NULL,1,0
+Kerala,Meppadi,Day at leisure in Meppadi,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Kerala,Neeleshwar,Activities in Neeleshwar,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Rajasthan,Nimaj,Day at leisure in Nimaj,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Kerala,Palakkad,Day at leisure in Palakkad,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Himachal Pradesh,Palampur,Day at leisure in Palampur,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Rajasthan,Pushkar,Day at leisure in Pushkar,04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Uttaranchal,Rishikesh,Day at leisure in Rishikesh,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Kerala,Sultan Battery,Day at leisure at Pepper Trail,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Ladakh,Stok,Day at leisure in Stok,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Uttaranchal,Ramgarh,Day at leisure in Ramgarh,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Rajasthan,Ramathra,Day at leisure in Ramathra,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Himachal Pradesh,Pragpur,Day at leisure to get to know the village crafts and architecture,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Uttaranchal,Mussoorie,Day at leisure in Mussoorie,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Rajasthan,Mount Abu,Day at leisure in Mount Abu,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Tamil Nadu,Coonoor,Day at leisure in Coonoor,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Tamil Nadu,Ootacamund,Day at leisure to explore Ooty,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Rajasthan,Raipur (Rajasthan),Day at leisure at Lakshman Sagar,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Gujarat,Bhuj,Full day excursion to Hodka and other textile villages north of Bhuj,08:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+West Bengal,Kolkata,A day at leisure in Rajbari Bawali,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Ladakh,Kyagar,Visit Hundar & Deskit and ride a Bactrian camel,04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+West Bengal,Singalila,Tracking the Red Panda and bird watching,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+West Bengal,Singalila,Further opportunities for Red Panda sighting and bird watching,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Orissa,Baripada,Day at leisure at the Belgadia Palace,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Orissa,Baripada,Visit to the local market and the Bhanja Palace ruins,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Rajasthan,Delwara,Day at leisure in Delwara,04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Orissa,Gopalpur-on-Sea,Day at leisure in Gopalpur-on-Sea,04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Uttaranchal,Haridwar,Watch the spectacular daily Aarti ceremony at sunset,02:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Madhya Pradesh,Kathiwada,Day at leisure in Kathiwada,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+West Bengal,Murshidabad,Heritage walk of Murshidabad,04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+West Bengal,Murshidabad,Morning excursion to Baranagar and Cossimbazar,04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Gujarat,Santrampur,Day at leisure in Santrampur,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+West Bengal,Serampore,Day at leisure in Serampur,04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Gujarat,Sayla,Visit Sayla's textile centers,04:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+West Bengal,Kolkata,Transfer from airport to Rajbari Bawali,02:00,NULL,Arrival transfer,Arr,1,NULL,NULL,NULL,1,0
+West Bengal,Kolkata,Transfer from Rajbari Bawali to airport,02:00,NULL,Departure transfer,Dep,1,NULL,NULL,NULL,1,0
+Kerala,Kodikulam,Day at leisure at Kodikulam,12:00,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Uttar Pradesh,Lucknow,Culinary tour,02:30,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Himachal Pradesh,Pragpur,Kangra-Palampur toy train,01:11,NULL,NULL,NULL,1,127,NULL,NULL,1,0
+Goa,Goa,Private Feni and Tapas Food Trail,03:30,NULL,NULL,NULL,1,127,NULL,NULL,1,0

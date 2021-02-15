@@ -31,7 +31,15 @@ app.post('/import',function (req, res) {
 
   console.log('Reading '+file);
 
-  // select city,  cities.writeUp, DefaultDays, cities.longitude,cities.latitude, cities.display, state from cities join states on cities.states_id=states.states_id join states s on s.states_id=cities.states_id where cities.display=1
+  // states:
+  // select state,oneliner, writeup,states_id from states
+  // cities:
+  // select city, cities.writeUp, DefaultDays, cities.longitude,cities.latitude, cities.display, state from cities join states on cities.states_id=states.states_id join states s on s.states_id=cities.states_id where cities.display=1
+  // hotels
+  // Select s.state, city, organisation,a.addressbook_id, postalcode,h.description,h.starcategories_id, h.rooms from addressbook a join hotels h on a.addressbook_id=h.addressbook_id join states s on s.states_id = a.states_id where web=1
+  // Services:
+  // select states.state, c.city, description,duration,starttime,tt.transfer,tt.transfercode,active,daysofoperation,tc.city, to_cities_id,owntransport,guide from services s join cities c on c.cities_id=s.cities_id join states on states.states_id=c.states_id left join cities tc on tc.cities_id=s.to_cities_id left join transfertypes tt on tt.transfertypes_id = s.transfertypes_id where active=1
+
 
   const readInterface = readline.createInterface({
         input: fs.createReadStream(file),
@@ -52,10 +60,11 @@ app.post('/import',function (req, res) {
     var lineArray = CSVToArray(line);
     var array = lineArray[0];
    
-// console.log(array);
+    // console.log(array);
 
+    if ( request.file == 'cities.csv'){
     var city   = array[0];
-        city   = city.toString().replace(/ +/g,'-').toLowerCase();
+        city   = city.trim().toString().replace(/ +/g,'-').toLowerCase();
     var state  = array[6];
 
     if (typeof state === "undefined") throw "state for "+city+" is undefined";
@@ -68,16 +77,7 @@ app.post('/import',function (req, res) {
 
     const made = mkdirp.sync(mdfile);
 
-//    try {
-//       var mdContents = fs.readFileSync(mdfile+'_index.md', 'utf8', (err) => {       
-//         if (err) throw err; 
-//       }) 
-//     } catch (error) {
-//       // console.log('Route import reading'+mdfile+': ' + error.message);
-//     } 
-
      try {
-//    let data = yaml.safeLoadAll(mdContents);
 
       frontMatter = {};
 
@@ -108,10 +108,147 @@ app.post('/import',function (req, res) {
       }; 
     } catch (error) {
       console.log("Route import writing "+city+": " + error.message);
+    }
+
+  } else if ( request.file == 'states.csv') {
+
+    var state     = array[0];
+        state     = state.trim().toString().replace(/ +/g,'-').toLowerCase();
+    var oneliner  = array[1];
+    var writeup   = array[2];
+    var states_id = array[3];
+
+    var mdfile = dir+'/states/'+state+'/';
+
+    console.log('Processing ',mdfile);
+
+    const made = mkdirp.sync(mdfile);
+
+     try {
+
+      frontMatter = {};
+
+      frontMatter.title           = array[0];
+      frontMatter.translationKey  = state;
+      frontMatter.oneliner        = array[1] || '';
+      frontMatter.states_id       = Number(array[3]) || '';
+      frontMatter.draft           = (array[5]==1) ? false : true; // web
+      frontMatter.id              = 'state';
+      frontMatter.type            = 'state';
+      frontMatter.tags            = ['States',array[0] ];
+
+      let output = `---\n` 
+      + yaml.safeDump(frontMatter) 
+      + "---\n" 
+      + (array[2] == 'NULL' ? '' : array[2]);
+
+      // console.table( output );
+      fs.writeFileSync(mdfile+'_index.md', output, 'utf8', (err) => {       
+        if (err) throw err; 
+      })
+ 
+    } catch (error) {
+      console.log("Route import writing "+state+": " + error.message);
     } 
+    
+  } else if ( request.file == 'hotels.csv') {
+
+   // state city  organisation  addressbook_id  postalcode  description starcategories_id rooms
+
+    var state             = array[0];
+        state             = state.trim().toString().replace(/ +/g,'-').toLowerCase();
+    var city              = array[1];
+        city              = city.trim().toString().replace(/ +/g,'-').toLowerCase();
+    var organisation      = array[2];
+        organisation      = organisation.trim().toString().replace(/ +/g,'-').toLowerCase();
+
+    var mdfile = dir+'/states/'+state+'/cities/'+city+'/hotels/'+organisation+'/';
+
+    console.log('Processing ',mdfile);
+
+    const made = mkdirp.sync(mdfile);
+
+     try {
+
+      frontMatter                 = {};
+      frontMatter.title           = array[2];
+      frontMatter.translationKey  = organisation;
+      frontMatter.addressbook_id  = Number(array[3]) || '';
+      frontMatter.postalcode      = Number(array[4]) || '';
+      frontMatter.starcategories_id  = Number(array[6]) || '';
+      frontMatter.rooms           = Number(array[7]) || '';
+      frontMatter.draft           = false;
+      frontMatter.id              = 'hotel';
+      frontMatter.type            = 'hotels';
+      frontMatter.tags            = ['Hotels',array[2] ];
+
+      let output = `---\n` 
+      + yaml.safeDump(frontMatter) 
+      + "---\n" 
+      + (array[5] == 'NULL' ? '' : array[5]);
+
+      // console.table( output );
+      fs.writeFileSync(mdfile+'index.md', output, 'utf8', (err) => {       
+        if (err) throw err; 
+      })
+ 
+    } catch (error) {
+      console.log("Route import writing "+state+": " + error.message);
+    } 
+  } else if ( request.file == 'services.csv') {
+
+   // state  city  description duration  starttime transfer  transfercode  active  daysofoperation city  to_cities_id  owntransport  guide
+
+    var state             = array[0];
+        state             = state.trim().toString().replace(/ +/g,'-').toLowerCase();
+    var city              = array[1];
+        city              = city.trim().toString().replace(/ +/g,'-').toLowerCase();
+    var description       = array[2];
+        description       = organisation.trim().toString().replace(/ +/g,'-').toLowerCase();
+
+    var mdfile = dir+'/states/'+state+'/cities/'+city+'/excursions/'+description+'/';
+
+    console.log('Processing ',mdfile);
+
+    const made = mkdirp.sync(mdfile);
+
+     try {
+
+      frontMatter                 = {};
+      frontMatter.title           = array[2];
+      frontMatter.translationKey  = description;
+      frontMatter.duration        = array[3] || '';
+      frontMatter.startTime       = array[4] || '';
+      frontMatter.transfer        = (array[5] == 'NULL') ?  '' : array[5];
+      frontMatter.transferCode    = (array[6] == 'NULL') ?  '' : array[6];
+      frontMatter.draft           = (array[7] == 1) ?  true : false; // active
+      frontMatter.daysOfOperation = (array[8] == 'NULL') ?  '' : array[8];
+      frontMatter.toCity          = (array[9] == 'NULL') ?  '' : array[9];
+      frontMatter.owntransport    = (array[10] == 1) ?  true : false;
+      frontMatter.guide           = (array[11] == 1) ?  true : false;
+      frontMatter.id              = 'services';
+      frontMatter.type            = 'services';
+      frontMatter.tags            = ['Services',array[2] ];
+
+      let output = `---\n` 
+      + yaml.safeDump(frontMatter) 
+      + "---\n" 
+      // + array[5]
+      ;
+
+      // console.table( output );
+      fs.writeFileSync(mdfile+'index.md', output, 'utf8', (err) => {       
+        if (err) throw err; 
+      })
+ 
+    } catch (error) {
+      console.log("Route import writing "+state+": " + error.message);
+    } 
+    } else  {
+      console.log(file+" is a wrong option");
+    }
 
   });
-
 
     function CSVToArray( strData, strDelimiter ){
         // Check to see if the delimiter is defined. If not,
