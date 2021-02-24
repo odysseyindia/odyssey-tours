@@ -204,7 +204,7 @@ app.post('/import',function (req, res) {
     var city              = array[1];
         city              = city.trim().toString().replace(/ +/g,'-').toLowerCase();
     var description       = array[2];
-        description       = organisation.trim().toString().replace(/ +/g,'-').toLowerCase();
+        description       = description.trim().toString().replace(/ +/g,'-').toLowerCase();
 
     var mdfile = dir+'/states/'+state+'/cities/'+city+'/excursions/'+description+'/';
 
@@ -218,10 +218,10 @@ app.post('/import',function (req, res) {
       frontMatter.title           = array[2];
       frontMatter.translationKey  = description;
       frontMatter.duration        = array[3] || '';
-      frontMatter.startTime       = array[4] || '';
+      frontMatter.startTime       = (array[4] == 'NULL') ?  '' : array[4];
       frontMatter.transfer        = (array[5] == 'NULL') ?  '' : array[5];
       frontMatter.transferCode    = (array[6] == 'NULL') ?  '' : array[6];
-      frontMatter.draft           = (array[7] == 1) ?  true : false; // active
+      frontMatter.draft           = (array[7] == 0) ?  true : false; 
       frontMatter.daysOfOperation = (array[8] == 'NULL') ?  '' : array[8];
       frontMatter.toCity          = (array[9] == 'NULL') ?  '' : array[9];
       frontMatter.owntransport    = (array[10] == 1) ?  true : false;
@@ -456,38 +456,19 @@ res.end();
 
 app.post('/geolocation',function (req, res) {
 
-  const fs = require('fs'); 
-  const fetch = require('node-fetch');
-  const Bluebird = require('bluebird');
- 
-  fetch.Promise = Bluebird;
-
-  
-
-
-  const nodeGeocoder = require("node-geocoder");
   require('dotenv').config();
-  // console.log( process.env );
 
+  const fs      = require('fs'); 
+  const fetch   = require('node-fetch');
   const API_KEY = process.env.googleAPI;
-
-  var request = JSON.parse(req.body.data);
-  var address = request.address;
-
+  var request   = JSON.parse(req.body.data);
+  var address   = request.address;
   const options = {
     provider: 'google',
-    // Optional depending on the providers
     fetch: 'JSON',
     apiKey: API_KEY, 
-    formatter: null // 'gpx', 'string', ...
+    formatter: null, 
   };
-
-  let geoCoder = nodeGeocoder(options);
-
-const { promisify } = require('util');
-const sleep = promisify(setTimeout);
-
-// console.log("address=",address);
 
   try {
    var dataStr = fs.readFileSync('CityArray.txt', 'utf8', (err) => {       
@@ -498,18 +479,16 @@ const sleep = promisify(setTimeout);
   } 
 
   var dataArray = dataStr.split(",");
-  var lines = "";
 
-// dataArray.length
+  console.log('array length is ',dataArray.length);
 
-  for (var i = 0, len = 3; i < len; i++) {
-    
-    sleep(6000).then(() => {
+  var i;
+  var len = 3;
+  var myAddress = [];
 
-      console.log( dataArray[i] );
+  for (i = 0; i < len; i++) {
 
       let url = "https://maps.googleapis.com/maps/api/geocode/json?address='"+dataArray[i]+"'&key="+API_KEY;
-      // geoCoder.geocode(dataArray[i])
 
       const body = { a: 1 };
        
@@ -517,20 +496,23 @@ const sleep = promisify(setTimeout);
               method: 'post',
               body:    JSON.stringify(body),
               headers: { 'Content-Type': 'application/json' },
-          })
-          .then(res => res.json())
-          .then(json => console.log(json));
-            
+      })
+      .then(res => res.json())
+      .then(function(json) { 
+        
+        for (j = 0; j < json.results.length; j++ ) {
+          myAddress[i] = json.results[j].formatted_address+','+json.results[j].geometry.location.lat+','+json.results[j].geometry.location.lng;
+          console.log( myAddress[i] );
+          fs.writeFileSync('CityArray.csv', myAddress[i]+'\n', {flag:'a+'}, (err) => {  
+            if (err) throw err; 
           });
-          
-        }; 
+        };
 
-      fs.writeFileSync('CityArray.csv', lines, 'utf8', (err) => {  
-        if (err) throw err; 
-    });
- 
+      });
+     
+      
+  };  
 });
-
 
 
 app.get('/', function(req, res){ 

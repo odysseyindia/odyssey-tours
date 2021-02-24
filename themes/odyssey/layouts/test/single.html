@@ -8,18 +8,25 @@
  
 </style>
 
-<h2>Without index.md</h2>
-{{- $url := "/states/rajasthan/cities/jaipur/excursions/amber-fort-sightseeing/" }}
-fileExists: &nbsp; {{- fileExists $url }}<br>
-Title using GetPage: &nbsp; {{ with .Site.GetPage $url }}{{ .Title }}{{ end }}<br>
+<h2>Duration</h2>
 
-{{- $urlmd := printf "%s%s" $url "index.md" }}
+{{ $hour := int (substr .Params.duration 0 2) }}
+{{ $min  := int (substr .Params.duration 3 2) }}<br>
 
-<h2>with index.md</h2>
-fileExists: &nbsp; {{- fileExists $urlmd }}<br>
-Title using GetPage: &nbsp; {{ with .Site.GetPage $urlmd }}{{ .Title }}{{ end }}<br>
+{{ $hour }} hr {{ $min }} min<br>
 
-{{ end}}
+{{ $hour := mul $hour 3600 }}
+{{ $min  := mul $min  60   }}<br>
+
+{{ $date := (time .Params.date).Unix }}
+
+date start =   {{ dateFormat "15:04" $date }}<br>
+
+{{ $date = add $date (add $hour $min) }}
+
+date end = {{ dateFormat "15:04" $date }}<br>
+
+{{- end }}
 {{- define "postscript" }}
 
 <script>
