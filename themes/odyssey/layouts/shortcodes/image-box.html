@@ -1,0 +1,24 @@
+{{ $image := (.Get "src") }}
+{{ with (.Site.GetPage $image) }}
+{{ with .Resources.ByType "image" }}
+
+<div class="image-box">
+    {{- range $index, $src := first 5 . }}
+    {{- if eq $index 0 }} 
+    <div class="main-image"> 
+        <img src="{{.RelPermalink}}">
+    </div>
+    {{- end }}
+    {{- end }}
+    <div class="image-box-red">
+    {{- range $index, $src := first 5 . }}
+    {{- if ne $index 0 }}     
+    <div>
+        <img src="{{.RelPermalink}}">
+    </div>
+    {{- end }}
+    {{- end }}
+    </div>
+</div>
+{{- end }}
+{{- end }}

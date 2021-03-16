@@ -1,17 +1,19 @@
-</div>
-</div>
+
 {{ "<!-- image carousel --> " | safeHTML }}
 <div class="container">
 <div class="row">
 	
 <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
 <ol class="carousel-indicators">
-{{- range $index, $e := $.Page.Params.carousel }}
+{{ $image   := (.Get "src") }}
+{{ with (.Site.GetPage $image) }}
+{{ with .Resources.ByType "image" }}
+
+{{- range $index, $src := first 5 . }}
 <li data-target="#carousel" data-slide-to="{{ $index }}" {{ if eq $index 0 }}class="active"{{ end }}></li>{{- end }}
 </ol>
 <div class="carousel-inner">
-{{- range $index, $e := $.Page.Params.carousel }}
-{{- $src := $.Page.Resources.GetMatch ( printf "*%s*" ($e.url)) }}
+{{- range $index, $src := first 5 . }}
 {{- if $src }}
 
 {{- $tinyw   := default "500x" }}
@@ -35,14 +37,17 @@
 {{ with $small.RelPermalink }},{{.}} 800w{{ end }}
 {{ with $medium.RelPermalink }},{{.}} 1200w{{ end }}
 {{ with $large.RelPermalink }},{{.}} 1500w{{ end }}"
-data-src="{{- $src.RelPermalink -}}" alt="{{ (index . "title") }}" >
+data-src="{{- $src.RelPermalink -}}" alt="{{ .Title }}" >
 <div class="carousel-caption  d-none d-md-block">
-<h5><span class="carousel-overlay">{{ (index . "title") }}</span></h5>
+<h5><span class="carousel-overlay">{{ .Title }}</span></h5>
 <p> </p>
 </div>
 </div> 
 {{- end }}
 {{- end }} 
+
+{{ end }}
+{{ end }}
 <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 <span class="sr-only">Previous</span>
@@ -56,5 +61,3 @@ data-src="{{- $src.RelPermalink -}}" alt="{{ (index . "title") }}" >
 </div>
 </div>
 {{ "<!-- end of carousel --> " | safeHTML }}
-<div class="row">
-<div class="mx-auto w-50 p-1">
