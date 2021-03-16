@@ -1,0 +1,173 @@
+#itinerary {
+
+  .border{
+    border-right: 2px solid $secondary;
+    padding-right: 10px;
+
+  }
+
+.color {
+  font-weight: 600;
+  color: $primary;
+  flex: 1;
+  margin-left: 5px;
+}
+
+.flex-item {
+  flex:1;
+  margin-left: 5px;
+}
+
+.grow {
+  flex-grow: 1;
+}
+  
+.hr-text {
+    line-height: 2em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 2em;
+    opacity: .8;
+    font-size: 1.4em;
+    &:before {
+      content: '';
+      // use the linear-gradient for the fading effect
+      // use a solid background color for a solid bar
+      background: lightgray;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      height: 2px;
+    }
+    &:after {
+      content: attr(data-content);
+      position: relative;
+      display: inline-block;
+      padding: 0 .5em;
+      line-height: 1.5em;
+      // this is really the only tricky part, you need to specify the background color of the container element...
+      color: #000;
+      background-color: white;
+    }
+}
+
+.left {
+  text-align: left;
+}
+
+/* tab pages */
+  .navbar-toggler-icon {
+    height:0; 
+    }
+
+  .nav-tabs {
+    background-color: $white; 
+    border-bottom: 0;
+    }
+
+  .nav-tabs .nav-link {
+    border-right: 1px solid $secondary;
+    border-left:  1px solid $secondary;
+    border-top:   1px solid $secondary; 
+    }
+
+  .nav-link.active {
+    color: $secondary;
+    background-color: $form;
+    .tab-content > .tab-pane {
+      display: block;
+    }
+  }
+
+a.nav-link {
+    color: $secondary;
+    font-size: 1rem; 
+    border-left: 1px solid $primary;
+    border-right: 1px solid $primary;
+    border-top: 1px solid $primary;
+  }
+
+  .tab-content {
+    background-color: $form;
+    padding: 20px; 
+  }
+
+  ul.bg {
+    background-color: $form; 
+  }
+
+  ul.nav.nav-tabs {
+    margin-bottom: 0;
+    background-color: $white; 
+  }
+
+  .tab-wrapper {
+    padding: 5px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    text-align: center; 
+    background-color: $white;
+  }
+
+@media screen and (max-width: 760px) { 
+  .nav {
+    flex-direction: column;
+  }
+}
+
+#itinerary {
+  text-align: left;
+}
+
+
+
+  .ml-10 {
+    margin-left: 10px;
+  }
+  .specs {
+    display: flex;
+flex-wrap: nowrap;
+flex-direction: row;
+  }
+  .mx-auto.w-50 {
+    margin-top: 0;
+  }
+
+ 
+  [class^="icon-"] {
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 5px;
+      color: black;
+  }
+  .icon-bed {
+    background-color: orange;
+  }
+  .icon-camera {
+    background-color: lightgreen;
+  }
+  .icon-cab {
+    background-color: yellow;
+  }
+  .icon-train {
+    background-color: $google;
+  }
+  .icon-flight {
+    background-color: lightblue;
+  }
+  .icon-pencil {
+    background-color: blue;
+  }
+  .icon-search, .icon-spin3 {
+    color: gray;
+  }
+  
+
+
+
+}

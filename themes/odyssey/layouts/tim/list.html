@@ -9,7 +9,7 @@
     <div id="navbar">
       <div class="wrapper">
 
-        <button>
+        <button id="new-trip">
           <i class="icon-plus"></i>New Trip
         </button>
 
@@ -393,6 +393,10 @@
       row[i].style.display = "block"
     }
   });
+
+ document.getElementById("new-trip").onclick = function() {
+    alert("new trip")
+  }
 
   document.getElementById("trips-my-trips").onclick = function() {
     display(13,"hans")

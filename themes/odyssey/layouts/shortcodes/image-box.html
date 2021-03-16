@@ -6,7 +6,11 @@
     {{- range $index, $src := first 5 . }}
     {{- if eq $index 0 }} 
     <div class="main-image"> 
-        <img src="{{.RelPermalink}}">
+        {{- $altTitle := replace .Title ".jpg" " " | replaceRE "[^a-z]" "-" }}
+        {{- $title := split $altTitle "-" }}
+        {{- $title := apply (after 4 $title) "urlize" "." }}
+        {{- $title := delimit $title " " }}
+        <img src="{{.RelPermalink}}" title="{{ $title }}" alt="{{ $altTitle | humanize }}">
     </div>
     {{- end }}
     {{- end }}
@@ -14,7 +18,11 @@
     {{- range $index, $src := first 5 . }}
     {{- if ne $index 0 }}     
     <div>
-        <img src="{{.RelPermalink}}">
+        {{- $altTitle := replace .Title ".jpg" " " | replaceRE "[^a-z]" "-" }}
+        {{- $title := split $altTitle "-" }}
+        {{- $title := apply (after 5 $title) "urlize" "." }}
+        {{- $title := delimit $title " " }}
+        <img src="{{.RelPermalink}}" title="{{ $title }}" alt="{{ $altTitle| humanize }}">
     </div>
     {{- end }}
     {{- end }}
