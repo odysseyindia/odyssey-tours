@@ -3,7 +3,7 @@ title: Jammu & Kashmir
 translationKey: jammu-&-kashmir
 oneliner: Enjoy a shikara ride on Srinagar's lakes
 states_id: 14
-draft: true
+draft: false
 id: state
 type: state
 tags:

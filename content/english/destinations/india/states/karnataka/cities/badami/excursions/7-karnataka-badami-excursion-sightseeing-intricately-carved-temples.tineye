@@ -1,0 +1,32 @@
+stats:
+  timestamp: '1610995010.13'
+  query_time: '1.30'
+  total_backlinks: 1
+  total_collection: 0
+  total_results: 1
+  total_stock: 1
+  total_filtered_results: 1
+  positive: false
+code: 200
+messages: []
+results:
+  matches:
+    - domain: shutterstock.com
+      backlinks:
+        - url: ''
+          crawl_date: '2019-02-24'
+          backlink: >-
+            http://www.shutterstock.com/pic-1286742562/stock-photo-heritage-sites-in-india.html
+      format: jpeg
+      filesize: 190516
+      overlay: >-
+        overlay/cc91f0ae7399abf06ca5fd9954ee49f45e1a5572/c33cbcc7e2795eba4dea2dae61ea40df027cd8ff0109d3c3107eb498e586d9bf?m21=-0.0110989&m22=0.999249&m23=30.8054&m11=0.999249&m13=43.569&m12=0.0110989
+      height: 358
+      width: 450
+      score: 11.765
+      image_url: >-
+        https://img.tineye.com/result/c33cbcc7e2795eba4dea2dae61ea40df027cd8ff0109d3c3107eb498e586d9bf
+      query_hash: cc91f0ae7399abf06ca5fd9954ee49f45e1a5572
+      tags:
+        - stock
+      size: 161100

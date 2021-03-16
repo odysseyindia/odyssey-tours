@@ -1,5 +1,5 @@
 ---
-title: "Rajasthan and The North"
+title: "Rajasthan and the North"
 draft: false
 date: 2020-09-21T12:59:23+02:00
 translationKey: "rajasthan-and-the-north"

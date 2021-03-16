@@ -8,23 +8,18 @@
  
 </style>
 
-<h2>Duration</h2>
+<h2>Test</h2>
 
-{{ $hour := int (substr .Params.duration 0 2) }}
-{{ $min  := int (substr .Params.duration 3 2) }}<br>
+<div class="container">
+    <div class="row">
+      <div class="content mx-auto w-50 p-3">
+{{- range (  ( where .Site.Pages "Section" "destinations")  ) }}
+{{ .Title }}<br>
+{{- end }}
 
-{{ $hour }} hr {{ $min }} min<br>
-
-{{ $hour := mul $hour 3600 }}
-{{ $min  := mul $min  60   }}<br>
-
-{{ $date := (time .Params.date).Unix }}
-
-date start =   {{ dateFormat "15:04" $date }}<br>
-
-{{ $date = add $date (add $hour $min) }}
-
-date end = {{ dateFormat "15:04" $date }}<br>
+</div>
+</div>
+</div>
 
 {{- end }}
 {{- define "postscript" }}

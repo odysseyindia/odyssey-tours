@@ -3,7 +3,7 @@ title: Himachal Pradesh
 translationKey: himachal-pradesh
 oneliner: Himalayan vistas
 states_id: 13
-draft: true
+draft: false
 id: state
 type: state
 tags:

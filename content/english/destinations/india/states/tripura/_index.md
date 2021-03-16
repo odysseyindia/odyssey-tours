@@ -3,7 +3,7 @@ title: Tripura
 translationKey: tripura
 oneliner: India's second smallest state
 states_id: 30
-draft: true
+draft: false
 id: state
 type: state
 tags:

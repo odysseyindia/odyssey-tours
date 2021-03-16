@@ -1,0 +1,68 @@
+{{- define "main" }}
+{{- .Scratch.Set "layout" "layouts/region/single.html" -}}
+
+{{- $pages := where .Site.RegularPages ".Params.regions" "intersect" (slice (.Title | urlize)) }}
+
+{{- $title := (.Site.GetPage (printf "/explore-india/by-region/%s" (path.Base .RelPermalink))).Title }}
+
+<section id="tour-ideas"> 
+  {{ partial "heading.html" . }}
+  <div class="container">
+    <div class="row">
+      <div class="mx-auto w-50">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+  {{ partial "tours-topbar.html" . }}
+  <div class="bg">
+    <div class="row">
+      {{ partial "filter-tours.html" (dict "dot" . "pages" $pages ) }}  
+      <div class="col-sm-8 col-md-9">
+        <div class="itineraries">   
+        {{"<!-- items -->" | safeHTML }}
+        {{ range $pages }}
+        {{- partial "tour-listing.html" . }}
+        {{- end }}
+        {{"<!-- end items -->" | safeHTML }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{- end }}
+{{- define "postscript"}}
+
+<script>
+{{- range (where .Site.RegularPages "Section" "explore-india") }}
+{{- if in .Permalink "by-region" }} 
+
+document.getElementById("{{ .Params.translationKey }}").onchange = function() {
+  myRegion("{{ .Params.translationKey }}")
+};
+
+function myRegion(region) {
+  window.location.href = "/explore-india/by-region/" + region;
+};
+
+{{- end }}
+{{- end }}
+
+{{- range (where .Site.RegularPages "Section" "experience") }}
+{{- if in .Permalink "by-interest" }} 
+
+document.getElementById("{{ .Params.translationKey }}").onchange = function() {
+  myInterest("{{ .Params.translationKey }}")
+};
+
+function myInterest(interest) {
+  window.location.href = "/experience/by-interest/" + interest;
+};
+
+{{- end }}
+{{- end }}
+</script>
+
+{{- end }}
+

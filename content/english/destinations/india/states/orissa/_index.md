@@ -3,7 +3,7 @@ title: Orissa
 translationKey: orissa
 oneliner: Temples and beaches
 states_id: 24
-draft: true
+draft: false
 id: state
 type: state
 tags:

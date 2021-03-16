@@ -3,7 +3,7 @@ title: Chhattisgarh
 translationKey: chhattisgarh
 oneliner: One of the country's last unexplored frontiers
 states_id: 34
-draft: true
+draft: false
 id: state
 type: state
 tags:

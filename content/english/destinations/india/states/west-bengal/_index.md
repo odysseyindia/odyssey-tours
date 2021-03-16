@@ -3,7 +3,7 @@ title: West Bengal
 translationKey: west-bengal
 oneliner: From the Bay of Bengal to the Himalayan hills
 states_id: 32
-draft: true
+draft: false
 id: state
 type: state
 tags:

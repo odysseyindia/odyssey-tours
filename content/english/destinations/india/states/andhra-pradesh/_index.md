@@ -3,7 +3,6 @@ title: Andhra Pradesh
 translationKey: andhra-pradesh
 oneliner: 'Spirituality, culture, history and nature'
 states_id: 2
-draft: true
 id: state
 type: state
 tags:

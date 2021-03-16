@@ -3,7 +3,7 @@ title: Chandigarh
 translationKey: chandigarh
 oneliner: The first modern city of independent India
 states_id: 6
-draft: true
+draft: false
 id: state
 type: state
 tags:

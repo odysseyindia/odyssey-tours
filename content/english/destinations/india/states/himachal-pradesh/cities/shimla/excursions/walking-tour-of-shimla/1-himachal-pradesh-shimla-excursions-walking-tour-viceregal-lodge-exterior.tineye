@@ -1,0 +1,52 @@
+stats:
+  timestamp: '1611653128.63'
+  query_time: '5.82'
+  total_backlinks: 26
+  total_collection: 1
+  total_results: 16
+  total_stock: 2
+  total_filtered_results: 2
+  positive: false
+code: 200
+messages: []
+results:
+  matches:
+    - domain: alamy.com
+      backlinks:
+        - url: >-
+            https://c8.alamy.com/comp/CY2125/viceregal-lodge-or-iias-at-shimla-india-CY2125.jpg
+          crawl_date: '2019-03-28'
+          backlink: >-
+            https://www.alamy.com/stock-photo-viceregal-lodge-or-iias-at-shimla-india-51061197.html
+      format: JPEG
+      filesize: 238215
+      overlay: >-
+        overlay/04b378ebb85d86b793910ce054558cb78e26a2a9/98e645d902abb20fcfe66e283a5aad333e673f1a8e71ee997d6851a78ac30376?m21=-0.0327921&m22=1.02052&m23=8.39912&m11=1.02052&m13=-31.3055&m12=0.0327921
+      height: 956
+      width: 1300
+      score: 11.765
+      image_url: >-
+        https://img.tineye.com/result/98e645d902abb20fcfe66e283a5aad333e673f1a8e71ee997d6851a78ac30376
+      query_hash: 04b378ebb85d86b793910ce054558cb78e26a2a9
+      tags:
+        - stock
+      size: 1242800
+    - domain: alamy.com
+      backlinks:
+        - url: ''
+          crawl_date: '2014-10-29'
+          backlink: >-
+            http://www.alamy.com/image-details-popup.asp?imageid={5E350784-3AF8-4207-A2CD-3E50D43640D3}
+      format: JPEG
+      filesize: 285440
+      overlay: >-
+        overlay/04b378ebb85d86b793910ce054558cb78e26a2a9/761381f074aebcc27556bd1e19226f67c5fa9306df897e4af68623c3f9ca6a94?m21=-0.0126112&m22=0.939023&m23=8.75463&m11=0.939023&m13=-23.8776&m12=0.0126112
+      height: 446
+      width: 640
+      score: 11.765
+      image_url: >-
+        https://img.tineye.com/result/761381f074aebcc27556bd1e19226f67c5fa9306df897e4af68623c3f9ca6a94
+      query_hash: 04b378ebb85d86b793910ce054558cb78e26a2a9
+      tags:
+        - stock
+      size: 285440

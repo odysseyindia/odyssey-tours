@@ -15,7 +15,7 @@
   <div class="bg">
     <div class="card-deck">
       {{- range .Params.cities}}
-      {{- with $.Site.GetPage . }}
+      {{- with $.Site.GetPage (printf "%s%s" "/destinations/india/" .) }}
       <div class="card-holder">
         <div class="card">
           {{- partial "card-header.html" . -}}

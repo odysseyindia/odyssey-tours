@@ -3,7 +3,7 @@ title: Manipur
 translationKey: manipur
 oneliner: The `land of jewels'
 states_id: 18
-draft: true
+draft: false
 id: state
 type: state
 tags:

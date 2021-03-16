@@ -3,7 +3,7 @@ title: Lakshadweep
 translationKey: lakshadweep
 oneliner: Coral hideaway in the Arabian Sea
 states_id: 17
-draft: true
+draft: false
 id: state
 type: state
 tags:

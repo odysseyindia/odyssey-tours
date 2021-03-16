@@ -1,0 +1,219 @@
+stats:
+  timestamp: '1611000491.60'
+  query_time: '4.81'
+  total_backlinks: 6900
+  total_collection: 15
+  total_results: 609
+  total_stock: 110
+  total_filtered_results: 110
+  positive: false
+code: 200
+messages: []
+results:
+  matches:
+    - domain: istockphoto.com
+      backlinks:
+        - url: >-
+            https://media.istockphoto.com/photos/the-erotic-statues-in-khajuraho-picture-id176122068
+          crawl_date: '2020-09-29'
+          backlink: >-
+            https://www.istockphoto.com/photo/the-erotic-statues-in-khajuraho-gm176122068-10580844
+      format: JPEG
+      filesize: 51515
+      overlay: >-
+        overlay/79911d62c4443957066d84bf686857ffa9e50a1a/1d5c7e27e7cf20aaaa5ab230815c4b1a5aa0ae48444098806facbf9858af477b?m21=-0.0155272&m22=0.926357&m23=6.03575&m11=0.926357&m13=-30.5915&m12=0.0155272
+      height: 2789
+      width: 4184
+      score: 33.987
+      image_url: >-
+        https://img.tineye.com/result/1d5c7e27e7cf20aaaa5ab230815c4b1a5aa0ae48444098806facbf9858af477b
+      query_hash: 79911d62c4443957066d84bf686857ffa9e50a1a
+      tags:
+        - stock
+      size: 11669176
+    - domain: gettyimages.com
+      backlinks:
+        - url: >-
+            https://media.istockphoto.com/photos/the-erotic-statues-in-khajuraho-picture-id176122068
+          crawl_date: '2020-09-29'
+          backlink: >-
+            https://www.gettyimages.com/detail/photo/the-erotic-statues-in-khajuraho-royalty-free-image/176122068
+      format: JPEG
+      filesize: 51515
+      overlay: >-
+        overlay/79911d62c4443957066d84bf686857ffa9e50a1a/1d5c7e27e7cf20aaaa5ab230815c4b1a5aa0ae48444098806facbf9858af477b?m21=-0.0155272&m22=0.926357&m23=6.03575&m11=0.926357&m13=-30.5915&m12=0.0155272
+      height: 2789
+      width: 4184
+      score: 33.987
+      image_url: >-
+        https://img.tineye.com/result/1d5c7e27e7cf20aaaa5ab230815c4b1a5aa0ae48444098806facbf9858af477b
+      query_hash: 79911d62c4443957066d84bf686857ffa9e50a1a
+      tags:
+        - stock
+      size: 11669176
+    - domain: dreamstime.com
+      backlinks:
+        - url: >-
+            https://thumbs.dreamstime.com/b/indian-religious-erotic-symbols-temples-khajuraho-sculptures-sybmboli-faith-walls-khujaraho-madhya-pradesh-india-36406499.jpg
+          crawl_date: '2019-08-03'
+          backlink: >-
+            https://www.dreamstime.com/stock-photo-downtown-dubai-uae-as-viewed-observation-deck-burj-khalifa-skyscraper-image73435245
+        - url: >-
+            https://thumbs.dreamstime.com/b/indian-religious-erotic-symbols-temples-khajuraho-sculptures-sybmboli-faith-walls-khujaraho-madhya-pradesh-india-36406499.jpg
+          crawl_date: '2019-10-19'
+          backlink: >-
+            https://www.dreamstime.com/stock-photo-address-downtown-dubai-skyscraper-uae-as-viewed-observation-deck-burj-khalifa-skyscraper-image73435134
+        - url: >-
+            https://thumbs.dreamstime.com/b/indian-religious-erotic-symbols-temples-khajuraho-sculptures-sybmboli-faith-walls-khujaraho-madhya-pradesh-india-36406499.jpg
+          crawl_date: '2019-10-19'
+          backlink: >-
+            https://www.dreamstime.com/stock-photo-address-downtown-dubai-skyscraper-uae-as-viewed-observation-deck-burj-khalifa-skyscraper-image73435084
+      format: JPEG
+      filesize: 89397
+      overlay: >-
+        overlay/79911d62c4443957066d84bf686857ffa9e50a1a/729a8d278c765955e36ba6bd373fa99846b6014c8cb2dafa01a60539ee2d3554?m21=-0.0209679&m22=0.80861&m23=37.0854&m11=0.80861&m13=21.2612&m12=0.0209679
+      height: 531
+      width: 800
+      score: 31.373
+      image_url: >-
+        https://img.tineye.com/result/729a8d278c765955e36ba6bd373fa99846b6014c8cb2dafa01a60539ee2d3554
+      query_hash: 79911d62c4443957066d84bf686857ffa9e50a1a
+      tags:
+        - stock
+      size: 424800
+    - domain: fotosearch.com
+      backlinks:
+        - url: http://fscomps.fotosearch.com/compc/FSD/FSD538/x16824048.jpg
+          crawl_date: '2015-11-03'
+          backlink: http://www.fotosearch.com/FSD538/x16824048/
+      format: JPEG
+      filesize: 51314
+      overlay: >-
+        overlay/79911d62c4443957066d84bf686857ffa9e50a1a/ab3fcef3d921c4dfdfaaed4d497cf6ae4cb5a860eb9341b026f1b0b9b6252bcf?m21=-0.0407485&m22=0.972272&m23=22.9605&m11=0.972272&m13=2.23239&m12=0.0407485
+      height: 348
+      width: 450
+      score: 30.719
+      image_url: >-
+        https://img.tineye.com/result/ab3fcef3d921c4dfdfaaed4d497cf6ae4cb5a860eb9341b026f1b0b9b6252bcf
+      query_hash: 79911d62c4443957066d84bf686857ffa9e50a1a
+      tags:
+        - stock
+      size: 156600
+    - domain: istockphoto.com
+      backlinks:
+        - url: >-
+            https://media.istockphoto.com/photos/indian-religious-erotic-symbols-on-temples-in-khajuraho-picture-id472101145
+          crawl_date: '2020-09-27'
+          backlink: >-
+            https://www.istockphoto.com/photo/indian-religious-erotic-symbols-on-temples-in-khajuraho-gm472101145-32568776
+      format: JPEG
+      filesize: 53538
+      overlay: >-
+        overlay/79911d62c4443957066d84bf686857ffa9e50a1a/73eddf44dfb6e160ddfc9531e0cab107460ec05648e542b4b8f8cd2893c157e8?m21=-0.0209185&m22=0.808395&m23=37.1548&m11=0.808395&m13=21.4313&m12=0.0209185
+      height: 2815
+      width: 4241
+      score: 30.065
+      image_url: >-
+        https://img.tineye.com/result/73eddf44dfb6e160ddfc9531e0cab107460ec05648e542b4b8f8cd2893c157e8
+      query_hash: 79911d62c4443957066d84bf686857ffa9e50a1a
+      tags:
+        - stock
+      size: 11938415
+    - domain: gettyimages.com
+      backlinks:
+        - url: >-
+            https://media.istockphoto.com/photos/indian-religious-erotic-symbols-on-temples-in-khajuraho-picture-id472101145
+          crawl_date: '2020-09-27'
+          backlink: >-
+            https://www.gettyimages.com/detail/photo/indian-religious-erotic-symbols-on-temples-in-royalty-free-image/472101145
+      format: JPEG
+      filesize: 53538
+      overlay: >-
+        overlay/79911d62c4443957066d84bf686857ffa9e50a1a/73eddf44dfb6e160ddfc9531e0cab107460ec05648e542b4b8f8cd2893c157e8?m21=-0.0209185&m22=0.808395&m23=37.1548&m11=0.808395&m13=21.4313&m12=0.0209185
+      height: 2815
+      width: 4241
+      score: 30.065
+      image_url: >-
+        https://img.tineye.com/result/73eddf44dfb6e160ddfc9531e0cab107460ec05648e542b4b8f8cd2893c157e8
+      query_hash: 79911d62c4443957066d84bf686857ffa9e50a1a
+      tags:
+        - stock
+      size: 11938415
+    - domain: dreamstime.com
+      backlinks:
+        - url: >-
+            http://thumbs.dreamstime.com/t/symboles-%C3%A9rotiques-religieux-indiens-sur-des-temples-dans-khajuraho-36406499.jpg
+          crawl_date: '2015-10-24'
+          backlink: http://fr.dreamstime.com/photos-images/religieux.html
+      format: JPEG
+      filesize: 21206
+      overlay: >-
+        overlay/79911d62c4443957066d84bf686857ffa9e50a1a/8fbff4efddf1e1456f9b40a3ed7a75856e5404e5787bfd9f23bc695a78c09a66?m21=-0.035797&m22=1.514&m23=36.9726&m11=1.514&m13=21.943&m12=0.035797
+      height: 160
+      width: 241
+      score: 28.758
+      image_url: >-
+        https://img.tineye.com/result/8fbff4efddf1e1456f9b40a3ed7a75856e5404e5787bfd9f23bc695a78c09a66
+      query_hash: 79911d62c4443957066d84bf686857ffa9e50a1a
+      tags:
+        - stock
+      size: 38560
+    - domain: gettyimages.com
+      backlinks:
+        - url: ''
+          crawl_date: '2015-02-20'
+          backlink: >-
+            http://www.gettyimages.com/detail/photo/the-erotic-statues-in-khajuraho-royalty-free-image/176122068
+      format: JPEG
+      filesize: 171366
+      overlay: >-
+        overlay/79911d62c4443957066d84bf686857ffa9e50a1a/73c8c67280418482c13f73c32c82e78a82ccae6c45f8c5c8fda6587e609e7f53?m21=-0.0120479&m22=0.923005&m23=6.26196&m11=0.923005&m13=-29.9701&m12=0.0120479
+      height: 338
+      width: 507
+      score: 26.797
+      image_url: >-
+        https://img.tineye.com/result/73c8c67280418482c13f73c32c82e78a82ccae6c45f8c5c8fda6587e609e7f53
+      query_hash: 79911d62c4443957066d84bf686857ffa9e50a1a
+      tags:
+        - stock
+      size: 171366
+    - domain: gettyimages.com
+      backlinks:
+        - url: >-
+            https://media.gettyimages.com/photos/unnatural-sex-with-horse-sculpture-at-khajuraho-madhya-pradesh-india-picture-id520870268
+          crawl_date: '2018-11-10'
+          backlink: >-
+            https://www.gettyimages.com/detail/photo/unnatural-sex-with-horse-sculpture-at-high-res-stock-photography/520870268
+      format: JPEG
+      filesize: 375332
+      overlay: >-
+        overlay/79911d62c4443957066d84bf686857ffa9e50a1a/0bc20391a3c3ac9aad2fc192e2c9c7c02b8d96bad42f680f807f2de746ef8dbd?m21=-0.0113122&m22=0.84944&m23=46.2026&m11=0.84944&m13=6.55086&m12=0.0113122
+      height: 678
+      width: 1024
+      score: 24.837
+      image_url: >-
+        https://img.tineye.com/result/0bc20391a3c3ac9aad2fc192e2c9c7c02b8d96bad42f680f807f2de746ef8dbd
+      query_hash: 79911d62c4443957066d84bf686857ffa9e50a1a
+      tags:
+        - stock
+      size: 694272
+    - domain: shutterstock.com
+      backlinks:
+        - url: >-
+            http://image.shutterstock.com/display_pic_with_logo/228133/170065649/stock-photo-sculptures-religious-erotic-sybmboli-of-the-indian-faith-on-walls-of-temples-in-khujaraho-temples-170065649.jpg
+          crawl_date: '2014-01-14'
+          backlink: >-
+            http://www.shutterstock.com/pic-170065649/stock-photo-sculptures-religious-erotic-sybmboli-of-the-indian-faith-on-walls-of-temples-in-khujaraho-temples.html
+      format: jpeg
+      filesize: 45152
+      overlay: >-
+        overlay/79911d62c4443957066d84bf686857ffa9e50a1a/a14b3fd083499f95d083e0f955ef79c4cf0d5e4634d49a11f8ada1cee4414cf0?m21=-0.0229914&m22=0.867024&m23=36.9175&m11=0.867024&m13=20.2294&m12=0.0229914
+      height: 319
+      width: 450
+      score: 24.183
+      image_url: >-
+        https://img.tineye.com/result/a14b3fd083499f95d083e0f955ef79c4cf0d5e4634d49a11f8ada1cee4414cf0
+      query_hash: 79911d62c4443957066d84bf686857ffa9e50a1a
+      tags:
+        - stock
+      size: 143550

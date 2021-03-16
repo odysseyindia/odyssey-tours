@@ -3,7 +3,7 @@ title: Gujarat
 translationKey: gujarat
 oneliner: One of India's most colourful states
 states_id: 11
-draft: true
+draft: false
 id: state
 type: state
 tags:

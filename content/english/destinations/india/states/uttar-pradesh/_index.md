@@ -3,7 +3,7 @@ title: Uttar Pradesh
 translationKey: uttar-pradesh
 oneliner: The Hindi heartland
 states_id: 31
-draft: true
+draft: false
 id: state
 type: state
 tags:

@@ -3,7 +3,7 @@ title: Jharkhand
 translationKey: jharkhand
 oneliner: Tribal country
 states_id: 33
-draft: true
+draft: false
 id: state
 type: state
 tags:

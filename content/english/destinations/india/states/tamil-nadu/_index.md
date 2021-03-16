@@ -3,7 +3,7 @@ title: Tamil Nadu
 translationKey: tamil-nadu
 oneliner: The temple trail
 states_id: 29
-draft: true
+draft: false
 id: state
 type: state
 tags:

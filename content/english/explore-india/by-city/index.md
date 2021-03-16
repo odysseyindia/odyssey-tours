@@ -4,17 +4,17 @@ type: by-city
 translationKey: by-city
 header: "Featuring heavily on out itinerary ideas for visiting India, these places are destintionas that we know prove consistently popular with our travellers. How you choose to include them in your trip can be tailored into a route that best suits your preferences."
 cities: 
--  /states/uttar-pradesh/cities/agra/
--  /states/punjab/cities/amritsar/
--  /states/andaman-and-nicobar/"
--  /states/assam/
--  /states/west-bengal/Kolkata
+-  /destinations/india/states/uttar-pradesh/cities/agra/
+-  /destinations/india/states/punjab/cities/amritsar/
+-  /destinations/india/states/andaman-and-nicobar/"
+-  /destinations/india/states/assam/
+-  /destinations/india/states/west-bengal/Kolkata
 -  Chennai
 -  Kochi
 -  Darjeeling
 -  Delhi
 -  Goa
--  states/rajasthan/cities/jaipur/
+-  /destinations/india/states/rajasthan/cities/jaipur/
 -  Mumbai
 -  Ranthambore National Park
 -  Shimla

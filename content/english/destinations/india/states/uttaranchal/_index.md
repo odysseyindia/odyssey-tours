@@ -3,7 +3,7 @@ title: Uttaranchal
 translationKey: uttaranchal
 oneliner: The foothills of the Himalayas
 states_id: 35
-draft: true
+draft: false
 id: state
 type: state
 tags:

@@ -3,7 +3,7 @@ title: Meghalaya
 translationKey: meghalaya
 oneliner: Abode of the clouds
 states_id: 19
-draft: true
+draft: false
 id: state
 type: state
 tags:

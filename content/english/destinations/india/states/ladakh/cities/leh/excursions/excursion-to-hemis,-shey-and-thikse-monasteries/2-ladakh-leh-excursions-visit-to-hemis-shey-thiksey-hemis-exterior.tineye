@@ -1,0 +1,69 @@
+stats:
+  timestamp: '1611066347.20'
+  query_time: '1.86'
+  total_backlinks: 14
+  total_collection: 3
+  total_results: 11
+  total_stock: 3
+  total_filtered_results: 3
+  positive: false
+code: 200
+messages: []
+results:
+  matches:
+    - domain: stock.adobe.com
+      backlinks:
+        - url: ''
+          crawl_date: '2019-04-21'
+          backlink: https://stock.adobe.com/23228509
+      format: jpeg
+      filesize: 126345
+      overlay: >-
+        overlay/971cd3b87dfee72ed85f93ce40c2f544ad287e3b/3a3330f15b1c6852208769e27f022bd08a572e01458effb2aab70fc04b8bec70?m21=-0.0489033&m22=1.03142&m23=-10.5004&m11=1.03142&m13=24.7903&m12=0.0489033
+      height: 335
+      width: 500
+      score: 22.876
+      image_url: >-
+        https://img.tineye.com/result/3a3330f15b1c6852208769e27f022bd08a572e01458effb2aab70fc04b8bec70
+      query_hash: 971cd3b87dfee72ed85f93ce40c2f544ad287e3b
+      tags:
+        - stock
+      size: 167500
+    - domain: alamy.com
+      backlinks:
+        - url: ''
+          crawl_date: '2015-01-30'
+          backlink: >-
+            http://www.alamy.com/image-details-popup.asp?imageid={E2355A54-3B15-429B-80CC-CB838CD4AB91}
+      format: JPEG
+      filesize: 287360
+      overlay: >-
+        overlay/971cd3b87dfee72ed85f93ce40c2f544ad287e3b/ca35521e38b736920fb646c99652c9f2ed723fb690ec7d4309c2acbd8409e1db?m21=-0.0599847&m22=1.07825&m23=-9.37758&m11=1.07825&m13=23.3691&m12=0.0599847
+      height: 449
+      width: 640
+      score: 21.569
+      image_url: >-
+        https://img.tineye.com/result/ca35521e38b736920fb646c99652c9f2ed723fb690ec7d4309c2acbd8409e1db
+      query_hash: 971cd3b87dfee72ed85f93ce40c2f544ad287e3b
+      tags:
+        - stock
+      size: 287360
+    - domain: alamy.com
+      backlinks:
+        - url: ''
+          crawl_date: '2015-01-30'
+          backlink: >-
+            http://www.alamy.com/image-details-popup.asp?imageid={DAE9285D-DF9B-4B4F-A375-38A4A16D274A}
+      format: JPEG
+      filesize: 278400
+      overlay: >-
+        overlay/971cd3b87dfee72ed85f93ce40c2f544ad287e3b/576f1537847aa4e30fd7dfebdd4445b8ba0ea7ab91ded051f6a00483b8a2a976?m21=-0.0969019&m22=1.07833&m23=4.16516&m11=1.07833&m13=46.4593&m12=0.0969019
+      height: 435
+      width: 640
+      score: 11.765
+      image_url: >-
+        https://img.tineye.com/result/576f1537847aa4e30fd7dfebdd4445b8ba0ea7ab91ded051f6a00483b8a2a976
+      query_hash: 971cd3b87dfee72ed85f93ce40c2f544ad287e3b
+      tags:
+        - stock
+      size: 278400

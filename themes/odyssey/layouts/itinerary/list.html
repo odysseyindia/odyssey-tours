@@ -147,7 +147,7 @@
             <label for="cities">City</label>
             <select class="maxwidth" id="cities" name="cities">
               <option value="">Select a city</option>
-              {{ range ( sort (where (where .Site.Pages "Section" "states") ".Params.id" "city") ".Title" "asc" ) }}
+              {{ range ( sort (where (where .Site.Pages "Section" "destinations") ".Params.id" "city") ".Title" "asc" ) }}
               <option value="{{ .RelPermalink }}">{{ .Title }} </option>
               {{ end }}
             </select>

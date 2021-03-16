@@ -1,0 +1,166 @@
+stats:
+  timestamp: '1611651619.72'
+  query_time: '1.79'
+  total_backlinks: 32
+  total_collection: 1
+  total_results: 20
+  total_stock: 8
+  total_filtered_results: 8
+  positive: false
+code: 200
+messages: []
+results:
+  matches:
+    - domain: alamy.com
+      backlinks:
+        - url: >-
+            http://n7.alamy.com/zooms/730efc7eb416433eabdf8dc35eb638b3/tiled-road-sign-in-the-old-town-of-panaji-panjim-goa-india-aypyhp.jpg
+          crawl_date: '2016-06-03'
+          backlink: http://www.alamy.com/stock-photo/tiled-sign.html
+      format: JPEG
+      filesize: 123695
+      overlay: >-
+        overlay/7cf31cbdba64bbffcae6b161025ae719bc8d29b1/e77ddfb91c73f4865beabe0a3a3f7d681c8ee3bfb3311cc21b6135aeb489db92?m21=0.0221259&m22=0.975721&m23=2.35643&m11=0.975721&m13=13.5936&m12=-0.0221259
+      height: 445
+      width: 640
+      score: 39.869
+      image_url: >-
+        https://img.tineye.com/result/e77ddfb91c73f4865beabe0a3a3f7d681c8ee3bfb3311cc21b6135aeb489db92
+      query_hash: 7cf31cbdba64bbffcae6b161025ae719bc8d29b1
+      tags:
+        - stock
+      size: 284800
+    - domain: alamy.com
+      backlinks:
+        - url: ''
+          crawl_date: '2014-10-29'
+          backlink: >-
+            http://www.alamy.com/image-details-popup.asp?imageid={730EFC7E-B416-433E-ABDF-8DC35EB638B3}
+      format: JPEG
+      filesize: 284800
+      overlay: >-
+        overlay/7cf31cbdba64bbffcae6b161025ae719bc8d29b1/06b9e624f6612e618a5a1348de2da8ef46e8c8b9d6a2ff29555e38206c4cff75?m21=0.0211854&m22=0.974054&m23=2.67952&m11=0.974054&m13=13.7645&m12=-0.0211854
+      height: 445
+      width: 640
+      score: 35.948
+      image_url: >-
+        https://img.tineye.com/result/06b9e624f6612e618a5a1348de2da8ef46e8c8b9d6a2ff29555e38206c4cff75
+      query_hash: 7cf31cbdba64bbffcae6b161025ae719bc8d29b1
+      tags:
+        - stock
+      size: 284800
+    - domain: alamy.com
+      backlinks:
+        - url: >-
+            http://n7.alamy.com/zooms/72b920689cee4c77bd634e4742edc1b8/street-signs-in-old-town-panaji-or-panjim-goa-india-aa757n.jpg
+          crawl_date: '2016-10-24'
+          backlink: http://www.alamy.com/stock-photo/painted-tile.html?page=2
+      format: JPEG
+      filesize: 125603
+      overlay: >-
+        overlay/7cf31cbdba64bbffcae6b161025ae719bc8d29b1/466e5c3da47c9d4caed6348dd70d96a806ce3f3cf44c07bc24c392996f7926e7?m21=0.0224889&m22=0.937726&m23=12.8755&m11=0.937726&m13=34.8225&m12=-0.0224889
+      height: 445
+      width: 640
+      score: 35.948
+      image_url: >-
+        https://img.tineye.com/result/466e5c3da47c9d4caed6348dd70d96a806ce3f3cf44c07bc24c392996f7926e7
+      query_hash: 7cf31cbdba64bbffcae6b161025ae719bc8d29b1
+      tags:
+        - stock
+      size: 284800
+    - domain: alamy.com
+      backlinks:
+        - url: >-
+            https://c8.alamy.com/comp/AA757N/street-signs-in-old-town-panaji-or-panjim-goa-india-AA757N.jpg
+          crawl_date: '2018-12-19'
+          backlink: >-
+            https://www.alamy.com/stock-photo-street-signs-in-old-town-panaji-or-panjim-goa-india-12536360.html
+      format: JPEG
+      filesize: 260498
+      overlay: >-
+        overlay/7cf31cbdba64bbffcae6b161025ae719bc8d29b1/7b36a3bda3e3900db06a24a59bdfc8adbf6b8394278d1daf83826bdd0f9293c6?m21=0.0246943&m22=0.99059&m23=12.5241&m11=0.99059&m13=34.6753&m12=-0.0246943
+      height: 953
+      width: 1300
+      score: 33.987
+      image_url: >-
+        https://img.tineye.com/result/7b36a3bda3e3900db06a24a59bdfc8adbf6b8394278d1daf83826bdd0f9293c6
+      query_hash: 7cf31cbdba64bbffcae6b161025ae719bc8d29b1
+      tags:
+        - stock
+      size: 1238900
+    - domain: alamy.com
+      backlinks:
+        - url: >-
+            https://c8.alamy.com/comp/AYPYHP/tiled-road-sign-in-the-old-town-of-panaji-panjim-goa-india-AYPYHP.jpg
+          crawl_date: '2019-03-22'
+          backlink: >-
+            https://www.alamy.com/stock-photo-tiled-road-sign-in-the-old-town-of-panaji-panjim-goa-india-17163201.html
+      format: JPEG
+      filesize: 266970
+      overlay: >-
+        overlay/7cf31cbdba64bbffcae6b161025ae719bc8d29b1/640075c9208a41881b389e12c413c312164d2d32c86da9b860f8d98a7758ddf3?m21=0.0235354&m22=1.02706&m23=2.2299&m11=1.02706&m13=14.1445&m12=-0.0235354
+      height: 954
+      width: 1300
+      score: 33.987
+      image_url: >-
+        https://img.tineye.com/result/640075c9208a41881b389e12c413c312164d2d32c86da9b860f8d98a7758ddf3
+      query_hash: 7cf31cbdba64bbffcae6b161025ae719bc8d29b1
+      tags:
+        - stock
+      size: 1240200
+    - domain: gettyimages.com
+      backlinks:
+        - url: ''
+          crawl_date: '2015-01-12'
+          backlink: >-
+            http://www.gettyimages.com/detail/photo/tile-streetsign-st-sebastian-road-high-res-stock-photography/148549452
+      format: JPEG
+      filesize: 171366
+      overlay: >-
+        overlay/7cf31cbdba64bbffcae6b161025ae719bc8d29b1/3a58baf8aef9fdf423a7939973199c9bb3e771871341ed39946a0f29509ca2f8?m21=0.0145308&m22=0.916727&m23=6.87158&m11=0.916727&m13=28.784&m12=-0.0145308
+      height: 338
+      width: 507
+      score: 30.065
+      image_url: >-
+        https://img.tineye.com/result/3a58baf8aef9fdf423a7939973199c9bb3e771871341ed39946a0f29509ca2f8
+      query_hash: 7cf31cbdba64bbffcae6b161025ae719bc8d29b1
+      tags:
+        - stock
+      size: 171366
+    - domain: alamy.com
+      backlinks:
+        - url: ''
+          crawl_date: '2014-10-29'
+          backlink: >-
+            http://www.alamy.com/image-details-popup.asp?imageid={72B92068-9CEE-4C77-BD63-4E4742EDC1B8}
+      format: JPEG
+      filesize: 284800
+      overlay: >-
+        overlay/7cf31cbdba64bbffcae6b161025ae719bc8d29b1/122110657efea1c783202be79097aa43b0d2f8f01ad186f36e30f204a97d1171?m21=0.0229833&m22=0.940562&m23=12.5119&m11=0.940562&m13=34.4331&m12=-0.0229833
+      height: 445
+      width: 640
+      score: 28.105
+      image_url: >-
+        https://img.tineye.com/result/122110657efea1c783202be79097aa43b0d2f8f01ad186f36e30f204a97d1171
+      query_hash: 7cf31cbdba64bbffcae6b161025ae719bc8d29b1
+      tags:
+        - stock
+      size: 284800
+    - domain: stock.adobe.com
+      backlinks:
+        - url: ''
+          crawl_date: '2019-05-29'
+          backlink: https://stock.adobe.com/194458095
+      format: jpeg
+      filesize: 99327
+      overlay: >-
+        overlay/7cf31cbdba64bbffcae6b161025ae719bc8d29b1/98b10e2e06fe2dd98d089fe24b321a1f51f0c4b471f175064ba13613c089a476?m21=0.0946669&m22=1.45353&m23=-104.98&m11=1.45353&m13=-8.09674&m12=-0.0946669
+      height: 375
+      width: 500
+      score: 26.797
+      image_url: >-
+        https://img.tineye.com/result/98b10e2e06fe2dd98d089fe24b321a1f51f0c4b471f175064ba13613c089a476
+      query_hash: 7cf31cbdba64bbffcae6b161025ae719bc8d29b1
+      tags:
+        - stock
+      size: 187500

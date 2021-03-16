@@ -1,0 +1,117 @@
+stats:
+  timestamp: '1610997496.56'
+  query_time: '1.98'
+  total_backlinks: 36
+  total_collection: 3
+  total_results: 21
+  total_stock: 5
+  total_filtered_results: 5
+  positive: false
+  positive: false
+code: 200
+messages: []
+results:
+  matches:
+    - domain: agefotostock.com
+      backlinks:
+        - url: >-
+            http://www.agefotostock.com/previewimage/bajaage/6909d85b3b915e63f5d0aa0a073136ef/SSD-2032R-600371.jpg?todisk=1
+          crawl_date: '2014-06-05'
+          backlink: >-
+            http://www.agefotostock.com/en/Stock-Images/Royalty-Free/SSD-2032R-600371
+      format: JPEG
+      filesize: 139713
+      overlay: >-
+        overlay/6ffe529cfb99b622e096c419205130a83a62665e/22d57b2cf12d62a2005205511d1bab316540f93242ba370322bd418a0724dba4?m21=0.00602711&m22=0.938934&m23=0.642325&m11=0.938934&m13=-7.21139&m12=-0.00602711
+      height: 375
+      width: 538
+      score: 20.261
+      image_url: >-
+        https://img.tineye.com/result/22d57b2cf12d62a2005205511d1bab316540f93242ba370322bd418a0724dba4
+      query_hash: 6ffe529cfb99b622e096c419205130a83a62665e
+      tags:
+        - stock
+      size: 201750
+    - domain: fotosearch.com
+      backlinks:
+        - url: http://sr.photos3.fotosearch.com/bthumb/PSK/PSK012/2032r-600371.jpg
+          crawl_date: '2015-09-05'
+          backlink: http://www.fotosearch.com/PSK012/2032r-600373/
+      format: JPEG
+      filesize: 4434
+      overlay: >-
+        overlay/6ffe529cfb99b622e096c419205130a83a62665e/bb48df2c92e28d2ae905037aa78e597898b2b7052a8ede69fdad75100844db90?m21=0.000822433&m22=2.38714&m23=1.0907&m11=2.38714&m13=-7.92066&m12=-0.000822433
+      height: 114
+      width: 170
+      score: 18.954
+      image_url: >-
+        https://img.tineye.com/result/bb48df2c92e28d2ae905037aa78e597898b2b7052a8ede69fdad75100844db90
+      query_hash: 6ffe529cfb99b622e096c419205130a83a62665e
+      tags:
+        - stock
+      size: 19380
+    - domain: agefotostock.com
+      backlinks:
+        - url: http://t4.thpservices.com/fotos/thum4/020/442/ssd-2032r-600371.jpg
+          crawl_date: '2013-05-01'
+          backlink: >-
+            http://www.agefotostock.com/age/ingles/tpis1b1.asp?ck_searchin=1&foto_id=20719474&page=issim01.asp
+        - url: http://t2.thpservices.com/fotos/thum4/020/442/ssd-2032r-600371.jpg
+          crawl_date: '2014-06-05'
+          backlink: >-
+            http://www.agefotostock.com/en/Stock-Images/Rights-Managed/B22-1722062
+        - url: http://t4.thpservices.com/fotos/thum4/020/442/ssd-2032r-600371.jpg
+          crawl_date: '2013-04-17'
+          backlink: >-
+            http://www.agefotostock.com/age/ingles/tpis1b1.asp?ck_searchin=1&foto_id=11933929&page=issim01.asp
+      format: JPEG
+      filesize: 12359
+      overlay: >-
+        overlay/6ffe529cfb99b622e096c419205130a83a62665e/117dcd0e23c747911930d5e422f3079a8aa8d646e1f413a1857fb27cbf566ced?m21=3.89131e-05&m22=2.0335&m23=1.98874&m11=2.0335&m13=-8.71107&m12=-3.89131e-05
+      height: 133
+      width: 200
+      score: 18.954
+      image_url: >-
+        https://img.tineye.com/result/117dcd0e23c747911930d5e422f3079a8aa8d646e1f413a1857fb27cbf566ced
+      query_hash: 6ffe529cfb99b622e096c419205130a83a62665e
+      tags:
+        - stock
+      size: 26600
+    - domain: inmagine.com
+      backlinks:
+        - url: http://images.inmagine.com/168nwm/purestock/prss055/prss055393.jpg
+          crawl_date: '2013-10-05'
+          backlink: >-
+            http://www.inmagine.com/purestock-singles-collection-055-photos/purestock-prss055-320
+      format: JPEG
+      filesize: 6705
+      overlay: >-
+        overlay/6ffe529cfb99b622e096c419205130a83a62665e/2ea8ca381fd27b2c47de540287f336e640d6b3d4e2674548598acc9544fd576a?m21=0.0142712&m22=2.39939&m23=1.67539&m11=2.39939&m13=-6.62747&m12=-0.0142712
+      height: 112
+      width: 168
+      score: 16.993
+      image_url: >-
+        https://img.tineye.com/result/2ea8ca381fd27b2c47de540287f336e640d6b3d4e2674548598acc9544fd576a
+      query_hash: 6ffe529cfb99b622e096c419205130a83a62665e
+      tags:
+        - stock
+      size: 18816
+    - domain: gettyimages.com
+      backlinks:
+        - url: ''
+          crawl_date: '2015-01-12'
+          backlink: >-
+            http://www.gettyimages.com/detail/photo/mysore-palace-on-eve-of-dasara-high-res-stock-photography/159491681
+      format: JPEG
+      filesize: 171045
+      overlay: >-
+        overlay/6ffe529cfb99b622e096c419205130a83a62665e/1d040c22bdaa391655fc23c010bc422fad5cbc2c1f25803c7189e611e3ebd106?m21=-0.0064939&m22=0.739518&m23=10.3491&m11=0.739518&m13=5.02292&m12=0.0064939
+      height: 315
+      width: 543
+      score: 15.033
+      image_url: >-
+        https://img.tineye.com/result/1d040c22bdaa391655fc23c010bc422fad5cbc2c1f25803c7189e611e3ebd106
+      query_hash: 6ffe529cfb99b622e096c419205130a83a62665e
+      tags:
+        - stock
+      size: 171045

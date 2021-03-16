@@ -1,0 +1,140 @@
+{{- define "main" }}
+{{- .Scratch.Set "layout" "layouts/itinerary/single.html" -}}
+
+<section id="{{ .Scratch.Get "id" | lower }}"> 
+  {{ partial "heading.html" . }}
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3 col-md-3 border">
+        <div class="color">Duration</div>
+        <div>{{ .Params.days }} days</div>
+      </div>
+      <div class="col-sm-3 col-md-3 border">
+        <div class="color">Price from</div>
+        <div>{{ .Params.price }} </div>
+      </div>
+      <div class="col-sm-3 col-md-3 border">
+        <div class='flex'>
+          <div class="row specs">
+            <div class="color">Start</div>
+            <div class="color"><i class=".icon-globe"></i></div>
+            <div class="color">End</div>
+          </div>
+          <div class="row specs">
+            <div class="flex-item grow ml-10">{{ .Params.tourStart }}</div>
+            <div class="flex-item"> </div>
+            <div class="flex-item grow">{{ .Params.tourEnd   }}</div>
+          </div>
+        </div>
+      </div>
+       <div class="col-sm-3 col-md-3">
+        <div class="color">Best time to go</div>
+        <div>{{ .Params.bestTime }}</div>
+      </div>
+    </div>
+
+    <div class="note">
+      <div class="tailored">
+        All trips can be tailored to your needs!<br>
+        Get in touch with us <a href="/contact/contact-us/">here</a>
+      </div>
+    </div>
+
+    <div class="tab-wrapper">
+      <nav id="myTab" class="nav flex-column flex-sm-row" >
+         
+          <a class="flex-sm-fill text-sm-center nav-link active" data-toggle="tab" href="#itinerary">
+            Itinerary
+          </a>
+          <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#map">
+            Map
+          </a>
+          <a class="flex-sm-fill text-sm-center nav-link " data-toggle="tab" href="hotel-options">
+            Hotel Options 
+          </a>
+          <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#similar">
+            Similar Itineraries
+          </a>
+      </nav>
+      <div class="tab-content">
+        <div id="itinerary" class="tab-pane active">
+
+           <div id="myItinerary">
+        {{- range $index,$e := .Params.itinerary }}
+         {{- range $i,$v := .item }}
+          {{- if (eq $v.type "hotel") }}
+          {{ $hotel := $v.url }}
+          {{ end }}
+          {{ end }}
+        <hr class="hr-text" data-content="Day {{add $index 1 }}">
+        
+          {{- range $i,$v := .item }}
+
+          <div class="draggable" type="{{- if (eq $v.type "excursion") }}excursion{{- else if (eq $v.type "hotel") }}hotel{{- else if (eq $v.type "flight") }}flight{{- else if (eq $v.type "ferry") }}ferry{{- else if (eq $v.type "train") }}train{{- else if (eq $v.type "car-hire") }}car-hire{{- end }}" day={{ $index }} index={{ $i }} url="{{ .url }}">
+
+            <div>
+              {{- if (eq $v.type "intro") }}
+              <p>{{ $v.content }}</p>
+
+              {{- else if (eq $v.type "excursion") }}
+              <i class="icon-camera"></i>
+              {{- else if (eq $v.type "hotel") }}
+              <i class="icon-bed"></i>
+              {{- else if (eq $v.type "flight") }}
+              <i class="icon-flight"></i>
+              {{- else if (eq $v.type "ferry") }}
+              <i class="icon-ferry"></i>
+              {{- else if (eq $v.type "train") }}
+              <i class="icon-train"></i>
+              {{- else if (eq $v.type "car-hire") }}
+              <i class="icon-cab"></i>
+              {{- end }}
+            </div>
+            <div class="program">
+                {{- $url :=  printf "%s%s" $v.url "index.md" }}
+                {{- $content := $v.content | default "" }}
+                {{- with $.Site.GetPage (string $url) }}
+              <h4>{{ .Title }}, </h4>
+              <div class="mr-10 content-text details1"> 
+                {{ cond (gt (len $content) 0) $content .Content }}
+              </div>      
+              <div class="content">
+                <div class="image">
+                  <img class="lazyload" 
+                  sizes="(min-width: 35em) 150px, 10vw"
+                  data-srcset="{{ .RelPermalink }}{{ .Params.image }} 150w"
+                  data-src="{{ .RelPermalink }}{{ .Params.image }}" alt="{{ .Title }}">
+                </div>      
+              </div>
+              {{ end }} 
+            </div>
+          </div>
+          {{- end }}
+      
+        {{- end }}
+      </div>
+
+            {{ .Content }}
+        </div>
+        <div id="map" class="tab-pane ">
+            <div class="mx-auto w-50 p-3">
+             
+            </div>
+        </div>
+
+        <div id="similar" class="tab-pane ">
+             <div class="mx-auto w-50 p-3">
+            
+             </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+</section>
+
+{{- end }}
+{{- define "postscript" }}
+
+
+
+{{- end }}

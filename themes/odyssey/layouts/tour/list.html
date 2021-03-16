@@ -1,0 +1,110 @@
+{{- define "main" }}
+{{- .Scratch.Set "layout" "layouts/tour/list.html" -}}
+
+<section id="{{ .Scratch.Get "id" | lower }}"> 
+  {{ partial "heading.html" . }}
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3 col-md-3 border">
+        <div class="color">Duration</div>
+        <div>{{ .Params.days }} days</div>
+      </div>
+      <div class="col-sm-3 col-md-3 border">
+        <div class="color">Price from</div>
+        <div>{{ .Params.price }} </div>
+      </div>
+      <div class="col-sm-3 col-md-3 border">
+        <div class='flex'>
+          <div class="row specs">
+            <div class="color">Start</div>
+            <div class="color"><i class=".icon-globe"></i></div>
+            <div class="color">End</div>
+          </div>
+          <div class="row specs">
+            <div class="flex-item grow ml-10">{{ .Params.tourStart }}</div>
+            <div class="flex-item"> </div>
+            <div class="flex-item grow">{{ .Params.tourEnd   }}</div>
+          </div>
+        </div>
+      </div>
+       <div class="col-sm-3 col-md-3">
+        <div class="color">Best time to go</div>
+        <div>{{ .Params.bestTime }}</div>
+      </div>
+    </div>
+
+    <div class="note">
+      <div class="tailored">
+        All trips can be tailored to your needs!<br>
+        Get in touch with us <a href="/contact/contact-us/">here</a>
+      </div>
+    </div>
+
+
+    <div class="tab-wrapper">
+      <nav id="myTab" class="nav flex-column flex-sm-row" >
+         
+          <a class="flex-sm-fill text-sm-center nav-link active" data-toggle="tab" href="#itinerary">
+            Itinerary
+          </a>
+          <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#map">
+            Map
+          </a>
+          <a class="flex-sm-fill text-sm-center nav-link " data-toggle="tab" href="hotel-options">
+            Hotel Options 
+          </a>
+          <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#similar">
+            Similar Itineraries
+          </a>
+      </nav>
+      <div class="tab-content">
+        <div id="itinerary" class="tab-pane active">
+
+          {{"<!-- Question -->" | safeHTML }}
+<div id="accordion" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+
+{{- range $i,$e := sort .Data.Pages "File.Path" }}
+  <div class="card">
+    <div class="card-header" id="heading{{$i}}">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapse{{$i}}" aria-expanded="true" aria-controls="collapse{{$i}}">
+          <h4 itemprop="name">Day {{ add $i 1 }}, {{ .Title }}</h4>
+        </button>
+      </h5>
+    </div>
+    <div id="collapse{{$i}}" class="collapse" aria-labelledby="heading{{$i}}" data-parent="#accordion">
+      <div class="card-body">
+        <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <div itemprop="text" class="left">
+            {{ .Content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{{- end }}
+</div>
+
+        </div>
+        <div id="map" class="tab-pane ">
+            <div class="mx-auto w-50 p-3">
+             
+            </div>
+        </div>
+
+        <div id="similar" class="tab-pane ">
+             <div class="mx-auto w-50 p-3">
+            
+             </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+</section>
+
+{{- end }}
+{{- define "postscript" }}
+
+
+
+{{- end }}

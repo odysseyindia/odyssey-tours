@@ -3,7 +3,7 @@ title: Punjab
 translationKey: punjab
 oneliner: Bread basket of the nation
 states_id: 26
-draft: true
+draft: false
 id: state
 type: state
 tags:

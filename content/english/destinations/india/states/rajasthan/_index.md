@@ -3,7 +3,7 @@ title: Rajasthan
 translationKey: rajasthan
 oneliner: Amongst the Maharajas
 states_id: 27
-draft: true
+draft: false
 id: state
 type: state
 tags:

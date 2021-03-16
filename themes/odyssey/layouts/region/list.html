@@ -1,0 +1,60 @@
+{{- define "main" }}
+{{- .Scratch.Set "layout" "layouts/region/list.html" -}}
+
+{{- $title := (.Site.GetPage (printf "/explore-india/by-region/%s" (path.Base .RelPermalink))).Title }}
+
+<section id="region"> 
+  {{ partial "heading.html" . }}
+  <div class="container">
+    <div class="row">
+      <div class="mx-auto w-50">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+  {{ partial "tours-topbar.html" . }}
+  <div class="bg">
+    <div class="row">
+      {{ partial "filter-tours.html" (dict "dot" . "pages" .Parent.Data.Pages ) }}  
+      <div class="col-sm-8 col-md-9">
+        <div class="itineraries">   
+        {{"<!-- items -->" | safeHTML }}
+        {{- range .Data.Pages }}
+        {{- partial "tour-listing.html" . }}
+        {{- end }}
+        {{"<!-- end items -->" | safeHTML }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{- end }}
+{{- define "postscript"}}
+
+<script>
+{{- range .Parent.Data.Pages }}
+
+document.getElementById("{{ .Params.translationKey }}").onchange = function() {
+  window.location.href = "{{ .Permalink }}";
+};
+
+{{- end }}
+
+{{- range (where .Site.RegularPages "Section" "experience") }}
+{{- if in .Permalink "by-interest" }} 
+
+document.getElementById("{{ .Params.translationKey }}").onchange = function() {
+  myInterest("{{ .Params.translationKey }}")
+};
+
+function myInterest(interest) {
+  window.location.href = "/experience/by-interest/" + interest;
+};
+
+{{- end }}
+{{- end }}
+</script>
+
+{{- end }}
+

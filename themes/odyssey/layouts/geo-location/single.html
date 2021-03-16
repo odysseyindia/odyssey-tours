@@ -15,6 +15,12 @@
 		  <input type="submit" value="Submit">
 		</form> 
       </div>
+<div>
+{{- range (  ( where .Site.Pages "Section" "destinations")  ) }}
+{{ .Title }}<br>
+{{- end }}
+</div>
+
       <div id="message"> </div>
     </div>
   </div>

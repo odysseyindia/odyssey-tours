@@ -1,0 +1,71 @@
+stats:
+  timestamp: '1611150977.91'
+  query_time: '6.93'
+  total_backlinks: 3
+  total_collection: 0
+  total_results: 3
+  total_stock: 3
+  total_filtered_results: 3
+  positive: false
+code: 200
+messages: []
+results:
+  matches:
+    - domain: mediabakery.com
+      backlinks:
+        - url: ''
+          crawl_date: '2018-02-10'
+          backlink: >-
+            https://www.mediabakery.com/NVR1004763fortress-of-amber-amber-fort-jaipur-rajasthan-india.html
+      format: jpeg
+      filesize: 18100
+      overlay: >-
+        overlay/f34492b779a53a0c83cb914580280876d5206d3a/6955723c5bd0b7041fc618851e1ac8a258a7a12c4e1048c069e6cd68038b9173?m21=0.0305301&m22=2.37108&m23=-67.5874&m11=2.37108&m13=-138.746&m12=-0.0305301
+      height: 217
+      width: 325
+      score: 13.072
+      image_url: >-
+        https://img.tineye.com/result/6955723c5bd0b7041fc618851e1ac8a258a7a12c4e1048c069e6cd68038b9173
+      query_hash: f34492b779a53a0c83cb914580280876d5206d3a
+      tags:
+        - stock
+      size: 70525
+    - domain: mediabakery.com
+      backlinks:
+        - url: ''
+          crawl_date: '2018-03-20'
+          backlink: >-
+            https://www.mediabakery.com/NVR1004757fortress-of-amber-amber-fort-jaipur-rajasthan-india.html
+      format: jpeg
+      filesize: 19245
+      overlay: >-
+        overlay/f34492b779a53a0c83cb914580280876d5206d3a/feb6b701839780b4172339d528b308354f20d55727f9416826ed75dd2b97471c?m21=0.0456013&m22=1.13462&m23=-24.3832&m11=1.13462&m13=42.2111&m12=-0.0456013
+      height: 217
+      width: 325
+      score: 11.765
+      image_url: >-
+        https://img.tineye.com/result/feb6b701839780b4172339d528b308354f20d55727f9416826ed75dd2b97471c
+      query_hash: f34492b779a53a0c83cb914580280876d5206d3a
+      tags:
+        - stock
+      size: 70525
+    - domain: gettyimages.com
+      backlinks:
+        - url: >-
+            https://media.gettyimages.com/photos/the-famous-amber-fort-in-jaipur-india-with-more-than-15-million-per-picture-id827175172
+          crawl_date: '2019-05-07'
+          backlink: >-
+            https://www.gettyimages.com/detail/news-photo/the-famous-amber-fort-in-jaipur-india-with-more-than-1-5-news-photo/827175172
+      format: JPEG
+      filesize: 329911
+      overlay: >-
+        overlay/f34492b779a53a0c83cb914580280876d5206d3a/39cc17fa2ed982751cc6a143e12936d5003566990087cbb2a46397514fb40eeb?m21=0.00539738&m22=1.1033&m23=-20.9345&m11=1.1033&m13=-17.3812&m12=-0.00539738
+      height: 683
+      width: 1024
+      score: 11.765
+      image_url: >-
+        https://img.tineye.com/result/39cc17fa2ed982751cc6a143e12936d5003566990087cbb2a46397514fb40eeb
+      query_hash: f34492b779a53a0c83cb914580280876d5206d3a
+      tags:
+        - stock
+      size: 699392

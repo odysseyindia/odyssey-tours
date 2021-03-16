@@ -1,0 +1,150 @@
+stats:
+  timestamp: '1611151115.53'
+  query_time: '1.97'
+  total_backlinks: 57
+  total_collection: 0
+  total_results: 21
+  total_stock: 7
+  total_filtered_results: 7
+  positive: false
+code: 200
+messages: []
+results:
+  matches:
+    - domain: dreamstime.com
+      backlinks:
+        - url: >-
+            https://thumbs.dreamstime.com/z/mandawa-rajasthan-india-december-chokani-double-haveli-details-frescoes-mural-paintings-chokani-double-haveli-108383088.jpg
+          crawl_date: '2019-01-31'
+          backlink: >-
+            https://www.dreamstime.com/mandawa-rajasthan-india-december-chokani-double-haveli-details-frescoes-mural-paintings-chokani-double-haveli-image108383088
+      format: JPEG
+      filesize: 230140
+      overlay: >-
+        overlay/f2d082ae460c39d02644cabd791d777abec0ac0b/2d63d688ba0a25a98941da89f69b4986597fac2255ec0a0e51b6f6cbb9a01bee?m21=0.0201152&m22=0.989256&m23=-10.2313&m11=0.989256&m13=-28.1696&m12=-0.0201152
+      height: 821
+      width: 1300
+      score: 22.222
+      image_url: >-
+        https://img.tineye.com/result/2d63d688ba0a25a98941da89f69b4986597fac2255ec0a0e51b6f6cbb9a01bee
+      query_hash: f2d082ae460c39d02644cabd791d777abec0ac0b
+      tags:
+        - stock
+      size: 1067300
+    - domain: gettyimages.com
+      backlinks:
+        - url: >-
+            https://media.gettyimages.com/photos/the-city-of-mandawa-in-shekhawati-area-located-in-north-rajasthan-in-picture-id1089290192
+          crawl_date: '2020-10-14'
+          backlink: >-
+            https://www.gettyimages.com/detail/news-photo/the-city-of-mandawa-in-shekhawati-area-located-in-north-news-photo/1089290192
+      format: JPEG
+      filesize: 63074
+      overlay: >-
+        overlay/f2d082ae460c39d02644cabd791d777abec0ac0b/8fbd150db3852e3eeb4beeb1b3d209a0f943085362d89b20feff8142537ce054?m21=0.0341094&m22=1.08746&m23=-30.5896&m11=1.08746&m13=-52.3672&m12=-0.0341094
+      height: 4906
+      width: 7360
+      score: 20.915
+      image_url: >-
+        https://img.tineye.com/result/8fbd150db3852e3eeb4beeb1b3d209a0f943085362d89b20feff8142537ce054
+      query_hash: f2d082ae460c39d02644cabd791d777abec0ac0b
+      tags:
+        - stock
+      size: 36108160
+    - domain: bigstockphoto.com
+      backlinks:
+        - url: https://static3.bigstockphoto.com/3/2/2/large1500/223201285.jpg
+          crawl_date: '2018-10-25'
+          backlink: >-
+            https://www.bigstockphoto.com/image-223201285/stock-photo-mandawa%2C-rajasthan%2C-india-december-27%2C-2017%3A-chokani-double-haveli-with-details-of-the-frescoes-and-mural-paintings
+      format: JPEG
+      filesize: 391186
+      overlay: >-
+        overlay/f2d082ae460c39d02644cabd791d777abec0ac0b/044d707bbef6d9edc1ef97b1542d53cd554ff31f15f3a534dbfdfbf2a4d97faf?m21=0.0176738&m22=1.00433&m23=-9.3064&m11=1.00433&m13=-28.3175&m12=-0.0176738
+      height: 964
+      width: 1500
+      score: 19.608
+      image_url: >-
+        https://img.tineye.com/result/044d707bbef6d9edc1ef97b1542d53cd554ff31f15f3a534dbfdfbf2a4d97faf
+      query_hash: f2d082ae460c39d02644cabd791d777abec0ac0b
+      tags:
+        - stock
+      size: 1446000
+    - domain: alamy.com
+      backlinks:
+        - url: >-
+            https://c8.alamy.com/comp/M0GC49/mandawa-rajasthan-india-december-27-2017-chokani-double-haveli-with-M0GC49.jpg
+          crawl_date: '2019-02-06'
+          backlink: >-
+            https://www.alamy.com/stock-photo-mandawa-rajasthan-india-december-27-2017-chokani-double-haveli-with-172464441.html
+      format: JPEG
+      filesize: 276387
+      overlay: >-
+        overlay/f2d082ae460c39d02644cabd791d777abec0ac0b/7161a14326338b71bb751007e690adf7ce6fd8e730b142e71cddde4fd5c9d388?m21=0.0191492&m22=0.98961&m23=-9.88026&m11=0.98961&m13=-28.3255&m12=-0.0191492
+      height: 821
+      width: 1300
+      score: 17.647
+      image_url: >-
+        https://img.tineye.com/result/7161a14326338b71bb751007e690adf7ce6fd8e730b142e71cddde4fd5c9d388
+      query_hash: f2d082ae460c39d02644cabd791d777abec0ac0b
+      tags:
+        - stock
+      size: 1067300
+    - domain: 123rf.com
+      backlinks:
+        - url: >-
+            https://us.123rf.com/450wm/cappelli/cappelli1801/cappelli180100158/96257961-mandawa-rajasthan-india-december-27-2017-chokani-double-haveli-with-details-of-the-frescoes-and-mura.jpg?ver=6
+          crawl_date: '2019-02-17'
+          backlink: >-
+            https://www.123rf.com/photo_96257961_mandawa-rajasthan-india-december-27-2017-chokani-double-haveli-with-details-of-the-frescoes-and-mura.html
+      format: JPEG
+      filesize: 32967
+      overlay: >-
+        overlay/f2d082ae460c39d02644cabd791d777abec0ac0b/27bf5b9062e16b4556e4500e9a738af0c5385628f2d25c83eefb3f418460b751?m21=0.0194171&m22=1.05278&m23=-11.1625&m11=1.05278&m13=-29.7106&m12=-0.0194171
+      height: 253
+      width: 450
+      score: 16.34
+      image_url: >-
+        https://img.tineye.com/result/27bf5b9062e16b4556e4500e9a738af0c5385628f2d25c83eefb3f418460b751
+      query_hash: f2d082ae460c39d02644cabd791d777abec0ac0b
+      tags:
+        - stock
+      size: 113850
+    - domain: bigstockphoto.com
+      backlinks:
+        - url: https://static3.bigstockphoto.com/3/2/2/large2/223201285.jpg
+          crawl_date: '2018-10-25'
+          backlink: >-
+            https://www.bigstockphoto.com/image-223201285/stock-photo-mandawa%2C-rajasthan%2C-india-december-27%2C-2017%3A-chokani-double-haveli-with-details-of-the-frescoes-and-mural-paintings
+      format: JPEG
+      filesize: 66940
+      overlay: >-
+        overlay/f2d082ae460c39d02644cabd791d777abec0ac0b/84297bd0292a74ec615be49c91bc68a9e923b3e56dc76aedbc72ec76e195d317?m21=0.0146547&m22=1.0349&m23=-7.18946&m11=1.0349&m13=-26.5418&m12=-0.0146547
+      height: 273
+      width: 450
+      score: 13.072
+      image_url: >-
+        https://img.tineye.com/result/84297bd0292a74ec615be49c91bc68a9e923b3e56dc76aedbc72ec76e195d317
+      query_hash: f2d082ae460c39d02644cabd791d777abec0ac0b
+      tags:
+        - stock
+      size: 122850
+    - domain: shutterstock.com
+      backlinks:
+        - url: ''
+          crawl_date: '2018-02-16'
+          backlink: >-
+            http://www.shutterstock.com/pic-795963940/stock-photo-mandawa-rajasthan-india-december-chokani-double-haveli-with-details-of-the-frescoes.html
+      format: jpeg
+      filesize: 227841
+      overlay: >-
+        overlay/f2d082ae460c39d02644cabd791d777abec0ac0b/ce1ae0df330b2d6d56df918de93dac8c8cba5201ad5a2055937420a911d1eb75?m21=0.0179828&m22=1.03446&m23=-7.31873&m11=1.03446&m13=-26.6152&m12=-0.0179828
+      height: 273
+      width: 450
+      score: 12.418
+      image_url: >-
+        https://img.tineye.com/result/ce1ae0df330b2d6d56df918de93dac8c8cba5201ad5a2055937420a911d1eb75
+      query_hash: f2d082ae460c39d02644cabd791d777abec0ac0b
+      tags:
+        - stock
+      size: 122850

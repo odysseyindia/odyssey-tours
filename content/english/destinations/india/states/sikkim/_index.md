@@ -3,7 +3,7 @@ title: Sikkim
 translationKey: sikkim
 oneliner: One of the last Himalayan `Shangri las'
 states_id: 28
-draft: true
+draft: false
 id: state
 type: state
 tags:

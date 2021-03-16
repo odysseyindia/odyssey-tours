@@ -3,7 +3,8 @@ title: Bihar
 translationKey: bihar
 oneliner: The birthplace of Buddhism
 states_id: 5
-draft: true
+draft: false
+
 id: state
 type: state
 tags:

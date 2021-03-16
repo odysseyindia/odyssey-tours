@@ -3,7 +3,7 @@ title: Karnataka
 translationKey: karnataka
 oneliner: 'Where ancient history meets trendy modern life    '
 states_id: 15
-draft: true
+draft: false
 id: state
 type: state
 tags:

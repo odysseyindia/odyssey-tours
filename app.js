@@ -32,7 +32,7 @@ app.post('/import',function (req, res) {
   console.log('Reading '+file);
 
   // states:
-  // select state,oneliner, writeup,states_id from states
+  // select state, oneliner, writeup, states_id, web from states where web=1
   // cities:
   // select city, cities.writeUp, DefaultDays, cities.longitude,cities.latitude, cities.display, state from cities join states on cities.states_id=states.states_id join states s on s.states_id=cities.states_id where cities.display=1
   // hotels
@@ -81,12 +81,18 @@ app.post('/import',function (req, res) {
 
       frontMatter = {};
 
+      var web = Number(array[5]) || 0;
+      var nighthalt = Number(array[7]) || 0;
+
+      city,writeup,DefaultDays,Longitude,Latitude,Display,state,nighthalt
+
       frontMatter.title           = array[0];
       frontMatter.translationKey  = city;
       frontMatter.defaultDays     = Number(array[2]) || 0;
-      frontMatter.latitude        = Number(array[3]) || '';
-      frontMatter.longitude       = Number(array[4]) || '';
-      frontMatter.draft           = (array[5]==1) ? false : true; // web
+      frontMatter.longitude       = Number(array[3]) || '';
+      frontMatter.latitude        = Number(array[4]) || '';
+      frontMatter.draft           = (web==0) ? true : false; 
+      frontMatter.nighthalt       = (nighthalt==0) ? true : false; 
       frontMatter.id              = 'city';
       frontMatter.type            = 'city';
       frontMatter.tags            = ['Cities',array[0] ];
@@ -126,13 +132,15 @@ app.post('/import',function (req, res) {
 
      try {
 
+      var web = Number(array[5]) || 0;
+
       frontMatter = {};
 
       frontMatter.title           = array[0];
       frontMatter.translationKey  = state;
       frontMatter.oneliner        = array[1] || '';
       frontMatter.states_id       = Number(array[3]) || '';
-      frontMatter.draft           = (array[5]==1) ? false : true; // web
+      frontMatter.draft           = (web==0) ? true : false; 
       frontMatter.id              = 'state';
       frontMatter.type            = 'state';
       frontMatter.tags            = ['States',array[0] ];
@@ -214,6 +222,8 @@ app.post('/import',function (req, res) {
 
      try {
 
+      var web = Number(array[7]) || 0;
+
       frontMatter                 = {};
       frontMatter.title           = array[2];
       frontMatter.translationKey  = description;
@@ -221,7 +231,7 @@ app.post('/import',function (req, res) {
       frontMatter.startTime       = (array[4] == 'NULL') ?  '' : array[4];
       frontMatter.transfer        = (array[5] == 'NULL') ?  '' : array[5];
       frontMatter.transferCode    = (array[6] == 'NULL') ?  '' : array[6];
-      frontMatter.draft           = (array[7] == 0) ?  true : false; 
+      frontMatter.draft           = (web == 0) ?  true : false; 
       frontMatter.daysOfOperation = (array[8] == 'NULL') ?  '' : array[8];
       frontMatter.toCity          = (array[9] == 'NULL') ?  '' : array[9];
       frontMatter.owntransport    = (array[10] == 1) ?  true : false;
@@ -483,7 +493,7 @@ app.post('/geolocation',function (req, res) {
   console.log('array length is ',dataArray.length);
 
   var i;
-  var len = 3;
+  var len = dataArray.length;
   var myAddress = [];
 
   for (i = 0; i < len; i++) {
@@ -514,6 +524,42 @@ app.post('/geolocation',function (req, res) {
   };  
 });
 
+
+app.post('/geolocator',function (req, res) {
+
+  require('dotenv').config();
+
+  const fs      = require('fs'); 
+  const fetch   = require('node-fetch');
+  const API_KEY = process.env.googleAPI;
+  var request   = JSON.parse(req.body.data);
+  let url       = "https://maps.googleapis.com/maps/api/geocode/json?address='"+request.address+"'&key="+API_KEY;
+  const body    = { a: 1 };
+  const options = {
+    provider: 'google',
+    fetch: 'JSON',
+    apiKey: API_KEY, 
+    formatter: null, 
+  };
+       
+    fetch(url, {
+            method: 'post',
+            body:    JSON.stringify(body),
+            headers: { 'Content-Type': 'application/json' },
+    })
+    .then(res => res.json())
+    .then(function(json) { 
+      
+      for (j = 0; j < json.results.length; j++ ) {
+        var myAddress = json.results[j].formatted_address+','+json.results[j].geometry.location.lat+','+json.results[j].geometry.location.lng;
+        console.log( myAddress );
+        fs.writeFileSync(dir+request.file, myAddress+'\n', (err) => {  
+          if (err) throw err; 
+        });
+      };
+
+    });  
+});
 
 app.get('/', function(req, res){ 
   res.send({ title: 'Welcome to Odyssey Tours',test:'Success, the server is running' }); 

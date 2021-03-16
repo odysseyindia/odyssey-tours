@@ -3,7 +3,7 @@ title: Daman
 translationKey: daman
 oneliner: A tiny enclave at the southern tip of Gujarat
 states_id: 7
-draft: true
+draft: false
 id: state
 type: state
 tags:

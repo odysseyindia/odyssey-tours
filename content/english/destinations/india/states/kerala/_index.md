@@ -3,7 +3,7 @@ title: Kerala
 translationKey: kerala
 oneliner: God's own country
 states_id: 16
-draft: true
+draft: false
 id: state
 type: state
 tags:

@@ -1,0 +1,130 @@
+stats:
+  timestamp: '1611002032.79'
+  query_time: '1.73'
+  total_backlinks: 13
+  total_collection: 0
+  total_results: 13
+  total_stock: 6
+  total_filtered_results: 6
+  positive: false
+code: 200
+messages: []
+results:
+  matches:
+    - domain: dreamstime.com
+      backlinks:
+        - url: >-
+            https://thumbs.dreamstime.com/z/khajuraho-temples-india-group-monuments-group-hindu-jain-built-chandela-dynasty-69963433.jpg
+          crawl_date: '2019-07-10'
+          backlink: >-
+            https://www.dreamstime.com/stock-photo-khajuraho-temples-india-group-monuments-group-hindu-jain-built-chandela-dynasty-image69963433
+      format: JPEG
+      filesize: 266970
+      overlay: >-
+        overlay/d373c9d33b165e504564088fcbf2a88d4f59743e/f46f62c04fe1622fa16baac1a21e6b85cf3eb548bfe4cff1cbdc433610235f62?m21=0.0126149&m22=1.02914&m23=35.0603&m11=1.02914&m13=-5.1348&m12=-0.0126149
+      height: 957
+      width: 1300
+      score: 26.144
+      image_url: >-
+        https://img.tineye.com/result/f46f62c04fe1622fa16baac1a21e6b85cf3eb548bfe4cff1cbdc433610235f62
+      query_hash: d373c9d33b165e504564088fcbf2a88d4f59743e
+      tags:
+        - stock
+      size: 1244100
+    - domain: shutterstock.com
+      backlinks:
+        - url: ''
+          crawl_date: '2018-04-24'
+          backlink: >-
+            http://www.shutterstock.com/pic-1072293944/stock-photo-stone-carving-bas-relief-sculptures-in-khajuraho-temple-madhya-pradesh-india.html
+      format: jpeg
+      filesize: 250118
+      overlay: >-
+        overlay/d373c9d33b165e504564088fcbf2a88d4f59743e/17c30dd811e6bf0bb8c2ef7794f98d8f85342e4ac0466a28323fcea9a37fe88a?m21=-0.000458084&m22=0.854494&m23=82.287&m11=0.854494&m13=39.6791&m12=0.000458084
+      height: 320
+      width: 450
+      score: 18.301
+      image_url: >-
+        https://img.tineye.com/result/17c30dd811e6bf0bb8c2ef7794f98d8f85342e4ac0466a28323fcea9a37fe88a
+      query_hash: d373c9d33b165e504564088fcbf2a88d4f59743e
+      tags:
+        - stock
+      size: 144000
+    - domain: depositphotos.com
+      backlinks:
+        - url: >-
+            https://st4.depositphotos.com/1773141/23456/i/1600/depositphotos_234560108-stock-photo-ancient-bas-relief-famous-erotic.jpg
+          crawl_date: '2020-06-02'
+          backlink: >-
+            https://depositphotos.com/234560108/stock-photo-ancient-bas-relief-famous-erotic.html
+      format: JPEG
+      filesize: 486984
+      overlay: >-
+        overlay/d373c9d33b165e504564088fcbf2a88d4f59743e/c576b7f4533b3bfaaf06ebf82fd03184790338ed78029d9338fbfbd095974073?m21=0.0142109&m22=0.64826&m23=91.5924&m11=0.64826&m13=63.0039&m12=-0.0142109
+      height: 1167
+      width: 1600
+      score: 16.993
+      image_url: >-
+        https://img.tineye.com/result/c576b7f4533b3bfaaf06ebf82fd03184790338ed78029d9338fbfbd095974073
+      query_hash: d373c9d33b165e504564088fcbf2a88d4f59743e
+      tags:
+        - stock
+      size: 1867200
+    - domain: stock.adobe.com
+      backlinks:
+        - url: ''
+          crawl_date: '2019-05-29'
+          backlink: https://stock.adobe.com/241097798
+      format: JPEG
+      filesize: 154319
+      overlay: >-
+        overlay/d373c9d33b165e504564088fcbf2a88d4f59743e/63d85c891cdaf688637884a39cdaa0df1c8c89ce432d06b9f9c4d64cfe28abdf?m21=0.0133927&m22=0.59088&m23=92.744&m11=0.59088&m13=63.0467&m12=-0.0133927
+      height: 334
+      width: 500
+      score: 15.686
+      image_url: >-
+        https://img.tineye.com/result/63d85c891cdaf688637884a39cdaa0df1c8c89ce432d06b9f9c4d64cfe28abdf
+      query_hash: d373c9d33b165e504564088fcbf2a88d4f59743e
+      tags:
+        - stock
+      size: 167000
+    - domain: 123rf.com
+      backlinks:
+        - url: >-
+            https://us.123rf.com/450wm/tepikina/tepikina1812/tepikina181200231/117607903-ancient-bas-relief-at-famous-erotic-temple-in-khajuraho-india-.jpg?ver=6
+          crawl_date: '2019-03-09'
+          backlink: >-
+            https://www.123rf.com/photo_117607903_ancient-bas-relief-at-famous-erotic-temple-in-khajuraho-india-.html
+      format: JPEG
+      filesize: 41404
+      overlay: >-
+        overlay/d373c9d33b165e504564088fcbf2a88d4f59743e/66abc86e80fbe17b7b68f433be28f1ae5591debe054d5e098f39269c17dd4cf0?m21=0.014768&m22=0.588897&m23=92.4912&m11=0.588897&m13=63.5053&m12=-0.014768
+      height: 300
+      width: 450
+      score: 13.725
+      image_url: >-
+        https://img.tineye.com/result/66abc86e80fbe17b7b68f433be28f1ae5591debe054d5e098f39269c17dd4cf0
+      query_hash: d373c9d33b165e504564088fcbf2a88d4f59743e
+      tags:
+        - stock
+      size: 135000
+    - domain: dreamstime.com
+      backlinks:
+        - url: >-
+            https://thumbs.dreamstime.com/z/ancient-bas-relief-famous-erotic-temple-khajuraho-india-unesco-world-heritage-site-ancient-bas-relief-famous-erotic-135456382.jpg
+          crawl_date: '2019-04-29'
+          backlink: >-
+            https://www.dreamstime.com/ancient-bas-relief-famous-erotic-temple-khajuraho-india-unesco-world-heritage-site-ancient-bas-relief-famous-erotic-image135456382
+      format: JPEG
+      filesize: 418936
+      overlay: >-
+        overlay/d373c9d33b165e504564088fcbf2a88d4f59743e/bcd5aaaf68f4990d6ff6eee773cc337ac40f783526fed23954ba365d062df9e7?m21=0.0135558&m22=0.639728&m23=92.2423&m11=0.639728&m13=63.1097&m12=-0.0135558
+      height: 1155
+      width: 1600
+      score: 13.072
+      image_url: >-
+        https://img.tineye.com/result/bcd5aaaf68f4990d6ff6eee773cc337ac40f783526fed23954ba365d062df9e7
+      query_hash: d373c9d33b165e504564088fcbf2a88d4f59743e
+      tags:
+        - stock
+      size: 1848000

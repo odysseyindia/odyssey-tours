@@ -3,7 +3,7 @@ title: Nagaland
 translationKey: nagaland
 oneliner: Home of a distinct and fascinating culture
 states_id: 23
-draft: true
+draft: false
 id: state
 type: state
 tags:

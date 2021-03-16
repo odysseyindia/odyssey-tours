@@ -3,7 +3,7 @@ title: Haryana
 translationKey: haryana
 oneliner: Growth engine of India
 states_id: 12
-draft: true
+draft: false
 id: state
 type: state
 tags:

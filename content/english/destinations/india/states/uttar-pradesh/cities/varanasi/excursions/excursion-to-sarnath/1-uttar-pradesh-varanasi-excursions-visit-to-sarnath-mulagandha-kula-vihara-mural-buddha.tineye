@@ -1,0 +1,188 @@
+stats:
+  timestamp: '1611172709.60'
+  query_time: '5.74'
+  total_backlinks: 79
+  total_collection: 1
+  total_results: 56
+  total_stock: 9
+  total_filtered_results: 9
+  positive: false
+code: 200
+messages: []
+results:
+  matches:
+    - domain: shutterstock.com
+      backlinks:
+        - url: ''
+          crawl_date: '2017-05-25'
+          backlink: >-
+            http://www.shutterstock.com/pic-580524427/stock-photo-sarnath-uttar-pradesh-india-nov-ancient-murals-wall-paintings-on-the-walls-at.html
+      format: jpeg
+      filesize: 37504
+      overlay: >-
+        overlay/4bc4dc1c3641dea0af900c4a7beba632061fe7d1/cc9f05c71caa0f5ffaab73559b823bd43213df3d879cb34e04197482cdba6705?m21=0.00292306&m22=0.69423&m23=-3.41726&m11=0.69423&m13=84.7365&m12=-0.00292306
+      height: 358
+      width: 450
+      score: 19.608
+      image_url: >-
+        https://img.tineye.com/result/cc9f05c71caa0f5ffaab73559b823bd43213df3d879cb34e04197482cdba6705
+      query_hash: 4bc4dc1c3641dea0af900c4a7beba632061fe7d1
+      tags:
+        - stock
+      size: 161100
+    - domain: alamy.com
+      backlinks:
+        - url: ''
+          crawl_date: '2015-01-30'
+          backlink: >-
+            http://www.alamy.com/image-details-popup.asp?imageid={D2CD0CDF-08F0-41F9-8FA3-CE6CB140B24C}
+      format: JPEG
+      filesize: 284800
+      overlay: >-
+        overlay/4bc4dc1c3641dea0af900c4a7beba632061fe7d1/a38469bde46f895c28ace737571d749a6be48beb38e0766589bbc78b554d580b?m21=-0.0297537&m22=1.21754&m23=-7.63104&m11=1.21754&m13=-33.6539&m12=0.0297537
+      height: 445
+      width: 640
+      score: 19.608
+      image_url: >-
+        https://img.tineye.com/result/a38469bde46f895c28ace737571d749a6be48beb38e0766589bbc78b554d580b
+      query_hash: 4bc4dc1c3641dea0af900c4a7beba632061fe7d1
+      tags:
+        - stock
+      size: 284800
+    - domain: alamy.com
+      backlinks:
+        - url: ''
+          crawl_date: '2014-10-08'
+          backlink: >-
+            http://www.alamy.com/image-details-popup.asp?imageid={27CCEC48-EFD9-4FD2-B96F-69BB8025FF78}
+      format: JPEG
+      filesize: 286080
+      overlay: >-
+        overlay/4bc4dc1c3641dea0af900c4a7beba632061fe7d1/c8a4617b0edcbec75087d8a918bf266e7a48080414675aad12a65ac1eee4b233?m21=-0.0604534&m22=1.04374&m23=4.86732&m11=1.04374&m13=-9.34255&m12=0.0604534
+      height: 447
+      width: 640
+      score: 18.954
+      image_url: >-
+        https://img.tineye.com/result/c8a4617b0edcbec75087d8a918bf266e7a48080414675aad12a65ac1eee4b233
+      query_hash: 4bc4dc1c3641dea0af900c4a7beba632061fe7d1
+      tags:
+        - stock
+      size: 286080
+    - domain: alamy.com
+      backlinks:
+        - url: ''
+          crawl_date: '2015-01-30'
+          backlink: >-
+            http://www.alamy.com/image-details-popup.asp?imageid={E368CE54-B6F2-4389-ABDD-5694463D0927}
+      format: JPEG
+      filesize: 285440
+      overlay: >-
+        overlay/4bc4dc1c3641dea0af900c4a7beba632061fe7d1/b8e8cc349c7179daea1e203ccc4280f5200e570a744062ddedc26d37aab5eda3?m21=-0.0366346&m22=1.32716&m23=-39.0486&m11=1.32716&m13=-72.3432&m12=0.0366346
+      height: 446
+      width: 640
+      score: 18.954
+      image_url: >-
+        https://img.tineye.com/result/b8e8cc349c7179daea1e203ccc4280f5200e570a744062ddedc26d37aab5eda3
+      query_hash: 4bc4dc1c3641dea0af900c4a7beba632061fe7d1
+      tags:
+        - stock
+      size: 285440
+    - domain: agefotostock.com
+      backlinks:
+        - url: >-
+            https://t1.thpservices.com/previewimage/gallil/efd370580936a08dce3535750ec44492/dpa-nmk-81749.jpg
+          crawl_date: '2020-06-30'
+          backlink: >-
+            https://www.agefotostock.com/age/en/Stock-Images/Rights-Managed/DPA-NMK-81749
+      format: JPEG
+      filesize: 63075
+      overlay: >-
+        overlay/4bc4dc1c3641dea0af900c4a7beba632061fe7d1/2c566b03dbdcfecfa674bdce5fc97896feb852cc83b43f8e6c2cffbb3fe39f36?m21=-0.0421128&m22=1.38793&m23=-38.631&m11=1.38793&m13=-74.4209&m12=0.0421128
+      height: 465
+      width: 640
+      score: 16.34
+      image_url: >-
+        https://img.tineye.com/result/2c566b03dbdcfecfa674bdce5fc97896feb852cc83b43f8e6c2cffbb3fe39f36
+      query_hash: 4bc4dc1c3641dea0af900c4a7beba632061fe7d1
+      tags:
+        - stock
+      size: 297600
+    - domain: agefotostock.com
+      backlinks:
+        - url: >-
+            https://previews.agefotostock.com/previewimage/bajaage/d38e8abcf7510afd5bf65ae8020d89b5/dpa-nmk-81749.jpg
+          crawl_date: '2018-09-19'
+          backlink: >-
+            https://www.agefotostock.com/age/en/Stock-Images/Rights-Managed/DPA-NMK-81749
+      format: JPEG
+      filesize: 43524
+      overlay: >-
+        overlay/4bc4dc1c3641dea0af900c4a7beba632061fe7d1/278f1436f6a78ead29bc0e42700bcc1dc8a65b37aa90ba8cc0c7012fd68060f0?m21=-0.0323101&m22=1.26189&m23=-39.0795&m11=1.26189&m13=-72.463&m12=0.0323101
+      height: 358
+      width: 539
+      score: 15.686
+      image_url: >-
+        https://img.tineye.com/result/278f1436f6a78ead29bc0e42700bcc1dc8a65b37aa90ba8cc0c7012fd68060f0
+      query_hash: 4bc4dc1c3641dea0af900c4a7beba632061fe7d1
+      tags:
+        - stock
+      size: 192962
+    - domain: agefotostock.com
+      backlinks:
+        - url: https://t3.thpservices.com/fotos/thum4/007/678/dpa-nmk-81749.jpg
+          crawl_date: '2018-09-19'
+          backlink: >-
+            https://www.agefotostock.com/age/en/Stock-Images/Rights-Managed/DPA-NMK-81749
+      format: JPEG
+      filesize: 15483
+      overlay: >-
+        overlay/4bc4dc1c3641dea0af900c4a7beba632061fe7d1/6c9e868705a49f74cc60f68259abfa91a096d9d9410cf6fa3d6818bd170c084e?m21=-0.0686597&m22=2.87041&m23=-39.0631&m11=2.87041&m13=-73.9958&m12=0.0686597
+      height: 132
+      width: 200
+      score: 13.725
+      image_url: >-
+        https://img.tineye.com/result/6c9e868705a49f74cc60f68259abfa91a096d9d9410cf6fa3d6818bd170c084e
+      query_hash: 4bc4dc1c3641dea0af900c4a7beba632061fe7d1
+      tags:
+        - stock
+      size: 26400
+    - domain: alamy.com
+      backlinks:
+        - url: >-
+            https://c8.alamy.com/comp/F3FE5X/mural-painting-of-child-buddha-in-sarnath-uttar-pradesh-india-F3FE5X.jpg
+          crawl_date: '2019-04-28'
+          backlink: >-
+            https://www.alamy.com/stock-photo-mural-painting-of-child-buddha-in-sarnath-uttar-pradesh-india-88236230.html
+      format: JPEG
+      filesize: 255729
+      overlay: >-
+        overlay/4bc4dc1c3641dea0af900c4a7beba632061fe7d1/44ff31dcaf3ed660c1a36f8cd4191729f1c314cd08430762c5ba311b1e05d133?m21=-0.0205255&m22=1.52362&m23=-48.425&m11=1.52362&m13=-129.688&m12=0.0205255
+      height: 955
+      width: 1300
+      score: 13.072
+      image_url: >-
+        https://img.tineye.com/result/44ff31dcaf3ed660c1a36f8cd4191729f1c314cd08430762c5ba311b1e05d133
+      query_hash: 4bc4dc1c3641dea0af900c4a7beba632061fe7d1
+      tags:
+        - stock
+      size: 1241500
+    - domain: alamy.com
+      backlinks:
+        - url: >-
+            http://n450v.alamy.com/450v/ban8w9/life-of-buddha-mulagandha-kuti-vihara-buddhist-temple-sarnath-uttar-ban8w9.jpg
+          crawl_date: '2017-06-01'
+          backlink: >-
+            http://www.alamy.com/stock-photo-india-uttar-pradesh-sarnath-bodhi-tree-36732311.html
+      format: JPEG
+      filesize: 42705
+      overlay: >-
+        overlay/4bc4dc1c3641dea0af900c4a7beba632061fe7d1/f8d2d8e07783fd17cf9354862ae6d7cd7b85f458a01bf22bf3c49533a3b81962?m21=-0.0664798&m22=1.03065&m23=9.57599&m11=1.03065&m13=0.508081&m12=0.0664798
+      height: 320
+      width: 450
+      score: 11.765
+      image_url: >-
+        https://img.tineye.com/result/f8d2d8e07783fd17cf9354862ae6d7cd7b85f458a01bf22bf3c49533a3b81962
+      query_hash: 4bc4dc1c3641dea0af900c4a7beba632061fe7d1
+      tags:
+        - stock
+      size: 144000

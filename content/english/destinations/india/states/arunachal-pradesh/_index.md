@@ -3,7 +3,7 @@ title: Arunachal Pradesh
 translationKey: arunachal-pradesh
 oneliner: The land of the rising sun
 states_id: 3
-draft: true
+draft: false
 id: state
 type: state
 tags:

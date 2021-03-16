@@ -3,7 +3,7 @@ title: Goa
 translationKey: goa
 oneliner: A tropical paradise
 states_id: 10
-draft: true
+draft: false
 id: state
 type: state
 tags:

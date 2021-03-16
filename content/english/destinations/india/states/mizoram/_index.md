@@ -3,7 +3,7 @@ title: Mizoram
 translationKey: mizoram
 oneliner: Land of the `Blue Mountains'
 states_id: 22
-draft: true
+draft: false
 id: state
 type: state
 tags:

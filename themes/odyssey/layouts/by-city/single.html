@@ -13,7 +13,7 @@
 				<label>Seach by city</label>
 				<select class="form-control" id="name" name="name" onchange="myRelocation(this.value)">
 					<option value=""> </option>
-					{{ range ( sort (where (where .Site.Pages "Section" "states") ".Params.id" "city") ".Title" "asc" ) }}
+					{{ range ( sort (where (where .Site.Pages "Section" "destinations") ".Params.id" "city") ".Title" "asc" ) }}
     	   	<option value="{{ .RelPermalink }}">{{ .Title }}</option>
           {{ end }}
 	      </select> 
@@ -42,7 +42,7 @@
 			</div>
 			<div class="card-deck">
 				{{- range .Params.cities }}
-				{{- with $.Site.GetPage . }}
+				{{- with $.Site.GetPage (printf "%s%s" "/destinations/india/" .) }}
 				<div class="card-holder">
 					<div class="card">
 						<!-- header -->

@@ -3,7 +3,7 @@ title: Maharashtra
 translationKey: maharashtra
 oneliner: From Bollywood to ancient Buddhist monuments
 states_id: 20
-draft: true
+draft: false
 id: state
 type: state
 tags:

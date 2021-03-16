@@ -3,7 +3,7 @@ title: Delhi
 translationKey: delhi
 oneliner: 'The capital of India, perfectly blending historic and modern India.'
 states_id: 9
-draft: true
+draft: false
 id: state
 type: state
 tags:

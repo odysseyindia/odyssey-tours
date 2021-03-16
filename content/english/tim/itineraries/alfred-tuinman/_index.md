@@ -4,7 +4,7 @@ itinerary:
   - day: 0
     item:
       - type: excursion
-        url: /states/uttar-pradesh/cities/agra/excursions/early-morning-taj-mahal/
+        url: /destinations/india/states/uttar-pradesh/cities/agra/excursions/early-morning-taj-mahal/
         content: >-
           The best time of day to appreciate this stunning monument is as soon
           as the Taj Mahal opens, when it is at its quietest and most serene.
@@ -15,7 +15,7 @@ itinerary:
         etd: '2020-12-22T10:30:00.000Z'
         duration: '03:00'
       - type: hotel
-        url: /states/uttar-pradesh/cities/agra/hotels/the-coral-tree-homestay/
+        url: /destinations/india/states/uttar-pradesh/cities/agra/hotels/the-coral-tree-homestay/
         content: >-
           This six-room home-stay is just a short walk away from the entrance to
           the Taj Mahal. The bright, cheerful rooms, verandahs and garden are
@@ -29,13 +29,13 @@ itinerary:
   - day: 1
     item:
       - type: excursion
-        url: /states/rajasthan/cities/jaipur/excursions/amber-fort-sightseeing/
+        url: /destinations/india/states/rajasthan/cities/jaipur/excursions/amber-fort-sightseeing/
         content: blah blah
         date: '1960-07-24T00:00:00.000Z'
         etd: '1960-07-24T10:30:00.000Z'
         duration: '03:00'
       - type: hotel
-        url: /states/rajasthan/cities/jaipur/hotels/dera-rawatsar/
+        url: /destinations/india/states/rajasthan/cities/jaipur/hotels/dera-rawatsar/
         content: >-
           A family boutique hotel run by the House of Rawatsar, who traces their
           ancestry from Kandhlot Rathore clan of Rajputs, offers the traveller a
@@ -47,7 +47,7 @@ itinerary:
         checkOutDate: null
         checkOutTime: null
       - type: flight
-        url: /states/uttar-pradesh/cities/agra/airports/agr/
+        url: /destinations/india/states/uttar-pradesh/cities/agra/airports/agr/
         content: >-
           Agra Airport is also known as Pandit Deen Dayal Upadhyay Airport. It
           is a military airbase and public airport.
@@ -60,7 +60,7 @@ itinerary:
   - day: 2
     item:
       - type: hotel
-        url: /states/uttar-pradesh/cities/agra/hotels/the-oberoi-amarvilas/
+        url: /destinations/india/states/uttar-pradesh/cities/agra/hotels/the-oberoi-amarvilas/
         content: >-
           One of India’s most exclusive hotels, the Oberoi Amarvilas is the only
           hotel in Agra to offer unobstructed views of the Taj Mahal, merely 600

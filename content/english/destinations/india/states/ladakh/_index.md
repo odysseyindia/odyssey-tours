@@ -3,7 +3,7 @@ title: Ladakh
 translationKey: ladakh
 oneliner: Find `Little Tibet' in Ladakh
 states_id: 36
-draft: true
+draft: false
 id: state
 type: state
 tags:

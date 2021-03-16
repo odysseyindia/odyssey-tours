@@ -3,7 +3,7 @@ title: Pondicherry
 translationKey: pondicherry
 oneliner: The French Connection
 states_id: 25
-draft: true
+draft: false
 id: state
 type: state
 tags:

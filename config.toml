@@ -122,7 +122,7 @@ taxonomy                = ["html","json"]
     name = "Explore by State"
     parent = "explore"
     pre = "pen-tool"
-    url = "/states/"
+    url = "/destinations/india/states/"
     weight = 32
   [[Languages.en.menu.main]]
     name = "Explore by City"

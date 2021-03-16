@@ -1,15 +1,16 @@
 // regions
   var locations = [
-  [26.92555556, 75.82361111, '/image_1.png', '/explore-india/by-region/rajasthan-and-the-north/'],
-  [32.28555556, 77.16222222, '/image_2.png', '/explore-india/by-region/foothills-of-the-himalaya/'],
-  [24.63750000, 87.84861100, '/image_3.png', '/explore-india/by-region/kolkata-and-the-east/'],
-  [23.02166667, 72.59027778, '/image_4.png', '/explore-india/by-region/gujarat-and-central-india/'],
-  [18.999803, 72.817383,     '/image_5.png', '/explore-india/by-region/mumbai-goa-and-the-deccan/'],
-  [13.05027778, 80.23222222, '/image_6.png', '/explore-india/by-region/karnataka-and-tamil-nadu/'],
-  [8.36944444, 77.00444444,  '/image_7.png', '/explore-india/by-region/kerala/'],
-  [11.63722222, 92.72805556, '/image_8.png', '/explore-india/by-region/andaman-and-nicobar-islands/'],
-  [10.951111, 72.287778,     '/image_9.png', '/explore-india/by-region/the-lakshadweep-islands/'],
+  [26.92555556, 75.82361111, '/image_1.png', '/destinations/india/regions/rajasthan-and-the-north/'],
+  [32.28555556, 77.16222222, '/image_2.png', '/destinations/india/regions/foothills-of-the-himalaya/'],
+  [24.63750000, 87.84861100, '/image_3.png', '/destinations/india/regions/kolkata-orissa-and-the-northeast/'],
+  [23.02166667, 72.59027778, '/image_4.png', '/destinations/india/regions/gujarat-and-central-india/'],
+  [18.999803, 72.817383,     '/image_5.png', '/destinations/india/regions/mumbai-goa-and-the-deccan/'],
+  [8.36944444, 77.00444444,  '/image_7.png', '/destinations/india/regions/kerala-and-south-india/'],
   ];
+
+ // [13.05027778, 80.23222222, '/image_6.png', '/destinations/india/regions/karnataka-and-tamil-nadu/'],
+ // [11.63722222, 92.72805556, '/image_8.png', '/destinations/india/regions/andaman-and-nicobar-islands/'],
+ // [10.951111, 72.287778,     '/image_9.png', '/destinations/india/regions/the-lakshadweep-islands/'],
 
   function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {

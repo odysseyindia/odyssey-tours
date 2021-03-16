@@ -1,0 +1,51 @@
+stats:
+  timestamp: '1611170761.39'
+  query_time: '2.12'
+  total_backlinks: 110
+  total_collection: 0
+  total_results: 53
+  total_stock: 2
+  total_filtered_results: 2
+  positive: false
+code: 200
+messages: []
+results:
+  matches:
+    - domain: mediabakery.com
+      backlinks:
+        - url: ''
+          crawl_date: '2017-05-19'
+          backlink: >-
+            http://www.mediabakery.com/AXM0047903-Swimming-pool-cut-out-of-rock-landscape-Rajasthan.html
+      format: jpeg
+      filesize: 164994
+      overlay: >-
+        overlay/0f292f76e8985326f68112474404a635b851c417/e2f829ef1f5562addcb0150df7bba9ecab5c606d3e8eeb13e5c72e21e13f2ce5?m21=-0.0230586&m22=0.940102&m23=-25.6404&m11=0.940102&m13=-5.19612&m12=0.0230586
+      height: 400
+      width: 600
+      score: 15.686
+      image_url: >-
+        https://img.tineye.com/result/e2f829ef1f5562addcb0150df7bba9ecab5c606d3e8eeb13e5c72e21e13f2ce5
+      query_hash: 0f292f76e8985326f68112474404a635b851c417
+      tags:
+        - stock
+      size: 240000
+    - domain: mediabakery.com
+      backlinks:
+        - url: ''
+          crawl_date: '2018-03-07'
+          backlink: >-
+            https://www.mediabakery.com/AXM0047903swimming-pool-cut-out-of-rock-landscape-rajasthan.html
+      format: jpeg
+      filesize: 22516
+      overlay: >-
+        overlay/0f292f76e8985326f68112474404a635b851c417/826c3d5dc3d5f53d686eaf130182973d8a69152d9f6a914fa84b5c363840b250?m21=-0.0339509&m22=1.30172&m23=-25.4024&m11=1.30172&m13=-4.74363&m12=0.0339509
+      height: 217
+      width: 325
+      score: 13.725
+      image_url: >-
+        https://img.tineye.com/result/826c3d5dc3d5f53d686eaf130182973d8a69152d9f6a914fa84b5c363840b250
+      query_hash: 0f292f76e8985326f68112474404a635b851c417
+      tags:
+        - stock
+      size: 70525

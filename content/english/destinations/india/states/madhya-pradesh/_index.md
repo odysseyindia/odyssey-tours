@@ -3,7 +3,7 @@ title: Madhya Pradesh
 translationKey: madhya-pradesh
 oneliner: The heart of India
 states_id: 21
-draft: true
+draft: false
 id: state
 type: state
 tags:

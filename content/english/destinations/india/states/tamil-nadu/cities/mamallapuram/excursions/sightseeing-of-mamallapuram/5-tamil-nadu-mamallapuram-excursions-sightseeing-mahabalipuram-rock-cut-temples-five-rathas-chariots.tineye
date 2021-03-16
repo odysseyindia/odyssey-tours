@@ -1,0 +1,104 @@
+stats:
+  timestamp: '1611162712.08'
+  query_time: '5.68'
+  total_backlinks: 11
+  total_collection: 0
+  total_results: 6
+  total_stock: 4
+  total_filtered_results: 4
+  positive: false
+code: 200
+messages: []
+results:
+  matches:
+    - domain: fotolia.com
+      backlinks:
+        - url: >-
+            https://t4.ftcdn.net/jpg/01/49/34/75/240_F_149347595_Xr3ohY5SchGqr8jyEOZ6uwyNcsr78m1V.jpg
+          crawl_date: '2017-07-17'
+          backlink: https://fr.fotolia.com/search?similar=83082912
+        - url: >-
+            https://t4.ftcdn.net/jpg/01/49/34/75/240_F_149347595_Xr3ohY5SchGqr8jyEOZ6uwyNcsr78m1V.jpg
+          crawl_date: '2017-07-17'
+          backlink: https://www.fotolia.com/search?similar=83082912
+        - url: >-
+            https://t4.ftcdn.net/jpg/01/49/34/75/240_F_149347595_Xr3ohY5SchGqr8jyEOZ6uwyNcsr78m1V.jpg
+          crawl_date: '2017-07-17'
+          backlink: https://eu.fotolia.com/search?similar=83082912
+      format: JPEG
+      filesize: 37414
+      overlay: >-
+        overlay/a36fa0faf816bc380c0a80e5b9ca5b7856e92e4b/3225b280b5c8baf79016e28b0631a3165587d7a2ebedc02be5eafb3b99bad05a?m21=-0.0238322&m22=1.49131&m23=-17.6628&m11=1.49131&m13=-114.85&m12=0.0238322
+      height: 240
+      width: 360
+      score: 15.033
+      image_url: >-
+        https://img.tineye.com/result/3225b280b5c8baf79016e28b0631a3165587d7a2ebedc02be5eafb3b99bad05a
+      query_hash: a36fa0faf816bc380c0a80e5b9ca5b7856e92e4b
+      tags:
+        - stock
+      size: 86400
+    - domain: fotolia.com
+      backlinks:
+        - url: >-
+            https://t4.ftcdn.net/jpg/01/49/34/75/500_F_149347595_Xr3ohY5SchGqr8jyEOZ6uwyNcsr78m1V.jpg
+          crawl_date: '2017-07-17'
+          backlink: https://fr.fotolia.com/search?similar=83082912
+        - url: >-
+            https://t4.ftcdn.net/jpg/01/49/34/75/500_F_149347595_Xr3ohY5SchGqr8jyEOZ6uwyNcsr78m1V.jpg
+          crawl_date: '2017-07-17'
+          backlink: https://www.fotolia.com/search?similar=83082912
+        - url: >-
+            https://t4.ftcdn.net/jpg/01/49/34/75/500_F_149347595_Xr3ohY5SchGqr8jyEOZ6uwyNcsr78m1V.jpg
+          crawl_date: '2017-07-17'
+          backlink: https://eu.fotolia.com/search?similar=83082912
+      format: JPEG
+      filesize: 100027
+      overlay: >-
+        overlay/a36fa0faf816bc380c0a80e5b9ca5b7856e92e4b/a2479da957e206c167c6c29e5a7c12accb8e23e11d70cf2b5505e7cbd4787045?m21=-0.0183771&m22=1.18755&m23=-17.5748&m11=1.18755&m13=-111.678&m12=0.0183771
+      height: 334
+      width: 500
+      score: 13.725
+      image_url: >-
+        https://img.tineye.com/result/a2479da957e206c167c6c29e5a7c12accb8e23e11d70cf2b5505e7cbd4787045
+      query_hash: a36fa0faf816bc380c0a80e5b9ca5b7856e92e4b
+      tags:
+        - stock
+      size: 167000
+    - domain: stock.adobe.com
+      backlinks:
+        - url: ''
+          crawl_date: '2019-04-26'
+          backlink: https://stock.adobe.com/149347595
+      format: jpeg
+      filesize: 100610
+      overlay: >-
+        overlay/a36fa0faf816bc380c0a80e5b9ca5b7856e92e4b/f08c59c00b311b35f54c8b4347d3e3f60da235f1a58b0c16951c19c904fccce1?m21=0.00374393&m22=1.18638&m23=-24.8412&m11=1.18638&m13=-110.139&m12=-0.00374393
+      height: 334
+      width: 500
+      score: 13.072
+      image_url: >-
+        https://img.tineye.com/result/f08c59c00b311b35f54c8b4347d3e3f60da235f1a58b0c16951c19c904fccce1
+      query_hash: a36fa0faf816bc380c0a80e5b9ca5b7856e92e4b
+      tags:
+        - stock
+      size: 167000
+    - domain: bigstockphoto.com
+      backlinks:
+        - url: ''
+          crawl_date: '2015-07-21'
+          backlink: >-
+            https://www.bigstockphoto.com/image-7318926/stock-photo-mahabalipuram
+      format: JPEG
+      filesize: 143100
+      overlay: >-
+        overlay/a36fa0faf816bc380c0a80e5b9ca5b7856e92e4b/06f1c095159185f7c75afc91eb2f91b713449aa7b2d764b503457ef0e4b4a51e?m21=-0.0551454&m22=0.860611&m23=-7.84267&m11=0.860611&m13=23.0418&m12=0.0551454
+      height: 318
+      width: 450
+      score: 12.418
+      image_url: >-
+        https://img.tineye.com/result/06f1c095159185f7c75afc91eb2f91b713449aa7b2d764b503457ef0e4b4a51e
+      query_hash: a36fa0faf816bc380c0a80e5b9ca5b7856e92e4b
+      tags:
+        - stock
+      size: 143100

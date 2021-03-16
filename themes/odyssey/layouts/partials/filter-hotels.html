@@ -14,7 +14,7 @@
 		                <select onChange="cityFunction(this)" name="city" class="dropdown">
 		                	<option value="0" selected>Show all</option>
 {{- $cities := slice }}
-{{- range $i,$e := sort (where (where .dot.Site.Pages "Section" "states") ".Params.id" "hotel") ".Title" "desc" }}  
+{{- range $i,$e := sort (where (where .dot.Site.Pages "Section" "destinations") ".Params.id" "hotel") ".Title" "desc" }}  
 {{- $data := printf "%s@%s" (urls.Parse $e.CurrentSection.Parent.Permalink).Path   $e.CurrentSection.Parent.Title }} 
 {{- $cities = $cities | append $data }}
 {{- end }}

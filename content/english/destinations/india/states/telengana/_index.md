@@ -3,7 +3,7 @@ title: Telengana
 translationKey: telengana
 oneliner: A new state in south India
 states_id: 37
-draft: true
+draft: false
 id: state
 type: state
 tags:

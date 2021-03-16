@@ -1,0 +1,12 @@
+stats:
+  timestamp: '1611171619.34'
+  query_time: '2.06'
+  total_backlinks: 3
+  total_collection: 0
+  total_results: 3
+  total_stock: 0
+  total_filtered_results: 0
+code: 200
+messages: []
+results:
+  matches: []

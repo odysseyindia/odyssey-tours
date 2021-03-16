@@ -1,0 +1,71 @@
+stats:
+  timestamp: '1611651567.37'
+  query_time: '1.78'
+  total_backlinks: 863
+  total_collection: 4
+  total_results: 77
+  total_stock: 3
+  total_filtered_results: 3
+  positive: false
+code: 200
+messages: []
+results:
+  matches:
+    - domain: alamy.com
+      backlinks:
+        - url: >-
+            http://n7.alamy.com/zooms/c8b2a606e99a4bfe97638d27c3ed2f72/basilica-of-bom-jesus-church-old-goa-unesco-world-heritage-site-india-d3f6mf.jpg
+          crawl_date: '2017-05-08'
+          backlink: http://www.alamy.com/stock-photo/unesco-goa.html
+      format: JPEG
+      filesize: 89829
+      overlay: >-
+        overlay/bc0ab374655c99a75d197b9ed63d841b4e6b96fd/e80fce4439d35aa9afa738911af39ec66c9e030b6d160f86d105c827b670eb9d?m21=0.0159045&m22=1.04914&m23=9.48782&m11=1.04914&m13=8.69978&m12=-0.0159045
+      height: 449
+      width: 640
+      score: 14.379
+      image_url: >-
+        https://img.tineye.com/result/e80fce4439d35aa9afa738911af39ec66c9e030b6d160f86d105c827b670eb9d
+      query_hash: bc0ab374655c99a75d197b9ed63d841b4e6b96fd
+      tags:
+        - stock
+      size: 287360
+    - domain: alamy.com
+      backlinks:
+        - url: >-
+            http://c7.alamy.com/comp/D3F6MF/basilica-of-bom-jesus-church-old-goa-unesco-world-heritage-site-india-D3F6MF.jpg
+          crawl_date: '2017-10-12'
+          backlink: >-
+            http://www.alamy.com/stock-photo-basilica-of-bom-jesus-church-old-goa-unesco-world-heritage-site-india-53809631.html
+      format: JPEG
+      filesize: 192139
+      overlay: >-
+        overlay/bc0ab374655c99a75d197b9ed63d841b4e6b96fd/ce250de22782ec0b458400d6cc3aeed4bf725da3fdac68798c6c57ba42659685?m21=0.0137057&m22=1.11685&m23=9.3127&m11=1.11685&m13=6.16894&m12=-0.0137057
+      height: 960
+      width: 1300
+      score: 13.072
+      image_url: >-
+        https://img.tineye.com/result/ce250de22782ec0b458400d6cc3aeed4bf725da3fdac68798c6c57ba42659685
+      query_hash: bc0ab374655c99a75d197b9ed63d841b4e6b96fd
+      tags:
+        - stock
+      size: 1248000
+    - domain: alamy.com
+      backlinks:
+        - url: ''
+          crawl_date: '2015-01-05'
+          backlink: >-
+            http://www.alamy.com/image-details-popup.asp?imageid={C8B2A606-E99A-4BFE-9763-8D27C3ED2F72}
+      format: JPEG
+      filesize: 287360
+      overlay: >-
+        overlay/bc0ab374655c99a75d197b9ed63d841b4e6b96fd/0fc2eb5f36303f2867f97c33890eae933fb84d0f5c62a1365f936040cee730b6?m21=0.017415&m22=1.04908&m23=9.04203&m11=1.04908&m13=9.32475&m12=-0.017415
+      height: 449
+      width: 640
+      score: 13.072
+      image_url: >-
+        https://img.tineye.com/result/0fc2eb5f36303f2867f97c33890eae933fb84d0f5c62a1365f936040cee730b6
+      query_hash: bc0ab374655c99a75d197b9ed63d841b4e6b96fd
+      tags:
+        - stock
+      size: 287360

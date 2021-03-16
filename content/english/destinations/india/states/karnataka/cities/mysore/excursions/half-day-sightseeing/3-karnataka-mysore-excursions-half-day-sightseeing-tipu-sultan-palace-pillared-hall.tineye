@@ -1,0 +1,32 @@
+stats:
+  timestamp: '1610997545.83'
+  query_time: '1.73'
+  total_backlinks: 1
+  total_collection: 0
+  total_results: 1
+  total_stock: 1
+  total_filtered_results: 1
+  positive: false
+code: 200
+messages: []
+results:
+  matches:
+    - domain: shutterstock.com
+      backlinks:
+        - url: ''
+          crawl_date: '2018-10-05'
+          backlink: >-
+            http://www.shutterstock.com/pic-782146462/stock-photo-public-durbar-hall-in-mysore-palace-the-maharaja-would-present-himself-to-people-from-this-hall.html
+      format: jpeg
+      filesize: 238552
+      overlay: >-
+        overlay/cca148a684154ea7d8915e8976b03057ad3b86fb/19ed25342770ed1ece87448b8d48a953964ac0a07f9d19275f0bd9ab36e8285b?m21=-0.0569099&m22=0.969095&m23=25.5513&m11=0.969095&m13=30.5658&m12=0.0569099
+      height: 320
+      width: 450
+      score: 11.765
+      image_url: >-
+        https://img.tineye.com/result/19ed25342770ed1ece87448b8d48a953964ac0a07f9d19275f0bd9ab36e8285b
+      query_hash: cca148a684154ea7d8915e8976b03057ad3b86fb
+      tags:
+        - stock
+      size: 144000

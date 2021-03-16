@@ -3,7 +3,7 @@ title: Diu
 translationKey: diu
 oneliner: A former Portuguese territory
 states_id: 8
-draft: true
+draft: false
 id: state
 type: state
 tags:

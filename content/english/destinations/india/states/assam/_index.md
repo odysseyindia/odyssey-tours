@@ -3,7 +3,7 @@ title: Assam
 translationKey: assam
 oneliner: Gateway to the North-East of India
 states_id: 4
-draft: true
+draft: false
 id: state
 type: state
 tags:

@@ -1,0 +1,91 @@
+stats:
+  timestamp: '1611159939.28'
+  query_time: '2.59'
+  total_backlinks: 5
+  total_collection: 0
+  total_results: 5
+  total_stock: 4
+  total_filtered_results: 4
+  positive: false
+code: 200
+messages: []
+results:
+  matches:
+    - domain: shutterstock.com
+      backlinks:
+        - url: ''
+          crawl_date: '2017-05-21'
+          backlink: >-
+            http://www.shutterstock.com/pic-546864214/stock-photo-editorial-udaipur-rajasthan-india-dec-st-majestic-udaipur-city-palace-at-udaipur-lake.html
+      format: jpeg
+      filesize: 43493
+      overlay: >-
+        overlay/da49e11c2d775e70a2b87c7be694a634de8b442e/d12659d20a3f4253014f0569e197b532d6f8e612c9987fc2ff383f7f8332ea9a?m21=0.00321341&m22=0.934992&m23=36.0063&m11=0.934992&m13=-11.286&m12=-0.00321341
+      height: 321
+      width: 450
+      score: 13.072
+      image_url: >-
+        https://img.tineye.com/result/d12659d20a3f4253014f0569e197b532d6f8e612c9987fc2ff383f7f8332ea9a
+      query_hash: da49e11c2d775e70a2b87c7be694a634de8b442e
+      tags:
+        - stock
+      size: 144450
+    - domain: shutterstock.com
+      backlinks:
+        - url: ''
+          crawl_date: '2018-04-28'
+          backlink: >-
+            http://www.shutterstock.com/pic-475797691/stock-photo-udaipur-india-jan-city-palace-in-udaipur-india.html
+      format: jpeg
+      filesize: 52143
+      overlay: >-
+        overlay/da49e11c2d775e70a2b87c7be694a634de8b442e/bf89e510fd3603034978ce38dbbaea2ea55a9522219b75f880f131b603396c85?m21=0.0368972&m22=0.77679&m23=27.0205&m11=0.77679&m13=2.45289&m12=-0.0368972
+      height: 320
+      width: 450
+      score: 12.418
+      image_url: >-
+        https://img.tineye.com/result/bf89e510fd3603034978ce38dbbaea2ea55a9522219b75f880f131b603396c85
+      query_hash: da49e11c2d775e70a2b87c7be694a634de8b442e
+      tags:
+        - stock
+      size: 144000
+    - domain: dreamstime.com
+      backlinks:
+        - url: >-
+            https://thumbs.dreamstime.com/b/city-palace-udaipur-india-jan-102940239.jpg
+          crawl_date: '2019-10-12'
+          backlink: >-
+            https://www.dreamstime.com/city-palace-udaipur-india-historical-landmark-internal-wall-image105281846
+      format: JPEG
+      filesize: 75004
+      overlay: >-
+        overlay/da49e11c2d775e70a2b87c7be694a634de8b442e/82cedb0d90f9b61f8fc1bb8b201d49db6fe66c69e9dc770c074db0c55905ca34?m21=0.0310636&m22=0.726343&m23=27.4815&m11=0.726343&m13=1.71291&m12=-0.0310636
+      height: 533
+      width: 800
+      score: 11.765
+      image_url: >-
+        https://img.tineye.com/result/82cedb0d90f9b61f8fc1bb8b201d49db6fe66c69e9dc770c074db0c55905ca34
+      query_hash: da49e11c2d775e70a2b87c7be694a634de8b442e
+      tags:
+        - stock
+      size: 426400
+    - domain: depositphotos.com
+      backlinks:
+        - url: >-
+            https://st3.depositphotos.com/6537370/17054/i/950/depositphotos_170549528-stock-photo-udaipur-india-jan-7-2015.jpg
+          crawl_date: '2018-10-05'
+          backlink: >-
+            https://depositphotos.com/170549528/stock-photo-udaipur-india-jan-7-2015.html
+      format: JPEG
+      filesize: 117749
+      overlay: >-
+        overlay/da49e11c2d775e70a2b87c7be694a634de8b442e/56d60a32788a695ab6dc92243c1c992ac54f443fa4c9dfd075fbd8d41b256dca?m21=0.034513&m22=0.733865&m23=26.1964&m11=0.733865&m13=1.28874&m12=-0.034513
+      height: 682
+      width: 1023
+      score: 11.765
+      image_url: >-
+        https://img.tineye.com/result/56d60a32788a695ab6dc92243c1c992ac54f443fa4c9dfd075fbd8d41b256dca
+      query_hash: da49e11c2d775e70a2b87c7be694a634de8b442e
+      tags:
+        - stock
+      size: 697686

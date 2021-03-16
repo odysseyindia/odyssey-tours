@@ -1,0 +1,206 @@
+stats:
+  timestamp: '1611117909.10'
+  query_time: '10.76'
+  total_backlinks: 49
+  total_collection: 0
+  total_results: 27
+  total_stock: 15
+  total_filtered_results: 15
+  positive: false
+code: 200
+messages: []
+results:
+  matches:
+    - domain: alamy.com
+      backlinks:
+        - url: >-
+            https://c8.alamy.com/comp/MHHH0P/raniji-ki-baori-stepwell-bundi-rajasthan-india-this-baori-was-constructed-in-1699-by-rani-nathavati-ji-the-younger-queen-of-the-ruling-maharao-raja-anirudh-singh-of-bundi-46-metre-deep-this-stepped-well-is-a-multi-storeyed-structure-decorated-with-brilliantly-carved-pillars-and-a-high-arched-gate-each-floor-has-dedicated-places-of-worship-for-the-people-to-pay-homage-one-can-enter-the-baori-through-a-narrow-doorway-marked-by-four-pillars-lifelike-elephant-statues-made-of-stone-guard-the-corners-MHHH0P.jpg
+          crawl_date: '2019-02-12'
+          backlink: >-
+            https://www.alamy.com/raniji-ki-baori-stepwell-bundi-rajasthan-india-this-baori-was-constructed-in-1699-by-rani-nathavati-ji-the-younger-queen-of-the-ruling-maharao-raja-anirudh-singh-of-bundi-46-metre-deep-this-stepped-well-is-a-multi-storeyed-structure-decorated-with-brilliantly-carved-pillars-and-a-high-arched-gate-each-floor-has-dedicated-places-of-worship-for-the-people-to-pay-homage-one-can-enter-the-baori-through-a-narrow-doorway-marked-by-four-pillars-lifelike-elephant-statues-made-of-stone-guard-the-corners-image182939366.html
+      format: JPEG
+      filesize: 225529
+      overlay: >-
+        overlay/a8c964ed7a43245c446fe8e16021e3c1978808de/4180250b27e649dbe1f105e0242f9104a03d579d44f8d7eb7dca3ae88da345fb?m21=0.00198288&m22=0.89172&m23=-73.2154&m11=0.89172&m13=55.4033&m12=-0.00198288
+      height: 1390
+      width: 866
+      score: 22.222
+      image_url: >-
+        https://img.tineye.com/result/4180250b27e649dbe1f105e0242f9104a03d579d44f8d7eb7dca3ae88da345fb
+      query_hash: a8c964ed7a43245c446fe8e16021e3c1978808de
+      tags:
+        - stock
+      size: 1203740
+    - domain: shutterstock.com
+      backlinks:
+        - url: ''
+          crawl_date: '2019-12-10'
+          backlink: >-
+            http://www.shutterstock.com/pic-1578185338/stock-photo-entrance-to-a-decorated-old-well.html
+      format: jpeg
+      filesize: 45722
+      overlay: >-
+        overlay/a8c964ed7a43245c446fe8e16021e3c1978808de/0824b49e3b716476b83eaf455dea2609fc71bc8f32799f2034d5d91acd0b1d39?m21=0.00162559&m22=0.916847&m23=-26.4568&m11=0.916847&m13=64.123&m12=-0.00162559
+      height: 470
+      width: 338
+      score: 17.647
+      image_url: >-
+        https://img.tineye.com/result/0824b49e3b716476b83eaf455dea2609fc71bc8f32799f2034d5d91acd0b1d39
+      query_hash: a8c964ed7a43245c446fe8e16021e3c1978808de
+      tags:
+        - stock
+      size: 158860
+    - domain: shutterstock.com
+      backlinks:
+        - url: ''
+          crawl_date: '2019-02-11'
+          backlink: >-
+            http://www.shutterstock.com/pic-1245798493/stock-photo-oueens-stepwell-is-situated-in-bundi-town-its-was-built-by-the-king-of-bundi-raja-anirudh-singh.html
+      format: jpeg
+      filesize: 224023
+      overlay: >-
+        overlay/a8c964ed7a43245c446fe8e16021e3c1978808de/5a91055dce7058c3457541125344ff1d6699d1f6753b7be8331c7afcd30feb0c?m21=-0.00626868&m22=0.976135&m23=-58.2039&m11=0.976135&m13=44.9049&m12=0.00626868
+      height: 470
+      width: 338
+      score: 15.686
+      image_url: >-
+        https://img.tineye.com/result/5a91055dce7058c3457541125344ff1d6699d1f6753b7be8331c7afcd30feb0c
+      query_hash: a8c964ed7a43245c446fe8e16021e3c1978808de
+      tags:
+        - stock
+      size: 158860
+    - domain: alamy.com
+      backlinks:
+        - url: ''
+          crawl_date: '2014-10-16'
+          backlink: >-
+            http://www.alamy.com/image-details-popup.asp?imageid={40D392DA-1292-4817-B38B-2A403300FF5A}
+      format: JPEG
+      filesize: 286080
+      overlay: >-
+        overlay/a8c964ed7a43245c446fe8e16021e3c1978808de/05e4ba00e8a92ea2c39039233632e9e2750430af65edb8b2837d7e31f3d5248c?m21=-0.00130167&m22=1.02711&m23=-6.30778&m11=1.02711&m13=-40.3208&m12=0.00130167
+      height: 447
+      width: 640
+      score: 15.033
+      image_url: >-
+        https://img.tineye.com/result/05e4ba00e8a92ea2c39039233632e9e2750430af65edb8b2837d7e31f3d5248c
+      query_hash: a8c964ed7a43245c446fe8e16021e3c1978808de
+      tags:
+        - stock
+      size: 286080
+    - domain: dreamstime.com
+      backlinks:
+        - url: ''
+          crawl_date: '2015-09-15'
+          backlink: >-
+            http://www.dreamstime.com/royalty-free-stock-photos-raniji-ki-baori-bundi-india-step-wells-rajasthan-image31705508
+      format: JPEG
+      filesize: 145350
+      overlay: >-
+        overlay/a8c964ed7a43245c446fe8e16021e3c1978808de/b932dd3db8ba23affb727c252414e5b312e0e596436a7802b9a939c0fc0ff5bf?m21=0.00921181&m22=1.02772&m23=-30.0135&m11=1.02772&m13=42.9217&m12=-0.00921181
+      height: 450
+      width: 323
+      score: 14.379
+      image_url: >-
+        https://img.tineye.com/result/b932dd3db8ba23affb727c252414e5b312e0e596436a7802b9a939c0fc0ff5bf
+      query_hash: a8c964ed7a43245c446fe8e16021e3c1978808de
+      tags:
+        - stock
+      size: 145350
+    - domain: depositphotos.com
+      backlinks:
+        - url: >-
+            http://st2.depositphotos.com/3283141/5912/i/170/depositphotos_59129419-delicately-carved-Queens-Step-well.-Rani-Nathawat-bundi-india.jpg
+          crawl_date: '2014-12-09'
+          backlink: http://depositphotos.com/stock-photos/delicately.html
+      format: JPEG
+      filesize: 8789
+      overlay: >-
+        overlay/a8c964ed7a43245c446fe8e16021e3c1978808de/7854abe611bde6c643d7b2d6e2f8d59f2d95d9a96009a8351b268cee1ffe2f8b?m21=-0.0160187&m22=2.02706&m23=38.5657&m11=2.02706&m13=30.5806&m12=0.0160187
+      height: 112
+      width: 168
+      score: 13.725
+      image_url: >-
+        https://img.tineye.com/result/7854abe611bde6c643d7b2d6e2f8d59f2d95d9a96009a8351b268cee1ffe2f8b
+      query_hash: a8c964ed7a43245c446fe8e16021e3c1978808de
+      tags:
+        - stock
+      size: 18816
+    - domain: dreamstime.com
+      backlinks:
+        - url: >-
+            https://thumbs.dreamstime.com/z/stepwells-bundi-india-enchantingly-carved-stepwell-delicate-ornamental-carvings-46800274.jpg
+          crawl_date: '2019-07-05'
+          backlink: >-
+            https://www.dreamstime.com/stock-photo-stepwells-bundi-india-enchantingly-carved-stepwell-delicate-ornamental-carvings-image46800274
+      format: JPEG
+      filesize: 253444
+      overlay: >-
+        overlay/a8c964ed7a43245c446fe8e16021e3c1978808de/8e509ed3e2b0dfcf8c7e4c53dbf785c6b653a9e8a835c8eba385513b1c94a147?m21=-0.00692127&m22=0.834137&m23=38.4616&m11=0.834137&m13=31.2259&m12=0.00692127
+      height: 957
+      width: 1300
+      score: 13.072
+      image_url: >-
+        https://img.tineye.com/result/8e509ed3e2b0dfcf8c7e4c53dbf785c6b653a9e8a835c8eba385513b1c94a147
+      query_hash: a8c964ed7a43245c446fe8e16021e3c1978808de
+      tags:
+        - stock
+      size: 1244100
+    - domain: alamy.com
+      backlinks:
+        - url: >-
+            https://c8.alamy.com/comp/E2G850/india-rajasthan-state-bundi-the-stepwell-raniji-ki-baori-built-in1699-E2G850.jpg
+          crawl_date: '2019-02-13'
+          backlink: >-
+            https://www.alamy.com/stock-photo-india-rajasthan-state-bundi-the-stepwell-raniji-ki-baori-built-in1699-70428428.html
+      format: JPEG
+      filesize: 217978
+      overlay: >-
+        overlay/a8c964ed7a43245c446fe8e16021e3c1978808de/16c4cbaf25bd25701b75081545f70dde147c8121ccf8681e751e9a62c97fd2da?m21=-0.00233581&m22=1.08459&m23=-5.83513&m11=1.08459&m13=-40.8641&m12=0.00233581
+      height: 956
+      width: 1300
+      score: 13.072
+      image_url: >-
+        https://img.tineye.com/result/16c4cbaf25bd25701b75081545f70dde147c8121ccf8681e751e9a62c97fd2da
+      query_hash: a8c964ed7a43245c446fe8e16021e3c1978808de
+      tags:
+        - stock
+      size: 1242800
+    - domain: stock.adobe.com
+      backlinks:
+        - url: ''
+          crawl_date: '2019-05-18'
+          backlink: https://stock.adobe.com/53444159
+      format: jpeg
+      filesize: 138926
+      overlay: >-
+        overlay/a8c964ed7a43245c446fe8e16021e3c1978808de/2586409bcfca6fdb5c3f7d150be71e49250b3cf7b031bc5ef0f3c93aee138775?m21=-0.0192403&m22=1.04022&m23=-26.4791&m11=1.04022&m13=38.2493&m12=0.0192403
+      height: 500
+      width: 359
+      score: 12.418
+      image_url: >-
+        https://img.tineye.com/result/2586409bcfca6fdb5c3f7d150be71e49250b3cf7b031bc5ef0f3c93aee138775
+      query_hash: a8c964ed7a43245c446fe8e16021e3c1978808de
+      tags:
+        - stock
+      size: 179500
+    - domain: depositphotos.com
+      backlinks:
+        - url: >-
+            https://st2.depositphotos.com/3283141/5912/i/950/depositphotos_59129419-stock-photo-delicately-carved-queens-step-well.jpg
+          crawl_date: '2020-04-15'
+          backlink: >-
+            https://depositphotos.com/59129419/stock-photo-delicately-carved-queens-step-well.html
+      format: JPEG
+      filesize: 142088
+      overlay: >-
+        overlay/a8c964ed7a43245c446fe8e16021e3c1978808de/ffe51ea91be0d1df07c44c7eb91f1d776b0b852afa7b8d467e593cd510895f9d?m21=-0.00150283&m22=0.756857&m23=38.0611&m11=0.756857&m13=30.9636&m12=0.00150283
+      height: 682
+      width: 1023
+      score: 12.418
+      image_url: >-
+        https://img.tineye.com/result/ffe51ea91be0d1df07c44c7eb91f1d776b0b852afa7b8d467e593cd510895f9d
+      query_hash: a8c964ed7a43245c446fe8e16021e3c1978808de
+      tags:
+        - stock
+      size: 697686
