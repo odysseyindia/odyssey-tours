@@ -2,17 +2,19 @@
 title: Transfer from hotel to Vasco railway station
 translationKey: transfer-from-hotel-to-vasco-railway-station
 duration: '01:30'
-startTime: 'NULL'
-transfer: Departure transfer
+startTime: ''
+transfer: true
 transferCode: Dep
-draft: true
-daysOfOperation: ''
+draft: false
+daysOfOperation: 0
 toCity: ''
-owntransport: false
-guide: true
+toCitiesId: ''
+owntransport: true
+guide: false
 id: services
 type: services
 tags:
   - Services
   - Transfer from hotel to Vasco railway station
 ---
+NULL

@@ -2,17 +2,19 @@
 title: Transfer from railway station to Suburban hotel
 translationKey: transfer-from-railway-station-to-suburban-hotel
 duration: '00:45'
-startTime: 'NULL'
-transfer: Arrival transfer
+startTime: ''
+transfer: true
 transferCode: Arr
-draft: true
-daysOfOperation: ''
+draft: false
+daysOfOperation: 0
 toCity: ''
-owntransport: false
-guide: true
+toCitiesId: '0'
+owntransport: true
+guide: false
 id: services
 type: services
 tags:
   - Services
   - Transfer from railway station to Suburban hotel
 ---
+NULL

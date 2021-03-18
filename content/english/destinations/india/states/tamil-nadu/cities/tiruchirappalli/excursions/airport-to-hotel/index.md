@@ -2,17 +2,19 @@
 title: Airport to hotel
 translationKey: airport-to-hotel
 duration: '01:00'
-startTime: 'NULL'
-transfer: Arrival transfer
+startTime: ''
+transfer: true
 transferCode: Arr
-draft: true
-daysOfOperation: ''
+draft: false
+daysOfOperation: 0
 toCity: ''
-owntransport: false
-guide: true
+toCitiesId: ''
+owntransport: true
+guide: false
 id: services
 type: services
 tags:
   - Services
   - Airport to hotel
 ---
+NULL

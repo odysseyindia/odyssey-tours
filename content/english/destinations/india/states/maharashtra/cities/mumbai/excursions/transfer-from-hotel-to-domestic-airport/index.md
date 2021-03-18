@@ -2,14 +2,15 @@
 title: Transfer from hotel to Domestic airport
 translationKey: transfer-from-hotel-to-domestic-airport
 duration: '01:30'
-startTime: 'NULL'
-transfer: Departure transfer
+startTime: ''
+transfer: true
 transferCode: Dep
-draft: true
-daysOfOperation: ''
+draft: false
+daysOfOperation: 0
 toCity: ''
-owntransport: false
-guide: true
+toCitiesId: '0'
+owntransport: true
+guide: false
 id: services
 type: services
 tags:

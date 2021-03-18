@@ -2,12 +2,13 @@
 title: Transfer from Raipur airport to hotel
 translationKey: transfer-from-raipur-airport-to-hotel
 duration: '01:00'
-startTime: 'NULL'
-transfer: Arrival transfer
+startTime: ''
+transfer: true
 transferCode: Arr
-draft: true
-daysOfOperation: ''
+draft: false
+daysOfOperation: 0
 toCity: ''
+toCitiesId: ''
 owntransport: false
 guide: false
 id: services
@@ -16,3 +17,4 @@ tags:
   - Services
   - Transfer from Raipur airport to hotel
 ---
+NULL

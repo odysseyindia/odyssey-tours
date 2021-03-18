@@ -2,14 +2,15 @@
 title: Transfer from hotel to Margao railway station
 translationKey: transfer-from-hotel-to-margao-railway-station
 duration: '01:30'
-startTime: 'NULL'
-transfer: Departure transfer
+startTime: ''
+transfer: true
 transferCode: Dep
-draft: true
-daysOfOperation: ''
+draft: false
+daysOfOperation: 0
 toCity: ''
-owntransport: false
-guide: true
+toCitiesId: '0'
+owntransport: true
+guide: false
 id: services
 type: services
 tags:

@@ -2,6 +2,6 @@
 title: "The best places in Andhra Pradesh"
 draft: false
 date: 2020-09-21T12:59:23+02:00
-translationKey: andhra-pradesh-cities"
+translationKey: andhra-pradesh-cities
 id: "cities"
 ---

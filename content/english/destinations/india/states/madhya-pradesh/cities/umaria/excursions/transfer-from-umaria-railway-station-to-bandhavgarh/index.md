@@ -2,17 +2,19 @@
 title: Transfer from Umaria railway station to Bandhavgarh
 translationKey: transfer-from-umaria-railway-station-to-bandhavgarh
 duration: '01:00'
-startTime: 'NULL'
-transfer: Arrival transfer
+startTime: ''
+transfer: true
 transferCode: Arr
-draft: true
-daysOfOperation: ''
+draft: false
+daysOfOperation: 0
 toCity: Bandhavgarh
-owntransport: false
-guide: true
+toCitiesId: '22'
+owntransport: true
+guide: false
 id: services
 type: services
 tags:
   - Services
   - Transfer from Umaria railway station to Bandhavgarh
 ---
+NULL

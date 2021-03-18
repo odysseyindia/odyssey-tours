@@ -2,14 +2,15 @@
 title: Transfer from hotel to Indore airport
 translationKey: transfer-from-hotel-to-indore-airport
 duration: '00:45'
-startTime: 'NULL'
-transfer: Departure transfer
+startTime: ''
+transfer: true
 transferCode: Dep
-draft: true
-daysOfOperation: ''
+draft: false
+daysOfOperation: 0
 toCity: ''
-owntransport: false
-guide: true
+toCitiesId: '0'
+owntransport: true
+guide: false
 id: services
 type: services
 tags:

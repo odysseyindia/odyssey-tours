@@ -2,17 +2,19 @@
 title: Transfer from hotel to Jaldapara
 translationKey: transfer-from-hotel-to-jaldapara
 duration: '08:00'
-startTime: 'NULL'
-transfer: None
+startTime: ''
+transfer: true
 transferCode: 'No'
-draft: true
-daysOfOperation: ''
+draft: false
+daysOfOperation: 0
 toCity: Jaldapara
-owntransport: false
-guide: true
+toCitiesId: '178'
+owntransport: true
+guide: false
 id: services
 type: services
 tags:
   - Services
   - Transfer from hotel to Jaldapara
 ---
+NULL

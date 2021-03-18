@@ -2,17 +2,19 @@
 title: Transfer from airport to Dwarka Beach Resort
 translationKey: transfer-from-airport-to-dwarka-beach-resort
 duration: '02:00'
-startTime: 'NULL'
-transfer: Arrival transfer
+startTime: ''
+transfer: true
 transferCode: Arr
-draft: true
-daysOfOperation: ''
+draft: false
+daysOfOperation: 0
 toCity: ''
-owntransport: false
-guide: true
+toCitiesId: ''
+owntransport: true
+guide: false
 id: services
 type: services
 tags:
   - Services
   - Transfer from airport to Dwarka Beach Resort
 ---
+NULL

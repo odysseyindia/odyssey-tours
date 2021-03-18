@@ -2,17 +2,19 @@
 title: Transfer from Rajbari Bawali to airport
 translationKey: transfer-from-rajbari-bawali-to-airport
 duration: '02:00'
-startTime: 'NULL'
-transfer: Departure transfer
+startTime: ''
+transfer: true
 transferCode: Dep
-draft: true
-daysOfOperation: ''
+draft: false
+daysOfOperation: 0
 toCity: ''
-owntransport: false
-guide: true
+toCitiesId: ''
+owntransport: true
+guide: false
 id: services
 type: services
 tags:
   - Services
   - Transfer from Rajbari Bawali to airport
 ---
+NULL

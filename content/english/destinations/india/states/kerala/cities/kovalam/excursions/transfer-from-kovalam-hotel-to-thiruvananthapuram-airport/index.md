@@ -2,17 +2,19 @@
 title: Transfer from Kovalam hotel to Thiruvananthapuram airport
 translationKey: transfer-from-kovalam-hotel-to-thiruvananthapuram-airport
 duration: '00:45'
-startTime: 'NULL'
-transfer: Departure transfer
+startTime: ''
+transfer: true
 transferCode: Dep
-draft: true
-daysOfOperation: ''
+draft: false
+daysOfOperation: 0
 toCity: ''
-owntransport: false
-guide: true
+toCitiesId: '0'
+owntransport: true
+guide: false
 id: services
 type: services
 tags:
   - Services
   - Transfer from Kovalam hotel to Thiruvananthapuram airport
 ---
+NULL

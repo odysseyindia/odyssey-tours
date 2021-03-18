@@ -2,17 +2,19 @@
 title: Transfer from hotel to Kalimpong
 translationKey: transfer-from-hotel-to-kalimpong
 duration: '03:30'
-startTime: 'NULL'
-transfer: None
+startTime: ''
+transfer: true
 transferCode: 'No'
-draft: true
-daysOfOperation: ''
+draft: false
+daysOfOperation: 0
 toCity: Kalimpong
-owntransport: false
-guide: true
+toCitiesId: '198'
+owntransport: true
+guide: false
 id: services
 type: services
 tags:
   - Services
   - Transfer from hotel to Kalimpong
 ---
+NULL

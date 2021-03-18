@@ -2,12 +2,13 @@
 title: Jeep safari in Ranthambhore N.P
 translationKey: jeep-safari-in-ranthambhore-n.p
 duration: '03:00'
-startTime: 'NULL'
-transfer: ''
+startTime: ''
+transfer: false
 transferCode: ''
-draft: true
-daysOfOperation: '127'
+draft: false
+daysOfOperation: 127
 toCity: ''
+toCitiesId: ''
 owntransport: false
 guide: false
 id: services
@@ -16,3 +17,4 @@ tags:
   - Services
   - Jeep safari in Ranthambhore N.P
 ---
+A jeep safari can provide a more intimate experience of Ranthambhore National Park than the larger safari vehicles. The shared jeeps accommodate up to 6 people, plus a naturalist. This is one of the best places in India in which to see a tiger in the wild, though of course wildlife sightings are always a matter of luck. Most often seen are the varieties of deer and much birdlife.

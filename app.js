@@ -71,7 +71,7 @@ app.post('/import',function (req, res) {
 
     state = state.replace(/ +/g,'-').toLowerCase(); 
 
-    var mdfile = dir+'/states/'+state+'/cities/'+city+'/';
+    var mdfile = dir+'/destinations/india/states/'+state+'/cities/'+city+'/';
 
     console.log('Processing ',mdfile);
 
@@ -124,7 +124,7 @@ app.post('/import',function (req, res) {
     var writeup   = array[2];
     var states_id = array[3];
 
-    var mdfile = dir+'/states/'+state+'/';
+    var mdfile = dir+'/destinations/india/states/'+state+'/';
 
     console.log('Processing ',mdfile);
 
@@ -170,7 +170,7 @@ app.post('/import',function (req, res) {
     var organisation      = array[2];
         organisation      = organisation.trim().toString().replace(/ +/g,'-').toLowerCase();
 
-    var mdfile = dir+'/states/'+state+'/cities/'+city+'/hotels/'+organisation+'/';
+    var mdfile = dir+'/destinations/india/states/'+state+'/cities/'+city+'/hotels/'+organisation+'/';
 
     console.log('Processing ',mdfile);
 
@@ -213,8 +213,9 @@ app.post('/import',function (req, res) {
         city              = city.trim().toString().replace(/ +/g,'-').toLowerCase();
     var description       = array[2];
         description       = description.trim().toString().replace(/ +/g,'-').toLowerCase();
+        description       = description.replace(/&+/g,'and').replace(/'+/g,'').replace(/,+/g,'');
 
-    var mdfile = dir+'/states/'+state+'/cities/'+city+'/excursions/'+description+'/';
+    var mdfile = dir+'/destinations/india/states/'+state+'/cities/'+city+'/excursions/'+description+'/';
 
     console.log('Processing ',mdfile);
 
@@ -223,19 +224,21 @@ app.post('/import',function (req, res) {
      try {
 
       var web = Number(array[7]) || 0;
+      var writeup = array[13].trim().toString();
 
       frontMatter                 = {};
       frontMatter.title           = array[2];
       frontMatter.translationKey  = description;
       frontMatter.duration        = array[3] || '';
       frontMatter.startTime       = (array[4] == 'NULL') ?  '' : array[4];
-      frontMatter.transfer        = (array[5] == 'NULL') ?  '' : array[5];
+      frontMatter.transfer        = (array[5] == 'NULL') ?  false : true;
       frontMatter.transferCode    = (array[6] == 'NULL') ?  '' : array[6];
       frontMatter.draft           = (web == 0) ?  true : false; 
-      frontMatter.daysOfOperation = (array[8] == 'NULL') ?  '' : array[8];
+      frontMatter.daysOfOperation = (array[8] == 'NULL') ?  0  : Number(array[8]);
       frontMatter.toCity          = (array[9] == 'NULL') ?  '' : array[9];
-      frontMatter.owntransport    = (array[10] == 1) ?  true : false;
-      frontMatter.guide           = (array[11] == 1) ?  true : false;
+      frontMatter.toCitiesId      = (array[10] == 'NULL') ?  '' : array[10];
+      frontMatter.owntransport    = (array[11] == 1) ?  true : false;
+      frontMatter.guide           = (array[12] == 1) ?  true : false;
       frontMatter.id              = 'services';
       frontMatter.type            = 'services';
       frontMatter.tags            = ['Services',array[2] ];
@@ -243,10 +246,9 @@ app.post('/import',function (req, res) {
       let output = `---\n` 
       + yaml.safeDump(frontMatter) 
       + "---\n" 
-      // + array[5]
-      ;
+      + writeup;
 
-      // console.table( output );
+  
       fs.writeFileSync(mdfile+'index.md', output, 'utf8', (err) => {       
         if (err) throw err; 
       })

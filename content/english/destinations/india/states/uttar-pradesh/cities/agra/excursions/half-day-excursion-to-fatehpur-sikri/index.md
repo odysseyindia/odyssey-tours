@@ -2,13 +2,14 @@
 title: Half day excursion to Fatehpur Sikri
 translationKey: half-day-excursion-to-fatehpur-sikri
 duration: '04:00'
-startTime: 'NULL'
-transfer: ''
+startTime: ''
+transfer: false
 transferCode: ''
-draft: true
-daysOfOperation: '127'
+draft: false
+daysOfOperation: 127
 toCity: ''
-owntransport: false
+toCitiesId: '0'
+owntransport: true
 guide: true
 id: services
 type: services
@@ -16,3 +17,4 @@ tags:
   - Services
   - Half day excursion to Fatehpur Sikri
 ---
+An hour outside Agra is the deserted Mughal city of Fatehpur Sikri, a complex of sandstone forts, palaces and mosques. Fatehpur Sikri was Emperor Akbar's capital for only 12 years before it was abandoned, apparently due to a lack of water. Today it is a ghost city, its architecture perfectly preserved. The white marble tomb of Sheikh Salim Chisti, Akbar's spiritual adviser, is a Muslim pilgrimage spot.

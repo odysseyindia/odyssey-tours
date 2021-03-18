@@ -2,17 +2,19 @@
 title: Walk to Gurdum
 translationKey: walk-to-gurdum
 duration: '04:30'
-startTime: 'NULL'
-transfer: ''
+startTime: ''
+transfer: false
 transferCode: ''
-draft: true
-daysOfOperation: '127'
+draft: false
+daysOfOperation: 127
 toCity: ''
-owntransport: false
-guide: true
+toCitiesId: ''
+owntransport: true
+guide: false
 id: services
 type: services
 tags:
   - Services
   - Walk to Gurdum
 ---
+Today you walk 4 to 5 hours to the settlement at Gurdum. You sleep in a local lodge.

@@ -2,13 +2,14 @@
 title: Visit to the Sun Temple
 translationKey: visit-to-the-sun-temple
 duration: '02:00'
-startTime: 'NULL'
-transfer: ''
+startTime: ''
+transfer: false
 transferCode: ''
-draft: true
-daysOfOperation: '127'
+draft: false
+daysOfOperation: 127
 toCity: ''
-owntransport: false
+toCitiesId: ''
+owntransport: true
 guide: true
 id: services
 type: services
@@ -16,3 +17,4 @@ tags:
   - Services
   - Visit to the Sun Temple
 ---
+The splendid Sun temple of Konarak, built in the 13th century and located about 35 km from Puri, is the finest example of ancient Orissan  temple architecture. The temple was conceived in the form of a colossal chariot for the sun god Surya, standing on 12 pairs of eight-spoke-wheels and drawn by seven galloping horses. The horses represent the seven days of the week, the wheels the 24 fortnights of the Indian year, and the eight spokes of each wheel the periods into which the ancients divided day and night. Every aspect of life has been carved on the facades of the temple. The most striking sculptures are the erotic figures locked in postures drawn from the Kama Sutra.

@@ -1,0 +1,20 @@
+---
+title: Half day excursion to Shey & Tikse
+translationKey: half-day-excursion-to-shey-and-tikse
+duration: '04:00'
+startTime: ''
+transfer: false
+transferCode: ''
+draft: false
+daysOfOperation: 127
+toCity: ''
+toCitiesId: ''
+owntransport: false
+guide: true
+id: services
+type: services
+tags:
+  - Services
+  - Half day excursion to Shey & Tikse
+---
+Shey is the oldest of the three monasteries near Leh, and is not in regular use. The monastery contains a two-storey-high statue of the Buddha seated in meditation. Up ahead is the twelve-storey, 800-year-old Thiksey Gompa, a good place to witness religious ceremonies. It's a magical moment when the monks say their prayers amidst mystical chanting, the ringing of bells, the clashing of cymbals, and the blowing of horns.
