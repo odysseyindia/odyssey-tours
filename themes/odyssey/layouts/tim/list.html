@@ -328,6 +328,41 @@
     </div>
   </div> 
 
+  <div id="modal-new" class="modal">
+    <div class="modal-content">
+      <div class="container">
+        <div class="row">
+          <div><i class="icon-docs"></i></div>
+          <div class="cancel" id="close-modal-btn">
+            <i class="icon-cancel"></i>
+          </div>
+        </div>
+        <div id="content2">
+          <div>
+            <label for="title">Tour name</label>
+          </div>
+          <div>
+            <input type="text" name="title" required>
+          </div>
+          <div>
+            <label for="tour">File Name</label>
+          </div>
+          <div>
+            <input type="text" name="tour" required>
+          </div>
+        </div>
+        <div class="row buttons">
+          <div>
+            <button class="save" id=save-modal-new-btn>
+            <i class="icon-floppy"></i>
+              Save
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+
 </section>
 
 {{ end }}
@@ -395,7 +430,7 @@
   });
 
  document.getElementById("new-trip").onclick = function() {
-    alert("new trip")
+   document.getElementById("modal-new").style.display = "block";
   }
 
   document.getElementById("trips-my-trips").onclick = function() {
@@ -506,29 +541,60 @@ document.getElementById("save-modal-btn")
   .addEventListener('click', () => {
 
   document.getElementById("modal").style.display = "none";
-var from = document.getElementById("url").innerText;
-var to   = document.getElementById("content").children[3].children[0].value;
+  var from = document.getElementById("url").innerText;
+  var to   = document.getElementById("content").children[3].children[0].value;
 
-docLoad({
-      url:    'copy',
-      method: 'POST',  
-      data: JSON.stringify({
-        "from": from,
-        "to": to
+  docLoad({
+        url:    'copy',
+        method: 'POST',  
+        data: JSON.stringify({
+          "from": from,
+          "to": to
+        })
       })
-    })
-    .then(
+      .then(
 
-    function(response){
-      alert("Copied "+from+" to "+to);
-    }, 
+      function(response){
+        alert("Copied "+from+" to "+to);
+      }, 
 
-    function(Error) {
-      alert(Error);
-      console.log(Error);
-    });
+      function(Error) {
+        alert(Error);
+        console.log(Error);
+      });
 
-});
+  });
+
+  document.getElementById("save-modal-new-btn")
+  .addEventListener('click', () => {
+
+  document.getElementById("modal-new").style.display = "none";
+  var title = document.getElementById("content2").children[1].children[0].value;
+  var tour  = document.getElementById("content2").children[3].children[0].value;
+
+alert(title);
+alert(tour);
+
+  docLoad({
+        url:    'create',
+        method: 'POST',  
+        data: JSON.stringify({
+          "title": title,
+          "tour": tour
+        })
+      })
+      .then(
+
+      function(response){
+        alert("Created "+tour);
+      }, 
+
+      function(Error) {
+        alert(Error);
+        console.log(Error);
+      });
+
+  });
 
   function display(column,title){
 

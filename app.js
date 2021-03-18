@@ -393,6 +393,29 @@ app.post('/copy',function (req, res) {
   });
 });
 
+app.post('/create',function (req, res) {
+
+  var request = JSON.parse(req.body.data);
+  var tour    = request.tour;
+  var title   = request.title;
+  var folder  = tour.replace(/ /g,'-');
+  var file    = dir + "/tim/itineraries/" + folder + '/_index.md';
+  let output  = "---\nid: itinerary\nitinerary: \ntype: itinerary\ntour: "+tour+"\ntitle: "+title+ "\n---\n" ;
+
+  // console.log("file " ,file);
+
+  mkdirp(getDirName(file)).then(made => {
+    if (made == undefined){
+      console.log('File exist already');  
+    } else {
+      console.log('Created a directory for ',folder);
+      fs.writeFileSync(file, output, 'utf8', (err) => {       
+        if (err) throw err; 
+      });
+    };
+  });
+});
+
 
 app.post('/save',function (req, res) {
 
