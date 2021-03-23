@@ -12,7 +12,7 @@ toCitiesId: ''
 owntransport: true
 guide: false
 id: services
-type: services
+type: excursions
 tags:
   - Services
   - Wildlife safari

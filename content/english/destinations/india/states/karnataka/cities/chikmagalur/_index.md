@@ -2,8 +2,8 @@
 title: Chikmagalur
 translationKey: chikmagalur
 defaultDays: 2
-latitude: 75.813888889
-longitude: 13.334444444
+longitude: 75.813888889
+latitude: 13.334444444
 draft: false
 id: city
 type: city

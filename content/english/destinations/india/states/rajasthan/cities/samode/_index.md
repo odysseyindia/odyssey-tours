@@ -2,8 +2,8 @@
 title: Samode
 translationKey: samode
 defaultDays: 1
-latitude: 75.809114
-longitude: 27.172852
+longitude: 75.809114
+latitude: 27.172852
 draft: false
 id: city
 type: city

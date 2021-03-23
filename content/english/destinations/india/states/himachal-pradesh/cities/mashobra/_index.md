@@ -2,8 +2,8 @@
 title: Mashobra
 translationKey: mashobra
 defaultDays: 2
-latitude: 77.2475
-longitude: 31.113889
+longitude: 77.2475
+latitude: 31.113889
 draft: false
 id: city
 type: city

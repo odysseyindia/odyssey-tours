@@ -2,8 +2,8 @@
 title: Satpura
 translationKey: satpura
 defaultDays: 2
-latitude: ''
 longitude: ''
+latitude: ''
 draft: false
 id: city
 type: city

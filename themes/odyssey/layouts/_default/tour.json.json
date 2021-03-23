@@ -1,5 +1,4 @@
-{{ $now := now.Format "2006-01-02" }}
-
+{{- $now := now.Format "2006-01-02" }}
 {
   "title": 			"{{ .Title }}",
   "date": 			"{{ .Date }}",

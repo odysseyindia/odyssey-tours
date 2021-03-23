@@ -2,8 +2,8 @@
 title: Dungarpur
 translationKey: dungarpur
 defaultDays: 2
-latitude: 73.722777778
-longitude: 23.837222222
+longitude: 73.722777778
+latitude: 23.837222222
 draft: false
 id: city
 type: city

@@ -1,4 +1,3 @@
-
 {
   "title": 			"{{ .Title }}",
   "date": 			"{{ .Date }}",
@@ -6,5 +5,5 @@
   "content": 		"{{ trim (.Content | plainify ) "\n" }}",
   "draft": 			"{{ .Params.draft }}",
   "id": 			"{{ .Params.id }}",
- "proposal": "{{.Params.proposal}}"
+  "proposal":       "{{.Params.proposal}}"
 }

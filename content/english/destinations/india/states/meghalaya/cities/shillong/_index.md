@@ -2,8 +2,8 @@
 title: Shillong
 translationKey: shillong
 defaultDays: 2
-latitude: 91.8833
-longitude: 25.5667
+longitude: 91.8833
+latitude: 25.5667
 draft: false
 id: city
 type: city

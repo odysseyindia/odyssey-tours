@@ -2,8 +2,8 @@
 title: Champaner
 translationKey: champaner
 defaultDays: 0
-latitude: ''
 longitude: ''
+latitude: ''
 draft: false
 id: city
 type: city

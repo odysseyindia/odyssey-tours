@@ -2,8 +2,8 @@
 title: Sasangir
 translationKey: sasangir
 defaultDays: 2
-latitude: 70.5975
-longitude: 21.168333333
+longitude: 70.5975
+latitude: 21.168333333
 draft: false
 id: city
 type: city

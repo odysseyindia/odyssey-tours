@@ -1,145 +1,17 @@
 {{- define "main" }}
-{{- .Scratch.Set "layout" "layouts/excursions/list.html" }}
-
-{{- $scratch := newScratch }}
+{{- .Scratch.Set "layout" "excursions/list.html" -}}
 
 <section id="{{ .Scratch.Get "id" | lower }}"> 
   {{ partial "heading.html" . }}
   <div class="container">
     <div class="row">
-      
-    </div>
-  </div>
-
-  <div class="bg">
-    <div class="card-deck">
-      {{- range .Data.Pages -}}
-      <div class="card-holder">
-        <div class="card">
-          <div class="card-header">
-            {{ range first 1 (.Resources.ByType "image") }} 
-              <img class="lazyload" data-src="{{ .RelPermalink }}" alt="{{ substr .Title  0 -4 | humanize }}">
-            {{ end }}
-          </div>
-          {{- partial "card-body"   . }}
+        <div class="content mx-auto w-50 p-3">
+          {{ .Content }}
         </div>
-      </div>   
-      {{- end }}
     </div>
+    {{- range where (where .Data.Pages "Params.id" "services" ) ".Params.transfer" false }}
+    {{- .Render "summary" }}
+    {{- end }}
   </div>
- 
 </section>
-{{ end}}
-{{- define "postscript" }}
-
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js" charset="utf-8"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mapael/2.1.0/js/jquery.mapael.min.js" charset="utf-8"></script>
-<script type="text/javascript" src="/mapael/india_states.js" charset="utf-8"></script>
-
-<script>
-$(".mapcontainer").mapael(
-{
-    "map": {
-        "name" : "india_states",
-      //  "zoom": {
-      //      "enabled": true,
-      //      "maxLevel": 10,
-      //  },
-          defaultPlot: {
-              attrs: {
-                  fill: "#004a9b"
-                  , opacity: 0.6
-              }
-              , attrsHover: {
-                  opacity: 1
-              }
-              , text: {
-                  attrs: {
-                      fill: "#505444"
-                  }
-                  , attrsHover: {
-                      fill: "#000"
-                  }
-              }
-          },
-          defaultArea: {
-              attrs: {
-                  fill: "#f4f4e8"
-                  , stroke: "black"
-              }
-              , attrsHover: {
-                  fill: "#a4e100"
-              }
-              , text: {
-                  attrs: {
-                      fill: "#505444"
-                  }
-                  , attrsHover: {
-                      fill: "#000"
-                  }
-              }
-          }
-    },
-    legend: {
-        area: {
-            mode: "horizontal",
-            title: "Double click to go to the state",
-            labelAttrs: {
-              "font-size": 12
-            },
-            marginLeft: 5,
-            marginLeftLabel: 5,
-        }
-    },
-    areas: {
-
-{{- $scratch := newScratch }}
-{{- range .Data.Pages }}
-
-  "{{ .Title }}": {
-    text: {content: "{{ .Title }}", attrs: {"font-size": 24}},
-    attrs: {
-      fill: "#f4f4e8"
-    },
-    tooltip: {
-      content: "{{ .Title }}"
-    },
-    eventHandlers: {
-      click: function () {
-        var updatedOptions = {'areas': {}};
-
-          {{- $scratch.Set "state" .Title }}
-          {{- range $.Data.Pages }}
-          {{- if eq .Title ($scratch.Get "state") }}
-          document.getElementById('map-heading').innerHTML = "{{ .Title }}";
-          document.getElementById('map-content').innerHTML = "{{ .Content }}";
-          {{- end }}
-
-          updatedOptions.areas["{{ .Title }}"] = {
-             attrs:{fill:"#f4f4e8"}
-          }
-        {{- end }}
-        
-        updatedOptions.areas["{{ .Title }}"] = {
-          attrs:{fill:"red"}
-        }
-        $(".mapcontainer").trigger('update', [{
-          mapOptions: updatedOptions, 
-          animDuration: 300
-        }]);
-      },
-      dblclick: function (e, id, mapElem, textElem) {
-        window.location.href = {{ .Permalink }};
-      }
-    }
-  },
-
 {{- end }}
-
-}
-});
-
-
-</script>
-{{ end }}

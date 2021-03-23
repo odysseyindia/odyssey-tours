@@ -2,8 +2,8 @@
 title: Pollachi
 translationKey: pollachi
 defaultDays: 1
-latitude: ''
 longitude: ''
+latitude: ''
 draft: false
 id: city
 type: city

@@ -2,8 +2,8 @@
 title: Themisgaam
 translationKey: themisgaam
 defaultDays: 1
-latitude: 77.005
-longitude: 34.328889
+longitude: 77.005
+latitude: 34.328889
 draft: false
 id: city
 type: city

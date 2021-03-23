@@ -2,8 +2,8 @@
 title: Mokokchung
 translationKey: mokokchung
 defaultDays: 2
-latitude: 94.5
-longitude: 26.32
+longitude: 94.5
+latitude: 26.32
 draft: false
 id: city
 type: city

@@ -12,7 +12,7 @@ toCitiesId: ''
 owntransport: false
 guide: true
 id: services
-type: services
+type: excursions
 tags:
   - Services
   - Half day city tour and visit to the Marble Rocks

@@ -7,7 +7,7 @@ starcategories_id: 4
 rooms: 25
 draft: false
 id: hotel
-type: hotels
+type: hotel
 tags:
   - Hotels
   - The Elgin

@@ -2,8 +2,8 @@
 title: Sawai Madhopur
 translationKey: sawai-madhopur
 defaultDays: 2
-latitude: 76.419444444
-longitude: 26.0475
+longitude: 76.419444444
+latitude: 26.0475
 draft: false
 id: city
 type: city

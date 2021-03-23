@@ -2,8 +2,8 @@
 title: Jojawar
 translationKey: jojawar
 defaultDays: 1
-latitude: 73.741944444
-longitude: 25.529722222
+longitude: 73.741944444
+latitude: 25.529722222
 draft: false
 id: city
 type: city

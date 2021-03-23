@@ -12,7 +12,7 @@ toCitiesId: ''
 owntransport: false
 guide: true
 id: services
-type: services
+type: excursions
 tags:
   - Services
   - Day trip from Delhi to Agra by Gatimaan Express train

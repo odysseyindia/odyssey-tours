@@ -12,7 +12,7 @@ toCitiesId: ''
 owntransport: false
 guide: false
 id: services
-type: services
+type: excursions
 tags:
   - Services
   - Full day trekking and bamboo rafting in Periyar Tiger Reserve

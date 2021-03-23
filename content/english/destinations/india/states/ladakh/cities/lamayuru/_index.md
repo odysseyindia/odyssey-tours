@@ -2,8 +2,8 @@
 title: Lamayuru
 translationKey: lamayuru
 defaultDays: 1
-latitude: 76.774444
-longitude: 34.282778
+longitude: 76.774444
+latitude: 34.282778
 draft: false
 id: city
 type: city

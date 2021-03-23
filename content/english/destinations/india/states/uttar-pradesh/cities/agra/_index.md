@@ -2,8 +2,8 @@
 title: Agra
 translationKey: agra
 defaultDays: 2
-latitude: 78.02
-longitude: 27.18
+longitude: 78.02
+latitude: 27.18
 draft: false
 id: city
 type: city

@@ -511,10 +511,10 @@ function changeCity(){
 
   if (city){
     displayCity(city);
-    displayHotels(city);
-    displayExcursions(city);
-    displayCarHire(city);
-    displayFlights(city);
+    //displayHotels(city);
+    //displayExcursions(city);
+    // displayCarHire(city);
+    // displayFlights(city);
     // displayTrains(city);
   }
 };
@@ -543,9 +543,9 @@ function saveItinerary(){
         let attr  = inputs[k].getAttribute("attr");
         let value = inputs[k].getAttribute("value");
         obj[attr] = (value != null) ? new Date(value) : inputs[k].innerText ;
-      }
+      };
       details.push(obj);
-    }
+    };
 
     let object = {};
     object.day = i;
@@ -562,32 +562,23 @@ function saveItinerary(){
     method: 'POST',
     data:   JSON.stringify({ 
       "file": {{ .RelPermalink }}, 
-      "data": data })
-  })
-  .then(
+      "data": data }) }).then(
+      
+      function(response){ 
+        console.log( statusText ); 
+      }, 
 
-    function(response) {
-      console.log(statusText);
-    }, 
-
-    function(Error) {
-      console.log(Error);
-    }
-    );
+      function(Error){ 
+        console.log( Error ); 
+      }
+      );
 };
-
-
-
 
 function displayCity(url){
 
   const city = url.split("/")[(url.split("/")).length-2];
-  // the json url for the city is one step lower in the url tree
-  var   newUrl = url.split("/");
-  newUrl.pop();
-  newUrl.pop();
-
-  docLoad({url: host+(newUrl.join("/"))+"/index.json"}).then(
+  var path = host+url+"index.json";
+  docLoad({"url": path}).then(
 
     function(response) {
 
@@ -596,14 +587,14 @@ function displayCity(url){
 
       for(let i=0;i<cities.length;i++) {
         if (cities[i].translationKey == city ){
-          citydata = cities[i];
+          var citydata = cities[i];
         }
       }
-alert(citydata);
-      const image = 'url("'+host+url+citydata.image+'")';
+      console.table(citydata);
+      const image = host+url+citydata.image;
       
       if (image){
-        document.getElementById("image").style["background-image"]=image;
+        document.getElementById("image").style.background=image;
       }
       document.getElementById("info").innerHTML = citydata.content;
     }, 
@@ -616,7 +607,7 @@ alert(citydata);
 
 function displayHotels(city){
 
-  docLoad({url: host+city+"hotels/index.json"}).then(
+    docLoad( {url: host+city+"hotels/index.json"} ).then(
 
     function(response){
 
@@ -985,10 +976,10 @@ function editItem(day,index,url,obj){
   let data = obj.getElementsByClassName('details');
 
   for(let i=0;i<inputs.length;i++) {
-   if (data[i]) {
-    inputs[(i+1)].value = data[i].innerText;
-  }
-} 
+    if (data[i]) {
+      inputs[(i+1)].value = data[i].innerText;
+    }
+  } 
 };
 
 
@@ -1002,15 +993,15 @@ function saveModal(url, data){
     url:   'edit',
     method:'POST',
     data:   JSON.stringify({"file": {{ .RelPermalink }},"data": data })
-  })
-  .then(
+  }).then(
     function(response) {
       console.log(response);
     }, 
     function(Error) {
       console.log(Error);
       alert("There is an issue saving. Please contact the administrator.");
-    });
+    }
+  );
 };
 
 

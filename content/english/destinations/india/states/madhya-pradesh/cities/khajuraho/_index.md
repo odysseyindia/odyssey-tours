@@ -2,8 +2,8 @@
 title: Khajuraho
 translationKey: khajuraho
 defaultDays: 2
-latitude: 79.921111111
-longitude: 24.852777778
+longitude: 79.921111111
+latitude: 24.852777778
 draft: false
 id: city
 type: city

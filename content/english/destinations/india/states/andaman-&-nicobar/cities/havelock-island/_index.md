@@ -2,8 +2,8 @@
 title: Havelock Island
 translationKey: havelock-island
 defaultDays: 3
-latitude: 92.975556
-longitude: 11.998333
+longitude: 92.975556
+latitude: 11.998333
 draft: false
 id: city
 type: city

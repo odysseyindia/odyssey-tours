@@ -5,8 +5,15 @@
 <section id="{{ .Scratch.Get "id" | lower }}">  
   {{ partial "heading.html" . }}
   <div class="container">
-      <div class="mx-auto w-50 p-3">
+      <div class="md-6">
         {{ .Content }}
+      </div>
+      <div class="md-6">
+        {{- range first 1 (.Resources.ByType "image") }} 
+        <a href="{{ $.RelPermalink }}"  class="hover-effect">
+        <img class="lazyload" itemprop="image" data-src="{{ .RelPermalink }}" alt="{{ substr .Title  0 -4 | humanize }}" sizes="(min-width: 35em) 200px, 100vw" >
+        </a> 
+        {{- end }}  
       </div>
     </div>
     <div class="container">
@@ -46,17 +53,9 @@
 
         <div id="things-to-do" class="tab-pane">
           <div class="row">
-            <div class="mx-auto w-50 p-3">
-            {{- range where .Data.Pages ".RelPermalink" (printf "%s%s" .RelPermalink "excursions/") }}  
-            {{- range .Data.Pages }}
-              <article>
-              <h4>{{ .Title }}</h4>
-              <p class="left">{{ .Content  }}</p>
-              {{- with .Resources.ByType "image" }}   
-              {{- partial "image-box.html" (dict "images" . ) }}
-              {{- end }}
-              </article>
-            {{- end }}
+            <div class="md-12">
+            {{- range (where (where .Data.Pages "Params.id" "services") "Params.transfer" false) }}
+            {{- partial "excursion-listing.html" . }}
             {{- end }}
             </div>
           </div>
@@ -70,7 +69,7 @@
             {{- partial "hotel-listing.html" . }}
             {{- end }}
             {{- end }}
-          </div>
+            </div>
           </div>
         </div>
 
@@ -97,7 +96,7 @@
 <script>
 function initMap() {
   
-  const target = { lat: {{ .Params.latitude }}, lng: {{ .Params.longitude }} };
+  const target = { lat: {{ .Params.longitude }}, lng: {{ .Params.latitude }} };
 
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 7,

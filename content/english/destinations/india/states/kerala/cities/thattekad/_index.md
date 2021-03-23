@@ -2,8 +2,8 @@
 title: Thattekad
 translationKey: thattekad
 defaultDays: 2
-latitude: ''
 longitude: ''
+latitude: ''
 draft: false
 id: city
 type: city

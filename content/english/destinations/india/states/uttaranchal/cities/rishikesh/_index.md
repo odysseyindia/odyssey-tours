@@ -2,8 +2,8 @@
 title: Rishikesh
 translationKey: rishikesh
 defaultDays: 2
-latitude: 78.2775
-longitude: 30.092222222
+longitude: 78.2775
+latitude: 30.092222222
 draft: false
 id: city
 type: city

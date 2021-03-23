@@ -1,0 +1,19 @@
+{{ define "main" }}
+{{ .Scratch.Set "layout" "layouts/_default/single.html" -}}
+
+{{- $image := cond (isset .Params "image") ( .Params.image ) (.CurrentSection.Params.image) }}
+        
+<section id="{{ .Scratch.Get "id" | lower }}"> 
+  {{ partial "heading.html" . }}
+  <div class="container">
+    <div class="row">
+      <div class="mx-auto w-50 p-1">
+        {{ .Content }}      
+      </div>
+      {{- with .Resources.ByType "image" }}  	
+	  {{- partial "image-box.html" (dict "images" . ) }}
+	  {{- end }}
+    </div>
+  </div>
+</section>
+{{ end }}

@@ -2,8 +2,8 @@
 title: Chandelao
 translationKey: chandelao
 defaultDays: 1
-latitude: 73.396233
-longitude: 26.250817
+longitude: 73.396233
+latitude: 26.250817
 draft: false
 id: city
 type: city

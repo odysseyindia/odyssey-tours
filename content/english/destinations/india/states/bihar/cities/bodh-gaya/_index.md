@@ -2,8 +2,8 @@
 title: Bodh Gaya
 translationKey: bodh-gaya
 defaultDays: 2
-latitude: 85.783888889
-longitude: 25.854166667
+longitude: 85.783888889
+latitude: 25.854166667
 draft: false
 id: city
 type: city

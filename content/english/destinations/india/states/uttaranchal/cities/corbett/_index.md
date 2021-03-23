@@ -2,8 +2,8 @@
 title: Corbett
 translationKey: corbett
 defaultDays: 2
-latitude: 79.147222222
-longitude: 29.453888889
+longitude: 79.147222222
+latitude: 29.453888889
 draft: false
 id: city
 type: city

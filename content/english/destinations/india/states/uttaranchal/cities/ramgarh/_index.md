@@ -2,8 +2,8 @@
 title: Ramgarh
 translationKey: ramgarh
 defaultDays: 2
-latitude: 79.546666667
-longitude: 29.42
+longitude: 79.546666667
+latitude: 29.42
 draft: false
 id: city
 type: city

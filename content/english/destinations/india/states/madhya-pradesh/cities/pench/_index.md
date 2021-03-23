@@ -2,8 +2,8 @@
 title: Pench
 translationKey: pench
 defaultDays: 1
-latitude: 79.228888889
-longitude: 21.647222222
+longitude: 79.228888889
+latitude: 21.647222222
 draft: false
 id: city
 type: city

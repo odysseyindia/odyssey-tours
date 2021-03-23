@@ -2,8 +2,8 @@
 title: Gopalpur-on-Sea
 translationKey: gopalpur-on-sea
 defaultDays: 2
-latitude: ''
 longitude: ''
+latitude: ''
 draft: false
 id: city
 type: city

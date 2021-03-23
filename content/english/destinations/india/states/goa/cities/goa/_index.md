@@ -2,8 +2,8 @@
 title: Goa
 translationKey: goa
 defaultDays: 3
-latitude: 74.003611111
-longitude: 15.402777778
+longitude: 74.003611111
+latitude: 15.402777778
 draft: false
 id: city
 type: city

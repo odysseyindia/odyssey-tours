@@ -2,8 +2,8 @@
 title: Thikalna
 translationKey: thikalna
 defaultDays: 2
-latitude: ''
 longitude: ''
+latitude: ''
 draft: false
 id: city
 type: city

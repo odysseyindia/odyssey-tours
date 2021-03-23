@@ -2,8 +2,8 @@
 title: Madikeri
 translationKey: madikeri
 defaultDays: 2
-latitude: ''
 longitude: ''
+latitude: ''
 draft: false
 id: city
 type: city

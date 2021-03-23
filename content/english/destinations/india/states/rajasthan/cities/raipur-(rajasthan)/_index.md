@@ -2,8 +2,8 @@
 title: Raipur (Rajasthan)
 translationKey: raipur-(rajasthan)
 defaultDays: 2
-latitude: ''
 longitude: ''
+latitude: ''
 draft: false
 id: city
 type: city

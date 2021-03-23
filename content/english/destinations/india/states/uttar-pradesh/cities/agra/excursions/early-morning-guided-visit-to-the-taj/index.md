@@ -12,7 +12,7 @@ toCitiesId: ''
 owntransport: false
 guide: true
 id: services
-type: services
+type: excursions
 tags:
   - Services
   - Early morning guided visit to the Taj

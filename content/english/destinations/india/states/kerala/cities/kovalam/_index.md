@@ -2,8 +2,8 @@
 title: Kovalam
 translationKey: kovalam
 defaultDays: 2
-latitude: 77.004444444
-longitude: 8.369444444
+longitude: 77.004444444
+latitude: 8.369444444
 draft: false
 id: city
 type: city

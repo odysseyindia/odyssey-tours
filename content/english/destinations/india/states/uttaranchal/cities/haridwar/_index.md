@@ -2,8 +2,8 @@
 title: Haridwar
 translationKey: haridwar
 defaultDays: 1
-latitude: 78.188333333
-longitude: 29.981388889
+longitude: 78.188333333
+latitude: 29.981388889
 draft: false
 id: city
 type: city

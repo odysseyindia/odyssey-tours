@@ -2,8 +2,8 @@
 title: Nagarhole
 translationKey: nagarhole
 defaultDays: 2
-latitude: 76.269722222
-longitude: 11.938888889
+longitude: 76.269722222
+latitude: 11.938888889
 draft: false
 id: city
 type: city

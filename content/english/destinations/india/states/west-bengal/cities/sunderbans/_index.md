@@ -2,8 +2,8 @@
 title: Sunderbans
 translationKey: sunderbans
 defaultDays: 2
-latitude: 88.895833
-longitude: 21.945
+longitude: 88.895833
+latitude: 21.945
 draft: false
 id: city
 type: city

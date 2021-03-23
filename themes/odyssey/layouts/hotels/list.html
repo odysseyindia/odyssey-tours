@@ -1,0 +1,17 @@
+{{- define "main" }}
+{{- .Scratch.Set "layout" "hotels/list.html" -}}
+
+<section id="{{ .Scratch.Get "id" | lower }}"> 
+  {{ partial "heading.html" . }}
+  <div class="container">
+    <div class="row">
+        <div class="content mx-auto w-50 p-3">
+          {{ .Content }}
+        </div>
+    </div>
+    {{- range where .Parent.Data.Pages ".Params.id" "hotel" }}
+    {{- .Render "summary" }}
+    {{- end }}
+  </div>
+</section>
+{{- end }}

@@ -2,8 +2,8 @@
 title: Jodhpur
 translationKey: jodhpur
 defaultDays: 1
-latitude: 73.018611111
-longitude: 26.297222222
+longitude: 73.018611111
+latitude: 26.297222222
 draft: false
 id: city
 type: city

@@ -2,8 +2,8 @@
 title: Karauli
 translationKey: karauli
 defaultDays: 2
-latitude: 77.025833333
-longitude: 26.4975
+longitude: 77.025833333
+latitude: 26.4975
 draft: false
 id: city
 type: city

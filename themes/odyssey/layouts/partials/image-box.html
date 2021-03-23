@@ -7,7 +7,7 @@
     {{ end }}
     {{ end }}
     <div class="image-box-red">
-    {{- range $index, $e := .images }}
+    {{- range  $index, $e := first 5 .images }}
     {{ if ne $index 0 }}     
     <div>
         <img src="{{.RelPermalink}}">

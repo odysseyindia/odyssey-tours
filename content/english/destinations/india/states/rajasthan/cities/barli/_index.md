@@ -2,8 +2,8 @@
 title: Barli
 translationKey: barli
 defaultDays: 1
-latitude: 74.716667
-longitude: 25.933333
+longitude: 74.716667
+latitude: 25.933333
 draft: false
 id: city
 type: city

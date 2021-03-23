@@ -1,0 +1,12 @@
+{{- define "response" -}}
+
+{     
+  "test" : "layouts/excursions/list.json.json",
+  "count" : "{{ len (where .Parent.Data.Pages ".Params.id" "services") }}",
+  "items" : [
+  {{- range $i, $e := where .Parent.Data.Pages ".Params.id" "services" }}
+      {{ if $i }}, {{ end }}{{ .Render "item" }}
+  {{- end }}
+  ]
+}
+{{- end }}  

@@ -2,8 +2,8 @@
 title: Udaipur
 translationKey: udaipur
 defaultDays: 2
-latitude: 73.683333333
-longitude: 24.576388889
+longitude: 73.683333333
+latitude: 24.576388889
 draft: false
 id: city
 type: city

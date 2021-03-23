@@ -12,7 +12,7 @@ toCitiesId: '0'
 owntransport: false
 guide: true
 id: services
-type: services
+type: excursions
 tags:
   - Services
   - Excursion to Mamallapuram (with local guide)

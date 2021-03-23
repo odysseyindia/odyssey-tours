@@ -2,8 +2,8 @@
 title: Aihole
 translationKey: aihole
 defaultDays: 0
-latitude: ''
 longitude: ''
+latitude: ''
 draft: false
 id: city
 type: city

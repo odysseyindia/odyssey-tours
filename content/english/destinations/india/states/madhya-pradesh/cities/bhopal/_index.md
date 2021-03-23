@@ -2,8 +2,8 @@
 title: Bhopal
 translationKey: bhopal
 defaultDays: 2
-latitude: 77.421944444
-longitude: 23.266111111
+longitude: 77.421944444
+latitude: 23.266111111
 draft: false
 id: city
 type: city

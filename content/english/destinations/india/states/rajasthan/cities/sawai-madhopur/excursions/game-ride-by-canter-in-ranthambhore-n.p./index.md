@@ -12,7 +12,7 @@ toCitiesId: ''
 owntransport: false
 guide: false
 id: services
-type: services
+type: excursions
 tags:
   - Services
   - Game ride by canter in Ranthambhore N.P.

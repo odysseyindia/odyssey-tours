@@ -2,8 +2,8 @@
 title: Khempur
 translationKey: khempur
 defaultDays: 1
-latitude: 74.034444
-longitude: 24.754167
+longitude: 74.034444
+latitude: 24.754167
 draft: false
 id: city
 type: city

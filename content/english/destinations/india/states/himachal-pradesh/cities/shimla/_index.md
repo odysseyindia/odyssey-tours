@@ -2,8 +2,8 @@
 title: Shimla
 translationKey: shimla
 defaultDays: 2
-latitude: 77.173055556
-longitude: 31.104722222
+longitude: 77.173055556
+latitude: 31.104722222
 draft: false
 id: city
 type: city

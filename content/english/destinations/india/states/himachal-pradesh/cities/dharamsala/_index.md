@@ -2,8 +2,8 @@
 title: Dharamsala
 translationKey: dharamsala
 defaultDays: 2
-latitude: 76.32
-longitude: 32.244166667
+longitude: 76.32
+latitude: 32.244166667
 draft: false
 id: city
 type: city

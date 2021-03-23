@@ -2,8 +2,8 @@
 title: Gokarna
 translationKey: gokarna
 defaultDays: 5
-latitude: ''
 longitude: ''
+latitude: ''
 draft: false
 id: city
 type: city

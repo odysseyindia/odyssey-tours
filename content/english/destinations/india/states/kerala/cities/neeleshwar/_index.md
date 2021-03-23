@@ -2,8 +2,8 @@
 title: Neeleshwar
 translationKey: neeleshwar
 defaultDays: 2
-latitude: 75.142222
-longitude: 12.264722
+longitude: 75.142222
+latitude: 12.264722
 draft: false
 id: city
 type: city

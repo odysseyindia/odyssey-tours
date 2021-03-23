@@ -2,8 +2,8 @@
 title: Thekkady
 translationKey: thekkady
 defaultDays: 2
-latitude: 77.17
-longitude: 9.604444444
+longitude: 77.17
+latitude: 9.604444444
 draft: false
 id: city
 type: city

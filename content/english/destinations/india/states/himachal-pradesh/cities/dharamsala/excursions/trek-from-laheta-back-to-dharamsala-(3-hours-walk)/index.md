@@ -12,7 +12,7 @@ toCitiesId: ''
 owntransport: true
 guide: false
 id: services
-type: services
+type: excursions
 tags:
   - Services
   - 'Trek from Laheta back to Dharamsala (3 hours walk),'

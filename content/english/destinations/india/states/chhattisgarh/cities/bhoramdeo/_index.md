@@ -2,8 +2,8 @@
 title: Bhoramdeo
 translationKey: bhoramdeo
 defaultDays: 3
-latitude: ''
 longitude: ''
+latitude: ''
 draft: false
 id: city
 type: city

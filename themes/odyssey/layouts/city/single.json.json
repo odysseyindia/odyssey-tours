@@ -1,0 +1,17 @@
+{{ define "response" }}
+{
+  "this": "item.json.son",
+  "title": "{{ .Title }}",
+  "date": "{{ .Parent.Date }}",
+  "permalink": "{{ .Parent.RelPermalink }}",
+  "content": "{{ replace (trim (.Parent.Content | plainify ) "\n") "\n" "linebreak" }}",
+  "draft": "{{ .Parent.Params.draft }}",
+  "id": "{{ .Parent.Params.id }}",
+  "translationKey": "{{ .Parent.Params.translationKey }}
+  {{- range $i,$e := (.Parent.Resources.ByType "image") }} 
+  {{- if eq $i 0 }}
+  ,"image": "{{ . }}"
+  {{- end }}
+  {{- end }}
+}
+{{ end }}

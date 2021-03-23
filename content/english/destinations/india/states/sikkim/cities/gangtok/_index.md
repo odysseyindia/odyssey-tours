@@ -2,8 +2,8 @@
 title: Gangtok
 translationKey: gangtok
 defaultDays: 2
-latitude: 88.54
-longitude: 27.525277778
+longitude: 88.54
+latitude: 27.525277778
 draft: false
 id: city
 type: city

@@ -2,8 +2,8 @@
 title: Pragpur
 translationKey: pragpur
 defaultDays: 1
-latitude: 76.209722222
-longitude: 31.8225
+longitude: 76.209722222
+latitude: 31.8225
 draft: false
 id: city
 type: city

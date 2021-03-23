@@ -2,8 +2,8 @@
 title: Dolaguri
 translationKey: dolaguri
 defaultDays: 1
-latitude: 
 longitude: 
+latitude: 
 draft: false
 id: city
 type: city

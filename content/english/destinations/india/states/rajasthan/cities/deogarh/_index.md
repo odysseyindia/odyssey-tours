@@ -2,8 +2,8 @@
 title: Deogarh
 translationKey: deogarh
 defaultDays: 2
-latitude: 73.907777778
-longitude: 25.529166667
+longitude: 73.907777778
+latitude: 25.529166667
 draft: false
 id: city
 type: city

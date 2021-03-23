@@ -2,8 +2,8 @@
 title: Orchha
 translationKey: orchha
 defaultDays: 1
-latitude: 78.642777778
-longitude: 25.350277778
+longitude: 78.642777778
+latitude: 25.350277778
 draft: false
 id: city
 type: city

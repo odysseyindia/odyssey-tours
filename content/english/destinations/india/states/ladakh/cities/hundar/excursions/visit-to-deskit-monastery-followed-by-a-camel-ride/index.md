@@ -12,7 +12,7 @@ toCitiesId: ''
 owntransport: true
 guide: false
 id: services
-type: services
+type: excursions
 tags:
   - Services
   - Visit to Deskit monastery followed by a camel ride

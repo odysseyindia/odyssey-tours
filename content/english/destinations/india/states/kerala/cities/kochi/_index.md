@@ -2,8 +2,8 @@
 title: Kochi
 translationKey: kochi
 defaultDays: 2
-latitude: 76.241388889
-longitude: 9.968055556
+longitude: 76.241388889
+latitude: 9.968055556
 draft: false
 id: city
 type: city

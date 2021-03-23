@@ -12,7 +12,7 @@ toCitiesId: ''
 owntransport: true
 guide: false
 id: services
-type: services
+type: excursions
 tags:
   - Services
   - 'Drive to Satobari, trek to Kareri (1900m - 4/5 hours walk)'

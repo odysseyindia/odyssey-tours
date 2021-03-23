@@ -2,8 +2,8 @@
 title: Siddhapura
 translationKey: siddhapura
 defaultDays: 2
-latitude: 74.915
-longitude: 13.666111111
+longitude: 74.915
+latitude: 13.666111111
 draft: false
 id: city
 type: city

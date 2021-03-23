@@ -2,8 +2,8 @@
 title: Ahmedabad
 translationKey: ahmedabad
 defaultDays: 2
-latitude: 72.590277778
-longitude: 23.021666667
+longitude: 72.590277778
+latitude: 23.021666667
 draft: false
 id: city
 type: city

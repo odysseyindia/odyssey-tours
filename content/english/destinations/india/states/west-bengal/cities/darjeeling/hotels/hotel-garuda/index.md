@@ -7,7 +7,7 @@ starcategories_id: ''
 rooms: 14
 draft: false
 id: hotel
-type: hotels
+type: hotel
 tags:
   - Hotels
   - Hotel Garuda

@@ -2,8 +2,8 @@
 title: Kannur
 translationKey: kannur
 defaultDays: 0
-latitude: ''
 longitude: ''
+latitude: ''
 draft: false
 id: city
 type: city

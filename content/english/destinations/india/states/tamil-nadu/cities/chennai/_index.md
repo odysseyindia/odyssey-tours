@@ -2,8 +2,8 @@
 title: Chennai
 translationKey: chennai
 defaultDays: 1
-latitude: 80.232222222
-longitude: 13.050277778
+longitude: 80.232222222
+latitude: 13.050277778
 draft: false
 id: city
 type: city

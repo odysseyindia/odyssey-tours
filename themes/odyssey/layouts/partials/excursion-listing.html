@@ -1,0 +1,11 @@
+<article city="{{ .CurrentSection.Parent.Title }}">
+	<h3>
+		<a href="{{ .Permalink }}">{{ .Title }}</a> &nbsp;
+	</h3>
+	{{ .Content }}
+	<figure >
+		{{- with .Resources.ByType "image" }}  	
+		{{- partial "image-box.html" (dict "images" . ) }}
+		{{- end }}
+	</figure>
+</article>

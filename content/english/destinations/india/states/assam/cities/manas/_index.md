@@ -2,8 +2,8 @@
 title: Manas
 translationKey: manas
 defaultDays: 3
-latitude: ''
 longitude: ''
+latitude: ''
 draft: false
 id: city
 type: city

@@ -12,7 +12,7 @@ toCitiesId: ''
 owntransport: false
 guide: false
 id: services
-type: services
+type: excursions
 tags:
   - Services
   - Morning and afternoon jeep safaris in Central and Western Range

@@ -2,8 +2,8 @@
 title: Amritsar
 translationKey: amritsar
 defaultDays: 2
-latitude: 75.456666667
-longitude: 31.140833333
+longitude: 75.456666667
+latitude: 31.140833333
 draft: false
 id: city
 type: city

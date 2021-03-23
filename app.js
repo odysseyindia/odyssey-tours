@@ -89,8 +89,8 @@ app.post('/import',function (req, res) {
       frontMatter.title           = array[0];
       frontMatter.translationKey  = city;
       frontMatter.defaultDays     = Number(array[2]) || 0;
-      frontMatter.longitude       = Number(array[3]) || '';
-      frontMatter.latitude        = Number(array[4]) || '';
+      frontMatter.longitude       = Number(array[4]) || '';
+      frontMatter.latitude        = Number(array[3]) || '';
       frontMatter.draft           = (web==0) ? true : false; 
       frontMatter.nighthalt       = (nighthalt==0) ? true : false; 
       frontMatter.id              = 'city';
@@ -240,7 +240,7 @@ app.post('/import',function (req, res) {
       frontMatter.owntransport    = (array[11] == 1) ?  true : false;
       frontMatter.guide           = (array[12] == 1) ?  true : false;
       frontMatter.id              = 'services';
-      frontMatter.type            = 'services';
+      frontMatter.type            = 'excursions';
       frontMatter.tags            = ['Services',array[2] ];
 
       let output = `---\n` 

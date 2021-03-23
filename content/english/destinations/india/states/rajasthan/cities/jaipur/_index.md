@@ -2,8 +2,8 @@
 title: Jaipur
 translationKey: jaipur
 defaultDays: 2
-latitude: 75.823611111
-longitude: 26.925555556
+longitude: 75.823611111
+latitude: 26.925555556
 draft: false
 id: city
 type: city

@@ -12,7 +12,7 @@ toCitiesId: ''
 owntransport: true
 guide: true
 id: services
-type: services
+type: excursions
 tags:
   - Services
   - Afternoon visit to Gandhi's Sabarmati Ashram & Law Garden Market

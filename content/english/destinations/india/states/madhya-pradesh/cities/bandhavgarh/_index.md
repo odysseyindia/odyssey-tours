@@ -2,8 +2,8 @@
 title: Bandhavgarh
 translationKey: bandhavgarh
 defaultDays: 2
-latitude: 77.740277778
-longitude: 23.4825
+longitude: 77.740277778
+latitude: 23.4825
 draft: false
 id: city
 type: city

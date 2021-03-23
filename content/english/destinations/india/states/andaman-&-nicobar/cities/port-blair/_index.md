@@ -2,8 +2,8 @@
 title: Port Blair
 translationKey: port-blair
 defaultDays: 1
-latitude: 92.728055556
-longitude: 11.637222222
+longitude: 92.728055556
+latitude: 11.637222222
 draft: false
 id: city
 type: city

@@ -2,8 +2,8 @@
 title: Palampur
 translationKey: palampur
 defaultDays: 2
-latitude: 76.535555556
-longitude: 32.109166667
+longitude: 76.535555556
+latitude: 32.109166667
 draft: false
 id: city
 type: city

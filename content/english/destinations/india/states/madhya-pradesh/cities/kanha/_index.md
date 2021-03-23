@@ -2,8 +2,8 @@
 title: Kanha
 translationKey: kanha
 defaultDays: 2
-latitude: 80.672777778
-longitude: 22.154444444
+longitude: 80.672777778
+latitude: 22.154444444
 draft: false
 id: city
 type: city

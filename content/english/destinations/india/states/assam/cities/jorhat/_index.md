@@ -2,8 +2,8 @@
 title: Jorhat
 translationKey: jorhat
 defaultDays: 1
-latitude: 94.22
-longitude: 26.75
+longitude: 94.22
+latitude: 26.75
 draft: false
 id: city
 type: city

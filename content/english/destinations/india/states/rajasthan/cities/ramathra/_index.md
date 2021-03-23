@@ -2,8 +2,8 @@
 title: Ramathra
 translationKey: ramathra
 defaultDays: 2
-latitude: ''
 longitude: ''
+latitude: ''
 draft: false
 id: city
 type: city

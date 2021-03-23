@@ -2,8 +2,8 @@
 title: Munnar
 translationKey: munnar
 defaultDays: 2
-latitude: 77.073055556
-longitude: 10.055
+longitude: 77.073055556
+latitude: 10.055
 draft: false
 id: city
 type: city

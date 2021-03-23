@@ -12,7 +12,7 @@ toCitiesId: '0'
 owntransport: true
 guide: true
 id: services
-type: services
+type: excursions
 tags:
   - Services
   - Early morning trip to Tiger Hill & Ghoom Monastery

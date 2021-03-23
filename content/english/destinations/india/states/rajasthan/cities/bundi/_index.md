@@ -2,8 +2,8 @@
 title: Bundi
 translationKey: bundi
 defaultDays: 1
-latitude: 75.636388889
-longitude: 25.450277778
+longitude: 75.636388889
+latitude: 25.450277778
 draft: false
 id: city
 type: city

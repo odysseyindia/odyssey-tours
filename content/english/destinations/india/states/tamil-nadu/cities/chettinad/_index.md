@@ -2,8 +2,8 @@
 title: Chettinad
 translationKey: chettinad
 defaultDays: 2
-latitude: ''
 longitude: ''
+latitude: ''
 draft: false
 id: city
 type: city

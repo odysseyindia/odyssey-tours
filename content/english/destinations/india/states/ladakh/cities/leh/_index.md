@@ -2,8 +2,8 @@
 title: Leh
 translationKey: leh
 defaultDays: 3
-latitude: 77.58333
-longitude: 34.16667
+longitude: 77.58333
+latitude: 34.16667
 draft: false
 id: city
 type: city
