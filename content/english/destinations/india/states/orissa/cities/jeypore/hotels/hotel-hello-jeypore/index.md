@@ -11,5 +11,7 @@ type: hotels
 tags:
   - Hotels
   - Hotel Hello Jeypore
+categories:
+
 ---
 The only centrally airconditioned hotel in south Orissa surrounded by beautiful mountains. There is a multi-cuisine restaurant and a bar. 

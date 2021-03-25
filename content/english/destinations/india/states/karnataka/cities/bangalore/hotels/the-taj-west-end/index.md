@@ -11,5 +11,6 @@ type: hotels
 tags:
   - Hotels
   - The Taj West End
+category: Superior hotel
 ---
 A delightful hotel set in twenty acres of landscaped gardens, with a lot of old world charm that makes it feel more like a club. The luxurious rooms are in double-storeyed cottages, with a colonial feel, either overlooking the lush garden or the swimming pool. The hotel has a fitness centre, multiple restaurants and a flood-lit tennis court.

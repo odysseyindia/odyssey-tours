@@ -11,4 +11,6 @@ type: hotels
 tags:
   - Hotels
   - Hotel Sai International
+categories:
+
 ---

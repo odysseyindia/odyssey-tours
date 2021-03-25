@@ -11,5 +11,6 @@ type: hotels
 tags:
   - Hotels
   - The Elgin Fairlawn
+category: Comfortable hotel
 ---
 A charming relic of the Raj, this old-fashioned Calcutta institution is a rambling place filled with memorabilia, family heirlooms, paintings, well-stocked bookshelves and sitting rooms. Here, guests are encouraged to eat together in a sociable atmosphere. The dining room even offers a full English breakfast in cosy colonial surrounds, and there are a number of cosy lounges.

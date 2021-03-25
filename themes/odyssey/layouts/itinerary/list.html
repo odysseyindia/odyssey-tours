@@ -6,7 +6,7 @@
   <div class="container">
     <div class="row">
       <div class="mx-auto w-50 p-3">
-        {{ .Content }}test
+        {{ .Content }}
         <div id="message" class="alert " role="alert"></div>
       </div>
     </div>
@@ -25,10 +25,19 @@
     <div class="columns">
 
       <div id="myItinerary">
-{{- range $index,$e := .Params.itinerary }}
+         <div class="column-header">
+            <h4><i class="icon-search"></i>Itinerary</h4>
+        </div>
+        {{- if .Params.itinerary }}{{else}}   
+        <hr class="hr-text" data-content="Day 1">
+        <div class="containers"> </div>
+        {{- end }}
+
+
+      {{- range $index,$e := .Params.itinerary }}
         <hr class="hr-text" data-content="Day {{add $index 1 }}">
         <div class="containers">
-  {{- range $i,$v := .item }}
+      {{- range $i,$v := .item }}
           <div class="draggable" draggable="true" type="{{- if (eq $v.type "excursion") }}excursion{{- else if (eq $v.type "hotel") }}hotel{{- else if (eq $v.type "flight") }}flight{{- else if (eq $v.type "ferry") }}ferry{{- else if (eq $v.type "train") }}train{{- else if (eq $v.type "car-hire") }}car-hire{{- end }}" day={{ $index }} index={{ $i }} url="{{ .url }}">
 
             <div>
@@ -511,8 +520,8 @@ function changeCity(){
 
   if (city){
     displayCity(city);
-    //displayHotels(city);
-    //displayExcursions(city);
+    displayHotels(city);
+    displayExcursions(city);
     // displayCarHire(city);
     // displayFlights(city);
     // displayTrains(city);
@@ -574,27 +583,20 @@ function saveItinerary(){
       );
 };
 
-function displayCity(url){
+function displayCity(urldata){
 
-  const city = url.split("/")[(url.split("/")).length-2];
-  var path = host+url+"index.json";
-  docLoad({"url": path}).then(
+  const city = urldata.split("/")[(urldata.split("/")).length-2];
+  const path = host+urldata+"index.json";
+
+  docLoad({url: path}).then(
 
     function(response) {
 
-      const data   = JSON.parse(response);
-      const cities = data.data.items;
-
-      for(let i=0;i<cities.length;i++) {
-        if (cities[i].translationKey == city ){
-          var citydata = cities[i];
-        }
-      }
-      console.table(citydata);
-      const image = host+url+citydata.image;
+      const citydata = JSON.parse(response);
+      const image    = host+urldata+citydata.image;
       
       if (image){
-        document.getElementById("image").style.background=image;
+        document.getElementById("image").style.backgroundImage = 'url("'+image+'")';
       }
       document.getElementById("info").innerHTML = citydata.content;
     }, 

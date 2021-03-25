@@ -11,5 +11,7 @@ type: hotels
 tags:
   - Hotels
   - Hotel Rainbow
+categories:
+  - 23
 ---
 Hotel Rainbow provides the best accommodation in a city where there is little choice. It has air-cooled  and  airconditioned rooms, including two Presidential Suites!. There is a vegetarian restaurant.

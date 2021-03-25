@@ -11,5 +11,7 @@ type: hotels
 tags:
   - Hotels
   - Taj Mahal - Gomti Nagar
+categories:
+
 ---
 Lucknow's most luxurious hotel. The Taj Residency is set in 33 acres of lavish landscaped gardens on the banks of the river Gomti. The elegant rooms either overlook the blooming gardens or the swimming pool. There are three restaurants, including one serving authentic Awadhi cuisine.

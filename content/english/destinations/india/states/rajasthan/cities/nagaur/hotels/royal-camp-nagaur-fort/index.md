@@ -11,5 +11,7 @@ type: hotels
 tags:
   - Hotels
   - Royal Camp Nagaur Fort
+categories:
+
 ---
 Pitched within the fortifications of the splendid Nagaur Fort, the WelcomHeritage Royal Camp offers comfortable tents with electricity, running water, showers, twin beds, mosquito nets, attached bathrooms with basin and western-style toilet. There is a large dining tent. Your stay is on full board basis.

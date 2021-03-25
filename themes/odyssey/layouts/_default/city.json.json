@@ -1,0 +1,11 @@
+{{- define "response" }}
+{     
+  "test" : "layouts/_default/city.json",
+  "count" : "{{ len .Parent.Data.Pages }}"  
+  ,"items" : [
+  {{- range $i, $e := .Parent.Data.Pages }} 
+  {{ if $i }}, {{ end }}{{ .Render "item" }}
+  {{- end }}
+  ]
+}
+{{- end }} 

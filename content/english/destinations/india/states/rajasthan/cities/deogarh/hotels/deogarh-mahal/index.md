@@ -11,5 +11,6 @@ type: hotels
 tags:
   - Hotels
   - Deogarh Mahal
+category: Comfortable hotel
 ---
 One of Rajasthan's most spectacular palaces, Deogarh Mahal is a fabulous building of yellow ochre with ornate domes and white accents. The rooms are spread across the palace on different, maze-like levels. Many rooms have original furniture and some have exquisite frescoes and murals with mirrors. Beautiful handpicked fabrics enhance a feeling of quiet elegance. There is a well-designed swimming pool in its own secluded area.

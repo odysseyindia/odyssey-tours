@@ -177,7 +177,7 @@ app.post('/import',function (req, res) {
     const made = mkdirp.sync(mdfile);
 
      try {
-
+ 
       frontMatter                 = {};
       frontMatter.title           = array[2];
       frontMatter.translationKey  = organisation;
@@ -189,6 +189,7 @@ app.post('/import',function (req, res) {
       frontMatter.id              = 'hotel';
       frontMatter.type            = 'hotels';
       frontMatter.tags            = ['Hotels',array[2] ];
+      frontMatter.category        = array[8];
 
       let output = `---\n` 
       + yaml.safeDump(frontMatter) 

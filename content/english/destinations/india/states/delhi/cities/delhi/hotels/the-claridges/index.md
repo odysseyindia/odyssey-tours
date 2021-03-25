@@ -11,5 +11,6 @@ type: hotels
 tags:
   - Hotels
   - The Claridges
+category: Superior hotel
 ---
 A colonial building in a peaceful garden setting in the centre of Lutyens’ New Delhi. The lobby is light and airy whilst the air-conditioned rooms are spacious with all modern conveniences. There is a large swimming pool, a health club and a tennis court, and multiple, excellent restaurants. A pleasant superior hotel with old-world charm and a lovely location.

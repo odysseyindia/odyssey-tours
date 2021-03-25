@@ -11,5 +11,7 @@ type: hotels
 tags:
   - Hotels
   - Neemrana Fort Palace
+categories:
+
 ---
 An impeccably restored 15th century fort, the hotel is located at a lofty height, providing many a vantage point for dramatic views over the countryside. The palace structures cut into the hillside sprawl over three acres and rise to ten levels. The rooms are all individually named and decorated, with a different emphasis. They are full of character and are beautifully furnished with collectors' items. 

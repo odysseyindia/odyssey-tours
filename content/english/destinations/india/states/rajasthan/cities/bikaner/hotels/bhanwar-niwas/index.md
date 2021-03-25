@@ -11,5 +11,6 @@ type: hotels
 tags:
   - Hotels
   - Bhanwar Niwas
+category: Standard hotel
 ---
 A lovely pink sandstone haveli in the narrow winding streets of old Bikaner. Built in the early 20th century, the building is a fascinating combination of Indian and European styles with just a few large, richly furnished rooms, giving it a hushed, private feel. There are grand ceilings, stencils and friezes; the Blue Drawing room is in pale blue and gold leaf, the Grand Staircase in a riot of gold - you will be dazzled! 
