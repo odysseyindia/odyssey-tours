@@ -38,10 +38,14 @@
         <hr class="hr-text" data-content="Day {{add $index 1 }}">
         <div class="containers">
       {{- range $i,$v := .item }}
-          <div class="draggable" draggable="true" type="{{- if (eq $v.type "excursion") }}excursion{{- else if (eq $v.type "hotel") }}hotel{{- else if (eq $v.type "flight") }}flight{{- else if (eq $v.type "ferry") }}ferry{{- else if (eq $v.type "train") }}train{{- else if (eq $v.type "car-hire") }}car-hire{{- end }}" day={{ $index }} index={{ $i }} url="{{ .url }}">
+          <div class="draggable" draggable="true" type="{{- if (eq $v.type "city") }}city{{- else if (eq $v.type "excursion") }}excursion{{- else if (eq $v.type "hotel") }}hotel{{- else if (eq $v.type "flight") }}flight{{- else if (eq $v.type "ferry") }}ferry{{- else if (eq $v.type "train") }}train{{- else if (eq $v.type "car-hire") }}car-hire{{- end }}" day={{ $index }} index={{ $i }} url="{{ .url }}">
 
             <div>
-              {{- if (eq $v.type "excursion") }}
+              {{- $url :=  printf "%s%s" $v.url "index.md" }}
+              {{- if (eq $v.type "city") }}
+              <i class="icon-monument"></i>
+              {{- $url =  printf "%s%s" $v.url "_index.md" }}
+              {{- else if (eq $v.type "excursion") }}
               <i class="icon-camera"></i>
               {{- else if (eq $v.type "hotel") }}
               <i class="icon-bed"></i>
@@ -56,26 +60,29 @@
               {{- end }}
             </div>
             <div class="program">
-               {{- $url :=  printf "%s%s" $v.url "index.md" }}
-               {{- $content := $v.content | default "" }}
-               {{ $url }}<br>
+               {{- $content := $v.content | default " " }}
+
         {{- with $.Site.GetPage (string $url) }}
               <div>
-                <h4>{{ .Title }}, </h4>
+                <h4>{{ .Title }}</h4>
               </div>
               <div class="content">
                 <div class="image">
-           
+           {{ range first 1 (.Resources.ByType "image") }} 
                   <img class="lazyload" 
                   sizes="(min-width: 35em) 150px, 10vw"
-                  data-srcset="{{ .RelPermalink }}{{ .Params.image }} 150w"
-                  data-src="{{ .RelPermalink }}{{ .Params.image }}" alt="{{ .Title }}">
-           
+                  data-srcset="{{ .RelPermalink }} 150w"
+                  data-src="{{ .RelPermalink }}" alt="{{ substr .  0 -4 | replaceRE "[^a-z]" "-" | humanize }}">
+{{ end }}           
                 </div>
                 <div class="mr-10 content-text details1"> 
-                  {{ cond (gt (len $content) 0) $content .Content }}
+                  {{ cond (gt (len $content) 0) $content .Content }}&nbsp;
        
-                  {{- if (eq $v.type "excursion") }}
+                  {{- if (eq $v.type "city") }}
+                  <div class="rowdetails">
+                   
+                  </div>
+                  {{- else if (eq $v.type "excursion") }}
                   <div class="rowdetails">
                     <div>Date:  </div> 
                     <div class="details" attr="date" value="{{ $v.date }}">{{ with $v.date }} {{ dateFormat  "02-01-2006" . }} {{ end }}</div>
@@ -148,6 +155,10 @@
   {{- end }}
         </div>
 {{- end }}
+           
+        <hr class="hr-text" data-content="Day {{- add (len .Params.itinerary) 1 }}">
+        <div class="containers"> </div>
+
       </div>
 
       <div class="to-do-column">
@@ -164,6 +175,7 @@
               <option value="{{ .RelPermalink }}">{{ .Title }} </option>
               {{ end }}
             </select>
+            <i class="select icon icon-monument" onclick="addCity()"></i>
           </div>
         </div>
 
@@ -181,7 +193,7 @@
             <label for="excursions">Excursions</label>
             <select class="maxwidth" id="excursions" name="excursions">
             </select>
-            <i class="select icon icon-camera"  onclick="addExcursion()"></i>
+            <i class="select icon icon-camera" onclick="addExcursion()"></i>
           </div>
         </div>
 
@@ -263,6 +275,37 @@
           </div>
           <div>
             <button class="save" id="save-modal-accommodation">
+              <i class="icon-floppy"></i>
+              Save
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+ <div id="modal-city" class="modal">
+    <div class="modal-content">
+      <div class="container">
+        <div class="row">
+          <div id="modal-category-city"></div>
+          <div class="cancel close-modal-btn">
+            <i class="icon-cancel"></i>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input content" contenteditable="true">
+          </div>
+        </div>
+        <div class="row buttons">
+          <div>
+            <button class="default default-modal-btn">
+              <i class="icon-trash"></i>
+              Default
+            </button>
+          </div>
+          <div>
+            <button class="save" id="save-modal-city">
               <i class="icon-floppy"></i>
               Save
             </button>
@@ -544,7 +587,6 @@ function saveItinerary(){
       var obj = {};
       obj.type    = items[j].getAttribute("type");
       obj.url     = items[j].getAttribute("url");
-      let test = (items[j].getElementsByClassName('details1'))[0].childNodes[0].nextSibling.innerText;
       obj.content = (items[j].getElementsByClassName('details1'))[0].childNodes[0].nextSibling.innerText;
       let inputs  = items[j].getElementsByClassName('details');
 
@@ -553,6 +595,7 @@ function saveItinerary(){
         let value = inputs[k].getAttribute("value");
         obj[attr] = (value != null) ? new Date(value) : inputs[k].innerText ;
       };
+    
       details.push(obj);
     };
 
@@ -777,13 +820,27 @@ function displayTrains(city){
   );
 };
 
+function addCity(){
+
+  const source = document.querySelector("#cities");
+  const i      = source.selectedIndex;
+  const url    = source[i].value ;
+  const city   = source[i].innerHTML;
+  const html   = '<div class="draggable" draggable="true" type ="city" url="' + url + '"><i class="icon-monument"></i>&nbsp;' + city+'</div>';
+
+  if (i) {
+    document.getElementById("workspace").innerHTML += html;
+    draggable();
+  }
+};
+
 function addHotel(){
 
   const source = document.querySelector("#hotels");
   const i      = source.selectedIndex;
   const url    = source[i].value ;
   const hotel  = source[i].innerHTML;
-  var html   = '<div class="draggable" draggable="true" type ="hotel" url="' + url + '"><i class="icon-bed"></i>&nbsp;' + hotel+'</div>';
+  const html   = '<div class="draggable" draggable="true" type ="hotel" url="' + url + '"><i class="icon-bed"></i>&nbsp;' + hotel+'</div>';
 
   if (i) {
     document.getElementById("workspace").innerHTML += html;
@@ -935,7 +992,12 @@ function editItem(day,index,url,obj){
     }
   } 
   
-  if (url.includes("hotels")){
+  var count = (url.match(/\//g) || []).length;
+
+  if (count == 5 ){
+    icon  = "monument";
+    modal = document.getElementById("modal-city");
+  } else if (url.includes("hotels")){
     icon  = "bed";
     modal = document.getElementById("modal-accommodation");
   } else if (url.includes("excursions")){
@@ -970,7 +1032,7 @@ function editItem(day,index,url,obj){
   let content = obj.getElementsByClassName('content-text');
 
   rows[0].children[0].innerHTML = '<i class="icon-'+icon+'"></i>';
-  rows[1].children[0].innerText = content[0].childNodes[0].wholeText;
+  rows[1].children[0].innerText = content[0].childNodes[1].innerText;
   inputs[0].day   = day;
   inputs[0].index = index;
   inputs[0].url   = url;

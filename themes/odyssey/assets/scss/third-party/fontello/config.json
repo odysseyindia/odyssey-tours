@@ -285,7 +285,7 @@
     {
       "uid": "7f6916533c0842b6cec699fd773693d3",
       "css": "hourglass",
-      "code": 9203,
+      "code": 59413,
       "src": "entypo"
     },
     {
@@ -303,13 +303,13 @@
     {
       "uid": "44e04715aecbca7f266a17d5a7863c68",
       "css": "plus",
-      "code": 43,
+      "code": 59415,
       "src": "fontawesome"
     },
     {
       "uid": "297fe6c2ef08198b03d706ba52f51b7f",
       "css": "flight",
-      "code": 9992,
+      "code": 59416,
       "src": "fontawesome"
     },
     {
@@ -333,38 +333,44 @@
     {
       "uid": "5211af474d3a9848f67f945e2ccaf143",
       "css": "cancel",
-      "code": 10005,
+      "code": 59417,
       "src": "fontawesome"
     },
     {
       "uid": "a76bd0de8b24c94f7fe0e1f93c34e65f",
       "css": "backward",
-      "code": 57515,
+      "code": 59418,
       "src": "elusive"
     },
     {
       "uid": "86bf86dba2ca65051aa87794221fee1c",
       "css": "forward-1",
-      "code": 57491,
+      "code": 59419,
       "src": "elusive"
     },
     {
       "uid": "32eebd7bef491a0cbf9bc839e40d271c",
       "css": "forward-2",
-      "code": 10150,
+      "code": 59420,
       "src": "websymbols"
     },
     {
       "uid": "6059b7737287728091ce7e4c600cca56",
       "css": "edit-alt",
-      "code": 57581,
+      "code": 59421,
       "src": "elusive"
     },
     {
       "uid": "f4445feb55521283572ee88bc304f928",
       "css": "floppy",
-      "code": 128190,
+      "code": 59422,
       "src": "fontawesome"
+    },
+    {
+      "uid": "19d9ceb791d76257545e308954808fc1",
+      "css": "monument",
+      "code": 59431,
+      "src": "maki"
     }
   ]
 }

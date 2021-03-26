@@ -168,7 +168,12 @@ app.post('/import',function (req, res) {
     var city              = array[1];
         city              = city.trim().toString().replace(/ +/g,'-').toLowerCase();
     var organisation      = array[2];
-        organisation      = organisation.trim().toString().replace(/ +/g,'-').toLowerCase();
+        organisation      = organisation.trim()
+                                        .toString()
+                                        .replace(/ +/g,'-')
+                                        .toLowerCase()
+                                        .replace(/'+/g,'')
+                                        .replace(/&+/g,'and');
 
     var mdfile = dir+'/destinations/india/states/'+state+'/cities/'+city+'/hotels/'+organisation+'/';
 
