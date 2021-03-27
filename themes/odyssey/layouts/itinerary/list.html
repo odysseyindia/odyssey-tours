@@ -68,19 +68,17 @@
               </div>
               <div class="content">
                 <div class="image">
-           {{ range first 1 (.Resources.ByType "image") }} 
+                {{- range first 1 (.Resources.ByType "image") }} 
                   <img class="lazyload" 
                   sizes="(min-width: 35em) 150px, 10vw"
                   data-srcset="{{ .RelPermalink }} 150w"
                   data-src="{{ .RelPermalink }}" alt="{{ substr .  0 -4 | replaceRE "[^a-z]" "-" | humanize }}">
-{{ end }}           
+                {{- end }}           
                 </div>
                 <div class="mr-10 content-text details1"> 
-                  {{ cond (gt (len $content) 0) $content .Content }}&nbsp;
-       
+                  {{ if gt (len .Content) 0 }} {{ .Content }}{{ else }}<p></p>{{ end }}
                   {{- if (eq $v.type "city") }}
-                  <div class="rowdetails">
-                   
+                  <div class="rowdetails"> 
                   </div>
                   {{- else if (eq $v.type "excursion") }}
                   <div class="rowdetails">
