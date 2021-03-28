@@ -356,34 +356,39 @@ app.post('/import',function (req, res) {
 
 app.post('/ajax',function (req, res) {
 
- var request = JSON.parse(req.body.data);
- var file    = dir + request.file + '_index.md';
-console.log('Reading '+file);
- try {
-   var fileContents = fs.readFileSync(file, 'utf8', (err) => {       
+  var request = JSON.parse(req.body.data);
+  var file    = dir + request.file + '_index.md';
+  console.log('Reading '+file);
+
+  try {
+    var fileContents = fs.readFileSync(file, 'utf8', (err) => {       
+      if (err) throw err; 
+    }) 
+  } 
+  catch (error) {
+    console.log('Route ajax reading: ' + error.message);
+  } 
+
+  try {
+  
+    let contents = fileContents.split("---");
+    let data = yaml.safeLoadAll(contents[1]);
+
+    data[0].itinerary =  request.data;
+
+    let output = `---\n` 
+    + yaml.safeDump(data[0]) 
+    + "---\n" 
+    + contents[2];
+
+    fs.writeFileSync(file, output, 'utf8', (err) => {       
      if (err) throw err; 
    }) 
- } catch (error) {
-   console.log('Route /ajax reading: ' + error.message);
- } 
-
- try {
-  let data = yaml.safeLoadAll(fileContents);
-
-  data[0].itinerary =  request.data;
-
-  let output = `---\n` 
-  + yaml.safeDump(data[0]) 
-  + "---\n" 
-  + data[1]
-
-  fs.writeFileSync(file, output, 'utf8', (err) => {       
-   if (err) throw err; 
- }) 
-} catch (error) {
-  console.log('Route /ajax writing: ' + error.message);
-} 
-res.end();
+  } 
+  catch (error) {
+    console.log('Route ajax writing: ' + error.message);
+  } 
+  res.end();
 });
 
 
