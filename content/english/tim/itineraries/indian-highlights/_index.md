@@ -12,16 +12,18 @@ itinerary:
           convenient for driving straight to Jaipur the next day.
         date: null
         etd: null
-        duration: null
+        duration: ''
       - type: hotel
         url: >-
           /destinations/india/states/delhi/cities/delhi/hotels/holiday-inn-aerocity/
         content: >-
           For a comfortable stay before for after a long flight, the Holiday Inn
-          at Aerocity, close to Delhi's International Airport, is ideal. The
-          rooms are large, modern, and, most important of all, quiet. There is a
-          swimming pool, a large restaurant with abundant buffets, a bar, and a
-          speciality Italian restaurant.
+          at Aerocity, close to Delhi’s International Airport, is ideal.
+
+
+          The rooms are large, modern, and, most important of all, quiet. There
+          is a swimming pool, a large restaurant with abundant buffets, a bar,
+          and a speciality Italian restaurant.
         checkInDate: null
         checkInTime: null
         checkOutDate: null
@@ -47,7 +49,7 @@ itinerary:
           just behind the bus station, Dera Rawatsar lies in a quiet, leafy
           lane. Within its walls are small courtyards and terraces, lawns and
           secluded corners. The well-decorated and traditionally-furnished rooms
-          are all different. Meals, drinks and snacks are served in the family's
+          are all different. Meals, drinks and snacks are served in the family’s
           dining room or the outdoor courtyard. There is also a small swimming
           pool.
         checkInDate: null
@@ -80,11 +82,11 @@ itinerary:
           magnificent complex of palaces, halls, pavilions, gardens and temples
           built over 125 years. There are excellent views down over the old town
           of Amer, and up to the Jaigarh and Nahargarh Forts higher in the
-          hills. The rest of your day is at leisure to explore Jaipur's lovely
+          hills. The rest of your day is at leisure to explore Jaipur’s lovely
           markets on your own.
         date: null
         etd: null
-        duration: null
+        duration: ''
   - day: 3
     item:
       - type: city
@@ -111,7 +113,7 @@ itinerary:
         content: >-
           The best time of day to appreciate this stunning monument is as soon
           as the Taj Mahal opens, when it is at its quietest and most serene.
-          You can enjoy the gardens, the mausoleum and the mosque. Don't miss
+          You can enjoy the gardens, the mausoleum and the mosque. Don’t miss
           the marble inlay work and the various vantage points offered
           throughout the peaceful gardens. You can carry mobile phones, cameras,
           a water bottle and valuables inside, but all other items must be
@@ -128,7 +130,7 @@ itinerary:
         content: >-
           Agra has much to offer besides the Taj Mahal, such as Agra Fort, a
           masterpiece of design and construction. You then visit
-          Itimad-ud-Daulah's tomb - better known as the Baby Taj, which also
+          Itimad-ud-Daulah’s tomb - better known as the Baby Taj, which also
           features the same marble inlay work as the Taj Mahal. Finally you will
           visit Mehtab Bagh, a formally laid-out Mughal garden that offers
           stupendous views of the Taj Mahal, especially in the late afternoon.
@@ -139,15 +141,29 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/delhi/cities/delhi/
-        content: >
-          Today, you drive back to Delhi along the Yamuna Expressway, which should take about 4 hours. The rest of your day is at leisure, to either rest or to explore on your own.
+        content: >-
+          Today, you drive back to Delhi along the Yamuna Expressway, which
+          should take about 4 hours. The rest of your day is at leisure, to
+          either rest or to explore on your own.
 
-          Delhi is practically two cities: New Delhi, the capital of India, and medieval Old Delhi. The old city centres around the Red Fort, which contains opulent palaces and impressive public buildings. Nearby is the magnificent Jama Masjid, India's largest mosque. In New Delhi you can find India Gate - a war memorial arch, the impressive Parliament Building and Rashtrapati Bhawan, the residence of the President. Towards the South are Qutab Minar and Humayun's Tomb, both World
+
+          Delhi is practically two cities: New Delhi, the capital of India, and
+          medieval Old Delhi. The old city centres around the Red Fort, which
+          contains opulent palaces and impressive public buildings. Nearby is
+          the magnificent Jama Masjid, India’s largest mosque. In New Delhi you
+          can find India Gate - a war memorial arch, the impressive Parliament
+          Building and Rashtrapati Bhawan, the residence of the President.
+          Towards the South are Qutab Minar and Humayun’s Tomb, both World
           Heritage Sites.
       - type: hotel
         url: /destinations/india/states/delhi/cities/delhi/hotels/colonels-retreat/
         content: >-
-          Colonel's Retreat is a pleasant and homely guest house in the upmarket, tree-lined neighborhood of Defence Colony. The large rooms are comfortable and artistically furnished. Each floor boasts a lovely lounge area with comfortable sofas for relaxing, books to read and borrow, and computers. A private rooftop dining area gives you a lovely view of the city.
+          Colonel’s Retreat is a pleasant and homely guest house in the
+          upmarket, tree-lined neighborhood of Defence Colony. The large rooms
+          are comfortable and artistically furnished. Each floor boasts a lovely
+          lounge area with comfortable sofas for relaxing, books to read and
+          borrow, and computers. A private rooftop dining area gives you a
+          lovely view of the city.
         checkInDate: null
         checkInTime: null
         checkOutDate: null
@@ -158,8 +174,14 @@ itinerary:
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/half-day-tour-of-old-delhi-by-metro-and-rickshaw/
         content: >-
-          A half-day tour to Old Delhi using the modern Metro and the traditional cycle rickshaw. The Metro brings you to the heart of Old Delhi in just a few minutes, to visit the magnificent Jama Masjid mosque, India's largest. You then use walk and ride cycle rickshaws through the fascinating maze of narrow streets around the main street
-          of Old Delhi, Chandni Chowk, a bustling jumble of craft shops, traders, mosques and temples.
+          A half-day tour to Old Delhi using the modern Metro and the
+          traditional cycle rickshaw. The Metro brings you to the heart of Old
+          Delhi in just a few minutes, to visit the magnificent Jama Masjid
+          mosque, India’s largest. You then use walk and ride cycle rickshaws
+          through the fascinating maze of narrow streets around the main street
+          of Old Delhi, Chandni Chowk, a bustling jumble of craft shops,
+          traders, mosques and temples.
+
 
           At one end of this street is the huge Red Fort, the symbol of Delhi,
           which contains within it palaces and impressive public buildings.
@@ -171,12 +193,13 @@ itinerary:
           offers great views over Old Delhi. You can also visit the bustling and
           colourful Sikh Gurdwara.
 
-          The rest of your day is at leisure. If you'd like to go shopping or
+
+          The rest of your day is at leisure. If you’d like to go shopping or
           explore a bit more after the tour, you can take the Metro to vibrant
           Connaught Place to enjoy the many restaurants and more modern shops.
         date: null
         etd: null
-        duration: null
+        duration: ''
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-hotel-to-international-airport/
@@ -185,11 +208,13 @@ itinerary:
           catch your onward flight.
         date: null
         etd: null
-        duration: null
+        duration: ''
 type: itinerary
 tour: indian highlights
 title: Indian Highlights
 ---
+
+
 
 The ideal itinerary for anyone wanting to see the best of India in a week. The magical Golden Triangle in India is one of the country's most popular tourist circuits. Comprising Delhi, Agra and Jaipur, it gets its name from the triangle that these cities form. Roughly equidistant in northern India, the cities provide a classic and unforgettable introduction to the country and its charms. 
 

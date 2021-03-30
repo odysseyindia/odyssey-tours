@@ -77,12 +77,24 @@
                 {{- end }}           
                 </div>
                 <div class="mr-10 content-text details1"> 
-                  <div class="details2">
-                    {{- if gt (len $v.content) 0 }}{{ $v.content }}
+                  <div class="content-details">
+                    {{- if gt (len $v.content) 0 }}
+
+{{ if in (string $v.content) "\n\n" }}
+  {{ $v.content | markdownify }}
+{{ else }}
+  <p>{{ $v.content | markdownify }}</p>
+{{ end }}
+
                     {{- else if gt (len .Content) 0}}
-                    {{ .Content }}
-                    {{- else }}
-                    <p></p>
+
+{{ if in (string $v.content) "\n\n" }}
+  {{ .Content | markdownify }}
+{{ else }}
+  <p>{{ .Content | markdownify }}</p>
+{{ end }}
+
+                    {{- else }}<p></p>
                     {{- end }}
                   </div>
                   {{- if (eq $v.type "city") }}
@@ -267,8 +279,9 @@
           </div>
         </div>
         <div class="row">
-          <div class="input content" contenteditable="true">
-          </div>
+          <form>
+            <textarea class="content"></textarea>
+          </form>
         </div>
         {{ partial "modal-accommodation.html" . }}
         <div class="row buttons">
@@ -299,8 +312,9 @@
           </div>
         </div>
         <div class="row">
-          <div class="input content" contenteditable="true">
-          </div>
+          <form>
+            <textarea class="content"></textarea>
+          </form>
         </div>
         {{ partial "modal-city.html" . }}
         <div class="row buttons">
@@ -331,8 +345,9 @@
           </div>
         </div>
         <div class="row">
-          <div class="input content" contenteditable="true">
-          </div>
+          <form>
+            <textarea class="content"></textarea>
+          </form>
         </div>
         {{ partial "modal-excursions.html" . }}
         <div class="row buttons">
@@ -363,8 +378,9 @@
           </div>
         </div>
         <div class="row">
-          <div class="input content" contenteditable="true">
-          </div>
+           <form>
+            <textarea class="content"></textarea>
+          </form>
         </div>
         {{ partial "modal-car-hire.html" . }}
         <div class="row buttons">
@@ -395,8 +411,9 @@
           </div>
         </div>
         <div class="row">
-          <div class="input content" contenteditable="true">
-          </div>
+           <form>
+            <textarea class="content"></textarea>
+          </form>
         </div>
         {{ partial "modal-flights.html" . }}
         <div class="row buttons">
@@ -423,7 +440,6 @@
 {{- define "postscript" }}
 
 <script>
-
   const source = document.querySelector("#cities");
   const city   = source[source.selectedIndex].value ;
   var   host   = window.location.href.split("/");
@@ -491,19 +507,16 @@ for(var i = 0; i < clickEdit.length; i++) {
 
 document.getElementById("save-modal-accommodation").addEventListener("click", function(){
 
-  var elements = document.getElementById("modal-accommodation");
-  var inputs   = elements.getElementsByClassName('input');
-  var url      = inputs[0].url;
-  var day      = inputs[0].day;
-  var index    = inputs[0].index;
-
-  let days = document.getElementById('myItinerary').getElementsByClassName('containers');
+  const elements = document.getElementById("modal-accommodation");
+  const inputs   = elements.getElementsByClassName('input');
+  const index    = inputs[0].index;
+  const days     = document.getElementById('myItinerary').getElementsByClassName('containers');
+  const items    = days[ inputs[0].day ].getElementsByClassName('draggable');
+  var   data     = items[index].getElementsByClassName('details');
   
-  var items = days[day].getElementsByClassName('draggable');
-  var data  = items[index].getElementsByClassName('details');
-  
-  var content  = items[index].getElementsByClassName('details2');
-  content[0].innerText = inputs[0].innerText;
+  const modalContent   = elements.getElementsByClassName('content');
+  var content          = items[index].getElementsByClassName('content-details');
+  content[0].innerHTML = "<p>"+modalContent[0].value.replace(/\n\n/g, "</p><p>")+"</p>";
 
   data[0].setAttribute("value", inputs.checkInDate.value ) ; 
   data[1].setAttribute("value", inputs.checkInTime.value ) ;
@@ -519,17 +532,16 @@ document.getElementById("save-modal-accommodation").addEventListener("click", fu
 
 document.getElementById("save-modal-excursions").addEventListener("click", function(){
 
-  var elements = document.getElementById("modal-excursions");
-  var inputs   = elements.getElementsByClassName('input');
-  var url      = inputs[0].url;
-  var day      = inputs[0].day;
-  var index    = inputs[0].index;
-  let days     = document.getElementById('myItinerary').getElementsByClassName('containers');
-  var items    = days[day].getElementsByClassName('draggable');
-  var data     = items[index].getElementsByClassName('details');
+  const elements = document.getElementById("modal-excursions");
+  const inputs   = elements.getElementsByClassName('input');
+  const index    = inputs[0].index;
+  const days     = document.getElementById('myItinerary').getElementsByClassName('containers');
+  const items    = days[ inputs[0].day ].getElementsByClassName('draggable');
+  var   data     = items[index].getElementsByClassName('details');
  
-  var content  = items[index].getElementsByClassName('details2');
-  content[0].innerText = inputs[0].innerText;
+  const modalContent   = elements.getElementsByClassName('content');
+  var content          = items[index].getElementsByClassName('content-details');
+  content[0].innerHTML = "<p>"+modalContent[0].value.replace(/\n\n/g, "</p><p>")+"</p>";
 
   data[0].setAttribute("value", inputs.excursionDate.value ) ; 
   data[1].setAttribute("value", inputs.excursionEtd.value ) ;
@@ -543,15 +555,15 @@ document.getElementById("save-modal-excursions").addEventListener("click", funct
 
 document.getElementById("save-modal-city").addEventListener("click", function(){
 
-  var elements = document.getElementById("modal-city");
-  var inputs   = elements.getElementsByClassName('input');
-  var url      = inputs[0].url;
-  var day      = inputs[0].day;
-  var index    = inputs[0].index;
-  let days     = document.getElementById('myItinerary').getElementsByClassName('containers');
-  var items    = days[day].getElementsByClassName('draggable');
-  var content  = items[index].getElementsByClassName('details2');
-  content[0].innerText = inputs[0].innerText;
+  const elements = document.getElementById("modal-city");
+  const inputs   = elements.getElementsByClassName('input');
+  const index    = inputs[0].index;
+  const days     = document.getElementById('myItinerary').getElementsByClassName('containers');
+  const items    = days[ inputs[0].day ].getElementsByClassName('draggable');
+ 
+  const modalContent   = elements.getElementsByClassName('content');
+  var content          = items[index].getElementsByClassName('content-details');
+  content[0].innerHTML = "<p>"+modalContent[0].value.replace(/\n\n/g, "</p><p>")+"</p>";
   
   document.getElementById("modal-city").style.display = "none";
 });
@@ -636,7 +648,7 @@ function saveItinerary(){
       var obj = {};
       obj.type    = items[j].getAttribute("type");
       obj.url     = items[j].getAttribute("url");
-      obj.content = (items[j].getElementsByClassName('details2'))[0].innerText;
+      obj.content = (items[j].getElementsByClassName('content-text'))[0].innerText;
       let inputs  = items[j].getElementsByClassName('details');
 
       for(let k=0;k<inputs.length;k++) {
@@ -1033,6 +1045,7 @@ function processRequest(url){
     );
 }
 
+
 function editItem(day,index,url,obj){
 
   var icon;
@@ -1078,12 +1091,19 @@ function editItem(day,index,url,obj){
     defaultBtn.style.display = "none"
   }
 
-  let inputs  = modal.getElementsByClassName('input');
-  let rows    = modal.getElementsByClassName('row');
-  let content = obj.getElementsByClassName('content-text');
+  let inputs       = modal.getElementsByClassName('input');
+  let modalContent = modal.getElementsByClassName('content');
+  let rows         = modal.getElementsByClassName('row');
+  let content      = obj.getElementsByClassName('content-details');
 
   rows[0].children[0].innerHTML = '<i class="icon-'+icon+'"></i>';
-  rows[1].children[0].innerText = content[0].childNodes[1].innerText;
+
+  modalContent[0].innerHTML = content[0].innerText;
+  rows[1].children[0].style.height = 'auto';
+
+  const height = rows[1].children[0].scrollHeight;
+  rows[1].children[0].style.height = height + 'px';
+
   inputs[0].day   = day;
   inputs[0].index = index;
   inputs[0].url   = url;
@@ -1092,7 +1112,7 @@ function editItem(day,index,url,obj){
 
   for(let i=0;i<inputs.length;i++) {
     if (data[i]) {
-      inputs[(i+1)].value = data[i].innerText;
+      inputs[(i)].value = data[i].innerText;
     }
   } 
 };

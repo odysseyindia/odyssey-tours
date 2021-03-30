@@ -1,7 +1,9 @@
 #itinerary {
 
   textarea {
-    width: 100%;
+    white-space: pre-line;
+    white-space: pre-wrap;
+    height: 100px;
   }
 
   .rowdetails {
@@ -39,6 +41,11 @@
   select {
     height: 40px;
     overflow: hidden;
+  }
+
+  
+  form {
+    width: 100%;
   }
 
   .maxwidth  {
@@ -411,4 +418,7 @@ input {
     }
   }
 
+  #modal-city .details{
+    visibility: hidden;
+  }
 }
