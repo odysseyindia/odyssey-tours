@@ -104,7 +104,7 @@
           <i class="icon-search"></i>
           <input class="input-field" type="text" list="datalist" placeholder="Search" onkeyup="ac(this.value)"> 
           <datalist id="datalist"> 
-            {{- range (where (where .Site.Pages "Section" "tim") ".Params.id" "itinerary") }}
+            {{- range (where (where .Site.Pages "Section" "tim") ".Params.type" "itinerary") }}
             <option value="{{.RelPermalink}}">{{.Title}}</option> 
             {{- end }}
           </datalist> 
@@ -122,7 +122,7 @@
         <div class="item-icon"></div>
       </div>
       <div class="wrapper">
-        {{- range $i,$e := (where (where .Site.Pages "Section" "tim") ".Params.id" "itinerary") }}
+        {{- range $i,$e := (where (where .Site.Pages "Section" "tim") ".Params.type" "itinerary") }}
 
         <div class="booking {{if not (modBool $i 2)}}odd{{end}}" tabindex="-1" id="data-{{ $i }}" type="" >
           <div class="table">
@@ -371,10 +371,9 @@
 <script>
   /* search script */
   var tags = [
-
-  {{- range (where (where .Site.Pages "Section" "tim") ".Params.id" "itinerary") }}
-  "{{ .Title }}", 
-  {{- end }}
+    {{- range (where (where .Site.Pages "Section" "tim") ".Params.type" "itinerary") }}
+    "{{ .Title }}", 
+    {{- end }}
   ];
 
   var n= tags.length;     
@@ -479,8 +478,7 @@
   });
 
   document.getElementById("edit").onclick = function() {
-    window.location.href =  "/tim/itineraries/"
-    + document.getElementById("url").innerHTML 
+    window.location.href =  "/tim/itineraries/"+ document.getElementById("url").innerHTML 
   }
 
   document.getElementById("preview").onclick = function() {
@@ -572,9 +570,6 @@ document.getElementById("save-modal-btn")
   var title = document.getElementById("content2").children[1].children[0].value;
   var tour  = document.getElementById("content2").children[3].children[0].value;
 
-alert(title);
-alert(tour);
-
   docLoad({
         url:    'create',
         method: 'POST',  
@@ -638,12 +633,16 @@ alert(tour);
     docLoad({url: "/tim/itineraries/index.json"}).then(
       function(response){
 
+  console.table(response);
+
         const data  = JSON.parse(response);
         const items = data.data.items
 
         for(let i=0;i<items.length;i++) {
           if (items[i].permalink == permalink ){
             let myData = items[i]
+
+
 
             document.getElementById("name").value       = myData.title
             document.getElementById("arrdate").value    = myData.arrdate

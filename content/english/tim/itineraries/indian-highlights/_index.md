@@ -1,5 +1,15 @@
 ---
-id: itinerary
+title: Indian Highlights
+subtitle: Delhi, Agra, Jaipur
+weight: 101
+translationKey: indian-highlights
+days: 7
+tourStart: New Delhi
+tourEnd: New Delhi 
+bestTime: October-March
+price:
+type: itinerary
+tour: indian highlights
 itinerary:
   - day: 0
     item:
@@ -209,9 +219,7 @@ itinerary:
         date: null
         etd: null
         duration: ''
-type: itinerary
-tour: indian highlights
-title: Indian Highlights
+
 ---
 
 

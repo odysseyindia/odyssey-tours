@@ -1,5 +1,13 @@
 ---
-id: itinerary
+title: Alfred Tuinman
+tour: Delhi Agra Jaipur
+type: itinerary
+arrdate: 2020-02-03T14:15:59-06:00
+depdate: 2020-02-23T14:15:59-06:00
+status: confirmed
+archived: false
+stage: proposal
+consultant: phil
 itinerary:
   - day: 0
     item:
@@ -72,8 +80,6 @@ itinerary:
         checkInTime: null
         checkOutDate: null
         checkOutTime: null
-title: Alfred Tuinman
-tour: Delhi Agra Jaipur
-type: itinerary
+
 ---
 Notes about this booking

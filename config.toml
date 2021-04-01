@@ -93,7 +93,7 @@ taxonomy                = ["html","json"]
     name = "Itineraries"
     parent = "tim"
     pre = "tim"
-    url = "/tim/itineraries"
+    url = "/tim"
     weight = 11
   [[Languages.en.menu.main]]
     name = "Geo Locator"
@@ -188,3 +188,7 @@ taxonomy                = ["html","json"]
     url = "/contact/contact-us/"
     weight = 80
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

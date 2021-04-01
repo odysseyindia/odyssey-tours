@@ -411,9 +411,9 @@ app.post('/create',function (req, res) {
   var request = JSON.parse(req.body.data);
   var tour    = request.tour;
   var title   = request.title;
-  var folder  = tour.replace(/ /g,'-');
-  var file    = dir + "/tim/itineraries/" + folder + '/_index.md';
-  let output  = "---\nid: itinerary\nitinerary: \ntype: itinerary\ntour: "+tour+"\ntitle: "+title+ "\n---\n" ;
+  var folder  = tour.replace(/ /g,'-').replace(/&/g,'and').toLowerCase();
+  var file    = dir + "/tim/itineraries/" + folder + '/_index.md'; 
+  let output  = "---\ntitle: "+title+ "\ntranslationKey: "+folder+"\ntype: itinerary\ntour: "+tour+"\nitinerary: \n  - day: 0\n---\n" ;
 
   // console.log("file " ,file);
 

@@ -2,12 +2,12 @@
 {{- .Scratch.Set "layout" "layouts/tour/list.html" -}}
 
 <section id="{{ .Scratch.Get "id" | lower }}"> 
-  {{ partial "heading.html" . }}
+  {{ partial "heading.html" . }} 
   <div class="container">
     <div class="row">
       <div class="col-sm-3 col-md-3 border">
         <div class="color">Duration</div>
-        <div>{{ .Params.days }} days</div>
+        <div>{{- len .Params.itinerary }} days</div>
       </div>
       <div class="col-sm-3 col-md-3 border">
         <div class="color">Price from</div>
@@ -63,12 +63,18 @@
           {{"<!-- Question -->" | safeHTML }}
 <div id="accordion" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
 
-{{- range $i,$e := sort .Data.Pages "File.Path" }}
+{{- $nighthalt := "" }}
+{{- range $i,$e := .Params.itinerary }}
   <div class="card">
     <div class="card-header" id="heading{{$i}}">
       <h5 class="mb-0">
         <button class="btn btn-link" data-toggle="collapse" data-target="#collapse{{$i}}" aria-expanded="true" aria-controls="collapse{{$i}}">
-          <h4 itemprop="name">Day {{ add $i 1 }}, {{ .Title }}</h4>
+          <h4 itemprop="name">Day {{ add $i 1 }}
+      {{- range $j, $element := $e.item }}
+      {{- if (eq .type "hotel") }}{{ $nighthalt = index (split .url "/" ) 6 | humanize }}{{- end}}
+      {{- end }}
+      {{ if eq (add $i 1) (len $.Params.itinerary)}}, Departure{{ else }} , {{ $nighthalt }}{{ end }}
+          </h4>
         </button>
       </h5>
     </div>
@@ -76,7 +82,52 @@
       <div class="card-body">
         <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
           <div itemprop="text" class="left">
-            {{ .Content }}
+            {{- range $j, $element := $e.item }}
+              {{- if eq .type "hotel" }}
+                <h3>Suggested hotel: 
+                {{- with ($.Site.GetPage (printf "%s%s" .url "index.md")) }}
+                  {{.Title}}
+                {{- end }}
+                </h3>
+              {{- end }}
+              <p>{{ .content }}</p>
+
+              {{- if eq .type "city" }}
+                {{- range ( where ( where $.Site.RegularPages "Section" "destinations") ".RelPermalink" .url) }}                
+                {{- range first 1 (.Resources.ByType "image") }} 
+                    <img class="lazyload" 
+                    sizes="(min-width: 35em) 150px, 10vw"
+                    data-srcset="{{ .RelPermalink }} 150w"
+                    data-src="{{ .RelPermalink }}" alt="{{ substr .  0 -4 | replaceRE "[^a-z]" "-" | humanize }}">
+                {{- end }}
+                {{- end }}
+              {{- else }}
+                <div class="image-box">
+                  {{- $range := ( where ( where $.Site.RegularPages "Section" "destinations") ".RelPermalink" .url) }}  
+                  {{- range $range }}
+                  {{- range $index, $e := first 5 (.Resources.ByType "image") }}
+                    {{- if eq $index 0 }} 
+                    <div class="main-image"> 
+                        <img src="{{.RelPermalink}}">
+                    </div>
+                    {{- end }}
+                  {{- end }}
+                  {{- end }}
+                  <div class="image-box-red">
+                  {{- range $range }}  
+                  {{- range  $index, $e := first 5 (.Resources.ByType "image") }}
+                    {{- if ne $index 0 }}     
+                    <div>
+                        <img src="{{.RelPermalink}}">
+                    </div>
+                    {{- end }}
+                  {{- end }}
+                  {{- end }}
+                  </div>
+                </div>
+              {{- end }}
+              {{- if ne $j (sub (len $e.item) 1) }} <hr>{{ end }}
+            {{- end }}
           </div>
         </div>
       </div>
