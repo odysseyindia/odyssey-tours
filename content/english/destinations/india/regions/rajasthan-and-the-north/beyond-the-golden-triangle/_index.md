@@ -207,7 +207,7 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/rajasthan/cities/sawai-madhopur/excursions/jeep-safari-in-ranthambhore-n.p/
+          /destinations/india/states/rajasthan/cities/sawai-madhopur/excursions/jeep-safari-in-ranthambhore-np/
         content: >-
           Ranthambore National Park is one of the best places in India in which
           to see a tiger in the wild. The varied landscapes within the park are
