@@ -10,6 +10,17 @@ const port        = 1314;
 const root        = "/home/alfred/webapps/odyssey-tours/"
 const dir         = root+"content/english";
 
+function urlize(url){
+
+  data = url.trim()
+     .toString()
+     .toLowerCase()
+     .replace(/[&\/\\@_#, +()$%.'":*?<>{}]/g, '-')
+     .replace(/[-]+/g, '-');
+
+  return data;
+}
+
 app.use(express.json());
 app.use(cors());
 app.use(bodyParser.json());
@@ -63,13 +74,12 @@ app.post('/import',function (req, res) {
     // console.log(array);
 
     if ( request.file == 'cities.csv'){
-    var city   = array[0];
-        city   = city.trim().toString().replace(/ +/g,'-').toLowerCase();
+    var city   = urlize(array[0]);
     var state  = array[6];
 
     if (typeof state === "undefined") throw "state for "+city+" is undefined";
 
-    state = state.replace(/ +/g,'-').toLowerCase(); 
+    state = urlize(state); 
 
     var mdfile = dir+'/destinations/india/states/'+state+'/cities/'+city+'/';
 
@@ -84,7 +94,7 @@ app.post('/import',function (req, res) {
       var web = Number(array[5]) || 0;
       var nighthalt = Number(array[7]) || 0;
 
-      city,writeup,DefaultDays,Longitude,Latitude,Display,state,nighthalt
+      // city,writeup,DefaultDays,Longitude,Latitude,Display,state,nighthalt
 
       frontMatter.title           = array[0];
       frontMatter.translationKey  = city;
@@ -100,7 +110,7 @@ app.post('/import',function (req, res) {
       let output = `---\n` 
       + yaml.safeDump(frontMatter) 
       + "---\n" 
-      + array[1]
+      + array[1].replace(/[`]/g, "'");
 
       var test = yaml.safeDump( frontMatter );
       if (typeof test === "undefined"){
@@ -118,8 +128,7 @@ app.post('/import',function (req, res) {
 
   } else if ( request.file == 'states.csv') {
 
-    var state     = array[0];
-        state     = state.trim().toString().replace(/ +/g,'-').toLowerCase();
+    var state     = urlize(array[0]);
     var oneliner  = array[1];
     var writeup   = array[2];
     var states_id = array[3];
@@ -148,7 +157,7 @@ app.post('/import',function (req, res) {
       let output = `---\n` 
       + yaml.safeDump(frontMatter) 
       + "---\n" 
-      + (array[2] == 'NULL' ? '' : array[2]);
+      + (array[2] == 'NULL' ? '' : array[2].replace(/[`]/g, "'"));
 
       // console.table( output );
       fs.writeFileSync(mdfile+'_index.md', output, 'utf8', (err) => {       
@@ -163,17 +172,9 @@ app.post('/import',function (req, res) {
 
    // state city  organisation  addressbook_id  postalcode  description starcategories_id rooms
 
-    var state             = array[0];
-        state             = state.trim().toString().replace(/ +/g,'-').toLowerCase();
-    var city              = array[1];
-        city              = city.trim().toString().replace(/ +/g,'-').toLowerCase();
-    var organisation      = array[2];
-        organisation      = organisation.trim()
-                                        .toString()
-                                        .replace(/ +/g,'-')
-                                        .toLowerCase()
-                                        .replace(/'+/g,'')
-                                        .replace(/&+/g,'and');
+    var state             = urlize(array[0]);
+    var city              = urlize(array[1]);
+    var organisation      = urlize(array[2]);
 
     var mdfile = dir+'/destinations/india/states/'+state+'/cities/'+city+'/hotels/'+organisation+'/';
 
@@ -199,7 +200,7 @@ app.post('/import',function (req, res) {
       let output = `---\n` 
       + yaml.safeDump(frontMatter) 
       + "---\n" 
-      + (array[5] == 'NULL' ? '' : array[5]);
+      + (array[5] == 'NULL' ? '' : array[5].replace(/[`]/g, "'"));
 
       // console.table( output );
       fs.writeFileSync(mdfile+'index.md', output, 'utf8', (err) => {       
@@ -213,13 +214,9 @@ app.post('/import',function (req, res) {
 
    // state  city  description duration  starttime transfer  transfercode  active  daysofoperation city  to_cities_id  owntransport  guide
 
-    var state             = array[0];
-        state             = state.trim().toString().replace(/ +/g,'-').toLowerCase();
-    var city              = array[1];
-        city              = city.trim().toString().replace(/ +/g,'-').toLowerCase();
-    var description       = array[2];
-        description       = description.trim().toString().replace(/ +/g,'-').toLowerCase();
-        description       = description.replace(/&+/g,'and').replace(/'+/g,'').replace(/,+/g,'');
+    var state             = urlize(array[0]);
+    var city              = urlize(array[1]);
+    var description       = urlize(array[2]);
 
     var mdfile = dir+'/destinations/india/states/'+state+'/cities/'+city+'/excursions/'+description+'/';
 
@@ -230,7 +227,7 @@ app.post('/import',function (req, res) {
      try {
 
       var web = Number(array[7]) || 0;
-      var writeup = array[13].trim().toString();
+      var writeup = array[13].trim().toString().replace(/[`]/g, "'");
 
       frontMatter                 = {};
       frontMatter.title           = array[2];
@@ -379,7 +376,7 @@ app.post('/ajax',function (req, res) {
     let output = `---\n` 
     + yaml.safeDump(data[0]) 
     + "---\n" 
-    + contents[2];
+    + contents[2].replace(/[`]/g, "'");
 
     fs.writeFileSync(file, output, 'utf8', (err) => {       
      if (err) throw err; 
@@ -411,7 +408,7 @@ app.post('/create',function (req, res) {
   var request = JSON.parse(req.body.data);
   var tour    = request.tour;
   var title   = request.title;
-  var folder  = tour.replace(/ /g,'-').replace(/&/g,'and').toLowerCase();
+  var folder  = urlize(tour);
   var file    = dir + "/tim/itineraries/" + folder + '/_index.md'; 
   let output  = "---\ntitle: "+title+ "\ntranslationKey: "+folder+"\ntype: itinerary\ntour: "+tour+"\nitinerary: \n  - day: 0\n---\n" ;
 
@@ -457,7 +454,7 @@ app.post('/save',function (req, res) {
     let output = `---\n` 
     + yaml.safeDump(data[0]) 
     + "---\n" 
-    + data[1];
+    + data[1].replace(/[`]/g, "'");
 
     fs.writeFileSync(file, output, 'utf8', (err) => {       
       if (err) throw err; 
@@ -485,7 +482,7 @@ app.post('/edit',function (req, res) {
    }
  });
 
-  let output = `---\n` + yaml.safeDump(request.data[0]) + "---\n" + request.data[1]
+  let output = `---\n` + yaml.safeDump(request.data[0]) + "---\n" + request.data[1].replace(/[`]/g, "'");
 
   try {
    fs.writeFileSync(path, output, 'utf8', (err) => {       

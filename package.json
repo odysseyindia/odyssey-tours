@@ -26,6 +26,7 @@
     "html-pdf": "^2.2.0",
     "html2pdf.js": "^0.9.2",
     "lighthouse": "^6.4.1",
+    "logrocket": "^1.0.14",
     "mailgun-js": "^0.22.0",
     "mkdirp": "^1.0.4",
     "node-fetch": "^2.6.1",

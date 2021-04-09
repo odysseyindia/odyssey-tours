@@ -1,5 +1,5 @@
 ---
-title: The Guru Kripa Tours
+title: Overnight Camel Safari in the Thar Desert
 translationKey: the-guru-kripa-tours
 addressbook_id: 2245
 postalcode: ''

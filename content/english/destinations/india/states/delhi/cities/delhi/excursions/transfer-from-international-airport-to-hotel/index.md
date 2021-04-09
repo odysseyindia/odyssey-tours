@@ -17,4 +17,4 @@ tags:
   - Services
   - Transfer from International airport to hotel
 ---
-Transfer from International airport to hotel
+You start your tour on arrival in Delhi, where you will be met by our representative and transferred to your hotel.

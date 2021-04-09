@@ -1,3 +1,5 @@
+{{ apply .Site.Data.books "index" "." "Year" | uniq | len }}
+
 find .  -name 'excursions' -type d -exec cp west-bengal/cities/kolkata/excursions/_index.md
 
 

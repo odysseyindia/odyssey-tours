@@ -55,8 +55,12 @@
   i,select {
     display:inline-block;
   }
+  
+  hr {
+    margin: 0px;
+  }
+
   .hr-text {
-    line-height: 2em;
     position: relative;
     outline: 0;
     border: 0;
@@ -118,11 +122,47 @@
   .icon-search, .icon-spin3 {
     color: gray;
   }
+
+  .icon-floppy, .icon-plus {
+    color: white;
+  }
+
   button.save {
     background-color: blue;
     color: white;
+     font-weight: 600;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   }
+
+  #toggleContent {
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    margin-right: 10px;
+  }
+
+  #toggleWorkspace {
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    margin-right: 10px;
+  }
+
+  #toggleWorkspace.showWorkspace {
+    background-color: lightblue;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    margin-right: 10px;
+  }
+
+ 
+
+
 
   .mr-10 {
     margin-right: 10px;
@@ -132,7 +172,7 @@
   /* ----- */
 
   .containers {
-    min-height: 200px;
+    min-height: 100px;
   }
   .add-task-container {
     display: -webkit-box;
@@ -245,7 +285,7 @@
   list-style-type: none;
   background: #fff;
   transition: all 0.3s;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   height: 100%;
   border: #d3d3d333 .15rem solid;
   border-radius: 0.2rem;
