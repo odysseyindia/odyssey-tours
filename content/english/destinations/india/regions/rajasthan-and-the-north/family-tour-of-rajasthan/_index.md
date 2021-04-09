@@ -3,7 +3,7 @@ title: Family Tour of Rajasthan
 subtitle: 'Delhi, Udaipur, Deogarh, Jaipur, Sawai Madhopur, Karauli, Agra'
 weight: 109
 translationKey: family-tour-of-rajasthan
-type: itinerary
+type: tour
 tour: Family Tour of Rajasthan
 itinerary:
   - day: 0

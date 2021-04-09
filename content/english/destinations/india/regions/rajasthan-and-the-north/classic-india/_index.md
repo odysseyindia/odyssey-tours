@@ -1,6 +1,6 @@
 ---
 title: Classic India
-type: itinerary
+type: tour
 tour: classic-india
 weight: 102
 itinerary:

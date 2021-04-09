@@ -1,10 +1,10 @@
 ---
-title: "\uFEFFBest Marigold Hotel Tour"
+title: "Best Marigold Hotel Tour"
 subtitle: 'Delhi, Udaipur, Khempur, Bijaipur, Bundi, Jaipur, Agra, Delhi'
 weight: 108
 translationKey: best-marigold-hotel-tour
-type: itinerary
-tour: "\uFEFFBest Marigold Hotel Tour"
+type: tour
+tour: "Best Marigold Hotel Tour"
 itinerary:
   - day: 0
     item:

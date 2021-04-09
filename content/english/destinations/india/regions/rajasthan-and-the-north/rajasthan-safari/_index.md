@@ -5,7 +5,7 @@ subtitle: >-
   Bundi, Sawai Madhopur, Jaipur, Agra
 translationKey: rajasthan-safari
 weigth: 105
-type: itinerary
+type: tour
 tour: Rajasthan Safari
 itinerary:
   - day: 0
