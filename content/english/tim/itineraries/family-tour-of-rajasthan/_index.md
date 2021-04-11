@@ -419,15 +419,13 @@ itinerary:
         date: null
         etd: null
         duration: null
+highlights:
+- A great balance of leisure time and fun activities
+- Playing at being a knight in Deogarh's huge castle
+- Looking for tigers and leopards in Ranthambhore national park
+- Exploring Udaipur on foot and Jaipur by cycle
+- Running wild in the safe, friendly grounds of Karauli's palace
 ---
-
-
 
 Rajasthan is full of great monuments, but often for families, the highlights are the little offbeat places in between the major cities, and getting to experience something different everywhere. This tour takes you on a tiger safari in Ranthambhore, to a maze-like castle in Deogarh, to a lovely palace with horses, ducks and vintage cars in Karauli, and to the highlights of Udaipur, Jaipur and the Taj Mahal. With a comfortable pace and fun activities, this is a great way to show the kids a bit of India without tears and sulks!
 
-### Highlights
-* A great balance of leisure time and fun activities
-* Playing at being a knight in Deogarh's huge castle
-* Looking for tigers and leopards in Ranthambhore national park
-* Exploring Udaipur on foot and Jaipur by cycle
-* Running wild in the safe, friendly grounds of Karauli's palace

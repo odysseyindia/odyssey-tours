@@ -2,9 +2,10 @@
 title: Jaisalmer
 translationKey: jaisalmer
 defaultDays: 2
-longitude: 70.910833333
-latitude: 26.915833333
+longitude: 26.915833333
+latitude: 70.910833333
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

@@ -2,9 +2,10 @@
 title: Dindigul
 translationKey: dindigul
 defaultDays: 1
-longitude: 77.976388889
-latitude: 10.356944444
+longitude: 10.356944444
+latitude: 77.976388889
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

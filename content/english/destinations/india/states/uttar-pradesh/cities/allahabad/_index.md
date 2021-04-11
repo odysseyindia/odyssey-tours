@@ -1,0 +1,15 @@
+---
+title: Allahabad
+translationKey: allahabad
+defaultDays: 1
+longitude: 25.423333333
+latitude: 81.886388889
+draft: true
+nighthalt: false
+id: city
+type: city
+tags:
+  - Cities
+  - Allahabad
+---
+Allahabad is the meeting point for three rivers, the Ganges, the Yamuna and the invisible Saraswati, and is therefore one of the seven sacred cities for Hindus. Once in twelve years, Allahabad hosts the famous Kumbh Mela. The city was also an important British cantonment, and has some beautiful remnants of colonial architecture. The city is also famous for once being the residence of the illustrious Nehru family.

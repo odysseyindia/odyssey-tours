@@ -1,10 +1,10 @@
 ---
-title: "\uFEFFBest Marigold Hotel Tour"
+title: "Best Marigold Hotel Tour"
 subtitle: 'Delhi, Udaipur, Khempur, Bijaipur, Bundi, Jaipur, Agra, Delhi'
 weight: 108
 translationKey: best-marigold-hotel-tour
 type: itinerary
-tour: "\uFEFFBest Marigold Hotel Tour"
+tour: "Best Marigold Hotel Tour"
 itinerary:
   - day: 0
     item:
@@ -407,16 +407,12 @@ itinerary:
         date: null
         etd: null
         duration: ''
+highlights:
+- Staying in the film's hotels in Khempur and Udaipur
+- Visiting a flower market and Amber Fort in Jaipur
+- A cooking class in Jaipur to bring you the flavours of Rajasthan
+- Visiting the 'Viceroy Club' at Kanota
+- Beautiful forts and palaces off the beaten track in Bundi and Bijaipur
 ---
 
-
-
-
 This quirky, cheerful movie and its sequel had everyone wondering: where on Earth is this place, exactly? Well, it's not one place, it's several - and on this tour you can visit all of them, and all while getting to know a lovely, offbeat part of India. You will get to stay at the main location at Rawla Khempur, plus smaller ones in Jaipur and Kanota, and stay at Jagat Niwas Palace in Udaipur, also featured in the movie, with views over the famous Lake Palace. As you also visit other offbeat destinations, like the wonderful Bundi and the striking Castle Bijaipur, this is a very enjoyable, different tour - even if you aren't a movie buff!
-
-### Highlights
-* Staying in the film's hotels in Khempur and Udaipur
-* Visiting a flower market and Amber Fort in Jaipur
-* A cooking class in Jaipur to bring you the flavours of Rajasthan
-* Visiting the 'Viceroy Club' at Kanota
-* Beautiful forts and palaces off the beaten track in Bundi and Bijaipur

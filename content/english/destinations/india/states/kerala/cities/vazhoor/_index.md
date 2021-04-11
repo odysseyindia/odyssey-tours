@@ -2,9 +2,10 @@
 title: Vazhoor
 translationKey: vazhoor
 defaultDays: 2
-longitude: 76.70603
-latitude: 9.56402
+longitude: 9.56402
+latitude: 76.70603
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

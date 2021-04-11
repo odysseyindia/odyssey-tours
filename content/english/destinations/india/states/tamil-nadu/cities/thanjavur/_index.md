@@ -2,9 +2,10 @@
 title: Thanjavur
 translationKey: thanjavur
 defaultDays: 1
-longitude: 79.134722222
-latitude: 10.788333333
+longitude: 10.788333333
+latitude: 79.134722222
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

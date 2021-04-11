@@ -2,9 +2,10 @@
 title: Narlai
 translationKey: narlai
 defaultDays: 1
-longitude: 73.535833333
-latitude: 25.316666667
+longitude: 25.316666667
+latitude: 73.535833333
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

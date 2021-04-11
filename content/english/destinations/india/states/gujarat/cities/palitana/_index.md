@@ -2,9 +2,10 @@
 title: Palitana
 translationKey: palitana
 defaultDays: 1
-longitude: 71.816111111
-latitude: 21.515555556
+longitude: 21.515555556
+latitude: 71.816111111
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

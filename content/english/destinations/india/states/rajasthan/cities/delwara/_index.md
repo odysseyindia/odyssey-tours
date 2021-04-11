@@ -2,9 +2,10 @@
 title: Delwara
 translationKey: delwara
 defaultDays: 2
-longitude: 73.749444444
-latitude: 24.7725
+longitude: 24.7725
+latitude: 73.749444444
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

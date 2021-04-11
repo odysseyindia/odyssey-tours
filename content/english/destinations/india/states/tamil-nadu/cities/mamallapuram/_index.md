@@ -2,9 +2,10 @@
 title: Mamallapuram
 translationKey: mamallapuram
 defaultDays: 2
-longitude: 80.198888889
-latitude: 12.614444444
+longitude: 12.614444444
+latitude: 80.198888889
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

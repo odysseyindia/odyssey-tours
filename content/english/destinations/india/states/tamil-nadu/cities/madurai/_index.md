@@ -2,9 +2,10 @@
 title: Madurai
 translationKey: madurai
 defaultDays: 2
-longitude: 78.119444444
-latitude: 9.911111111
+longitude: 9.911111111
+latitude: 78.119444444
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

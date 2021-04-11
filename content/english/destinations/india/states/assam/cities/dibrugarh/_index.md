@@ -2,9 +2,10 @@
 title: Dibrugarh
 translationKey: dibrugarh
 defaultDays: 2
-longitude: 95
-latitude: 27.48
+longitude: 27.48
+latitude: 95
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

@@ -2,9 +2,10 @@
 title: Dalhousie
 translationKey: dalhousie
 defaultDays: 1
-longitude: 75.976666667
-latitude: 32.536388889
+longitude: 32.536388889
+latitude: 75.976666667
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

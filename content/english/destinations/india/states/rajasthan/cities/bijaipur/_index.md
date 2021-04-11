@@ -2,9 +2,10 @@
 title: Bijaipur
 translationKey: bijaipur
 defaultDays: 1
-longitude: 74.805833333
-latitude: 24.893611111
+longitude: 24.893611111
+latitude: 74.805833333
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

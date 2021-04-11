@@ -2,9 +2,10 @@
 title: Bikaner
 translationKey: bikaner
 defaultDays: 1
-longitude: 73.318611111
-latitude: 28.021944444
+longitude: 28.021944444
+latitude: 73.318611111
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

@@ -2,9 +2,10 @@
 title: Panna
 translationKey: panna
 defaultDays: 1
-longitude: 75.022222
-latitude: 12.423889
+longitude: 12.423889
+latitude: 75.022222
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

@@ -2,9 +2,10 @@
 title: Maheshwar
 translationKey: maheshwar
 defaultDays: 2
-longitude: 75.586666667
-latitude: 22.170277778
+longitude: 22.170277778
+latitude: 75.586666667
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

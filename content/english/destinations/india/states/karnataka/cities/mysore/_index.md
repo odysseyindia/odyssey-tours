@@ -2,9 +2,10 @@
 title: Mysore
 translationKey: mysore
 defaultDays: 2
-longitude: 76.654166667
-latitude: 12.305
+longitude: 12.305
+latitude: 76.654166667
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

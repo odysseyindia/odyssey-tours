@@ -2,9 +2,10 @@
 title: Bhenswara
 translationKey: bhenswara
 defaultDays: 1
-longitude: 72.749444444
-latitude: 25.36
+longitude: 25.36
+latitude: 72.749444444
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

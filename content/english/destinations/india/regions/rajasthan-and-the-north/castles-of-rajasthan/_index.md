@@ -376,13 +376,13 @@ itinerary:
         date: null
         etd: null
         duration: ''
+highlights:
+- Walking around the bazaars of Jaipur
+- The delightful Fort Barli (and a bullock-cart ride)
+- Relaxing in Rawla Narlai
+- The storybook castle of Deogarh
+- Sunset overlooking the Lake Palace in Udaipur
 ---
 
 Rajasthan's castles aren't just romantic fortresses - they're often at the heart of villages, still as relevant to the communities as they were 300 years ago. Best of all, they're all unique, from the huge, mazelike fortress of Deogarh to the romantic lakeside palaces in Udaipur and the intimate fort at Barli. You'll also stay in old royal hunting lodges, from the opulent Ajit Bhawan in Jodhpur to laidback Rawla Narlai, for a taste of the royal life.
 
-### Highlights
-* Walking around the bazaars of Jaipur
-* The delightful Fort Barli (and a bullock-cart ride)
-* Relaxing in Rawla Narlai
-* The storybook castle of Deogarh
-* Sunset overlooking the Lake Palace in Udaipur

@@ -2,9 +2,10 @@
 title: Tadoba
 translationKey: tadoba
 defaultDays: 2
-longitude: 79.424722222
-latitude: 20.233333333
+longitude: 20.233333333
+latitude: 79.424722222
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

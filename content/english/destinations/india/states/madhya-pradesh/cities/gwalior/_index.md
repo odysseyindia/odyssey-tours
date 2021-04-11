@@ -2,9 +2,10 @@
 title: Gwalior
 translationKey: gwalior
 defaultDays: 1
-longitude: 78.166388889
-latitude: 26.203611111
+longitude: 26.203611111
+latitude: 78.166388889
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

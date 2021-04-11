@@ -2,9 +2,10 @@
 title: Mon
 translationKey: mon
 defaultDays: 2
-longitude: 95.025556
-latitude: 26.724167
+longitude: 26.724167
+latitude: 95.025556
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

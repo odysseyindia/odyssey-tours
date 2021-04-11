@@ -390,16 +390,13 @@ itinerary:
         date: null
         etd: null
         duration: null
+highlights:
+- The stunning, mural-laden walls of Samode Palace
+- Exploring Jaipur in luxury
+- A fabulous rock-cut swimming pool
+- The views of Meherangarh Fort at night
+- Staying in the amazing city palace complex of Udaipur
 ---
-
-
-
 
 Nowhere in India is the romance of the Maharajahs as strong as in Rajasthan, the land of kings. Impressive forts and castles, opulent palaces, and havelis built around courtyards dot this desert state. In this very special tour, we take you to some stunning examples of India's royal past. Most of the overnight halts on this tour are in castles and princely homes, which are still the residence of the erstwhile royal families.
 
-### Highlights
-* The stunning, mural-laden walls of Samode Palace
-* Exploring Jaipur in luxury
-* A fabulous rock-cut swimming pool
-* The views of Meherangarh Fort at night
-* Staying in the amazing city palace complex of Udaipur

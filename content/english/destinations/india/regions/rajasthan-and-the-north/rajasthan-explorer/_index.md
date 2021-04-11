@@ -471,17 +471,16 @@ itinerary:
         date: null
         etd: null
         duration: ''
+highlights:
+- The best of the Golden Triangle
+- Chilling out by the lake in Pushkar and Udaipur
+- Getting to know India's villages in Chandelao and Narlai
+- A camel safari and staying in the desert in Jaisalmer
+
 ---
-
-
 
 The perfect round trip of Rajasthan, covering all its major highlights. This journey starts with a visit to the Taj Mahal, and takes in some of Rajasthan's most enchanting cities such as Jaipur and Udaipur. You have time to explore the walled desert city of Jaisalmer, and stay a night out in the desert dunes. There's also time to relax in the laidback oasis town of Pushkar and visit the fantastic Meherangarh Fort in Jodhpur.
 
-### Highlights
-* The best of the Golden Triangle
-* Chilling out by the lake in Pushkar and Udaipur
-* Getting to know India's villages in Chandelao and Narlai
-* A camel safari and staying in the desert in Jaisalmer
 
 
 

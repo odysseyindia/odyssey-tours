@@ -2,9 +2,10 @@
 title: Mararikulam
 translationKey: mararikulam
 defaultDays: 2
-longitude: 76.301666667
-latitude: 9.595277778
+longitude: 9.595277778
+latitude: 76.301666667
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

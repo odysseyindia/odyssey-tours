@@ -2,9 +2,10 @@
 title: Mumbai
 translationKey: mumbai
 defaultDays: 2
-longitude: 72.834444444
-latitude: 18.921944444
+longitude: 18.921944444
+latitude: 72.834444444
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

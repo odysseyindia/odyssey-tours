@@ -2,9 +2,10 @@
 title: Diu
 translationKey: diu
 defaultDays: 1
-longitude: 70.934722222
-latitude: 20.716944444
+longitude: 20.716944444
+latitude: 70.934722222
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

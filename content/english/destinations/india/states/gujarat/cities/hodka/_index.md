@@ -2,9 +2,10 @@
 title: Hodka
 translationKey: hodka
 defaultDays: 2
-longitude: 69.599444444
-latitude: 23.673333333
+longitude: 23.673333333
+latitude: 69.599444444
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

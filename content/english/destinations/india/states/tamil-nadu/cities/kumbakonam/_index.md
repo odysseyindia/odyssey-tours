@@ -2,9 +2,10 @@
 title: Kumbakonam
 translationKey: kumbakonam
 defaultDays: 1
-longitude: 79.368888889
-latitude: 10.958611111
+longitude: 10.958611111
+latitude: 79.368888889
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

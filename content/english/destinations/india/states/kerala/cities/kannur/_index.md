@@ -4,7 +4,8 @@ translationKey: kannur
 defaultDays: 0
 longitude: ''
 latitude: ''
-draft: false
+draft: true
+nighthalt: false
 id: city
 type: city
 tags:

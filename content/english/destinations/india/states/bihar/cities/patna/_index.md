@@ -2,9 +2,10 @@
 title: Patna
 translationKey: patna
 defaultDays: 1
-longitude: 85.133057
-latitude: 25.601902
+longitude: 25.601902
+latitude: 85.133057
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

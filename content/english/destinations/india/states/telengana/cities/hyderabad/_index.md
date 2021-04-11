@@ -2,9 +2,10 @@
 title: Hyderabad
 translationKey: hyderabad
 defaultDays: 2
-longitude: 80.446944444
-latitude: 16.307777778
+longitude: 16.307777778
+latitude: 80.446944444
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

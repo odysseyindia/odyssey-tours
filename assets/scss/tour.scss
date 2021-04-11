@@ -1,11 +1,155 @@
 #tour {
 
+*, ::after, ::before {
+    box-sizing: border-box;
+}
 
-  .border{
-    border-right: 2px solid $secondary;
-    padding-right: 10px;
+.accordion-controls {
+    flex-direction: row;
+    justify-content: flex-end;
+    display: flex;
+    padding: 2rem 0;
+}
 
+.accordion-controls .opener {
+    margin-right: 5rem;
+    margin-bottom: 0;
+}
+.accordion-controls .collapser, .accordion-controls .opener {
+    position: relative;
+    font-family: Sans-Serif;
+    cursor: pointer;
+}
+
+
+
+.accordion-controls .opener .plus-icon {
+    height: 20px;
+    width: 20px;
+}
+
+.collapse {
+  display: block;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height .5s cubic-bezier(0, 1, 0, 1);
+  &.show {
+    max-height: 99em;
+    transition: max-height .5s ease-in-out;
   }
+}
+
+  .accordion-row {
+    padding: 1.1rem 0;
+  }
+  .accordion-title {
+    z-index: 1;
+    position: relative;
+  }
+
+  .accordion-row .accordion-title h5 {
+    opacity: 1;
+    transition: opacity .1s ease;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0 4rem;
+  }
+ 
+  .icon-plus {
+    padding: 0;
+    margin-right: 20px;
+    background-color: $primary;
+    color: $form;
+    width: 40px;
+    border-radius: 50%;
+  }
+
+  span {
+    font-size: 0.9em;
+  }
+  span.icon-plus {
+    padding: 0;
+    margin-right: 20px;
+    background-color: $body;
+    color: $form;
+    width: 20px;
+    border-radius: 50%;
+  }
+
+  .right-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+ .right-button .icon-plus::before {
+  transform: translate(-50%,-50%) rotate(90deg);
+  transition: transform .2s ease;
+  
+ 
+}
+
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.activeAccordion, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.activeAccordion:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.border{
+  border-right: 2px solid $secondary;
+  padding-right: 10px;
+} 
 
 .color {
   font-weight: 600;
@@ -22,38 +166,38 @@
 .grow {
   flex-grow: 1;
 }
-  
+
 .hr-text {
-    line-height: 2em;
+  line-height: 2em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: black;
+  text-align: center;
+  height: 2em;
+  opacity: .8;
+  font-size: 1.4em;
+  &:before {
+    content: '';
+    // use the linear-gradient for the fading effect
+    // use a solid background color for a solid bar
+    background: lightgray;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 2px;
+  }
+  &:after {
+    content: attr(data-content);
     position: relative;
-    outline: 0;
-    border: 0;
-    color: black;
-    text-align: center;
-    height: 2em;
-    opacity: .8;
-    font-size: 1.4em;
-    &:before {
-      content: '';
-      // use the linear-gradient for the fading effect
-      // use a solid background color for a solid bar
-      background: lightgray;
-      position: absolute;
-      left: 0;
-      top: 50%;
-      width: 100%;
-      height: 2px;
-    }
-    &:after {
-      content: attr(data-content);
-      position: relative;
-      display: inline-block;
-      padding: 0 .5em;
-      line-height: 1.5em;
-      // this is really the only tricky part, you need to specify the background color of the container element...
-      color: #000;
-      background-color: white;
-    }
+    display: inline-block;
+    padding: 0 .5em;
+    line-height: 1.5em;
+    // this is really the only tricky part, you need to specify the background color of the container element...
+    color: #000;
+    background-color: white;
+  }
 }
 
 .left {
@@ -61,58 +205,58 @@
 }
 
 /* tab pages */
-  .navbar-toggler-icon {
-    height:0; 
-    }
+.navbar-toggler-icon {
+  height:0; 
+}
 
-  .nav-tabs {
-    background-color: $white; 
-    border-bottom: 0;
-    }
+.nav-tabs {
+  background-color: $white; 
+  border-bottom: 0;
+}
 
-  .nav-tabs .nav-link {
-    border-right: 1px solid $secondary;
-    border-left:  1px solid $secondary;
-    border-top:   1px solid $secondary; 
-    }
+.nav-tabs .nav-link {
+  border-right: 1px solid $secondary;
+  border-left:  1px solid $secondary;
+  border-top:   1px solid $secondary; 
+}
 
-  .nav-link.active {
-    color: $secondary;
-    background-color: $form;
-    .tab-content > .tab-pane {
-      display: block;
-    }
+.nav-link.active {
+  color: $secondary;
+  background-color: $form;
+  .tab-content > .tab-pane {
+    display: block;
   }
+}
 
 a.nav-link {
-    color: $secondary;
-    font-size: 1rem; 
-    border-left: 1px solid $primary;
-    border-right: 1px solid $primary;
-    border-top: 1px solid $primary;
-  }
+  color: $secondary;
+  font-size: 1rem; 
+  border-left: 1px solid $primary;
+  border-right: 1px solid $primary;
+  border-top: 1px solid $primary;
+}
 
-  .tab-content {
-    background-color: $form;
-    padding: 20px; 
-  }
+.tab-content {
+  background-color: $form;
+  padding: 20px; 
+}
 
-  ul.bg {
-    background-color: $form; 
-  }
+ul.bg {
+  background-color: $form; 
+}
 
-  ul.nav.nav-tabs {
-    margin-bottom: 0;
-    background-color: $white; 
-  }
+ul.nav.nav-tabs {
+  margin-bottom: 0;
+  background-color: $white; 
+}
 
-  .tab-wrapper {
-    padding: 5px;
-    margin-bottom: 25px;
-    margin-top: 20px;
-    text-align: center; 
-    background-color: $white;
-  }
+.tab-wrapper {
+  padding: 5px;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  text-align: center; 
+  background-color: $white;
+}
 
 @media screen and (max-width: 760px) { 
   .nav {
@@ -126,48 +270,19 @@ a.nav-link {
 
 
 
-  .ml-10 {
-    margin-left: 10px;
-  }
-  .specs {
-    display: flex;
-flex-wrap: nowrap;
-flex-direction: row;
-  }
-  .mx-auto.w-50 {
-    margin-top: 0;
-  }
+.ml-10 {
+  margin-left: 10px;
+}
+.specs {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.mx-auto.w-50 {
+  margin-top: 0;
+}
 
- 
-  [class^="icon-"] {
-    color: white;
-    border-radius: 50%;
-    padding: 5px;
-    margin: 5px;
-      color: black;
-  }
-  .icon-bed {
-    background-color: orange;
-  }
-  .icon-camera {
-    background-color: lightgreen;
-  }
-  .icon-cab {
-    background-color: yellow;
-  }
-  .icon-train {
-    background-color: $google;
-  }
-  .icon-flight {
-    background-color: lightblue;
-  }
-  .icon-pencil {
-    background-color: blue;
-  }
-  .icon-search, .icon-spin3 {
-    color: gray;
-  }
-  
+
 
 
 

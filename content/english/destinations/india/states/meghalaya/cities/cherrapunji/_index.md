@@ -2,9 +2,10 @@
 title: Cherrapunji
 translationKey: cherrapunji
 defaultDays: 1
-longitude: 91.7
-latitude: 25.3
+longitude: 25.3
+latitude: 91.7
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

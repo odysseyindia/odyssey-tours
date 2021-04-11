@@ -2,9 +2,10 @@
 title: Badami
 translationKey: badami
 defaultDays: 1
-longitude: 76.386111111
-latitude: 15.271944444
+longitude: 15.271944444
+latitude: 76.386111111
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

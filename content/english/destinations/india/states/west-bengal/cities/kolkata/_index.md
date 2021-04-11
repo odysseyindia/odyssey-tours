@@ -2,9 +2,10 @@
 title: Kolkata
 translationKey: kolkata
 defaultDays: 2
-longitude: 88.076666667
-latitude: 24.4675
+longitude: 24.4675
+latitude: 88.076666667
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

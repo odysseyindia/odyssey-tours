@@ -2,9 +2,10 @@
 title: Aurangabad
 translationKey: aurangabad
 defaultDays: 2
-longitude: 75.354444444
-latitude: 19.883611111
+longitude: 19.883611111
+latitude: 75.354444444
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

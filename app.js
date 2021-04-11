@@ -13,10 +13,13 @@ const dir         = root+"content/english";
 function urlize(url){
 
   data = url.trim()
-     .toString()
-     .toLowerCase()
-     .replace(/[&\/\\@_#, +()$%.'":*?<>{}]/g, '-')
-     .replace(/[-]+/g, '-');
+  .toString()
+  .toLowerCase()
+  .replace(/[ ]/g, '-')
+  .replace(/[']/g, '')
+  .replace(/[&]/g, 'and')
+  .replace(/[\/\\@_#,+()$%.":*?<>{}]/g, '')
+  .replace(/[-]+/g, '-');
 
   return data;
 }
@@ -53,15 +56,14 @@ app.post('/import',function (req, res) {
 
 
   const readInterface = readline.createInterface({
-        input: fs.createReadStream(file),
-        // output: process.stdout,
-        console: false
+    input: fs.createReadStream(file),
+    console: false
   });
 
   var lineno = 0;
 
-// replace possible errors in the database output
-// readInterface.replace(/,,,,,\n+/g,'');
+  // replace possible errors in the database output
+  // readInterface.replace(/,,,,,\n+/g,'');
 
   readInterface.on('line', function (line) {
 
@@ -70,100 +72,100 @@ app.post('/import',function (req, res) {
 
     var lineArray = CSVToArray(line);
     var array = lineArray[0];
-   
+
     // console.log(array);
 
     if ( request.file == 'cities.csv'){
-    var city   = urlize(array[0]);
-    var state  = array[6];
+      var city   = urlize(array[0]);
+      var state  = array[6];
 
-    if (typeof state === "undefined") throw "state for "+city+" is undefined";
+      if (typeof state === "undefined") throw "state for "+city+" is undefined";
 
-    state = urlize(state); 
+      state = urlize(state); 
 
-    var mdfile = dir+'/destinations/india/states/'+state+'/cities/'+city+'/';
+      var mdfile = dir+'/destinations/india/states/'+state+'/cities/'+city+'/';
 
-    console.log('Processing ',mdfile);
+      console.log('Processing ',mdfile);
 
-    const made = mkdirp.sync(mdfile);
+      const made = mkdirp.sync(mdfile);
 
-     try {
+      try {
 
-      frontMatter = {};
+        frontMatter = {};
 
-      var web = Number(array[5]) || 0;
-      var nighthalt = Number(array[7]) || 0;
+        var web = Number(array[5]) || 0;
+        var nighthalt = Number(array[7]) || 0;
 
-      // city,writeup,DefaultDays,Longitude,Latitude,Display,state,nighthalt
+        // city,writeup,DefaultDays,Longitude,Latitude,Display,state,nighthalt
 
-      frontMatter.title           = array[0];
-      frontMatter.translationKey  = city;
-      frontMatter.defaultDays     = Number(array[2]) || 0;
-      frontMatter.longitude       = Number(array[4]) || '';
-      frontMatter.latitude        = Number(array[3]) || '';
-      frontMatter.draft           = (web==0) ? true : false; 
-      frontMatter.nighthalt       = (nighthalt==0) ? true : false; 
-      frontMatter.id              = 'city';
-      frontMatter.type            = 'city';
-      frontMatter.tags            = ['Cities',array[0] ];
+        frontMatter.title           = array[0];
+        frontMatter.translationKey  = city;
+        frontMatter.defaultDays     = Number(array[2]) || 0;
+        frontMatter.longitude       = Number(array[4]) || '';
+        frontMatter.latitude        = Number(array[3]) || '';
+        frontMatter.draft           = (web==0) ? true : false; 
+        frontMatter.nighthalt       = (nighthalt==0) ? true : false; 
+        frontMatter.id              = 'city';
+        frontMatter.type            = 'city';
+        frontMatter.tags            = ['Cities',array[0] ];
 
-      let output = `---\n` 
-      + yaml.safeDump(frontMatter) 
-      + "---\n" 
-      + array[1].replace(/[`]/g, "'");
+        let output = `---\n` 
+        + yaml.safeDump(frontMatter) 
+        + "---\n" 
+        + array[1].replace(/[`]/g, "'");
 
-      var test = yaml.safeDump( frontMatter );
-      if (typeof test === "undefined"){
-        console.log(city+' has an issue');
-        console.table( array );
-      } else {
-        // console.table( output );
-        fs.writeFileSync(mdfile+'_index.md', output, 'utf8', (err) => {       
-          if (err) throw err; 
-        })
-      }; 
-    } catch (error) {
-      console.log("Route import writing "+city+": " + error.message);
-    }
+        var test = yaml.safeDump( frontMatter );
+        if (typeof test === "undefined"){
+          console.log(city+' has an issue');
+          console.table( array );
+        } else {
+          // console.table( output );
+          fs.writeFileSync(mdfile+'_index.md', output, 'utf8', (err) => {       
+            if (err) throw err; 
+          })
+        }; 
+      } catch (error) {
+        console.log("Route import writing "+city+": " + error.message);
+      }
 
-  } else if ( request.file == 'states.csv') {
+    } else if ( request.file == 'states.csv') {
 
-    var state     = urlize(array[0]);
-    var oneliner  = array[1];
-    var writeup   = array[2];
-    var states_id = array[3];
+      var state     = urlize(array[0]);
+      var oneliner  = array[1];
+      var writeup   = array[2];
+      var states_id = array[3];
 
-    var mdfile = dir+'/destinations/india/states/'+state+'/';
+      var mdfile = dir+'/destinations/india/states/'+state+'/';
 
-    console.log('Processing ',mdfile);
+      console.log('Processing ',mdfile);
 
-    const made = mkdirp.sync(mdfile);
+      const made = mkdirp.sync(mdfile);
 
-     try {
+      try {
 
-      var web = Number(array[5]) || 0;
+        var web = Number(array[5]) || 0;
 
-      frontMatter = {};
+        frontMatter = {};
 
-      frontMatter.title           = array[0];
-      frontMatter.translationKey  = state;
-      frontMatter.oneliner        = array[1] || '';
-      frontMatter.states_id       = Number(array[3]) || '';
-      frontMatter.draft           = (web==0) ? true : false; 
-      frontMatter.id              = 'state';
-      frontMatter.type            = 'state';
-      frontMatter.tags            = ['States',array[0] ];
+        frontMatter.title           = array[0];
+        frontMatter.translationKey  = state;
+        frontMatter.oneliner        = array[1] || '';
+        frontMatter.states_id       = Number(array[3]) || '';
+        frontMatter.draft           = (web==0) ? true : false; 
+        frontMatter.id              = 'state';
+        frontMatter.type            = 'state';
+        frontMatter.tags            = ['States',array[0] ];
 
-      let output = `---\n` 
-      + yaml.safeDump(frontMatter) 
-      + "---\n" 
-      + (array[2] == 'NULL' ? '' : array[2].replace(/[`]/g, "'"));
+        let output = `---\n` 
+        + yaml.safeDump(frontMatter) 
+        + "---\n" 
+        + (array[2] == 'NULL' ? '' : array[2].replace(/[`]/g, "'"));
 
       // console.table( output );
       fs.writeFileSync(mdfile+'_index.md', output, 'utf8', (err) => {       
         if (err) throw err; 
       })
- 
+
     } catch (error) {
       console.log("Route import writing "+state+": " + error.message);
     } 
@@ -172,41 +174,41 @@ app.post('/import',function (req, res) {
 
    // state city  organisation  addressbook_id  postalcode  description starcategories_id rooms
 
-    var state             = urlize(array[0]);
-    var city              = urlize(array[1]);
-    var organisation      = urlize(array[2]);
+   var state             = urlize(array[0]);
+   var city              = urlize(array[1]);
+   var organisation      = urlize(array[2]);
 
-    var mdfile = dir+'/destinations/india/states/'+state+'/cities/'+city+'/hotels/'+organisation+'/';
+   var mdfile = dir+'/destinations/india/states/'+state+'/cities/'+city+'/hotels/'+organisation+'/';
 
-    console.log('Processing ',mdfile);
+   console.log('Processing ',mdfile);
 
-    const made = mkdirp.sync(mdfile);
+   const made = mkdirp.sync(mdfile);
 
-     try {
- 
-      frontMatter                 = {};
-      frontMatter.title           = array[2];
-      frontMatter.translationKey  = organisation;
-      frontMatter.addressbook_id  = Number(array[3]) || '';
-      frontMatter.postalcode      = Number(array[4]) || '';
-      frontMatter.starcategories_id  = Number(array[6]) || '';
-      frontMatter.rooms           = Number(array[7]) || '';
-      frontMatter.draft           = false;
-      frontMatter.id              = 'hotel';
-      frontMatter.type            = 'hotels';
-      frontMatter.tags            = ['Hotels',array[2] ];
-      frontMatter.category        = array[8];
+   try {
 
-      let output = `---\n` 
-      + yaml.safeDump(frontMatter) 
-      + "---\n" 
-      + (array[5] == 'NULL' ? '' : array[5].replace(/[`]/g, "'"));
+    frontMatter                 = {};
+    frontMatter.title           = array[2];
+    frontMatter.translationKey  = organisation;
+    frontMatter.addressbook_id  = Number(array[3]) || '';
+    frontMatter.postalcode      = Number(array[4]) || '';
+    frontMatter.starcategories_id  = Number(array[6]) || '';
+    frontMatter.rooms           = Number(array[7]) || '';
+    frontMatter.draft           = false;
+    frontMatter.id              = 'hotel';
+    frontMatter.type            = 'hotels';
+    frontMatter.tags            = ['Hotels',array[2] ];
+    frontMatter.category        = array[8];
+
+    let output = `---\n` 
+    + yaml.safeDump(frontMatter) 
+    + "---\n" 
+    + (array[5] == 'NULL' ? '' : array[5].replace(/[`]/g, "'"));
 
       // console.table( output );
       fs.writeFileSync(mdfile+'index.md', output, 'utf8', (err) => {       
         if (err) throw err; 
       })
- 
+
     } catch (error) {
       console.log("Route import writing "+state+": " + error.message);
     } 
@@ -214,65 +216,65 @@ app.post('/import',function (req, res) {
 
    // state  city  description duration  starttime transfer  transfercode  active  daysofoperation city  to_cities_id  owntransport  guide
 
-    var state             = urlize(array[0]);
-    var city              = urlize(array[1]);
-    var description       = urlize(array[2]);
+   var state             = urlize(array[0]);
+   var city              = urlize(array[1]);
+   var description       = urlize(array[2]);
 
-    var mdfile = dir+'/destinations/india/states/'+state+'/cities/'+city+'/excursions/'+description+'/';
+   var mdfile = dir+'/destinations/india/states/'+state+'/cities/'+city+'/excursions/'+description+'/';
 
-    console.log('Processing ',mdfile);
+   console.log('Processing ',mdfile);
 
-    const made = mkdirp.sync(mdfile);
+   const made = mkdirp.sync(mdfile);
 
-     try {
+   try {
 
-      var web = Number(array[7]) || 0;
-      var writeup = array[13].trim().toString().replace(/[`]/g, "'");
+    var web = Number(array[7]) || 0;
+    var writeup = array[13].trim().toString().replace(/[`]/g, "'");
 
-      frontMatter                 = {};
-      frontMatter.title           = array[2];
-      frontMatter.translationKey  = description;
-      frontMatter.duration        = array[3] || '';
-      frontMatter.startTime       = (array[4] == 'NULL') ?  '' : array[4];
-      frontMatter.transfer        = (array[5] == 'NULL') ?  false : true;
-      frontMatter.transferCode    = (array[6] == 'NULL') ?  '' : array[6];
-      frontMatter.draft           = (web == 0) ?  true : false; 
-      frontMatter.daysOfOperation = (array[8] == 'NULL') ?  0  : Number(array[8]);
-      frontMatter.toCity          = (array[9] == 'NULL') ?  '' : array[9];
-      frontMatter.toCitiesId      = (array[10] == 'NULL') ?  '' : array[10];
-      frontMatter.owntransport    = (array[11] == 1) ?  true : false;
-      frontMatter.guide           = (array[12] == 1) ?  true : false;
-      frontMatter.id              = 'services';
-      frontMatter.type            = 'excursions';
-      frontMatter.tags            = ['Services',array[2] ];
+    frontMatter                 = {};
+    frontMatter.title           = array[2];
+    frontMatter.translationKey  = description;
+    frontMatter.duration        = array[3] || '';
+    frontMatter.startTime       = (array[4] == 'NULL') ?  '' : array[4];
+    frontMatter.transfer        = (array[5] == 'NULL') ?  false : true;
+    frontMatter.transferCode    = (array[6] == 'NULL') ?  '' : array[6];
+    frontMatter.draft           = (web == 0) ?  true : false; 
+    frontMatter.daysOfOperation = (array[8] == 'NULL') ?  0  : Number(array[8]);
+    frontMatter.toCity          = (array[9] == 'NULL') ?  '' : array[9];
+    frontMatter.toCitiesId      = (array[10] == 'NULL') ?  '' : array[10];
+    frontMatter.owntransport    = (array[11] == 1) ?  true : false;
+    frontMatter.guide           = (array[12] == 1) ?  true : false;
+    frontMatter.id              = 'services';
+    frontMatter.type            = 'excursions';
+    frontMatter.tags            = ['Services',array[2] ];
 
-      let output = `---\n` 
-      + yaml.safeDump(frontMatter) 
-      + "---\n" 
-      + writeup;
+    let output = `---\n` 
+    + yaml.safeDump(frontMatter) 
+    + "---\n" 
+    + writeup;
 
-  
-      fs.writeFileSync(mdfile+'index.md', output, 'utf8', (err) => {       
-        if (err) throw err; 
-      })
- 
-    } catch (error) {
-      console.log("Route import writing "+state+": " + error.message);
-    } 
-    } else  {
-      console.log(file+" is a wrong option");
-    }
 
-  });
+    fs.writeFileSync(mdfile+'index.md', output, 'utf8', (err) => {       
+      if (err) throw err; 
+    })
 
-    function CSVToArray( strData, strDelimiter ){
+  } catch (error) {
+    console.log("Route import writing "+state+": " + error.message);
+  } 
+} else  {
+  console.log(file+" is a wrong option");
+}
+
+});
+
+function CSVToArray( strData, strDelimiter ){
         // Check to see if the delimiter is defined. If not,
         // then default to comma.
         strDelimiter = (strDelimiter || ",");
 
         // Create a regular expression to parse the CSV values.
         var objPattern = new RegExp(
-            (
+          (
                 // Delimiters.
                 "(\\" + strDelimiter + "|\\r?\\n|\\r|^)" +
 
@@ -281,9 +283,9 @@ app.post('/import',function (req, res) {
 
                 // Standard fields.
                 "([^\"\\" + strDelimiter + "\\r\\n]*))"
-            ),
-            "gi"
-            );
+                ),
+          "gi"
+          );
 
 
         // Create an array to hold our data. Give the array
@@ -307,17 +309,17 @@ app.post('/import',function (req, res) {
             // field delimiter. If id does not, then we know
             // that this delimiter is a row delimiter.
             if (
-                strMatchedDelimiter.length &&
-                strMatchedDelimiter !== strDelimiter
-                ){
+              strMatchedDelimiter.length &&
+              strMatchedDelimiter !== strDelimiter
+              ){
 
                 // Since we have reached a new row of data,
                 // add an empty row to our data array.
                 arrData.push( [] );
 
-            }
+              }
 
-            var strMatchedValue;
+              var strMatchedValue;
 
             // Now that we have our delimiter out of the way,
             // let's check to see which kind of value we
@@ -327,28 +329,28 @@ app.post('/import',function (req, res) {
                 // We found a quoted value. When we capture
                 // this value, unescape any double quotes.
                 strMatchedValue = arrMatches[ 2 ].replace(
-                    new RegExp( "\"\"", "g" ),
-                    "\""
-                    );
+                  new RegExp( "\"\"", "g" ),
+                  "\""
+                  );
 
-            } else {
+              } else {
 
                 // We found a non-quoted value.
                 strMatchedValue = arrMatches[ 3 ];
 
-            }
+              }
 
 
             // Now that we have our value string, let's add
             // it to the data array.
             arrData[ arrData.length - 1 ].push( strMatchedValue );
-        }
+          }
 
         // Return the parsed data.
         return( arrData );
-    }
+      }
 
-});
+    });
 
 
 app.post('/ajax',function (req, res) {
@@ -367,7 +369,7 @@ app.post('/ajax',function (req, res) {
   } 
 
   try {
-  
+
     let contents = fileContents.split("---");
     let data = yaml.safeLoadAll(contents[1]);
 
@@ -395,7 +397,7 @@ app.post('/copy',function (req, res) {
   var from    = dir + "/tim/itineraries/" +request.from;
   var to      = dir + "/tim/itineraries/" +request.to;
   var copydir = require('copy-dir');
- 
+
   copydir(from, to, {utimes:false, mode:true, cover:false
   }, function(err){
     if(err) throw err;
@@ -516,45 +518,45 @@ app.post('/geolocation',function (req, res) {
   try {
    var dataStr = fs.readFileSync('CityArray.txt', 'utf8', (err) => {       
      if (err) throw err; }) 
-  } 
-  catch (error) {
-    console.log('Route geolocation: ' + error.message);
-  } 
+ } 
+ catch (error) {
+  console.log('Route geolocation: ' + error.message);
+} 
 
-  var dataArray = dataStr.split(",");
+var dataArray = dataStr.split(",");
 
-  console.log('array length is ',dataArray.length);
+console.log('array length is ',dataArray.length);
 
-  var i;
-  var len = dataArray.length;
-  var myAddress = [];
+var i;
+var len = dataArray.length;
+var myAddress = [];
 
-  for (i = 0; i < len; i++) {
+for (i = 0; i < len; i++) {
 
-      let url = "https://maps.googleapis.com/maps/api/geocode/json?address='"+dataArray[i]+"'&key="+API_KEY;
+  let url = "https://maps.googleapis.com/maps/api/geocode/json?address='"+dataArray[i]+"'&key="+API_KEY;
 
-      const body = { a: 1 };
-       
-      fetch(url, {
-              method: 'post',
-              body:    JSON.stringify(body),
-              headers: { 'Content-Type': 'application/json' },
-      })
-      .then(res => res.json())
-      .then(function(json) { 
-        
-        for (j = 0; j < json.results.length; j++ ) {
-          myAddress[i] = json.results[j].formatted_address+','+json.results[j].geometry.location.lat+','+json.results[j].geometry.location.lng;
-          console.log( myAddress[i] );
-          fs.writeFileSync('CityArray.csv', myAddress[i]+'\n', {flag:'a+'}, (err) => {  
-            if (err) throw err; 
-          });
-        };
+  const body = { a: 1 };
 
+  fetch(url, {
+    method: 'post',
+    body:    JSON.stringify(body),
+    headers: { 'Content-Type': 'application/json' },
+  })
+  .then(res => res.json())
+  .then(function(json) { 
+
+    for (j = 0; j < json.results.length; j++ ) {
+      myAddress[i] = json.results[j].formatted_address+','+json.results[j].geometry.location.lat+','+json.results[j].geometry.location.lng;
+      console.log( myAddress[i] );
+      fs.writeFileSync('CityArray.csv', myAddress[i]+'\n', {flag:'a+'}, (err) => {  
+        if (err) throw err; 
       });
-     
-      
-  };  
+    };
+
+  });
+
+
+};  
 });
 
 
@@ -574,24 +576,24 @@ app.post('/geolocator',function (req, res) {
     apiKey: API_KEY, 
     formatter: null, 
   };
-       
-    fetch(url, {
-            method: 'post',
-            body:    JSON.stringify(body),
-            headers: { 'Content-Type': 'application/json' },
-    })
-    .then(res => res.json())
-    .then(function(json) { 
-      
-      for (j = 0; j < json.results.length; j++ ) {
-        var myAddress = json.results[j].formatted_address+','+json.results[j].geometry.location.lat+','+json.results[j].geometry.location.lng;
-        console.log( myAddress );
-        fs.writeFileSync(dir+request.file, myAddress+'\n', (err) => {  
-          if (err) throw err; 
-        });
-      };
 
-    });  
+  fetch(url, {
+    method: 'post',
+    body:    JSON.stringify(body),
+    headers: { 'Content-Type': 'application/json' },
+  })
+  .then(res => res.json())
+  .then(function(json) { 
+
+    for (j = 0; j < json.results.length; j++ ) {
+      var myAddress = json.results[j].formatted_address+','+json.results[j].geometry.location.lat+','+json.results[j].geometry.location.lng;
+      console.log( myAddress );
+      fs.writeFileSync(dir+request.file, myAddress+'\n', (err) => {  
+        if (err) throw err; 
+      });
+    };
+
+  });  
 });
 
 app.get('/', function(req, res){ 

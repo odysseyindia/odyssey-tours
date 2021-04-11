@@ -2,9 +2,10 @@
 title: Teekoy
 translationKey: teekoy
 defaultDays: 2
-longitude: 76.796666667
-latitude: 9.705277778
+longitude: 9.705277778
+latitude: 76.796666667
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

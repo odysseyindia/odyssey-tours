@@ -2,9 +2,10 @@
 title: Kaziranga
 translationKey: kaziranga
 defaultDays: 3
-longitude: 93.35
-latitude: 26.6667
+longitude: 26.6667
+latitude: 93.35
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

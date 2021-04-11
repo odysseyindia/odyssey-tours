@@ -11,7 +11,6 @@ type: hotels
 tags:
   - Hotels
   - Musa Jungle Retreat
-categories:
-
+category: Standard hotel
 ---
 Musa Retreat consists of modern, well-built cottages ranged around a central lawn area. With sleek, clean bathrooms, thatched verandahs and an airy dining hall, this is one of the better options at Manas national park, good for both adventurous travellers and families.

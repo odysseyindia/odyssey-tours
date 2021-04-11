@@ -2,9 +2,10 @@
 title: Bangalore
 translationKey: bangalore
 defaultDays: 1
-longitude: 77.606388889
-latitude: 12.975277778
+longitude: 12.975277778
+latitude: 77.606388889
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

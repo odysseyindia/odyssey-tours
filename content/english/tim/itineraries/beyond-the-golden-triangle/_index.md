@@ -399,17 +399,12 @@ itinerary:
         date: null
         etd: null
         duration: null
+highlights:
+- Frescoes and camels in Mandawa
+- A culinary tour and cooking class in Jaipur
+- Looking for tigers and exotic birdlife
+- Staying with the royal family of Karauli
+- Visiting the Taj Mahal and other beautiful monuments in Agra
 ---
 
-
-
-
-
 Rajasthan is India at its most exotic and colourful best, with forts, palaces, deserts, tigers, rivers, jungles, temples and just about everything else that the word 'India' brings to mind! Women are dressed in colourful saris with chunky jewellery whilst men wear elaborate turbans and sport huge moustaches. Here you can travel by camel, cycle rickshaw, jeep and boat to explore the myriad attractions.
-
-### Highlights
-* Frescoes and camels in Mandawa
-* A culinary tour and cooking class in Jaipur
-* Looking for tigers and exotic birdlife
-* Staying with the royal family of Karauli
-* Visiting the Taj Mahal and other beautiful monuments in Agra

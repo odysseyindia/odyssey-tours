@@ -2,9 +2,10 @@
 title: Dasada
 translationKey: dasada
 defaultDays: 2
-longitude: 71.797222222
-latitude: 23.189444444
+longitude: 23.189444444
+latitude: 71.797222222
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

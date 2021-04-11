@@ -1,6 +1,6 @@
 ---
 title: 'Evolve Back Kamalapura Palace, Hampi'
-translationKey: 'evolve-back-kamalapura-palace,-hampi'
+translationKey: evolve-back-kamalapura-palace-hampi
 addressbook_id: 2989
 postalcode: ''
 starcategories_id: ''

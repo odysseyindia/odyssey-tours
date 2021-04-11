@@ -2,9 +2,10 @@
 title: Varanasi
 translationKey: varanasi
 defaultDays: 2
-longitude: 83.008888889
-latitude: 25.312777778
+longitude: 25.312777778
+latitude: 83.008888889
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

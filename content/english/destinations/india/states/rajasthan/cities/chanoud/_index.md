@@ -2,9 +2,10 @@
 title: Chanoud
 translationKey: chanoud
 defaultDays: 2
-longitude: 88.116667
-latitude: 53.866667
+longitude: 53.866667
+latitude: 88.116667
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

@@ -2,9 +2,10 @@
 title: Alchi
 translationKey: alchi
 defaultDays: 1
-longitude: 77.1625
-latitude: 34.2334
+longitude: 34.2334
+latitude: 77.1625
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

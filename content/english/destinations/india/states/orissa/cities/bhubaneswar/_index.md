@@ -2,9 +2,10 @@
 title: Bhubaneswar
 translationKey: bhubaneswar
 defaultDays: 1
-longitude: 85.833611111
-latitude: 20.2425
+longitude: 20.2425
+latitude: 85.833611111
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

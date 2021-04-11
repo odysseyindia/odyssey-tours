@@ -2,9 +2,10 @@
 title: Bhuj
 translationKey: bhuj
 defaultDays: 2
-longitude: 69.659444444
-latitude: 23.251944444
+longitude: 23.251944444
+latitude: 69.659444444
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

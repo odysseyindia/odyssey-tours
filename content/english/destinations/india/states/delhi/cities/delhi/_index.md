@@ -2,12 +2,12 @@
 title: Delhi
 translationKey: delhi
 defaultDays: 1
-longitude: 77.209166667
-latitude: 28.613333333
+longitude: 28.613333333
+latitude: 77.209166667
 draft: false
+nighthalt: false
 id: city
 type: city
-image: 1-delhi-city-main-rashtrapati-bahawan.jpg
 tags:
   - Cities
   - Delhi

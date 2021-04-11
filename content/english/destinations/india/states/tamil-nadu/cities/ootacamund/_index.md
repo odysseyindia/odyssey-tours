@@ -2,9 +2,10 @@
 title: Ootacamund
 translationKey: ootacamund
 defaultDays: 2
-longitude: 76.695555556
-latitude: 11.390277778
+longitude: 11.390277778
+latitude: 76.695555556
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

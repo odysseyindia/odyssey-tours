@@ -2,9 +2,10 @@
 title: Kodaikanal
 translationKey: kodaikanal
 defaultDays: 2
-longitude: 77.4875
-latitude: 10.231666667
+longitude: 10.231666667
+latitude: 77.4875
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

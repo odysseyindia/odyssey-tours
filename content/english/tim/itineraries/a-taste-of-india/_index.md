@@ -650,24 +650,11 @@ itinerary:
         date: null
         etd: null
         duration: null
+highlights:
+- At least eight different cuisines, from Awadhi to Indo-Portuguese
+- Cooking classes, walking trails, even a tapas-bar hop
+- Stay in colonial buildings, homestays, forts, palaces and a purple dome
+- A cross-section of India through its food
+- Easy time on the beach
 ---
-
-
-
-
-
-
-
-
-
-
-
-
 Join us for a veritable feast of a tour, as you journey from bustling Delhi to tranquil Goa. You begin by trying Lucknow's spectacular kebabs and visiting the amazing Taj Mahal in Agra. You then continue to towns and palaces of Rajasthan, experience the bustling modern city of Mumbai, and finish on Goa’s beautiful beaches. Along the way you will discover many facets of Indian culture, but your focus will always be on the country’s delicious food. You will enjoy unique opportunities to sample a wealth of traditional delicacies, from the sublime vegetarian cuisine of Jaipur to the spicy seafood of the coast.
-
-### Highlights
-* At least eight different cuisines, from Awadhi to Indo-Portuguese
-* Cooking classes, walking trails, even a tapas-bar hop
-* Stay in colonial buildings, homestays, forts, palaces and a purple dome
-* A cross-section of India through its food
-* Easy time on the beach

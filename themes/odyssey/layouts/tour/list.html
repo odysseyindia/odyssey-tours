@@ -67,27 +67,31 @@
 
           {{"<!-- Question -->" | safeHTML }}
 <div id="accordion" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+<div class="accordion-controls">
+                    <div class="opener" data-accordion-open-all="itinerary">
+                        <span id="AccordionExpand">EXPAND ALL ITINERARY DAYS</span>
+                        <span class="icon-plus"></span>
+                    </div>
+                    <div class="collapser" data-accordion-close-all="itinerary">
+                        <span id="AccordionCollapse">COLLAPSE ALL ITINERARY DAYS</span>
+                      <span class="icon-plus"></span>
+                    </div>
+                </div>
+
+
 
 {{- $nighthalt := "" }}
 {{- range $i,$e := .Params.itinerary }}
   <div class="card">
-    <div class="card-header" id="heading{{$i}}">
-      <h5 class="mb-0">
-        <button class="btn btn-link" data-toggle="collapse" data-target="#collapse{{$i}}" aria-expanded="true" aria-controls="collapse{{$i}}">
-          <h4 itemprop="name">Day {{ add $i 1 }}
+
+<button class="accordion">Day {{ add $i 1 }}
       {{- range $j, $element := $e.item }}
       {{- if (eq .type "hotel") }}{{ $nighthalt = index (split .url "/" ) 6 | humanize }}{{- end}}
       {{- end }}
       {{ if eq (add $i 1) (len $.Params.itinerary)}}, Departure{{ else }} , {{ $nighthalt }}{{ end }}
-          </h4>
-        </button>
-      </h5>
-    </div>
-    <div id="collapse{{$i}}" class="collapse" aria-labelledby="heading{{$i}}" data-parent="#accordion">
-      <div class="card-body">
-        <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <div itemprop="text" class="left">
-            {{- range $j, $element := $e.item }}
+</button>
+<div class="panel">
+{{- range $j, $element := $e.item }}
               {{- if eq .type "hotel" }}
                 <h3>Suggested hotel: 
                 {{- with ($.Site.GetPage (printf "%s%s" .url "index.md")) }}
@@ -98,7 +102,9 @@
               <p>{{ .content }}</p>
 
               {{- if eq .type "city" }}
-                {{- range ( where ( where $.Site.RegularPages "Section" "destinations") ".RelPermalink" .url) }}                
+                
+                {{- range ( where ( where $.Site.Pages "Section" "destinations") ".RelPermalink" .url) }}  
+                
                 {{- range first 1 (.Resources.ByType "image") }} 
                     <img class="lazyload" 
                     sizes="(min-width: 35em) 150px, 10vw"
@@ -133,15 +139,14 @@
               {{- end }}
               {{- if ne $j (sub (len $e.item) 1) }} <hr>{{ end }}
             {{- end }}
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-{{- end }}
 </div>
 
+
+
+
+
         </div>
+        {{ end }}
         <div id="map" class="tab-pane ">
             <div class="mx-auto w-50 p-3">
              
@@ -161,6 +166,41 @@
 {{- end }}
 {{- define "postscript" }}
 
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
 
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("activeAccordion");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+
+document.getElementById("AccordionCollapse").addEventListener("click", function(){
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+  for (i = 0; i < acc.length; i++) {
+    acc[i].classList.remove('activeAccordion');
+    var panel = acc[i].nextElementSibling;
+    panel.style.maxHeight = null;
+  };
+});
+
+document.getElementById("AccordionExpand").addEventListener("click", function(){
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+  for (i = 0; i < acc.length; i++) {
+    acc[i].classList.add("activeAccordion");
+    var panel = acc[i].nextElementSibling;
+    panel.style.maxHeight = panel.scrollHeight + "px";
+  }
+});
+</script>
 
 {{- end }}

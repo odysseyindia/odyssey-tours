@@ -2,9 +2,10 @@
 title: Shahpura
 translationKey: shahpura
 defaultDays: 2
-longitude: 74.9175
-latitude: 25.623055556
+longitude: 25.623055556
+latitude: 74.9175
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

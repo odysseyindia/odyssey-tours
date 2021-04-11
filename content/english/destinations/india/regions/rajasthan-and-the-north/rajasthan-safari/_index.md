@@ -630,19 +630,12 @@ itinerary:
         date: null
         etd: null
         duration: ''
+highlights:
+- Camels and frescoes in Mandawa
+- A camel safari and tented stay in the desert
+- Huge fortresses in Jodhpur, Chittaurgarh and Bundi
+- Staying with families (including royal ones!)
+- Looking for tigers and leopards by jeep
 ---
-
-
-
-
-
-
-
 A wild, adventurous journey through Rajasthan, for those who love culture, wildlife and the outdoors. Enjoy the desert in Mandawa, explore the castles of Bikaner, Jaisalmer and Jodhpur, and go looking for leopards by jeep in Padarla. Then you have time to enjoy the lake city of Udaipur, and smaller, fascinating towns before you go on tiger safaris in Ranthambhore, and end with the wonders of Jaipur and the Taj Mahal in Agra.
 
-### Highlights
-* Camels and frescoes in Mandawa
-* A camel safari and tented stay in the desert
-* Huge fortresses in Jodhpur, Chittaurgarh and Bundi
-* Staying with families (including royal ones!)
-* Looking for tigers and leopards by jeep

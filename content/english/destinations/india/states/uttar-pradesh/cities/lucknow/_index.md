@@ -2,9 +2,10 @@
 title: Lucknow
 translationKey: lucknow
 defaultDays: 2
-longitude: 80.955555556
-latitude: 26.8725
+longitude: 26.8725
+latitude: 80.955555556
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:

@@ -2,9 +2,10 @@
 title: Pondicherry
 translationKey: pondicherry
 defaultDays: 1
-longitude: 79.7875
-latitude: 11.933611111
+longitude: 11.933611111
+latitude: 79.7875
 draft: false
+nighthalt: false
 id: city
 type: city
 tags:
