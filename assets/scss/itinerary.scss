@@ -35,7 +35,7 @@
   }
 
   label {
-    width: 100px;
+    
     padding-left: 10px;
   }
   select {
@@ -353,6 +353,7 @@ input {
 
 
 /* The Modal (background) */
+
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -368,7 +369,7 @@ input {
 }
 
   /* Modal Content/Box */
-  #modal-accommodation, #modal-city, #modal-excursions, #modal-flights, #modal-trains {
+  #modal-accommodation, #modal-insert-day, #modal-delete-day, #modal-city, #modal-excursions, #modal-flights, #modal-trains {
     margin: 0px 20px 0px 20px;
     width: 100%;
 

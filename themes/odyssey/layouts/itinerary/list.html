@@ -26,6 +26,16 @@
           Compact
         </button>
       </div>
+       <div>
+        <button class="save" onclick="insertDay()">
+          <i class="icon-plus"></i>Insert a day
+        </button>
+      </div>
+       <div>
+        <button class="save" onclick="deleteDay()">
+          <i class="icon-plus"></i>Delete a day
+        </button>
+      </div>
       <div>
         <button class="save" onclick="addDay()">
           <i class="icon-plus"></i>Add a day
@@ -420,27 +430,27 @@
         </div>
       </div>
       <div class="row">
-       <form>
-        <textarea class="content"></textarea>
-      </form>
-    </div>
-    {{ partial "modal-car-hire.html" . }}
-    <div class="row buttons">
-      <div>
-        <button class="default default-modal-btn">
-          <i class="icon-trash"></i>
-          Default
-        </button>
+        <form>
+          <textarea class="content"></textarea>
+        </form>
       </div>
-      <div>
-        <button class="save" id="save-modal-car-hire">
-          <i class="icon-floppy"></i>
-          Save
-        </button>
+      {{ partial "modal-car-hire.html" . }}
+      <div class="row buttons">
+        <div>
+          <button class="default default-modal-btn">
+            <i class="icon-trash"></i>
+            Default
+          </button>
+        </div>
+        <div>
+          <button class="save" id="save-modal-car-hire">
+            <i class="icon-floppy"></i>
+            Save
+          </button>
+        </div>
       </div>
     </div>
   </div>
-</div>
 </div> 
 
 <div id="modal-flights" class="modal">
@@ -453,29 +463,80 @@
         </div>
       </div>
       <div class="row">
-       <form>
-        <textarea class="content"></textarea>
-      </form>
-    </div>
-    {{ partial "modal-flights.html" . }}
-    <div class="row buttons">
-      <div>
-        <button class="default default-modal-btn">
-          <i class="icon-trash"></i>
-          Default
-        </button>
+        <form>
+          <textarea class="content"></textarea>
+        </form>
       </div>
-      <div>
-        <button class="save" id="save-modal-flights">
-          <i class="icon-floppy"></i>
-          Save
-        </button>
+      {{ partial "modal-flights.html" . }}
+      <div class="row buttons">
+        <div>
+          <button class="default default-modal-btn">
+            <i class="icon-trash"></i>
+            Default
+          </button>
+        </div>
+        <div>
+          <button class="save" id="save-modal-flights">
+            <i class="icon-floppy"></i>
+            Save
+          </button>
+        </div>
       </div>
     </div>
   </div>
-</div>
 </div> 
 
+<div id="modal-insert-day" class="modal">
+  <div class="modal-content">
+    <div class="container">
+      <div class="row">
+        <div class="cancel close-modal-btn">
+          <i class="icon-cancel"></i>
+        </div>
+      </div>
+      <div class="row">
+        <div>
+          <label for="insertday">Add a day</label>
+          <input id="insertday" name="insertday" value="">
+        </div>
+      </div>
+      <div class="row buttons">
+        <div>
+          <button type="button" class="save" onclick="saveModalDay()">
+            <i class="icon-floppy"></i>
+            Save
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+
+<div id="modal-delete-day" class="modal">
+  <div class="modal-content">
+    <div class="container">
+      <div class="row">
+        <div class="cancel close-modal-btn">
+          <i class="icon-cancel"></i>
+        </div>
+      </div>
+      <div class="row">
+        <div>
+          <label for="deleteday">Delete a day</label>
+          <input id="deleteday" name="deleteday" value="">
+        </div>
+      </div>
+      <div class="row buttons">
+        <div>
+          <button type="button" class="save" onclick="deleteModalDay()">
+            <i class="icon-floppy"></i>
+            Save
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
 </section>
 
 {{- end }}
@@ -733,10 +794,13 @@ function addDay(){
   // }  catch(e) {     alert(e);   };
 };
 
-function saveItinerary(){
+function saveItinerary(days){
 
   var data   = [];
-  let days   = document.getElementById('myItinerary').getElementsByClassName('containers');
+  
+  if (days === undefined) {  
+    days = document.getElementById('myItinerary').getElementsByClassName('containers');
+  };
 
   for(let i=0;i<days.length;i++) {
 
@@ -772,9 +836,9 @@ function saveItinerary(){
     let object  = {};
     object.day  = i;
     object.item = details;
-    if (details.length) {
+    // if (details.length) {
       data.push( object );
-    };
+    // };
   };
 
   let css       = document.getElementById("message");
@@ -1177,6 +1241,76 @@ function processRequest(url){
     );
 }
 
+function insertDay(){
+  let modal = document.getElementById("modal-insert-day");
+      modal.style.display = "block";
+  let input = modal.querySelector("input");
+      input.value = "";
+};
+
+function deleteDay(){
+  let modal = document.getElementById("modal-delete-day");
+      modal.style.display = "block";
+  let input = modal.querySelector("input");
+      input.value = "";
+};
+
+function deleteModalDay(){
+
+  const modal = document.getElementById("modal-delete-day");
+  
+  let index   = modal.querySelector("input").value;
+  let doc     = document.getElementById('myItinerary');
+  let days    = doc.getElementsByClassName('containers');
+  let label   = modal.querySelector("label");
+
+  if (isNaN(index) || index < 1 || index > days.length) {
+    label.innerHTML = '<div class="alert">Input not valid</div>';
+  } else {
+     
+    var newDays = [];
+
+    for (i = 0; i < days.length; i++) {
+
+      if (i == (index -1)){
+        newDays.push(days[i]);
+      };
+    };
+
+console.table(newDays);
+    modal.style.display = "none";
+    saveItinerary(newDays);
+  };
+};
+
+function saveModalDay(){
+
+  const modal = document.getElementById("modal-insert-day");
+  
+  let div;
+  let index   = modal.querySelector("input").value;
+  let doc     = document.getElementById('myItinerary');
+  let days    = doc.getElementsByClassName('containers');
+  let label   = modal.querySelector("label");
+
+  if (isNaN(index) || index < 1 || index > days.length) {
+    label.innerHTML = '<div class="alert">Input not valid</div>';
+  } else {
+     
+    for (let i = days.length; i > index; i--) {
+        days[i] = days[i-1];
+    };
+   
+   
+
+    div = document.createElement('div');
+    div.className = "containers";
+    div.innerHTML = "\n";
+    days[index].parentNode.insertBefore(div, days[index]);
+    modal.style.display = "none";
+    saveItinerary();
+  };
+};
 
 function editItem(day,index,url,obj){
 
