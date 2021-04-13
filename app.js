@@ -107,7 +107,7 @@ app.post('/import',function (req, res) {
         frontMatter.nighthalt       = (nighthalt==0) ? true : false; 
         frontMatter.id              = 'city';
         frontMatter.type            = 'city';
-        frontMatter.tags            = ['Cities',array[0] ];
+        frontMatter.tags            = ['Cities',array[0].replace(/[.]/g, '') ];
 
         let output = `---\n` 
         + yaml.safeDump(frontMatter) 
@@ -154,7 +154,7 @@ app.post('/import',function (req, res) {
         frontMatter.draft           = (web==0) ? true : false; 
         frontMatter.id              = 'state';
         frontMatter.type            = 'state';
-        frontMatter.tags            = ['States',array[0] ];
+        frontMatter.tags            = ['States',array[0].replace(/[.]/g, '') ];
 
         let output = `---\n` 
         + yaml.safeDump(frontMatter) 
@@ -196,7 +196,7 @@ app.post('/import',function (req, res) {
     frontMatter.draft           = false;
     frontMatter.id              = 'hotel';
     frontMatter.type            = 'hotels';
-    frontMatter.tags            = ['Hotels',array[2] ];
+    frontMatter.tags            = ['Hotels',array[2].replace(/[.]/g, '') ];
     frontMatter.category        = array[8];
 
     let output = `---\n` 
@@ -246,7 +246,7 @@ app.post('/import',function (req, res) {
     frontMatter.guide           = (array[12] == 1) ?  true : false;
     frontMatter.id              = 'services';
     frontMatter.type            = 'excursions';
-    frontMatter.tags            = ['Services',array[2] ];
+    frontMatter.tags            = ['Services',array[2].replace(/[.]/g, '') ];
 
     let output = `---\n` 
     + yaml.safeDump(frontMatter) 
