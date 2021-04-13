@@ -10,7 +10,7 @@ do
 	f=$REPLY    
 	echo $f
     number=$(echo "${f##*/}" | head -c 1)
-	searchstring="-excursions-"
+	searchstring="-hotels-"
    	rest=${f#*$searchstring}
 	file=$number'-'${rest}
     dir=$(echo "${f#*/}" | head -1 | sed 's:/[^/]*$::')
@@ -19,4 +19,4 @@ do
 	mv $f $new
 	#echo 'dir2='$(echo "${f#*/}" | awk -F'/' '{print $2}')
 
-done 9< <( find .  -name  "*-excursions-*" -type f -exec printf '%s\0' {} + )
+done 9< <( find .  -name  "*-hotels-*" -type f -exec printf '%s\0' {} + )
