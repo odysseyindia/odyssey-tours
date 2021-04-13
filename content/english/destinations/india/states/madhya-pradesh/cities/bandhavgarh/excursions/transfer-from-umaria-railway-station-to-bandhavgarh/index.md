@@ -15,6 +15,6 @@ id: services
 type: excursions
 tags:
   - Services
-  - Transfer from Umaria railway station to Bandhavgarh.
+  - Transfer from Umaria railway station to Bandhavgarh
 ---
 NULL
