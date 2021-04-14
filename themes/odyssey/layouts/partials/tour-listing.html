@@ -23,7 +23,8 @@
         </ul>
       </div>
       <div class="article-pricing">
-        <div class="days">{{ .Params.days }} Days</div>
+        <div class="days">
+          {{- with .Params.days }} {{ . }} {{ else }} {{ len $.Params.itinerary  }}{{ end }} Days</div>
         <div>from</div>
         <div class="price">{{ .Params.currency }} {{ .Params.cost }}</div>
         <div class="view"><a title="View this tour" href="{{ .Permalink }}">View this tour</a></div>
