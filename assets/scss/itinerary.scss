@@ -201,10 +201,14 @@
     margin-top: 0;
   }
 
-  #myItinerary {
+  #myItinerary, .intro {
     margin: 0 0.6rem;
     width: 70%; 
   }
+
+  textarea.intro-content  {
+  width: 100%;
+}
 
   .to-do-column {
     width: 30%; 

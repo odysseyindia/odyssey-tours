@@ -3,321 +3,330 @@
 
 <section id="{{ .Scratch.Get "id" | lower }}"> 
   {{ partial "heading.html" . }}
-  <div class="container">
-    <div class="row">
-      <div class="mx-auto w-50 p-3">
-        {{ .Content }}
-        <div id="message" class="alert " role="alert"></div>
-      </div>
+  
+  <div class="columns">
+   <div class="intro">
+     <div class="column-header">
+      <h4><i class="icon-search"></i>Introduction</h4>
+    </div>
+    <div>
+      <textarea class="intro-content" id="intro-content" name="intro">{{ .Content }}</textarea>
     </div>
   </div>
-
-  <div class="main-container">
-    <div class="row dossier">
-      <div>Dossier: {{ .RelPermalink }}</div>
-      <div>
-        <button class="save" onclick="saveItinerary()">
-          <i class="icon-floppy"></i>Save
-        </button>
-      </div>
-
-      <div>
-        <button  id="toggleContent" onclick="toggleContent()">
-          Compact
-        </button>
-      </div>
-       <div>
-        <button class="save" onclick="insertDay()">
-          <i class="icon-plus"></i>Insert a day
-        </button>
-      </div>
-       <div>
-        <button class="save" onclick="deleteDay()">
-          <i class="icon-plus"></i>Delete a day
-        </button>
-      </div>
-      <div>
-        <button class="save" onclick="addDay()">
-          <i class="icon-plus"></i>Add a day
-        </button>
-      </div>
-      <div>
-        <button class="showWorkspace" id="toggleWorkspace" onclick="toggleWorkspace()">
-          Use Workspace
-        </button>
-      </div>
-
-      
-    </div>
-
-    <div class="columns">
-
-      <div id="myItinerary">
-       <div class="column-header">
-        <h4><i class="icon-search"></i>Itinerary</h4>
-      </div>
-      
-
-      {{- $duplicateCities := slice }}
-      {{- $x := 0 }}
-
-      {{- range $index,$e := .Params.itinerary }}
-      <hr class="hr-text" data-content="Day {{add $index 1 }}">
-      <div class="containers">
-        {{- range $i,$v := .item }}
-        <div class="draggable" draggable="true" type="{{- if (eq $v.type "city") }}city{{- else if (eq $v.type "excursion") }}excursion{{- else if (eq $v.type "hotel") }}hotel{{- else if (eq $v.type "flight") }}flight{{- else if (eq $v.type "ferry") }}ferry{{- else if (eq $v.type "train") }}train{{- else if (eq $v.type "car-hire") }}car-hire{{- end }}" day={{ $index }} index={{ $i }} url="{{ .url }}">
-
-          <div>
-            {{- $url :=  printf "%s%s" $v.url "index.md" }}
-            {{- if (eq $v.type "city") }}
-            <i class="icon-monument"></i>
-            {{- $url =  printf "%s%s" $v.url "_index.md" }}
-            {{- else if (eq $v.type "excursion") }}
-            <i class="icon-camera"></i>
-            {{- else if (eq $v.type "hotel") }}
-            <i class="icon-bed"></i>
-            {{- else if (eq $v.type "flight") }}
-            <i class="icon-flight"></i>
-            {{- else if (eq $v.type "ferry") }}
-            <i class="icon-ferry"></i>
-            {{- else if (eq $v.type "train") }}
-            <i class="icon-train"></i>
-            {{- else if (eq $v.type "car-hire") }}
-            <i class="icon-cab"></i>
-            {{- end }}
-          </div>
-          <div class="program">
-           {{- $content := $v.content | default " " }}
-
-           {{- with $.Site.GetPage (string $url) }}
-           <div>
-            <h4>{{ .Title }}</h4>
-          </div>
-          <div class="content">
-            <div class="image">
-              {{- if (eq $v.type "city") -}}
-
-              {{- $duplicateCities = $duplicateCities | append (slice $url) }}
-              {{- $x = 0 }}
-              {{- range $duplicateCities }}
-              {{- if eq $url . }}{{ $x = add $x 1 }}{{end}} 
-              
-              {{- end -}}
-              
-              {{- if eq $x 1 -}}
-
-              {{- range first 1 (.Resources.ByType "image") }}
-              {{ partial "image.html" . }}
-              {{- end }}
-              
-              {{- else -}}
-              
-              {{- range first 1 (after (sub $x 1) (.Resources.ByType "image")) }}
-              {{ partial "image.html" . }}
-              {{- end -}}
-              
-              {{- end -}}
-              
-              {{- else -}} 
-              
-              {{- range first 1 (.Resources.ByType "image") }}
-              {{ partial "image.html" . }}
-              {{- end -}}
-              
-              {{- end }}           
-            </div>
-            <div class="mr-10 content-text details1"> 
-              <div class="content-details">
-                {{- if gt (len $v.content) 0 -}}
-
-                {{- if in (string $v.content) "\n\n" }}
-                {{ $v.content | markdownify | safeHTML }}
-                {{- else }}
-                <p>{{ $v.content | markdownify | safeHTML }}</p>
-                {{- end }}
-
-                {{- else if gt (len .Content) 0 -}}
-
-                {{- if in (string $v.content) "\n\n" }}
-                {{ .Content | markdownify | safeHTML }}
-                {{- else }}
-                <p>{{ .Content | markdownify | safeHTML }}</p>
-                {{- end }}
-
-                {{- else }}
-                <p></p>
-                {{- end }}
-              </div>
-              {{- if (eq $v.type "city") }}
-              <div class="rowdetails"> 
-              </div>
-              {{- else if (eq $v.type "excursion") }}
-              <div class="rowdetails  {{- with $v.date }}show{{ end }}">
-                <div>Date:  </div> 
-                <div class="details" attr="date" value="{{ $v.date }}"> {{- with $v.date }}{{ dateFormat  "02-01-2006" . }}{{ end }}</div>
-                <div>ETD:  </div> 
-                <div class="details" attr="etd" value="{{ $v.etd }}">{{ with $v.etd }} {{ dateFormat  "15:04" . }} {{ end }}</div>
-                <div>Duration:  </div> 
-                <div class="details" attr="duration">{{ $v.duration }}</div>
-              </div>
-              {{- else if (eq $v.type "hotel") }}
-              <div class="rowdetails {{- with $v.checkInDate }}show{{ end }}">
-                <div>Check-in:  </div> 
-                <div class="details" attr="checkInDate" value="{{ $v.checkInDate }}">{{- with $v.checkInDate }}{{ dateFormat  "02-01-2006" . }} {{ end }}</div>
-                <div>ETA: </div> 
-                <div class="details" attr="checkInTime" value="{{ $v.checkInTime }}">{{ with $v.checkInTime }} {{ dateFormat  "15:04" . }} {{ end }}</div>
-                <div>Check-out: </div> 
-                <div class="details" attr="checkOutDate" value="{{ $v.checkOutDate }}">{{ with $v.checkOutDate }} {{ dateFormat  "02-01-2006" . }}{{ end }}</div>
-                <div>ETD: </div> 
-                <div class="details" attr="checkOutTime" value="{{ $v.checkOutTime }}">{{ with $v.checkOutTime }} {{ dateFormat  "15:04" . }} {{ end }}</div>
-              </div>
-              {{- else if (eq $v.type "flight") }}
-              <div class="rowdetails {{ with $v.date }}show{{ end }}">
-                <div>Date:  </div> 
-                <div class="details" attr="date" value="{{ $v.date }}">{{ with $v.date }} {{ dateFormat  "02-01-2006" . }} {{ end }}</div>
-                <div>Flight No:  </div> 
-                <div class="details" attr="flightNo">{{ $v.flightNo }}</div>
-                <div>From: </div> 
-                <div class="details" attr="from"> {{ $v.from }}</div>
-                <div>To:  </div> 
-                <div class="details" attr="to">{{ $v.to }}</div>
-                <div>ETD: </div> 
-                <div class="details" attr="etd" value="{{ $v.etd }}">{{ with $v.etd }} {{ dateFormat  "15:04" . }} {{ end }}</div>
-                <div>ETA:  </div> 
-                <div class="details" attr="eta" value="{{ $v.eta }}">{{ with $v.eta }} {{ dateFormat  "15:04" . }} {{ end }}</div>
-              </div>
-              {{- else if (eq $v.type "train") }}
-              <div class="rowdetails {{ with $v.date }}show{{ end }}">
-                <div>Date:  </div> 
-                <div class="details" attr="date" value="{{ $v.date }}">{{ with $v.date }} {{ dateFormat  "02-01-2006" . }}{{ end }}</div>
-                <div>Train No: </div> 
-                <div class="details" attr="trainNo">{{ $v.trainNo }}</div>
-                <div>Train Name:  </div> 
-                <div class="details" attr="train">{{ $v.train }}</div>
-                <div>From:  </div> 
-                <div class="details" attr="from">{{ $v.from }}</div>
-                <div>To:  </div> 
-                <div class="details" attr="to">{{ $v.to }}</div>
-                <div>ETD:  </div> 
-                <div class="details" attr="etd" value="{{ $v.etd }}">{{ with $v.etd }} {{ dateFormat  "15:04" . }} {{ end }}</div>
-                <div>ETA:  </div> 
-                <div class="details" attr="eta" value="{{ $v.eta }}">{{ with $v.eta }} {{ dateFormat  "15:04" . }} {{ end }}</div>
-              </div>
-              {{- else if (eq $v.type "car-hire") }}
-              <div class="rowdetails {{ with $v.date }}show{{ end }}">
-                <div>Date: </div> 
-                <div class="details" attr="date" value="{{ $v.date }}">{{ with $.date }} {{ dateFormat  "02-01-2006" . }} {{ end }}</div>
-                <div>From:  </div> 
-                <div class="details" attr="city">{{ $v.city }}</div>
-                <div>Days: </div> 
-                <div class="details" attr="duration"> {{ $v.duration }}</div>
-              </div>
-              {{- end }}  
-            </div>            
-          </div>
-          {{ end }}
-        </div>
-        <div class="editButton">
-          <i class="icon-edit-alt"></i>
-        </div>
-      </div>
-      {{- end }}
-    </div>
-    {{- end }}
-
-    
-
-    <div id="addDay"></div>
-  </div>
-
   <div class="to-do-column">
     <div class="column-header">
-      <h4><i class="icon-search"></i>Search</h4>
+      <h4><i class="icon-spin3"></i>Data</h4>
+    </div>
+  </div>
+  <div id="message" class="alert " role="alert"></div>
+</div>
+
+<div class="main-container">
+  <div class="row dossier">
+    <div>Dossier: {{ .RelPermalink }}</div>
+    <div>
+      <button class="save" onclick="saveItinerary()">
+        <i class="icon-floppy"></i>Save
+      </button>
     </div>
 
-    <div  class="select-flex">
-      <div class="custom-select">
-        <label for="cities">City</label>
-        <select class="maxwidth" id="cities" name="cities">
-          <option value="">Select a city</option>
-          {{ range ( sort (where (where .Site.Pages "Section" "destinations") ".Params.id" "city") ".Title" "asc" ) }}
-          <option value="{{ .RelPermalink }}">{{ .Title }} </option>
-          {{ end }}
-        </select>
-        <i class="select icon icon-monument" onclick="addCity()"></i>
+    <div>
+      <button  id="toggleContent" onclick="toggleContent()">
+        Compact
+      </button>
+    </div>
+    <div>
+      <button class="save" onclick="insertDay()">
+        <i class="icon-plus"></i>Insert a day
+      </button>
+    </div>
+    <div>
+      <button class="save" onclick="deleteDay()">
+        <i class="icon-plus"></i>Delete a day
+      </button>
+    </div>
+    <div>
+      <button class="save" onclick="addDay()">
+        <i class="icon-plus"></i>Add a day
+      </button>
+    </div>
+    <div>
+      <button class="showWorkspace" id="toggleWorkspace" onclick="toggleWorkspace()">
+        Use Workspace
+      </button>
+    </div>
+
+
+  </div>
+
+  <div class="columns">
+
+    <div id="myItinerary">
+     <div class="column-header">
+      <h4><i class="icon-search"></i>Itinerary</h4>
+    </div>
+
+
+    {{- $duplicateCities := slice }}
+    {{- $x := 0 }}
+
+    {{- range $index,$e := .Params.itinerary }}
+    <hr class="hr-text" data-content="Day {{add $index 1 }}">
+    <div class="containers">
+      {{- range $i,$v := .item }}
+      <div class="draggable" draggable="true" type="{{- if (eq $v.type "city") }}city{{- else if (eq $v.type "excursion") }}excursion{{- else if (eq $v.type "hotel") }}hotel{{- else if (eq $v.type "flight") }}flight{{- else if (eq $v.type "ferry") }}ferry{{- else if (eq $v.type "train") }}train{{- else if (eq $v.type "car-hire") }}car-hire{{- end }}" day={{ $index }} index={{ $i }} url="{{ .url }}">
+
+        <div>
+          {{- $url :=  printf "%s%s" $v.url "index.md" }}
+          {{- if (eq $v.type "city") }}
+          <i class="icon-monument"></i>
+          {{- $url =  printf "%s%s" $v.url "_index.md" }}
+          {{- else if (eq $v.type "excursion") }}
+          <i class="icon-camera"></i>
+          {{- else if (eq $v.type "hotel") }}
+          <i class="icon-bed"></i>
+          {{- else if (eq $v.type "flight") }}
+          <i class="icon-flight"></i>
+          {{- else if (eq $v.type "ferry") }}
+          <i class="icon-ferry"></i>
+          {{- else if (eq $v.type "train") }}
+          <i class="icon-train"></i>
+          {{- else if (eq $v.type "car-hire") }}
+          <i class="icon-cab"></i>
+          {{- end }}
+        </div>
+        <div class="program">
+         {{- $content := $v.content | default " " }}
+
+         {{- with $.Site.GetPage (string $url) }}
+         <div>
+          <h4>{{ .Title }}</h4>
+        </div>
+        <div class="content">
+          <div class="image">
+            {{- if (eq $v.type "city") -}}
+
+            {{- $duplicateCities = $duplicateCities | append (slice $url) }}
+            {{- $x = 0 }}
+            {{- range $duplicateCities }}
+            {{- if eq $url . }}{{ $x = add $x 1 }}{{end}} 
+
+            {{- end -}}
+
+            {{- if eq $x 1 -}}
+
+            {{- range first 1 (.Resources.ByType "image") }}
+            {{ partial "image.html" . }}
+            {{- end }}
+
+            {{- else -}}
+
+            {{- range first 1 (after (sub $x 1) (.Resources.ByType "image")) }}
+            {{ partial "image.html" . }}
+            {{- end -}}
+
+            {{- end -}}
+
+            {{- else -}} 
+
+            {{- range first 1 (.Resources.ByType "image") }}
+            {{ partial "image.html" . }}
+            {{- end -}}
+
+            {{- end }}           
+          </div>
+          <div class="mr-10 content-text details1"> 
+            <div class="content-details">
+              {{- if gt (len $v.content) 0 -}}
+
+              {{- if in (string $v.content) "\n\n" }}
+              {{ $v.content | markdownify | safeHTML }}
+              {{- else }}
+              <p>{{ $v.content | markdownify | safeHTML }}</p>
+              {{- end }}
+
+              {{- else if gt (len .Content) 0 -}}
+
+              {{- if in (string $v.content) "\n\n" }}
+              {{ .Content | markdownify | safeHTML }}
+              {{- else }}
+              <p>{{ .Content | markdownify | safeHTML }}</p>
+              {{- end }}
+
+              {{- else }}
+              <p></p>
+              {{- end }}
+            </div>
+            {{- if (eq $v.type "city") }}
+            <div class="rowdetails"> 
+            </div>
+            {{- else if (eq $v.type "excursion") }}
+            <div class="rowdetails  {{- with $v.date }}show{{ end }}">
+              <div>Date:  </div> 
+              <div class="details" attr="date" value="{{ $v.date }}"> {{- with $v.date }}{{ dateFormat  "02-01-2006" . }}{{ end }}</div>
+              <div>ETD:  </div> 
+              <div class="details" attr="etd" value="{{ $v.etd }}">{{ with $v.etd }} {{ dateFormat  "15:04" . }} {{ end }}</div>
+              <div>Duration:  </div> 
+              <div class="details" attr="duration">{{ $v.duration }}</div>
+            </div>
+            {{- else if (eq $v.type "hotel") }}
+            <div class="rowdetails {{- with $v.checkInDate }}show{{ end }}">
+              <div>Check-in:  </div> 
+              <div class="details" attr="checkInDate" value="{{ $v.checkInDate }}">{{- with $v.checkInDate }}{{ dateFormat  "02-01-2006" . }} {{ end }}</div>
+              <div>ETA: </div> 
+              <div class="details" attr="checkInTime" value="{{ $v.checkInTime }}">{{ with $v.checkInTime }} {{ dateFormat  "15:04" . }} {{ end }}</div>
+              <div>Check-out: </div> 
+              <div class="details" attr="checkOutDate" value="{{ $v.checkOutDate }}">{{ with $v.checkOutDate }} {{ dateFormat  "02-01-2006" . }}{{ end }}</div>
+              <div>ETD: </div> 
+              <div class="details" attr="checkOutTime" value="{{ $v.checkOutTime }}">{{ with $v.checkOutTime }} {{ dateFormat  "15:04" . }} {{ end }}</div>
+            </div>
+            {{- else if (eq $v.type "flight") }}
+            <div class="rowdetails {{ with $v.date }}show{{ end }}">
+              <div>Date:  </div> 
+              <div class="details" attr="date" value="{{ $v.date }}">{{ with $v.date }} {{ dateFormat  "02-01-2006" . }} {{ end }}</div>
+              <div>Flight No:  </div> 
+              <div class="details" attr="flightNo">{{ $v.flightNo }}</div>
+              <div>From: </div> 
+              <div class="details" attr="from"> {{ $v.from }}</div>
+              <div>To:  </div> 
+              <div class="details" attr="to">{{ $v.to }}</div>
+              <div>ETD: </div> 
+              <div class="details" attr="etd" value="{{ $v.etd }}">{{ with $v.etd }} {{ dateFormat  "15:04" . }} {{ end }}</div>
+              <div>ETA:  </div> 
+              <div class="details" attr="eta" value="{{ $v.eta }}">{{ with $v.eta }} {{ dateFormat  "15:04" . }} {{ end }}</div>
+            </div>
+            {{- else if (eq $v.type "train") }}
+            <div class="rowdetails {{ with $v.date }}show{{ end }}">
+              <div>Date:  </div> 
+              <div class="details" attr="date" value="{{ $v.date }}">{{ with $v.date }} {{ dateFormat  "02-01-2006" . }}{{ end }}</div>
+              <div>Train No: </div> 
+              <div class="details" attr="trainNo">{{ $v.trainNo }}</div>
+              <div>Train Name:  </div> 
+              <div class="details" attr="train">{{ $v.train }}</div>
+              <div>From:  </div> 
+              <div class="details" attr="from">{{ $v.from }}</div>
+              <div>To:  </div> 
+              <div class="details" attr="to">{{ $v.to }}</div>
+              <div>ETD:  </div> 
+              <div class="details" attr="etd" value="{{ $v.etd }}">{{ with $v.etd }} {{ dateFormat  "15:04" . }} {{ end }}</div>
+              <div>ETA:  </div> 
+              <div class="details" attr="eta" value="{{ $v.eta }}">{{ with $v.eta }} {{ dateFormat  "15:04" . }} {{ end }}</div>
+            </div>
+            {{- else if (eq $v.type "car-hire") }}
+            <div class="rowdetails {{ with $v.date }}show{{ end }}">
+              <div>Date: </div> 
+              <div class="details" attr="date" value="{{ $v.date }}">{{ with $.date }} {{ dateFormat  "02-01-2006" . }} {{ end }}</div>
+              <div>From:  </div> 
+              <div class="details" attr="city">{{ $v.city }}</div>
+              <div>Days: </div> 
+              <div class="details" attr="duration"> {{ $v.duration }}</div>
+            </div>
+            {{- end }}  
+          </div>            
+        </div>
+        {{ end }}
+      </div>
+      <div class="editButton">
+        <i class="icon-edit-alt"></i>
       </div>
     </div>
+    {{- end }}
+  </div>
+  {{- end }}
 
-    <div class="select-flex">
-      <div class="custom-select" id="selectHotels">
-        <label for="hotels">Hotels</label>
-        <select class="maxwidth" id="hotels" name="hotels">
-        </select>
-        <i class="select icon icon-bed" onclick="addHotel()"></i>
-      </div>
+
+
+  <div id="addDay"></div>
+</div>
+
+<div class="to-do-column">
+  <div class="column-header">
+    <h4><i class="icon-search"></i>Search</h4>
+  </div>
+
+  <div  class="select-flex">
+    <div class="custom-select">
+      <label for="cities">City</label>
+      <select class="maxwidth" id="cities" name="cities">
+        <option value="">Select a city</option>
+        {{ range ( sort (where (where .Site.Pages "Section" "destinations") ".Params.id" "city") ".Title" "asc" ) }}
+        <option value="{{ .RelPermalink }}">{{ .Title }} </option>
+        {{ end }}
+      </select>
+      <i class="select icon icon-monument" onclick="addCity()"></i>
     </div>
+  </div>
 
-    <div class="select-flex">
-      <div class="custom-select" id="selectExcursions">
-        <label for="excursions">Excursions</label>
-        <select class="maxwidth" id="excursions" name="excursions">
-        </select>
-        <i class="select icon icon-camera" onclick="addExcursion()"></i>
-      </div>
+  <div class="select-flex">
+    <div class="custom-select" id="selectHotels">
+      <label for="hotels">Hotels</label>
+      <select class="maxwidth" id="hotels" name="hotels">
+      </select>
+      <i class="select icon icon-bed" onclick="addHotel()"></i>
     </div>
+  </div>
 
-    <div class="select-flex">
-      <div class="custom-select" id="selectCarHire">
-        <label for="carhire">Car hire</label>
-        <select class="maxwidth" id="carhire" name="carhire">
-        </select>
-      </div>
+  <div class="select-flex">
+    <div class="custom-select" id="selectExcursions">
+      <label for="excursions">Excursions</label>
+      <select class="maxwidth" id="excursions" name="excursions">
+      </select>
+      <i class="select icon icon-camera" onclick="addExcursion()"></i>
     </div>
+  </div>
 
-    <div class="select-flex">
-      <div class="custom-select" id="selectCars">
-        <label for="cars">Cars</label>
-        <select class="maxwidth" id="cars" name="cars">
-        </select>
-        <i class="select icon icon-cab"  onclick="addCar()"></i>
-      </div>
+  <div class="select-flex">
+    <div class="custom-select" id="selectCarHire">
+      <label for="carhire">Car hire</label>
+      <select class="maxwidth" id="carhire" name="carhire">
+      </select>
     </div>
+  </div>
 
-    <div class="select-flex">
-      <div class="custom-select" id="selectFlights">
-        <label for="flights">Flights</label>
-        <select class="maxwidth" id="flights" name="flights">
-        </select>
-        <i class="select icon icon-flight"  onclick="addFlight()"></i>
-      </div>
+  <div class="select-flex">
+    <div class="custom-select" id="selectCars">
+      <label for="cars">Cars</label>
+      <select class="maxwidth" id="cars" name="cars">
+      </select>
+      <i class="select icon icon-cab"  onclick="addCar()"></i>
     </div>
+  </div>
 
-    <div class="select-flex">
-      <div class="custom-select" id="selectTrains">
-        <label for="trains">Trains</label>
-        <select class="maxwidth" id="trains" name="trains">
-        </select>
-        <i class="select icon icon-train"  onclick="addTrain()"></i>
-      </div>
+  <div class="select-flex">
+    <div class="custom-select" id="selectFlights">
+      <label for="flights">Flights</label>
+      <select class="maxwidth" id="flights" name="flights">
+      </select>
+      <i class="select icon icon-flight"  onclick="addFlight()"></i>
     </div>
+  </div>
 
-    <div id="image"></div>
-    <div id="info"></div>
+  <div class="select-flex">
+    <div class="custom-select" id="selectTrains">
+      <label for="trains">Trains</label>
+      <select class="maxwidth" id="trains" name="trains">
+      </select>
+      <i class="select icon icon-train"  onclick="addTrain()"></i>
+    </div>
+  </div>
 
+  <div id="image"></div>
+  <div id="info"></div>
+
+  <div class="column-header">
+    <h4><i class="icon-spin3"></i>Workspace</h4>
+  </div>
+  <div class="containers" id="workspace">
+  </div>
+
+  <div class="trash-column">
     <div class="column-header">
-      <h4><i class="icon-spin3"></i>Workspace</h4>
+      <h4><i class="icon-trash"  onclick="emptyTrash()"></i> Trash</h4>
     </div>
-    <div class="containers" id="workspace">
+    <div class="containers" id="trash">
     </div>
-
-    <div class="trash-column">
-      <div class="column-header">
-        <h4><i class="icon-trash"  onclick="emptyTrash()"></i> Trash</h4>
-      </div>
-      <div class="containers" id="trash">
-      </div>
-    </div>
-  </div> 
+  </div>
+</div> 
 </div>
 </div>
 
@@ -794,51 +803,53 @@ function addDay(){
   // }  catch(e) {     alert(e);   };
 };
 
-function saveItinerary(days){
+function saveItinerary(day){
 
   var data   = [];
   
-  if (days === undefined) {  
-    days = document.getElementById('myItinerary').getElementsByClassName('containers');
-  };
+  // document.getElementById('intro-content');
+  days = document.getElementById('myItinerary').getElementsByClassName('containers');
+
 
   for(let i=0;i<days.length;i++) {
 
-    var items   = days[i].getElementsByClassName('content');
-    for(let j=0;j<items.length;j++) {
-      if (items[j].style.display === "none") {
-        items[j].style.display = "flex";
-      }
-    };
-
-    var details = [];
-    var items   = days[i].getElementsByClassName('draggable');
-
-    for(let j=0;j<items.length;j++) {
-
-      var obj = {};
-      obj.type    = items[j].getAttribute("type");
-      obj.url     = items[j].getAttribute("url");
-      let content = items[j].getElementsByClassName('content-text');
-      obj.content = (content.length != 0) ? content[0].innerText.trim().replace(/(`)/gm,"'") : "";
-
-      let inputs  = items[j].getElementsByClassName('details');
-
-      for(let k=0;k<inputs.length;k++) {
-        let attr  = inputs[k].getAttribute("attr");
-        let value = inputs[k].getAttribute("value");
-        obj[attr] = (value != null) ? new Date(value) : inputs[k].innerText ;
+    if (i != day){
+      var items   = days[i].getElementsByClassName('content');
+      for(let j=0;j<items.length;j++) {
+        if (items[j].style.display === "none") {
+          items[j].style.display = "flex";
+        }
       };
 
-      details.push(obj);
-    };
+      var details = [];
+      var items   = days[i].getElementsByClassName('draggable');
 
-    let object  = {};
-    object.day  = i;
-    object.item = details;
-    // if (details.length) {
-      data.push( object );
-    // };
+      for(let j=0;j<items.length;j++) {
+
+        var obj = {};
+        obj.type    = items[j].getAttribute("type");
+        obj.url     = items[j].getAttribute("url");
+        let content = items[j].getElementsByClassName('content-text');
+        obj.content = (content.length != 0) ? content[0].innerText.trim().replace(/(`)/gm,"'") : "";
+
+        let inputs  = items[j].getElementsByClassName('details');
+
+        for(let k=0;k<inputs.length;k++) {
+          let attr  = inputs[k].getAttribute("attr");
+          let value = inputs[k].getAttribute("value");
+          obj[attr] = (value != null) ? new Date(value) : inputs[k].innerText ;
+        };
+
+        details.push(obj);
+      };
+
+      let object  = {};
+      object.day  = i;
+      object.item = details;
+      // if (details.length) {
+        data.push( object );
+      // };
+    };
   };
 
   let css       = document.getElementById("message");
@@ -900,7 +911,9 @@ function displayHotels(city){
 
       if (items.length > 0) {
         for(let i=0;i<items.length;i++) {
-          sel += "<option value='"+items[i].permalink+"'>"+items[i].title+"</option>";
+          if (items[i].category.length > 0){ 
+            sel += "<option value='"+items[i].permalink+"'>"+items[i].title+"</option>";
+          };
         }
 
         document.getElementById("selectHotels").style.visibility = "visible"; 
@@ -1243,16 +1256,16 @@ function processRequest(url){
 
 function insertDay(){
   let modal = document.getElementById("modal-insert-day");
-      modal.style.display = "block";
+  modal.style.display = "block";
   let input = modal.querySelector("input");
-      input.value = "";
+  input.value = "";
 };
 
 function deleteDay(){
   let modal = document.getElementById("modal-delete-day");
-      modal.style.display = "block";
+  modal.style.display = "block";
   let input = modal.querySelector("input");
-      input.value = "";
+  input.value = "";
 };
 
 function deleteModalDay(){
@@ -1266,20 +1279,9 @@ function deleteModalDay(){
 
   if (isNaN(index) || index < 1 || index > days.length) {
     label.innerHTML = '<div class="alert">Input not valid</div>';
-  } else {
-     
-    var newDays = [];
-
-    for (i = 0; i < days.length; i++) {
-
-      if (i == (index -1)){
-        newDays.push(days[i]);
-      };
-    };
-
-console.table(newDays);
+  } else {   
     modal.style.display = "none";
-    saveItinerary(newDays);
+    saveItinerary(index-1);
   };
 };
 
@@ -1296,12 +1298,10 @@ function saveModalDay(){
   if (isNaN(index) || index < 1 || index > days.length) {
     label.innerHTML = '<div class="alert">Input not valid</div>';
   } else {
-     
+
     for (let i = days.length; i > index; i--) {
-        days[i] = days[i-1];
+      days[i] = days[i-1];
     };
-   
-   
 
     div = document.createElement('div');
     div.className = "containers";

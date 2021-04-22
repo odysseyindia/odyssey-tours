@@ -4,7 +4,7 @@ translationKey: tiruchirappalli
 defaultDays: 0
 longitude: 10.808611111
 latitude: 78.691111111
-draft: true
+draft: false
 nighthalt: false
 id: city
 type: city

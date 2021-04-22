@@ -2,7 +2,7 @@
 {     
   "count" : "{{ len .Data.Pages }}"
   ,"items" : [
-  {{ range $i, $e := .Data.Pages }}
+  {{ range $i, $e :=  .Data.Pages   }}
       {{ if $i }}, {{ end }}{{ .Render "item" }}
   {{ end }}
   ]

@@ -7,7 +7,7 @@ var   getDirName  = require('path').dirname;
 const yaml 			  = require('js-yaml');
 var   app 			  = express();
 const port        = 1314;
-const root        = "/home/alfred/webapps/odyssey-tours/"
+const root        = "/data/webapps/odyssey-tours/"
 const dir         = root+"content/english";
 
 function urlize(url){
@@ -110,11 +110,11 @@ app.post('/import',function (req, res) {
         frontMatter.tags            = ['Cities',array[0].replace(/[.]/g, '') ];
 
         let output = `---\n` 
-        + yaml.safeDump(frontMatter) 
+        + yaml.dump(frontMatter) 
         + "---\n" 
         + array[1].replace(/[`]/g, "'");
 
-        var test = yaml.safeDump( frontMatter );
+        var test = yaml.dump( frontMatter );
         if (typeof test === "undefined"){
           console.log(city+' has an issue');
           console.table( array );
@@ -157,7 +157,7 @@ app.post('/import',function (req, res) {
         frontMatter.tags            = ['States',array[0].replace(/[.]/g, '') ];
 
         let output = `---\n` 
-        + yaml.safeDump(frontMatter) 
+        + yaml.dump(frontMatter) 
         + "---\n" 
         + (array[2] == 'NULL' ? '' : array[2].replace(/[`]/g, "'"));
 
@@ -200,7 +200,7 @@ app.post('/import',function (req, res) {
     frontMatter.category        = array[8];
 
     let output = `---\n` 
-    + yaml.safeDump(frontMatter) 
+    + yaml.dump(frontMatter) 
     + "---\n" 
     + (array[5] == 'NULL' ? '' : array[5].replace(/[`]/g, "'"));
 
@@ -249,7 +249,7 @@ app.post('/import',function (req, res) {
     frontMatter.tags            = ['Services',array[2].replace(/[.]/g, '') ];
 
     let output = `---\n` 
-    + yaml.safeDump(frontMatter) 
+    + yaml.dump(frontMatter) 
     + "---\n" 
     + writeup;
 
@@ -371,12 +371,12 @@ app.post('/ajax',function (req, res) {
   try {
 
     let contents = fileContents.split("---");
-    let data = yaml.safeLoadAll(contents[1]);
+    let data = yaml.loadAll(contents[1]);
 
     data[0].itinerary =  request.data;
 
     let output = `---\n` 
-    + yaml.safeDump(data[0]) 
+    + yaml.dump(data[0]) 
     + "---\n" 
     + contents[2].replace(/[`]/g, "'");
 
@@ -443,7 +443,7 @@ app.post('/save',function (req, res) {
   };
 
   try {
-    let data = yaml.safeLoadAll(fileContents);
+    let data = yaml.loadAll(fileContents);
 
     data[0].name       =  request.data.name;
     data[0].stage      =  request.data.stage;
@@ -454,7 +454,7 @@ app.post('/save',function (req, res) {
     data[0].depdate    =  request.data.depdate;
 
     let output = `---\n` 
-    + yaml.safeDump(data[0]) 
+    + yaml.dump(data[0]) 
     + "---\n" 
     + data[1].replace(/[`]/g, "'");
 
@@ -484,7 +484,7 @@ app.post('/edit',function (req, res) {
    }
  });
 
-  let output = `---\n` + yaml.safeDump(request.data[0]) + "---\n" + request.data[1].replace(/[`]/g, "'");
+  let output = `---\n` + yaml.dump(request.data[0]) + "---\n" + request.data[1].replace(/[`]/g, "'");
 
   try {
    fs.writeFileSync(path, output, 'utf8', (err) => {       
