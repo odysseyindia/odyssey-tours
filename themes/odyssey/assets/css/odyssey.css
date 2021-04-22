@@ -170,6 +170,22 @@
   content: '\e81e'; }
 
 /* '' */
+.icon-plus-squared:before {
+  content: '\e81f'; }
+
+/* '' */
+.icon-minus:before {
+  content: '\e820'; }
+
+/* '' */
+.icon-minus-squared:before {
+  content: '\e821'; }
+
+/* '' */
+.icon-wrench:before {
+  content: '\e822'; }
+
+/* '' */
 .icon-monument:before {
   content: '\e827'; }
 
@@ -190,6 +206,10 @@
   content: '\f0c5'; }
 
 /* '' */
+.icon-list-numbered:before {
+  content: '\f0cb'; }
+
+/* '' */
 .icon-circle-empty:before {
   content: '\f10c'; }
 

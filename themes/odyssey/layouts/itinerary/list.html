@@ -10,12 +10,15 @@
       <h4><i class="icon-search"></i>Introduction</h4>
     </div>
     <div>
-      <textarea class="intro-content" id="intro-content" name="intro">{{ .Content }}</textarea>
+      <textarea class="intro-content" id="intro-content" name="intro">{{ .Content | plainify }}</textarea>
     </div>
   </div>
   <div class="to-do-column">
     <div class="column-header">
-      <h4><i class="icon-spin3"></i>Data</h4>
+      <h4><i class="icon-spin3"></i>Subtitle</h4>
+    </div>
+     <div>
+      <input id="intro-subtitle" name="subtitle" value="{{ .Params.subtitle }}">
     </div>
   </div>
   <div id="message" class="alert " role="alert"></div>
@@ -25,35 +28,29 @@
   <div class="row dossier">
     <div>Dossier: {{ .RelPermalink }}</div>
     <div>
-      <button class="save" onclick="saveItinerary()">
+      <a  href="#0" class="button" onclick="saveItinerary()">
         <i class="icon-floppy"></i>Save
-      </button>
-    </div>
-
-    <div>
-      <button  id="toggleContent" onclick="toggleContent()">
-        Compact
-      </button>
-    </div>
-    <div>
-      <button class="save" onclick="insertDay()">
+      </a>
+    
+      <a href="#0" class="button" id="toggleContent" onclick="toggleContent()">
+         <i class="icon-plus-squared"></i>Compact
+      </a>
+    
+      <a href="#0" class="button" onclick="insertDay()">
         <i class="icon-plus"></i>Insert a day
-      </button>
-    </div>
-    <div>
-      <button class="save" onclick="deleteDay()">
-        <i class="icon-plus"></i>Delete a day
-      </button>
-    </div>
-    <div>
-      <button class="save" onclick="addDay()">
-        <i class="icon-plus"></i>Add a day
-      </button>
-    </div>
-    <div>
-      <button class="showWorkspace" id="toggleWorkspace" onclick="toggleWorkspace()">
-        Use Workspace
-      </button>
+      </a>
+    
+      <a  href="#0" class="button" onclick="deleteDay()">
+        <i class="icon-minus"></i>Delete a day
+      </a>
+    
+      <a href="#0" class="button" onclick="addDay()">
+        <i class="icon-plus"></i>Append a day
+      </a>
+    
+      <a href="#0" class="button showWorkspace" id="toggleWorkspace" onclick="toggleWorkspace()">
+         <i class="icon-wrench"></i>Use Workspace
+      </a>
     </div>
 
 
@@ -752,10 +749,10 @@ function toggleContent(){
   let days   = document.getElementById('myItinerary').getElementsByClassName('containers');
 
   let element = document.getElementById('toggleContent');
-  if (element.innerHTML === "Expand") {
-    element.innerHTML = "Compact";
+  if (element.innerHTML === '<i class="icon-plus-squared"></i>Expand') {
+    element.innerHTML = '<i class="icon-minus-squared"></i>Compact';
   } else {
-    element.innerHTML = "Expand";
+    element.innerHTML = '<i class="icon-plus-squared"></i>Expand';
   }
 
   for(let i=0;i<days.length;i++) {
@@ -775,10 +772,10 @@ function toggleWorkspace(){
 
   let element = document.getElementById('toggleWorkspace');
   element.classList.toggle("showWorkspace");
-  if (element.innerHTML === "Use Itinerary") {
-    element.innerHTML = "Use Workspace";
+  if (element.innerText === "Use Itinerary") {
+    element.innerHTML = '<i class="icon-wrench"></i>Use Workspace';
   } else {
-    element.innerHTML = "Use Itinerary";
+    element.innerHTML = '<i class="icon-list-numbered"></i>Use Itinerary';
   }
 };
 
@@ -807,8 +804,9 @@ function saveItinerary(day){
 
   var data   = [];
   
-  // document.getElementById('intro-content');
-  days = document.getElementById('myItinerary').getElementsByClassName('containers');
+  var   intro    = document.getElementById('intro-content').value;
+  var   subtitle = document.getElementById('intro-subtitle').value;
+  const days     = document.getElementById('myItinerary').getElementsByClassName('containers');
 
 
   for(let i=0;i<days.length;i++) {
@@ -861,7 +859,9 @@ function saveItinerary(day){
     method: 'POST',
     data:   JSON.stringify({ 
       "file": {{ .RelPermalink }}, 
-      "data": data 
+      "data": data,
+      "intro": intro,
+      "subtitle": subtitle
     }) 
   }).then(
 

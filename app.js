@@ -374,11 +374,13 @@ app.post('/ajax',function (req, res) {
     let data = yaml.loadAll(contents[1]);
 
     data[0].itinerary =  request.data;
+    data[0].subtitle  =  request.subtitle;
+    intro             =  request.intro;
 
     let output = `---\n` 
     + yaml.dump(data[0]) 
     + "---\n" 
-    + contents[2].replace(/[`]/g, "'");
+    + intro.replace(/[`]/g, "'"); // contents[2]
 
     fs.writeFileSync(file, output, 'utf8', (err) => {       
      if (err) throw err; 
@@ -412,7 +414,7 @@ app.post('/create',function (req, res) {
   var title   = request.title;
   var folder  = urlize(tour);
   var file    = dir + "/tim/itineraries/" + folder + '/_index.md'; 
-  let output  = "---\ntitle: "+title+ "\ntranslationKey: "+folder+"\ntype: itinerary\ntour: "+tour+"\nitinerary: \n  - day: 0\n---\n" ;
+  let output  = "---\ntitle: "+title+"\nsubtitle: \ntranslationKey: "+folder+"\ntype: itinerary\ntour: "+tour+"\nitinerary: \n  - day: 0\n---\n" ;
 
   // console.log("file " ,file);
 

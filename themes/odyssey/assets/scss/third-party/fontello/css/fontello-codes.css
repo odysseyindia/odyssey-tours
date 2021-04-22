@@ -35,11 +35,16 @@
 .icon-forward-2:before { content: '\e81c'; } /* '' */
 .icon-edit-alt:before { content: '\e81d'; } /* '' */
 .icon-floppy:before { content: '\e81e'; } /* '' */
+.icon-plus-squared:before { content: '\e81f'; } /* '' */
+.icon-minus:before { content: '\e820'; } /* '' */
+.icon-minus-squared:before { content: '\e821'; } /* '' */
+.icon-wrench:before { content: '\e822'; } /* '' */
 .icon-monument:before { content: '\e827'; } /* '' */
 .icon-spin3:before { content: '\e832'; } /* '' */
 .icon-instagram-circled:before { content: '\f05e'; } /* '' */
 .icon-trash:before { content: '\f083'; } /* '' */
 .icon-docs:before { content: '\f0c5'; } /* '' */
+.icon-list-numbered:before { content: '\f0cb'; } /* '' */
 .icon-circle-empty:before { content: '\f10c'; } /* '' */
 .icon-circle:before { content: '\f111'; } /* '' */
 .icon-folder-empty:before { content: '\f114'; } /* '' */
