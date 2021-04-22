@@ -98,8 +98,7 @@
     color: white;
     border-radius: 50%;
     padding: 5px;
-    margin: 5px;
-      color: black;
+    color: black;
   }
   .icon-bed {
     background-color: orange;
@@ -169,8 +168,16 @@
   width: 100%;
 }
 
+input#intro-subtitle {
+  width: inherit;
+  }
+
 #intro-subtitle {
   border: 0;
+}
+
+.search-label {
+  width: 20%;
 }
 
   .to-do-column {
@@ -284,6 +291,8 @@ input {
   font-family: "Roboto Slab", serif;
   height: 4rem;
 }
+
+
 
 .select.icon {
   background-color: blue;
@@ -405,6 +414,8 @@ input {
     }
     button.save {
       background-color: red;
+      color: $white;
+      font-weight: bold;
     }
     .cancel {
       width: 100%;

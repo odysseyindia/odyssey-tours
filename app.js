@@ -373,9 +373,13 @@ app.post('/ajax',function (req, res) {
     let contents = fileContents.split("---");
     let data = yaml.loadAll(contents[1]);
 
-    data[0].itinerary =  request.data;
-    data[0].subtitle  =  request.subtitle;
-    intro             =  request.intro;
+let test = request.data[2];
+console.table(test.item[1]);
+
+    data[0].itinerary  =  request.data;
+    data[0].highlights =  request.highlights;
+    data[0].subtitle   =  request.subtitle;
+    intro              =  request.intro;
 
     let output = `---\n` 
     + yaml.dump(data[0]) 
@@ -414,7 +418,7 @@ app.post('/create',function (req, res) {
   var title   = request.title;
   var folder  = urlize(tour);
   var file    = dir + "/tim/itineraries/" + folder + '/_index.md'; 
-  let output  = "---\ntitle: "+title+"\nsubtitle: \ntranslationKey: "+folder+"\ntype: itinerary\ntour: "+tour+"\nitinerary: \n  - day: 0\n---\n" ;
+  let output  = "---\ntitle: "+title+"\nsubtitle: \ntranslationKey: "+folder+"\ntype: itinerary\ntour: "+tour+"\nhighlights: \nitinerary: \n  - day: 0\n---\n" ;
 
   // console.log("file " ,file);
 

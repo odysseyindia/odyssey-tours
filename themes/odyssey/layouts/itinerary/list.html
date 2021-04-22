@@ -1,32 +1,57 @@
 {{- define "main" }}
 {{- .Scratch.Set "layout" "layouts/itinerary/list.html" -}}
 
+{{- $nights := 0 }}
+{{- range $index,$e := .Params.itinerary }}
+{{- range $i,$v := .item }}
+{{- if (eq $v.type "hotel") }}
+{{- with $v.nights }}
+{{- $nights = add (int . ) $nights }} 
+{{- else }}
+{{- $nights = add 1 $nights }} 
+{{- end }}
+{{- end }}
+{{- end }}
+{{- end -}}
+
 <section id="{{ .Scratch.Get "id" | lower }}"> 
   {{ partial "heading.html" . }}
   
   <div class="columns">
    <div class="intro">
      <div class="column-header">
-      <h4><i class="icon-search"></i>Introduction</h4>
+      <h4>Introduction</h4>
     </div>
     <div>
       <textarea class="intro-content" id="intro-content" name="intro">{{ .Content | plainify }}</textarea>
     </div>
+    <div class="column-header">
+      <h4>Highlights</h4>
+    </div>
+     <div>
+        <textarea class="intro-content" id="intro-highlights" name="highlights" placeholder="Highlights (each on a new line)">{{ .Params.highlights | plainify }}</textarea>
+    </div>
   </div>
   <div class="to-do-column">
     <div class="column-header">
-      <h4><i class="icon-spin3"></i>Subtitle</h4>
+      <h4>Data</h4>
+    </div>
+    <div>
+        <label>Subtitle</label>
+        <input id="intro-subtitle" name="subtitle" value="{{ .Params.subtitle }}" placeholder="Subtitle">
     </div>
      <div>
-      <input id="intro-subtitle" name="subtitle" value="{{ .Params.subtitle }}">
+        <label>Days</label>
+        {{ add $nights 1 }}
     </div>
+    
   </div>
   <div id="message" class="alert " role="alert"></div>
 </div>
 
 <div class="main-container">
   <div class="row dossier">
-    <div>Dossier: {{ .RelPermalink }}</div>
+    <div>&nbsp;&nbsp;&nbsp;&nbsp;Dossier: {{ .RelPermalink }}</div>
     <div>
       <a  href="#0" class="button" onclick="saveItinerary()">
         <i class="icon-floppy"></i>Save
@@ -60,15 +85,37 @@
 
     <div id="myItinerary">
      <div class="column-header">
-      <h4><i class="icon-search"></i>Itinerary</h4>
+      <h4>Itinerary</h4>
     </div>
 
 
     {{- $duplicateCities := slice }}
     {{- $x := 0 }}
 
+{{- $fromDay := 1 }}
+{{- $toDay   := 1 }}
+
     {{- range $index,$e := .Params.itinerary }}
-    <hr class="hr-text" data-content="Day {{add $index 1 }}">
+
+{{- $m := 0 }}
+{{- range $i,$v := .item }}
+    {{- with $v.nights }}
+        {{- $m = add (int . ) $m }}
+    {{- end }}
+{{- end }}
+
+
+{{ if gt $m 0 }}
+  {{ $toDay = add $toDay $m }}
+{{ else }}
+  {{ $toDay = add $toDay 1 }}
+{{ end }}
+
+
+    <hr class="hr-text" data-content="Day {{ if eq (sub $toDay $fromDay) 1 }} {{ $fromDay }} {{ else }} {{ $fromDay }} - {{ sub $toDay 1 }}{{ end }}">
+
+    {{ $fromDay = $toDay }}
+
     <div class="containers">
       {{- range $i,$v := .item }}
       <div class="draggable" draggable="true" type="{{- if (eq $v.type "city") }}city{{- else if (eq $v.type "excursion") }}excursion{{- else if (eq $v.type "hotel") }}hotel{{- else if (eq $v.type "flight") }}flight{{- else if (eq $v.type "ferry") }}ferry{{- else if (eq $v.type "train") }}train{{- else if (eq $v.type "car-hire") }}car-hire{{- end }}" day={{ $index }} index={{ $i }} url="{{ .url }}">
@@ -176,6 +223,8 @@
               <div class="details" attr="checkOutDate" value="{{ $v.checkOutDate }}">{{ with $v.checkOutDate }} {{ dateFormat  "02-01-2006" . }}{{ end }}</div>
               <div>ETD: </div> 
               <div class="details" attr="checkOutTime" value="{{ $v.checkOutTime }}">{{ with $v.checkOutTime }} {{ dateFormat  "15:04" . }} {{ end }}</div>
+              <div>Nights: </div> 
+              <div class="details" attr="nights" value="{{ $v.nights }}">{{ with $v.nights }} {{ . }} {{ end }}</div>
             </div>
             {{- else if (eq $v.type "flight") }}
             <div class="rowdetails {{ with $v.date }}show{{ end }}">
@@ -243,7 +292,7 @@
 
   <div  class="select-flex">
     <div class="custom-select">
-      <label for="cities">City</label>
+      <label for="cities" class="search-label">City</label>
       <select class="maxwidth" id="cities" name="cities">
         <option value="">Select a city</option>
         {{ range ( sort (where (where .Site.Pages "Section" "destinations") ".Params.id" "city") ".Title" "asc" ) }}
@@ -256,7 +305,7 @@
 
   <div class="select-flex">
     <div class="custom-select" id="selectHotels">
-      <label for="hotels">Hotels</label>
+      <label for="hotels" class="search-label">Hotels</label>
       <select class="maxwidth" id="hotels" name="hotels">
       </select>
       <i class="select icon icon-bed" onclick="addHotel()"></i>
@@ -265,7 +314,7 @@
 
   <div class="select-flex">
     <div class="custom-select" id="selectExcursions">
-      <label for="excursions">Excursions</label>
+      <label for="excursions" class="search-label">Excursions</label>
       <select class="maxwidth" id="excursions" name="excursions">
       </select>
       <i class="select icon icon-camera" onclick="addExcursion()"></i>
@@ -274,7 +323,7 @@
 
   <div class="select-flex">
     <div class="custom-select" id="selectCarHire">
-      <label for="carhire">Car hire</label>
+      <label for="carhire" class="search-label">Car hire</label>
       <select class="maxwidth" id="carhire" name="carhire">
       </select>
     </div>
@@ -282,7 +331,7 @@
 
   <div class="select-flex">
     <div class="custom-select" id="selectCars">
-      <label for="cars">Cars</label>
+      <label for="cars" class="search-label">Cars</label>
       <select class="maxwidth" id="cars" name="cars">
       </select>
       <i class="select icon icon-cab"  onclick="addCar()"></i>
@@ -291,7 +340,7 @@
 
   <div class="select-flex">
     <div class="custom-select" id="selectFlights">
-      <label for="flights">Flights</label>
+      <label for="flights" class="search-label">Flights</label>
       <select class="maxwidth" id="flights" name="flights">
       </select>
       <i class="select icon icon-flight"  onclick="addFlight()"></i>
@@ -300,7 +349,7 @@
 
   <div class="select-flex">
     <div class="custom-select" id="selectTrains">
-      <label for="trains">Trains</label>
+      <label for="trains" class="search-label">Trains</label>
       <select class="maxwidth" id="trains" name="trains">
       </select>
       <i class="select icon icon-train"  onclick="addTrain()"></i>
@@ -632,10 +681,13 @@ document.getElementById("save-modal-accommodation").addEventListener("click", fu
   data[1].setAttribute("value", inputs.checkInTime.value ) ;
   data[2].setAttribute("value", inputs.checkOutDate.value) ;
   data[3].setAttribute("value", inputs.checkOutTime.value) ;
+console.log(inputs.nights.value);
+  data[4].setAttribute("value", inputs.nights.value) ;
   data[0].innerHTML  = inputs.checkInDate.value ; 
   data[1].innerHTML  = inputs.checkInTime.value ;
   data[2].innerHTML  = inputs.checkOutDate.value ;
   data[3].innerHTML  = inputs.checkOutTime.value ;
+  data[4].innerHTML  = inputs.nights.value ;
 
   document.getElementById("modal-accommodation").style.display = "none";
 });
@@ -749,7 +801,7 @@ function toggleContent(){
   let days   = document.getElementById('myItinerary').getElementsByClassName('containers');
 
   let element = document.getElementById('toggleContent');
-  if (element.innerHTML === '<i class="icon-plus-squared"></i>Expand') {
+  if (element.innerText === 'Expand') {
     element.innerHTML = '<i class="icon-minus-squared"></i>Compact';
   } else {
     element.innerHTML = '<i class="icon-plus-squared"></i>Expand';
@@ -804,9 +856,10 @@ function saveItinerary(day){
 
   var data   = [];
   
-  var   intro    = document.getElementById('intro-content').value;
-  var   subtitle = document.getElementById('intro-subtitle').value;
-  const days     = document.getElementById('myItinerary').getElementsByClassName('containers');
+  var   intro      = document.getElementById('intro-content').value;
+  var   subtitle   = document.getElementById('intro-subtitle').value;
+  var   highlights = document.getElementById('intro-highlights').value;
+  const days       = document.getElementById('myItinerary').getElementsByClassName('containers');
 
 
   for(let i=0;i<days.length;i++) {
@@ -835,7 +888,7 @@ function saveItinerary(day){
         for(let k=0;k<inputs.length;k++) {
           let attr  = inputs[k].getAttribute("attr");
           let value = inputs[k].getAttribute("value");
-          obj[attr] = (value != null) ? new Date(value) : inputs[k].innerText ;
+          obj[attr] = (value != null) ? value : inputs[k].innerText ; // new Date(value)
         };
 
         details.push(obj);
@@ -861,7 +914,8 @@ function saveItinerary(day){
       "file": {{ .RelPermalink }}, 
       "data": data,
       "intro": intro,
-      "subtitle": subtitle
+      "subtitle": subtitle,
+      "highlights": highlights
     }) 
   }).then(
 
@@ -1378,7 +1432,7 @@ function editItem(day,index,url,obj){
 
   for(let i=0;i<inputs.length;i++) {
     if (data[i]) {
-      inputs[(i)].value = data[i].innerText;
+      inputs[(i)].value = data[i].innerHTML;
     }
   } 
 };
