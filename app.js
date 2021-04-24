@@ -373,18 +373,16 @@ app.post('/ajax',function (req, res) {
     let contents = fileContents.split("---");
     let data = yaml.loadAll(contents[1]);
 
-let test = request.data[2];
-console.table(test.item[1]);
-
     data[0].itinerary  =  request.data;
     data[0].highlights =  request.highlights;
     data[0].subtitle   =  request.subtitle;
-    intro              =  request.intro;
+    data[0].weight     =  (request.weight == 'NULL') ?  0  : Number(request.weight);
+    intro              =  request.intro.replace(/[`]/g, "'");
 
     let output = `---\n` 
     + yaml.dump(data[0]) 
     + "---\n" 
-    + intro.replace(/[`]/g, "'"); // contents[2]
+    + intro; // contents[2]
 
     fs.writeFileSync(file, output, 'utf8', (err) => {       
      if (err) throw err; 

@@ -1,5 +1,5 @@
 {
-  "this": "item.json.son",
+  "this": "_default/item.json.son",
   "title": "{{ .Title }}",
   "date": "{{ .Date }}",
   "permalink": "{{ .RelPermalink }}",

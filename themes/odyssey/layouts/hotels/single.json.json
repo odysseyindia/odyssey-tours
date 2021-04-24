@@ -1,5 +1,5 @@
 {
-  "this":           "hotel.json.json",
+  "this":           "hotels single.json.json",
   "title": 			    "{{ .Title }}",
   "date": 			    "{{ .Date }}",
   "permalink":	    "{{ .RelPermalink }}",
@@ -7,11 +7,12 @@
   "draft": 			    "{{ .Params.draft }}",
   "arrdate":        "{{ .Params.arrdate }}",
   "depdate":        "{{ .Params.depdate }}",
-  "eta": "{{ cond (isset .Params "eta") .Params.eta "12:00"}}",
-  "etd": "{{ cond (isset .Params "etd") .Params.etd "12:00"}}",
+  "eta":            "{{ cond (isset .Params "eta") .Params.eta "12:00"}}",
+  "etd":            "{{ cond (isset .Params "etd") .Params.etd "12:00"}}",
   "id":             "{{ .Params.id }}",
   "type":           "{{ .Params.type }}",
-  "translationKey": "{{ .Params.translationKey }}"
+  "translationKey": "{{ .Params.translationKey }}",
+  "category":      {{ with .Params.category }} "{{ . }}"{{ else }} "" {{ end }}
   {{- range $i,$e := (.Resources.ByType "image") }} 
     {{- if eq $i 0 }}
   ,"image": "{{ . }}"

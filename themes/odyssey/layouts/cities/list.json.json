@@ -1,7 +1,7 @@
 {{- define "response" }}
 
 {     
-  "test" : "layouts/cities/list.json.json",
+  "test" : "xxx layouts/cities/list.json.json",
   "count" : "{{ len .Data.Pages }}",
   "items" : [
   {{- range $i, $e := .Data.Pages }}
@@ -14,7 +14,8 @@
       "content": "{{ replace (trim (.Content | plainify ) "\n") "\n" "linebreak" }}",
       "draft": "{{ .Params.draft }}",
       "id": "{{ .Params.id }}",
-      "translationKey": "{{ .Params.translationKey }}"
+      "translationKey": "{{ .Params.translationKey }}",
+      "category": {{ with .Params.category }}  "{{ . }}"{{ else }} "" {{ end }}
       {{- range $i,$e := (.Resources.ByType "image") }} 
       {{- if eq $i 0 }}
       ,"image": "{{ . }}"

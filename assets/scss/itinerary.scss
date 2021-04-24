@@ -165,20 +165,25 @@
   }
 
   textarea.intro-content  {
-  width: 100%;
-}
-
-input#intro-subtitle {
-  width: inherit;
+    width: 100%;
   }
 
-#intro-subtitle {
-  border: 0;
+.row.subtitle{
+  margin:0;
 }
+  .intro-subtitle, intro-weight {
+    flex-grow: 1;
+    padding-left: 10px;
+  }
 
-.search-label {
-  width: 20%;
-}
+  input#intro-subtitle, input#intro-weight {
+    border: 0;
+    height: inherit;
+  }
+
+  .search-label {
+    width: 20%;
+  }
 
   .to-do-column {
     width: 30%; 
