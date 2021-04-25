@@ -1,0 +1,12 @@
+{{ define "response" }}
+{{- $excursions := where .Data.Pages "Type" "excursions" -}}
+{     
+    "test" : "list.excursions.json",
+    "count" : "{{ len $excursions }}",
+    "excursions" : [
+    {{ range $i, $e := $excursions }}
+      {{ if $i }}, {{ end }}{{ .Render "item"}}
+    {{ end }}
+    ]
+  }
+{{ end }}

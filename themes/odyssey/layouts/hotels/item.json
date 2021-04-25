@@ -1,0 +1,16 @@
+ {
+      "this":       "hotels/item.json",
+      "title":      "{{ .Title }}",
+      "date":       "{{ .Date }}",
+      "permalink":    "{{ .RelPermalink }}",
+      "content":    "{{ replace (trim (.Content | plainify ) "\n") "\n" "linebreak" }}",
+      "draft":      "{{ .Params.draft }}",
+      "id":       "{{ .Params.id }}",
+      "category":     {{ with .Params.category }}"{{ . }}"{{ else }} "" {{ end }},
+      "translationKey": "{{ .Params.translationKey }}"
+      {{- range $i,$e := (.Resources.ByType "image") }} 
+      {{- if eq $i 0 }}
+      ,"image": "{{ . }}"
+      {{- end }}
+      {{- end }} 
+}

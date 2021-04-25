@@ -1,0 +1,12 @@
+{{ define "response" }}
+{{- $hotels := where .Data.Pages "Type" "hotels" -}}
+{     
+    "test" : "list.hotel.json",
+    "count" : "{{ len $hotels }}",
+    "hotels" : [
+    {{ range $i, $e := $hotels }}
+      {{ if $i }}, {{ end }}{{ .Render "item"}}
+    {{ end }}
+    ]
+  }
+{{ end }}

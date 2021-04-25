@@ -5,10 +5,13 @@ const mkdirp      = require('mkdirp');
 const fs 			    = require('fs'); 
 var   getDirName  = require('path').dirname;
 const yaml 			  = require('js-yaml');
+const env         = require('dotenv').config();
 var   app 			  = express();
 const port        = 1314;
-const root        = "/data/webapps/odyssey-tours/"
+const root        = process.env.hugoRoot; // "/data/webapps/odyssey-tours/"
 const dir         = root+"content/english";
+
+console.log(dir);
 
 function urlize(url){
 
