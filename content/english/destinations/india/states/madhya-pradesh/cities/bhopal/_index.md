@@ -11,5 +11,8 @@ type: city
 tags:
   - Cities
   - Bhopal
+airports:
+  - BHO  Bhopal
 ---
+
 Bhopal, the under-rated capital of Madhya Pradesh, is a surprising mix of medieval Hindu and Islamic architecture, and modern town-planning. It is a fast-growing city situated on gently-rolling hills and around two man-made lakes. Bhopal is perfect for visiting the stupas and abandoned monasteries of Sanchi, one of the most important Buddhist sites, and the cave shrines of Udaigiri and prehistoric cave paintings of Bhimbetka.    

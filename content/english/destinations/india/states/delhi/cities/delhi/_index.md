@@ -11,5 +11,10 @@ type: city
 tags:
   - Cities
   - Delhi
+airports:
+  - DEL Indira Gandhi International airport
+  - DEL Domestic airport
 ---
+
+
 Delhi is practically two cities: New Delhi, the capital of India, and medieval Old Delhi. The old city centres around the Red Fort, which contains opulent palaces and impressive public buildings. Nearby is the magnificent Jama Masjid, India’s largest mosque. In New Delhi you can find India Gate - a war memorial arch, the impressive Parliament Building and Rashtrapati Bhawan, the residence of the President. Towards the South are Qutab Minar and Humayun's Tomb, both World Heritage Sites.

@@ -11,5 +11,8 @@ type: city
 tags:
   - Cities
   - Bagdogra
+airports:
+  - IXB  Bagdogra
 ---
+
 Bagdogra is the nearest airport to Darjeeling.

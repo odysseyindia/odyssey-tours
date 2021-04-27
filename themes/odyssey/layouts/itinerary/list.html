@@ -22,13 +22,17 @@
       <div class="column-header">
         <h4>Data</h4>
       </div>
-      <div class="row">
-        <div><label for="subtitle">Subtitle</label></div>
-        <div class="intro-subtitle"><input id="intro-subtitle" name="subtitle" value="{{ with .Params.subtitle }}{{ . }}{{ end }}" placeholder="Subtitle"></div>
+      <div  class="select-flex">
+        <div class="custom-select">
+         <label class="search-label" for="subtitle">Subtitle</label>
+           <input id="intro-subtitle" name="subtitle" value="{{ with .Params.subtitle }}{{ . }}{{ end }}" placeholder="Subtitle">
+        </div>
       </div>
-      <div class="row">
-        <div><label for="weight">Weight</label></div>
-        <div class="intro-weigth"><input id="intro-weight" name="weight" value="{{ with .Params.weight }}{{ . }}{{ end }}" placeholder="xxx"></div>
+      <div  class="select-flex">
+        <div class="custom-select">
+         <label class="search-label" for="weight">Weight</label>
+           <input id="intro-weight" name="weight" value="{{ with .Params.weight }}{{ . }}{{ end }}" placeholder="xxx">
+        </div>
       </div>
     </div>
   </div>
@@ -280,7 +284,9 @@
             <option value="{{ .RelPermalink }}">{{ .Title }} </option>
             {{ end }}
           </select>
-          <i class="select icon icon-monument" onclick="addCity()"></i>
+           <a href="#0" class="button"  onclick="addCity()">
+          <i class="select icon icon-monument"></i>
+        </a>
         </div>
       </div>
 
@@ -289,7 +295,9 @@
           <label for="hotels" class="search-label">Hotels</label>
           <select class="maxwidth" id="hotels" name="hotels">
           </select>
-          <i class="select icon icon-bed" onclick="addHotel()"></i>
+          <a href="#0" class="button" onclick="addHotel()">
+            <i class="select icon icon-bed" ></i>
+          </a>
         </div>
       </div>
 
@@ -298,7 +306,9 @@
           <label for="excursions" class="search-label">Excursions</label>
           <select class="maxwidth" id="excursions" name="excursions">
           </select>
-          <i class="select icon icon-camera" onclick="addExcursion()"></i>
+          <a href="#0" class="button"  onclick="addExcursion()">
+          <i class="select icon icon-camera"></i>
+        </a>
         </div>
       </div>
 
@@ -315,7 +325,9 @@
           <label for="cars" class="search-label">Cars</label>
           <select class="maxwidth" id="cars" name="cars">
           </select>
-          <i class="select icon icon-cab"  onclick="addCar()"></i>
+          <a href="#0" class="button" onclick="addCar()">
+          <i class="select icon icon-cab"></i>
+        </a>
         </div>
       </div>
 
@@ -324,7 +336,9 @@
           <label for="flights" class="search-label">Flights</label>
           <select class="maxwidth" id="flights" name="flights">
           </select>
-          <i class="select icon icon-flight"  onclick="addFlight()"></i>
+          <a href="#0" class="button" onclick="addFlight()">
+          <i class="select icon icon-flight"></i>
+        </a>
         </div>
       </div>
 
@@ -333,7 +347,9 @@
           <label for="trains" class="search-label">Trains</label>
           <select class="maxwidth" id="trains" name="trains">
           </select>
-          <i class="select icon icon-train"  onclick="addTrain()"></i>
+          <a href="#0" class="button" onclick="addTrain()">
+          <i class="select icon icon-train"></i>
+          </a>
         </div>
       </div>
 
@@ -827,7 +843,7 @@ function addDay(){
   draggable();
 };
 
-function saveItinerary(day){
+function saveItinerary(deleteDay){
 
   var data   = [];
 
@@ -837,10 +853,9 @@ function saveItinerary(day){
   var   highlights = document.getElementById('intro-highlights').value;
   const days       = document.getElementById('myItinerary').getElementsByClassName('containers');
 
-
   for(let i=0;i<days.length;i++) {
 
-    if (i != day){
+    if (i != deleteDay){
       var items   = days[i].getElementsByClassName('content');
       for(let j=0;j<items.length;j++) {
         if (items[j].style.display === "none") {
@@ -864,19 +879,18 @@ function saveItinerary(day){
         for(let k=0;k<inputs.length;k++) {
           let attr  = inputs[k].getAttribute("attr");
           let value = inputs[k].getAttribute("value");
-obj[attr] = (value != null) ? value : inputs[k].innerText ; // new Date(value)
-};
+          obj[attr] = (value != null) ? value : inputs[k].innerText ; // new Date(value)
+        };
 
-
-details.push(obj);
-};
+        details.push(obj);
+      };
 
 let object  = {};
 object.day  = i;
 object.item = details;
-if (details.length > 0) {
+//if (details.length > 0) {
   data.push( object );
-};
+//};
 };
 };
 
@@ -1335,7 +1349,7 @@ function saveModalDay(){
   let doc     = document.getElementById('myItinerary');
   let days    = doc.getElementsByClassName('containers');
   let label   = modal.querySelector("label");
-
+ 
   if (isNaN(index) || index < 1 || index > days.length) {
     label.innerHTML = '<div class="alert">Input not valid</div>';
   } else {
@@ -1346,8 +1360,9 @@ function saveModalDay(){
 
     div = document.createElement('div');
     div.className = "containers";
-    div.innerHTML = "\n";
+    div.innerText = "\n";
     days[index].parentNode.insertBefore(div, days[index]);
+
     modal.style.display = "none";
     saveItinerary();
   };

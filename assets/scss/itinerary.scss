@@ -174,11 +174,14 @@
   .intro-subtitle, intro-weight {
     flex-grow: 1;
     padding-left: 10px;
+
   }
 
   input#intro-subtitle, input#intro-weight {
     border: 0;
     height: inherit;
+     text-align: left;
+     width: inherit;
   }
 
   .search-label {
@@ -300,10 +303,10 @@ input {
 
 
 .select.icon {
-  background-color: blue;
-  color: white;
+  color: black;
   padding: 5px;
   cursor: pointer;
+  border-radius: 90%;
 }
 
 
@@ -406,10 +409,7 @@ input {
       height: 3rem;
     }
 
-    [class^="icon-"] {
-      border-radius: 0;
-      color: white;
-    }
+    
     button {
       padding: 0 20px 0 10px;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);

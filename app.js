@@ -72,21 +72,20 @@ app.post('/import',function (req, res) {
 
     lineno++;
 
-
     var lineArray = CSVToArray(line);
-    var array = lineArray[0];
-
-    // console.log(array);
+    var array     = lineArray[0];
 
     if ( request.file == 'cities.csv'){
       var city   = urlize(array[0]);
-      var state  = array[6];
+      var state  = urlize(array[1]);
+      var country= urlize(array[2]);
 
-      if (typeof state === "undefined") throw "state for "+city+" is undefined";
-
-      state = urlize(state); 
-
-      var mdfile = dir+'/destinations/india/states/'+state+'/cities/'+city+'/';
+      var mdfile = dir+'/destinations/'+country;
+      if (country == 'india'){ 
+        if (typeof state === "undefined") throw "state for "+city+" is undefined";
+        mdfile += '/states/'+state; 
+      };
+      mdfile += '/cities/'+city+'/';
 
       console.log('Processing ',mdfile);
 
@@ -96,16 +95,16 @@ app.post('/import',function (req, res) {
 
         frontMatter = {};
 
-        var web = Number(array[5]) || 0;
-        var nighthalt = Number(array[7]) || 0;
+        var web       = Number(array[7]) || 0;
+        var nighthalt = Number(array[8]) || 0;
 
-        // city,writeup,DefaultDays,Longitude,Latitude,Display,state,nighthalt
+        // 0=city, 1=state,2=country,3=writeUp,4=DefaultDays,5=longitude,6=latitude,7=display,8=nighthalt
 
         frontMatter.title           = array[0];
         frontMatter.translationKey  = city;
-        frontMatter.defaultDays     = Number(array[2]) || 0;
-        frontMatter.longitude       = Number(array[4]) || '';
-        frontMatter.latitude        = Number(array[3]) || '';
+        frontMatter.defaultDays     = Number(array[4]) || 0;
+        frontMatter.longitude       = Number(array[5]) || '';
+        frontMatter.latitude        = Number(array[6]) || '';
         frontMatter.draft           = (web==0) ? true : false; 
         frontMatter.nighthalt       = (nighthalt==0) ? true : false; 
         frontMatter.id              = 'city';
@@ -115,7 +114,7 @@ app.post('/import',function (req, res) {
         let output = `---\n` 
         + yaml.dump(frontMatter) 
         + "---\n" 
-        + array[1].replace(/[`]/g, "'");
+        + array[3].replace(/[`]/g, "'");
 
         var test = yaml.dump( frontMatter );
         if (typeof test === "undefined"){
@@ -164,111 +163,161 @@ app.post('/import',function (req, res) {
         + "---\n" 
         + (array[2] == 'NULL' ? '' : array[2].replace(/[`]/g, "'"));
 
-      // console.table( output );
-      fs.writeFileSync(mdfile+'_index.md', output, 'utf8', (err) => {       
-        if (err) throw err; 
-      })
+        fs.writeFileSync(mdfile+'_index.md', output, 'utf8', (err) => {       
+          if (err) throw err; 
+        })
 
-    } catch (error) {
-      console.log("Route import writing "+state+": " + error.message);
-    } 
-    
-  } else if ( request.file == 'hotels.csv') {
+      } catch (error) {
+        console.log("Route import writing "+state+": " + error.message);
+      } 
+    } else if ( request.file == 'hotels.csv') {
 
-   // state city  organisation  addressbook_id  postalcode  description starcategories_id rooms
+      // state city  organisation  addressbook_id  postalcode  description starcategories_id rooms
 
-   var state             = urlize(array[0]);
-   var city              = urlize(array[1]);
-   var organisation      = urlize(array[2]);
+      var state             = urlize(array[0]);
+      var city              = urlize(array[1]);
+      var organisation      = urlize(array[2]);
 
-   var mdfile = dir+'/destinations/india/states/'+state+'/cities/'+city+'/hotels/'+organisation+'/';
+      var mdfile = dir+'/destinations/india/states/'+state+'/cities/'+city+'/hotels/'+organisation+'/';
 
-   console.log('Processing ',mdfile);
+      console.log('Processing ',mdfile);
 
-   const made = mkdirp.sync(mdfile);
+      const made = mkdirp.sync(mdfile);
 
-   try {
+      try {
 
-    frontMatter                 = {};
-    frontMatter.title           = array[2];
-    frontMatter.translationKey  = organisation;
-    frontMatter.addressbook_id  = Number(array[3]) || '';
-    frontMatter.postalcode      = Number(array[4]) || '';
-    frontMatter.starcategories_id  = Number(array[6]) || '';
-    frontMatter.rooms           = Number(array[7]) || '';
-    frontMatter.draft           = false;
-    frontMatter.id              = 'hotel';
-    frontMatter.type            = 'hotels';
-    frontMatter.tags            = ['Hotels',array[2].replace(/[.]/g, '') ];
-    frontMatter.category        = array[8];
+        frontMatter                 = {};
+        frontMatter.title           = array[2];
+        frontMatter.translationKey  = organisation;
+        frontMatter.addressbook_id  = Number(array[3]) || '';
+        frontMatter.postalcode      = Number(array[4]) || '';
+        frontMatter.starcategories_id  = Number(array[6]) || '';
+        frontMatter.rooms           = Number(array[7]) || '';
+        frontMatter.draft           = false;
+        frontMatter.id              = 'hotel';
+        frontMatter.type            = 'hotels';
+        frontMatter.tags            = ['Hotels',array[2].replace(/[.]/g, '') ];
+        frontMatter.category        = array[8];
 
-    let output = `---\n` 
-    + yaml.dump(frontMatter) 
-    + "---\n" 
-    + (array[5] == 'NULL' ? '' : array[5].replace(/[`]/g, "'"));
+        let output = `---\n` 
+        + yaml.dump(frontMatter) 
+        + "---\n" 
+        + (array[5] == 'NULL' ? '' : array[5].replace(/[`]/g, "'"));
 
-      // console.table( output );
-      fs.writeFileSync(mdfile+'index.md', output, 'utf8', (err) => {       
-        if (err) throw err; 
-      })
+        fs.writeFileSync(mdfile+'index.md', output, 'utf8', (err) => {       
+          if (err) throw err; 
+        })
 
-    } catch (error) {
-      console.log("Route import writing "+state+": " + error.message);
-    } 
-  } else if ( request.file == 'services.csv') {
+      } catch (error) {
+        console.log("Route import writing "+state+": " + error.message);
+      } 
+    } else if ( request.file == 'services.csv') {
 
-   // state  city  description duration  starttime transfer  transfercode  active  daysofoperation city  to_cities_id  owntransport  guide
+      // state  city  description duration  starttime transfer  transfercode  active  daysofoperation city  to_cities_id  owntransport  guide
 
-   var state             = urlize(array[0]);
-   var city              = urlize(array[1]);
-   var description       = urlize(array[2]);
+      var state             = urlize(array[0]);
+      var city              = urlize(array[1]);
+      var description       = urlize(array[2]);
 
-   var mdfile = dir+'/destinations/india/states/'+state+'/cities/'+city+'/excursions/'+description+'/';
+      var mdfile = dir+'/destinations/india/states/'+state+'/cities/'+city+'/excursions/'+description+'/';
 
-   console.log('Processing ',mdfile);
+      console.log('Processing ',mdfile);
 
-   const made = mkdirp.sync(mdfile);
+      const made = mkdirp.sync(mdfile);
 
-   try {
+      try {
 
-    var web = Number(array[7]) || 0;
-    var writeup = array[13].trim().toString().replace(/[`]/g, "'");
+        var web = Number(array[7]) || 0;
+        var writeup = array[13].trim().toString().replace(/[`]/g, "'");
 
-    frontMatter                 = {};
-    frontMatter.title           = array[2];
-    frontMatter.translationKey  = description;
-    frontMatter.duration        = array[3] || '';
-    frontMatter.startTime       = (array[4] == 'NULL') ?  '' : array[4];
-    frontMatter.transfer        = (array[5] == 'NULL') ?  false : true;
-    frontMatter.transferCode    = (array[6] == 'NULL') ?  '' : array[6];
-    frontMatter.draft           = (web == 0) ?  true : false; 
-    frontMatter.daysOfOperation = (array[8] == 'NULL') ?  0  : Number(array[8]);
-    frontMatter.toCity          = (array[9] == 'NULL') ?  '' : array[9];
-    frontMatter.toCitiesId      = (array[10] == 'NULL') ?  '' : array[10];
-    frontMatter.owntransport    = (array[11] == 1) ?  true : false;
-    frontMatter.guide           = (array[12] == 1) ?  true : false;
-    frontMatter.id              = 'services';
-    frontMatter.type            = 'excursions';
-    frontMatter.tags            = ['Services',array[2].replace(/[.]/g, '') ];
+        frontMatter                 = {};
+        frontMatter.title           = array[2];
+        frontMatter.translationKey  = description;
+        frontMatter.duration        = array[3] || '';
+        frontMatter.startTime       = (array[4] == 'NULL') ?  '' : array[4];
+        frontMatter.transfer        = (array[5] == 'NULL') ?  false : true;
+        frontMatter.transferCode    = (array[6] == 'NULL') ?  '' : array[6];
+        frontMatter.draft           = (web == 0) ?  true : false; 
+        frontMatter.daysOfOperation = (array[8] == 'NULL') ?  0  : Number(array[8]);
+        frontMatter.toCity          = (array[9] == 'NULL') ?  '' : array[9];
+        frontMatter.toCitiesId      = (array[10] == 'NULL') ?  '' : array[10];
+        frontMatter.owntransport    = (array[11] == 1) ?  true : false;
+        frontMatter.guide           = (array[12] == 1) ?  true : false;
+        frontMatter.id              = 'services';
+        frontMatter.type            = 'excursions';
+        frontMatter.tags            = ['Services',array[2].replace(/[.]/g, '') ];
 
-    let output = `---\n` 
-    + yaml.dump(frontMatter) 
-    + "---\n" 
-    + writeup;
+        let output = `---\n` 
+        + yaml.dump(frontMatter) 
+        + "---\n" 
+        + writeup;
 
 
-    fs.writeFileSync(mdfile+'index.md', output, 'utf8', (err) => {       
-      if (err) throw err; 
-    })
+        fs.writeFileSync(mdfile+'index.md', output, 'utf8', (err) => {       
+          if (err) throw err; 
+        })
 
-  } catch (error) {
-    console.log("Route import writing "+state+": " + error.message);
-  } 
-} else  {
-  console.log(file+" is a wrong option");
-}
+      } catch (error) {
+        console.log("Route import writing "+state+": " + error.message);
+      } 
+    } else if ( request.file == 'airports.csv') {
 
-});
+      // 0=city,1=state,2=country,3=airportcode,4=airport
+
+      var city   = urlize( array[0] );
+      var state  = urlize( array[1] );
+      var country= urlize( array[2] );
+
+      var mdfile = dir+'/destinations/'+country;
+      
+      if (country == 'india'){ 
+        if (typeof state === "undefined") throw "state for "+city+" is undefined";
+        mdfile += '/states/'+state; 
+      };
+      
+      mdfile += '/cities/'+city+'/_index.md';
+
+      console.log('Processing ',mdfile);
+
+      try {
+        var fileContents = fs.readFileSync(mdfile, 'utf8', (err) => {       
+          if (err) throw err; 
+        }) 
+      } 
+      catch (error) {
+        var fileContents = "---\n---\n";
+      } 
+
+      try {
+
+        let contents = fileContents.split("---");
+        let data = yaml.loadAll(contents[1]);
+
+var airportData = array[3]+' '+array[4].replace(/[`]/g, "'");
+console.log(airportData);
+
+        if (typeof data[0].airports === 'undefined'){
+          data[0].airports = [];
+        };
+        data[0].airports.push( airportData );
+
+        let output = `---\n` 
+        + yaml.dump(data[0]) 
+        + "---\n" 
+        + contents[2]
+
+        fs.writeFileSync(mdfile, output, 'utf8', (err) => {       
+         if (err) throw err; 
+       }) 
+      } 
+      catch (error) {
+        console.log('Route ajax writing: ' + error.message);
+      } 
+      
+    } else {
+      console.log(file+" is a wrong option");
+    }
+  });
 
 function CSVToArray( strData, strDelimiter ){
         // Check to see if the delimiter is defined. If not,
@@ -290,7 +339,6 @@ function CSVToArray( strData, strDelimiter ){
           "gi"
           );
 
-
         // Create an array to hold our data. Give the array
         // a default empty first row.
         var arrData = [[]];
@@ -298,7 +346,6 @@ function CSVToArray( strData, strDelimiter ){
         // Create an array to hold our individual pattern
         // matching groups.
         var arrMatches = null;
-
 
         // Keep looping over the regular expression matches
         // until we can no longer find a match.
@@ -343,7 +390,6 @@ function CSVToArray( strData, strDelimiter ){
 
               }
 
-
             // Now that we have our value string, let's add
             // it to the data array.
             arrData[ arrData.length - 1 ].push( strMatchedValue );
@@ -385,7 +431,7 @@ app.post('/ajax',function (req, res) {
     let output = `---\n` 
     + yaml.dump(data[0]) 
     + "---\n" 
-    + intro; // contents[2]
+    + intro; 
 
     fs.writeFileSync(file, output, 'utf8', (err) => {       
      if (err) throw err; 

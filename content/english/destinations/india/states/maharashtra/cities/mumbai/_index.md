@@ -11,5 +11,10 @@ type: city
 tags:
   - Cities
   - Mumbai
+airports:
+  - BOM International terminal
+  - BOM Domestic airport
 ---
+
+
 Mumbai is the financial, commercial and industrial capital of India. The city is also the centre of fashion and film-making. As such the city hums with activity and its more than 15 million residents seem to be constantly on the move. Mumbai used to be just a collection of fishing villages, and the real development commenced only during British colonial rule. Hence, most of the historical monuments are relics from the Raj.

@@ -113,7 +113,7 @@
 
   
       <div class="table">
-        <div class="item-1"><b>Name</b></div>
+        <div class="item-1"><b>Client Name</b></div>
         <div class="item-2"><b>Trip name</b></div>
         <div class="item-date"><b>Date</b></div>
         <div class="item-date"><b>Action</b></div>
@@ -339,16 +339,16 @@
         </div>
         <div id="content2">
           <div>
-            <label for="title">Tour name</label>
+            <label for="title">Client Name</label>
           </div>
           <div>
-            <input type="text" name="title" value=" " required>
+            <input type="text" name="title" value="" required>
           </div>
           <div>
             <label for="tour">File Name</label>
           </div>
           <div>
-            <input type="text" name="tour" value=" " required>
+            <input type="text" name="tour" value="" required>
           </div>
         </div>
         <div class="row buttons">
@@ -572,7 +572,7 @@ document.getElementById("save-modal-btn")
   document.getElementById("save-modal-new-btn")
   .addEventListener('click', () => {
 
-  document.getElementById("modal-new").style.display = "none";
+  // document.getElementById("modal-new").style.display = "none";
   var title = document.getElementById("content2").children[1].children[0].value;
   var tour  = document.getElementById("content2").children[3].children[0].value;
 

@@ -11,5 +11,8 @@ type: city
 tags:
   - Cities
   - Keshod
+airports:
+  - IXK  Keshod
 ---
+
 Keshod is a town in Janagadh district of Gujarat. It has an airport which provide flight connections to Mumbai.

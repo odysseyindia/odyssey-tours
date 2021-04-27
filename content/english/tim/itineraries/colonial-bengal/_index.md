@@ -57,8 +57,12 @@ itinerary:
       - type: city
         url: /destinations/india/states/west-bengal/cities/serampore/
         content: >-
-          The town of Serampore has seen plenty of history: it was once a feudal
-          town, then a Danish colony called Frederiknagore in the 18th and 19th
+          After breakfast, visit the lovely old riverside French colony of
+          Chandernagore, and the Dutch base of Fort Gustavus, at Chinsurah.
+
+
+          You end the day after a short drive to Serampore, once a feudal town,
+          then a Danish colony called Frederiknagore in the 18th and 19th
           centuries, then one of the places that saw the Bengal Renaissance when
           the British started India’s second ever railway line here. Today, it
           shows off a collection of colonial-era buildings among a variety of
@@ -78,6 +82,8 @@ itinerary:
         checkOutDate: ''
         checkOutTime: ''
         nights: ''
+  - day: 3
+    item:
       - type: excursion
         url: >-
           /destinations/india/states/west-bengal/cities/serampore/excursions/day-at-leisure-in-serampore/
@@ -92,19 +98,30 @@ itinerary:
         date: ''
         etd: ''
         duration: ''
-  - day: 3
+  - day: 4
     item:
       - type: city
         url: /destinations/india/states/west-bengal/cities/murshidabad/
         content: >-
-          During the 18th century, Murshidabad became the capital of Bengal and
-          the richest and most glamourous city of India, famous for silk, woven
-          saris and muslin. The wealthiest merchants from across India migrated
-          to Murshidabad, later followed by British, French, Dutch and Danish
-          trading companies. Having contributed 5 percent of the entire global
-          economy in the late 18th and early 19th century, Murshidabad fell out
-          of favour during British colonial rule, and is nowadays a slightly
-          forgotten and hidden corner of India.
+          Today, you drive to the battlefield of Plassey, where the East India
+          Company, under the command of Robert Clive, defeated the Nawab of
+          Bengal, which laid the foundations for British rule in India. Robert
+          Clive had bribed Mir Jafar who was an aspirant to the throne of Nawab
+          of Bengal, and this betrayal ensured that the battle was over in a few
+          hours with a decisive victory for the East India Company. You can
+          visit the house and cemetery of Mir Jafar, a memorial of the darkest
+          hour in the history of Bengal.
+
+
+          After Plassey, you drive to Murshidabad, your base for the next three
+          days. During the 18th century, Murshidabad became the capital of
+          Bengal and the richest and most glamorous city of India, famous for
+          silk, woven saris and muslin. The wealthiest merchants across India
+          migrated to Murshidabad, later followed by British, French, Dutch and
+          Danish trading companies. Having contributed 5 percent of the entire
+          global economy in the late 18th and early 19th centuries, Murshidabad
+          fell out of favour during British colonial rule, and is nowadays a
+          slightly forgotten and hidden corner of India.
       - type: hotel
         url: >-
           /destinations/india/states/west-bengal/cities/murshidabad/hotels/bari-kothi/
@@ -121,7 +138,7 @@ itinerary:
         checkOutDate: ''
         checkOutTime: ''
         nights: ''
-  - day: 4
+  - day: 5
     item:
       - type: excursion
         url: >-
@@ -134,31 +151,39 @@ itinerary:
           17th century Jahankosha Canon, the 200 year old palace of wealthy
           financier Jagat Seth, Katra Mosque, Khoshbagh gardens and Kathgola,
           the home of a rich Jain merchant.
-        date: ''
-        etd: ''
-        duration: ''
-  - day: 5
-    item:
-      - type: excursion
-        url: >-
-          /destinations/india/states/west-bengal/cities/murshidabad/excursions/morning-excursion-to-baranagar-and-cossimbazar/
-        content: >-
-          First visit the fascinating terracotta temples at Baranagar then
-          continue on to Cossimbazar which was once a Dutch colony and busy
-          inland river port throughout the 18th and 19th centuries. During the
-          early days of its existence, the English, Dutch and French all had
-          factories in Cossimbazar and the town soon developed a reputation for
-          silk, hosiery and ivory. A highlight is the palatial Cossimbazar
-          Rajbari, still owned by the family which built it, and which today
-          also houses an interesting museum.
+
+
+          The afternoon is at leisure to relax around the hotel, or book one of
+          the many activities available.
         date: ''
         etd: ''
         duration: ''
   - day: 6
     item:
+      - type: excursion
+        url: >-
+          /destinations/india/states/west-bengal/cities/murshidabad/excursions/morning-excursion-to-baranagar-and-cossimbazar/
+        content: >-
+          This morning you first visit the fascinating terracotta temples at
+          Baranagar, then continue on to Cossimbazar which was once a Dutch
+          colony and busy inland river port throughout the 18th and 19th
+          centuries. During the early days of its existence, the English, Dutch
+          and French all had factories in Cossimbazar and the town soon
+          developed a reputation for silk, hosiery and ivory. A highlight is the
+          palatial Cossimbazar Rajbari, still owned by the family which built
+          it, and which today also houses an interesting museum.
+
+
+          The afternoon is at leisure.
+        date: ''
+        etd: ''
+        duration: ''
+  - day: 7
+    item:
       - type: city
         url: /destinations/india/states/west-bengal/cities/kolkata/
         content: >-
+          An early train takes you to the culturally rich city of Kolkata.
           Kolkata was just a tiny village some 300 years ago. After the East
           India Company made it their first base in India, Calcutta became the
           seat of British power in India, and developed into an economic,
@@ -182,7 +207,7 @@ itinerary:
         checkOutDate: ''
         checkOutTime: ''
         nights: ''
-  - day: 7
+  - day: 8
     item:
       - type: excursion
         url: >-
@@ -194,21 +219,29 @@ itinerary:
           renamed BBD Bagh. From here you continue to the bank of the river
           Hoogly, where you see the famous Howrah Bridge, which more than 5
           million people cross every day. You also visit the colourful flower
-          market. Next is the Karmatuly area, where they make the huge effigies
-          used in Kolkata’s most famous festival, Durga Puja. To the North of
-          the centre you visit the exquisite, richly decorated Jain Temple
-          before continuing to College Street book market, with its hundreds of
+          market.
+
+
+          Next is the Karmatuly area, where they make the huge effigies used in
+          Kolkata’s most famous festival, Durga Puja. To the North of the centre
+          you visit the exquisite, richly decorated Jain Temple before
+          continuing to College Street book market, with its hundreds of
           bookstalls, and finally enjoy a coffee at the famous Indian Coffee
           House - still a gathering place for the city’s intellectuals.
+
+
+          The afternoon is at leisure to enjoy the hotel or explore on your own.
         date: ''
         etd: ''
         duration: ''
-  - day: 8
+  - day: 9
     item:
       - type: excursion
         url: >-
           /destinations/india/states/west-bengal/cities/kolkata/excursions/transfer-from-hotel-to-airport/
-        content: ''
+        content: >-
+          Today, you have a departure transfer to Kolkata airport to board your
+          onward flight.
         date: ''
         etd: ''
         duration: ''
