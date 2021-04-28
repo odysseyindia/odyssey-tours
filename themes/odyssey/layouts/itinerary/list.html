@@ -15,8 +15,7 @@
         <h4>Highlights</h4>
       </div>
       <div>
-        <textarea class="intro-content" id="intro-highlights" name="highlights" placeholder="Highlights (each on a new line)">{{ with .Params.highlights }}
-          {{ range . }} {{ printf "%s%s" . "\n" }} {{ end }} {{ end }}</textarea>
+        <textarea class="intro-content" id="intro-highlights" name="highlights" placeholder="Highlights (each on a new line)">{{ with .Params.highlights }}{{ range . }}{{ printf "%s%s" . "\n" }}{{ end }}{{ end }}</textarea>
       </div>
     </div>
     <div class="to-do-column">
