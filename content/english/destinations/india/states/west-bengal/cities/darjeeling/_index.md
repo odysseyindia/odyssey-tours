@@ -2,10 +2,10 @@
 title: Darjeeling
 translationKey: darjeeling
 defaultDays: 2
-longitude: 27.044166667
-latitude: 88.267777778
+longitude: 88.267777778
+latitude: 27.044166667
 draft: false
-nighthalt: false
+nighthalt: true
 id: city
 type: city
 tags:

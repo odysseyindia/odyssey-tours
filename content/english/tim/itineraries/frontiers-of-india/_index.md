@@ -4,12 +4,12 @@ subtitle: Kolkata, Dibrugarh, Mon, Mokokchung, Jorhat, Majuli, Kaziranga, Shillo
 translationKey: frontiers-of-india
 type: itinerary
 tour: Frontiers of India
-highlights: |-
-  Feel like a colonial burra sahib in tea-estate bungalows
-  Meet the fascinating headhunter tribes of Nagaland
-  Enjoy the dances and peace of Majuli island
-  Spot rhinos, elephants and even tigers on jeep safaris in Kaziranga
-  Stay in beautiful hotels overlooking the hills of Shillong
+highlights:
+  - Feel like a colonial burra sahib in tea-estate bungalows
+  - Meet the fascinating headhunter tribes of Nagaland
+  - Enjoy the dances and peace of Majuli island
+  - Spot rhinos, elephants and even tigers on jeep safaris in Kaziranga
+  - Stay in beautiful hotels overlooking the hills of Shillong
 itinerary:
   - day: 0
     item:

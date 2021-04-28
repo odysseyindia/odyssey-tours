@@ -2,10 +2,10 @@
 title: Kalimpong
 translationKey: kalimpong
 defaultDays: 1
-longitude: 27.071388889
-latitude: 88.478611111
+longitude: 88.478611111
+latitude: 27.071388889
 draft: false
-nighthalt: false
+nighthalt: true
 id: city
 type: city
 tags:

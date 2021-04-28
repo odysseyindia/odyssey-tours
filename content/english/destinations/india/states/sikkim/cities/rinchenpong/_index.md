@@ -2,10 +2,10 @@
 title: Rinchenpong
 translationKey: rinchenpong
 defaultDays: 2
-longitude: 27.240556
-latitude: 88.269722
+longitude: 88.269722
+latitude: 27.240556
 draft: false
-nighthalt: false
+nighthalt: true
 id: city
 type: city
 tags:

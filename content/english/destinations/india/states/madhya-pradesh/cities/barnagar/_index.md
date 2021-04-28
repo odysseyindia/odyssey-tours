@@ -2,10 +2,10 @@
 title: Barnagar
 translationKey: barnagar
 defaultDays: 1
-longitude: 23.012222222
-latitude: 75.327222222
+longitude: 75.327222222
+latitude: 23.012222222
 draft: false
-nighthalt: false
+nighthalt: true
 id: city
 type: city
 tags:

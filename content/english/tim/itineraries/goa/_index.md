@@ -98,10 +98,10 @@ itinerary:
         date: ''
         etd: ''
         duration: ''
-highlights: |-
-  Staying at a heritage hotel in Panjim's lovely Latin Quarter
-  Getting to wander inside Fontainhas's historic homes
-  Exploring Goa's own liquor on a feni and tapas trail
-  Staying on a beautiful golden beach
+highlights:
+  - Staying at a heritage hotel in Panjim's lovely Latin Quarter
+  - Getting to wander inside Fontainhas's historic homes
+  - Exploring Goa's own liquor on a feni and tapas trail
+  - Staying on a beautiful golden beach
 ---
 The little state of Goa is one of India’s most popular destinations, with a fun vibe, great beaches and excellent food. However, tempting as it is to just lie on the beach, there’s more to Goa. Its colonial past under the Portuguese has given it architecture and urban design unlike anywhere else in India, and this is worth exploring too.

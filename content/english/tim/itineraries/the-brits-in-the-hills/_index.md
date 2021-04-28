@@ -1,20 +1,15 @@
 ---
-title: The Brits in the Hillsx
+title: The Brits in the Hills
 subtitle: Delhi, Patiala, Pragpur, Palampur, Shimla
 translationKey: the-brits-in-the-hills
 type: itinerary
 tour: The Brits in the Hills
-highlights: >-
-  Stay in charming hotels, from a palace to a cottage to a judge's mansion
-
-  Explore the origins of the famous 'Patiala peg' and the city's flamboyant
-  ex-rulers
-
-  Soak in the views and old-time charm of the Kangra toy train
-
-  Explore Shimla, the Raj's summer capital
-
-  Enjoy beautiful walks in idyllic spots, far from the crowds
+highlights:
+  - Stay in charming hotels, from a palace to a cottage to a judge's mansion
+  - Explore the origins of the famous 'Patiala peg' and the city's flamboyant ex-rulers
+  - Soak in the views and old-time charm of the Kangra toy train
+  - Explore Shimla, the Raj's summer capital
+  - Enjoy beautiful walks in idyllic spots, far from the crowds
 itinerary:
   - day: 0
     item:

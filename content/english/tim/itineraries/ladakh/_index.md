@@ -4,12 +4,13 @@ subtitle: Leh, Kyagar, Stok
 translationKey: ladakh
 type: itinerary
 tour: Ladakh
-highlights: |
-  Acclimatising to the altitude in the lovely orchard at Nimmu House
-  Exploring exotic Leh
-  Meeting two-humped Bactrian camels in the Nubra Valley
-  Learning about Ladakh's Buddhist culture
-  Staying at the lovely, colourful Stok Palace
+highlights:
+  - Acclimatising to the altitude in the lovely orchard at Nimmu House
+  - Exploring exotic Leh
+  - Meeting two-humped Bactrian camels in the Nubra Valley
+  - Learning about Ladakh's Buddhist culture
+  - Staying at the lovely, colourful Stok Palace
+  - ''
 itinerary:
   - day: 0
     item:
@@ -123,7 +124,18 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/ladakh/cities/kyagar/hotels/lchang-nang-retreat/
-        content: ''
+        content: >-
+          Lchang Nang Retreat is set amidst an orchard of elm, apricot, and
+          apple trees, with the Siachen river rushing past its western boundary.
+          The cottages, created in the local architectural style using mud,
+          stone and poplar, all have a private garden and sit-out. The
+          restaurant provides a wide array of dishes, and even spa treatments
+          are available here, amid gorgeous views of the snow-capped Himalayas.
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 4
     item:
       - type: excursion

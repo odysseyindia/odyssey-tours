@@ -6,8 +6,7 @@ type: itinerary
 weight: 601
 tour: An Introduction to Kerala
 highlights:
-  - >-
-    Exploring charming Fort Kochi, with its Portuguese, Dutch and British
+  - Exploring charming Fort Kochi, with its Portuguese, Dutch and British
     influences
   - Heady spices in Thekkady
   - Spending the night on a houseboat on calm backwaters

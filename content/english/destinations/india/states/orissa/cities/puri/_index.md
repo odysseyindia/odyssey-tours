@@ -2,10 +2,10 @@
 title: Puri
 translationKey: puri
 defaultDays: 2
-longitude: 19.804722222
-latitude: 85.817777778
+longitude: 85.817777778
+latitude: 19.804722222
 draft: false
-nighthalt: false
+nighthalt: true
 id: city
 type: city
 tags:

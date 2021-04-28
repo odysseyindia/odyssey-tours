@@ -2,8 +2,8 @@
 title: Kyagar
 translationKey: kyagar
 defaultDays: 1
-longitude: 34.65
-latitude: 77.6
+longitude: 77.6
+latitude: 34.65
 draft: false
 nighthalt: true
 id: city

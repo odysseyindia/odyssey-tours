@@ -2,10 +2,10 @@
 title: Tranquebar
 translationKey: tranquebar
 defaultDays: 1
-longitude: 11.025833333
-latitude: 79.855833333
+longitude: 79.855833333
+latitude: 11.025833333
 draft: false
-nighthalt: false
+nighthalt: true
 id: city
 type: city
 tags:

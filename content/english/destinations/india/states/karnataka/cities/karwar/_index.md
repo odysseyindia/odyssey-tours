@@ -4,8 +4,8 @@ translationKey: karwar
 defaultDays: 3
 longitude: ''
 latitude: ''
-draft: true
-nighthalt: false
+draft: false
+nighthalt: true
 id: city
 type: city
 tags:

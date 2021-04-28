@@ -2,10 +2,10 @@
 title: Pelling
 translationKey: pelling
 defaultDays: 2
-longitude: 27.354444444
-latitude: 88.192777778
+longitude: 88.192777778
+latitude: 27.354444444
 draft: false
-nighthalt: false
+nighthalt: true
 id: city
 type: city
 tags:

@@ -2,10 +2,10 @@
 title: Sultan Battery
 translationKey: sultan-battery
 defaultDays: 2
-longitude: 11.67
-latitude: 76.28
+longitude: 76.28
+latitude: 11.67
 draft: false
-nighthalt: false
+nighthalt: true
 id: city
 type: city
 tags:

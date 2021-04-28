@@ -2,10 +2,10 @@
 title: Kushinagar
 translationKey: kushinagar
 defaultDays: 1
-longitude: 26.735799
-latitude: 83.902588
+longitude: 83.902588
+latitude: 26.735799
 draft: false
-nighthalt: false
+nighthalt: true
 id: city
 type: city
 tags:

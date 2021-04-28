@@ -2,10 +2,10 @@
 title: Ranakpur
 translationKey: ranakpur
 defaultDays: 1
-longitude: 25.115833333
-latitude: 73.471666667
-draft: true
-nighthalt: false
+longitude: 73.471666667
+latitude: 25.115833333
+draft: false
+nighthalt: true
 id: city
 type: city
 tags:

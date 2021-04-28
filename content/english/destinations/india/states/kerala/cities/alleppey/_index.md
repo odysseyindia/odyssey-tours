@@ -2,10 +2,10 @@
 title: Alleppey
 translationKey: alleppey
 defaultDays: 2
-longitude: 10.518055556
-latitude: 76.220833333
+longitude: 76.220833333
+latitude: 10.518055556
 draft: false
-nighthalt: false
+nighthalt: true
 id: city
 type: city
 tags:

@@ -2,10 +2,10 @@
 title: Themisgaam
 translationKey: themisgaam
 defaultDays: 1
-longitude: 34.328889
-latitude: 77.005
+longitude: 77.005
+latitude: 34.328889
 draft: false
-nighthalt: false
+nighthalt: true
 id: city
 type: city
 tags:

@@ -4,12 +4,12 @@ subtitle: Darjeeling, Rinchenpong, Pelling, Gangtok, Kalimpong
 translationKey: himalayan-frontiers
 type: itinerary
 tour: Himalayan Frontiers
-highlights: |-
-  Spectacular views from Tiger Hill
-  Taking a British-era steam train to Ghoom monastery
-  Learning about Sikkim's eco-friendly farming with a family
-  Amazing Buddhist monasteries at Pemayangtse, Sanga Choling, Phodang and Rumtek
-  Driving through Sikkim's rugged scenery
+highlights:
+  - Spectacular views from Tiger Hill
+  - Taking a British-era steam train to Ghoom monastery
+  - Learning about Sikkim's eco-friendly farming with a family
+  - Amazing Buddhist monasteries at Pemayangtse, Sanga Choling, Phodang and Rumtek
+  - Driving through Sikkim's rugged scenery
 itinerary:
   - day: 0
     item:

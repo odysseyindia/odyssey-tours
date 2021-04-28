@@ -2,10 +2,10 @@
 title: Mandawa
 translationKey: mandawa
 defaultDays: 2
-longitude: 28.053611111
-latitude: 75.148888889
+longitude: 75.148888889
+latitude: 28.053611111
 draft: false
-nighthalt: false
+nighthalt: true
 id: city
 type: city
 tags:

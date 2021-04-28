@@ -2,10 +2,10 @@
 title: Kohima
 translationKey: kohima
 defaultDays: 2
-longitude: 25.6701
-latitude: 94.1077
+longitude: 94.1077
+latitude: 25.6701
 draft: false
-nighthalt: false
+nighthalt: true
 id: city
 type: city
 tags:

@@ -2,10 +2,10 @@
 title: Pushkar
 translationKey: pushkar
 defaultDays: 1
-longitude: 26.486666667
-latitude: 74.555833333
+longitude: 74.555833333
+latitude: 26.486666667
 draft: false
-nighthalt: false
+nighthalt: true
 id: city
 type: city
 tags:

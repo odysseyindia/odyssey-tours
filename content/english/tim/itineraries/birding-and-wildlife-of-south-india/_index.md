@@ -572,9 +572,5 @@ itinerary:
         duration: ''
 ---
 
-
-
-
-
-On this magnificent journey traversing south India’s hills, you enjoy a stunning array of delights: the historical city of Kochi, lowland riverine forests of Thattekad, tea estates of Munnar, dense evergreen forests of Thekkady, a stay at a heritage property amongst hills. A stay on an 100-acre farm, which was on the migratory route of wild elephants. Enjoy the cool air of the tropical highlands at Thekkady, charming old-fashioned hill stations of Kodaikanal and Ooty, and the pleasant city of Mysore with its impressive palace and the Ranganathittu bird sanctuary nearby. Along with 200+ species of birds, you have the chance to spot the rare Niligiri tahr, sloth bears, wild elephants, deer, nilgai, Malabar flying squirrel, wild dogs, leopards and even tigers on this fantastic holiday!
+On this magnificent journey traversing south India's hills, you enjoy a stunning array of delights: the historical city of Kochi, lowland riverine forests of Thattekad, tea estates of Munnar, dense evergreen forests of Thekkady, a stay at a heritage property amongst hills. A stay on an 100-acre farm, which was on the migratory route of wild elephants. Enjoy the cool air of the tropical highlands at Thekkady, charming old-fashioned hill stations of Kodaikanal and Ooty, and the pleasant city of Mysore with its impressive palace and the Ranganathittu bird sanctuary nearby. Along with 200+ species of birds, you have the chance to spot the rare Niligiri tahr, sloth bears, wild elephants, deer, nilgai, Malabar flying squirrel, wild dogs, leopards and even tigers on this fantastic holiday!
 	

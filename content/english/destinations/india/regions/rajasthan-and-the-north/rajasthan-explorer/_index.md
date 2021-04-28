@@ -472,10 +472,10 @@ itinerary:
         etd: null
         duration: ''
 highlights:
-- The best of the Golden Triangle
-- Chilling out by the lake in Pushkar and Udaipur
-- Getting to know India's villages in Chandelao and Narlai
-- A camel safari and staying in the desert in Jaisalmer
+  - The best of the Golden Triangle
+  - Chilling out by the lake in Pushkar and Udaipur
+  - Getting to know India's villages in Chandelao and Narlai
+  - A camel safari and staying in the desert in Jaisalmer
 
 ---
 

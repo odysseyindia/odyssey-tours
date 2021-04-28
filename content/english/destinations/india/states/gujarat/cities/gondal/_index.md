@@ -2,10 +2,10 @@
 title: Gondal
 translationKey: gondal
 defaultDays: 1
-longitude: 21.964444444
-latitude: 70.792777778
+longitude: 70.792777778
+latitude: 21.964444444
 draft: false
-nighthalt: false
+nighthalt: true
 id: city
 type: city
 tags:

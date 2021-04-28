@@ -2,10 +2,10 @@
 title: Hassan
 translationKey: hassan
 defaultDays: 1
-longitude: 13.0075
-latitude: 76.093333333
-draft: true
-nighthalt: false
+longitude: 76.093333333
+latitude: 13.0075
+draft: false
+nighthalt: true
 id: city
 type: city
 tags:

@@ -2,10 +2,10 @@
 title: Majuli
 translationKey: majuli
 defaultDays: 1
-longitude: 26.95
-latitude: 94.1667
+longitude: 94.1667
+latitude: 26.95
 draft: false
-nighthalt: false
+nighthalt: true
 id: city
 type: city
 tags:

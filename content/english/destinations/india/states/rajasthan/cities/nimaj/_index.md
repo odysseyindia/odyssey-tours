@@ -2,10 +2,10 @@
 title: Nimaj
 translationKey: nimaj
 defaultDays: 1
-longitude: 26.149444444
-latitude: 74.000277778
+longitude: 74.000277778
+latitude: 26.149444444
 draft: false
-nighthalt: false
+nighthalt: true
 id: city
 type: city
 tags:

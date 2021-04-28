@@ -2,10 +2,10 @@
 title: Nameri
 translationKey: nameri
 defaultDays: 2
-longitude: 27.01
-latitude: 92.79
-draft: true
-nighthalt: false
+longitude: 92.79
+latitude: 27.01
+draft: false
+nighthalt: true
 id: city
 type: city
 tags:

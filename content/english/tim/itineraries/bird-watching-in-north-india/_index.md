@@ -1,6 +1,6 @@
 ---
 title: Bird Watching in North India
-subtitle: 'Delhi, Bharatpur, Chambal River Sanctuary, Agra, Bhopal, Satpura National Park'
+subtitle: Delhi, Bharatpur, Chambal River Sanctuary, Agra, Bhopal, Satpura National Park
 weight: 111
 translationKey: bird-watching-in-north-india
 type: itinerary
@@ -14,8 +14,8 @@ itinerary:
         content: >-
           You start your tour on arrival in Delhi, where you will be met by our
           representative and transferred to your hotel.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: hotel
         url: >-
@@ -26,10 +26,11 @@ itinerary:
           stylish designs. The hotel has 3 restaurants including one serving
           authentic Japanese cuisine. There is a swimming pool, an excellent
           large spa, a fashion & lifestyle store and an art gallery.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 1
     item:
       - type: city
@@ -52,10 +53,11 @@ itinerary:
           comfortable, well-furnished rooms. Between the two wings is an
           enticing swimming pool. The entire property is surrounded by extensive
           lawns giving it a rural and relaxing feel.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 2
     item:
       - type: excursion
@@ -69,8 +71,8 @@ itinerary:
           walk on the smaller trails. When there is enough water, you can also
           take a row-boat ride, to get close to the aquatic birds and their
           nesting colonies.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 3
     item:
@@ -78,8 +80,8 @@ itinerary:
         url: >-
           /destinations/india/states/rajasthan/cities/bharatpur/excursions/visit-to-the-bird-sanctuary/
         content: Another full day to explore the Keoladeo Ghana bird sanctuaries.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 4
     item:
@@ -111,8 +113,8 @@ itinerary:
           sightings of the gharials, muggers & turtles basking in the sun, the
           many migratory and resident birds flying sorties, and the occasional
           glimpses of the Gangetic river dolphins breaking surface.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: hotel
         url: >-
@@ -129,10 +131,11 @@ itinerary:
           garden, and the meals are served in different alfresco spots around
           the property. A great space to relax after days of culture and
           monuments!
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 5
     item:
       - type: excursion
@@ -143,8 +146,8 @@ itinerary:
           look for more birds and reptiles. Your afternoon is at leisure, and if
           you’re keen, there’s plenty of birding to be done around the property
           itself.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 6
     item:
@@ -167,8 +170,8 @@ itinerary:
           features the same marble inlay work as the Taj Mahal. Finally you will
           visit Mehtab Bagh, a formally laid-out Mughal garden that offers
           stupendous views of the Taj Mahal, especially in the late afternoon.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: hotel
         url: >-
@@ -180,10 +183,11 @@ itinerary:
           time to the Crown Princes of England as well as to Mohammad Ali
           Jinnah. The wide lawn in the front, and the cupola-marked pool at the
           back complete the feel of a luxury heritage hotel.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 7
     item:
       - type: city
@@ -207,10 +211,11 @@ itinerary:
           city hotels, Jehan Numa boasts of wide balconies, open lawns,
           fountains and many inviting spots to relax and unwind after a day of
           sightseeing.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 8
     item:
       - type: city
@@ -243,8 +248,8 @@ itinerary:
           effort to reduce the pressure of tourism in the area, the authorities
           restrict the number of vehicles in the reserve, keeping you away from
           crowds and close to all the action.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: hotel
         url: >-
@@ -257,39 +262,46 @@ itinerary:
           activities like bicycle and walking tours in the buffer zone. A
           highlight is interact with the naturalists, over a glass of mahua by
           the cosy lounge-bar.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 9
     item:
       - type: excursion
         url: >-
           /destinations/india/states/madhya-pradesh/cities/satpura/excursions/jeep-safari-in-satpura-national-park/
         content: >-
-          You have an early-morning jeep safari into Satpura national park, a
-          different experience from the afternoon one.
-
-
-          Your stay in Satpura is on Jungle Plan basis, which includes all
-          meals, and one shared jeep safari with a naturalist per day. Each ride
-          takes you into heart of the wilderness. You also have the choice of
-          one other jungle activity per day - you can choose between a night
-          safari, nature walk, canoe ride or a boat ride.
-        date: null
-        etd: null
+          The best way to experience the jungle is to start at the crack of dawn
+          and cross the Denwa River. This is the time when life in the forest
+          slowly wakes up to daylight. Drive in your shared open-top jeep along
+          favoured resting and feeding spots and track the ever-elusive
+          predators of the Satpura Jungle.
+        date: ''
+        etd: ''
+        duration: ''
+      - type: excursion
+        url: >-
+          /destinations/india/states/madhya-pradesh/cities/satpura/excursions/private-jeep-safari-with-naturalist-in-satpura-national-park/
+        content: >-
+          There’s nothing quite like exploring Satpura Tiger Reserve in a
+          private open-top jeep. Accompanied by experienced naturalists and
+          Satpura’s local guides, each ride takes you into heart of the
+          wilderness. In an effort to reduce the pressure of tourism in the
+          area, the authorities restrict the number of vehicles in the reserve,
+          keeping you away from crowds and close to all the action.
+        date: ''
+        etd: ''
         duration: ''
   - day: 10
     item:
       - type: city
         url: /destinations/india/states/madhya-pradesh/cities/bhopal/
-        content: 'Today, you drive back to Bhopal, to connect with your onward flight.'
+        content: Today, you drive back to Bhopal, to connect with your onward flight.
 highlights:
-- Over two days of birding in the wetlands of Bharatpur's national park
-- Boat safaris on the amazing Chambal river
-- Jeep safaris in Satpura national park
-- Visiting the Taj Mahal in Agra
-- Being awed by prehistoric cave paintings in Bhimbetka
+  - Over two days of birding in the wetlands of Bharatpur's national park
+  - Boat safaris on the amazing Chambal river Jeep safaris in Satpura national park 
+  - Visiting the Taj Mahal in Agra Being awed by prehistoric cave paintings in Bhimbetka
 ---
-
-India's varied terrain and large forest area make it a wonderful destination for birders, and in arid north and central India in particular, the smallest water body becomes a thriving avian metropolis. You start your tour with a multi-day stay at Bharatpur's Keoladeo Ghana bird sanctuary, whose wetlands are home to vast numbers of aquatic birds. You then take a trip on the Chambal river near Agra, a fabulous place to spot a variety of ducks, skimmers, herons and raptors, as well as endangered gharial crocodiles, muggers, turtles and the very rare Gangetic dolphins. A cultural interlude takes you to the fabulous Taj Mahal and the wonderful cave art outside Bhopal, and then you end up at the little-known Satpura national park, a beautiful forest that can be explored by jeep, boat, cycle or even on foot. With close to 400 species of birds and plenty of time in each spot, this is sure to be a momentous birding journey.
+India's varied terrain and large forest area make it a wonderful destination for birders, and in arid north and central India in particular, the smallest water body becomes a thriving avian metropolis. You start your tour with a multi-day stay at Bharatpur’s Keoladeo Ghana bird sanctuary, whose wetlands are home to vast numbers of aquatic birds. You then take a trip on the Chambal river near Agra, a fabulous place to spot a variety of ducks, skimmers, herons and raptors, as well as endangered gharial crocodiles, muggers, turtles and the very rare Gangetic dolphins. A cultural interlude takes you to the fabulous Taj Mahal and the wonderful cave art outside Bhopal, and then you end up at the little-known Satpura national park, a beautiful forest that can be explored by jeep, boat, cycle or even on foot. With close to 400 species of birds and plenty of time in each spot, this is sure to be a momentous birding journey.

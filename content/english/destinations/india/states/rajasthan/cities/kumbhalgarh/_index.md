@@ -2,10 +2,10 @@
 title: Kumbhalgarh
 translationKey: kumbhalgarh
 defaultDays: 1
-longitude: 25.147777778
-latitude: 73.583333333
-draft: true
-nighthalt: false
+longitude: 73.583333333
+latitude: 25.147777778
+draft: false
+nighthalt: true
 id: city
 type: city
 tags:

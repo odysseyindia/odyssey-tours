@@ -2,10 +2,10 @@
 title: Rohet
 translationKey: rohet
 defaultDays: 1
-longitude: 25.955555556
-latitude: 73.134444444
+longitude: 73.134444444
+latitude: 25.955555556
 draft: false
-nighthalt: false
+nighthalt: true
 id: city
 type: city
 tags:

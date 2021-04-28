@@ -5,7 +5,7 @@ defaultDays: 1
 longitude: ''
 latitude: ''
 draft: false
-nighthalt: false
+nighthalt: true
 id: city
 type: city
 tags:

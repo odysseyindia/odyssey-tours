@@ -15,7 +15,8 @@
         <h4>Highlights</h4>
       </div>
       <div>
-        <textarea class="intro-content" id="intro-highlights" name="highlights" placeholder="Highlights (each on a new line)">{{ with .Params.highlights }}{{ . }}{{ end }}</textarea>
+        <textarea class="intro-content" id="intro-highlights" name="highlights" placeholder="Highlights (each on a new line)">{{ with .Params.highlights }}
+          {{ range . }} {{ . }} {{ end }} {{ end }}</textarea>
       </div>
     </div>
     <div class="to-do-column">
@@ -547,7 +548,7 @@
       </div>
       <div class="row">
         <div>
-          <label for="insertday">Add a day</label>
+          <label for="insertday">Insert a day after day </label>
           <input id="insertday" name="insertday" value="">
         </div>
       </div>
@@ -850,7 +851,15 @@ function saveItinerary(deleteDay){
   var   intro      = document.getElementById('intro-content').value;
   var   subtitle   = document.getElementById('intro-subtitle').value;
   var   weight     = document.getElementById('intro-weight').value;
-  var   highlights = document.getElementById('intro-highlights').value;
+  var   lines      = document.getElementById('intro-highlights').value.split(/\n/);
+  var   highlights = [];
+
+  for (var i=0; i<lines.length; i++){
+    //if (/\S/.test(lines[i])){
+      highlights.push( lines[i].trim() );
+    //}
+  }
+ 
   const days       = document.getElementById('myItinerary').getElementsByClassName('containers');
 
   for(let i=0;i<days.length;i++) {

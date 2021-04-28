@@ -2,10 +2,10 @@
 title: Hampi
 translationKey: hampi
 defaultDays: 3
-longitude: 15.335
-latitude: 76.462
+longitude: 76.462
+latitude: 15.335
 draft: false
-nighthalt: false
+nighthalt: true
 id: city
 type: city
 tags:

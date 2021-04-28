@@ -2,10 +2,10 @@
 title: Bharatpur
 translationKey: bharatpur
 defaultDays: 1
-longitude: 27.200833333
-latitude: 77.506388889
+longitude: 77.506388889
+latitude: 27.200833333
 draft: false
-nighthalt: false
+nighthalt: true
 id: city
 type: city
 tags:

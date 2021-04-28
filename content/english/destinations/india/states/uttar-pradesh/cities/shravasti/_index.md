@@ -5,11 +5,11 @@ defaultDays: 1
 longitude: ''
 latitude: ''
 draft: false
-nighthalt: false
+nighthalt: true
 id: city
 type: city
 tags:
   - Cities
   - Shravasti
 ---
-Shravasti in Uttar Pradesh was one of the six largest cities in India during the time of Gautama Buddha. It is believed that he spent 25 rainy seasons in the famous monasteries in Shravasti of which 19 mainly in the Jetavana monastery. It is also the place where he gave maximum number of discourses and instructions. The site of Jetavana monastery is the main pilgrim destination, with meditation and chanting mainly done at the Gandhakuti (Buddha's hut) and the Anandabodhi tree.    
+Shravasti in Uttar Pradesh was one of the six largest cities in India during the time of Gautama Buddha (called Sahet-Mahet then). It is believed that he spent 25 rainy seasons in the famous monasteries in Shravasti of which 19 mainly in the Jetavana monastery. It is also the place where he gave maximum number of discourses and instructions. The site of Jetavana monastery is the main pilgrim destination, with meditation and chanting mainly done at the Gandhakuti (Buddha's hut) and the Anandabodhi tree.

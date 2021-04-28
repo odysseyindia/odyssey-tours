@@ -4,7 +4,7 @@
   <div class="filter">
 
     <div class="box">
-     <div id="counter"> <i class="icon-info-circled"></i> <span id="numTours"></span> tours found</div>
+     <div id="counter"> <i class="icon-info-circled"></i> <span id="numTours">{{ .dot.Data.Pages | len }}</span> tours found</div>
     </div>
 
 {{- $min := 10000 -}}
