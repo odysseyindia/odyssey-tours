@@ -313,7 +313,63 @@ console.log(airportData);
       catch (error) {
         console.log('Route ajax writing: ' + error.message);
       } 
+    
+    } else if ( request.file == 'distances.csv') {
+
+      // 0=from_city,1=from_state,2=from_cities_id,3=to_city,4=to_state,5=to_cities_id,6=distance,7=time,8=via,9=drive  
+
+      var state             = urlize(array[1]);
+      var city              = urlize(array[0]);
+      var country           = 'india';
+
+      var mdfile = dir+'/destinations/'+country;
+
+      if (country == 'india'){ 
+        if (typeof state === "undefined") throw "state for "+city+" is undefined";
+        mdfile += '/states/'+state; 
+      };
       
+      mdfile += '/cities/'+city+'/_index.md';
+
+      console.log('Processing ',mdfile);
+
+      try {
+        var fileContents = fs.readFileSync(mdfile, 'utf8', (err) => {       
+          if (err) throw err; 
+        }) 
+      } 
+      catch (error) {
+        var fileContents = "---\n---\n";
+      } 
+
+      try {
+
+        let contents = fileContents.split("---");
+        let data = yaml.loadAll(contents[1]);
+
+        var distanceData = array[4]+','+array[3],','+array[6]+','+array[7]+','+array[8];
+  console.log(distanceData);
+
+        if (typeof data[0].distances === 'undefined'){
+          data[0].distances = [];
+        };
+        data[0].distances.push( distanceData );
+
+        let output = `---\n` 
+        + yaml.dump(data[0]) 
+        + "---\n" 
+        + contents[2]
+
+        fs.writeFileSync(mdfile, output, 'utf8', (err) => {       
+         if (err) throw err; 
+       }) 
+      } 
+
+      catch (error) {
+        console.log("Route import writing "+state+": " + error.message);
+      } 
+
+
     } else {
       console.log(file+" is a wrong option");
     }

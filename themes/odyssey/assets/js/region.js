@@ -1,7 +1,7 @@
 // regions
   var locations = [
   [26.92555556, 75.82361111, '/image_1.png', '/destinations/india/regions/rajasthan-and-the-north/'],
-  [32.28555556, 77.16222222, '/image_2.png', '/destinations/india/regions/foothills-of-the-himalaya/'],
+  [32.28555556, 77.16222222, '/image_2.png', '/destinations/india/regions/foothills-of-the-himalayas/'],
   [24.63750000, 87.84861100, '/image_3.png', '/destinations/india/regions/kolkata-orissa-and-the-northeast/'],
   [23.02166667, 72.59027778, '/image_4.png', '/destinations/india/regions/gujarat-and-central-india/'],
   [18.999803, 72.817383,     '/image_5.png', '/destinations/india/regions/mumbai-goa-and-the-deccan/'],

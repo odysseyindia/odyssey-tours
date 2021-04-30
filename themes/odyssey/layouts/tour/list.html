@@ -84,21 +84,28 @@
 {{- range $i,$e := .Params.itinerary }}
   <div class="card">
 
-<button class="accordion">Day {{ add $i 1 }}
+<button class="accordion">Day {{ add $i 1 }},
       {{- range $j, $element := $e.item }}
       {{- if (eq .type "hotel") }}{{ $nighthalt = index (split .url "/" ) 6 | humanize }}{{- end}}
       {{- end }}
-      {{ if eq (add $i 1) (len $.Params.itinerary)}}, Departure{{ else }} , {{ $nighthalt }}{{ end }}
+      {{ if eq (add $i 1) (len $.Params.itinerary)}} Departure{{ else }} {{ $nighthalt }}{{ end }}
 </button>
 <div class="panel">
 {{- range $j, $element := $e.item }}
               {{- if eq .type "hotel" }}
-                <h3>Suggested hotel: 
+                <h3>You stay at 
+                {{- with ($.Site.GetPage (printf "%s%s" .url "index.md")) }}
+                  {{.Title}}
+                {{- end }}
+                </h3>
+              {{- else }}
+                <h3> 
                 {{- with ($.Site.GetPage (printf "%s%s" .url "index.md")) }}
                   {{.Title}}
                 {{- end }}
                 </h3>
               {{- end }}
+
               <p>{{ .content }}</p>
 
               {{- if eq .type "city" }}
