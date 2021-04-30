@@ -3,6 +3,6 @@
 /node_modules/
 /dist/
 /site/data/webpack.json
-*.log
-.netlify
-.env
+*.log/
+.netlify/
+.env/
