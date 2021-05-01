@@ -5,4 +5,5 @@
 /site/data/webpack.json
 *.log/
 .netlify/
-.env/
+.env
+.gitignore
