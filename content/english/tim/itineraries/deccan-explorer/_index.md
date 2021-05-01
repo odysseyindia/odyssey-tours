@@ -8,7 +8,8 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/telengana/cities/hyderabad/excursions/transfer-from-airport-to-hotel/
+          /destinations/india/states/telangana/cities/hyderabad/excursions/transfer-from-airport-to-hotel/
+        title: Transfer from airport to hotel
         content: >-
           Your tour starts on arrival in Hyderabad airport, where you are met by
           our representative and transferred to your hotel.
@@ -16,7 +17,8 @@ itinerary:
         etd: ''
         duration: ''
       - type: city
-        url: /destinations/india/states/telengana/cities/hyderabad/
+        url: /destinations/india/states/telangana/cities/hyderabad/
+        title: Hyderabad
         content: >-
           The twin city of Hyderabad-Secunderabad is a mixture of Muslim and
           Hindu cultures. Its history as the centre of Muslim India from the
@@ -27,7 +29,8 @@ itinerary:
           explore.
       - type: hotel
         url: >-
-          /destinations/india/states/telengana/cities/hyderabad/hotels/taj-banjara/
+          /destinations/india/states/telangana/cities/hyderabad/hotels/taj-banjara/
+        title: Taj Banjara
         content: >-
           An old-fashioned business hotel with character. Built in 1949, the
           hotel offers spacious rooms with comfortable furnishings. The coffee
@@ -42,7 +45,8 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/telengana/cities/hyderabad/excursions/half-day-city-tour-of-hyderabad/
+          /destinations/india/states/telangana/cities/hyderabad/excursions/half-day-city-tour-of-hyderabad/
+        title: Half day city tour of Hyderabad
         content: >-
           West of Hyderabad lies the historic Golconda Fort, with its massive
           battlements winding up the dust-brown hill. First built in the 13th
@@ -58,6 +62,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/karnataka/cities/gulbarga/
+        title: Gulbarga
         content: >-
           Today, you have a fairly long drive, broken at Bidar, a pleasant town
           where one can visit abandoned 15th-century palaces, mosques and huge
@@ -78,6 +83,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/karnataka/cities/gulbarga/hotels/citrus-hotel-gulbarga-by-othpl/
+        title: Citrus Hotel Gulbarga by OTHPL
         content: >-
           This modern, well-designed hotel is the best option in the town of
           Gulbarga (or Kalaburagi). Located close to both the railway station
@@ -93,6 +99,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/karnataka/cities/vijayapura/
+        title: Vijayapura
         content: >-
           After breakfast, drive to Vijayapura (150kms, 03:30hrs).
 
@@ -107,6 +114,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/karnataka/cities/vijayapura/hotels/kyriad-hotel-vijayapura-by-othpl/
+        title: Kyriad Hotel Vijayapura by OTHPL
         content: >-
           Modern, clean and straightforward, this is the best option in the
           historic town of Vijayapura. You get a choice between a multi-cuisine
@@ -121,6 +129,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/karnataka/cities/badami/
+        title: Badami
         content: >-
           After breakfast, drive to Badami (124kms, 03:00hrs).
 
@@ -135,6 +144,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/karnataka/cities/badami/hotels/krishna-heritage-hotel/
+        title: Krishna Heritage Hotel
         content: >-
           Krishna Heritage is approximately ten minutes’ drive outside Badami.
           It offers spacious rooms, most with a balcony. The bathrooms are
@@ -150,6 +160,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/karnataka/cities/hampi/
+        title: Hampi
         content: >-
           After breakfast, drive to Hampi via Pattadakal and Aihole (160kms,
           04:00hrs).
@@ -184,6 +195,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/karnataka/cities/hampi/hotels/hampis-boulders-resort/
+        title: Hampis Boulders Resort
         content: >-
           This quirky resort is located a half-hour drive from Hampi’s main
           sights, amidst a stunning location: you actually drive over large
@@ -201,6 +213,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/karnataka/cities/hampi/excursions/full-day-sightseeing-of-hampi/
+        title: Full day sightseeing of Hampi
         content: >-
           In the 16th century, Hampi rivalled Rome in splendour and the
           Vijayanagar empire controlled almost all of south India from here.
@@ -219,11 +232,13 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/karnataka/cities/hampi/
+        title: Hampi
         content: Today, you have a full day at leisure to explore Hampi on your own.
   - day: 8
     item:
       - type: city
         url: /destinations/india/states/karnataka/cities/chikmagalur/
+        title: Chikmagalur
         content: >-
           Today, you leave behind the Deccan’s plains for the lovely hills of
           the Western Ghats range. It does take a while, though: you have an
@@ -240,6 +255,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/karnataka/cities/chikmagalur/hotels/flameback-lodges/
+        title: Flameback Lodges
         content: >-
           In a picturesque coffee plantation in hilly Chikmagalur is Flameback,
           a collection of cottages and villas separated by lush forest. Built to
@@ -258,6 +274,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/karnataka/cities/chikmagalur/excursions/day-at-leisure-at-flameback-lodges/
+        title: Day at leisure at Flameback Lodges
         content: >-
           Book a massage or relax in the Jacuzzi in the tranquil Robusta Spa.
           There are also two steam baths and invigorating ice showers. The
@@ -273,6 +290,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/karnataka/cities/mysore/
+        title: Mysore
         content: >-
           Today, you drive to Mysore via the old Hoysala capitals of Belur and
           Halebid, stuffed with amazing temples.
@@ -297,6 +315,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/karnataka/cities/mysore/hotels/royal-orchid-metropole-hotel/
+        title: Royal Orchid Metropole Hotel
         content: >-
           This hotel was originally built by the Wodeyar ruling family of
           Mysore, and has considerable old-world charm. Built to house the
@@ -314,6 +333,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/karnataka/cities/mysore/
+        title: Mysore
         content: >-
           Mysore (or Mysuru) is a friendly and easy-going city with a pleasant
           climate. With a number of beautiful palaces and pre-Independence
@@ -324,6 +344,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/karnataka/cities/mysore/excursions/half-day-city-tour-of-mysore/
+        title: Half day city tour of Mysore
         content: >-
           The focal point of the city is the 19th-century Maharaja’s Palace.
           Part of it is still used by the royal family on festive occasions; the
@@ -346,6 +367,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/karnataka/cities/bangalore/
+        title: Bangalore
         content: >-
           After breakfast, you drive four hours to Bangalore, the Silicon Valley
           of India. This buzzing city has beautiful parks, avenues and
@@ -355,6 +377,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/karnataka/cities/bangalore/hotels/st-marks-hotel/
+        title: St. Marks Hotel
         content: >-
           St. Mark’s Hotel, in the heart of Bangalore, is a 4-star boutique
           hotel, close to Brigade Road, and to several tourist attractions and
@@ -373,19 +396,21 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/karnataka/cities/bangalore/excursions/transfer-from-hotel-to-airport/
+        title: Transfer from hotel to airport
         content: >-
           Today, you have a departure transfer to Bangalore airport to catch
           your onward flight.
         date: ''
         etd: ''
         duration: ''
-highlights: 
+highlights:
   - Hyderabad's beautiful monuments and excellent food
   - Offbeat spots that will astound you
   - The wonderful, atmospheric ruins of Hampi
   - Carved temples as beautiful as any in India
   - Easy exploring in Chikmagalur and Mysore
+  - ''
 subtitle: Hyderabad, Gulbarga, Vijayapura, Badami, Hampi, Chikmagalur, Mysore, Bangalore
 weight: 503
 ---
-Kerala’s backwaters and Tamil Nadu's temples get all the attention, but the Deccan plateau in South India has astonishing monuments and culture to offer as well. You start with Hyderabad, a royal city with a character all its own, with the huge Golconda Fort and Charminar. You carry on to the wonderful domed monuments and mosques of Gulbarga and Vijayapura, and the temples of Badami. You then find yourself in spectacular Hampi, with its ruins amid a boulder-strewn landscape, and after that in lovely, green Chikmagalur’s coffee estates, a complete contrast. Carry on via the ornately-carved temples at belur and Halebid to lovely, cosy Mysore, city of Tipu Sultan, for a relaxed end to an eye-opening trip.
+Kerala’s backwaters and Tamil Nadu&rsquo;s temples get all the attention, but the Deccan plateau in South India has astonishing monuments and culture to offer as well. You start with Hyderabad, a royal city with a character all its own, with the huge Golconda Fort and Charminar. You carry on to the wonderful domed monuments and mosques of Gulbarga and Vijayapura, and the temples of Badami. You then find yourself in spectacular Hampi, with its ruins amid a boulder-strewn landscape, and after that in lovely, green Chikmagalur’s coffee estates, a complete contrast. Carry on via the ornately-carved temples at belur and Halebid to lovely, cosy Mysore, city of Tipu Sultan, for a relaxed end to an eye-opening trip.

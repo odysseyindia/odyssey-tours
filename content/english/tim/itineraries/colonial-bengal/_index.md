@@ -7,14 +7,18 @@ tour: Colonial Bengal
 highlights:
   - Staying in beautiful restored zamindar havelis
   - Exploring little colonial-era towns at Serampore and Chandernagore
-  - Steeping yourself in the history of Bengal and British colonialism in Kolkata
+  - >-
+    Steeping yourself in the history of Bengal and British colonialism in
+    Kolkata
   - Living a life from two centuries ago!
+  - ''
 itinerary:
   - day: 0
     item:
       - type: excursion
         url: >-
           /destinations/india/states/west-bengal/cities/kolkata/excursions/transfer-from-airport-to-rajbari-bawali/
+        title: Transfer from airport to Rajbari Bawali
         content: >-
           Your tour starts on arrival at Kolkata airport, where you are met by
           our representative and transferred to your hotel.
@@ -24,6 +28,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/west-bengal/cities/kolkata/hotels/the-rajbari-bawali/
+        title: The Rajbari Bawali
         content: >-
           The zamindars or landed gentry of Bengal led a lavish life full of
           wealth and privileges, building impressive mansions and temples. One
@@ -41,6 +46,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/west-bengal/cities/kolkata/excursions/a-day-at-leisure-in-rajbari-bawali/
+        title: A day at leisure in Rajbari Bawali
         content: >-
           Today is at leisure to enjoy Rajbari Bawali and the neighbouring
           village. There are a number of optional activities that you may wish
@@ -56,6 +62,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/west-bengal/cities/serampore/
+        title: Serampore
         content: >-
           After breakfast, visit the lovely old riverside French colony of
           Chandernagore, and the Dutch base of Fort Gustavus, at Chinsurah.
@@ -70,6 +77,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/west-bengal/cities/serampore/hotels/the-denmark-tavern/
+        title: The Denmark Tavern
         content: >-
           This 232-year-old two-storied structure by the banks of the Hooghly
           was a tavern and hotel where the Danes kept their flagstaff and
@@ -87,6 +95,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/west-bengal/cities/serampore/excursions/day-at-leisure-in-serampore/
+        title: Day at leisure in Serampore
         content: >-
           The Danish settlement of Serampore lines the west bank of the Hooghly
           and was originally known as Frederiknagore, after the Danish monarch.
@@ -102,6 +111,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/west-bengal/cities/murshidabad/
+        title: Murshidabad
         content: >-
           Today, you drive to the battlefield of Plassey, where the East India
           Company, under the command of Robert Clive, defeated the Nawab of
@@ -125,6 +135,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/west-bengal/cities/murshidabad/hotels/bari-kothi/
+        title: Bari Kothi
         content: >-
           The lovely Bari Kothi was built in the late 1700s, one of the most
           architecturally significant houses in the region, showcasing Greek,
@@ -143,6 +154,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/west-bengal/cities/murshidabad/excursions/morning-heritage-walk-of-murshidabad/
+        title: Morning heritage walk of Murshidabad
         content: >-
           Murshidabad is replete with history and the abandoned mosques,
           riverside mansions, grand tombs and crumbling palaces tell the story
@@ -163,6 +175,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/west-bengal/cities/murshidabad/excursions/morning-excursion-to-baranagar-and-cossimbazar/
+        title: Morning excursion to Baranagar and Cossimbazar
         content: >-
           This morning you first visit the fascinating terracotta temples at
           Baranagar, then continue on to Cossimbazar which was once a Dutch
@@ -182,6 +195,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/west-bengal/cities/kolkata/
+        title: Kolkata
         content: >-
           An early train takes you to the culturally rich city of Kolkata.
           Kolkata was just a tiny village some 300 years ago. After the East
@@ -194,6 +208,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/west-bengal/cities/kolkata/hotels/the-oberoi-grand/
+        title: The Oberoi Grand
         content: >-
           The city of Calcutta has a number of noteworthy buildings of great
           beauty, and the Oberoi Grand is one of them. This Victorian landmark
@@ -212,6 +227,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/west-bengal/cities/kolkata/excursions/half-day-city-tour-of-kolkata/
+        title: Half day city tour of Kolkata
         content: >-
           Kolkata has fascinating street life and interesting colonial
           architecture. You drive via the historic St John’s Church to the
@@ -239,6 +255,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/west-bengal/cities/kolkata/excursions/transfer-from-hotel-to-airport/
+        title: Transfer from hotel to airport
         content: >-
           Today, you have a departure transfer to Kolkata airport to board your
           onward flight.

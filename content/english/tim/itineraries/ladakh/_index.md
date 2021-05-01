@@ -11,12 +11,14 @@ highlights:
   - Learning about Ladakh's Buddhist culture
   - Staying at the lovely, colourful Stok Palace
   - ''
+  - ''
 itinerary:
   - day: 0
     item:
       - type: excursion
         url: >-
           /destinations/india/states/ladakh/cities/leh/excursions/transfer-from-airport-to-hotel/
+        title: Transfer from airport to hotel
         content: >-
           After your awe-inspiring flight to Leh airport, you are met by our
           representative and transferred to your hotel.
@@ -25,6 +27,7 @@ itinerary:
         duration: ''
       - type: city
         url: /destinations/india/states/ladakh/cities/leh/
+        title: Leh
         content: >-
           Leh is Ladakh’s principal town. It used to be one of the busiest
           market towns on the caravan trade between India and Central Asia.
@@ -39,6 +42,7 @@ itinerary:
           to start acclimatising.
       - type: hotel
         url: /destinations/india/states/ladakh/cities/leh/hotels/nimmu-house/
+        title: Nimmu House
         content: >-
           Nimmu House is a charming eco-resort nestled at 10,000 feet in the
           village of Nimmoo, 35km outside Leh. It is both a wellness retreat
@@ -57,6 +61,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/ladakh/cities/leh/excursions/half-day-walking-tour-of-leh/
+        title: Half day walking tour of Leh
         content: >-
           The morning is at leisure to help the acclimatisation process. Stroll
           around the hotel’s lovely grounds, or simply drink gallons of hot tea.
@@ -77,6 +82,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/ladakh/cities/leh/excursions/full-day-excursion-to-shey-thiksey-and-hemis/
+        title: Full day excursion to Shey, Thiksey and Hemis
         content: >-
           Shey is the oldest of the three monasteries near Leh, and is not in
           regular use. The monastery contains a two-storey-high statue of the
@@ -99,6 +105,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/ladakh/cities/kyagar/
+        title: Kyagar
         content: >-
           The spectacular three-hour drive from Leh to the Nubra Valley crosses
           the Khardong La (5,602m), the world’s highest motorable mountain pass.
@@ -124,6 +131,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/ladakh/cities/kyagar/hotels/lchang-nang-retreat/
+        title: Lchang Nang Retreat
         content: >-
           Lchang Nang Retreat is set amidst an orchard of elm, apricot, and
           apple trees, with the Siachen river rushing past its western boundary.
@@ -141,6 +149,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/ladakh/cities/kyagar/excursions/visit-hundar-and-deskit-and-ride-a-bactrian-camel/
+        title: Visit Hundar & Deskit and ride a Bactrian camel
         content: >-
           The Nubra Valley is a sublime mixture of cultivated fields set in an
           arid desert that glows with white sand surrounded by the Karakoram
@@ -171,6 +180,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/ladakh/cities/kyagar/excursions/excursion-to-samstanling-gompa-yarab-tso-and-panamik-hotsprings/
+        title: Excursion to Samstanling gompa, Yarab Tso & Panamik hotsprings
         content: >-
           Today you visit the Samstanling Gompa, situated in a peaceful location
           overlooking the green fields of Sumur village. Parts of the
@@ -187,6 +197,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/ladakh/cities/stok/
+        title: Stok
         content: >-
           You drive back to the Leh valley today, a journey of about 4 hours.
           Across the valley from Leh is Stok’s, whose main draws are its
@@ -197,6 +208,7 @@ itinerary:
           Ladakh royals, their history, currency and weapons.
       - type: hotel
         url: /destinations/india/states/ladakh/cities/stok/hotels/stok-palace/
+        title: Stok Palace
         content: >-
           Stok Palace, belonging to the royal Namgyal family, is part of
           Ladakh’s cultural heritage. The 200-year-old mural-adorned walls, the
@@ -214,6 +226,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/ladakh/cities/stok/excursions/day-at-leisure-in-stok/
+        title: Day at leisure in Stok
         content: >-
           When you stay at Stok Palace, you immerse yourself in the Ladakhi way
           of life: the 200-year-old mural-adorned walls, the sound of Buddhist
@@ -245,6 +258,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/ladakh/cities/leh/
+        title: Leh
         content: Today, you drive to Leh airport to board your onward flight.
 weight: 202
 ---

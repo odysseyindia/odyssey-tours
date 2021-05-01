@@ -10,12 +10,14 @@ highlights:
     fires and Kumaoni folk songs Looking for tigers and leopards in Corbett
     national park Excellent birding in the Himalayan foothills Easy treks, small
     temples and wonderful villagers ]]]
+  - ''
 itinerary:
   - day: 0
     item:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-international-airport-to-hotel/
+        title: Transfer from International airport to hotel
         content: >-
           You start your tour on arrival in Delhi, where you will be met by our
           representative and transferred to your hotel.
@@ -24,6 +26,7 @@ itinerary:
         duration: ''
       - type: city
         url: /destinations/india/states/delhi/cities/delhi/
+        title: Delhi
         content: >-
           Delhi is practically two cities: New Delhi, the capital of India, and
           medieval Old Delhi. The old city centres around the Red Fort, which
@@ -36,6 +39,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/delhi/cities/delhi/hotels/the-metropolitan-hotel/
+        title: The Metropolitan Hotel
         content: >-
           Located close to Connaught Place, in the centre of New Delhi, this
           quiet, upmarket hotel has a fresh atmosphere with vivid, minimalist,
@@ -52,6 +56,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/half-day-tour-of-old-delhi-by-metro-and-rickshaw/
+        title: Half day tour of Old Delhi by metro & rickshaw
         content: >-
           A half-day tour to Old Delhi using the modern Metro and the
           traditional cycle rickshaw. The Metro brings you to the heart of Old
@@ -83,6 +88,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/uttarakhand/cities/binsar/
+        title: Binsar
         content: >-
           Today, you start bright and early, with a train and a four-hour drive
           that takes you to beautiful, secluded Binsar. The Binsar Valley is
@@ -99,6 +105,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/uttarakhand/cities/binsar/hotels/mary-budden-estate/
+        title: Mary Budden Estate
         content: >-
           A true hideaway in the Himalayan foothills, secluded and exceptionally
           cosy. Mary Budden Estate is a couple of large stone and wood cottages
@@ -117,6 +124,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/uttarakhand/cities/binsar/excursions/bird-watching-with-naturalist/
+        title: Bird watching with naturalist
         content: >-
           The birding walk at Mary Budden is called Hodgson’s Trail, in homage
           to Brian Houghton Hodgson, who served as the Assistant Commissioner in
@@ -138,6 +146,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/uttarakhand/cities/binsar/excursions/day-at-leisure-at-itmenaan-estate/
+        title: Day at leisure at Itmenaan Estate
         content: >-
           You have a full day at leisure here to go for more walks, do a couple
           more strolls down the birding trail, or put your feet up between vast
@@ -149,6 +158,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/uttarakhand/cities/ramgarh/
+        title: Ramgarh
         content: >-
           After breakfast, drive for three hours to the orchards of Ramgarh,
           famous for plums, peaches, pears and apples. Many writers and thinkers
@@ -157,6 +167,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/uttarakhand/cities/ramgarh/hotels/the-ramgarh-bungalows/
+        title: The Ramgarh Bungalows
         content: >-
           In the foothills of the Himalayas, The Old Bungalow - 1830, and The
           Writers' Bungalow - 1860, are located in the fruit basket of the
@@ -174,6 +185,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/uttarakhand/cities/ramgarh/excursions/day-at-leisure-in-ramgarh/
+        title: Day at leisure in Ramgarh
         content: >-
           In Ramgarh, sightseeing is merely incidental and might defeat the
           purpose of your visit as you come here mainly to enjoy the peace and
@@ -188,6 +200,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/uttarakhand/cities/corbett/
+        title: Corbett
         content: >-
           Today, you drive further down the hills to Corbett National Park. This
           was India’s first national park, and remains one of its finest. It is
@@ -203,6 +216,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/uttarakhand/cities/corbett/hotels/jims-jungle-retreat/
+        title: Jim's Jungle Retreat
         content: >-
           A comfortable wildlife lodge, in which you can spend hours by the
           pool, at the jungle-inspired chemical-free spa or on your private
@@ -221,6 +235,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/uttarakhand/cities/corbett/excursions/canter-safari-to-dhikala/
+        title: Canter safari to Dhikala
         content: >-
           The only way to visit the central, most attractive, zone of Corbett
           National Park is to join other visitors on a shared safari in a
@@ -235,6 +250,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/uttarakhand/cities/corbett/excursions/jeep-safari-in-corbett-national-park/
+        title: Jeep safari in Corbett National Park
         content: >-
           The shared jeep safaris are accompanied by a naturalist and usually
           take place in the Bijrani zone of the National Park. The terrain is
@@ -250,21 +266,24 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/uttarakhand/cities/corbett/
+        title: Corbett
         content: >-
           Today is at leisure to enjoy other nature activities at the resort.
           Please note: safaris can generally not be booked on the spot, so
-          please let us know when you book this tour if you'd like to go on
+          please let us know when you book this tour if you’d like to go on
           further jeep or canter excursions in Corbett National Park.
   - day: 10
     item:
       - type: city
         url: /destinations/india/states/delhi/cities/delhi/
+        title: Delhi
         content: >-
           After breakfast, you drive back to Delhi. The rest of the day is at
           leisure to explore on your own.
       - type: hotel
         url: >-
           /destinations/india/states/delhi/cities/delhi/hotels/the-metropolitan-hotel/
+        title: The Metropolitan Hotel
         content: >-
           Located close to Connaught Place, in the centre of New Delhi, this
           quiet, upmarket hotel has a fresh atmosphere with vivid, minimalist,
@@ -281,6 +300,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-hotel-to-international-airport/
+        title: Transfer from hotel to International airport
         content: >-
           Today, you have a departure transfer to the airport to connect with
           your onward flight.

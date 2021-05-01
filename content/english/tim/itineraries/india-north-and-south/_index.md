@@ -10,14 +10,16 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-international-airport-to-hotel/
+        title: Transfer from International airport to hotel
         content: >-
           You start your tour on arrival in Delhi, where you will be met by our
           representative and transferred to your hotel.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: city
         url: /destinations/india/states/delhi/cities/delhi/
+        title: Delhi
         content: >-
           Delhi is practically two cities: New Delhi, the capital of India, and
           medieval Old Delhi. The old city centres around the Red Fort, which
@@ -30,21 +32,24 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/delhi/cities/delhi/hotels/the-metropolitan-hotel/
+        title: The Metropolitan Hotel
         content: >-
           Located close to Connaught Place, in the centre of New Delhi, this
           quiet, upmarket hotel has a fresh atmosphere with vivid, minimalist,
           stylish designs. The hotel has 3 restaurants including one serving
           authentic Japanese cuisine. There is a swimming pool, an excellent
           large spa, a fashion & lifestyle store and an art gallery.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 1
     item:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/half-day-tour-of-old-delhi/
+        title: Half day tour of Old Delhi
         content: >-
           Agra has much to offer besides the Taj Mahal, such as Agra Fort, a
           masterpiece of design and construction. You then visit
@@ -57,13 +62,14 @@ itinerary:
           The rest of your day is at leisure. If you’d like to go shopping or
           explore a bit more after the tour, you can take the Metro to vibrant
           Connaught Place to enjoy the many restaurants and more modern shops.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 2
     item:
       - type: city
         url: /destinations/india/states/uttar-pradesh/cities/agra/
+        title: Agra
         content: >-
           A quick, comfortable, early-morning train takes you to Agra, home to
           possibly the most famous and beautiful building in the world: the Taj
@@ -74,6 +80,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/uttar-pradesh/cities/agra/excursions/half-day-city-tour-of-agra/
+        title: Half day city tour of Agra
         content: >-
           Agra has much to offer besides the Taj Mahal, such as Agra Fort, a
           masterpiece of design and construction. You then visit
@@ -81,12 +88,13 @@ itinerary:
           features the same marble inlay work as the Taj Mahal. Finally you will
           visit Mehtab Bagh, a formally laid-out Mughal garden that offers
           stupendous views of the Taj Mahal, especially in the late afternoon.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: hotel
         url: >-
           /destinations/india/states/uttar-pradesh/cities/agra/hotels/the-grand-imperial/
+        title: The Grand Imperial
         content: >-
           This 100-year-old building is testimony to India’s long and varied
           history. The low, white colonial building dating back to the Raj era
@@ -94,15 +102,17 @@ itinerary:
           time to the Crown Princes of England as well as to Mohammad Ali
           Jinnah. The wide lawn in the front, and the cupola-marked pool at the
           back complete the feel of a luxury heritage hotel.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 3
     item:
       - type: excursion
         url: >-
           /destinations/india/states/uttar-pradesh/cities/agra/excursions/early-morning-visit-to-the-taj-mahal-without-guide/
+        title: Early morning visit to the Taj Mahal (without guide)
         content: >-
           The best time of day to appreciate this stunning monument is as soon
           as the Taj Mahal opens, when it is at its quietest and most serene.
@@ -115,13 +125,14 @@ itinerary:
 
           The rest of the day is at leisure to enjoy the pool or further explore
           on your own.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 4
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/jaipur/
+        title: Jaipur
         content: >-
           Today, you have a long drive to Jaipur, but with some very interesting
           optional stops along the way, at the grand folly of Fatehpur Sikri,
@@ -139,6 +150,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/hotels/alsisar-haveli/
+        title: Alsisar Haveli
         content: >-
           Just off a busy street near the old walled city, Alsisar Haveli offers
           peace and serenity once you step through the arched gateway. Most of
@@ -147,15 +159,17 @@ itinerary:
           property. The current head of the family has sympathetically restored
           the old haveli, which now has a lovely swimming pool in a large,
           peaceful garden.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 5
     item:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/excursions/morning-walking-tour-of-jaipur/
+        title: Morning walking tour of Jaipur
         content: >-
           To experience the life of the Pink City beyond the monuments, it is
           best to join a guided morning walk. Starting in the heart of the Old
@@ -165,12 +179,13 @@ itinerary:
           marble-sculptors and bangle-makers at work, visit local temples, see
           the colourful vegetable and flower markets, and sample delicious
           street foods, such as jalebis, rabri, kachoris, and lassi.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/excursions/half-day-excursion-to-amber-fort/
+        title: Half day excursion to Amber Fort
         content: >-
           Just to the north of Jaipur, Amber Fort overlooks the city from a spur
           of the Aravalli Hills. There is a short, steep walk up to the entrance
@@ -178,13 +193,14 @@ itinerary:
           pavilions, gardens and temples built over 125 years. There are
           excellent views down over the old town of Amer, and up to the Jaigarh
           and Nahargarh Forts higher in the hills.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 6
     item:
       - type: city
         url: /destinations/india/states/kerala/cities/kochi/
+        title: Kochi
         content: >-
           A flight takes you to the other end of India, to lush, pretty Kerala.
           Kochi (or Cochin) is set on a cluster of islands and narrow peninsulas
@@ -201,6 +217,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/kerala/cities/kochi/hotels/old-harbour-hotel/
+        title: Old Harbour Hotel
         content: >-
           This is one of the true gems of Fort Cochin. Located only a street
           away from the waterfront and the famous Chinese fishing nets, the Old
@@ -208,15 +225,17 @@ itinerary:
           characterful rooms, nooks and corridors dotted with antiques, and a
           beautiful poolside area in the shade of huge rain trees, perfect for
           relaxing with a beer.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 7
     item:
       - type: excursion
         url: >-
           /destinations/india/states/kerala/cities/kochi/excursions/half-day-city-tour-of-fort-cochin/
+        title: Half day city tour of Fort Cochin
         content: >-
           At the entrance of Kochi harbour, the Chinese fishing nets are
           fascinating. A short walk away is St Francis Church, built by the
@@ -225,12 +244,13 @@ itinerary:
           Old Testament and copper plates inscribed in Hebrew are preserved
           here. There is also the ‘Dutch’ Palace, built by the Portuguese for
           the Raja of Cochin in 1555.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: excursion
         url: >-
           /destinations/india/states/kerala/cities/kochi/excursions/evening-kathakali-dance-performance/
+        title: Evening Kathakali dance performance
         content: >-
           This evening, you get to catch an evening performance of kathakali and
           other dances from Kerala. In kathakali, the actors depict characters
@@ -238,13 +258,14 @@ itinerary:
           ordinary men and women. The dancers, all males, adorn themselves in
           huge skirts and headdress, wearing what must surely be the most
           intricate make-up of any dance style in the world.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 8
     item:
       - type: city
         url: /destinations/india/states/kerala/cities/thekkady/
+        title: Thekkady
         content: >-
           A five-hour drive past small villages and lush plantations takes you
           to Thekkady, gateway town for Periyar Wildlife Reserve. The journey to
@@ -253,6 +274,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/kerala/cities/thekkady/hotels/shalimar-spice-garden/
+        title: Shalimar Spice Garden
         content: >-
           A peaceful retreat surrounded by fruit trees and spice gardens with a
           gurgling stream running through it. The cottages are simple but well
@@ -260,15 +282,17 @@ itinerary:
           attention has been lavished on the large, immaculately-designed
           bathrooms. There is a lovely swimming pool and Ayurvedic massage and
           yoga centre, and even a library with a fireplace.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 9
     item:
       - type: excursion
         url: >-
           /destinations/india/states/kerala/cities/thekkady/excursions/spice-plantation-visit/
+        title: Spice plantation visit
         content: >-
           As you take a walk along the winding pathways among the plantations,
           the thing that strikes you first is the lingering aroma, of cloves,
@@ -280,13 +304,14 @@ itinerary:
 
           The afternoon is free for you to decide what you’d like to do: go on a
           boat trip, relax, or go birding around your hotel.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 10
     item:
       - type: city
         url: /destinations/india/states/kerala/cities/alleppey/
+        title: Alleppey
         content: >-
           Today, your four-hour drive takes you to Kerala’s picture-postcard
           backwaters, and for a very special stay. Alleppey (also called
@@ -298,16 +323,30 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/kerala/cities/alleppey/hotels/kettuvallam-houseboat/
-        content: ''
+        title: Kettuvallam (Houseboat)
+        content: >-
+          One of the most tranquil and relaxing things you can do in India is to
+          cruise through the backwaters in a Kerala houseboat, known as a
+          kettuvallam. There is an open sitting area where you can relax and
+          watch the world go by, sipping from a tender coconut and enjoying the
+          sheer peace of the surroundings. Freshly cooked Indian food and
+          chilled beer make the experience even more enjoyable.
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 11
     item:
       - type: city
         url: /destinations/india/states/kerala/cities/alleppey/
+        title: Alleppey
         content: >-
           After finishing the cruise, you transfer to your hotel, located on the
           backwaters.
       - type: hotel
         url: /destinations/india/states/kerala/cities/alleppey/hotels/ameya-kerala/
+        title: Ameya Kerala
         content: >-
           At Ameya, you’ll find barefoot luxury on the backwaters of Kerala.
           Situated a little away from Kumarakom, it offers just four spacious
@@ -316,14 +355,16 @@ itinerary:
           elevated verandahs. Meals are served at various pleasant locations,
           and there are hammocks, grassy lawns, ayurvedic massages, yoga and
           plenty of birdlife to enjoy.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 12
     item:
       - type: city
         url: /destinations/india/states/kerala/cities/mararikulam/
+        title: Mararikulam
         content: >-
           A short drive away, Mararikulam (generally shortened to Marari) offers
           one of the most fabulous stretches of soft sandy beach, fringed with
@@ -338,6 +379,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/kerala/cities/mararikulam/hotels/a-beach-symphony/
+        title: A Beach Symphony
         content: >-
           A fabulous, stylish small beach resort with just 5 cottages, far
           enough from each other to feel totally secluded. Each cottage is a
@@ -346,20 +388,22 @@ itinerary:
           to linger at each one of them.There are smooth cement floors in earth
           tones, colourful silk cushions, bric-a-brac on the walls and amazing
           bathrooms.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 13
     item:
       - type: excursion
         url: >-
           /destinations/india/states/kerala/cities/mararikulam/excursions/transfer-from-hotel-to-kochi-airport/
+        title: Transfer from hotel to Kochi airport
         content: >-
           Today, you drive to Kochi’s airport, to connect with your onward
           flight.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
 highlights:
   - Getting to see the Taj Mahal
@@ -367,8 +411,7 @@ highlights:
   - Exploring Fort Kochi's lovely lanes
   - Finding the perfect patch of sand on Marari beach
   - Plenty of time to relax and have fun
+  - ''
+weight: 0
 ---
-
-
-The perfect India trip for a family, combining the highlights of Rajasthan with the green, relaxed beauty of Kerala. At a family-friendly pace, you explore the Golden Triangle's highlights, including the Taj Mahal and colossal Amber Fort, and then fly to Kochi. You have time to explore pretty Fort Kochi, and then go on to the spice plantations and wildlife of Thekkady. Kerala's backwaters come next - and you can enjoy them on your own private houseboat for an overnight cruise. Finally, you can enjoy total me-time on the excellent beach at Mararikulam, for the perfect cap to a great family trip.
-
+The perfect India trip for a family, combining the highlights of Rajasthan with the green, relaxed beauty of Kerala. At a family-friendly pace, you explore the Golden Triangle&rsquo;s highlights, including the Taj Mahal and colossal Amber Fort, and then fly to Kochi. You have time to explore pretty Fort Kochi, and then go on to the spice plantations and wildlife of Thekkady. Kerala&rsquo;s backwaters come next - and you can enjoy them on your own private houseboat for an overnight cruise. Finally, you can enjoy total me-time on the excellent beach at Mararikulam, for the perfect cap to a great family trip.

@@ -27,7 +27,7 @@
           </div>
         </div>
       </div>
-       <div class="col-sm-3 col-md-3">
+      <div class="col-sm-3 col-md-3">
         <div class="color">Best time to go</div>
         <div>{{ .Params.bestTime }}</div>
       </div>
@@ -44,170 +44,135 @@
       </div>
     </div>
 
-
-
     <div class="tab-wrapper">
       <nav id="myTab" class="nav flex-column flex-sm-row" >
-         
-          <a class="flex-sm-fill text-sm-center nav-link active" data-toggle="tab" href="#itinerary">
-            Itinerary
-          </a>
-          <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#map">
-            Map
-          </a>
-          <a class="flex-sm-fill text-sm-center nav-link " data-toggle="tab" href="hotel-options">
-            Hotel Options 
-          </a>
-          <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#similar">
-            Similar Itineraries
-          </a>
+        <a class="flex-sm-fill text-sm-center nav-link active" data-toggle="tab" href="#itinerary">
+          Itinerary
+        </a>
+        <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#map">
+          Map
+        </a>
+        <a class="flex-sm-fill text-sm-center nav-link " data-toggle="tab" href="hotel-options">
+          Hotel Options 
+        </a>
+        <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#similar">
+          Similar Itineraries
+        </a>
       </nav>
+
       <div class="tab-content">
         <div id="itinerary" class="tab-pane active">
-
-          {{"<!-- Question -->" | safeHTML }}
-<div id="accordion" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-<div class="accordion-controls">
-                    <div class="opener" data-accordion-open-all="itinerary">
-                        <span id="AccordionExpand">EXPAND ALL ITINERARY DAYS</span>
-                        <span class="icon-plus"></span>
-                    </div>
-                    <div class="collapser" data-accordion-close-all="itinerary">
-                        <span id="AccordionCollapse">COLLAPSE ALL ITINERARY DAYS</span>
-                      <span class="icon-plus"></span>
-                    </div>
-                </div>
-
-
-
-{{- $nighthalt := "" }}
-{{- range $i,$e := .Params.itinerary }}
-  <div class="card">
-
-<button class="accordion">Day {{ add $i 1 }},
-      {{- range $j, $element := $e.item }}
-      {{- if (eq .type "hotel") }}{{ $nighthalt = index (split .url "/" ) 6 | humanize }}{{- end}}
-      {{- end }}
-      {{ if eq (add $i 1) (len $.Params.itinerary)}} Departure{{ else }} {{ $nighthalt }}{{ end }}
-</button>
-<div class="panel">
-{{- range $j, $element := $e.item }}
-              {{- if eq .type "hotel" }}
-                <h3>You stay at 
-                {{- with ($.Site.GetPage (printf "%s%s" .url "index.md")) }}
-                  {{.Title}}
-                {{- end }}
-                </h3>
-              {{- else }}
-                <h3> 
-                {{- with ($.Site.GetPage (printf "%s%s" .url "index.md")) }}
-                  {{.Title}}
-                {{- end }}
-                </h3>
-              {{- end }}
-
-              <p>{{ .content }}</p>
-
-              {{- if eq .type "city" }}
-                
-                {{- range ( where ( where $.Site.Pages "Section" "destinations") ".RelPermalink" .url) }}  
-                
-                {{- range first 1 (.Resources.ByType "image") }} 
-                    <img class="lazyload" 
-                    sizes="(min-width: 35em) 150px, 10vw"
-                    data-srcset="{{ .RelPermalink }} 150w"
-                    data-src="{{ .RelPermalink }}" alt="{{ substr .  0 -4 | replaceRE "[^a-z]" "-" | humanize }}">
-                {{- end }}
-                {{- end }}
-              {{- else }}
-                <div class="image-box">
-                  {{- $range := ( where ( where $.Site.RegularPages "Section" "destinations") ".RelPermalink" .url) }}  
-                  {{- range $range }}
-                  {{- range $index, $e := first 5 (.Resources.ByType "image") }}
-                    {{- if eq $index 0 }} 
-                    <div class="main-image"> 
-                        <img src="{{.RelPermalink}}">
-                    </div>
-                    {{- end }}
-                  {{- end }}
-                  {{- end }}
-                  <div class="image-box-red">
-                  {{- range $range }}  
-                  {{- range  $index, $e := first 5 (.Resources.ByType "image") }}
-                    {{- if ne $index 0 }}     
-                    <div>
-                        <img src="{{.RelPermalink}}">
-                    </div>
-                    {{- end }}
-                  {{- end }}
-                  {{- end }}
-                  </div>
-                </div>
-              {{- end }}
-              {{- if ne $j (sub (len $e.item) 1) }} <hr>{{ end }}
-            {{- end }}
-</div>
-
-
-
-
-
-        </div>
-        {{ end }}
-        <div id="map" class="tab-pane ">
-            <div class="mx-auto w-50 p-3">
-             
-            </div>
-        </div>
-
-        <div id="similar" class="tab-pane ">
-             <div class="mx-auto w-50 p-3">
+          <div id="accordion" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
             
-             </div>
+            <div class="accordion-controls">
+              <div class="opener" data-accordion-open-all="itinerary">
+                <span id="AccordionExpand">EXPAND ALL ITINERARY DAYS</span>
+                <span class="icon-plus"></span>
+              </div>
+              <div class="collapser" data-accordion-close-all="itinerary">
+                <span id="AccordionCollapse">COLLAPSE ALL ITINERARY DAYS</span>
+                <span class="icon-plus"></span>
+              </div>
+            </div>
+
+            {{- $nighthalt := "" }}
+            {{- range $i,$e := .Params.itinerary }}
+            <div class="card">
+              <button class="accordion">Day {{ add $i 1 }},
+                {{- range $j, $element := $e.item }}
+                  {{- if (eq .type "hotel") }}{{ $nighthalt = index (split .url "/" ) 6 | humanize }}{{ end }}
+                {{- end -}}
+
+                {{ if eq (add $i 1) (len $.Params.itinerary)}} Departure{{ else }} {{ $nighthalt }}{{ end }}
+              </button>
+              <div class="panel">
+                {{- range $j, $element := $e.item -}}
+
+                  {{- if eq .type "hotel" }}
+                    <h3>You stay at 
+                      {{- with ($.Site.GetPage (printf "%s%s" .url "index.md")) }}
+                        {{.Title}}
+                      {{- end }}
+                    </h3>
+                    {{- else }}
+                    <h3> 
+                      {{- with ($.Site.GetPage (printf "%s%s" .url "index.md")) }}
+                        {{.Title}}
+                      {{- end }}
+                    </h3>
+                  {{- end }}
+
+                  <p>{{ .content }}</p>
+
+                  {{- if eq .type "city" }} 
+                    {{- range ( where ( where $.Site.Pages "Section" "destinations") ".RelPermalink" .url ) }} 
+                      {{ partial "image-single" . }}
+                    {{- end }}
+                  {{- else }}
+                    {{- range ( where ( where $.Site.Pages "Section" "destinations") ".RelPermalink" .url ) }} 
+                      {{ partial "image-box.html" . }}
+                    {{- end }}
+                  {{- end -}}
+    
+                  {{- if ne $j (sub (len $e.item) 1) }} <hr>{{ end -}}
+
+                {{- end }}
+              </div>
+            </div>
+            {{ end }}
+            <div id="map" class="tab-pane ">
+              <div class="mx-auto w-50 p-3">
+              </div>
+            </div>
+            <div id="similar" class="tab-pane ">
+              <div class="mx-auto w-50 p-3">
+              </div>
+            </div>
+          </div> 
         </div>
-      </div> 
+      </div>
     </div>
   </div>
 </section>
 
-{{- end }}
-{{- define "postscript" }}
+   {{- end }}
+   {{- define "postscript" }}
 
-<script>
-var acc = document.getElementsByClassName("accordion");
-var i;
+   <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
 
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("activeAccordion");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
-  });
-}
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("activeAccordion");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        } 
+      });
+    }
 
-document.getElementById("AccordionCollapse").addEventListener("click", function(){
-  var acc = document.getElementsByClassName("accordion");
-  var i;
-  for (i = 0; i < acc.length; i++) {
-    acc[i].classList.remove('activeAccordion');
-    var panel = acc[i].nextElementSibling;
-    panel.style.maxHeight = null;
-  };
-});
+    document.getElementById("AccordionCollapse").addEventListener("click", function(){
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+      for (i = 0; i < acc.length; i++) {
+        acc[i].classList.remove('activeAccordion');
+        var panel = acc[i].nextElementSibling;
+        panel.style.maxHeight = null;
+      };
+    });
 
-document.getElementById("AccordionExpand").addEventListener("click", function(){
-  var acc = document.getElementsByClassName("accordion");
-  var i;
-  for (i = 0; i < acc.length; i++) {
-    acc[i].classList.add("activeAccordion");
-    var panel = acc[i].nextElementSibling;
-    panel.style.maxHeight = panel.scrollHeight + "px";
-  }
-});
-</script>
+    document.getElementById("AccordionExpand").addEventListener("click", function(){
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+      for (i = 0; i < acc.length; i++) {
+        acc[i].classList.add("activeAccordion");
+        var panel = acc[i].nextElementSibling;
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      }
+    });
+  </script>
 
-{{- end }}
+  {{- end }}

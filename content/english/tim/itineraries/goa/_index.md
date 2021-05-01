@@ -11,6 +11,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/goa/cities/goa/excursions/transfer-from-airport-to-hotel/
+        title: Transfer from airport to hotel
         content: >-
           Your tour starts at Goa, where you are met by our representative and
           transferred to your hotel in Panjim, the capital of Goa.
@@ -19,6 +20,7 @@ itinerary:
         duration: ''
       - type: city
         url: /destinations/india/states/goa/cities/goa/
+        title: Goa
         content: >-
           The former Portuguese colony of Goa is famous for its easy-going
           ambience, good food, and lovely climate. It boasts a coastline with
@@ -29,6 +31,7 @@ itinerary:
           historic forts.
       - type: hotel
         url: /destinations/india/states/goa/cities/goa/hotels/panjim-inn/
+        title: Panjim Inn
         content: >-
           A charming heritage hotel with lots of character, located amongst the
           winding alleys of Fountainhas, the Latin quarter of Panjim.The
@@ -45,6 +48,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/goa/cities/goa/excursions/morning-fontainhas-heritage-walk/
+        title: Morning Fontainhas Heritage Walk
         content: >-
           Delve into the lively hue of heritage, art and music in Fontainhas,
           the old Latin quarter of Panjim. Get access to heritage homes,
@@ -55,6 +59,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/goa/cities/goa/excursions/evening-private-feni-and-tapas-food-trail/
+        title: Evening Private Feni and Tapas Food Trail
         content: >-
           Partake in a vivid narrative of Goan cuisine in this private trail
           through Panjim, where you discover feni, an olfactory overload of a
@@ -70,11 +75,13 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/goa/cities/goa/
+        title: Goa
         content: >-
           Today, you transfer to a beach hotel, where you can simply relax for
           the next five days!
       - type: hotel
         url: /destinations/india/states/goa/cities/goa/hotels/the-bay-agonda/
+        title: The Bay Agonda
         content: >-
           The Bay Agonda offers the most stylish and comfortable accommodation
           at one of Goa’s most desirable beaches. The River View cottages offer
@@ -92,6 +99,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/goa/cities/goa/excursions/transfer-from-agonda-hotel-to-airport/
+        title: Transfer from Agonda hotel to airport
         content: >-
           Today, you have a departure transfer to Goa airport to catch your
           onward flight.
@@ -103,5 +111,6 @@ highlights:
   - Getting to wander inside Fontainhas's historic homes
   - Exploring Goa's own liquor on a feni and tapas trail
   - Staying on a beautiful golden beach
+  - ''
 ---
 The little state of Goa is one of India’s most popular destinations, with a fun vibe, great beaches and excellent food. However, tempting as it is to just lie on the beach, there’s more to Goa. Its colonial past under the Portuguese has given it architecture and urban design unlike anywhere else in India, and this is worth exploring too.

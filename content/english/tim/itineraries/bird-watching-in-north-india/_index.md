@@ -11,6 +11,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-international-airport-to-hotel/
+        title: Transfer from International airport to hotel
         content: >-
           You start your tour on arrival in Delhi, where you will be met by our
           representative and transferred to your hotel.
@@ -20,6 +21,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/delhi/cities/delhi/hotels/the-metropolitan-hotel/
+        title: The Metropolitan Hotel
         content: >-
           Located close to Connaught Place, in the centre of New Delhi, this
           quiet, upmarket hotel has a fresh atmosphere with vivid, minimalist,
@@ -35,6 +37,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/bharatpur/
+        title: Bharatpur
         content: >-
           Your morning is at leisure to recover from your jet-lag. In the
           afternoon, you take an express train to Bharatpur, famous for its bird
@@ -47,6 +50,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/bharatpur/hotels/laxmi-vilas-palace/
+        title: Laxmi Vilas Palace
         content: >-
           This large heritage hotel is the premier place to stay in Bharatpur.
           Laxmi Vilas is the older, 18th-century wing of the palace, with
@@ -63,6 +67,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/bharatpur/excursions/visit-to-the-bird-sanctuary/
+        title: Visit to the bird sanctuary
         content: >-
           Keoladeo Ghana is one of the world’s finest bird sanctuaries. The best
           time to visit is in the early mornings and late afternoons, when the
@@ -79,6 +84,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/bharatpur/excursions/visit-to-the-bird-sanctuary/
+        title: Visit to the bird sanctuary
         content: Another full day to explore the Keoladeo Ghana bird sanctuaries.
         date: ''
         etd: ''
@@ -87,6 +93,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/uttar-pradesh/cities/bah/
+        title: Bah
         content: >-
           Today, your first stop is the deserted Mughal city of Fatehpur Sikri,
           a complex of sandstone forts, palaces and mosques. Fatehpur Sikri was
@@ -106,6 +113,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/uttar-pradesh/cities/bah/excursions/river-safari/
+        title: River safari
         content: >-
           Set against a stunning backdrop, framed by the ravines and sandbanks,
           the calm waters of the Chambal River are best explored on boats. The
@@ -119,6 +127,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/uttar-pradesh/cities/bah/hotels/mela-kothi-the-chambal-safari-lodge/
+        title: Mela Kothi - The Chambal Safari Lodge
         content: >-
           Mela Kothi was once a ‘camp office’ for the aristocratic family of
           nearby Jarar, used when they organised the Bateshwar fair. It is now a
@@ -141,6 +150,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/uttar-pradesh/cities/bah/excursions/river-safari/
+        title: River safari
         content: >-
           In the morning, you have another boat safari on the Chambal river to
           look for more birds and reptiles. Your afternoon is at leisure, and if
@@ -153,6 +163,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/uttar-pradesh/cities/agra/
+        title: Agra
         content: >-
           After breakfast, drive for under two hours to Agra, Agra, home to
           possibly the most famous and beautiful building in the world: the Taj
@@ -163,6 +174,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/uttar-pradesh/cities/agra/excursions/half-day-city-tour-of-agra/
+        title: Half day city tour of Agra
         content: >-
           Agra has much to offer besides the Taj Mahal, such as Agra Fort, a
           masterpiece of design and construction. You then visit
@@ -176,6 +188,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/uttar-pradesh/cities/agra/hotels/the-grand-imperial/
+        title: The Grand Imperial
         content: >-
           This 100-year-old building is testimony to India’s long and varied
           history. The low, white colonial building dating back to the Raj era
@@ -192,6 +205,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/madhya-pradesh/cities/bhopal/
+        title: Bhopal
         content: >-
           An early-morning train takes you to Bhopal, the under-rated capital of
           Madhya Pradesh, a surprising mix of medieval Hindu and Islamic
@@ -203,6 +217,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/madhya-pradesh/cities/bhopal/hotels/jehan-numa-palace-hotel/
+        title: Jehan Numa Palace Hotel
         content: >-
           Built in 1890 and set in 5 sprawling acres, the Jehan Numa Palace
           Hotel is the beautifully-preserved erstwhile home of the rulers of
@@ -220,6 +235,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/madhya-pradesh/cities/satpura/
+        title: Satpura
         content: >-
           After breakfast, you first visit the amazing prehistoric cave
           dwellings at Bhimbetka. In the boulder-strewn landscape of the Vindhya
@@ -241,6 +257,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/madhya-pradesh/cities/satpura/excursions/jeep-safari-in-satpura-national-park/
+        title: Jeep safari in Satpura National Park
         content: >-
           There’s nothing quite like exploring Satpura Tiger Reserve in an
           open-top jeep. Accompanied by experienced naturalists and Satpura’s
@@ -254,6 +271,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/madhya-pradesh/cities/satpura/hotels/forsyth-lodge/
+        title: Forsyth Lodge
         content: >-
           A lovely naturalist-run lodge, the very eco-friendly Forsyth Safari
           Lodge consists of comfortable cottages with a generous bathrooms and a
@@ -272,6 +290,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/madhya-pradesh/cities/satpura/excursions/jeep-safari-in-satpura-national-park/
+        title: Jeep safari in Satpura National Park
         content: >-
           The best way to experience the jungle is to start at the crack of dawn
           and cross the Denwa River. This is the time when life in the forest
@@ -284,6 +303,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/madhya-pradesh/cities/satpura/excursions/private-jeep-safari-with-naturalist-in-satpura-national-park/
+        title: Private jeep safari with naturalist in Satpura National Park
         content: >-
           There’s nothing quite like exploring Satpura Tiger Reserve in a
           private open-top jeep. Accompanied by experienced naturalists and
@@ -298,10 +318,16 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/madhya-pradesh/cities/bhopal/
+        title: Bhopal
         content: Today, you drive back to Bhopal, to connect with your onward flight.
 highlights:
   - Over two days of birding in the wetlands of Bharatpur's national park
-  - Boat safaris on the amazing Chambal river Jeep safaris in Satpura national park 
-  - Visiting the Taj Mahal in Agra Being awed by prehistoric cave paintings in Bhimbetka
+  - >-
+    Boat safaris on the amazing Chambal river Jeep safaris in Satpura national
+    park
+  - >-
+    Visiting the Taj Mahal in Agra Being awed by prehistoric cave paintings in
+    Bhimbetka
+  - ''
 ---
-India's varied terrain and large forest area make it a wonderful destination for birders, and in arid north and central India in particular, the smallest water body becomes a thriving avian metropolis. You start your tour with a multi-day stay at Bharatpur’s Keoladeo Ghana bird sanctuary, whose wetlands are home to vast numbers of aquatic birds. You then take a trip on the Chambal river near Agra, a fabulous place to spot a variety of ducks, skimmers, herons and raptors, as well as endangered gharial crocodiles, muggers, turtles and the very rare Gangetic dolphins. A cultural interlude takes you to the fabulous Taj Mahal and the wonderful cave art outside Bhopal, and then you end up at the little-known Satpura national park, a beautiful forest that can be explored by jeep, boat, cycle or even on foot. With close to 400 species of birds and plenty of time in each spot, this is sure to be a momentous birding journey.
+India&rsquo;s varied terrain and large forest area make it a wonderful destination for birders, and in arid north and central India in particular, the smallest water body becomes a thriving avian metropolis. You start your tour with a multi-day stay at Bharatpur’s Keoladeo Ghana bird sanctuary, whose wetlands are home to vast numbers of aquatic birds. You then take a trip on the Chambal river near Agra, a fabulous place to spot a variety of ducks, skimmers, herons and raptors, as well as endangered gharial crocodiles, muggers, turtles and the very rare Gangetic dolphins. A cultural interlude takes you to the fabulous Taj Mahal and the wonderful cave art outside Bhopal, and then you end up at the little-known Satpura national park, a beautiful forest that can be explored by jeep, boat, cycle or even on foot. With close to 400 species of birds and plenty of time in each spot, this is sure to be a momentous birding journey.

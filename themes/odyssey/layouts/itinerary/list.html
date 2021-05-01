@@ -37,7 +37,11 @@
     </div>
   </div>
 
-  <div id="message" class="alert " role="alert"></div>
+  <div id="message" class="spinner" role="status">
+      <span class="sr-only">In progress...</span>
+  </div>
+
+  </div>
 
   <div class="main-container">
     <div class="row dossier">
@@ -130,7 +134,7 @@
 
             {{- with $.Site.GetPage (string $url) }}
             <div>
-              <h4>{{ .Title }}</h4>
+              <h4 class="title">{{ with $v.title }}{{ . }}{{ else }}{{ .Title }}{{ end }}</h4>
             </div>
             <div class="content">
               <div class="image">
@@ -443,9 +447,13 @@
     <div class="container">
       <div class="row">
         <div id="modal-category-excursions"></div>
+        <div class="modal-url"></div>
         <div class="cancel close-modal-btn">
           <i class="icon-cancel"></i>
         </div>
+      </div>
+      <div class="row">
+        <input type="text" name="modal-title" class="modal-title" value="">
       </div>
       <div class="row">
         <form>
@@ -690,16 +698,20 @@ document.getElementById("save-modal-accommodation").addEventListener("click", fu
 
 document.getElementById("save-modal-excursions").addEventListener("click", function(){
 
-  const elements = document.getElementById("modal-excursions");
-  const inputs   = elements.getElementsByClassName('input');
-  const index    = inputs[0].index;
-  const days     = document.getElementById('myItinerary').getElementsByClassName('containers');
-  const items    = days[ inputs[0].day ].getElementsByClassName('draggable');
-  var   data     = items[index].getElementsByClassName('details');
+  const elements        = document.getElementById("modal-excursions");
+  const inputs          = elements.getElementsByClassName('input');
+  const index           = inputs[0].index;
+  const days            = document.getElementById('myItinerary').getElementsByClassName('containers');
+  const items           = days[ inputs[0].day ].getElementsByClassName('draggable');
+  var   data            = items[index].getElementsByClassName('details');
 
-  const modalContent   = elements.getElementsByClassName('content');
-  var content          = items[index].getElementsByClassName('content-details');
-  content[0].innerHTML = "<p>"+modalContent[0].value.replace(/\n\n/g, "</p><p>")+"</p>";
+  const modalTitle      = elements.getElementsByClassName('modal-title');
+  var title             = items[index].getElementsByClassName('title');
+  title[0].innerText    = modalTitle[0].value;
+
+  const modalContent    = elements.getElementsByClassName('content');
+  var content           = items[index].getElementsByClassName('content-details');
+  content[0].innerHTML  = "<p>"+modalContent[0].value.replace(/\n\n/g, "</p><p>")+"</p>";
 
   data[0].setAttribute("value", inputs.excursionDate.value ) ; 
   data[1].setAttribute("value", inputs.excursionEtd.value ) ;
@@ -859,7 +871,7 @@ function saveItinerary(deleteDay){
     //}
   }
  
-  const days       = document.getElementById('myItinerary').getElementsByClassName('containers');
+  const days = document.getElementById('myItinerary').getElementsByClassName('containers');
 
   for(let i=0;i<days.length;i++) {
 
@@ -879,6 +891,8 @@ function saveItinerary(deleteDay){
         var obj = {};
         obj.type    = items[j].getAttribute("type");
         obj.url     = items[j].getAttribute("url");
+        let title   = items[j].getElementsByClassName('title');
+        obj.title   = title[0].innerText.trim().replace(/(`)/gm,"'");
         let content = items[j].getElementsByClassName('content-text');
         obj.content = (content.length != 0) ? content[0].innerText.trim().replace(/(`)/gm,"'") : "";
 
@@ -902,9 +916,8 @@ object.item = details;
 };
 };
 
-let css       = document.getElementById("message");
-css.innerHTML = 'in progress';
-css.classList.add('alert-info');
+let css = document.getElementById("message");
+css.style.display = 'block';
 
 docLoad({
   url:    'ajax', 
@@ -965,15 +978,6 @@ function displayHotels(city){
 
       if (items.length > 0) {
         for(let i=0;i<items.length;i++) {
-
-          console.table(items[i]);
-          if ('category' in items[i]){
-            console.log('ok');
-         
-          if (items[i].category.length > 0){ 
-            console.log('len is ',items[i].category.length)
-          };
-};
           if ('category' in items[i] && items[i].category.length > 0){ 
             sel += "<option value='"+items[i].permalink+"'>"+items[i].title+"</option>";
           };
@@ -986,10 +990,9 @@ function displayHotels(city){
       };
     }, 
 
-    function(Error) {
-      console.log(Error);
-    }
-    );
+  function(Error) {
+    console.log(Error);
+  });
 };
 
 function displayExcursions(city){
@@ -1397,6 +1400,9 @@ function editItem(day,index,url,obj){
   } else if (url.includes("excursions")){
     icon  = "camera";
     modal = document.getElementById("modal-excursions");
+    let modalURL = modal.getElementsByClassName('modal-url');
+    let displayURL = url.split("/");
+    modalURL[0].innerText = displayURL[displayURL.length-2];
   } else if (url.includes("airports")){
     icon  = "flight";
     modal = document.getElementById("modal-flights");
@@ -1421,10 +1427,15 @@ function editItem(day,index,url,obj){
     defaultBtn.style.display = "none"
   }
 
+  let content      = obj.getElementsByClassName('content-details');
+  let title        = obj.getElementsByClassName('title');
+  
   let inputs       = modal.getElementsByClassName('input');
   let modalContent = modal.getElementsByClassName('content');
   let rows         = modal.getElementsByClassName('row');
-  let content      = obj.getElementsByClassName('content-details');
+  let modalTitle   = modal.getElementsByClassName('modal-title');
+  
+  modalTitle[0].value = title[0].innerText;
 
   rows[0].children[0].innerHTML = '<i class="icon-'+icon+'"></i>';
 
@@ -1474,13 +1485,7 @@ function docLoad(object) {
 
   return new Promise(function(resolve, reject) {
 
-    var host = ((object.method == 'POST')? 
-      {{- if (len (getenv "APP")) }}
-      {{ getenv "APP" }}
-      {{- else -}}
-      {{ .Site.Params.appHost }}
-      {{- end -}}
-      : "")+object.url;
+    var host = ((object.method == 'POST')? {{ .Site.Params.appHost }} : "") + object.url;
 
     var request = new XMLHttpRequest();
     request.open(object.method || "GET", host);

@@ -9,12 +9,14 @@ highlights:
   - Erotic carvings in Khajuraho (and even in Bhoramdeo!)
   - Jeep safaris to track tigers in two beautiful national parks
   - Interacting with India's shy tribals in colourful local markets
+  - ''
 itinerary:
   - day: 0
     item:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-international-airport-to-hotel/
+        title: Transfer from International airport to hotel
         content: >-
           Today, you start your tour on arrival in Delhi, where you will be met
           by our representative and transferred to your hotel.
@@ -23,6 +25,7 @@ itinerary:
         duration: ''
       - type: city
         url: /destinations/india/states/delhi/cities/delhi/
+        title: Delhi
         content: >-
           Delhi is practically two cities: New Delhi, the capital of India, and
           medieval Old Delhi. The old city centres around the Red Fort, which
@@ -34,6 +37,7 @@ itinerary:
           Heritage Sites.
       - type: hotel
         url: /destinations/india/states/delhi/cities/delhi/hotels/colonels-retreat/
+        title: Colonel's Retreat
         content: >-
           Colonel’s Retreat is a very pleasant and homely guest house in the
           upmarket, tree-lined neighborhood of Defence Colony. The large rooms
@@ -51,6 +55,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/half-day-tour-of-old-delhi-by-metro-and-rickshaw/
+        title: Half day tour of Old Delhi by metro & rickshaw
         content: >-
           A half-day tour to Old Delhi using the modern Metro and the
           traditional cycle rickshaw. The Metro brings you to the heart of Old
@@ -82,6 +87,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/madhya-pradesh/cities/orchha/
+        title: Orchha
         content: >-
           An early-morning train and a short drive take you to tiny Orchha, in
           northern Madhya Pradesh. This medieval town is an architectural gem:
@@ -95,6 +101,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/madhya-pradesh/cities/orchha/hotels/amar-mahal/
+        title: Amar Mahal
         content: >-
           Built to resemble Orchha’s palaces of the distinctive ‘Bundela’ style,
           Amar Mahal is a low white building with open lawns, with comfortable
@@ -112,6 +119,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/madhya-pradesh/cities/orchha/excursions/half-day-tour-of-orchha/
+        title: Half day tour of Orchha
         content: >-
           The huge monuments of the Bundela kings surround, and dwarf, the small
           village of Orchha. The largest is the Palace complex, where the Raj
@@ -128,6 +136,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/madhya-pradesh/cities/khajuraho/
+        title: Khajuraho
         content: >-
           Today, you drive through the central Indian countryside for about four
           hours to Khajuraho, world-renowned for its intricately-carved temples.
@@ -138,6 +147,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/madhya-pradesh/cities/khajuraho/excursions/half-day-tour-of-khajuraho-temples/
+        title: Half day tour of Khajuraho temples
         content: >-
           Of the original eighty five temples, twenty five remain today, with
           the largest and best preserved, the main Western Group of Temples, in
@@ -153,6 +163,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/madhya-pradesh/cities/khajuraho/hotels/ramada-khajuraho/
+        title: Ramada Khajuraho
         content: >-
           The Ramada has pleasant interiors of cool white-marble elegance with
           chandeliers in the lobby, curving white staircases, and well-chosen
@@ -170,6 +181,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/madhya-pradesh/cities/khajuraho/excursions/excursion-to-panna-national-park/
+        title: Excursion to Panna National Park
         content: >-
           You have to wake up before dawn today, but the reward is a jeep safari
           in nearby Panna National Park. Situated in the Vindhya Hills along the
@@ -189,6 +201,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/madhya-pradesh/cities/bandhavgarh/
+        title: Bandhavgarh
         content: >-
           After breakfast, you drive six hours to Bandhavgarh National Park.
           Bandhavgarh, dominated by a majestic fort, is one of the best places
@@ -200,6 +213,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/madhya-pradesh/cities/bandhavgarh/hotels/nature-heritage-resort/
+        title: Nature Heritage Resort
         content: >-
           Nature Heritage Resort is a jungle lodge located in the lush green
           surroundings of Bandhavgarh National Park. Each of the air-conditioned
@@ -217,6 +231,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/madhya-pradesh/cities/bandhavgarh/excursions/morning-and-afternoon-jeep-safaris-in-bandhavgarh-national-park/
+        title: Morning and afternoon jeep safaris in Bandhavgarh National Park
         content: >-
           The shared jeep safaris in Bandhavgarh National Park are escorted by a
           specialized naturalist for extensive wildlife viewing. Your day begins
@@ -231,6 +246,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/madhya-pradesh/cities/kanha/
+        title: Kanha
         content: >-
           After breakfast, you leave for Kanha, the second of the national
           parks, with possible stops at Ghugua fossil park (an amazing landscape
@@ -245,6 +261,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/madhya-pradesh/cities/kanha/hotels/courtyard-house/
+        title: Courtyard House
         content: >-
           A small, comfortable and upmarket country retreat with lots of
           thoughtful touches. The lodge is built in the Indian style around a
@@ -262,6 +279,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/madhya-pradesh/cities/kanha/excursions/morning-and-afternoon-jeep-safaris-in-kanha-national-park/
+        title: Morning and afternoon jeep safaris in Kanha National Park
         content: >-
           We organize open jeep safaris in the various zones of Kanha National
           Park. The naturalist guides know the ecosystem like the back of their
@@ -276,6 +294,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/chhattisgarh/cities/bhoramdeo/
+        title: Bhoramdeo
         content: >-
           Today, you drive about four hours to the eastern edge of Kanha
           national park, to Bhoramdeo, a small village in the largely tribal
@@ -295,6 +314,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/chhattisgarh/cities/bhoramdeo/hotels/bhoramdeo-jungle-retreat/
+        title: Bhoramdeo Jungle Retreat
         content: >-
           Satyendra “Sunny” Upadhyay’s farm-stay is close to the famous
           Bhoramdeo temple complex. From here, you can visit the temples, trek
@@ -313,6 +333,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/chhattisgarh/cities/bhoramdeo/excursions/guided-visit-to-local-tribal-villages/
+        title: Guided visit to local tribal villages
         content: >-
           With a local guide, you will visit nearby villages and meet villagers
           without formality or embarrassment. You might visit a potter (and
@@ -329,6 +350,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/chhattisgarh/cities/bhoramdeo/excursions/guided-nature-walk-in-the-hills-around-bhoramdeo/
+        title: Guided nature walk in the hills around Bhoramdeo
         content: >-
           Take a short trek into the forested hills to explore the local
           wildlife. The hills around Bhoramdeo are home to a plethora of birds
@@ -344,9 +366,10 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/raipur/
+        title: Raipur
         content: >-
           Today, you drive three hours to Raipur airport to connect with your
           onward flight.
 weight: 404
 ---
-This tour combines visits to the ancient temple cities of Orchha and Khajuraho with two outstanding wildlife sanctuaries at Bandhavgarh and Kanha. Bandhavgarh is famous for its tigers, and Kanha’s gorgeous forest also offers good chances of spotting the majestic cat. Other wildlife includes leopards, Indian bison, deer and blackbuck. You round off your journey with a visit to remote Bhoramdeo a village beside a 11th-century temple complex, where you can get to know India's aboriginal tribes. 
+This tour combines visits to the ancient temple cities of Orchha and Khajuraho with two outstanding wildlife sanctuaries at Bandhavgarh and Kanha. Bandhavgarh is famous for its tigers, and Kanha’s gorgeous forest also offers good chances of spotting the majestic cat. Other wildlife includes leopards, Indian bison, deer and blackbuck. You round off your journey with a visit to remote Bhoramdeo a village beside a 11th-century temple complex, where you can get to know India&rsquo;s aboriginal tribes.

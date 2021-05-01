@@ -8,7 +8,7 @@ const yaml 			  = require('js-yaml');
 const env         = require('dotenv').config();
 var   app 			  = express();
 const port        = 1314;
-const root        = process.env.hugoRoot; // "/data/webapps/odyssey-tours/"
+const root        = process.env.hugoRoot; 
 const dir         = root+"content/english";
 
 console.log(dir);
@@ -32,7 +32,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.use(function (req, res, next) {
-  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:1313');
+  res.setHeader('Access-Control-Allow-Origin', '*' );
   res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
   res.setHeader('Access-Control-Allow-Credentials', true);
   res.setHeader('Content-Type', 'application/json');
@@ -347,7 +347,7 @@ console.log(airportData);
         let contents = fileContents.split("---");
         let data = yaml.loadAll(contents[1]);
 
-        var distanceData = array[4]+','+array[3],','+array[6]+','+array[7]+','+array[8];
+        var distanceData = array[4]+','+array[3]+','+array[6]+','+array[7]+','+array[8];
   console.log(distanceData);
 
         if (typeof data[0].distances === 'undefined'){
@@ -474,7 +474,7 @@ app.post('/ajax',function (req, res) {
   } 
 
   try {
-
+// console.table(fileContents);
     let contents = fileContents.split("---");
     let data = yaml.loadAll(contents[1]);
 
@@ -484,16 +484,15 @@ app.post('/ajax',function (req, res) {
     data[0].weight     =  (request.weight == 'NULL') ?  0  : Number(request.weight);
     intro              =  request.intro.replace(/[`]/g, "'");
 
-    let output = `---\n` 
-    + yaml.dump(data[0]) 
-    + "---\n" 
-    + intro; 
+    let output = `---\n` + yaml.dump(data[0]) + "---\n" + intro; 
 
-    fs.writeFileSync(file, output, 'utf8', (err) => {       
-     if (err) throw err; 
-   }) 
+    fs.writeFile(file, output, function(err) {
+      if(err) return console.error(err);
+      console.log('Successfully wrote to the file!');
+    });
   } 
   catch (error) {
+    console.log('test 6');
     console.log('Route ajax writing: ' + error.message);
   } 
   res.end();

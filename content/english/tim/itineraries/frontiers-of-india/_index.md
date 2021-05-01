@@ -10,12 +10,14 @@ highlights:
   - Enjoy the dances and peace of Majuli island
   - Spot rhinos, elephants and even tigers on jeep safaris in Kaziranga
   - Stay in beautiful hotels overlooking the hills of Shillong
+  - ''
 itinerary:
   - day: 0
     item:
       - type: excursion
         url: >-
           /destinations/india/states/west-bengal/cities/kolkata/excursions/transfer-from-airport-to-hotel/
+        title: Transfer from airport to hotel
         content: >-
           Your tour starts on arrival at Kolkata airport, where you are met by
           our representative and transferred to your hotel.
@@ -25,6 +27,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/west-bengal/cities/kolkata/hotels/the-elgin-fairlawn/
+        title: The Elgin Fairlawn
         content: >-
           A charming relic of the Raj, this old-fashioned Calcutta institution
           is a rambling place filled with memorabilia, family heirlooms,
@@ -41,6 +44,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/west-bengal/cities/kolkata/
+        title: Kolkata
         content: >-
           Kolkata was just a tiny village some 300 years ago. After the East
           India Company made it their first base in India, Calcutta became the
@@ -52,6 +56,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/west-bengal/cities/kolkata/excursions/half-day-city-tour-of-kolkata/
+        title: Half day city tour of Kolkata
         content: >-
           Kolkata has fascinating street life and interesting colonial
           architecture. You drive via the historic St John’s Church to the
@@ -78,11 +83,12 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/assam/cities/dibrugarh/
+        title: Dibrugarh
         content: >-
           Today, you take a short flight to Dibrugarh airport, in Assam. Totally
           rebuilt after a devastating earthquake in 1950, the new town of
           Dibrugarh lies on the banks of the Brahmaputra in Upper Assam. It is
-          the perfect place to experience and enjoy the richness of Assam's tea
+          the perfect place to experience and enjoy the richness of Assam’s tea
           gardens. Dibrugarh district is the highest producer of tea in Assam.
           It is not unusual to find large areas surrounded by tea estates, and
           green expanses of tea gardens in the middle of the city itself!
@@ -92,6 +98,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/assam/cities/dibrugarh/hotels/mancotta-chang-bungalow/
+        title: Mancotta Chang Bungalow
         content: >-
           Set in lush gardens bordering an old tea estate, Mancotta Chang
           Bungalow is a wonderful heritage hotel just outside Dibrugarh.
@@ -110,6 +117,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/assam/cities/dibrugarh/excursions/morning-excursion-to-nam-phake/
+        title: Morning excursion to Nam Phake
         content: >-
           An interesting attraction is Namphake village, about 60km northeast of
           Dibrugarh, and home to some 150 families of the Tai Phake tribe. This
@@ -124,6 +132,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/assam/cities/dibrugarh/excursions/afternoon-high-tea-at-mancotta-chang-bungalow/
+        title: Afternoon high tea at Mancotta Chang Bungalow
         content: >-
           We will organize high tea for you on the verandah of Mancotta Chang
           Bungalow. The view from the verandah across lawns, flower beds and
@@ -137,6 +146,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/nagaland/cities/mon/
+        title: Mon
         content: >-
           You really start on an adventure here, with a five-hour drive into the
           still very wild state of Nagaland, to find the villages of the Konyak
@@ -147,6 +157,7 @@ itinerary:
           been outlawed.
       - type: hotel
         url: /destinations/india/states/nagaland/cities/mon/hotels/vinngoi-resort/
+        title: Vinngoi Resort
         content: >-
           Vinngoi is a resort located in the heart of Mon town. Each cottage is
           built with modern amenities, but retaining hints of the Konyak
@@ -162,6 +173,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/nagaland/cities/mon/excursions/full-day-excursion-to-longwa-and-hongphoi/
+        title: Full day excursion to Longwa and Hongphoi
         content: >-
           Two hours' drive from Mon is the village of Lungwa, situated right on
           the Myanmar border. In fact, the chief’s house is bisected
@@ -175,14 +187,16 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/nagaland/cities/mokokchung/
+        title: Mokokchung
         content: >-
-          Today, you have a full day's drive (about eight hours) to the town of
+          Today, you have a full day’s drive (about eight hours) to the town of
           Mokokchung. The district is home to the Ao tribe. This pleasant town
           is located has a lovely temperate climate, and is a good base to visit
           some interesting villages nearby.
       - type: hotel
         url: >-
           /destinations/india/states/nagaland/cities/mokokchung/hotels/hotel-metsuben/
+        title: Hotel Metsuben
         content: >-
           The simple, clean Hotel Metsuben is by far the best place in town. It
           is well situated on a hill close to the centre of town. Hotel Metsuben
@@ -199,6 +213,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/nagaland/cities/mokokchung/excursions/full-day-excursion-to-longkhum-and-mopunchuket/
+        title: Full day excursion to Longkhum and Mopunchuket
         content: >-
           In the morning, you visit Longkhum village, on the highest hill top in
           the district. It used to be famous for head hunting in the past and
@@ -222,13 +237,15 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/assam/cities/jorhat/
+        title: Jorhat
         content: >-
           A five-hour drive today takes you back into Assam, to Jorhat, a major
-          tea hub that's surrounded by many tea estates. The Gymkhana Club, once
+          tea hub that’s surrounded by many tea estates. The Gymkhana Club, once
           the centre of social evenings and sports in British days, is still
           active The afternoon is free for you to relax in the hotel.
       - type: hotel
         url: /destinations/india/states/assam/cities/jorhat/hotels/thengal-manor/
+        title: Thengal Manor
         content: >-
           The best place to stay in Jorhat is Thengal Manor, the colonial-era
           family home of one of Assam’s leading planter families. The
@@ -246,20 +263,22 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/assam/cities/majuli/
+        title: Majuli
         content: >-
           Near Jorhat is Majuli, the largest river island in the world, which
-          you reach after an hour's ride on a local ferry. The island, a World
+          you reach after an hour’s ride on a local ferry. The island, a World
           Heritage Site in the Brahmaputra river, is known for its beautiful
           rural setting, dancing monks and traditional tribal architecture. A
           visit to Majuli allows you to gently contemplate mesmerising
           landscapes of rice fields, water meadows and fish traps, meet the
           local Mishing people and learn about Neo-Vaishnavite philosophy at one
-          of Majuli's ancient satras.
+          of Majuli’s ancient satras.
       - type: excursion
         url: >-
           /destinations/india/states/assam/cities/majuli/excursions/afternoon-visit-to-one-of-majulis-unique-monasteries/
+        title: Afternoon visit to one of Majuli's unique monasteries
         content: >-
-          This afternoon you will visit one of Majuli's satras, unique
+          This afternoon you will visit one of Majuli’s satras, unique
           monasteries established in the 15th century by a visionary
           reformer-philosopher, Shankardeva. The satra contains boha living
           quarters for the monks , all male, connected by long verandahs. At the
@@ -278,6 +297,7 @@ itinerary:
         duration: ''
       - type: hotel
         url: /destinations/india/states/assam/cities/majuli/hotels/dekasang-lodge/
+        title: Dekasang Lodge
         content: >-
           Overlooking a tributary of the Brahmaputra, Dekasang Lodge offers
           modern comforts and amenities in traditional settings. The entire
@@ -294,6 +314,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/assam/cities/majuli/excursions/full-day-at-leisure-on-majuli-island/
+        title: Full day at leisure on Majuli island
         content: >-
           Today you can visit more monasteries if you wish (the biggest one is
           nearby and has a museum and a large library), but you may also prefer
@@ -311,6 +332,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/assam/cities/kaziranga/
+        title: Kaziranga
         content: >-
           After breakfast, take a ferry across the mighty Brahmaputra river, and
           then drive for three hours to the famous Kaziranga national park.
@@ -323,6 +345,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/assam/cities/kaziranga/hotels/infinity-resort-kaziranga/
+        title: Infinity Resort, Kaziranga
         content: >-
           One of Kaziranga’s newer resorts, it is set in the midst of a thick
           bamboo grove, together with a wide variety of medicinal plants and a
@@ -341,6 +364,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/assam/cities/kaziranga/excursions/morning-and-afternoon-jeep-safaris-in-central-and-western-range/
+        title: Morning and afternoon jeep safaris in Central and Western Range
         content: >-
           The jeep safari in the Central Range is an ideal introduction to the
           park, as the route passes through the entire spectrum of habitats in
@@ -364,9 +388,10 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/meghalaya/cities/shillong/
+        title: Shillong
         content: >-
-          After breakfast, you have a long drive (seven hours) to 'the abode of
-          clouds', Meghalaya, known for the rainiest spots in the world! Your
+          After breakfast, you have a long drive (seven hours) to ‘the abode of
+          clouds’, Meghalaya, known for the rainiest spots in the world! Your
           destination for today, Shillong, is the capital of Meghalaya. Recent
           development has been insensitive and haphazard, but the surrounding
           hills still retain many English-style country houses. There is a vast
@@ -377,6 +402,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/meghalaya/cities/shillong/hotels/tripura-castle/
+        title: Tripura Castle
         content: >-
           Tucked away on a hillside lined with pine trees, bamboo groves and
           cherry blossoms is Tripura Castle, summer retreat of the Maharajas of
@@ -394,6 +420,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/meghalaya/cities/shillong/excursions/full-day-excursion-to-mawlynnong/
+        title: Full day excursion to Mawlynnong
         content: >-
           The 90km drive from Shillong to Mawlynnong offers magnificent views of
           dense foliage and hidden waterfalls. Elected as the cleanest village
@@ -412,9 +439,21 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/meghalaya/cities/shillong/excursions/half-day-city-tour-of-shillong/
-        content: ''
+        title: Half day city tour of Shillong
+        content: >-
+          The best way to enjoy Shillong’s sights is on foot. With no
+          significant monuments, the attractions here are the scenic beauty,
+          parks, waterfalls and panoramic views. Places worth visiting include
+          the decorative Ward Lake, and Bara Bazaar where you can see local and
+          hill-people trading their wares including interesting jewellery and
+          handicrafts. Beadon Falls and Bishop Falls, north of the city, are
+          popular picnic sites.
+        date: ''
+        etd: ''
+        duration: ''
       - type: hotel
         url: /destinations/india/states/meghalaya/cities/shillong/hotels/ri-kynjai/
+        title: Ri Kynjai
         content: >-
           Ri Kynjai, a spectacular resort overlooking the picturesque Umiam Lake
           outside Shillong, translates from Khasi as ‘land of serene environs’.
@@ -432,6 +471,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/assam/cities/guwahati/
+        title: Guwahati
         content: >-
           After breakfast, drive three hours to Guwahati airport to connect with
           your onward flight.

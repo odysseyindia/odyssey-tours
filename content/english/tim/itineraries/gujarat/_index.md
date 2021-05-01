@@ -10,18 +10,21 @@ highlights:
   - Visiting villages in the desert around Bhuj
   - Varied accommodation, from mud huts to a city mansion to palaces
   - Looking for lions in Sasangir
+  - ''
 itinerary:
   - day: 0
     item:
       - type: excursion
         url: >-
           /destinations/india/states/gujarat/cities/ahmedabad/excursions/transfer-from-airport-to-hotel/
+        title: Transfer from airport to hotel
         content: ''
         date: ''
         etd: ''
         duration: ''
       - type: city
         url: /destinations/india/states/gujarat/cities/ahmedabad/
+        title: Ahmedabad
         content: >-
           Ahmedabad is the cultural capital of Gujarat and a major textile and
           crafts centre. The city is packed with diverse architectural styles,
@@ -32,6 +35,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/gujarat/cities/ahmedabad/hotels/the-house-of-mangaldas-girdhardas/
+        title: The House of Mangaldas Girdhardas
         content: >-
           The House of MG is a bastion of tranquility and early 20th-century
           charm against the swirling noise and colour of modern-day Ahmedabad.
@@ -49,6 +53,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/gujarat/cities/ahmedabad/excursions/early-morning-heritage-walk-from-house-of-mg/
+        title: Early morning heritage walk from House of MG
         content: >-
           You join a group of like-minded travellers on an early-morning guided
           group walk through the narrow lanes of the historic Old City of
@@ -61,6 +66,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/gujarat/cities/ahmedabad/excursions/afternoon-visit-to-gandhis-sabarmati-ashram-and-law-garden-market/
+        title: Afternoon visit to Gandhi's Sabarmati Ashram & Law Garden Market
         content: >-
           Alongside the Sabaramati River, the Ashram was the home of Mahatma
           Gandhi from 1915 to 1930, and the seeds of India’s Independence
@@ -80,6 +86,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/gujarat/cities/dasada/
+        title: Dasada
         content: >-
           After breakfast, you drive out of Ahmedabad to the beautiful temples
           and step-wells of Patan, visit the workshops of the silk-saree weavers
@@ -94,6 +101,7 @@ itinerary:
           flamingoes, MacQueen’s bustard etc.
       - type: hotel
         url: /destinations/india/states/gujarat/cities/dasada/hotels/rann-riders/
+        title: Rann Riders
         content: >-
           Rann Riders is a resort featuring different types of traditional
           Gujarati and tribal homes set around well-kept lawns and shady trees.
@@ -111,6 +119,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/gujarat/cities/dasada/excursions/early-morning-wildlife-safari-in-the-little-rann-of-kutch/
+        title: Early morning wildlife safari in the Little Rann of Kutch
         content: >-
           A shared jeep safari across the Little Rann of Kutch, a vast expanse
           of salt flats and grasslands. This unique ecosystem supports a variety
@@ -125,6 +134,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/gujarat/cities/dasada/excursions/afternoon-village-safari/
+        title: Afternoon village safari
         content: >-
           Dasada and its nearby villages are inhabited by a number of
           interesting communities including pastoral groups. The women of the
@@ -140,6 +150,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/gujarat/cities/bhuj/
+        title: Bhuj
         content: >-
           After breakfast, you have a six-hour drive across arid Kutch to Bhuj,
           the capital of the province, known for its congregation of textile
@@ -150,6 +161,7 @@ itinerary:
           embroidery.
       - type: hotel
         url: /destinations/india/states/gujarat/cities/bhuj/hotels/the-bhuj-house/
+        title: The Bhuj House
         content: >-
           The Bhuj House is a traditional Parsi courtyard house in the historic
           town of Bhuj. Built in the late 1800s, it has stood through seven
@@ -166,6 +178,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/gujarat/cities/bhuj/excursions/full-day-excursion-to-bhujodi-ajrakpur-and-dhaneti/
+        title: Full day excursion to Bhujodi, Ajrakpur and Dhaneti
         content: >-
           In the villages around Bhuj, the tribal people turn out exquisite
           handloomed woollen and cotton clothes decorated with dye or
@@ -203,6 +216,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/gujarat/cities/bhuj/excursions/full-day-excursion-to-hodka-and-other-textile-villages-north-of-bhuj/
+        title: Full day excursion to Hodka and other textile villages north of Bhuj
         content: >-
           Not far north of Bhuj is a village called Zura where Huser Sidhik and
           his family keep alive the art of copper-bell making. Made from scrap
@@ -239,6 +253,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/gujarat/cities/gondal/
+        title: Gondal
         content: >-
           Today, you drive for six hours to the princely state of Gondal, known
           for its progressive rulers. In the late 19th century, Gondal did away
@@ -253,6 +268,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/gujarat/cities/gondal/hotels/orchard-palace/
+        title: Orchard Palace
         content: >-
           A lovely palace with just seven guest rooms, set in a huge complex of
           fruit orchards, lawns and gardens. A delightful accommodation option
@@ -269,6 +285,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/gujarat/cities/sasangir/
+        title: Sasangir
         content: >-
           Today, you drive four hours to Sasan Gir, and with any luck, you’ll
           get to see lions! Sasangir is the only habitat of the lion left
@@ -280,6 +297,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/gujarat/cities/sasangir/excursions/jeep-safari-into-sasangir-national-park/
+        title: Jeep safari into Sasangir National Park
         content: >-
           Gir National Park & Wildlife Sanctuary is a hilly tract of dry
           deciduous forests, acacia scrub, evergreen and semi-evergreen flora
@@ -294,6 +312,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/gujarat/cities/sasangir/hotels/gir-birding-lodge/
+        title: Gir Birding Lodge
         content: >-
           The coffee-coloured cottages of the Gir Birding Lodge are set in a
           rambling mango orchard that merges with the deciduous forests of the
@@ -311,6 +330,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/diu/cities/diu/
+        title: Diu
         content: >-
           You drive today to Gujarat’s coast today, a four-hour drive taking you
           to the former Portuguese colony of Diu. To this day, it retains a
@@ -325,6 +345,7 @@ itinerary:
           beach.
       - type: hotel
         url: /destinations/india/states/diu/cities/diu/hotels/radhika-beach-resort/
+        title: Radhika Beach Resort
         content: >-
           With double storied tile roofed villas surrounding a paved garden and
           swimming pool, this is generally considered the best hotel in Diu. It
@@ -340,6 +361,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/gujarat/cities/palitana/
+        title: Palitana
         content: >-
           A five-hour drive takes you to the small but fascinating town of
           Palitana. Shatrunjay Hill in Palitana is the holiest place on Earth in
@@ -355,6 +377,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/gujarat/cities/palitana/hotels/vijay-vilas-palace/
+        title: Vijay Vilas Palace
         content: >-
           Vijay Vilas Palace is a charming heritage home-stay in the shadow of
           Shatrunjay Hill. The palace has been tastefully decorated with
@@ -373,6 +396,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/gujarat/cities/palitana/excursions/early-morning-hike-to-the-palitana-temples/
+        title: Early morning hike to the Palitana temples
         content: >-
           The Palitana temples are on top of Shatrunjay hill. The winding 3.5-km
           path to the top has 3,950 steps and you can do this on your own
@@ -390,6 +414,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/gujarat/cities/sayla/
+        title: Sayla
         content: >-
           The village of Sayla, southwest of Ahmedabad, has historic buildings,
           old houses, temples, ashrams, lake, weavers and handicrafts. It is
@@ -400,6 +425,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/gujarat/cities/sayla/excursions/visit-saylas-textile-centers/
+        title: Visit Sayla's textile centers
         content: >-
           After breakfast, drive to the princely state of Sayla, which takes
           about four hours. The village of Sayla, southwest of Ahmedabad, has
@@ -422,6 +448,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/gujarat/cities/sayla/hotels/bell-guest-house/
+        title: Bell Guest House
         content: >-
           The Bell Guest House is an Indo-European building that once hosted
           European visitors to the Sayla princely state. Set in lush green
@@ -439,9 +466,10 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/gujarat/cities/ahmedabad/
+        title: Ahmedabad
         content: >-
           Today, you drive the three hours to Ahmedabad’s airport to connect
           with your onward flight.
 weight: 401
 ---
-Though not completely unknown, Gujarat is so culturally rich you wonder why more people don&rsquo;t visit it! Extremely varied, it goes from Ahmedabad&rsquo;s bustling lanes to vast carved monuments to the endless salt plains of Kutch, a lovely palace built by a feminist ruler in Gondal, (literally) breathtaking temples at Palitana, and the Asiatic lion in Sasangir forest. You get to meet locals and explore the beautiful mirror-work embroidery, look for amazing wildlife including birds, desert foxes, hyenas, the very rare Wild Ass and of course lions, and try great food on this offbeat trip.
+Though not completely unknown, Gujarat is so culturally rich you wonder why more people don’t visit it! Extremely varied, it goes from Ahmedabad’s bustling lanes to vast carved monuments to the endless salt plains of Kutch, a lovely palace built by a feminist ruler in Gondal, (literally) breathtaking temples at Palitana, and the Asiatic lion in Sasangir forest. You get to meet locals and explore the beautiful mirror-work embroidery, look for amazing wildlife including birds, desert foxes, hyenas, the very rare Wild Ass and of course lions, and try great food on this offbeat trip.

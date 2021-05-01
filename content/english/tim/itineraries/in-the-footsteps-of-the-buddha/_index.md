@@ -7,14 +7,21 @@ translationKey: in-the-footsteps-of-the-buddha
 type: itinerary
 tour: In the Footsteps of the Buddha
 highlights:
-  - Seven of the eight holiest sites of Buddhism Visiting the monasteries and stupas at Sarnath, Bodh Gaya, Rajgir and Lumbini 
-  - The world's oldest university Visiting the Buddha's birthplace Interacting with monks and teachers
+  - >-
+    Seven of the eight holiest sites of Buddhism Visiting the monasteries and
+    stupas at Sarnath, Bodh Gaya, Rajgir and Lumbini
+  - >-
+    The world's oldest university Visiting the Buddha's birthplace Interacting
+    with monks and teachers
+  - ''
+  - ''
 itinerary:
   - day: 0
     item:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-international-airport-to-hotel/
+        title: Transfer from International airport to hotel
         content: >-
           Today, you start your tour on arrival in Delhi, where you will be met
           by our representative and transferred to your airport hotel,
@@ -25,6 +32,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/delhi/cities/delhi/hotels/holiday-inn-aerocity/
+        title: Holiday Inn (Aerocity)
         content: >-
           For a comfortable stay before for after a long flight, the Holiday Inn
           at Aerocity, close to Delhi’s International Airport, is ideal. The
@@ -40,6 +48,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/uttar-pradesh/cities/varanasi/
+        title: Varanasi
         content: >-
           Today, you have a flight to Varanasi, one of the most important places
           for Hindus: it’s believed that anyone who dies here will be liberated
@@ -57,6 +66,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/uttar-pradesh/cities/varanasi/hotels/hotel-ganges-view/
+        title: Hotel Ganges View
         content: >-
           Staying in hotel Ganges View feels more like staying in a grand
           historic home with a wonderful traditional and spiritual feel. Much of
@@ -75,6 +85,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/uttar-pradesh/cities/varanasi/excursions/early-morning-ganges-aarti-boat-ride-and-walking-tour/
+        title: Early morning Ganges aarti, boat ride and walking tour
         content: >-
           Your guide meets you at the hotel before sunrise, so you can watch the
           amazing Subah-e-Benares spectacle, which takes place on Varanasi’s
@@ -99,6 +110,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/uttar-pradesh/cities/varanasi/excursions/excursion-to-sarnath/
+        title: Excursion to Sarnath
         content: >-
           To the north of Varanasi, Sarnath is a peaceful contrast to the chaos
           of the city. It was here that Gautama Buddha preached his first sermon
@@ -116,6 +128,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/bihar/cities/bodh-gaya/
+        title: Bodh Gaya
         content: >-
           Today, you drive about six hours to Bodh Gaya, a sacred place for
           Buddhists from all over the world. It was here that Prince Siddhartha
@@ -127,6 +140,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/bihar/cities/bodh-gaya/hotels/hotel-taj-darbar/
+        title: Hotel Taj Darbar
         content: >-
           This modern hotel is in a peaceful location, but is just a few
           minutes’ walk from the busy centre of Bodh Gaya. The 40
@@ -145,6 +159,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/bihar/cities/bodh-gaya/excursions/half-day-tour-of-bodh-gaya/
+        title: Half day tour of Bodh Gaya
         content: >-
           Bodh Gaya is not so much a town as a true Buddhist working centre
           surrounded by farmland and rural villages. The main site is the famous
@@ -163,6 +178,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/bihar/cities/patna/
+        title: Patna
         content: >-
           Today, you drive to the important sites at Rajgir and Nalanda.
 
@@ -194,6 +210,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/bihar/cities/patna/hotels/hotel-buddha-heritage/
+        title: Hotel Buddha Heritage
         content: >-
           A newly-renovated hotel located in a residential area but just a few
           minutes' walk from one of the most happening malls in Patna. The hotel
@@ -211,6 +228,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/uttar-pradesh/cities/kushinagar/
+        title: Kushinagar
         content: >-
           After breakfast you drive to the archaeological site of Vaishali. This
           dates back to the 6th century BC when it was a flourishing city,
@@ -232,6 +250,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/uttar-pradesh/cities/kushinagar/hotels/the-imperial-kushinagar/
+        title: The Imperial Kushinagar
         content: >-
           This hotel is one of the best on the “Buddhist Circuit”, and it is a
           pleasant surprise to find such a comfortable and well run property in
@@ -248,6 +267,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/nepal/cities/lumbini/
+        title: Lumbini
         content: >-
           Today, you cross over into Nepal, and drive to Lumbini, which takes
           about five hours. Lumbini is one of the four main sites of pilgrimage
@@ -264,6 +284,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/uttar-pradesh/cities/shravasti/
+        title: Shravasti
         content: >-
           Today, you cross back into India, first visiting the Buddha’s
           birthplace of Kapilavastu. Buddhist texts claim that Kapilavastu was
@@ -289,6 +310,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/uttar-pradesh/cities/shravasti/hotels/hotel-platinum-shravasti/
+        title: Hotel Platinum Shravasti
         content: >-
           A new hotel in Shravasti, providing spacious air-conditioned rooms, a
           restaurant and a separate meditation space. It is located very close
@@ -302,6 +324,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/uttar-pradesh/cities/lucknow/
+        title: Lucknow
         content: >-
           Today, you drive four hours to Lucknow airport to connect with your
           onward flight.

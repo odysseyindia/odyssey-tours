@@ -1,5 +1,26 @@
 #itinerary {
 
+  #message.spinner {
+    border: 10px solid #f3f3f3; 
+    border-top: 10px solid green;
+    border-radius: 50%;
+    width: 4vw;
+    height: 4vw;
+    animation: spin 2s linear infinite;
+    margin-left: 48vw;
+    display: none;
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .modal-url {
+    width: 100%;
+    margin-left: 20px;
+  }
+
   textarea {
     white-space: pre-line;
     white-space: pre-wrap;

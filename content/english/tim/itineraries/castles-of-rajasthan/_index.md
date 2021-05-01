@@ -11,14 +11,16 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-international-airport-to-hotel/
+        title: Transfer from International airport to hotel
         content: >-
           You start your tour on arrival in Delhi, where you will be met by our
           representative and transferred to your hotel.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: city
         url: /destinations/india/states/delhi/cities/delhi/
+        title: Delhi
         content: >-
           Delhi is practically two cities: New Delhi, the capital of India, and
           medieval Old Delhi. The old city centres around the Red Fort, which
@@ -30,6 +32,7 @@ itinerary:
           Heritage Sites.
       - type: hotel
         url: /destinations/india/states/delhi/cities/delhi/hotels/the-claridges/
+        title: The Claridges
         content: >-
           A colonial building in a peaceful garden setting in the centre of
           Lutyens’ New Delhi. The lobby is light and airy whilst the
@@ -37,15 +40,17 @@ itinerary:
           is a large swimming pool, a health club and a tennis court, and
           multiple, excellent restaurants. A pleasant superior hotel with
           old-world charm and a lovely location.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 1
     item:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/half-day-tour-of-new-delhi/
+        title: Half day tour of New Delhi
         content: >-
           New Delhi has a number of attractions, like Humayun’s Tomb, a
           sandstone mausoleum in the authentic Mughal style - the Taj Mahal,
@@ -58,13 +63,14 @@ itinerary:
 
 
           The afternoon is free for you to relax or explore further on your own.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 2
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/jaipur/
+        title: Jaipur
         content: >-
           Today, you drive to Jaipur, which takes about five hours along a good,
           if busy, highway, with time to just relax afterwards.
@@ -79,6 +85,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/hotels/samode-haveli/
+        title: Samode Haveli
         content: >-
           A lovely old haveli set around a pleasant courtyard, just inside the
           Old City walls, built as a townhouse for the royal family of Samode.
@@ -87,15 +94,17 @@ itinerary:
           decorated with exquisite frescoes. The pool area, with a bar and spa,
           is a very welcome area for relaxation. A genteel, luxurious option in
           Jaipur.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 3
     item:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/excursions/morning-walking-tour-of-jaipur/
+        title: Morning walking tour of Jaipur
         content: >-
           To experience the life of the Pink City beyond the monuments, it is
           best to join a guided morning walk. Starting in the heart of the Old
@@ -105,12 +114,13 @@ itinerary:
           marble-sculptors and bangle-makers at work, visit local temples, see
           the colourful vegetable and flower markets, and sample delicious
           street foods, such as jalebis, rabri, kachoris, and lassi.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/excursions/half-day-excursion-to-amber-fort/
+        title: Half day excursion to Amber Fort
         content: >-
           Just to the north of Jaipur, Amber Fort overlooks the city from a spur
           of the Aravali Hills. There is a short, steep walk up to the entrance
@@ -118,13 +128,14 @@ itinerary:
           pavilions, gardens and temples built over 125 years. There are
           excellent views down over the old town of Amer, and up to the Jaigarh
           and Nahargarh Forts higher in the hills.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 4
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/barli/
+        title: Barli
         content: >-
           A four-hour drive takes you to the small and picturesque village of
           Barli, south of Ajmer, centred around the Barli Fort, which dates back
@@ -135,6 +146,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/barli/excursions/afternoon-bullock-cart-trip-through-barli-village/
+        title: Afternoon bullock cart trip through Barli village
         content: >-
           It is great fun to explore the village of Barli by bullock cart. As
           you make your way through the narrow streets, you will receive a
@@ -143,11 +155,12 @@ itinerary:
           temple, and see the memorials to local rulers. It is a great insight
           into the traditional lifestyles still followed by people throughout
           rural India.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: hotel
         url: /destinations/india/states/rajasthan/cities/barli/hotels/fort-barli/
+        title: Fort Barli
         content: >-
           A stay at Fort Barli is a delightful way to experience rural
           Rajasthan. Pretty much in the middle of nowhere, off the new highway
@@ -156,25 +169,28 @@ itinerary:
           number of beautiful rooms and charming lounges and courtyards, where
           you can relive the days of the Maharajas and explore the village and
           countryside in comfort.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 5
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/jodhpur/
+        title: Jodhpur
         content: >-
           You travel to Jodhpur at the edge of the Thar desert, about a
           four-hour drive. Jodhpur is dominated by the massive Meherangarh Fort,
           which houses an excellent museum and affords captivating views of the
           blue Brahmin houses of the old city. The clock tower is a popular
           landmark in the old city. Narrow alleys lead from here to bazaars for
-          textiles, silver and handicrafts. It's a fascinating jumble of winding
+          textiles, silver and handicrafts. It’s a fascinating jumble of winding
           streets, of great interest to wander around in the evening.
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/jodhpur/hotels/ajit-bhawan/
+        title: Ajit Bhawan
         content: >-
           Ajit Bhawan is a lovely resort set in fabulous gardens, with a
           spectacular swimming pool. Winding paths lead to the attractive rooms,
@@ -183,15 +199,17 @@ itinerary:
           splendour with a contemporary twist. There is a garden restaurant and
           a lounge bar with a historic atmosphere, and a large collection of
           vintage cars.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 6
     item:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/jodhpur/excursions/audio-guide-tour-of-jodhpurs-meherangarh-fort/
+        title: Audio-guide tour of Jodhpur's Meherangarh Fort
         content: >-
           Perched on a hilltop dominating the city, Meherangarh Fort is the most
           visually spectacular in Rajasthan. It is approached by a series of
@@ -209,13 +227,14 @@ itinerary:
 
 
           The afternoon is at leisure to further explore Jodhpur on your own.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 7
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/narlai/
+        title: Narlai
         content: >-
           After breakfast, drive to the little village of Narlai, at the foot of
           a gigantic single 350-foot granite rock, dotted with caves and
@@ -226,6 +245,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/narlai/hotels/rawla-narlai/
+        title: Rawla Narlai
         content: >-
           This former hunting lodge is now a charming heritage hotel. The rooms
           and suites are all delightfully different from each other, with local
@@ -237,15 +257,17 @@ itinerary:
 
           One of the most spectacular experiences at Narlai (or anywhere) is the
           beautiful, lamp-lit step-well dinner, a must for a romantic stay.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 8
     item:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/narlai/excursions/morning-narlai-village-walk/
+        title: Morning Narlai village walk
         content: >-
           Each morning, a staff member from Rawla Narlai accompanies guests on a
           walk through the surrounding village. Narlai is a very close-knit
@@ -257,13 +279,14 @@ itinerary:
           The afternoon is at leisure to relax or try the activities at Rawla
           Narlai. You can go horse-riding, trekking or on a leopard safari; all
           these activities can be booked directly at the hotel.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 9
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/deogarh/
+        title: Deogarh
         content: >-
           This morning, you drive through the hills of southern Rajasthan,
           visiting the beautiful complex of marble temples at Ranakpur, and
@@ -279,6 +302,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/deogarh/hotels/deogarh-mahal/
+        title: Deogarh Mahal
         content: >-
           One of Rajasthan’s most spectacular palaces, Deogarh Mahal is a
           fabulous building of yellow ochre with ornate domes and white accents.
@@ -287,15 +311,17 @@ itinerary:
           and murals with mirrors. Beautiful handpicked fabrics enhance a
           feeling of quiet elegance. There is a well-designed swimming pool in
           its own secluded area.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 10
     item:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/deogarh/excursions/morning-train-excursion-with-jeep-transfers/
+        title: Morning train excursion with jeep transfers
         content: >-
           This little passenger train, built in the 1930s, goes at a gentle pace
           through the most beautiful forest and hills in Rajasthan, a rugged,
@@ -307,13 +333,14 @@ itinerary:
 
           The rest of the day is at leisure to explore the palace and the
           village.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 11
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/udaipur/
+        title: Udaipur
         content: >-
           After breakfast, a three-hour drive takes you to lovely Udaipur. Set
           around the vast Pichola Lake and dominated by dramatic palaces,
@@ -330,6 +357,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/udaipur/hotels/jagat-niwas-palace-hotel/
+        title: Jagat Niwas Palace Hotel
         content: >-
           A delightful 17th-century haveli, right on the banks of Lake Pichola.
           The whitewashed walls and plants create an atmosphere of pure
@@ -338,15 +366,19 @@ itinerary:
           and antique furniture. Most do not have lake views, but the many
           terraces, the rooftop pool and the restaurant all have excellent views
           of Lake Pichola.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 12
     item:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/udaipur/excursions/morning-city-tour-of-udaipur-followed-by-a-boat-trip-on-lake-pichola-by-shared-boat/
+        title: >-
+          Morning city tour of Udaipur followed by a boat trip on Lake Pichola
+          (by shared boat)
         content: >-
           The highlight of this guided city tour is a visit to the City Palace,
           now largely preserved as a museum with a large and varied collection
@@ -362,19 +394,20 @@ itinerary:
           Aravalli Hills to the west. You also pass the famous luxury Lake
           Palace hotel, and stop to visit the serene “pleasure island” of Jag
           Mandir.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 13
     item:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/udaipur/excursions/transfer-from-hotel-to-airport/
+        title: Transfer from hotel to airport
         content: >-
           Today, you have a departure transfer in Udaipur to the airport, to
           connect with your onward flight.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
 highlights:
   - Walking around the bazaars of Jaipur
@@ -382,7 +415,7 @@ highlights:
   - Relaxing in Rawla Narlai
   - The storybook castle of Deogarh
   - Sunset overlooking the Lake Palace in Udaipur
+  - ''
+  - ''
 ---
-
-Rajasthan's castles aren't just romantic fortresses - they're often at the heart of villages, still as relevant to the communities as they were 300 years ago. Best of all, they're all unique, from the huge, mazelike fortress of Deogarh to the romantic lakeside palaces in Udaipur and the intimate fort at Barli. You'll also stay in old royal hunting lodges, from the opulent Ajit Bhawan in Jodhpur to laidback Rawla Narlai, for a taste of the royal life.
-
+Rajasthan’s castles aren’t just romantic fortresses - they’re often at the heart of villages, still as relevant to the communities as they were 300 years ago. Best of all, they’re all unique, from the huge, mazelike fortress of Deogarh to the romantic lakeside palaces in Udaipur and the intimate fort at Barli. You’ll also stay in old royal hunting lodges, from the opulent Ajit Bhawan in Jodhpur to laidback Rawla Narlai, for a taste of the royal life.

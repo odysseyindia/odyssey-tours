@@ -1,6 +1,6 @@
 ---
 title: Beyond the Golden Triangle
-subtitle: 'Delhi, Mandawa, Jaipur, Sawai Madhopur, Karauli, Bharatpur, Agra'
+subtitle: Delhi, Mandawa, Jaipur, Sawai Madhopur, Karauli, Bharatpur, Agra
 type: itinerary
 tour: Beyond the Golden Triangle
 weight: 103
@@ -11,30 +11,34 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-international-airport-to-hotel/
+        title: Transfer from International airport to hotel
         content: >-
           You start your tour on arrival in Delhi, where you will be met by our
           representative and transferred to your airport hotel, convenient for
           driving straight to Mandawa the next day.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: hotel
         url: >-
           /destinations/india/states/delhi/cities/delhi/hotels/holiday-inn-aerocity/
+        title: Holiday Inn (Aerocity)
         content: >-
           For a comfortable stay before for after a long flight, the Holiday Inn
           at Aerocity, close to Delhi’s International Airport, is ideal. The
           rooms are large, modern, and, most important of all, quiet. There is a
           swimming pool, a large restaurant with abundant buffets, a bar, and a
           speciality Italian restaurant.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 1
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/mandawa/
+        title: Mandawa
         content: >-
           Today, you have a long drive (about 7 hours), but one on which you see
           India unfold from urban roads to highways to smaller towns and finally
@@ -47,6 +51,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/mandawa/hotels/desert-resort/
+        title: Desert Resort
         content: >-
           Located on the outskirts of Mandawa and overlooking fields and sand
           dunes, the unique and atmospheric Desert Resort is a truly original
@@ -57,15 +62,17 @@ itinerary:
           textiles and craftwork. There is an azure swimming pool, and elaborate
           buffet meals are served in the cool dining room, which is decorated
           with shells.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 2
     item:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/mandawa/excursions/walking-tour-of-mandawa/
+        title: Walking tour of Mandawa
         content: >-
           Starting at the impressive Mandawa Castle, our guide takes you on a
           stroll around the sandy lanes of this small town. Here you will see
@@ -77,12 +84,13 @@ itinerary:
           influence of Europeans. Often referred to as an “open-air art
           gallery”, the havelis, and other typical architectural features such
           as wells and memorials, are unique to this area.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/mandawa/excursions/afternoon-camel-ride-to-villages-near-mandawa/
+        title: Afternoon camel ride to villages near Mandawa
         content: >-
           An afternoon camel ride to nearby villages is a good way to get to
           know the Shekhavati desert. It is a short but scenic ride and the
@@ -90,13 +98,14 @@ itinerary:
           well populated the desert is, and there is an ever changing panorama
           of farmland, wells, and villages to be seen amongst the desert scrub
           from your lofty perch on the camel.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 3
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/jaipur/
+        title: Jaipur
         content: >-
           Jaipur is one of the most interesting cities in India, with exuberant
           18th- and 19th-century palaces and exotic street life. Just outside
@@ -107,6 +116,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/excursions/a-culinary-tour-with-an-indian-housewife-lunch-or-dinner/
+        title: A culinary tour with an Indian housewife, lunch or dinner
         content: >-
           You join local resident Payal, a keen cook and food blogger, who will
           share with you the secrets of her home cooking. She will take you to
@@ -117,12 +127,13 @@ itinerary:
           dinner. With easy-to-follow menus, and after your completely hands-on
           experience, you will be eager to demonstrate your new skills back
           home!
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/hotels/alsisar-haveli/
+        title: Alsisar Haveli
         content: >-
           Just off a busy street near the old walled city, Alsisar Haveli offers
           peace and serenity once you step through the arched gateway. Most of
@@ -131,15 +142,17 @@ itinerary:
           property. The current head of the family has sympathetically restored
           the old haveli, which now has a lovely swimming pool in a large,
           peaceful garden.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 4
     item:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/excursions/morning-walking-tour-of-jaipur/
+        title: Morning walking tour of Jaipur
         content: >-
           To experience the life of the Pink City beyond the monuments, it is
           best to join a guided morning walk. Starting in the heart of the Old
@@ -149,12 +162,13 @@ itinerary:
           marble-sculptors and bangle-makers at work, visit local temples, see
           the colourful vegetable and flower markets, and sample delicious
           street foods, such as jalebis, rabri, kachoris, and lassi.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/excursions/half-day-excursion-to-amber-fort/
+        title: Half day excursion to Amber Fort
         content: >-
           Just to the north of Jaipur, Amber Fort overlooks the city from a spur
           of the Aravali Hills. There is a short, steep walk up to the entrance
@@ -162,13 +176,14 @@ itinerary:
           pavilions, gardens and temples built over 125 years. There are
           excellent views down over the old town of Amer, and up to the Jaigarh
           and Nahargarh Forts higher in the hills.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 5
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/sawai-madhopur/
+        title: Sawai Madhopur
         content: >-
           The busy, dusty town of Sawai Madhopur is the base for visiting the
           beautiful Ranthambhore National Park, with various accommodation
@@ -179,6 +194,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/sawai-madhopur/excursions/visit-of-ranthambhore-fort/
+        title: Visit of Ranthambhore Fort
         content: >-
           This is a 1,000-year-old fort at the periphery of the National Park,
           with a spectacular combination of Rajput and Mughal architecture. From
@@ -186,12 +202,13 @@ itinerary:
           through various gates to a plateau dotted with ruined palaces, tombs,
           and a popular Ganesh temple. There are fabulous views over the park,
           and this is also a great place for birdwatching.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/sawai-madhopur/hotels/tiger-den-resort/
+        title: Tiger Den Resort
         content: >-
           A comfortable, friendly resort situated only five minutes away from
           the park entrance gates, ideal for quick access to game drives. This
@@ -199,15 +216,17 @@ itinerary:
           blocks overlooking the swimming pool. The extensive gardens and the
           terrace overlooking them are a comfortable place to sit and discuss
           wildlife sightings. The restaurant serves extensive buffet meals.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 6
     item:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/sawai-madhopur/excursions/jeep-safari-in-ranthambhore-np/
+        title: Jeep safari in Ranthambhore N.P
         content: >-
           Ranthambore National Park is one of the best places in India in which
           to see a tiger in the wild. The varied landscapes within the park are
@@ -217,13 +236,14 @@ itinerary:
 
           Morning safaris usually start at around 06:00, and afternoon safaris
           at around 14:00, and usually last for 3 to 4 hours.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 7
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/karauli/
+        title: Karauli
         content: >-
           You continue by road to Karauli, midway between Bharatpur and
           Ranthambore, and home to a magnificent palace. Built in 1635, the old
@@ -234,6 +254,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/karauli/excursions/camel-cart-ride-to-old-city-palace/
+        title: Camel cart ride to Old City Palace
         content: >-
           It is great fun to ride a camel cart through Karauli’s narrow market
           streets to the Old City Palace. The richly-ornamented 18th-century
@@ -242,12 +263,13 @@ itinerary:
           has a regular, lively prayer ceremony that attracts devotees from
           surrounding villages. You can also explore the colourful market
           streets on foot.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/karauli/hotels/bhanwar-vilas-palace/
+        title: Bhanwar Vilas Palace
         content: >-
           Staying at Bhanwar Vilas Palace feels like stepping back in time. The
           impressive early-20th-century building has wide, cool verandahs,
@@ -256,14 +278,16 @@ itinerary:
           joins guests at dinner when he is in residence. The extensive hotel
           grounds also boast an old-fashioned swimming pool, a stable, vintage
           cars, and an organic garden.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 8
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/bharatpur/
+        title: Bharatpur
         content: >-
           A three-hour drive today takes you to Bharatpur, famous for its bird
           sanctuary, Keoladeo Ghana National Park. A network of paths, trails
@@ -275,6 +299,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/bharatpur/excursions/visit-to-the-bird-sanctuary/
+        title: Visit to the bird sanctuary
         content: >-
           The best time to visit is in the early mornings and late afternoons,
           when the birds are most active. The best way to tour the park is by
@@ -282,26 +307,29 @@ itinerary:
           also walk on the smaller trails. When there is enough water, you can
           also take a row-boat ride, to get close to the aquatic birds and their
           nesting colonies
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/bharatpur/hotels/laxmi-vilas-palace/
+        title: Laxmi Vilas Palace
         content: >-
           This large heritage hotel is the premier place to stay in Bharatpur.
           Laxmi Vilas is the older, 18th-century wing of the palace, with
           comfortable, well-furnished rooms. Between the two wings is an
           enticing swimming pool. The entire property is surrounded by extensive
           lawns giving it a rural and relaxing feel.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 9
     item:
       - type: city
         url: /destinations/india/states/uttar-pradesh/cities/agra/
+        title: Agra
         content: >-
           After breakfast, drive to the deserted Mughal city of Fatehpur Sikri,
           a complex of sandstone forts, palaces and mosques. This was Emperor
@@ -320,6 +348,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/uttar-pradesh/cities/agra/excursions/afternoon-guided-city-tour-of-agra/
+        title: Afternoon guided city tour of Agra
         content: >-
           Agra has much to offer besides the Taj Mahal, such as Agra Fort, a
           masterpiece of design and construction. You then visit
@@ -327,12 +356,13 @@ itinerary:
           features the same marble inlay work as the Taj Mahal. Finally you will
           visit Mehtab Bagh, a formally laid-out Mughal garden that offers
           stupendous views of the Taj Mahal, especially in the late afternoon.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: hotel
         url: >-
           /destinations/india/states/uttar-pradesh/cities/agra/hotels/the-grand-imperial/
+        title: The Grand Imperial
         content: >-
           This 100-year-old building is testimony to India’s long and varied
           history. The low, white colonial building dating back to the Raj era
@@ -340,15 +370,17 @@ itinerary:
           time to the Crown Princes of England as well as to Mohammad Ali
           Jinnah. The wide lawn in the front, and the cupola-marked pool at the
           back complete the feel of a luxury heritage hotel.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 10
     item:
       - type: excursion
         url: >-
           /destinations/india/states/uttar-pradesh/cities/agra/excursions/early-morning-visit-to-the-taj-mahal-without-guide/
+        title: Early morning visit to the Taj Mahal (without guide)
         content: >-
           The best time of day to appreciate this stunning monument is as soon
           as the Taj Mahal opens, when it is at its quietest and most serene.
@@ -361,26 +393,29 @@ itinerary:
 
           The rest of the day is at leisure for you to explore Agra on your own.
           In the evening you take a quick, comfortable train to Delhi.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: hotel
         url: >-
           /destinations/india/states/delhi/cities/delhi/hotels/the-metropolitan-hotel/
+        title: The Metropolitan Hotel
         content: >-
           Located close to Connaught Place, in the centre of New Delhi, this
           quiet, upmarket hotel has a fresh atmosphere with vivid, minimalist,
           stylish designs. The hotel has 3 restaurants including one serving
           authentic Japanese cuisine. There is a swimming pool, an excellent
           large spa, a fashion & lifestyle store and an art gallery.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 11
     item:
       - type: city
         url: /destinations/india/states/delhi/cities/delhi/
+        title: Delhi
         content: >-
           You have the day to explore Delhi on your own. Delhi is practically
           two cities: New Delhi, the capital of India, and medieval Old Delhi.
@@ -389,22 +424,23 @@ itinerary:
           Jama Masjid, India’s largest mosque. In New Delhi you can find India
           Gate - a war memorial arch, the impressive Parliament Building and
           Rashtrapati Bhawan, the residence of the President. Towards the South
-          are Qutab Minar and Humayun's Tomb, both World Heritage Sites.
+          are Qutab Minar and Humayun’s Tomb, both World Heritage Sites.
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-hotel-to-international-airport/
+        title: Transfer from hotel to International airport
         content: >-
           In the evening, you have a departure transfer from your hotel to Delhi
           International airport, to board your onward flight.
-        date: null
-        etd: null
-        duration: null
+        date: ''
+        etd: ''
+        duration: ''
 highlights:
   - Frescoes and camels in Mandawa
   - A culinary tour and cooking class in Jaipur
   - Looking for tigers and exotic birdlife
   - Staying with the royal family of Karauli
   - Visiting the Taj Mahal and other beautiful monuments in Agra
+  - ''
 ---
-
-Rajasthan is India at its most exotic and colourful best, with forts, palaces, deserts, tigers, rivers, jungles, temples and just about everything else that the word 'India' brings to mind! Women are dressed in colourful saris with chunky jewellery whilst men wear elaborate turbans and sport huge moustaches. Here you can travel by camel, cycle rickshaw, jeep and boat to explore the myriad attractions.
+Rajasthan is India at its most exotic and colourful best, with forts, palaces, deserts, tigers, rivers, jungles, temples and just about everything else that the word &lsquo;India&rsquo; brings to mind! Women are dressed in colourful saris with chunky jewellery whilst men wear elaborate turbans and sport huge moustaches. Here you can travel by camel, cycle rickshaw, jeep and boat to explore the myriad attractions.

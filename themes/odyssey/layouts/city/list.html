@@ -9,11 +9,11 @@
         {{ .Content }}
       </div>
       <div class="md-6">
-        {{- range first 1 (.Resources.ByType "image") }} 
         <a href="{{ $.RelPermalink }}"  class="hover-effect">
-        <img class="lazyload" itemprop="image" data-src="{{ .RelPermalink }}" alt="{{ substr .Title  0 -4 | humanize }}" sizes="(min-width: 35em) 200px, 100vw" >
-        </a> 
-        {{- end }}  
+          {{- range ( where ( where $.Site.Pages "Section" "destinations") ".RelPermalink" $.RelPermalink ) }} 
+          {{ partial "image-single" . }}
+          {{- end }}
+        </a>   
       </div>
     </div>
     <div class="container">

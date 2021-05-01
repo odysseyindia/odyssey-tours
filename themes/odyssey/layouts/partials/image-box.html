@@ -1,18 +1,57 @@
+{{ "<!-- image box --> " | safeHTML }}
 <div class="image-box">
-    {{- range $index, $e := .images }}
-    {{ if eq $index 0 }} 
+{{- $resources := .Resources.ByType "image" }} 
+
+{{- $five := first 5 $resources }} 
+{{- $number := len $five }}
+
+{{- range $index,$e := $five }} 
+{{- $src := $resources.GetMatch ( printf "*%s*" (path.Base .RelPermalink) ) -}}
+
+{{- if $src -}}
+
+	{{- $tinyw   := default "500x"   }}
+	{{- $smallw  := default "800x"   }}
+	{{- $mediumw := default "1200x"  }}
+	{{- $largew  := default "1500x" -}}
+
+	{{- $.Scratch.Set "tiny"   ($src.Resize $tinyw)   }}
+	{{- $.Scratch.Set "small"  ($src.Resize $smallw)  }}
+	{{- $.Scratch.Set "medium" ($src.Resize $mediumw) }}
+	{{- $.Scratch.Set "large"  ($src.Resize $largew) -}}
+
+	{{- $tiny   := $.Scratch.Get "tiny"   }}
+	{{- $small  := $.Scratch.Get "small"  }} 
+	{{- $medium := $.Scratch.Get "medium" }}
+	{{- $large  := $.Scratch.Get "large" -}}
+
+    {{- if eq $index 0 }} 
     <div class="main-image"> 
-        <img src="{{.RelPermalink}}">
+        <img class="lazyload" sizes="(min-width: 35em) 1200px, 100vw" data-srcset="
+			{{- with $tiny.RelPermalink }} {{.}} 500w{{ end }}
+			{{- with $small.RelPermalink }},{{.}} 800w{{ end }}
+			{{- with $medium.RelPermalink }},{{.}} 1200w{{ end }}
+			{{- with $large.RelPermalink }},{{.}} 1500w{{ end }}"
+			data-src="{{- $src.RelPermalink -}}" alt="{{ . }}" >
     </div>
-    {{ end }}
-    {{ end }}
     <div class="image-box-red">
-    {{- range  $index, $e := first 5 .images }}
-    {{ if ne $index 0 }}     
-    <div>
-        <img src="{{.RelPermalink}}">
-    </div>
     {{- end }}
-    {{ end }}
+   
+    {{- if ne $index 0 }}
+    	<div>
+        	<img class="lazyload" sizes="(min-width: 35em) 1200px, 100vw" data-srcset="
+				{{- with $tiny.RelPermalink }} {{.}} 500w{{ end }}
+				{{- with $small.RelPermalink }},{{.}} 800w{{ end }}
+				{{- with $medium.RelPermalink }},{{.}} 1200w{{ end }}
+				{{- with $large.RelPermalink }},{{.}} 1500w{{ end }}"
+				data-src="{{- $src.RelPermalink -}}" alt="{{ . }}" >
+    	</div>
+    {{- end }}
+
+    {{- if eq $index (sub $number 1) }}
     </div>
+    {{ end }}
+
+ {{- end }}
+ {{- end }}
 </div>

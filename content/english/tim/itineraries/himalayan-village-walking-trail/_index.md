@@ -10,12 +10,14 @@ highlights:
   - Visiting village houses and getting to know Kumaoni culture
   - Relaxing on the terraces and gardens of a mountain homestead
   - Home-grown Kumaoni food
+  - ''
 itinerary:
   - day: 0
     item:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-international-airport-to-hotel/
+        title: Transfer from International airport to hotel
         content: >-
           You start your tour on arrival in Delhi, where you will be met by our
           representative and transferred to your hotel.
@@ -24,6 +26,7 @@ itinerary:
         duration: ''
       - type: city
         url: /destinations/india/states/delhi/cities/delhi/
+        title: Delhi
         content: >-
           Delhi is practically two cities: New Delhi, the capital of India, and
           medieval Old Delhi. The old city centres around the Red Fort, which
@@ -35,6 +38,7 @@ itinerary:
           Heritage Sites.
       - type: hotel
         url: /destinations/india/states/delhi/cities/delhi/hotels/colonels-retreat/
+        title: Colonel's Retreat
         content: >-
           Colonel’s Retreat is a very pleasant and homely guest house in the
           upmarket, tree-lined neighborhood of Defence Colony. The large rooms
@@ -52,11 +56,12 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/half-day-tour-of-old-delhi-by-metro-and-rickshaw/
+        title: Half day tour of Old Delhi by metro & rickshaw
         content: >-
           A half-day tour to Old Delhi using the modern Metro and the
           traditional cycle rickshaw. The Metro brings you to the heart of Old
           Delhi in just a few minutes, to visit the magnificent Jama Masjid
-          mosque, India's largest. You then use walk and ride cycle rickshaws
+          mosque, India’s largest. You then use walk and ride cycle rickshaws
           through the fascinating maze of narrow streets around the main street
           of Old Delhi, Chandni Chowk, a bustling jumble of craft shops,
           traders, mosques and temples.
@@ -73,7 +78,7 @@ itinerary:
           colourful Sikh Gurdwara.
 
 
-          The rest of your day is at leisure. If you'd like to go shopping or
+          The rest of your day is at leisure. If you’d like to go shopping or
           explore a bit more after the tour, you can take the Metro to vibrant
           Connaught Place to enjoy the many restaurants and more modern shops.
         date: ''
@@ -83,8 +88,9 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/uttarakhand/cities/bhimtal/
+        title: Bhimtal
         content: >-
-          Today, you start bright and early, with a train and an hour's drive
+          Today, you start bright and early, with a train and an hour’s drive
           that take you to the beautiful Himalayan foothills. Bhimtal is a small
           town in the Kumaon hills, at an altitude of more than 1,500m above sea
           level. One of the most famous attractions of this place is Bhimtal
@@ -95,6 +101,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/uttarakhand/cities/bhimtal/hotels/fredys-bungalow/
+        title: Fredy's Bungalow
         content: >-
           This colonial-style homestead nestles among cypress and deodar trees,
           on a peaceful wooded hillside overlooking the Bhimtal valley. This
@@ -110,6 +117,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/uttarakhand/cities/bhimtal/excursions/exploring-lakes-and-birding/
+        title: Exploring lakes and birding
         content: >-
           Today, rise early to explore the Sattal (seven lakes region). Set
           amongst dense forests of oak and pine trees, Sattal is one of the few
@@ -127,10 +135,12 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/uttarakhand/cities/thikalna/
+        title: Thikalna
         content: "Today, we drive for about three hours to the market town of Almora. You can spend some time exploring this ancient hill town, and visit the temple of Golu Devta, the god of justice, just outside the town. The temple, unusually, is full of brass bells, hung up as offerings by devotees.\n\nYou then limber up for your walking tour with a 1-hour stroll through oak and rhododendron forests to the village of\_Thikalna. This is a small village with terraced valleys, deodar forests, rhododendron trails and yellow mustard fields, with views of the stunning snow-capped Nanda Devi."
       - type: hotel
         url: >-
           /destinations/india/states/uttarakhand/cities/thikalna/hotels/thikalna-himalayan-retreat/
+        title: Thikalna Himalayan Retreat
         content: >-
           An old local house in the village of Thikalna was renovated into a
           cute, colourful stay, with views of Nanda Devi East and other
@@ -147,6 +157,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/uttarakhand/cities/thikalna/excursions/walk-around-thikalna/
+        title: Walk around Thikalna
         content: >-
           Today, you have a pleasant 4-5 hour walking round trip from Thikalna
           (at your own pace), exploring the nearby villages and woodland,
@@ -161,6 +172,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/uttarakhand/cities/kotnaikana/
+        title: Kotnaikana
         content: >-
           After a leisurely breakfast, walk along the ridge towards Saukiyatal
           temple and the Jageshwar temple complex with beautiful views of the
@@ -170,7 +182,7 @@ itinerary:
           18th centuries.
 
 
-          You'll have a picnic lunch after visiting the temples, and then carry
+          You’ll have a picnic lunch after visiting the temples, and then carry
           on through pleasant forests to the villages of Kotnaikana, where you
           stay the night. The entire walk today takes about five hours. You also
           have a 15-minute walk later to a sunset point near the house. You can
@@ -178,6 +190,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/uttarakhand/cities/kotnaikana/hotels/jhakersm-village-house/
+        title: Jhakersm Village House
         content: >-
           In the midst of oak, rhododendron, pine, and deodar forest is a
           painstakingly renovated old house, now a two-bedroom homestay that’s a
@@ -191,6 +204,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/uttarakhand/cities/binsar/
+        title: Binsar
         content: >-
           Your 4-5 hour walk today takes you past the Jhakersm temple, then
           descends to terraced farms and small villages. After a picnic lunch at
@@ -207,6 +221,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/uttarakhand/cities/binsar/hotels/itmenaan-estate/
+        title: Itmenaan Estate
         content: >-
           Itmenaan Estate is a fairytale resort near Binsar, one of the most
           beautiful spots in the Kumaon Himalayas. The 10-acre resort includes
@@ -225,6 +240,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/uttarakhand/cities/binsar/excursions/day-at-leisure-at-itmenaan-estate/
+        title: Day at leisure at Itmenaan Estate
         content: >-
           At Itmenaan Estate you may choose to just ‘do nothing’ - laze around
           or read a book, admire mesmerising valleys and snow clad peaks, enjoy
@@ -239,6 +255,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/delhi/cities/delhi/
+        title: Delhi
         content: >-
           Today, after a leisurely breakfast, you have a short walk to the
           road-head, from where you will be driven to Kathgodam railway station
@@ -246,6 +263,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/delhi/cities/delhi/hotels/the-metropolitan-hotel/
+        title: The Metropolitan Hotel
         content: >-
           Located close to Connaught Place, in the centre of New Delhi, this
           quiet, upmarket hotel has a fresh atmosphere with vivid, minimalist,
@@ -262,6 +280,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-hotel-to-international-airport/
+        title: Transfer from hotel to International airport
         content: >-
           Today, you have a departure transfer to the airport to connect with
           your onward flight.
@@ -270,4 +289,4 @@ itinerary:
         duration: ''
 weight: 205
 ---
-The Kumaon Himalayas are some of India's prettiest hills, with rhododendron and cedar forests dotted with villages smelling of woodsmoke and inhabited by some of the friendliest people in India. On this walking trail, you will take light hikes along green slopes, visiting villages, lakes and temples, enjoying picnics, birding and great views of the snowy Himalayan peaks. You will stay in converted village houses and British-era homesteads with beautiful wood panelling and cosy sitouts. A wonderful, leisurely way of seeing a lovely part of India.
+The Kumaon Himalayas are some of India&rsquo;s prettiest hills, with rhododendron and cedar forests dotted with villages smelling of woodsmoke and inhabited by some of the friendliest people in India. On this walking trail, you will take light hikes along green slopes, visiting villages, lakes and temples, enjoying picnics, birding and great views of the snowy Himalayan peaks. You will stay in converted village houses and British-era homesteads with beautiful wood panelling and cosy sitouts. A wonderful, leisurely way of seeing a lovely part of India.

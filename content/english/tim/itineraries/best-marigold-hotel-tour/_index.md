@@ -1,44 +1,48 @@
 ---
-title: "Best Marigold Hotel Tour"
-subtitle: 'Delhi, Udaipur, Khempur, Bijaipur, Bundi, Jaipur, Agra, Delhi'
+title: Best Marigold Hotel Tour
+subtitle: Delhi, Udaipur, Khempur, Bijaipur, Bundi, Jaipur, Agra, Delhi
 weight: 108
 translationKey: best-marigold-hotel-tour
 type: itinerary
-tour: "Best Marigold Hotel Tour"
+tour: Best Marigold Hotel Tour
 itinerary:
   - day: 0
     item:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-international-airport-to-hotel/
+        title: Transfer from International airport to hotel
         content: >-
           Today, you start your tour on arrival in Delhi, where you will be met
           by our representative and transferred to your airport hotel,
           convenient for flying straight to Udaipur the next day.
-        date: null
-        etd: null
-        duration: null
+        date: ''
+        etd: ''
+        duration: ''
       - type: hotel
         url: >-
           /destinations/india/states/delhi/cities/delhi/hotels/holiday-inn-aerocity/
+        title: Holiday Inn (Aerocity)
         content: >-
           For a comfortable stay before for after a long flight, the Holiday Inn
           at Aerocity, close to Delhi’s International Airport, is ideal. The
           rooms are large, modern, and, most important of all, quiet. There is a
           swimming pool, a large restaurant with abundant buffets, a bar, and a
           speciality Italian restaurant.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 1
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/udaipur/
+        title: Udaipur
         content: >-
           A two-hour flight takes you to lovely Udaipur. Set around the vast
           Pichola Lake and dominated by dramatic palaces, Udaipur is surely
-          Rajasthan's most picturesque city. High whitewashed houses and narrow,
+          Rajasthan’s most picturesque city. High whitewashed houses and narrow,
           winding alleys lend it an almost medieval charm. The huge City Palace,
           still the residence of the Maharana, is carved out of yellow sandstone
           and stands on the banks of Lake Pichola, from where you have fabulous
@@ -46,6 +50,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/udaipur/hotels/jagat-niwas-palace-hotel/
+        title: Jagat Niwas Palace Hotel
         content: >-
           A delightful 17th-century haveli, right on the banks of Lake Pichola.
           The whitewashed walls and plants create an atmosphere of pure
@@ -54,15 +59,19 @@ itinerary:
           and antique furniture. Most do not have lake views, but the many
           terraces, the rooftop pool and the restaurant all have excellent views
           of Lake Pichola.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 2
     item:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/udaipur/excursions/morning-city-tour-of-udaipur-followed-by-a-boat-trip-on-lake-pichola-by-shared-boat/
+        title: >-
+          Morning city tour of Udaipur followed by a boat trip on Lake Pichola
+          (by shared boat)
         content: >-
           The highlight of this guided city tour is a visit to the City Palace,
           now largely preserved as a museum with a large and varied collection
@@ -82,13 +91,14 @@ itinerary:
 
           Your afternoon is at leisure. We recommend a gin & tonic on the
           terrace overlooking the lake in Udaipur!
-        date: null
-        etd: null
-        duration: null
+        date: ''
+        etd: ''
+        duration: ''
   - day: 3
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/khempur/
+        title: Khempur
         content: >-
           An hour’s drive east of Udaipur is the little village of Khempur, set
           amid mustard and millet fields. At the edge of the village is Ravla
@@ -100,6 +110,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/khempur/hotels/ravla-khempur/
+        title: Ravla Khempur
         content: >-
           Ravla Khempur is a grand, two-storey haveli, pale yellow in colour,
           with arched windows trimmed with ornate white carvings. This was the
@@ -108,38 +119,42 @@ itinerary:
           stable of fine Marwari horses and is still home to dancing stallions,
           which perform when requested in front of the magnificent turreted
           building.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 4
     item:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/khempur/excursions/day-at-leisure-in-kempur/
+        title: Day at leisure in Kempur
         content: >-
           Today is a free day to enjoy all that this Real Exotic Marigold Hotel
           has to offer. You may wish to take a walk around the quiet and
           picturesque village or visit a local school. Alternative, you may
           choose to simply relax in this wonderfully quirky property that takes
           you into the world portrayed in the film.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 5
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/chittaurgarh/
+        title: Chittaurgarh
         content: >-
           Today, you drive to the colossal hilltop fort of Chittaurgarh, the
           ancient capital of Mewar state. Thrice in its long history,
           Chittaurgarh was sacked by a stronger enemy, and on each occasion the
           men rode out to certain death, while the women committed johar by
           throwing themselves and their children onto a huge funeral pyre. The
-          immense stretch of Chittaurgarh's walls and ruined palaces relate the
+          immense stretch of Chittaurgarh’s walls and ruined palaces relate the
           saga of innumerable sieges and heroism.
       - type: city
         url: /destinations/india/states/rajasthan/cities/bijaipur/
+        title: Bijaipur
         content: >-
           Afterwards, you continue to Bijaipur, a quaint village 40km from
           Chittaurgarh. It is home to the 200-year-old Castle Bijaipur, now
@@ -150,6 +165,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/bijaipur/hotels/castle-bijaipur/
+        title: Castle Bijaipur
         content: >-
           Castle Bijaipur is a 16th-century castle with attractive domes and
           arched windows and doorways. The castle offers rooms of varying sizes
@@ -157,15 +173,17 @@ itinerary:
           swimming pool where you can relax. If you feel more energetic, you can
           explore the village, lakeside and nearby forts by cycle, horse or
           jeep, or go trekking in the surrounding hills.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 6
     item:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/bijaipur/excursions/activities-at-castle-bijaipur/
+        title: Activities at Castle Bijaipur
         content: >-
           Today is a free day for you to select the activity you’d like to.
           Castle Bijaipur has a number of excursions available, most of which
@@ -174,13 +192,14 @@ itinerary:
           walks. They will also put on cooking demos, organise yoga classes, and
           give you the chance to visit a local Gujjar family. All these
           activities can be booked directly at the hotel.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 7
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/bundi/
+        title: Bundi
         content: >-
           Bundi, a three-hour drive from Bijaipur, is situated in a beautiful
           narrow valley, dominated by the awsome 14th-century Taragarh Fort, one
@@ -192,6 +211,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/bundi/excursions/half-day-sightseeing-of-bundi/
+        title: Half day sightseeing of Bundi
         content: >-
           Bundi might be small, but it’s packed with detail, just like its
           famous miniature paintings. The guided tour takes you to the
@@ -200,12 +220,13 @@ itinerary:
           the huge 14th-century Taragarh or Star Fort. Bundi’s main market is
           also fascinating to walk through, with bangle sellers, flower shops
           and even sword sellers!
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/bundi/hotels/hotel-bundi-haveli/
+        title: Hotel Bundi Haveli
         content: >-
           An old haveli turned into a small, chic guesthouse. Immaculate and
           gleaming in white, the haveli is built around a minuscule courtyard.
@@ -214,14 +235,16 @@ itinerary:
           rooms are on the upper floors. The rooftop offers great views of the
           Palace complex, the hilltop Taragarh Fort beyond, especially at
           sunset.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 8
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/jaipur/
+        title: Jaipur
         content: >-
           A four-hour drive takes you to Jaipur, one of the most interesting
           cities in India, with exuberant 18th- and 19th-century palaces and
@@ -232,6 +255,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/excursions/a-culinary-tour-with-an-indian-housewife-lunch-or-dinner/
+        title: A culinary tour with an Indian housewife, lunch or dinner
         content: >-
           You join local resident Payal, a keen cook and food blogger, who will
           share with you the secrets of her home cooking. She will take you to
@@ -242,12 +266,13 @@ itinerary:
           dinner. With easy-to-follow menus, and after your completely hands-on
           experience, you will be eager to demonstrate your new skills back
           home!
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/hotels/alsisar-haveli/
+        title: Alsisar Haveli
         content: >-
           Just off a busy street near the old walled city, Alsisar Haveli offers
           peace and serenity once you step through the arched gateway. Most of
@@ -256,15 +281,17 @@ itinerary:
           property. The current head of the family has sympathetically restored
           the old haveli, which now has a lovely swimming pool in a large,
           peaceful garden.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 9
     item:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/excursions/morning-walking-tour-of-jaipur/
+        title: Morning walking tour of Jaipur
         content: >-
           As one of the major locations used in the movie, Jaipur has plenty of
           sights and scenes you will find familiar. To explore the Pink City, it
@@ -275,12 +302,13 @@ itinerary:
           visit local temples, see the colourful vegetable and flower markets,
           and sample delicious street foods, such as jalebis, rabri, kachoris,
           and lassi.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/excursions/half-day-excursion-to-amber-fort/
+        title: Half day excursion to Amber Fort
         content: >-
           Just to the north of Jaipur, Amber Fort overlooks the city from a spur
           of the Aravali Hills. There is a short, steep walk up to the entrance
@@ -288,13 +316,14 @@ itinerary:
           pavilions, gardens and temples built over 125 years. There are
           excellent views down over the old town of Amer, and up to the Jaigarh
           and Nahargarh Forts higher in the hills.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 10
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/jaipur/
+        title: Jaipur
         content: >-
           Today is at leisure with the chance to ride auto rickshaws and cycle
           rickshaws through Jaipur.
@@ -306,6 +335,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/uttar-pradesh/cities/agra/
+        title: Agra
         content: >-
           Today, you have a long drive to Agra, but with some very interesting
           optional stops along the way, at the huge Abhaneri step-well,
@@ -322,6 +352,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/uttar-pradesh/cities/agra/hotels/the-grand-imperial/
+        title: The Grand Imperial
         content: >-
           This 100-year-old building is testimony to India’s long and varied
           history. The low, white colonial building dating back to the Raj era
@@ -329,15 +360,17 @@ itinerary:
           time to the Crown Princes of England as well as to Mohammad Ali
           Jinnah. The wide lawn in the front, and the cupola-marked pool at the
           back complete the feel of a luxury heritage hotel.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 12
     item:
       - type: excursion
         url: >-
           /destinations/india/states/uttar-pradesh/cities/agra/excursions/early-morning-visit-to-the-taj-mahal-without-guide/
+        title: Early morning visit to the Taj Mahal (without guide)
         content: >-
           The best time of day to appreciate this stunning monument is as soon
           as the Taj Mahal opens, when it is at its quietest and most serene.
@@ -349,12 +382,13 @@ itinerary:
           enter the grounds of the Taj Mahal for a maximum of three hours. Once
           you have taken it all in, you can return to your hotel for a late
           breakfast.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: excursion
         url: >-
           /destinations/india/states/uttar-pradesh/cities/agra/excursions/afternoon-guided-city-tour-of-agra/
+        title: Afternoon guided city tour of Agra
         content: >-
           Agra has much to offer besides the Taj Mahal, such as Agra Fort, a
           masterpiece of design and construction. You then visit
@@ -362,13 +396,14 @@ itinerary:
           features the same marble inlay work as the Taj Mahal. Finally you will
           visit Mehtab Bagh, a formally laid-out Mughal garden that offers
           stupendous views of the Taj Mahal, especially in the late afternoon.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 13
     item:
       - type: city
         url: /destinations/india/states/delhi/cities/delhi/
+        title: Delhi
         content: >-
           Today, you drive back to Delhi along the Yamuna Expressway, which
           should take about 4 hours. The rest of your day is at leisure, to
@@ -385,6 +420,7 @@ itinerary:
           Heritage Sites.
       - type: hotel
         url: /destinations/india/states/delhi/cities/delhi/hotels/the-claridges/
+        title: The Claridges
         content: >-
           A colonial building in a peaceful garden setting in the centre of
           Lutyens’ New Delhi. The lobby is light and airy whilst the
@@ -392,20 +428,22 @@ itinerary:
           is a large swimming pool, a health club and a tennis court, and
           multiple, excellent restaurants. A pleasant superior hotel with
           old-world charm and a lovely location.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 14
     item:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-hotel-to-international-airport/
+        title: Transfer from hotel to International airport
         content: >-
           Today, a departure transfer will take you to Delhi airport to catch
           your onward flight.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
 highlights:
   - Staying in the film's hotels in Khempur and Udaipur
@@ -413,6 +451,6 @@ highlights:
   - A cooking class in Jaipur to bring you the flavours of Rajasthan
   - Visiting the 'Viceroy Club' at Kanota
   - Beautiful forts and palaces off the beaten track in Bundi and Bijaipur
+  - ''
 ---
-
-This quirky, cheerful movie and its sequel had everyone wondering: where on Earth is this place, exactly? Well, it's not one place, it's several - and on this tour you can visit all of them, and all while getting to know a lovely, offbeat part of India. You will get to stay at the main location at Rawla Khempur, plus smaller ones in Jaipur and Kanota, and stay at Jagat Niwas Palace in Udaipur, also featured in the movie, with views over the famous Lake Palace. As you also visit other offbeat destinations, like the wonderful Bundi and the striking Castle Bijaipur, this is a very enjoyable, different tour - even if you aren't a movie buff!
+This quirky, cheerful movie and its sequel had everyone wondering: where on Earth is this place, exactly? Well, it&rsquo;s not one place, it&rsquo;s several - and on this tour you can visit all of them, and all while getting to know a lovely, offbeat part of India. You will get to stay at the main location at Rawla Khempur, plus smaller ones in Jaipur and Kanota, and stay at Jagat Niwas Palace in Udaipur, also featured in the movie, with views over the famous Lake Palace. As you also visit other offbeat destinations, like the wonderful Bundi and the striking Castle Bijaipur, this is a very enjoyable, different tour - even if you aren&rsquo;t a movie buff!

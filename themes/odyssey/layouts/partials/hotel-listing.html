@@ -7,9 +7,9 @@
 	</h3>
 	<h4 class="subtitle">{{ .CurrentSection.Parent.Title }}</h4>
 	{{ .Content }}
-	<figure >
-		{{- with .Resources.ByType "image" }}  	
-		{{- partial "image-box.html" (dict "images" . ) }}
-		{{- end }}
+	<figure > 
+ 		{{- range ( where ( where $.Site.Pages "Section" "destinations") ".RelPermalink" .RelPermalink ) }} 
+            {{ partial "image-box.html" . }}
+        {{- end }}
 	</figure>
 </article>

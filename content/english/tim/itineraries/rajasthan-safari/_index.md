@@ -13,30 +13,34 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-international-airport-to-hotel/
+        title: Transfer from International airport to hotel
         content: >-
           You start your tour on arrival in Delhi, where you will be met by our
           representative and transferred to your airport hotel, convenient for
           driving straight to Mandawa the next day.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: hotel
         url: >-
           /destinations/india/states/delhi/cities/delhi/hotels/holiday-inn-aerocity/
+        title: Holiday Inn (Aerocity)
         content: >-
           For a comfortable stay before for after a long flight, the Holiday Inn
           at Aerocity, close to Delhi’s International Airport, is ideal. The
           rooms are large, modern, and, most important of all, quiet. There is a
           swimming pool, a large restaurant with abundant buffets, a bar, and a
           speciality Italian restaurant.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 1
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/mandawa/
+        title: Mandawa
         content: >-
           Today, you have a long drive (about 7 hours), but one on which you see
           India unfold from urban roads to highways to smaller towns and finally
@@ -49,6 +53,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/mandawa/hotels/desert-resort/
+        title: Desert Resort
         content: >-
           Located on the outskirts of Mandawa and overlooking fields and sand
           dunes, the unique and atmospheric Desert Resort is a truly original
@@ -59,15 +64,17 @@ itinerary:
           textiles and craftwork. There is an azure swimming pool, and elaborate
           buffet meals are served in the cool dining room, which is decorated
           with shells.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 2
     item:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/mandawa/excursions/walking-tour-of-mandawa/
+        title: Walking tour of Mandawa
         content: >-
           Starting at the impressive Mandawa Castle, our guide takes you on a
           stroll around the sandy lanes of this small town. Here you will see
@@ -79,12 +86,13 @@ itinerary:
           influence of Europeans. Often referred to as an “open-air art
           gallery”, the havelis, and other typical architectural features such
           as wells and memorials, are unique to this area.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/mandawa/excursions/afternoon-camel-ride-to-villages-near-mandawa/
+        title: Afternoon camel ride to villages near Mandawa
         content: >-
           An afternoon camel ride to nearby villages is a good way to get to
           know the Shekhavati desert. It is a short but scenic ride and the
@@ -92,13 +100,14 @@ itinerary:
           well populated the desert is, and there is an ever changing panorama
           of farmland, wells, and villages to be seen amongst the desert scrub
           from your lofty perch on the camel.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 3
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/bikaner/
+        title: Bikaner
         content: >-
           Driving for about 4 hours through the expanse of the Thar desert gets
           you to Bikaner, which grew around the fabulous Junagarh Fort. The fort
@@ -111,18 +120,20 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/bikaner/excursions/half-day-city-tour-of-bikaner/
+        title: Half day city tour of Bikaner
         content: >-
           Founded in the 16th century and expanded by later rulers, it contains
           many stone-carved palace buildings filled with memorabilia of Rajput
           palace life. The different architectural styles within are also
           impressive. You will also visit the colourful market area, with its
           old havelis (merchant houses) and Jain temples.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/bikaner/hotels/bhanwar-niwas/
+        title: Bhanwar Niwas
         content: >-
           A lovely pink sandstone haveli in the narrow winding streets of old
           Bikaner. Built in the early 20th century, the building is a
@@ -131,14 +142,16 @@ itinerary:
           are grand ceilings, stencils and friezes; the Blue Drawing room is in
           pale blue and gold leaf, the Grand Staircase in a riot of gold - you
           will be dazzled!
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 4
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/jaisalmer/
+        title: Jaisalmer
         content: >-
           The heart of the Thar desert, Jaisalmer, is a six-hour drive from
           Bikaner. The massive, turreted Golden Fort dominates Jaisalmer’s
@@ -150,6 +163,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/jaisalmer/hotels/nachana-haveli/
+        title: Nachana Haveli
         content: >-
           A 300-year-old sandstone mansion in the old part of Jaisalmer, Nachana
           Haveli has a lovely secluded courtyard with narrow corridors leading
@@ -158,15 +172,17 @@ itinerary:
           and old paintings and relics. The rooftop Saffron restaurant has fine
           views of Jaisalmer Fort and is a popular gathering place in the
           evenings.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 5
     item:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/jaisalmer/excursions/morning-walking-tour-of-jaisalmer/
+        title: Morning walking tour of Jaisalmer
         content: >-
           Walking through Jaisalmer’s narrow, cobbled lanes provides visitors
           with an extraordinarily medieval feel, unique in modern India. The
@@ -178,17 +194,36 @@ itinerary:
           is best known for its latticed facade, and Nathmal Haveli has now been
           converted into a small museum of local artefacts. The Gadi Sagar lake
           is also worth seeing for its historic pavilions.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/jaisalmer/hotels/the-guru-kripa-tours/
-        content: ''
+        title: The Guru Kripa Tours
+        content: >-
+          The best way to experience the Thar Desert that surrounds Jaisalmer is
+          on an overnight camel safari. Leaving Jaisalmer in the mid-afternoon,
+          you enjoy a half-hour jeep ride, and then board camels for a ride
+          lasting approximately 2 hours through a peaceful, unspoilt area of the
+          desert, passing through a mix of scrub, bushes, and sand dunes. The
+          camp is set up in a peaceful location close to sand dunes. The tents
+          are simple, but all bedding is supplied, and hot water is provided for
+          washing. The camp staff prepares dinner and breakfast, and the
+          highlight is spending the evening under a blanket of stars. The next
+          morning, there is a second camel ride on a different route for around
+          an hour before rejoining the jeep for the drive back to Jaisalmer,
+          arriving in the mid-morning.
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 6
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/jaisalmer/
+        title: Jaisalmer
         content: >-
           This morning, after a steaming breakfast amid the dunes, there is a
           second camel ride on a different route for around an hour before
@@ -199,6 +234,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/jodhpur/
+        title: Jodhpur
         content: >-
           You travel back out to the edge of the desert to Jodhpur, about a
           five-hour drive. Jodhpur is dominated by the massive Meherangarh Fort,
@@ -209,6 +245,7 @@ itinerary:
           streets, of great interest to wander around in the evening.
       - type: hotel
         url: /destinations/india/states/rajasthan/cities/jodhpur/hotels/pal-haveli/
+        title: Pal Haveli
         content: >-
           A unique hotel in the heart of the old city of Jodhpur, with superb
           views over the city. Located close to the bottom of the majestic
@@ -217,15 +254,17 @@ itinerary:
           courtyards, stone stairways, terraces and excellent carvings. The
           spacious guest rooms are delightfully furnished in the typical
           Rajasthani aristocratic style.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 8
     item:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/jodhpur/excursions/audio-guide-tour-of-jodhpurs-meherangarh-fort/
+        title: Audio-guide tour of Jodhpur's Meherangarh Fort
         content: >-
           Perched on a hilltop dominating the city, Meherangarh Fort is the most
           visually spectacular in Rajasthan. It is approached by a series of
@@ -240,13 +279,14 @@ itinerary:
           their superb views.The Jaswant Thada memorial lies on the approach to
           the Fort, and the large white marble structure is surrounded by the
           cremation grounds of former rulers.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 9
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/padarla/
+        title: Padarla
         content: >-
           Padarla is a small village in the Jawai Leopard Conservation Zone
           around the Bera area in Rajasthan. This area is a thriving hub of
@@ -258,18 +298,20 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/padarla/excursions/wildlife-safari/
+        title: Wildlife safari
         content: >-
           A naturalist will be your guide for a leopard safari in the Jawai
           Conservation Zone. Leopards are solitary, elusive creatures, but this
           rocky landscape is the perfect place to look for them. The safari
           (with up to 5 people to a jeep) includes a high-tea break and plenty
           of time to look for the cats.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/padarla/hotels/godwad-leopard-safari-camp/
+        title: Godwad Leopard Safari Camp
         content: >-
           Godwad Safari Camp is based near Mithdi Dam, at the dam’s basin area.
           The location is ideal for observing the terrain around and for various
@@ -278,14 +320,16 @@ itinerary:
           tents, a recreational lounge and a multi-cuisine restaurant. There’s a
           fun, safari-style atmosphere, with campfires, dinner under a banyan
           tree, and more.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 10
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/udaipur/
+        title: Udaipur
         content: >-
           This morning, you drive through the hills of southern Rajasthan,
           visiting the beautiful complex of marble temples at Ranakpur, en route
@@ -302,6 +346,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/udaipur/hotels/mahendra-prakash/
+        title: Mahendra Prakash
         content: >-
           Mahendra Prakash is a haveli-style hotel in a quiet location on a
           shaded avenue near the Rose Garden, with the main city sights still in
@@ -309,15 +354,19 @@ itinerary:
           The rooms are tastefully furnished in traditional style. After a long
           day of sightseeing, you can relax by the pool in the garden with a few
           tortoises for company. There is a good restaurant by the pool too.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 11
     item:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/udaipur/excursions/morning-city-tour-of-udaipur-followed-by-a-boat-trip-on-lake-pichola-by-shared-boat/
+        title: >-
+          Morning city tour of Udaipur followed by a boat trip on Lake Pichola
+          (by shared boat)
         content: >-
           The highlight of this guided city tour is a visit to the City Palace,
           now largely preserved as a museum with a large and varied collection
@@ -333,12 +382,13 @@ itinerary:
           Aravalli Hills to the west. You also pass the famous luxury Lake
           Palace hotel, and stop to visit the serene “pleasure island” of Jag
           Mandir.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/udaipur/excursions/indian-cooking-class/
+        title: Indian cooking class
         content: >-
           In this hands-on cookery class, conducted by Mrs Shastri and her
           family in their own home, you join a small group of like-minded
@@ -347,13 +397,14 @@ itinerary:
           pakoras, various Indian vegetarian curries, pulao rice, and different
           breads. Finally, you get to enjoy the food which you have prepared,
           along with the family.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 12
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/chittaurgarh/
+        title: Chittaurgarh
         content: >-
           After breakfast, you drive about three hours to the colossal hilltop
           fort of Chittaurgarh, the ancient capital of Mewar state. Thrice in
@@ -365,18 +416,20 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/chittaurgarh/excursions/visit-to-chittaurgarh-fort/
+        title: Visit to Chittaurgarh Fort
         content: >-
           The fort at Chittaurgarh is the greatest in Rajasthan. The 700-acre
           complex standing on a rocky mountain plateau feels like the ultimate
           spot for a History Channel re-enactment. But there are no fallen
           actors here, just a series of stunning palaces, gates, temples and the
           startling Jaya Stambha.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/chittaurgarh/hotels/the-padmini-haveli-guesthome/
+        title: The Padmini Haveli Guesthome
         content: >-
           This delightful family-run homestay occupies an old haveli in a
           village within the walls of Chittaurgarh Fort. There are 8 charming
@@ -384,14 +437,16 @@ itinerary:
           stone. Bicycles are available to explore the fort, and guests are
           encouraged to feel at home, and join in with the daily activities of
           the family, such as a cooking class in the family kitchen.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 13
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/bundi/
+        title: Bundi
         content: >-
           Bundi, a three-hour drive from Chittaurgarh, is situated in a
           beautiful narrow valley, dominated by the awsome 14th-century Taragarh
@@ -403,6 +458,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/bundi/excursions/half-day-sightseeing-of-bundi/
+        title: Half day sightseeing of Bundi
         content: >-
           Bundi might be small, but it’s packed with detail, just like its
           famous miniature paintings. The guided tour takes you to the
@@ -411,12 +467,13 @@ itinerary:
           the huge 14th-century Taragarh or Star Fort. Bundi’s main market is
           also fascinating to walk through, with bangle sellers, flower shops
           and even sword sellers!
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/bundi/hotels/hotel-bundi-haveli/
+        title: Hotel Bundi Haveli
         content: >-
           An old haveli turned into a small, chic guesthouse. Immaculate and
           gleaming in white, the haveli is built around a minuscule courtyard.
@@ -425,14 +482,16 @@ itinerary:
           rooms are on the upper floors. The rooftop offers great views of the
           Palace complex, the hilltop Taragarh Fort beyond, especially at
           sunset.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 14
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/sawai-madhopur/
+        title: Sawai Madhopur
         content: >-
           A three-hour drive takes you to Sawai Madhopur, the base for visiting
           beautiful Ranthambhore National Park. The landscape in Ranthambhore is
@@ -442,6 +501,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/sawai-madhopur/excursions/visit-of-ranthambhore-fort/
+        title: Visit of Ranthambhore Fort
         content: >-
           This is a 1,000-year-old fort at the periphery of the National Park,
           with a spectacular combination of Rajput and Mughal architecture. From
@@ -449,12 +509,13 @@ itinerary:
           through various gates to a plateau dotted with ruined palaces, tombs,
           and a popular Ganesh temple. There are fabulous views over the park,
           and this is also a great place for birdwatching.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/sawai-madhopur/hotels/tiger-den-resort/
+        title: Tiger Den Resort
         content: >-
           A comfortable, friendly resort situated only five minutes away from
           the park entrance gates, ideal for quick access to game drives. This
@@ -462,15 +523,17 @@ itinerary:
           blocks overlooking the swimming pool. The extensive gardens and the
           terrace overlooking them are a comfortable place to sit and discuss
           wildlife sightings. The restaurant serves extensive buffet meals.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 15
     item:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/sawai-madhopur/excursions/morning-and-afternoon-jeep-safaris-in-ranthambore-np/
+        title: Morning and afternoon jeep safaris in Ranthambore N.P.
         content: >-
           Ranthambore National Park is one of the best places in India in which
           to see a tiger in the wild. The varied landscapes within the park are
@@ -480,13 +543,14 @@ itinerary:
 
           Morning safaris usually start at around 06:00, and afternoon safaris
           at around 14:00, and usually last for 3 to 4 hours.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 16
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/jaipur/
+        title: Jaipur
         content: >-
           After a pleasant four-hour drive, you reach Jaipur, one of the most
           interesting cities in India, with exuberant 18th- and 19th-century
@@ -499,6 +563,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/hotels/dera-rawatsar/
+        title: Dera Rawatsar
         content: >-
           Dera Rawatsar is a family-run boutique hotel, warm as a home. Located
           just behind the bus station, Dera Rawatsar lies in a quiet, leafy
@@ -507,15 +572,17 @@ itinerary:
           are all different. Meals, drinks and snacks are served in the family’s
           dining room or the outdoor courtyard. There is also a small swimming
           pool.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 17
     item:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/excursions/early-morning-cycle-tour-of-jaipur/
+        title: Early morning cycle tour of Jaipur
         content: >-
           In the early morning, you join a small group of like-minded travellers
           for a unique journey by bicycle into the streets of the old city. You
@@ -524,12 +591,13 @@ itinerary:
           lives of the locals and the history of the city, and visit the
           colourful and bustling vegetable and flower markets. You also enjoy a
           traditional Rajasthani breakfast in a local house.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/excursions/half-day-excursion-to-amber-fort/
+        title: Half day excursion to Amber Fort
         content: >-
           You will meet your guide directly after the cycling tour, who will
           accompany you to Amber Fort, just to the north of Jaipur. There is a
@@ -542,13 +610,14 @@ itinerary:
 
           The rest of your day is at leisure to explore Jaipur’s lovely markets
           on your own.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 18
     item:
       - type: city
         url: /destinations/india/states/uttar-pradesh/cities/agra/
+        title: Agra
         content: >-
           Today, you have a long drive to Agra, but with some very interesting
           optional stops along the way, at the huge Abhaneri step-well,
@@ -565,21 +634,24 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/uttar-pradesh/cities/agra/hotels/the-coral-tree-homestay/
+        title: The Coral Tree Homestay
         content: >-
           This six-room home-stay is just a short walk away from the entrance to
           the Taj Mahal. The bright, cheerful rooms, verandahs and garden are
           all decorated with interesting pieces of art. The well-travelled
           owners are keen to interact with their guests, and are full of ideas
           to help you to get the most out of your time in Agra.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 19
     item:
       - type: excursion
         url: >-
           /destinations/india/states/uttar-pradesh/cities/agra/excursions/early-morning-visit-to-the-taj-mahal-without-guide/
+        title: Early morning visit to the Taj Mahal (without guide)
         content: >-
           The best time of day to appreciate this stunning monument is as soon
           as the Taj Mahal opens, when it is at its quietest and most serene.
@@ -592,26 +664,29 @@ itinerary:
 
           The rest of the day is at leisure for you to explore Agra on your own.
           In the evening you take a quick, comfortable train to Delhi.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: hotel
         url: >-
           /destinations/india/states/delhi/cities/delhi/hotels/the-metropolitan-hotel/
+        title: The Metropolitan Hotel
         content: >-
           Located close to Connaught Place, in the centre of New Delhi, this
           quiet, upmarket hotel has a fresh atmosphere with vivid, minimalist,
           stylish designs. The hotel has 3 restaurants including one serving
           authentic Japanese cuisine. There is a swimming pool, an excellent
           large spa, a fashion & lifestyle store and an art gallery.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 20
     item:
       - type: city
         url: /destinations/india/states/delhi/cities/delhi/
+        title: Delhi
         content: >-
           You have the day to explore Delhi on your own. Delhi is practically
           two cities: New Delhi, the capital of India, and medieval Old Delhi.
@@ -624,11 +699,12 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-hotel-to-international-airport/
+        title: Transfer from hotel to International airport
         content: >-
           In the evening, you have a departure transfer from your hotel to Delhi
           International airport, to board your onward flight.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
 highlights:
   - Camels and frescoes in Mandawa
@@ -636,6 +712,6 @@ highlights:
   - Huge fortresses in Jodhpur, Chittaurgarh and Bundi
   - Staying with families (including royal ones!)
   - Looking for tigers and leopards by jeep
+  - ''
 ---
 A wild, adventurous journey through Rajasthan, for those who love culture, wildlife and the outdoors. Enjoy the desert in Mandawa, explore the castles of Bikaner, Jaisalmer and Jodhpur, and go looking for leopards by jeep in Padarla. Then you have time to enjoy the lake city of Udaipur, and smaller, fascinating towns before you go on tiger safaris in Ranthambhore, and end with the wonders of Jaipur and the Taj Mahal in Agra.
-

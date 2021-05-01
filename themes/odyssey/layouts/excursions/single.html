@@ -10,9 +10,9 @@
       <div class="mx-auto w-50 p-1">
         {{ .Content }}      
       </div>
-      {{- with .Resources.ByType "image" }}  	
-	  {{- partial "image-box.html" (dict "images" . ) }}
-	  {{- end }}
+      {{- range ( where ( where $.Site.Pages "Section" "destinations") ".RelPermalink" .RelPermalink ) }} 
+ 	    {{- partial "image-box.html" . }}
+      {{- end }}
     </div>
   </div>
 </section>

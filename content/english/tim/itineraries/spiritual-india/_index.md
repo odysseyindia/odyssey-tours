@@ -5,23 +5,26 @@ translationKey: spiritual-india
 type: itinerary
 tour: Spiritual India
 highlights:
-  - Exploring Sufi mysticism and music in Delhi 
-  - Being awed by the serene Golden Temple in Amritsar 
-  - Learning about Buddhism and Tibetan culture in Dharamsala 
-  - A peaceful evening ceremony on the riverbank in Rishikesh 
+  - Exploring Sufi mysticism and music in Delhi
+  - Being awed by the serene Golden Temple in Amritsar
+  - Learning about Buddhism and Tibetan culture in Dharamsala
+  - A peaceful evening ceremony on the riverbank in Rishikesh
   - Colourful, noisy chaos of the evening aarti in Haridwar
+  - ''
 itinerary:
   - day: 0
     item:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-international-airport-to-hotel/
+        title: Transfer from International airport to hotel
         content: ''
         date: ''
         etd: ''
         duration: ''
       - type: city
         url: /destinations/india/states/delhi/cities/delhi/
+        title: Delhi
         content: >-
           Delhi is practically two cities: New Delhi, the capital of India, and
           medieval Old Delhi. The old city centres around the Red Fort, which
@@ -33,6 +36,7 @@ itinerary:
           Heritage Sites.
       - type: hotel
         url: /destinations/india/states/delhi/cities/delhi/hotels/colonels-retreat/
+        title: Colonel's Retreat
         content: >-
           Colonel’s Retreat is a very pleasant and homely guest house in the
           upmarket, tree-lined neighborhood of Defence Colony. The large rooms
@@ -50,6 +54,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/half-day-tour-of-new-delhi/
+        title: Half day tour of New Delhi
         content: >-
           New Delhi has a number of attractions, like Humayun’s Tomb, a
           sandstone mausoleum in the authentic Mughal style - the Taj Mahal,
@@ -66,6 +71,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/punjab/cities/amritsar/
+        title: Amritsar
         content: >-
           Situated on the north-western border of India, in Punjab, the
           400-year-old city of the Golden Temple is the paramount seat of Sikh
@@ -75,6 +81,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/punjab/cities/amritsar/hotels/ranjit-svaasa/
+        title: Ranjit Svaasa
         content: >-
           This lovely heritage spa resort is located in the heart of Amritsar.
           The large lawns and ancient trees create a peaceful, idyllic space.
@@ -92,6 +99,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/punjab/cities/amritsar/excursions/half-day-city-tour-of-amritsar/
+        title: Half day city tour of Amritsar
         content: >-
           Amritsar’s highlights are clustered in the attractive area around the
           Golden Temple. The Partition Museum in the historic Town Hall tells
@@ -106,6 +114,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/punjab/cities/amritsar/excursions/afternoon-excursion-to-the-wagah-border/
+        title: Afternoon excursion to the Wagah Border
         content: >-
           The daily border closing ceremony at the Wagah Border between India
           and Pakistan is extraordinary street theatre. Crowds assemble in large
@@ -120,6 +129,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/himachal-pradesh/cities/dharamsala/
+        title: Dharamsala
         content: >-
           Dharamsala is a hill station that was established by the British in
           the mid-19th century. It stands on a spur of the Dhauladhar range
@@ -130,6 +140,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/himachal-pradesh/cities/dharamsala/hotels/norling-guest-house-norbulingka/
+        title: Norling Guest House Norbulingka
         content: >-
           Norling Guesthouse is located within the Norbulingka Institute in
           Lower Dharamsala, a 20-minute drive from McLeod Ganj. This is a warm,
@@ -148,6 +159,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/himachal-pradesh/cities/dharamsala/excursions/full-day-city-tour/
+        title: Full day city tour
         content: >-
           There is much to see in and around Dharamsala. On a full-day guided
           tour you can visit the Dalai Lama’s temple and join the Tibetan

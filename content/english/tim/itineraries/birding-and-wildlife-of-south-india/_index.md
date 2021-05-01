@@ -14,20 +14,23 @@ highlights:
   - Hiking with elephants in Kodaikanal
   - Looking for tigers and birds in Nagarhole national park
   - Colonial-style luxury in Munnar, Ooty and Mysore
+  - ''
 itinerary:
   - day: 0
     item:
       - type: excursion
         url: >-
           /destinations/india/states/kerala/cities/kochi/excursions/transfer-from-airport-to-hotel/
+        title: Transfer from airport to hotel
         content: >-
           Your tour begins at Kochi airport, where you are met by our
           representative and transferred to your hotel.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: city
         url: /destinations/india/states/kerala/cities/kochi/
+        title: Kochi
         content: >-
           Kochi (or Cochin) is set on a cluster of islands and narrow peninsulas
           and has one of the best natural harbours in the world. The famed
@@ -39,6 +42,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/kerala/cities/kochi/hotels/old-harbour-hotel/
+        title: Old Harbour Hotel
         content: >-
           This is one of the true gems of Fort Cochin. Located only a street
           away from the waterfront and the famous Chinese fishing nets, the Old
@@ -46,15 +50,17 @@ itinerary:
           characterful rooms, nooks and corridors dotted with antiques, and a
           beautiful poolside area in the shade of huge rain trees, perfect for
           relaxing with a beer.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 1
     item:
       - type: excursion
         url: >-
           /destinations/india/states/kerala/cities/kochi/excursions/half-day-city-tour-of-fort-cochin/
+        title: Half day city tour of Fort Cochin
         content: >-
           At the entrance of Kochi harbour, the Chinese fishing nets are
           fascinating. A short walk away is St Francis Church, built by the
@@ -63,12 +69,13 @@ itinerary:
           Old Testament and copper plates inscribed in Hebrew are preserved
           here. There is also the ‘Dutch’ Palace, built by the Portuguese for
           the Raja of Cochin in 1555.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: excursion
         url: >-
           /destinations/india/states/kerala/cities/kochi/excursions/evening-kathakali-dance-performance/
+        title: Evening Kathakali dance performance
         content: >-
           We provide entry tickets to an evening performance of kathakali and
           other dances from Kerala. In kathakali, the actors depict characters
@@ -79,13 +86,14 @@ itinerary:
           not require a guide, we only provide the entry tickets. The venue is
           either within walking distance or a short rickshaw ride away from your
           hotel.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 2
     item:
       - type: city
         url: /destinations/india/states/kerala/cities/thattekad/
+        title: Thattekad
         content: >-
           After breakfast, drive about three hours to Thattekad, site of the
           Salim Ali Bird Sanctuary, designed by the renowned ornithologist of
@@ -95,6 +103,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/kerala/cities/thattekad/excursions/bird-watching-trip/
+        title: Bird watching trip
         content: >-
           Thattekad Bird Sanctuary is one of the richest bird habitats in
           peninsular India, with over 270 species. One should see the rare
@@ -103,12 +112,13 @@ itinerary:
           Nilgiri Wood Pigeon. You can take walking tours through a small
           section of the sanctuary, and visit the welcome centre and lovely
           butterfly garden.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: hotel
         url: >-
           /destinations/india/states/kerala/cities/thattekad/hotels/the-hornbill-camp/
+        title: The Hornbill Camp
         content: >-
           Set amidst a coconut grove on the banks of the Periyar River, the
           Hornbill Camp consists of simple cottage tents built on raised
@@ -117,15 +127,17 @@ itinerary:
           the Periyar river or cycling through the spice-growing villages of
           Kerala. A variety of activities are offered, from nature walks to
           archery.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 3
     item:
       - type: excursion
         url: >-
           /destinations/india/states/kerala/cities/thattekad/excursions/day-at-leisure-for-walking-cycling-and-kayaking/
+        title: Day at leisure for walking, cycling & kayaking
         content: >-
           You have another birding walk in the early morning in the bird
           sanctuary.
@@ -138,13 +150,14 @@ itinerary:
           explore a rubber estate, a spice plantation and numerous farms, and a
           magnificent dam. You can also kayak to some of the spice-growing
           villages upstream.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 4
     item:
       - type: city
         url: /destinations/india/states/kerala/cities/munnar/
+        title: Munnar
         content: >-
           After breakfast, drive right into the Western Ghats, a hill range
           known for its incredible biodiversity, including several endemic
@@ -162,6 +175,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/kerala/cities/munnar/hotels/windermere-estate/
+        title: Windermere Estate
         content: >-
           A delightful farmhouse-style resort in the hills, 3km from Munnar.
           With great views of the surrounding mountains, Windermere has a quiet
@@ -170,15 +184,17 @@ itinerary:
           spacious and well furnished with sturdy wooden pieces. There is a
           pool, a lovely library and restaurant, plus nice sitouts and a great
           viewing point.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 5
     item:
       - type: excursion
         url: >-
           /destinations/india/states/kerala/cities/munnar/excursions/excursion-to-eravikulam-national-park-and-the-tea-museum-in-munnar/
+        title: Excursion to Eravikulam National Park and the Tea Museum in Munnar
         content: >-
           To get up close to some of the world’s last Nilgiri tahr (a variety of
           mountain goat or ibex), visit nearby Eravikulam National Park.
@@ -196,13 +212,14 @@ itinerary:
           each depicting a turning point that contributed to a flourishing tea
           industry, as seen today in the region. You can visit this museum after
           descending from Eravikulam.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 6
     item:
       - type: city
         url: /destinations/india/states/kerala/cities/thekkady/
+        title: Thekkady
         content: >-
           Thekkady is the gateway town for Periyar Wildlife Reserve. The
           three-hour journey to Thekkady affords some beautiful views of the
@@ -210,6 +227,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/kerala/cities/thekkady/hotels/shalimar-spice-garden/
+        title: Shalimar Spice Garden
         content: >-
           A peaceful retreat surrounded by fruit trees and spice gardens with a
           gurgling stream running through it. The cottages are simple but well
@@ -217,15 +235,17 @@ itinerary:
           attention has been lavished on the large, immaculately-designed
           bathrooms. There is a lovely swimming pool and Ayurvedic massage and
           yoga centre, and even a library with a fireplace.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 7
     item:
       - type: excursion
         url: >-
           /destinations/india/states/kerala/cities/thekkady/excursions/nature-walk-in-periyar-wildlife-sanctuary/
+        title: Nature walk in Periyar Wildlife Sanctuary
         content: >-
           Different nature trails traversing diverse habitats form the trekking
           routes, generally 4 to 5km in length. This nature walk offers an
@@ -236,12 +256,13 @@ itinerary:
           years and above are allowed to participate in the above programs. A
           maximum of 6 persons can go trekking at a time along each nature
           trail, accompanied by the trained tribal guide.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: excursion
         url: >-
           /destinations/india/states/kerala/cities/thekkady/excursions/spice-plantation-visit/
+        title: Spice plantation visit
         content: >-
           As you take a walk along the winding pathways among the plantations,
           the thing that strikes you first is the lingering aroma, of cloves,
@@ -249,13 +270,14 @@ itinerary:
           culinary uses of these spices, and about the geographical and climatic
           peculiarities of Thekkady such as the cool climate and its elevation
           above sea level, which make it ideal for spice cultivation.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 8
     item:
       - type: city
         url: /destinations/india/states/tamil-nadu/cities/dindigul/
+        title: Dindigul
         content: >-
           Today, you cross over into Tamil Nadu. A four-hour drive takes you to
           Dindigul, a large market town that handles the produce of the
@@ -271,6 +293,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/tamil-nadu/cities/dindigul/hotels/cardamom-house/
+        title: Cardamom House
         content: >-
           Cardamom House is owned by a retired British physician. The atmosphere
           is informal, and the daily activities of the house are tailored to
@@ -278,14 +301,16 @@ itinerary:
           homestay with 6 double rooms and a suite which can also be divided
           into two separate rooms. All rooms are named after an Indian spice or
           herb, and all have superb views of Athoor Lake and the Western ghats.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 9
     item:
       - type: city
         url: /destinations/india/states/tamil-nadu/cities/perumparai/
+        title: Perumparai
         content: >-
           Drive an hour into the hills above Dindigul, and find yourself at the
           small hill village of Perumparai. A little way off the beaten track
@@ -299,24 +324,40 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/tamil-nadu/cities/perumparai/hotels/rajakkad-estate/
-        content: ''
+        title: Rajakkad Estate
+        content: >-
+          Rajakkad Estate is a coffee and fruit plantation, best known for Palam
+          Palace, an 18th-century Kerala house transported here and put back
+          together like a jigsaw puzzle. While the exterior of the house is
+          traditional, the interior is surprisingly chic, all white and
+          cheerful. The estate offers excellent farm-to-table meals, lots of
+          spots around the property to relax, nature walks, a lovely library,
+          and a great sense of peace. The area also is well known for its bird
+          watching opportunities with over 200 species of migratory birds.
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 10
     item:
       - type: excursion
         url: >-
           /destinations/india/states/tamil-nadu/cities/perumparai/excursions/day-at-leisure-at-rajakkad-estate/
+        title: Day at leisure at Rajakkad Estate
         content: >-
           You come to Rajakkad Estate for the great outdoors; there are 60 acres
           of farm, forests and plantations, criss-crossed with hiking trails and
           stunning views. It’s a birdwatcher’s paradise with Golden Oriole and
           Fairy Bluebirds and many other birds.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 11
     item:
       - type: city
         url: /destinations/india/states/tamil-nadu/cities/kodaikanal/
+        title: Kodaikanal
         content: >-
           A winding two-hour drive takes you up into the Palani Hills, to the
           hill station of Kodaikanal. Also called Kodai, its cool temperatures
@@ -333,6 +374,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/tamil-nadu/cities/kodaikanal/hotels/elephant-valley-eco-farm-hotel/
+        title: Elephant Valley Eco Farm Hotel
         content: >-
           Elephant Valley is a wonderful resort at the edge of the forest. The
           cottages have been tastefully created using local granite and
@@ -341,15 +383,17 @@ itinerary:
           surrounded by birds and beautiful trees, and might even spot
           elephants! Short and long hikes are easily possible, and there are
           both great views and great food.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 12
     item:
       - type: excursion
         url: >-
           /destinations/india/states/tamil-nadu/cities/kodaikanal/excursions/full-day-at-leisure-to-explore-elephant-valley/
+        title: Full day at leisure to explore Elephant Valley
         content: >-
           Elephant Valley lies along the migration route of the pachyderms, and
           they are often found close to the resort. Follow nature trails of
@@ -363,13 +407,14 @@ itinerary:
           You can do a full-day trek, or shorter treks, or even just a
           fascinating walk around the property, including a rope bridge and a
           riverside walk. You can book all of these on the spot at the hotel.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 13
     item:
       - type: city
         url: /destinations/india/states/tamil-nadu/cities/pollachi/
+        title: Pollachi
         content: >-
           Today, a four-hour drive takes you to Pollachi, a small agricultural
           town just over an hour from Coimbatore. A pleasantly green place, it
@@ -384,6 +429,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/tamil-nadu/cities/pollachi/hotels/coco-lagoon-resort-by-great-mount/
+        title: Coco Lagoon Resort by Great Mount
         content: >-
           Set in a coconut grove, and with a lovely lagoon in the centre, this
           hotel offers a relaxed stay in the sleepy district of Pollachi. It’s
@@ -391,14 +437,16 @@ itinerary:
           of Topslip and Parambikulam, known for their biodiversity. The resort
           comprises earth-coloured cottages with comfortable interiors, a
           swimming pool, a multicuisine restaurant and an ayurveda spa.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 14
     item:
       - type: city
         url: /destinations/india/states/tamil-nadu/cities/ootacamund/
+        title: Ootacamund
         content: >-
           A steep drive with great views, lasting about five hours, takes you to
           cool, inviting Ooty. Originally a Toda tribal village, Ooty (or
@@ -411,6 +459,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/tamil-nadu/cities/ootacamund/hotels/savoy-hotel/
+        title: Savoy Hotel
         content: >-
           The best place to stay in Ooty. High on the slopes of a hill, the
           Savoy, operated by the Taj hotels, sprawls over six acres of
@@ -419,15 +468,17 @@ itinerary:
           fireplaces, wooden floors and brass fittings. Colorful flowerbeds
           merge to form a multi-coloured quilt around the cottages, adding to
           the old English Charm.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 15
     item:
       - type: excursion
         url: >-
           /destinations/india/states/tamil-nadu/cities/ootacamund/excursions/day-at-leisure-to-explore-ooty/
+        title: Day at leisure to explore Ooty
         content: >-
           Trace the remnants of the British colonial era such as St. Stephen’s
           Church, the Nilgiris’ oldest church built in 1829, and the beautifully
@@ -443,13 +494,14 @@ itinerary:
           which winds its way up the mountain from Mettupulayam in 4 to 5 hours.
           You can drive to nearby Coonoor and take the toy train back up to Ooty
           for a shorter train ride.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 16
     item:
       - type: city
         url: /destinations/india/states/karnataka/cities/nagarhole/
+        title: Nagarhole
         content: >-
           Descending to the plains takes you to Nagarhole National Park, about
           five hours away. Nagarhole National Park extends north of the Kabini
@@ -461,6 +513,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/karnataka/cities/nagarhole/hotels/the-bison/
+        title: The Bison
         content: >-
           The Bison is a boutique tented camp, situated at Nagarhole National
           Park, on the shores of the Kabini river. Each African-style tent is
@@ -468,15 +521,17 @@ itinerary:
           old cabin trunks, and an en-suite bathroom. There is a pool and a
           lovely common area to relax in. They have a good naturalist on site,
           and you’re encouraged to switch off and just enjoy nature here.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 17
     item:
       - type: excursion
         url: >-
           /destinations/india/states/karnataka/cities/nagarhole/excursions/morning-and-afternoon-safaris-in-nagarhole-national-park/
+        title: Morning and afternoon safaris in Nagarhole National Park
         content: >-
           Nagarhole has the highest density of herbivores in Asia. In addition
           to large herbivores such as the chital, sambhar, gaur and lots of
@@ -485,13 +540,14 @@ itinerary:
           watching, with over 300 species of birds recorded in the region.
           Safaris into Nagarhole are by shared vehicle or boat, depending on
           availability.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 18
     item:
       - type: city
         url: /destinations/india/states/karnataka/cities/mysore/
+        title: Mysore
         content: >-
           A two-hour drive today gets you to Mysore, a friendly and easy-going
           city with a pleasant climate. With a number of beautiful palaces and
@@ -506,6 +562,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/karnataka/cities/mysore/hotels/royal-orchid-metropole-hotel/
+        title: Royal Orchid Metropole Hotel
         content: >-
           This hotel was originally built by the Wodeyar ruling family of
           Mysore, and has considerable old-world charm. Built to house the
@@ -514,15 +571,17 @@ itinerary:
           There’s also a very pleasant pool area, and a nice courtyard with
           seating under majestic old trees, and a coffee shop, plus an
           atmospheric bar.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 19
     item:
       - type: excursion
         url: >-
           /destinations/india/states/karnataka/cities/mysore/excursions/half-day-city-tour-of-mysore/
+        title: Half day city tour of Mysore
         content: >-
           The focal point of the city is the 19th-century Maharaja’s Palace.
           Part of it is still used by the royal family on festive occasions; the
@@ -538,39 +597,41 @@ itinerary:
 
 
           The afternoon is at leisure.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 20
     item:
       - type: city
         url: /destinations/india/states/karnataka/cities/bangalore/
+        title: Bangalore
         content: "Today, you start early to visit Ranganathittu bird sanctuary. Just a little north of Mysore, this lovely wetland is host to some 170 species of birds, including\_ the\_painted stork,\_Asian openbill stork,\_common spoonbill,\_woolly-necked stork,\_black-headed ibis,\_lesser whistling duck,\_stork-billed kingfisher, and more. In the winter, up to 40,000 migrants from Siberia, Latin America and northern India find their way here, making it an ornithologist’s paradise. Ranger-guided boat tours are available, and are a good way to see the park.\n\nYou continue to Bangalore, the Silicon Valley of India. This pleasant city has beautiful parks, avenues and impressive buildings. Parts of the city are amongst the most modern and Westernised areas of India, replete with shopping malls, microbreweries, bars and restaurants."
       - type: hotel
         url: >-
           /destinations/india/states/karnataka/cities/bangalore/hotels/the-taj-west-end/
+        title: The Taj West End
         content: >-
           A delightful hotel set in twenty acres of landscaped gardens, with a
           lot of old world charm that makes it feel more like a club. The
           luxurious rooms are in double-storeyed cottages, with a colonial feel,
           either overlooking the lush garden or the swimming pool. The hotel has
           a fitness centre, multiple restaurants and a flood-lit tennis court.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 21
     item:
       - type: excursion
         url: >-
           /destinations/india/states/karnataka/cities/bangalore/excursions/transfer-from-hotel-to-airport/
+        title: Transfer from hotel to airport
         content: >-
           Today, you have a departure transfer to Bangalore airport to board
           your onward flight.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
 ---
-
-On this magnificent journey traversing south India's hills, you enjoy a stunning array of delights: the historical city of Kochi, lowland riverine forests of Thattekad, tea estates of Munnar, dense evergreen forests of Thekkady, a stay at a heritage property amongst hills. A stay on an 100-acre farm, which was on the migratory route of wild elephants. Enjoy the cool air of the tropical highlands at Thekkady, charming old-fashioned hill stations of Kodaikanal and Ooty, and the pleasant city of Mysore with its impressive palace and the Ranganathittu bird sanctuary nearby. Along with 200+ species of birds, you have the chance to spot the rare Niligiri tahr, sloth bears, wild elephants, deer, nilgai, Malabar flying squirrel, wild dogs, leopards and even tigers on this fantastic holiday!
-	
+On this magnificent journey traversing south India&rsquo;s hills, you enjoy a stunning array of delights: the historical city of Kochi, lowland riverine forests of Thattekad, tea estates of Munnar, dense evergreen forests of Thekkady, a stay at a heritage property amongst hills. A stay on an 100-acre farm, which was on the migratory route of wild elephants. Enjoy the cool air of the tropical highlands at Thekkady, charming old-fashioned hill stations of Kodaikanal and Ooty, and the pleasant city of Mysore with its impressive palace and the Ranganathittu bird sanctuary nearby. Along with 200+ species of birds, you have the chance to spot the rare Niligiri tahr, sloth bears, wild elephants, deer, nilgai, Malabar flying squirrel, wild dogs, leopards and even tigers on this fantastic holiday!

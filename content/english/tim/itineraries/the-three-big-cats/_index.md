@@ -10,12 +10,14 @@ highlights:
   - Staying at the stately, peaceful Shahpura Bagh
   - Meeting passionate conservationist-hoteliers
   - Getting to know India's extremely varied landscapes and wildlife
+  - ''
 itinerary:
   - day: 0
     item:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-international-airport-to-hotel/
+        title: Transfer from International airport to hotel
         content: >-
           Today, you start your tour on arrival in Delhi, where you will be met
           by our representative and transferred to your hotel.
@@ -25,6 +27,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/delhi/cities/delhi/hotels/the-metropolitan-hotel/
+        title: The Metropolitan Hotel
         content: >-
           Located close to Connaught Place, in the centre of New Delhi, this
           quiet, upmarket hotel has a fresh atmosphere with vivid, minimalist,
@@ -40,6 +43,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/sawai-madhopur/
+        title: Sawai Madhopur
         content: >-
           You have a relaxed morning at your hotel, and then take a train to to
           Sawai Madhopur, the base for visiting beautiful Ranthambhore National
@@ -50,6 +54,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/sawai-madhopur/hotels/tiger-den-resort/
+        title: Tiger Den Resort
         content: >-
           A comfortable, friendly resort situated only five minutes away from
           the park entrance gates, ideal for quick access to game drives. This
@@ -67,6 +72,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/sawai-madhopur/excursions/morning-and-afternoon-jeep-safaris-in-ranthambore-np/
+        title: Morning and afternoon jeep safaris in Ranthambore N.P.
         content: >-
           Ranthambore National Park is one of the best places in India in which
           to see a tiger in the wild. The varied landscapes within the park are
@@ -81,6 +87,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/shahpura/
+        title: Shahpura
         content: >-
           Today, you leave the bumpy jeep rides behind for some understated
           luxury. You drive four hours to Shahpura Bagh, a 120-year-old estate,
@@ -91,6 +98,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/shahpura/hotels/shahpura-bagh/
+        title: Shahpura Bagh
         content: >-
           Located in an orchard of rare beauty, and run by exceptionally amiable
           hosts, Shahpura Bagh is a real treat. This was the summer residence of
@@ -109,6 +117,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/shahpura/excursions/day-at-leisure-in-shahpura/
+        title: Day at leisure in Shahpura
         content: >-
           Though Shahpura Bagh is perfect for total indolence, it also offers a
           number of activities, like visits to the nearby village and market. To
@@ -125,6 +134,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/bera/
+        title: Bera
         content: >-
           This morning, you drive through the hills of southern Rajasthan,
           visiting the beautiful complex of marble temples at Ranakpur, en route
@@ -137,6 +147,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/bera/hotels/bera-safari-lodge/
+        title: Bera Safari Lodge
         content: >-
           Run by a conservationist who saved the area from being given over to
           mining, Bera Safari Lodge is a collection of comfortable low-rise
@@ -155,6 +166,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/bera/excursions/morning-and-evening-leopard-safaris/
+        title: Morning and evening leopard safaris
         content: >-
           The region around Bera is a beautiful combination of semi-desert
           countryside with dunes and ravines and beautiful large granite hill
@@ -171,6 +183,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/gujarat/cities/dasada/
+        title: Dasada
         content: >-
           After breakfast, you have a six-hour drive into the neighbouring state
           of Gujarat. You end the day at Dasada, a village on the outskirts of
@@ -178,9 +191,10 @@ itinerary:
           is the perfect base from which to explore the Rann of Kutch, the last
           refuge in India of the Asiatic wild ass, an elegant member of the
           horse family. In winter it is also home to migratory birds such as
-          flamingoes, MacQueen's bustard etc.
+          flamingoes, MacQueen’s bustard etc.
       - type: hotel
         url: /destinations/india/states/gujarat/cities/dasada/hotels/rann-riders/
+        title: Rann Riders
         content: >-
           Rann Riders is a resort featuring different types of traditional
           Gujarati and tribal homes set around well-kept lawns and shady trees.
@@ -198,6 +212,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/gujarat/cities/dasada/excursions/early-morning-wildlife-safari-in-the-little-rann-of-kutch/
+        title: Early morning wildlife safari in the Little Rann of Kutch
         content: >-
           A shared jeep safari across the Little Rann of Kutch, a vast expanse
           of salt flats and grasslands. This unique ecosystem supports a variety
@@ -212,6 +227,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/gujarat/cities/dasada/excursions/afternoon-village-safari/
+        title: Afternoon village safari
         content: >-
           Dasada and its nearby villages are inhabited by a number of
           interesting communities including pastoral groups. The women of the
@@ -227,10 +243,11 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/gujarat/cities/gondal/
+        title: Gondal
         content: >-
           Today, you drive for five hours to the princely state of Gondal, known
           for its progressive rulers. In the late 19th century, Gondal did away
-          with the women's purdah or veil, abolished land taxes and insisted on
+          with the women’s purdah or veil, abolished land taxes and insisted on
           education for girls. Gondal is an interesting city with some
           finely-carved palaces. The town is also home to an interesting
           100-year-old ayurvedic pharmacy.
@@ -241,6 +258,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/gujarat/cities/gondal/hotels/orchard-palace/
+        title: Orchard Palace
         content: >-
           A lovely palace with just seven guest rooms, set in a huge complex of
           fruit orchards, lawns and gardens. A delightful accommodation option
@@ -257,6 +275,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/gujarat/cities/sasangir/
+        title: Sasangir
         content: >-
           Today, you drive four hours to Sasan Gir, to look for lions! Sasangir
           is the only habitat of the lion left outside Africa, and with the lion
@@ -268,6 +287,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/gujarat/cities/sasangir/excursions/jeep-safari-into-sasangir-national-park/
+        title: Jeep safari into Sasangir National Park
         content: >-
           Gir National Park & Wildlife Sanctuary is a hilly tract of dry
           deciduous forests, acacia scrub, evergreen and semi-evergreen flora
@@ -281,6 +301,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/gujarat/cities/sasangir/hotels/gir-birding-lodge/
+        title: Gir Birding Lodge
         content: >-
           The coffee-coloured cottages of the Gir Birding Lodge are set in a
           rambling mango orchard that merges with the deciduous forests of the
@@ -298,8 +319,9 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/diu/cities/diu/
+        title: Diu
         content: >-
-          You drive today to Gujarat's coast today, a four-hour drive taking you
+          You drive today to Gujarat’s coast today, a four-hour drive taking you
           to the former Portuguese colony of Diu. To this day, it retains a
           distinctive atmosphere. The town of Diu is a maze of narrow, winding
           streets and many of the houses are well ornamented and brightly
@@ -312,6 +334,7 @@ itinerary:
           beach.
       - type: hotel
         url: /destinations/india/states/diu/cities/diu/hotels/radhika-beach-resort/
+        title: Radhika Beach Resort
         content: >-
           With double storied tile roofed villas surrounding a paved garden and
           swimming pool, this is generally considered the best hotel in Diu. It
@@ -325,10 +348,11 @@ itinerary:
         nights: ''
       - type: city
         url: /destinations/india/states/maharashtra/cities/mumbai/
+        title: Mumbai
         content: >-
           Today, you have a departure transfer to Diu airport, to board a flight
           to Mumbai. Your tour ends at Mumbai, where you can either catch a
           connecting flight, or stay on an explore India some more.
 weight: 402
 ---
-India has an extremely rich and varied wildlife. On this remarkable tour you focus on the three big cats: you search for tigers in Ranthambhore National Park, leopards in the remote areas of southern Rajasthan and Asiatic lions in the Gir National Park in Gujarat. Along the way, you will be aided and abetted by the rulers of the small princely states of Shahpura and Gondal, who run their palaces almost as home-stays. Add to this the dramatic Rann of Kutch, famous for the Indian Wild Ass, and you'll understand why this Indian wildlife tour is bound to be a roaring success!
+India has an extremely rich and varied wildlife. On this remarkable tour you focus on the three big cats: you search for tigers in Ranthambhore National Park, leopards in the remote areas of southern Rajasthan and Asiatic lions in the Gir National Park in Gujarat. Along the way, you will be aided and abetted by the rulers of the small princely states of Shahpura and Gondal, who run their palaces almost as home-stays. Add to this the dramatic Rann of Kutch, famous for the Indian Wild Ass, and you&rsquo;ll understand why this Indian wildlife tour is bound to be a roaring success!

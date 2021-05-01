@@ -6,26 +6,30 @@ type: itinerary
 weight: 601
 tour: An Introduction to Kerala
 highlights:
-  - Exploring charming Fort Kochi, with its Portuguese, Dutch and British
+  - >-
+    Exploring charming Fort Kochi, with its Portuguese, Dutch and British
     influences
   - Heady spices in Thekkady
   - Spending the night on a houseboat on calm backwaters
   - Staying and eating with a family in their traditional home
   - Lazing on a beautiful beach at Mararikulam
+  - ''
 itinerary:
   - day: 0
     item:
       - type: excursion
         url: >-
           /destinations/india/states/kerala/cities/kochi/excursions/transfer-from-airport-to-hotel/
+        title: Transfer from airport to hotel
         content: >-
           Your tour begins at Kochi airport, where you are met by our
           representative and transferred to your hotel.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: city
         url: /destinations/india/states/kerala/cities/kochi/
+        title: Kochi
         content: >-
           Kochi (or Cochin) is set on a cluster of islands and narrow peninsulas
           and has one of the best natural harbours in the world. The famed
@@ -37,6 +41,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/kerala/cities/kochi/hotels/the-fort-house-hotel/
+        title: The Fort House Hotel
         content: >-
           The Fort House is one of the older establishments on the waterfront of
           Fort Cochin. This atmospheric property has undergone extensive
@@ -45,15 +50,17 @@ itinerary:
           its seafood specialties. Tourists as well as Kochi residents are
           regular visitors here, and they come to enjoy the evening views of the
           harbour.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 1
     item:
       - type: excursion
         url: >-
           /destinations/india/states/kerala/cities/kochi/excursions/half-day-city-tour-of-fort-cochin/
+        title: Half day city tour of Fort Cochin
         content: >-
           At the entrance of Kochi harbour, the Chinese fishing nets are
           fascinating. A short walk away is St Francis Church, built by the
@@ -62,12 +69,13 @@ itinerary:
           Old Testament and copper plates inscribed in Hebrew are preserved
           here. There is also the ‘Dutch’ Palace, built by the Portuguese for
           the Raja of Cochin in 1555.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: excursion
         url: >-
           /destinations/india/states/kerala/cities/kochi/excursions/evening-kathakali-dance-performance/
+        title: Evening Kathakali dance performance
         content: >-
           This evening, you get to catch an evening performance of kathakali and
           other dances from Kerala. In kathakali, the actors depict characters
@@ -75,13 +83,14 @@ itinerary:
           ordinary men and women. The dancers, all males, adorn themselves in
           huge skirts and headdress, wearing what must surely be the most
           intricate make-up of any dance style in the world.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 2
     item:
       - type: city
         url: /destinations/india/states/kerala/cities/thekkady/
+        title: Thekkady
         content: >-
           A five-hour drive past small villages and lush plantations takes you
           to Thekkady, gateway town for Periyar Wildlife Reserve. The journey to
@@ -90,6 +99,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/kerala/cities/thekkady/hotels/the-wildernest/
+        title: The Wildernest
         content: >-
           This is an excellent value-for-money bed & breakfast place, run by a
           friendly and knowledgeable young team. Wildernest has ten very
@@ -97,15 +107,17 @@ itinerary:
           structures. There is a choice of terraced rooms with spacious, open
           sit-outs and garden rooms that have an intimate little garden,
           offering total privacy and seclusion.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 3
     item:
       - type: excursion
         url: >-
           /destinations/india/states/kerala/cities/thekkady/excursions/nature-walk-in-periyar-wildlife-sanctuary/
+        title: Nature walk in Periyar Wildlife Sanctuary
         content: >-
           Different nature trails traversing diverse habitats form the trekking
           routes, generally 4 to 5km in length. This nature walk offers an
@@ -116,12 +128,13 @@ itinerary:
           years and above are allowed to participate in the above programs. A
           maximum of 6 persons can go trekking at a time along each nature
           trail, accompanied by the trained tribal guide.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
       - type: excursion
         url: >-
           /destinations/india/states/kerala/cities/thekkady/excursions/spice-plantation-visit/
+        title: Spice plantation visit
         content: >-
           As you take a walk along the winding pathways among the plantations,
           the thing that strikes you first is the lingering aroma, of cloves,
@@ -129,13 +142,14 @@ itinerary:
           culinary uses of these spices, and about the geographical and climatic
           peculiarities of Thekkady such as the cool climate and its elevation
           above sea level, which make it ideal for spice cultivation.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 4
     item:
       - type: city
         url: /destinations/india/states/kerala/cities/alleppey/
+        title: Alleppey
         content: >-
           Today, your four-hour drive takes you to Kerala’s picture-postcard
           backwaters, and for a very special stay. Alleppey (also called
@@ -147,6 +161,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/kerala/cities/alleppey/hotels/kettuvallam-houseboat/
+        title: Kettuvallam (Houseboat)
         content: >-
           One of the most tranquil and relaxing things you can do in India is to
           cruise through the backwaters in a Kerala houseboat, known as a
@@ -154,40 +169,45 @@ itinerary:
           watch the world go by, sipping from a tender coconut and enjoying the
           sheer peace of the surroundings. Freshly cooked Indian food and
           chilled beer make the experience even more enjoyable.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 5
     item:
       - type: city
         url: /destinations/india/states/kerala/cities/alleppey/
+        title: Alleppey
         content: >-
           After finishing the cruise, you transfer to your hotel, located on the
           backwaters.
       - type: hotel
         url: /destinations/india/states/kerala/cities/alleppey/hotels/emerald-isle/
+        title: Emerald Isle
         content: >-
           A wonderful old heritage home on Kerala’s backwaters with a very
           friendly host who believes passionately in preserving his family’s
           traditions. Time can be spent watching the toddy tappers climbing the
           tall trees, walking among the paddy fields or along the river banks,
           or rowing through the narrow canals in a country boat.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 6
     item:
       - type: city
         url: /destinations/india/states/kerala/cities/mararikulam/
+        title: Mararikulam
         content: >-
           A short drive away, Mararikulam (generally shortened to Marari) offers
           one of the most fabulous stretches of soft sandy beach, fringed with
           swaying palms. In the village, life still goes on much as it did a
           hundred years ago, with the men going out to sea each day to earn a
           living bringing in the daily catch. It is an idyllic retreat for those
-          who want to "get away from it all".
+          who want to “get away from it all”.
 
 
           You have two full days to simply enjoy the beach, and perhaps explore
@@ -195,6 +215,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/kerala/cities/mararikulam/hotels/abad-turtle-beach-resort/
+        title: Abad Turtle Beach Resort
         content: >-
           Abad Turtle Beach is a very pleasant resort set on 13 acres of land.
           It has the beautiful white sands of Marari Beach on one side and the
@@ -204,15 +225,17 @@ itinerary:
           restaurant with good-value food. There is direct access onto the
           beach, which is cleaned and patrolled by the resort’s own lifeguards.
           The overall feel is one of space, peace, and relaxation.
-        checkInDate: null
-        checkInTime: null
-        checkOutDate: null
-        checkOutTime: null
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 7
     item:
       - type: excursion
         url: >-
           /destinations/india/states/kerala/cities/mararikulam/excursions/full-day-at-leisure-on-the-beach/
+        title: Full day at leisure on the beach
         content: >-
           Mararikulam isn’t a tourist beach but rather a peaceful place to relax
           and unwind. The village is spread along both sides of a narrow road.
@@ -223,28 +246,22 @@ itinerary:
           Kerala countryside. Surrounded by simple village life and with the
           impossibly white sandy beach, Mararikulam is a unique opportunity to
           escape the world.
-        date: null
-        etd: null
+        date: ''
+        etd: ''
         duration: ''
   - day: 8
     item:
       - type: excursion
         url: >-
           /destinations/india/states/kerala/cities/kochi/excursions/transfer-from-hotel-to-airport/
+        title: Transfer from hotel to airport
         content: >-
-          Today, you drive to Kochi's airport, to connect with your onward
+          Today, you drive to Kochi’s airport, to connect with your onward
           flight.
-        date: null
-        etd: null
-        duration: null
+        date: ''
+        etd: ''
+        duration: ''
   - day: 9
     item: []
 ---
-
-
-
-
-
-
 Strewn with rivers, lagoons and meandering backwaters, covered in coconut groves and flanked by sunny, palm-fringed beaches, Kerala is a slice of paradise. Explore fishing villages where colourful boats stand in the harbour against a backdrop of Chinese fishing nets, unwind aboard your private traditional kettuvallam houseboat as you sail through the uniquely quiet backwaters, and discover a world of exotic spices.
-
