@@ -1137,17 +1137,12 @@ function displayTrains(city){
     );
 };
 
-function addCity(){
-
-  const source = document.querySelector("#cities");
-  const ws     = document.getElementById('toggleWorkspace');
-  const i      = source.selectedIndex;
-  const url    = source[i].value ;
-  const city   = source[i].innerHTML;
-  const html   = '<div class="draggable" draggable="true" type ="city" url="' + url + '"><i class="icon-monument"></i>&nbsp;' + city+'</div>';
+function addToWorkspace(type,icon,url,text){
+  let ws     = document.getElementById('toggleWorkspace');
+  const html = '<div class="draggable" draggable="true" type ="'+type+'" url="' + url + '"><i class="icon-'+icon+'"></i>&nbsp;' + text+'</div>';
 
   if (i) {
-    if (ws.className == "showWorkspace")  {
+    if (ws.className.includes("showWorkspace") === true){
       document.getElementById("workspace").innerHTML += html;
     } else {
       let days   = document.getElementById('myItinerary').getElementsByClassName('containers');
@@ -1155,7 +1150,17 @@ function addCity(){
       days[days.length -1 ].innerHTML += html;
     };
     draggable();
-  }
+  };
+};
+
+function addCity(){
+
+  const source = document.querySelector("#cities");
+  const i      = source.selectedIndex;
+  const url    = source[i].value ;
+  const text   = source[i].innerHTML;
+  
+  addToWorkspace('city','monument',url,text);
 };
 
 function addHotel(){
@@ -1164,19 +1169,9 @@ function addHotel(){
   const ws     = document.getElementById('toggleWorkspace');
   const i      = source.selectedIndex;
   const url    = source[i].value ;
-  const hotel  = source[i].innerHTML;
-  const html   = '<div class="draggable" draggable="true" type ="hotel" url="' + url + '"><i class="icon-bed"></i>&nbsp;' + hotel+'</div>';
-
-  if (i) {
-    if (ws.className == "showWorkspace")  {
-      document.getElementById("workspace").innerHTML += html;
-    } else {
-      let days   = document.getElementById('myItinerary').getElementsByClassName('containers');
-      let length = days.length;
-      days[days.length -1 ].innerHTML += html;
-    };
-    draggable();
-  }
+  const text   = source[i].innerHTML;
+ 
+  addToWorkspace('hotel','bed',url,text);
 };
 
 function addExcursion(){
@@ -1185,19 +1180,9 @@ function addExcursion(){
   const ws        = document.getElementById('toggleWorkspace');
   const i         = source.selectedIndex;
   const url       = source[i].value ;
-  const excursion = source[i].innerHTML;
-  const html      = '<div class="draggable" draggable="true" type ="excursion" url="' + url + '"><i class="icon-camera"></i>&nbsp;' + excursion + '</div>'
+  const text      = source[i].innerHTML;
 
-  if (i) {
-    if (ws.className == "showWorkspace")  {
-      document.getElementById("workspace").innerHTML += html;
-    } else {
-      let days   = document.getElementById('myItinerary').getElementsByClassName('containers');
-      let length = days.length;
-      days[days.length -1 ].innerHTML += html;
-    };
-    draggable();
-  }
+  addToWorkspace('excursion','camera',url,text);
 };
 
 function addCar(){
@@ -1205,13 +1190,9 @@ function addCar(){
   const source    = document.querySelector("#cars")
   const i         = source.selectedIndex;
   const url       = source[i].value ;
-  const car       = source[i].innerHTML;
-  const html      = '<div class="draggable" draggable="true" type="car-hire" url="' + url + '"><i class="icon-cab"></i>&nbsp;' + car + '</div>'
+  const text      = source[i].innerHTML;
 
-  if (i) {
-    document.getElementById("workspace").innerHTML += html;
-    draggable();
-  }
+  addToWorkspace('car','cab',url,text);
 };
 
 function addFlight(){
@@ -1219,13 +1200,9 @@ function addFlight(){
   const source    = document.querySelector("#flights")
   const i         = source.selectedIndex;
   const url       = source[i].value ;
-  const flight    = source[i].innerHTML;
-  const html      = '<div class="draggable" draggable="true" type="flight" url="' + url + '"><i class="icon-flight"></i>&nbsp;' + flight + '</div>'
+  const text      = source[i].innerHTML;
 
-  if (i) {
-    document.getElementById("workspace").innerHTML += html;
-    draggable();
-  }
+  addToWorkspace('flight','flight',url,text);
 };
 
 function addTrain(){
@@ -1234,12 +1211,8 @@ function addTrain(){
   const i         = source.selectedIndex;
   const url       = source[i].value ;
   const train     = source[i].innerHTML;
-  const html      = '<div class="draggable" draggable="true" type="train" url="' + url + '"><i class="icon-train"></i>&nbsp;' + train + '</div>'
 
-  if (i) {
-    document.getElementById("workspace").innerHTML += html;
-    draggable();
-  }
+  addToWorkspace('train','train',url,city);
 };
 
 function emptyTrash(){
