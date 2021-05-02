@@ -6,4 +6,5 @@
 *.log/
 .netlify/
 .env
-.gitignore
+package-lock.json
+
