@@ -31,8 +31,25 @@
       <div  class="select-flex">
         <div class="custom-select">
          <label class="search-label" for="weight">Weight</label>
-           <input id="intro-weight" name="weight" value="{{ with .Params.weight }}{{ . }}{{ end }}" placeholder="xxx">
+           <input type="num" tip="0 for FIT and 1-999 for tours" min="0" max="999" id="intro-weight" required name="weight" value="{{ with .Params.weight }}{{ . }}{{ end }}" placeholder="0" onfocusout="activateTour()">
         </div>
+      </div>
+       <div class="tour">
+        <h1>Tour theme(s)</h1>
+        {{- range (where (where .Site.RegularPages "Section" "experience") ".Params.id" "interest" }}
+        <input class="theme" type="checkbox" name="{{ .Params.translationkey }}" value="{{ .Title }}">
+        <label for="{{ .Params.translationkey }}">{{ .Title }}</label><br>
+        {{- end }}
+      </div>
+      <div class="tour">
+        <h1>Tour region</h1>
+        <label for="region">Choose a region:</label>
+        <select name="region" id="region">
+          <option value="0">Select a region</option>
+          {{- range (where (where .Site.RegularPages "Section" "destinations") ".Params.type" "region") }}
+          <option value="{{ .Title}}">{{ .Title }}</option>
+          {{- end }}
+        </select> 
       </div>
     </div>
   </div>
@@ -835,6 +852,21 @@ function toggleWorkspace(){
   }
 };
 
+
+function activateTour(){
+  var tourRelated = document.getElementsByClassName('tour');
+
+  for (var i=0; i<tourRelated.length; i++){
+    if (tourRelated[i].value > 0){
+      tourRelated[i].style.display = "block";
+    } else {
+      tourRelated[i].value = 0;
+      tourRelated[i].style.display = "none"
+    };
+  };
+};
+
+
 function addDay(){
 
   let element  = document.getElementById('addDay');
@@ -859,10 +891,20 @@ function saveItinerary(deleteDay){
 
   var data   = [];
 
-  var   intro      = document.getElementById('intro-content').value;
-  var   subtitle   = document.getElementById('intro-subtitle').value;
-  var   weight     = document.getElementById('intro-weight').value;
-  var   lines      = document.getElementById('intro-highlights').value.split(/\n/);
+  var intro      = document.getElementById('intro-content').value;
+  var subtitle   = document.getElementById('intro-subtitle').value;
+  var weight     = document.getElementById('intro-weight').value;
+  var lines      = document.getElementById('intro-highlights').value.split(/\n/);
+  var themeOptions = document.getElementsByClassName('theme');
+
+  var themes     = [];
+
+  for (var i=0; i<themeOptions.length; i++){
+    if (themeOptions[i].checked){
+      themes.push( themeOptions[i] );
+    };
+  };
+
   var   highlights = [];
 
   for (var i=0; i<lines.length; i++){
@@ -928,7 +970,8 @@ docLoad({
     "intro": intro,
     "subtitle": subtitle,
     "weight": weight,
-    "highlights": highlights
+    "highlights": highlights,
+    "themes": themes
   }) 
 }).then(
 
