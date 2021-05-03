@@ -1,9 +1,6 @@
 ---
-title: "Family"
-draft: false
-date: 2020-09-21T12:59:23+02:00
-translationKey: "family"
-interests: "family"
+translationKey: "family-holidays"
+interests: "Family holidays"
 type: "by-interest"
 id: interest
 ---

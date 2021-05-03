@@ -92,7 +92,7 @@ $(".mapcontainer").mapael(
     },
     areas: {
 
-{{- range where (where .Site.Pages "Section" "states") ".Params.id" "state" -}}
+{{- range where (where .Site.Pages "Section" "destinations") ".RelPermalink" .RelPermalink -}}
 
   "{{ .Title }}": {
     text: {content: "{{ .Title }}", attrs: {"font-size": 24}},

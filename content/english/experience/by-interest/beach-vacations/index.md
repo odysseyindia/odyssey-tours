@@ -1,9 +1,7 @@
 ---
-title: "Beaches"
-draft: false
-date: 2020-09-21T12:59:23+02:00
-translationKey: "beaches"
-interests: "beaches"
+title: "Beach vacations"
+translationKey: "beach-vacations"
+interests: "Beach vacations"
 type: "by-interest"
 id: interest
 ---

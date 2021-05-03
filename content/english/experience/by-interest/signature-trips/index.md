@@ -1,9 +1,6 @@
 ---
-title: "Popular Tours"
-draft: false
-date: 2020-09-21T12:59:23+02:00
-translationKey: "popular-tours"
-interests: "popular-tours"
+translationKey: "signature-trips"
+interests: "Signature Trips"
 type: "by-interest"
 id: interest
 ---

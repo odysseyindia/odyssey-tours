@@ -6,3 +6,4 @@
 *.log/
 .netlify/
 .env
+package-lock.json

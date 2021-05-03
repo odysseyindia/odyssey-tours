@@ -1,9 +1,6 @@
 ---
-title: "Monuments"
-draft: false
-date: 2020-09-21T12:59:23+02:00
-translationKey: "monuments"
-interests: "monuments"
+translationKey: "cultural-journeys"
+interests: "Cultural journeys"
 type: "by-interest"
 id: interest
 ---

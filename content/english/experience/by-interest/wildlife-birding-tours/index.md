@@ -1,9 +1,6 @@
 ---
-title: "Wildlife"
-draft: false
-date: 2020-09-21T12:59:23+02:00
-translationKey: "wildlife"
-interests: "wildlife"
+translationKey: "wildlife-birding-tours"
+interests: "Wildlife/Birding tours"
 type: "by-interest"
 id: interest
 ---

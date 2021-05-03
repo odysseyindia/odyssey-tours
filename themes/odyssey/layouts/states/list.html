@@ -111,13 +111,9 @@ $(".mapcontainer").mapael(
 {{- range .Data.Pages }}
 
   "{{ .Title }}": {
-    text: {content: "{{ .Title }}", attrs: {"font-size": 24}},
-    attrs: {
-      fill: "#f4f4e8"
-    },
-    tooltip: {
-      content: "{{ .Title }}"
-    },
+    text:    { content: "{{ .Title }}", attrs: {"font-size": 24} },
+    attrs:   { fill: "#f4f4e8" },
+    tooltip: { content: "{{ .Title }}" },
     eventHandlers: {
       click: function () {
         var updatedOptions = {'areas': {}};
@@ -128,15 +124,9 @@ $(".mapcontainer").mapael(
           document.getElementById('map-heading').innerHTML = "{{ .Title }}";
           document.getElementById('map-content').innerHTML = "{{ .Content }}";
           {{- end }}
-
-          updatedOptions.areas["{{ .Title }}"] = {
-             attrs:{fill:"#f4f4e8"}
-          }
-        {{- end }}
-        
-        updatedOptions.areas["{{ .Title }}"] = {
-          attrs:{fill:"red"}
-        }
+          updatedOptions.areas["{{ .Title }}"] = { attrs:{fill:"#f4f4e8"} }
+          {{- end }}
+          updatedOptions.areas["{{ .Title }}"] = { attrs:{fill:"red"} }
         $(".mapcontainer").trigger('update', [{
           mapOptions: updatedOptions, 
           animDuration: 300

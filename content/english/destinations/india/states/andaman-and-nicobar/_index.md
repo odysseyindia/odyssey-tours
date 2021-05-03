@@ -3,7 +3,7 @@ title: Andaman & Nicobar
 translationKey: andaman-and-nicobar
 oneliner: The emerald islands
 states_id: 1
-draft: true
+draft: false
 id: state
 type: state
 tags:

@@ -1,9 +1,6 @@
 ---
-title: "Adventure"
-draft: false
-date: 2020-09-21T12:59:23+02:00
-translationKey: "adventure"
-interests: ["adventure"]
+translationKey: "active-outdoor-trips"
+interests: ["Active/Outdoor trips"]
 type: "by-interest"
 id: interest
 ---
