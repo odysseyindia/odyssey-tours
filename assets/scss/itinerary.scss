@@ -1,6 +1,25 @@
 #itinerary {
 
-  #message.spinner {
+.tour-region{
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+  label {
+    display: flex;
+    align-items: center;
+    height: 1.8rem;
+  }
+
+  input[type=checkbox] {
+    width: auto;
+    flex: none;
+  }
+
+  .custom-select, .tour-section {
+    margin-left: 10px;
+  }
+
+   #message.spinner {
     border: 10px solid #f3f3f3; 
     border-top: 10px solid green;
     border-radius: 50%;
@@ -24,7 +43,7 @@
   textarea {
     white-space: pre-line;
     white-space: pre-wrap;
-    height: 100px;
+    height: 200px;
   }
 
   .rowdetails {
@@ -55,10 +74,6 @@
     color: $body;
   }
 
-  label {
-    
-    padding-left: 10px;
-  }
   select {
     height: 40px;
     overflow: hidden;

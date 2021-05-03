@@ -31,23 +31,29 @@
       <div  class="select-flex">
         <div class="custom-select">
          <label class="search-label" for="weight">Weight</label>
-           <input type="num" tip="0 for FIT and 1-999 for tours" min="0" max="999" id="intro-weight" required name="weight" value="{{ with .Params.weight }}{{ . }}{{ end }}" placeholder="0" onfocusout="activateTour()">
+           <input type="num" tip="0 for FIT and 1-999 for tours" min="0" max="999" id="intro-weight" required name="weight" value="{{ with .Params.weight }}{{ . }}{{ end }}" placeholder="0"> <!--  onfocusout="activateTour()" -->
         </div>
       </div>
-       <div class="tour">
-        <h1>Tour theme(s)</h1>
-        {{- range (where (where .Site.RegularPages "Section" "experience") ".Params.id" "interest" }}
-        <input class="theme" type="checkbox" name="{{ .Params.translationkey }}" value="{{ .Title }}">
-        <label for="{{ .Params.translationkey }}">{{ .Title }}</label><br>
+
+      {{"<!-- interests -->" | safeHTML }}
+      <div class="tour-section">
+        <h3>Tour theme(s)</h3>
+        {{- range (where (where .Site.RegularPages "Section" "experience") ".Params.id" "interest") }}
+        <div class="form-check">
+          <label class="custom-control-label" for="{{ .Params.translationkey }}">
+            <input class="theme custom-control-input" type="checkbox" {{ if in $.Params.themes .Title }}checked {{ end }} value="{{ .Title }}">&nbsp; {{- .Title -}}
+          </label>
+        </div>
         {{- end }}
       </div>
-      <div class="tour">
-        <h1>Tour region</h1>
-        <label for="region">Choose a region:</label>
+
+      <div class="tour-section">
+       
+        <label class="tour-region" for="region">Tour region</label>
         <select name="region" id="region">
           <option value="0">Select a region</option>
-          {{- range (where (where .Site.RegularPages "Section" "destinations") ".Params.type" "region") }}
-          <option value="{{ .Title}}">{{ .Title }}</option>
+          {{- range (where (where .Site.Pages "Section" "destinations") ".Params.type" "region") }}
+          <option value="{{ .Title}}" {{if eq .Title $.Params.region }}selected{{ end }}>{{ .Title }}</option>
           {{- end }}
         </select> 
       </div>
@@ -396,15 +402,16 @@
 <div id="modal-accommodation" class="modal">
   <div class="modal-content">
     <div class="container">
-      <div class="row">
+     <div class="row">
         <div id="modal-category-accommodation"></div>
+        <div class="modal-url"></div>
         <div class="cancel close-modal-btn">
           <i class="icon-cancel"></i>
         </div>
       </div>
       <div class="row">
         <form>
-          <textarea class="content"></textarea>
+          <textarea class="content modal-title"></textarea>
         </form>
       </div>
       {{ partial "modal-accommodation.html" . }}
@@ -431,13 +438,14 @@
     <div class="container">
       <div class="row">
         <div id="modal-category-city"></div>
+        <div class="modal-url"></div>
         <div class="cancel close-modal-btn">
           <i class="icon-cancel"></i>
         </div>
       </div>
       <div class="row">
         <form>
-          <textarea class="content"></textarea>
+          <textarea class="content modal-title"></textarea>
         </form>
       </div>
       {{ partial "modal-city.html" . }}
@@ -499,8 +507,9 @@
 <div id="modal-car-hire" class="modal">
   <div class="modal-content">
     <div class="container">
-      <div class="row">
+     <div class="row">
         <div id="modal-category-car-hire"></div>
+        <div class="modal-url"></div>
         <div class="cancel close-modal-btn">
           <i class="icon-cancel"></i>
         </div>
@@ -534,6 +543,7 @@
     <div class="container">
       <div class="row">
         <div id="modal-category-flights"></div>
+        <div class="modal-url"></div>
         <div class="cancel close-modal-btn">
           <i class="icon-cancel"></i>
         </div>
@@ -854,7 +864,7 @@ function toggleWorkspace(){
 
 
 function activateTour(){
-  var tourRelated = document.getElementsByClassName('tour');
+  var tourRelated = document.getElementsByClassName('tour-section');
 
   for (var i=0; i<tourRelated.length; i++){
     if (tourRelated[i].value > 0){
@@ -891,27 +901,27 @@ function saveItinerary(deleteDay){
 
   var data   = [];
 
-  var intro      = document.getElementById('intro-content').value;
-  var subtitle   = document.getElementById('intro-subtitle').value;
-  var weight     = document.getElementById('intro-weight').value;
-  var lines      = document.getElementById('intro-highlights').value.split(/\n/);
+  var intro        = document.getElementById('intro-content').value;
+  var subtitle     = document.getElementById('intro-subtitle').value;
+  var weight       = document.getElementById('intro-weight').value;
+  var lines        = document.getElementById('intro-highlights').value.split(/\n/);
   var themeOptions = document.getElementsByClassName('theme');
-
-  var themes     = [];
+  var region       = document.getElementById('region').value;
+  var themes       = [];
 
   for (var i=0; i<themeOptions.length; i++){
     if (themeOptions[i].checked){
-      themes.push( themeOptions[i] );
+      themes.push( themeOptions[i].value );
     };
   };
 
   var   highlights = [];
 
   for (var i=0; i<lines.length; i++){
-    //if (/\S/.test(lines[i])){
-      highlights.push( lines[i].trim() );
-    //}
-  }
+      if ( lines[i].length ){
+        highlights.push( lines[i].trim() );
+      };
+  };
  
   const days = document.getElementById('myItinerary').getElementsByClassName('containers');
 
@@ -971,7 +981,8 @@ docLoad({
     "subtitle": subtitle,
     "weight": weight,
     "highlights": highlights,
-    "themes": themes
+    "themes": themes,
+    "region": region
   }) 
 }).then(
 
@@ -1416,9 +1427,6 @@ function editItem(day,index,url,obj){
   } else if (url.includes("excursions")){
     icon  = "camera";
     modal = document.getElementById("modal-excursions");
-    let modalURL = modal.getElementsByClassName('modal-url');
-    let displayURL = url.split("/");
-    modalURL[0].innerText = displayURL[displayURL.length-2];
   } else if (url.includes("airports")){
     icon  = "flight";
     modal = document.getElementById("modal-flights");
@@ -1442,6 +1450,10 @@ function editItem(day,index,url,obj){
   } else {
     defaultBtn.style.display = "none"
   }
+
+ let modalURL = modal.getElementsByClassName('modal-url');
+    let displayURL = url.split("/");
+    modalURL[0].innerText = displayURL[displayURL.length-2];
 
   let content      = obj.getElementsByClassName('content-details');
   let title        = obj.getElementsByClassName('title');

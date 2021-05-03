@@ -482,6 +482,7 @@ app.post('/ajax',function (req, res) {
     data[0].highlights =  request.highlights;
     data[0].subtitle   =  request.subtitle;
     data[0].themes     =  request.themes;
+    data[0].region     =  request.region;
     data[0].weight     = (request.weight == 'NULL') ?  0  : Number(request.weight);
     intro              =  request.intro.replace(/[`]/g, "'");
 

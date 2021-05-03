@@ -238,15 +238,10 @@ itinerary:
         etd: ''
         duration: ''
 highlights:
-  - ''
   - Cycling around Jaipur's Pink City
   - Visiting the Taj Mahal at leisure
   - Exploring medieval-era Old Delhi by cycle rickshaw
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+themes: []
+region: '0'
 ---
-The ideal itinerary for anyone wanting to see the best of India in a week. The magical Golden Triangle in India is one of the country's most popular tourist circuits. Comprising Delhi, Agra and Jaipur, it gets its name from the triangle that these cities form. Roughly equidistant in northern India, the cities provide a classic and unforgettable introduction to the country and its charms.
+The ideal itinerary for anyone wanting to see the best of India in a week. The magical Golden Triangle in India is one of the country’s most popular tourist circuits. Comprising Delhi, Agra and Jaipur, it gets its name from the triangle that these cities form. Roughly equidistant in northern India, the cities provide a classic and unforgettable introduction to the country and its charms.
