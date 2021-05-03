@@ -1,8 +1,6 @@
-/public/
-/resources/
-/node_modules/
-/dist/
-/site/data/webpack.json
+/public
+/resources
+/node_modules
 *.log/
 .netlify/
 .env
