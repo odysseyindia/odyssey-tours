@@ -1,4 +1,5 @@
 ---
+title: Classic tours
 translationKey: "classic-tours"
 interests: "Classic Tours"
 type: "by-interest"

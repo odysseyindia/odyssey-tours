@@ -1,4 +1,5 @@
 ---
+title: Staying in style
 translationKey: "staying-in-style"
 interests: "Staying in style"
 type: "by-interest"

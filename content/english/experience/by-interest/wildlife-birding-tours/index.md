@@ -1,4 +1,5 @@
 ---
+title: Wildlife/Birding tours
 translationKey: "wildlife-birding-tours"
 interests: "Wildlife/Birding tours"
 type: "by-interest"

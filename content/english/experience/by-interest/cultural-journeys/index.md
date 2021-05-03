@@ -1,4 +1,5 @@
 ---
+title: Cultural journeys
 translationKey: "cultural-journeys"
 interests: "Cultural journeys"
 type: "by-interest"

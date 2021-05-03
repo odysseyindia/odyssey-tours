@@ -1,4 +1,5 @@
 ---
+title: Signature trips
 translationKey: "signature-trips"
 interests: "Signature Trips"
 type: "by-interest"

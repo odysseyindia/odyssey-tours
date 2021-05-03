@@ -1,5 +1,6 @@
 ---
-translationKey: "family-holidays"
+title: Family holidays
+translationKey: family-holidays
 interests: "Family holidays"
 type: "by-interest"
 id: interest

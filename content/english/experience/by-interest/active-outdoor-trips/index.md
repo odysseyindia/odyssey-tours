@@ -1,4 +1,5 @@
 ---
+title: Active outdoor trips
 translationKey: "active-outdoor-trips"
 interests: ["Active/Outdoor trips"]
 type: "by-interest"
