@@ -29,13 +29,11 @@ itinerary:
           /destinations/india/states/delhi/cities/delhi/hotels/holiday-inn-aerocity/
         title: Holiday Inn (Aerocity)
         content: >-
-          For a comfortable stay before for after a long flight, the Holiday Inn
-          at Aerocity, close to Delhi’s International Airport, is ideal.
-
-
-          The rooms are large, modern, and, most important of all, quiet. There
-          is a swimming pool, a large restaurant with abundant buffets, a bar,
-          and a speciality Italian restaurant.
+          For a comfortable stay before or after a long flight, the Holiday Inn
+          at Aerocity, close to Delhi's International Airport, is ideal. The
+          rooms are large, modern, and, most important of all, quiet. There is a
+          swimming pool, a large restaurant with abundant buffets, a bar, and a
+          speciality Italian restaurant.
         checkInDate: ''
         checkInTime: ''
         checkOutDate: ''
@@ -48,13 +46,15 @@ itinerary:
         title: Jaipur
         content: >-
           Today, you drive to Jaipur, which takes about five hours along a good,
-          if busy, highway, with time to just relax afterwards. The capital of
-          the state of Rajasthan is one of the most interesting cities in India,
-          with exuberant 18th- and 19th-century palaces and exotic street life.
-          Just outside town is the impressive Amber Fort. It is worthwhile
-          spending time wandering through the bazaars. Jaipur is well known for
-          its beautiful carpets, enameled ornaments, precious and semi-precious
-          stones, brass ornaments and many other arts and crafts.
+          if busy, highway, with time to just relax afterwards.
+
+
+          The capital of the state of Rajasthan is one of the most interesting
+          cities in India, with exuberant 18th- and 19th-century palaces and
+          exotic street life. Just outside town is the impressive Amber Fort. It
+          is worthwhile spending time wandering through the bazaars. Jaipur is
+          well known for its beautiful carpets, enameled ornaments, precious and
+          semi-precious stones, brass ornaments and many other arts and crafts.
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/hotels/dera-rawatsar/
