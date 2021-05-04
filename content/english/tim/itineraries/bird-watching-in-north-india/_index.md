@@ -284,9 +284,7 @@ itinerary:
         checkInTime: ''
         checkOutDate: ''
         checkOutTime: ''
-        nights: ''
-  - day: 9
-    item:
+        nights: '2'
       - type: excursion
         url: >-
           /destinations/india/states/madhya-pradesh/cities/satpura/excursions/jeep-safari-in-satpura-national-park/
@@ -314,12 +312,14 @@ itinerary:
         date: ''
         etd: ''
         duration: ''
-  - day: 10
+  - day: 9
     item:
       - type: city
         url: /destinations/india/states/madhya-pradesh/cities/bhopal/
         title: Bhopal
         content: Today, you drive back to Bhopal, to connect with your onward flight.
+  - day: 10
+    item: []
 highlights:
   - Over two days of birding in the wetlands of Bharatpur's national park
   - >-
@@ -328,6 +328,7 @@ highlights:
   - >-
     Visiting the Taj Mahal in Agra Being awed by prehistoric cave paintings in
     Bhimbetka
-  - ''
+themes: []
+region: '0'
 ---
-India&rsquo;s varied terrain and large forest area make it a wonderful destination for birders, and in arid north and central India in particular, the smallest water body becomes a thriving avian metropolis. You start your tour with a multi-day stay at Bharatpur’s Keoladeo Ghana bird sanctuary, whose wetlands are home to vast numbers of aquatic birds. You then take a trip on the Chambal river near Agra, a fabulous place to spot a variety of ducks, skimmers, herons and raptors, as well as endangered gharial crocodiles, muggers, turtles and the very rare Gangetic dolphins. A cultural interlude takes you to the fabulous Taj Mahal and the wonderful cave art outside Bhopal, and then you end up at the little-known Satpura national park, a beautiful forest that can be explored by jeep, boat, cycle or even on foot. With close to 400 species of birds and plenty of time in each spot, this is sure to be a momentous birding journey.
+India’s varied terrain and large forest area make it a wonderful destination for birders, and in arid north and central India in particular, the smallest water body becomes a thriving avian metropolis. You start your tour with a multi-day stay at Bharatpur’s Keoladeo Ghana bird sanctuary, whose wetlands are home to vast numbers of aquatic birds. You then take a trip on the Chambal river near Agra, a fabulous place to spot a variety of ducks, skimmers, herons and raptors, as well as endangered gharial crocodiles, muggers, turtles and the very rare Gangetic dolphins. A cultural interlude takes you to the fabulous Taj Mahal and the wonderful cave art outside Bhopal, and then you end up at the little-known Satpura national park, a beautiful forest that can be explored by jeep, boat, cycle or even on foot. With close to 400 species of birds and plenty of time in each spot, this is sure to be a momentous birding journey.
