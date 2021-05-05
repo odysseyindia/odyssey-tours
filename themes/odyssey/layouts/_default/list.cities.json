@@ -1,0 +1,12 @@
+{{ define "response" }}
+{{- $cities := where .Data.Pages "Type" "cities" -}}
+{     
+    "file" : "list.cities.json",
+    "count" : "{{ len $cities }}",
+    "cities" : [
+    {{ range $i, $e := $cities }}
+      {{ if $i }}, {{ end }}{{ .Render "item"}}
+    {{ end }}
+    ]
+  }
+{{ end }}

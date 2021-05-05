@@ -86,21 +86,21 @@
                 {{ if eq (add $i 1) (len $.Params.itinerary)}} Departure{{ else }} {{ $nighthalt }}{{ end }}
               </button>
               <div class="panel">
+
                 {{- range $j, $element := $e.item -}}
 
-                  {{- if eq .type "hotel" }}
-                    <h3>You stay at 
+                    <div class="row">
+                      <div>
+                        {{ if eq .type "excursion"}}<i class="icon-camera"></i>{{- end }}
+                        {{ if eq .type "hotel"}}<i class="icon-bed"></i>{{- end }}
+                      </div>
+                      <div class="h3">
+                      {{ if eq .type "hotel"}}You stay at {{- end }}
                       {{- with ($.Site.GetPage (printf "%s%s" .url "index.md")) }}
                         {{.Title}}
                       {{- end }}
-                    </h3>
-                    {{- else }}
-                    <h3> 
-                      {{- with ($.Site.GetPage (printf "%s%s" .url "index.md")) }}
-                        {{.Title}}
-                      {{- end }}
-                    </h3>
-                  {{- end }}
+                      </div>
+                    </div>
 
                   <p>{{ .content }}</p>
 

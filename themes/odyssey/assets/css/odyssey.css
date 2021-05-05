@@ -186,6 +186,10 @@
   content: '\e822'; }
 
 /* '' */
+.icon-exchange:before {
+  content: '\e823'; }
+
+/* '' */
 .icon-monument:before {
   content: '\e827'; }
 
@@ -729,28 +733,48 @@ h2 > span {
   left: -50px;
   top: 25px; }
 
-.icon-camera {
-  content: '\e800'; }
+.icon-city {
+  background-color: #dbacdf;
+  /* monument */ }
+  .icon-city:before {
+    content: '\e827'; }
+
+.icon-excursion {
+  color: #90ee90;
+  background-color: #90ee90;
+  /* camera */ }
+  .icon-excursion:before {
+    content: '\e80f'; }
+
+.icon-hotel {
+  background-color: #ffa500;
+  /* bed */ }
+  .icon-hotel:before {
+    content: '\f236'; }
+
+.icon-transfer {
+  background-color: #c1d9b0;
+  /*exchange */ }
+  .icon-transfer:before {
+    content: '\e823'; }
 
 .icon-flight {
-  border-color: #ca5;
-  color: #ca5; }
-
-.icon-cab {
-  border-color: #c09eda;
-  color: #c09eda; }
-
-.icon-bed {
-  border-color: #fea700;
-  color: #fea700; }
+  background-color: #00a1e4;
+  /* flight */ }
+  .icon-flight:before {
+    content: '\e818'; }
 
 .icon-train {
-  border-color: #f49ac1;
-  color: #f49ac1; }
+  background-color: #cd5c5c;
+  /* train */ }
+  .icon-train:before {
+    content: '\f238'; }
 
-.icon-monument {
-  border-color: #dbacdf;
-  background-color: #dbacdf; }
+.icon-city, .icon-excursion, .icon-hotel, .icon-transfer, .icon-flight, .icon-train {
+  border-radius: 50%;
+  padding: 5px;
+  color: black;
+  margin-right: 10px; }
 
 .icon-home {
   color: #63582C; }

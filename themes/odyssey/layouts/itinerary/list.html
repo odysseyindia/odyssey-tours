@@ -136,12 +136,12 @@
           <div>
             {{- $url :=  printf "%s%s" $v.url "index.md" }}
             {{- if (eq $v.type "city") }}
-            <i class="icon-monument"></i>
+            <i class="icon-city"></i>
             {{- $url =  printf "%s%s" $v.url "_index.md" }}
             {{- else if (eq $v.type "excursion") }}
-            <i class="icon-camera"></i>
+            <i class="icon-excursion"></i>
             {{- else if (eq $v.type "hotel") }}
-            <i class="icon-bed"></i>
+            <i class="icon-hotel"></i>
             {{- else if (eq $v.type "flight") }}
             <i class="icon-flight"></i>
             {{- else if (eq $v.type "ferry") }}
@@ -312,7 +312,7 @@
             {{ end }}
           </select>
            <a href="#0" class="button"  onclick="addCity()">
-          <i class="select icon icon-monument"></i>
+          <i class="select icon icon-city"></i>
         </a>
         </div>
       </div>
@@ -323,7 +323,7 @@
           <select class="maxwidth" id="hotels" name="hotels">
           </select>
           <a href="#0" class="button" onclick="addHotel()">
-            <i class="select icon icon-bed" ></i>
+            <i class="select icon icon-hotel" ></i>
           </a>
         </div>
       </div>
@@ -334,7 +334,7 @@
           <select class="maxwidth" id="excursions" name="excursions">
           </select>
           <a href="#0" class="button"  onclick="addExcursion()">
-          <i class="select icon icon-camera"></i>
+          <i class="select icon icon-excursion"></i>
         </a>
         </div>
       </div>
@@ -1060,15 +1060,16 @@ function displayExcursions(city){
       var   sel   = '<option value="">Select an excursion</option>';
 
       if (items.length > 0) {
-        for(let i=0;i<items.length;i++) {
-          sel += "<option value='"+items[i].permalink+"'>"+items[i].title+"</option>"
+        for(let i=0;i<items.length;i++) {       
+          // if (items[i].transfer != 'true'){
+          var option = '{"url":"'+items[i].permalink+'","transfer":'+items[i].transfer+'}';
+          sel += "<option value='"+option+"'>"+items[i].title+"</option>"
+          document.getElementById("selectExcursions").style.visibility = "visible"; 
+          document.getElementById("excursions").innerHTML = sel;
         }
-
-        document.getElementById("selectExcursions").style.visibility = "visible"; 
-        document.getElementById("excursions").innerHTML = sel;
       } else {
         document.getElementById("selectExcursions").style.visibility = "hidden";
-      }
+      };
     }, 
 
     function(Error) {
@@ -1191,9 +1192,9 @@ function displayTrains(city){
     );
 };
 
-function addToWorkspace(type,icon,url,text){
+function addToWorkspace(type,url,text){
   let ws     = document.getElementById('toggleWorkspace');
-  const html = '<div class="draggable" draggable="true" type ="'+type+'" url="' + url + '"><i class="icon-'+icon+'"></i>&nbsp;' + text+'</div>';
+  const html = '<div class="draggable" draggable="true" type ="'+type+'" url="' + url + '"><i class="icon-'+type+'"></i>&nbsp;' + text+'</div>';
 
   if (i) {
     if (ws.className.includes("showWorkspace") === true){
@@ -1214,7 +1215,7 @@ function addCity(){
   const url    = source[i].value ;
   const text   = source[i].innerHTML;
   
-  addToWorkspace('city','monument',url,text);
+  addToWorkspace('city',url,text);
 };
 
 function addHotel(){
@@ -1225,7 +1226,7 @@ function addHotel(){
   const url    = source[i].value ;
   const text   = source[i].innerHTML;
  
-  addToWorkspace('hotel','bed',url,text);
+  addToWorkspace('hotel',url,text);
 };
 
 function addExcursion(){
@@ -1233,10 +1234,16 @@ function addExcursion(){
   const source    = document.querySelector("#excursions");
   const ws        = document.getElementById('toggleWorkspace');
   const i         = source.selectedIndex;
-  const url       = source[i].value ;
+  const value     = JSON.parse(source[i].value );
+  const url       = value.url;
+  const transfer  = value.transfer;
   const text      = source[i].innerHTML;
 
-  addToWorkspace('excursion','camera',url,text);
+  if (transfer == true){
+    addToWorkspace('transfer',url,text);
+  } else {
+    addToWorkspace('excursion',url,text);
+  };
 };
 
 function addCar(){
@@ -1246,7 +1253,7 @@ function addCar(){
   const url       = source[i].value ;
   const text      = source[i].innerHTML;
 
-  addToWorkspace('car','cab',url,text);
+  addToWorkspace('car',url,text);
 };
 
 function addFlight(){
@@ -1256,7 +1263,7 @@ function addFlight(){
   const url       = source[i].value ;
   const text      = source[i].innerHTML;
 
-  addToWorkspace('flight','flight',url,text);
+  addToWorkspace('flight',url,text);
 };
 
 function addTrain(){
@@ -1266,7 +1273,7 @@ function addTrain(){
   const url       = source[i].value ;
   const train     = source[i].innerHTML;
 
-  addToWorkspace('train','train',url,city);
+  addToWorkspace('train',url,city);
 };
 
 function emptyTrash(){
@@ -1421,13 +1428,13 @@ function editItem(day,index,url,obj){
   var count = (url.match(/\//g) || []).length;
 
   if (count == 7 ){
-    icon  = "monument";
+    icon  = "city";
     modal = document.getElementById("modal-city");
   } else if (url.includes("hotels")){
-    icon  = "bed";
+    icon  = "hotel";
     modal = document.getElementById("modal-accommodation");
   } else if (url.includes("excursions")){
-    icon  = "camera";
+    icon  = "excursion";
     modal = document.getElementById("modal-excursions");
   } else if (url.includes("airports")){
     icon  = "flight";

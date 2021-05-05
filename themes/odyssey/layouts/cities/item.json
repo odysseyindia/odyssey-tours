@@ -1,0 +1,16 @@
+{
+      "this": "item.json.son",
+      "title": "{{ .Title }}",
+      "date": "{{ .Date }}",
+      "permalink": "{{ .RelPermalink }}",
+      "content": "{{ replace (trim (.Content | plainify ) "\n") "\n" "linebreak" }}",
+      "draft": "{{ .Params.draft }}",
+      "id": "{{ .Params.id }}",
+      "translationKey": "{{ .Params.translationKey }}",
+      "category": {{ with .Params.category }}  "{{ . }}"{{ else }} "" {{ end }}
+      {{- range $i,$e := (.Resources.ByType "image") }} 
+      {{- if eq $i 0 }}
+      ,"image": "{{ . }}"
+      {{- end }}
+      {{- end }} 
+    }
