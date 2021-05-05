@@ -407,6 +407,12 @@
       "css": "exchange",
       "code": 59427,
       "src": "iconic"
+    },
+    {
+      "uid": "0d08dbb1dd648a43bdea81b7e6c9e036",
+      "css": "location",
+      "code": 59428,
+      "src": "fontawesome"
     }
   ]
 }
