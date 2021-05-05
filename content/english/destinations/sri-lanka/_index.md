@@ -1,5 +1,6 @@
 ---
-title: Nepal
+title: Sri Lanka
 type: destination
+translationKey: sri-lanka
 ---
-Mention Nepal and one thinks of...
+Mention Sri Lanka and one thinks of...

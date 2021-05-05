@@ -491,6 +491,26 @@ app.post('/ajax',function (req, res) {
     fs.writeFile(file, output, function(err) {
       if(err) return console.error(err);
       console.log('Successfully wrote to the file!');
+      
+      /*
+      if (data[0].region.length > 0){
+        data[0].type = "tour";
+        output = `---\n` + yaml.dump(data[0]) + "---\n" + intro; 
+
+        file   = dir + data[0].region+request.file + '_index.md';
+  
+        mkdirp(getDirName(file)).then(made => {
+          if (made == undefined){
+            console.log('File exist already');  
+          } else {
+            console.log('Created a directory for ',file);
+            fs.writeFile(file, output, 'utf8', (err) => {       
+            if (err) throw err; 
+          };
+        };
+      };
+      */
+      
     });
   } 
   catch (error) {

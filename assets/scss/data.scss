@@ -1,0 +1,46 @@
+#data {
+	
+	.data{
+		background-color: lightblue;
+	}
+
+
+	.table {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		width: 100%;
+		flex-wrap: wrap;
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.item-1 {
+		width: 30%;
+	}
+	.item-2 {
+		width: 67%;
+	}
+	.item-3 {
+		width: 3%;
+	}
+
+	.booking:focus {
+		background-color: orange;
+		border: solid 1px;
+	}
+
+	.odd {
+		background-color: #b8d1f3;
+	}
+	
+	.even {
+		background-color: #dae5f4;
+	}
+
+	.hidden {
+		visibility: hidden;
+	}
+}

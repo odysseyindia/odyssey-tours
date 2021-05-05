@@ -1,0 +1,172 @@
+{{ define "main" }}
+{{ .Scratch.Set "layout" "layouts/data/states/single.html" -}}
+
+<section id="{{ .Scratch.Get "id" | lower }}"> 
+  {{ partial "heading.html" . }}
+  <div class="container">
+    <div class="row">
+      <div class="mx-auto w-50 p-1">
+
+      </div>
+    </div>
+    <div class="data">
+
+      <div class="table even">
+        <div class="item-1">
+          <option value="0">Select a state</option>
+        </div>
+        <div class="item-2">
+          <select name="destination" id="field">
+           {{- range ( where ( where $.Site.Pages "Section" "destinations") ".Params.type" "state" ) }}     
+           <option value="{{ .RelPermalink }}">{{ .Title }}</option>
+           {{- end }}
+         </select> 
+       </div>
+     </div>
+
+     <div class="table">
+      <div class="item-1"><b>Field</b></div>
+      <div class="item-2"><b>Data</b></div>
+    </div>
+    
+    <div class="table even">
+      <div class="item-1">
+        Title 
+      </div>
+      <div id="pTitle" class="item-2"></div>
+    </div>
+
+    <div class="table odd">
+      <div class="item-1">
+        Draft 
+      </div>
+      <div class="item-2">
+        <div class="form-check">
+          <input id="pDraft" class="custom-control-input" type="checkbox" {{ with .Params.draft }}{{ if eq .Params.draft true}}checked {{ end }}{{ end }} value="">
+        </div>
+      </div>
+    </div>
+
+    <div class="table even">
+      <div class="item-1">
+        Content 
+      </div>
+      <div id="pContent" class="item-2"></div>
+    </div>
+
+  </div>
+  <button class="save btn btn-success" id="save">
+    <i class="icon-floppy"></i>
+    Save
+  </button>
+</div>
+</section>
+{{- end }}
+{{- define "postscript" }}
+
+<script>
+
+  var   host   = window.location.href.split("/");
+  var   host   = host[0] + "//" + host[2];
+
+
+  document.getElementById("field").addEventListener("change", (event) => {
+    changeOption();
+  });
+
+
+  function changeOption(){
+    const source = document.querySelector("#field");
+    if ( typeof source[source.selectedIndex] !== 'undefined'){
+      var option = source[source.selectedIndex].value;
+      displayData(option);
+    }
+  };
+
+  function displayData(urldata){
+
+    //const uri  = urldata.split("/")[(urldata.split("/")).length-2];
+    const path = host+"/destinations/india/states/index.json";
+
+    docLoad({url: path}).then(
+
+      function(response) {
+
+        const parsedData = JSON.parse(response);
+        const data       = parsedData.data.items;
+
+        for (var i = 0; i<data.length; i++) { 
+          if (data[i].permalink == urldata){
+            document.getElementById("pTitle").innerText   = data[i].title;
+            document.getElementById("pDraft").value       = data[i].draft;
+            document.getElementById("pContent").innerText = data[i].content;
+          };
+        };
+      }, 
+
+      function(Error) {
+        console.log(Error);
+      }
+    );
+  };
+
+  document.getElementById("save").addEventListener("click", function(){
+
+    const source      = document.querySelector("#field")
+    const permalink   = source[source.selectedIndex].value ;
+
+    var data          = [];
+        data.title    = document.getElementById("pTitle").innerText;
+        data.draft    = document.getElementById("pDraft").value;
+    var content       = document.getElementById("pContent").innerText;
+
+    docLoad({
+      url:    'masterdata', 
+      method: 'POST',
+      data:   JSON.stringify({ 
+        "file"   : {{ .RelPermalink }}, 
+        "data"   : data,
+        "content": content
+      }) 
+    })
+    .then(
+
+      function(response){ 
+        console.log( statusText ); 
+      }, 
+
+      function(Error){ 
+        console.log( Error ); 
+      }
+    );
+});
+
+
+function docLoad(object) {
+
+    return new Promise(function(resolve, reject) {
+
+      var host = ((object.method == 'POST')? {{ .Site.Params.appHost }} : "") + object.url;
+
+      var request = new XMLHttpRequest();
+      request.open(object.method || "GET", host);
+      request.setRequestHeader("Content-Type", "application/json");
+
+      request.onload = function() {
+        if (request.status === 200) {
+          resolve(request.response);
+        } else {
+          reject(Error('Document requested did not load successfully; error code:' + request.statusText));
+        }
+      };
+
+      request.onerror = function() {
+        reject(Error('There was a network error.'));
+      };
+      request.send(JSON.stringify(object));
+    });
+  }
+
+</script>
+
+{{- end }}
