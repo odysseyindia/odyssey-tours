@@ -238,7 +238,7 @@
                   <div>ETD: </div> 
                   <div class="details" attr="checkOutTime" value="{{ $v.checkOutTime }}">{{ with $v.checkOutTime }} {{ dateFormat  "15:04" . }} {{ end }}</div>
                   <div>Nights: </div> 
-                  <div class="details" attr="nights" value="{{ $v.nights }}">{{ with $v.nights }} {{ . }} {{ end }}</div>
+                  <div class="details" attr="nights" value="{{ $v.nights }}">{{ $v.nights }}</div>
                 </div>
                 {{- else if (eq $v.type "flight") }}
                 <div class="rowdetails {{ with $v.date }}show{{ end }}">
@@ -418,7 +418,7 @@
       <div class="row buttons">
         <div>
           <button class="default default-modal-btn">
-            <i class="icon-trash"></i>
+            <i class="icon-trash"></i> 
             Default
           </button>
         </div>
@@ -1418,6 +1418,8 @@ function editItem(day,index,url,obj){
   var icon;
 
   /* 
+  // Do close modal when clicking outside the modal range 
+
   window.onclick = function(event) {
     if (event.target == modal) {
       modal.style.display = "none";
@@ -1460,17 +1462,18 @@ function editItem(day,index,url,obj){
     defaultBtn.style.display = "none"
   }
 
- let modalURL = modal.getElementsByClassName('modal-url');
-    let displayURL = url.split("/");
-    modalURL[0].innerText = displayURL[displayURL.length-2];
-
-  let content      = obj.getElementsByClassName('content-details');
-  let title        = obj.getElementsByClassName('title');
+  let modalURL      = modal.getElementsByClassName('modal-url');
+  let displayURL    = url.split("/");
   
-  let inputs       = modal.getElementsByClassName('input');
-  let modalContent = modal.getElementsByClassName('content');
-  let rows         = modal.getElementsByClassName('row');
-  let modalTitle   = modal.getElementsByClassName('modal-title');
+  modalURL[0].innerText = displayURL[displayURL.length-2];
+
+  let content       = obj.getElementsByClassName('content-details');
+  let title         = obj.getElementsByClassName('title');
+  
+  let inputs        = modal.getElementsByClassName('input');
+  let modalContent  = modal.getElementsByClassName('content');
+  let rows          = modal.getElementsByClassName('row');
+  let modalTitle    = modal.getElementsByClassName('modal-title');
   
   modalTitle[0].value = title[0].innerText;
 
