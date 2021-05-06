@@ -10,8 +10,10 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-international-airport-to-hotel/
-        title: Transfer from International airport to hotel
-        content: Transfer from International airport to hotel
+        title: Transfer from Delhi's international airport to your hotel
+        content: >-
+          Today, you start your tour on arrival in Delhi, where you will be met
+          by our representative and transferred to your hotel.
         date: ''
         etd: ''
         duration: ''
@@ -31,12 +33,12 @@ itinerary:
         url: /destinations/india/states/delhi/cities/delhi/hotels/colonels-retreat/
         title: Colonel's Retreat
         content: >-
-          Colonel’s Retreat is a very pleasant and homely guest house in the
-          upmarket, tree-lined neighborhood of Defence Colony. The large rooms
-          are comfortable and artistically furnished. Each floor boasts a lovely
-          lounge area with comfortable sofas for relaxing, books to read and
-          borrow, and computers. A private rooftop dining area gives you a
-          lovely view of the city.
+          Colonel’s Retreat is a very pleasant and homely guest house in an
+          upmarket, tree-lined neighborhood. The large rooms are comfortable and
+          artistically furnished. Each floor boasts a lovely lounge area with
+          comfortable sofas for relaxing, books to read and borrow, and
+          computers. A private rooftop dining area gives you a lovely view of
+          the city.
         checkInDate: ''
         checkInTime: ''
         checkOutDate: ''
@@ -47,7 +49,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/half-day-tour-of-old-delhi-by-metro-and-rickshaw/
-        title: Half day tour of Old Delhi by metro & rickshaw
+        title: Morning guided tour of Old Delhi by Metro & rickshaw
         content: >-
           A half-day tour to Old Delhi using the modern Metro and the
           traditional cycle rickshaw. The Metro brings you to the heart of Old
@@ -85,12 +87,12 @@ itinerary:
           if busy, highway, with time to just relax afterwards.
 
 
-          Jaipur is one of the most interesting cities in India, with exuberant
-          18th- and 19th-century palaces and exotic street life. Just outside
-          town is the impressive Amber Fort. It is worthwhile spending time
-          wandering through the bazaars. Jaipur is well known for its beautiful
-          carpets, enameled ornaments, precious and semi-precious stones, brass
-          ornaments and many other arts and crafts.
+          The capital of the state of Rajasthan is one of the most interesting
+          cities in India, with exuberant 18th- and 19th-century palaces and
+          exotic street life. Just outside town is the impressive Amber Fort. It
+          is worthwhile spending time wandering through the bazaars. Jaipur is
+          well known for its beautiful carpets, enameled ornaments, precious and
+          semi-precious stones, brass ornaments and many other arts and crafts.
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/hotels/dera-rawatsar/
@@ -113,22 +115,22 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/excursions/early-morning-cycle-tour-of-jaipur/
-        title: Early morning cycle tour of Jaipur
+        title: Early morning cycle tour of Jaipur's Pink City
         content: >-
-          In the early morning, you join a small group of like-minded travellers
-          for a unique journey by bicycle into the streets of the old city. You
-          experience the true Jaipur, as you cycle through the narrow alleys to
-          get a peek into homes, kitchens and workshops. You learn about the
-          lives of the locals and the history of the city, and visit the
-          colourful and bustling vegetable and flower markets. You also enjoy a
-          traditional Rajasthani breakfast in a local house.
+          In the early morning, you join a small group for a unique journey by
+          bicycle into the streets of the old city. You will experience the true
+          Jaipur as you cycle through the narrow alleys to get a peek into
+          homes, kitchens and workshops. You learn about the lives of the locals
+          and the history of the city, and visit the colourful and bustling
+          vegetable and flower markets. You will also enjoy a traditional
+          Rajasthani breakfast in a local house.
         date: ''
         etd: ''
         duration: ''
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/excursions/half-day-excursion-to-amber-fort/
-        title: Half day excursion to Amber Fort
+        title: Morning guided excursion to Amber Fort
         content: >-
           You will meet your guide directly after the cycling tour, who will
           accompany you to Amber Fort, just to the north of Jaipur. There is a
@@ -182,14 +184,16 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/uttar-pradesh/cities/agra/excursions/early-morning-visit-to-the-taj-mahal-without-guide/
-        title: Early morning visit to the Taj Mahal (without guide)
+        title: Early morning visit on your own to the Taj Mahal
         content: >-
           The best time of day to appreciate this stunning monument is as soon
           as the Taj Mahal opens, when it is at its quietest and most serene.
           You can enjoy the gardens, the mausoleum and the mosque, without
           needing a professional guide. Don’t miss the marble inlay work and the
-          various vantage points offered throughout the peaceful gardens. Once
-          you have taken it all in, you can return to your hotel for a late
+          various vantage points offered throughout the peaceful gardens.
+
+
+          Once you have taken it all in, you can return to your hotel for a late
           breakfast.
         date: ''
         etd: ''
@@ -197,15 +201,14 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/uttar-pradesh/cities/agra/excursions/half-day-city-tour-of-agra/
-        title: Half day city tour of Agra
+        title: Afternoon guided tour of Agra's other monuments
         content: >-
-          The Taj Mahal is one of the most fascinating and beautiful monuments
-          in the world. About 20,000 workers were employed in its construction,
-          which took some 20 years. Agra’s Red Fort, built in the form of a half
-          moon on the Yamuna river, is a masterpiece of design. The fort’s
-          colossal walls are encircled by a moat and contain a maze of
-          buildings, that form a small city within a city. You visit both on a
-          half-day guided tour.
+          Agra has much to offer besides the Taj Mahal, such as Agra Fort, a
+          masterpiece of design and construction. You then visit
+          Itimad-ud-Daulah’s tomb - better known as the Baby Taj, which also
+          features the same marble inlay work as the Taj Mahal. Finally you will
+          visit Mehtab Bagh, a formally laid-out Mughal garden that offers
+          stupendous views of the Taj Mahal, especially in the late afternoon.
         date: ''
         etd: ''
         duration: ''
@@ -224,16 +227,19 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/madhya-pradesh/cities/orchha/excursions/half-day-tour-of-orchha/
-        title: Half day tour of Orchha
+        title: Afternoon guided tour of Orchha
         content: >-
-          The huge monuments of the Bundela kings surround, and dwarf, the small
-          village of Orchha. The largest is the Palace complex, where the Raj
+          The huge monuments of the Bundela kings surround and dwarf the small
+          village of Orchha. The largest is the palace complex, where the Raj
           Mahal and Jehangir Mahal boast a unique combination of Hindu & Muslim
-          architecture, with painted decorations and tile work. The Laxmi Temple
-          has more modern artwork. The vast, cathedral-like Chaturbhuj temple
-          and the active Ram Raja Temple in the colourful market area are
-          popular with local worshippers, and the grand cenotaphs overlook the
-          Betwa River, which is used by the locals for bathing.
+          architecture, with painted decorations and tile-work.
+
+
+          The Laxmi Temple has more modern artwork and beautiful murals. The
+          vast, cathedral-like Chaturbhuj temple and the active Ram Raja Temple
+          in the colourful market area are popular with local worshippers, and
+          the grand cenotaphs overlook the Betwa River, which is used by the
+          locals for bathing.
         date: ''
         etd: ''
         duration: ''
@@ -259,13 +265,12 @@ itinerary:
         url: /destinations/india/states/madhya-pradesh/cities/khajuraho/
         title: Khajuraho
         content: >-
-          Khajuraho, a tiny village in the state of Madhya Pradesh, is
-          world-renowned for the intricately-carved temples - for which there is
-          probably no equivalent in the world - where sculptures celebrate the
-          joy of life and love. Stone figures of celestial maidens appear on
-          every temple. In between are erotic figures running through a whole
-          Kamasutra of positions and possibilities whereby little is left to
-          imagination.
+          Today, you drive through the central Indian countryside for about four
+          hours to Khajuraho, world-renowned for its intricately-carved temples.
+          The temples are best known for their erotic sculptures, running
+          through a whole Kamasutra of positions and possibilities that leave
+          little to the imagination, but in fact, most of the carvings are of
+          celestial figures, delicate and graceful, and well worth the visit.
       - type: hotel
         url: >-
           /destinations/india/states/madhya-pradesh/cities/khajuraho/hotels/ramada-khajuraho/
@@ -274,7 +279,7 @@ itinerary:
           The Ramada has pleasant interiors of cool white-marble elegance with
           chandeliers in the lobby, curving white staircases, and well-chosen
           Indian antiques throughout. The modern rooms are decorated in soft
-          cream shades and rich fabrics and have large bay windows, with views
+          cream shades and rich fabrics, and have large bay windows, with views
           of either the central swimming pool, or the garden that surrounds the
           property, making this a peaceful place to relax.
         checkInDate: ''
@@ -287,7 +292,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/madhya-pradesh/cities/khajuraho/excursions/half-day-tour-of-khajuraho-temples/
-        title: Half day tour of Khajuraho temples
+        title: Morning guided tour of Khajuraho's temples
         content: >-
           Of the original eighty five temples, twenty five remain today, with
           the largest and best preserved, the main Western Group of Temples, in
@@ -310,7 +315,7 @@ itinerary:
         title: Varanasi
         content: >-
           A short flight takes you to Varanasi, one of the most important places
-          for Hindus: it’s believed that anyone who dies here will be liberated
+          for Hindus: it's believed that anyone who dies here will be liberated
           from the cycle of reincarnation, and bathing in the Ganges River is
           said to cleanse away all sins. The fascinating thing is that the
           rituals are conducted openly along the many riverside ghats, which are
@@ -319,7 +324,7 @@ itinerary:
           it is certainly one of the most memorable places you will ever visit.
 
 
-          Varanasi’s riverside ghats are fabulous for exploring on your own -
+          Varanasi's riverside ghats are fabulous for exploring on your own -
           the rest of the day is free for you to walk around and absorb the
           unique atmosphere.
       - type: hotel
@@ -346,17 +351,27 @@ itinerary:
           /destinations/india/states/uttar-pradesh/cities/varanasi/excursions/early-morning-ganges-aarti-boat-ride-and-walking-tour/
         title: Early morning Ganges aarti, boat ride and walking tour
         content: >-
-          Of the original eighty five temples, twenty five remain today, with
-          the largest and best preserved, the main Western Group of Temples, in
-          a well-tended garden. The sculptures are sublime and sensuous at the
-          same time. They adorn the temple walls, depicting themes of celestial
-          nymphs, ascetics in penance, hunting and war scenes, group dances and
-          royal processions. It is also worth visiting the smaller Eastern Group
-          of Temples, also known as the Jain Temples, which, whilst much
-          smaller, boast some of the most refined stone carving.
+          Your guide meets you at the hotel before sunrise, so you can watch the
+          amazing Subah-e-Benares spectacle, which takes place on Varanasi's
+          waterfront every morning. The principal attraction of Varanasi is the
+          long string of bathing ghats by the river, where pilgrims make their
+          sin-cleansing dip in the holy river and on which bodies are cremated.
+          A boat ride on the Ganges at dawn, when it is full of pilgrims, is an
+          amazing experience, and your guide can explain the various rituals
+          taking place.
 
 
-          The afternoon is at leisure to explore this quiet town on your own.
+          Leaving the boat after passing the most important ghats, you then
+          continue on foot for a fascinating exploration of the narrow lanes of
+          the Bengali Tola area, one of the oldest continuously-inhabited places
+          on earth, passing countless small temples, shrines, and traditional
+          shops. Your guide will provide a unique insight into this most
+          fascinating of cities. At the end of the walk, you return to the hotel
+          for breakfast.
+
+
+          The remainder of the day is at leisure to further explore Varanasi on
+          your own.
         date: ''
         etd: ''
         duration: ''
@@ -365,7 +380,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/uttar-pradesh/cities/varanasi/excursions/transfer-from-hotel-to-airport/
-        title: Transfer from hotel to airport
+        title: Transfer from your hotel to the airport
         content: >-
           Today, you have a departure transfer to the airport, to board your
           onward flight.
@@ -378,6 +393,9 @@ highlights:
   - Huge forts, cenotaphs and temples in Orchha
   - Beautiful (not just erotic) carvings in Khajuraho
   - The holy city of Varanasi on the banks of the Ganges
-  - ''
+themes:
+  - Classic tours
+  - Cultural journeys
+region: '0'
 ---
 A classic adventure in northern India. The journey includes the palaces of Jaipur, the immortal beauty of the Taj Mahal, the medieval temple town of Orchha, the erotic statues of Khajuraho and sunrise over the sacred Ganges. A boat ride on the Ganges at dawn, when it is full of pilgrims making their sin-cleansing dip in the holy river, is an amazing experience.

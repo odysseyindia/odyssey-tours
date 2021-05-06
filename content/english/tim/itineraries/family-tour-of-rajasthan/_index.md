@@ -11,7 +11,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-international-airport-to-hotel/
-        title: Transfer from International airport to hotel
+        title: Transfer from the international airport to your hotel
         content: >-
           Today, you start your tour on arrival in Delhi, where you will be met
           by our representative and transferred to your airport hotel,
@@ -24,7 +24,7 @@ itinerary:
           /destinations/india/states/delhi/cities/delhi/hotels/holiday-inn-aerocity/
         title: Holiday Inn (Aerocity)
         content: >-
-          For a comfortable stay before for after a long flight, the Holiday Inn
+          For a comfortable stay before or after a long flight, the Holiday Inn
           at Aerocity, close to Delhi’s International Airport, is ideal. The
           rooms are large, modern, and, most important of all, quiet. There is a
           swimming pool, a large restaurant with abundant buffets, a bar, and a
@@ -40,13 +40,16 @@ itinerary:
         url: /destinations/india/states/rajasthan/cities/udaipur/
         title: Udaipur
         content: >-
-          A two-hour flight takes you to lovely Udaipur. Set around the vast
-          Pichola Lake and dominated by dramatic palaces, Udaipur is surely
-          Rajasthan’s most picturesque city. High whitewashed houses and narrow,
-          winding alleys lend it an almost medieval charm. The huge City Palace,
-          still the residence of the Maharana, is carved out of yellow sandstone
-          and stands on the banks of Lake Pichola, from where you have fabulous
-          views over the lake and the famous Lake Palace Hotel.
+          A two-hour flight takes you to lovely Udaipur.
+
+
+          Set around the vast Pichola Lake and dominated by dramatic palaces,
+          Udaipur is surely Rajasthan’s most picturesque city. High whitewashed
+          houses and narrow, winding alleys lend it an almost medieval charm.
+          The huge City Palace, still the residence of the Maharana, is carved
+          out of yellow sandstone and stands on the banks of Lake Pichola, from
+          where you have fabulous views over the lake and the famous Lake Palace
+          Hotel.
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/udaipur/hotels/mahendra-prakash/
@@ -55,9 +58,12 @@ itinerary:
           Mahendra Prakash is a haveli-style hotel in a quiet location on a
           shaded avenue near the Rose Garden, with the main city sights still in
           close proximity. It is a wonderful oasis in the busy city of Udaipur.
-          The rooms are tastefully furnished in traditional style. After a long
-          day of sightseeing, you can relax by the pool in the garden with a few
-          tortoises for company. There is a good restaurant by the pool too.
+          The rooms are tastefully furnished in traditional style.
+
+
+          After a day of sightseeing, you can relax by the pool in the garden
+          with a few tortoises for company. There is a good restaurant by the
+          pool too.
         checkInDate: ''
         checkInTime: ''
         checkOutDate: ''
@@ -68,9 +74,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/udaipur/excursions/morning-city-tour-of-udaipur-followed-by-a-boat-trip-on-lake-pichola-by-shared-boat/
-        title: >-
-          Morning city tour of Udaipur followed by a boat trip on Lake Pichola
-          (by shared boat)
+        title: Morning guided tour of Udaipur followed by a boat trip on Lake Pichola
         content: >-
           The highlight of this guided city tour is a visit to the City Palace,
           now largely preserved as a museum with a large and varied collection
@@ -131,7 +135,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/deogarh/excursions/morning-train-excursion-with-jeep-transfers/
-        title: Morning train excursion with jeep transfers
+        title: Morning local train excursion through the hills
         content: >-
           This little passenger train, built in the 1930s, goes at a gentle pace
           through the most beautiful forest and hills in Rajasthan, a rugged,
@@ -152,9 +156,8 @@ itinerary:
         url: /destinations/india/states/rajasthan/cities/jaipur/
         title: Jaipur
         content: >-
-          After breakfast, drive to Jaipur (275kms, 05:00hrs). Stay in Alsisar
-          Haveli. A fairly long but not unpleasant drive (five hours) gets you
-          to Jaipur, one of the most interesting cities in India, with exuberant
+          A fairly long but not unpleasant drive (five hours) gets you to
+          Jaipur, one of the most interesting cities in India, with exuberant
           18th- and 19th-century palaces and exotic street life. Just outside
           town is the impressive Amber Fort. It is worthwhile spending time
           wandering through the bazaars. Jaipur is well known for its beautiful
@@ -182,31 +185,36 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/excursions/early-morning-cycle-tour-of-jaipur/
-        title: Early morning cycle tour of Jaipur
+        title: Early morning cycle tour of Jaipur's Pink City
         content: >-
-          In the early morning, you join a small group of like-minded travellers
-          for a unique journey by bicycle into the streets of the old city. You
-          experience the true Jaipur, as you cycle through the narrow alleys to
-          get a peek into homes, kitchens and workshops. You learn about the
-          lives of the locals and the history of the city, and visit the
-          colourful and bustling vegetable and flower markets. You also enjoy a
-          traditional Rajasthani breakfast in a local house.
+          In the early morning, you join a small group for a unique journey by
+          bicycle into the streets of the old city. You will experience the true
+          Jaipur as you cycle through the narrow alleys to get a peek into
+          homes, kitchens and workshops.
+
+
+          You learn about the lives of the locals and the history of the city,
+          and visit the colourful and bustling vegetable and flower markets. You
+          will also enjoy a traditional Rajasthani breakfast in a local house.
         date: ''
         etd: ''
         duration: ''
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/excursions/half-day-excursion-to-amber-fort/
-        title: Half day excursion to Amber Fort
+        title: Morning guided tour of Amber Fort
         content: >-
           We wouldn’t normally recommend too much sightseeing with kids, but
-          Amber Fort is special. You will meet your guide directly after the
-          cycling tour, who will accompany you to the fort, just to the north of
-          Jaipur. There is a short, steep walk up to the entrance courtyard,
-          which leads to a magnificent complex of palaces, halls, pavilions,
-          gardens and temples built over 125 years. There are excellent views
-          down over the old town of Amer, and up to the Jaigarh and Nahargarh
-          Forts higher in the hills.
+          Amber Fort is special.
+
+
+          You will meet your guide directly after the cycling tour, who will
+          accompany you to the fort, just to the north of Jaipur. There is a
+          short, steep walk up to the entrance courtyard, which leads to a
+          magnificent complex of palaces, halls, pavilions, gardens and temples
+          built over 125 years. There are excellent views down over the old town
+          of Amer, and up to the Jaigarh and Nahargarh Forts higher in the
+          hills.
 
 
           The rest of your day is at leisure to explore Jaipur’s lovely markets
@@ -220,23 +228,24 @@ itinerary:
         url: /destinations/india/states/rajasthan/cities/sawai-madhopur/
         title: Sawai Madhopur
         content: >-
-          The busy, dusty town of Sawai Madhopur is the base for visiting the
-          beautiful Ranthambhore National Park, with various accommodation
-          options along the road between the town and park entrance. The
-          landscape is more open than in many other parks, making tiger
+          The busy, dusty town of Sawai Madhopur does not seem at first like
+          fair reward for your four-hour drive from Jaipur, but it is the base
+          for visiting beautiful Ranthambhore National Park. The landscape in
+          Ranthambhore is more open than in many other parks, making tiger
           sightings more frequent. Other wildlife includes sambhar, nilgai,
-          sloth bear, jackal, crocodile, much bird life, and even some leopards.
+          sloth bear, jackal, crocodile, lots of bird life, and even some
+          leopards.
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/sawai-madhopur/excursions/visit-of-ranthambhore-fort/
-        title: Visit of Ranthambhore Fort
+        title: Afternoon guided visit to Ranthambhore Fort
         content: >-
           This is a 1,000-year-old fort at the periphery of the National Park,
           with a spectacular combination of Rajput and Mughal architecture. From
           the parking area at the base of the fort, a climb of 400 steps winds
           through various gates to a plateau dotted with ruined palaces, tombs,
           and a popular Ganesh temple. There are fabulous views over the park,
-          and this is also a great place for birdwatching.
+          and this is also a great place for bird-watching.
         date: ''
         etd: ''
         duration: ''
@@ -261,7 +270,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/sawai-madhopur/excursions/morning-and-afternoon-jeep-safaris-in-ranthambore-np/
-        title: Morning and afternoon jeep safaris in Ranthambore N.P.
+        title: Morning and afternoon jeep safaris in Ranthambore National Park
         content: >-
           Ranthambore National Park is one of the best places in India in which
           to see a tiger in the wild. The varied landscapes within the park are
@@ -297,6 +306,8 @@ itinerary:
           has wide, cool verandahs, authentic period furniture and great
           ambience, with elaborately-furnished rooms. His Highness, Krishna
           Chandra Pal, often joins guests at dinner when he is in residence.
+
+
           This is a great place for kids: the extensive hotel grounds boast an
           old-fashioned swimming pool, horses to ride, vintage cars, ducks,
           geese, and an organic garden.
@@ -310,18 +321,18 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/karauli/excursions/camel-cart-ride-to-old-city-palace/
-        title: Camel cart ride to Old City Palace
+        title: Morning camel cart ride to the Old City Palace
         content: >-
           It is great fun to ride a camel cart through Karauli’s narrow market
           streets to the Old City Palace. The richly-ornamented 18th-century
-          City Palace has beautiful sandstone cupolas, elaborate stucco-work,
-          spectacular frescoes and an impressive Durbar Hall. The Krishna Temple
+          palace has beautiful sandstone cupolas, elaborate stucco-work,
+          spectacular frescoes and an impressive Durbar Hall. The Krishna temple
           has a regular, lively prayer ceremony that attracts devotees from
           surrounding villages. You can also explore the colourful market
           streets on foot.
 
 
-          The rest of the day is at leisure to relax.
+          The rest of the day is at leisure.
         date: ''
         etd: ''
         duration: ''
@@ -362,17 +373,16 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/uttar-pradesh/cities/agra/excursions/early-morning-visit-to-the-taj-mahal-without-guide/
-        title: Early morning visit to the Taj Mahal (without guide)
+        title: Early morning visit on your own to the Taj Mahal
         content: >-
           The best time of day to appreciate this stunning monument is as soon
           as the Taj Mahal opens, when it is at its quietest and most serene.
-          You can enjoy the gardens, the mausoleum and the mosque. Don’t miss
-          the marble inlay work and the various vantage points offered
-          throughout the peaceful gardens. You can carry mobile phones, cameras,
-          a water bottle and valuables inside, but all other items must be
-          deposited in safety lockers at the entry gate. You are then free to
-          enter the grounds of the Taj Mahal for a maximum of three hours. Once
-          you have taken it all in, you can return to your hotel for a late
+          You can enjoy the gardens, the mausoleum and the mosque, without
+          needing a professional guide. Don’t miss the marble inlay work and the
+          various vantage points offered throughout the peaceful gardens.
+
+
+          Once you have taken it all in, you can return to your hotel for a late
           breakfast.
         date: ''
         etd: ''
@@ -380,7 +390,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/uttar-pradesh/cities/agra/excursions/afternoon-guided-city-tour-of-agra/
-        title: Afternoon guided city tour of Agra
+        title: Afternoon guided tour of Agra's other monuments
         content: >-
           Agra has much to offer besides the Taj Mahal, such as Agra Fort, a
           masterpiece of design and construction. You then visit
@@ -388,8 +398,6 @@ itinerary:
           features the same marble inlay work as the Taj Mahal. Finally you will
           visit Mehtab Bagh, a formally laid-out Mughal garden that offers
           stupendous views of the Taj Mahal, especially in the late afternoon.
-
-
           In the evening you take a quick, comfortable train to Delhi.
         date: ''
         etd: ''
@@ -421,25 +429,25 @@ itinerary:
           the magnificent Jama Masjid, India’s largest mosque. In New Delhi you
           can find India Gate - a war memorial arch, the impressive Parliament
           Building and Rashtrapati Bhawan, the residence of the President.
-          Towards the South are Qutab Minar and Humayun’s Tomb, both World
+          Towards the South are Qutab Minar and Humayun's Tomb, both World
           Heritage Sites.
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/half-day-tour-of-new-delhi/
-        title: Half day tour of New Delhi
+        title: Morning guided tour of New Delhi
         content: >-
-          New Delhi has a number of attractions, like Humayun’s Tomb, a
+          New Delhi has a number of attractions, like Humayun's Tomb, a
           sandstone mausoleum in the authentic Mughal style - the Taj Mahal,
           built much later, follows a similar style of architecture. Nearby you
           can see India Gate, the Parliament Buildings, the Lodhi Gardens, the
-          Lotus Temple, the President’s House, and the Sikh temple, Gurudwara
+          Lotus Temple, the President's House, and the Sikh temple, Gurudwara
           Bangla Sahib. However, Delhi is huge and traffic is usually heavy, and
           half a day is not enough to see all of the attractions, so it is best
           to discuss with your guide which sights you might wish to visit.
 
 
           The afternoon is free for you to relax or explore further on your own.
-          If you’d like to go shopping, Connaught Place is a good place to
+          If you'd like to go shopping, Connaught Place is a good place to
           explore.
         date: ''
         etd: ''
@@ -449,7 +457,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-hotel-to-international-airport/
-        title: Transfer from hotel to International airport
+        title: Transfer from your hotel to the international airport
         content: >-
           Today, a departure transfer will take you to Delhi airport to catch
           your onward flight.
@@ -462,6 +470,8 @@ highlights:
   - Looking for tigers and leopards in Ranthambhore national park
   - Exploring Udaipur on foot and Jaipur by cycle
   - Running wild in the safe, friendly grounds of Karauli's palace
-  - ''
+themes:
+  - Family holidays
+region: Rajasthan & the North
 ---
 Rajasthan is full of great monuments, but often for families, the highlights are the little offbeat places in between the major cities, and getting to experience something different everywhere. This tour takes you on a tiger safari in Ranthambhore, to a maze-like castle in Deogarh, to a lovely palace with horses, ducks and vintage cars in Karauli, and to the highlights of Udaipur, Jaipur and the Taj Mahal. With a comfortable pace and fun activities, this is a great way to show the kids a bit of India without tears and sulks!

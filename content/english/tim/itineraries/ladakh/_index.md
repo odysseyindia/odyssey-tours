@@ -1,6 +1,6 @@
 ---
 title: Ladakh
-subtitle: Leh, Kyagar, Stok
+subtitle: Leh, Nubra Valley, Stok
 translationKey: ladakh
 type: itinerary
 tour: Ladakh
@@ -10,15 +10,13 @@ highlights:
   - Meeting two-humped Bactrian camels in the Nubra Valley
   - Learning about Ladakh's Buddhist culture
   - Staying at the lovely, colourful Stok Palace
-  - ''
-  - ''
 itinerary:
   - day: 0
     item:
       - type: excursion
         url: >-
           /destinations/india/states/ladakh/cities/leh/excursions/transfer-from-airport-to-hotel/
-        title: Transfer from airport to hotel
+        title: Transfer from Leh airport to your hotel
         content: >-
           After your awe-inspiring flight to Leh airport, you are met by our
           representative and transferred to your hotel.
@@ -32,7 +30,7 @@ itinerary:
           Leh is Ladakh’s principal town. It used to be one of the busiest
           market towns on the caravan trade between India and Central Asia.
           These days it retains a distinctly Central Asian feel. Leh is
-          dominated by the nine-storey Palace, a building in the grand tradition
+          dominated by the nine-storey palace, a building in the grand tradition
           of Tibetan architecture, and is said to have inspired the famous
           Potala in Lhasa, which was built half a century later.
 
@@ -45,7 +43,7 @@ itinerary:
         title: Nimmu House
         content: >-
           Nimmu House is a charming eco-resort nestled at 10,000 feet in the
-          village of Nimmoo, 35km outside Leh. It is both a wellness retreat
+          village of Nimmoo, just outside Leh. It is both a wellness retreat
           (offering yoga and spa therapies), and a great base to explore the Leh
           valley, with both traditionally-styled rooms and luxury tents in a
           beautiful orchard. The main building once belonged to a cousin of the
@@ -61,19 +59,19 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/ladakh/cities/leh/excursions/half-day-walking-tour-of-leh/
-        title: Half day walking tour of Leh
+        title: Afternoon walking tour of Leh
         content: >-
           The morning is at leisure to help the acclimatisation process. Stroll
           around the hotel’s lovely grounds, or simply drink gallons of hot tea.
 
 
-          The best way to see Leh is on a walking tour. Along the main street
-          the Buddhist women with their tall hats chatter freely as they sell
-          vegetables. Narrow lanes veer up through the old city; you pass old
-          dwellings clustered on the slope and end up at the 16th-century Leh
-          Khar Palace and its gompa, the Temple of the Guardian Deities, on top
-          of the hill. Though ruined and austere, Leh Palace still makes an
-          unforgettable backdrop to the mud city.
+          In the afternoon, you take an easy walking tour of the city. Along the
+          main street the Buddhist women with their tall hats chatter freely as
+          they sell vegetables. Narrow lanes veer up through the old city; you
+          pass old dwellings clustered on the slope and end up at the
+          16th-century Leh Khar Palace and its gompa, the Temple of the Guardian
+          Deities, on top of the hill. Though ruined and austere, Leh Palace
+          still makes an unforgettable backdrop to the mud city.
         date: ''
         etd: ''
         duration: ''
@@ -82,11 +80,12 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/ladakh/cities/leh/excursions/full-day-excursion-to-shey-thiksey-and-hemis/
-        title: Full day excursion to Shey, Thiksey and Hemis
+        title: Full day excursion to Shey, Thiksey and Hemis monasteries
         content: >-
-          Shey is the oldest of the three monasteries near Leh, and is not in
-          regular use. The monastery contains a two-storey-high statue of the
-          Buddha seated in meditation.
+          Today you get to visit the three major Buddhist monasteries around
+          Leh, starting with Shey. This is the oldest of the three monasteries
+          near Leh, and is not in regular use. The monastery contains a
+          two-storey-high statue of the Buddha seated in meditation.
 
 
           Up ahead is the twelve-storey, 800-year-old Thiksey Gompa, a good
@@ -149,7 +148,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/ladakh/cities/kyagar/excursions/visit-hundar-and-deskit-and-ride-a-bactrian-camel/
-        title: Visit Hundar & Deskit and ride a Bactrian camel
+        title: Visit Hundar and Deskit - and ride a Bactrian camel
         content: >-
           The Nubra Valley is a sublime mixture of cultivated fields set in an
           arid desert that glows with white sand surrounded by the Karakoram
@@ -158,14 +157,14 @@ itinerary:
           in the Nubra (meaning green) Valley are irrigated and fertile,
           producing wheat, barley, peas, mustard for oil, and a variety of
           fruits and nuts, including apple, walnut, apricot and even a few
-          almond trees.     
+          almond trees.
 
 
           Hundar was the capital of the erstwhile Nubra kingdom in the 17th
           century, and is home to the ruined Chamba Gompa. In nearby Deskit, you
           can visit the 15th-century monastery. This is the most important
           monastery in the Nubra Valley, and the rooms are full of thangka
-          paintings, statues and effigies of the Buddha, and old murals.     
+          paintings, statues and effigies of the Buddha, and old murals.
 
 
           Between Hundar and Diskit lie several kilometres of sand dunes, and
@@ -180,15 +179,18 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/ladakh/cities/kyagar/excursions/excursion-to-samstanling-gompa-yarab-tso-and-panamik-hotsprings/
-        title: Excursion to Samstanling gompa, Yarab Tso & Panamik hotsprings
+        title: Excursion to Samstanling gompa, Yarab Tso, and the Panamik hot springs
         content: >-
-          Today you visit the Samstanling Gompa, situated in a peaceful location
-          overlooking the green fields of Sumur village. Parts of the
-          19th-century monastery have been recently restored, and feature
-          impressive images. The sacred Yarab Tso is popularly known as the
+          Today you visit the partially-restored 19th-century Samstanling Gompa,
+          situated in a peaceful location overlooking the green fields of Sumur
+          village. A monk is usually available to open the prayer rooms, which
+          house an impressive collection of thangka paintings and well-restored
+          frescoes. The sacred Yarab Tso, nearby, is popularly known as the
           hidden lake. From the road, there is a short 15-minute walk to the
-          shore of the beautiful lake, a great place for a picnic lunch. You
-          then continue to Panamik. This was a major halt on the caravan trade
+          shore of the beautiful lake, a great place for a picnic lunch.
+
+
+          You then visit Panamik. This was a major halt on the caravan trade
           route, and is now well known for its medicinal hot springs.
         date: ''
         etd: ''
@@ -210,12 +212,13 @@ itinerary:
         url: /destinations/india/states/ladakh/cities/stok/hotels/stok-palace/
         title: Stok Palace
         content: >-
-          Stok Palace, belonging to the royal Namgyal family, is part of
-          Ladakh’s cultural heritage. The 200-year-old mural-adorned walls, the
-          Buddhist chants, a traditional Ladakhi meal under apricot and walnut
-          trees, are the Ladakhi way of life. Perched on a hill, the building is
-          stately outside and mysterious inside, with shaded corridors and
-          courtyards, and richly-decorated suites.
+          Belonging to the royal Namgyal family, this converted palace is part
+          of Ladakh’s cultural heritage. The 200-year-old mural-adorned walls,
+          the Buddhist chants, a traditional Ladakhi meal under apricot and
+          walnut trees, are the Ladakhi way of life. Perched on a hill, the
+          building is stately outside and mysterious inside, with shaded
+          corridors and courtyards, and richly-decorated suites. There is also a
+          pleasant café, offering fine terrace views.
         checkInDate: ''
         checkInTime: ''
         checkOutDate: ''
@@ -232,14 +235,14 @@ itinerary:
           of life: the 200-year-old mural-adorned walls, the sound of Buddhist
           chants from the palace temple or a traditional Ladakhi meal in the
           royal kitchen, and evening tea in the shade of the magnificent old
-          apricot and walnut trees.   
+          apricot and walnut trees.
 
 
           Guests staying at the Stok Palace Heritage Hotel have privileged
           access to a Buddhist temple on the upper-most floor of the palace. The
           resident monk here performs daily prayers and rituals as part of his
           duties. Guests are welcome to be quiet observers to this enchanting
-          routine.   
+          routine.
 
 
           Near the palace is the 14th-century Stok Gompa. Though some of the
@@ -261,5 +264,8 @@ itinerary:
         title: Leh
         content: Today, you drive to Leh airport to board your onward flight.
 weight: 202
+themes:
+  - Family holidays
+region: Foothills of the Himalayas
 ---
 A spectacular flight across the Indian Himalayas takes you to the barren landscapes of Ladakh. In this remote area monasteries and ancient palaces have striking locations, perched on lofty hilltops. Get to know Ladakh’s Tibet-derived culture and its starkly beautiful vistas as you go from Leh to the desert Nubra Valley and to the royal palace at Stok, taking in monasteries, lakes and apricot orchards along the way.

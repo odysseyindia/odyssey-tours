@@ -1,23 +1,22 @@
 ---
 title: Jim Corbett Country
-subtitle: Delhi, Binsar, Ramgarh, Corbett
+subtitle: Delhi, Binsar, Ramgarh, Corbett National Park
 translationKey: jim-corbett-country
 type: itinerary
 tour: Jim Corbett Country
 highlights:
-  - >-
-    [[[Spectacular views of snow-capped peaks Cosy cottage stays with crackling
-    fires and Kumaoni folk songs Looking for tigers and leopards in Corbett
-    national park Excellent birding in the Himalayan foothills Easy treks, small
-    temples and wonderful villagers ]]]
-  - ''
+  - Spectacular views of snow-capped peaks
+  - Cosy cottage stays with crackling fires and Kumaoni folk songs
+  - Looking for tigers and leopards in Corbett national park
+  - Excellent birding in the Himalayan foothills
+  - Easy treks, small temples and wonderful villagers
 itinerary:
   - day: 0
     item:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-international-airport-to-hotel/
-        title: Transfer from International airport to hotel
+        title: Transfer from Delhi's international airport to your hotel
         content: >-
           You start your tour on arrival in Delhi, where you will be met by our
           representative and transferred to your hotel.
@@ -34,7 +33,7 @@ itinerary:
           the magnificent Jama Masjid, India’s largest mosque. In New Delhi you
           can find India Gate - a war memorial arch, the impressive Parliament
           Building and Rashtrapati Bhawan, the residence of the President.
-          Towards the South are Qutab Minar and Humayun’s Tomb, both World
+          Towards the South are Qutab Minar and Humayun's Tomb, both World
           Heritage Sites.
       - type: hotel
         url: >-
@@ -56,12 +55,12 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/half-day-tour-of-old-delhi-by-metro-and-rickshaw/
-        title: Half day tour of Old Delhi by metro & rickshaw
+        title: Morning tour of Old Delhi by Metro & rickshaw
         content: >-
           A half-day tour to Old Delhi using the modern Metro and the
           traditional cycle rickshaw. The Metro brings you to the heart of Old
           Delhi in just a few minutes, to visit the magnificent Jama Masjid
-          mosque, India’s largest. You then use walk and ride cycle rickshaws
+          mosque, India's largest. You then use walk and ride cycle rickshaws
           through the fascinating maze of narrow streets around the main street
           of Old Delhi, Chandni Chowk, a bustling jumble of craft shops,
           traders, mosques and temples.
@@ -78,7 +77,7 @@ itinerary:
           colourful Sikh Gurdwara.
 
 
-          The rest of your day is at leisure. If you’d like to go shopping or
+          The rest of your day is at leisure. If you'd like to go shopping or
           explore a bit more after the tour, you can take the Metro to vibrant
           Connaught Place to enjoy the many restaurants and more modern shops.
         date: ''
@@ -91,13 +90,15 @@ itinerary:
         title: Binsar
         content: >-
           Today, you start bright and early, with a train and a four-hour drive
-          that takes you to beautiful, secluded Binsar. The Binsar Valley is
-          located in the Nanda Devi range of the Kumaon Himalayas, which are on
-          the border between India and Nepal. Most visitors come for the
-          300-kilometre panorama of Himalayan peaks, and to visit the storied
-          hill villages. Its location offers stunning views and makes the Binsar
-          Valley a good base for bird-watching and walks through beautiful pine
-          and deodar woods.
+          that takes you to beautiful, secluded Binsar.
+
+
+          The Binsar Valley is located in the Nanda Devi range of the Kumaon
+          Himalayas, which are on the border between India and Nepal. Most
+          visitors come for the 300-kilometre panorama of Himalayan peaks, and
+          to visit the storied hill villages. Its location offers stunning views
+          and makes the Binsar Valley a good base for bird-watching and walks
+          through beautiful pine and deodar woods.
 
 
           The rest of your day is free to stroll around your hotel, go birding,
@@ -111,6 +112,8 @@ itinerary:
           cosy. Mary Budden Estate is a couple of large stone and wood cottages
           from colonial times, converted into a relaxed, intimate resort with
           fabulous views and food in a setting of cedar, pine and rhododendron.
+
+
           A great spot if you like birding, easy treks or even just finding a
           good spot in the grounds or by the fire to enjoy a cuppa and a good
           book.
@@ -124,9 +127,9 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/uttarakhand/cities/binsar/excursions/bird-watching-with-naturalist/
-        title: Bird watching with naturalist
+        title: Early-morning birding with a naturalist
         content: >-
-          The birding walk at Mary Budden is called Hodgson’s Trail, in homage
+          The birding walk at Mary Budden is called Hodgson's Trail, in homage
           to Brian Houghton Hodgson, who served as the Assistant Commissioner in
           Kumaon in the early 19th century and whose seminal work was to
           identify a vast variety of birds in the Himalayas. Walk through the
@@ -137,7 +140,7 @@ itinerary:
 
           The estate offers plenty of other walks, which include picnic lunches
           or high tea, and meals in fun spots around the property - you can book
-          these directly at the hotel.
+          these directly at the hotel, or just relax for the rest of the day.
         date: ''
         etd: ''
         duration: ''
@@ -146,7 +149,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/uttarakhand/cities/binsar/excursions/day-at-leisure-at-itmenaan-estate/
-        title: Day at leisure at Itmenaan Estate
+        title: Day at leisure in Binsar
         content: >-
           You have a full day at leisure here to go for more walks, do a couple
           more strolls down the birding trail, or put your feet up between vast
@@ -162,19 +165,19 @@ itinerary:
         content: >-
           After breakfast, drive for three hours to the orchards of Ramgarh,
           famous for plums, peaches, pears and apples. Many writers and thinkers
-          have been drawn to the beauty of Ramgarh and some of India’s leading
+          have been drawn to the beauty of Ramgarh and some of India's leading
           industrial families continue to have sprawling orchards here.
       - type: hotel
         url: >-
           /destinations/india/states/uttarakhand/cities/ramgarh/hotels/the-ramgarh-bungalows/
         title: The Ramgarh Bungalows
         content: >-
-          In the foothills of the Himalayas, The Old Bungalow - 1830, and The
-          Writers' Bungalow - 1860, are located in the fruit basket of the
-          Kumaon region. There are 9 well furnished rooms, all strategically
-          placed so that every room can experience the picturesque view.The
-          bungalows have been restored and refurbished by the Neemrana Group,
-          and have the old world charm of rural England.
+          In the foothills of the Himalayas, The Old Bungalow (1830), and The
+          Writers' Bungalow (1860), are located in the fruit basket of the
+          Kumaon region. There are nine well-furnished rooms, all strategically
+          placed so that every room can experience the picturesque view. The
+          bungalows have been restored and refurbished, and have a cosy
+          atmosphere.
         checkInDate: ''
         checkInTime: ''
         checkOutDate: ''
@@ -191,7 +194,7 @@ itinerary:
           purpose of your visit as you come here mainly to enjoy the peace and
           quiet and the beautiful scenery. The most you may want to do is to go
           on an easy walk in the neighborhood. Ramgarh also makes an idyllic
-          base for visiting the nearby hill station of Nainital, but it’s best
+          base for visiting the nearby hill station of Nainital, but it's best
           enjoyed at a very relaxed pace around your hotel.
         date: ''
         etd: ''
@@ -203,16 +206,14 @@ itinerary:
         title: Corbett
         content: >-
           Today, you drive further down the hills to Corbett National Park. This
-          was India’s first national park, and remains one of its finest. It is
+          was India's first national park, and remains one of its finest. It is
           named after the legendary hunter Jim Corbett, who lived in this area
-          for many years and wrote ‘The Man Eaters of Kumaon’. Extending over
+          for many years and wrote 'The Man Eaters of Kumaon'. Extending over
           520 sq. km., the sanctuary is endowed with breathtaking natural beauty
           and an abundance of wildlife including tigers and elephants. The
-          birdlife is especially impressive, with over 500 species.
-
-
-          The best thing to do today is to explore the flora and fauna around
-          the hotel in easy walks with the resident naturalists.
+          birdlife is especially impressive, with over 500 species. The best
+          thing to do today is to explore the flora and fauna around the hotel
+          in easy walks with the resident naturalists.
       - type: hotel
         url: >-
           /destinations/india/states/uttarakhand/cities/corbett/hotels/jims-jungle-retreat/
@@ -235,7 +236,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/uttarakhand/cities/corbett/excursions/canter-safari-to-dhikala/
-        title: Canter safari to Dhikala
+        title: Early morning Canter safari to Dhikala
         content: >-
           The only way to visit the central, most attractive, zone of Corbett
           National Park is to join other visitors on a shared safari in a
@@ -250,7 +251,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/uttarakhand/cities/corbett/excursions/jeep-safari-in-corbett-national-park/
-        title: Jeep safari in Corbett National Park
+        title: Afternoon jeep safari in Corbett National Park
         content: >-
           The shared jeep safaris are accompanied by a naturalist and usually
           take place in the Bijrani zone of the National Park. The terrain is
@@ -269,9 +270,11 @@ itinerary:
         title: Corbett
         content: >-
           Today is at leisure to enjoy other nature activities at the resort.
-          Please note: safaris can generally not be booked on the spot, so
-          please let us know when you book this tour if you’d like to go on
-          further jeep or canter excursions in Corbett National Park.
+          The hotel can organise jungle walks, birding, a wonderful termite
+          walk, and show you the medicinal plants that are grown in the
+          property. Please note: safaris can generally not be booked on the
+          spot, so please let us know when you book this tour if you'd like to
+          go on further jeep or canter excursions in Corbett National Park.
   - day: 10
     item:
       - type: city
@@ -300,7 +303,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-hotel-to-international-airport/
-        title: Transfer from hotel to International airport
+        title: Transfer from your hotel to the international airport
         content: >-
           Today, you have a departure transfer to the airport to connect with
           your onward flight.
@@ -308,5 +311,9 @@ itinerary:
         etd: ''
         duration: ''
 weight: 204
+themes:
+  - Active outdoor trips
+  - Wildlife/Birding tours
+region: Foothills of the Himalayas
 ---
 Jim Corbett was the best of the British colonials, a hunter-turned-conservationist who protected villagers from man-eating tigers and leopards, a primal terror we can scarcely imagine today. His hunting grounds in the Kumaon Himalayas are full of sleepy villages, beautiful views, amazing wildlife and a distinct, charming way of life. You get to learn about him and this land while looking for tigers and birds in Corbett National Park, and with stays in beautiful colonial-era mountain getaways in Ramgarh and Binsar. Enjoy foggy mornings, hot cups of tea, great opportunities for birding and tiger-spotting, and some of the most beautiful forests in India.
