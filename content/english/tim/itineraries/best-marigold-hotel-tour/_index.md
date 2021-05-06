@@ -11,7 +11,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-international-airport-to-hotel/
-        title: Transfer from International airport to hotel
+        title: Transfer from Delhi's international airport to your hotel
         content: >-
           Today, you start your tour on arrival in Delhi, where you will be met
           by our representative and transferred to your airport hotel,
@@ -24,8 +24,8 @@ itinerary:
           /destinations/india/states/delhi/cities/delhi/hotels/holiday-inn-aerocity/
         title: Holiday Inn (Aerocity)
         content: >-
-          For a comfortable stay before for after a long flight, the Holiday Inn
-          at Aerocity, close to Delhi’s International Airport, is ideal. The
+          For a comfortable stay before or after a long flight, the Holiday Inn
+          at Aerocity, close to Delhi's International Airport, is ideal. The
           rooms are large, modern, and, most important of all, quiet. There is a
           swimming pool, a large restaurant with abundant buffets, a bar, and a
           speciality Italian restaurant.
@@ -40,13 +40,16 @@ itinerary:
         url: /destinations/india/states/rajasthan/cities/udaipur/
         title: Udaipur
         content: >-
-          A two-hour flight takes you to lovely Udaipur. Set around the vast
-          Pichola Lake and dominated by dramatic palaces, Udaipur is surely
-          Rajasthan’s most picturesque city. High whitewashed houses and narrow,
-          winding alleys lend it an almost medieval charm. The huge City Palace,
-          still the residence of the Maharana, is carved out of yellow sandstone
-          and stands on the banks of Lake Pichola, from where you have fabulous
-          views over the lake and the famous Lake Palace Hotel.
+          A two-hour flight today takes you to lovely Udaipur.
+
+
+          Set around the vast Pichola Lake and dominated by dramatic palaces,
+          Udaipur is surely Rajasthan's most picturesque city. High whitewashed
+          houses and narrow, winding alleys lend it an almost medieval charm.
+          The huge City Palace, still the residence of the Maharana, is carved
+          out of yellow sandstone and stands on the banks of Lake Pichola, from
+          where you have fabulous views over the lake and the famous Lake Palace
+          Hotel.
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/udaipur/hotels/jagat-niwas-palace-hotel/
@@ -69,9 +72,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/udaipur/excursions/morning-city-tour-of-udaipur-followed-by-a-boat-trip-on-lake-pichola-by-shared-boat/
-        title: >-
-          Morning city tour of Udaipur followed by a boat trip on Lake Pichola
-          (by shared boat)
+        title: Morning guided tour of Udaipur followed by a boat trip on Lake Pichola
         content: >-
           The highlight of this guided city tour is a visit to the City Palace,
           now largely preserved as a museum with a large and varied collection
@@ -82,10 +83,10 @@ itinerary:
 
 
           The city tour is followed by a relaxing, hour-long (shared) motor boat
-          ride on the lake, with views of the activity on the “ghats” used by
+          ride on the lake, with views of the activity on the "ghats" used by
           local people for washing and bathing, the City Palace complex, and the
           Aravalli Hills to the west. You also pass the famous luxury Lake
-          Palace hotel, and stop to visit the serene “pleasure island” of Jag
+          Palace hotel, and stop to visit the serene "pleasure island" of Jag
           Mandir.
 
 
@@ -100,25 +101,23 @@ itinerary:
         url: /destinations/india/states/rajasthan/cities/khempur/
         title: Khempur
         content: >-
-          An hour’s drive east of Udaipur is the little village of Khempur, set
+          An hour's drive east of Udaipur is the little village of Khempur, set
           amid mustard and millet fields. At the edge of the village is Ravla
           Khempur, now a heritage hotel, famous in film as the Best Exotic
-          Marigold Hotel. A large neem tree shades the family temple next to the
-          fort. Khempur is famous for its beautiful Marwari horses. A stay here
-          therefore offers the opportunity to explore the Indian countryside on
-          horseback.
+          Marigold Hotel. Khempur is also famous for its beautiful Marwari
+          horses. A stay here therefore offers the opportunity to explore the
+          Indian countryside on horseback.
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/khempur/hotels/ravla-khempur/
         title: Ravla Khempur
         content: >-
           Ravla Khempur is a grand, two-storey haveli, pale yellow in colour,
-          with arched windows trimmed with ornate white carvings. This was the
-          place where The Best Exotic Marigold Hotel was filmed. With a history
+          with arched windows trimmed with ornate white carvings. With a history
           dating to the early 17th century, the palace was once famed for its
           stable of fine Marwari horses and is still home to dancing stallions,
           which perform when requested in front of the magnificent turreted
-          building.
+          building. A large neem tree shades the family temple next to the fort.
         checkInDate: ''
         checkInTime: ''
         checkOutDate: ''
@@ -129,7 +128,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/khempur/excursions/day-at-leisure-in-kempur/
-        title: Day at leisure in Kempur
+        title: Day at leisure in Khempur
         content: >-
           Today is a free day to enjoy all that this Real Exotic Marigold Hotel
           has to offer. You may wish to take a walk around the quiet and
@@ -150,7 +149,7 @@ itinerary:
           Chittaurgarh was sacked by a stronger enemy, and on each occasion the
           men rode out to certain death, while the women committed johar by
           throwing themselves and their children onto a huge funeral pyre. The
-          immense stretch of Chittaurgarh’s walls and ruined palaces relate the
+          immense stretch of Chittaurgarh's walls and ruined palaces relate the
           saga of innumerable sieges and heroism.
       - type: city
         url: /destinations/india/states/rajasthan/cities/bijaipur/
@@ -185,7 +184,9 @@ itinerary:
           /destinations/india/states/rajasthan/cities/bijaipur/excursions/activities-at-castle-bijaipur/
         title: Activities at Castle Bijaipur
         content: >-
-          Today is a free day for you to select the activity you’d like to.
+          Today is a free day for you to select the activity you'd like best.
+
+
           Castle Bijaipur has a number of excursions available, most of which
           are perfect if you like a little adventure; these include a jeep
           safari, horse riding, cycling, trekking, bird watching and village
@@ -206,18 +207,18 @@ itinerary:
           of the most spectacular monuments of Rajasthan. The climb up to the
           Fort through the colourful and friendly bazaar offers spectacular
           views over the town and surrounding countryside, and takes you to the
-          Chitrashala, the picture gallery with Bundi’s famous miniature
+          Chitrashala, the picture gallery with Bundi's famous miniature
           paintings and delicate murals.
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/bundi/excursions/half-day-sightseeing-of-bundi/
-        title: Half day sightseeing of Bundi
+        title: Afternoon guided tour of Bundi
         content: >-
-          Bundi might be small, but it’s packed with detail, just like its
+          Bundi might be small, but it's packed with detail, just like its
           famous miniature paintings. The guided tour takes you to the
           astonishing Raniji ki Baori step-well, the large and un-touristy Bundi
           Palace, which contains beautiful frescoes within its gaunt walls, and
-          the huge 14th-century Taragarh or Star Fort. Bundi’s main market is
+          the huge 14th-century Taragarh or Star Fort. Bundi's main market is
           also fascinating to walk through, with bangle sellers, flower shops
           and even sword sellers!
         date: ''
@@ -451,6 +452,8 @@ highlights:
   - A cooking class in Jaipur to bring you the flavours of Rajasthan
   - Visiting the 'Viceroy Club' at Kanota
   - Beautiful forts and palaces off the beaten track in Bundi and Bijaipur
-  - ''
+themes:
+  - Off the beaten track
+region: Rajasthan & the North
 ---
-This quirky, cheerful movie and its sequel had everyone wondering: where on Earth is this place, exactly? Well, it&rsquo;s not one place, it&rsquo;s several - and on this tour you can visit all of them, and all while getting to know a lovely, offbeat part of India. You will get to stay at the main location at Rawla Khempur, plus smaller ones in Jaipur and Kanota, and stay at Jagat Niwas Palace in Udaipur, also featured in the movie, with views over the famous Lake Palace. As you also visit other offbeat destinations, like the wonderful Bundi and the striking Castle Bijaipur, this is a very enjoyable, different tour - even if you aren&rsquo;t a movie buff!
+This quirky, cheerful movie and its sequel had everyone wondering: where on Earth is this place, exactly? Well, it’s not one place, it’s several - and on this tour you can visit all of them, and all while getting to know a lovely, offbeat part of India. You will get to stay at the main location at Rawla Khempur, plus smaller ones in Jaipur and Kanota, and stay at Jagat Niwas Palace in Udaipur, also featured in the movie, with views over the famous Lake Palace. As you also visit other offbeat destinations, like the wonderful Bundi and the striking Castle Bijaipur, this is a very enjoyable, different tour - even if you aren&rsquo;t a movie buff!

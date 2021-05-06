@@ -13,7 +13,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-international-airport-to-hotel/
-        title: Transfer from International airport to hotel
+        title: Transfer from Delhi's international airport to your hotel
         content: >-
           You start your tour on arrival in Delhi, where you will be met by our
           representative and transferred to your hotel.
@@ -52,7 +52,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/half-day-tour-of-old-delhi-by-metro-and-rickshaw/
-        title: Half day tour of Old Delhi by metro & rickshaw
+        title: Morning tour of Old Delhi by Metro & rickshaw
         content: >-
           A half-day tour to Old Delhi using the modern Metro and the
           traditional cycle rickshaw. The Metro brings you to the heart of Old
@@ -89,11 +89,14 @@ itinerary:
           An early start takes you by train to one of India’s best food
           destinations, just in time for lunch! Lucknow, the capital of Uttar
           Pradesh, extends along the banks of the River Gomti, and is known for
-          its elaborate cuisine and its tehzeeb or graciousness. The city, known
-          earlier as Awadh, rapidly developed under the Mughal Emperor Akbar’s
-          patronage in the 16th century. Today, the city is dotted with remnants
-          of its historic past. Lucknow is also known for its traditional
-          perfume and exquisite shadow-work embroidery on fine muslin cloth.
+          its elaborate cuisine and its ‘tehzeeb’ or graciousness.
+
+
+          The city, known earlier as Awadh, rapidly developed under the Mughal
+          Emperor Akbar’s patronage in the 16th century. Today, the city is
+          dotted with remnants of its historic past. Lucknow is also known for
+          its traditional perfume and exquisite shadow-work embroidery on fine
+          muslin cloth.
       - type: hotel
         url: >-
           /destinations/india/states/uttar-pradesh/cities/lucknow/hotels/lebua-lucknow/
@@ -112,16 +115,21 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/uttar-pradesh/cities/lucknow/excursions/half-day-city-tour-of-lucknow/
-        title: Half day city tour of Lucknow
+        title: Morning guided tour of Lucknow
         content: >-
           The Bara Imambara is a magnificent monument that recalls the glorious
           past of the nawabs. A remarkable feature is the absence of pillars
-          supporting the vaulted main hall. The Chota Imambara is another fine
-          monument from the time of the Nawabs. Nearby is Hussainabad Picture
-          Gallery, with life-size portraits of the Nawabs of Avadh. The
-          Residency was the scene of dramatic events during the mutiny of 1857.
-          The scarred ruins tell the story of the British community besieged by
-          the rebels.
+          supporting the vaulted main hall.
+
+
+          The Chota Imambara is another fine monument from the time of the
+          Nawabs. Nearby is Hussainabad Picture Gallery, with life-size
+          portraits of the Nawabs of Avadh.
+
+
+          The Residency was the scene of dramatic events during the mutiny of
+          1857, also called the First Indian War of Independence. The scarred
+          ruins tell the story of the British community besieged by the rebels.
         date: ''
         etd: ''
         duration: ''
@@ -135,11 +143,13 @@ itinerary:
           ‘Bawarchi Tola’. In this colony one may still find chefs whose
           forefathers used to cook a special kind of dish for the royals of
           Avadh. There is a street full of eateries where one can find the best
-          from Lucknow’s very own traditional kitchens. You can hop in and out
-          of these traditional roadside eateries to try a variety of different
-          kinds of delicious local foods. This tour is essentially for meat
-          lovers; a perfect opportunity to get a taste of the famous Awadhi
-          cuisine! The tour operates daily except during Muslim festivals.
+          from Lucknow’s very own traditional kitchens.
+
+
+          You can hop in and out of these traditional roadside eateries to try a
+          variety of different kinds of delicious local foods. This tour is
+          essentially for meat lovers; a perfect opportunity to get a taste of
+          the famous Awadhi cuisine!
         date: ''
         etd: ''
         duration: ''
@@ -151,12 +161,14 @@ itinerary:
         content: >-
           You’ll probably need a relaxed morning after the previous day’s feast,
           so you only need to leave in the afternoon by train to Agra, getting
-          there by evening. Agra is home to possibly the most famous and
-          beautiful building in the world: the Taj Mahal, built in the 17th
-          century by the Mughal emperor Shah Jahan as a tomb and memorial for
-          his wife Mumtaz Mahal. Along the river Yamuna is the impressive Red
-          Fort, the capital of the Mughal Empire during the 16th and 17th
-          centuries.
+          there by evening.
+
+
+          Agra is home to possibly the most famous and beautiful building in the
+          world: the Taj Mahal, built in the 17th century by the Mughal emperor
+          Shah Jahan as a tomb and memorial for his wife Mumtaz Mahal. Along the
+          river Yamuna is the impressive Red Fort, the capital of the Mughal
+          Empire during the 16th and 17th centuries.
       - type: hotel
         url: >-
           /destinations/india/states/uttar-pradesh/cities/agra/hotels/the-coral-tree-homestay/
@@ -177,17 +189,16 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/uttar-pradesh/cities/agra/excursions/early-morning-visit-to-the-taj-mahal-without-guide/
-        title: Early morning visit to the Taj Mahal (without guide)
+        title: Early morning visit on your own to the Taj Mahal
         content: >-
           The best time of day to appreciate this stunning monument is as soon
           as the Taj Mahal opens, when it is at its quietest and most serene.
-          You can enjoy the gardens, the mausoleum and the mosque. Don’t miss
-          the marble inlay work and the various vantage points offered
-          throughout the peaceful gardens. You can carry mobile phones, cameras,
-          a water bottle and valuables inside, but all other items must be
-          deposited in safety lockers at the entry gate. You are then free to
-          enter the grounds of the Taj Mahal for a maximum of three hours. Once
-          you have taken it all in, you can return to your hotel for a late
+          You can enjoy the gardens, the mausoleum and the mosque, without
+          needing a professional guide. Don’t miss the marble inlay work and the
+          various vantage points offered throughout the peaceful gardens.
+
+
+          Once you have taken it all in, you can return to your hotel for a late
           breakfast.
         date: ''
         etd: ''
@@ -195,7 +206,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/uttar-pradesh/cities/agra/excursions/afternoon-guided-city-tour-of-agra/
-        title: Afternoon guided city tour of Agra
+        title: Afternoon guided tour of Agra's other monuments
         content: >-
           Agra has much to offer besides the Taj Mahal, such as Agra Fort, a
           masterpiece of design and construction. You then visit
@@ -247,31 +258,36 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/excursions/morning-walking-tour-of-jaipur/
-        title: Morning walking tour of Jaipur
+        title: Morning walking tour of Jaipur's Pink City
         content: >-
           To experience the life of the Pink City beyond the monuments, it is
           best to join a guided morning walk. Starting in the heart of the Old
           City, you will walk along the busy main streets, lined with parades of
           traditional shops, and explore smaller side streets, each devoted to
-          different crafts. You will see various tradesmen, such as
-          marble-sculptors and bangle-makers at work, visit local temples, see
-          the colourful vegetable and flower markets, and sample delicious
-          street foods, such as jalebis, rabri, kachoris, and lassi.
+          different crafts.
+
+
+          You will see various tradesmen, such as marble-sculptors and
+          bangle-makers at work, visit local temples, see the colourful
+          vegetable and flower markets, and sample delicious street foods, such
+          as jalebis, rabri, kachoris, and lassi.
         date: ''
         etd: ''
         duration: ''
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/excursions/a-culinary-tour-with-an-indian-housewife-lunch-or-dinner/
-        title: A culinary tour with an Indian housewife, lunch or dinner
+        title: Evening culinary tour with an Indian housewife, with dinner
         content: >-
           You join local resident Payal, a keen cook and food blogger, who will
           share with you the secrets of her home cooking. She will take you to
           the food markets of Jaipur to purchase the ingredients for the dishes
           you will cook together. She will explain the preparation of
           traditional Rajasthani food, and the use of various spices. Once you
-          have helped prepare the dishes, you get to enjoy them as lunch or
-          dinner. With easy-to-follow menus, and after your completely hands-on
+          have helped prepare the dishes, you get to enjoy them for dinner.
+
+
+          With easy-to-follow menus, and after your completely hands-on
           experience, you will be eager to demonstrate your new skills back
           home!
         date: ''
@@ -335,7 +351,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/chittaurgarh/excursions/visit-to-chittaurgarh-fort/
-        title: Visit to Chittaurgarh Fort
+        title: Afternoon guided visit to Chittaurgarh Fort
         content: >-
           The fort at Chittaurgarh is the greatest in Rajasthan. The 700-acre
           complex standing on a rocky mountain plateau feels like the ultimate
@@ -368,12 +384,15 @@ itinerary:
         title: Udaipur
         content: >-
           A three-hour drive takes you to lovely Udaipur. Set around the vast
-          Pichola Lake and dominated by dramatic palaces, Udaipur is surely
-          Rajasthan’s most picturesque city. High whitewashed houses and narrow,
-          winding alleys lend it an almost medieval charm. The huge City Palace,
-          still the residence of the Maharana, is carved out of yellow sandstone
-          and stands on the banks of Lake Pichola, from where you have fabulous
-          views over the lake and the famous Lake Palace Hotel.
+          Pichola Lake and dominated by dramatic palaces,
+
+
+          Udaipur is surely Rajasthan’s most picturesque city. High whitewashed
+          houses and narrow, winding alleys lend it an almost medieval charm.
+          The huge City Palace, still the residence of the Maharana, is carved
+          out of yellow sandstone and stands on the banks of Lake Pichola, from
+          where you have fabulous views over the lake and the famous Lake Palace
+          Hotel.
 
 
           You’re at leisure for the afternoon to explore the charming alleys and
@@ -400,9 +419,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/udaipur/excursions/morning-city-tour-of-udaipur-followed-by-a-boat-trip-on-lake-pichola-by-shared-boat/
-        title: >-
-          Morning city tour of Udaipur followed by a boat trip on Lake Pichola
-          (by shared boat)
+        title: Morning guided tour of Udaipur followed by a boat trip on Lake Pichola
         content: >-
           The highlight of this guided city tour is a visit to the City Palace,
           now largely preserved as a museum with a large and varied collection
@@ -424,15 +441,14 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/udaipur/excursions/indian-cooking-class/
-        title: Indian cooking class
+        title: Evening Indian cooking class
         content: >-
           In this hands-on cookery class, conducted by Mrs Shastri and her
           family in their own home, you join a small group of like-minded
           travellers to learn how to make a variety of Indian dishes. During the
-          three-hour class you will be actively involved in making masala tea,
-          pakoras, various Indian vegetarian curries, pulao rice, and different
-          breads. Finally, you get to enjoy the food which you have prepared,
-          along with the family.
+          three-hour class, you will make masala tea, pakoras, various Indian
+          vegetarian curries, pulao rice, and different breads. Finally, you get
+          to enjoy the food which you have prepared, along with the family.
         date: ''
         etd: ''
         duration: ''
@@ -476,11 +492,11 @@ itinerary:
         title: Udai Bilas Palace
         content: >-
           A fabulous 19th-century palace overlooking a lake backed by green
-          hills. Still the residence of the former royal family, there are
+          hills. Still the residence of the former royal family, here are
           beautiful guest rooms furnished with authentic period furniture. The
           beautifully-designed swimming pool borders the lake beyond and has
-          some fabulous carved statuary around. The lake contains a small
-          island, which houses the family temple of the owners of the palace.
+          some fabulous carved statuary around. A highlight here is dinner
+          served at a long banquet table - with a water body in the middle!
         checkInDate: ''
         checkInTime: ''
         checkOutDate: ''
@@ -494,11 +510,14 @@ itinerary:
         content: >-
           Today, you enter a new state, reaching Ahmedabad after a three-hour
           drive. Ahmedabad is the cultural capital of Gujarat and a major
-          textile and crafts centre. The city is packed with diverse
-          architectural styles, with over fifty mosques and tombs, as well as
-          Hindu and Jain temples and grand, beautifully-carved step-wells. The
-          old part of town is a maze of narrow winding alleys with carved wooden
-          house-fronts and thriving bazaars.
+          textile and crafts centre.
+
+
+          The city is packed with diverse architectural styles, with over fifty
+          mosques and tombs, as well as Hindu and Jain temples and grand,
+          beautifully-carved step-wells. The old part of town is a maze of
+          narrow winding alleys with carved wooden house-fronts and thriving
+          bazaars.
 
 
           The afternoon is free for you to explore on your own, and there’s
@@ -529,11 +548,11 @@ itinerary:
         title: Early morning heritage walk
         content: >-
           You join a morning guided group walk through the narrow atmospheric
-          lanes of the historic Old City. This is a fascinating maze of crowded
-          bazaars, exquisitely carved facades, temples, subterranean stepwells,
-          and even a secret passageway. You first walk through a Hindu dominated
-          area, then a section dominated by Jains, then finally to the Muslim
-          market area to end at the city’s largest mosque.
+          lanes of the historic Old City of Ahmedabad This is a fascinating maze
+          of crowded bazaars, exquisitely carved facades, temples, subterranean
+          stepwells, and even a secret passageway. You first walk through a
+          Hindu dominated area, then a section dominated by Jains, then finally
+          to the Muslim market area to end at the city’s largest mosque.
         date: ''
         etd: ''
         duration: ''
@@ -543,11 +562,13 @@ itinerary:
         content: >-
           You board an afternoon train to Mumbai, the financial, commercial and
           industrial capital of India, getting there at night. The city is also
-          the centre of fashion and film-making. The city hums with activity and
-          its 15 million residents seem to be constantly on the move. Mumbai
-          used to be just a collection of fishing villages, and first grew only
-          during British colonial rule, so most of the historical monuments are
-          relics from the Raj.
+          the centre of fashion and film-making.
+
+
+          The city hums with activity and its 15 million residents seem to be
+          constantly on the move. Mumbai used to be just a collection of fishing
+          villages, and first grew only during British colonial rule, so most of
+          the historical monuments are relics from the Raj.
       - type: hotel
         url: >-
           /destinations/india/states/maharashtra/cities/mumbai/hotels/the-gordon-house/
@@ -568,18 +589,19 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/maharashtra/cities/mumbai/excursions/mumbai-heritage-walk/
-        title: Mumbai heritage walk
+        title: Morning heritage walk in Mumbai
         content: >-
           Starting with the iconic Gateway of India, we explore the Colaba and
-          Fort areas of Mumbai on foot, best done in the mornings. Mumbai’s most
-          distinctive colonial-era architecture is found here, in buildings such
-          as the Prince of Wales Museum, the High Court, and the University. The
-          street life is also fascinating. On weekdays the walk ends at
-          Churchgate railway station, where the famous ‘dabba-wallas’ arrange
-          the distribution of thousands of ‘tiffin boxes’ - packed lunches for
-          office workers which they transport from suburban residences to
-          offices throughout South Mumbai. From here, the guide will arrange a
-          taxi to return to the hotel.
+          Fort areas of Mumbai on foot. Mumbai’s most distinctive colonial-era
+          architecture is found here, in buildings such as the Prince of Wales
+          Museum, the High Court, and the University. The street life is also
+          fascinating.
+
+
+          On weekdays the walk ends at Churchgate railway station, where the
+          famous ‘dabba-wallas’ arrange the distribution of thousands of ‘tiffin
+          boxes’ - packed lunches for office workers which they transport from
+          suburban residences to offices throughout South Mumbai.
         date: ''
         etd: ''
         duration: ''
@@ -590,17 +612,20 @@ itinerary:
         content: >-
           Food speaks volumes about the world’s cultures, and nowhere more so
           than Mumbai - a city best experienced through its diverse and
-          delicious street food. You join a small group to experience all the
-          flavours the city has to offer. We first visit Chowpatty Beach, the
-          best place to taste Mumbai’s vegetarian favourites such as pav bhaji
-          and pani puri. You also get to try sweets, such as hand-churned ice
-          cream in unfamiliar flavours at a 120-year-old shop, and a
-          super-sugary, bright orange jalebi. We then visit the bazaars of the
-          Muslim-dominated Mohammed Ali Road, known for its khau gallis (eating
-          lanes), where you get to try Mumbai classics such as bhel puri, and
-          kebabs, as well as some lesser-known foods unique to this area, such
-          as offal. While some of the items we can try here are non-vegetarian,
-          there are also plenty of options for vegetarians.
+          delicious street food in this small group excursion.
+
+
+          We first visit Chowpatty Beach, the best place to taste Mumbai’s
+          vegetarian favourites such as pav bhaji and pani puri. You also get to
+          try sweets, such as hand-churned ice cream in unfamiliar flavours at a
+          120-year-old shop, and a super-sugary, bright orange jalebi.
+
+
+          We then visit the bazaars of Muslim-dominated Mohammed Ali Road, known
+          for its khau gallis (eating lanes), where you get to try Mumbai
+          classics such as bhel puri and kebabs, as well as some lesser-known
+          foods unique to this area, such as offal. While some of the items here
+          are non-vegetarian, there are also plenty of options for vegetarians.
         date: ''
         etd: ''
         duration: ''
@@ -620,7 +645,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/goa/cities/goa/excursions/evening-private-feni-and-tapas-food-trail/
-        title: Evening Private Feni and Tapas Food Trail
+        title: Evening feni and tapas trail
         content: >-
           Partake in a vivid narrative of Goan cuisine in this private trail
           through Panjim, where you discover feni, an olfactory overload of a
@@ -636,11 +661,12 @@ itinerary:
         url: /destinations/india/states/goa/cities/goa/hotels/panjim-inn/
         title: Panjim Inn
         content: >-
-          A charming heritage hotel with lots of character, located amongst the
-          winding alleys of Fountainhas, the Latin quarter of Panjim.The
-          light-filled rooms are endowed with furniture worthy of any museum.
-          The restaurant serves perennial Goan and Continental favourites. There
-          are many sun-drenched balconies and shady courtyards for relaxation.
+          A charming heritage hotel with lots of character, perfectly located
+          for exploring the winding alleys of Fountainhas, the Latin quarter of
+          Panjim. The light-filled rooms are endowed with furniture worthy of
+          any museum. The restaurant serves perennial Goan and Continental
+          favourites. There are many sun-drenched balconies and shady courtyards
+          for relaxation.
         checkInDate: ''
         checkInTime: ''
         checkOutDate: ''
@@ -658,7 +684,11 @@ itinerary:
           appreciate the architecture and meet local residents.
 
 
-          Afterwards, transfer out of Panjim city to a hotel near the beach.
+          After lunch, transfer to Casa Severina, a hotel close to the beach.
+
+
+          The next two days at completely at leisure for you to relax on the
+          beach, and try more local delicacies
         date: ''
         etd: ''
         duration: ''
@@ -676,27 +706,8 @@ itinerary:
         checkInTime: ''
         checkOutDate: ''
         checkOutTime: ''
-        nights: ''
+        nights: '3'
   - day: 18
-    item:
-      - type: city
-        url: /destinations/india/states/goa/cities/goa/
-        title: Goa
-        content: >-
-          The next two days at completely at leisure for you to relax on the
-          beach, and try more local delicacies
-      - type: city
-        url: /destinations/india/states/goa/cities/goa/
-        title: Goa
-        content: >-
-          The former Portuguese colony of Goa is famous for its easy-going
-          ambience, good food, and lovely climate. It boasts a coastline with
-          beautiful beaches; palm-fringed rivers, lush scenery with paddy
-          fields, mango groves and whitewashed villas. Evidence of its glorious
-          past can be seen in the unique Indo-Portuguese style of its
-          magnificent baroque churches, its stately ancestral mansions and its
-          historic forts.
-  - day: 19
     item:
       - type: excursion
         url: >-
@@ -708,12 +719,17 @@ itinerary:
         date: ''
         etd: ''
         duration: ''
+  - day: 19
+    item: []
 highlights:
   - At least eight different cuisines, from Awadhi to Indo-Portuguese
   - Cooking classes, walking trails, even a tapas-bar hop
   - Stay in colonial buildings, homestays, forts, palaces and a purple dome
   - A cross-section of India through its food
   - Easy time on the beach
-  - ''
+themes:
+  - Cultural journeys
+  - Signature trips
+region: Rajasthan & the North
 ---
-Join us for a veritable feast of a tour, as you journey from bustling Delhi to tranquil Goa. You begin by trying Lucknow&rsquo;s spectacular kebabs and visiting the amazing Taj Mahal in Agra. You then continue to towns and palaces of Rajasthan, experience the bustling modern city of Mumbai, and finish on Goa’s beautiful beaches. Along the way you will discover many facets of Indian culture, but your focus will always be on the country’s delicious food. You will enjoy unique opportunities to sample a wealth of traditional delicacies, from the sublime vegetarian cuisine of Jaipur to the spicy seafood of the coast.
+Join us for a veritable feast of a tour, as you journey from bustling Delhi to tranquil Goa. You begin by trying Lucknow’s spectacular kebabs and visiting the amazing Taj Mahal in Agra. You then continue to towns and palaces of Rajasthan, experience the bustling modern city of Mumbai, and finish on Goa’s beautiful beaches. Along the way you will discover many facets of Indian culture, but your focus will always be on the country’s delicious food. You will enjoy unique opportunities to sample a wealth of traditional delicacies, from the sublime vegetarian cuisine of Jaipur to the spicy seafood of the coast.

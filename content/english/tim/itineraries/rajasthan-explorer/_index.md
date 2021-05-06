@@ -11,10 +11,10 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-international-airport-to-hotel/
-        title: Transfer from International airport to hotel
+        title: Transfer from Delhi's international airport to your hotel
         content: >-
-          Today, you start your tour on arrival in Delhi, where you will be met
-          by our representative and transferred to your hotel.
+          You start your tour on arrival in Delhi, where you will be met by our
+          representative and transferred to your hotel.
         date: ''
         etd: ''
         duration: ''
@@ -50,7 +50,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/half-day-tour-of-old-delhi-by-metro-and-rickshaw/
-        title: Half day tour of Old Delhi by metro & rickshaw
+        title: Morning guided tour of Old Delhi by Metro & rickshaw
         content: >-
           A half-day tour to Old Delhi using the modern Metro and the
           traditional cycle rickshaw. The Metro brings you to the heart of Old
@@ -93,7 +93,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/uttar-pradesh/cities/agra/excursions/half-day-city-tour-of-agra/
-        title: Half day city tour of Agra
+        title: Afternoon guided tour of the Taj Mahal and Red Fort
         content: >-
           The Taj Mahal is one of the most fascinating and beautiful monuments
           in the world. About 20,000 workers were employed in its construction,
@@ -127,6 +127,13 @@ itinerary:
         url: /destinations/india/states/rajasthan/cities/jaipur/
         title: Jaipur
         content: >-
+          Today, you have a long drive to Jaipur, but with some very interesting
+          optional stops along the way, at the grand folly of Fatehpur Sikri,
+          Bharatpur bird sanctuary, and the huge Abhaneri step-well. Depending
+          on the stops you make, the drive takes from five hours to most of the
+          day.
+
+
           Jaipur is one of the most interesting cities in India, with exuberant
           18th- and 19th-century palaces and exotic street life. Just outside
           town is the impressive Amber Fort. It is worthwhile spending time
@@ -155,26 +162,29 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/excursions/morning-walking-tour-of-jaipur/
-        title: Morning walking tour of Jaipur
+        title: Morning walking tour of the Pink City
         content: >-
           To experience the life of the Pink City beyond the monuments, it is
           best to join a guided morning walk. Starting in the heart of the Old
           City, you will walk along the busy main streets, lined with parades of
           traditional shops, and explore smaller side streets, each devoted to
-          different crafts. You will see various tradesmen, such as
-          marble-sculptors and bangle-makers at work, visit local temples, see
-          the colourful vegetable and flower markets, and sample delicious
-          street foods, such as jalebis, rabri, kachoris, and lassi.
+          different crafts.
+
+
+          You will see various tradesmen, such as marble-sculptors and
+          bangle-makers at work, visit local temples, see the colourful
+          vegetable and flower markets, and sample delicious street foods, such
+          as jalebis, rabri, kachoris, and lassi.
         date: ''
         etd: ''
         duration: ''
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/excursions/half-day-excursion-to-amber-fort/
-        title: Half day excursion to Amber Fort
+        title: Afternoon guided tour of Amber Fort
         content: >-
           Just to the north of Jaipur, Amber Fort overlooks the city from a spur
-          of the Aravali Hills. There is a short, steep walk up to the entrance
+          of the Aravalli Hills. There is a short, steep walk up to the entrance
           courtyard, which leads to a magnificent complex of palaces, halls,
           pavilions, gardens and temples built over 125 years. There are
           excellent views down over the old town of Amer, and up to the Jaigarh
@@ -189,12 +199,14 @@ itinerary:
         title: Pushkar
         content: >-
           The holy (and hippie) city of Pushkar clings to the side of beautiful
-          Pushkar Lake, a three-hour drive from Jaipur. You have a free
-          afternoon to explore the city on your own: hundreds of small temples
-          are built on the periphery of the lake with wide stone steps or
-          ‘ghats’ leading down to the lake, and streets full of gem shops,
-          souvenir stalls and street-food vendors just behind. A magical quality
-          of light hovers over the lake, bouncing off the surrounding
+          Pushkar Lake, a three-hour drive from Jaipur.
+
+
+          You have a free afternoon to explore the city on your own: hundreds of
+          small temples are built on the periphery of the lake with wide stone
+          steps or ‘ghats’ leading down to the lake, and streets full of gem
+          shops, souvenir stalls and street-food vendors just behind. A magical
+          quality of light hovers over the lake, bouncing off the surrounding
           white-washed temples and bathing ghats. At sunset, Pushkar turns into
           one of the most exotic places on earth.
       - type: hotel
@@ -206,7 +218,7 @@ itinerary:
           former palace of the Maharaja of Kishangarh has green gardens and the
           verandahs overlooking the lake, temples and ghats. The hotel’s owner
           is a great collector of antique furniture, and all rooms have
-          hand-picked features. Large armoires with cut glass handles, carved
+          hand-picked features. Large armoires with cut-glass handles, carved
           mirror frames, and other smaller pieces of colonial or Rajasthani
           furniture are a delight.
         checkInDate: ''
@@ -229,7 +241,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/chandelao/excursions/jeep-safari-to-villages-surrounding-chandelao/
-        title: Jeep safari to villages surrounding Chandelao
+        title: Afternoon jeep safari to villages surrounding Chandelao
         content: >-
           On a village safari by jeep you will see the local craftsmen at work,
           and will visit a Bishnoi family in their traditional home. In winter
@@ -265,12 +277,14 @@ itinerary:
         title: Jaisalmer
         content: >-
           The heart of the Thar desert, Jaisalmer, is a six-hour drive from
-          Chandelao. The massive, turreted Golden Fort dominates Jaisalmer’s
-          skyline and the vast surrounding desert. Founded in the 12th century,
-          the fort stands on a high hill, enclosed by a thick wall and
-          reinforced with bastions. Within these bastions is a complete township
-          of cobbled streets strewn with palaces, mansions of rich merchants,
-          and temples.
+          Chandelao.
+
+
+          The massive, turreted Golden Fort dominates Jaisalmer’s skyline and
+          the vast surrounding desert. Founded in the 12th century, the fort
+          stands on a high hill, enclosed by a thick wall and reinforced with
+          bastions. Within these bastions is a complete township of cobbled
+          streets strewn with palaces, mansions of rich merchants, and temples.
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/jaisalmer/hotels/nachana-haveli/
@@ -300,11 +314,14 @@ itinerary:
           fort itself is not simply a monument, but is home to several thousand
           people. Within it you can see attractive Jain temples and fascinating
           architecture, and enjoy superb views over the city and the desert from
-          many vantage points. Hidden among the narrow lanes leading off the
-          main market street are several magnificent havelis. Patwon Ki Haveli
-          is best known for its latticed facade, and Nathmal Haveli has now been
-          converted into a small museum of local artefacts. The Gadi Sagar lake
-          is also worth seeing for its historic pavilions.
+          many vantage points.
+
+
+          Hidden among the narrow lanes leading off the main market street are
+          several magnificent havelis. Patwon Ki Haveli is best known for its
+          latticed facade, and Nathmal Haveli has now been converted into a
+          small museum of local artefacts. The Gadi Sagar lake is also worth
+          seeing for its historic pavilions.
         date: ''
         etd: ''
         duration: ''
@@ -338,8 +355,11 @@ itinerary:
           This morning, after a steaming breakfast amid the dunes, there is a
           second camel ride on a different route for around an hour before
           taking the jeep back to Jaisalmer. You arrive in the mid-morning back
-          at your original hotel, where your luggage has been stored. The rest
-          of the day is at leisure to explore this fascinating town on your own.
+          at your original hotel, where your luggage has been stored.
+
+
+          The rest of the day is at leisure to explore this fascinating town on
+          your own.
   - day: 10
     item:
       - type: city
@@ -349,10 +369,13 @@ itinerary:
           You travel back out to the edge of the desert to Jodhpur, about a
           five-hour drive. Jodhpur is dominated by the massive Meherangarh Fort,
           which houses an excellent museum and affords captivating views of the
-          blue Brahmin houses of the old city. The clock tower is a popular
-          landmark in the old city. Narrow alleys lead from here to bazaars for
-          textiles, silver and handicrafts. It’s a fascinating jumble of winding
-          streets, of great interest to wander around in the evening.
+          blue Brahmin houses of the old city.
+
+
+          The clock tower is a popular landmark in the old city. Narrow alleys
+          lead from here to bazaars for textiles, silver and handicrafts. It’s a
+          fascinating jumble of winding streets, of great interest to wander
+          around in the evening.
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/jodhpur/hotels/ratan-vilas/
@@ -375,7 +398,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/jodhpur/excursions/audio-guide-tour-of-jodhpurs-meherangarh-fort/
-        title: Audio-guide tour of Jodhpur's Meherangarh Fort
+        title: Morning audio-guide tour of Jodhpur's Meherangarh Fort
         content: >-
           Perched on a hilltop dominating the city, Meherangarh Fort is the most
           visually spectacular in Rajasthan. It is approached by a series of
@@ -481,9 +504,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/udaipur/excursions/morning-city-tour-of-udaipur-followed-by-a-boat-trip-on-lake-pichola-by-shared-boat/
-        title: >-
-          Morning city tour of Udaipur followed by a boat trip on Lake Pichola
-          (by shared boat)
+        title: Morning city tour of Udaipur followed by a boat trip on Lake Pichola
         content: >-
           The highlight of this guided city tour is a visit to the City Palace,
           now largely preserved as a museum with a large and varied collection
@@ -507,7 +528,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/udaipur/excursions/transfer-from-hotel-to-airport/
-        title: Transfer from hotel to airport
+        title: Transfer from your hotel to the airport
         content: >-
           Today, you have a departure transfer in Udaipur to the airport, to
           connect with your onward flight.
@@ -519,6 +540,8 @@ highlights:
   - Chilling out by the lake in Pushkar and Udaipur
   - Getting to know India's villages in Chandelao and Narlai
   - A camel safari and staying in the desert in Jaisalmer
-  - ''
+themes:
+  - Classic tours
+region: Rajasthan & the North
 ---
-The perfect round trip of Rajasthan, covering all its major highlights. This journey starts with a visit to the Taj Mahal, and takes in some of Rajasthan&rsquo;s most enchanting cities such as Jaipur and Udaipur. You have time to explore the walled desert city of Jaisalmer, and stay a night out in the desert dunes. There&rsquo;s also time to relax in the laidback oasis town of Pushkar and visit the fantastic Meherangarh Fort in Jodhpur.
+The perfect round trip of Rajasthan, covering all its major highlights. This journey starts with a visit to the Taj Mahal, and takes in some of Rajasthan’s most enchanting cities such as Jaipur and Udaipur. You have time to explore the walled desert city of Jaisalmer, and stay a night out in the desert dunes. There’s also time to relax in the laidback oasis town of Pushkar and visit the fantastic Meherangarh Fort in Jodhpur.

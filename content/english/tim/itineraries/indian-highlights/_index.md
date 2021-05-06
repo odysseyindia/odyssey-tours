@@ -16,7 +16,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-international-airport-to-hotel/
-        title: Transfer from International airport to hotel
+        title: Transfer from Delhi's international airport to your hotel
         content: >-
           Today, you start your tour on arrival in Delhi, where you will be met
           by our representative and transferred to your airport hotel,
@@ -30,7 +30,7 @@ itinerary:
         title: Holiday Inn (Aerocity)
         content: >-
           For a comfortable stay before or after a long flight, the Holiday Inn
-          at Aerocity, close to Delhi's International Airport, is ideal. The
+          at Aerocity, close to Delhi’s International Airport, is ideal. The
           rooms are large, modern, and, most important of all, quiet. There is a
           swimming pool, a large restaurant with abundant buffets, a bar, and a
           speciality Italian restaurant.
@@ -77,22 +77,22 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/excursions/early-morning-cycle-tour-of-jaipur/
-        title: Early morning cycle tour of Jaipur
+        title: Early morning cycle tour of Jaipur's Pink City
         content: >-
-          In the early morning, you join a small group of like-minded travellers
-          for a unique journey by bicycle into the streets of the old city. You
-          experience the true Jaipur, as you cycle through the narrow alleys to
-          get a peek into homes, kitchens and workshops. You learn about the
-          lives of the locals and the history of the city, and visit the
-          colourful and bustling vegetable and flower markets. You also enjoy a
-          traditional Rajasthani breakfast in a local house.
+          In the early morning, you join a small group for a unique journey by
+          bicycle into the streets of the old city. You will experience the true
+          Jaipur as you cycle through the narrow alleys to get a peek into
+          homes, kitchens and workshops. You learn about the lives of the locals
+          and the history of the city, and visit the colourful and bustling
+          vegetable and flower markets. You will also enjoy a traditional
+          Rajasthani breakfast in a local house.
         date: ''
         etd: ''
         duration: ''
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/excursions/half-day-excursion-to-amber-fort/
-        title: Half day excursion to Amber Fort
+        title: Morning guided excursion to Amber Fort
         content: >-
           You will meet your guide directly after the cycling tour, who will
           accompany you to Amber Fort, just to the north of Jaipur. There is a
@@ -100,8 +100,11 @@ itinerary:
           magnificent complex of palaces, halls, pavilions, gardens and temples
           built over 125 years. There are excellent views down over the old town
           of Amer, and up to the Jaigarh and Nahargarh Forts higher in the
-          hills. The rest of your day is at leisure to explore Jaipur’s lovely
-          markets on your own.
+          hills.
+
+
+          The rest of your day is at leisure to explore Jaipur’s lovely markets
+          on your own.
         date: ''
         etd: ''
         duration: ''
@@ -110,7 +113,19 @@ itinerary:
       - type: city
         url: /destinations/india/states/uttar-pradesh/cities/agra/
         title: Agra
-        content: "Today, you have a long drive to Agra, but with some very interesting optional stops along the way, at the huge Abhaneri step-well, Bharatpur bird sanctuary and the grand folly of Fatehpur Sikri. Depending on the stops you make, the drive takes from five hours to most of the day.\_ Agra is home to possibly the most famous and beautiful building in the world: the Taj Mahal, built in the 17th century by the Mughal emperor Shah Jahan as a tomb and memorial for his wife Mumtaz Mahal. Along the river Yamuna is the impressive Red Fort, the capital of the Mughal Empire during the 16th and 17th centuries."
+        content: >-
+          Today, you have a long drive to Agra, but with some very interesting
+          optional stops along the way, at the huge Abhaneri step-well,
+          Bharatpur bird sanctuary and the grand folly of Fatehpur Sikri.
+          Depending on the stops you make, the drive takes from five hours to
+          most of the day.
+
+
+          Agra is home to possibly the most famous and beautiful building in the
+          world: the Taj Mahal, built in the 17th century by the Mughal emperor
+          Shah Jahan as a tomb and memorial for his wife Mumtaz Mahal. Along the
+          river Yamuna is the impressive Red Fort, the capital of the Mughal
+          Empire during the 16th and 17th centuries.
       - type: hotel
         url: >-
           /destinations/india/states/uttar-pradesh/cities/agra/hotels/the-coral-tree-homestay/
@@ -131,17 +146,16 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/uttar-pradesh/cities/agra/excursions/early-morning-visit-to-the-taj-mahal-without-guide/
-        title: Early morning visit to the Taj Mahal (without guide)
+        title: Early morning visit on your own to the Taj Mahal
         content: >-
           The best time of day to appreciate this stunning monument is as soon
           as the Taj Mahal opens, when it is at its quietest and most serene.
-          You can enjoy the gardens, the mausoleum and the mosque. Don’t miss
-          the marble inlay work and the various vantage points offered
-          throughout the peaceful gardens. You can carry mobile phones, cameras,
-          a water bottle and valuables inside, but all other items must be
-          deposited in safety lockers at the entry gate. You are then free to
-          enter the grounds of the Taj Mahal for a maximum of three hours. Once
-          you have taken it all in, you can return to your hotel for a late
+          You can enjoy the gardens, the mausoleum and the mosque, without
+          needing a professional guide. Don’t miss the marble inlay work and the
+          various vantage points offered throughout the peaceful gardens.
+
+
+          Once you have taken it all in, you can return to your hotel for a late
           breakfast.
         date: ''
         etd: ''
@@ -149,7 +163,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/uttar-pradesh/cities/agra/excursions/afternoon-guided-city-tour-of-agra/
-        title: Afternoon guided city tour of Agra
+        title: Afternoon guided tour of Agra's other monuments
         content: >-
           Agra has much to offer besides the Taj Mahal, such as Agra Fort, a
           masterpiece of design and construction. You then visit
@@ -183,12 +197,12 @@ itinerary:
         url: /destinations/india/states/delhi/cities/delhi/hotels/colonels-retreat/
         title: Colonel's Retreat
         content: >-
-          Colonel’s Retreat is a pleasant and homely guest house in the
-          upmarket, tree-lined neighborhood of Defence Colony. The large rooms
-          are comfortable and artistically furnished. Each floor boasts a lovely
-          lounge area with comfortable sofas for relaxing, books to read and
-          borrow, and computers. A private rooftop dining area gives you a
-          lovely view of the city.
+          Colonel’s Retreat is a very pleasant and homely guest house in an
+          upmarket, tree-lined neighbourhood. The large rooms are comfortable
+          and artistically furnished. Each floor boasts a lovely lounge area
+          with comfortable sofas for relaxing, books to read and borrow, and
+          computers. A private rooftop dining area gives you a lovely view of
+          the city.
         checkInDate: ''
         checkInTime: ''
         checkOutDate: ''
@@ -199,7 +213,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/half-day-tour-of-old-delhi-by-metro-and-rickshaw/
-        title: Half day tour of Old Delhi by metro & rickshaw
+        title: Morning guided tour of Old Delhi by Metro & rickshaw
         content: >-
           A half-day tour to Old Delhi using the modern Metro and the
           traditional cycle rickshaw. The Metro brings you to the heart of Old
@@ -230,7 +244,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-hotel-to-international-airport/
-        title: Transfer from hotel to International airport
+        title: Transfer from your hotel to the international airport
         content: >-
           In the evening, a departure transfer will take you to Delhi airport to
           catch your onward flight.
@@ -241,7 +255,8 @@ highlights:
   - Cycling around Jaipur's Pink City
   - Visiting the Taj Mahal at leisure
   - Exploring medieval-era Old Delhi by cycle rickshaw
-themes: []
-region: '0'
+themes:
+  - Classic tours
+region: Rajasthan & the North
 ---
 The ideal itinerary for anyone wanting to see the best of India in a week. The magical Golden Triangle in India is one of the country’s most popular tourist circuits. Comprising Delhi, Agra and Jaipur, it gets its name from the triangle that these cities form. Roughly equidistant in northern India, the cities provide a classic and unforgettable introduction to the country and its charms.

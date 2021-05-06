@@ -9,8 +9,7 @@ highlights:
   - Being awed by the serene Golden Temple in Amritsar
   - Learning about Buddhism and Tibetan culture in Dharamsala
   - A peaceful evening ceremony on the riverbank in Rishikesh
-  - Colourful, noisy chaos of the evening aarti in Haridwar
-  - ''
+  - The colourful, noisy chaos of the evening aarti in Haridwar
 itinerary:
   - day: 0
     item:
@@ -180,5 +179,8 @@ itinerary:
   - day: 6
     item: []
 weight: 203
+themes:
+  - Cultural journeys
+region: Foothills of the Himalayas
 ---
-India is a rich tapestry of religion, from the various, colourful sects of Hinduism to Islam, Sikhism to Christianity, Buddhism, Jainism and more. On this tour, you get to visit some of the holiest places for Hindus, Sufis, Sikhs and Buddhists, all blessed with lovely architecture, incredible people and lots to learn. 
+India is a rich tapestry of religion, from the various, colourful sects of Hinduism to Islam, Sikhism to Christianity, Buddhism, Jainism and more. On this tour, you get to visit some of the holiest places for Hindus, Sufis, Sikhs and Buddhists, all blessed with lovely architecture, incredible people and lots to learn.

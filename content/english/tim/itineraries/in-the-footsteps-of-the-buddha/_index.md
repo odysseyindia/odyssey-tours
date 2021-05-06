@@ -7,21 +7,20 @@ translationKey: in-the-footsteps-of-the-buddha
 type: itinerary
 tour: In the Footsteps of the Buddha
 highlights:
+  - Seven of the eight holiest sites of Buddhism
   - >-
-    Seven of the eight holiest sites of Buddhism Visiting the monasteries and
-    stupas at Sarnath, Bodh Gaya, Rajgir and Lumbini
-  - >-
-    The world's oldest university Visiting the Buddha's birthplace Interacting
-    with monks and teachers
-  - ''
-  - ''
+    Visiting the monasteries and stupas at Sarnath, Bodh Gaya, Rajgir and
+    Lumbini
+  - The world's oldest university
+  - Visiting the Buddha's birthplace
+  - Interacting with monks and teachers
 itinerary:
   - day: 0
     item:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-international-airport-to-hotel/
-        title: Transfer from International airport to hotel
+        title: Transfer from Delhi's international airport to your hotel
         content: >-
           Today, you start your tour on arrival in Delhi, where you will be met
           by our representative and transferred to your airport hotel,
@@ -34,8 +33,8 @@ itinerary:
           /destinations/india/states/delhi/cities/delhi/hotels/holiday-inn-aerocity/
         title: Holiday Inn (Aerocity)
         content: >-
-          For a comfortable stay before for after a long flight, the Holiday Inn
-          at Aerocity, close to Delhi’s International Airport, is ideal. The
+          For a comfortable stay before or after a long flight, the Holiday Inn
+          at Aerocity, close to Delhi's International Airport, is ideal. The
           rooms are large, modern, and, most important of all, quiet. There is a
           swimming pool, a large restaurant with abundant buffets, a bar, and a
           speciality Italian restaurant.
@@ -51,16 +50,19 @@ itinerary:
         title: Varanasi
         content: >-
           Today, you have a flight to Varanasi, one of the most important places
-          for Hindus: it’s believed that anyone who dies here will be liberated
+          for Hindus: it's believed that anyone who dies here will be liberated
           from the cycle of reincarnation, and bathing in the Ganges River is
-          said to cleanse away all sins. The fascinating thing is that the
-          rituals are conducted openly along the many riverside ghats, which are
-          used for everything from bathing to burning the bodies of the dead. It
-          is not the easiest city to appreciate as it is noisy and crowded, but
-          it is certainly one of the most memorable places you will ever visit.
+          said to cleanse away all sins.
 
 
-          Varanasi’s riverside ghats are fabulous for exploring on your own -
+          The fascinating thing is that the rituals are conducted openly along
+          the many riverside ghats, which are used for everything from bathing
+          to burning the bodies of the dead. It is not the easiest city to
+          appreciate as it is noisy and crowded, but it is certainly one of the
+          most memorable places you will ever visit.
+
+
+          Varanasi's riverside ghats are fabulous for exploring on your own -
           the rest of the day is free for you to walk around and absorb the
           unique atmosphere.
       - type: hotel
@@ -88,7 +90,7 @@ itinerary:
         title: Early morning Ganges aarti, boat ride and walking tour
         content: >-
           Your guide meets you at the hotel before sunrise, so you can watch the
-          amazing Subah-e-Benares spectacle, which takes place on Varanasi’s
+          amazing Subah-e-Benares spectacle, which takes place on Varanasi's
           waterfront every morning. The principal attraction of Varanasi is the
           long string of bathing ghats by the river, where pilgrims make their
           sin-cleansing dip in the holy river and on which bodies are cremated.
@@ -110,17 +112,19 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/uttar-pradesh/cities/varanasi/excursions/excursion-to-sarnath/
-        title: Excursion to Sarnath
+        title: Afternoon excursion to Sarnath
         content: >-
           To the north of Varanasi, Sarnath is a peaceful contrast to the chaos
           of the city. It was here that Gautama Buddha preached his first sermon
           2,500 years ago. The site is sacred to Buddhists and is now a major
-          place of pilgrimage. Within a peaceful park are stupas and other ruins
-          from the time of the Buddha. There is also a temple with paintings
-          depicting the life of the Buddha on the walls. The Archeological
-          Museum is worth a visit to view unique Buddhist masterpieces, and also
-          on display is the famous Ashoka column, which features on all Indian
-          banknotes.
+          place of pilgrimage.
+
+
+          Within a peaceful park are stupas and other ruins from the time of the
+          Buddha. There is also a temple with paintings depicting the life of
+          the Buddha on the walls. The Archeological Museum is worth a visit to
+          view unique Buddhist masterpieces, and also on display is the famous
+          Ashoka column, which features on all Indian banknotes.
         date: ''
         etd: ''
         duration: ''
@@ -134,6 +138,8 @@ itinerary:
           Buddhists from all over the world. It was here that Prince Siddhartha
           Gautama attained enlightenment beneath a bodhi tree and became the
           Buddha. On this sacred spot stands the majestic Mahabodhi Temple.
+
+
           Pilgrims from many lands have built their own temples and monasteries,
           offering meditation courses varying from a week to a month. The
           International Meditation Centre also holds courses.
@@ -159,7 +165,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/bihar/cities/bodh-gaya/excursions/half-day-tour-of-bodh-gaya/
-        title: Half day tour of Bodh Gaya
+        title: Morning guided tour of Bodh Gaya
         content: >-
           Bodh Gaya is not so much a town as a true Buddhist working centre
           surrounded by farmland and rural villages. The main site is the famous
@@ -185,16 +191,16 @@ itinerary:
 
           Surrounded by rugged, forested hills, the town of Rajgir is important
           for Buddhists as well as Jains as the founders of both religions spent
-          many years meditating and preaching here. Gridhrakuta (“Vultures
-          Peak”) is a site much venerated by Buddhists, as this is where the
+          many years meditating and preaching here. Gridhrakuta ("Vulture's
+          Peak") is a site much venerated by Buddhists, as this is where the
           Buddha delivered many important sermons. Two rock-cut caves here were
           a favourite retreat of the Buddha.
 
 
-          Nalanda was the site of the world’s earliest university, where 2,000
+          Nalanda was the site of the world's earliest university, where 2,000
           teachers and 10,000 students from all over the Buddhist world lived
           and studied from the 5th century BC till the 12th century AD. Much
-          still lies unexcavated, but even so, Nalanda’s scale and grandeur is
+          still lies unexcavated, but even so, Nalanda's scale and grandeur is
           evident from the ruins of the stupas, temples and monasteries. There
           is also a small but interesting archaeological museum of finds from
           the site.
@@ -235,15 +241,15 @@ itinerary:
           reputedly one of the first democratic republics. This is where the
           Buddha preached his last sermon and announced his approaching Nirvana.
           Vaishali today is a small village surrounded by banana and mango
-          groves and rice fields. At the site of Buddha’s last sermon, the
+          groves and rice fields. At the site of Buddha's last sermon, the
           Emperor Ashoka erected a pillar which still stands, surrounded by
           ruined monasteries.
 
 
           You continue to Kushinagar, where the Buddha died and was cremated,
-          and passed into nirvana. A modern temple, with a large “Reclining
-          Buddha” statue, has been built to commemorate this, and various
-          monuments relating to the Buddha’s last days can be seen. In recent
+          and passed into nirvana. A modern temple, with a large "Reclining
+          Buddha" statue, has been built to commemorate this, and various
+          monuments relating to the Buddha's last days can be seen. In recent
           years, new temples have been constructed by Chinese, Sri Lankan, Thai
           and Japanese Buddhists alongside the ruins of ancient monasteries and
           stupas.
@@ -252,12 +258,12 @@ itinerary:
           /destinations/india/states/uttar-pradesh/cities/kushinagar/hotels/the-imperial-kushinagar/
         title: The Imperial Kushinagar
         content: >-
-          This hotel is one of the best on the “Buddhist Circuit”, and it is a
+          This hotel is one of the best on the "Buddhist Circuit", and it is a
           pleasant surprise to find such a comfortable and well run property in
           such a remote area. The staff are very friendly and helpful. The chef
           is well versed in preparing dishes from throughout Asia to cater to
           the pilgrims from different Buddhist nations - we recommend asking him
-          for the “Thai Special Meal” - delicious!
+          for the "Thai Special Meal" - delicious!
         checkInDate: ''
         checkInTime: ''
         checkOutDate: ''
@@ -270,15 +276,18 @@ itinerary:
         title: Lumbini
         content: >-
           Today, you cross over into Nepal, and drive to Lumbini, which takes
-          about five hours. Lumbini is one of the four main sites of pilgrimage
-          for Buddhists, as it is the birthplace of Gautama Buddha, the founder
-          of Buddhism. Lumbini is a small, tranquil place with a spiritual
-          atmosphere in keeping with its religious significance. From early
-          morning to early evening, pilgrims from various countries perform
-          chanting and meditation at the site.
+          about five hours.
 
 
-          The afternoon is at leisure for your to explore the compact town of
+          Lumbini is one of the four main sites of pilgrimage for Buddhists, as
+          it is the birthplace of Gautama Buddha, the founder of Buddhism.
+          Lumbini is a small, tranquil place with a spiritual atmosphere in
+          keeping with its religious significance. From early morning to early
+          evening, pilgrims from various countries perform chanting and
+          meditation at the site.
+
+
+          The afternoon is at leisure for you to explore the compact town of
           Lumbini on your own, at your own pace.
   - day: 8
     item:
@@ -286,14 +295,17 @@ itinerary:
         url: /destinations/india/states/uttar-pradesh/cities/shravasti/
         title: Shravasti
         content: >-
-          Today, you cross back into India, first visiting the Buddha’s
-          birthplace of Kapilavastu. Buddhist texts claim that Kapilavastu was
-          the childhood home of Siddhartha Gautama where he spent the first 29
-          years of his life as a prince. He lived a luxurious, well-protected
-          early life, got married and had a son named Rahul. According to the
-          popular story, at one stage he saw an old man, a sick man and a dead
-          body that made him question the meaning of life. He left everything he
-          had in search of the meaning of life and the world got the Buddha.
+          Today, you cross back into India, first visiting the Buddha's
+          birthplace of Kapilavastu.
+
+
+          Buddhist texts claim that Kapilavastu was the childhood home of
+          Siddhartha Gautama where he spent the first 29 years of his life as a
+          prince. He lived a luxurious, well-protected early life, got married
+          and had a son named Rahul. According to the popular story, at one
+          stage he saw an old man, a sick man and a dead body that made him
+          question the meaning of life. He left everything he had in search of
+          the meaning of life and the world got the Buddha.
 
 
           You then continue to Shravasti, which was one of the six largest
@@ -302,7 +314,7 @@ itinerary:
           in Shravasti, mainly in the Jetavana monastery. It is also the place
           where he gave most of his discourses and instructions. The site of
           Jetavana monastery is the main pilgrim destination, with meditation
-          and chanting mainly done at the Gandhakuti (Buddha’s hut) and the
+          and chanting mainly done at the Gandhakuti (Buddha's hut) and the
           Anandabodhi tree.
 
 
@@ -329,5 +341,8 @@ itinerary:
           Today, you drive four hours to Lucknow airport to connect with your
           onward flight.
 weight: 113
+themes:
+  - Cultural journeys
+region: Rajasthan & the North
 ---
 Buddhism, believe it or not, is very much an Indian and Nepali phenomenon, with its origins in southern Nepal and the Indian states of Bihar and Uttar Pradesh. This is where the Buddha spent his life, learning, teaching and finally attaining Nirvana. Our tour takes you across the most important sites connected to the Buddha’s life, starting with the deer park at Sarnath, and going to Bodh Gaya, the monastery of Rajgir, the world’s first university at Nalanda and the temples of Vaishali. You cross into Nepal to visit Lumbini, and back into India to visit the Buddha’s birthplace at Kapilavastu and the important site of Shravasti. A wonderful tour whether you love Buddhism, or just history and archaeology.
