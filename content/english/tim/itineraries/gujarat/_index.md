@@ -10,15 +10,16 @@ highlights:
   - Visiting villages in the desert around Bhuj
   - Varied accommodation, from mud huts to a city mansion to palaces
   - Looking for lions in Sasangir
-  - ''
 itinerary:
   - day: 0
     item:
       - type: excursion
         url: >-
           /destinations/india/states/gujarat/cities/ahmedabad/excursions/transfer-from-airport-to-hotel/
-        title: Transfer from airport to hotel
-        content: ''
+        title: Transfer from Ahmedabad's airport to your hotel
+        content: >-
+          Your tour starts on arrival at Ahmedabad airport, where you are met by
+          our representative and transferred to your hotel.
         date: ''
         etd: ''
         duration: ''
@@ -53,30 +54,31 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/gujarat/cities/ahmedabad/excursions/early-morning-heritage-walk-from-house-of-mg/
-        title: Early morning heritage walk from House of MG
+        title: Early morning heritage walk of Ahmedabad
         content: >-
-          You join a group of like-minded travellers on an early-morning guided
-          group walk through the narrow lanes of the historic Old City of
-          Ahmeadbad. This is a fascinating maze of crowded bazaars, residential
-          areas and subterranean stepwells. At the end of the 2-hour walk, you
-          return to the hotel for a late breakfast.
+          You join a morning guided group walk through the narrow atmospheric
+          lanes of the historic Old City. This is a fascinating maze of crowded
+          bazaars, exquisitely carved facades, temples, subterranean stepwells,
+          and even a secret passageway. You first walk through a Hindu-dominated
+          area, then a section dominated by Jains, then finally to the Muslim
+          market area to end at the city's largest mosque.
         date: ''
         etd: ''
         duration: ''
       - type: excursion
         url: >-
           /destinations/india/states/gujarat/cities/ahmedabad/excursions/afternoon-visit-to-gandhis-sabarmati-ashram-and-law-garden-market/
-        title: Afternoon visit to Gandhi's Sabarmati Ashram & Law Garden Market
+        title: Afternoon visit to Gandhi's Sabarmati Ashram and Law Garden Market
         content: >-
-          Alongside the Sabaramati River, the Ashram was the home of Mahatma
-          Gandhi from 1915 to 1930, and the seeds of India’s Independence
+          Alongside the Sabarmati River, the Ashram was the home of Mahatma
+          Gandhi from 1915 to 1930, and the seeds of India's Independence
           campaign were sown here. His simple living quarters are maintained
           exactly as they were at that time. There is also a museum dedicated to
           his life.
 
 
           The nearby Law Garden Market operates from late afternoon and has
-          stalls selling colourful local fabrics, as well as a “food street”
+          stalls selling colourful local fabrics, as well as a "food street"
           with local fast food outlets - the kulfi falooda is highly recommended
           at the end of a hot day.
         date: ''
@@ -98,7 +100,7 @@ itinerary:
           perfect base from which to explore the Rann of Kutch, the last refuge
           in India of the Asiatic wild ass, an elegant member of the horse
           family. In winter it is also home to migratory birds such as
-          flamingoes, MacQueen’s bustard etc.
+          flamingoes, MacQueen's bustard etc.
       - type: hotel
         url: /destinations/india/states/gujarat/cities/dasada/hotels/rann-riders/
         title: Rann Riders
@@ -140,7 +142,7 @@ itinerary:
           interesting communities including pastoral groups. The women of the
           Kharapat Rabari community do exquisite embroidery using herringbone
           stitches interspersed with small mirrors, and chain stitches for
-          peacocks and other motifs. An interesting weaving method here is Ikat,
+          peacocks and other motifs. An interesting weaving method here is ikat,
           which involves the continual resist drying of the warp threads before
           drawing them on the loom.
         date: ''
@@ -155,10 +157,12 @@ itinerary:
           After breakfast, you have a six-hour drive across arid Kutch to Bhuj,
           the capital of the province, known for its congregation of textile
           weavers and designers. The now deserted palace buildings of the Aina
-          Mahal and Prag Mahal have an eerie beauty. Bhuj is the perfect base
-          for visiting villages in Kutch, where the tribal people turn out
-          exquisite hand-loomed woollen and cotton clothes decorated with dye or
-          embroidery.
+          Mahal and Prag Mahal have an eerie beauty.
+
+
+          Bhuj is the perfect base for visiting villages in Kutch, where the
+          tribal people turn out exquisite hand-loomed woollen and cotton
+          clothes decorated with dye or embroidery.
       - type: hotel
         url: /destinations/india/states/gujarat/cities/bhuj/hotels/the-bhuj-house/
         title: The Bhuj House
@@ -181,16 +185,13 @@ itinerary:
         title: Full day excursion to Bhujodi, Ajrakpur and Dhaneti
         content: >-
           In the villages around Bhuj, the tribal people turn out exquisite
-          handloomed woollen and cotton clothes decorated with dye or
-          embroidery, often with mirrorwork.
-
-
-          The small village of Bhujodi, 10km from Bhuj, is home to the Rabari or
-          local cattle-herding community. There are 250 families in the village
-          and all of them are weavers. Women manufacture the yarn while the men
-          work on the handlooms. You can visit the artisans in their homes to
-          see the process for weaving from buying cotton to making thread and
-          weaving it on loom.
+          hand-loomed woollen and cotton clothes decorated with dye or
+          embroidery, often with mirrorwork. The small village of Bhujodi, 10km
+          from Bhuj, is home to the Rabari or local cattle-herding community.
+          There are 250 families in the village, all weavers. Women manufacture
+          the yarn while the men work on the handlooms. You can visit the
+          artisans in their homes to see the process for weaving from buying
+          cotton to making thread and weaving it on loom.
 
 
           The nearby village of Ajrakhpur is home of the traditional Ajrakh
@@ -199,15 +200,15 @@ itinerary:
           printing blocks are often shaped and carved by hand using absolute
           precision and skill. Almost every family in the village contributes to
           this complex art form in some way. Ajrakhpur has also a wonderful
-          ‘Living and Learning Design Center’.
+          'Living and Learning Design Center’.
 
 
-          A little further is Dhaneti village where you can see the embroidery
+          A little further is Dhaneti village, where you can see the embroidery
           skills of the Ahir community. Ahir embroidery is known for its
           prolific use of mirrors, floral designs, parrots and peacocks. Each
           stitch and motif has a specific name. They tend to use a variety of
           base fabrics. These include tie-dye bandhani fabrics in reds and
-          oranges, and satin weave mashru that has a silky feel.
+          oranges, and satin weave mashru, which has a silky feel.
         date: ''
         etd: ''
         duration: ''
@@ -216,7 +217,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/gujarat/cities/bhuj/excursions/full-day-excursion-to-hodka-and-other-textile-villages-north-of-bhuj/
-        title: Full day excursion to Hodka and other textile villages north of Bhuj
+        title: Full day excursion to Hodka and other textile villages
         content: >-
           Not far north of Bhuj is a village called Zura where Huser Sidhik and
           his family keep alive the art of copper-bell making. Made from scrap
@@ -226,7 +227,7 @@ itinerary:
 
 
           A few kilometres from Zura is the village of Nirona where the delicate
-          art form known as Rogan Art originated. The technique, which was
+          art form known as rogan originated. The technique, which was
           traditionally used to adorn bridal wear, involves dipping a metal
           needle in vibrant oil-based paints to create designs on fabric.
 
@@ -235,14 +236,14 @@ itinerary:
           embroidery work. While the women create fascinating designs of
           clothes, bed sheets, wall hangings, table cloths, jewellery, toys,
           hand bags and more, the men create all sorts of leather products. The
-          diminishing craft of Khavda pottery is still practiced by a handful of
+          diminishing craft of khavda pottery is still practiced by a handful of
           artisanal communities in this northern Kutch village. While the men do
           the throwing of the terracotta, the women are in charge of the surface
           decoration.
 
 
           The village of Hodka has picturesque thatched-roofed mud huts known as
-          Bhungas, with hand-painted exterior walls and interior walls adorned
+          bhungas, with hand-painted exterior walls and interior walls adorned
           with mud-mirror work. The leather bags and quilts of the village are
           especially popular, known for their colourful hues and fine
           embroidery.
@@ -257,14 +258,10 @@ itinerary:
         content: >-
           Today, you drive for six hours to the princely state of Gondal, known
           for its progressive rulers. In the late 19th century, Gondal did away
-          with the women’s purdah or veil, abolished land taxes and insisted on
+          with the women's purdah or veil, abolished land taxes and insisted on
           education for girls. Gondal is an interesting city with some
           finely-carved palaces. The town is also home to an interesting
           100-year-old ayurvedic pharmacy.
-
-
-          You stay in Orchard Palace, originally built to house the guests of
-          the Maharaja of Gondal.
       - type: hotel
         url: >-
           /destinations/india/states/gujarat/cities/gondal/hotels/orchard-palace/
@@ -272,8 +269,8 @@ itinerary:
         content: >-
           A lovely palace with just seven guest rooms, set in a huge complex of
           fruit orchards, lawns and gardens. A delightful accommodation option
-          is the beautifully restored Rail Saloon of the royal family! The “room
-          of miniatures” is a splendid sitting room with a collection of
+          is the beautifully restored Rail Saloon of the royal family! The "room
+          of miniatures" is a splendid sitting room with a collection of
           miniature paintings, brass and antique furniture. The vast property
           also includes an impressive collection of classic and vintage cars.
         checkInDate: ''
@@ -287,7 +284,7 @@ itinerary:
         url: /destinations/india/states/gujarat/cities/sasangir/
         title: Sasangir
         content: >-
-          Today, you drive four hours to Sasan Gir, and with any luck, you’ll
+          Today, you drive four hours to Sasan Gir, and with any luck, you'll
           get to see lions! Sasangir is the only habitat of the lion left
           outside Africa, and with the lion population 300-strong, your chances
           of spotting one are very good. Other wildlife includes panthers,
@@ -297,7 +294,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/gujarat/cities/sasangir/excursions/jeep-safari-into-sasangir-national-park/
-        title: Jeep safari into Sasangir National Park
+        title: Afternoon jeep safari into Sasangir National Park
         content: >-
           Gir National Park & Wildlife Sanctuary is a hilly tract of dry
           deciduous forests, acacia scrub, evergreen and semi-evergreen flora
@@ -305,7 +302,6 @@ itinerary:
           in the reserve is the Kamleshwar Dam, known for its large crocodile
           population. Originally protected by the Nawab of Junagadh, the
           Sasangir Forest is the last remaining sanctuary of the Asiatic lion.
-          You can see the lions on a jeep safari.
         date: ''
         etd: ''
         duration: ''
@@ -320,7 +316,7 @@ itinerary:
           have been built to ensure privacy whilst still offering unrestricted
           views over the trees and fields that attract their own share of
           birdlife. The Gir Birding Lodge offers a good base for tracking the
-          Asiatic Lion in the wild.
+          Asiatic lion in the wild.
         checkInDate: ''
         checkInTime: ''
         checkOutDate: ''
@@ -332,7 +328,7 @@ itinerary:
         url: /destinations/india/states/diu/cities/diu/
         title: Diu
         content: >-
-          You drive today to Gujarat’s coast today, a four-hour drive taking you
+          You drive today to Gujarat's coast today, a four-hour drive taking you
           to the former Portuguese colony of Diu. To this day, it retains a
           distinctive atmosphere. The town of Diu is a maze of narrow, winding
           streets and many of the houses are well ornamented and brightly
@@ -347,9 +343,9 @@ itinerary:
         url: /destinations/india/states/diu/cities/diu/hotels/radhika-beach-resort/
         title: Radhika Beach Resort
         content: >-
-          With double storied tile roofed villas surrounding a paved garden and
+          With double-storied tile-roofed villas surrounding a paved garden and
           swimming pool, this is generally considered the best hotel in Diu. It
-          is located on Diu’s best beach - Nagoa. The rooms are spacious and
+          is located on Diu's best beach - Nagoa. The rooms are spacious and
           imaginatively done up. Radhika Beach Resort also features a swimming
           pool, health club and indoor games.
         checkInDate: ''
@@ -400,7 +396,7 @@ itinerary:
         content: >-
           The Palitana temples are on top of Shatrunjay hill. The winding 3.5-km
           path to the top has 3,950 steps and you can do this on your own
-          without a guide. There’s also a thriving local industry of people who
+          without a guide. There's also a thriving local industry of people who
           will carry you up the steps in baskets, or even literally push you up
           the steps! The reward for the climb is a superb view and the
           extraordinary temples themselves.
@@ -416,23 +412,15 @@ itinerary:
         url: /destinations/india/states/gujarat/cities/sayla/
         title: Sayla
         content: >-
-          The village of Sayla, southwest of Ahmedabad, has historic buildings,
-          old houses, temples, ashrams, lake, weavers and handicrafts. It is
-          also home to The Bell Guest House, an Indo-European building that once
-          hosted European visitors to the Sayla princely state. Set in lush
-          green gardens with shady trees and lawns, this heritage house has now
-          been renovated and opened as a heritage homestay.
-      - type: excursion
-        url: >-
-          /destinations/india/states/gujarat/cities/sayla/excursions/visit-saylas-textile-centers/
-        title: Visit Sayla's textile centers
-        content: >-
           After breakfast, drive to the princely state of Sayla, which takes
           about four hours. The village of Sayla, southwest of Ahmedabad, has
           historic buildings, old houses, temples, ashrams, lake, weavers and
           handicrafts.
-
-
+      - type: excursion
+        url: >-
+          /destinations/india/states/gujarat/cities/sayla/excursions/visit-saylas-textile-centers/
+        title: Afternoon visit to Sayla's textile centers
+        content: >-
           A typical small princely state, Sayla consists of a palace, and a
           cluster of villages, which were centres for cottage industry. The
           women of the Kathi community specialize in beadwork, the craft of
@@ -468,8 +456,12 @@ itinerary:
         url: /destinations/india/states/gujarat/cities/ahmedabad/
         title: Ahmedabad
         content: >-
-          Today, you drive the three hours to Ahmedabad’s airport to connect
+          Today, you drive the three hours to Ahmedabad's airport to connect
           with your onward flight.
 weight: 401
+themes:
+  - Cultural journeys
+  - Wildlife/Birding tours
+region: Gujarat & Central India
 ---
-Though not completely unknown, Gujarat is so culturally rich you wonder why more people don’t visit it! Extremely varied, it goes from Ahmedabad’s bustling lanes to vast carved monuments to the endless salt plains of Kutch, a lovely palace built by a feminist ruler in Gondal, (literally) breathtaking temples at Palitana, and the Asiatic lion in Sasangir forest. You get to meet locals and explore the beautiful mirror-work embroidery, look for amazing wildlife including birds, desert foxes, hyenas, the very rare Wild Ass and of course lions, and try great food on this offbeat trip.
+Though not completely unknown, Gujarat is so culturally rich you wonder why more people don&rsquo;t visit it! Extremely varied, it goes from Ahmedabad&rsquo;s bustling lanes to vast carved monuments to the endless salt plains of Kutch, a lovely palace built by a feminist ruler in Gondal, (literally) breathtaking temples at Palitana, and the Asiatic lion in Sasangir forest. You get to meet locals and explore the beautiful mirror-work embroidery, look for amazing wildlife including birds, desert foxes, hyenas, the very rare Wild Ass and of course lions, and try great food on this offbeat trip.

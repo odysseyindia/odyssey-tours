@@ -10,7 +10,6 @@ highlights:
   - Enjoy the dances and peace of Majuli island
   - Spot rhinos, elephants and even tigers on jeep safaris in Kaziranga
   - Stay in beautiful hotels overlooking the hills of Shillong
-  - ''
 itinerary:
   - day: 0
     item:
@@ -215,19 +214,19 @@ itinerary:
           /destinations/india/states/nagaland/cities/mokokchung/excursions/full-day-excursion-to-longkhum-and-mopunchuket/
         title: Full day excursion to Longkhum and Mopunchuket
         content: >-
-          In the morning, you visit Longkhum village, on the highest hill top in
+          In the morning, you visit Longkhum village, on the highest hilltop in
           the district. It used to be famous for head hunting in the past and
           the Nagas believe that it is the resting placed for spirits of the
-          dead en route to paradise. You are expected to come again to Longkhum
-          to collect your spirit, which is likely to stay behind. Longkhum
-          commands lovely views and the locals make ethnic handicrafts and
-          handloom products.
+          dead en route to paradise. You were expected to come again to Longkhum
+          to collect your spirit, which was likely to stay behind. Apart from
+          the mythology, Longkhum commands lovely views and the locals make
+          ethnic handicrafts and handloom products.
 
 
           Afterwards, you visit Mopunchuket (40 minutes from Mokokchung), a
           remarkably clean and well-kept village where almost every building
           seems to have something to do with the Baptist Church. There is a
-          well-preserved Morung (dormitory) of the Ao tribe and a small,
+          well-preserved morung (dormitory) of the Ao tribe and a small,
           well-maintained park with an old totem pole and several more modern
           wooden sculptures.
         date: ''
@@ -242,7 +241,10 @@ itinerary:
           A five-hour drive today takes you back into Assam, to Jorhat, a major
           tea hub that’s surrounded by many tea estates. The Gymkhana Club, once
           the centre of social evenings and sports in British days, is still
-          active The afternoon is free for you to relax in the hotel.
+          active
+
+
+          The afternoon is free for you to relax in the hotel.
       - type: hotel
         url: /destinations/india/states/assam/cities/jorhat/hotels/thengal-manor/
         title: Thengal Manor
@@ -268,8 +270,10 @@ itinerary:
           Near Jorhat is Majuli, the largest river island in the world, which
           you reach after an hour’s ride on a local ferry. The island, a World
           Heritage Site in the Brahmaputra river, is known for its beautiful
-          rural setting, dancing monks and traditional tribal architecture. A
-          visit to Majuli allows you to gently contemplate mesmerising
+          rural setting, dancing monks and traditional tribal architecture.
+
+
+          A visit to Majuli allows you to gently contemplate mesmerising
           landscapes of rice fields, water meadows and fish traps, meet the
           local Mishing people and learn about Neo-Vaishnavite philosophy at one
           of Majuli’s ancient satras.
@@ -302,8 +306,8 @@ itinerary:
           Overlooking a tributary of the Brahmaputra, Dekasang Lodge offers
           modern comforts and amenities in traditional settings. The entire
           resort is built with organic materials and takes inspiration from the
-          the surrounding rural and tribal areas. The rooms are airy and
-          spacious with fully-equipped bathrooms.
+          surrounding rural and tribal areas. The rooms are airy and spacious
+          with fully-equipped bathrooms.
         checkInDate: ''
         checkInTime: ''
         checkOutDate: ''
@@ -314,17 +318,20 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/assam/cities/majuli/excursions/full-day-at-leisure-on-majuli-island/
-        title: Full day at leisure on Majuli island
+        title: Full day at leisure to explore Majuli island
         content: >-
-          Today you can visit more monasteries if you wish (the biggest one is
+          Today you can visit more monasteries if you wish (the biggest is
           nearby and has a museum and a large library), but you may also prefer
           to simply walk around the village surrounding the hotel, or cycle
-          around the island. It is easy to forget that Majuli is an island,
-          holding within it hills, vast open paddy fields, rivulets, dry sandy
-          river beds and corpses of thick trees. Majuli falls along a major
-          migratory path for ducks, geese and other birds. As a result, an
-          extra-ordinary large number of birds can be seen here, even just
-          simply by driving or cycling around.
+          around the island.
+
+
+          It is easy to forget that Majuli is an island, holding within it
+          hills, vast open paddy fields, rivulets, dry sandy river beds and
+          thick copses of trees. Majuli falls along a major migratory path for
+          ducks, geese and other birds. As a result, an extraordinarily large
+          number of birds can be seen here, even just simply while driving or
+          cycling around.
         date: ''
         etd: ''
         duration: ''
@@ -337,11 +344,14 @@ itinerary:
           After breakfast, take a ferry across the mighty Brahmaputra river, and
           then drive for three hours to the famous Kaziranga national park.
           Kaziranga was declared a game reserve in 1926 to save the Indian
-          one-horned rhino from extinction. The beautiful sanctuary features
-          various habitats, from swampland to jungle, and deciduous forests to
-          evergreen slopes. You can take jeep safaris to spot the famous rhinos
-          and a wide array of other animals, from wild buffaloes to delicate
-          swamp deer and elusive tigers, and a wide variety of birds.
+          one-horned rhino from extinction.
+
+
+          The beautiful sanctuary features various habitats, from swampland to
+          jungle, and deciduous forests to evergreen slopes. You can take jeep
+          safaris to spot the famous rhinos and a wide array of other animals,
+          from wild buffaloes to delicate swamp deer and elusive tigers, and a
+          wide variety of birds.
       - type: hotel
         url: >-
           /destinations/india/states/assam/cities/kaziranga/hotels/infinity-resort-kaziranga/
@@ -364,23 +374,21 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/assam/cities/kaziranga/excursions/morning-and-afternoon-jeep-safaris-in-central-and-western-range/
-        title: Morning and afternoon jeep safaris in Central and Western Range
+        title: Morning and afternoon jeep safaris in the Central and Western Ranges
         content: >-
           The jeep safari in the Central Range is an ideal introduction to the
           park, as the route passes through the entire spectrum of habitats in
-          Kaziranga area. You might spot elephants and other big animals,
-          especially the swamp buffalo and of course the rhino. The rare swamp
-          deer are seen in groups In the extensive short grass next to the
-          wetlands, and the birdlife is prolific.
+          Kaziranga. You might spot elephants and other big animals, especially
+          the swamp buffalo and of course the rhino. The rare swamp deer are
+          seen in groups In the extensive short grass next to the wetlands, and
+          the birdlife is prolific.
 
 
-          The jeep safari in the Western Range traverses the southwest portion
-          of the park which has maximum short grass areas, the optimum habitat
-          for rhino and water buffaloes. Part of the drive is also through low
-          alluvial savannah woodland. You can see the colonization of grassland
-          by Lagerstroemia Parviflora. You can spot mainly grassland and water
-          birds as well as raptors, swamp francolin, chestnut-capped babbler,
-          black-faced and yellow-breasted buntings and Finn’s weaver.
+          The jeep safari in the Western Range traverses areas of short
+          grass,perfect for rhino and water buffaloes. You can also spot
+          grassland and water birds as well as raptors, swamp francolins,
+          chestnut-capped babblers, black-faced and yellow-breasted buntings and
+          Finn’s weaver.
         date: ''
         etd: ''
         duration: ''
@@ -390,15 +398,17 @@ itinerary:
         url: /destinations/india/states/meghalaya/cities/shillong/
         title: Shillong
         content: >-
-          After breakfast, you have a long drive (seven hours) to ‘the abode of
-          clouds’, Meghalaya, known for the rainiest spots in the world! Your
-          destination for today, Shillong, is the capital of Meghalaya. Recent
-          development has been insensitive and haphazard, but the surrounding
-          hills still retain many English-style country houses. There is a vast
-          bustling market, Bara Bazaar, to which thousands of Khasi tribespeople
-          flock. Overseen by sharp-eyed matriarchs, they sell everything from
-          gold jewellery to spices and textiles. Police Bazaar resembles a Mall
-          road as found in other hill stations.
+          After breakfast, you have a long drive (seven hours) to 'the abode of
+          clouds', Meghalaya, known for the rainiest spots in the world!
+
+
+          Your destination for today, Shillong, is the capital of Meghalaya.
+          Recent development has been insensitive and haphazard, but the
+          surrounding hills still retain many English-style country houses.
+          There is a vast bustling market, Bara Bazaar, to which thousands of
+          Khasi tribespeople flock. Overseen by sharp-eyed matriarchs, they sell
+          everything from gold jewellery to spices and textiles. Police Bazaar
+          resembles a Mall road as found in other hill stations.
       - type: hotel
         url: >-
           /destinations/india/states/meghalaya/cities/shillong/hotels/tripura-castle/
@@ -406,10 +416,10 @@ itinerary:
         content: >-
           Tucked away on a hillside lined with pine trees, bamboo groves and
           cherry blossoms is Tripura Castle, summer retreat of the Maharajas of
-          Tripura. The first “heritage” hotel in the north-east, it was opened
-          in 2003 in the Castle’s Annexe. There are pine-framed rooms with
-          period furniture and a high level of service that makes Tripura Castle
-          one of Shillong’s finest hotels.
+          Tripura. The first "heritage" hotel in the north-east, it was opened
+          in 2003 in the castle's annexe. There are pine-framed rooms with
+          period furniture, and a high level of service that makes Tripura
+          Castle one of Shillong's finest hotels.
         checkInDate: ''
         checkInTime: ''
         checkOutDate: ''
@@ -424,13 +434,16 @@ itinerary:
         content: >-
           The 90km drive from Shillong to Mawlynnong offers magnificent views of
           dense foliage and hidden waterfalls. Elected as the cleanest village
-          in Asia in 2005, Mawlynnong’s citizens ensure that their environment
+          in Asia in 2005, Mawlynnong's citizens ensure that their environment
           is clean and their way of living sustainable. You can visit Sky View,
           a viewing platform built in a tree, with views over forests and the
-          Bangladesh plains. Around 15 minutes away is a gorgeous living root
-          bridge. About 500 years old, this bridge was formed by the twisting
-          roots of the Indian rubber tree and is used by the village’s residents
-          for their daily commute. After lunch, you drive back to Shillong.
+          Bangladesh plains.
+
+
+          Around 15 minutes away is a gorgeous living root bridge. About 500
+          years old, this bridge was formed by the twisting roots of the Indian
+          rubber tree and is used by the village's residents for their daily
+          commute. After lunch, you drive back to Shillong.
         date: ''
         etd: ''
         duration: ''
@@ -439,15 +452,19 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/meghalaya/cities/shillong/excursions/half-day-city-tour-of-shillong/
-        title: Half day city tour of Shillong
+        title: Morning guided tour of Shillong
         content: >-
-          The best way to enjoy Shillong’s sights is on foot. With no
+          The best way to enjoy Shillong's sights is on foot. With no
           significant monuments, the attractions here are the scenic beauty,
           parks, waterfalls and panoramic views. Places worth visiting include
           the decorative Ward Lake, and Bara Bazaar where you can see local and
           hill-people trading their wares including interesting jewellery and
           handicrafts. Beadon Falls and Bishop Falls, north of the city, are
           popular picnic sites.
+
+
+          After the morning's excursion, transfer to a lovely hotel outside
+          town. Your afternoon is at leisure to just enjoy the hotel.
         date: ''
         etd: ''
         duration: ''
@@ -456,7 +473,7 @@ itinerary:
         title: Ri Kynjai
         content: >-
           Ri Kynjai, a spectacular resort overlooking the picturesque Umiam Lake
-          outside Shillong, translates from Khasi as ‘land of serene environs’.
+          outside Shillong, translates from Khasi as 'land of serene environs'.
           The architecture is inspired by Khasi thatch huts, which make a
           symbolic presence as a cap on the roof of the cottages. No expense has
           been spared in creating this luxurious and authentic resort, making
@@ -476,5 +493,8 @@ itinerary:
           After breakfast, drive three hours to Guwahati airport to connect with
           your onward flight.
 weight: 302
+themes:
+  - Off the beaten track
+region: Kolkata, Orissa & the Northeast
 ---
 This is a fascinating tour to one of the lesser known and visited parts of India, the remote north-eastern states of Assam, Meghalaya and Nagaland. Visit tea plantations in the far east of Assam, explore tribal villages in northern Nagaland, meet the wonderful dancing monks of Majuli island, look for the rare one-horned rhinoceros in Kaziranga, and travel through the beautiful hills of Meghalaya.

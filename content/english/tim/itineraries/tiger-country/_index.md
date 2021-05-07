@@ -9,7 +9,6 @@ highlights:
   - Multiple safaris and opportunities to spot tigers, leopards and bears
   - Fantastic birding opportunities
   - Driving through beautiful forests and tracking big cats
-  - ''
 itinerary:
   - day: 0
     item:
@@ -146,10 +145,27 @@ itinerary:
           bordering the state of Maharashtra. A typical Central Indian teak
           jungle, Pench supports a rich variety of wildlife, including the
           tiger, leopard, wild dog, gaur, sambar, chital and brilliant birdlife.
+      - type: hotel
+        url: >-
+          /destinations/india/states/madhya-pradesh/cities/pench/hotels/mahua-vann-pench/
+        title: Mahua Vann Pench
+        content: >-
+          Mahua Vann Pench is a boutique eco-resort, just 6km from the Turia
+          Gate of Pench wildlife reserve. The resort is spread across a large
+          estate, with a rivulet crossing right through. Each of the rooms is
+          comfortably sized, tastefully decorated and equipped with modern
+          amenities yet maintaining an earthen touch.
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
+  - day: 6
+    item:
       - type: excursion
         url: >-
           /destinations/india/states/madhya-pradesh/cities/pench/excursions/jeep-safari-in-pench-national-park/
-        title: Jeep safari in Pench National Park
+        title: Early-morning jeep safari in Pench National Park
         content: >-
           The undulating topography of Pench supports vegetation ranging from
           moist, sheltered valleys to open, dry deciduous forest. Pench always
@@ -161,35 +177,19 @@ itinerary:
         date: ''
         etd: ''
         duration: ''
-      - type: hotel
-        url: >-
-          /destinations/india/states/madhya-pradesh/cities/pench/hotels/mahua-vann-pench/
-        title: Mahua Vann Pench
-        content: >-
-          Mahua Vann Pench is a boutique eco-resort, just 6km from the Turia
-          Gate of Pench wildlife reserve. The resort is spread across a large
-          estate. Each of the rooms is comfortably sized, tastefully decorated
-          and equipped with modern amenities yet maintaining an earthen touch.
-          With a rivulet crossing right through the resort, there are plenty of
-          activities, including nature walks, cycling tours, swimming pool &
-          spa.
-        checkInDate: ''
-        checkInTime: ''
-        checkOutDate: ''
-        checkOutTime: ''
-        nights: ''
-  - day: 6
-    item:
       - type: city
         url: /destinations/india/states/maharashtra/cities/tadoba/
         title: Tadoba
         content: >-
-          Your four-hour drive today takes you to the Tadoba-Andhari Tiger
-          Reserve, popularly called Tadoba. In the last decade, Tadoba has
-          become popular because of the number and quality of tiger sightings
-          and other varied wildlife including 200+ species of birds. The Big
-          Five mammals that can be sighted here include tiger, leopard, dhole
-          (Indian wild dog), sloth bear and Indian bison.
+          After your safari and breakfast, your four-hour drive takes you to the
+          Tadoba-Andhari Tiger Reserve, popularly called Tadoba.
+
+
+          In the last decade, Tadoba has become popular because of the number
+          and quality of tiger sightings and other varied wildlife including
+          200+ species of birds. The Big Five mammals that can be sighted here
+          include tiger, leopard, dhole (Indian wild dog), sloth bear and Indian
+          bison.
       - type: hotel
         url: >-
           /destinations/india/states/maharashtra/cities/tadoba/hotels/mahua-tola-tadoba/
@@ -235,5 +235,8 @@ itinerary:
           Today, you will drive two hours to Nagpur, to connect with your onward
           flight.
 weight: 403
+themes:
+  - Wildlife/Birding tours
+region: Gujarat & Central India
 ---
 This tour combines the best of Central India’s national parks, giving you fabulous opportunities to spot tigers, as well as leopards, an amazing variety of bird-life and plenty of other fauna. The wonderful thing is here is the variation in landscapes, from the rocky outcrops of Bandhavgarh to the fairy-tale forest of Kanha to the ‘ghost trees’ of Pench and the bamboo forests of Tadoba.
