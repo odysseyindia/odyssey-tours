@@ -478,15 +478,7 @@ app.post('/ajax',function (req, res) {
     let contents = fileContents.split("---");
     let data = yaml.loadAll(contents[1]);
 
-    data[0].itinerary  =  request.data;
-    data[0].highlights =  request.highlights;
-    data[0].subtitle   =  request.subtitle;
-    data[0].themes     =  request.themes;
-    data[0].region     =  request.region;
-    data[0].weight     = (request.weight == 'NULL') ?  0  : Number(request.weight);
-    intro              =  request.intro.replace(/[`]/g, "'");
-
-    let output = `---\n` + yaml.dump(data[0]) + "---\n" + intro; 
+    let output = `---\n` + yaml.dump(data[0]) + "---\n" + data[1]; 
 
     fs.writeFile(file, output, function(err) {
       if(err) return console.error(err);
@@ -583,10 +575,7 @@ app.post('/save',function (req, res) {
     data[0].arrdate    =  request.data.arrdate;
     data[0].depdate    =  request.data.depdate;
 
-    let output = `---\n` 
-    + yaml.dump(data[0]) 
-    + "---\n" 
-    + data[1].replace(/[`]/g, "'");
+    let output = `---\n` + yaml.dump(data[0]) + "---\n" + data[1].replace(/[`]/g, "'");
 
     fs.writeFileSync(file, output, 'utf8', (err) => {       
       if (err) throw err; 

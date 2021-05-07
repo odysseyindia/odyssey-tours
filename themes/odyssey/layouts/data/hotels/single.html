@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ .Scratch.Set "layout" "layouts/data/states/single.html" -}}
+{{ .Scratch.Set "layout" "layouts/data/hotels/single.html" -}}
 
 <section id="{{ .Scratch.Get "id" | lower }}"> 
   {{ partial "heading.html" . }}
@@ -13,33 +13,82 @@
 
       <div class="table even">
         <div class="item-1">
-          <option value="0">Select a state</option>
+          <option value="0">Select a hotel</option>
         </div>
         <div class="item-2">
           <select name="destination" id="field">
-           {{- range ( where ( where $.Site.Pages "Section" "destinations") ".Params.type" "state" ) }}     
+           {{- range ( where ( where $.Site.Pages "Section" "destinations") ".Params.type" "hotel" ) }}     
            <option value="{{ .RelPermalink }}">{{ .Title }}</option>
            {{- end }}
          </select> 
        </div>
      </div>
 
-     <div class="table">
+    <div class="table">
       <div class="item-1"><b>Field</b></div>
       <div class="item-2"><b>Data</b></div>
     </div>
     
     <div class="table even">
-      <div class="item-1">
-        Title 
-      </div>
+      <div class="item-1">Title </div>
       <div id="pTitle" contenteditable="true" class="item-2"></div>
     </div>
 
     <div class="table odd">
-      <div class="item-1">
-        Draft 
+      <div class="item-1">Address</div>
+      <div id="pAddress" contenteditable="true" class="item-2">{{ .Params.address }}</div>
+    </div>
+
+    <div class="table odd">
+      <div class="item-1">Postal code</div>
+      <div class="item-2">
+        <div class="form-check">
+          <input id="pPostalcode" class="custom-control-input" type="int" min=0 max=900000 step=1 value="{{ with .Params.postalcode }}{{ . }}{{ end }}">
+        </div>
       </div>
+    </div>
+
+    <div class="table odd">
+      <div class="item-1">Star Category</div>
+      <div class="item-2">
+        <div class="form-check">
+          <input id="pStarCategory" class="custom-control-input" type="int" min=0 max=6 step=1 value="{{ with .Params.starcategory }}{{ . }}{{ else }}0{{ end }}">
+        </div>
+      </div>
+    </div>
+
+    <div class="table even">
+      <div class="item-1">Rooms</div>
+      <div class="item-2">
+        <div class="form-check">
+          <input id="pRooms" class="custom-control-input" type="int" min=0 max=500 step=1 value="{{ .Params.rooms }}">
+        </div>
+      </div>
+    </div>
+
+    <div class="table odd">
+      <div class="item-1">Nighthalt</div>
+      <div class="item-2">
+        <div class="form-check">
+          <input id="pNighthalt" class="custom-control-input" type="checkbox" {{ with .Params.nighthalt }}{{ if eq .Params.nighthalt true}}checked {{ end }}{{ end }} value="">
+        </div>
+      </div>
+    </div>
+
+    <div class="table even">
+      <div class="item-1">Category</div>
+      <div class="item-2">
+       <select name="pCategory">
+         <option value="0">No category</option>
+         <option value="Standard Hotel">Standard Hotel</option>
+         <option value="Comfortable Hotel">Comfortable Hotel</option>
+         <option value="Superior Hotel">Superior Hotel</option>
+       </select>
+      </div>
+    </div>
+
+    <div class="table odd">
+      <div class="item-1">Draft</div>
       <div class="item-2">
         <div class="form-check">
           <input id="pDraft" class="custom-control-input" type="checkbox" {{ with .Params.draft }}{{ if eq .Params.draft true}}checked {{ end }}{{ end }} value="">
@@ -48,9 +97,7 @@
     </div>
 
     <div class="table even">
-      <div class="item-1">
-        Content 
-      </div>
+      <div class="item-1">Content</div>
       <div id="pContent" contenteditable="true" class="item-2">{{ .Content }}</div>
     </div>
 
@@ -69,11 +116,9 @@
   var   host   = window.location.href.split("/");
   var   host   = host[0] + "//" + host[2];
 
-
   document.getElementById("field").addEventListener("change", (event) => {
     changeOption();
   });
-
 
   function changeOption(){
     const source = document.querySelector("#field");
@@ -97,9 +142,15 @@
 
         for (var i = 0; i<data.length; i++) { 
           if (data[i].permalink == urldata){
-            document.getElementById("pTitle").innerText   = data[i].title;
-            document.getElementById("pDraft").value       = data[i].draft;
-            document.getElementById("pContent").innerText = data[i].content;
+            document.getElementById("pTitle").innerText       = data[i].title;
+            document.getElementById("pAddress").innerText     = data[i].address;
+            document.getElementById("pPostalcode").innerText  = data[i].postalcode;
+            document.getElementById("pStarcategory").value    = data[i].starcategory;
+            document.getElementById("pNighthalt").value       = data[i].nighthalt;
+            document.getElementById("pRooms").value           = data[i].rooms;
+            document.getElementById("pCategory").value        = data[i].category;
+            document.getElementById("pDraft").value           = data[i].draft;
+            document.getElementById("pContent").innerText     = data[i].content;
           };
         };
       }, 
@@ -121,7 +172,7 @@
     var content       = document.getElementById("pContent").innerText;
 
     docLoad({
-      url:    'masterdata', 
+      url:    'ajax', 
       method: 'POST',
       data:   JSON.stringify({ 
         "file"   : {{ .RelPermalink }}, 

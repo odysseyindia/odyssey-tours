@@ -31,7 +31,7 @@
       <div  class="select-flex">
         <div class="custom-select">
          <label class="search-label" for="weight">Weight</label>
-           <input type="num" tip="0 for FIT and 1-999 for tours" min="0" max="999" id="intro-weight" required name="weight" value="{{ with .Params.weight }}{{ . }}{{ end }}" placeholder="0"> <!--  onfocusout="activateTour()" -->
+           <input type="num" tip="0 for FIT and 1-999 for tours" min="0" max="999" id="intro-weight" required name="weight" value="{{ with .Params.weight }}{{ . }}{{ else }}0{{ end }}" placeholder="0"> <!--  onfocusout="activateTour()" -->
         </div>
       </div>
 
@@ -899,7 +899,7 @@ function addDay(){
 
 function saveItinerary(deleteDay){
 
-  var data   = [];
+  var itinerary, themes, data = []; 
 
   var intro        = document.getElementById('intro-content').value;
   var subtitle     = document.getElementById('intro-subtitle').value;
@@ -907,8 +907,7 @@ function saveItinerary(deleteDay){
   var lines        = document.getElementById('intro-highlights').value.split(/\n/);
   var themeOptions = document.getElementsByClassName('theme');
   var region       = document.getElementById('region').value;
-  var themes       = [];
-
+  
   for (var i=0; i<themeOptions.length; i++){
     if (themeOptions[i].checked){
       themes.push( themeOptions[i].value );
@@ -963,7 +962,7 @@ let object  = {};
 object.day  = i;
 object.item = details;
 //if (details.length > 0) {
-  data.push( object );
+  itinerary.push( object );
 //};
 };
 };
@@ -971,18 +970,22 @@ object.item = details;
 let css = document.getElementById("message");
 css.style.display = 'block';
 
+
+data[0].itinerary  = itinerary;
+data[0].subtitle   = subtitle;
+data[0].Weight     = weight;
+data[0].highlights = highlights;
+data[0].themes     = themes;
+data[0].region     = region;
+data[1]            = intro.replace(/[`]/g, "'");
+;
+
 docLoad({
   url:    'ajax', 
   method: 'POST',
   data:   JSON.stringify({ 
     "file": {{ .RelPermalink }}, 
-    "data": data,
-    "intro": intro,
-    "subtitle": subtitle,
-    "weight": weight,
-    "highlights": highlights,
-    "themes": themes,
-    "region": region
+    "data": data
   }) 
 }).then(
 
