@@ -1,11 +1,10 @@
 {
   "name": "odyssey-tours",
   "version": "1.0.0",
+  "private": true,
   "description": "Odyssey Tours web site",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ourmaninindia/odyssey-tours.git"
@@ -36,6 +35,8 @@
     "express": "^4.17.1",
     "fs": "0.0.1-security",
     "js-yaml": "^4.0.0",
-    "requirejs": "^2.3.6"
+    "requirejs": "^2.3.6",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.7.0"
   }
 }

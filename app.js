@@ -461,7 +461,7 @@ function CSVToArray( strData, strDelimiter ){
 app.post('/ajax',function (req, res) {
 
   var request = JSON.parse(req.body.data);
-  var file    = dir + request.file + '_index.md';
+  var file    = dir + request.file;
   console.log('Reading '+file);
 
   try {

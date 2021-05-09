@@ -133,11 +133,15 @@
 });
 
 
+
 function docLoad(object) {
 
-  const env         = require('dotenv').config();
-  const root        = process.env.hugoRoot; 
-  const appHost     = process.env.appHost; 
+define(['bootstrap]'],function($){
+alert('dollar='+$);
+//alert('env='+env);
+//const root        = process.env.hugoRoot; 
+//const appHost     = process.env.appHost; 
+});
 
     return new Promise(function(resolve, reject) {
 
