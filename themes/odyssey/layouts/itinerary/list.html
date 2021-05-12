@@ -308,7 +308,9 @@
           <select class="maxwidth" id="cities" name="cities">
             <option value="">Select a city</option>
             {{ range ( sort (where (where .Site.Pages "Section" "destinations") ".Params.id" "city") ".Title" "asc" ) }}
-            <option value="{{ .RelPermalink }}">{{ .Title }} </option>
+            {{ $urlArray := split .Permalink "/" }}
+            {{ $path := index $urlArray (sub (len $urlArray) 4) }}
+            <option value="{{ .RelPermalink }}">{{ .Title }} {{ if ne $path "destinations" }}, {{ $path | humanize }}{{ end }}</option>
             {{ end }}
           </select>
            <a href="#0" class="button"  onclick="addCity()">
@@ -1043,10 +1045,11 @@ function displayHotels(city){
         document.getElementById("selectHotels").style.visibility = "hidden";
       };
     }, 
-
-  function(Error) {
-    console.log(Error);
-  });
+    function(Error) {
+      // console.log(Error);
+      document.getElementById("selectHotels").style.visibility = "hidden";
+    }
+  );
 };
 
 function displayExcursions(city){
@@ -1193,18 +1196,16 @@ function displayTrains(city){
 
 function addToWorkspace(type,icon,url,text){
   let ws     = document.getElementById('toggleWorkspace');
-  const html = '<div class="draggable" draggable="true" type ="'+type+'" url="' + url + '"><i class="icon-'+icon+'"></i>&nbsp;' + text+'</div>';
+  const html = '<div class="draggable" draggable="true" type ="'+type+'" url="' + url + '"><i class="icon-'+icon+'"></i>&nbsp;<span class="title">' + text+'</span></div>';
 
-  if (i) {
-    if (ws.className.includes("showWorkspace") === true){
+  if (ws.className.includes("showWorkspace") === true){
       document.getElementById("workspace").innerHTML += html;
-    } else {
+  } else {
       let days   = document.getElementById('myItinerary').getElementsByClassName('containers');
       let length = days.length;
       days[days.length -1 ].innerHTML += html;
-    };
-    draggable();
   };
+  draggable();
 };
 
 function addCity(){
@@ -1214,7 +1215,9 @@ function addCity(){
   const url    = source[i].value ;
   const text   = source[i].innerHTML;
   
-  addToWorkspace('city','monument',url,text);
+  if (i > 0) {
+    addToWorkspace('city','monument',url,text);
+  };
 };
 
 function addHotel(){
@@ -1225,7 +1228,9 @@ function addHotel(){
   const url    = source[i].value ;
   const text   = source[i].innerHTML;
  
-  addToWorkspace('hotel','bed',url,text);
+  if (i > 0) {
+    addToWorkspace('hotel','bed',url,text);
+  };
 };
 
 function addExcursion(){
@@ -1236,7 +1241,9 @@ function addExcursion(){
   const url       = source[i].value ;
   const text      = source[i].innerHTML;
 
-  addToWorkspace('excursion','camera',url,text);
+  if (i > 0) {
+    addToWorkspace('excursion','camera',url,text);
+  };
 };
 
 function addCar(){
@@ -1246,7 +1253,9 @@ function addCar(){
   const url       = source[i].value ;
   const text      = source[i].innerHTML;
 
-  addToWorkspace('car','cab',url,text);
+  if (i > 0) {
+    addToWorkspace('car','cab',url,text);
+  };
 };
 
 function addFlight(){
@@ -1256,7 +1265,9 @@ function addFlight(){
   const url       = source[i].value ;
   const text      = source[i].innerHTML;
 
-  addToWorkspace('flight','flight',url,text);
+  if (i > 0) {
+    addToWorkspace('flight','flight',url,text);
+  };
 };
 
 function addTrain(){
@@ -1266,7 +1277,9 @@ function addTrain(){
   const url       = source[i].value ;
   const train     = source[i].innerHTML;
 
-  addToWorkspace('train','train',url,city);
+  if (i > 0) {
+    addToWorkspace('train','train',url,city);
+  };
 };
 
 function emptyTrash(){

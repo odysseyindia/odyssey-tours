@@ -90,27 +90,29 @@ itinerary:
   - day: 3
     item:
       - type: city
-        url: /destinations/india/states/rajasthan/cities/shahpura/
-        title: Shahpura
+        url: /destinations/india/states/rajasthan/cities/deogarh/
+        title: Deogarh
         content: >-
-          Today, you leave the bumpy jeep rides behind for some understated
-          luxury. You drive four hours to Shahpura Bagh, a 120-year-old estate,
-          set in 45 acres of garden and pasture and surrounded by lakes, and now
-          a wonderful boutique hotel. There is an interesting step-well just
-          outside the Bagh walls and a temple with some excellent marble
-          carvings, surrounded by a colourful market.
+          This morning, you have a fairly long drive (6 hours) to Deogarh, a
+          pleasant, little-frequented town north of Udaipur.
+
+
+          The town market is dotted with shops selling silver jewellery,
+          clothes, fabrics, food stuffs and just about everything one needs in a
+          Rajasthani household. The road winds its way up to the top of the hill
+          up to the beautifully renovated Deogarh Mahal Palace.
       - type: hotel
         url: >-
-          /destinations/india/states/rajasthan/cities/shahpura/hotels/shahpura-bagh/
-        title: Shahpura Bagh
+          /destinations/india/states/rajasthan/cities/deogarh/hotels/deogarh-mahal/
+        title: Deogarh Mahal
         content: >-
-          Located in an orchard of rare beauty, and run by exceptionally amiable
-          hosts, Shahpura Bagh is a real treat. This was the summer residence of
-          the rulers of Shahpura and is now a fine heritage hotel with
-          beautifully furnished rooms. The owners organise excursions to a
-          nearby fort and to their eco-farm. Most guests, though, find it
-          difficult to leave the delightful swimming pool! An ideal spot for
-          relaxation and light activity.
+          One of Rajasthan’s most spectacular palaces, Deogarh Mahal is a
+          fabulous building of yellow ochre with ornate domes and white accents.
+          The rooms are spread across the palace on different, maze-like levels.
+          Many rooms have original furniture and some have exquisite frescoes
+          and murals with mirrors. Beautiful handpicked fabrics enhance a
+          feeling of quiet elegance. There is a well-designed swimming pool in
+          its own secluded area.
         checkInDate: ''
         checkInTime: ''
         checkOutDate: ''
@@ -120,17 +122,19 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/rajasthan/cities/shahpura/excursions/day-at-leisure-in-shahpura/
-        title: Day at leisure in Shahpura
+          /destinations/india/states/rajasthan/cities/deogarh/excursions/afternoon-jeep-safari-rural-ramble/
+        title: Afternoon 'rural ramble'
         content: >-
-          Though Shahpura Bagh is perfect for total indolence, it also offers a
-          number of activities, like visits to the nearby village and market. To
-          understand the local culture, sit with the joshis (priests) and watch
-          a traditional phad, a painting depicting mythology and history, come
-          to life. You can also go on jeep or cycle safaris, a bullock cart ride
-          with an outdoor breakfast, visit a school, or have a sundowner at the
-          family's private fort. You can book all of these directly at the
-          hotel.
+          Your morning is at leisure to enjoy the hotel.
+
+
+          In the afternoon, you will take a ‘Rural Ramble’, one of the
+          not-to-be-missed activities at Deogarh. This exciting excursion takes
+          you to surrounding countryside in a jeep over undulating dunes and
+          rocky outcrops for a thrilling journey. You drive through the narrow
+          streets of Deogarh town, past the busy bazaar and the lakes around
+          Deogarh, which attract a number of birds, offering some wonderful bird
+          watching possibilities.
         date: ''
         etd: ''
         duration: ''
@@ -140,16 +144,31 @@ itinerary:
         url: /destinations/india/states/rajasthan/cities/bera/
         title: Bera
         content: >-
-          This morning, you drive through the hills of southern Rajasthan,
-          visiting the beautiful complex of marble temples at Ranakpur, en route
-          to Bera. A region of dramatic rocky outcrops and small lakes, bordered
-          by the Aravalli Hills to the east, this land is home to the Rabari
+          This morning, you drive through the hills of southern Rajasthan to
+          Bera. A region of dramatic rocky outcrops and small lakes, bordered by
+          the Aravalli Hills to the east, this land is home to the Rabari
           shepherds, and is a major bastion of the Indian leopard.
 
 
           This is a great base for getting to know rural India, and for
           wonderful wildlife spotting, from leopards to a vast array of
           migratory birds, as well as crocodiles and turtles.
+      - type: excursion
+        url: >-
+          /destinations/india/states/rajasthan/cities/bera/excursions/morning-and-evening-leopard-safaris/
+        title: Evening leopard safari
+        content: >-
+          The region around Bera is a beautiful combination of semi-desert
+          countryside with dunes and ravines and beautiful large granite hill
+          formations. This is the natural habitat for Indian leopards, and your
+          host at Bera is a keen leopard watcher.
+
+
+          You can enjoy a thrilling safari in the late afternoon to try and get
+          a glimpse of this elusive animal.
+        date: ''
+        etd: ''
+        duration: ''
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/bera/hotels/bera-safari-lodge/
@@ -157,7 +176,7 @@ itinerary:
         content: >-
           Run by a conservationist who saved the area from being given over to
           mining, Bera Safari Lodge is a collection of comfortable low-rise
-          cottages, made from the handsome local stone. The lodge's main focus
+          cottages, made from the handsome local stone. The lodge’s main focus
           is leopards, which you can look for on jeep safaris into the Jawai
           Leopard Conservation Area, but you can also visit the Rabari shepherd
           villages, the Jawai dam (excellent for birding), and wander around on
@@ -171,15 +190,22 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/rajasthan/cities/bera/excursions/morning-and-evening-leopard-safaris/
-        title: Morning and evening leopard safaris
+          /destinations/india/states/rajasthan/cities/bera/excursions/morning-birdwatching-safari/
+        title: Morning bird-watching safari
         content: >-
-          The region around Bera is a beautiful combination of semi-desert
-          countryside with dunes and ravines and beautiful large granite hill
-          formations. This is the natural habitat for Indian leopards, and your
-          host at Bera is a keen leopard watcher. You can enjoy thrilling
-          safaris in the early morning and late afternoon to try and get a
-          glimpse of this elusive animal.
+          A highlight of any trip to the Bera region is a visit to the nearby
+          Jawai Dam, the biggest dam in western Rajasthan and a paradise for
+          migratory and residential birds like the Sarus Crane, Indian Courser,
+          Osprey, Pelicans, Bar- Headed Geese, Water fowl, pipits, larks,
+          pratincoles, and other raptors to mention just a few.
+
+
+          With over a hundred bird species to see and photograph, a visit to
+          Jawai is incredibly rewarding.
+
+
+          In the late afternoon, you have another jeep safari to track down the
+          spotted cats.
         date: ''
         etd: ''
         duration: ''
@@ -195,7 +221,7 @@ itinerary:
           is the perfect base from which to explore the Rann of Kutch, the last
           refuge in India of the Asiatic wild ass, an elegant member of the
           horse family. In winter it is also home to migratory birds such as
-          flamingoes, MacQueen's bustard etc.
+          flamingoes, MacQueen’s bustard etc.
       - type: hotel
         url: /destinations/india/states/gujarat/cities/dasada/hotels/rann-riders/
         title: Rann Riders
@@ -251,7 +277,7 @@ itinerary:
         content: >-
           Today, you drive for five hours to the princely state of Gondal, known
           for its progressive rulers. In the late 19th century, Gondal did away
-          with the women's purdah or veil, abolished land taxes and insisted on
+          with the women’s purdah or veil, abolished land taxes and insisted on
           education for girls. Gondal is an interesting city with some
           finely-carved palaces. The town is also home to an interesting
           100-year-old ayurvedic pharmacy.
@@ -262,8 +288,8 @@ itinerary:
         content: >-
           A lovely palace with just seven guest rooms, set in a huge complex of
           fruit orchards, lawns and gardens. A delightful accommodation option
-          is the beautifully restored Rail Saloon of the royal family! The "room
-          of miniatures" is a splendid sitting room with a collection of
+          is the beautifully restored Rail Saloon of the royal family! The “room
+          of miniatures” is a splendid sitting room with a collection of
           miniature paintings, brass and antique furniture. The vast property
           also includes an impressive collection of classic and vintage cars.
         checkInDate: ''
@@ -321,7 +347,7 @@ itinerary:
         url: /destinations/india/states/diu/cities/diu/
         title: Diu
         content: >-
-          You drive today to Gujarat's coast today, a four-hour drive taking you
+          You drive today to Gujarat’s coast today, a four-hour drive taking you
           to the former Portuguese colony of Diu. To this day, it retains a
           distinctive atmosphere. The town of Diu is a maze of narrow, winding
           streets and many of the houses are well ornamented and brightly
@@ -338,7 +364,7 @@ itinerary:
         content: >-
           With double-storied tile-roofed villas surrounding a paved garden and
           swimming pool, this is generally considered the best hotel in Diu. It
-          is located on Diu's best beach - Nagoa. The rooms are spacious and
+          is located on Diu’s best beach - Nagoa. The rooms are spacious and
           imaginatively done up. Radhika Beach Resort also features a swimming
           pool, health club and indoor games.
         checkInDate: ''
@@ -362,4 +388,4 @@ themes:
   - Wildlife/Birding tours
 region: Gujarat & Central India
 ---
-India has an extremely rich and varied wildlife. On this remarkable tour you focus on the three big cats: you search for tigers in Ranthambhore National Park, leopards in the remote areas of southern Rajasthan and Asiatic lions in the Gir National Park in Gujarat. Along the way, you will be aided and abetted by the rulers of the small princely states of Shahpura and Gondal, who run their palaces almost as home-stays. Add to this the dramatic Rann of Kutch, famous for the Indian Wild Ass, and you&rsquo;ll understand why this Indian wildlife tour is bound to be a roaring success!
+India has an extremely rich and varied wildlife. On this remarkable tour you focus on the three big cats: you search for tigers in Ranthambhore National Park, leopards in the remote areas of southern Rajasthan and Asiatic lions in the Gir National Park in Gujarat. Along the way, you will be aided and abetted by the rulers of the small princely states of Shahpura and Gondal, who run their palaces almost as home-stays. Add to this the dramatic Rann of Kutch, famous for the Indian Wild Ass, and you’ll understand why this Indian wildlife tour is bound to be a roaring success!

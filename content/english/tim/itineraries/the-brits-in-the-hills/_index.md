@@ -35,7 +35,7 @@ itinerary:
           the magnificent Jama Masjid, India’s largest mosque. In New Delhi you
           can find India Gate - a war memorial arch, the impressive Parliament
           Building and Rashtrapati Bhawan, the residence of the President.
-          Towards the South are Qutab Minar and Humayun's Tomb, both World
+          Towards the South are Qutab Minar and Humayun’s Tomb, both World
           Heritage Sites.
       - type: hotel
         url: /destinations/india/states/delhi/cities/delhi/hotels/the-claridges/
@@ -62,7 +62,7 @@ itinerary:
           A half-day tour to Old Delhi using the modern Metro and the
           traditional cycle rickshaw. The Metro brings you to the heart of Old
           Delhi in just a few minutes, to visit the magnificent Jama Masjid
-          mosque, India's largest. You then use walk and ride cycle rickshaws
+          mosque, India’s largest. You then use walk and ride cycle rickshaws
           through the fascinating maze of narrow streets around the main street
           of Old Delhi, Chandni Chowk, a bustling jumble of craft shops,
           traders, mosques and temples.
@@ -79,7 +79,7 @@ itinerary:
           colourful Sikh Gurdwara.
 
 
-          The rest of your day is at leisure. If you'd like to go shopping or
+          The rest of your day is at leisure. If you’d like to go shopping or
           explore a bit more after the tour, you can take the Metro to vibrant
           Connaught Place to enjoy the many restaurants and more modern shops.
         date: ''
@@ -137,16 +137,16 @@ itinerary:
 
 
           The afternoon is free for you to soak up the atmosphere of this little
-          town and the Judge's Court.
+          town and the Judge’s Court.
       - type: hotel
         url: >-
           /destinations/india/states/himachal-pradesh/cities/pragpur/hotels/the-judges-court/
         title: The Judges Court
         content: >-
-          The stately country manor of Judge's Court has it all: rooms with
+          The stately country manor of Judge’s Court has it all: rooms with
           period furniture and fire places, fields to wander in, birds to watch
           and carp to catch. Originally built as a home in 1918 to commemorate a
-          son's graduation from law college in England, Judge's Court has only a
+          son’s graduation from law college in England, Judge’s Court has only a
           few rooms, each unique, housed in different buildings on the property
           and some even in a 300-year-old cottage in the village.
         checkInDate: ''
@@ -161,7 +161,7 @@ itinerary:
           /destinations/india/states/himachal-pradesh/cities/pragpur/excursions/day-at-leisure-to-get-to-know-the-village-crafts-and-architecture/
         title: Day at leisure to get to know the village crafts and architecture
         content: >-
-          Vijai Lal, who traces his family's presence in Pragpur back several
+          Vijai Lal, who traces his family’s presence in Pragpur back several
           generations, has made every effort to preserve the village and his own
           heritage. This impetus to village crafts and architecture has resulted
           in the revival of skills like weaving and silver work and the
@@ -175,6 +175,8 @@ itinerary:
         date: ''
         etd: ''
         duration: ''
+  - day: 5
+    item:
       - type: city
         url: /destinations/india/states/himachal-pradesh/cities/palampur/
         title: Palampur
@@ -208,7 +210,7 @@ itinerary:
         checkOutDate: ''
         checkOutTime: ''
         nights: ''
-  - day: 5
+  - day: 6
     item:
       - type: excursion
         url: >-
@@ -230,18 +232,18 @@ itinerary:
 
           Close to Palampur is the artists' village of Andretta. Created by
           Irishwoman Norah Richards, an affectionately remembered patron of
-          Punjabi theatre, this 'village' has grown over the years to include
+          Punjabi theatre, this ‘village’ has grown over the years to include
           writers, potters, and theatre artists.
         date: ''
         etd: ''
         duration: ''
-  - day: 6
+  - day: 7
     item:
       - type: city
         url: /destinations/india/states/himachal-pradesh/cities/shimla/
         title: Shimla
         content: >-
-          A full day's drive (around 8 hours) takes you through valleys and past
+          A full day’s drive (around 8 hours) takes you through valleys and past
           streams and dams to Shimla. This most famous of hill stations was
           developed by the British in the 19th century as the summer capital of
           India. Now the capital of Himachal Pradesh, the town has continued to
@@ -264,22 +266,46 @@ itinerary:
         checkOutDate: ''
         checkOutTime: ''
         nights: ''
-  - day: 7
-    item: []
   - day: 8
+    item:
+      - type: excursion
+        url: >-
+          /destinations/india/states/himachal-pradesh/cities/shimla/excursions/half-day-city-tour/
+        title: Morning walking tour of Shimla
+        content: >-
+          The best way to see Shimla is on foot, visiting the Botanical Gardens
+          and lovely Viceregal Lodge, then descending along traffic-free roads
+          through little forests and past colonial-era buildings to the Oberoi
+          Cecil, Shimla’s grandest building. From here you can visit the Ridge,
+          a large open area bordered by the peaceful Christ Church and Gaiety
+          Theatre, and the Mall, Shimla’s colourful shopping hub, uniquely
+          colonial and very different from a typical Indian bazaar.
+
+
+          This is an easy, flexible walking tour that allows you as much or as
+          little time at each spot, and even plenty of stops at cafes like the
+          iconic Indian Coffee House.
+
+
+          Your afternoon is at leisure to further explore Shimla on your own.
+          There are many beautiful walks in the pine clad hills that surround
+          Shimla, such as to the Jakhu temple, or to the former Viceregal Lodge
+          with its botanical gardens.
+        date: ''
+        etd: ''
+        duration: ''
+  - day: 9
     item:
       - type: city
         url: /destinations/india/states/delhi/cities/delhi/
         title: Delhi
         content: >-
-          Delhi is practically two cities: New Delhi, the capital of India, and
-          medieval Old Delhi. The old city centres around the Red Fort, which
-          contains opulent palaces and impressive public buildings. Nearby is
-          the magnificent Jama Masjid, India’s largest mosque. In New Delhi you
-          can find India Gate - a war memorial arch, the impressive Parliament
-          Building and Rashtrapati Bhawan, the residence of the President.
-          Towards the South are Qutab Minar and Humayun’s Tomb, both World
-          Heritage Sites.
+          You have another quaint colonial-era train ride today, down the hills
+          to the town of Kalka on a narrow-gauge route through lovely mountain
+          scenery.
+
+
+          At Kalka, you will transfer to a larger Shatabdi train to Delhi.
       - type: hotel
         url: >-
           /destinations/india/states/delhi/cities/delhi/hotels/the-metropolitan-hotel/
@@ -288,20 +314,25 @@ itinerary:
           Located close to Connaught Place, in the centre of New Delhi, this
           quiet, upmarket hotel has a fresh atmosphere with vivid, minimalist,
           stylish designs. The hotel has 3 restaurants including one serving
-          authentic Japanese cuisine. There is a swimming pool, an excellent
-          large spa, a fashion & lifestyle store and an art gallery.
+          authentic Japanese cuisine.
+
+
+          There is a swimming pool, an excellent large spa, a fashion &
+          lifestyle store and an art gallery.
         checkInDate: ''
         checkInTime: ''
         checkOutDate: ''
         checkOutTime: ''
         nights: ''
-  - day: 9
+  - day: 10
     item:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-hotel-to-international-airport/
-        title: Transfer from hotel to International airport
-        content: ''
+        title: Transfer from your hotel to the international airport
+        content: >-
+          Today, you have a departure transfer to the airport to board your
+          onward flight.
         date: ''
         etd: ''
         duration: ''
@@ -310,4 +341,4 @@ themes:
   - Off the beaten track
 region: Foothills of the Himalayas
 ---
-The British Raj had its capitals in Calcutta and later New Delhi, but in the sweltering summers, they&rsquo;d decamp with massive entourages to &lsquo;hill stations&rsquo;, which became charming little towns. Here, they set up pointy-steepled churches, narrow-gauge steam &lsquo;toy trains&rsquo;, stone cottages, and tea estates, all of which you can visit on this lovely tour of the Himalayan foothills. You&rsquo;ll find Raj memorabilia everywhere, and plenty of stories, as well as delightful accommodation and amazing views.
+The British Raj had its capitals in Calcutta and later New Delhi, but in the sweltering summers, they’d decamp with massive entourages to ‘hill stations’, which became charming little towns. Here, they set up pointy-steepled churches, narrow-gauge steam ‘toy trains’, stone cottages, and tea estates, all of which you can visit on this lovely tour of the Himalayan foothills. You’ll find Raj memorabilia everywhere, and plenty of stories, as well as delightful accommodation and amazing views.

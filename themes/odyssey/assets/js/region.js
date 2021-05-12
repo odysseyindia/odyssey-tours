@@ -6,10 +6,10 @@
   [23.02166667, 72.59027778, '/image_4.png', '/destinations/india/regions/gujarat-and-central-india/'],
   [18.999803, 72.817383,     '/image_5.png', '/destinations/india/regions/mumbai-goa-and-the-deccan/'],
   [8.36944444, 77.00444444,  '/image_7.png', '/destinations/india/regions/kerala-and-south-india/'],
+  [11.65979, 92.71582,       '/image_8.png', '/destinations/india/regions/andamans/'],
   ];
 
  // [13.05027778, 80.23222222, '/image_6.png', '/destinations/india/regions/karnataka-and-tamil-nadu/'],
- // [11.63722222, 92.72805556, '/image_8.png', '/destinations/india/regions/andaman-and-nicobar-islands/'],
  // [10.951111, 72.287778,     '/image_9.png', '/destinations/india/regions/the-lakshadweep-islands/'],
 
   function initMap() {

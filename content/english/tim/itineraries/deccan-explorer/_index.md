@@ -9,7 +9,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/telangana/cities/hyderabad/excursions/transfer-from-airport-to-hotel/
-        title: Transfer from airport to hotel
+        title: Transfer from Hyderabad's airport to your hotel
         content: >-
           Your tour starts on arrival in Hyderabad airport, where you are met by
           our representative and transferred to your hotel.
@@ -24,9 +24,11 @@ itinerary:
           Hindu cultures. Its history as the centre of Muslim India from the
           16th century can best be appreciated at the massive Golconda Fort.
           This mighty hilltop fortress saw frequent battles and remains one of
-          the most impressive in India. The old city is found around the famous
-          Charminar gate, and this predominantly Muslim area is fascinating to
-          explore.
+          the most impressive in India.
+
+
+          The old city is found around the famous Charminar gate, and this
+          predominantly Muslim area is fascinating to explore.
       - type: hotel
         url: >-
           /destinations/india/states/telangana/cities/hyderabad/hotels/taj-banjara/
@@ -46,15 +48,17 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/telangana/cities/hyderabad/excursions/half-day-city-tour-of-hyderabad/
-        title: Half day city tour of Hyderabad
+        title: Morning guided tour of Hyderabad
         content: >-
           West of Hyderabad lies the historic Golconda Fort, with its massive
           battlements winding up the dust-brown hill. First built in the 13th
           century, this fort was rebuilt by the Qutab Shahis, who made it their
           capital in 1525, and laid out its splendid monuments and parks, and a
-          famous acoustic system. Nearby are the domed tombs of seven Qutab
-          Shahi kings, silently telling you of the splendor and grandeur of an
-          era gone by.
+          famous acoustic system.
+
+
+          Nearby are the domed tombs of seven Qutab Shahi kings, silently
+          telling you of the splendor and grandeur of an era gone by.
         date: ''
         etd: ''
         duration: ''
@@ -67,19 +71,13 @@ itinerary:
           Today, you have a fairly long drive, broken at Bidar, a pleasant town
           where one can visit abandoned 15th-century palaces, mosques and huge
           domed tombs, some of the finest examples of Muslim architecture in the
-          Deccan. Bidar is still a centre of ‘Bidriware’, in which beautiful
-          flowing floral and arabesque patterns are inlaid and engraved on
-          various objects. This technique was developed by Persian silversmiths,
-          whose descendants can be seen at work in the old part of town.
+          Deccan.
 
 
-          You continue to Gulbarga (or Kalaburagi) was the capital of the
-          Bahmani dynasty. Later captured by the Adil Shahis and Mughals, it has
-          remained a staunchly Muslim town. The most striking remains are the
-          fort, with its citadel and mosque, the Jama Mashid (modelled on the
-          great mosque of Cordoba), and its domed tomb, the Dargah of Bande
-          Nawaz, the great Sufi saint and spiritual mentor of the Bahmani
-          rulers.
+          Bidar is still a centre of 'Bidriware', in which beautiful flowing
+          floral and arabesque patterns are inlaid and engraved on various
+          objects. This technique was developed by Persian silversmiths, whose
+          descendants can be seen at work in the old part of town.
       - type: hotel
         url: >-
           /destinations/india/states/karnataka/cities/gulbarga/hotels/citrus-hotel-gulbarga-by-othpl/
@@ -409,8 +407,11 @@ highlights:
   - The wonderful, atmospheric ruins of Hampi
   - Carved temples as beautiful as any in India
   - Easy exploring in Chikmagalur and Mysore
-  - ''
 subtitle: Hyderabad, Gulbarga, Vijayapura, Badami, Hampi, Chikmagalur, Mysore, Bangalore
 weight: 503
+themes:
+  - Off the beaten track
+  - Signature trips
+region: Mumbai, Goa & the Deccan
 ---
-Kerala’s backwaters and Tamil Nadu&rsquo;s temples get all the attention, but the Deccan plateau in South India has astonishing monuments and culture to offer as well. You start with Hyderabad, a royal city with a character all its own, with the huge Golconda Fort and Charminar. You carry on to the wonderful domed monuments and mosques of Gulbarga and Vijayapura, and the temples of Badami. You then find yourself in spectacular Hampi, with its ruins amid a boulder-strewn landscape, and after that in lovely, green Chikmagalur’s coffee estates, a complete contrast. Carry on via the ornately-carved temples at belur and Halebid to lovely, cosy Mysore, city of Tipu Sultan, for a relaxed end to an eye-opening trip.
+Kerala’s backwaters and Tamil Nadu’s temples get all the attention, but the Deccan plateau in South India has astonishing monuments and culture to offer as well. You start with Hyderabad, a royal city with a character all its own, with the huge Golconda Fort and Charminar. You carry on to the wonderful domed monuments and mosques of Gulbarga and Vijayapura, and the temples of Badami. You then find yourself in spectacular Hampi, with its ruins amid a boulder-strewn landscape, and after that in lovely, green Chikmagalur’s coffee estates, a complete contrast. Carry on via the ornately-carved temples at belur and Halebid to lovely, cosy Mysore, city of Tipu Sultan, for a relaxed end to an eye-opening trip.

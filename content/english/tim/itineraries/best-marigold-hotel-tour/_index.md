@@ -25,7 +25,7 @@ itinerary:
         title: Holiday Inn (Aerocity)
         content: >-
           For a comfortable stay before or after a long flight, the Holiday Inn
-          at Aerocity, close to Delhi's International Airport, is ideal. The
+          at Aerocity, close to Delhi’s International Airport, is ideal. The
           rooms are large, modern, and, most important of all, quiet. There is a
           swimming pool, a large restaurant with abundant buffets, a bar, and a
           speciality Italian restaurant.
@@ -44,7 +44,7 @@ itinerary:
 
 
           Set around the vast Pichola Lake and dominated by dramatic palaces,
-          Udaipur is surely Rajasthan's most picturesque city. High whitewashed
+          Udaipur is surely Rajasthan’s most picturesque city. High whitewashed
           houses and narrow, winding alleys lend it an almost medieval charm.
           The huge City Palace, still the residence of the Maharana, is carved
           out of yellow sandstone and stands on the banks of Lake Pichola, from
@@ -83,10 +83,10 @@ itinerary:
 
 
           The city tour is followed by a relaxing, hour-long (shared) motor boat
-          ride on the lake, with views of the activity on the "ghats" used by
+          ride on the lake, with views of the activity on the “ghats” used by
           local people for washing and bathing, the City Palace complex, and the
           Aravalli Hills to the west. You also pass the famous luxury Lake
-          Palace hotel, and stop to visit the serene "pleasure island" of Jag
+          Palace hotel, and stop to visit the serene “pleasure island” of Jag
           Mandir.
 
 
@@ -101,7 +101,7 @@ itinerary:
         url: /destinations/india/states/rajasthan/cities/khempur/
         title: Khempur
         content: >-
-          An hour's drive east of Udaipur is the little village of Khempur, set
+          An hour’s drive east of Udaipur is the little village of Khempur, set
           amid mustard and millet fields. At the edge of the village is Ravla
           Khempur, now a heritage hotel, famous in film as the Best Exotic
           Marigold Hotel. Khempur is also famous for its beautiful Marwari
@@ -149,7 +149,7 @@ itinerary:
           Chittaurgarh was sacked by a stronger enemy, and on each occasion the
           men rode out to certain death, while the women committed johar by
           throwing themselves and their children onto a huge funeral pyre. The
-          immense stretch of Chittaurgarh's walls and ruined palaces relate the
+          immense stretch of Chittaurgarh’s walls and ruined palaces relate the
           saga of innumerable sieges and heroism.
       - type: city
         url: /destinations/india/states/rajasthan/cities/bijaipur/
@@ -184,7 +184,7 @@ itinerary:
           /destinations/india/states/rajasthan/cities/bijaipur/excursions/activities-at-castle-bijaipur/
         title: Activities at Castle Bijaipur
         content: >-
-          Today is a free day for you to select the activity you'd like best.
+          Today is a free day for you to select the activity you’d like best.
 
 
           Castle Bijaipur has a number of excursions available, most of which
@@ -199,49 +199,58 @@ itinerary:
   - day: 7
     item:
       - type: city
-        url: /destinations/india/states/rajasthan/cities/bundi/
-        title: Bundi
+        url: /destinations/india/states/rajasthan/cities/shahpura/
+        title: Shahpura
         content: >-
-          Bundi, a three-hour drive from Bijaipur, is situated in a beautiful
-          narrow valley, dominated by the awsome 14th-century Taragarh Fort, one
-          of the most spectacular monuments of Rajasthan. The climb up to the
-          Fort through the colourful and friendly bazaar offers spectacular
-          views over the town and surrounding countryside, and takes you to the
-          Chitrashala, the picture gallery with Bundi's famous miniature
-          paintings and delicate murals.
-      - type: excursion
-        url: >-
-          /destinations/india/states/rajasthan/cities/bundi/excursions/half-day-sightseeing-of-bundi/
-        title: Afternoon guided tour of Bundi
-        content: >-
-          Bundi might be small, but it's packed with detail, just like its
-          famous miniature paintings. The guided tour takes you to the
-          astonishing Raniji ki Baori step-well, the large and un-touristy Bundi
-          Palace, which contains beautiful frescoes within its gaunt walls, and
-          the huge 14th-century Taragarh or Star Fort. Bundi's main market is
-          also fascinating to walk through, with bangle sellers, flower shops
-          and even sword sellers!
-        date: ''
-        etd: ''
-        duration: ''
+          Today, you get to treat yourself to some understated luxury. You drive
+          under three hours to Shahpura Bagh, a 120-year-old estate, set in 45
+          acres of garden and pasture and surrounded by lakes, and now a
+          wonderful boutique hotel.
+
+
+          There is an interesting step-well just outside the Bagh walls and a
+          temple with some excellent marble carvings, surrounded by a colourful
+          market.
       - type: hotel
         url: >-
-          /destinations/india/states/rajasthan/cities/bundi/hotels/hotel-bundi-haveli/
-        title: Hotel Bundi Haveli
+          /destinations/india/states/rajasthan/cities/shahpura/hotels/shahpura-bagh/
+        title: Shahpura Bagh
         content: >-
-          An old haveli turned into a small, chic guesthouse. Immaculate and
-          gleaming in white, the haveli is built around a minuscule courtyard.
-          Scalloped arches encircle the verandah restaurant and white walls set
-          off a well-chosen collection of artefacts. The 10 tastefully furnished
-          rooms are on the upper floors. The rooftop offers great views of the
-          Palace complex, the hilltop Taragarh Fort beyond, especially at
-          sunset.
+          Located in an orchard of rare beauty, and run by exceptionally amiable
+          hosts, Shahpura Bagh is a real treat. This was the summer residence of
+          the rulers of Shahpura and is now a fine heritage hotel with
+          beautifully furnished rooms.
+
+
+          The owners organise excursions to a nearby fort and to their eco-farm.
+          Most guests, though, find it difficult to leave the delightful
+          swimming pool! An ideal spot for relaxation and light activity.
         checkInDate: ''
         checkInTime: ''
         checkOutDate: ''
         checkOutTime: ''
         nights: ''
   - day: 8
+    item:
+      - type: excursion
+        url: >-
+          /destinations/india/states/rajasthan/cities/shahpura/excursions/day-at-leisure-in-shahpura/
+        title: Day at leisure in Shahpura
+        content: >-
+          Though Shahpura Bagh is perfect for total indolence, it also offers a
+          number of activities, like visits to the nearby village and market. To
+          understand the local culture, sit with the joshis (priests) and watch
+          a traditional phad, a painting depicting mythology and history, come
+          to life.
+
+
+          You can also go on jeep or cycle safaris, a bullock cart ride with an
+          outdoor breakfast, visit a school, or have a sundowner at the family’s
+          private fort. You can book all of these directly at the hotel.
+        date: ''
+        etd: ''
+        duration: ''
+  - day: 9
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/jaipur/
@@ -253,23 +262,11 @@ itinerary:
           is worthwhile spending time wandering through the bazaars. Jaipur is
           well known for its beautiful carpets, enameled ornaments, precious and
           semi-precious stones, brass ornaments and many other arts and crafts.
-      - type: excursion
-        url: >-
-          /destinations/india/states/rajasthan/cities/jaipur/excursions/a-culinary-tour-with-an-indian-housewife-lunch-or-dinner/
-        title: A culinary tour with an Indian housewife, lunch or dinner
-        content: >-
-          You join local resident Payal, a keen cook and food blogger, who will
-          share with you the secrets of her home cooking. She will take you to
-          the food markets of Jaipur to purchase the ingredients for the dishes
-          you will cook together. She will explain the preparation of
-          traditional Rajasthani food, and the use of various spices. Once you
-          have helped prepare the dishes, you get to enjoy them as lunch or
-          dinner. With easy-to-follow menus, and after your completely hands-on
-          experience, you will be eager to demonstrate your new skills back
-          home!
-        date: ''
-        etd: ''
-        duration: ''
+
+
+          Your afternoon is free to just relax. You spend the evening at Castle
+          Kanota, the filming location for the exclusive ‘Viceroy’s Club’
+          featured in both movies.
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/hotels/alsisar-haveli/
@@ -287,32 +284,34 @@ itinerary:
         checkOutDate: ''
         checkOutTime: ''
         nights: ''
-  - day: 9
+  - day: 10
     item:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/excursions/morning-walking-tour-of-jaipur/
-        title: Morning walking tour of Jaipur
+        title: Morning walking tour of Jaipur's Pink City
         content: >-
           As one of the major locations used in the movie, Jaipur has plenty of
           sights and scenes you will find familiar. To explore the Pink City, it
           is best to join a guided morning walk. You will walk along the busy
           main streets, lined with parades of traditional shops, and explore
-          smaller side streets, each devoted to different crafts. You will see
-          various tradesmen, such as marble-sculptors and angle-makers at work,
-          visit local temples, see the colourful vegetable and flower markets,
-          and sample delicious street foods, such as jalebis, rabri, kachoris,
-          and lassi.
+          smaller side streets, each devoted to different crafts.
+
+
+          You will see various tradesmen, such as marble-sculptors and
+          angle-makers at work, visit local temples, see the colourful vegetable
+          and flower markets, and sample delicious street foods, such as
+          jalebis, rabri, kachoris, and lassi.
         date: ''
         etd: ''
         duration: ''
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/excursions/half-day-excursion-to-amber-fort/
-        title: Half day excursion to Amber Fort
+        title: Afternoon guided tour of Amber Fort
         content: >-
           Just to the north of Jaipur, Amber Fort overlooks the city from a spur
-          of the Aravali Hills. There is a short, steep walk up to the entrance
+          of the Aravalli Hills. There is a short, steep walk up to the entrance
           courtyard, which leads to a magnificent complex of palaces, halls,
           pavilions, gardens and temples built over 125 years. There are
           excellent views down over the old town of Amer, and up to the Jaigarh
@@ -320,18 +319,6 @@ itinerary:
         date: ''
         etd: ''
         duration: ''
-  - day: 10
-    item:
-      - type: city
-        url: /destinations/india/states/rajasthan/cities/jaipur/
-        title: Jaipur
-        content: >-
-          Today is at leisure with the chance to ride auto rickshaws and cycle
-          rickshaws through Jaipur.
-
-
-          You spend the evening at Castle Kanota, the filming location for the
-          exclusive ‘Viceroy’s Club’ featured in both movies.
   - day: 11
     item:
       - type: city
@@ -371,17 +358,16 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/uttar-pradesh/cities/agra/excursions/early-morning-visit-to-the-taj-mahal-without-guide/
-        title: Early morning visit to the Taj Mahal (without guide)
+        title: Early morning visit on your own to the Taj Mahal
         content: >-
           The best time of day to appreciate this stunning monument is as soon
           as the Taj Mahal opens, when it is at its quietest and most serene.
-          You can enjoy the gardens, the mausoleum and the mosque. Don’t miss
-          the marble inlay work and the various vantage points offered
-          throughout the peaceful gardens. You can carry mobile phones, cameras,
-          a water bottle and valuables inside, but all other items must be
-          deposited in safety lockers at the entry gate. You are then free to
-          enter the grounds of the Taj Mahal for a maximum of three hours. Once
-          you have taken it all in, you can return to your hotel for a late
+          You can enjoy the gardens, the mausoleum and the mosque, without
+          needing a professional guide. Don't miss the marble inlay work and the
+          various vantage points offered throughout the peaceful gardens.
+
+
+          Once you have taken it all in, you can return to your hotel for a late
           breakfast.
         date: ''
         etd: ''
@@ -389,7 +375,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/uttar-pradesh/cities/agra/excursions/afternoon-guided-city-tour-of-agra/
-        title: Afternoon guided city tour of Agra
+        title: Afternoon guided tour of Agra's other monuments
         content: >-
           Agra has much to offer besides the Taj Mahal, such as Agra Fort, a
           masterpiece of design and construction. You then visit
@@ -425,8 +411,10 @@ itinerary:
         content: >-
           A colonial building in a peaceful garden setting in the centre of
           Lutyens’ New Delhi. The lobby is light and airy whilst the
-          air-conditioned rooms are spacious with all modern conveniences. There
-          is a large swimming pool, a health club and a tennis court, and
+          air-conditioned rooms are spacious with all modern conveniences.
+
+
+          There is a large swimming pool, a health club and a tennis court, and
           multiple, excellent restaurants. A pleasant superior hotel with
           old-world charm and a lovely location.
         checkInDate: ''
@@ -439,7 +427,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-hotel-to-international-airport/
-        title: Transfer from hotel to International airport
+        title: Transfer from your hotel to the international airport
         content: >-
           Today, a departure transfer will take you to Delhi airport to catch
           your onward flight.
@@ -456,4 +444,4 @@ themes:
   - Off the beaten track
 region: Rajasthan & the North
 ---
-This quirky, cheerful movie and its sequel had everyone wondering: where on Earth is this place, exactly? Well, it’s not one place, it’s several - and on this tour you can visit all of them, and all while getting to know a lovely, offbeat part of India. You will get to stay at the main location at Rawla Khempur, plus smaller ones in Jaipur and Kanota, and stay at Jagat Niwas Palace in Udaipur, also featured in the movie, with views over the famous Lake Palace. As you also visit other offbeat destinations, like the wonderful Bundi and the striking Castle Bijaipur, this is a very enjoyable, different tour - even if you aren&rsquo;t a movie buff!
+This quirky, cheerful movie and its sequel had everyone wondering: where on Earth is this place, exactly? Well, it’s not one place, it’s several - and on this tour you can visit all of them, and all while getting to know a lovely, offbeat part of India. You will get to stay at the main location at Rawla Khempur, plus smaller ones in Jaipur and Kanota, and stay at Jagat Niwas Palace in Udaipur, also featured in the movie, with views over the famous Lake Palace. As you also visit other offbeat destinations, like the wonderful Bundi and the striking Castle Bijaipur, this is a very enjoyable, different tour - even if you aren’t a movie buff!

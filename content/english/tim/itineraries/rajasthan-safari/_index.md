@@ -434,7 +434,7 @@ itinerary:
           Thrice in its long history, Chittaurgarh was sacked by a stronger
           enemy, and on each occasion the men rode out to certain death, while
           the women committed johar by throwing themselves and their children
-          onto a huge funeral pyre. The immense stretch of Chittaurgarh's walls
+          onto a huge funeral pyre. The immense stretch of Chittaurgarh’s walls
           and ruined palaces relate the saga of innumerable sieges and heroism.
       - type: excursion
         url: >-
@@ -476,18 +476,18 @@ itinerary:
           Fort, one of the most spectacular monuments of Rajasthan. The climb up
           to the Fort through the colourful and friendly bazaar offers
           spectacular views over the town and surrounding countryside, and takes
-          you to the Chitrashala, the picture gallery with Bundi's famous
+          you to the Chitrashala, the picture gallery with Bundi’s famous
           miniature paintings and delicate murals.
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/bundi/excursions/half-day-sightseeing-of-bundi/
         title: Afternoon guided tour of Bundi
         content: >-
-          Bundi might be small, but it's packed with detail, just like its
+          Bundi might be small, but it’s packed with detail, just like its
           famous miniature paintings. The guided tour takes you to the
           astonishing Raniji ki Baori step-well, the large and un-touristy Bundi
           Palace, which contains beautiful frescoes within its gaunt walls, and
-          the huge 14th-century Taragarh or Star Fort. Bundi's main market is
+          the huge 14th-century Taragarh or Star Fort. Bundi’s main market is
           also fascinating to walk through, with bangle sellers, flower shops
           and even sword sellers!
         date: ''
@@ -583,7 +583,7 @@ itinerary:
           Just outside town is the impressive Amber Fort. It is worthwhile
           spending time wandering through the bazaars. Jaipur is well known for
           its beautiful carpets, enameled ornaments, precious and semi-precious
-          stones, brass ornaments and many other arts and crafts, and you're at
+          stones, brass ornaments and many other arts and crafts, and you’re at
           leisure to explore the markets in the afternoon.
       - type: hotel
         url: >-
@@ -594,7 +594,7 @@ itinerary:
           just behind the bus station, Dera Rawatsar lies in a quiet, leafy
           lane. Within its walls are small courtyards and terraces, lawns and
           secluded corners. The well-decorated and traditionally-furnished rooms
-          are all different. Meals, drinks and snacks are served in the family's
+          are all different. Meals, drinks and snacks are served in the family’s
           dining room or the outdoor courtyard. There is also a small swimming
           pool.
         checkInDate: ''
@@ -633,7 +633,7 @@ itinerary:
           hills.
 
 
-          The rest of your day is at leisure to explore Jaipur's lovely markets
+          The rest of your day is at leisure to explore Jaipur’s lovely markets
           on your own.
         date: ''
         etd: ''
@@ -681,7 +681,7 @@ itinerary:
           The best time of day to appreciate this stunning monument is as soon
           as the Taj Mahal opens, when it is at its quietest and most serene.
           You can enjoy the gardens, the mausoleum and the mosque, without
-          needing a professional guide. Don't miss the marble inlay work and the
+          needing a professional guide. Don’t miss the marble inlay work and the
           various vantage points offered throughout the peaceful gardens. Once
           you have taken it all in, you can return to your hotel for a late
           breakfast.
@@ -724,7 +724,7 @@ itinerary:
           the magnificent Jama Masjid, India’s largest mosque. In New Delhi you
           can find India Gate - a war memorial arch, the impressive Parliament
           Building and Rashtrapati Bhawan, the residence of the President.
-          Towards the South are Qutab Minar and Humayun's Tomb, both World
+          Towards the South are Qutab Minar and Humayun’s Tomb, both World
           Heritage Sites.
       - type: excursion
         url: >-

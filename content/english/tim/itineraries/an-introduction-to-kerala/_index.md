@@ -13,7 +13,6 @@ highlights:
   - Spending the night on a houseboat on calm backwaters
   - Staying and eating with a family in their traditional home
   - Lazing on a beautiful beach at Mararikulam
-  - ''
 itinerary:
   - day: 0
     item:
@@ -263,5 +262,9 @@ itinerary:
         duration: ''
   - day: 9
     item: []
+themes:
+  - Beach vacations
+  - Classic tours
+region: Kerala & South India
 ---
 Strewn with rivers, lagoons and meandering backwaters, covered in coconut groves and flanked by sunny, palm-fringed beaches, Kerala is a slice of paradise. Explore fishing villages where colourful boats stand in the harbour against a backdrop of Chinese fishing nets, unwind aboard your private traditional kettuvallam houseboat as you sail through the uniquely quiet backwaters, and discover a world of exotic spices.

@@ -1,5 +1,5 @@
 {{- $resources := .Resources.ByType "image" }} 
-{{- range first 1 (.Resources.ByType "image") }} 
+{{- range first 1 (.Resources.ByType "image") }}
 {{ "<!-- image single --> " | safeHTML }}
 {{- $src := $resources.GetMatch ( printf "*%s*" (path.Base .RelPermalink) ) -}}
 
