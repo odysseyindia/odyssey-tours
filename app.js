@@ -95,11 +95,11 @@ app.post('/import',function (req, res) {
 
         frontMatter = {};
 
-        var web       = Number(array[7]) || 0;
-        var nighthalt = Number(array[8]) || 0;
+        var web       = Number(array[8]) || 0;
+        var nighthalt = Number(array[7]) || 0;
 
-        // 0=city, 1=state,2=country,3=writeUp,4=DefaultDays,5=longitude,6=latitude,7=display,8=nighthalt
-
+        // 0=city, 1=state,2=country,3=writeUp,4=DefaultDays,5=longitude,6=latitude,7=nighthalt, 8=display
+          
         frontMatter.title           = array[0];
         frontMatter.translationKey  = city;
         frontMatter.defaultDays     = Number(array[4]) || 0;
@@ -213,7 +213,9 @@ app.post('/import',function (req, res) {
       } 
     } else if ( request.file == 'services.csv') {
 
-      // state  city  description duration  starttime transfer  transfercode  active  daysofoperation city  to_cities_id  owntransport  guide
+      // 0=state  1=city  2=description 3=duration 4=starttime 5=transfer  6=transfercode  7=active  8=daysofoperation 
+      // 9=city  10=to_cities_id  11=owntransport  12=guide  13=dayatleisure
+
 
       var state             = urlize(array[0]);
       var city              = urlize(array[1]);
@@ -243,6 +245,7 @@ app.post('/import',function (req, res) {
         frontMatter.toCitiesId      = (array[10] == 'NULL') ?  '' : array[10];
         frontMatter.owntransport    = (array[11] == 1) ?  true : false;
         frontMatter.guide           = (array[12] == 1) ?  true : false;
+        frontMatter.dayAtLeisure    = (array[13] == 1) ?  true : false;
         frontMatter.id              = 'services';
         frontMatter.type            = 'excursions';
         frontMatter.tags            = ['Services',array[2].replace(/[.]/g, '') ];
