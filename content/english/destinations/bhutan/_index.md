@@ -1,5 +1,6 @@
 ---
-title: Nepal
+title: Bhutan
 type: destination
+translationKey: bhutan
 ---
-Mention Nepal and one thinks of...
+Mention Bhutan and one thinks of...

@@ -95,11 +95,11 @@ app.post('/import',function (req, res) {
 
         frontMatter = {};
 
-        var web       = Number(array[7]) || 0;
-        var nighthalt = Number(array[8]) || 0;
+        var web       = Number(array[8]) || 0;
+        var nighthalt = Number(array[7]) || 0;
 
-        // 0=city, 1=state,2=country,3=writeUp,4=DefaultDays,5=longitude,6=latitude,7=display,8=nighthalt
-
+        // 0=city, 1=state,2=country,3=writeUp,4=DefaultDays,5=longitude,6=latitude,7=nighthalt, 8=display
+          
         frontMatter.title           = array[0];
         frontMatter.translationKey  = city;
         frontMatter.defaultDays     = Number(array[4]) || 0;
@@ -213,7 +213,9 @@ app.post('/import',function (req, res) {
       } 
     } else if ( request.file == 'services.csv') {
 
-      // state  city  description duration  starttime transfer  transfercode  active  daysofoperation city  to_cities_id  owntransport  guide
+      // 0=state  1=city  2=description 3=duration 4=starttime 5=transfer  6=transfercode  7=active  8=daysofoperation 
+      // 9=city  10=to_cities_id  11=owntransport  12=guide  13=dayatleisure
+
 
       var state             = urlize(array[0]);
       var city              = urlize(array[1]);
@@ -243,6 +245,7 @@ app.post('/import',function (req, res) {
         frontMatter.toCitiesId      = (array[10] == 'NULL') ?  '' : array[10];
         frontMatter.owntransport    = (array[11] == 1) ?  true : false;
         frontMatter.guide           = (array[12] == 1) ?  true : false;
+        frontMatter.dayAtLeisure    = (array[13] == 1) ?  true : false;
         frontMatter.id              = 'services';
         frontMatter.type            = 'excursions';
         frontMatter.tags            = ['Services',array[2].replace(/[.]/g, '') ];
@@ -461,7 +464,7 @@ function CSVToArray( strData, strDelimiter ){
 app.post('/ajax',function (req, res) {
 
   var request = JSON.parse(req.body.data);
-  var file    = dir + request.file + '_index.md';
+  var file    = dir + request.file;
   console.log('Reading '+file);
 
   try {
@@ -478,19 +481,31 @@ app.post('/ajax',function (req, res) {
     let contents = fileContents.split("---");
     let data = yaml.loadAll(contents[1]);
 
-    data[0].itinerary  =  request.data;
-    data[0].highlights =  request.highlights;
-    data[0].subtitle   =  request.subtitle;
-    data[0].themes     =  request.themes;
-    data[0].region     =  request.region;
-    data[0].weight     = (request.weight == 'NULL') ?  0  : Number(request.weight);
-    intro              =  request.intro.replace(/[`]/g, "'");
-
-    let output = `---\n` + yaml.dump(data[0]) + "---\n" + intro; 
+    let output = `---\n` + yaml.dump(data[0]) + "---\n" + data[1]; 
 
     fs.writeFile(file, output, function(err) {
       if(err) return console.error(err);
       console.log('Successfully wrote to the file!');
+      
+      /*
+      if (data[0].region.length > 0){
+        data[0].type = "tour";
+        output = `---\n` + yaml.dump(data[0]) + "---\n" + intro; 
+
+        file   = dir + data[0].region+request.file + '_index.md';
+  
+        mkdirp(getDirName(file)).then(made => {
+          if (made == undefined){
+            console.log('File exist already');  
+          } else {
+            console.log('Created a directory for ',file);
+            fs.writeFile(file, output, 'utf8', (err) => {       
+            if (err) throw err; 
+          };
+        };
+      };
+      */
+      
     });
   } 
   catch (error) {
@@ -563,10 +578,7 @@ app.post('/save',function (req, res) {
     data[0].arrdate    =  request.data.arrdate;
     data[0].depdate    =  request.data.depdate;
 
-    let output = `---\n` 
-    + yaml.dump(data[0]) 
-    + "---\n" 
-    + data[1].replace(/[`]/g, "'");
+    let output = `---\n` + yaml.dump(data[0]) + "---\n" + data[1].replace(/[`]/g, "'");
 
     fs.writeFileSync(file, output, 'utf8', (err) => {       
       if (err) throw err; 

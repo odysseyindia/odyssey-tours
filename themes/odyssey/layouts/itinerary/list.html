@@ -31,7 +31,7 @@
       <div  class="select-flex">
         <div class="custom-select">
          <label class="search-label" for="weight">Weight</label>
-           <input type="num" tip="0 for FIT and 1-999 for tours" min="0" max="999" id="intro-weight" required name="weight" value="{{ with .Params.weight }}{{ . }}{{ end }}" placeholder="0"> <!--  onfocusout="activateTour()" -->
+           <input type="num" tip="0 for FIT and 1-999 for tours" min="0" max="999" id="intro-weight" required name="weight" value="{{ with .Params.weight }}{{ . }}{{ else }}0{{ end }}" placeholder="0"> <!--  onfocusout="activateTour()" -->
         </div>
       </div>
 
@@ -136,12 +136,12 @@
           <div>
             {{- $url :=  printf "%s%s" $v.url "index.md" }}
             {{- if (eq $v.type "city") }}
-            <i class="icon-monument"></i>
+            <i class="icon-city"></i>
             {{- $url =  printf "%s%s" $v.url "_index.md" }}
             {{- else if (eq $v.type "excursion") }}
-            <i class="icon-camera"></i>
+            <i class="icon-excursion"></i>
             {{- else if (eq $v.type "hotel") }}
-            <i class="icon-bed"></i>
+            <i class="icon-hotel"></i>
             {{- else if (eq $v.type "flight") }}
             <i class="icon-flight"></i>
             {{- else if (eq $v.type "ferry") }}
@@ -238,7 +238,7 @@
                   <div>ETD: </div> 
                   <div class="details" attr="checkOutTime" value="{{ $v.checkOutTime }}">{{ with $v.checkOutTime }} {{ dateFormat  "15:04" . }} {{ end }}</div>
                   <div>Nights: </div> 
-                  <div class="details" attr="nights" value="{{ $v.nights }}">{{ with $v.nights }} {{ . }} {{ end }}</div>
+                  <div class="details" attr="nights" value="{{ $v.nights }}">{{ $v.nights }}</div>
                 </div>
                 {{- else if (eq $v.type "flight") }}
                 <div class="rowdetails {{ with $v.date }}show{{ end }}">
@@ -314,7 +314,7 @@
             {{ end }}
           </select>
            <a href="#0" class="button"  onclick="addCity()">
-          <i class="select icon icon-monument"></i>
+          <i class="select icon icon-city"></i>
         </a>
         </div>
       </div>
@@ -325,7 +325,7 @@
           <select class="maxwidth" id="hotels" name="hotels">
           </select>
           <a href="#0" class="button" onclick="addHotel()">
-            <i class="select icon icon-bed" ></i>
+            <i class="select icon icon-hotel" ></i>
           </a>
         </div>
       </div>
@@ -336,7 +336,7 @@
           <select class="maxwidth" id="excursions" name="excursions">
           </select>
           <a href="#0" class="button"  onclick="addExcursion()">
-          <i class="select icon icon-camera"></i>
+          <i class="select icon icon-excursion"></i>
         </a>
         </div>
       </div>
@@ -420,7 +420,7 @@
       <div class="row buttons">
         <div>
           <button class="default default-modal-btn">
-            <i class="icon-trash"></i>
+            <i class="icon-trash"></i> 
             Default
           </button>
         </div>
@@ -901,7 +901,7 @@ function addDay(){
 
 function saveItinerary(deleteDay){
 
-  var data   = [];
+  var itinerary, themes, data = []; 
 
   var intro        = document.getElementById('intro-content').value;
   var subtitle     = document.getElementById('intro-subtitle').value;
@@ -909,8 +909,7 @@ function saveItinerary(deleteDay){
   var lines        = document.getElementById('intro-highlights').value.split(/\n/);
   var themeOptions = document.getElementsByClassName('theme');
   var region       = document.getElementById('region').value;
-  var themes       = [];
-
+  
   for (var i=0; i<themeOptions.length; i++){
     if (themeOptions[i].checked){
       themes.push( themeOptions[i].value );
@@ -965,7 +964,7 @@ let object  = {};
 object.day  = i;
 object.item = details;
 //if (details.length > 0) {
-  data.push( object );
+  itinerary.push( object );
 //};
 };
 };
@@ -973,18 +972,22 @@ object.item = details;
 let css = document.getElementById("message");
 css.style.display = 'block';
 
+
+data[0].itinerary  = itinerary;
+data[0].subtitle   = subtitle;
+data[0].Weight     = weight;
+data[0].highlights = highlights;
+data[0].themes     = themes;
+data[0].region     = region;
+data[1]            = intro.replace(/[`]/g, "'");
+;
+
 docLoad({
   url:    'ajax', 
   method: 'POST',
   data:   JSON.stringify({ 
     "file": {{ .RelPermalink }}, 
-    "data": data,
-    "intro": intro,
-    "subtitle": subtitle,
-    "weight": weight,
-    "highlights": highlights,
-    "themes": themes,
-    "region": region
+    "data": data
   }) 
 }).then(
 
@@ -1063,15 +1066,16 @@ function displayExcursions(city){
       var   sel   = '<option value="">Select an excursion</option>';
 
       if (items.length > 0) {
-        for(let i=0;i<items.length;i++) {
-          sel += "<option value='"+items[i].permalink+"'>"+items[i].title+"</option>"
+        for(let i=0;i<items.length;i++) {       
+          // if (items[i].transfer != 'true'){
+          var option = '{"url":"'+items[i].permalink+'","transfer":'+items[i].transfer+'}';
+          sel += "<option value='"+option+"'>"+items[i].title+"</option>"
+          document.getElementById("selectExcursions").style.visibility = "visible"; 
+          document.getElementById("excursions").innerHTML = sel;
         }
-
-        document.getElementById("selectExcursions").style.visibility = "visible"; 
-        document.getElementById("excursions").innerHTML = sel;
       } else {
         document.getElementById("selectExcursions").style.visibility = "hidden";
-      }
+      };
     }, 
 
     function(Error) {
@@ -1194,7 +1198,7 @@ function displayTrains(city){
     );
 };
 
-function addToWorkspace(type,icon,url,text){
+function addToWorkspace(type,url,text){
   let ws     = document.getElementById('toggleWorkspace');
   const html = '<div class="draggable" draggable="true" type ="'+type+'" url="' + url + '"><i class="icon-'+icon+'"></i>&nbsp;<span class="title">' + text+'</span></div>';
 
@@ -1218,7 +1222,6 @@ function addCity(){
   if (i > 0) {
     addToWorkspace('city','monument',url,text);
   };
-};
 
 function addHotel(){
 
@@ -1238,11 +1241,15 @@ function addExcursion(){
   const source    = document.querySelector("#excursions");
   const ws        = document.getElementById('toggleWorkspace');
   const i         = source.selectedIndex;
-  const url       = source[i].value ;
+  const value     = JSON.parse(source[i].value );
+  const url       = value.url;
+  const transfer  = value.transfer;
   const text      = source[i].innerHTML;
 
-  if (i > 0) {
-    addToWorkspace('excursion','camera',url,text);
+  if (transfer == true){
+    addToWorkspace('transfer',url,text);
+  } else {
+    addToWorkspace('excursion',url,text);
   };
 };
 
@@ -1253,9 +1260,7 @@ function addCar(){
   const url       = source[i].value ;
   const text      = source[i].innerHTML;
 
-  if (i > 0) {
-    addToWorkspace('car','cab',url,text);
-  };
+  addToWorkspace('car','cab',url,text);
 };
 
 function addFlight(){
@@ -1265,9 +1270,7 @@ function addFlight(){
   const url       = source[i].value ;
   const text      = source[i].innerHTML;
 
-  if (i > 0) {
-    addToWorkspace('flight','flight',url,text);
-  };
+  addToWorkspace('flight','flight',url,text);
 };
 
 function addTrain(){
@@ -1277,9 +1280,7 @@ function addTrain(){
   const url       = source[i].value ;
   const train     = source[i].innerHTML;
 
-  if (i > 0) {
-    addToWorkspace('train','train',url,city);
-  };
+  addToWorkspace('train','train',url,city);
 };
 
 function emptyTrash(){
@@ -1423,22 +1424,26 @@ function editItem(day,index,url,obj){
 
   var icon;
 
+  /* 
+  // Do close modal when clicking outside the modal range 
+
   window.onclick = function(event) {
     if (event.target == modal) {
       modal.style.display = "none";
     }
   } 
-
+  */
+  
   var count = (url.match(/\//g) || []).length;
 
   if (count == 7 ){
-    icon  = "monument";
+    icon  = "city";
     modal = document.getElementById("modal-city");
   } else if (url.includes("hotels")){
-    icon  = "bed";
+    icon  = "hotel";
     modal = document.getElementById("modal-accommodation");
   } else if (url.includes("excursions")){
-    icon  = "camera";
+    icon  = "excursion";
     modal = document.getElementById("modal-excursions");
   } else if (url.includes("airports")){
     icon  = "flight";
@@ -1464,17 +1469,18 @@ function editItem(day,index,url,obj){
     defaultBtn.style.display = "none"
   }
 
- let modalURL = modal.getElementsByClassName('modal-url');
-    let displayURL = url.split("/");
-    modalURL[0].innerText = displayURL[displayURL.length-2];
-
-  let content      = obj.getElementsByClassName('content-details');
-  let title        = obj.getElementsByClassName('title');
+  let modalURL      = modal.getElementsByClassName('modal-url');
+  let displayURL    = url.split("/");
   
-  let inputs       = modal.getElementsByClassName('input');
-  let modalContent = modal.getElementsByClassName('content');
-  let rows         = modal.getElementsByClassName('row');
-  let modalTitle   = modal.getElementsByClassName('modal-title');
+  modalURL[0].innerText = displayURL[displayURL.length-2];
+
+  let content       = obj.getElementsByClassName('content-details');
+  let title         = obj.getElementsByClassName('title');
+  
+  let inputs        = modal.getElementsByClassName('input');
+  let modalContent  = modal.getElementsByClassName('content');
+  let rows          = modal.getElementsByClassName('row');
+  let modalTitle    = modal.getElementsByClassName('modal-title');
   
   modalTitle[0].value = title[0].innerText;
 

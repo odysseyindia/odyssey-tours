@@ -6,6 +6,7 @@
       "content":    "{{ replace (trim (.Content | plainify ) "\n") "\n" "linebreak" }}",
       "draft":      "{{ .Params.draft }}",
       "id":         "{{ .Params.id }}",
+      "transfer":   "{{ .Params.transfer }}",
       "translationKey": "{{ .Params.translationKey }}"
       {{- range $i,$e := (.Resources.ByType "image") }} 
         {{- if eq $i 0 }},"image": "{{ . }}"{{- end }}

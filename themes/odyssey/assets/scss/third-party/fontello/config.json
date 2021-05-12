@@ -401,6 +401,18 @@
       "css": "list-numbered",
       "code": 61643,
       "src": "fontawesome"
+    },
+    {
+      "uid": "e07df3e5b9ae72836b7804f38f0644a9",
+      "css": "exchange",
+      "code": 59427,
+      "src": "iconic"
+    },
+    {
+      "uid": "0d08dbb1dd648a43bdea81b7e6c9e036",
+      "css": "location",
+      "code": 59428,
+      "src": "fontawesome"
     }
   ]
 }
