@@ -24,14 +24,14 @@
       </div>
       <div  class="select-flex">
         <div class="custom-select">
-         <label class="search-label" for="subtitle">Subtitle</label>
-           <input id="intro-subtitle" name="subtitle" value="{{ with .Params.subtitle }}{{ . }}{{ end }}" placeholder="Subtitle">
+          <label class="search-label" for="subtitle">Subtitle</label>
+          <input id="intro-subtitle" name="subtitle" value="{{ with .Params.subtitle }}{{ . }}{{ end }}" placeholder="Subtitle">
         </div>
       </div>
       <div  class="select-flex">
         <div class="custom-select">
-         <label class="search-label" for="weight">Weight</label>
-           <input type="num" tip="0 for FIT and 1-999 for tours" min="0" max="999" id="intro-weight" required name="weight" value="{{ with .Params.weight }}{{ . }}{{ else }}0{{ end }}" placeholder="0"> <!--  onfocusout="activateTour()" -->
+          <label class="search-label" for="weight">Weight</label>
+          <input type="num" tip="0 for FIT and 1-999 for tours" min="0" max="999" id="intro-weight" required name="weight" value="{{ with .Params.weight }}{{ . }}{{ else }}0{{ end }}" placeholder="0"> <!--  onfocusout="activateTour()" -->
         </div>
       </div>
 
@@ -48,7 +48,6 @@
       </div>
 
       <div class="tour-section">
-       
         <label class="tour-region" for="region">Tour region</label>
         <select name="region" id="region">
           <option value="0">Select a region</option>
@@ -61,40 +60,7 @@
   </div>
 
   <div id="message" class="spinner" role="status">
-      <span class="sr-only">In progress...</span>
-  </div>
-
-  </div>
-
-  <div class="main-container">
-    <div class="row dossier">
-      <div>&nbsp;&nbsp;&nbsp;&nbsp;Dossier: {{ .RelPermalink }}</div>
-      <div>
-        <a  href="#0" class="button" onclick="saveItinerary()">
-          <i class="icon-floppy"></i>Save
-        </a>
-
-        <a href="#0" class="button" id="toggleContent" onclick="toggleContent()">
-          <i class="icon-plus-squared"></i>Compact
-        </a>
-
-        <a href="#0" class="button" onclick="insertDay()">
-          <i class="icon-plus"></i>Insert a day
-        </a>
-
-        <a  href="#0" class="button" onclick="deleteDay()">
-          <i class="icon-minus"></i>Delete a day
-        </a>
-
-        <a href="#0" class="button" onclick="addDay()">
-          <i class="icon-plus"></i>Append a day
-        </a>
-
-        <a href="#0" class="button showWorkspace" id="toggleWorkspace" onclick="toggleWorkspace()">
-          <i class="icon-wrench"></i>Use Workspace
-        </a>
-      </div>
-    </div>
+    <span class="sr-only">In progress...</span>
   </div>
 
   <div class="columns">
@@ -131,29 +97,18 @@
 
       <div class="containers">
         {{- range $i,$v := .item }}
-        <div class="draggable" draggable="true" type="{{- if (eq $v.type "city") }}city{{- else if (eq $v.type "excursion") }}excursion{{- else if (eq $v.type "hotel") }}hotel{{- else if (eq $v.type "flight") }}flight{{- else if (eq $v.type "ferry") }}ferry{{- else if (eq $v.type "train") }}train{{- else if (eq $v.type "car-hire") }}car-hire{{- end }}" day={{ $index }} index={{ $i }} url="{{ .url }}">
-
+        <div class="draggable" draggable="true" type="{{ $v.type }}" day={{ $index }} index={{ $i }} url="{{ .url }}">
           <div>
-            {{- $url :=  printf "%s%s" $v.url "index.md" }}
-            {{- if (eq $v.type "city") }}
-            <i class="icon-city"></i>
-            {{- $url =  printf "%s%s" $v.url "_index.md" }}
-            {{- else if (eq $v.type "excursion") }}
-            <i class="icon-excursion"></i>
-            {{- else if (eq $v.type "hotel") }}
-            <i class="icon-hotel"></i>
-            {{- else if (eq $v.type "flight") }}
-            <i class="icon-flight"></i>
-            {{- else if (eq $v.type "ferry") }}
-            <i class="icon-ferry"></i>
-            {{- else if (eq $v.type "train") }}
-            <i class="icon-train"></i>
-            {{- else if (eq $v.type "car-hire") }}
-            <i class="icon-cab"></i>
-            {{- end }}
+            <i class="icon-{{ $v.type }}"></i>
           </div>
           <div class="program">
             {{- $content := $v.content | default " " }}
+
+            {{- $url :=  printf "%s%s" $v.url "index.md" }}
+
+            {{- if (eq $v.type "city") }}
+              {{- $url =  printf "%s%s" $v.url "_index.md" }}
+            {{- end }}            
 
             {{- with $.Site.GetPage (string $url) }}
             <div>
@@ -218,7 +173,7 @@
                 <div class="rowdetails">
                   &nbsp;
                 </div>
-                {{- else if (eq $v.type "excursion") }}
+                {{- else if or (eq $v.type "excursion") (eq $v.type "transfer") }}
                 <div class="rowdetails  {{- with $v.date }}show{{ end }}">
                   <div>Date:  </div> 
                   <div class="details" attr="date" value="{{ $v.date }}"> {{- with $v.date }}{{ dateFormat  "02-01-2006" . }}{{ end }}</div>
@@ -293,15 +248,24 @@
         {{- end }}
       </div>
       {{- end }}
-
       <div id="addDay"></div>
     </div>
-
     <div class="to-do-column">
+  <div class="main-container">
+    <div class="row dossier">
+      <div>
+        <a  href="#0" class="button" onclick="saveItinerary()" data-toggle="tooltip" title="Save"><i class="icon-floppy"></i></a>
+        <a href="#0" class="button" id="toggleContent" data-toggle="tooltip" title="Compact" onclick="toggleContent()"><i class="icon-plus-squared"></i></a>
+        <a href="#0" class="button" data-toggle="tooltip" title="Insert a day" onclick="insertDay()"><i class="icon-plus"></i></a>
+        <a  href="#0" class="button" data-toggle="tooltip" title="Delete a day"  onclick="deleteDay()"><i class="icon-minus"></i></a>
+        <a href="#0" class="button" data-toggle="tooltip" title="Append a day" onclick="addDay()"><i class="icon-plus"></i></a>
+        <a href="#0" class="button showWorkspace" data-toggle="tooltip" title="Workspace" id="toggleWorkspace" onclick="toggleWorkspace()"><i class="icon-wrench"></i></a>
+      </div>
+    </div>
+  </div>
       <div class="column-header">
         <h4><i class="icon-search"></i>Search</h4>
       </div>
-
       <div  class="select-flex">
         <div class="custom-select">
           <label for="cities" class="search-label">City</label>
@@ -313,9 +277,9 @@
             <option value="{{ .RelPermalink }}">{{ .Title }} {{ if ne $path "destinations" }}, {{ $path | humanize }}{{ end }}</option>
             {{ end }}
           </select>
-           <a href="#0" class="button"  onclick="addCity()">
-          <i class="select icon icon-city"></i>
-        </a>
+          <a href="#0" class="button"  onclick="addCity()">
+            <i class="select icon icon-city"></i>
+          </a>
         </div>
       </div>
 
@@ -336,8 +300,8 @@
           <select class="maxwidth" id="excursions" name="excursions">
           </select>
           <a href="#0" class="button"  onclick="addExcursion()">
-          <i class="select icon icon-excursion"></i>
-        </a>
+            <i class="select icon icon-excursion"></i>
+          </a>
         </div>
       </div>
 
@@ -355,8 +319,8 @@
           <select class="maxwidth" id="cars" name="cars">
           </select>
           <a href="#0" class="button" onclick="addCar()">
-          <i class="select icon icon-cab"></i>
-        </a>
+            <i class="select icon icon-cab"></i>
+          </a>
         </div>
       </div>
 
@@ -366,8 +330,8 @@
           <select class="maxwidth" id="flights" name="flights">
           </select>
           <a href="#0" class="button" onclick="addFlight()">
-          <i class="select icon icon-flight"></i>
-        </a>
+            <i class="select icon icon-flight"></i>
+          </a>
         </div>
       </div>
 
@@ -377,7 +341,7 @@
           <select class="maxwidth" id="trains" name="trains">
           </select>
           <a href="#0" class="button" onclick="addTrain()">
-          <i class="select icon icon-train"></i>
+            <i class="select icon icon-train"></i>
           </a>
         </div>
       </div>
@@ -388,8 +352,8 @@
       <div class="column-header">
         <h4><i class="icon-spin3"></i>Workspace</h4>
       </div>
-      <div class="containers" id="workspace"></div>
 
+      <div class="containers" id="workspace"></div>
       <div class="trash-column">
         <div class="column-header">
           <h4><i class="icon-trash"  onclick="emptyTrash()"></i> Trash</h4>
@@ -399,238 +363,254 @@
       </div>
     </div> 
   </div>
-</div>
 
-<div id="modal-accommodation" class="modal">
-  <div class="modal-content">
-    <div class="container">
-     <div class="row">
-        <div id="modal-category-accommodation"></div>
-        <div class="modal-url"></div>
-        <div class="cancel close-modal-btn">
-          <i class="icon-cancel"></i>
+
+  <div id="modal-accommodation" class="modal">
+    <div class="modal-content">
+      <div class="container">
+        <div class="row">
+          <div id="modal-category-accommodation"></div>
+          <div class="modal-url"></div>
+          <div class="cancel close-modal-btn">
+            <i class="icon-cancel"></i>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <form>
-          <textarea class="content modal-title"></textarea>
-        </form>
-      </div>
-      {{ partial "modal-accommodation.html" . }}
-      <div class="row buttons">
-        <div>
-          <button class="default default-modal-btn">
-            <i class="icon-trash"></i> 
-            Default
-          </button>
+        <div class="row">
+          <input type="text" name="modal-title" class="modal-title" value="">
         </div>
-        <div>
-          <button class="save" id="save-modal-accommodation">
-            <i class="icon-floppy"></i>
-            Save
-          </button>
+        <div class="row">
+          <form>
+            <textarea class="content"></textarea>
+          </form>
+        </div>
+        {{ partial "modal-accommodation.html" . }}
+        <div class="row buttons">
+          <div>
+            <button class="default default-modal-btn">
+              <i class="icon-trash"></i> 
+              Default
+            </button>
+          </div>
+          <div>
+            <button class="save" id="save-modal-accommodation">
+              <i class="icon-floppy"></i>
+              Save
+            </button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div> 
+  </div> 
 
-<div id="modal-city" class="modal">
-  <div class="modal-content">
-    <div class="container">
-      <div class="row">
-        <div id="modal-category-city"></div>
-        <div class="modal-url"></div>
-        <div class="cancel close-modal-btn">
-          <i class="icon-cancel"></i>
+  <div id="modal-city" class="modal">
+    <div class="modal-content">
+      <div class="container">
+        <div class="row">
+          <div id="modal-category-city"></div>
+          <div class="modal-url"></div>
+          <div class="cancel close-modal-btn">
+            <i class="icon-cancel"></i>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <form>
-          <textarea class="content modal-title"></textarea>
-        </form>
-      </div>
-      {{ partial "modal-city.html" . }}
-      <div class="row buttons">
-        <div>
-          <button class="default default-modal-btn">
-            <i class="icon-trash"></i>
-            Default
-          </button>
+        <div class="row">
+          <input type="text" name="modal-title" class="modal-title" value="">
         </div>
-        <div>
-          <button class="save" id="save-modal-city">
-            <i class="icon-floppy"></i>
-            Save
-          </button>
+        <div class="row">
+          <form>
+            <textarea class="content"></textarea>
+          </form>
+        </div>
+        {{ partial "modal-city.html" . }}
+        <div class="row buttons">
+          <div>
+            <button class="default default-modal-btn">
+              <i class="icon-trash"></i>
+              Default
+            </button>
+          </div>
+          <div>
+            <button class="save" id="save-modal-city">
+              <i class="icon-floppy"></i>
+              Save
+            </button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div> 
+  </div> 
 
-<div id="modal-excursions" class="modal">
-  <div class="modal-content">
-    <div class="container">
-      <div class="row">
-        <div id="modal-category-excursions"></div>
-        <div class="modal-url"></div>
-        <div class="cancel close-modal-btn">
-          <i class="icon-cancel"></i>
+  <div id="modal-excursions" class="modal">
+    <div class="modal-content">
+      <div class="container">
+        <div class="row">
+          <div id="modal-category-excursions"></div>
+          <div class="modal-url"></div>
+          <div class="cancel close-modal-btn">
+            <i class="icon-cancel"></i>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <input type="text" name="modal-title" class="modal-title" value="">
-      </div>
-      <div class="row">
-        <form>
-          <textarea class="content"></textarea>
-        </form>
-      </div>
-      {{ partial "modal-excursions.html" . }}
-      <div class="row buttons">
-        <div>
-          <button class="default default-modal-btn">
-            <i class="icon-trash"></i>
-            Default
-          </button>
+        <div class="row">
+          <input type="text" name="modal-title" class="modal-title" value="">
         </div>
-        <div>
-          <button class="save" id="save-modal-excursions">
-            <i class="icon-floppy"></i>
-            Save
-          </button>
+        <div class="row">
+          <form>
+            <textarea class="content"></textarea>
+          </form>
+        </div>
+        {{ partial "modal-excursions.html" . }}
+        <div class="row buttons">
+          <div>
+            <button class="default default-modal-btn">
+              <i class="icon-trash"></i>
+              Default
+            </button>
+          </div>
+          <div>
+            <button class="save" id="save-modal-excursions">
+              <i class="icon-floppy"></i>
+              Save
+            </button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div> 
+  </div> 
 
-<div id="modal-car-hire" class="modal">
-  <div class="modal-content">
-    <div class="container">
-     <div class="row">
-        <div id="modal-category-car-hire"></div>
-        <div class="modal-url"></div>
-        <div class="cancel close-modal-btn">
-          <i class="icon-cancel"></i>
+  <div id="modal-car-hire" class="modal">
+    <div class="modal-content">
+      <div class="container">
+        <div class="row">
+          <div id="modal-category-car-hire"></div>
+          <div class="modal-url"></div>
+          <div class="cancel close-modal-btn">
+            <i class="icon-cancel"></i>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <form>
-          <textarea class="content"></textarea>
-        </form>
-      </div>
-      {{ partial "modal-car-hire.html" . }}
-      <div class="row buttons">
-        <div>
-          <button class="default default-modal-btn">
-            <i class="icon-trash"></i>
-            Default
-          </button>
+        <div class="row">
+          <input type="text" name="modal-title" class="modal-title" value="">
         </div>
-        <div>
-          <button class="save" id="save-modal-car-hire">
-            <i class="icon-floppy"></i>
-            Save
-          </button>
+        <div class="row">
+          <form>
+            <textarea class="content"></textarea>
+          </form>
+        </div>
+        {{ partial "modal-car-hire.html" . }}
+        <div class="row buttons">
+          <div>
+            <button class="default default-modal-btn">
+              <i class="icon-trash"></i>
+              Default
+            </button>
+          </div>
+          <div>
+            <button class="save" id="save-modal-car-hire">
+              <i class="icon-floppy"></i>
+              Save
+            </button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div> 
+  </div> 
 
-<div id="modal-flights" class="modal">
-  <div class="modal-content">
-    <div class="container">
-      <div class="row">
-        <div id="modal-category-flights"></div>
-        <div class="modal-url"></div>
-        <div class="cancel close-modal-btn">
-          <i class="icon-cancel"></i>
+  <div id="modal-flights" class="modal">
+    <div class="modal-content">
+      <div class="container">
+        <div class="row">
+          <div id="modal-category-flights"></div>
+          <div class="modal-url"></div>
+          <div class="cancel close-modal-btn">
+            <i class="icon-cancel"></i>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <form>
-          <textarea class="content"></textarea>
-        </form>
-      </div>
-      {{ partial "modal-flights.html" . }}
-      <div class="row buttons">
-        <div>
-          <button class="default default-modal-btn">
-            <i class="icon-trash"></i>
-            Default
-          </button>
+        <div class="row">
+          <input type="text" name="modal-title" class="modal-title" value="">
         </div>
-        <div>
-          <button class="save" id="save-modal-flights">
-            <i class="icon-floppy"></i>
-            Save
-          </button>
+        <div class="row">
+          <form>
+            <textarea class="content"></textarea>
+          </form>
+        </div>
+        {{ partial "modal-flights.html" . }}
+        <div class="row buttons">
+          <div>
+            <button class="default default-modal-btn">
+              <i class="icon-trash"></i>
+              Default
+            </button>
+          </div>
+          <div>
+            <button class="save" id="save-modal-flights">
+              <i class="icon-floppy"></i>
+              Save
+            </button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div> 
+  </div> 
 
-<div id="modal-insert-day" class="modal">
-  <div class="modal-content">
-    <div class="container">
-      <div class="row">
-        <div class="cancel close-modal-btn">
-          <i class="icon-cancel"></i>
+  <div id="modal-insert-day" class="modal">
+    <div class="modal-content">
+      <div class="container">
+        <div class="row">
+          <div class="cancel close-modal-btn">
+            <i class="icon-cancel"></i>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div>
-          <label for="insertday">Insert a day after day </label>
-          <input id="insertday" name="insertday" value="">
+        <div class="row">
+          <div>
+            <label for="insertday">Insert a day after day </label>
+            <input id="insertday" name="insertday" value="">
+          </div>
         </div>
-      </div>
-      <div class="row buttons">
-        <div>
-          <button type="button" class="save" onclick="saveModalDay()">
-            <i class="icon-floppy"></i>
-            Save
-          </button>
+        <div class="row buttons">
+          <div>
+            <button type="button" class="save" onclick="saveModalDay()">
+              <i class="icon-floppy"></i>
+              Save
+            </button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div> 
+  </div> 
 
-<div id="modal-delete-day" class="modal">
-  <div class="modal-content">
-    <div class="container">
-      <div class="row">
-        <div class="cancel close-modal-btn">
-          <i class="icon-cancel"></i>
+  <div id="modal-delete-day" class="modal">
+    <div class="modal-content">
+      <div class="container">
+        <div class="row">
+          <div class="cancel close-modal-btn">
+            <i class="icon-cancel"></i>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div>
-          <label for="deleteday">Delete a day</label>
-          <input id="deleteday" name="deleteday" value="">
+        <div class="row">
+          <div>
+            <label for="deleteday">Delete a day</label>
+            <input id="deleteday" name="deleteday" value="">
+          </div>
         </div>
-      </div>
-      <div class="row buttons">
-        <div>
-          <button type="button" class="save" onclick="deleteModalDay()">
-            <i class="icon-floppy"></i>
-            Save
-          </button>
+        <div class="row buttons">
+          <div>
+            <button type="button" class="save" onclick="deleteModalDay()">
+              <i class="icon-floppy"></i>
+              Save
+            </button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div> 
+  </div> 
 </section>
 
 {{- end }}
 {{- define "postscript" }}
 
 <script>
+
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+});
 
   const source = document.querySelector("#cities");
   const city   = source[source.selectedIndex].value ;
@@ -659,113 +639,108 @@
 
   changeCity(city);
 
-// add EventListeners
-document.getElementById("cities").addEventListener("change", (event) => {
-  changeCity();
-});
-document.getElementById("hotels").addEventListener("change", changeHotel() );
-document.getElementById("excursions").addEventListener("change", changeExcursion() );
-document.getElementById("carhire").addEventListener("change", changeCarHire() );
-document.getElementById("cars").addEventListener("change", changeCar() );
-document.getElementById("flights").addEventListener("change", changeFlight() );
-document.getElementById("trains").addEventListener("change", changeTrain() );
-document.addEventListener('DOMContentLoaded', (event) => { draggable(); });
+  // add EventListeners
+  document.getElementById("cities").addEventListener("change", (event) => {
+    changeCity();
+  });
+  document.getElementById("hotels").addEventListener("change", changeHotel() );
+  document.getElementById("excursions").addEventListener("change", changeExcursion() );
+  document.getElementById("carhire").addEventListener("change", changeCarHire() );
+  document.getElementById("cars").addEventListener("change", changeCar() );
+  document.getElementById("flights").addEventListener("change", changeFlight() );
+  document.getElementById("trains").addEventListener("change", changeTrain() );
+  document.addEventListener('DOMContentLoaded', (event) => { draggable(); });
 
-var clickClose = document.getElementsByClassName("close-modal-btn");
-var clickEdit  = document.getElementsByClassName("editButton");
+  var clickClose = document.getElementsByClassName("close-modal-btn");
+  var clickEdit  = document.getElementsByClassName("editButton");
 
-for(var i = 0; i < clickClose.length; i++) {
-  (function(index) {
-    clickClose[index].addEventListener("click", function() {
-      var close = document.getElementsByClassName("modal");
-      for(var i = 0; i < close.length; i++) {
-        close[index].style.display = "none";
-      };
-    })
-  })(i);
-}
+  for(var i = 0; i < clickClose.length; i++) {
+    (function(index) {
+      clickClose[index].addEventListener("click", function() {
+        var close = document.getElementsByClassName("modal");
+        for(var i = 0; i < close.length; i++) {
+          close[index].style.display = "none";
+        };
+      })
+    })(i);
+  }
 
-for(var i = 0; i < clickEdit.length; i++) {
-  (function(index) {
-    clickEdit[index].addEventListener("click", function() {
-      editItem(
-        clickEdit[index].parentElement.getAttribute("day"),
-        clickEdit[index].parentElement.getAttribute("index"),
-        clickEdit[index].parentElement.getAttribute("url"),
-        clickEdit[index].parentElement);
-    })
-  })(i);
-}
+  for(var i = 0; i < clickEdit.length; i++) {
+    (function(index) {
+      clickEdit[index].addEventListener("click", function() {
+        editItem(clickEdit[index].parentElement);
+      })
+    })(i);
+  }
 
-document.getElementById("save-modal-accommodation").addEventListener("click", function(){
+  document.getElementById("save-modal-accommodation").addEventListener("click", function(){
 
-  const elements = document.getElementById("modal-accommodation");
-  const inputs   = elements.getElementsByClassName('input');
-  const index    = inputs[0].index;
-  const days     = document.getElementById('myItinerary').getElementsByClassName('containers');
-  const items    = days[ inputs[0].day ].getElementsByClassName('draggable');
-  var   data     = items[index].getElementsByClassName('details');
+    const elements = document.getElementById("modal-accommodation");
+    const inputs   = elements.getElementsByClassName('input');
+    const index    = inputs[0].index;
+    const days     = document.getElementById('myItinerary').getElementsByClassName('containers');
+    const items    = days[ inputs[0].day ].getElementsByClassName('draggable');
+    var   data     = items[index].getElementsByClassName('details');
 
-  const modalContent   = elements.getElementsByClassName('content');
-  var content          = items[index].getElementsByClassName('content-details');
-  content[0].innerHTML = "<p>"+modalContent[0].value.replace(/\n\n/g, "</p><p>")+"</p>";
+    const modalContent   = elements.getElementsByClassName('content');
+    var content          = items[index].getElementsByClassName('content-details');
+    content[0].innerHTML = "<p>"+modalContent[0].value.replace(/\n\n/g, "</p><p>")+"</p>";
 
-  data[0].setAttribute("value", inputs.checkInDate.value ) ; 
-  data[1].setAttribute("value", inputs.checkInTime.value ) ;
-  data[2].setAttribute("value", inputs.checkOutDate.value) ;
-  data[3].setAttribute("value", inputs.checkOutTime.value) ;
-  console.log(inputs.nights.value);
-  data[4].setAttribute("value", inputs.nights.value) ;
-  data[0].innerHTML  = inputs.checkInDate.value ; 
-  data[1].innerHTML  = inputs.checkInTime.value ;
-  data[2].innerHTML  = inputs.checkOutDate.value ;
-  data[3].innerHTML  = inputs.checkOutTime.value ;
-  data[4].innerHTML  = inputs.nights.value ;
+    data[0].setAttribute("value", inputs.checkInDate.value ) ; 
+    data[1].setAttribute("value", inputs.checkInTime.value ) ;
+    data[2].setAttribute("value", inputs.checkOutDate.value) ;
+    data[3].setAttribute("value", inputs.checkOutTime.value) ;
+    data[4].setAttribute("value", inputs.nights.value) ;
+    data[0].innerHTML  = inputs.checkInDate.value ; 
+    data[1].innerHTML  = inputs.checkInTime.value ;
+    data[2].innerHTML  = inputs.checkOutDate.value ;
+    data[3].innerHTML  = inputs.checkOutTime.value ;
+    data[4].innerHTML  = inputs.nights.value ;
 
-  document.getElementById("modal-accommodation").style.display = "none";
-});
+    document.getElementById("modal-accommodation").style.display = "none";
+  });
 
-document.getElementById("save-modal-excursions").addEventListener("click", function(){
+  document.getElementById("save-modal-excursions").addEventListener("click", function(){
 
-  const elements        = document.getElementById("modal-excursions");
-  const inputs          = elements.getElementsByClassName('input');
-  const index           = inputs[0].index;
-  const days            = document.getElementById('myItinerary').getElementsByClassName('containers');
-  const items           = days[ inputs[0].day ].getElementsByClassName('draggable');
-  var   data            = items[index].getElementsByClassName('details');
+    const elements        = document.getElementById("modal-excursions");
+    const inputs          = elements.getElementsByClassName('input');
+    const index           = inputs[0].index;
+    const days            = document.getElementById('myItinerary').getElementsByClassName('containers');
+    const items           = days[ inputs[0].day ].getElementsByClassName('draggable');
+    var   data            = items[index].getElementsByClassName('details');
 
-  const modalTitle      = elements.getElementsByClassName('modal-title');
-  var title             = items[index].getElementsByClassName('title');
-  title[0].innerText    = modalTitle[0].value;
+    const modalTitle      = elements.getElementsByClassName('modal-title');
+    var title             = items[index].getElementsByClassName('title');
+    title[0].innerText    = modalTitle[0].value;
 
-  const modalContent    = elements.getElementsByClassName('content');
-  var content           = items[index].getElementsByClassName('content-details');
-  content[0].innerHTML  = "<p>"+modalContent[0].value.replace(/\n\n/g, "</p><p>")+"</p>";
+    const modalContent    = elements.getElementsByClassName('content');
+    var content           = items[index].getElementsByClassName('content-details');
+    content[0].innerHTML  = "<p>"+modalContent[0].value.replace(/\n\n/g, "</p><p>")+"</p>";
 
-  data[0].setAttribute("value", inputs.excursionDate.value ) ; 
-  data[1].setAttribute("value", inputs.excursionEtd.value ) ;
-  data[2].setAttribute("value", inputs.excursionDuration.value) ;
-  data[0].innerHTML  = inputs.excursionDate.value ; 
-  data[1].innerHTML  = inputs.excursionEtd.value ;
-  data[2].innerHTML  = inputs.excursionDuration.value ;
+    data[0].setAttribute("value", inputs.excursionDate.value ) ; 
+    data[1].setAttribute("value", inputs.excursionEtd.value ) ;
+    data[2].setAttribute("value", inputs.excursionDuration.value) ;
+    data[0].innerHTML  = inputs.excursionDate.value ; 
+    data[1].innerHTML  = inputs.excursionEtd.value ;
+    data[2].innerHTML  = inputs.excursionDuration.value ;
 
-  document.getElementById("modal-excursions").style.display = "none";
-});
+    document.getElementById("modal-excursions").style.display = "none";
+  });
 
-document.getElementById("save-modal-city").addEventListener("click", function(){
+  document.getElementById("save-modal-city").addEventListener("click", function(){
 
-  const elements = document.getElementById("modal-city");
-  const inputs   = elements.getElementsByClassName('input');
-  const index    = inputs[0].index;
-  const days     = document.getElementById('myItinerary').getElementsByClassName('containers');
-  const items    = days[ inputs[0].day ].getElementsByClassName('draggable');
+    const elements = document.getElementById("modal-city");
+    const inputs   = elements.getElementsByClassName('input');
+    const index    = inputs[0].index;
+    const days     = document.getElementById('myItinerary').getElementsByClassName('containers');
+    const items    = days[ inputs[0].day ].getElementsByClassName('draggable');
 
-  const modalContent   = elements.getElementsByClassName('content');
-  var content          = items[index].getElementsByClassName('content-details');
-  content[0].innerHTML = "<p>"+modalContent[0].value.replace(/\n\n/g, "</p><p>")+"</p>";
+    const modalContent   = elements.getElementsByClassName('content');
+    var content          = items[index].getElementsByClassName('content-details');
+    content[0].innerHTML = "<p>"+modalContent[0].value.replace(/\n\n/g, "</p><p>")+"</p>";
 
-  document.getElementById("modal-city").style.display = "none";
-});
+    document.getElementById("modal-city").style.display = "none";
+  });
 
 // allow drag and drop
 
@@ -823,9 +798,9 @@ function changeCity(){
     displayCity(city);
     displayHotels(city);
     displayExcursions(city);
-// displayCarHire(city);
-// displayFlights(city);
-// displayTrains(city);
+  // displayCarHire(city);
+  // displayFlights(city);
+  // displayTrains(city);
 }
 };
 
@@ -901,8 +876,7 @@ function addDay(){
 
 function saveItinerary(deleteDay){
 
-  var itinerary, themes, data = []; 
-
+  var itinerary    = [];
   var intro        = document.getElementById('intro-content').value;
   var subtitle     = document.getElementById('intro-subtitle').value;
   var weight       = document.getElementById('intro-weight').value;
@@ -910,22 +884,21 @@ function saveItinerary(deleteDay){
   var themeOptions = document.getElementsByClassName('theme');
   var region       = document.getElementById('region').value;
   
+  var themes = [];
   for (var i=0; i<themeOptions.length; i++){
     if (themeOptions[i].checked){
       themes.push( themeOptions[i].value );
     };
   };
 
-  var   highlights = [];
-
+  var highlights = [];
   for (var i=0; i<lines.length; i++){
-      if ( lines[i].length ){
-        highlights.push( lines[i].trim() );
-      };
+    if ( lines[i].length ){
+      highlights.push( lines[i].trim() );
+    };
   };
- 
-  const days = document.getElementById('myItinerary').getElementsByClassName('containers');
 
+  const days = document.getElementById('myItinerary').getElementsByClassName('containers');
   for(let i=0;i<days.length;i++) {
 
     if (i != deleteDay){
@@ -960,45 +933,43 @@ function saveItinerary(deleteDay){
         details.push(obj);
       };
 
-let object  = {};
-object.day  = i;
-object.item = details;
-//if (details.length > 0) {
-  itinerary.push( object );
-//};
-};
-};
+      let object  = {};
+      object.day  = i;
+      object.item = details;
+      itinerary.push( object );
+    };
+  };
 
-let css = document.getElementById("message");
-css.style.display = 'block';
+  let css = document.getElementById("message");
+  css.style.display = 'block';
 
+  var data = []; 
+  data[0] = {};
+  data[0].itinerary  = itinerary;
+  data[0].subtitle   = subtitle;
+  data[0].Weight     = weight;
+  data[0].highlights = highlights;
+  data[0].themes     = themes;
+  data[0].region     = region;
+  data[1]            = intro.replace(/[`]/g, "'");
 
-data[0].itinerary  = itinerary;
-data[0].subtitle   = subtitle;
-data[0].Weight     = weight;
-data[0].highlights = highlights;
-data[0].themes     = themes;
-data[0].region     = region;
-data[1]            = intro.replace(/[`]/g, "'");
-;
+  docLoad({
+    url:    'ajax', 
+    method: 'POST',
+    data:   JSON.stringify({ 
+      "file": {{ .RelPermalink }}, 
+      "data": data
+    }) 
+  })
+  .then(
 
-docLoad({
-  url:    'ajax', 
-  method: 'POST',
-  data:   JSON.stringify({ 
-    "file": {{ .RelPermalink }}, 
-    "data": data
-  }) 
-}).then(
-
-function(response){ 
-  console.log( statusText ); 
-}, 
-
-function(Error){ 
-  console.log( Error ); 
-}
-);
+    function(response){ 
+      console.log( statusText ); 
+    }, 
+    function(Error){ 
+      console.log( Error ); 
+    }
+    );
 };
 
 function displayCity(urldata){
@@ -1052,7 +1023,7 @@ function displayHotels(city){
       // console.log(Error);
       document.getElementById("selectHotels").style.visibility = "hidden";
     }
-  );
+    );
 };
 
 function displayExcursions(city){
@@ -1068,18 +1039,18 @@ function displayExcursions(city){
       if (items.length > 0) {
         for(let i=0;i<items.length;i++) {       
           // if (items[i].transfer != 'true'){
-          var option = '{"url":"'+items[i].permalink+'","transfer":'+items[i].transfer+'}';
-          sel += "<option value='"+option+"'>"+items[i].title+"</option>"
-          document.getElementById("selectExcursions").style.visibility = "visible"; 
-          document.getElementById("excursions").innerHTML = sel;
-        }
-      } else {
-        document.getElementById("selectExcursions").style.visibility = "hidden";
-      };
-    }, 
-
-    function(Error) {
-      console.log(Error);
+            var option = '{"url":"'+items[i].permalink+'","transfer":'+items[i].transfer+'}';
+            sel += "<option value='"+option+"'>"+items[i].title+"</option>"
+            document.getElementById("selectExcursions").style.visibility = "visible"; 
+            document.getElementById("excursions").innerHTML = sel;
+          };
+        } else {
+          document.getElementById("selectExcursions").style.visibility = "hidden";
+        };
+      }, 
+      function(Error) {
+      // console.log(Error);
+      document.getElementById("selectExcursions").style.visibility = "hidden";
     }
     );
 };
@@ -1107,9 +1078,9 @@ function displayCarHire(city){
         document.getElementById("selectCars").style.visibility = "hidden";
       }
     }, 
-
     function(Error) {
-      console.log(Error);
+      // console.log(Error);
+      document.getElementById("selectCars").style.visibility = "hidden";
     }
     );
 };
@@ -1135,9 +1106,9 @@ function displayCars(carhire){
         document.getElementById("selectCars").style.visibility = "hidden";
       }
     }, 
-
     function(Error) {
-      console.log(Error);
+      // console.log(Error);
+      document.getElementById("selectCars").style.visibility = "hidden";
     }
     );
 };
@@ -1163,9 +1134,9 @@ function displayFlights(city){
         document.getElementById("selectFlights").style.visibility = "hidden";
       }
     }, 
-
     function(Error) {
-      console.log(Error);
+      // console.log(Error);
+      document.getElementById("selectFlights").style.visibility = "hidden";
     }
     );
 };
@@ -1193,21 +1164,22 @@ function displayTrains(city){
     }, 
 
     function(Error) {
-      console.log(Error);
+      // console.log(Error);
+      document.getElementById("selectTrains").style.visibility = "hidden";
     }
     );
 };
 
 function addToWorkspace(type,url,text){
   let ws     = document.getElementById('toggleWorkspace');
-  const html = '<div class="draggable" draggable="true" type ="'+type+'" url="' + url + '"><i class="icon-'+icon+'"></i>&nbsp;<span class="title">' + text+'</span></div>';
+  const html = '<div class="draggable" draggable="true" type ="'+type+'" url="' + url + '"><i class="icon-'+type+'"></i>&nbsp;<span class="title">' + text+'</span></div>';
 
   if (ws.className.includes("showWorkspace") === true){
-      document.getElementById("workspace").innerHTML += html;
+    document.getElementById("workspace").innerHTML += html;
   } else {
-      let days   = document.getElementById('myItinerary').getElementsByClassName('containers');
-      let length = days.length;
-      days[days.length -1 ].innerHTML += html;
+    let days   = document.getElementById('myItinerary').getElementsByClassName('containers');
+    let length = days.length;
+    days[days.length -1 ].innerHTML += html;
   };
   draggable();
 };
@@ -1220,8 +1192,9 @@ function addCity(){
   const text   = source[i].innerHTML;
   
   if (i > 0) {
-    addToWorkspace('city','monument',url,text);
+    addToWorkspace('city',url,text);
   };
+};
 
 function addHotel(){
 
@@ -1230,9 +1203,9 @@ function addHotel(){
   const i      = source.selectedIndex;
   const url    = source[i].value ;
   const text   = source[i].innerHTML;
- 
+
   if (i > 0) {
-    addToWorkspace('hotel','bed',url,text);
+    addToWorkspace('hotel',url,text);
   };
 };
 
@@ -1260,7 +1233,7 @@ function addCar(){
   const url       = source[i].value ;
   const text      = source[i].innerHTML;
 
-  addToWorkspace('car','cab',url,text);
+  addToWorkspace('car',url,text);
 };
 
 function addFlight(){
@@ -1270,7 +1243,7 @@ function addFlight(){
   const url       = source[i].value ;
   const text      = source[i].innerHTML;
 
-  addToWorkspace('flight','flight',url,text);
+  addToWorkspace('flight',url,text);
 };
 
 function addTrain(){
@@ -1280,7 +1253,7 @@ function addTrain(){
   const url       = source[i].value ;
   const train     = source[i].innerHTML;
 
-  addToWorkspace('train','train',url,city);
+  addToWorkspace('train',url,city);
 };
 
 function emptyTrash(){
@@ -1401,7 +1374,7 @@ function saveModalDay(){
   let doc     = document.getElementById('myItinerary');
   let days    = doc.getElementsByClassName('containers');
   let label   = modal.querySelector("label");
- 
+
   if (isNaN(index) || index < 1 || index > days.length) {
     label.innerHTML = '<div class="alert">Input not valid</div>';
   } else {
@@ -1420,9 +1393,7 @@ function saveModalDay(){
   };
 };
 
-function editItem(day,index,url,obj){
-
-  var icon;
+function editItem(obj){
 
   /* 
   // Do close modal when clicking outside the modal range 
@@ -1433,18 +1404,25 @@ function editItem(day,index,url,obj){
     }
   } 
   */
-  
+
+  const day   = obj.getAttribute("day");
+  const index = obj.getAttribute("index");
+  const url   = obj.getAttribute("url");
+  const type  = obj.getAttribute("type");
+
   var count = (url.match(/\//g) || []).length;
 
-  if (count == 7 ){
-    icon  = "city";
+  if (type == 'city'){
     modal = document.getElementById("modal-city");
-  } else if (url.includes("hotels")){
-    icon  = "hotel";
+  } else if (type == 'hotel'){
     modal = document.getElementById("modal-accommodation");
-  } else if (url.includes("excursions")){
-    icon  = "excursion";
+  } else if (type == 'excursion'){
     modal = document.getElementById("modal-excursions");
+  } else if (type == 'transfer'){
+    modal = document.getElementById("modal-excursions");
+  };
+
+  /*  
   } else if (url.includes("airports")){
     icon  = "flight";
     modal = document.getElementById("modal-flights");
@@ -1458,6 +1436,7 @@ function editItem(day,index,url,obj){
     icon  = "cab";
     modal = document.getElementById("modal-car-hire");
   }
+  */
 
   modal.style.display = "block";
 
@@ -1484,7 +1463,7 @@ function editItem(day,index,url,obj){
   
   modalTitle[0].value = title[0].innerText;
 
-  rows[0].children[0].innerHTML = '<i class="icon-'+icon+'"></i>';
+  rows[0].children[0].innerHTML = '<i class="icon-'+type+'"></i>';
 
   modalContent[0].value = content[0].innerText;
   rows[1].children[0].style.height = 'auto';
@@ -1503,28 +1482,6 @@ function editItem(day,index,url,obj){
       inputs[(i)].value = data[i].innerHTML;
     }
   } 
-};
-
-
-function saveModal(url, data){
-
-  var css       = document.getElementById("message");
-  css.innerHTML = 'Writing in progress';
-  css.classList.add('alert-info');
-
-  docLoad({
-    url:   'edit',
-    method:'POST',
-    data:   JSON.stringify({"file": {{ .RelPermalink }},"data": data })
-  }).then(
-  function(response) {
-    console.log(response);
-  }, 
-  function(Error) {
-    console.log(Error);
-    alert("There is an issue saving. Please contact the administrator.");
-  }
-  );
 };
 
 
