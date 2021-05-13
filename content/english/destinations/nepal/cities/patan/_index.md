@@ -2,10 +2,10 @@
 title: Patan
 translationKey: patan
 defaultDays: 2
-longitude: ''
-latitude: ''
+longitude: 85.325887811
+latitude: 27.674322478
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

@@ -5,7 +5,7 @@ defaultDays: 2
 longitude: 76.301666667
 latitude: 9.595277778
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

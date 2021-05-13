@@ -2,10 +2,10 @@
 title: Ghandruk
 translationKey: ghandruk
 defaultDays: 1
-longitude: ''
-latitude: ''
+longitude: 83.805041311
+latitude: 28.378544561
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

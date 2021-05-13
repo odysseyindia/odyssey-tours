@@ -2,10 +2,10 @@
 title: Thattekad
 translationKey: thattekad
 defaultDays: 2
-longitude: ''
-latitude: ''
+longitude: 76.68709694
+latitude: 10.129770269
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

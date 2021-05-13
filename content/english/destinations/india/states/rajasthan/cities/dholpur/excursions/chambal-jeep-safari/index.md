@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: true
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Chambal jeep safari
 ---
-The Chambal belt of Northern Madhya Pradesh is full of zigzagging ravines. Through the small dirt tracks, you explore by jeep small villages hidden deep into the ravines along the Chambal river. Life is full of hardships as the land available for agriculture is scarce. You also encounter wonderful archeological sites, revealing secrets of an old civilization.
+0

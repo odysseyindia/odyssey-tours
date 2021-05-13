@@ -2,10 +2,10 @@
 title: Landruk
 translationKey: landruk
 defaultDays: 1
-longitude: ''
-latitude: ''
+longitude: 83.826540569
+latitude: 28.370484642
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

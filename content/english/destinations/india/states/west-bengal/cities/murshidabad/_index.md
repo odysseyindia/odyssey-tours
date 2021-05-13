@@ -2,10 +2,10 @@
 title: Murshidabad
 translationKey: murshidabad
 defaultDays: 2
-longitude: ''
-latitude: ''
+longitude: 88.253642497
+latitude: 24.241448053
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

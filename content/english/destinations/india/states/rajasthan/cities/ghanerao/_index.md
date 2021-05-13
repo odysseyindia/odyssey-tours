@@ -2,10 +2,10 @@
 title: Ghanerao
 translationKey: ghanerao
 defaultDays: 1
-longitude: ''
-latitude: ''
+longitude: 73.53652444
+latitude: 25.234177573
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

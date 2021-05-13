@@ -2,10 +2,10 @@
 title: Bhimtal
 translationKey: bhimtal
 defaultDays: 2
-longitude: ''
-latitude: ''
+longitude: 79.543012198
+latitude: 29.354444079
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

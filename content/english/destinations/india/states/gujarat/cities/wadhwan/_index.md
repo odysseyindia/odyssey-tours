@@ -2,8 +2,8 @@
 title: Wadhwan
 translationKey: wadhwan
 defaultDays: 0
-longitude: ''
-latitude: ''
+longitude: 71.673296438
+latitude: 22.711523922
 draft: false
 nighthalt: true
 id: city

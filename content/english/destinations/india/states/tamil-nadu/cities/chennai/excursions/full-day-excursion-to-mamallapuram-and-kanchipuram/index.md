@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: '0'
 owntransport: false
 guide: true
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Full day excursion to Mamallapuram and Kanchipuram
 ---
-Mamallapuram, an hour's drive south of Chennai, is a little seaside retreat with a beautiful sandy beach spanning 20km. This 7th-century town is famous for its rock-hewn temples, sculptures and the world largest stone bas-relief.  70km west of Chennai is ancient Kanchipuram, the city of a thousand temples, and one of the seven most sacred pilgrim centres for the Hindus. Today, apart from its temples, this small town is also known as the producer of the best silk saris in the country.
+0

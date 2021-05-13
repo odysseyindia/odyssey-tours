@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: true
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Early morning hike to Sanga Choling Monastery
 ---
-Early in the morning, your guide will lead you on the 3km hike to Sanga Choling Monastery, perched on top of a hill. It will take you no more than an hour to hike up to the monastery along a narrow path, and it's definitely worth the effort. This is the oldest monastery in Sikkim, giving you magnificent views of the verdant foothills and the imposing mountains behind them.
+0

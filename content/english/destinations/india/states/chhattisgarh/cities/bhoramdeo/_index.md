@@ -2,10 +2,10 @@
 title: Bhoramdeo
 translationKey: bhoramdeo
 defaultDays: 3
-longitude: ''
-latitude: ''
+longitude: 81.150198424
+latitude: 22.113497683
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

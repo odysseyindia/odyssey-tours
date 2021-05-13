@@ -2,8 +2,8 @@
 title: Modhera
 translationKey: modhera
 defaultDays: 0
-longitude: ''
-latitude: ''
+longitude: 72.132966897
+latitude: 23.583494584
 draft: false
 nighthalt: true
 id: city

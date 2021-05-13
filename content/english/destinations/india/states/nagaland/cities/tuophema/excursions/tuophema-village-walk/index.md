@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: true
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Tuophema village walk
 ---
-There is a small museum of tribal artifacts. The village retains many traditional buildings, and the old gates, many built into trees, are very attractive. It is possible to walk down through the rice paddies into the valley below, or to trek up through rhododendron forests to nearby hilltops.
+0

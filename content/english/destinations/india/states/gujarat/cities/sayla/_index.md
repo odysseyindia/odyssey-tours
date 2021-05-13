@@ -2,10 +2,10 @@
 title: Sayla
 translationKey: sayla
 defaultDays: 1
-longitude: ''
-latitude: ''
+longitude: 71.483989415
+latitude: 22.532543465
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

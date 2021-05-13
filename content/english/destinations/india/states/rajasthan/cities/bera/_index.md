@@ -2,10 +2,10 @@
 title: Bera
 translationKey: bera
 defaultDays: 2
-longitude: ''
-latitude: ''
+longitude: 73.138745197
+latitude: 24.99998726
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

@@ -2,10 +2,10 @@
 title: Kotnaikana
 translationKey: kotnaikana
 defaultDays: 1
-longitude: ''
-latitude: ''
+longitude: 79.864672769
+latitude: 29.635710029
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

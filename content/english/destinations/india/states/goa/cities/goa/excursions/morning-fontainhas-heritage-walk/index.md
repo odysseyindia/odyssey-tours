@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: true
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Morning Fontainhas Heritage Walk
 ---
-Delve into the lively hue of heritage, art and music in Fontainhas, the old Latin quarter of Panjim. Get access to heritage homes, appreciate the architecture and meet local residents.
+0

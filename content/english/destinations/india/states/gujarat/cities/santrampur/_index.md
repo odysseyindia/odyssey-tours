@@ -2,10 +2,10 @@
 title: Santrampur
 translationKey: santrampur
 defaultDays: 2
-longitude: ''
-latitude: ''
+longitude: 73.87901024
+latitude: 23.193973014
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

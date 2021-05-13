@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: true
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Afternoon visit to Pemyangtse Monastery
 ---
-The awe-inspiring ancient monastery of Pemayangtse, literally 'perfect sublime lotus', is the second-oldest in Sikkim. Traditional frescoes depicting tantrik Buddhist themes adorn the walls, and the highlight is the intricate seven-storey representation of a "Heavenly Palace." Nearby are the ruins of Rabdentse, the second capital of Sikkim, reached by a short path through the surrounding forests.
+0

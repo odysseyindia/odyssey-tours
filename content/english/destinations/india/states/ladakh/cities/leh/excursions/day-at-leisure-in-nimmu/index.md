@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: true
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Day at leisure in Nimmu
 ---
-Nimmu House offers a panel of activities for sporty guests, culture lovers, adventurers and also for those who want to relax and reconnect with themselves. You can try a village walk, rafting, trekking, mountain biking, a cooking class and pottery making, or heal yourself with a yoga and meditation session and a visit to the in-house spa. All these can be booked diectly at your hotel.
+0

@@ -2,10 +2,10 @@
 title: Perumparai
 translationKey: perumparai
 defaultDays: 2
-longitude: ''
-latitude: ''
+longitude: 77.746621997
+latitude: 10.290500655
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

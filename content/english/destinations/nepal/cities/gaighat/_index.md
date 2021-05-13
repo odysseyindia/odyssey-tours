@@ -2,8 +2,8 @@
 title: Gaighat
 translationKey: gaighat
 defaultDays: 0
-longitude: ''
-latitude: ''
+longitude: 86.63964067
+latitude: 26.777118545
 draft: false
 nighthalt: true
 id: city

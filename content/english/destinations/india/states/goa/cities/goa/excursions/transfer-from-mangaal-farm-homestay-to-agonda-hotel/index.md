@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: true
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Transfer from Mangaal Farm Homestay to Agonda hotel
 ---
-NULL
+0

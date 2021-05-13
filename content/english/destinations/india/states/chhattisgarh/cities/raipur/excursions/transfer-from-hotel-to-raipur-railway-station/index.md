@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: false
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Transfer from hotel to Raipur railway station
 ---
-NULL
+0

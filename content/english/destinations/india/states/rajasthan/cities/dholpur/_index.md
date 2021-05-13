@@ -2,10 +2,10 @@
 title: Dholpur
 translationKey: dholpur
 defaultDays: 1
-longitude: ''
-latitude: ''
+longitude: 77.893793282
+latitude: 26.696941969
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

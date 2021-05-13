@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: false
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Transfer from Raipur airport to hotel
 ---
-NULL
+0

@@ -2,10 +2,10 @@
 title: Manas
 translationKey: manas
 defaultDays: 3
-longitude: ''
-latitude: ''
+longitude: 91.001131097
+latitude: 26.659317212
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

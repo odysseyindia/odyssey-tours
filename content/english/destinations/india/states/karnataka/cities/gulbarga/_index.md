@@ -2,10 +2,10 @@
 title: Gulbarga
 translationKey: gulbarga
 defaultDays: 1
-longitude: ''
-latitude: ''
+longitude: 76.837193039
+latitude: 17.331956008
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

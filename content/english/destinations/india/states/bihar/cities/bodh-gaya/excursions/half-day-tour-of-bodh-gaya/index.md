@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: false
 guide: true
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Half day tour of Bodh Gaya
 ---
-Bodh Gaya is not so much a town as a true Buddhist working centre surrounded by farmland and rural villages. The main site is the famous Mahabodhi temple built at the spot where the Buddha became enlightened. During the last century, Bodh Gaya has been rejuvenated by overseas Buddhists, who have built an array of monasteries, temples and shrines. They attract pilgrims to study, meditate and absorb the ambience.
+0

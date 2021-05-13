@@ -2,8 +2,8 @@
 title: Kanyakumari
 translationKey: kanyakumari
 defaultDays: 0
-longitude: ''
-latitude: ''
+longitude: 77.54655706
+latitude: 8.087464121
 draft: false
 nighthalt: true
 id: city

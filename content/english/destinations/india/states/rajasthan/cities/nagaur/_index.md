@@ -2,10 +2,10 @@
 title: Nagaur
 translationKey: nagaur
 defaultDays: 1
-longitude: ''
-latitude: ''
+longitude: 73.736578669
+latitude: 27.19892367
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

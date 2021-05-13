@@ -2,10 +2,10 @@
 title: Namche Bazaar
 translationKey: namche-bazaar
 defaultDays: 2
-longitude: ''
-latitude: ''
+longitude: 86.712869899
+latitude: 27.804645512
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

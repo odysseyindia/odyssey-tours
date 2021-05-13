@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: true
 guide: false
+dayAtLeisure: true
 id: services
 type: excursions
 tags:
   - Services
   - Day at leisure in Ramgarh
 ---
-The heritage properties of Neemrana Group of Hotels, The Old Bungalow (1830) and Writer's Bungalow (1860), collectively called the Ramgarh Bungalows, is the best address in Ramgarh to relax in comfort. Sightseeing is merely incidental and might defeat the purpose of your visit as you come here mainly to enjoy the peace and quiet and the beautiful scenery. The most you may want to do is to go on an easy walk in the neighborhood.
+1

@@ -2,10 +2,10 @@
 title: Binsar
 translationKey: binsar
 defaultDays: 2
-longitude: ''
-latitude: ''
+longitude: 79.753957269
+latitude: 29.705485844
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

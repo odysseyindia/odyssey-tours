@@ -2,10 +2,10 @@
 title: Padarla
 translationKey: padarla
 defaultDays: 1
-longitude: ''
-latitude: ''
+longitude: 73.300313155
+latitude: 25.069461129
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

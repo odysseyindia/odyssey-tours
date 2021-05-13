@@ -2,8 +2,8 @@
 title: Kapilavastu
 translationKey: kapilavastu
 defaultDays: 0
-longitude: ''
-latitude: ''
+longitude: 82.948668093
+latitude: 27.434052316
 draft: false
 nighthalt: true
 id: city

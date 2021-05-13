@@ -2,8 +2,8 @@
 title: Plassey
 translationKey: plassey
 defaultDays: 0
-longitude: ''
-latitude: ''
+longitude: 88.285081192
+latitude: 23.778557415
 draft: false
 nighthalt: true
 id: city

@@ -11,10 +11,11 @@ toCity: Darjeeling
 toCitiesId: '99'
 owntransport: true
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Transfer from hotel to Darjeeling
 ---
-NULL
+0

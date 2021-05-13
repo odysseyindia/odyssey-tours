@@ -2,10 +2,10 @@
 title: Singalila
 translationKey: singalila
 defaultDays: 3
-longitude: ''
-latitude: ''
+longitude: 88.024325411
+latitude: 27.059386102
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

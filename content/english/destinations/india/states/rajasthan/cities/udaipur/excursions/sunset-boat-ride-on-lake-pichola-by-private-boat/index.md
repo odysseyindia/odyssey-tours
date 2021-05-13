@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: true
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Sunset boat ride on Lake Pichola (by private boat)
 ---
-A trip to Lake Pichola is incomplete without a boat ride in the serene lake, especially during sunset. The sunset view from your private boat is truly magical, as you go past the Lake Palace and visit the Jag Mandir pleasure island. As the sun sets, the reflection of the palace lights on the water is is sure to leave one spellbound.
+0

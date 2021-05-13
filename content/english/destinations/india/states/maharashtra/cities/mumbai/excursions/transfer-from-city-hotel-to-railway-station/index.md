@@ -11,9 +11,11 @@ toCity: ''
 toCitiesId: '0'
 owntransport: true
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Transfer from City hotel to railway station
 ---
+0

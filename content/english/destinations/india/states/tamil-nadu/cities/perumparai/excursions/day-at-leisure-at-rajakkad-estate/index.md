@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: true
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Day at leisure at Rajakkad Estate
 ---
-You come to Rajakkad Estate for the great outdoors; there are 60 acres of farm, forests and plantations, criss-crossed with hiking trails and stunning views. It’s a birdwatcher’s paradise with Golden Oriole and Fairy Bluebirds and many other birds.
+0

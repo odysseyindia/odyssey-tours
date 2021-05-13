@@ -2,10 +2,10 @@
 title: Chitwan
 translationKey: chitwan
 defaultDays: 2
-longitude: ''
-latitude: ''
+longitude: 84.452391496
+latitude: 27.533569417
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

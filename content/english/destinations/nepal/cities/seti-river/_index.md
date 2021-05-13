@@ -2,10 +2,10 @@
 title: Seti River
 translationKey: seti-river
 defaultDays: 1
-longitude: ''
-latitude: ''
+longitude: 84.379055497
+latitude: 27.870817661
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

@@ -2,10 +2,10 @@
 title: Gokarna
 translationKey: gokarna
 defaultDays: 5
-longitude: ''
-latitude: ''
+longitude: 74.321049682
+latitude: 14.521784206
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

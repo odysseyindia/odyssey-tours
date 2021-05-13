@@ -2,10 +2,10 @@
 title: Vijayapura
 translationKey: vijayapura
 defaultDays: 1
-longitude: ''
-latitude: ''
+longitude: 75.71873855
+latitude: 16.828812479
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

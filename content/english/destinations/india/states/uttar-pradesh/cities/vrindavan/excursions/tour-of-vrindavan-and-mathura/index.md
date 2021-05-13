@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: true
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Tour of Vrindavan and Mathura
 ---
-Mathura, 50km from Agra on the Yamuna, is where the popular god Krishna is believed to have been born and spent his early years. Mathura's ancient structures were mostly destroyed by Muslims, but its religious association draws thousands of pilgrims. Nowadays the area is a religious centre full of Hindu temples that attract floods of pilgrims, particularly during Janmastami (Krishna's birthday) in August/September.
+0

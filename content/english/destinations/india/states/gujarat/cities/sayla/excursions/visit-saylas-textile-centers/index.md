@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: true
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Visit Sayla's textile centers
 ---
-The women of Kathi community specialize in beadwork, the craft of attaching beads with one another to create beautiful jewellery, whilst the men specialize in single Ikat weaving.     Sayla is also a centre for Khadi, cotton fabrics made from hand spun thread and woven on a handloom. Khadi is promoted as a source of self-reliance and in the past it helped shape the movement for India’s independence.
+0

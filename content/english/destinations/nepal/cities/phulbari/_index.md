@@ -2,10 +2,10 @@
 title: Phulbari
 translationKey: phulbari
 defaultDays: 1
-longitude: ''
-latitude: ''
+longitude: 85.589909597
+latitude: 27.580742454
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

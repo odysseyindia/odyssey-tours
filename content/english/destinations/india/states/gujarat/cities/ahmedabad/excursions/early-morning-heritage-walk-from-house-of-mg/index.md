@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: false
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Early morning heritage walk from House of MG
 ---
-You join a group of like-minded travellers on an early-morning guided group walk through the narrow lanes of the historic Old City of Ahmeadbad. This is a fascinating maze of crowded bazaars, residential areas and subterranean stepwells. At the end of the 2-hour walk, you return to the hotel for a late breakfast.
+0

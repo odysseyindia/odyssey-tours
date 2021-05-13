@@ -1,11 +1,11 @@
 ---
 title: Shuklaphanta
 translationKey: shuklaphanta
-defaultDays: 0
-longitude: ''
-latitude: ''
+defaultDays: 3
+longitude: 80.25441354
+latitude: 28.854790204
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

@@ -2,8 +2,8 @@
 title: Ranganathittu
 translationKey: ranganathittu
 defaultDays: 0
-longitude: ''
-latitude: ''
+longitude: 76.656306282
+latitude: 12.424444111
 draft: false
 nighthalt: true
 id: city

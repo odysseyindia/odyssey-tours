@@ -2,8 +2,8 @@
 title: Pattadakal
 translationKey: pattadakal
 defaultDays: 0
-longitude: ''
-latitude: ''
+longitude: 75.816300842
+latitude: 15.948787763
 draft: false
 nighthalt: true
 id: city

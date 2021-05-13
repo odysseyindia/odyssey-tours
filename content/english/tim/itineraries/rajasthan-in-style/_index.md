@@ -4,7 +4,7 @@ subtitle: Delhi, Samode, Jaipur, Raipur, Jodhpur, Chanoud, Udaipur
 weight: 106
 translationKey: rajasthan-in-style
 type: itinerary
-tour: Rajasthan in Style
+tour: Rajasthan in Style 
 itinerary:
   - day: 0
     item:

@@ -2,8 +2,8 @@
 title: Belur
 translationKey: belur
 defaultDays: 0
-longitude: ''
-latitude: ''
+longitude: 75.860405297
+latitude: 13.162856815
 draft: false
 nighthalt: true
 id: city

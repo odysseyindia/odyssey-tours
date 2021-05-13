@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: '0'
 owntransport: true
 guide: true
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Half day city tour of Guwahati
 ---
-The Kamakhya Temple, located on Nilachal Hill, is an important centre for Tantric Hinduism and Sakti worship. East of the town centre, atop another hill, is the atmospheric Navagraha temple - the "temple of the nine planets". The Assam State Museum, Ambari, is a window into Assam's history, culture and crafts. Particularly interesting are the dioramas of Assamese tribal villages.
+0

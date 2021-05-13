@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: false
 guide: true
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Half day city tour and visit to the Marble Rocks
 ---
-Explore the 12th-century Madan Mahal Fort, set high atop a hill in the city, before setting out to Bhedaghat, best known for its Marble Rocks. The Narmada River slices its way here through towering cliffs of marble. The local marble is mined and carved into various figures and transported all over India.
+0

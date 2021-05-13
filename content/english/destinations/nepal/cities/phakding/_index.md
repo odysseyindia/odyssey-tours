@@ -2,10 +2,10 @@
 title: Phakding
 translationKey: phakding
 defaultDays: 1
-longitude: ''
-latitude: ''
+longitude: 86.711690397
+latitude: 27.735497098
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

@@ -2,10 +2,10 @@
 title: Kongde
 translationKey: kongde
 defaultDays: 2
-longitude: ''
-latitude: ''
+longitude: 86.699994269
+latitude: 27.780030998
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

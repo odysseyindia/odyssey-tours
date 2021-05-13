@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: true
 guide: true
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Half day city tour
 ---
-Mcleodganj, the upper tier of Dharamsala, houses the headquarters of the Dalai Lama. There are several temples and monasteries worth visiting. The most remarkable is the Norbulingka, which has all the old-world charm of Tibetan architecture. The complex includes a temple, college, studio, workshops, guesthouse and café. A living record of Tibet's rich culture, the institute is committed to preserving Tibetan arts that are being wiped out.
+0

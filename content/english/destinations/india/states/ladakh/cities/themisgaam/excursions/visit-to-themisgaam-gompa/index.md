@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: true
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Visit to Themisgaam gompa
 ---
-A steep climb uphill on the mountain overlooking the fertile valley first brings you to the local nunnery. Continuing uphill you finally reach the two monasteries of Themisgaam, one belonging to the yellow cap order and the other to the red cap order of Tibetan Buddhism. One of these had actually been a palace of the kings of Ladakh, before they moved to Leh.
+0

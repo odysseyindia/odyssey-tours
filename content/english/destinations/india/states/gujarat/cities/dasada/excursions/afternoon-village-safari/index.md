@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: true
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Afternoon village safari
 ---
-Dasada and its nearby villages are inhabited by a number of interesting communities including pastoral groups. The women of the Kharapat Rabari community do exquisite embroidery using herringbone stitches interspersed with small mirrors, and chain stitches for peacocks and other motifs. An interesting weaving method here is Ikat, which involves the continual resist drying of the warp threads before drawing them on the loom.
+0

@@ -2,8 +2,8 @@
 title: Abhaneri
 translationKey: abhaneri
 defaultDays: 0
-longitude: ''
-latitude: ''
+longitude: 76.606526881
+latitude: 27.007217812
 draft: false
 nighthalt: true
 id: city

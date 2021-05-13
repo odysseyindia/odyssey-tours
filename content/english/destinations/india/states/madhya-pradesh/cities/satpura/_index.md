@@ -2,10 +2,10 @@
 title: Satpura
 translationKey: satpura
 defaultDays: 2
-longitude: ''
-latitude: ''
+longitude: 78.143773797
+latitude: 22.570480349
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

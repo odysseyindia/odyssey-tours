@@ -2,10 +2,10 @@
 title: Bah
 translationKey: bah
 defaultDays: 2
-longitude: ''
-latitude: ''
+longitude: 78.566515325
+latitude: 26.878391544
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

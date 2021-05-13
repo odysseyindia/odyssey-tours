@@ -1,11 +1,11 @@
 ---
 title: Pokhara
 translationKey: pokhara
-defaultDays: 1
-longitude: ''
-latitude: ''
+defaultDays: 2
+longitude: 83.969662574
+latitude: 28.208225799
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

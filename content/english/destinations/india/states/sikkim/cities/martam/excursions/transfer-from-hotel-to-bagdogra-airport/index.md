@@ -11,10 +11,11 @@ toCity: Bagdogra
 toCitiesId: '164'
 owntransport: true
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Transfer from hotel to Bagdogra airport
 ---
-NULL
+0

@@ -2,8 +2,8 @@
 title: Chinsurah
 translationKey: chinsurah
 defaultDays: 0
-longitude: ''
-latitude: ''
+longitude: 88.401920532
+latitude: 22.898313536
 draft: false
 nighthalt: true
 id: city

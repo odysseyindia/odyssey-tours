@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: true
 guide: false
+dayAtLeisure: true
 id: services
 type: excursions
 tags:
   - Services
   - Day at leisure at Lakshman Sagar
 ---
-Lakshman Sagar is a perfect place to simply relax in tranquil surroundings, enjoy the rock-cut pool, and watch the sunset by the dam. But, you can also enjoy locally arranged customized experiences such as local liquor tasting, goat herding, nature walks, horse riding and star gazing.
+1

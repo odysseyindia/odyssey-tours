@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: false
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Afternoon high tea at Mancotta Chang Bungalow
 ---
-We will organize high tea for you on the verandah of Mancotta Chang Bungalow. The view from the verandah across lawns, flower beds and gravelled paths, and looks over some of Assam's unique tea plantations. If you wish, you can take a walk through the surrounding tea plantations.
+0

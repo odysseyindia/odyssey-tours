@@ -2,10 +2,10 @@
 title: Lukla
 translationKey: lukla
 defaultDays: 1
-longitude: ''
-latitude: ''
+longitude: 86.7317148
+latitude: 27.687038473
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

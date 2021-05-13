@@ -2,10 +2,10 @@
 title: Chittaurgarh
 translationKey: chittaurgarh
 defaultDays: 1
-longitude: ''
-latitude: ''
+longitude: 74.645470169
+latitude: 24.897687725
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

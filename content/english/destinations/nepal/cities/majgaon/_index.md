@@ -2,10 +2,10 @@
 title: Majgaon
 translationKey: majgaon
 defaultDays: 1
-longitude: ''
-latitude: ''
+longitude: 83.795138611
+latitude: 28.314690627
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

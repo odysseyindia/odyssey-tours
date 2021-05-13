@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: false
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Morning and afternoon jeep safaris into Sasangir National Park
 ---
-Sasangir Forest is the last remaining sanctuary of the Asiatic lion. Game viewing is done by jeep, and it is great to have one safari in the early morning, and one at dusk time. The lions, though not easy to track, are not shy once you find them. Other wildlife includes panthers, hyenas and foxes. There is also rich bird life including the rare paradise fly-catcher. Just outside the sanctuary entrance is the crocodile hatchery.
+0

@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: '0'
 owntransport: true
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Afternoon excursion to the Thar desert
 ---
-Leaving Jaisalmer in mid-afternoon, you enjoy a half-hour jeep ride, and then board camels for a ride lasting approximately two hours through a peaceful and unspoilt part of the Thar Desert. You pass through surprisingly well-populated scrubland to end the ride at some small sand dunes where you can enjoy the sunset, before returning to Jaisalmer by jeep in time for dinner.
+0

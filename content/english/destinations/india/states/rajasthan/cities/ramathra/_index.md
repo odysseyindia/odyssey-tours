@@ -2,10 +2,10 @@
 title: Ramathra
 translationKey: ramathra
 defaultDays: 2
-longitude: ''
-latitude: ''
+longitude: 76.760282311
+latitude: 26.273600262
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

@@ -2,8 +2,8 @@
 title: Aihole
 translationKey: aihole
 defaultDays: 0
-longitude: ''
-latitude: ''
+longitude: 75.881903138
+latitude: 16.020632557
 draft: false
 nighthalt: true
 id: city

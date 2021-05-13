@@ -1,0 +1,12 @@
+{{ define "response" }}
+{{- $data := where .Data.Pages "Type" "itinerary" -}}
+{     
+    "file" : "list.itinerary.json",
+    "count" : "{{ len $data }}",
+    "itinerary" : [
+    {{ range $i, $e := $data }}
+      {{ if $i }}, {{ end }}{{ .Render "item"}}
+    {{ end }}
+    ]
+  }
+{{ end }}

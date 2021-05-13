@@ -2,10 +2,10 @@
 title: Bhaktapur
 translationKey: bhaktapur
 defaultDays: 2
-longitude: ''
-latitude: ''
+longitude: 85.428091569
+latitude: 27.672074382
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

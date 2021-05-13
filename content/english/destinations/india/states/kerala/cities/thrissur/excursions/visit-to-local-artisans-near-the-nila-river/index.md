@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: true
 guide: true
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Visit to local artisans near the Nila river
 ---
-Like all river valley civilizations, the Nila river in central Kerala set fertile ground for arts, craft, literature and tradition to flourish on her banks. Today you will visit artists striving to keep their age-old heritage alive, including potters, weavers and toymakers, as well as a lovely shadow-puppetry centre. Some of them are the sole living custodians to their skill.
+0

@@ -2,10 +2,10 @@
 title: Thikalna
 translationKey: thikalna
 defaultDays: 2
-longitude: ''
-latitude: ''
+longitude: 79.837155569
+latitude: 29.667695892
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

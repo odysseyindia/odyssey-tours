@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: '0'
 owntransport: true
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Full day excursion to Phodang & Labrang by NAC Jeep
 ---
-It is a winding and bumpy drive to Phodang monastery, a small monastery 40km north of Gangtok, with a serene, timeless atmosphere. Lying on a spur of the hill, it has views of the valley below. Labrang Monastery is 2km uphill from Phodang, and is a small, unusual octagonal structure. You can enjoy the spectacular scenery and views of the Kanchenjunga.
+0

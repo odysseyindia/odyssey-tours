@@ -187,11 +187,11 @@
                   <div>Check-in:  </div> 
                   <div class="details" attr="checkInDate" value="{{ $v.checkInDate }}">{{- with $v.checkInDate }}{{ dateFormat  "02-01-2006" . }} {{ end }}</div>
                   <div>ETA: </div> 
-                  <div class="details" attr="checkInTime" value="{{ $v.checkInTime }}">{{ with $v.checkInTime }} {{ dateFormat  "15:04" . }} {{ end }}</div>
+                  <div class="details" attr="checkInTime" value="{{ $v.checkInTime }}">{{ with $v.checkInTime }}{{ . }}{{ end }}</div>
                   <div>Check-out: </div> 
                   <div class="details" attr="checkOutDate" value="{{ $v.checkOutDate }}">{{ with $v.checkOutDate }} {{ dateFormat  "02-01-2006" . }}{{ end }}</div>
                   <div>ETD: </div> 
-                  <div class="details" attr="checkOutTime" value="{{ $v.checkOutTime }}">{{ with $v.checkOutTime }} {{ dateFormat  "15:04" . }} {{ end }}</div>
+                  <div class="details" attr="checkOutTime" value="{{ $v.checkOutTime }}">{{ with $v.checkOutTime }}{{ . }}{{ end }}</div>
                   <div>Nights: </div> 
                   <div class="details" attr="nights" value="{{ $v.nights }}">{{ $v.nights }}</div>
                 </div>
@@ -365,7 +365,7 @@
   </div>
 
 
-  <div id="modal-accommodation" class="modal">
+  <div id="modal-hotel" class="modal">
     <div class="modal-content">
       <div class="container">
         <div class="row">
@@ -383,7 +383,7 @@
             <textarea class="content"></textarea>
           </form>
         </div>
-        {{ partial "modal-accommodation.html" . }}
+        {{ partial "modal-hotel.html" . }}
         <div class="row buttons">
           <div>
             <button class="default default-modal-btn">
@@ -392,7 +392,7 @@
             </button>
           </div>
           <div>
-            <button class="save" id="save-modal-accommodation">
+            <button class="save" id="save-modal-hotel">
               <i class="icon-floppy"></i>
               Save
             </button>
@@ -439,11 +439,11 @@
     </div>
   </div> 
 
-  <div id="modal-excursions" class="modal">
+  <div id="modal-excursion" class="modal">
     <div class="modal-content">
       <div class="container">
         <div class="row">
-          <div id="modal-category-excursions"></div>
+          <div id="modal-category-excursion"></div>
           <div class="modal-url"></div>
           <div class="cancel close-modal-btn">
             <i class="icon-cancel"></i>
@@ -457,7 +457,7 @@
             <textarea class="content"></textarea>
           </form>
         </div>
-        {{ partial "modal-excursions.html" . }}
+        {{ partial "modal-excursion.html" . }}
         <div class="row buttons">
           <div>
             <button class="default default-modal-btn">
@@ -466,7 +466,7 @@
             </button>
           </div>
           <div>
-            <button class="save" id="save-modal-excursions">
+            <button class="save" id="save-modal-excursion">
               <i class="icon-floppy"></i>
               Save
             </button>
@@ -513,11 +513,11 @@
     </div>
   </div> 
 
-  <div id="modal-flights" class="modal">
+  <div id="modal-flight" class="modal">
     <div class="modal-content">
       <div class="container">
         <div class="row">
-          <div id="modal-category-flights"></div>
+          <div id="modal-category-flight"></div>
           <div class="modal-url"></div>
           <div class="cancel close-modal-btn">
             <i class="icon-cancel"></i>
@@ -531,7 +531,7 @@
             <textarea class="content"></textarea>
           </form>
         </div>
-        {{ partial "modal-flights.html" . }}
+        {{ partial "modal-flight.html" . }}
         <div class="row buttons">
           <div>
             <button class="default default-modal-btn">
@@ -540,7 +540,7 @@
             </button>
           </div>
           <div>
-            <button class="save" id="save-modal-flights">
+            <button class="save" id="save-modal-flight">
               <i class="icon-floppy"></i>
               Save
             </button>
@@ -673,9 +673,9 @@ $(document).ready(function(){
     })(i);
   }
 
-  document.getElementById("save-modal-accommodation").addEventListener("click", function(){
+  document.getElementById("save-modal-hotel").addEventListener("click", function(){
 
-    const elements = document.getElementById("modal-accommodation");
+    const elements = document.getElementById("modal-hotel");
     const inputs   = elements.getElementsByClassName('input');
     const index    = inputs[0].index;
     const days     = document.getElementById('myItinerary').getElementsByClassName('containers');
@@ -697,12 +697,12 @@ $(document).ready(function(){
     data[3].innerHTML  = inputs.checkOutTime.value ;
     data[4].innerHTML  = inputs.nights.value ;
 
-    document.getElementById("modal-accommodation").style.display = "none";
+    document.getElementById("modal-hotel").style.display = "none";
   });
 
-  document.getElementById("save-modal-excursions").addEventListener("click", function(){
+  document.getElementById("save-modal-excursion").addEventListener("click", function(){
 
-    const elements        = document.getElementById("modal-excursions");
+    const elements        = document.getElementById("modal-excursion");
     const inputs          = elements.getElementsByClassName('input');
     const index           = inputs[0].index;
     const days            = document.getElementById('myItinerary').getElementsByClassName('containers');
@@ -877,13 +877,8 @@ function addDay(){
 function saveItinerary(deleteDay){
 
   var itinerary    = [];
-  var intro        = document.getElementById('intro-content').value;
-  var subtitle     = document.getElementById('intro-subtitle').value;
-  var weight       = document.getElementById('intro-weight').value;
-  var lines        = document.getElementById('intro-highlights').value.split(/\n/);
-  var themeOptions = document.getElementsByClassName('theme');
-  var region       = document.getElementById('region').value;
   
+  var themeOptions = document.getElementsByClassName('theme');
   var themes = [];
   for (var i=0; i<themeOptions.length; i++){
     if (themeOptions[i].checked){
@@ -891,7 +886,8 @@ function saveItinerary(deleteDay){
     };
   };
 
-  var highlights = [];
+  var lines        = document.getElementById('intro-highlights').value.split(/\n/);
+  var highlights   = [];
   for (var i=0; i<lines.length; i++){
     if ( lines[i].length ){
       highlights.push( lines[i].trim() );
@@ -923,11 +919,16 @@ function saveItinerary(deleteDay){
         obj.content = (content.length != 0) ? content[0].innerText.trim().replace(/(`)/gm,"'") : "";
 
         let inputs  = items[j].getElementsByClassName('details');
-
         for(let k=0;k<inputs.length;k++) {
           let attr  = inputs[k].getAttribute("attr");
           let value = inputs[k].getAttribute("value");
-          obj[attr] = (value != null) ? value : inputs[k].innerText ; // new Date(value)
+          obj[attr] = (value != null) ? value : inputs[k].innerText ;
+
+          if (inputs[k].getAttribute("type") == 'date'){
+            const formatYmd = date => date.toISOString().slice(0, 10);
+            obj[attr] = (value != null) ? formatYmd(new Date(value)) : inputs[k].innerText ; 
+          }
+
         };
 
         details.push(obj);
@@ -937,32 +938,32 @@ function saveItinerary(deleteDay){
       object.day  = i;
       object.item = details;
       itinerary.push( object );
+      
     };
   };
 
-  let css = document.getElementById("message");
-  css.style.display = 'block';
-
-  var data = []; 
-  data[0] = {};
+  let css            = document.getElementById("message");
+  css.style.display  = 'block';
+  var content        = document.getElementById('intro-content').value;
+  var data           = []; 
+  data[0]            = {};
   data[0].itinerary  = itinerary;
-  data[0].subtitle   = subtitle;
-  data[0].Weight     = weight;
+  data[0].subtitle   = document.getElementById('intro-subtitle').value;
+  data[0].weight     = document.getElementById('intro-weight').value;
   data[0].highlights = highlights;
   data[0].themes     = themes;
-  data[0].region     = region;
-  data[1]            = intro.replace(/[`]/g, "'");
+  data[0].region     = document.getElementById('region').value;
+  data[1]            = content.replace(/[`]/g, "'");
 
   docLoad({
     url:    'ajax', 
     method: 'POST',
     data:   JSON.stringify({ 
-      "file": {{ .RelPermalink }}, 
+      "file": {{ .RelPermalink }}+'_index.md', 
       "data": data
     }) 
   })
   .then(
-
     function(response){ 
       console.log( statusText ); 
     }, 
@@ -975,9 +976,8 @@ function saveItinerary(deleteDay){
 function displayCity(urldata){
 
   const city = urldata.split("/")[(urldata.split("/")).length-2];
-  const path = host+urldata+"index.json";
 
-  docLoad({url: path}).then(
+  docLoad({url: host+urldata+"index.json" }).then(
 
     function(response) {
 
@@ -1020,7 +1020,6 @@ function displayHotels(city){
       };
     }, 
     function(Error) {
-      // console.log(Error);
       document.getElementById("selectHotels").style.visibility = "hidden";
     }
     );
@@ -1049,7 +1048,6 @@ function displayExcursions(city){
         };
       }, 
       function(Error) {
-      // console.log(Error);
       document.getElementById("selectExcursions").style.visibility = "hidden";
     }
     );
@@ -1079,7 +1077,6 @@ function displayCarHire(city){
       }
     }, 
     function(Error) {
-      // console.log(Error);
       document.getElementById("selectCars").style.visibility = "hidden";
     }
     );
@@ -1107,7 +1104,6 @@ function displayCars(carhire){
       }
     }, 
     function(Error) {
-      // console.log(Error);
       document.getElementById("selectCars").style.visibility = "hidden";
     }
     );
@@ -1135,7 +1131,6 @@ function displayFlights(city){
       }
     }, 
     function(Error) {
-      // console.log(Error);
       document.getElementById("selectFlights").style.visibility = "hidden";
     }
     );
@@ -1164,7 +1159,6 @@ function displayTrains(city){
     }, 
 
     function(Error) {
-      // console.log(Error);
       document.getElementById("selectTrains").style.visibility = "hidden";
     }
     );
@@ -1412,71 +1406,43 @@ function editItem(obj){
 
   var count = (url.match(/\//g) || []).length;
 
-  if (type == 'city'){
-    modal = document.getElementById("modal-city");
-  } else if (type == 'hotel'){
-    modal = document.getElementById("modal-accommodation");
-  } else if (type == 'excursion'){
-    modal = document.getElementById("modal-excursions");
-  } else if (type == 'transfer'){
-    modal = document.getElementById("modal-excursions");
+  var modal = document.getElementById("modal-"+type);
+  if (type == 'transfer'){
+    modal = document.getElementById("modal-excursion");
   };
-
-  /*  
-  } else if (url.includes("airports")){
-    icon  = "flight";
-    modal = document.getElementById("modal-flights");
-  } else if (url.includes("railways")){
-    icon  = "train";
-    modal = document.getElementById("modal-trains");
-  } else if (url.includes("ferry")){
-    icon  = "ferry";
-    modal = document.getElementById("modal-ferry");
-  } else if (url.includes("car-hire")){
-    icon  = "cab";
-    modal = document.getElementById("modal-car-hire");
-  }
-  */
-
   modal.style.display = "block";
 
   var defaultBtn= modal.querySelector(".default-modal-btn");
-
   if (url.includes("{{ htmlUnescape .RelPermalink }}")){
     defaultBtn.style.display = "block"
   } else {
     defaultBtn.style.display = "none"
   }
 
-  let modalURL      = modal.getElementsByClassName('modal-url');
-  let displayURL    = url.split("/");
-  
+  let modalURL          = modal.getElementsByClassName('modal-url');
+  let displayURL        = url.split("/");
   modalURL[0].innerText = displayURL[displayURL.length-2];
 
-  let content       = obj.getElementsByClassName('content-details');
-  let title         = obj.getElementsByClassName('title');
-  
-  let inputs        = modal.getElementsByClassName('input');
-  let modalContent  = modal.getElementsByClassName('content');
-  let rows          = modal.getElementsByClassName('row');
-  let modalTitle    = modal.getElementsByClassName('modal-title');
-  
-  modalTitle[0].value = title[0].innerText;
+  let title             = obj.getElementsByClassName('title');
+  let modalTitle        = modal.getElementsByClassName('modal-title');
+  modalTitle[0].value   = title[0].innerText;
 
+  let rows              = modal.getElementsByClassName('row');
   rows[0].children[0].innerHTML = '<i class="icon-'+type+'"></i>';
 
+  let content           = obj.getElementsByClassName('content-details');
+  let modalContent      = modal.getElementsByClassName('content');
   modalContent[0].value = content[0].innerText;
   rows[1].children[0].style.height = 'auto';
-
-  const height = rows[1].children[0].scrollHeight;
+  const height          = rows[1].children[0].scrollHeight;
   rows[1].children[0].style.height = height + 'px';
 
+  let inputs      = modal.getElementsByClassName('input');
   inputs[0].day   = day;
   inputs[0].index = index;
   inputs[0].url   = url;
 
   let data = obj.getElementsByClassName('details');
-
   for(let i=0;i<inputs.length;i++) {
     if (data[i]) {
       inputs[(i)].value = data[i].innerHTML;

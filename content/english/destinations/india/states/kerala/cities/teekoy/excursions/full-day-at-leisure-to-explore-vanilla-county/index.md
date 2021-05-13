@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: true
 guide: false
+dayAtLeisure: true
 id: services
 type: excursions
 tags:
   - Services
   - Full day at leisure to explore Vanilla County
 ---
-During your stay at Vanilla County, you can tour the spice plantation, take a jeep or hike through the rubber plantation to lovely rock pools in the river for swimming, drive to nearby peaks for sunset views, and visit a Christian ashram in the nearby village of Vagamon.
+1

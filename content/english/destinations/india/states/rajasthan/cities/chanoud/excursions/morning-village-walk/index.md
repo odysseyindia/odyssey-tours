@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: false
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Morning village walk
 ---
-Every morning, after breakfast, a retired local schoolteacher takes guests on a hugely enjoyable village walk. You will visit the local temple, see a step-well, and will witness local tradesmen, such as cobblers and tailors, at work. As you stroll around, the friendly local villagers will be happy to be photographed and to exchange a few words of greeting.
+0

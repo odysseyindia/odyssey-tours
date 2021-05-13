@@ -2,10 +2,10 @@
 title: Velavadar
 translationKey: velavadar
 defaultDays: 1
-longitude: ''
-latitude: ''
+longitude: 72.01550664
+latitude: 22.041048861
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

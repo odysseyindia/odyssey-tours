@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: '0'
 owntransport: true
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Boat ride on Lake Pichola (by shared boat)
 ---
-On the relaxing one-hour shared motor boat ride on Lake Pichola, you will enjoy marvellous views of the activity on the "ghats" used by local people for washing and bathing, the City Palace complex which dominates the eastern banks of the lake, and the Aravalli Hills to the west. You also pass the famous luxury Lake Palace hotel, and stop to visit the "pleasure island" of Jag Mandir.
+0

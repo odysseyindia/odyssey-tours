@@ -2,10 +2,10 @@
 title: Baripada
 translationKey: baripada
 defaultDays: 3
-longitude: ''
-latitude: ''
+longitude: 86.72354824
+latitude: 21.942628582
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

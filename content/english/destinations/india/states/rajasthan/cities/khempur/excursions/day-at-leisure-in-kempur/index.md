@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: true
 guide: false
+dayAtLeisure: true
 id: services
 type: excursions
 tags:
   - Services
   - Day at leisure in Kempur
 ---
-Today is a free day to enjoy all that this Real Exotic Marigold Hotel has to offer. You may wish to take a walk around the quiet and picturesque village or visit a local school. Alternative, you may choose to simply relax in this wonderfully quirky property that takes you into the world portrayed in the film.
+1

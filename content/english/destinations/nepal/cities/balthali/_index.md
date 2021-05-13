@@ -2,10 +2,10 @@
 title: Balthali
 translationKey: balthali
 defaultDays: 1
-longitude: ''
-latitude: ''
+longitude: 85.543241469
+latitude: 27.551845546
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

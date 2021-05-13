@@ -358,7 +358,13 @@ input {
 }
 
   /* Modal Content/Box */
-  #modal-accommodation, #modal-insert-day, #modal-delete-day, #modal-city, #modal-excursions, #modal-flights, #modal-trains {
+  #modal-insert-day, 
+  #modal-delete-day, 
+  #modal-city, 
+  #modal-hotel, 
+  #modal-excursion, 
+  #modal-flight, 
+  #modal-train {
     margin: 0px 20px 0px 20px;
     width: 100%;
 

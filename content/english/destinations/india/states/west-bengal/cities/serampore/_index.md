@@ -2,10 +2,10 @@
 title: Serampore
 translationKey: serampore
 defaultDays: 1
-longitude: ''
-latitude: ''
+longitude: 88.343820226
+latitude: 22.757738991
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

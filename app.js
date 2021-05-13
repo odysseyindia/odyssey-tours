@@ -11,10 +11,8 @@ const port        = 1314;
 const root        = process.env.hugoRoot; 
 const dir         = root+"content/english";
 
-console.log(dir);
-
 function urlize(url){
-
+ 
   data = url.trim()
   .toString()
   .toLowerCase()
@@ -477,39 +475,20 @@ app.post('/ajax',function (req, res) {
   } 
 
   try {
-// console.table(fileContents);
-    let contents = fileContents.split("---");
-    let data = yaml.loadAll(contents[1]);
-
-    let output = `---\n` + yaml.dump(data[0]) + "---\n" + data[1]; 
+    let contents       = fileContents.split("---");
+    let data           = yaml.loadAll(contents[1]);
+    let fm             = request.data[0];
+    let oldData        = data[0];
+    let newData        = {...oldData, ...fm };
+    let output         = `---\n` + yaml.dump( newData ) + "---\n"; 
+    output            += ( request.data[1].length > 0 ) ? request.data[1] : contents[2];
 
     fs.writeFile(file, output, function(err) {
       if(err) return console.error(err);
       console.log('Successfully wrote to the file!');
-      
-      /*
-      if (data[0].region.length > 0){
-        data[0].type = "tour";
-        output = `---\n` + yaml.dump(data[0]) + "---\n" + intro; 
-
-        file   = dir + data[0].region+request.file + '_index.md';
-  
-        mkdirp(getDirName(file)).then(made => {
-          if (made == undefined){
-            console.log('File exist already');  
-          } else {
-            console.log('Created a directory for ',file);
-            fs.writeFile(file, output, 'utf8', (err) => {       
-            if (err) throw err; 
-          };
-        };
-      };
-      */
-      
     });
   } 
   catch (error) {
-    console.log('test 6');
     console.log('Route ajax writing: ' + error.message);
   } 
   res.end();

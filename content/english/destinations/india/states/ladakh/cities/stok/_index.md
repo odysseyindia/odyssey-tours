@@ -2,10 +2,10 @@
 title: Stok
 translationKey: stok
 defaultDays: 2
-longitude: ''
-latitude: ''
+longitude: 77.548699111
+latitude: 34.073117219
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

@@ -2,8 +2,8 @@
 title: Vaishali
 translationKey: vaishali
 defaultDays: 0
-longitude: ''
-latitude: ''
+longitude: 85.081216057
+latitude: 26.005495937
 draft: false
 nighthalt: true
 id: city

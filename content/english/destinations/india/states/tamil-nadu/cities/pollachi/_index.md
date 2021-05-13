@@ -2,10 +2,10 @@
 title: Pollachi
 translationKey: pollachi
 defaultDays: 1
-longitude: ''
-latitude: ''
+longitude: 76.921484426
+latitude: 10.630495903
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

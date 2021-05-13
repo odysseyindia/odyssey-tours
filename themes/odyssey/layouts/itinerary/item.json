@@ -1,0 +1,14 @@
+ {
+      "this":       "itinerary/item.json",
+      "title":      "{{ .Title }}",
+      "date":       "{{ .Date }}",
+      "permalink":  "{{ .RelPermalink }}",
+      "content":    "{{ replace (trim (.Content | plainify ) "\n") "\n" "linebreak" }}",
+      "draft":      "{{ .Params.draft }}",
+      "id":         "{{ .Params.id }}",
+      "subtitle":   "{{ .Params.subtitle }}",
+      "weight":     "{{ .Params.weight }}",
+      "region":     "{{ .Params.region }}",
+      "themes":     "{{ .Params.themes }}",
+      "translationKey": "{{ .Params.translationKey }}"
+}

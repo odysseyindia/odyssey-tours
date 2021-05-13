@@ -2,10 +2,10 @@
 title: Raipur
 translationKey: raipur
 defaultDays: 2
-longitude: ''
-latitude: ''
+longitude: 74.03551654
+latitude: 25.992301052
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

@@ -2,10 +2,10 @@
 title: Pharping
 translationKey: pharping
 defaultDays: 2
-longitude: ''
-latitude: ''
+longitude: 85.27568574
+latitude: 27.617238657
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

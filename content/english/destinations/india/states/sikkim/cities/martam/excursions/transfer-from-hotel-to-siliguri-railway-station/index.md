@@ -11,10 +11,11 @@ toCity: Siliguri
 toCitiesId: '376'
 owntransport: true
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Transfer from hotel to Siliguri railway station
 ---
-NULL
+0

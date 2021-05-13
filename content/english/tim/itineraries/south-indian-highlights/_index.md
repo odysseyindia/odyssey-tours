@@ -1,17 +1,4 @@
 ---
-title: South Indian Highlights
-subtitle: >-
-  Chennai, Mamallapuram, Pondicherry, Tranquebar, Kumbakonam, Thanjavur,
-  Chettinad, Madurai, Thekkady, Alleppey, Mararikulam, Kochi
-translationKey: south-indian-highlights
-type: itinerary
-tour: South Indian Highlights
-highlights:
-  - Amazing temples in Mamallapuram, Kumbakonam, Thanjavur and Madurai
-  - The charming French-era streets of Pondicherry
-  - A peach-coloured fortress in Tranquebar
-  - Excellent food from various South Indian cultures
-  - 'The best of Kerala: backwaters, spices, Chinese fishing nets and beaches'
 itinerary:
   - day: 0
     item:
@@ -38,7 +25,7 @@ itinerary:
           The Fort St. George area contains many reminders from the time the
           British established the East India Trading Company in the 17th
           century, including the oldest surviving Anglican church in Asia, the
-          St. Mary's Church.
+          St. Mary’s Church.
       - type: hotel
         url: >-
           /destinations/india/states/tamil-nadu/cities/chennai/hotels/ramada-chennai-egmore/
@@ -54,9 +41,9 @@ itinerary:
           you can also try the specialty seafood restaurant, Marina Sands.
         checkInDate: ''
         checkInTime: ''
-        checkOutDate: ''
-        checkOutTime: ''
-        nights: ''
+        checkOutDate: '2021-05-14'
+        checkOutTime: '09:00'
+        nights: '1'
   - day: 1
     item:
       - type: city
@@ -130,7 +117,7 @@ itinerary:
         title: Tranquebar
         content: >-
           You continue southwards today, stopping at the temple town of
-          Chidambaram. One of Tamil Nadu's most important holy towns,
+          Chidambaram. One of Tamil Nadu’s most important holy towns,
           Chidambaram was the capital of the Chola empire for 400 years. The
           great Nataraja temple, dedicated to the dancing Shiva, was built
           during this period, and is one of the finest examples of Dravidian
@@ -148,14 +135,14 @@ itinerary:
           and two early 18th-century churches, in a charming beach location.
 
 
-          The rest of your day is at leisure to explore Tranquebar's fortress
+          The rest of your day is at leisure to explore Tranquebar’s fortress
           and beach on your own.
       - type: hotel
         url: >-
           /destinations/india/states/tamil-nadu/cities/tranquebar/hotels/bungalow-on-the-beach/
         title: Bungalow on the Beach
         content: >-
-          The 19th-century Collector's Residence in picturesque Tranquebar has
+          The 19th-century Collector’s Residence in picturesque Tranquebar has
           been transformed from a ruin into a heritage hotel by the Neemrana
           Group. As bungalows on the beach go, this is a pretty grand one. A
           stolid Danish fort looms on one side, on the other a medieval Pandya
@@ -182,7 +169,7 @@ itinerary:
 
           Nearby at Darasuram is a magnificent 12th-century Chola temple, which
           should not be missed. The village of Swamimalai, just a bike ride
-          away, is the state's principal centre for traditional bronze-casting.
+          away, is the state’s principal centre for traditional bronze-casting.
       - type: hotel
         url: >-
           /destinations/india/states/tamil-nadu/cities/kumbakonam/hotels/indeco-swamimalai-anandham/
@@ -199,7 +186,7 @@ itinerary:
 
           There are innumerable statues and artifact collections here, as well
           as a deer enclosure, a space for ducks, a special outdoor dining table
-          with piped 'rain' for the summers, a swimming pool made to resemble a
+          with piped ‘rain’ for the summers, a swimming pool made to resemble a
           temple tank, and even the vast blue gate of the old Madras Central
           Jail!
         checkInDate: ''
@@ -252,7 +239,7 @@ itinerary:
           /destinations/india/states/tamil-nadu/cities/chettinad/excursions/day-at-leisure-in-chettinad/
         title: Day at leisure in Chettinad
         content: >-
-          The Chettiar's main intent was to make his house a statement of his
+          The Chettiar’s main intent was to make his house a statement of his
           social success and he put everything into it: look out for Spanish
           tiles, Italian marble floors, Venetian chandeliers, and carved
           friezes. Many mansions are open to the public for a small fee. These
@@ -278,10 +265,10 @@ itinerary:
           thousands of visitors each day.
 
 
-          Madurai's main attraction is the famous temple dedicated to the
+          Madurai’s main attraction is the famous temple dedicated to the
           Goddess Meenakshi. Each evening, there is a closing ceremony,
           accompanied by chanting priests, drummers and torchbearers in which an
-          image of Shiva is carried in procession to Parvati's bedroom.
+          image of Shiva is carried in procession to Parvati’s bedroom.
       - type: excursion
         url: >-
           /destinations/india/states/tamil-nadu/cities/madurai/excursions/half-day-city-tour-of-madurai/
@@ -297,8 +284,8 @@ itinerary:
           The Thirumalai Nayak Palace is situated 1km from the temple. Built in
           1636 by the king Thirumalai Nayak, it has pillars in Italian style, a
           Mughal arch and Dravidian decoration. The Vandiyur Mariamman Tank is a
-          huge temple tank with a mandapam in the centre. During the 'Floating
-          Festival' , the temple deities are taken out in the tank on floats.
+          huge temple tank with a mandapam in the centre. During the ‘Floating
+          Festival’ , the temple deities are taken out in the tank on floats.
         date: ''
         etd: ''
         duration: ''
@@ -308,14 +295,14 @@ itinerary:
         title: Heritage Madurai
         content: >-
           This property was designed in the 1970s by renowned Sri Lankan
-          architect Geoffrey Bawa as the Coat's Madurai Club. It has now been
+          architect Geoffrey Bawa as the Coat’s Madurai Club. It has now been
           artfully renovated; the result is a hotel with lots of charm, and huge
           rooms.
 
 
           The restaurant serves Indian and international cuisine and there is a
-          magnificent swimming pool to enjoy. There is also a 'heritage
-          village', where you can see a potter at work, have some tea, and take
+          magnificent swimming pool to enjoy. There is also a ‘heritage
+          village’, where you can see a potter at work, have some tea, and take
           a cooking class.
         checkInDate: ''
         checkInTime: ''
@@ -336,14 +323,14 @@ itinerary:
           In the evening, you set out to explore a lesser-known aspect of this
           temple town. Madurai is a city of surprises, its food being one of the
           biggest. Stroll along the area around the Meenakshi temple, and learn
-          about Madurai's customs as you meet shopkeepers, wander through
+          about Madurai’s customs as you meet shopkeepers, wander through
           bazaars and nibble on snacks. Try a milky jigar-thanda (literally,
-          "cools the heart"), and even a wonderful drink made from cotton seeds!
-          Finish off with a meal at a 'mess', with meat and fish to belie Tamil
-          Nadu's vegetarian reputation.
+          “cools the heart”), and even a wonderful drink made from cotton seeds!
+          Finish off with a meal at a ‘mess’, with meat and fish to belie Tamil
+          Nadu’s vegetarian reputation.
 
 
-          If you're interested, you can also visit the Meenakshi temple for its
+          If you’re interested, you can also visit the Meenakshi temple for its
           charming night ceremony, on your own.
         date: ''
         etd: ''
@@ -400,13 +387,13 @@ itinerary:
         url: /destinations/india/states/kerala/cities/alleppey/
         title: Alleppey
         content: >-
-          After the walk, a four-hour drive takes you to Kerala's
+          After the walk, a four-hour drive takes you to Kerala’s
           picture-postcard backwaters.
 
 
           Alleppey (also called Allapuzha) is a bustling town south of Kochi,
           and a major trading centre for the coir industry. It is also the
-          centre of Kerala's backwaters, with many interesting homestays in
+          centre of Kerala’s backwaters, with many interesting homestays in
           nearby villages. Caressed by the Arabian Sea and with a vast network
           of lakes, lagoons and rivers, this region shelters some unique animal
           and birdlife.
@@ -414,7 +401,7 @@ itinerary:
         url: /destinations/india/states/kerala/cities/alleppey/hotels/ameya-kerala/
         title: Ameya Kerala
         content: >-
-          At Ameya, you'll find barefoot luxury on the backwaters of Kerala.
+          At Ameya, you’ll find barefoot luxury on the backwaters of Kerala.
           Situated a little away from Kumarakom, it offers just four spacious
           cottages with large bathrooms around an infinity swimming pool, and
           guests can enjoy panoramic views of the lake from the cottages'
@@ -454,7 +441,7 @@ itinerary:
           fringed with swaying palms. In the village, life still goes on much as
           it did a hundred years ago, with the men going out to sea each day to
           earn a living bringing in the daily catch. It is an idyllic retreat
-          for those who want to "get away from it all".
+          for those who want to “get away from it all”.
 
 
           You have two full days to simply enjoy the beach, and perhaps explore
@@ -485,7 +472,7 @@ itinerary:
           After breakfast, drive to Kochi, a journey of just over an hour
           through coastal villages. Kochi (or Cochin) is set on a cluster of
           islands and narrow peninsulas and has one of the best natural harbours
-          in the world. The famed 'Malabar Spices' were exported from this very
+          in the world. The famed ‘Malabar Spices’ were exported from this very
           port, bringing to Kochi visitors as varied as the Arabs, the Dutch,
           the Portuguese and, finally, the British. All of them have left their
           mark on the architecture, making Kochi one of the most unique and
@@ -522,7 +509,7 @@ itinerary:
 
           Also in Fort Kochi is a 17th-century Jewish synagogue. Scrolls of the
           Old Testament and copper plates inscribed in Hebrew are preserved
-          here. There is also the 'Dutch' Palace, built by the Portuguese for
+          here. There is also the ‘Dutch’ Palace, built by the Portuguese for
           the Raja of Cochin in 1555.
         date: ''
         etd: ''
@@ -556,9 +543,21 @@ itinerary:
         date: ''
         etd: ''
         duration: ''
+subtitle: >-
+  Chennai, Mamallapuram, Pondicherry, Tranquebar, Kumbakonam, Thanjavur,
+  Chettinad, Madurai, Thekkady, Alleppey, Mararikulam, Kochi
+weight: '603'
+highlights:
+  - Amazing temples in Mamallapuram, Kumbakonam, Thanjavur and Madurai
+  - The charming French-era streets of Pondicherry
+  - A peach-coloured fortress in Tranquebar
+  - Excellent food from various South Indian cultures
+  - 'The best of Kerala: backwaters, spices, Chinese fishing nets and beaches'
 themes:
   - Cultural journeys
 region: Kerala & South India
-weight: 603
+title: South Indian highlights
+type: itinerary
+translationKey: south-india-highlights
 ---
-This leisurely journey through Tamil Nadu and Kerala encompasses all the highlights of South India. Start by walking around the beach-side temple town of Mamallapuram and the historic &lsquo;French&rsquo; town of Pondicherry. Find yourself next in an old Danish settlement and the temple cities of Tamil Nadu. Carry on to the lush tropical land of Kerala with wildlife and palm-fringed backwaters and the harbour city of Cochin, with its diverse architectural and religious influences.
+textxxx

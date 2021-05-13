@@ -2,10 +2,10 @@
 title: Dhenkanal
 translationKey: dhenkanal
 defaultDays: 2
-longitude: ''
-latitude: ''
+longitude: 85.597883269
+latitude: 20.647886986
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

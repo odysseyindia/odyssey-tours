@@ -11,10 +11,11 @@ toCity: Jaldapara
 toCitiesId: '178'
 owntransport: true
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Transfer from hotel to Jaldapara
 ---
-NULL
+0

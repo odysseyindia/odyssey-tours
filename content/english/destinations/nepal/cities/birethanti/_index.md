@@ -2,10 +2,10 @@
 title: Birethanti
 translationKey: birethanti
 defaultDays: 1
-longitude: ''
-latitude: ''
+longitude: 83.985567397
+latitude: 28.209592537
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

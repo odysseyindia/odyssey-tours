@@ -2,10 +2,10 @@
 title: Kathmandu
 translationKey: kathmandu
 defaultDays: 2
-longitude: ''
-latitude: ''
+longitude: 85.306219581
+latitude: 27.704548569
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

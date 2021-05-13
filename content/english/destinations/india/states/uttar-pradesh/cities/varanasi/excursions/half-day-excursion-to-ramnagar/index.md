@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: '0'
 owntransport: true
 guide: true
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Half day excursion to Ramnagar
 ---
-The 17th-century Ramnagar Fort, across the Ganges, is the palace of the former Maharaja of Benares. Of special interest here are the Durbar Hall (public audience room) and the museum that houses an antique collection of palanquins, elephant saddles, arms, costumes etc. The fort is beautifully situated but not well maintained.
+0

@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: true
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Trek from Bahl to Triund (2900m - 4/5 hours walk)
 ---
-An hour's walk on steep slope takes us to the Galu Devi temple from where we have good views of the Dhauladhar and the valley. Another three hours of gradual ascent through mixed forests takes us to Triund, an alpine meadow situated atop a ridge. From Triund we have superb views of the snowy peaks of the Dhauladhar on one side and the Kangra valley on the other. We camp here for our nights stay.
+0

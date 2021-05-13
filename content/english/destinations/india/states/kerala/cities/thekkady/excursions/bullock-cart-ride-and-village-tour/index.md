@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: true
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Bullock Cart Ride and Village Tour
 ---
-Visit the farmlands of a village hidden in the valley behind the mountains of Periyar Tiger Reserve. Explore bird diversity, and diverse agricultural crops of mango, tamarind, onion, sunflower, jasmine and vegetables.
+0

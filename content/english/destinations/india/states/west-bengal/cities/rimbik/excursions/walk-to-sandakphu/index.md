@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: true
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Walk to Sandakphu
 ---
-Today you walk to Sandakphu in 4 to 5 hours. Here you have a view of Mt. Kangchenjunga, Mt. Jannu, Mt. Makalu, Mt. Everest, Mt. Lhotse, Mt. Nuptse, and a number of high peaks in Sikkim and Bhutan such as Chomolhari. You spend the night in a lodge in Sandakphu.
+0

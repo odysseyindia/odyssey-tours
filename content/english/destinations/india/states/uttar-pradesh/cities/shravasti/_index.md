@@ -2,10 +2,10 @@
 title: Shravasti
 translationKey: shravasti
 defaultDays: 1
-longitude: ''
-latitude: ''
+longitude: 82.048628497
+latitude: 27.501090399
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: true
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Walk back to Rimbik
 ---
-After you have seen the sun rise on the mountain peaks of Sandakphu, you start the descent to Rimbik. You spend the night in a local lodge in Rimbik.
+0

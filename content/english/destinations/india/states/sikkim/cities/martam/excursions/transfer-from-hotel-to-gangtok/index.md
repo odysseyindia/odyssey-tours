@@ -11,10 +11,11 @@ toCity: Gangtok
 toCitiesId: '131'
 owntransport: true
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Transfer from hotel to Gangtok
 ---
-NULL
+0

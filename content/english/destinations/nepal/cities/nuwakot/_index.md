@@ -2,10 +2,10 @@
 title: Nuwakot
 translationKey: nuwakot
 defaultDays: 2
-longitude: ''
-latitude: ''
+longitude: 85.164772811
+latitude: 27.921285502
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

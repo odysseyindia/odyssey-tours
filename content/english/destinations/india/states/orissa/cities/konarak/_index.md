@@ -2,8 +2,8 @@
 title: Konarak
 translationKey: konarak
 defaultDays: 0
-longitude: ''
-latitude: ''
+longitude: 86.09451494
+latitude: 19.887383417
 draft: false
 nighthalt: true
 id: city

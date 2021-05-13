@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: true
 guide: true
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Half day train ride up to Ghoom and return by car
 ---
-You get picked from your hotel by your guide and driver to transfer you to Darjeeling railway station. Here you board the famous toy train from Darjeeling to Ghoom and back with a half hour halt at Ghoom. The toy train was commissioned in 1881, a shiny blue and silver locomotive whose novelty is still cherished after so many years. The railway line climbs up steeply through a number of fascinating reverses and loops. One of the most scenic of these is Batasia Loop, between Ghoom and Darjeeling, which provides a panoramic view of Darjeeling perched on the hill and Mount Kanchenjunga in the background. After returning to Darjeeling, you'll be transfered back to your hotel by car.
+0

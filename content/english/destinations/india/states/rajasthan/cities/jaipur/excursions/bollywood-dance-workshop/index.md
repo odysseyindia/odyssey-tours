@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: true
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Bollywood dance workshop
 ---
-Is there anything more fun than Bollywood dancing? Sway your hips, lock-step and twerk and twirl, do the 'naagin' (cobra) step and many more with a choreographer in this one-hour workshop, set to lively music from hit Bollywood movies, and take back a great new skill to show off at parties. There will be a videographer to record your Bollywood dancing.
+0

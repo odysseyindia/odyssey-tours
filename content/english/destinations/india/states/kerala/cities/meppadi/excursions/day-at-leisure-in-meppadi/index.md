@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: true
 guide: false
+dayAtLeisure: true
 id: services
 type: excursions
 tags:
   - Services
   - Day at leisure in Meppadi
 ---
-Meppadi offers great walks and hikes as it lies amid the rain forests of the western ghats. You can also explore plantations, tribal villages, and nearby waterfalls. Just check with your hotel for the available options.
+1

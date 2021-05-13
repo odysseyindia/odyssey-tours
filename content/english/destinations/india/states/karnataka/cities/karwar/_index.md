@@ -2,10 +2,10 @@
 title: Karwar
 translationKey: karwar
 defaultDays: 3
-longitude: ''
-latitude: ''
+longitude: 74.098622269
+latitude: 14.844347618
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

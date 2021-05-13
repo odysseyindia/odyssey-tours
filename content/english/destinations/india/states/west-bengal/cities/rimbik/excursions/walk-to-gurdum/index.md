@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: true
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Walk to Gurdum
 ---
-Today you walk 4 to 5 hours to the settlement at Gurdum. You sleep in a local lodge.
+0

@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: true
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Walk to Binsar
 ---
-Your 4-5 hour walk today takes you past the Jhakersm temple, then descends to terraced farms and small villages. After a picnic lunch at the bottom, you then walk uphill to the lovely Itmenaan Estate.
+0

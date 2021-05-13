@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: true
 guide: false
+dayAtLeisure: true
 id: services
 type: excursions
 tags:
   - Services
   - Day at leisure in Gopalpur-on-Sea
 ---
-Gopalpur-on-Sea is a perfect spot along the coast to unwind and enjoy the warm sea breeze. Sand dunes, groves of coconut palm and casuarinas separate the small town from the beach on the Bay of Bengal. It is well worth visiting the beach in the early morning to see the fishing boats unload their catch, and to enjoy a stroll through the ramshackle but friendly and colourful fishing village.
+1

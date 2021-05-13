@@ -2,10 +2,10 @@
 title: Chilika lake
 translationKey: chilika-lake
 defaultDays: 0
-longitude: ''
-latitude: ''
+longitude: 85.476851379
+latitude: 19.844420814
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

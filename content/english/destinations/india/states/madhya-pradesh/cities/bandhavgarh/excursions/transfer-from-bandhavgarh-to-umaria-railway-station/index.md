@@ -11,9 +11,11 @@ toCity: Umaria
 toCitiesId: '409'
 owntransport: true
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Transfer from Bandhavgarh to Umaria railway station
 ---
+0

@@ -2,10 +2,10 @@
 title: Patiala
 translationKey: patiala
 defaultDays: 1
-longitude: ''
-latitude: ''
+longitude: 76.39035664
+latitude: 30.336605182
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

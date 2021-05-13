@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: true
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Colonial walk in Pondicherry
 ---
-Join us on a story-telling walk through the French Quarter of Pondicherry. The quaint boulevards and sleepy streets will come alive as you explore the city’s colonial past. Behind every charming façade are incredible stories, like a general bravely fighting a battle when the war itself was over, poets and revolutionaries hiding from the law, the connection between milk, Pondicherry and Saigon, and much more.
+0

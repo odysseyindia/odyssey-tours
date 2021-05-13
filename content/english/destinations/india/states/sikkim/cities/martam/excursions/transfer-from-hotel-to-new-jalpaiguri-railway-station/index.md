@@ -11,10 +11,11 @@ toCity: New Jalpaiguri
 toCitiesId: '308'
 owntransport: true
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Transfer from hotel to New Jalpaiguri railway station
 ---
-NULL
+0

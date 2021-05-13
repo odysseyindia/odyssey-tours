@@ -2,10 +2,10 @@
 title: Madikeri
 translationKey: madikeri
 defaultDays: 2
-longitude: ''
-latitude: ''
+longitude: 75.81278194
+latitude: 12.425815093
 draft: false
-nighthalt: true
+nighthalt: false
 id: city
 type: city
 tags:

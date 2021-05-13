@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: true
 guide: false
+dayAtLeisure: true
 id: services
 type: excursions
 tags:
   - Services
   - Day at leisure to get to know the village crafts and architecture
 ---
-Vijai Lal, who traces his family's presence in Pragpur back several generations, has made every effort to preserve the village and his own heritage. This impetus to village crafts and architecture has resulted in the revival of skills like weaving and silver work and the conservation of the mud walls, original plasterwork and slate roofs that adorn the Pragpur houses.     Other sightseeing options include the possibility to explore the ruins of the medieval Kangra Fort and visiting the wetlands of the Maharana Pratap Sagar bird sanctuary.
+1

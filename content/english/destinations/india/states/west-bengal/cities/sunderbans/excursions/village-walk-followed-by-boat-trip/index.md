@@ -11,10 +11,11 @@ toCity: ''
 toCitiesId: ''
 owntransport: false
 guide: false
+dayAtLeisure: false
 id: services
 type: excursions
 tags:
   - Services
   - Village walk followed by boat trip
 ---
-After breakfast, there will be a guided village walk in which you can meet with local villagers and learn about their livelihood and cuisines. After the village walk you will take a trip in a country boat in the shallow water and mangroves near Sunderbans Jungle Camp. You are likely to spot many birds. When you return to the resort you will be able to enjoy an early lunch.
+0
