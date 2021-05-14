@@ -6,6 +6,7 @@ const fs 			    = require('fs');
 var   getDirName  = require('path').dirname;
 const yaml 			  = require('js-yaml');
 const env         = require('dotenv').config();
+var   copydir     = require('copy-dir');
 var   app 			  = express();
 const port        = 1314;
 const root        = process.env.hugoRoot; 
@@ -227,7 +228,7 @@ app.post('/import',function (req, res) {
 
       try {
 
-        var web = Number(array[7]) || 0;
+        var web     = Number(array[7]) || 0;
         var writeup = array[13].trim().toString().replace(/[`]/g, "'");
 
         frontMatter                 = {};
@@ -248,11 +249,7 @@ app.post('/import',function (req, res) {
         frontMatter.type            = 'excursions';
         frontMatter.tags            = ['Services',array[2].replace(/[.]/g, '') ];
 
-        let output = `---\n` 
-        + yaml.dump(frontMatter) 
-        + "---\n" 
-        + writeup;
-
+        let output = `---\n` + yaml.dump(frontMatter) + "---\n" + writeup;
 
         fs.writeFileSync(mdfile+'index.md', output, 'utf8', (err) => {       
           if (err) throw err; 
@@ -292,7 +289,7 @@ app.post('/import',function (req, res) {
       try {
 
         let contents = fileContents.split("---");
-        let data = yaml.loadAll(contents[1]);
+        let data     = yaml.loadAll(contents[1]);
 
 var airportData = array[3]+' '+array[4].replace(/[`]/g, "'");
 console.log(airportData);
@@ -302,14 +299,10 @@ console.log(airportData);
         };
         data[0].airports.push( airportData );
 
-        let output = `---\n` 
-        + yaml.dump(data[0]) 
-        + "---\n" 
-        + contents[2]
-
+        let output = `---\n` + yaml.dump(data[0]) + "---\n" + contents[2];
         fs.writeFileSync(mdfile, output, 'utf8', (err) => {       
-         if (err) throw err; 
-       }) 
+          if (err) throw err; 
+        }); 
       } 
       catch (error) {
         console.log('Route ajax writing: ' + error.message);
@@ -319,11 +312,10 @@ console.log(airportData);
 
       // 0=from_city,1=from_state,2=from_cities_id,3=to_city,4=to_state,5=to_cities_id,6=distance,7=time,8=via,9=drive  
 
-      var state             = urlize(array[1]);
-      var city              = urlize(array[0]);
-      var country           = 'india';
-
-      var mdfile = dir+'/destinations/'+country;
+      var state     = urlize(array[1]);
+      var city      = urlize(array[0]);
+      var country   = 'india';
+      var mdfile    = dir+'/destinations/'+country;
 
       if (country == 'india'){ 
         if (typeof state === "undefined") throw "state for "+city+" is undefined";
@@ -341,40 +333,40 @@ console.log(airportData);
       } 
       catch (error) {
         var fileContents = "---\n---\n";
-      } 
+      }
 
       try {
 
         let contents = fileContents.split("---");
-        let data = yaml.loadAll(contents[1]);
+        let data     = yaml.loadAll(contents[0]);
 
-        var distanceData = array[4]+','+array[3]+','+array[6]+','+array[7]+','+array[8];
-  console.log(distanceData);
+console.table(data);
+
+        var distanceData        = {};
+        distanceData.url        = '/destinations/'+country+'/'+array[4]+'/'+array[3]+'/';
+        distanceData.distance   = array[6];
+        distanceData.time       = array[7];
+        distanceData.via        = array[8];
+        distanceData.driveable  = array[9];
 
         if (typeof data[0].distances === 'undefined'){
           data[0].distances = [];
         };
         data[0].distances.push( distanceData );
 
-        let output = `---\n` 
-        + yaml.dump(data[0]) 
-        + "---\n" 
-        + contents[2]
+        let output = `---\n` + yaml.dump(data[0]) + "---\n" + contents[2];
 
         fs.writeFileSync(mdfile, output, 'utf8', (err) => {       
          if (err) throw err; 
        }) 
       } 
-
       catch (error) {
-        console.log("Route import writing "+state+": " + error.message);
+        console.log("Route import writing "+city+": " + error.message);
       } 
-
-
     } else {
       console.log(file+" is a wrong option");
     }
-  });
+});
 
 function CSVToArray( strData, strDelimiter ){
         // Check to see if the delimiter is defined. If not,
@@ -486,6 +478,17 @@ app.post('/ajax',function (req, res) {
     fs.writeFile(file, output, function(err) {
       if(err) return console.error(err);
       console.log('Successfully wrote to the file!');
+
+      if (fm.region.length > 0){
+        const fromFile = file.split('/');
+        tourFile       = '/destinations/india/regions/'+fm.region+'/'+ fromFile[fromFile.length-2]; 
+        
+        copydir(file, tourFile, {utimes:false, mode:true, cover:false}, function(err){
+        if(err) throw err;
+          console.log('done');
+        });
+      };
+
     });
   } 
   catch (error) {
@@ -500,7 +503,6 @@ app.post('/copy',function (req, res) {
   var request = JSON.parse(req.body.data);
   var from    = dir + "/tim/itineraries/" +request.from;
   var to      = dir + "/tim/itineraries/" +request.to;
-  var copydir = require('copy-dir');
 
   copydir(from, to, {utimes:false, mode:true, cover:false
   }, function(err){
