@@ -107,7 +107,7 @@
             {{- $url :=  printf "%s%s" $v.url "index.md" }}
 
             {{- if (eq $v.type "city") }}
-              {{- $url =  printf "%s%s" $v.url "_index.md" }}
+            {{- $url =  printf "%s%s" $v.url "_index.md" }}
             {{- end }}            
 
             {{- with $.Site.GetPage (string $url) }}
@@ -251,18 +251,19 @@
       <div id="addDay"></div>
     </div>
     <div class="to-do-column">
-  <div class="main-container">
-    <div class="row dossier">
-      <div>
-        <a  href="#0" class="button" onclick="saveItinerary()" data-toggle="tooltip" title="Save"><i class="icon-floppy"></i></a>
-        <a href="#0" class="button" id="toggleContent" data-toggle="tooltip" title="Compact" onclick="toggleContent()"><i class="icon-plus-squared"></i></a>
-        <a href="#0" class="button" data-toggle="tooltip" title="Insert a day" onclick="insertDay()"><i class="icon-plus"></i></a>
-        <a  href="#0" class="button" data-toggle="tooltip" title="Delete a day"  onclick="deleteDay()"><i class="icon-minus"></i></a>
-        <a href="#0" class="button" data-toggle="tooltip" title="Append a day" onclick="addDay()"><i class="icon-plus"></i></a>
-        <a href="#0" class="button showWorkspace" data-toggle="tooltip" title="Workspace" id="toggleWorkspace" onclick="toggleWorkspace()"><i class="icon-wrench"></i></a>
+      <div class="main-container">
+        <div class="row dossier">
+          <div>
+            <a  href="#0" class="button" onclick="saveItinerary()" data-toggle="tooltip" title="Save"><i class="icon-floppy"></i></a>
+            <a href="#0" class="button" id="toggleContent" data-toggle="tooltip" title="Compact" onclick="toggleContent()"><i class="icon-plus-squared"></i></a>
+            <a href="#0" class="button" id="toggleCalendar" data-toggle="tooltip" title="Display dates" onclick="toggleCalendar()"><i class="icon-blind"></i></a>
+            <a href="#0" class="button" data-toggle="tooltip" title="Insert a day" onclick="insertDay()"><i class="icon-plus"></i></a>
+            <a  href="#0" class="button" data-toggle="tooltip" title="Delete a day"  onclick="deleteDay()"><i class="icon-minus"></i></a>
+            <a href="#0" class="button" data-toggle="tooltip" title="Append a day" onclick="addDay()"><i class="icon-plus"></i></a>
+            <a href="#0" class="button showWorkspace" data-toggle="tooltip" title="Workspace" id="toggleWorkspace" onclick="toggleWorkspace()"><i class="icon-wrench"></i></a>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
       <div class="column-header">
         <h4><i class="icon-search"></i>Search</h4>
       </div>
@@ -601,6 +602,132 @@
       </div>
     </div>
   </div> 
+
+  <div class="columns">
+    <div class="inclusions">
+      <div class="column-header">
+        <h4>Inclusions</h4>
+      </div>
+
+      <div class="containers inclmargin">
+        <h3>Accommodation</h3>
+        <div class="program">
+          <div class="content">
+            <div class="mr-10 content-text details1">  
+             
+              {{- range $index,$e := .Params.itinerary }} 
+              {{- range $i,$v := .item }}
+              {{- if (eq $v.type "hotel") }}
+              {{ $city := index (split $v.url "/") (sub (len (split $v.url "/")) 4 )  }}
+              <div class="incldetails">
+                <div>{{ $city | humanize }}, {{ $v.title }}</div> 
+                <div class="details" > </div>
+              </div>
+              {{- end }}  
+              {{- end }}
+              {{- end }}
+            </div>            
+          </div>
+        </div>
+
+        <h3>Excursions</h3>
+        <div class="program">
+          <div class="content">
+            <div class="mr-10 content-text details1">
+            
+              {{- range $index,$e := .Params.itinerary }} 
+              {{- range $i,$v := .item }}
+              {{- if eq $v.type "excursion" }}
+              {{ $city := index (split $v.url "/") (sub (len (split $v.url "/")) 4 )  }}
+              <div class="incldetails">
+                <div>{{ $city | humanize }}, {{ $v.title }}</div> 
+              </div>
+              {{- end }}
+              {{- end }}
+              {{- end }}
+            </div>
+          </div>
+        </div>
+
+        <h3>Flights</h3>
+        <div class="program">
+          <div class="content">
+            <div class="mr-10 content-text details1">
+              
+              {{- range $index,$e := .Params.itinerary }} 
+              {{- range $i,$v := .item }}
+              {{- if (eq $v.type "flight") }}
+              <div class="incldetails">
+                <div class="details">{{ $v.flightNo }}</div>
+                <div class="details"> {{ $v.from }}/{{ $v.to }}</div>
+              </div>
+              {{- end }}
+              {{- end }}
+              {{- end }}
+            </div>
+          </div>
+        </div>
+
+
+        <h3>Trains</h3>
+        <div class="program">
+          <div class="content">
+            <div class="mr-10 content-text details1"> 
+             
+              {{- range $index,$e := .Params.itinerary }} 
+              {{- range $i,$v := .item }}
+              {{- if (eq $v.type "train") }}
+              <div class="incldetails">
+                <div class="details">{{ $v.train }}</div>
+                <div class="details">{{ $v.from }}/{{ $v.to }}</div>
+              </div>
+              {{- end }}
+              {{- end }}
+              {{- end }}
+            </div>
+          </div>
+        </div>
+
+        <h3>Car hire</h3>
+        <div class="program">
+          <div class="content">
+            <div class="mr-10 content-text details1"> 
+             
+              {{- range $index,$e := .Params.itinerary }} 
+              {{- range $i,$v := .item }}
+              {{- if (eq $v.type "car-hire") }}
+              <div class="incldetails">
+                <div class="details">{{ $v.city }}</div>
+                <div class="details"> {{ $v.duration }}</div>
+              </div>
+              {{- end }}  
+              {{- end }}
+              {{- end }}
+            </div>            
+          </div>
+        </div>
+
+        <h3>Transfers</h3>
+        <div class="program">
+          <div class="content">
+            <div class="mr-10 content-text details1"> 
+             
+              {{- range $index,$e := .Params.itinerary }} 
+              {{- range $i,$v := .item }}
+              {{- if eq $v.type "transfer" }}
+              <div class="incldetails">
+                <div class="details"> {{- with $v.date }}{{ dateFormat  "02-01-2006" . }}{{ end }}</div>
+                <div class="details">{{ $v.title }} </div> 
+              </div>
+              {{ end }}
+              {{- end }}
+              {{- end }}
+            </div>            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 {{- end }}
@@ -608,9 +735,9 @@
 
 <script>
 
-$(document).ready(function(){
-  $('[data-toggle="tooltip"]').tooltip();
-});
+  $(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+  });
 
   const source = document.querySelector("#cities");
   const city   = source[source.selectedIndex].value ;
@@ -823,6 +950,23 @@ function toggleContent(){
         items[j].style.display = "flex";
       } else {
         items[j].style.display = "none";
+      }
+    };
+  };
+};
+
+function toggleCalendar(){
+
+  let days   = document.getElementById('myItinerary').getElementsByClassName('containers');
+
+  for(let i=0;i<days.length;i++) {
+
+    var items   = days[i].getElementsByClassName('rowdetails');
+    for(let j=0;j<items.length;j++) {
+      if (items[j].style.visibility === "visible") {
+        items[j].style.visibility = "hidden";
+      } else {
+        items[j].style.visibility = "visible";
       }
     };
   };
@@ -1048,9 +1192,9 @@ function displayExcursions(city){
         };
       }, 
       function(Error) {
-      document.getElementById("selectExcursions").style.visibility = "hidden";
-    }
-    );
+        document.getElementById("selectExcursions").style.visibility = "hidden";
+      }
+      );
 };
 
 function displayCarHire(city){

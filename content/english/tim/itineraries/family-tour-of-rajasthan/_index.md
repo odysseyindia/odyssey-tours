@@ -8,7 +8,7 @@ tour: Family Tour of Rajasthan
 itinerary:
   - day: 0
     item:
-      - type: excursion
+      - type: transfer
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-international-airport-to-hotel/
         title: Transfer from the international airport to your hotel
@@ -454,7 +454,7 @@ itinerary:
         duration: ''
   - day: 14
     item:
-      - type: excursion
+      - type: transfer
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-hotel-to-international-airport/
         title: Transfer from your hotel to the international airport

@@ -16,7 +16,7 @@ highlights:
 itinerary:
   - day: 0
     item:
-      - type: excursion
+      - type: transfer
         url: >-
           /destinations/india/states/kerala/cities/kochi/excursions/transfer-from-airport-to-hotel/
         title: Transfer from airport to hotel
@@ -250,7 +250,7 @@ itinerary:
         duration: ''
   - day: 8
     item:
-      - type: excursion
+      - type: transfer
         url: >-
           /destinations/india/states/kerala/cities/kochi/excursions/transfer-from-hotel-to-airport/
         title: Transfer from hotel to airport

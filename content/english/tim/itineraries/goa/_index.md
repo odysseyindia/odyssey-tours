@@ -8,7 +8,7 @@ tour: Goa
 itinerary:
   - day: 0
     item:
-      - type: excursion
+      - type: transfer
         url: >-
           /destinations/india/states/goa/cities/goa/excursions/transfer-from-airport-to-hotel/
         title: Transfer from Goa's international airport to your hotel
@@ -99,7 +99,7 @@ itinerary:
         nights: ''
   - day: 3
     item:
-      - type: excursion
+      - type: transfer
         url: >-
           /destinations/india/states/goa/cities/goa/excursions/transfer-from-agonda-hotel-to-airport/
         title: Transfer from your hotel to the airport

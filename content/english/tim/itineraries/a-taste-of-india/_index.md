@@ -10,7 +10,7 @@ tour: A Taste of India
 itinerary:
   - day: 0
     item:
-      - type: excursion
+      - type: transfer
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-international-airport-to-hotel/
         title: Transfer from Delhi's international airport to your hotel
@@ -709,7 +709,7 @@ itinerary:
         nights: '3'
   - day: 18
     item:
-      - type: excursion
+      - type: transfer
         url: >-
           /destinations/india/states/goa/cities/goa/excursions/transfer-from-hotel-to-airport/
         title: Transfer from hotel to airport

@@ -13,7 +13,7 @@ highlights:
 itinerary:
   - day: 0
     item:
-      - type: excursion
+      - type: transfer
         url: >-
           /destinations/india/states/maharashtra/cities/mumbai/excursions/transfer-from-international-airport-to-hotel/
         title: Transfer from Mumbai's international airport to your hotel

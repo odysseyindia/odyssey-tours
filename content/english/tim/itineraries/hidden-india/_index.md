@@ -15,7 +15,7 @@ highlights:
 itinerary:
   - day: 0
     item:
-      - type: excursion
+      - type: transfer
         url: >-
           /destinations/india/states/gujarat/cities/ahmedabad/excursions/transfer-from-airport-to-hotel/
         title: Transfer from Ahmedabad airport to your hotel
@@ -492,7 +492,7 @@ itinerary:
         nights: ''
   - day: 14
     item:
-      - type: excursion
+      - type: transfer
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-hotel-to-international-airport/
         title: Transfer from your hotel to the international airport

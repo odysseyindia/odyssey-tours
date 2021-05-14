@@ -14,7 +14,7 @@ highlights:
 itinerary:
   - day: 0
     item:
-      - type: excursion
+      - type: transfer
         url: >-
           /destinations/india/states/tamil-nadu/cities/chennai/excursions/transfer-from-airport-to-hotel/
         title: Transfer from Chennai's international airport to your hotel
@@ -377,7 +377,7 @@ itinerary:
         duration: ''
   - day: 9
     item:
-      - type: excursion
+      - type: transfer
         url: >-
           /destinations/india/states/tamil-nadu/cities/madurai/excursions/transfer-from-hotel-to-airport/
         title: Transfer from your hotel to the airport

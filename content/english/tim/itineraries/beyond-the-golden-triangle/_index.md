@@ -8,7 +8,7 @@ translationKey: beyond-the-golden-triangle
 itinerary:
   - day: 0
     item:
-      - type: excursion
+      - type: transfer
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-international-airport-to-hotel/
         title: Transfer from Delhi's international airport to your hotel
@@ -446,7 +446,7 @@ itinerary:
           Building and Rashtrapati Bhawan, the residence of the President.
           Towards the South are Qutab Minar and Humayun’s Tomb, both World
           Heritage Sites.
-      - type: excursion
+      - type: transfer
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-hotel-to-international-airport/
         title: Transfer from your hotel to the international airport

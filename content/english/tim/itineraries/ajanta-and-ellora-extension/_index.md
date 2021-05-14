@@ -11,7 +11,7 @@ highlights:
 itinerary:
   - day: 0
     item:
-      - type: excursion
+      - type: transfer
         url: >-
           /destinations/india/states/maharashtra/cities/aurangabad/excursions/transfer-from-airport-to-hotel/
         title: Transfer from Aurangabad airport to your hotel
@@ -94,7 +94,7 @@ itinerary:
         date: ''
         etd: ''
         duration: ''
-      - type: excursion
+      - type: transfer
         url: >-
           /destinations/india/states/maharashtra/cities/aurangabad/excursions/transfer-from-hotel-to-airport/
         title: Transfer from your hotel to the airport

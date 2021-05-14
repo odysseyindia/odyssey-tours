@@ -17,5 +17,6 @@ highlights:
 themes:
   - Active outdoor trips
 region: Foothills of the Himalayas
+title: Mussoorie extension
 ---
 The bustling hill station of Mussoorie still retains vestiges of the Raj atmosphere. The town is centered around a long promenade - the Mall - and boasts an Anglican church, library and club. Many points offer excellent panoramas of the Himalayas and valley, and there are interesting walking trails through the woods such as the path to Landour, or the shorter Camel’s Back Road, best in the early mornings for mountain views.

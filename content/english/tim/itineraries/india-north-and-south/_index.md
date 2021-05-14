@@ -7,7 +7,7 @@ tour: India North & South
 itinerary:
   - day: 0
     item:
-      - type: excursion
+      - type: transfer
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-international-airport-to-hotel/
         title: Transfer from Delhi's international airport to your hotel
@@ -427,7 +427,7 @@ itinerary:
         nights: ''
   - day: 13
     item:
-      - type: excursion
+      - type: transfer
         url: >-
           /destinations/india/states/kerala/cities/mararikulam/excursions/transfer-from-hotel-to-kochi-airport/
         title: Transfer from your hotel to Kochi's international airport

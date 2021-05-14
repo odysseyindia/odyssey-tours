@@ -14,7 +14,7 @@ highlights:
 itinerary:
   - day: 0
     item:
-      - type: excursion
+      - type: transfer
         url: >-
           /destinations/india/states/kerala/cities/kochi/excursions/transfer-from-airport-to-hotel/
         title: Transfer from Kochi's international airport to your hotel
@@ -306,7 +306,7 @@ itinerary:
           is an idyllic retreat for those who want to “get away from it all”.
   - day: 10
     item:
-      - type: excursion
+      - type: transfer
         url: >-
           /destinations/india/states/kerala/cities/mararikulam/excursions/transfer-from-hotel-to-kochi-airport/
         title: Transfer from your hotel to Kochi's international airport

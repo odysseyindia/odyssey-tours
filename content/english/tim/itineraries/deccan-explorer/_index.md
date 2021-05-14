@@ -6,7 +6,7 @@ tour: Deccan Explorer
 itinerary:
   - day: 0
     item:
-      - type: excursion
+      - type: transfer
         url: >-
           /destinations/india/states/telangana/cities/hyderabad/excursions/transfer-from-airport-to-hotel/
         title: Transfer from Hyderabad's airport to your hotel
@@ -391,7 +391,7 @@ itinerary:
         nights: ''
   - day: 13
     item:
-      - type: excursion
+      - type: transfer
         url: >-
           /destinations/india/states/karnataka/cities/bangalore/excursions/transfer-from-hotel-to-airport/
         title: Transfer from hotel to airport

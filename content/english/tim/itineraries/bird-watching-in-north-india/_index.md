@@ -8,7 +8,7 @@ tour: Bird Watching in North India
 itinerary:
   - day: 0
     item:
-      - type: excursion
+      - type: transfer
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-international-airport-to-hotel/
         title: Transfer from Delhi's international airport to your hotel

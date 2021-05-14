@@ -13,7 +13,7 @@ highlights:
 itinerary:
   - day: 0
     item:
-      - type: excursion
+      - type: transfer
         url: >-
           /destinations/india/states/west-bengal/cities/kolkata/excursions/transfer-from-airport-to-hotel/
         title: Transfer from airport to hotel

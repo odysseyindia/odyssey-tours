@@ -17,7 +17,7 @@ highlights:
 itinerary:
   - day: 0
     item:
-      - type: excursion
+      - type: transfer
         url: >-
           /destinations/india/states/kerala/cities/kochi/excursions/transfer-from-airport-to-hotel/
         title: Transfer from Kochi's international airport to your hotel
@@ -654,7 +654,7 @@ itinerary:
         nights: ''
   - day: 21
     item:
-      - type: excursion
+      - type: transfer
         url: >-
           /destinations/india/states/karnataka/cities/bangalore/excursions/transfer-from-hotel-to-airport/
         title: Transfer from your hotel to Bangalore's airport

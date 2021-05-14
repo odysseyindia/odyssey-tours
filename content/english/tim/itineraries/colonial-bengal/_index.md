@@ -14,7 +14,7 @@ highlights:
 itinerary:
   - day: 0
     item:
-      - type: excursion
+      - type: transfer
         url: >-
           /destinations/india/states/west-bengal/cities/kolkata/excursions/transfer-from-airport-to-rajbari-bawali/
         title: Transfer from Kolkata's international airport to your hotel
@@ -253,7 +253,7 @@ itinerary:
         duration: ''
   - day: 9
     item:
-      - type: excursion
+      - type: transfer
         url: >-
           /destinations/india/states/west-bengal/cities/kolkata/excursions/transfer-from-hotel-to-airport/
         title: Transfer from your hotel to the airport

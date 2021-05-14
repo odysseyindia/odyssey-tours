@@ -14,7 +14,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/west-bengal/cities/singalila/
-        title: Singalila , West bengal
+        title: Singalila, West bengal
         content: >-
           You start this extension tour by driving to Manebhanjang, the little
           gateway town for Singalila National Park.

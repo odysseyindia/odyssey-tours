@@ -13,7 +13,7 @@ highlights:
 itinerary:
   - day: 0
     item:
-      - type: excursion
+      - type: transfer
         url: >-
           /destinations/india/states/gujarat/cities/ahmedabad/excursions/transfer-from-airport-to-hotel/
         title: Transfer from Ahmedabad's airport to your hotel

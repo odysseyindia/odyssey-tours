@@ -2,7 +2,7 @@
 itinerary:
   - day: 0
     item:
-      - type: excursion
+      - type: transfer
         url: >-
           /destinations/india/states/tamil-nadu/cities/chennai/excursions/transfer-from-airport-to-hotel/
         title: Transfer from Chennai's international airport to your hotel
@@ -533,7 +533,7 @@ itinerary:
         duration: ''
   - day: 15
     item:
-      - type: excursion
+      - type: transfer
         url: >-
           /destinations/india/states/kerala/cities/kochi/excursions/transfer-from-hotel-to-airport/
         title: Transfer from your hotel to Kochi's intermational airport
@@ -560,4 +560,4 @@ title: South Indian highlights
 type: itinerary
 translationKey: south-india-highlights
 ---
-textxxx
+This leisurely journey through Tamil Nadu and Kerala encompasses all the highlights of South India. Start by walking around the beach-side temple town of Mamallapuram and the historic 'French' town of Pondicherry. Find yourself next in an old Danish settlement and the temple cities of Tamil Nadu. Carry on to the lush tropical land of Kerala with wildlife and palm-fringed backwaters and the harbour city of Cochin, with its diverse architectural and religious influences.

@@ -13,7 +13,7 @@ highlights:
 itinerary:
   - day: 0
     item:
-      - type: excursion
+      - type: transfer
         url: >-
           /destinations/india/states/orissa/cities/bhubaneswar/excursions/transfer-from-airport-to-hotel/
         title: Transfer from Bhubaneswar's airport to your hotel
@@ -228,7 +228,7 @@ itinerary:
         nights: ''
   - day: 7
     item:
-      - type: excursion
+      - type: transfer
         url: >-
           /destinations/india/states/orissa/cities/bhubaneswar/excursions/transfer-from-hotel-to-airport/
         title: Transfer from your hotel to Bhubaneswar's airport
