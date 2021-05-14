@@ -204,6 +204,15 @@
     width: 100%;
   }
 
+.overflow-auto {
+  overflow: scroll;
+    height: 100vw;
+}
+
+.overflow-hidden {
+  overflow-y: hidden;
+}
+
 .row.subtitle{
   margin:0;
 }
@@ -217,7 +226,7 @@
     border: 0;
     height: inherit;
      text-align: left;
-     width: inherit;
+    
   }
 
   .search-label {
