@@ -12,6 +12,7 @@
   "defaultDays":    "{{ .Params.defaultDays }}",
   "nighthalt":      "{{ .Params.nighthalt }}",
   "display":        "{{ .Params.display }}",
+  "alias":          "{{ .Params.alias }}",
   "id":             "{{ .Params.id }}",
   "translationKey": "{{ .Params.translationKey }}",
   "image":          "{{- range $i,$e := (.Resources.ByType "image") }}{{- if eq $i 0 }}{{ . }}{{- end }}{{- end }}"

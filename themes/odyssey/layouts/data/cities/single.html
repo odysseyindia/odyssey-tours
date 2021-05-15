@@ -30,12 +30,12 @@
 
       <div class="table even">
         <div class="item-1">City Name </div>
-        <div id="title" contenteditable="true" class="item-2"></div>
+        <div id="title" class="item-2"></div>
       </div>
 
       <div class="table odd">
         <div class="item-1">Alias</div>
-        <div id="title" contenteditable="true" class="item-2"></div>
+        <div id="alias" contenteditable="true" class="item-2"></div>
       </div>
 
       <div class="table even">
@@ -78,12 +78,12 @@
         <div class="item-1">Display</div>
         <div class="item-2">
           <div class="form-check">
-            <input id="draft" class="custom-control-input" type="checkbox">
+            <input id="display" class="custom-control-input" type="checkbox">
           </div>
         </div>
       </div>
 
-      <div class="table even">
+      <div class="table odd">
         <div class="item-1">Content</div>
         <div id="content" contenteditable="true" class="item-2"></div>
       </div>
@@ -140,7 +140,7 @@
         } else {
           document.getElementById("image").innerHTML = '';
         }
-        
+
         document.getElementById("defaultDays").value = data.defaultDays;
         document.getElementById("latitude").value    = parseFloat(data.latitude);
         document.getElementById("longitude").value   = parseFloat(data.longitude);
@@ -148,7 +148,7 @@
         document.getElementById("display").checked   = (data.display == 'true')? true : false;
         document.getElementById("title").innerText   = data.title;
         document.getElementById("alias").innerText   = data.alias;
-        document.getElementById("content").innerText = data.content;
+        document.getElementById("content").innerHTML = data.content;
         
         if (data.latitude > 0){
           initMap(parseFloat(data.latitude), parseFloat(data.longitude));
@@ -182,7 +182,7 @@
 
     const source         = document.querySelector("#field")
     const permalink      = source[source.selectedIndex].value ;
-    const content        = document.getElementById("content").innerText;
+    const content        = document.getElementById("content").innerHTML;
     
     var nighthalt    = document.getElementById("nighthalt").checked ;
     nighthalt = (nighthalt == true) ? true : false;
