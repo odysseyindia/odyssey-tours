@@ -4,8 +4,10 @@ translationKey: plassey
 defaultDays: 0
 longitude: 88.285081192
 latitude: 23.778557415
+alias: ''
 draft: false
-nighthalt: true
+nighthalt: false
+display: true
 id: city
 type: city
 tags:

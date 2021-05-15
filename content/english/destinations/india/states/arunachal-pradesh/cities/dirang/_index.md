@@ -2,10 +2,12 @@
 title: Dirang
 translationKey: dirang
 defaultDays: 2
-longitude: 27.361944
-latitude: 92.24
-draft: true
-nighthalt: false
+longitude: 92.24
+latitude: 27.361944
+alias: ''
+draft: false
+nighthalt: true
+display: false
 id: city
 type: city
 tags:

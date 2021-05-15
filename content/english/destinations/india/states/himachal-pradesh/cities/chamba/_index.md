@@ -2,10 +2,12 @@
 title: Chamba
 translationKey: chamba
 defaultDays: 1
-longitude: 32.549722
-latitude: 76.129444
-draft: true
-nighthalt: false
+longitude: 76.129444
+latitude: 32.549722
+alias: ''
+draft: false
+nighthalt: true
+display: false
 id: city
 type: city
 tags:

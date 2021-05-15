@@ -4,8 +4,10 @@ translationKey: pharping
 defaultDays: 2
 longitude: 85.27568574
 latitude: 27.617238657
+alias: ''
 draft: false
-nighthalt: false
+nighthalt: true
+display: true
 id: city
 type: city
 tags:

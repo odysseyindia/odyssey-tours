@@ -1,7 +1,7 @@
 {{ define "response" }}
 {{- $hotels := where .Data.Pages "Type" "hotels" -}}
 {     
-    "file" : "list.hotel.json",
+    "file" : "_default/list.hotel.json",
     "count" : "{{ len $hotels }}",
     "hotels" : [
     {{ range $i, $e := $hotels }}

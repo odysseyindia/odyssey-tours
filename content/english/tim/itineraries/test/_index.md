@@ -9,10 +9,10 @@ itinerary:
   - day: 0
     item:
       - type: city
-        url: /destinations/india/states/tripura/cities/agartala/
-        title: Agartala
+        url: /destinations/india/states/uttar-pradesh/cities/agra/
+        title: Agra , Uttar pradesh
         content: ''
-  - day: 2
+  - day: 1
     item:
       - type: city
         url: /destinations/india/states/uttarakhand/cities/corbett/
@@ -27,5 +27,6 @@ itinerary:
           500 species.
 themes: []
 region: '0'
-weight: 0
+weight: '0'
 ---
+

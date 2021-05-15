@@ -2,10 +2,12 @@
 title: Daporijo
 translationKey: daporijo
 defaultDays: 1
-longitude: 27.9861
-latitude: 94.2217
-draft: true
-nighthalt: false
+longitude: 94.2217
+latitude: 27.9861
+alias: ''
+draft: false
+nighthalt: true
+display: false
 id: city
 type: city
 tags:

@@ -4,8 +4,10 @@ translationKey: thame
 defaultDays: 2
 longitude: 86.647597669
 latitude: 27.829757782
+alias: ''
 draft: false
-nighthalt: false
+nighthalt: true
+display: true
 id: city
 type: city
 tags:

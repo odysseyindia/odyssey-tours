@@ -2,10 +2,12 @@
 title: Tso Moriri
 translationKey: tso-moriri
 defaultDays: 2
-longitude: ''
-latitude: ''
-draft: true
-nighthalt: false
+longitude: 78.316028042
+latitude: 32.910363094
+alias: ''
+draft: false
+nighthalt: true
+display: false
 id: city
 type: city
 tags:

@@ -4,8 +4,10 @@ translationKey: kanyakumari
 defaultDays: 0
 longitude: 77.54655706
 latitude: 8.087464121
+alias: Cape Comorin
 draft: false
-nighthalt: true
+nighthalt: false
+display: true
 id: city
 type: city
 tags:

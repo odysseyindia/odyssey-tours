@@ -4,8 +4,10 @@ translationKey: modhera
 defaultDays: 0
 longitude: 72.132966897
 latitude: 23.583494584
+alias: ''
 draft: false
-nighthalt: true
+nighthalt: false
+display: true
 id: city
 type: city
 tags:

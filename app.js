@@ -80,10 +80,12 @@ app.post('/import',function (req, res) {
       var country= urlize(array[2]);
 
       var mdfile = dir+'/destinations/'+country;
+
       if (country == 'india'){ 
         if (typeof state === "undefined") throw "state for "+city+" is undefined";
         mdfile += '/states/'+state; 
       };
+      
       mdfile += '/cities/'+city+'/';
 
       console.log('Processing ',mdfile);
@@ -94,18 +96,20 @@ app.post('/import',function (req, res) {
 
         frontMatter = {};
 
-        var web       = Number(array[8]) || 0;
+        var display   = Number(array[8]) || 0;
         var nighthalt = Number(array[7]) || 0;
 
-        // 0=city, 1=state,2=country,3=writeUp,4=DefaultDays,5=longitude,6=latitude,7=nighthalt, 8=display
+        // 0=city, 1=state,2=country,3=writeUp,4=DefaultDays,5=longitude,6=latitude,7=nighthalt, 8=display, 9=alias
           
         frontMatter.title           = array[0];
         frontMatter.translationKey  = city;
         frontMatter.defaultDays     = Number(array[4]) || 0;
         frontMatter.longitude       = Number(array[5]) || '';
         frontMatter.latitude        = Number(array[6]) || '';
+        frontMatter.alias           = (array[9] == 'NULL') ? '' : array[9];
         frontMatter.draft           = (web==0) ? true : false; 
-        frontMatter.nighthalt       = (nighthalt==0) ? true : false; 
+        frontMatter.nighthalt       = (nighthalt==1) ? true : false;
+        frontMatter.display         = (display==1) ? true : false; 
         frontMatter.id              = 'city';
         frontMatter.type            = 'city';
         frontMatter.tags            = ['Cities',array[0].replace(/[.]/g, '') ];
@@ -310,19 +314,22 @@ console.log(airportData);
     
     } else if ( request.file == 'distances.csv') {
 
-      // 0=from_city,1=from_state,2=from_cities_id,3=to_city,4=to_state,5=to_cities_id,6=distance,7=time,8=via,9=drive  
+      // 0=from_city,1=from_state,2=country,3=to_city,4=to_state,5=distance,6=time,7=via,8=drive  
 
-      var state     = urlize(array[1]);
-      var city      = urlize(array[0]);
-      var country   = 'india';
-      var mdfile    = dir+'/destinations/'+country;
+      var fromCity      = urlize(array[0]);
+      var fromState     = urlize(array[1]);
+      var fromCountry   = urlize(array[2]);
 
-      if (country == 'india'){ 
-        if (typeof state === "undefined") throw "state for "+city+" is undefined";
-        mdfile += '/states/'+state; 
-      };
-      
-      mdfile += '/cities/'+city+'/_index.md';
+      var mdfile    = dir + '/destinations/' + fromCountry;
+      var toState   = '';
+
+      if (fromCountry == 'india'){ 
+        if (typeof toState === "undefined") throw "state for "+ fromCity+" is undefined";
+        mdfile   += '/states/'+ fromState;
+        toState  += '/states/'+ urlize(array[4]) ; 
+      } 
+
+      mdfile += '/cities/'+fromCity+'/_index.md';
 
       console.log('Processing ',mdfile);
 
@@ -338,20 +345,21 @@ console.log(airportData);
       try {
 
         let contents = fileContents.split("---");
-        let data     = yaml.loadAll(contents[0]);
-
-console.table(data);
+        let data     = yaml.loadAll(contents[1]);
 
         var distanceData        = {};
-        distanceData.url        = '/destinations/'+country+'/'+array[4]+'/'+array[3]+'/';
-        distanceData.distance   = array[6];
-        distanceData.time       = array[7];
-        distanceData.via        = array[8];
-        distanceData.driveable  = array[9];
+        distanceData.url        = '/destinations/'+fromCountry+toState+'/cities/'+urlize(array[3])+'/';
+        distanceData.distance   = Number(array[5]);
+        distanceData.time       = array[6];
+        distanceData.via        = array[7];
+        distanceData.driveable  = (array[8]) ? 1 : 0;
 
         if (typeof data[0].distances === 'undefined'){
           data[0].distances = [];
         };
+        
+        // reset distances to null
+        // data[0].distances = []; 
         data[0].distances.push( distanceData );
 
         let output = `---\n` + yaml.dump(data[0]) + "---\n" + contents[2];
@@ -478,7 +486,7 @@ app.post('/ajax',function (req, res) {
     fs.writeFile(file, output, function(err) {
       if(err) return console.error(err);
       console.log('Successfully wrote to the file!');
-
+/*
       if (fm.region.length > 0){
         const fromFile = file.split('/');
         tourFile       = '/destinations/india/regions/'+fm.region+'/'+ fromFile[fromFile.length-2]; 
@@ -488,7 +496,7 @@ app.post('/ajax',function (req, res) {
           console.log('done');
         });
       };
-
+*/
     });
   } 
   catch (error) {

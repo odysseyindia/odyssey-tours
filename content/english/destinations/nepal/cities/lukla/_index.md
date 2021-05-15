@@ -4,8 +4,10 @@ translationKey: lukla
 defaultDays: 1
 longitude: 86.7317148
 latitude: 27.687038473
+alias: ''
 draft: false
-nighthalt: false
+nighthalt: true
+display: true
 id: city
 type: city
 tags:

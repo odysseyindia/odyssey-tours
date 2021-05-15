@@ -4,8 +4,10 @@ translationKey: abhaneri
 defaultDays: 0
 longitude: 76.606526881
 latitude: 27.007217812
+alias: ''
 draft: false
-nighthalt: true
+nighthalt: false
+display: true
 id: city
 type: city
 tags:

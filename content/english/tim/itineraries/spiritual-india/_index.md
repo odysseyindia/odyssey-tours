@@ -389,7 +389,7 @@ itinerary:
         date: ''
         etd: ''
         duration: ''
-weight: 203
+weight: '203'
 themes:
   - Cultural journeys
 region: Foothills of the Himalayas

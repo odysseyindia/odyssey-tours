@@ -4,8 +4,10 @@ translationKey: ranganathittu
 defaultDays: 0
 longitude: 76.656306282
 latitude: 12.424444111
+alias: ''
 draft: false
-nighthalt: true
+nighthalt: false
+display: true
 id: city
 type: city
 tags:

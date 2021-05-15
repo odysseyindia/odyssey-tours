@@ -4,8 +4,10 @@ translationKey: belur
 defaultDays: 0
 longitude: 75.860405297
 latitude: 13.162856815
+alias: ''
 draft: false
-nighthalt: true
+nighthalt: false
+display: true
 id: city
 type: city
 tags:

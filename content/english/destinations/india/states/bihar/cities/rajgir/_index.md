@@ -4,8 +4,10 @@ translationKey: rajgir
 defaultDays: 0
 longitude: 85.418701
 latitude: 24.926295
+alias: ''
 draft: false
-nighthalt: true
+nighthalt: false
+display: true
 id: city
 type: city
 tags:

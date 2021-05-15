@@ -2,10 +2,12 @@
 title: Aalo
 translationKey: aalo
 defaultDays: 2
-longitude: 28.16
-latitude: 94.801389
-draft: true
-nighthalt: false
+longitude: 94.801389
+latitude: 28.16
+alias: Along
+draft: false
+nighthalt: true
+display: false
 id: city
 type: city
 tags:

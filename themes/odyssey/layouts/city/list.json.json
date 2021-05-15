@@ -1,19 +1,20 @@
 {
   {{- range $i, $e :=  .Parent.Data.Pages }} 
   {{- if eq $e.Params.translationKey $.Params.translationKey}}  
-  "this": "item.json.son",
-  "title": "{{ .Title }}",
-  "date": "{{ .Date }}",
-  "permalink": "{{ .RelPermalink }}",
-  "content": "{{ replace (trim (.Content | plainify ) "\n") "\n" "linebreak" }}",
-  "draft": "{{ .Params.draft }}",
-  "id": "{{ .Params.id }}",
-  "translationKey": "{{ .Params.translationKey }}"
-  {{- range $i,$e := (.Resources.ByType "image") }} 
-  {{- if eq $i 0 }}
-  ,"image": "{{ . }}"
-  {{- end }}
-  {{- end }} 
+  "this":           "list.json.son",
+  "title":          "{{ .Title }}",
+  "date":           "{{ .Date }}",
+  "permalink":      "{{ .RelPermalink }}",
+  "content":        "{{ replace (trim (.Content | plainify ) "\n") "\n" "linebreak" }}",
+  "draft":          "{{ .Params.draft }}",
+  "longitude":      "{{ .Params.longitude }}",
+  "latitude":       "{{ .Params.latitude}}",
+  "defaultDays":    "{{ .Params.defaultDays }}",
+  "nighthalt":      "{{ .Params.nighthalt }}",
+  "display":        "{{ .Params.display }}",
+  "id":             "{{ .Params.id }}",
+  "translationKey": "{{ .Params.translationKey }}",
+  "image":          "{{- range $i,$e := (.Resources.ByType "image") }}{{- if eq $i 0 }}{{ . }}{{- end }}{{- end }}"
   {{- end }}
   {{- end }}
 }

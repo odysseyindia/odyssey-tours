@@ -2,10 +2,12 @@
 title: Tangtse
 translationKey: tangtse
 defaultDays: 1
-longitude: ''
-latitude: ''
-draft: true
-nighthalt: false
+longitude: 78.16727484
+latitude: 34.036269498
+alias: ''
+draft: false
+nighthalt: true
+display: false
 id: city
 type: city
 tags:

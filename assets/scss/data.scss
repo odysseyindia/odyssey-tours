@@ -1,7 +1,40 @@
 #data {
 	
+    #in-progress.spinner {
+    border: 10px solid #f3f3f3; 
+    border-top: 10px solid green;
+    border-radius: 50%;
+    width: 4vw;
+    height: 4vw;
+    animation: spin 2s linear infinite;
+    margin-left: 48vw;
+    display: none;
+    }
+
+    @keyframes spin {
+    	0% { transform: rotate(0deg); }
+    	100% { transform: rotate(360deg); }
+    }
+
+	select, input {
+		line-height: initial;
+	}
+
+	#map, #image {
+		width: 30%;
+	}
 	.data{
 		background-color: lightblue;
+		width: 40%;
+	}
+
+	.mx-auto {
+		text-align: center;
+	}
+	.row {
+		flex-wrap: nowrap;
+		padding-left: 50px;
+		padding-right: 50px;
 	}
 
 

@@ -2,9 +2,12 @@
 title: Champaner
 translationKey: champaner
 defaultDays: 0
-longitude: ''
-latitude: ''
+longitude: 73.532395364
+latitude: 22.48455462
+alias: ''
 draft: false
+nighthalt: false
+display: false
 id: city
 type: city
 tags:

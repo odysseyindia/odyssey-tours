@@ -2,10 +2,12 @@
 title: Tso Kar
 translationKey: tso-kar
 defaultDays: 1
-longitude: ''
-latitude: ''
-draft: true
-nighthalt: false
+longitude: 78.025115719
+latitude: 33.310496196
+alias: ''
+draft: false
+nighthalt: true
+display: false
 id: city
 type: city
 tags:

@@ -1,7 +1,7 @@
 {{ define "response" }}
 {{- $excursions := where .Data.Pages "Type" "excursions" -}}
 {     
-    "file" : "list.excursions.json",
+    "file" : "_default/list.excursions.json",
     "count" : "{{ len $excursions }}",
     "excursions" : [
     {{ range $i, $e := $excursions }}

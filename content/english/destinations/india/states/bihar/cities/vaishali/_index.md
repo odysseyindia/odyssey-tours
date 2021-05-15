@@ -4,8 +4,10 @@ translationKey: vaishali
 defaultDays: 0
 longitude: 85.081216057
 latitude: 26.005495937
+alias: ''
 draft: false
-nighthalt: true
+nighthalt: false
+display: true
 id: city
 type: city
 tags:

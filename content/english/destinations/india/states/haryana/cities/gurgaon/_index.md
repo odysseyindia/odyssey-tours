@@ -2,10 +2,12 @@
 title: Gurgaon
 translationKey: gurgaon
 defaultDays: 1
-longitude: 29.307777778
-latitude: 76.338611111
-draft: true
-nighthalt: false
+longitude: 76.338611111
+latitude: 29.307777778
+alias: ''
+draft: false
+nighthalt: true
+display: false
 id: city
 type: city
 tags:

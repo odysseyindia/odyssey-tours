@@ -4,8 +4,10 @@ translationKey: seti-river
 defaultDays: 1
 longitude: 84.379055497
 latitude: 27.870817661
+alias: ''
 draft: false
-nighthalt: false
+nighthalt: true
+display: true
 id: city
 type: city
 tags:

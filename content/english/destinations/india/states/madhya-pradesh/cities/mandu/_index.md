@@ -4,8 +4,10 @@ translationKey: mandu
 defaultDays: 0
 longitude: 75.418333333
 latitude: 22.339166667
+alias: ''
 draft: false
-nighthalt: true
+nighthalt: false
+display: true
 id: city
 type: city
 tags:

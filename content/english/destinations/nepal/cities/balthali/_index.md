@@ -4,8 +4,10 @@ translationKey: balthali
 defaultDays: 1
 longitude: 85.543241469
 latitude: 27.551845546
+alias: ''
 draft: false
-nighthalt: false
+nighthalt: true
+display: true
 id: city
 type: city
 tags:

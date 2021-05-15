@@ -4,8 +4,10 @@ translationKey: kotnaikana
 defaultDays: 1
 longitude: 79.864672769
 latitude: 29.635710029
+alias: Jhankar Saim
 draft: false
-nighthalt: false
+nighthalt: true
+display: true
 id: city
 type: city
 tags:

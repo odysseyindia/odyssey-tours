@@ -3,107 +3,120 @@
 
 <section id="{{ .Scratch.Get "id" | lower }}"> 
   {{ partial "heading.html" . }}
-  <div class="container">
-    <div class="row">
-      <div class="mx-auto w-50 p-1">
 
-      </div>
-    </div>
+  <div class="row">
+    <div id="image"></div>
     <div class="data">
-
       <div class="table even">
         <div class="item-1">
           <option value="0">Select a city</option>
         </div>
         <div class="item-2">
-          <select name="destination" id="field">
-           {{- range ( where ( where $.Site.Pages "Section" "destinations") ".Params.type" "city" ) }}     
-           <option value="{{ .RelPermalink }}">{{ .Title }}</option>
-           {{- end }}
-         </select> 
-       </div>
-     </div>
-
-    <div class="table">
-      <div class="item-1"><b>Field</b></div>
-      <div class="item-2"><b>Data</b></div>
-    </div>
-    
-    <div class="table even">
-      <div class="item-1">Title </div>
-      <div id="pTitle" contenteditable="true" class="item-2"></div>
-    </div>
-
-    <div class="table odd">
-      <div class="item-1">Default days </div>
-      <div class="item-2">
-        <div class="form-check">
-          <input id="pDefaultDays" class="custom-control-input" type="int" min=0 max=9 step=1 value="{{ with .Params.defaultdays }}{{ . }}{{ else }}0{{ end }}">
+          <select class="maxwidth" id="field" name="cities">
+            <option value="">Select a city</option>
+            {{ range ( sort (where (where .Site.Pages "Section" "destinations") ".Params.id" "city") ".Title" "asc" ) }}
+            {{ $urlArray := split .Permalink "/" }}
+            {{ $path := index $urlArray (sub (len $urlArray) 4) }}
+            <option value="{{ .RelPermalink }}">{{ .Title }} {{ if ne $path "destinations" }}, {{ $path | humanize }}{{ end }}</option>
+            {{ end }}
+          </select>
         </div>
       </div>
-    </div>
 
-    <div class="table even">
-      <div class="item-1">Longitude </div>
-      <div class="item-2">
-        <div class="form-check">
-          <input id="pLongitude" class="custom-control-input" type="number" value="{{ .Params.longitude }}">
+      <div class="table">
+        <div class="item-1"><b>Field</b></div>
+        <div class="item-2"><b>Data</b></div>
+      </div>
+
+      <div class="table even">
+        <div class="item-1">City Name </div>
+        <div id="title" contenteditable="true" class="item-2"></div>
+      </div>
+
+      <div class="table odd">
+        <div class="item-1">Alias</div>
+        <div id="title" contenteditable="true" class="item-2"></div>
+      </div>
+
+      <div class="table even">
+        <div class="item-1">Default days </div>
+        <div class="item-2">
+          <div class="form-check">
+            <input id="defaultDays" class="custom-control-input" required type="number" min=0 max=9 step=1 value="">
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="table odd">
-      <div class="item-1">Latitude</div>
-      <div class="item-2">
-        <div class="form-check">
-          <input id="pLatitude" class="custom-control-input" type="number" value="{{ .Params.latitude }}">
+      <div class="table odd">
+        <div class="item-1">Longitude </div>
+        <div class="item-2">
+          <div class="form-check">
+            <input id="longitude" class="custom-control-input" required type="number" value="">
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="table even">
-      <div class="item-1">Nighthalt</div>
-      <div class="item-2">
-        <div class="form-check">
-          <input id="pNighthalt" class="custom-control-input" type="checkbox" {{ with .Params.nighthalt }}{{ if eq .Params.nighthalt true}}checked {{ end }}{{ end }} value="">
+      <div class="table even">
+        <div class="item-1">Latitude</div>
+        <div class="item-2">
+          <div class="form-check">
+            <input id="latitude" class="custom-control-input" required type="number" value="">
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="table odd">
-      <div class="item-1">Draft</div>
-      <div class="item-2">
-        <div class="form-check">
-          <input id="pDraft" class="custom-control-input" type="checkbox" {{ with .Params.draft }}{{ if eq .Params.draft true}}checked {{ end }}{{ end }} value="">
+      <div class="table odd">
+        <div class="item-1">Nighthalt</div>
+        <div class="item-2">
+          <div class="form-check">
+            <input id="nighthalt" class="custom-control-input" type="checkbox">
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="table even">
-      <div class="item-1">Content</div>
-      <div id="pContent" contenteditable="true" class="item-2">{{ .Content }}</div>
-    </div>
+      <div class="table even">
+        <div class="item-1">Display</div>
+        <div class="item-2">
+          <div class="form-check">
+            <input id="draft" class="custom-control-input" type="checkbox">
+          </div>
+        </div>
+      </div>
 
+      <div class="table even">
+        <div class="item-1">Content</div>
+        <div id="content" contenteditable="true" class="item-2"></div>
+      </div>
+
+    </div>
+    <div id="map"></div>
   </div>
-  <button class="save btn btn-success" id="save">
-    <i class="icon-floppy"></i>
-    Save
-  </button>
-</div>
+
+  <div class="mx-auto w-50">
+    <div id="in-progress" class="spinner" role="status">
+      <span class="sr-only">In progress...</span>
+    </div>
+    <div>
+      <button class="save btn btn-success" id="save">
+        <i class="icon-floppy"></i>
+        Save
+      </button>
+    </div>
+  </div>
+
 </section>
 {{- end }}
 {{- define "postscript" }}
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZ1TWStdIWQYeNDBKpE6SgJSEd4EerEdg&amp;callback=initMap" async="" defer=""></script>
 
 <script>
 
-  var   host   = window.location.href.split("/");
-  var   host   = host[0] + "//" + host[2];
-
+  var host = window.location.href.split("/");
+  host     = host[0] + "//" + host[2];
 
   document.getElementById("field").addEventListener("change", (event) => {
     changeOption();
   });
-
 
   function changeOption(){
     const source = document.querySelector("#field");
@@ -115,68 +128,99 @@
 
   function displayData(urldata){
 
-    //const uri  = urldata.split("/")[(urldata.split("/")).length-2];
-    const path = host+"/destinations/india/states/index.json";
-
-    docLoad({url: path}).then(
+    docLoad({url: host+urldata+"index.json" }).then(
 
       function(response) {
 
-        const parsedData = JSON.parse(response);
-        const data       = parsedData.data.items;
+        const data  = JSON.parse(response);
+        const image = host+urldata+data.image;
 
-        for (var i = 0; i<data.length; i++) { 
-          if (data[i].permalink == urldata){
-            document.getElementById("pTitle").innerText   = data[i].title;
-            document.getElementById("pDefaultdays").value = data[i].defaultdays;
-            document.getElementById("pLatitude").value    = data[i].latitude;
-            document.getElementById("pLongitude").value   = data[i].longitude;
-            document.getElementById("pNighthalt").value   = data[i].nighthalt;
-            document.getElementById("pDraft").value       = data[i].draft;
-            document.getElementById("pContent").innerText = data[i].content;
-          };
+        if (data.image){
+          document.getElementById("image").innerHTML = '<img src="'+image+'" alt="city image">';
+        } else {
+          document.getElementById("image").innerHTML = '';
+        }
+        
+        document.getElementById("defaultDays").value = data.defaultDays;
+        document.getElementById("latitude").value    = parseFloat(data.latitude);
+        document.getElementById("longitude").value   = parseFloat(data.longitude);
+        document.getElementById("nighthalt").checked = (data.nighthalt == 'true')? true : false;
+        document.getElementById("display").checked   = (data.display == 'true')? true : false;
+        document.getElementById("title").innerText   = data.title;
+        document.getElementById("alias").innerText   = data.alias;
+        document.getElementById("content").innerText = data.content;
+        
+        if (data.latitude > 0){
+          initMap(parseFloat(data.latitude), parseFloat(data.longitude));
         };
       }, 
-
       function(Error) {
         console.log(Error);
       }
-    );
+      );
   };
+
+  function initMap(latitude, longitude ) {
+
+    var lat = (latitude  > 0) ? latitude  : 0;
+    var lng = (longitude > 0) ? longitude : 0;
+
+    const target = { lat: lat, lng: lng };
+
+    const map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 7,
+      center: target,
+    });
+
+    const marker = new google.maps.Marker({
+      position: target,
+      map: map,
+    });
+  }
 
   document.getElementById("save").addEventListener("click", function(){
 
-    const source      = document.querySelector("#field")
-    const permalink   = source[source.selectedIndex].value ;
+    const source         = document.querySelector("#field")
+    const permalink      = source[source.selectedIndex].value ;
+    const content        = document.getElementById("content").innerText;
+    
+    var nighthalt    = document.getElementById("nighthalt").checked ;
+    nighthalt = (nighthalt == true) ? true : false;
+    var display = document.getElementById("display").checked ;
+    display     = (display == true) ? true : false;
 
-    var data          = [];
-        data.title    = document.getElementById("pTitle").innerText;
-        data.draft    = document.getElementById("pDraft").value;
-    var content       = document.getElementById("pContent").innerText;
+    var data             = [];
+    data[0]              = {};
+    data[0].title        = document.getElementById("title").innerText;
+    data[0].alias        = document.getElementById("alias").innerText;
+    data[0].display      = display ;
+    data[0].defaultDays  = document.getElementById("defaultDays").value;
+    data[0].latitude     = document.getElementById("latitude").value;
+    data[0].longitude    = document.getElementById("longitude").value;
+    data[0].nighthalt    = nighthalt ;
+    data[1]              = content.replace(/[`]/g, "'");
+
+    let spinner = document.getElementById("in-progress");
+    spinner.style.display  = 'block';
 
     docLoad({
-      url:    'masterdata', 
+      url:    'ajax', 
       method: 'POST',
       data:   JSON.stringify({ 
-        "file"   : {{ .RelPermalink }}, 
+        "file"   : permalink+'_index.md', 
         "data"   : data,
-        "content": content
       }) 
     })
     .then(
-
       function(response){ 
-        console.log( statusText ); 
+        // console.log( statusText ); 
       }, 
-
-      function(Error){ 
-        console.log( Error ); 
-      }
-    );
-});
+      function(Error   ){ console.log( Error ); }
+      );
+  });
 
 
-function docLoad(object) {
+  function docLoad(object) {
 
     return new Promise(function(resolve, reject) {
 

@@ -2,10 +2,12 @@
 title: Tawang
 translationKey: tawang
 defaultDays: 3
-longitude: 27.5883
-latitude: 91.8653
-draft: true
-nighthalt: false
+longitude: 91.8653
+latitude: 27.5883
+alias: ''
+draft: false
+nighthalt: true
+display: false
 id: city
 type: city
 tags:

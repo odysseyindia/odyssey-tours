@@ -4,8 +4,10 @@ translationKey: chinsurah
 defaultDays: 0
 longitude: 88.401920532
 latitude: 22.898313536
+alias: ''
 draft: false
-nighthalt: true
+nighthalt: false
+display: true
 id: city
 type: city
 tags:

@@ -4,8 +4,10 @@ translationKey: aihole
 defaultDays: 0
 longitude: 75.881903138
 latitude: 16.020632557
+alias: ''
 draft: false
-nighthalt: true
+nighthalt: false
+display: true
 id: city
 type: city
 tags:

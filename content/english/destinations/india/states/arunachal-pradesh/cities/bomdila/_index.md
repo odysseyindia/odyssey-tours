@@ -2,10 +2,12 @@
 title: Bomdila
 translationKey: bomdila
 defaultDays: 1
-longitude: 27.264722
-latitude: 92.418889
-draft: true
-nighthalt: false
+longitude: 92.418889
+latitude: 27.264722
+alias: ''
+draft: false
+nighthalt: true
+display: false
 id: city
 type: city
 tags:

@@ -1,10 +1,14 @@
 {
-      "this": "item.json.son",
+      "this": "item.json",
       "title": "{{ .Title }}",
       "date": "{{ .Date }}",
       "permalink": "{{ .RelPermalink }}",
       "content": "{{ replace (trim (.Content | plainify ) "\n") "\n" "linebreak" }}",
       "draft": "{{ .Params.draft }}",
+      "longitude": "{{ .Params.longitude }}",
+      "latitude": "{{ .Params.latitude}}",
+      "defaultDays": "{{ .Params.defaultDays }}",
+      "nighthalt":"{{ .Params.nighthalt }}",
       "id": "{{ .Params.id }}",
       "translationKey": "{{ .Params.translationKey }}",
       "category": {{ with .Params.category }}  "{{ . }}"{{ else }} "" {{ end }}

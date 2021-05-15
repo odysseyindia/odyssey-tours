@@ -4,8 +4,10 @@ translationKey: kapilavastu
 defaultDays: 0
 longitude: 82.948668093
 latitude: 27.434052316
+alias: ''
 draft: false
-nighthalt: true
+nighthalt: false
+display: true
 id: city
 type: city
 tags:

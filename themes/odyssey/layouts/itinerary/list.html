@@ -59,7 +59,7 @@
     </div>
   </div>
 
-  <div id="message" class="spinner" role="status">
+  <div id="in-progress" class="spinner" role="status">
     <span class="sr-only">In progress...</span>
   </div>
 
@@ -75,6 +75,8 @@
 
       {{- $fromDay := 1 }}
       {{- $toDay   := 1 }}
+
+      {{- $fromCity := 0 }}
 
       {{- range $index,$e := .Params.itinerary }}
 
@@ -120,8 +122,10 @@
 
                 {{- $duplicateCities = $duplicateCities | append (slice $url) }}
                 {{- $x = 0 }}
+
                 {{- range $duplicateCities }}
-                {{- if eq $url . }}{{ $x = add $x 1 }}{{end}} 
+                {{- if eq $url . }}{{ $x = add $x 1 }}
+                {{- end }} 
 
                 {{- end -}}
 
@@ -734,7 +738,6 @@
 {{- define "postscript" }}
 
 <script>
-
   $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip();
   });
@@ -742,7 +745,7 @@
   const source = document.querySelector("#cities");
   const city   = source[source.selectedIndex].value ;
   var   host   = window.location.href.split("/");
-  var   host   = host[0] + "//" + host[2];
+        host   = host[0] + "//" + host[2];
 
   var renewables = document.querySelectorAll(".draggable");
 
@@ -1086,8 +1089,9 @@ function saveItinerary(deleteDay){
     };
   };
 
-  let css            = document.getElementById("message");
-  css.style.display  = 'block';
+  let spinner = document.getElementById("in-progress");
+  spinner.style.display  = 'block';
+
   var content        = document.getElementById('intro-content').value;
   var data           = []; 
   data[0]            = {};
@@ -1119,7 +1123,7 @@ function saveItinerary(deleteDay){
 
 function displayCity(urldata){
 
-  const city = urldata.split("/")[(urldata.split("/")).length-2];
+  // const city = urldata.split("/")[(urldata.split("/")).length-2];
 
   docLoad({url: host+urldata+"index.json" }).then(
 

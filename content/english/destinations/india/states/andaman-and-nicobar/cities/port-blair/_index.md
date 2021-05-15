@@ -4,8 +4,10 @@ translationKey: port-blair
 defaultDays: 1
 longitude: 92.728055556
 latitude: 11.637222222
+alias: ''
 draft: false
-nighthalt: false
+nighthalt: true
+display: true
 id: city
 type: city
 tags:

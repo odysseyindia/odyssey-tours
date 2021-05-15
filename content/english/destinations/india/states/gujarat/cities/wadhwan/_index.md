@@ -4,8 +4,10 @@ translationKey: wadhwan
 defaultDays: 0
 longitude: 71.673296438
 latitude: 22.711523922
+alias: ''
 draft: false
-nighthalt: true
+nighthalt: false
+display: true
 id: city
 type: city
 tags:

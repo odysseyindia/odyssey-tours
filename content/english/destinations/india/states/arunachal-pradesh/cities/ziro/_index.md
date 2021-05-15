@@ -2,10 +2,12 @@
 title: Ziro
 translationKey: ziro
 defaultDays: 2
-longitude: 27.5664
-latitude: 93.8314
-draft: true
-nighthalt: false
+longitude: 93.8314
+latitude: 27.5664
+alias: ''
+draft: false
+nighthalt: true
+display: false
 id: city
 type: city
 tags:

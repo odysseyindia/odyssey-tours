@@ -4,8 +4,10 @@ translationKey: manas
 defaultDays: 3
 longitude: 91.001131097
 latitude: 26.659317212
+alias: ''
 draft: false
-nighthalt: false
+nighthalt: true
+display: true
 id: city
 type: city
 tags:

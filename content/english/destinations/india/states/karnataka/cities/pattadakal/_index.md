@@ -4,8 +4,10 @@ translationKey: pattadakal
 defaultDays: 0
 longitude: 75.816300842
 latitude: 15.948787763
+alias: ''
 draft: false
-nighthalt: true
+nighthalt: false
+display: true
 id: city
 type: city
 tags:
