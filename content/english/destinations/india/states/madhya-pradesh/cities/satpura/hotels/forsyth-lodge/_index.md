@@ -8,7 +8,7 @@ address: >-
   Hoshangabad  Sohagpur
 city: Satpura
 postalcode: 461 771
-phone: '-'
+phone: '-,'
 mobile: ''
 email: bookings@forsythlodge.com
 website: https://forsythlodge.com/
@@ -16,6 +16,10 @@ note: ''
 type: hotel
 category:
   - RIK
+  - WEB
+  - H
+  - A
+  - COM
 showHotel: 0
 starCategory: 0
 checkout: ''
@@ -169,5 +173,42 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: https://forsythlodge.com/
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 A lovely naturalist-run lodge, the very eco-friendly Forsyth Safari Lodge consists of comfortable cottages with a generous bathrooms and a large sitout, each with its private view. Forsyth Lodge offers a pool and superb food, mostly locally sourced, as well as interesting activities like bicycle and walking tours in the buffer zone. A highlight is interact with the naturalists, over a glass of mahua by the cosy lounge-bar.

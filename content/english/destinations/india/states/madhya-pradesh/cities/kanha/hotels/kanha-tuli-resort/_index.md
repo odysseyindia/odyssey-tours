@@ -6,7 +6,7 @@ mailto: ''
 address: ''
 city: Kanha
 postalcode: ''
-phone: 1800-2099050
+phone: 1800-2099050,
 mobile: ''
 email: sales@tuligroup.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Rai Travels Pvt Ltd
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

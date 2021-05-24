@@ -6,13 +6,17 @@ mailto: ''
 address: 47-A, The Mall
 city: Amritsar
 postalcode: 143 001
-phone: 183-256 6618, 329 8840
+phone: 183-256 6618, 329 8840,
 mobile: ''
 email: spa@svaasa.com  a.svaasa@gmail.com
 website: www.svaasa.com
 note: ''
 type: hotel
 category:
+  - H
+  - COM
+  - HH
+  - WEB
   - RIK
 showHotel: 0
 starCategory: 4
@@ -24,79 +28,7 @@ advantage: ''
 rooms: 18
 rates:
   - roomType: Luxury Rai Bahadur Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 4800
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 4800
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1800
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Luxury Rai Bahadur Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Svaasa Suite
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 6500
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 6500
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1800
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Luxury Rai Bahadur Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Luxury Rai Bahadur Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -132,7 +64,7 @@ rates:
     notes: 6 Luxury Rooms, 6 Ratnavali Suites, 6 Svaasa Suites
     agentCommission: 0
   - roomType: Svaasa Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -168,7 +100,7 @@ rates:
     notes: 6 Luxury Rooms, 6 Ratnavali Suites, 6 Svaasa Suites
     agentCommission: 0
   - roomType: Luxury Rai Bahadur Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -204,7 +136,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Svaasa Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -240,7 +172,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Ratnavali Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -276,7 +208,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Luxury Rai Bahadur Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -314,7 +246,7 @@ rates:
       Suites
     agentCommission: 0
   - roomType: Svaasa Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -352,7 +284,7 @@ rates:
       Suites
     agentCommission: 0
   - roomType: Ratnavali Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -390,7 +322,7 @@ rates:
       Suites
     agentCommission: 0
   - roomType: Luxury Rai Bahadur Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -428,7 +360,7 @@ rates:
       Suites
     agentCommission: 0
   - roomType: Svaasa Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -466,7 +398,7 @@ rates:
       Suites
     agentCommission: 0
   - roomType: Ratnavali Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -503,5 +435,42 @@ rates:
       rates copied from 2019-2020  6 Luxury Rooms, 6 Ratnavali Suites, 6 Svaasa
       Suites
     agentCommission: 0
+bookThrough: ''
+gstType: 1
+gstin: 03AAACG8236H1ZU
+www: www.svaasa.com
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This lovely heritage spa resort is located in the heart of Amritsar. The large lawns and ancient trees create a peaceful, idyllic space. The property is furnished with antiques and knick-knacks, and there are many delightful lounges, terraces, and places to relax. Each room is individually decorated, and most have an inviting patio or balcony overlooking the gardens. There is an inviting in-house spa as well.

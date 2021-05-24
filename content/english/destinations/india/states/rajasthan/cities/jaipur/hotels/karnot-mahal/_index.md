@@ -6,7 +6,7 @@ mailto: ''
 address: Ramganj Choupar
 city: Jaipur
 postalcode: 302 003
-phone: 141-322 5741
+phone: 141-322 5741,
 mobile: ''
 email: karnotmahal@rediffmail.com
 website: karnotmahal.com
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: karnotmahal.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

@@ -6,7 +6,7 @@ mailto: ''
 address: 'P.O. Gangkha, Martam  Via Singtam    '
 city: Martam
 postalcode: 737 134
-phone: '-'
+phone: '-,97337 95244, 75508 01542, 78729 96624'
 mobile: 97337 95244, 75508 01542, 78729 96624
 email: martamretreat@gmail.com
 website: http://www.martamretreat.com/
@@ -24,7 +24,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Super Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,7 +60,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -96,7 +96,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -132,79 +132,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 4000
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 4000
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1200
-    extraBedPT: 0
-    wef: '2020-09-20T00:00:00'
-    wet: '2020-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Standard Room
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Standard Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 4000
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 4000
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1200
-    extraBedPT: 0
-    wef: '2020-10-01T00:00:00'
-    wet: '2021-01-04T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Standard Room
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -240,7 +168,79 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 4000
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 4000
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 1200
+    extraBedPT: 0
+    wef: '2020-09-20T00:00:00'
+    wet: '2020-09-30T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Standard Room
+    defaultAc: 0
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Standard Room
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 4000
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 4000
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 1200
+    extraBedPT: 0
+    wef: '2020-10-01T00:00:00'
+    wet: '2021-01-04T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Standard Room
+    defaultAc: 0
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Standard Room
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -275,4 +275,17 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: Netuk House
+gstType: 0
+gstin: ''
+www: http://www.martamretreat.com/
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

@@ -6,13 +6,15 @@ mailto: ''
 address: 'U.C.C. Road, Umniuh Khwan  Ri Bhoi District   '
 city: Shillong
 postalcode: 793 122
-phone: 364-257 0450-51 & 54
+phone: 364-257 0450-51 & 54,9862420300/301
 mobile: 9862420300/301
 email: bookings@rikynjai.com
 website: www.rikynjai.com
 note: ''
 type: hotel
 category:
+  - H
+  - SH
   - WEB
 showHotel: 0
 starCategory: 4
@@ -239,5 +241,30 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.rikynjai.com
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Ri Kynjai, a spectacular resort overlooking the picturesque Umiam Lake outside Shillong, translates from Khasi as 'land of serene environs'. The architecture is inspired by Khasi thatch huts, which make a symbolic presence as a cap on the roof of the cottages. No expense has been spared in creating this luxurious and authentic resort, making this the most desirable place to stay in the entire North East of India.

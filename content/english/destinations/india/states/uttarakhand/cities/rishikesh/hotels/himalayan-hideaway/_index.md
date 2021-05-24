@@ -6,14 +6,15 @@ mailto: ''
 address: Village Kalthari  P.O. Shivpuri  Tehri Gharwal
 city: Rishikesh
 postalcode: ''
-phone: 1378-261 625, 261 637
+phone: 1378-261 625, 261 637,
 mobile: ''
 email: info@himalayanhideaway.in
 website: www.hhindia.com
 note: ''
-ranking: '3'
+ranking: 3
 type: hotel
 category:
+  - H
   - COM
 showHotel: 0
 starCategory: 0
@@ -25,7 +26,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Hideaway Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,5 +61,23 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: Himalayan Hideaway Pvt Ltd
+gstType: 0
+gstin: ''
+www: www.hhindia.com
+web: 0
+mailTo: ''
 ---
+
+
+
+
+
+
+
+
+
+
+
+
 Himalayan Hideaway is tucked away in a bend of the road that leads away from the busy town of Rishikesh. This small hotel consists of stone cottages, designed to offer space and privacy. Each room has a sit-out with views of the river or forest, and there is a lovely, peaceful atmosphere, overlaid with the sound of the river rushing below, a great spot for birding and drinking in the views.

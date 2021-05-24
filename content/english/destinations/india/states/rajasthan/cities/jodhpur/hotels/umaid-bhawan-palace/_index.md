@@ -6,7 +6,7 @@ mailto: ''
 address: ' '
 city: Jodhpur
 postalcode: 342 006
-phone: 291-2510101
+phone: 291-2510101,
 mobile: ''
 email: ''
 website: >-
@@ -14,6 +14,8 @@ website: >-
 note: ''
 type: hotel
 category:
+  - H
+  - TL
   - WEB
 showHotel: 1
 starCategory: 5
@@ -600,5 +602,31 @@ rates:
     specialPeriod: 0
     notes: '24/12: 8500 pp + taxes  31/12: 34500 pp + taxes'
     agentCommission: 0
+ranking: 1
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: >-
+  http://www.tajhotels.com/Luxury/Grand-Palaces-And-Iconic-Hotels/Umaid-Bhawan-Palace-Jodhpur
+web: 1
+mailTo: ''
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 A splendid example of the Indo-colonial and art-deco style of the 1930s. It took 25 years and 3,000 men to build this, the largest and grandest private residence in the world. It is now a fabulous luxury hotel with 98 air-conditioned rooms and suites, a swimming pool, health club and facilities for tennis, billiards, horse riding and golf. It has a special multi-cuisine restaurant and trophy bar.

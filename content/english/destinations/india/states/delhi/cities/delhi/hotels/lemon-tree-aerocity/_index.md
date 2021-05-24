@@ -6,7 +6,7 @@ mailto: ''
 address: 'Asset No. 6   IGI Airport Aerocity Hospitality District  '
 city: Delhi
 postalcode: 110 037
-phone: 11-4423 2323
+phone: 11-4423 2323,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Kaustubh Holidays Tours & Travels Pvt Ltd
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

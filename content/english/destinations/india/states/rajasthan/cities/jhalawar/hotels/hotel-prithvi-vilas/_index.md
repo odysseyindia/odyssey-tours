@@ -6,14 +6,15 @@ mailto: ''
 address: Harishchandra Civil Lines  Gayatri Nagar
 city: Jhalawar
 postalcode: '326001'
-phone: '-'
+phone: '-,80480 47502, 80427 52666'
 mobile: 80480 47502, 80427 52666
 email: jhalawar1@yahoo.com
 website: http://www.prithvivilaspalace.net/
 note: ''
-ranking: '1'
+ranking: 1
 type: hotel
 category:
+  - H
   - COM
 showHotel: 0
 starCategory: 0
@@ -172,5 +173,23 @@ rates:
       rates copied from 2019-2020  The tariff may change during the fairs &
       festivals time.
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://www.prithvivilaspalace.net/
+web: 0
+mailTo: ''
 ---
+
+
+
+
+
+
+
+
+
+
+
+
 Over 130 years old, the Prithvi Vilas Hotel is a former hunting lodge that still retains its authentic grandeur. Now the Maharaja's summer residence, it has been converted into a wonderful heritage hotel. The interiors are strewn with chandeliers and sepia photos, the rooms have been modernised, but still offer rustic charm, and the palace grounds are charmingly overgrown, with peacocks strolling about.

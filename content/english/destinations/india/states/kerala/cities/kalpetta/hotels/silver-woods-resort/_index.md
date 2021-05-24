@@ -6,7 +6,7 @@ mailto: ''
 address: 'Manjoora PO, Pozhuthana (Via)  Padinjarethara  '
 city: Kalpetta
 postalcode: ''
-phone: '-'
+phone: '-,'
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Wayanad Silver Woods
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

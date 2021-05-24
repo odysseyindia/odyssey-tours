@@ -6,7 +6,7 @@ mailto: ''
 address: 1/341, Next to St. Francis Church  Rose Street  Fort Cochin
 city: Kochi
 postalcode: 682 001
-phone: 484-2215050
+phone: 484-2215050,
 mobile: ''
 email: hotelarches@gmail.com
 website: ''
@@ -95,4 +95,17 @@ rates:
     specialPeriod: 0
     notes: Just for booking purpose
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

@@ -6,7 +6,7 @@ mailto: ''
 address: Bivab's Nature Abode  Acharya Colony
 city: Baliguda
 postalcode: 762 103
-phone: '-'
+phone: '-,93373 49517'
 mobile: 93373 49517
 email: ''
 website: ''
@@ -24,7 +24,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: Room only
     currency: INR
     currencyPT: INR
@@ -59,4 +59,17 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 5
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

@@ -6,13 +6,17 @@ mailto: ''
 address: Darbar Ki Kothi  District Bhilwara
 city: Shahpura
 postalcode: 311 404
-phone: 982-812 2012, 812 2013
+phone: 982-812 2012, 812 2013,9587004999
 mobile: '9587004999'
 email: res@shahpurabagh.com  bkg@shahpurabagh.com
 website: www.shahpurabagh.com
 note: ''
 type: hotel
 category:
+  - H
+  - HH
+  - SH
+  - WEB
   - RIK
 showHotel: 0
 starCategory: 0
@@ -24,79 +28,7 @@ advantage: ''
 rooms: 10
 rates:
   - roomType: Royal Suite
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 14280
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 14280
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 5500
-    extraBedPT: 0
-    wef: '2019-05-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Suite
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Suite
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 13440
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 13440
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 5500
-    extraBedPT: 0
-    wef: '2019-05-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Suite
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Royal Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -132,7 +64,7 @@ rates:
     notes: 'Christmas & New Year Dinner: Rs 3500/- + tax per person'
     agentCommission: 0
   - roomType: Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -168,7 +100,7 @@ rates:
     notes: 'Christmas & New Year Dinner: Rs 3500/- + tax per person'
     agentCommission: 0
   - roomType: Royal Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -204,7 +136,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -240,7 +172,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Luxury Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -278,7 +210,7 @@ rates:
       INR 5000/- + Tax per pax
     agentCommission: 0
   - roomType: Royal Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -316,7 +248,7 @@ rates:
       INR 5000/- + Tax per pax
     agentCommission: 0
   - roomType: Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -354,7 +286,7 @@ rates:
       INR 5000/- + Tax per pax
     agentCommission: 0
   - roomType: Luxury Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -390,7 +322,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -426,7 +358,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Royal Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -461,5 +393,42 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 1
+gstin: 08AAKCS2120C1ZT
+www: www.shahpurabagh.com
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Located in an orchard of rare beauty, and run by exceptionally amiable hosts, Shahpura Bagh is a real treat. This was the summer residence of the rulers of Shahpura and is now a fine heritage hotel with beautifully furnished rooms. The owners organise excursions to a nearby fort and to their eco-farm. Most guests, though, find it difficult to leave the delightful swimming pool! An ideal spot for relaxation and light activity.

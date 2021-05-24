@@ -6,7 +6,7 @@ mailto: ''
 address: 1/658 Ridsdale Road  Parade Ground  Fort Cochin
 city: Kochi
 postalcode: 682 001
-phone: '-'
+phone: '-,'
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: The Malabar House
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

@@ -6,7 +6,7 @@ mailto: ''
 address: Opp. Western Group of Temples,  Near Tourist Office
 city: Khajuraho
 postalcode: 471 606
-phone: 7686-274627
+phone: 7686-274627,
 mobile: ''
 email: hotelsiddharth@rediffmail.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

@@ -6,7 +6,7 @@ mailto: ''
 address: ''
 city: Hodka
 postalcode: ''
-phone: '-'
+phone: '-,'
 mobile: ''
 email: ''
 website: ''
@@ -95,4 +95,17 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: North West Safaries
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

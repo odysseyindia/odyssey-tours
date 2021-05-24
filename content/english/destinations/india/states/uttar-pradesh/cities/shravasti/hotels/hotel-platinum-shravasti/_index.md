@@ -6,13 +6,15 @@ mailto: ''
 address: Gata No. 155/156, Chakar Bhandar
 city: Shravasti
 postalcode: 271 805
-phone: 63889-52363
+phone: 63889-52363,
 mobile: ''
 email: hph@hatplatinumhotels.com  gm@hatplatinumhotels.com
 website: https://hatplatinumhotels.com/
 note: ''
 type: hotel
 category:
+  - H
+  - ST
   - WEB
 showHotel: 0
 starCategory: 0
@@ -95,5 +97,30 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: https://hatplatinumhotels.com/
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 A new hotel in Shravasti, providing spacious air-conditioned rooms, a restaurant and a separate meditation space. It is located very close to all the Buddhist sites in Shravasti.

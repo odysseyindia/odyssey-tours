@@ -6,7 +6,7 @@ mailto: ''
 address: 'Near Pink Palace  Court Lane  '
 city: Chamba
 postalcode: 176 310
-phone: 1899-225577, 225677, 225177
+phone: 1899-225577, 225677, 225177,
 mobile: ''
 email: >-
   hotelaromapalacehp@gmail.com  hotelaromapalacehp@yahoo.com 
@@ -24,4 +24,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.hotelaromapalacechamba.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

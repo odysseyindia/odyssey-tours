@@ -6,13 +6,16 @@ mailto: ''
 address: 'Leopard Safari Road  Next to Liloda Temple  Kothar Village        '
 city: Bera
 postalcode: 306 126
-phone: '-'
+phone: '-,94133 12133'
 mobile: 94133 12133
 email: berasafari@gmail.com
 website: https://www.berasafarilodge.com/
 note: ''
 type: hotel
 category:
+  - H
+  - COM
+  - A
   - WEB
 showHotel: 0
 starCategory: 0
@@ -59,5 +62,36 @@ rates:
     specialPeriod: 0
     notes: 'Cost includes accommodation, all three meals, 2 safaris am/pm & 18% GST '
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: https://www.berasafarilodge.com/
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Run by a conservationist who saved the area from being given over to mining, Bera Safari Lodge is a collection of comfortable low-rise cottages, made from the handsome local stone. The lodge's main focus is leopards, which you can look for on jeep safaris into the Jawai Leopard Conservation Area, but you can also visit the Rabari shepherd villages, the Jawai dam (excellent for birding), and wander around on bicycles or on foot.

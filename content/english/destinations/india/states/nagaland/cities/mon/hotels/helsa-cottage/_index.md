@@ -6,7 +6,7 @@ mailto: ''
 address: ''
 city: Mon
 postalcode: ''
-phone: '-'
+phone: '-,'
 mobile: ''
 email: ''
 website: ''
@@ -22,5 +22,18 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Wild Grass
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 Helsa Cottage is a small and basic hotel in a modern building in the centre of town. There are 6 simple en-suite rooms, with cold running water and hot water by buckets. The rooms are dull and plain, and there is nowhere else to sit, except for an unattractive dining area downstairs. 

@@ -6,7 +6,7 @@ mailto: ''
 address: Opp. Pavithira Vana  K.M. Road  Jyothi Nagar
 city: Chikmagalur
 postalcode: 577 102
-phone: 8262-660660
+phone: 8262-660660,
 mobile: ''
 email: gateway.chikmagalur@tajhotels.com
 website: http://www.thegatewayhotels.com/kmroadchikmagalur/overview.aspx
@@ -16,337 +16,13 @@ category:
   - H
 showHotel: 1
 starCategory: 4
-checkout: '12:00:00'
+checkout: 12.00 Noon
 accessRail: 30 kms. from Railway Station
 accessAir: 250 kms. from Airport
 accessBus: 6 kms. from Bus Stand
 advantage: 30 minutes from Belur Temple - 22 kms.
 rooms: 29
 rates:
-  - roomType: Standard Garden View Room
-    mealPlan: Room only
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 8300
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 8300
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 0
-    extraBedPT: 0
-    wef: '2019-02-01T00:00:00'
-    wet: '2019-02-28T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Standard Garden View Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Superior Room
-    mealPlan: Room only
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 8800
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 8800
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 0
-    extraBedPT: 0
-    wef: '2019-02-01T00:00:00'
-    wet: '2019-02-28T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Standard Garden View Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Cottage
-    mealPlan: Room only
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 9500
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 9500
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 0
-    extraBedPT: 0
-    wef: '2019-02-01T00:00:00'
-    wet: '2019-02-28T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Standard Garden View Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Standard Garden View Room
-    mealPlan: Room only
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 7450
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 7450
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 0
-    extraBedPT: 0
-    wef: '2019-03-01T00:00:00'
-    wet: '2019-04-15T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Standard Garden View Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Superior Room
-    mealPlan: Room only
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 7950
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 7950
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 0
-    extraBedPT: 0
-    wef: '2019-03-01T00:00:00'
-    wet: '2019-04-15T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Standard Garden View Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Cottage
-    mealPlan: Room only
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 8650
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 8650
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 0
-    extraBedPT: 0
-    wef: '2019-03-01T00:00:00'
-    wet: '2019-04-15T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Standard Garden View Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Standard Garden View Room
-    mealPlan: Room only
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 8000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 8000
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 0
-    extraBedPT: 0
-    wef: '2019-04-16T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Standard Garden View Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Superior Room
-    mealPlan: Room only
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 8550
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 8550
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 0
-    extraBedPT: 0
-    wef: '2019-04-16T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Standard Garden View Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Cottage
-    mealPlan: Room only
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 9300
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 9300
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 0
-    extraBedPT: 0
-    wef: '2019-04-16T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Standard Garden View Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
   - roomType: Standard Garden View Room
     mealPlan: Room only
     mealPlanPT: ''
@@ -1427,5 +1103,18 @@ rates:
     specialPeriod: 0
     notes: '24/12 Dinner: Rs 3500 pp + taxes'
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://www.thegatewayhotels.com/kmroadchikmagalur/overview.aspx
+web: 1
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 The Taj Gateway Hotel is a lovely resort located among the rolling green hills of Chikmagalur. There are  comfortable air-conditioned rooms in well appointed cottages, furnished to give a period charm. The hotel has a multi-cuisine restaurant and a bar. The surrounding plantations offer some excellent trails for walking and relaxation.

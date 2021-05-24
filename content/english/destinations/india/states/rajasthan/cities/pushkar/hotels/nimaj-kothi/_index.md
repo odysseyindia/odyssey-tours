@@ -6,7 +6,7 @@ mailto: ''
 address: Bagolai-Banseli Road  Devnagar
 city: Pushkar
 postalcode: ''
-phone: '-'
+phone: '-,'
 mobile: ''
 email: info@nimajkothi.com
 website: www.nimajkothi.com
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Nimaj Kothi - Reservations Office
+gstType: 0
+gstin: ''
+www: www.nimajkothi.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

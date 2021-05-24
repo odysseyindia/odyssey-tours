@@ -6,7 +6,7 @@ mailto: ''
 address: 'Western Temple Road  '
 city: Khajuraho
 postalcode: 471 606
-phone: '-'
+phone: '-,'
 mobile: ''
 email: ''
 website: ''
@@ -24,7 +24,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -59,4 +59,17 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 5
+bookThrough: Colleague Tours Pvt. Ltd.
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

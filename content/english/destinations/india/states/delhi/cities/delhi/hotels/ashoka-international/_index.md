@@ -6,7 +6,7 @@ mailto: ''
 address: 3382, D.B. Gupta Road  (near Karol Bagh Police Station)  Karol Bagh
 city: New Delhi
 postalcode: 110 005
-phone: 11-25872 7023-25
+phone: 11-25872 7023-25,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

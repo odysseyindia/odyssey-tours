@@ -6,13 +6,15 @@ mailto: ''
 address: Neeleshwar , Malabar,   Northern Kerala
 city: Neeleshwar
 postalcode: ''
-phone: 467-2287510
+phone: 467-2287510,
 mobile: ''
 email: reservations@neeleshwarhermitage.com
 website: www.neeleshwarhermitage.com
 note: ''
 type: hotel
 category:
+  - H
+  - SH
   - WEB
 showHotel: 0
 starCategory: 0
@@ -24,7 +26,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Plunge Pool Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,7 +62,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Sea View Cottages
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -96,7 +98,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Garden View Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -132,7 +134,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Pool View Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -168,7 +170,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Plunge Pool Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -207,7 +209,7 @@ rates:
       person + taxes (a la carte)  
     agentCommission: 0
   - roomType: Sea View Cottages
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -246,7 +248,7 @@ rates:
       person + taxes (a la carte)  
     agentCommission: 0
   - roomType: Garden View Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -285,7 +287,7 @@ rates:
       person + taxes (a la carte)  
     agentCommission: 0
   - roomType: Pool View Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -324,7 +326,7 @@ rates:
       person + taxes (a la carte)  
     agentCommission: 0
   - roomType: Plunge Pool Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -360,7 +362,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Sea View Cottages
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -396,7 +398,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Garden View Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -432,7 +434,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Pool View Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -468,7 +470,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Plunge Pool Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -504,7 +506,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Sea View Cottages
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -540,7 +542,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Garden View Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -576,7 +578,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Pool View Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -612,7 +614,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Plunge Pool Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -648,7 +650,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Sea View Cottages
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -684,7 +686,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Garden View Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -720,7 +722,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Pool View Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -756,7 +758,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Plunge Pool Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -792,7 +794,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Sea View Cottages
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -828,7 +830,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Garden View Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -864,7 +866,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Pool View Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -900,7 +902,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Plunge Pool Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -936,7 +938,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Sea View Cottages
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -972,7 +974,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Garden View Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1008,7 +1010,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Pool View Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1044,7 +1046,151 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Plunge Pool Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 15934
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 16758
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 0
+    wef: '2020-10-01T00:00:00'
+    wet: '2020-10-15T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Garden View Cottage
+    defaultAc: 1
+    specialPeriod: 0
+    notes: No extra bed in rooms
+    agentCommission: 0
+  - roomType: Sea View Cottages
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 11840
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 12751
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 0
+    wef: '2020-10-01T00:00:00'
+    wet: '2020-10-15T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Garden View Cottage
+    defaultAc: 1
+    specialPeriod: 0
+    notes: No extra bed in rooms
+    agentCommission: 0
+  - roomType: Garden View Cottage
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 9446
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 11088
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 0
+    wef: '2020-10-01T00:00:00'
+    wet: '2020-10-15T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Garden View Cottage
+    defaultAc: 1
+    specialPeriod: 0
+    notes: No extra bed in rooms
+    agentCommission: 0
+  - roomType: Pool View Cottage
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 7056
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 8518
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 0
+    wef: '2020-10-01T00:00:00'
+    wet: '2020-10-15T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Garden View Cottage
+    defaultAc: 1
+    specialPeriod: 0
+    notes: No extra bed in rooms
+    agentCommission: 0
+  - roomType: Plunge Pool Cottage
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1080,7 +1226,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Sea View Cottages
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1116,7 +1262,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Garden View Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1152,7 +1298,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Pool View Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1188,7 +1334,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Plunge Pool Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1224,7 +1370,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Sea View Cottages
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1260,7 +1406,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Garden View Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1296,7 +1442,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Pool View Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1332,7 +1478,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Plunge Pool Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1368,7 +1514,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Sea View Cottages
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1404,7 +1550,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Garden View Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1440,7 +1586,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Pool View Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1476,7 +1622,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Plunge Pool Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1512,7 +1658,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Sea View Cottages
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1548,7 +1694,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Garden View Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1584,7 +1730,7 @@ rates:
     notes: No extra bed in rooms
     agentCommission: 0
   - roomType: Pool View Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1619,149 +1765,30 @@ rates:
     specialPeriod: 0
     notes: No extra bed in rooms
     agentCommission: 0
-  - roomType: Plunge Pool Cottage
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 15934
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 16758
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 0
-    extraBedPT: 0
-    wef: '2020-10-01T00:00:00'
-    wet: '2020-10-15T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Garden View Cottage
-    defaultAc: 1
-    specialPeriod: 0
-    notes: No extra bed in rooms
-    agentCommission: 0
-  - roomType: Sea View Cottages
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 11840
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 12751
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 0
-    extraBedPT: 0
-    wef: '2020-10-01T00:00:00'
-    wet: '2020-10-15T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Garden View Cottage
-    defaultAc: 1
-    specialPeriod: 0
-    notes: No extra bed in rooms
-    agentCommission: 0
-  - roomType: Garden View Cottage
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 9446
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 11088
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 0
-    extraBedPT: 0
-    wef: '2020-10-01T00:00:00'
-    wet: '2020-10-15T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Garden View Cottage
-    defaultAc: 1
-    specialPeriod: 0
-    notes: No extra bed in rooms
-    agentCommission: 0
-  - roomType: Pool View Cottage
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 7056
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 8518
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 0
-    extraBedPT: 0
-    wef: '2020-10-01T00:00:00'
-    wet: '2020-10-15T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Garden View Cottage
-    defaultAc: 1
-    specialPeriod: 0
-    notes: No extra bed in rooms
-    agentCommission: 0
+bookThrough: Neeleshwar Booking Office - AB Chapri Retreats
+gstType: 0
+gstin: ''
+www: www.neeleshwarhermitage.com
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Neeleshwar Hermitage was the first luxury resort to open in the unspoiled, crowd-free coast of northern Kerala. It has a superb natural location, on an empty beach of soft white sand, flanked by a freshwater lagoon and surrounded by coconut and mango groves. Eagles, kingfishers and herons glide above the thatched cottages that house spacious, luxurious bedrooms, built using sustainable wood.

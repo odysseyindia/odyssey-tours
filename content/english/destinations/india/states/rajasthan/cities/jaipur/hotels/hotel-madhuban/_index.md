@@ -6,13 +6,16 @@ mailto: ''
 address: D-237, Behari Marg  Bani Park
 city: Jaipur
 postalcode: 302 016
-phone: 141-220 0033, 220 5427, 220 0183
+phone: 141-220 0033, 220 5427, 220 0183,
 mobile: ''
 email: madhuban@usa.net
 website: www.madhuban.net
 note: ''
 type: hotel
 category:
+  - H
+  - HH
+  - ST
   - RIK
 showHotel: 0
 starCategory: 0
@@ -24,7 +27,7 @@ advantage: ''
 rooms: 23
 rates:
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,7 +63,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Super Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -96,7 +99,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -132,7 +135,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Royal Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -168,7 +171,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -204,7 +207,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Super Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -240,7 +243,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -276,7 +279,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Royal Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -311,5 +314,36 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: ''
+gstType: 1
+gstin: 08AFEPS6679G1ZU
+www: www.madhuban.net
+web: 0
+mailTo: ''
+ranking: 2
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 A well-run royal family home. Mr Digvijay Singh and his wife Kavita have a keen eye for detail that has won them many repeat guests over the years. Located in a quiet residential area, Madhuban embodies the charm of old. The common areas and the rooms are all decorated with a classic ambience and period furniture. There is a small swimming pool, and a peaceful garden.

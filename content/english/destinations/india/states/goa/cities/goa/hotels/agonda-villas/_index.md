@@ -6,7 +6,7 @@ mailto: ''
 address: Agonda Beach Road  Dhawalkhazan  Agonda
 city: Goa
 postalcode: 403 702
-phone: '-'
+phone: '-,95270 65199'
 mobile: 95270 65199
 email: info@agondavillas.com
 website: ''
@@ -259,4 +259,17 @@ rates:
       on Agonda beach. Each with a stunning open-air bathroom. The Grand
       cottages have a cold-water Jacuzzi on the front terrace.    
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

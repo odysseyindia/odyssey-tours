@@ -6,14 +6,16 @@ mailto: ''
 address: Lower Sichey
 city: Gangtok
 postalcode: 737 101
-phone: 3592-205 197, 203 196
+phone: 3592-205 197, 203 196,
 mobile: ''
 email: 'kesang27@gmail.com  '
 website: www.hiddenforestretreat.org
 note: ''
-ranking: '1'
+ranking: 1
 type: hotel
 category:
+  - H
+  - RIK
   - ST
 showHotel: 0
 starCategory: 1
@@ -25,7 +27,7 @@ advantage: ''
 rooms: 12
 rates:
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -64,7 +66,7 @@ rates:
       rent  and accordingly GST is calculated as per the tariff slab applicable.
     agentCommission: 0
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -104,7 +106,7 @@ rates:
       per the tariff slab applicable.
     agentCommission: 0
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -142,5 +144,29 @@ rates:
       children and the cost is Rs500 per night which gets added to the room
       rent  and accordingly GST is calculated as per the tariff slab applicable.
     agentCommission: 0
+bookThrough: ''
+gstType: 1
+gstin: 11AHTPL1328A1ZV
+www: www.hiddenforestretreat.org
+web: 0
+mailTo: ''
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This small family-run hotel is set amongst three acres of lush green garden planted with many trees, bamboos, ferns, flowers, shrubs, lilies and orchids, which attract a variety of birds and butterflies. There are spectacular views over Gangtok and the surrounding valleys. In the middle of this quiet retreat is a building that offers clean accommodation, with the friendliness of a family-run property.

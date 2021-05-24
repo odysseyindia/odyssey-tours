@@ -6,7 +6,7 @@ mailto: ''
 address: Near Circuit House
 city: Jodhpur
 postalcode: 342 006
-phone: 291-251 3333, 251 0410, 251 1410, 2510610, 2510766
+phone: 291-251 3333, 251 0410, 251 1410, 2510610, 2510766,
 mobile: ''
 email: >-
   reservations@ajitbhawan.com  reservations1@ajitbhawan.com 
@@ -16,6 +16,10 @@ website: www.ajitbhawan.com
 note: ''
 type: hotel
 category:
+  - H
+  - HH
+  - COM
+  - WEB
   - RIK
 showHotel: 1
 starCategory: 5
@@ -27,187 +31,7 @@ advantage: ''
 rooms: 81
 rates:
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 5900
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 5900
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1770
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Ajit Suite
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 12799
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 12799
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1770
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Luxury Tent
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 5900
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 5900
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1770
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Vintage Suite
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 8849
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 8849
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1770
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Luxury Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 7080
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 7080
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1770
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -243,7 +67,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Ajit Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -279,7 +103,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Luxury Tent
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -315,7 +139,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Vintage Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -351,7 +175,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Luxury Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -387,187 +211,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 8849
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 10240
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3530
-    extraBedPT: 0
-    wef: '2020-01-06T00:00:00'
-    wet: '2020-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Ajit Suite
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 23680
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 23680
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3530
-    extraBedPT: 0
-    wef: '2020-01-06T00:00:00'
-    wet: '2020-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Luxury Tent
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 8849
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 10240
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3530
-    extraBedPT: 0
-    wef: '2020-01-06T00:00:00'
-    wet: '2020-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Vintage Suite
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 18560
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 18560
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3530
-    extraBedPT: 0
-    wef: '2020-01-06T00:00:00'
-    wet: '2020-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Luxury Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 14500
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 15000
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3530
-    extraBedPT: 0
-    wef: '2020-01-06T00:00:00'
-    wet: '2020-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -606,7 +250,7 @@ rates:
       will be INR 8500 + 27.50% Tax per person.
     agentCommission: 0
   - roomType: Ajit Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -645,7 +289,7 @@ rates:
       will be INR 8500 + 27.50% Tax per person.
     agentCommission: 0
   - roomType: Luxury Tent
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -684,7 +328,7 @@ rates:
       will be INR 8500 + 27.50% Tax per person.
     agentCommission: 0
   - roomType: Vintage Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -723,7 +367,7 @@ rates:
       will be INR 8500 + 27.50% Tax per person.
     agentCommission: 0
   - roomType: Luxury Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -762,7 +406,7 @@ rates:
       will be INR 8500 + 27.50% Tax per person.
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -798,7 +442,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Ajit Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -834,7 +478,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Luxury Tent
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -870,7 +514,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Vintage Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -906,7 +550,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Luxury Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -942,7 +586,187 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 8849
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 10240
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3530
+    extraBedPT: 0
+    wef: '2020-01-06T00:00:00'
+    wet: '2020-03-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Deluxe Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Ajit Suite
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 23680
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 23680
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3530
+    extraBedPT: 0
+    wef: '2020-01-06T00:00:00'
+    wet: '2020-03-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Deluxe Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Luxury Tent
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 8849
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 10240
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3530
+    extraBedPT: 0
+    wef: '2020-01-06T00:00:00'
+    wet: '2020-03-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Deluxe Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Vintage Suite
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 18560
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 18560
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3530
+    extraBedPT: 0
+    wef: '2020-01-06T00:00:00'
+    wet: '2020-03-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Deluxe Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Luxury Room
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 14500
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 15000
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3530
+    extraBedPT: 0
+    wef: '2020-01-06T00:00:00'
+    wet: '2020-03-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Deluxe Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Deluxe Room
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -978,7 +802,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Ajit Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1014,7 +838,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Luxury Tent
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1050,7 +874,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Vintage Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1086,7 +910,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Luxury Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1122,7 +946,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1158,7 +982,7 @@ rates:
     notes: 'Compulsory Christmas Dinner (24 Dec): Rs 6,000 +27.50% taxes'
     agentCommission: 0
   - roomType: Ajit Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1194,7 +1018,7 @@ rates:
     notes: 'Compulsory Christmas Dinner (24 Dec): Rs 6,000 +27.50% taxes'
     agentCommission: 0
   - roomType: Luxury Tent
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1230,7 +1054,7 @@ rates:
     notes: 'Compulsory Christmas Dinner (24 Dec): Rs 6,000 +27.50% taxes'
     agentCommission: 0
   - roomType: Vintage Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1266,7 +1090,7 @@ rates:
     notes: 'Compulsory Christmas Dinner (24 Dec): Rs 6,000 +27.50% taxes'
     agentCommission: 0
   - roomType: Luxury Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1302,187 +1126,7 @@ rates:
     notes: 'Compulsory Christmas Dinner (24 Dec): Rs 6,000 +27.50% taxes'
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 8200
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 9000
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3000
-    extraBedPT: 0
-    wef: '2021-01-06T00:00:00'
-    wet: '2021-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Ajit Suite
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 22000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 22000
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3000
-    extraBedPT: 0
-    wef: '2021-01-06T00:00:00'
-    wet: '2021-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Luxury Tent
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 8200
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 8200
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3000
-    extraBedPT: 0
-    wef: '2021-01-06T00:00:00'
-    wet: '2021-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Vintage Suite
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 16000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 16000
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 0
-    extraBedPT: 0
-    wef: '2021-01-06T00:00:00'
-    wet: '2021-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Luxury Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 11500
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 11500
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3000
-    extraBedPT: 0
-    wef: '2021-01-06T00:00:00'
-    wet: '2021-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1520,7 +1164,7 @@ rates:
       Dinner (31 Dec): Rs 8,500 +27.50% taxes
     agentCommission: 0
   - roomType: Ajit Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1558,7 +1202,7 @@ rates:
       Dinner (31 Dec): Rs 8,500 +27.50% taxes
     agentCommission: 0
   - roomType: Luxury Tent
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1596,7 +1240,7 @@ rates:
       Dinner (31 Dec): Rs 8,500 +27.50% taxes
     agentCommission: 0
   - roomType: Vintage Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1634,7 +1278,7 @@ rates:
       Dinner (31 Dec): Rs 8,500 +27.50% taxes
     agentCommission: 0
   - roomType: Luxury Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1672,7 +1316,7 @@ rates:
       Dinner (31 Dec): Rs 8,500 +27.50% taxes
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1708,7 +1352,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Ajit Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1744,7 +1388,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Luxury Tent
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1780,7 +1424,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Vintage Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1816,7 +1460,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Luxury Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1851,5 +1495,222 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+  - roomType: Deluxe Room
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 8200
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 9000
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3000
+    extraBedPT: 0
+    wef: '2021-01-06T00:00:00'
+    wet: '2021-03-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Deluxe Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Ajit Suite
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 22000
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 22000
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3000
+    extraBedPT: 0
+    wef: '2021-01-06T00:00:00'
+    wet: '2021-03-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Deluxe Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Luxury Tent
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 8200
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 8200
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3000
+    extraBedPT: 0
+    wef: '2021-01-06T00:00:00'
+    wet: '2021-03-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Deluxe Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Vintage Suite
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 16000
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 16000
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 0
+    wef: '2021-01-06T00:00:00'
+    wet: '2021-03-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Deluxe Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Luxury Room
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 11500
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 11500
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3000
+    extraBedPT: 0
+    wef: '2021-01-06T00:00:00'
+    wet: '2021-03-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Deluxe Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+ranking: 1
+bookThrough: ''
+gstType: 1
+gstin: 08AAFFA7798E1Z4
+www: www.ajitbhawan.com
+web: 1
+mailTo: ''
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Ajit Bhawan is a lovely resort set in fabulous gardens, with a spectacular swimming pool. Winding paths lead to the attractive rooms, many with private sit-outs. All the suites, luxury tents and stylish rooms are air-conditioned and imaginatively furnished, mixing Raj splendour with a contemporary twist. There is a garden restaurant and a lounge bar with a historic atmosphere, and a large collection of vintage cars.

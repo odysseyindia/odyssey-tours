@@ -6,13 +6,16 @@ mailto: ''
 address: Dhibba Para (near Fort Parking)
 city: Jaisalmer
 postalcode: 345 001
-phone: 2992-254462
+phone: 2992-254462,94625 54462
 mobile: 94625 54462
 email: info@1stgate.in  manoj@1stgate.in
 website: http://www.1stgate.in/
 note: ''
 type: hotel
 category:
+  - H
+  - COM
+  - RIK
   - WEB
 showHotel: 0
 starCategory: 0
@@ -24,7 +27,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,7 +63,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -96,7 +99,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Executive Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -132,7 +135,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -168,7 +171,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -204,7 +207,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Executive Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -240,7 +243,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -276,7 +279,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -312,7 +315,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Executive Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -348,223 +351,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 7450
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 7450
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2200
-    extraBedPT: 0
-    wef: '2020-11-23T00:00:00'
-    wet: '2020-12-20T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Suite
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 9500
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 9500
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2200
-    extraBedPT: 0
-    wef: '2020-11-23T00:00:00'
-    wet: '2020-12-20T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Executive Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 12000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 12000
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2200
-    extraBedPT: 0
-    wef: '2020-11-23T00:00:00'
-    wet: '2020-12-20T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 7450
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 7450
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2200
-    extraBedPT: 0
-    wef: '2021-01-06T00:00:00'
-    wet: '2021-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Suite
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 9500
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 9500
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2200
-    extraBedPT: 0
-    wef: '2021-01-06T00:00:00'
-    wet: '2021-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Executive Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 12000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 12000
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2200
-    extraBedPT: 0
-    wef: '2021-01-06T00:00:00'
-    wet: '2021-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -600,7 +387,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -636,7 +423,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Executive Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -672,7 +459,115 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 7450
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 7450
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 2200
+    extraBedPT: 0
+    wef: '2020-11-23T00:00:00'
+    wet: '2020-12-20T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Deluxe Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Suite
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 9500
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 9500
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 2200
+    extraBedPT: 0
+    wef: '2020-11-23T00:00:00'
+    wet: '2020-12-20T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Deluxe Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Executive Room
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 12000
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 12000
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 2200
+    extraBedPT: 0
+    wef: '2020-11-23T00:00:00'
+    wet: '2020-12-20T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Deluxe Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Deluxe Room
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -708,7 +603,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -744,7 +639,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Executive Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -779,5 +674,144 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+  - roomType: Deluxe Room
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 7450
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 7450
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 2200
+    extraBedPT: 0
+    wef: '2021-01-06T00:00:00'
+    wet: '2021-03-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Deluxe Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Suite
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 9500
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 9500
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 2200
+    extraBedPT: 0
+    wef: '2021-01-06T00:00:00'
+    wet: '2021-03-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Deluxe Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Executive Room
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 12000
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 12000
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 2200
+    extraBedPT: 0
+    wef: '2021-01-06T00:00:00'
+    wet: '2021-03-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Deluxe Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://www.1stgate.in/
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 A refreshingly modern take on the traditional Jaisalmer haveli, this boutique hotel offers vibrant Rajasthani colours and motifs amid clean, uncluttered lines. You stay close to the fort, in cheerful rooms, with an award-winning restaurant and pleasant little public spaces.

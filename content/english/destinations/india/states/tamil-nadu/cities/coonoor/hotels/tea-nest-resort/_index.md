@@ -6,7 +6,7 @@ mailto: ''
 address: Singara Estate Road  Nilgiris
 city: Coonoor
 postalcode: 643 001
-phone: '-'
+phone: '-,80888 55855, 77100 29815 /16 /17'
 mobile: 80888 55855, 77100 29815 /16 /17
 email: teanest@natureresorts.in
 website: https://www.natureresorts.in/teanest/
@@ -629,5 +629,18 @@ rates:
       to Sunday). The week day rates are slightly lower (Rs 4000 for Standard
       and Rs 5,454 for Deluxe).
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: https://www.natureresorts.in/teanest/
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 A boutique hotel surrounded by lush tea gardens, Tea Nest offers gorgeous views, a sweet glass-walled restaurant, a cosy lounge and simply-furnished but comfortable rooms. Set just outside main Coonoor town, it’s an easy base to explore the area, but you might find yourself too busy with tea tastings and the tea-themed food (from tea-smoked chicken salad with tea leaves to tea custard) to wander far outside.

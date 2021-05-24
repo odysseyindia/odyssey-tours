@@ -8,7 +8,7 @@ address: >-
   Picture Palace Road)
 city: Mussoorie
 postalcode: ''
-phone: '-'
+phone: '-,'
 mobile: ''
 email: karmavilas@gmail.com  info@karmavilas.com
 website: www.karmavilas.com
@@ -24,4 +24,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.karmavilas.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

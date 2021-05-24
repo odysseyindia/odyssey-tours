@@ -6,13 +6,15 @@ mailto: ''
 address: Opposite Pahil Batika Main Road
 city: Khajuraho
 postalcode: 471 606
-phone: '-'
+phone: '-,'
 mobile: ''
 email: reservations.khajuraho@goldentulipindia.com
 website: https://www.goldentulip.com/en/hotels/golden-tulip-khajuraho/emplacement
 note: ''
 type: hotel
 category:
+  - H
+  - ST
   - RIK
 showHotel: 0
 starCategory: 0
@@ -24,7 +26,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,7 +62,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -96,7 +98,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -132,7 +134,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -167,5 +169,30 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: ''
+gstType: 1
+gstin: 23AAVFA2503R1ZA
+www: https://www.goldentulip.com/en/hotels/golden-tulip-khajuraho/emplacement
+web: 0
+mailTo: ''
+ranking: 2
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This cheerful mid-range hotel has large, bright, clean rooms, with modern bathrooms. There is a V-shaped swimming pool, and a large restaurant. There are also plenty of comfortable, well-decorated public areas in which to relax, and a peaceful location just 500 metres from the temples and the market.

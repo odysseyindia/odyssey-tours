@@ -6,13 +6,15 @@ mailto: ''
 address: 'Ward 02  Barpada Town  Mayurbhanj District          '
 city: Baripada
 postalcode: 757 002
-phone: '-'
+phone: '-,98302 90530, 98312 72004'
 mobile: 98302 90530, 98312 72004
 email: houseofmayurbhanj@gmail.com
 website: https://www.thebelgadiapalace.com/
 note: ''
 type: hotel
 category:
+  - H
+  - COM
   - WEB
 showHotel: 0
 starCategory: 0
@@ -140,5 +142,30 @@ rates:
       10% TAC.   4 Standard Rooms on Ground Floor  1 Deluxe Room on Ground
       Floor  ! Suite on Ground Floor, 4 on 1st Floor
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: https://www.thebelgadiapalace.com/
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 If you are looking for an offbeat adventure that allows you to live like royalty, in a palace surrounded by art and experience culture, head out to The Belgadia Palace, home to the erstwhile royal family of Mayurbhanj. Two young sisters of this royal family have recently converted the palace into a beautiful boutique hotel, filled with unique pieces of furniture and furnishings. They promote sustainable travel in many different ways and engage with the guests to give them an opportunity to explore Mayurbhanj and its tribal people, and learn about their heritage and culture.

@@ -6,13 +6,15 @@ mailto: ''
 address: 'Bandhavgarh National Park.  Village Mardhari, Post Dhamokar  District Umaria  '
 city: Bandhavgarh
 postalcode: 484 661
-phone: '-'
+phone: '-,76532 80579'
 mobile: 76532 80579
 email: ''
 website: ''
 note: ''
 type: hotel
 category:
+  - H
+  - SH
   - WEB
 showHotel: 0
 starCategory: 0
@@ -59,5 +61,30 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: Samode Hotels
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Just as the Samode Palace in Rajasthan is one of the finest heritage places in India, the Samode Safari lodge is a very special jungle lodge. Guest accommodation is in luxurious individual lodges with villas and suites, decorated in tribal motifs. Two main lodges with spacious lounges open onto wooden decks for bird and wildlife sightings.  Zen in a tree-top setting.

@@ -6,7 +6,7 @@ mailto: ''
 address: 'Junaswada 59  Mandrem Beach  '
 city: Goa
 postalcode: 403 527
-phone: '-'
+phone: '-,87664 03860'
 mobile: 87664 03860
 email: beachstreetgoa@gmail.com
 website: www.beachstreet.in
@@ -383,4 +383,17 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.beachstreet.in
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

@@ -6,7 +6,7 @@ mailto: ''
 address: Court Road
 city: Tellicherry
 postalcode: 670 101
-phone: 4902-341 590
+phone: 4902-341 590,
 mobile: ''
 email: 'ayishamanzil@rediffmail.com  '
 website: ''
@@ -59,5 +59,18 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 A beautiful home stay overlooking the sea, Ayisha Manzil has loads of old world charm. It is also famous for cookery classes where you can learn the rich Mappila cuisine of coastal Malabari Muslims.    The spacious two storey home was built in 1862 and was bought by the illustrious Moosa family of planters    The grand house is colonial in style and has much of the original furniture including large four poster beds, writing desks and mirrors.

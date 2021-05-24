@@ -6,7 +6,7 @@ mailto: ''
 address: ''
 city: Chennai
 postalcode: '  '
-phone: '-'
+phone: '-,'
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: 20 kms. from Airport
 accessBus: 5 kms. from Bus Stand
 advantage: Marina Beach & Centre of the City
 rooms: 26
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

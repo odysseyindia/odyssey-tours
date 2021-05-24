@@ -6,14 +6,17 @@ mailto: ''
 address: 211, Chakala Sahar Road  Andheri (E)
 city: Mumbai
 postalcode: 400 099
-phone: 22-6707 6707
+phone: 22-6707 6707,
 mobile: ''
 email: reservations@hotelsubainternational.com
 website: www.subahotels.com
 note: ''
 type: hotel
 category:
+  - H
+  - COM
   - RIK
+  - A
 showHotel: 0
 starCategory: 0
 checkout: ''
@@ -24,7 +27,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,7 +63,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -96,7 +99,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -132,7 +135,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -167,5 +170,36 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: 27AACCH7515A1ZZ
+www: www.subahotels.com
+web: 0
+mailTo: ''
+ranking: 4
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 A 'boutique business' hotel, very close to the international airport. The large, modern are equipped with a flat-screen TV and en-suite bathroom. Tea/coffee making facilities and a minibar are included. Bottles of mineral water and buffet breakfast are provided. In addition to an international buffet spread, Cinnamon Restaurant serves á la carte dishes.

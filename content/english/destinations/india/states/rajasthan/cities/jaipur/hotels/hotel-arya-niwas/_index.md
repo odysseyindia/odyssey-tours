@@ -6,17 +6,20 @@ mailto: ''
 address: Sansar Chandra Road  Behind Amber Tower
 city: Jaipur
 postalcode: 302 001
-phone: 141-407 3456, 407 3457
+phone: 141-407 3456, 407 3457,
 mobile: ''
 email: tarun@aryaniwas.com  reservation@aryaniwas.com  info@aryaniwas.com
 website: www.aryaniwas.com
 note: ''
 type: hotel
 category:
+  - H
+  - ST
   - RIK
+  - A
 showHotel: 1
 starCategory: 3
-checkout: '12:00:00'
+checkout: 12.00 Noon
 accessRail: 2 kms. from Railway Station
 accessAir: 15 kms. from Airport
 accessBus: 1 km. from Bus Stand
@@ -26,79 +29,7 @@ advantage: >-
 rooms: 91
 rates:
   - roomType: Superior Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 2100
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 2100
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 650
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Superior Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Executive Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 2300
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 2300
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 650
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Superior Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Superior Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -134,7 +65,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Executive Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -170,151 +101,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Superior Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 2700
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 2700
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 800
-    extraBedPT: 0
-    wef: '2020-01-01T00:00:00'
-    wet: '2020-01-21T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Superior Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Executive Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 2995
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 2995
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 800
-    extraBedPT: 0
-    wef: '2020-01-01T00:00:00'
-    wet: '2020-01-21T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Superior Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Superior Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 2700
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 2700
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 800
-    extraBedPT: 0
-    wef: '2020-01-28T00:00:00'
-    wet: '2020-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Superior Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Executive Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 2995
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 2995
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 800
-    extraBedPT: 0
-    wef: '2020-01-28T00:00:00'
-    wet: '2020-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Superior Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Superior Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -350,7 +137,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Executive Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -386,7 +173,79 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Superior Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 2700
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 2700
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 800
+    extraBedPT: 0
+    wef: '2020-01-01T00:00:00'
+    wet: '2020-01-21T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Superior Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Executive Room
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 2995
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 2995
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 800
+    extraBedPT: 0
+    wef: '2020-01-01T00:00:00'
+    wet: '2020-01-21T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Superior Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Superior Room
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -422,7 +281,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Executive Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -441,6 +300,78 @@ rates:
     extraBedPT: 0
     wef: '2020-01-22T00:00:00'
     wet: '2020-01-27T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Superior Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Superior Room
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 2700
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 2700
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 800
+    extraBedPT: 0
+    wef: '2020-01-28T00:00:00'
+    wet: '2020-03-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Superior Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Executive Room
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 2995
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 2995
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 800
+    extraBedPT: 0
+    wef: '2020-01-28T00:00:00'
+    wet: '2020-03-31T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -458,7 +389,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -494,7 +425,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Superior Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -530,7 +461,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Executive Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -566,7 +497,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -602,7 +533,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Superior Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -638,7 +569,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Executive Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -674,7 +605,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -710,7 +641,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Superior Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -746,7 +677,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Executive Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -782,7 +713,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -818,7 +749,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Superior Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -854,7 +785,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Executive Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -890,7 +821,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -926,7 +857,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Superior Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -962,7 +893,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Executive Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -998,7 +929,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1034,7 +965,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Superior Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1070,7 +1001,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Executive Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1105,5 +1036,36 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+ranking: 3
+bookThrough: ''
+gstType: 1
+gstin: 08AABHS6166E1Z2
+www: www.aryaniwas.com
+web: 0
+mailTo: ''
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 An award-winning moderate hotel close to the old city. The hotel has a long verandah that overlooks a green lawn and flowering trees. The rooms are spotlessly clean, and the restaurant serves delicious vegetarian food at very reasonable prices. There is a small shop which stocks interesting handicrafts and books. Arya Niwas also has an internet centre, a reading lounge, and an excellent laundry service.

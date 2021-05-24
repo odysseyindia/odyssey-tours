@@ -6,7 +6,7 @@ mailto: ''
 address: 1/1164, Pirapanvalasai Village
 city: Rameswaram
 postalcode: 623 516
-phone: '-'
+phone: '-,86571 95551'
 mobile: 86571 95551
 email: booking@quest-asia.com
 website: https://www.quest-asia.com/kathadi-north
@@ -95,5 +95,18 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: https://www.quest-asia.com/kathadi-north
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 This specialist home stay, intended primarily for people who want to learn or participate in water sports, hosts 4 comfortable ensuite cottages & camping tents located near the pristine blue Palk bay with an endless stretch of sandy white beach. Simple but very pretty, this home stay offers activities like kayaking, stand-up paddle boarding, scuba diving, snorkeling and sailing – or you can simply relax on the lovely beach.

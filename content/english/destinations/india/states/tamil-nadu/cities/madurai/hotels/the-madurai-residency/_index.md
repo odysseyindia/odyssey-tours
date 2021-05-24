@@ -6,7 +6,7 @@ mailto: ''
 address: 14-15, West Marret Street
 city: Madurai
 postalcode: 625 001
-phone: 452-234 3140 (5 Lines)
+phone: 452-234 3140 (5 Lines),
 mobile: ''
 email: madurairesidency@airtelmail.in
 website: madurairesidency.com
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: madurairesidency.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

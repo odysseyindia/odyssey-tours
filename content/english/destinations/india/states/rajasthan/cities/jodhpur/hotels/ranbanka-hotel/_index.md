@@ -6,7 +6,7 @@ mailto: ''
 address: Near Circuit House
 city: Jodhpur
 postalcode: 342 006
-phone: 291-512 801-803
+phone: 291-512 801-803,
 mobile: ''
 email: ranbanka@ndf.vsnl.net.in
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

@@ -6,13 +6,16 @@ mailto: ''
 address: Velavadar National Park  Dist. Bhavnagar, Bhal  Saurashtra
 city: Velavadar
 postalcode: ''
-phone: '-'
+phone: '-,'
 mobile: ''
 email: reservations@theblackbucklodge.com
 website: http://www.theblackbucklodge.com
 note: ''
 type: hotel
 category:
+  - H
+  - SH
+  - RIK
   - WEB
 showHotel: 0
 starCategory: 0
@@ -254,5 +257,36 @@ rates:
       Rs.5500/- per person + 18% taxes as applicable {Minimum 2 nights
       compulsory stay is required}
     agentCommission: 5
+bookThrough: North West Safaries
+gstType: 0
+gstin: ''
+www: http://www.theblackbucklodge.com
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 The Blackbuck Lodge is a fabulous wildlife resort surrounded by wild country all around. The lodge has  independent cottages where every possible comfort had been taken care of - from the plump cushions on the bed and window seat, a large satellite TV, marble floors adorned with rugs, pencil drawings on the stone walls and  beautiful teak furniture - all giving the impression of a luxurious African safari lodge.

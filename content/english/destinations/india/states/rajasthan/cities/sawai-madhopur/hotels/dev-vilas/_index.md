@@ -6,14 +6,17 @@ mailto: ''
 address: Village Khichipur  Ranthambhore Road
 city: Sawai Madhopur
 postalcode: 322 001
-phone: 7462-252 168, 252 194
+phone: 7462-252 168, 252 194,
 mobile: ''
 email: reservations@devvilas.com  sales@devvilas.com
 website: www.devvilas.com
 note: ''
 type: hotel
 category:
+  - H
+  - COM
   - RIK
+  - A
 showHotel: 0
 starCategory: 0
 checkout: '12:00'
@@ -455,5 +458,36 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: Indian Historical Hospitality
+gstType: 0
+gstin: 08AAGCS2999KIZL
+www: www.devvilas.com
+web: 0
+mailTo: ''
+ranking: 3
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This grand resort is built in a Rajasthani haveli/palace style. Dev Vilas is surrounded by a large garden, and overlooks the hills of Ranthambore National Park. The rooms are large and atmospheric, and the tents are charming. There is an enticing swimming pool, a terrace where dinners and drinks are served, and also an indoor restaurant, making this a good place for relaxation in comfort.

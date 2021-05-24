@@ -6,7 +6,7 @@ mailto: ''
 address: 'A-1, 300, Janakpuri        '
 city: Delhi
 postalcode: 110 058
-phone: 11-4157 3366, 4157 3377, 2557 3847
+phone: 11-4157 3366, 4157 3377, 2557 3847,
 mobile: ''
 email: contact@shantihome.com  shantihome300@gmail.com
 website: ''
@@ -95,5 +95,18 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 Shanti Home is possibly Delhi's most popular boutique hotel. It has 17 rooms, all individually furnished with gorgeous Indian themes and spotlessly clean. The peaceful rooftop terrace is the ideal place to unwind after a day navigating Delhi's chaotic streets. Cooking classes, henna, and Ayurvedic massages are offered too. The hotel's location, in the upmarket Janakpuri residential area of west Delhi is around 30 minutes from the city center. However, there's a Metro train station nearby.     

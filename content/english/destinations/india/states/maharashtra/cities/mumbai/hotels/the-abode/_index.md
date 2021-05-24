@@ -8,13 +8,15 @@ address: >-
   Colaba, Apollo
 city: Mumbai
 postalcode: 400 001
-phone: '-'
+phone: '-,80802 34066'
 mobile: 80802 34066
 email: enquiries@abodeboutiquehotels.com
 website: https://abodeboutiquehotels.com/
 note: ''
 type: hotel
 category:
+  - H
+  - ST
   - WEB
 showHotel: 0
 starCategory: 0
@@ -133,5 +135,30 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: https://abodeboutiquehotels.com/
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Mumbai's first real boutique hotel, The Abode draws on the city's art deco heritage to create a quirky little space a minute away from the Gateway of India. The small but cheerful rooms bring old Mumbai styles right to you, and the delightful cafe serves as a common and reception area, with Mumbai chai and snacks. A great, fun option if you want to explore South Mumbai's colonial past.

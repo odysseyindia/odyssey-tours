@@ -6,17 +6,20 @@ mailto: ''
 address: 15, Jawaharlal Nehru Road
 city: Kolkata
 postalcode: 700 013
-phone: 33-2249 2323, 2249 0181
+phone: 33-2249 2323, 2249 0181,
 mobile: ''
 email: fo@oberoi-cal.com
 website: www.oberoihotels.com
 note: ''
 type: hotel
 category:
+  - H
+  - SH
+  - HH
   - WEB
 showHotel: 1
 starCategory: 5
-checkout: '12:00:00'
+checkout: 12.00 Noon
 accessRail: 5 kms. from Railway Station
 accessAir: 24 kms. from Airport
 accessBus: 1/2 km. from Bus Stand
@@ -168,7 +171,7 @@ rates:
     notes: just for booking purpose  dont have rates for this season yet
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -204,7 +207,7 @@ rates:
     notes: just for booking purpose  dont have rates for this season yet
     agentCommission: 0
   - roomType: Luxury Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -240,7 +243,7 @@ rates:
     notes: 'Day Use: Rs 7750/-  50% adv payment at the time of booking.'
     agentCommission: 0
   - roomType: Deluxe Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -276,7 +279,7 @@ rates:
     notes: 'Day Use: Rs 7750/-  50% adv payment at the time of booking.'
     agentCommission: 0
   - roomType: Premier Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -312,7 +315,7 @@ rates:
     notes: 'Day Use: Rs 7750/-  50% adv payment at the time of booking.'
     agentCommission: 0
   - roomType: Luxury Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -348,7 +351,7 @@ rates:
     notes: 'Day Use: Rs 7750/-  50% adv payment at the time of booking.'
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -384,7 +387,7 @@ rates:
     notes: 'Day Use: Rs 7750/-  50% adv payment at the time of booking.'
     agentCommission: 0
   - roomType: Luxury Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -420,7 +423,7 @@ rates:
     notes: 'Day Use: Rs 6750/-(Deluxe room)  50% adv payment at the time of booking.'
     agentCommission: 0
   - roomType: Deluxe Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -456,7 +459,7 @@ rates:
     notes: 'Day Use: Rs 6750/-(Deluxe room)  50% adv payment at the time of booking.'
     agentCommission: 0
   - roomType: Premier Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -492,7 +495,7 @@ rates:
     notes: 'Day Use: Rs 6750/-(Deluxe room)  50% adv payment at the time of booking.'
     agentCommission: 0
   - roomType: Luxury Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -528,7 +531,7 @@ rates:
     notes: 'Day Use: Rs 6750/-(Deluxe room)  50% adv payment at the time of booking.'
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -564,7 +567,7 @@ rates:
     notes: 'Day Use: Rs 6750/-(Deluxe room)  50% adv payment at the time of booking.'
     agentCommission: 0
   - roomType: Luxury Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -602,7 +605,7 @@ rates:
       payment at the time of booking.
     agentCommission: 0
   - roomType: Deluxe Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -640,7 +643,7 @@ rates:
       payment at the time of booking.
     agentCommission: 0
   - roomType: Premier Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -678,7 +681,7 @@ rates:
       payment at the time of booking.
     agentCommission: 0
   - roomType: Luxury Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -716,7 +719,7 @@ rates:
       payment at the time of booking.
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -753,5 +756,36 @@ rates:
       rates copied from 2019-2020.  Day Use: Rs 6750/-(Deluxe room)  50% adv
       payment at the time of booking.
     agentCommission: 0
+bookThrough: Oberoi Contact Centre
+gstType: 0
+gstin: ''
+www: www.oberoihotels.com
+web: 1
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 The city of Calcutta has a number of noteworthy buildings of great beauty, and the Oberoi Grand is one of them. This Victorian landmark is located near the very heart of the buzzing city. The rooms and suites are the ultimate in old-world elegance and luxury. The Oberoi Grand has three exclusive restaurants, a bar and a tea lounge. Other facilities include a 24-hour business centre, a swimming pool, a health club and a gym.

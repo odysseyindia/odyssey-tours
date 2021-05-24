@@ -6,7 +6,7 @@ mailto: ''
 address: Nehru Trophi Finishing Point
 city: Alleppey
 postalcode: 688 013
-phone: 477-244 790, 261 487
+phone: 477-244 790, 261 487,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

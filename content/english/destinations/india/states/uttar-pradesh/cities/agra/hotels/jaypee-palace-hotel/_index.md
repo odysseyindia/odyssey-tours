@@ -6,7 +6,7 @@ mailto: ''
 address: Fatehabad Road,
 city: Agra
 postalcode: 282 003
-phone: 562-233 0800
+phone: 562-233 0800,
 mobile: ''
 email: reservations.jpa@jaypeehotels.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Colleague Tours Pvt. Ltd.
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

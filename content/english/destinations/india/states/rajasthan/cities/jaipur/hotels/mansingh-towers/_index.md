@@ -6,7 +6,7 @@ mailto: ''
 address: Sansar Chandra Road
 city: Jaipur
 postalcode: 302 001
-phone: 141-378 771 - 9
+phone: 141-378 771 - 9,
 mobile: ''
 email: sales.delhi@mansinghhotels.com  sales.agra@mansinghhotels.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

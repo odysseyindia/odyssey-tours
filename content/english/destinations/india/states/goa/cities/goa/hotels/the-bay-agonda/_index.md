@@ -6,13 +6,17 @@ mailto: ''
 address: Near Salleri Bridge
 city: Goa
 postalcode: 403 702
-phone: 832-2647977, 2647333 ,
+phone: 832-2647977, 2647333 ,,8600313111
 mobile: '8600313111'
 email: thebayagonda@gmail.com
 website: ''
 note: ''
 type: hotel
 category:
+  - H
+  - ST
+  - RIK
+  - A
   - WEB
 showHotel: 0
 starCategory: 0
@@ -23,150 +27,6 @@ accessBus: ''
 advantage: ''
 rooms: 0
 rates:
-  - roomType: River View Cottage
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 5550
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 5550
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1180
-    extraBedPT: 0
-    wef: '2019-01-11T00:00:00'
-    wet: '2019-02-28T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Sea View Villa
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Sea View Villa
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 7250
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 7250
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1180
-    extraBedPT: 0
-    wef: '2019-01-11T00:00:00'
-    wet: '2019-02-28T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Sea View Villa
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: River View Cottage
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 4950
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 4950
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1180
-    extraBedPT: 0
-    wef: '2019-03-01T00:00:00'
-    wet: '2019-05-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Sea View Villa
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Sea View Villa
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 6150
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 6150
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1180
-    extraBedPT: 0
-    wef: '2019-03-01T00:00:00'
-    wet: '2019-05-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Sea View Villa
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
   - roomType: River View Cottage
     mealPlan: Room only
     mealPlanPT: ''
@@ -731,6 +591,114 @@ rates:
     freeTransfer: 0
     extraBed: 1120
     extraBedPT: 0
+    wef: '2020-10-01T00:00:00'
+    wet: '2020-10-10T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 1
+    dayOfTheWeek: 127
+    defaultRoomType: Classic River View Cottage
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Classic River View Cottage
+    mealPlan: Room only
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 5300
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 5300
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 1120
+    extraBedPT: 0
+    wef: '2020-10-01T00:00:00'
+    wet: '2020-10-10T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 1
+    dayOfTheWeek: 127
+    defaultRoomType: Classic River View Cottage
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Sea View Cottage
+    mealPlan: Room only
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 7750
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 7750
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 1120
+    extraBedPT: 0
+    wef: '2020-10-01T00:00:00'
+    wet: '2020-10-10T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 1
+    dayOfTheWeek: 127
+    defaultRoomType: Classic River View Cottage
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Royal River View Cottage
+    mealPlan: Room only
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 5900
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 5900
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 1120
+    extraBedPT: 0
     wef: '2020-10-11T00:00:00'
     wet: '2020-11-17T00:00:00'
     fromPax: 1
@@ -887,114 +855,6 @@ rates:
     commissionOnPlanPT: 0
     serviceChargesOnPlan: 0
     blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Classic River View Cottage
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Royal River View Cottage
-    mealPlan: Room only
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 5900
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 5900
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1120
-    extraBedPT: 0
-    wef: '2020-10-01T00:00:00'
-    wet: '2020-10-10T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 1
-    dayOfTheWeek: 127
-    defaultRoomType: Classic River View Cottage
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Classic River View Cottage
-    mealPlan: Room only
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 5300
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 5300
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1120
-    extraBedPT: 0
-    wef: '2020-10-01T00:00:00'
-    wet: '2020-10-10T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 1
-    dayOfTheWeek: 127
-    defaultRoomType: Classic River View Cottage
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Sea View Cottage
-    mealPlan: Room only
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 7750
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 7750
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1120
-    extraBedPT: 0
-    wef: '2020-10-01T00:00:00'
-    wet: '2020-10-10T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 1
     dayOfTheWeek: 127
     defaultRoomType: Classic River View Cottage
     defaultAc: 1
@@ -1325,5 +1185,42 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 1
+gstin: 30AAKFT0737H1ZE
+www: ''
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 The Bay Agonda offers the most stylish and comfortable accommodation at one of Goa's most desirable beaches. The River View cottages offer privacy and tranquil river views, while the Sea View Cottages (reached by a fun 2-minute journey in a small boat pulled by rope are set right on the beach. Rooms come with comfy beds, open-to-sky bathrooms, AC and sit-outs on which to read or just enjoy the view. 

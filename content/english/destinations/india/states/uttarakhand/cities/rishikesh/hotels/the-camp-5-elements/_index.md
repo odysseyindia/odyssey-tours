@@ -6,7 +6,7 @@ mailto: ''
 address: 2nd Suspension Bridge  Sinthali Village  Koudiyala  Dist-Pouri
 city: Rishikesh
 postalcode: 249 192
-phone: '-9012091225'
+phone: '-9012091225,'
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Leisure Hotels Ltd
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

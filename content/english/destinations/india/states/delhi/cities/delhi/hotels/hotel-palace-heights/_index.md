@@ -6,7 +6,7 @@ mailto: ''
 address: D 26 / 28, Connaught Place  (behind Odeon Theatre)
 city: Delhi
 postalcode: 110 001
-phone: 11-45460000, 43582610, 43582620, 43582630
+phone: 11-45460000, 43582610, 43582620, 43582630,
 mobile: ''
 email: reservations@hotelpalaceheights.com
 website: www.hotelpalaceheights.com
@@ -95,5 +95,18 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 1
+gstin: 07AAHFK3232F1ZN
+www: www.hotelpalaceheights.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 Perfectly located on Connaught Place, at the centre of New Delhi, the venerable Palace Heights is a small hotel with 14 comfortable rooms, plus the highly rated Zaffran Restaurant. It is an ideal base in the heart of Delhi for shopping and for sightseeing.

@@ -6,14 +6,18 @@ mailto: ''
 address: Bhambafod Naka  Junagadh district
 city: Sasangir
 postalcode: 362 135
-phone: 2877-295 5140
+phone: 2877-295 5140,
 mobile: ''
 email: ''
 website: ''
 note: ''
 type: hotel
 category:
+  - H
+  - ST
+  - WEB
   - RIK
+  - A
 showHotel: 0
 starCategory: 0
 checkout: ''
@@ -77,8 +81,8 @@ rates:
     freeTransfer: 0
     extraBed: 1750
     extraBedPT: 0
-    wef: '2020-10-16T00:00:00'
-    wet: '2021-06-15T00:00:00'
+    wef: '2020-10-01T00:00:00'
+    wet: '2020-10-15T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -113,8 +117,8 @@ rates:
     freeTransfer: 0
     extraBed: 1750
     extraBedPT: 0
-    wef: '2020-10-01T00:00:00'
-    wet: '2020-10-15T00:00:00'
+    wef: '2020-10-16T00:00:00'
+    wet: '2021-06-15T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -131,5 +135,42 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 5
+bookThrough: North West Safaries
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 The coffee-coloured cottages of the Gir Birding Lodge are set in a rambling mango orchard that merges with the deciduous forests of the Gir Wildlife Sanctuary beyond. These tastefully-furnished cottages have been built to ensure privacy whilst still offering unrestricted views over the trees and fields that attract their own share of birdlife. The Gir Birding Lodge offers a good base for tracking the Asiatic Lion in the wild.

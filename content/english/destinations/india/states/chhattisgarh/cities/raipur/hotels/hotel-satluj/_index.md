@@ -6,7 +6,7 @@ mailto: ''
 address: Kuchary Chowk  Jail Road
 city: Raipur
 postalcode: 492 001
-phone: 771-4066124-5
+phone: 771-4066124-5,
 mobile: ''
 email: hotelsatlaj@yahoo.co.in  hotelsatlaj@hotelsatlaj.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

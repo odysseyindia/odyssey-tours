@@ -6,13 +6,14 @@ mailto: ''
 address: Valatur Rippon  Wayanad
 city: Meppadi
 postalcode: 673 577
-phone: 4936-280 261, 322 123, 322 501
+phone: 4936-280 261, 322 123, 322 501,
 mobile: ''
 email: 'stay@aranyakam.com  '
 website: www.aranyakam.com
 note: ''
 type: hotel
 category:
+  - H
   - HS
 showHotel: 0
 starCategory: 0
@@ -24,151 +25,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 5250
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 5250
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1200
-    extraBedPT: 0
-    wef: '2019-01-11T00:00:00'
-    wet: '2019-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Suite
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 5750
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 5750
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1200
-    extraBedPT: 0
-    wef: '2019-01-11T00:00:00'
-    wet: '2019-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Tree House - Minivet
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 7500
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 7500
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2000
-    extraBedPT: 0
-    wef: '2019-01-11T00:00:00'
-    wet: '2019-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Tree House - Hornbill
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 8250
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 8250
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2000
-    extraBedPT: 0
-    wef: '2019-01-11T00:00:00'
-    wet: '2019-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -204,7 +61,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -240,7 +97,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Tree House - Minivet
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -276,7 +133,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Tree House - Hornbill
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -312,7 +169,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -348,7 +205,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -384,7 +241,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Tree House - Minivet
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -420,7 +277,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Tree House - Hornbill
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -456,7 +313,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -492,7 +349,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -528,7 +385,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Tree House - Minivet
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -564,7 +421,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Tree House - Hornbill
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -600,7 +457,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -636,7 +493,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -672,7 +529,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Tree House - Minivet
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -708,7 +565,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Tree House - Hornbill
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -744,7 +601,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -780,7 +637,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -816,7 +673,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Tree House - Minivet
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -852,7 +709,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Tree House - Hornbill
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -888,7 +745,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -924,7 +781,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -960,7 +817,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Tree House - Minivet
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -996,7 +853,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Tree House - Hornbill
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1031,5 +888,24 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: Aarsha Hospitality
+gstType: 4
+gstin: ''
+www: www.aranyakam.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
+
+
+
+
+
+
 Aranyakam is a homestay in a coffee plantation. Overlooking hills to one side and a lush green forest on the other, the location could not be better than this. The guest rooms include simple but comfortable rooms in a double-storied heritage bungalow. There are fantastic views and verandahs from which to enjoy them, plus excellent homemade food and chatty owners.

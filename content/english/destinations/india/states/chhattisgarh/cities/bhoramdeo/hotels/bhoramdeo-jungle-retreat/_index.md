@@ -6,13 +6,17 @@ mailto: ''
 address: P.O. Village Chaura  District Kawardha
 city: Bhoramdeo
 postalcode: 491 995
-phone: '-'
+phone: '-,8817677460, 8085664333'
 mobile: 8817677460, 8085664333
 email: sunny@bhoramdeojungleretreat.com  sabrina.hug@gmx.ch  sophie@sophiehartman.com
 website: http://www.bhoramdeojungleretreat.com/
 note: ''
 type: hotel
 category:
+  - H
+  - ST
+  - A
+  - RIK
   - WEB
 showHotel: 0
 starCategory: 0
@@ -97,5 +101,42 @@ rates:
       rates copied from 2019-2020  The rate includes a local guide for daily
       excursions
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://www.bhoramdeojungleretreat.com/
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Nestled in the Maikal Hills, Satyendra "Sunny" Upadhyay's farm-stay is close to the famous Bhoramdeo temple complex. You can visit the temples, trek in the hills, or simply relax and enjoy the peace and delicious farm-grown food. However, the retreat's main focus is on real interaction with the gentle tribal people who live close by, in their tolas (villages), or while visiting the many colourful weekly haats (tribal markets).

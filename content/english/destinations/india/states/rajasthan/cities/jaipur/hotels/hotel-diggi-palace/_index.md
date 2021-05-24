@@ -6,14 +6,15 @@ mailto: ''
 address: Diggi House  Shivaji Marg  C-Scheme
 city: Jaipur
 postalcode: ''
-phone: 141-237 3091, 236 6120
+phone: 141-237 3091, 236 6120,
 mobile: ''
 email: reservations@hoteldiggipalace.com
 website: www.hoteldiggipalace.com
 note: ''
-ranking: '2'
+ranking: 2
 type: hotel
 category:
+  - H
   - COM
 showHotel: 0
 starCategory: 0
@@ -23,4 +24,22 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.hoteldiggipalace.com
+web: 0
+mailTo: ''
 ---
+
+
+
+
+
+
+
+
+
+
+
+

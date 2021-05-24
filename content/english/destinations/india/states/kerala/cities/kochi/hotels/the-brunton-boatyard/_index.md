@@ -6,13 +6,16 @@ mailto: ''
 address: Near Aspinwall, Calvetty  Fort Cochin
 city: Kochi
 postalcode: 682 001
-phone: 484-221 5461, 221 5462, 221 5463
+phone: 484-221 5461, 221 5462, 221 5463,
 mobile: ''
 email: bruntonboatyard@cghearth.com
 website: www.cghearth.com
 note: ''
 type: hotel
 category:
+  - H
+  - SH
+  - WEB
   - HH
 showHotel: 1
 starCategory: 3
@@ -26,331 +29,7 @@ advantage: >-
 rooms: 26
 rates:
   - roomType: Standard Sea View Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 24225
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 24225
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2655
-    extraBedPT: 0
-    wef: '2019-01-11T00:00:00'
-    wet: '2019-01-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Standard Sea View Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 5
-  - roomType: Deluxe Sea View Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 31950
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 31950
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2655
-    extraBedPT: 0
-    wef: '2019-01-11T00:00:00'
-    wet: '2019-01-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Standard Sea View Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 5
-  - roomType: Non Sea Facing Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 19275
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 19275
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2655
-    extraBedPT: 0
-    wef: '2019-01-11T00:00:00'
-    wet: '2019-01-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Standard Sea View Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 5
-  - roomType: Standard Sea View Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 24225
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 24225
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2655
-    extraBedPT: 0
-    wef: '2019-03-01T00:00:00'
-    wet: '2019-04-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Standard Sea View Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 5
-  - roomType: Deluxe Sea View Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 31950
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 31950
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2655
-    extraBedPT: 0
-    wef: '2019-03-01T00:00:00'
-    wet: '2019-04-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Standard Sea View Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 5
-  - roomType: Non Sea Facing Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 19275
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 19275
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2655
-    extraBedPT: 0
-    wef: '2019-03-01T00:00:00'
-    wet: '2019-04-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Standard Sea View Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 5
-  - roomType: Standard Sea View Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 26400
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 26400
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2655
-    extraBedPT: 0
-    wef: '2019-02-01T00:00:00'
-    wet: '2019-02-28T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Standard Sea View Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 5
-  - roomType: Deluxe Sea View Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 36900
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 36900
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2655
-    extraBedPT: 0
-    wef: '2019-02-01T00:00:00'
-    wet: '2019-02-28T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Standard Sea View Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 5
-  - roomType: Non Sea Facing Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 20925
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 20925
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2655
-    extraBedPT: 0
-    wef: '2019-02-01T00:00:00'
-    wet: '2019-02-28T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Standard Sea View Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 5
-  - roomType: Standard Sea View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -386,7 +65,7 @@ rates:
     notes: 0
     agentCommission: 5
   - roomType: Deluxe Sea View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -422,7 +101,7 @@ rates:
     notes: 0
     agentCommission: 5
   - roomType: Non Sea Facing Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -458,223 +137,7 @@ rates:
     notes: 0
     agentCommission: 5
   - roomType: Standard Sea View Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 24225
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 24225
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2655
-    extraBedPT: 0
-    wef: '2020-01-11T00:00:00'
-    wet: '2020-01-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Standard Sea View Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 5
-  - roomType: Deluxe Sea View Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 31950
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 31950
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2655
-    extraBedPT: 0
-    wef: '2020-01-11T00:00:00'
-    wet: '2020-01-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Standard Sea View Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 5
-  - roomType: Non Sea Facing Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 19275
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 19275
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2655
-    extraBedPT: 0
-    wef: '2020-01-11T00:00:00'
-    wet: '2020-01-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Standard Sea View Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 5
-  - roomType: Standard Sea View Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 24225
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 24225
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2655
-    extraBedPT: 0
-    wef: '2020-03-01T00:00:00'
-    wet: '2020-04-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Standard Sea View Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 5
-  - roomType: Deluxe Sea View Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 31950
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 31950
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2655
-    extraBedPT: 0
-    wef: '2020-03-01T00:00:00'
-    wet: '2020-04-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Standard Sea View Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 5
-  - roomType: Non Sea Facing Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 19275
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 19275
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2655
-    extraBedPT: 0
-    wef: '2020-03-01T00:00:00'
-    wet: '2020-04-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Standard Sea View Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 5
-  - roomType: Standard Sea View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -710,7 +173,7 @@ rates:
     notes: 31/12 Mandatory Dinner @ INR 7000 pp
     agentCommission: 5
   - roomType: Deluxe Sea View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -746,7 +209,7 @@ rates:
     notes: 31/12 Mandatory Dinner @ INR 7000 pp
     agentCommission: 5
   - roomType: Non Sea Facing Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -782,7 +245,115 @@ rates:
     notes: 31/12 Mandatory Dinner @ INR 7000 pp
     agentCommission: 5
   - roomType: Standard Sea View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 24225
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 24225
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 2655
+    extraBedPT: 0
+    wef: '2020-01-11T00:00:00'
+    wet: '2020-01-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Standard Sea View Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: Deluxe Sea View Room
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 31950
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 31950
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 2655
+    extraBedPT: 0
+    wef: '2020-01-11T00:00:00'
+    wet: '2020-01-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Standard Sea View Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: Non Sea Facing Room
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 19275
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 19275
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 2655
+    extraBedPT: 0
+    wef: '2020-01-11T00:00:00'
+    wet: '2020-01-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Standard Sea View Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: Standard Sea View Room
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -818,7 +389,7 @@ rates:
     notes: 0
     agentCommission: 5
   - roomType: Deluxe Sea View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -854,7 +425,7 @@ rates:
     notes: 0
     agentCommission: 5
   - roomType: Non Sea Facing Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -890,7 +461,115 @@ rates:
     notes: 0
     agentCommission: 5
   - roomType: Standard Sea View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 24225
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 24225
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 2655
+    extraBedPT: 0
+    wef: '2020-03-01T00:00:00'
+    wet: '2020-04-30T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Standard Sea View Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: Deluxe Sea View Room
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 31950
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 31950
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 2655
+    extraBedPT: 0
+    wef: '2020-03-01T00:00:00'
+    wet: '2020-04-30T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Standard Sea View Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: Non Sea Facing Room
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 19275
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 19275
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 2655
+    extraBedPT: 0
+    wef: '2020-03-01T00:00:00'
+    wet: '2020-04-30T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Standard Sea View Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: Standard Sea View Room
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -926,7 +605,7 @@ rates:
     notes: 0
     agentCommission: 5
   - roomType: Deluxe Sea View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -962,7 +641,7 @@ rates:
     notes: 0
     agentCommission: 5
   - roomType: Non Sea Facing Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -998,7 +677,7 @@ rates:
     notes: 0
     agentCommission: 5
   - roomType: Standard Sea View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1034,7 +713,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 5
   - roomType: Deluxe Sea View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1070,7 +749,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 5
   - roomType: Non Sea Facing Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1106,7 +785,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 5
   - roomType: Standard Sea View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1142,7 +821,7 @@ rates:
     notes: rates copied from 2019-2020  31/12 Mandatory Dinner @ INR 7000 pp
     agentCommission: 5
   - roomType: Deluxe Sea View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1178,7 +857,7 @@ rates:
     notes: rates copied from 2019-2020  31/12 Mandatory Dinner @ INR 7000 pp
     agentCommission: 5
   - roomType: Non Sea Facing Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1214,7 +893,7 @@ rates:
     notes: rates copied from 2019-2020  31/12 Mandatory Dinner @ INR 7000 pp
     agentCommission: 5
   - roomType: Standard Sea View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1250,7 +929,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 5
   - roomType: Deluxe Sea View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1286,7 +965,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 5
   - roomType: Non Sea Facing Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1322,7 +1001,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 5
   - roomType: Standard Sea View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1358,7 +1037,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 5
   - roomType: Deluxe Sea View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1394,7 +1073,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 5
   - roomType: Non Sea Facing Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1430,7 +1109,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 5
   - roomType: Standard Sea View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1466,7 +1145,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 5
   - roomType: Deluxe Sea View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1502,7 +1181,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 5
   - roomType: Non Sea Facing Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1538,7 +1217,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 5
   - roomType: Standard Sea View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1574,7 +1253,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 5
   - roomType: Deluxe Sea View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1610,7 +1289,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 5
   - roomType: Non Sea Facing Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1645,5 +1324,36 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 5
+bookThrough: Travelcart India Pvt Ltd
+gstType: 0
+gstin: ''
+www: www.cghearth.com
+web: 1
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 An excellent hotel situated at the historic site of a 19th-century boatyard. All rooms have a magnificent view of the busy shipping channel. The hotel has its own private jetty, which doubles up as a cafe overlooking the pool,  the garden and the sea. The hotel is right next to the Chinese fishing nets and close to the sights of Fort Cochin.

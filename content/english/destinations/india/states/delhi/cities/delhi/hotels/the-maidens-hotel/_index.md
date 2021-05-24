@@ -6,7 +6,7 @@ mailto: ''
 address: 7, Sham Nath Marg
 city: Delhi
 postalcode: 110 054
-phone: 11-2397 5464
+phone: 11-2397 5464,
 mobile: ''
 email: bsparmar@tomdel.com
 website: ''
@@ -16,7 +16,7 @@ category:
   - H
 showHotel: 1
 starCategory: 4
-checkout: '12:00:00'
+checkout: 12.00 Noon
 accessRail: 4 kms. from Railway Station
 accessAir: 24 kms. from International Airport
 accessBus: ''
@@ -24,7 +24,7 @@ advantage: Near Delhi University, Jama Masjid, Red Ford, Railway Station
 rooms: 54
 rates:
   - roomType: Heritage Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -59,5 +59,18 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 5
+bookThrough: Oberoi Contact Centre
+gstType: 0
+gstin: ''
+www: ''
+web: 1
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 A brilliant white colonnaded colonial mansion in sprawling gardens and lawns close to Old Delhi. This gracious hotel offers spacious rooms, a coffee shop and a very English restaurant with Raj photographs and a good Continental menu. The pool is in a separate part of the large grounds. There is also a tennis court, and plenty of lovely seating areas and mini-lounges in which to pretend to be a colonial-era bigwig.

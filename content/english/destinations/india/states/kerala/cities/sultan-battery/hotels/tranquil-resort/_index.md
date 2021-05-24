@@ -6,7 +6,7 @@ mailto: ''
 address: Aswati Plantations Ltd.  Kuppamudi Coffee Estate  Kolagapara P.O.  Wayanad
 city: Sultan Battery
 postalcode: 673 591
-phone: 4936-220 244
+phone: 4936-220 244,
 mobile: ''
 email: tranquilresort@gmail.com
 website: www.tranquilresort.com
@@ -241,5 +241,18 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.tranquilresort.com
+web: 1
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 Tranquil is a delightful and secluded resort set in a 400 acre coffee plantation.     This sprawling 70 year old bungalow full of old-world charm has  comfortable rooms and even treehouses. Staying here with the convivial hosts is a fabulous way of getting to know plantation life, in a peaceful environment.    You can swim in the pool, lounge in a hammock, have a therapeutic Ayurvedic massage or spend a day trekking to the Edakal Caves.

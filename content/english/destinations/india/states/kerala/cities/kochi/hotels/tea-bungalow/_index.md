@@ -6,7 +6,7 @@ mailto: ''
 address: (A Unit of Dempo Resorts Pvt Ltd)  I/1901, Kunnumpuram  Fort Cochin
 city: Kochi
 postalcode: 682 001
-phone: 484-3019200
+phone: 484-3019200,
 mobile: ''
 email: info@teabungalow.in  sales@teabungalow.in
 website: www.teabungalow.in
@@ -95,5 +95,18 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: Travelcart India Pvt Ltd
+gstType: 0
+gstin: ''
+www: www.teabungalow.in
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 The Tea Bungalow is a restored colonial villa, close to Fort Cochin's spice district. It is a great mix of contempory style and colour with elements of Fort Cochin's heritage.    The hotel has ten spacious air-conditioned bedrooms and plenty of space in communal areas. There is indoor or outdoor dining, a patio area with sunbeds and a decent swimming pool and upstairs also boasts a large residents lounge and veranda.

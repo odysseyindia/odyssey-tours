@@ -6,7 +6,7 @@ mailto: ''
 address: Near Chandpol Metro Station T3  Chandpol Police Line
 city: Jaipur
 postalcode: 302 001
-phone: 141-402 2187
+phone: 141-402 2187,
 mobile: ''
 email: info@jobnerbagh.com
 website: http://www.jobnerbagh.com/
@@ -24,7 +24,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Super Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,7 +60,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -95,4 +95,17 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://www.jobnerbagh.com/
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

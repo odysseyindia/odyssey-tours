@@ -6,7 +6,7 @@ mailto: ''
 address: 'Shekavati  Village. & Post : Alsisar'
 city: Alsisar
 postalcode: 331 025
-phone: 141-236 8290/236 4685/510 7157
+phone: 141-236 8290/236 4685/510 7157,
 mobile: ''
 email: alsisar@sify.com  alsisar@alsisar.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Alsisar Haveli
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

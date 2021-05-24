@@ -6,7 +6,7 @@ mailto: ''
 address: at Village Sanjharia  P.O Badke Balaji  Ajmer Road
 city: Jaipur
 postalcode: 302 042
-phone: '-'
+phone: '-,98292 14453'
 mobile: 98292 14453
 email: info@savista.com
 website: https://www.savista.com
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 1
+gstin: 08AACPS4958B1ZM
+www: https://www.savista.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

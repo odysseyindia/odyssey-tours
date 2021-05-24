@@ -6,13 +6,15 @@ mailto: ''
 address: 'Mela Wali Galli   Village Toria   District Chhatarpur      '
 city: Panna
 postalcode: 471 101
-phone: '-'
+phone: '-,97522 70337, 96852 93130'
 mobile: 97522 70337, 96852 93130
 email: info@saraiattoria.com
 website: http://www.saraiattoria.com
 note: ''
 type: hotel
 category:
+  - H
+  - COM
   - WEB
 showHotel: 0
 starCategory: 0
@@ -167,5 +169,30 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://www.saraiattoria.com
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This is a lovely, secluded boutique property at Panna National Park, set up by a naturalist couple to be a good base for wildlife safaris, and a nature retreat as well. Close to Khajuraho, this comfortable spot boasts a spacious rooms, brightly coloured inside, and pleasant sitouts with views over the grassland and forests. You get organic home-grown food, an in-house bakery, even cooking classes, as well as birding and village walks.

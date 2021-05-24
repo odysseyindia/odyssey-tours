@@ -6,17 +6,18 @@ mailto: ''
 address: 'Willingdon Island  '
 city: Kochi
 postalcode: 682 003
-phone: 484-266 8221, 266 8421
+phone: 484-266 8221, 266 8421,
 mobile: ''
 email: casinohotel@cghearth.com
 website: www.cghearth.com
 note: ''
 type: hotel
 category:
+  - BA
   - H
 showHotel: 1
 starCategory: 3
-checkout: '12:00:00'
+checkout: 12.00 Noon
 accessRail: 100 mtrs. from Railway Station
 accessAir: 2 kms. from Airport
 accessBus: 8 kms. from Bus Stand
@@ -24,7 +25,7 @@ advantage: ''
 rooms: 67
 rates:
   - roomType: Superior Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,7 +61,7 @@ rates:
     notes: New Year's Supplement INR 2500 pp (31/12)
     agentCommission: 5
   - roomType: Executive Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -96,7 +97,7 @@ rates:
     notes: New Year's Supplement INR 2500 pp (31/12)
     agentCommission: 5
   - roomType: Superior Pool View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -132,7 +133,7 @@ rates:
     notes: New Year's Supplement INR 2500 pp (31/12)
     agentCommission: 5
   - roomType: Superior Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -168,7 +169,7 @@ rates:
     notes: New Year's Supplement INR 2500 pp (31/12)
     agentCommission: 5
   - roomType: Executive Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -204,7 +205,7 @@ rates:
     notes: New Year's Supplement INR 2500 pp (31/12)
     agentCommission: 5
   - roomType: Superior Pool View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -239,5 +240,24 @@ rates:
     specialPeriod: 0
     notes: New Year's Supplement INR 2500 pp (31/12)
     agentCommission: 5
+ranking: 0
+bookThrough: Travelcart India Pvt Ltd
+gstType: 0
+gstin: ''
+www: www.cghearth.com
+web: 1
+mailTo: ''
 ---
+
+
+
+
+
+
+
+
+
+
+
+
 A modern 3 star hotel with an excellent seafood restaurant. Located on Willingdon Island, the Casino Hotel has 70 air-conditioned rooms and a swimming pool. The hotel is famous for its seafood restaurant which is only open in the evenings. There is no menu, just a trolley, piled high with the day's fresh catch. They cook the fish as you like it.

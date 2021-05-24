@@ -6,14 +6,15 @@ mailto: ''
 address: District Pali
 city: Jojawar
 postalcode: 306 022
-phone: 294-2412081, 8696895211
+phone: 294-2412081, 8696895211,
 mobile: ''
 email: 'jojawar@yahoo.com  info@jojawar.com  '
 website: www.jojawar.com
 note: ''
-ranking: '1'
+ranking: 1
 type: hotel
 category:
+  - H
   - ST
 showHotel: 0
 starCategory: 0
@@ -25,7 +26,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,5 +61,23 @@ rates:
     specialPeriod: 0
     notes: Took the same price as Deogarh Mahal for quotation purposes
     agentCommission: 0
+bookThrough: Booking Office of Rawla Jojawar
+gstType: 0
+gstin: ''
+www: www.jojawar.com
+web: 0
+mailTo: ''
 ---
+
+
+
+
+
+
+
+
+
+
+
+
 This is a wonderful hotel in rural surroundings managed by a very hospitable family. Part of the 18th-century fort has been restored to create comfortable rooms. The facade mirrors the style of the original fort, with scalloped arches and delicate latticework. In the courtyard garden is a delightful Rajasthani pavilion tent. Afternoon tea can be enjoyed here, overlooking the garden, with a glimpse of the swimming pool.

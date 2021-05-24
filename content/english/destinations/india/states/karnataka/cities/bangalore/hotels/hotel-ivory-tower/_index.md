@@ -6,7 +6,7 @@ mailto: ''
 address: Penthouse Floors  Barton Centre  84, M.G. Road
 city: Bangalore
 postalcode: 560 001
-phone: 80-4178 3333, 2558 9333
+phone: 80-4178 3333, 2558 9333,
 mobile: ''
 email: ivorytower@aswati.com
 website: www.hotelivorytower.com
@@ -16,7 +16,7 @@ category:
   - H
 showHotel: 1
 starCategory: 0
-checkout: '12:00:00'
+checkout: 12.00 Noon
 accessRail: ''
 accessAir: 7 kms. from Airport
 accessBus: ''
@@ -95,5 +95,18 @@ rates:
     specialPeriod: 0
     notes: Just for FAM TRIP PURPOSE
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: 29AABCA1733C1Z7
+www: www.hotelivorytower.com
+web: 1
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 An excellent mid range choice, this is a modern 'all-suite' hotel located on the top floors of one of Bangalore's tallest buildings    Located on the busy MG Road, Ivory Tower offers spacious suites with a large living area plus a bedroom with attached facilities. All rooms have spectacular views over the city.     There are a pair of roof-top multi-cuisine restaurants that serve excellent food, as well as a bar with a view.

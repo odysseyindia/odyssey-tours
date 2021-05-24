@@ -6,17 +6,22 @@ mailto: ''
 address: Village Narlai  Near Desuri  Dist.Pali
 city: Narlai
 postalcode: ''
-phone: 2934-260 443, 260 425
+phone: 2934-260 443, 260 425,
 mobile: ''
 email: 'crs@rawlanarlai.com  '
 website: http://www.rawlanarlai.com/
 note: ''
 type: hotel
 category:
+  - H
+  - HH
+  - COM
+  - WEB
   - RIK
+  - A
 showHotel: 1
 starCategory: 0
-checkout: '12:00:00'
+checkout: '12:00'
 accessRail: 40 Kms to Falna Railway Station
 accessAir: 120 Kms to Udaipur Airport
 accessBus: ''
@@ -24,187 +29,7 @@ advantage: Located in a Typical Rajasthani Village
 rooms: 25
 rates:
   - roomType: Grand Heritage Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 6000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 6500
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1800
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 10
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Classic Heritage Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Luxury Grand Heritage
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 8500
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 9000
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1800
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 10
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Classic Heritage Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Classic Heritage Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 5000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 5500
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1800
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 10
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Classic Heritage Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Junior Suite
-    mealPlan: Bed & breakfast
-    mealPlanPT: Room only
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 20000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 20000
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1800
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 10
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Classic Heritage Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Narlai Suite
-    mealPlan: Bed & breakfast
-    mealPlanPT: Room only
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 30000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 30000
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1800
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 10
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Classic Heritage Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Grand Heritage Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -240,7 +65,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Luxury Grand Heritage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -276,7 +101,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Classic Heritage Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -312,7 +137,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Junior Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -348,7 +173,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Narlai Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -384,187 +209,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Grand Heritage Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 9000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 10000
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3500
-    extraBedPT: 0
-    wef: '2020-01-06T00:00:00'
-    wet: '2020-03-31T00:00:00'
-    fromPax: 1
-    toPax: 10
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Classic Heritage Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Luxury Grand Heritage
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 13000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 14000
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3500
-    extraBedPT: 0
-    wef: '2020-01-06T00:00:00'
-    wet: '2020-03-31T00:00:00'
-    fromPax: 1
-    toPax: 10
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Classic Heritage Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Classic Heritage Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 6800
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 7800
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3500
-    extraBedPT: 0
-    wef: '2020-01-06T00:00:00'
-    wet: '2020-03-31T00:00:00'
-    fromPax: 1
-    toPax: 10
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Classic Heritage Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Junior Suite
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 35000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 35000
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3500
-    extraBedPT: 0
-    wef: '2020-01-06T00:00:00'
-    wet: '2020-03-31T00:00:00'
-    fromPax: 1
-    toPax: 10
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Classic Heritage Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Narlai Suite
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 50000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 50000
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3500
-    extraBedPT: 0
-    wef: '2020-01-06T00:00:00'
-    wet: '2020-03-31T00:00:00'
-    fromPax: 1
-    toPax: 10
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Classic Heritage Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Grand Heritage Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -603,7 +248,7 @@ rates:
       person  
     agentCommission: 0
   - roomType: Luxury Grand Heritage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -642,7 +287,7 @@ rates:
       person  
     agentCommission: 0
   - roomType: Classic Heritage Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -681,7 +326,7 @@ rates:
       person  
     agentCommission: 0
   - roomType: Junior Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -720,7 +365,7 @@ rates:
       person  
     agentCommission: 0
   - roomType: Narlai Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -759,7 +404,7 @@ rates:
       person  
     agentCommission: 0
   - roomType: Grand Heritage Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -795,7 +440,7 @@ rates:
     notes: '  '
     agentCommission: 0
   - roomType: Luxury Grand Heritage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -831,7 +476,7 @@ rates:
     notes: '  '
     agentCommission: 0
   - roomType: Classic Heritage Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -867,7 +512,7 @@ rates:
     notes: '  '
     agentCommission: 0
   - roomType: Junior Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -903,7 +548,7 @@ rates:
     notes: '  '
     agentCommission: 0
   - roomType: Narlai Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -939,7 +584,187 @@ rates:
     notes: '  '
     agentCommission: 0
   - roomType: Grand Heritage Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 9000
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 10000
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3500
+    extraBedPT: 0
+    wef: '2020-01-06T00:00:00'
+    wet: '2020-03-31T00:00:00'
+    fromPax: 1
+    toPax: 10
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Classic Heritage Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Luxury Grand Heritage
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 13000
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 14000
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3500
+    extraBedPT: 0
+    wef: '2020-01-06T00:00:00'
+    wet: '2020-03-31T00:00:00'
+    fromPax: 1
+    toPax: 10
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Classic Heritage Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Classic Heritage Room
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 6800
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 7800
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3500
+    extraBedPT: 0
+    wef: '2020-01-06T00:00:00'
+    wet: '2020-03-31T00:00:00'
+    fromPax: 1
+    toPax: 10
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Classic Heritage Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Junior Suite
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 35000
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 35000
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3500
+    extraBedPT: 0
+    wef: '2020-01-06T00:00:00'
+    wet: '2020-03-31T00:00:00'
+    fromPax: 1
+    toPax: 10
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Classic Heritage Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Narlai Suite
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 50000
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 50000
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3500
+    extraBedPT: 0
+    wef: '2020-01-06T00:00:00'
+    wet: '2020-03-31T00:00:00'
+    fromPax: 1
+    toPax: 10
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Classic Heritage Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Grand Heritage Room
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -975,7 +800,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Luxury Grand Heritage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1011,7 +836,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Classic Heritage Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1047,7 +872,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Junior Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: Room only
     currency: INR
     currencyPT: INR
@@ -1083,7 +908,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Narlai Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: Room only
     currency: INR
     currencyPT: INR
@@ -1119,7 +944,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Grand Heritage Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1155,7 +980,7 @@ rates:
     notes: Mandatory Christmas Eve Gala Dinner supplement @ INR 8000 AI per person
     agentCommission: 0
   - roomType: Luxury Grand Heritage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1191,7 +1016,7 @@ rates:
     notes: Mandatory Christmas Eve Gala Dinner supplement @ INR 8000 AI per person
     agentCommission: 0
   - roomType: Classic Heritage Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1227,7 +1052,7 @@ rates:
     notes: Mandatory Christmas Eve Gala Dinner supplement @ INR 8000 AI per person
     agentCommission: 0
   - roomType: Junior Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1263,7 +1088,7 @@ rates:
     notes: Mandatory Christmas Eve Gala Dinner supplement @ INR 8000 AI per person
     agentCommission: 0
   - roomType: Narlai Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1299,187 +1124,7 @@ rates:
     notes: Mandatory Christmas Eve Gala Dinner supplement @ INR 8000 AI per person
     agentCommission: 0
   - roomType: Grand Heritage Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 8500
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 9500
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3000
-    extraBedPT: 0
-    wef: '2021-01-06T00:00:00'
-    wet: '2021-03-31T00:00:00'
-    fromPax: 1
-    toPax: 10
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Classic Heritage Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Luxury Grand Heritage
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 12000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 13000
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3000
-    extraBedPT: 0
-    wef: '2021-01-06T00:00:00'
-    wet: '2021-03-31T00:00:00'
-    fromPax: 1
-    toPax: 10
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Classic Heritage Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Classic Heritage Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 7000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 7700
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3000
-    extraBedPT: 0
-    wef: '2021-01-06T00:00:00'
-    wet: '2021-03-31T00:00:00'
-    fromPax: 1
-    toPax: 10
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Classic Heritage Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Junior Suite
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 30000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 30000
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3000
-    extraBedPT: 0
-    wef: '2021-01-06T00:00:00'
-    wet: '2021-03-31T00:00:00'
-    fromPax: 1
-    toPax: 10
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Classic Heritage Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Narlai Suite
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 43000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 43000
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3000
-    extraBedPT: 0
-    wef: '2021-01-06T00:00:00'
-    wet: '2021-03-31T00:00:00'
-    fromPax: 1
-    toPax: 10
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Classic Heritage Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Grand Heritage Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1517,7 +1162,7 @@ rates:
       Dinner (31 Dec): Rs 10,000/- A.I.
     agentCommission: 0
   - roomType: Luxury Grand Heritage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1555,7 +1200,7 @@ rates:
       Dinner (31 Dec): Rs 10,000/- A.I.
     agentCommission: 0
   - roomType: Classic Heritage Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1593,7 +1238,7 @@ rates:
       Dinner (31 Dec): Rs 10,000/- A.I.
     agentCommission: 0
   - roomType: Junior Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1631,7 +1276,7 @@ rates:
       Dinner (31 Dec): Rs 10,000/- A.I.
     agentCommission: 0
   - roomType: Narlai Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1669,7 +1314,7 @@ rates:
       Dinner (31 Dec): Rs 10,000/- A.I.
     agentCommission: 0
   - roomType: Grand Heritage Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1705,7 +1350,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Luxury Grand Heritage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1741,7 +1386,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Classic Heritage Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1777,7 +1422,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Junior Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1813,7 +1458,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Narlai Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1848,5 +1493,228 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+  - roomType: Grand Heritage Room
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 8500
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 9500
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3000
+    extraBedPT: 0
+    wef: '2021-01-06T00:00:00'
+    wet: '2021-03-31T00:00:00'
+    fromPax: 1
+    toPax: 10
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Classic Heritage Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Luxury Grand Heritage
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 12000
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 13000
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3000
+    extraBedPT: 0
+    wef: '2021-01-06T00:00:00'
+    wet: '2021-03-31T00:00:00'
+    fromPax: 1
+    toPax: 10
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Classic Heritage Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Classic Heritage Room
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 7000
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 7700
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3000
+    extraBedPT: 0
+    wef: '2021-01-06T00:00:00'
+    wet: '2021-03-31T00:00:00'
+    fromPax: 1
+    toPax: 10
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Classic Heritage Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Junior Suite
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 30000
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 30000
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3000
+    extraBedPT: 0
+    wef: '2021-01-06T00:00:00'
+    wet: '2021-03-31T00:00:00'
+    fromPax: 1
+    toPax: 10
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Classic Heritage Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Narlai Suite
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 43000
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 43000
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3000
+    extraBedPT: 0
+    wef: '2021-01-06T00:00:00'
+    wet: '2021-03-31T00:00:00'
+    fromPax: 1
+    toPax: 10
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Classic Heritage Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+ranking: 1
+bookThrough: ''
+gstType: 1
+gstin: 08AAIFR4008D1ZH
+www: http://www.rawlanarlai.com/
+web: 1
+mailTo: ''
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This former hunting lodge is now a charming heritage hotel. The rooms and suites are all delightfully different from each other, with local Rajasthani furniture. There is a large, well-maintained courtyard lawn bordered by flaming bougainvillea, and an immaculate swimming pool, making this a wonderful place to break your journey, and to explore the surrounding village and its attractive boulder-strewn landscape. One of the most spectacular experiences at Narlai (or anywhere) is the beautiful, lamp-lit step-well dinner, a must for a romantic stay. You can also go horse-riding, trekking or on a leopard safari; all these activities can be booked directly at the hotel.

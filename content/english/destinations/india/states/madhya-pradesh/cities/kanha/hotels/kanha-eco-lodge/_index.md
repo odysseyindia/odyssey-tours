@@ -6,7 +6,7 @@ mailto: ''
 address: Near Kanha National Park- Kisli / Khatia gate   Village Boda Chhapri  PO Mocha
 city: Kanha
 postalcode: ''
-phone: '-'
+phone: '-,'
 mobile: ''
 email: info@kanhavillage.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

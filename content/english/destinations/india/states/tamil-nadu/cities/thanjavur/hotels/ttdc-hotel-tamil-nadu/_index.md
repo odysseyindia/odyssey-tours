@@ -6,7 +6,7 @@ mailto: ''
 address: Gandhiji Road
 city: Tanjore
 postalcode: 613 001
-phone: 4362-31 421, 31 024, 31 972
+phone: 4362-31 421, 31 024, 31 972,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

@@ -6,7 +6,7 @@ mailto: ''
 address: 'East Coast Road  Kovalam Road  '
 city: Mamallapuram
 postalcode: 603 104
-phone: '-'
+phone: '-,'
 mobile: ''
 email: sales@grandebayresort.in
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

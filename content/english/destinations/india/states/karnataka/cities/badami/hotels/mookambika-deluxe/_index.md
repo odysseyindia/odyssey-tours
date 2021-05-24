@@ -6,7 +6,7 @@ mailto: ''
 address: Station Road  Opposite KSRTC Bus Stand
 city: Badami
 postalcode: 587 201
-phone: 8357-720 067, 720 637
+phone: 8357-720 067, 720 637,
 mobile: ''
 email: mukambika2@sify.com
 website: ''
@@ -22,5 +22,18 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 A small modern and clean hotel in the centre of town. The Mookambika Deluxe has 14 rooms, all comfortably furnished with en-suite facilities. Some rooms have air-conditioning.

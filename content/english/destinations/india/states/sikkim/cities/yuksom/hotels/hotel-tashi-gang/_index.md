@@ -6,13 +6,15 @@ mailto: ''
 address: West District Sikkim
 city: Yuksom
 postalcode: 737 113
-phone: 3595-241 202-3
+phone: 3595-241 202-3,
 mobile: ''
 email: hoteltashigang@gmail.com
 website: ''
 note: ''
 type: hotel
 category:
+  - H
+  - ST
   - RIK
 showHotel: 0
 starCategory: 0
@@ -24,7 +26,7 @@ advantage: ''
 rooms: 21
 rates:
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,7 +62,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -96,7 +98,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -132,7 +134,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -167,5 +169,30 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 4
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Located on an upper street in Yuksom, and near the 'king's coronation' stupa, the Tashi Gang Resort is a pleasant two-storey building in the plaster and timber-work style of Sikkimese houses. It has a large lawn in the front, complete with tables and sun umbrellas. The rooms are simple, but comfortable, and are always clean. Traditional rugs and hand-woven cloth brighten the interiors.

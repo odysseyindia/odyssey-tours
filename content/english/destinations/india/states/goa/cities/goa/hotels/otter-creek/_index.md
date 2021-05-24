@@ -6,7 +6,7 @@ mailto: ''
 address: 'Near Ashvem Beach  '
 city: Mandrem
 postalcode: ''
-phone: 832-2247616
+phone: 832-2247616,
 mobile: ''
 email: sandra@aseascape.com  gaze@aseascape.com
 website: www.aseascape.com
@@ -275,4 +275,17 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.aseascape.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

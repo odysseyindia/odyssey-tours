@@ -6,7 +6,7 @@ mailto: ''
 address: ''
 city: Leh
 postalcode: ''
-phone: '-'
+phone: '-,'
 mobile: ''
 email: ''
 website: ''
@@ -22,5 +22,18 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Rimo Expeditions
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 Snowland Resorts is a new structure built on a small hill, with unrestricted views over fields and snow topped mountains.     It is these vistas that really make the hotel exceptional. Wooden balconies off the upper rooms and low windows of the ground floor rooms invite you to admire them. All rooms are unpretentious and clean.

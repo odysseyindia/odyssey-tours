@@ -6,13 +6,15 @@ mailto: ''
 address: Near Madhai Gate  Sarangpur
 city: Satpura
 postalcode: 461 668
-phone: '-'
+phone: '-,'
 mobile: ''
 email: ''
 website: https://www.denwabackwaterescape.com/
 note: ''
 type: hotel
 category:
+  - A
+  - COM
   - H
 showHotel: 0
 starCategory: 0
@@ -175,5 +177,30 @@ rates:
       rates copied from 2019-2020  Mandatory New Year's Eve dinner: Rs 3,000/-
       p.p.  Mandatory 3-nights' stay over New Year Eve
     agentCommission: 0
+bookThrough: Pugdundee Safaris
+gstType: 0
+gstin: ''
+www: https://www.denwabackwaterescape.com/
+web: 0
+mailTo: ''
+ranking: 2
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Denwa Backwater Escape overlooks the beautiful Denwa River at Satpura National Park. The lodge has been mainly built using local materials like stone and baked tiles, in contemporary safari style. The rooms, whether the spacious cottages or premium treehouses,  are done up with unique leather safari furniture and local crafts. The main building and the pool offer pleasant spaces to relax between game rides. 

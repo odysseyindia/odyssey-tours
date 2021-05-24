@@ -6,13 +6,16 @@ mailto: ''
 address: Near Town Park
 city: Mokokchung
 postalcode: 798 601
-phone: 369-222 6373, 222 9343
+phone: 369-222 6373, 222 9343,080145 87442
 mobile: 080145 87442
 email: metsuben@yahoo.com
 website: ''
 note: ''
 type: hotel
 category:
+  - H
+  - ST
+  - WEB
   - RIK
 showHotel: 0
 starCategory: 0
@@ -353,5 +356,36 @@ rates:
     specialPeriod: 0
     notes: The rates for a Suite and Standard Room are not updated as yet
     agentCommission: 5
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 The Tourist Lodge has been privatized and is now Hotel Metsuben, by far the best place in town to stay the night. It is well situated on a hill close to the centre of town. Hotel Metsuben offers comfortable rooms with cable T.V., telephone and electricity back-up. There is a restaurant that offers Naga, Indian and Chinese cuisine, and a small internet cafe with broadband internet facilities in the lobby.

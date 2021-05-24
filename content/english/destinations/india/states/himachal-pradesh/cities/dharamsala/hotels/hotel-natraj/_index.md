@@ -6,7 +6,7 @@ mailto: ''
 address: 'McLeodganj  Upper Dharamsala    '
 city: Dharamsala
 postalcode: 176 219
-phone: 1892-221 575, 221 529
+phone: 1892-221 575, 221 529,
 mobile: ''
 email: hotelnatraj@sancharnet.in
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

@@ -6,7 +6,7 @@ mailto: ''
 address: '12, J. L. Nehru Road  '
 city: Kolkata
 postalcode: 700 013
-phone: 33-4400 3900, 2228 0301
+phone: 33-4400 3900, 2228 0301,
 mobile: ''
 email: sm@peerlesshotels.com
 website: http://www.peerlesshotels.com/Kolkata
@@ -22,5 +22,18 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 122
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://www.peerlesshotels.com/Kolkata
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 This impressive, large, modern hotel has an ideal location on Chowringhee, close to Esplanade Metro Station and the Indian Museum. The large lobby has a small cake shop, and a very attractive larger coffee shop. On the mezzanine are a bar, and an award-winning specialist Bengali restaurant.

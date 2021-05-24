@@ -6,14 +6,15 @@ mailto: ''
 address: 'Valathoor, Rippon  '
 city: Meppadi
 postalcode: 673 577
-phone: '-'
+phone: '-,63664 37962, 92498 61898'
 mobile: 63664 37962, 92498 61898
 email: reservations@aftertherains.in  info@aftertherains.in
 website: http://www.aftertherains.in/
 note: ''
-ranking: '1'
+ranking: 1
 type: hotel
 category:
+  - H
   - COM
 showHotel: 0
 starCategory: 0
@@ -312,5 +313,23 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: Harivihar Wellness Retreat
+gstType: 0
+gstin: ''
+www: http://www.aftertherains.in/
+web: 0
+mailTo: ''
 ---
+
+
+
+
+
+
+
+
+
+
+
+
 After The Rains is set in a 16-acre coffee plantation, with astonishing views over the hills and valleys of Wayanad. As the name suggests, it's best right after the monsoon period, with lush greenery and waterfalls, but it's a relaxing spot year-round, with plenty of walks and pleasant sitouts around the property, comfortable cottages (some with bathtubs) and very good food, mostly home-grown.

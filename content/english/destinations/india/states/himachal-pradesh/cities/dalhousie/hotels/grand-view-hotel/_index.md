@@ -6,7 +6,7 @@ mailto: ''
 address: The Mall
 city: Dalhousie
 postalcode: 176 304
-phone: 1899-240 760, 242 823, 242 194
+phone: 1899-240 760, 242 823, 242 194,
 mobile: ''
 email: grandview@rediffmail.com  reservations@grandviewdalhousie.in
 website: www.grandviewdalhousie.in
@@ -16,7 +16,7 @@ category:
   - H
 showHotel: 1
 starCategory: 2
-checkout: '12:00:00'
+checkout: 12.00 Noon
 accessRail: 80 kms from Railway Station
 accessAir: 17 kms. from Airport
 accessBus: 0.5 km. from Bus Stand
@@ -455,5 +455,18 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: 02AADFH3571J1ZL
+www: www.grandviewdalhousie.in
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 The Grand View Hotel is one of the few standing buildings in Dalhousie that still evoke the grace and grandeur of this erstwhile British retreat. The building has a long wooden facade complete with the original fretwork and gabled roofs that faces panoramic views of the majestic Pir Panjal snow peaks in the distance. There is a large sunny dining area that serves steaming hot Indian food, perfect to warm your insides after a walk along the nearby Mall.

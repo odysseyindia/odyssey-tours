@@ -6,7 +6,7 @@ mailto: ''
 address: P.O.Massinigudi  Nilgiris
 city: Massinigudi
 postalcode: 643 223
-phone: 423-56 222 , 56 211
+phone: 423-56 222 , 56 211,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+ranking: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
 ---
+
+
+
+
+
+

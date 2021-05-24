@@ -6,17 +6,20 @@ mailto: ''
 address: 77 Sylks Road  Dist. Nilgiris
 city: Ootacamund
 postalcode: 643 001
-phone: 423-2225500
+phone: 423-2225500,
 mobile: ''
 email: savoy.ooty@tajhotels.com
 website: http://www.tajhotels.com/Leisure/Savoy%20Hotel,OOTY/default.htm
 note: ''
 type: hotel
 category:
+  - H
+  - HH
+  - COM
   - WEB
 showHotel: 1
 starCategory: 0
-checkout: '12:00:00'
+checkout: 12.00 Noon
 accessRail: 11/2 kms from Railway Station
 accessAir: 100 kms from Airport
 accessBus: 11/2 kms from bus stand
@@ -463,5 +466,36 @@ rates:
       24/12 Dinner & 25/12 Lunch : Rs 4000pp + tax  31/12 Diiner: Rs 5250 pp +
       tax    
     agentCommission: 0
+bookThrough: Travelcart India Pvt Ltd
+gstType: 0
+gstin: ''
+www: http://www.tajhotels.com/Leisure/Savoy%20Hotel,OOTY/default.htm
+web: 1
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 The best place to stay in Ooty. High on the slopes of a hill, the Savoy, operated by the Taj hotels, sprawls over six acres of landscaped gardens, offering colonial-style cottages built between 1834 and 1865. The rooms have a colonial atmosphere with working fireplaces, wooden floors and brass fittings. Colorful flowerbeds merge to form a multi-coloured quilt around the cottages, adding to the old English Charm.

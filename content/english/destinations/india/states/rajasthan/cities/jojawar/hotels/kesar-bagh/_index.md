@@ -6,7 +6,7 @@ mailto: ''
 address: ''
 city: Jojawar
 postalcode: ''
-phone: '-'
+phone: '-,'
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Booking Office of Rawla Jojawar
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

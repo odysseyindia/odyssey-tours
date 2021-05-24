@@ -6,13 +6,16 @@ mailto: ''
 address: 'Next to Taj Savoy  Sylks Road  '
 city: Ootacamund
 postalcode: 643 001
-phone: '-'
+phone: '-,98431 49490'
 mobile: 98431 49490
 email: thewildstay@yahoo.com
 website: www.serendipityo.com
 note: ''
 type: hotel
 category:
+  - H
+  - ST
+  - A
   - WEB
 showHotel: 0
 starCategory: 0
@@ -95,5 +98,36 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2018-2019
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.serendipityo.com
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 The Lymond House is a sweet colonial house, combining old-world charm with modern conveniences, You can relax in the Victorian drawing room with an open log fires, find a sunny spot to sit and read a book, or use this simple, cosy place as a base to explore Ooty.

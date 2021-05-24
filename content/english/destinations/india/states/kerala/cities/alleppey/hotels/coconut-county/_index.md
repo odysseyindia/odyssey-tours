@@ -6,7 +6,7 @@ mailto: ''
 address: Rajkripa,  Beach Road
 city: Allapuzha
 postalcode: 688 012
-phone: 477-251 432, 251 070
+phone: 477-251 432, 251 070,
 mobile: ''
 email: raj_kripa@hotmail.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

@@ -6,7 +6,7 @@ mailto: ''
 address: Bodhgaya,  Dist. Gaya
 city: Bodh Gaya
 postalcode: 824 231
-phone: 631-2200761, 2200481, 2200009
+phone: 631-2200761, 2200481, 2200009,
 mobile: ''
 email: htsujata@vsnl.com  info@sujatahotel.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Colleague Tours Pvt. Ltd.
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

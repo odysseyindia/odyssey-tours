@@ -6,7 +6,7 @@ mailto: ''
 address: Mangaal Village  Quepem
 city: Goa
 postalcode: 403 704
-phone: 832-2464001
+phone: 832-2464001,
 mobile: ''
 email: info@mangaalfarmstay.com
 website: ''
@@ -95,5 +95,18 @@ rates:
     specialPeriod: 0
     notes: Rates as per discussion with Phil
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 This farmstay, near Netravali Wildlife Sactuary, is a Goa far removed from parties and crowded beaches. The rooms are modest but comfy, and there's a pool, yoga/meditation space, and many reading corners. Cheerful local women make great meals using organic produce straight from the farm.  There's much to do here - planting or picking veggies, visits to the village and the school, trekking to the waterfall, birding and more.

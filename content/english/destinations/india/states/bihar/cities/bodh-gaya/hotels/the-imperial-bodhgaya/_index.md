@@ -6,7 +6,7 @@ mailto: ''
 address: 'Village Mastpura   N.H. 83, Gaya - Dobhi Road  '
 city: Bodh Gaya
 postalcode: ''
-phone: 631-2200116
+phone: 631-2200116,
 mobile: ''
 email: ''
 website: ''
@@ -96,7 +96,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -132,7 +132,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Club Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -167,4 +167,17 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: The Imperial Bodh Gaya/Kushinagar booking office
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

@@ -6,13 +6,15 @@ mailto: ''
 address: ''
 city: Rohet
 postalcode: ''
-phone: '-'
+phone: '-,'
 mobile: ''
 email: reservations@houseofrohet.com
 website: http://houseofrohet.com/mihir_garh/
 note: ''
 type: hotel
 category:
+  - H
+  - SH
   - WEB
 showHotel: 0
 starCategory: 0
@@ -24,115 +26,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Mihir Suite
-    mealPlan: Bed & breakfast
-    mealPlanPT: Room only
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 28500
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 28500
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3500
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Alishan Suite
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Alishan Suite
-    mealPlan: Bed & breakfast
-    mealPlanPT: Room only
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 20000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 23500
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3500
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Alishan Suite
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Shandaar Suite
-    mealPlan: Bed & breakfast
-    mealPlanPT: Room only
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 20000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 23500
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3500
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Alishan Suite
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Mihir Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -168,7 +62,7 @@ rates:
     notes: 'Christmas & New Year supplements: Rs.4,000/- p.p.+Tax'
     agentCommission: 0
   - roomType: Alishan Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -204,7 +98,7 @@ rates:
     notes: 'Christmas & New Year supplements: Rs.4,000/- p.p.+Tax'
     agentCommission: 0
   - roomType: Shandaar Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -240,7 +134,7 @@ rates:
     notes: 'Christmas & New Year supplements: Rs.4,000/- p.p.+Tax'
     agentCommission: 0
   - roomType: Mihir Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -276,7 +170,7 @@ rates:
     notes: 'Christmas & New Year supplements: Rs.4,000/- p.p.+Tax'
     agentCommission: 0
   - roomType: Alishan Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -312,7 +206,7 @@ rates:
     notes: 'Christmas & New Year supplements: Rs.4,000/- p.p.+Tax'
     agentCommission: 0
   - roomType: Shandaar Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -348,7 +242,7 @@ rates:
     notes: 'Christmas & New Year supplements: Rs.4,000/- p.p.+Tax'
     agentCommission: 0
   - roomType: Mihir Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -384,7 +278,7 @@ rates:
     notes: 'Christmas & New Year supplements: Rs.4,400/- p.p.+Tax'
     agentCommission: 0
   - roomType: Alishan Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -420,7 +314,7 @@ rates:
     notes: 'Christmas & New Year supplements: Rs.4,400/- p.p.+Tax'
     agentCommission: 0
   - roomType: Shandaar Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -455,5 +349,30 @@ rates:
     specialPeriod: 0
     notes: 'Christmas & New Year supplements: Rs.4,400/- p.p.+Tax'
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://houseofrohet.com/mihir_garh/
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This superb, newly-built fortress overlooks the Thar desert, in the heart of Rajasthan. Ranked as one of the best hotels in the world, it mirrors the architecture of the local villages, with rounded edges, open fireplaces and alcoves, and the colour of the stone merges with the surrounding sand. Each luxurious suite provides a unique place to relax, where luxurious appointments act as a foil to the surrounding desert. 

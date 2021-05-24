@@ -6,7 +6,7 @@ mailto: ''
 address: 14, Sunder Nagar
 city: New Delhi
 postalcode: 110 003
-phone: 11-24358572, 24359541, 24351249
+phone: 11-24358572, 24359541, 24351249,
 mobile: ''
 email: lasagrit@del3.vsnl.net.in
 website: www.lasagrita.com
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.lasagrita.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

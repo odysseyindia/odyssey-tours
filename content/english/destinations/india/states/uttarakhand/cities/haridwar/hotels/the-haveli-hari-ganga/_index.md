@@ -6,13 +6,16 @@ mailto: ''
 address: Pilibhit House  21 Ramghat
 city: Haridwar
 postalcode: 249 401
-phone: 1334-265 207, 226 443
+phone: 1334-265 207, 226 443,
 mobile: ''
 email: 'haridwar@leisurehotels.in  reservations@leisurehotels.in  '
 website: www.leisurehotels.co.in
 note: ''
 type: hotel
 category:
+  - H
+  - COM
+  - WEB
   - RIK
 showHotel: 0
 starCategory: 4
@@ -24,7 +27,7 @@ advantage: 'The only heritage hotel in Haridwar with its own Ghat '
 rooms: 20
 rates:
   - roomType: Superior Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -62,7 +65,7 @@ rates:
       be 25% cheaper.  Transfers by private rickshaw included.
     agentCommission: 0
   - roomType: River View Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -100,7 +103,7 @@ rates:
       be 25% cheaper.  Transfers by private rickshaw included.
     agentCommission: 0
   - roomType: Heritage Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -138,7 +141,7 @@ rates:
       be 25% cheaper.  Transfers by private rickshaw included.
     agentCommission: 0
   - roomType: River View Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -176,7 +179,7 @@ rates:
       be 25% cheaper.  Transfers by private rickshaw included.
     agentCommission: 0
   - roomType: Heritage Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -214,7 +217,7 @@ rates:
       be 25% cheaper.  Transfers by private rickshaw included.
     agentCommission: 0
   - roomType: River View Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -252,7 +255,7 @@ rates:
       be 25% cheaper.  Transfers by private rickshaw included.
     agentCommission: 0
   - roomType: Superior Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -291,7 +294,7 @@ rates:
       rickshaw included.
     agentCommission: 0
   - roomType: River View Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -330,7 +333,7 @@ rates:
       rickshaw included.
     agentCommission: 0
   - roomType: Heritage Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -369,7 +372,7 @@ rates:
       rickshaw included.
     agentCommission: 0
   - roomType: River View Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -408,7 +411,7 @@ rates:
       rickshaw included.
     agentCommission: 0
   - roomType: Heritage Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -447,7 +450,7 @@ rates:
       rickshaw included.
     agentCommission: 0
   - roomType: River View Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -485,5 +488,36 @@ rates:
       dates. On other dates, rates may be 25% cheaper.  Transfers by private
       rickshaw included.
     agentCommission: 0
+bookThrough: Leisure Hotels Ltd
+gstType: 1
+gstin: 05AACCP2288E1ZL
+www: www.leisurehotels.co.in
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 The Haveli Hari Ganga is situated on the banks of the holy river Ganges. This is a beautifully restored mansion, now a heritage hotel with well-appointed rooms. The restaurant serves excellent vegetarian food. There is a well-equipped ayurvedic spa, and the hotel offers many complimentary services, such as early morning yoga classes and an escort to the evening aarti ceremony. The hotel even has its own private bathing ghat.

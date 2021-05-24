@@ -6,13 +6,15 @@ mailto: ''
 address: 'Kanak Towers  7A Russell Street  '
 city: Kolkata
 postalcode: 700 071
-phone: 33-4604 5267
+phone: 33-4604 5267,98302 58050
 mobile: 98302 58050
 email: info@GlenburnPenthouse.com
 website: http://glenburnpenthouse.com/
 note: ''
 type: hotel
 category:
+  - H
+  - SH
   - WEB
 showHotel: 0
 starCategory: 0
@@ -24,7 +26,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Grand Bengal Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,7 +62,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Calcutta Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -95,5 +97,30 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://glenburnpenthouse.com/
+web: 0
+mailTo: ''
+ranking: 2
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 The Glenburn Penthouse is an elegant residence in the heart of historic Kolkata, with an exquisite collection of antique Bengal colonial furniture and artworks. The Penthouse has spectacular views of Kolkata's iconic landmarks, easily enjoyed from lovely common spaces with Glenburn's own estate tea. The spacious suites have four-poster beds, and an air of Raj-era elegance. There is a library, a sun deck, even an infinity swimming pool that looks across to the Victoria Memorial.

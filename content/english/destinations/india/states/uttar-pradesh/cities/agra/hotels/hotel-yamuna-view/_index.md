@@ -6,7 +6,7 @@ mailto: ''
 address: 6B, The Mall Road,
 city: Agra
 postalcode: 282 001
-phone: 562-246 2990, 329 3777, 329 1777
+phone: 562-246 2990, 329 3777, 329 1777,
 mobile: ''
 email: info@colleaguetours.in
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Colleague Tours Pvt. Ltd.
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

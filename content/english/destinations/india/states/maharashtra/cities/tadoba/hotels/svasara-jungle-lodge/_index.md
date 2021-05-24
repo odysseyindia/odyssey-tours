@@ -6,13 +6,16 @@ mailto: ''
 address: Near Kolara Gate  Tadoba-Andhari Tiger Reserve  Chimur  Chandrapur District
 city: Tadoba
 postalcode: 442 903
-phone: '-'
+phone: '-,93700 08008'
 mobile: 93700 08008
 email: info@svasararesorts.com  ranjit@svasararesorts.com
 website: http://svasararesorts.com/
 note: ''
 type: hotel
 category:
+  - H
+  - COM
+  - A
   - WEB
 showHotel: 0
 starCategory: 0
@@ -100,5 +103,36 @@ rates:
       from 01-Oct to 30-June. Tadoba National Park remains open for all 7 days
       in a week.
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://svasararesorts.com/
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Svasara Jungle Lodge is an upscale, modern eco-friendly lodge for wildlife and nature enthusiasts, located in 10 acres of restored forest near the Kolara Gate of Tadoba-Andhari Tiger Reserve. The lodge features elegantly furnished rooms with all modern amenities and luxuries, multi-cuisine dining options including the local Varadi cuisine, as well as an immersive safari experience with knowledgeable naturalists.

@@ -6,13 +6,16 @@ mailto: ''
 address: 8 3/4 Mile, Rishi Road  Above New Fire Station  P O Box 50, Holumba
 city: Kalimpong
 postalcode: 734 301
-phone: 3552-256 936, 257 405
+phone: 3552-256 936, 257 405,
 mobile: ''
 email: holumba@hotmail.com
 website: www.holumba.com
 note: ''
 type: hotel
 category:
+  - H
+  - RIK
+  - ST
   - WEB
 showHotel: 0
 starCategory: 0
@@ -24,7 +27,7 @@ advantage: ''
 rooms: 19
 rates:
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,7 +63,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -96,7 +99,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -133,5 +136,36 @@ rates:
       Previous year rate applicable and valid till march 2022  till the time we
       recieve revised rates.
     agentCommission: 0
+bookThrough: ''
+gstType: 4
+gstin: ''
+www: www.holumba.com
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Holumba Haven is a family-run guesthouse with quaint wooden cottages in two acres of orchid farm and botanical garden. The owners export orchids species throughout the world. There is a delightful lawn, with hammocks and benches making this an ideal place for relaxation in a friendly and peaceful environment. Excellent home-cooked meals are served, but these must be ordered in advance.

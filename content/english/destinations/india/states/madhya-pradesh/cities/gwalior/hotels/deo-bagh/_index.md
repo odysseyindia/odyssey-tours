@@ -6,7 +6,7 @@ mailto: ''
 address: Jadhav Kothi  Opposite Janaktal  Agra - Mumbai Highway  Bahodapur
 city: Gwalior
 postalcode: ' 474 012'
-phone: 751-28 2 0357
+phone: 751-28 2 0357,
 mobile: ''
 email: deobagh@neemranahotels.com
 website: http://www.neemranahotels.com/deo-bagh-gwalior-madhya-pradesh
@@ -14,6 +14,9 @@ note: ''
 type: hotel
 category:
   - H
+  - ST
+  - RIK
+  - WEB
 showHotel: 0
 starCategory: 0
 checkout: ''
@@ -24,7 +27,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Heritage Royal Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,7 +63,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Heritage Splendour Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -96,7 +99,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Heritage Old World Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -132,7 +135,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Heritage Royal Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -168,7 +171,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Heritage Splendour Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -204,7 +207,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Heritage Old World Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -239,5 +242,36 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: Neemrana Hotels Pvt. Ltd.
+gstType: 0
+gstin: ''
+www: http://www.neemranahotels.com/deo-bagh-gwalior-madhya-pradesh
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 A new hotel in Gwalior, though you wouldn't know it: the stone buildings and traditional decor are perfectly judged. The rooms are around a generous lawn, on the other side of which are the stunning cenotaphs and temple of the local aristocratic family: your own, private monuments to savour.

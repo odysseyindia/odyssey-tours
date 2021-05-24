@@ -6,7 +6,7 @@ mailto: ''
 address: P. O. Baid,   Khambhalia Highway
 city: Jamnagar
 postalcode: 361 006
-phone: 288-444 84/5/8/9
+phone: 288-444 84/5/8/9,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

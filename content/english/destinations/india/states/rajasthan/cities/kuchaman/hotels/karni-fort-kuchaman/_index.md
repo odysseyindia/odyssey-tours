@@ -6,7 +6,7 @@ mailto: ''
 address: Bypass Circle, Station Road  Panwari
 city: Kuchaman
 postalcode: 341 508
-phone: 77376-99231
+phone: 77376-99231,91666 68422
 mobile: 91666 68422
 email: ''
 website: https://hotel-karni-fort.business.site/
@@ -24,7 +24,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -59,4 +59,17 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 5
+bookThrough: Kaustubh Holidays Tours & Travels Pvt Ltd
+gstType: 0
+gstin: ''
+www: https://hotel-karni-fort.business.site/
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

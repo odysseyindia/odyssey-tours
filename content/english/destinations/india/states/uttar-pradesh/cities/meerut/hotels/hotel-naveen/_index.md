@@ -6,7 +6,7 @@ mailto: ''
 address: 169 Abu Lane
 city: Meerut
 postalcode: 250 001
-phone: 121-2660125
+phone: 121-2660125,
 mobile: ''
 email: hotelnaveen@hotmail.com
 website: www.hotelnaveen.com
@@ -22,5 +22,18 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.hotelnaveen.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 Bikaner House was the summer residence of the royal family of Bikaner. Constructed in 1893, the mansion was designed by the legendary architect Sir Swinton Jacob.    Set on vast grounds amidst tranquil hills, Bikaner House occupied one of the best locations in Mount Abu and was visited regularly by the Maharaja.    In 1962 the royal residence was converted into a heritage hotel and it is now called 'Palace Hotel'.

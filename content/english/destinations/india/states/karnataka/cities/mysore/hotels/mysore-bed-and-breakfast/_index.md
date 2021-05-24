@@ -6,7 +6,7 @@ mailto: ''
 address: 163, Moksha Marga  Siddhartha Layout
 city: Mysore
 postalcode: 570 011
-phone: '-'
+phone: '-,98867 05179'
 mobile: 98867 05179
 email: tours@mycycle.co
 website: www.ManjulasMysore.in
@@ -62,5 +62,18 @@ rates:
       between two rooms. There are fans but no A/C. It’s very much sharing my
       home.
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.ManjulasMysore.in
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 Mysore BnB has provided informal, homely accommodation for almost a decade. A two-floor house in a quiet residential area, ten minutes from the Palace, it offers four rooms with shared toilet and bathroom. The British host is wonderful, full of cheer and extremely knowledgeable about Mysore. He operates his own cycling tours, which you can book right there, or simply get useful information and a homemade map. You can request home-cooked Indian vegetarian meals available at home or as a picnic, and also babysitting and cookery lessons.

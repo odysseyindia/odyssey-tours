@@ -6,7 +6,7 @@ mailto: ''
 address: Agonda Beach Road  Agonda
 city: Goa
 postalcode: 403 702
-phone: '-'
+phone: '-,94225 79392'
 mobile: 94225 79392
 email: agondaserenityresort@gmail.com
 website: http://www.agondaserenityresort.com/
@@ -14,6 +14,7 @@ note: ''
 type: hotel
 category:
   - H
+  - A
 showHotel: 0
 starCategory: 0
 checkout: ''
@@ -455,4 +456,23 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://www.agondaserenityresort.com/
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
+
+
+
+
+
+

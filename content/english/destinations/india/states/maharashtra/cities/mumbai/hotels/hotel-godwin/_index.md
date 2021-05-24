@@ -6,7 +6,7 @@ mailto: ''
 address: 41, Garden Road  Colaba Causeway
 city: Mumbai
 postalcode: 400 001
-phone: 22-2284 1226, 2287 2050
+phone: 22-2284 1226, 2287 2050,
 mobile: ''
 email: hotelgodwin@mail.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

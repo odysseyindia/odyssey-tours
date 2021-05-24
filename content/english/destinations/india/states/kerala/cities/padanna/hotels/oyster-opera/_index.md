@@ -6,7 +6,7 @@ mailto: ''
 address: Thekkekadu  Padanna (P.O)  Kasaragod Dist.
 city: Padanna
 postalcode: ' 671 345'
-phone: 467-2278101, 2276465
+phone: 467-2278101, 2276465,
 mobile: ''
 email: oystergul@rediffmail.com
 website: www.oysteropera.in
@@ -59,5 +59,18 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: Alpine Leisure Holidays
+gstType: 0
+gstin: ''
+www: www.oysteropera.in
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 Set amidst coconut trees, backwaters and a group of islands is Oyster Opera, a simple village retreat consisting of seven cottages, set in a beautiful environment.    By staying in the resort, you can witness how the entire village gets its livelihood from mussel farming, oyster and clam collection. You can take boat rides, kayak through the peaceful lagoons, or just gorge on the superb food and relax by the water.

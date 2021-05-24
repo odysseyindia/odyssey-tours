@@ -6,14 +6,15 @@ mailto: ''
 address: Vilage Natata, Kunda, Amer
 city: Jaipur
 postalcode: 302 028
-phone: '-'
+phone: '-,98290 62392'
 mobile: 98290 62392
 email: khasbaghjaipur@gmail.com
 website: http://khasbagh.com/
 note: ''
-ranking: '5'
+ranking: 5
 type: hotel
 category:
+  - H
   - COM
 showHotel: 0
 starCategory: 0
@@ -25,7 +26,115 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 7000
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 7000
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 2000
+    extraBedPT: 0
+    wef: '2020-04-01T00:00:00'
+    wet: '2020-04-30T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Deluxe Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Deluxe Room
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 4500
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 4500
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 2000
+    extraBedPT: 0
+    wef: '2020-05-01T00:00:00'
+    wet: '2020-08-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Deluxe Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Deluxe Room
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 7000
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 7000
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 2000
+    extraBedPT: 0
+    wef: '2020-09-01T00:00:00'
+    wet: '2020-09-30T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Deluxe Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Deluxe Room
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -63,25 +172,25 @@ rates:
       3,500/- p.p.
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
     costSingle: 0
     costSinglePT: 0
-    costSingleAc: 7000
+    costSingleAc: 10500
     costSingleAcPT: 0
     costDouble: 0
     costDoublePT: 0
-    costDoubleAc: 7000
+    costDoubleAc: 10500
     costDoubleAcPT: 0
     nett: 1
     nettPT: 0
     freeTransfer: 0
-    extraBed: 2000
+    extraBed: 4000
     extraBedPT: 0
-    wef: '2020-04-01T00:00:00'
-    wet: '2020-04-30T00:00:00'
+    wef: '2020-12-21T00:00:00'
+    wet: '2021-01-01T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -99,79 +208,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 4500
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 4500
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2000
-    extraBedPT: 0
-    wef: '2020-05-01T00:00:00'
-    wet: '2020-08-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 7000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 7000
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2000
-    extraBedPT: 0
-    wef: '2020-09-01T00:00:00'
-    wet: '2020-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -208,41 +245,23 @@ rates:
       Holi Sun 28 March 2021 - Mandatory Holi celebration & lunch @ Rs 4,500/-
       p.p.
     agentCommission: 0
-  - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 10500
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 10500
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 4000
-    extraBedPT: 0
-    wef: '2020-12-21T00:00:00'
-    wet: '2021-01-01T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
+bookThrough: Kaustubh Holidays Tours & Travels Pvt Ltd
+gstType: 0
+gstin: ''
+www: http://khasbagh.com/
+web: 0
+mailTo: ''
 ---
+
+
+
+
+
+
+
+
+
+
+
+
 Close to Amber fort is " Khas Bagh " a farm retreat in the Aravali hills. Khas Bagh is built on the lines of a medieval haveli with open courtyards, verandahs with arches and intricate stone-work by local craftsmen. There are twenty-five luxuriously appointed rooms with antique furniture, a polo lounge with black and white family photographs, magnificient sandstone pool, sprawling lawns & verandahs overlooking the hills.   

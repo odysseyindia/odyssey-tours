@@ -6,7 +6,7 @@ mailto: ''
 address: Village Kesroli  Near M.I.A.   Alwar
 city: Kesroli
 postalcode: 301 030
-phone: 1468-89 352
+phone: 1468-89 352,98294 99901, 95878 85005
 mobile: 98294 99901, 95878 85005
 email: hillfort@neemranahotels.com
 website: http://www.neemranahotels.com/hill-fort-kesroli-alwar-rajasthan
@@ -24,7 +24,7 @@ advantage: Close to the Golden Triangle. Good Base to Visit Sariska Wildlife San
 rooms: 21
 rates:
   - roomType: Heritage Royal Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,7 +60,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Heritage Splendour Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -96,7 +96,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Heritage Smart Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -132,7 +132,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Heritage Romance Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -168,7 +168,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Heritage Comfort Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -203,5 +203,18 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://www.neemranahotels.com/hill-fort-kesroli-alwar-rajasthan
+web: 1
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 A rugged 14th century fort converted by the Neemrana Hotels into a heritage hotel. With seven proud turrets, the Kesroli Hill fort dominates the surrounding country-side and the views from the fort ramparts is panoramic and impressive. The Hill Fort has 23 rooms, all furnished in the old Rajasthani style using local fabrics.

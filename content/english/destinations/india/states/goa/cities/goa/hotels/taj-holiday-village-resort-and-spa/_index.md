@@ -6,132 +6,25 @@ mailto: ''
 address: Dando, Candolim
 city: Goa
 postalcode: 403 515
-phone: 832-664 5858
+phone: 832-664 5858,
 mobile: ''
 email: ''
 website: ''
 note: ''
-ranking: '4'
+ranking: 4
 type: hotel
 category:
+  - H
   - SH
 showHotel: 1
 starCategory: 5
-checkout: '12:00:00'
+checkout: '12:00'
 accessRail: 22 kms. from Railway Station
 accessAir: 50 kms from Airport
 accessBus: 15 kms. from Bus Stand
 advantage: ''
 rooms: 142
 rates:
-  - roomType: Superior Charm Garden Cottage View with Balcony
-    mealPlan: Room only
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 9500
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 9500
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3500
-    extraBedPT: 0
-    wef: '2019-04-16T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Superior Charm Garden Cottage View with Balcony
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Superior Charm Garden Cottage View with Sit Out
-    mealPlan: Room only
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 11500
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 11500
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3500
-    extraBedPT: 0
-    wef: '2019-04-16T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Superior Charm Garden Cottage View with Balcony
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Premium Cottage Garden View
-    mealPlan: Room only
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 13500
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 13500
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3500
-    extraBedPT: 0
-    wef: '2019-04-16T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Superior Charm Garden Cottage View with Balcony
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
   - roomType: Superior Charm Garden Cottage View with Balcony
     mealPlan: Room only
     mealPlanPT: ''
@@ -1011,5 +904,23 @@ rates:
     specialPeriod: 0
     notes: '31/12 Dinner : Rs 12000pp + tax  '
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 1
+mailTo: ''
 ---
+
+
+
+
+
+
+
+
+
+
+
+
 One of Goa's nicest hotels, the Taj Holiday Village has luxurious terracotta-roofed cottages scattered under palm trees amidst acres of landscaped gardens. The hotel is situated right on Sinquerim beach. There is a wide choice of dining in multiple restaurants within the hotel’s quarters. The hotel also has a wonderful swimming pool and a range of sports and recreational facilities.

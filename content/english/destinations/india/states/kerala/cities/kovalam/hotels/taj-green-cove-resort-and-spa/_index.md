@@ -6,7 +6,7 @@ mailto: ''
 address: G. V. Raja Vattappara Road
 city: Kovalam
 postalcode: 695 527
-phone: 471-661 3000
+phone: 471-661 3000,
 mobile: ''
 email: ''
 website: http://www.vivantabytaj.com/Kovalam-Kerala
@@ -895,5 +895,18 @@ rates:
     specialPeriod: 0
     notes: '31/12 (Dinner): Rs 10500 pp + Taxes'
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://www.vivantabytaj.com/Kovalam-Kerala
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 The 16-acre Taj Green Cove has a kilometre of coastline, and Balinese-style villas nestled on a hillock overlooking the Ocean with a mirror-calm lagoon in between. All Villas havebeen particularly designed to blend into the tropical gardens around, the bathrooms embodying a unique stone sculpture garden. This luxury resort has multiple restaurants and a bar, and an infinity swimming pool to help you relax.

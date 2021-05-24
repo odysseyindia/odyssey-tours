@@ -6,14 +6,19 @@ mailto: ''
 address: ''
 city: Dungarpur
 postalcode: 314 001
-phone: 2964-230 808
+phone: 2964-230 808,
 mobile: ''
 email: contact@udaibilaspalace.com
 website: www.udaibilaspalace.com
 note: ''
 type: hotel
 category:
+  - H
+  - HH
+  - SH
+  - WEB
   - RIK
+  - A
 showHotel: 1
 starCategory: 3
 checkout: ''
@@ -26,7 +31,7 @@ advantage: >-
 rooms: 23
 rates:
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -62,7 +67,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -98,7 +103,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Art Deco Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -134,7 +139,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Maharaja Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -170,7 +175,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -206,7 +211,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -242,7 +247,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Art Deco Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -278,7 +283,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Maharaja Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -314,7 +319,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -350,7 +355,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -386,7 +391,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Art Deco Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -422,7 +427,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Maharaja Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -458,7 +463,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -494,7 +499,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -530,7 +535,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Art Deco Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -566,7 +571,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Maharaja Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -601,5 +606,48 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: ''
+gstType: 1
+gstin: 08AEPPS3258F1Z2
+www: www.udaibilaspalace.com
+web: 1
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 A fabulous 19th-century palace overlooking a lake backed by green hills. Still the residence of the former royal family, there are beautiful guest rooms furnished with authentic period furniture. The beautifully-designed swimming pool borders the lake beyond and has some fabulous carved statuary around. The lake contains a small island, which houses the family temple of the owners of the palace.

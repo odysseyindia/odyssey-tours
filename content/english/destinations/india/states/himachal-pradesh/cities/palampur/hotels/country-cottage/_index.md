@@ -6,13 +6,15 @@ mailto: ''
 address: Chandpur Tea Estate
 city: Palampur
 postalcode: 176 061
-phone: 1894-230 647
+phone: 1894-230 647,
 mobile: ''
 email: ksarin@sancharnet.in
 website: www.countrycottageindia.com
 note: ''
 type: hotel
 category:
+  - H
+  - ST
   - WEB
 showHotel: 0
 starCategory: 0
@@ -167,5 +169,30 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2010-2011
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.countrycottageindia.com
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 The Sarin's family cottages, built with blue mountain stone and knotted pine, are surrounded by tea bushes and pine forest and offer you peace and privacy the Himalayan way. The guesthouse consists of basic stone cottages and timber huts. However, the rooms are immensely comfortable with a simple, earthy feel.     The highlight is the restorative coolness of the surroundings, and the fresh Himalayan air.

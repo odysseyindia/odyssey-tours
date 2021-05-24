@@ -6,14 +6,17 @@ mailto: ''
 address: 25 Race Course Road
 city: Bangalore
 postalcode: 560 001
-phone: 80-6660 5660
+phone: 80-6660 5660,
 mobile: ''
 email: ''
 website: http://www.tajhotels.com/Luxury/City-Hotels/The-Taj-West-End-Bangalore
 note: ''
-ranking: '1'
+ranking: 1
 type: hotel
 category:
+  - H
+  - WEB
+  - HH
   - SH
 showHotel: 1
 starCategory: 5
@@ -348,5 +351,35 @@ rates:
     specialPeriod: 0
     notes: '25/12 - Lunch: Rs 4000 pp + taxes  31/12 - Dinner: Rs 4000 pp + taxes'
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://www.tajhotels.com/Luxury/City-Hotels/The-Taj-West-End-Bangalore
+web: 1
+mailTo: ''
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 A delightful hotel set in twenty acres of landscaped gardens, with a lot of old world charm that makes it feel more like a club. The luxurious rooms are in double-storeyed cottages, with a colonial feel, either overlooking the lush garden or the swimming pool. The hotel has a fitness centre, multiple restaurants and a flood-lit tennis court.

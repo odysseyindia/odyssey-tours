@@ -6,7 +6,7 @@ mailto: ''
 address: ''
 city: Pushkar
 postalcode: ''
-phone: 145-5105455
+phone: 145-5105455,
 mobile: ''
 email: anoop_loves_you@yahoo.co.in
 website: www.inn-seventh-heaven.com
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.inn-seventh-heaven.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

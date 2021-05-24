@@ -6,7 +6,7 @@ mailto: ''
 address: Village Post Ghanerao   Pali
 city: Ghanerao
 postalcode: 306 704
-phone: '-'
+phone: '-, 98297 84035'
 mobile: ' 98297 84035'
 email: reservations@ghanerao.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

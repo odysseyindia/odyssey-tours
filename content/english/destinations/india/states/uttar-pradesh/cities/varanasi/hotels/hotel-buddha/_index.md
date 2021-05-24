@@ -6,7 +6,7 @@ mailto: ''
 address: 'C 26/35, LAHURABIR   (Behind Hotel Ajay)  '
 city: Varanasi
 postalcode: '221001'
-phone: '-2203686/2204376'
+phone: '-2203686/2204376,'
 mobile: ''
 email: 'hotelbuddha@gmail.com  hotelbuddha@rediffmail.com  '
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

@@ -6,13 +6,15 @@ mailto: ''
 address: Near Chandra Shekhar Azad Park   Orchha Jhansi Rd
 city: Orchha
 postalcode: '472246'
-phone: 7680-252006-7-8
+phone: 7680-252006-7-8,+91 993 508 5025
 mobile: +91 993 508 5025
 email: rajmahalorchha@gmail.com  rajmahalreservation@gmail.com
 website: http://www.rajmahalorchha.com
 note: ''
 type: hotel
 category:
+  - H
+  - ST
   - RIK
 showHotel: 0
 starCategory: 0
@@ -24,7 +26,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,7 +62,7 @@ rates:
     notes: 'Supplement for 24/12 & 31/12 : INR 2000 pp  '
     agentCommission: 0
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -96,7 +98,7 @@ rates:
     notes: '  '
     agentCommission: 0
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -133,5 +135,30 @@ rates:
       Supplement for 24/12 & 31/12 : INR 2000 pp  Please check with the Hotel
       for new rates
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://www.rajmahalorchha.com
+web: 0
+mailTo: ''
+ranking: 2
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This grand hotel is in a peaceful location, surrounded by farmland, just a few kilometres from the village of Orchha. The large, comfortable, rooms surround an attractive garden, leading to a spacious swimming pool. Local dishes are part of the extensive menu in the large restaurant. This is a pleasant place in a rural setting, ideal for relaxing in comfort well away from India's busy cities.

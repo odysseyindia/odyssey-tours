@@ -6,13 +6,17 @@ mailto: ''
 address: Gulab Sagar  Near Clock Tower
 city: Jodhpur
 postalcode: 342 001
-phone: 291-329 3328, 263 8344, 653 3328
+phone: 291-329 3328, 263 8344, 653 3328,
 mobile: ''
 email: info@palhaveli.com  palhaveli@yahoo.co.in
 website: www.palhaveli.com
 note: ''
 type: hotel
 category:
+  - H
+  - HH
+  - ST
+  - RIK
   - WEB
 showHotel: 0
 starCategory: 0
@@ -24,7 +28,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Heritage Royal Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,7 +64,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Heritage Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -96,7 +100,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Historical Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -132,7 +136,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Heritage Royal Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -168,7 +172,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Heritage Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -204,7 +208,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Historical Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -239,5 +243,42 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: ''
+gstType: 1
+gstin: 08AAJFP4014A1ZQ
+www: www.palhaveli.com
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 A unique hotel in the heart of the old city of Jodhpur, with superb views over the city. Located close to the bottom of the majestic Meherangarh Fort, Pal Haveli is possibly the best place from which to admire the scope of this architectural feat.The haveli is a maze of courtyards, stone stairways, terraces and excellent carvings. The spacious guest rooms are delightfully furnished in the typical Rajasthani aristocratic style.

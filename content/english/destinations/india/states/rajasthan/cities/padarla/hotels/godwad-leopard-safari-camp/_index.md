@@ -8,13 +8,16 @@ address: >-
   Bera Area
 city: Padarla
 postalcode: ''
-phone: '-'
+phone: '-,99832 11191'
 mobile: 99832 11191
 email: ''
 website: http://leopardsafaricamp.com/
 note: ''
 type: hotel
 category:
+  - H
+  - A
+  - ST
   - WEB
 showHotel: 0
 starCategory: 0
@@ -97,5 +100,36 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2018-2019  Rates are based on 15% TAC
     agentCommission: 0
+bookThrough: Rajputana Adventures
+gstType: 0
+gstin: ''
+www: http://leopardsafaricamp.com/
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Godwad Safari Camp is based near Mithdi Dam, at the dam's basin area. The location is ideal for observing the terrain around and for various activities including leopard safari, walking trips, short treks, cycling/mountain biking tours and fishing. The camp consists of luxury tents, a recreational lounge and a multi-cuisine restaurant. There's a fun, safari-style atmosphere, with campfires, dinner under a banyan tree, and more.

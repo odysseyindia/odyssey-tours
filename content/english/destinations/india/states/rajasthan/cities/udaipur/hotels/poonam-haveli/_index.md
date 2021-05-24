@@ -6,7 +6,7 @@ mailto: ''
 address: 39, Lal Ghat
 city: Udaipur
 postalcode: 313 001
-phone: 294-241 0303
+phone: 294-241 0303,
 mobile: ''
 email: poonamhaveli@hotmail.com  info@poonamhaveli.com
 website: www.poonamhaveli.com
@@ -95,5 +95,18 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 1
+gstin: 08BYPPS1267M1ZK
+www: www.poonamhaveli.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 An old courtyard hotel with a modern touch, Poonam Haveli is located at Lal Ghat, a pleasant bazaar area full of interesting shops. The simple rooms are all attractively painted with bright colours and furnished with local fabrics. There are common seating areas and chairs just outside the rooms where guests can relax. The rooftop restaurant and terrace both offer fabulous views of Lake Pichola and the Lake Palace. 

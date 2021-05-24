@@ -8,7 +8,7 @@ address: >-
   India   
 city: Siliguri
 postalcode: ''
-phone: 353-2510317, 2512581, 2517606
+phone: 353-2510317, 2512581, 2517606,
 mobile: ''
 email: 'clubside@sify.com  tours@clubside.in    '
 website: www.hotelappolo.com
@@ -24,4 +24,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Clubside Tours & Travels Pvt Ltd
+gstType: 0
+gstin: ''
+www: www.hotelappolo.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

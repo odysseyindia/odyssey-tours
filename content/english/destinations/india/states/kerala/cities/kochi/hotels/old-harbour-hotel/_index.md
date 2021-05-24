@@ -6,13 +6,16 @@ mailto: ''
 address: 1/328, Tower Road  Fort Cochin
 city: Kochi
 postalcode: 682 001
-phone: 484-221 8006, 221 8007
+phone: 484-221 8006, 221 8007,
 mobile: ''
 email: raintree@fortcochin.com  edgarpinto@yahoo.com
 website: www.oldharbourhotel.com
 note: ''
 type: hotel
 category:
+  - H
+  - HH
+  - COM
   - WEB
 showHotel: 0
 starCategory: 0
@@ -24,151 +27,7 @@ advantage: ''
 rooms: 28
 rates:
   - roomType: Superior Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 13625
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 13625
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3765
-    extraBedPT: 0
-    wef: '2019-01-11T00:00:00'
-    wet: '2019-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Superior Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Garden View Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 16815
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 16815
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3765
-    extraBedPT: 0
-    wef: '2019-01-11T00:00:00'
-    wet: '2019-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Superior Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Garden View Cottage
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 18070
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 18070
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3765
-    extraBedPT: 0
-    wef: '2019-01-11T00:00:00'
-    wet: '2019-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Superior Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Suite
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 23451
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 23451
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3765
-    extraBedPT: 0
-    wef: '2019-01-11T00:00:00'
-    wet: '2019-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Superior Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Superior Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -204,7 +63,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Garden View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -240,7 +99,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Garden View Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -276,7 +135,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -310,6 +169,162 @@ rates:
     defaultAc: 1
     specialPeriod: 0
     notes: 0
+    agentCommission: 0
+  - roomType: Superior Room
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 15896
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 15896
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3700
+    extraBedPT: 0
+    wef: '2019-12-20T00:00:00'
+    wet: '2020-01-10T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Superior Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: >-
+      24 Dec dinner Rs 5500/- p.p. (incl. tax)  31 Dec dinner Rs 6000/- p.p.
+      (incl. tax)     On the 31 Dec eve New Years eve dinner is mandatory with
+      the room booking, nett is Rupees 6000/- per person all inclusive
+    agentCommission: 0
+  - roomType: Garden View Room
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 19617
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 19617
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3700
+    extraBedPT: 0
+    wef: '2019-12-20T00:00:00'
+    wet: '2020-01-10T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Superior Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: >-
+      24 Dec dinner Rs 5500/- p.p. (incl. tax)  31 Dec dinner Rs 6000/- p.p.
+      (incl. tax)     On the 31 Dec eve New Years eve dinner is mandatory with
+      the room booking, nett is Rupees 6000/- per person all inclusive
+    agentCommission: 0
+  - roomType: Garden View Cottage
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 21081
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 21081
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3700
+    extraBedPT: 0
+    wef: '2019-12-20T00:00:00'
+    wet: '2020-01-10T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Superior Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: >-
+      24 Dec dinner Rs 5500/- p.p. (incl. tax)  31 Dec dinner Rs 6000/- p.p.
+      (incl. tax)     On the 31 Dec eve New Years eve dinner is mandatory with
+      the room booking, nett is Rupees 6000/- per person all inclusive
+    agentCommission: 0
+  - roomType: Suite
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 27360
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 27360
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3700
+    extraBedPT: 0
+    wef: '2019-12-20T00:00:00'
+    wet: '2020-01-10T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Superior Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: >-
+      24 Dec dinner Rs 5500/- p.p. (incl. tax)  31 Dec dinner Rs 6000/- p.p.
+      (incl. tax)     On the 31 Dec eve New Years eve dinner is mandatory with
+      the room booking, nett is Rupees 6000/- per person all inclusive
     agentCommission: 0
   - roomType: Superior Room
     mealPlan: ''
@@ -462,306 +477,6 @@ rates:
     notes: >-
       we added an amount to the extra bed cost so that after 20% TAC the amount
       is correct
-    agentCommission: 0
-  - roomType: Superior Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 15896
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 15896
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3700
-    extraBedPT: 0
-    wef: '2019-12-20T00:00:00'
-    wet: '2020-01-10T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Superior Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: >-
-      24 Dec dinner Rs 5500/- p.p. (incl. tax)  31 Dec dinner Rs 6000/- p.p.
-      (incl. tax)     On the 31 Dec eve New Years eve dinner is mandatory with
-      the room booking, nett is Rupees 6000/- per person all inclusive
-    agentCommission: 0
-  - roomType: Garden View Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 19617
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 19617
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3700
-    extraBedPT: 0
-    wef: '2019-12-20T00:00:00'
-    wet: '2020-01-10T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Superior Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: >-
-      24 Dec dinner Rs 5500/- p.p. (incl. tax)  31 Dec dinner Rs 6000/- p.p.
-      (incl. tax)     On the 31 Dec eve New Years eve dinner is mandatory with
-      the room booking, nett is Rupees 6000/- per person all inclusive
-    agentCommission: 0
-  - roomType: Garden View Cottage
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 21081
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 21081
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3700
-    extraBedPT: 0
-    wef: '2019-12-20T00:00:00'
-    wet: '2020-01-10T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Superior Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: >-
-      24 Dec dinner Rs 5500/- p.p. (incl. tax)  31 Dec dinner Rs 6000/- p.p.
-      (incl. tax)     On the 31 Dec eve New Years eve dinner is mandatory with
-      the room booking, nett is Rupees 6000/- per person all inclusive
-    agentCommission: 0
-  - roomType: Suite
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 27360
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 27360
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3700
-    extraBedPT: 0
-    wef: '2019-12-20T00:00:00'
-    wet: '2020-01-10T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Superior Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: >-
-      24 Dec dinner Rs 5500/- p.p. (incl. tax)  31 Dec dinner Rs 6000/- p.p.
-      (incl. tax)     On the 31 Dec eve New Years eve dinner is mandatory with
-      the room booking, nett is Rupees 6000/- per person all inclusive
-    agentCommission: 0
-  - roomType: Superior Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 6903
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 6903
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2800
-    extraBedPT: 0
-    wef: '2019-04-11T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Superior Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Garden View Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 7965
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 7965
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2800
-    extraBedPT: 0
-    wef: '2019-04-11T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Superior Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Garden View Cottage
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 9027
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 9027
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2800
-    extraBedPT: 0
-    wef: '2019-04-11T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Superior Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Suite
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 10620
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 10620
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2800
-    extraBedPT: 0
-    wef: '2019-04-11T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Superior Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
     agentCommission: 0
   - roomType: Superior Room
     mealPlan: ''
@@ -1223,5 +938,36 @@ rates:
       is correct    since all prices have to be hiked by 10%  we made the TAC
       10%
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: 32AABCC0802G1Z1
+www: www.oldharbourhotel.com
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This is one of the true gems of Fort Cochin. Located only a street away from the waterfront and the famous Chinese fishing nets, the Old Harbour Hotel enjoys a superb location. The Old Harbour Hotel has characterful rooms, nooks and corridors dotted with antiques, and a beautiful poolside area in the shade of huge rain trees, perfect for relaxing with a beer.

@@ -6,13 +6,15 @@ mailto: ''
 address: 26 Lal Ghat
 city: Udaipur
 postalcode: 313 001
-phone: 294-241 1457, 252 1403
+phone: 294-241 1457, 252 1403,97829 5000, 99291 99929
 mobile: 97829 5000, 99291 99929
 email: info@kankarwahaveli.com  kankarwahaveli@hotmail.com
 website: www.indianheritagehotels.com, www.kankarwahaveli.com
 note: ''
 type: hotel
 category:
+  - H
+  - ST
   - RIK
 showHotel: 1
 starCategory: 0
@@ -24,115 +26,7 @@ advantage: ''
 rooms: 15
 rates:
   - roomType: Partial Lake View Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 3080
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 3080
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1000
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Partial Lake View Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Deluxe Lake Facing Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 4080
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 4080
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1000
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Partial Lake View Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Deluxe Suite
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 5080
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 5080
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1000
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Partial Lake View Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Partial Lake View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -168,7 +62,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Lake Facing Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -204,7 +98,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -240,7 +134,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Partial Lake View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -276,7 +170,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Lake Facing Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -312,7 +206,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -348,7 +242,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Partial Lake View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -384,7 +278,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Lake Facing Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -420,7 +314,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -456,7 +350,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Partial Lake View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -492,7 +386,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Lake Facing Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -528,7 +422,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -564,7 +458,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Partial Lake View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -600,7 +494,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Lake Facing Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -636,7 +530,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -671,5 +565,30 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+ranking: 2
+bookThrough: ''
+gstType: 1
+gstin: 08ABCPR4260L1ZD
+www: www.indianheritagehotels.com, www.kankarwahaveli.com
+web: 0
+mailTo: ''
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 A renovated 250-year-old haveli on the shores of Lake Pichola, in the heart of the Old City. Kankarwa Haveli is a family-run hotel with simply-decorated but surprisingly spacious rooms, many of which face the lake. Breakfast and dinners are served on the terrace from where you can enjoy impressive views over Lake Pichola, and where you can also enjoy an early morning yoga class.

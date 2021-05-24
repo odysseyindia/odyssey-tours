@@ -6,7 +6,7 @@ mailto: ''
 address: Khanpur Road
 city: Ahmedabad
 postalcode: 380 001
-phone: 79-25601234
+phone: 79-25601234,
 mobile: ''
 email: info@camahotelsindia.com  reservations@camahotelsindia.com
 website: www.camahotels.com
@@ -22,5 +22,18 @@ accessAir: 11 kms. from Airport
 accessBus: ''
 advantage: ''
 rooms: 50
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.camahotels.com
+web: 1
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 One of the older superior hotels of Ahmedabad run by the amicable Jehangir Cama.    The Cama  has spacious, well furnished rooms with modern facilities.   The hotel has two restaurants, a swimming pool and a large pleasant garden.

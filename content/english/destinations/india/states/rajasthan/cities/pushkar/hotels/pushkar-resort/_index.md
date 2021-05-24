@@ -6,7 +6,7 @@ mailto: ''
 address: 'Motisar Road,   Village Ganhera      '
 city: Pushkar
 postalcode: 305 022
-phone: 145-2772944/45
+phone: 145-2772944/45,
 mobile: ''
 email: ''
 website: ''
@@ -24,43 +24,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Standard Cottage
-    mealPlan: Bed & breakfast
-    mealPlanPT: Room only
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 2800
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 2800
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1200
-    extraBedPT: 0
-    wef: '2019-05-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Standard Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Standard Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: Room only
     currency: INR
     currencyPT: INR
@@ -134,7 +98,7 @@ rates:
     notes: Pushkar fair period
     agentCommission: 0
   - roomType: Standard Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: Room only
     currency: INR
     currencyPT: INR
@@ -171,4 +135,17 @@ rates:
       Xmas/New year supplement is applicable. Rates for the same is not
       finalized. min 2 night stay.
     agentCommission: 0
+bookThrough: Kaustubh Holidays Tours & Travels Pvt Ltd
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

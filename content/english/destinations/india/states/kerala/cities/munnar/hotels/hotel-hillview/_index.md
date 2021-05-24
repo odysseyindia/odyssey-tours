@@ -6,7 +6,7 @@ mailto: ''
 address: A.M. Road
 city: Munnar
 postalcode: 685 612
-phone: 4865-230 567, 230 241,230 882 / 83
+phone: 4865-230 567, 230 241,230 882 / 83,
 mobile: ''
 email: hillviewmnr@satyam.net.in
 website: hillviewhotel.com
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: hillviewhotel.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

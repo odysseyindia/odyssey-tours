@@ -6,13 +6,15 @@ mailto: ''
 address: 'Billur Post  Pattadur Village  Mudigere Taluk    '
 city: Chikmagalur
 postalcode: 577 132
-phone: '-'
+phone: '-,'
 mobile: ''
 email: info@flameback.in  flamebacklodges@gmail.com
 website: https://www.flameback.in/
 note: ''
 type: hotel
 category:
+  - H
+  - COM
   - WEB
 showHotel: 0
 starCategory: 0
@@ -131,5 +133,30 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: https://www.flameback.in/
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 In a picturesque coffee plantation in hilly Chikmagalur is Flameback, a collection of cottages and villas separated by lush forest. Built to let you enjoy nature, the villas and suites have wide decks, jacuzzis and great views, and you have plenty of active options, from walking trails to birding, ATVs, jeeps, and local treks. Or you can simply enjoy the resort's pool, spa and great food, all in the midst of nature.

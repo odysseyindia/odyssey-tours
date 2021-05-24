@@ -6,13 +6,15 @@ mailto: ''
 address: Kutalpara Village, VPO Sherpur Khiljipur
 city: Sawai Madhopur
 postalcode: 322 001
-phone: 7462-252347, 252348, 252099, 252219
+phone: 7462-252347, 252348, 252099, 252219,
 mobile: ''
 email: khemvillas@anokhi.com
 website: http://www.khemvillas.com/
 note: ''
 type: hotel
 category:
+  - H
+  - SH
   - WEB
 showHotel: 0
 starCategory: 3
@@ -311,5 +313,30 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020  Villa rate taken for FIT on 29/01.
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://www.khemvillas.com/
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Khem Villas offers stylish, distinctive accommodation close to Ranthambhore National Park. The rooms, cottages and tents are all created using local materials. There is a focus on healthy living: organic vegetarian food from their own farm is served and there is a spa and ayurvedic doctor. Khem Villas is a habitat in itself, with its own walking trails, sitouts, and observations points overlooking ponds and grasslands.

@@ -6,7 +6,7 @@ mailto: ''
 address: ''
 city: Khonoma
 postalcode: ''
-phone: '-'
+phone: '-,'
 mobile: ''
 email: ''
 website: ''
@@ -59,5 +59,18 @@ rates:
     specialPeriod: 0
     notes: Cost copied from previous year
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 There are around five separate houses in the village where people can stay overnight with local families. The scheme is coordinated by Michael, an enterprising person and excellent guide. Each homestay offers basic but comfortable and clean accommodation with a simple shared toilet. Good meals are served in the dining area/lounge. The family may speak a little English, but there isn't much direct interaction as all arrangements are taken care of by Michael.

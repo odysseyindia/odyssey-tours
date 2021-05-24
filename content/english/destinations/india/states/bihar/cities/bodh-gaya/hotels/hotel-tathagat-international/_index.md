@@ -6,7 +6,7 @@ mailto: ''
 address: Bodhgaya
 city: Bodh Gaya
 postalcode: 824 231
-phone: 631-2200106, 2201991
+phone: 631-2200106, 2201991,
 mobile: ''
 email: hoteltathagatbodhgaya@yahoo.com
 website: ''
@@ -22,5 +22,18 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 Hotel Tathagat is a simple hotel, with comfortable small rooms, and a good restaurant.       The hotel has an excellent location, almost directly opposite the Mahabodhi Temple in the heart of the small town of Bodh Gaya, and is therefore the ideal base from which to enjoy the atmosphere of this spiritual place.

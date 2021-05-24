@@ -6,7 +6,7 @@ mailto: ''
 address: '      '
 city: Mararikulam
 postalcode: 688 549
-phone: 484-3991999, 3991998
+phone: 484-3991999, 3991998,
 mobile: ''
 email: 'business@sunilog.com  '
 website: www.ogbeach.com
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.ogbeach.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

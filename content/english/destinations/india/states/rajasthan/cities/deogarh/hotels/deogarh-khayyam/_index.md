@@ -6,7 +6,7 @@ mailto: Deogarh Mahal
 address: ''
 city: Deogarh
 postalcode: ''
-phone: '-'
+phone: '-,'
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: Deogarh Mahal
+ranking: 0
 ---
+
+
+
+
+
+

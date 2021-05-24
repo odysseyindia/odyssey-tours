@@ -6,7 +6,7 @@ mailto: ''
 address: Nimaj, Tehsil Jaitaran  Distt. Pali
 city: Nimaj
 postalcode: ''
-phone: 2939-230 022
+phone: 2939-230 022,
 mobile: ''
 email: nimaj@nimajpalace.com
 website: www.nimajpalace.com
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Nimaj Palace Booking Office
+gstType: 0
+gstin: ''
+www: www.nimajpalace.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

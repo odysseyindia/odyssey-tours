@@ -6,7 +6,7 @@ mailto: ''
 address: ''
 city: Darjeeling
 postalcode: ''
-phone: '-'
+phone: '-,'
 mobile: ''
 email: reservations@clubside.in  darjoperations@clubside.in
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Clubside Tours & Travels Pvt Ltd
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

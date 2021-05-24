@@ -6,7 +6,7 @@ mailto: ''
 address: 'C-56, G Block, Bandra Kurla Complex    '
 city: Mumbai
 postalcode: 400 098
-phone: 22-6672 7777
+phone: 22-6672 7777,
 mobile: ''
 email: reservations@tridenthotels.com
 website: www.tridenthotels.com
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.tridenthotels.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

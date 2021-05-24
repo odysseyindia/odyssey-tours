@@ -6,7 +6,7 @@ mailto: ''
 address: ''
 city: Pelling
 postalcode: ''
-phone: 3595-258 250
+phone: 3595-258 250,
 mobile: ''
 email: norbughangretreat@yahoo.com  norbughangretreat@gmail.com
 website: http://www.norbughang.com/
@@ -24,7 +24,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Super Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -59,4 +59,17 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://www.norbughang.com/
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

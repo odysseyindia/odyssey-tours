@@ -6,7 +6,7 @@ mailto: ''
 address: Bharatpur Kothi
 city: Mount Abu
 postalcode: 307 501
-phone: 2974-43 573, 38 773
+phone: 2974-43 573, 38 773,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

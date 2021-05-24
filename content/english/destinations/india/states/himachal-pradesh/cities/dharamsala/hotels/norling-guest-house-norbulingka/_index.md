@@ -6,13 +6,16 @@ mailto: ''
 address: McLeod Ganj
 city: Dharamsala
 postalcode: 176 219
-phone: 1892-246 406, 246 411
+phone: 1892-246 406, 246 411,
 mobile: ''
 email: guesthouse@norbulingka.org
 website: www.norbulingka.org/norling/index.html
 note: ''
 type: hotel
 category:
+  - H
+  - WEB
+  - ST
   - RIK
 showHotel: 0
 starCategory: 0
@@ -95,5 +98,36 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2018-2019
     agentCommission: 0
+bookThrough: Summit Adventures
+gstType: 0
+gstin: ''
+www: www.norbulingka.org/norling/index.html
+web: 0
+mailTo: ''
+ranking: 2
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Norling Guesthouse is located within the Norbulingka Institute in Lower Dharamsala, a 20-minute drive from McLeod Ganj. This is a warm, cosy place with lovely Tibetan art, and the beautiful grounds of the Institute and temple around it. A comfortable guesthouse, this intimate place provides access to the sacred traditional art forms of Thangka painting, applique work and wood and metal work that are practised in the institute.

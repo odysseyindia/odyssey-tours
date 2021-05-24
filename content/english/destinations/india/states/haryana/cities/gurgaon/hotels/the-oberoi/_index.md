@@ -6,7 +6,7 @@ mailto: ''
 address: 443 Udyog Vihar, Phase V
 city: Gurgaon
 postalcode: 122 016
-phone: 124-245 1234
+phone: 124-245 1234,
 mobile: ''
 email: ''
 website: ''
@@ -24,7 +24,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: Room only
     currency: INR
     currencyPT: INR
@@ -60,7 +60,7 @@ rates:
     notes: 'Day Use: Rs 10000/- (Deluxe room)  50% adv payment at the time of booking.'
     agentCommission: 0
   - roomType: Luxury Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: Room only
     currency: INR
     currencyPT: INR
@@ -96,7 +96,7 @@ rates:
     notes: 'Day Use: Rs 10000/- (Deluxe room)  50% adv payment at the time of booking.'
     agentCommission: 0
   - roomType: Premier Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: Room only
     currency: INR
     currencyPT: INR
@@ -132,7 +132,7 @@ rates:
     notes: 'Day Use: Rs 10000/- (Deluxe room)  50% adv payment at the time of booking.'
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: Room only
     currency: INR
     currencyPT: INR
@@ -168,7 +168,7 @@ rates:
     notes: 'Day Use: Rs 8000/- (Deluxe room)  50% adv payment at the time of booking.'
     agentCommission: 0
   - roomType: Luxury Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: Room only
     currency: INR
     currencyPT: INR
@@ -204,7 +204,7 @@ rates:
     notes: 'Day Use: Rs 8000/- (Deluxe room)  50% adv payment at the time of booking.'
     agentCommission: 0
   - roomType: Premier Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: Room only
     currency: INR
     currencyPT: INR
@@ -239,4 +239,17 @@ rates:
     specialPeriod: 0
     notes: 'Day Use: Rs 8000/- (Deluxe room)  50% adv payment at the time of booking.'
     agentCommission: 0
+bookThrough: Oberoi Contact Centre
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

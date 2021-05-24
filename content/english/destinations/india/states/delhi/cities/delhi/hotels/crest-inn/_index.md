@@ -6,7 +6,7 @@ mailto: ''
 address: 4/27,W.E.A.Saraswati Marg  Karol Bagh
 city: New Delhi
 postalcode: '110005'
-phone: 11-25740224-6, 25760943
+phone: 11-25740224-6, 25760943,
 mobile: ''
 email: crestinn@vsnl.net
 website: www.crestindia.com
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.crestindia.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

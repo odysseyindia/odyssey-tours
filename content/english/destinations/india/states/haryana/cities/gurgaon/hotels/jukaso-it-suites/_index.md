@@ -6,7 +6,7 @@ mailto: ''
 address: 1 IDC,  Mehrauli Road
 city: Gurgaon
 postalcode: '122002'
-phone: 124-408 7760-64
+phone: 124-408 7760-64,
 mobile: ''
 email: jukasogurgaon@hotmail.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

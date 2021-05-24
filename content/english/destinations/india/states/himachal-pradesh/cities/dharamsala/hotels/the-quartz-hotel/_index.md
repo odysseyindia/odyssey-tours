@@ -6,7 +6,7 @@ mailto: ''
 address: 'Himalayan Brothers, Nr Norbulingka, V.P.O.   Sidhpur  '
 city: Dharamsala
 postalcode: 176 057
-phone: '-'
+phone: '-,'
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 12
+bookThrough: Summit Adventures
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

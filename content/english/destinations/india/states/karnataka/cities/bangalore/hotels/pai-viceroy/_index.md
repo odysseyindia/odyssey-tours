@@ -6,7 +6,7 @@ mailto: ''
 address: '#6, 1st Cross  J.C. Road (Near Minerva Circle)'
 city: Bangalore
 postalcode: 560 002
-phone: 80-26701494
+phone: 80-26701494,
 mobile: ''
 email: viceroy@paihotels.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Kerala Adventures Pvt Ltd
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

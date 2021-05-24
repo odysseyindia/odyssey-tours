@@ -6,13 +6,17 @@ mailto: ''
 address: ''
 city: Corbett
 postalcode: ''
-phone: '-'
+phone: '-,'
 mobile: ''
 email: ''
 website: ''
 note: ''
 type: hotel
 category:
+  - H
+  - A
+  - ST
+  - RIK
   - WEB
 showHotel: 0
 starCategory: 3
@@ -27,7 +31,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 0
     costSinglePT: 0
     costSingleAc: 4950
@@ -63,7 +67,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 0
     costSinglePT: 0
     costSingleAc: 5400
@@ -99,7 +103,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 0
     costSinglePT: 0
     costSingleAc: 7425
@@ -137,7 +141,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 0
     costSinglePT: 0
     costSingleAc: 8100
@@ -175,7 +179,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 0
     costSinglePT: 0
     costSingleAc: 4950
@@ -247,7 +251,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 0
     costSinglePT: 0
     costSingleAc: 4950
@@ -283,7 +287,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 0
     costSinglePT: 0
     costSingleAc: 5400
@@ -319,7 +323,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 0
     costSinglePT: 0
     costSingleAc: 7425
@@ -358,7 +362,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 0
     costSinglePT: 0
     costSingleAc: 8100
@@ -397,7 +401,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 0
     costSinglePT: 0
     costSingleAc: 4950
@@ -465,5 +469,42 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: Habitat Hotels Ltd
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 One of Corbett's older (and therefore less built-up) resorts, Tiger Camp has comfortable cottages hidden within a large garden with a lovely swimming pool and extensive lawns leading down to the Ramganga River. Buffet meals are served in the thatched roof restaurant. It is ideally located for safaris, being located close to both of the main park entry gates.

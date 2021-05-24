@@ -6,7 +6,7 @@ mailto: ''
 address: G-59, Connaught Place
 city: Delhi
 postalcode: 110 001
-phone: 11-4690 9090, 2332 4658
+phone: 11-4690 9090, 2332 4658,
 mobile: ''
 email: ados@rdmardel.com  reservations@rdmardel.com  sales@rdmardel.com
 website: 'https://www.radissonblu.com/en/marinahotel-newdelhi  www.radisonblu.com  '
@@ -25,5 +25,18 @@ advantage: >-
   of New Delhi. The well known shopping centers of Connaught Place and Janpath
   are a short stroll away. 
 rooms: 94
+bookThrough: ''
+gstType: 1
+gstin: 07AACFH5086K1Z4
+www: 'https://www.radissonblu.com/en/marinahotel-newdelhi  www.radisonblu.com  '
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 The grand old Marina Hotel on Connaught Place has been totally refurbished by the Radisson group, thereby introducing all their usual touches such as a large, bright, spacious lobby, with well trained and helpful staff.     There are 90 rooms, and all are supremely comfortable. Though some are quite small, they all feature the abundant furnishings, fittings and amenities of a Radisson hotel.    The hotel also offers a bar, coffee shop, and a specialty kebab restaurant.

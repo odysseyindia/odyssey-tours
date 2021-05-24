@@ -6,7 +6,7 @@ mailto: ''
 address: 3 Marquis Street (Opposite Jamuna Banquet Hall)
 city: Kolkata
 postalcode: 700 016
-phone: 33-40177888, 40692018
+phone: 33-40177888, 40692018,
 mobile: ''
 email: hotelk@yahoo.in
 website: http://hotelkempton.in
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://hotelkempton.in
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

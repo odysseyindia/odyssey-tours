@@ -6,7 +6,7 @@ mailto: ''
 address: Kuttikkanam
 city: Peermade
 postalcode: 686 531
-phone: 486-332 491, 332 498, 332 693, 332 694
+phone: 486-332 491, 332 498, 332 693, 332 694,
 mobile: ''
 email: ''
 website: www.thrisanguhaven.com
@@ -22,4 +22,17 @@ accessAir: 145 kms. from Airport
 accessBus: 800 mts. from Kuttikkanam Bus Stand
 advantage: ''
 rooms: 10
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.thrisanguhaven.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

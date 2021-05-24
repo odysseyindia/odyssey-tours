@@ -6,13 +6,16 @@ mailto: ''
 address: No. 1, Defence Laboratory Road  Ratanada Circle
 city: Jodhpur
 postalcode: 342 001
-phone: 291-251 1067, 251 2215, 309 1872
+phone: 291-251 1067, 251 2215, 309 1872,
 mobile: ''
 email: devibhawanjdh@gmail.com  info@devibhawan.com
 website: www.devibhawan.com
 note: ''
 type: hotel
 category:
+  - H
+  - HH
+  - ST
   - RIK
 showHotel: 1
 starCategory: 3
@@ -24,7 +27,7 @@ advantage: ''
 rooms: 20
 rates:
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,7 +63,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -96,7 +99,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -132,7 +135,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -167,5 +170,36 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: ''
+gstType: 1
+gstin: 08AAGHR1699G1ZQ
+www: www.devibhawan.com
+web: 0
+mailTo: ''
+ranking: 4
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Devi Bhawan is a delightful garden hotel, great for relaxing. A series of cottages surrounds a lush garden full of old trees, flower-beds and lawns with peacocks roaming around. The rooms are charmingly decorated with some period furniture and bright colourful Rajasthani fabrics. Devi Bhawan also has a well-sized pool, set to one side in a screened-off area.

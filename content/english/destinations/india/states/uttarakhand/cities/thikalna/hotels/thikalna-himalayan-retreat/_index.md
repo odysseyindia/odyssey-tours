@@ -6,13 +6,15 @@ mailto: ''
 address: Village Naugaon  Tehsil Bhanoli  District Almora
 city: Thikalna
 postalcode: 263 623
-phone: '-'
+phone: '-,98187 05508'
 mobile: 98187 05508
 email: ''
 website: https://www.itmenaanlodges.com/thikalna-himalayan-retreat/
 note: ''
 type: hotel
 category:
+  - H
+  - ST
   - WEB
 showHotel: 0
 starCategory: 0
@@ -59,5 +61,30 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: https://www.itmenaanlodges.com/thikalna-himalayan-retreat/
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 An old local house in the village of Thikalna was renovated into a cute, colourful stay, with views of Nanda Devi East and other Himalayan highlights from the cliff-edge courtyard. Though simple, it's a cosy, authentic two-bedroom house, ideal for exploring the hills.

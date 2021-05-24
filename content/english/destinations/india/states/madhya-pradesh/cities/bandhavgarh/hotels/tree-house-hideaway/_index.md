@@ -6,7 +6,7 @@ mailto: ''
 address: Umaria-Badhavgarh Road,  Vijarhia  Umaria District
 city: Bandhavgarh
 postalcode: 484 661
-phone: '-'
+phone: '-,'
 mobile: ''
 email: ''
 website: https://www.treehousehideaway.com
@@ -14,6 +14,7 @@ note: ''
 type: hotel
 category:
   - H
+  - A
 showHotel: 0
 starCategory: 0
 checkout: ''
@@ -61,4 +62,23 @@ rates:
       Mandatory New Year supplement: Rs 3,000/- p.p.  Mandatory 3-nights' stay
       over New Year Eve
     agentCommission: 0
+bookThrough: Pugdundee Safaris
+gstType: 0
+gstin: ''
+www: https://www.treehousehideaway.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
+
+
+
+
+
+

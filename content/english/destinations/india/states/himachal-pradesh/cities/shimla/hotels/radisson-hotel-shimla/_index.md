@@ -6,7 +6,7 @@ mailto: ''
 address: Goodwood Estate,  Lower Bharari Road.
 city: Shimla
 postalcode: '171001'
-phone: '-2659012'
+phone: '-2659012,'
 mobile: ''
 email: sales@radissonshimla.com
 website: www.radisson.com/shimlain
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.radisson.com/shimlain
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

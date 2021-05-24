@@ -6,7 +6,7 @@ mailto: ''
 address: Pehla Bagh,  Gokul Vilas,  Deogarh Madariya
 city: Deogarh
 postalcode: '313331'
-phone: 2904-252299
+phone: 2904-252299,
 mobile: ''
 email: 'info@devshreedeogarh.com  '
 website: www.devshreedeogarh.com
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.devshreedeogarh.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

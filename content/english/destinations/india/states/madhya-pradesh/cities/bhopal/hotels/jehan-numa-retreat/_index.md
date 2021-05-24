@@ -6,7 +6,7 @@ mailto: ''
 address: Near Van Vihar, Dr.Salim Ali Road, Prempura,
 city: Bhopal
 postalcode: '462002'
-phone: 755-660 6600
+phone: 755-660 6600,
 mobile: ''
 email: res.retreat@jnph.in  saleem@jnph.in
 website: www.jehannuma.com/retreat-bhopal/
@@ -14,6 +14,8 @@ note: ''
 type: hotel
 category:
   - H
+  - COM
+  - WEB
 showHotel: 0
 starCategory: 0
 checkout: ''
@@ -24,7 +26,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Premium Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,7 +62,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Premium Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -95,5 +97,30 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.jehannuma.com/retreat-bhopal/
+web: 0
+mailTo: ''
+ranking: 2
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 A beautiful resort that feels like a luxury wilderness retreat, while still being within Bhopal. Each large cottage has plenty of privacy, with a sitout and views over the semi-wild grounds (populated with plenty of birds). Once the farm for the local royals, the Retreat still has an extensive organic vegetable garden, and meals are served in different alfresco spots. A great space to relax after days of travel!

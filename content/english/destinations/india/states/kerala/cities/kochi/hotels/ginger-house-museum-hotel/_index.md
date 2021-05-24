@@ -6,13 +6,15 @@ mailto: ''
 address: 'The Ginger House Building  Jew St  Mattancherry    '
 city: Kochi
 postalcode: 682 002
-phone: 484-2213400
+phone: 484-2213400,
 mobile: ''
 email: reservations@museumhotel.in  info@museumhotel.in
 website: http://museumhotel.in
 note: ''
 type: hotel
 category:
+  - H
+  - COM
   - WEB
 showHotel: 0
 starCategory: 0
@@ -131,5 +133,30 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://museumhotel.in
+web: 0
+mailTo: ''
+ranking: 2
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 In the heart of Jewtown, this eccentric hotel was built by an antique collector, who still has his main shop right next door, and many of the artefacts displayed in the hotel are for sale as well. It’s a spectacular place, with beautiful ceilings and art all over, a rooftop pool, a waterfront restaurant and a more formal indoor one. Exclusive, unique and characterful, It definitely lives up to its tag of museum hotel.

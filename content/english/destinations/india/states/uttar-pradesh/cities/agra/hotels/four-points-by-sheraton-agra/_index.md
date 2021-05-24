@@ -6,7 +6,7 @@ mailto: ''
 address: C-1, C-2, Taj Nagari Phase 1  Fatehabad Road
 city: Agra
 postalcode: 282 004
-phone: 562- 233 3333
+phone: 562- 233 3333,
 mobile: ''
 email: ''
 website: ''
@@ -59,5 +59,18 @@ rates:
     specialPeriod: 0
     notes: JUST FOR BOOKING PURPOSE
     agentCommission: 0
+bookThrough: Colleague Tours Pvt. Ltd.
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 This new hotel has an immense high ceilinged marble lobby There is also a modern, open restaurant, and a large stylish bar, making the ground floor a very impressive space indeed. Above there are 160 rooms on 4 floors. All are large, very modern, and pleasantly decorated. Many of the rooms have surprisingly good clear views of the Taj Mahal. There is a rooftop swimming pool and terrace which offers even better views of the Taj Mahal. The overall effect is of a bright, cheerful, efficient, and pleasant place well suited to leisure travelers.

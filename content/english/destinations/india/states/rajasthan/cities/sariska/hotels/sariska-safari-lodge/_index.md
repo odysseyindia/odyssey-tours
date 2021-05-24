@@ -6,13 +6,15 @@ mailto: ''
 address: Village Amra ka Baas  Tehsil Thanaghazi
 city: Sariska
 postalcode: 301 022
-phone: '-'
+phone: '-,98107 26252'
 mobile: 98107 26252
 email: info@sariskasafarilodge.com
 website: https://sariskasafarilodge.com/
 note: ''
 type: hotel
 category:
+  - H
+  - A
   - COM
 showHotel: 0
 starCategory: 0
@@ -59,4 +61,29 @@ rates:
     specialPeriod: 0
     notes: Jeep safari rates TBA
     agentCommission: 0
+bookThrough: The Consortium Hotels
+gstType: 0
+gstin: ''
+www: https://sariskasafarilodge.com/
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

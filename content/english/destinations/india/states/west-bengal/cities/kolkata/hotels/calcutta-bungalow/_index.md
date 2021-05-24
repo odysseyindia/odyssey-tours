@@ -6,13 +6,15 @@ mailto: ''
 address: '5 Radha Kanta Jeu Street  (Near Deshbandhu Park in Shyambazar)       '
 city: Kolkata
 postalcode: 700 004
-phone: '-'
+phone: '-,98301 84030'
 mobile: 98301 84030
 email: bungalow@calcuttawalks.com
 website: https://calcuttabungalow.com/
 note: ''
 type: hotel
 category:
+  - H
+  - COM
   - WEB
 showHotel: 0
 starCategory: 0
@@ -485,5 +487,30 @@ rates:
       floor (both 33m2). Sahibpara on 2nd floor (20m2).  Mochipara ans Darzipara
       have twin beds.  
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: https://calcuttabungalow.com/
+web: 0
+mailTo: ''
+ranking: 2
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 In the heart of the Bengali part of the city that the British referred to as Black Town, is a restored 1920s townhouse, representative of a golden era in Calcutta's architecture. The delightful rooms are colourful and sprinkled with antiques, and there's a cosy common area and cafe. A great way to explore Kolkata's vibrant past - while living it at the same time!

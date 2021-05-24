@@ -6,7 +6,7 @@ mailto: ''
 address: Saunta Vaddo  Baga Beach
 city: Calangute
 postalcode: 403 516
-phone: 832-227 6090, 2277587
+phone: 832-227 6090, 2277587,
 mobile: ''
 email: cavala@sancharnet.in
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+ranking: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
 ---
+
+
+
+
+
+

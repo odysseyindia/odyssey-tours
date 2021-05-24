@@ -6,7 +6,7 @@ mailto: ''
 address: Sinquerim, Candolim
 city: Goa
 postalcode: 403 515
-phone: 832-664 5858
+phone: 832-664 5858,
 mobile: ''
 email: vivanta.holidayvillage@tajhotels.com
 website: http://www.vivantabytaj.com/Fort-Aguada-Goa
@@ -16,7 +16,7 @@ category:
   - H
 showHotel: 1
 starCategory: 5
-checkout: '12:00:00'
+checkout: 12.00 Noon
 accessRail: 25 kms. from Railway Station
 accessAir: 45 kms from Airport
 accessBus: 15 kms. from Bus Stand
@@ -1103,5 +1103,18 @@ rates:
     specialPeriod: 0
     notes: '31/12 Dinner : Rs 12000pp + tax'
     agentCommission: 0
+ranking: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://www.vivantabytaj.com/Fort-Aguada-Goa
+web: 1
+mailTo: ''
 ---
+
+
+
+
+
+
 A 5-star luxury hotel on Sinquerim beach, with stunning views of the Arabian Sea. Built on the site of a 16th century Portuguese fort, the hotel has 130 centrally air-conditioned rooms and multiple restaurants offering a wide choice of dining. There is a swimming pool and all sports facilities expected of a luxury hotel.

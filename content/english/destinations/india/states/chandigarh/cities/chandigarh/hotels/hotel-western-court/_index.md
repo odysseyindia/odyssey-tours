@@ -6,14 +6,17 @@ mailto: ''
 address: SCO 103-106, Sector 43-B
 city: Chandigarh
 postalcode: ''
-phone: 172-455 4455
+phone: 172-455 4455,
 mobile: ''
 email: 'westerncourt@gmail.com  '
 website: www.westerncourthotels.com
 note: ''
 type: hotel
 category:
+  - H
+  - ST
   - RIK
+  - A
 showHotel: 0
 starCategory: 0
 checkout: ''
@@ -24,7 +27,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Executive Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,7 +63,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -96,7 +99,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Grand Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -132,7 +135,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Suite Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -168,7 +171,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Executive Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -204,7 +207,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -240,7 +243,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Grand Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -276,7 +279,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Suite Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -311,5 +314,36 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: ''
+gstType: 1
+gstin: 04AGYPA0948H1ZC
+www: www.westerncourthotels.com
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This small, modern, business hotel has large comfortable rooms with good facilities. There is a restaurant with an open-to-view kitchen, which offers a surprisingly wide range of international dishes, and has an extensive bar.           

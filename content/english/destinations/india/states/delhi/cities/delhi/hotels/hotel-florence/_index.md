@@ -6,14 +6,16 @@ mailto: Florence Inn
 address: 2719, Bank Street  Karol Bagh
 city: Delhi
 postalcode: 110 005
-phone: 11-4714 4714, 4154 5674-76, 4254 2331
+phone: 11-4714 4714, 4154 5674-76, 4254 2331,
 mobile: ''
 email: 'resvn@florencegroup.in  gm@florencegroup.in  sales@florencegroup.in    '
 website: ''
 note: For Reservations - Call Mr Ashish Sharda on 4502 5555 / 4504 9755 / 45025500
-ranking: '2'
+ranking: 2
 type: hotel
 category:
+  - H
+  - RIK
   - ST
 showHotel: 0
 starCategory: 3
@@ -25,7 +27,7 @@ advantage: ''
 rooms: 24
 rates:
   - roomType: Premium Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -61,7 +63,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Premium Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -96,5 +98,29 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: ''
+gstType: 1
+gstin: 07AAGHA5483F1ZD
+www: ''
+web: 0
+mailTo: Florence Inn
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Hotel Florence is a comfortable 3-star hotel, conveniently located close to Delhi's most famous shopping hub called Karol Bagh. The hotel offers rooms of a very high standard both in terms of decor and cleanliness. The beds are huge and comfortable. The bathroom is immaculate with a good rain shower and plenty of clean, white towels. Excellent meals are served either in the top-floor restaurant, or by room service.

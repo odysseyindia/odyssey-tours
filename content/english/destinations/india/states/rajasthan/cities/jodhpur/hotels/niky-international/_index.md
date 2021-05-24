@@ -6,7 +6,7 @@ mailto: ''
 address: 'Paanch Batti Circle  Residence Road  '
 city: Jodhpur
 postalcode: 342 001
-phone: 291-320  9/19
+phone: 291-320  9/19,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Kaustubh Holidays Tours & Travels Pvt Ltd
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

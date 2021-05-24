@@ -6,7 +6,7 @@ mailto: ''
 address: Airport Circle  Hansol
 city: Ahmedabad
 postalcode: 382 475
-phone: 79-286 2591
+phone: 79-286 2591,
 mobile: ''
 email: cisunset@wilnetonline.net
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

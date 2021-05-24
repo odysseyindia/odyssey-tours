@@ -6,7 +6,7 @@ mailto: ''
 address: Tehla Bypass Road, Village Talab   Tehsil Rajgarh, District Alwar
 city: Sariska
 postalcode: 301 410
-phone: '-'
+phone: '-,98290 52535, 87694 44575'
 mobile: 98290 52535, 87694 44575
 email: info@vanaashrya.com
 website: ''
@@ -99,5 +99,18 @@ rates:
     specialPeriod: 0
     notes: 'Christmas Eve: Rs 2,500 p.p. + tax  New Year''s Eve: Rs 3,000 p.p. + tax  '
     agentCommission: 0
+bookThrough: The Consortium Hotels
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 In the foothills of the Aravalli Ranges, experience luxury camping in the middle of the jungle. Spread over an area of 12 acres with a lake, Vanaashrya offers a peaceful atmosphere. Each tent is well equipped and comfortable, and there is a swimming pool, bar and tented restaurant. There are plenty of activities, from jeep safaris to village walks, camel safaris, cycling, or a trip to Bhangarh Fort, nearby lakes or trekking.

@@ -6,7 +6,7 @@ mailto: ''
 address: 66, Residency Road
 city: Bangalore
 postalcode: 560 025
-phone: 80-66604545
+phone: 80-66604545,
 mobile: ''
 email: gateway.bangalore@tajhotels.com
 website: http://www.thegatewayhotels.com/residencyroadbangalore/overview.aspx
@@ -22,5 +22,18 @@ accessAir: 8 kms. from Airport
 accessBus: 7 kms. from Bus Stand
 advantage: We are in the heart of the city on Residency Road Parallel to MG Road
 rooms: 98
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://www.thegatewayhotels.com/residencyroadbangalore/overview.aspx
+web: 1
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 A good moderate  hotel right in the heart of Bangalore's bustling down-town. It is centrally airconditioned and the 98 rooms are comfortably furnished with TV and telephones. There are 3 restaurants including a 24 hour coffee shop, a swimming pool and a mini gym.

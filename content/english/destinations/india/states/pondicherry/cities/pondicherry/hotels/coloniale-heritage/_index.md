@@ -6,13 +6,16 @@ mailto: ''
 address: 54 Rue Romain Rolland
 city: Pondicherry
 postalcode: 605 001
-phone: 413-222 4720, 420 0334, 222 1660
+phone: 413-222 4720, 420 0334, 222 1660,
 mobile: ''
 email: colonialeheritage@rediffmail.com  reservations@colonialeheritage.com
 website: www.colonialeheritage.com
 note: ''
 type: hotel
 category:
+  - H
+  - HH
+  - ST
   - WEB
 showHotel: 0
 starCategory: 0
@@ -383,5 +386,36 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: ''
+gstType: 4
+gstin: ''
+www: www.colonialeheritage.com
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Sabine Thierry runs the warm, friendly Coloniale Heritage guest house, located on a quiet tree-lined street. Sabine's family home is now a 6-roomed guesthouse with a pocket-sized garden and lots of little open spaces. There are steep steps, but the rooms and spaces are very inviting, and Sabine is very knowledgeable about Pondicherry.

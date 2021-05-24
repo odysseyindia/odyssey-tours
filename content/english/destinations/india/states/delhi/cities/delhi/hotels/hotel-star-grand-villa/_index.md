@@ -8,7 +8,7 @@ address: >-
   Kailash Colony Metro Station)  Nehru Place
 city: Delhi
 postalcode: 110 065
-phone: 11-45751111
+phone: 11-45751111,
 mobile: ''
 email: stargrandvilla@gmail.com
 website: www.stargrandvillas.com
@@ -24,4 +24,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.stargrandvillas.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

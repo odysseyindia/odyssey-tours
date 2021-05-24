@@ -6,7 +6,7 @@ mailto: ''
 address: The Mall  Cantontment
 city: Varanasi
 postalcode: 221 002
-phone: 542-666 6100
+phone: 542-666 6100,
 mobile: ''
 email: fom@rivatas.com  reservations@rivatas.com
 website: www.rivatas.com
@@ -22,5 +22,18 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 68
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.rivatas.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 This new hotel in the relatively calm Cantonment area of the city has been designed and built to a level of contemporary comfort rare in this historic city. From the subdued red colours of the lobby area, to the blues of the lounge bar, to the modern coffee shop and speciality kebab restaurant, and the spacious and stylishly furnished rooms, this is a hotel of understated luxury, making it a peaceful and comfortable retreat from the noise and chaos of the city. 

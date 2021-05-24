@@ -6,7 +6,7 @@ mailto: ''
 address: Unkal Lake
 city: Hubli
 postalcode: 580 025
-phone: 836-661 1100
+phone: 836-661 1100,
 mobile: ''
 email: gateway.hubli@tajhotels.com
 website: http://www.thegatewayhotels.com/lakesidehubli/overview.aspx
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://www.thegatewayhotels.com/lakesidehubli/overview.aspx
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

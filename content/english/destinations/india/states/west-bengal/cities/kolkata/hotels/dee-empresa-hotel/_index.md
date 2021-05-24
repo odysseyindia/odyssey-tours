@@ -6,7 +6,7 @@ mailto: ''
 address: '12/2A  Dr. Md. Ishaque Rd  '
 city: Kolkata
 postalcode: 700 016
-phone: '-4002 1800'
+phone: '-4002 1800,'
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Station Kolkata
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

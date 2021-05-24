@@ -6,7 +6,7 @@ mailto: ''
 address: Satpura National Park
 city: Satpura
 postalcode: ''
-phone: '-'
+phone: '-,9981997714'
 mobile: '9981997714'
 email: >-
   info@renipanijunglelodge.com  aly@renipanijunglelodge.com 
@@ -15,6 +15,8 @@ website: ''
 note: ''
 type: hotel
 category:
+  - H
+  - SH
   - WEB
 showHotel: 0
 starCategory: 0
@@ -177,5 +179,30 @@ rates:
       rates copied from 2019-2020  All meals + evening snacks  1 Shared Jeep + 1
       Shared National Park / Buffer Activity per day ** included in cost.
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Reni Pani is a beautiful, luxurious wildlife lodge at Satpura National Park. Spread out over acres of frested land, it offers comfortable cottages and delightful African-style tents, and plenty of nice spots to relax in, with a pool, library and little nooks. Service and food are of a very high standard, as are the naturalists. Jeep and canoe safaris, night walks, cycle rides and nature walks are all offered.

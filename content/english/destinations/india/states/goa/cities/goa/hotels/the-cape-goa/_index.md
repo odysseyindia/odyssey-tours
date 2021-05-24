@@ -6,7 +6,7 @@ mailto: ''
 address: Cabo De Rama  Canacona
 city: Goa
 postalcode: 403 702
-phone: '-'
+phone: '-,90758 43958'
 mobile: 90758 43958
 email: info@thecapegoa.com
 website: ''
@@ -337,4 +337,17 @@ rates:
       Cabo de Rama in South Goa.  All our cottages are sea-facing with a private
       warm water jacuzzi on the front terrace and air-conditioning.
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

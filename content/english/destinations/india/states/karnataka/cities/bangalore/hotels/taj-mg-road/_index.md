@@ -6,7 +6,7 @@ mailto: ''
 address: 41/3, Mahatma Gandhi Road
 city: Bangalore
 postalcode: 560 001
-phone: 80-6660 4444
+phone: 80-6660 4444,
 mobile: ''
 email: ''
 website: http://www.vivantabytaj.com/MGRoad-Bangalore
@@ -16,7 +16,7 @@ category:
   - H
 showHotel: 1
 starCategory: 5
-checkout: '12:00:00'
+checkout: 12.00 Noon
 accessRail: 7 kms. from Railway Station
 accessAir: 4.5 kms from Airport
 accessBus: 7 kms. from Bus Stand
@@ -239,5 +239,18 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://www.vivantabytaj.com/MGRoad-Bangalore
+web: 1
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 Centrally located in the heart of the prominent business and entertainment areas. This superior hotel offers 163 centrally air-conditioned rooms, a choice of 3 restaurants, a coffee shop, bar, business centre, swimming pool and a health club.

@@ -6,7 +6,7 @@ mailto: ''
 address: Near Old Telephone Gali   (Opposite to Monika Rooftop Restaurant)  Ward no. 5
 city: Mandawa
 postalcode: 333 704
-phone: '-'
+phone: '-,98876 27056'
 mobile: 98876 27056
 email: info@hotelradhikahavelimandawa.com
 website: https://radhika-haveli-in.book.direct/
@@ -24,7 +24,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -59,5 +59,18 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 5
+bookThrough: Kaustubh Holidays Tours & Travels Pvt Ltd
+gstType: 0
+gstin: ''
+www: https://radhika-haveli-in.book.direct/
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 A beautifully restored old mansion in the heart of Old Delhi, Haveli Dharampura gives you a feel of the Mughal era. Each of the 13 rooms has two tales to tell, one of its history and the other of the restoration journey. There are two dining options, one with a beautiful rooftop view over medieval Old Delhi.

@@ -6,13 +6,15 @@ mailto: ''
 address: Sayla Circle  Ahmedabad - Rajkot Highway  P.O. Sayla  Distict Surendranagar
 city: Sayla
 postalcode: 363 430
-phone: 2755-
+phone: 2755-,
 mobile: ''
 email: 'saylaheritage@rediffmail.com  '
 website: http://bellguesthouse.com
 note: ''
 type: hotel
 category:
+  - H
+  - ST
   - WEB
 showHotel: 0
 starCategory: 0
@@ -99,5 +101,30 @@ rates:
       Rates are not valid during festive period such as Diwali, Christmas and
       New Year Time - Mentioned last year. 
     agentCommission: 5
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://bellguesthouse.com
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 The Bell Guest House is an Indo-European building that once hosted European visitors to the Sayla princely state. Set in lush green gardens with shady trees and lawns, this house has now been renovated and opened as a heritage homestay offering the personalized hospitality of the erstwhile Yuvraj and Yuvrani of Sayla. An ideal place to kick back and relax, with high-ceilinged rooms, pleasant grounds and a colonnaded verandah.

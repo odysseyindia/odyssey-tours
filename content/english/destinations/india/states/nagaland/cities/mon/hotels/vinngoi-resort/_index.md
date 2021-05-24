@@ -6,13 +6,16 @@ mailto: ''
 address: ''
 city: Mon
 postalcode: ''
-phone: '-'
+phone: '-,'
 mobile: ''
 email: ''
 website: ''
 note: ''
 type: hotel
 category:
+  - H
+  - ST
+  - RIK
   - WEB
 showHotel: 0
 starCategory: 0
@@ -131,5 +134,36 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: NE India Safar
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Vinngoi is a resort located in the heart of Mon town. Each cottage is built with modern amenities, but retaining hints of the Konyak culture. The resort offers both the local Konyak cuisine as well as continental dishes.

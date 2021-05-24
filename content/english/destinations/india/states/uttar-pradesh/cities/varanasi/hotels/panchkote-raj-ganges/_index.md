@@ -6,7 +6,7 @@ mailto: ''
 address: B3/95, Shivala, Varanasi, Uttar Pradesh 221001
 city: Varanasi
 postalcode: '221001'
-phone: 542-2275226
+phone: 542-2275226,9565846559
 mobile: '9565846559'
 email: info@panchkoterajganges.com
 website: ''
@@ -59,4 +59,17 @@ rates:
     specialPeriod: 0
     notes: Just for booking purpose
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

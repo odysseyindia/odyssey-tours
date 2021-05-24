@@ -6,13 +6,17 @@ mailto: ''
 address: 'Temple Road   P.O. McLeod Ganj  '
 city: Dharamsala
 postalcode: 176 219
-phone: 1892-221 006, 221 468
+phone: 1892-221 006, 221 468,
 mobile: ''
 email: ''
 website: www.norbulingka.org
 note: chonorhs@norbulingka.org
 type: hotel
 category:
+  - H
+  - COM
+  - HH
+  - WEB
   - RIK
 showHotel: 1
 starCategory: 0
@@ -26,7 +30,7 @@ advantage: >-
 rooms: 15
 rates:
   - roomType: Superior Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -62,7 +66,7 @@ rates:
     notes: 0
     agentCommission: 5
   - roomType: Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -98,7 +102,7 @@ rates:
     notes: 0
     agentCommission: 5
   - roomType: Superior Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -134,7 +138,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 5
   - roomType: Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -169,5 +173,42 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 5
+bookThrough: Summit Adventures
+gstType: 0
+gstin: ''
+www: www.norbulingka.org
+web: 1
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This small, unique boutique guesthouse offers Upper Dharamsala's finest accommodation. Each of the rooms is uniquely themed according to different aspects of Tibetan culture. The furniture and murals offer a treasure chest of style and history. The hotel is in a great location, a short, though steep, walk from McLeod Ganj market and the Dalai Lama's temple, and next door to the Namgyal Monastery.

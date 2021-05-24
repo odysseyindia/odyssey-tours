@@ -6,7 +6,7 @@ mailto: ''
 address: Devka Beach,
 city: Daman
 postalcode: ''
-phone: 260-2254751, 2254644, 2254744
+phone: 260-2254751, 2254644, 2254744,
 mobile: ''
 email: info@sandyresort.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

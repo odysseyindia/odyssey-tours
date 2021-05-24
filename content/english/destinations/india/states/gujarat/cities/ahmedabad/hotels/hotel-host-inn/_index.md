@@ -6,7 +6,7 @@ mailto: ''
 address: Opp. Le Meridian  Khanpur
 city: Ahmedabad
 postalcode: 380 001
-phone: 79-3022 6555/56, 2550 1244/5
+phone: 79-3022 6555/56, 2550 1244/5,
 mobile: ''
 email: hotel_hostinn@yahoo.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

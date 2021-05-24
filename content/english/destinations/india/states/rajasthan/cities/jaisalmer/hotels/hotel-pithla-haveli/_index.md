@@ -6,7 +6,7 @@ mailto: ''
 address: 36, Indra Colony  Jodhpur-Barmer Link Road
 city: Jaisalmer
 postalcode: ''
-phone: 2992-255146
+phone: 2992-255146,
 mobile: ''
 email: royalmarwarhotels@yahoo.co.in
 website: www.royalmarwarhotels.com
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.royalmarwarhotels.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

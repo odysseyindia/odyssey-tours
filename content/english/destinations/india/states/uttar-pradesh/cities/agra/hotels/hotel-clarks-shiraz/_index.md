@@ -6,7 +6,7 @@ mailto: ''
 address: 54, Taj Road,
 city: Agra
 postalcode: 282 001
-phone: 562-2226121 - 27, 2226129 - 32
+phone: 562-2226121 - 27, 2226129 - 32,
 mobile: ''
 email: info@hotelclarksshiraz.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Colleague Tours Pvt. Ltd.
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

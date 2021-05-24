@@ -6,7 +6,7 @@ mailto: ''
 address: R-7/2  Chikalthana  Airport Road
 city: Aurangabad
 postalcode: 431 210
-phone: 240-486 201
+phone: 240-486 201,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+ranking: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
 ---
+
+
+
+
+
+

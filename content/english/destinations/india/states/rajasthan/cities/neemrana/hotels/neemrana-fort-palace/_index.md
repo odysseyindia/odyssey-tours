@@ -6,14 +6,16 @@ mailto: ''
 address: 122nd Milestone,  Delhi-Jaipur Highway
 city: Neemrana
 postalcode: 301 705
-phone: 1494-246 007
+phone: 1494-246 007,95878 85001
 mobile: 95878 85001
 email: fortpalace@neemranahotels.com
 website: http://www.neemranahotels.com/fort-palace-neemrana
 note: ''
-ranking: '1'
+ranking: 1
 type: hotel
 category:
+  - HH
+  - H
   - COM
 showHotel: 1
 starCategory: 0
@@ -25,7 +27,7 @@ advantage: Magnificent Fort now Restored to Its Former Glory
 rooms: 25
 rates:
   - roomType: Heritage Palatial Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -61,7 +63,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Heritage Royal Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -97,7 +99,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Heritage Splendour Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -133,7 +135,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Heritage Smart Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -169,7 +171,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Heritage Old World Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -205,7 +207,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Heritage Comfort Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -241,7 +243,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Heritage Solo Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -277,7 +279,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Heritage Romance Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -313,7 +315,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Heritage Palatial Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -349,7 +351,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Heritage Royal Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -385,7 +387,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Heritage Splendour Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -421,7 +423,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Heritage Smart Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -457,7 +459,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Heritage Old World Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -493,7 +495,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Heritage Comfort Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -529,7 +531,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Heritage Solo Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -565,7 +567,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Heritage Romance Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -600,5 +602,29 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: Neemrana Hotels Pvt. Ltd.
+gstType: 0
+gstin: ''
+www: http://www.neemranahotels.com/fort-palace-neemrana
+web: 1
+mailTo: ''
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 An impeccably restored 15th century fort, the hotel is located at a lofty height, providing many a vantage point for dramatic views over the countryside. The palace structures cut into the hillside sprawl over three acres and rise to ten levels. The rooms are all individually named and decorated, with a different emphasis. They are full of character and are beautifully furnished with collectors' items. 

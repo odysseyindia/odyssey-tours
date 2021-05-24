@@ -6,7 +6,7 @@ mailto: ''
 address: '25 Maulana Azad Road   Phoenix Bay     '
 city: Port Blair
 postalcode: 744 102
-phone: 3192-242 799
+phone: 3192-242 799,
 mobile: ''
 email: tsg_hotel@rediffmail.com
 website: andamantsghotels.com
@@ -22,5 +22,18 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Barefoot Group
+gstType: 0
+gstin: ''
+www: andamantsghotels.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 TSG Emerald View is one of the best budget hotels in Port Blair.     It offers 19 well-appointed air-conditioned rooms with ensuite bathroom, and facilities such as a television, mini bar, and tea and coffee maker. The rooms do not have any interesting views but they offer excellent value for money.    TGS Emerald View has a multi cuisine restaurant and bar, a roof top restaurant and an air conditioned bar.

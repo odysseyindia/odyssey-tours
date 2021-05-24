@@ -6,7 +6,7 @@ mailto: ''
 address: K. K. Road  Kumily
 city: Thekkady
 postalcode: 685 509
-phone: 4869-224 382, 222 753
+phone: 4869-224 382, 222 753,
 mobile: ''
 email: info@greenwoods.in  greenwoods@asianetindia.com
 website: www.greenwoods.in
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 1
+gstin: 32AAFCK5112P1ZI
+www: www.greenwoods.in
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

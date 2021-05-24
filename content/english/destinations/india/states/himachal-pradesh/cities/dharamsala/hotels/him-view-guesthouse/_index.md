@@ -6,13 +6,15 @@ mailto: ''
 address: Jogiwara Road  McLeod Ganj
 city: Dharamsala
 postalcode: 176 219
-phone: 1892-220 567, 221 148
+phone: 1892-220 567, 221 148,
 mobile: ''
 email: sonammaja@8aushimview.com  tseringd@8aushimview.com
 website: http://www.8aushimview.com
 note: ''
 type: hotel
 category:
+  - H
+  - ST
   - RIK
 showHotel: 0
 starCategory: 0
@@ -24,7 +26,7 @@ advantage: ''
 rooms: 11
 rates:
   - roomType: Category I Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,7 +62,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Category II Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -96,7 +98,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Category III Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -132,7 +134,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Category I Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -168,7 +170,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Category II Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -204,7 +206,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Category III Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -239,5 +241,30 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: Summit Adventures
+gstType: 1
+gstin: 02BKPPM9889P1ZW
+www: http://www.8aushimview.com
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Him View Guesthouse is a homely guest house, perfectly located just a few minutes walk from the centre of Mcleod Ganj. The rooms are simple but many have balconies with views over the hills. There is a courtyard and small restaurant that serves delicious home-cooked vegetarian meals. The guesthouse is run by a very friendly and helpful Tibetan family, and there are reminders of Tibet throughout.

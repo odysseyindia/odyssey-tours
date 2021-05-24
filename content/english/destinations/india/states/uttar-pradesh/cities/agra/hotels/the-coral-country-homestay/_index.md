@@ -6,13 +6,15 @@ mailto: ''
 address: Near Hanuman Mandir,   Dhandhupura Road,  Opp. Shilpgram, Taj Ganj,   Agra
 city: Agra
 postalcode: ''
-phone: '-'
+phone: '-,'
 mobile: ''
 email: gopal_agra@yahoo.com  vandnapatholia@ymail.com
 website: ''
 note: ''
 type: hotel
 category:
+  - H
+  - ST
   - RIK
 showHotel: 0
 starCategory: 0
@@ -24,7 +26,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,7 +62,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -95,5 +97,30 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 4
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 The Coral Country is a cosy six-room homestay a short walk from the Shilpgram parking area (from where you can get eco-friendly transport to the Taj Mahal). With a sweet walled garden, cheerful rooms, large modern bathrooms and an emphasis on cleanliness, good food and friendly service, this is a very pleasant option in Agra.

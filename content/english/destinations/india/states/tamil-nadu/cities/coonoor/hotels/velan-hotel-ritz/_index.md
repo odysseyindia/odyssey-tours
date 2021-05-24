@@ -6,7 +6,7 @@ mailto: ''
 address: Bedford
 city: Coonoor
 postalcode: 643 101
-phone: 423-30 632, 30 784, 30 637, 30 084, 30 484
+phone: 423-30 632, 30 784, 30 637, 30 084, 30 484,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: 79 kms from Coimbatore Airport
 accessBus: 2 kms. from local Bus Stand
 advantage: Nilgiris
 rooms: 21
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

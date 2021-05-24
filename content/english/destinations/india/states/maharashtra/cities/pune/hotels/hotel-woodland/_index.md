@@ -6,7 +6,7 @@ mailto: ''
 address: Sadhu Vaswani Circle,  Near Poona Railway Station
 city: Pune
 postalcode: 411 001
-phone: 20-612 6161
+phone: 20-612 6161,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

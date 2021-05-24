@@ -6,13 +6,15 @@ mailto: ''
 address: 'Serampore Police Line   N.N. Roy Street   LP 39/2/1 Hooghly  '
 city: Serampore
 postalcode: 712 201
-phone: 33-26524736, 26524737
+phone: 33-26524736, 26524737,9830269302
 mobile: '9830269302'
 email: thedenmarktavern@theparkhotels.com
 website: https://www.facebook.com/thedenmarktavernserampore/
 note: ''
 type: hotel
 category:
+  - H
+  - COM
   - WEB
 showHotel: 0
 starCategory: 0
@@ -24,7 +26,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -59,5 +61,30 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: https://www.facebook.com/thedenmarktavernserampore/
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This 232-year-old two-storied structure by the banks of the Hooghly was a tavern and hotel where the Danes kept their flagstaff and cannons. It took around two years to restore the tavern to its former glory, and is now a very attractive hotel, with a cafe attached. Inside you'll find a cosy colonial ambience and lovely, high-ceilinged rooms with the hotel's pretty green shutters.

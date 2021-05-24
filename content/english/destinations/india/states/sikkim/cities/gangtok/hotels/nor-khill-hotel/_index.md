@@ -6,13 +6,17 @@ mailto: ''
 address: Plajor Stadium
 city: Gangtok
 postalcode: 737 101
-phone: 3592-220 064, 205 637, 200 170
+phone: 3592-220 064, 205 637, 200 170,
 mobile: ''
 email: norkhill@elginhotels.com  norkhill@sify.com
 website: www.elginhotels.com
 note: ''
 type: hotel
 category:
+  - H
+  - COM
+  - HH
+  - WEB
   - RIK
 showHotel: 1
 starCategory: 4
@@ -28,330 +32,6 @@ rates:
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
-    costSingle: 11232
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 11520
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 4416
-    extraBedPT: 0
-    wef: '2019-03-15T00:00:00'
-    wet: '2019-06-15T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Suite
-    mealPlan: Halfboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 12768
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 12768
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 4416
-    extraBedPT: 0
-    wef: '2019-03-15T00:00:00'
-    wet: '2019-06-15T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Premier Suite
-    mealPlan: Halfboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 16608
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 16608
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 4416
-    extraBedPT: 0
-    wef: '2019-03-15T00:00:00'
-    wet: '2019-06-15T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Deluxe Room
-    mealPlan: Halfboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 9734
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 9984
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3827
-    extraBedPT: 0
-    wef: '2019-06-16T00:00:00'
-    wet: '2019-09-14T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Suite
-    mealPlan: Halfboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 11066
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 11066
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3827
-    extraBedPT: 0
-    wef: '2019-06-16T00:00:00'
-    wet: '2019-09-14T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Premier Suite
-    mealPlan: Halfboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 14394
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 14394
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3827
-    extraBedPT: 0
-    wef: '2019-06-16T00:00:00'
-    wet: '2019-09-14T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Deluxe Room
-    mealPlan: Halfboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 12000
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 12288
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 4896
-    extraBedPT: 0
-    wef: '2019-09-15T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Suite
-    mealPlan: Halfboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 13536
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 13536
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 4896
-    extraBedPT: 0
-    wef: '2019-09-15T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Premier Suite
-    mealPlan: Halfboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 17376
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 17376
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 4896
-    extraBedPT: 0
-    wef: '2019-09-15T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Deluxe Room
-    mealPlan: Halfboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
     costSingle: 11063
     costSinglePT: 0
     costSingleAc: 0
@@ -439,222 +119,6 @@ rates:
     extraBedPT: 0
     wef: '2019-10-01T00:00:00'
     wet: '2019-11-24T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Deluxe Room
-    mealPlan: Halfboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 11063
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 11328
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 4514
-    extraBedPT: 0
-    wef: '2019-12-21T00:00:00'
-    wet: '2020-01-01T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Suite
-    mealPlan: Halfboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 12479
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 12479
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 4514
-    extraBedPT: 0
-    wef: '2019-12-21T00:00:00'
-    wet: '2020-01-01T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Premier Suite
-    mealPlan: Halfboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 16019
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 16019
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 4514
-    extraBedPT: 0
-    wef: '2019-12-21T00:00:00'
-    wet: '2020-01-01T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Deluxe Room
-    mealPlan: Halfboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 11063
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 11328
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 4514
-    extraBedPT: 0
-    wef: '2020-03-15T00:00:00'
-    wet: '2020-06-15T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Suite
-    mealPlan: Halfboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 12479
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 12479
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 4514
-    extraBedPT: 0
-    wef: '2020-03-15T00:00:00'
-    wet: '2020-06-15T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Premier Suite
-    mealPlan: Halfboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 16019
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 16019
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 4514
-    extraBedPT: 0
-    wef: '2020-03-15T00:00:00'
-    wet: '2020-06-15T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -784,6 +248,114 @@ rates:
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
+    costSingle: 11063
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 11328
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 4514
+    extraBedPT: 0
+    wef: '2019-12-21T00:00:00'
+    wet: '2020-01-01T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Deluxe Room
+    defaultAc: 0
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Suite
+    mealPlan: Halfboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 12479
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 12479
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 4514
+    extraBedPT: 0
+    wef: '2019-12-21T00:00:00'
+    wet: '2020-01-01T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Deluxe Room
+    defaultAc: 0
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Premier Suite
+    mealPlan: Halfboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 16019
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 16019
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 4514
+    extraBedPT: 0
+    wef: '2019-12-21T00:00:00'
+    wet: '2020-01-01T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Deluxe Room
+    defaultAc: 0
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Deluxe Room
+    mealPlan: Halfboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
     costSingle: 9588
     costSinglePT: 0
     costSingleAc: 0
@@ -871,6 +443,114 @@ rates:
     extraBedPT: 0
     wef: '2020-01-02T00:00:00'
     wet: '2020-03-14T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Deluxe Room
+    defaultAc: 0
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Deluxe Room
+    mealPlan: Halfboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 11063
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 11328
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 4514
+    extraBedPT: 0
+    wef: '2020-03-15T00:00:00'
+    wet: '2020-06-15T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Deluxe Room
+    defaultAc: 0
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Suite
+    mealPlan: Halfboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 12479
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 12479
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 4514
+    extraBedPT: 0
+    wef: '2020-03-15T00:00:00'
+    wet: '2020-06-15T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Deluxe Room
+    defaultAc: 0
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Premier Suite
+    mealPlan: Halfboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 16019
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 16019
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 4514
+    extraBedPT: 0
+    wef: '2020-03-15T00:00:00'
+    wet: '2020-06-15T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -1121,8 +801,8 @@ rates:
     freeTransfer: 0
     extraBed: 4514
     extraBedPT: 0
-    wef: '2020-12-21T00:00:00'
-    wet: '2021-01-01T00:00:00'
+    wef: '2020-10-01T00:00:00'
+    wet: '2020-11-24T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -1157,8 +837,8 @@ rates:
     freeTransfer: 0
     extraBed: 4514
     extraBedPT: 0
-    wef: '2020-12-21T00:00:00'
-    wet: '2021-01-01T00:00:00'
+    wef: '2020-10-01T00:00:00'
+    wet: '2020-11-24T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -1193,116 +873,8 @@ rates:
     freeTransfer: 0
     extraBed: 4514
     extraBedPT: 0
-    wef: '2020-12-21T00:00:00'
-    wet: '2021-01-01T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Deluxe Room
-    mealPlan: Halfboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 11771
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 12036
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 4514
-    extraBedPT: 0
-    wef: '2021-03-15T00:00:00'
-    wet: '2021-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Suite
-    mealPlan: Halfboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 13187
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 13187
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 4514
-    extraBedPT: 0
-    wef: '2021-03-15T00:00:00'
-    wet: '2021-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Premier Suite
-    mealPlan: Halfboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 16727
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 16727
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 4514
-    extraBedPT: 0
-    wef: '2021-03-15T00:00:00'
-    wet: '2021-03-31T00:00:00'
+    wef: '2020-10-01T00:00:00'
+    wet: '2020-11-24T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -1411,6 +983,114 @@ rates:
     extraBedPT: 0
     wef: '2020-11-25T00:00:00'
     wet: '2020-12-20T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Deluxe Room
+    defaultAc: 0
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Deluxe Room
+    mealPlan: Halfboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 11771
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 12036
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 4514
+    extraBedPT: 0
+    wef: '2020-12-21T00:00:00'
+    wet: '2021-01-01T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Deluxe Room
+    defaultAc: 0
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Suite
+    mealPlan: Halfboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 13187
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 13187
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 4514
+    extraBedPT: 0
+    wef: '2020-12-21T00:00:00'
+    wet: '2021-01-01T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Deluxe Room
+    defaultAc: 0
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Premier Suite
+    mealPlan: Halfboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 16727
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 16727
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 4514
+    extraBedPT: 0
+    wef: '2020-12-21T00:00:00'
+    wet: '2021-01-01T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -1553,8 +1233,8 @@ rates:
     freeTransfer: 0
     extraBed: 4514
     extraBedPT: 0
-    wef: '2020-10-01T00:00:00'
-    wet: '2020-11-24T00:00:00'
+    wef: '2021-03-15T00:00:00'
+    wet: '2021-03-31T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -1589,8 +1269,8 @@ rates:
     freeTransfer: 0
     extraBed: 4514
     extraBedPT: 0
-    wef: '2020-10-01T00:00:00'
-    wet: '2020-11-24T00:00:00'
+    wef: '2021-03-15T00:00:00'
+    wet: '2021-03-31T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -1625,8 +1305,8 @@ rates:
     freeTransfer: 0
     extraBed: 4514
     extraBedPT: 0
-    wef: '2020-10-01T00:00:00'
-    wet: '2020-11-24T00:00:00'
+    wef: '2021-03-15T00:00:00'
+    wet: '2021-03-31T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -2183,5 +1863,42 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: Elgin Hotels Pvt Ltd - (old)
+gstType: 0
+gstin: ''
+www: www.elginhotels.com
+web: 1
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 A delightful hotel in a lovely garden, Nor-Khill used to be the royal guesthouse of the Chogyal dynasty. Now a warm and atmospheric hotel belonging to the Elgin group of Darjeeling, Nor-Khill has traditional decor. There are 30 rooms, all clean and comfortably furnished. The hotel offers good views over the countryside.

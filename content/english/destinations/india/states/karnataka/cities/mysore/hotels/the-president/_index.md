@@ -6,7 +6,7 @@ mailto: The Viceroy
 address: '# 2723, Near Harding Circle  Bangalore - Nilgiri Road'
 city: Mysore
 postalcode: 570 001
-phone: 821-4269001, 2425111
+phone: 821-4269001, 2425111,
 mobile: ''
 email: sales_hotelpresident@airtelbroadband.in  viceroymys@dataone.in
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: The Viceroy
+ranking: 0
 ---
+
+
+
+
+
+

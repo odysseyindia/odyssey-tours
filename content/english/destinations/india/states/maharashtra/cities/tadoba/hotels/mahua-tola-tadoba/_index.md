@@ -6,13 +6,17 @@ mailto: ''
 address: Village Adegaon  Tehsil Chimur, District Chandrapur
 city: Tadoba
 postalcode: 442 904
-phone: '-'
+phone: '-,'
 mobile: ''
 email: ''
 website: https://www.vresorts.in/resorts/v-resorts-tadoba
 note: ''
 type: hotel
 category:
+  - H
+  - RIK
+  - ST
+  - A
   - WEB
 showHotel: 0
 starCategory: 0
@@ -311,5 +315,42 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: V Resorts
+gstType: 0
+gstin: ''
+www: https://www.vresorts.in/resorts/v-resorts-tadoba
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Mahua Tola Tadoba, well located for two of Tadoba's gates, is surrounded by dense forest. The property has airy cottages, suites, and rooms with separate sit-out areas, ideal for nature walks, morning tea and coffee, and long hours of reading. A river passes just outside, and the resort, set away from others in the area, often has tigers and leopards walking in the property - a stamp of the wildness of this resort!

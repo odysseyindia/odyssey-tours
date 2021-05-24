@@ -6,13 +6,15 @@ mailto: ''
 address: 'Karadigodu Post  Kodagu (Coorg)  '
 city: Siddhapura
 postalcode: 571 253
-phone: 8274-258 481-4
+phone: 8274-258 481-4,
 mobile: ''
 email: coorg@evolveback.com
 website: https://www.evolveback.com/coorg/
 note: ''
 type: hotel
 category:
+  - H
+  - SH
   - WEB
 showHotel: 1
 starCategory: 5
@@ -119,120 +121,6 @@ rates:
     extraBedPT: 0
     wef: '2019-10-01T00:00:00'
     wet: '2019-12-22T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Lily Pool Cottage
-    defaultAc: 1
-    specialPeriod: 0
-    notes: >-
-      Different rates apply for a 2 or 3 nights' stay.  Extra commission for
-      using multiple group resorts.  See the quotation mail from the hotel.
-    agentCommission: 0
-  - roomType: Heritage Pool Villa
-    mealPlan: Fullboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 29000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 29000
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 4000
-    extraBedPT: 0
-    wef: '2020-01-01T00:00:00'
-    wet: '2020-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Lily Pool Cottage
-    defaultAc: 1
-    specialPeriod: 0
-    notes: >-
-      Different rates apply for a 2 or 3 nights' stay.  Extra commission for
-      using multiple group resorts.  See the quotation mail from the hotel.
-    agentCommission: 0
-  - roomType: Lily Pool Cottage
-    mealPlan: Fullboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 26000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 26000
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 4000
-    extraBedPT: 0
-    wef: '2020-01-01T00:00:00'
-    wet: '2020-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Lily Pool Cottage
-    defaultAc: 1
-    specialPeriod: 0
-    notes: >-
-      Different rates apply for a 2 or 3 nights' stay.  Extra commission for
-      using multiple group resorts.  See the quotation mail from the hotel.
-    agentCommission: 0
-  - roomType: Lily Pool Villa
-    mealPlan: Fullboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 31000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 31000
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 4000
-    extraBedPT: 0
-    wef: '2020-01-01T00:00:00'
-    wet: '2020-09-30T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -486,19 +374,19 @@ rates:
     currencyPT: INR
     costSingle: 0
     costSinglePT: 0
-    costSingleAc: 28000
+    costSingleAc: 29000
     costSingleAcPT: 0
     costDouble: 0
     costDoublePT: 0
-    costDoubleAc: 28000
+    costDoubleAc: 29000
     costDoubleAcPT: 0
     nett: 1
     nettPT: 0
     freeTransfer: 0
-    extraBed: 6000
+    extraBed: 4000
     extraBedPT: 0
-    wef: '2020-10-01T00:00:00'
-    wet: '2020-12-22T00:00:00'
+    wef: '2020-01-01T00:00:00'
+    wet: '2020-09-30T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -524,19 +412,19 @@ rates:
     currencyPT: INR
     costSingle: 0
     costSinglePT: 0
-    costSingleAc: 24000
+    costSingleAc: 26000
     costSingleAcPT: 0
     costDouble: 0
     costDoublePT: 0
-    costDoubleAc: 24000
+    costDoubleAc: 26000
     costDoubleAcPT: 0
     nett: 1
     nettPT: 0
     freeTransfer: 0
-    extraBed: 6000
+    extraBed: 4000
     extraBedPT: 0
-    wef: '2020-10-01T00:00:00'
-    wet: '2020-12-22T00:00:00'
+    wef: '2020-01-01T00:00:00'
+    wet: '2020-09-30T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -562,19 +450,19 @@ rates:
     currencyPT: INR
     costSingle: 0
     costSinglePT: 0
-    costSingleAc: 28000
+    costSingleAc: 31000
     costSingleAcPT: 0
     costDouble: 0
     costDoublePT: 0
-    costDoubleAc: 28000
+    costDoubleAc: 31000
     costDoubleAcPT: 0
     nett: 1
     nettPT: 0
     freeTransfer: 0
-    extraBed: 6000
+    extraBed: 4000
     extraBedPT: 0
-    wef: '2020-10-01T00:00:00'
-    wet: '2020-12-22T00:00:00'
+    wef: '2020-01-01T00:00:00'
+    wet: '2020-09-30T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -611,8 +499,8 @@ rates:
     freeTransfer: 0
     extraBed: 6000
     extraBedPT: 0
-    wef: '2021-01-01T00:00:00'
-    wet: '2021-09-30T00:00:00'
+    wef: '2020-10-01T00:00:00'
+    wet: '2020-12-22T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -649,8 +537,8 @@ rates:
     freeTransfer: 0
     extraBed: 6000
     extraBedPT: 0
-    wef: '2021-01-01T00:00:00'
-    wet: '2021-09-30T00:00:00'
+    wef: '2020-10-01T00:00:00'
+    wet: '2020-12-22T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -687,8 +575,8 @@ rates:
     freeTransfer: 0
     extraBed: 6000
     extraBedPT: 0
-    wef: '2021-01-01T00:00:00'
-    wet: '2021-09-30T00:00:00'
+    wef: '2020-10-01T00:00:00'
+    wet: '2020-12-22T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -935,5 +823,144 @@ rates:
       Different rates apply for a 2 or 3 nights' stay.  Extra commission for
       using multiple group resorts.  See the quotation mail from the hotel.
     agentCommission: 0
+  - roomType: Heritage Pool Villa
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 28000
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 28000
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 6000
+    extraBedPT: 0
+    wef: '2021-01-01T00:00:00'
+    wet: '2021-09-30T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Lily Pool Cottage
+    defaultAc: 1
+    specialPeriod: 0
+    notes: >-
+      Different rates apply for a 2 or 3 nights' stay.  Extra commission for
+      using multiple group resorts.  See the quotation mail from the hotel.
+    agentCommission: 0
+  - roomType: Lily Pool Cottage
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 24000
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 24000
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 6000
+    extraBedPT: 0
+    wef: '2021-01-01T00:00:00'
+    wet: '2021-09-30T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Lily Pool Cottage
+    defaultAc: 1
+    specialPeriod: 0
+    notes: >-
+      Different rates apply for a 2 or 3 nights' stay.  Extra commission for
+      using multiple group resorts.  See the quotation mail from the hotel.
+    agentCommission: 0
+  - roomType: Lily Pool Villa
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 28000
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 28000
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 6000
+    extraBedPT: 0
+    wef: '2021-01-01T00:00:00'
+    wet: '2021-09-30T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Lily Pool Cottage
+    defaultAc: 1
+    specialPeriod: 0
+    notes: >-
+      Different rates apply for a 2 or 3 nights' stay.  Extra commission for
+      using multiple group resorts.  See the quotation mail from the hotel.
+    agentCommission: 0
+bookThrough: Evolve Back Resorts
+gstType: 0
+gstin: ''
+www: https://www.evolveback.com/coorg/
+web: 1
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 A delightful, sprawling upscale resort with mock Tudor-style and tradiional Coorg-style bungalows scattered around a lovely plantation. The rooms that are spacious and well-furnished, and have balconies or bay-windows overlooking the greenery, and many have a private pool as well. There are two swimming pools and a private boating lake, and you can stroll about, go birding or just relax.

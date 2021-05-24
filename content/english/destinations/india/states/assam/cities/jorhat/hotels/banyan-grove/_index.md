@@ -6,7 +6,7 @@ mailto: ''
 address: Gatoonga Tea Estate
 city: Jorhat
 postalcode: ''
-phone: '-'
+phone: '-,'
 mobile: ''
 email: uttara@barooahs.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

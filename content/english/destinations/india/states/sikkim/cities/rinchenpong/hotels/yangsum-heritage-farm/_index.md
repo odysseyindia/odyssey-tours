@@ -6,13 +6,16 @@ mailto: ''
 address: P.O Rinchenpong  West Sikkim
 city: Rinchenpong
 postalcode: 737 111
-phone: 3595-245 322
+phone: 3595-245 322,
 mobile: ''
 email: yangsumfarm@yahoo.com
 website: www.yangsumfarm.com
 note: ''
 type: hotel
 category:
+  - H
+  - RIK
+  - ST
   - WEB
 showHotel: 0
 starCategory: 0
@@ -239,5 +242,36 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 4
+gstin: ''
+www: www.yangsumfarm.com
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Yangsum Farm is scenically located in idyllic countryside. The friendly owners are happy to show guests around the fully organic 44-acre farm, with its abundant vegetables, fruits, flowers and trees. There are six spacious and well-furnished bedrooms. Guided walks can be arranged through the forest to a memorial to Rabindranath Tagore and an old hilltop monastery. Delicious meals made from local produce are a highlight.

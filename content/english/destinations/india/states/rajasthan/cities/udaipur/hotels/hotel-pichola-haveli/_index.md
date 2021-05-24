@@ -6,7 +6,7 @@ mailto: ''
 address: 64, Ganguarghat,  Opp. Bagore Ki Haveli
 city: Udaipur
 postalcode: 313 001
-phone: 294-2413653 / 54
+phone: 294-2413653 / 54,
 mobile: ''
 email: pummy_rock@hotmail.com  info@picholahaveli.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

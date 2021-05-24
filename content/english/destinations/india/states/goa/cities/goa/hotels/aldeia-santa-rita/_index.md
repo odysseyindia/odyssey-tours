@@ -6,7 +6,7 @@ mailto: ''
 address: 'Fort Aguada Road    '
 city: Sinquerim
 postalcode: ''
-phone: 832-2276 868
+phone: 832-2276 868,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+ranking: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
 ---
+
+
+
+
+
+

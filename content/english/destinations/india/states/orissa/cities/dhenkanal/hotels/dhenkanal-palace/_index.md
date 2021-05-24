@@ -6,7 +6,7 @@ mailto: ''
 address: Court Road  Dhenkanal,
 city: Dhenkanal
 postalcode: 759 001
-phone: 94372-92448
+phone: 94372-92448,
 mobile: ''
 email: ''
 website: ''
@@ -14,6 +14,9 @@ note: ''
 type: hotel
 category:
   - WEB
+  - H
+  - ST
+  - RIK
 showHotel: 0
 starCategory: 0
 checkout: ''
@@ -95,5 +98,36 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 5
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 The rambling old palace overlooking the town of Dhenkanal is wonderfully atmospheric. The rooms are scattered throughout the building, all with different décor and features. The whole place is filled with antiques, and there are several comfortable lounges in which to soak in the history. Time can be spent relaxing on the lawns, maybe in conversation with the erstwhile rulers of Dhenakanal, who still reside in the palace.

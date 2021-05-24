@@ -6,7 +6,7 @@ mailto: ''
 address: Agonda Beach
 city: Goa
 postalcode: 403 702
-phone: '-'
+phone: '-,'
 mobile: ''
 email: info@agondabeachresort.com
 website: ''
@@ -253,4 +253,17 @@ rates:
       1 sea-facing cottage & 3 garden-facing cottages,  all identical in size
       and amenities  No restaurant, but complimentary breakfast served
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

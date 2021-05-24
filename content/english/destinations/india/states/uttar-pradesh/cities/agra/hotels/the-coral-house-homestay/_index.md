@@ -6,14 +6,16 @@ mailto: ''
 address: '5, Amarlok colony,   Opp. Jalma hospital,   Tajganj, Agra  282001  '
 city: Agra
 postalcode: 282 001
-phone: '-'
+phone: '-,93191 03644'
 mobile: 93191 03644
 email: info@coralhousehomestay.com
 website: ''
 note: ''
-ranking: '2'
+ranking: 2
 type: hotel
 category:
+  - H
+  - RIK
   - ST
 showHotel: 0
 starCategory: 0
@@ -25,7 +27,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -61,7 +63,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Family Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -97,7 +99,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -133,7 +135,7 @@ rates:
     notes: Same rates all the year around even on Christmas or New year Eve.
     agentCommission: 0
   - roomType: Family Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -168,5 +170,29 @@ rates:
     specialPeriod: 0
     notes: Same rates all the year around even on Christmas or New year Eve.
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: 09AATPT7863M1ZD
+www: ''
+web: 0
+mailTo: ''
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Pratibha & Sanjay have opened their delightful home to guests. There are 6 charming, colourfully-decorated rooms, and lovely shaded courtyards in which to relax and chat with the family and other guests. Delicious, home-cooked meals are served. The location is ideal, being in a quiet residential colony close to the Taj Mahal

@@ -6,7 +6,7 @@ mailto: ''
 address: 6, Shahnajaf Road
 city: Lucknow
 postalcode: 226 001
-phone: 522-405 5000
+phone: 522-405 5000,
 mobile: ''
 email: lpsp@sarovarhotels.com  gmlpsp@sarovarhotels.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Sarovar Hotels & Resorts
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

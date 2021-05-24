@@ -6,7 +6,7 @@ mailto: ''
 address: Baner Road
 city: Pune
 postalcode: 411 045
-phone: 20-2588 6265, 4078 8886-9
+phone: 20-2588 6265, 4078 8886-9,
 mobile: ''
 email: ''
 website: www.hotelgreenparkpune.com
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.hotelgreenparkpune.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

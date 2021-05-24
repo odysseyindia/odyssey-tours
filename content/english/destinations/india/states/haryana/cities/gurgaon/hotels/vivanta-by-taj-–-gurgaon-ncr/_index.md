@@ -6,7 +6,7 @@ mailto: ''
 address: 'Sector 44  '
 city: Gurgaon
 postalcode: 122 004
-phone: 124-667 1234
+phone: 124-667 1234,
 mobile: ''
 email: ''
 website: http://www.vivantabytaj.com/Gurgaon-NCR
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://www.vivantabytaj.com/Gurgaon-NCR
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

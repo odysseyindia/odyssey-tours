@@ -6,13 +6,16 @@ mailto: ''
 address: Bhujwala House  Opposite Camp Police Chowki  Camp Area
 city: Bhuj
 postalcode: 370 001
-phone: '-'
+phone: '-,90981 87346'
 mobile: 90981 87346
 email: jehan@thebhujhouse.com
 website: ''
 note: ''
 type: hotel
 category:
+  - H
+  - COM
+  - RIK
   - WEB
 showHotel: 0
 starCategory: 0
@@ -171,5 +174,36 @@ rates:
       rates copied from 2019-2020  Minimum of 2 nights booking between 20th Dec
       2019 and 10th Jan 2020.     
     agentCommission: 5
+bookThrough: Indo West Tours
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 The Bhuj House is a traditional Parsi courtyard house in the historic town of Bhuj. Built in the late 1800s, it has stood through seven generations of the Bhujwala family, and survived the devastating Bhuj earthquake of 2001. The family have lovingly restored the house, opening it as a delightful four-room heritage homestay.

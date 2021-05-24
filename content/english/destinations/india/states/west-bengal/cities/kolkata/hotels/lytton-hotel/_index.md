@@ -6,13 +6,15 @@ mailto: ''
 address: 14 & 14/1, Sudder Street
 city: Kolkata
 postalcode: 700 016
-phone: 33-3984 1900, 2249 1872-73
+phone: 33-3984 1900, 2249 1872-73,
 mobile: ''
 email: sales@lyttonhotelindia.com  resv@lyttonhotelindia.com
 website: www.Lyttonhotel.com
 note: ''
 type: hotel
 category:
+  - H
+  - ST
   - RIK
 showHotel: 1
 starCategory: 3
@@ -24,7 +26,7 @@ advantage: Besides New Market, Behind Globe Cinema
 rooms: 81
 rates:
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,7 +62,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -95,5 +97,30 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+ranking: 2
+bookThrough: ''
+gstType: 1
+gstin: 19AABFL1766D1ZG
+www: www.Lyttonhotel.com
+web: 1
+mailTo: ''
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Although The Lytton is undeniably a business hotel, it has a definite warmth and ambience. Perhaps the atmosphere is due to its colourful history: the building was originally used as a nursing home during the Second World War before it was converted into a hotel by a Briton whose name the hotel still bears. Today, there are charming rooms of yellow and white, specialty restaurants, and a chic red and black bar.

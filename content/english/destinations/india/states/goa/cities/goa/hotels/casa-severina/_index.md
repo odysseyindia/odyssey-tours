@@ -6,14 +6,18 @@ mailto: ''
 address: Senhor Francisco Road  Near St. Anthonys Chapel  Gaurovaddo, Calangute
 city: Goa
 postalcode: 403 516
-phone: 832-227 5696, 227 5697
+phone: 832-227 5696, 227 5697,
 mobile: ''
 email: reservations@casaseverina.com  gm@casaseverina.com
 website: www.casaseverina.com
 note: ''
 type: hotel
 category:
+  - H
+  - ST
+  - WEB
   - RIK
+  - A
 showHotel: 0
 starCategory: 0
 checkout: 11:00AM
@@ -24,151 +28,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 3999
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 3999
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 0
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-05-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Super Deluxe Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: no children under 12 are allowed, and no twin rooms are available
-    agentCommission: 0
-  - roomType: Super Deluxe Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 4699
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 4699
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1400
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-05-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Super Deluxe Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: no children under 12 are allowed, and no twin rooms are available
-    agentCommission: 0
-  - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 3499
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 3499
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 0
-    extraBedPT: 0
-    wef: '2019-06-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Super Deluxe Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: no children under 12 are allowed, and no twin rooms are available
-    agentCommission: 0
-  - roomType: Super Deluxe Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 4199
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 4199
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1200
-    extraBedPT: 0
-    wef: '2019-06-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Super Deluxe Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: no children under 12 are allowed, and no twin rooms are available
-    agentCommission: 0
-  - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -204,7 +64,7 @@ rates:
     notes: no children under 12 are allowed, and no twin rooms are available
     agentCommission: 0
   - roomType: Super Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -240,7 +100,7 @@ rates:
     notes: no children under 12 are allowed, and no twin rooms are available
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -276,7 +136,7 @@ rates:
     notes: no children under 12 are allowed, and no twin rooms are available
     agentCommission: 0
   - roomType: Super Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -312,7 +172,7 @@ rates:
     notes: no children under 12 are allowed, and no twin rooms are available
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -350,7 +210,7 @@ rates:
       children under 12 are allowed, and no twin rooms are available
     agentCommission: 0
   - roomType: Super Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -388,7 +248,7 @@ rates:
       children under 12 are allowed, and no twin rooms are available
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -424,7 +284,7 @@ rates:
     notes: no children under 12 are allowed, and no twin rooms are available
     agentCommission: 0
   - roomType: Super Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -460,7 +320,7 @@ rates:
     notes: no children under 12 are allowed, and no twin rooms are available
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -496,7 +356,7 @@ rates:
     notes: no children under 12 are allowed, and no twin rooms are available
     agentCommission: 0
   - roomType: Super Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -532,7 +392,7 @@ rates:
     notes: no children under 12 are allowed, and no twin rooms are available
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -568,7 +428,7 @@ rates:
     notes: no children under 12 are allowed, and no twin rooms are available
     agentCommission: 0
   - roomType: Super Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -604,7 +464,7 @@ rates:
     notes: no children under 12 are allowed, and no twin rooms are available
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -642,7 +502,7 @@ rates:
       rooms are available
     agentCommission: 0
   - roomType: Super Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -680,7 +540,7 @@ rates:
       rooms are available
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -718,7 +578,7 @@ rates:
       rooms are available
     agentCommission: 0
   - roomType: Super Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -756,7 +616,7 @@ rates:
       rooms are available
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -795,7 +655,7 @@ rates:
       rooms are available
     agentCommission: 0
   - roomType: Super Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -834,7 +694,7 @@ rates:
       rooms are available
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -872,7 +732,7 @@ rates:
       rooms are available
     agentCommission: 0
   - roomType: Super Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -910,7 +770,7 @@ rates:
       rooms are available
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -948,7 +808,7 @@ rates:
       rooms are available
     agentCommission: 0
   - roomType: Super Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -986,7 +846,7 @@ rates:
       rooms are available
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1024,7 +884,7 @@ rates:
       rooms are available
     agentCommission: 0
   - roomType: Super Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1061,5 +921,42 @@ rates:
       rates copied from 2019-2020  no children under 12 are allowed, and no twin
       rooms are available
     agentCommission: 0
+bookThrough: ''
+gstType: 1
+gstin: 30AHLPS3035P1Z1
+www: www.casaseverina.com
+web: 0
+mailTo: ''
+ranking: 4
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 A quiet and elegant retreat, this is an oasis of peace close to the bright lights of North Goa's busiest beach resorts. With a handful of rooms in an elegant low-rise building, this resort has classic Portuguese furniture – four-poster beds and elegant armchairs - and balconies overlooking the pool or the gardens. The famous Calangute beach is a mere five-minute walk away.

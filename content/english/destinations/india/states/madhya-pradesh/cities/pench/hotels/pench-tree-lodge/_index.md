@@ -6,13 +6,16 @@ mailto: ''
 address: 'Seoni, Kurai  '
 city: Pench
 postalcode: 480 661
-phone: '-'
+phone: '-,'
 mobile: ''
 email: ''
 website: https://www.penchtreelodge.com/
 note: ''
 type: hotel
 category:
+  - H
+  - COM
+  - A
   - WEB
 showHotel: 0
 starCategory: 0
@@ -175,5 +178,36 @@ rates:
       rates copied from 2019-2020  Mandatory New Year's dinner: Rs 3,000/- p.p. 
       Mandatory 3-nights' stay over New Year Eve
     agentCommission: 0
+bookThrough: Pugdundee Safaris
+gstType: 0
+gstin: ''
+www: https://www.penchtreelodge.com/
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Pench Tree Lodge is a luxury resort set in 40 acres of wilderness with 6 unique tree houses and 6 cottages, and some very nice common areas. The charming accommodations are embellished with  unique safari-style furniture and exquisite local crafts. The lodge is far from the other options in Pench, giving you a lovely, quiet experience away from the crowds.  

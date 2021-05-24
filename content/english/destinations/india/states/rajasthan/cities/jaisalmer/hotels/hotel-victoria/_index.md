@@ -6,7 +6,7 @@ mailto: ''
 address: On Fort, Kund Para
 city: Jaisalmer
 postalcode: '345001'
-phone: 2992-252150
+phone: 2992-252150,
 mobile: ''
 email: hotelvictoria@rediffmail.com
 website: www.hotelvictoriajaisalmer.com
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Kaustubh Holidays Tours & Travels Pvt Ltd
+gstType: 0
+gstin: ''
+www: www.hotelvictoriajaisalmer.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

@@ -6,13 +6,15 @@ mailto: ''
 address: 13/3 Bhagya Nagar   CBS Road  Near Baba Petrol Pump
 city: Aurangabad
 postalcode: 431 001
-phone: 240- 2329490, 2329185
+phone: 240- 2329490, 2329185,96044 22333
 mobile: 96044 22333
 email: info@hotelgreenolive.com
 website: https://www.hotelgreenolive.com
 note: ''
 type: hotel
 category:
+  - H
+  - ST
   - RIK
 showHotel: 0
 starCategory: 0
@@ -24,7 +26,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Executive Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,7 +62,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Executive Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -95,5 +97,30 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: 27AAGFH3743P1ZW
+www: https://www.hotelgreenolive.com
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 A comfortable, modern hotel in the heart of Auranbagad, the Green Olive has a good location, clean rooms and a nice Indian-cuisine restaurant. A good choice for a visit to the city of the Buddhist caves.

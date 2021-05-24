@@ -6,14 +6,16 @@ mailto: ''
 address: Rehman Building  S. S. Road  Lakhtokia
 city: Guwahati
 postalcode: 781 001
-phone: 361-251 6021, 712 0055
+phone: 361-251 6021, 712 0055,
 mobile: ''
 email: info@dynastyhotel.in  reservations@dynastyhotel.in
 website: http://www.dynastyhotel.in/
 note: ''
-ranking: '1'
+ranking: 1
 type: hotel
 category:
+  - H
+  - RIK
   - ST
 showHotel: 1
 starCategory: 4
@@ -169,7 +171,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Executive Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -205,7 +207,7 @@ rates:
     notes: GST applicable on extra bed.
     agentCommission: 0
   - roomType: Excellency Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -240,5 +242,29 @@ rates:
     specialPeriod: 0
     notes: GST applicable on extra bed.
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://www.dynastyhotel.in/
+web: 1
+mailTo: ''
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 A comfortable 4-star hotel, right in the heart of the market area, Dynasty is a modern and efficient hotel with excellent facilities. As well as the well-equipped rooms, there is an attractive restaurant with distinctive low seating, a more conventional coffee shop, a tempting pastry counter, a stylish bar, and a well-equipped gym and spa.

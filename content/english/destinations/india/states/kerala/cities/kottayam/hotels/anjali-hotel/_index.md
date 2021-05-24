@@ -6,7 +6,7 @@ mailto: ''
 address: K.K Road
 city: Kottayam
 postalcode: 686 001
-phone: 481-563 661 (8 lines)
+phone: 481-563 661 (8 lines),
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: 70 kms from Airport
 accessBus: ' 1kms from Bus Stand'
 advantage: In the Heart Of the Town, Shopping Area
 rooms: 27
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

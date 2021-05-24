@@ -6,7 +6,7 @@ mailto: ''
 address: Nachna Haveli  Gandhi Chowk
 city: Jaisalmer
 postalcode: 345 001
-phone: 2992-252 538, 251 402
+phone: 2992-252 538, 251 402,
 mobile: ''
 email: rsafari@sancharnet.in
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+ranking: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
 ---
+
+
+
+
+
+

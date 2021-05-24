@@ -6,7 +6,7 @@ mailto: ''
 address: Kazi Road,
 city: Gangtok
 postalcode: 737 101
-phone: 3592-204590, 204556
+phone: 3592-204590, 204556,
 mobile: ''
 email: residencyttakshang@gmail.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Clubside Tours & Travels Pvt Ltd
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

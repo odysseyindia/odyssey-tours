@@ -6,7 +6,7 @@ mailto: ''
 address: Willingdon Island
 city: Kochi
 postalcode: 682 009
-phone: 484-664 3000
+phone: 484-664 3000,
 mobile: ''
 email: ''
 website: http://www.vivantabytaj.com/Malabar-Cochin
@@ -16,7 +16,7 @@ category:
   - H
 showHotel: 1
 starCategory: 5
-checkout: '12:00:00'
+checkout: 12.00 Noon
 accessRail: 10 kms from Ernakulam Jn. Station, 15 kms from Ernakulam Town Station
 accessAir: 45 kms. from Cochin International Airport
 accessBus: ''
@@ -1551,5 +1551,18 @@ rates:
       24/12 (Dinner): Rs 4500 pp + taxes  25/12 (Lunch): Rs 4500 pp + taxes 
       31/12 (Dinner): Rs 8000 pp + taxes
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://www.vivantabytaj.com/Malabar-Cochin
+web: 1
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 One of India's best hotels. Situated on Willingdon Island, with a magnificent view of Kochi harbour and the beautiful backwaters. The Taj Malabar has 97 well furnished air-con rooms, an excellent ambience, and good swimming pool. There is a Waterfront Cafe, a Rice Boat Restaurant which serves seafood specialities, and the Jade Pavilion for Sichuan cuisine.

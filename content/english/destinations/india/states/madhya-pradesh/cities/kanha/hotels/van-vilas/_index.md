@@ -6,7 +6,7 @@ mailto: ''
 address: Buffer Zone
 city: Kanha
 postalcode: ''
-phone: 7649-277304, 094252031
+phone: 7649-277304, 094252031,
 mobile: ''
 email: >-
   info@celebrationworld.in  celebrationvanvilas@gmail.com 
@@ -24,4 +24,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Hotel Celebration
+gstType: 0
+gstin: ''
+www: www.celebrationworld.in
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

@@ -6,7 +6,7 @@ mailto: ''
 address: Ladkatwadi Road  Off Dhola Patil  Poona-1
 city: Pune
 postalcode: 411 001
-phone: 20-612 3939
+phone: 20-612 3939,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

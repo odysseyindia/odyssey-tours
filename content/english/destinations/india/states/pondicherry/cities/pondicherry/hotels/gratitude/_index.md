@@ -6,7 +6,7 @@ mailto: ''
 address: 52, Rue Romain Rolland
 city: Pondicherry
 postalcode: 605 001
-phone: 413-222 6029
+phone: 413-222 6029,94420 65029
 mobile: 94420 65029
 email: gratitudeheritage@yahoo.in
 website: ''
@@ -22,5 +22,18 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 A charming guesthouse in the heart of Pondicherry's White City. With just 8 cosy rooms, it retains a home-stay atmosphere, which fits in well with Pondicherry's laidback feel. The courtyard is spacious and beautiful, a great place to sit back with a French-press coffee after a few hours of walking around Pondy's bylanes.

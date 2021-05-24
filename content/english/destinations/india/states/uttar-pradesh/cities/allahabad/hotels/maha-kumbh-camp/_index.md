@@ -6,7 +6,7 @@ mailto: ''
 address: ''
 city: Allahabad
 postalcode: ''
-phone: 11-4652 0000
+phone: 11-4652 0000,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Leisure Hotels Ltd
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

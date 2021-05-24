@@ -6,13 +6,17 @@ mailto: ''
 address: Mancotta Tea Estate  Jalan Nagar
 city: Dibrugarh
 postalcode: 786 005
-phone: 373-230 1120, 230 0035
+phone: 373-230 1120, 230 0035,
 mobile: ''
 email: purvi@sancharnet.in  purvidiscovery@gmail.com
 website: www.assamteatourism.com  www.specialinteresttours.in
 note: ''
 type: hotel
 category:
+  - H
+  - COM
+  - HH
+  - WEB
   - RIK
 showHotel: 0
 starCategory: 0
@@ -24,7 +28,7 @@ advantage: ''
 rooms: 6
 rates:
   - roomType: Siang Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,7 +64,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Ground Floor Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -96,7 +100,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Annex Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -132,7 +136,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Dihang Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -168,7 +172,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Siang Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -204,7 +208,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Ground Floor Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -240,7 +244,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Annex Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -276,7 +280,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Dihang Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -312,7 +316,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Siang Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -348,7 +352,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Ground Floor Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -384,7 +388,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Annex Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -420,7 +424,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Dihang Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -455,5 +459,42 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.assamteatourism.com  www.specialinteresttours.in
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Set in lush gardens bordering an old tea estate, Mancotta Chang Bungalow is a wonderful heritage hotel just outside Dibrugarh. Mancotta Chang Bungalow has sloping green roofs, wraparound verandahs and an old-world elegance. The upper-level rooms are excellent with old wooden floors and period furniture. A traveler can easily spend quality time here sipping tea on the porch while looking out at the surrounding tea plantation.

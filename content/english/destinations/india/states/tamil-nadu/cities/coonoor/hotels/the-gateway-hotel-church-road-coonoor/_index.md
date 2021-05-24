@@ -6,7 +6,7 @@ mailto: ''
 address: Upper Coonoor  Church Road  Nilgiris District
 city: Coonoor
 postalcode: 643 101
-phone: 423-2225400
+phone: 423-2225400,
 mobile: ''
 email: gateway.coonoor@tajhotels.com
 website: http://www.thegatewayhotels.com/churchroadcoonoor/overview.aspx
@@ -16,7 +16,7 @@ category:
   - H
 showHotel: 1
 starCategory: 5
-checkout: '12:00:00'
+checkout: 12.00 Noon
 accessRail: By Road + Rail - 72 km. from Coimbatore
 accessAir: ''
 accessBus: ''
@@ -243,5 +243,18 @@ rates:
       24/12 Dinner: Rs 4000pp + tax  25/12 Lunch: Rs 5000pp + tax  31/12 Dinner:
       Rs 4000pp + tax
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://www.thegatewayhotels.com/churchroadcoonoor/overview.aspx
+web: 1
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 An old colonial-style hotel with 33 rooms in cottage accommodation, beautiful gardens and panoramic views of the valley. This charming hotel has a dining room with spectacular views of the undulating hills outside. It is 10 minutes from the lovely Sim's Park and the Golf Course.

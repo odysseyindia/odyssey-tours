@@ -6,7 +6,7 @@ mailto: ''
 address: Dando Beach  Candolim
 city: Goa
 postalcode: ''
-phone: 832-645 0711
+phone: 832-645 0711,
 mobile: ''
 email: reservations@santana-goa.com  info@santana-goa.com
 website: www.santana-goa.com
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.santana-goa.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

@@ -6,7 +6,7 @@ mailto: ''
 address: 2889, Srinivasam Pillai Road
 city: Tanjore
 postalcode: 613 001
-phone: 4362-230 724, 231 467
+phone: 4362-230 724, 231 467,
 mobile: ''
 email: reservations@hotelorientaltowers.com  tnj_hotowers@sancharnet.in
 website: ''
@@ -22,5 +22,18 @@ accessAir: 55 kms. from Airport
 accessBus: 1/2 km. from Bus Stand
 advantage: Close to 'The Big Temple' (Sri Brahadeeswarar Temple)
 rooms: 163
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 A modern hotel in the heart of the city, convenient for visiting the temples. It has 163 comfortable a/c rooms, a swimming pool on the fourth floor, 3 restaurants, a bar, health club and gym. It also has a handy supermarket.

@@ -6,7 +6,7 @@ mailto: ''
 address: ''
 city: Mon
 postalcode: ''
-phone: '-'
+phone: '-,94360 00028'
 mobile: 94360 00028
 email: ''
 website: ''
@@ -22,5 +22,18 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: NE India Safar
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 Helsa Resort is 2 km from Mon, just off the start of the road to Lungwa. It is an authentic and atmospheric place to stay with a covered dining area and six traditionally built bamboo cottages overlooking the hills and the town.     The cottages are basic, and have a simple bathroom with hot and cold water provided in buckets. The best aspect is the sit outs with views of the surrounding hills.

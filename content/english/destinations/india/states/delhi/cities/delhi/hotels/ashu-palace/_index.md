@@ -6,7 +6,7 @@ mailto: ''
 address: 12A /34, W E A  Karol Bagh
 city: New Delhi
 postalcode: 110 005
-phone: 11-25863421/22/23
+phone: 11-25863421/22/23,
 mobile: ''
 email: hotelashu@indiatimes.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

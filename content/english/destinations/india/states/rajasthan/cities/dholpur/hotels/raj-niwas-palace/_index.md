@@ -6,13 +6,17 @@ mailto: ''
 address: Nihal Ganj
 city: Dholpur
 postalcode: 328 001
-phone: 5642-220216
+phone: 5642-220216,76650 02151
 mobile: 76650 02151
 email: ''
 website: http://www.dholpurpalace.com
 note: ''
 type: hotel
 category:
+  - H
+  - COM
+  - RIK
+  - A
   - WEB
 showHotel: 0
 starCategory: 0
@@ -24,124 +28,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Courtyard Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 3500
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 4000
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1800
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Courtyard Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: >-
-      Chambal Boat Safari :INR 7000 per boat +taxes (max 6 pax)(remains Closed
-      between 15 June - 15 October )  Chambal Ravine Safari : INR 7000 per Jeep
-      +taxes .
-    agentCommission: 0
-  - roomType: Heritage Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 7500
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 8000
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1800
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Courtyard Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: >-
-      Chambal Boat Safari :INR 7000 per boat +taxes (max 6 pax)(remains Closed
-      between 15 June - 15 October )  Chambal Ravine Safari : INR 7000 per Jeep
-      +taxes .
-    agentCommission: 0
-  - roomType: Pool Villa Cottage
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 5500
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 6000
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1800
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Courtyard Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: >-
-      Chambal Boat Safari :INR 7000 per boat +taxes (max 6 pax)(remains Closed
-      between 15 June - 15 October )  Chambal Ravine Safari : INR 7000 per Jeep
-      +taxes .
-    agentCommission: 0
-  - roomType: Courtyard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -180,7 +67,7 @@ rates:
       +taxes .
     agentCommission: 0
   - roomType: Heritage Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -219,7 +106,7 @@ rates:
       +taxes .
     agentCommission: 0
   - roomType: Pool Villa Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -375,6 +262,123 @@ rates:
       +taxes .
     agentCommission: 0
   - roomType: Courtyard Room
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 5250
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 5775
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 2100
+    extraBedPT: 0
+    wef: '2019-12-25T00:00:00'
+    wet: '2019-12-30T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Courtyard Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: >-
+      Chambal Boat Safari :INR 7000 per boat +taxes (max 6 pax)(remains Closed
+      between 15 June - 15 October )  Chambal Ravine Safari : INR 7000 per Jeep
+      +taxes .
+    agentCommission: 0
+  - roomType: Heritage Room
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 9250
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 9775
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 2100
+    extraBedPT: 0
+    wef: '2019-12-25T00:00:00'
+    wet: '2019-12-30T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Courtyard Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: >-
+      Chambal Boat Safari :INR 7000 per boat +taxes (max 6 pax)(remains Closed
+      between 15 June - 15 October )  Chambal Ravine Safari : INR 7000 per Jeep
+      +taxes .
+    agentCommission: 0
+  - roomType: Pool Villa Cottage
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 7250
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 7775
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 2100
+    extraBedPT: 0
+    wef: '2019-12-25T00:00:00'
+    wet: '2019-12-30T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Courtyard Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: >-
+      Chambal Boat Safari :INR 7000 per boat +taxes (max 6 pax)(remains Closed
+      between 15 June - 15 October )  Chambal Ravine Safari : INR 7000 per Jeep
+      +taxes .
+    agentCommission: 0
+  - roomType: Courtyard Room
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
@@ -492,124 +496,7 @@ rates:
       +taxes .
     agentCommission: 0
   - roomType: Courtyard Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 5250
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 5775
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2100
-    extraBedPT: 0
-    wef: '2019-12-25T00:00:00'
-    wet: '2019-12-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Courtyard Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: >-
-      Chambal Boat Safari :INR 7000 per boat +taxes (max 6 pax)(remains Closed
-      between 15 June - 15 October )  Chambal Ravine Safari : INR 7000 per Jeep
-      +taxes .
-    agentCommission: 0
-  - roomType: Heritage Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 9250
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 9775
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2100
-    extraBedPT: 0
-    wef: '2019-12-25T00:00:00'
-    wet: '2019-12-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Courtyard Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: >-
-      Chambal Boat Safari :INR 7000 per boat +taxes (max 6 pax)(remains Closed
-      between 15 June - 15 October )  Chambal Ravine Safari : INR 7000 per Jeep
-      +taxes .
-    agentCommission: 0
-  - roomType: Pool Villa Cottage
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 7250
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 7775
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2100
-    extraBedPT: 0
-    wef: '2019-12-25T00:00:00'
-    wet: '2019-12-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Courtyard Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: >-
-      Chambal Boat Safari :INR 7000 per boat +taxes (max 6 pax)(remains Closed
-      between 15 June - 15 October )  Chambal Ravine Safari : INR 7000 per Jeep
-      +taxes .
-    agentCommission: 0
-  - roomType: Courtyard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -648,7 +535,7 @@ rates:
       +taxes .
     agentCommission: 0
   - roomType: Heritage Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -687,7 +574,7 @@ rates:
       +taxes .
     agentCommission: 0
   - roomType: Pool Villa Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -726,7 +613,7 @@ rates:
       +taxes .
     agentCommission: 0
   - roomType: Courtyard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -764,7 +651,7 @@ rates:
       and 31/12   (supplement Rs 3,000/- p.p. + taxes)
     agentCommission: 0
   - roomType: Heritage Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -802,7 +689,7 @@ rates:
       and 31/12   (supplement Rs 3,000/- p.p. + taxes)
     agentCommission: 0
   - roomType: Pool Villa Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -840,7 +727,7 @@ rates:
       and 31/12   (supplement Rs 3,000/- p.p. + taxes)
     agentCommission: 0
   - roomType: Courtyard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -878,7 +765,7 @@ rates:
       and 31/12   (supplement Rs 3,000/- p.p. + taxes)
     agentCommission: 0
   - roomType: Heritage Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -916,7 +803,7 @@ rates:
       and 31/12   (supplement Rs 3,000/- p.p. + taxes)
     agentCommission: 0
   - roomType: Pool Villa Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -953,5 +840,42 @@ rates:
       Mandatory selling on AP plan on 24/12 (supplement Rs 2,500/- p.p. + taxes)
       and 31/12   (supplement Rs 3,000/- p.p. + taxes)
     agentCommission: 0
+bookThrough: The Consortium Hotels
+gstType: 0
+gstin: ''
+www: http://www.dholpurpalace.com
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 The 19th-century Raj Niwas Palace in Dholpur was once home to generations of royals. The red sandstone palace has now been converted to a luxurious heritage hotel with spacious rooms, with decor going from Art Deco to opulently painted walls. Set in 13 acres of garden, the palace grounds are full of peacocks and bird life, and offer a serene base to explore the Chambal river and ravines.

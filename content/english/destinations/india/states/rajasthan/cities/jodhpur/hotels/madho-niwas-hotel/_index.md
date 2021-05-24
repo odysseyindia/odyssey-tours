@@ -6,7 +6,7 @@ mailto: ''
 address: New Airport Road  Ratanada
 city: Jodhpur
 postalcode: 342 006
-phone: 291-2512486, 2512078
+phone: 291-2512486, 2512078,
 mobile: ''
 email: madhoniwas@hotmail.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

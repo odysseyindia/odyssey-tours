@@ -6,7 +6,7 @@ mailto: ''
 address: Near Iskon Gate
 city: Dwarka
 postalcode: 361 335
-phone: 292-235 032
+phone: 292-235 032,
 mobile: ''
 email: info@dwarkaresidency.com
 website: www.hoteldwarkaresidency.com
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: North West Safaries
+gstType: 0
+gstin: ''
+www: www.hoteldwarkaresidency.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

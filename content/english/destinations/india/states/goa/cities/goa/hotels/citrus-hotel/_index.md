@@ -6,7 +6,7 @@ mailto: ''
 address: Umta Vaddo  Calangute
 city: Goa
 postalcode: 403 516
-phone: 832-3044444
+phone: 832-3044444,
 mobile: ''
 email: sandeep.chandan@citrushotels.in
 website: www.citrushotels.com
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.citrushotels.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

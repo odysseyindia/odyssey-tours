@@ -6,13 +6,15 @@ mailto: ''
 address: Hallikere Village   Kamalapura Post  Hospet Taluk  Bellary District
 city: Hampi
 postalcode: 583 221
-phone: 83-9429 4700
+phone: 83-9429 4700,83942 94700
 mobile: 83942 94700
 email: hampi@evolveback.com
 website: https://www.evolveback.com/hampi/
 note: ''
 type: hotel
 category:
+  - H
+  - SH
   - WEB
 showHotel: 0
 starCategory: 0
@@ -157,158 +159,6 @@ rates:
     extraBedPT: 0
     wef: '2019-10-01T00:00:00'
     wet: '2019-12-22T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Nivasa Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: >-
-      Different rates apply for a 2 or 3 nights' stay.  Extra commission for
-      using multiple group resorts.  See the quotation mail from the hotel.
-    agentCommission: 0
-  - roomType: Nivasa Room
-    mealPlan: Halfboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 26000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 26000
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 6000
-    extraBedPT: 0
-    wef: '2020-01-01T00:00:00'
-    wet: '2020-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Nivasa Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: >-
-      Different rates apply for a 2 or 3 nights' stay.  Extra commission for
-      using multiple group resorts.  See the quotation mail from the hotel.
-    agentCommission: 0
-  - roomType: Nilaya Room
-    mealPlan: Halfboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 29000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 29000
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 6000
-    extraBedPT: 0
-    wef: '2020-01-01T00:00:00'
-    wet: '2020-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Nivasa Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: >-
-      Different rates apply for a 2 or 3 nights' stay.  Extra commission for
-      using multiple group resorts.  See the quotation mail from the hotel.
-    agentCommission: 0
-  - roomType: Zenana Room
-    mealPlan: Halfboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 30000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 30000
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 6000
-    extraBedPT: 0
-    wef: '2020-01-01T00:00:00'
-    wet: '2020-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Nivasa Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: >-
-      Different rates apply for a 2 or 3 nights' stay.  Extra commission for
-      using multiple group resorts.  See the quotation mail from the hotel.
-    agentCommission: 0
-  - roomType: Jai Mahal
-    mealPlan: Halfboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 35000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 35000
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 6000
-    extraBedPT: 0
-    wef: '2020-01-01T00:00:00'
-    wet: '2020-09-30T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -638,19 +488,19 @@ rates:
     currencyPT: INR
     costSingle: 0
     costSinglePT: 0
-    costSingleAc: 24000
+    costSingleAc: 26000
     costSingleAcPT: 0
     costDouble: 0
     costDoublePT: 0
-    costDoubleAc: 24000
+    costDoubleAc: 26000
     costDoubleAcPT: 0
     nett: 1
     nettPT: 0
     freeTransfer: 0
     extraBed: 6000
     extraBedPT: 0
-    wef: '2020-10-01T00:00:00'
-    wet: '2020-12-22T00:00:00'
+    wef: '2020-01-01T00:00:00'
+    wet: '2020-09-30T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -676,19 +526,19 @@ rates:
     currencyPT: INR
     costSingle: 0
     costSinglePT: 0
-    costSingleAc: 26000
+    costSingleAc: 29000
     costSingleAcPT: 0
     costDouble: 0
     costDoublePT: 0
-    costDoubleAc: 26000
+    costDoubleAc: 29000
     costDoubleAcPT: 0
     nett: 1
     nettPT: 0
     freeTransfer: 0
     extraBed: 6000
     extraBedPT: 0
-    wef: '2020-10-01T00:00:00'
-    wet: '2020-12-22T00:00:00'
+    wef: '2020-01-01T00:00:00'
+    wet: '2020-09-30T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -714,19 +564,19 @@ rates:
     currencyPT: INR
     costSingle: 0
     costSinglePT: 0
-    costSingleAc: 28000
+    costSingleAc: 30000
     costSingleAcPT: 0
     costDouble: 0
     costDoublePT: 0
-    costDoubleAc: 28000
+    costDoubleAc: 30000
     costDoubleAcPT: 0
     nett: 1
     nettPT: 0
     freeTransfer: 0
     extraBed: 6000
     extraBedPT: 0
-    wef: '2020-10-01T00:00:00'
-    wet: '2020-12-22T00:00:00'
+    wef: '2020-01-01T00:00:00'
+    wet: '2020-09-30T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -752,19 +602,19 @@ rates:
     currencyPT: INR
     costSingle: 0
     costSinglePT: 0
-    costSingleAc: 31000
+    costSingleAc: 35000
     costSingleAcPT: 0
     costDouble: 0
     costDoublePT: 0
-    costDoubleAc: 31000
+    costDoubleAc: 35000
     costDoubleAcPT: 0
     nett: 1
     nettPT: 0
     freeTransfer: 0
     extraBed: 6000
     extraBedPT: 0
-    wef: '2020-10-01T00:00:00'
-    wet: '2020-12-22T00:00:00'
+    wef: '2020-01-01T00:00:00'
+    wet: '2020-09-30T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -801,8 +651,8 @@ rates:
     freeTransfer: 0
     extraBed: 6000
     extraBedPT: 0
-    wef: '2021-01-01T00:00:00'
-    wet: '2021-09-30T00:00:00'
+    wef: '2020-10-01T00:00:00'
+    wet: '2020-12-22T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -839,8 +689,8 @@ rates:
     freeTransfer: 0
     extraBed: 6000
     extraBedPT: 0
-    wef: '2021-01-01T00:00:00'
-    wet: '2021-09-30T00:00:00'
+    wef: '2020-10-01T00:00:00'
+    wet: '2020-12-22T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -877,8 +727,8 @@ rates:
     freeTransfer: 0
     extraBed: 6000
     extraBedPT: 0
-    wef: '2021-01-01T00:00:00'
-    wet: '2021-09-30T00:00:00'
+    wef: '2020-10-01T00:00:00'
+    wet: '2020-12-22T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -915,8 +765,8 @@ rates:
     freeTransfer: 0
     extraBed: 6000
     extraBedPT: 0
-    wef: '2021-01-01T00:00:00'
-    wet: '2021-09-30T00:00:00'
+    wef: '2020-10-01T00:00:00'
+    wet: '2020-12-22T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -1239,5 +1089,182 @@ rates:
       Different rates apply for a 2 or 3 nights' stay.  Extra commission for
       using multiple group resorts.  See the quotation mail from the hotel.
     agentCommission: 0
+  - roomType: Nivasa Room
+    mealPlan: Halfboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 24000
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 24000
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 6000
+    extraBedPT: 0
+    wef: '2021-01-01T00:00:00'
+    wet: '2021-09-30T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Nivasa Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: >-
+      Different rates apply for a 2 or 3 nights' stay.  Extra commission for
+      using multiple group resorts.  See the quotation mail from the hotel.
+    agentCommission: 0
+  - roomType: Nilaya Room
+    mealPlan: Halfboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 26000
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 26000
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 6000
+    extraBedPT: 0
+    wef: '2021-01-01T00:00:00'
+    wet: '2021-09-30T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Nivasa Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: >-
+      Different rates apply for a 2 or 3 nights' stay.  Extra commission for
+      using multiple group resorts.  See the quotation mail from the hotel.
+    agentCommission: 0
+  - roomType: Zenana Room
+    mealPlan: Halfboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 28000
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 28000
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 6000
+    extraBedPT: 0
+    wef: '2021-01-01T00:00:00'
+    wet: '2021-09-30T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Nivasa Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: >-
+      Different rates apply for a 2 or 3 nights' stay.  Extra commission for
+      using multiple group resorts.  See the quotation mail from the hotel.
+    agentCommission: 0
+  - roomType: Jai Mahal
+    mealPlan: Halfboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 31000
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 31000
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 6000
+    extraBedPT: 0
+    wef: '2021-01-01T00:00:00'
+    wet: '2021-09-30T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Nivasa Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: >-
+      Different rates apply for a 2 or 3 nights' stay.  Extra commission for
+      using multiple group resorts.  See the quotation mail from the hotel.
+    agentCommission: 0
+bookThrough: Evolve Back Resorts
+gstType: 0
+gstin: ''
+www: https://www.evolveback.com/hampi/
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 A luxurious hotel built in the form of a palace in Hampi's Vijayanagara architectural style, Evolve Back Kamalapura Palace is by far the most upscale place to stay in Hampi. With very large suites (each with a private jacuzzi and bathtub), you get plenty of privacy and personalised service, and there are two restaurants (one offering local Bahmani cuisine), as well as private dining options. Explore Hampi in style! 

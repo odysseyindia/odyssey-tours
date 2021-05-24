@@ -6,13 +6,16 @@ mailto: ''
 address: 'Gundathur Village  Karapura - Kabini Road  Nisana Hobli, H.D. Kote  '
 city: Nagarhole
 postalcode: 571 114
-phone: '-'
+phone: '-,'
 mobile: ''
 email: agentbookings@thebisonresort.com
 website: http://thebisonresort.com
 note: ''
 type: hotel
 category:
+  - H
+  - COM
+  - A
   - WEB
 showHotel: 0
 starCategory: 0
@@ -27,7 +30,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 14620
     costSinglePT: 0
     costSingleAc: 0
@@ -63,7 +66,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 12865
     costSinglePT: 0
     costSingleAc: 0
@@ -99,7 +102,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 12865
     costSinglePT: 0
     costSingleAc: 0
@@ -135,7 +138,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 0
     costSinglePT: 0
     costSingleAc: 0
@@ -171,7 +174,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 17810
     costSinglePT: 0
     costSingleAc: 0
@@ -207,7 +210,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 16813
     costSinglePT: 0
     costSingleAc: 0
@@ -243,7 +246,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 14795
     costSinglePT: 0
     costSingleAc: 0
@@ -279,7 +282,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 14795
     costSinglePT: 0
     costSingleAc: 0
@@ -315,7 +318,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 0
     costSinglePT: 0
     costSingleAc: 0
@@ -351,7 +354,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 20482
     costSinglePT: 0
     costSingleAc: 0
@@ -387,7 +390,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 14620
     costSinglePT: 0
     costSingleAc: 0
@@ -423,7 +426,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 12864
     costSinglePT: 0
     costSingleAc: 0
@@ -459,7 +462,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 12864
     costSinglePT: 0
     costSingleAc: 0
@@ -495,7 +498,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 0
     costSinglePT: 0
     costSingleAc: 0
@@ -531,7 +534,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 17810
     costSinglePT: 0
     costSingleAc: 0
@@ -567,7 +570,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 14620
     costSinglePT: 0
     costSingleAc: 0
@@ -603,7 +606,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 12865
     costSinglePT: 0
     costSingleAc: 0
@@ -639,7 +642,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 12865
     costSinglePT: 0
     costSingleAc: 0
@@ -675,7 +678,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 0
     costSinglePT: 0
     costSingleAc: 0
@@ -711,7 +714,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 17810
     costSinglePT: 0
     costSingleAc: 0
@@ -747,7 +750,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 16813
     costSinglePT: 0
     costSingleAc: 0
@@ -785,7 +788,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 14795
     costSinglePT: 0
     costSingleAc: 0
@@ -823,7 +826,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 14795
     costSinglePT: 0
     costSingleAc: 0
@@ -861,7 +864,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 0
     costSinglePT: 0
     costSingleAc: 0
@@ -899,7 +902,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 20482
     costSinglePT: 0
     costSingleAc: 0
@@ -937,7 +940,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 14620
     costSinglePT: 0
     costSingleAc: 0
@@ -973,7 +976,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 12864
     costSinglePT: 0
     costSingleAc: 0
@@ -1009,7 +1012,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 12864
     costSinglePT: 0
     costSingleAc: 0
@@ -1045,7 +1048,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 0
     costSinglePT: 0
     costSingleAc: 0
@@ -1081,7 +1084,7 @@ rates:
     mealPlan: Fullboard
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 17810
     costSinglePT: 0
     costSingleAc: 0
@@ -1113,5 +1116,36 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: Bison Wilderness Resorts Pvt Ltd
+gstType: 0
+gstin: ''
+www: http://thebisonresort.com
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 The Bison is a boutique tented camp, situated at Nagarhole National Park, on the shores of the Kabini river. Each African-style tent is furnished with a double bed, wooden floors, beautiful artefacts like old cabin trunks, and an en-suite bathroom. There is a pool and a lovely common area to relax in. They have a good naturalist on site, and you're encouraged to switch off and just enjoy nature here.

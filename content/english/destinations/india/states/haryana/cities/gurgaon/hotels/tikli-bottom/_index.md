@@ -6,7 +6,7 @@ mailto: ''
 address: Gairatpur Baas  P O Tikli
 city: Gurgaon
 postalcode: 122 101
-phone: 124-2766556
+phone: 124-2766556,
 mobile: ''
 email: honiwala@tiklibottom.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

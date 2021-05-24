@@ -6,7 +6,7 @@ mailto: ''
 address: '2293, Gali Guliyan  Dharampura    '
 city: Delhi
 postalcode: 110 006
-phone: 11-23261000, 49091777, 23261444
+phone: 11-23261000, 49091777, 23261444,
 mobile: ''
 email: info@havelidharampura.com  reservations@havelidharampura.com
 website: https://havelidharampura.com/
@@ -24,7 +24,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Jharokha Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -59,5 +59,18 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: https://havelidharampura.com/
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 A beautifully restored old mansion in the heart of Old Delhi, Haveli Dharampura gives you a feel of the Mughal era. Each of the 13 rooms has two tales to tell, one of its history and the other of the restoration journey. There are two dining options, one with a beautiful rooftop view over medieval Old Delhi.

@@ -6,7 +6,7 @@ mailto: ''
 address: 168/169, Arco Road  Vadapalani
 city: Chennai
 postalcode: 600 026
-phone: 44-484 0049
+phone: 44-484 0049,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: 8 kms. from Airport
 accessBus: 11 kms. from Bus Stand
 advantage: Close to all Major Studios / Hospitals
 rooms: 50
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

@@ -6,7 +6,7 @@ mailto: ''
 address: Opposite Gole Market
 city: Khajuraho
 postalcode: 471 606
-phone: 7686-2353
+phone: 7686-2353,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+ranking: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
 ---
+
+
+
+
+
+

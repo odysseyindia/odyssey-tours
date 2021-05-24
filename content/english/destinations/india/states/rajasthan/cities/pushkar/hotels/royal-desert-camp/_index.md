@@ -6,7 +6,7 @@ mailto: ''
 address: 'Ganahera  Motisar Road  '
 city: Pushkar
 postalcode: 305 022
-phone: 145-772 957, 772 001, 772 401-03
+phone: 145-772 957, 772 001, 772 401-03,
 mobile: ''
 email: >-
   info@pushkarpalace.com  hotelpushkarpalace@gmail.com 
@@ -97,5 +97,18 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: Hotel Pushkar Palace - Booking Office
+gstType: 0
+gstin: ''
+www: www.hotelpushkarpalace.com
+web: 1
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 This deluxe tented camp only operates during the one-week Pushkar Fair period. The camp, a little distance away from the fair ground, consists of spacious and carpeted Swiss Cottage tents with comfortable beds, good quality linen and Rajasthani hand-block printed quilts. The camp has specially-designed modern toilets with running hot and cold water. Your stay is on full-board basis.

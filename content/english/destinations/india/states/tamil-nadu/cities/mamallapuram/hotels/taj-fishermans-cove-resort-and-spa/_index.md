@@ -6,17 +6,19 @@ mailto: ''
 address: 'Covelong Beach  Kanchipuram Dist.  Covelong  '
 city: Mamallapuram
 postalcode: 603 112
-phone: 44-6741 3333
+phone: 44-6741 3333,
 mobile: ''
 email: ''
 website: http://www.vivantabytaj.com/Fishermans-Cove-Chennai
 note: ''
 type: hotel
 category:
+  - H
+  - COM
   - WEB
 showHotel: 1
 starCategory: 5
-checkout: '12:00:00'
+checkout: 12.00 Noon
 accessRail: 45 kms. from Railway Station
 accessAir: 40 kms. from Airport
 accessBus: 1 km. from Bus Stand
@@ -743,5 +745,30 @@ rates:
     specialPeriod: 0
     notes: 'Mandatory Dinner on 31/12: INR 7000 per person'
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://www.vivantabytaj.com/Fishermans-Cove-Chennai
+web: 1
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 A superior hotel, part of the Taj Group of Hotels. Located right on Covelong beach, 24km north of Mamallapuram, it has luxurious rooms, villas and cottages, an excellent seafood restaurant right by the water, a swimming pool, and tennis and badminton courts. There is very much a beach resort air here, with gently rolling lawns, palm trees, a lovely spa and plenty of spots to stretch out and relax.

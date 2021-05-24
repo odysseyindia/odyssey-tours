@@ -8,7 +8,7 @@ address: >-
   Madhya Pradesh – 481768  India
 city: Kanha
 postalcode: '481768'
-phone: '-'
+phone: '-,9669555339'
 mobile: '9669555339'
 email: karanmod@gmail.com,  info@flameoftheforest.in,  karan@flameoftheforest.in
 website: ''
@@ -61,4 +61,17 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

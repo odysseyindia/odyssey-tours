@@ -6,7 +6,7 @@ mailto: ''
 address: Estate Mukku  Cherukattoor Village  Wayanad
 city: Cherukattoor
 postalcode: 670 721
-phone: '-'
+phone: '-,95390 99927'
 mobile: 95390 99927
 email: nitish@talkingtrees.in
 website: http://talkingtrees.in
@@ -101,5 +101,18 @@ rates:
       Rs. 4500/- per room on CP plan. Peak season & holidays (Christmas, New
       Year, Onam, Diwali, Ramadan, Eid etc): Rs. 6000/- per room on CP plan.  
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://talkingtrees.in
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 Talking Trees is a riverside farmstay that strives to conserve and nurture the biodiversity of Kerala's plantation belt. The farmstay offers four airy and inviting rooms, each with a double king-size bed and plenty of bird-life around. The hosts stay on site, and offer you the warmth of a home. They plant trees, and grow their own vegetables and fruits, besides housing a modest number of farm animals. A great option with kids.

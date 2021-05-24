@@ -6,7 +6,7 @@ mailto: ''
 address: 4, West Veli Street
 city: Madurai
 postalcode: 625 001
-phone: 452-4356666
+phone: 452-4356666,
 mobile: ''
 email: royalcourtinfo@gmail.com  info@royalcourtindia.com
 website: www.royalcourtindia.com
@@ -24,7 +24,7 @@ advantage: ''
 rooms: 69
 rates:
   - roomType: Superior Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,7 +60,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Premium Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -96,7 +96,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -132,7 +132,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Superior Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -168,7 +168,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Premium Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -204,7 +204,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -239,5 +239,18 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: ''
+gstType: 1
+gstin: 33AAACY1679A1ZM
+www: www.royalcourtindia.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 Royal Court is a moderate business hotel in the heart of Madurai, five minutes away from the Meenakshi temple, the flower market, and the newer shopping areas, an area that dominates Madurai's spiritual and social life.The rooms are pleasant, with modern furniture and wooden floors, and sleek bathrooms of steel and glass. There is a multi-cuisine restaurant that does a great mutton biryani.

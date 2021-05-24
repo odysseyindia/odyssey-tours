@@ -6,7 +6,7 @@ mailto: ''
 address: '11, Rahim Khan Road  Nizamuddin East  '
 city: Delhi
 postalcode: 110 013
-phone: 11-24351225
+phone: 11-24351225,98110 88966
 mobile: 98110 88966
 email: elevendelhi@gmail.com  ajay.anandd@elevendelhi.com
 website: http://www.elevendelhi.com
@@ -59,4 +59,17 @@ rates:
     specialPeriod: 0
     notes: Complimentary stay for Phil & Darius
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://www.elevendelhi.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

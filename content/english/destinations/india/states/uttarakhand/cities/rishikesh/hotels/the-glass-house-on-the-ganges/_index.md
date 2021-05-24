@@ -8,13 +8,16 @@ address: >-
   Tehri Garhwal
 city: Rishikesh
 postalcode: 249 303
-phone: 1378-269 224, 269 218
+phone: 1378-269 224, 269 218,99 1719 1115
 mobile: 99 1719 1115
 email: glasshouse@neemranahotels.com
 website: http://www.neemranahotels.com/glass-house-on-the-ganges-rishikesh
 note: ''
 type: hotel
 category:
+  - H
+  - COM
+  - WEB
   - RIK
 showHotel: 1
 starCategory: 0
@@ -28,7 +31,7 @@ advantage: >-
 rooms: 12
 rates:
   - roomType: Heritage Adventure Riverside Tent
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -64,7 +67,7 @@ rates:
     notes: Man
     agentCommission: 0
   - roomType: Heritage Smart Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -100,7 +103,7 @@ rates:
     notes: Man
     agentCommission: 0
   - roomType: Heritage Romance Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -136,7 +139,7 @@ rates:
     notes: Man
     agentCommission: 0
   - roomType: Heritage Splendour Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -172,7 +175,7 @@ rates:
     notes: Man
     agentCommission: 0
   - roomType: Heritage Adventure Riverside Tent
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -208,7 +211,7 @@ rates:
     notes: rates copied from 2019-2020  Man
     agentCommission: 0
   - roomType: Heritage Smart Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -244,7 +247,7 @@ rates:
     notes: rates copied from 2019-2020  Man
     agentCommission: 0
   - roomType: Heritage Romance Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -280,7 +283,7 @@ rates:
     notes: rates copied from 2019-2020  Man
     agentCommission: 0
   - roomType: Heritage Splendour Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -315,5 +318,36 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020  Man
     agentCommission: 0
+bookThrough: Neemrana Hotels Pvt. Ltd.
+gstType: 0
+gstin: ''
+www: http://www.neemranahotels.com/glass-house-on-the-ganges-rishikesh
+web: 1
+mailTo: ''
+ranking: 2
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 A small secluded resort outside Rishikesh, the Glass House on the Ganges houses 12 exclusive rooms, set in a lychee orchard with a garden of tropical plants which attracts rare birds and butterflies. Rooms are either in the main block, fronted by a pillared veranda with relaxing planters' chairs, or in cottages in the lush gardens of mango, lychee, and citrus trees and tropical plants.

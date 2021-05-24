@@ -6,7 +6,7 @@ mailto: ''
 address: '17/328 Lwsghat Road  '
 city: Kodaikanal
 postalcode: 624 101
-phone: 4542-40 649, 40 767
+phone: 4542-40 649, 40 767,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: 127 kms from Maduri Airport
 accessBus: 2 kms. from Downtown Area
 advantage: ''
 rooms: 43
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

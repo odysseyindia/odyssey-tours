@@ -6,7 +6,7 @@ mailto: ''
 address: 'The Lodge - Corbett Tiger Reserve  Marchula  '
 city: Corbett
 postalcode: 244 715
-phone: '-'
+phone: '-,'
 mobile: ''
 email: vanghat@gmail.com  info@vanghat.com
 website: https://www.vanghat.com/
@@ -187,5 +187,18 @@ rates:
       per day basis  If an additional porter is required, charges at Rs 300 per
       porter. However, guests are requested to travel light.
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: https://www.vanghat.com/
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 Corbett's secret is its astonishing bird-life, and the secluded resort of Vanghat was created to show off this little-known aspect. Deliberately difficult to access (either after a short trek or a raft ride), the resort is in the sal-dominated buffer zone, with simple cottages offering a base for birding, walking, angling, rafting and wildlife excursions. A highly sustainable lodge, meant for real nature enthusiasts.

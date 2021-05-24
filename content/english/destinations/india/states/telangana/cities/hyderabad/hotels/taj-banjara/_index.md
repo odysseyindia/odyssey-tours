@@ -6,13 +6,16 @@ mailto: ''
 address: Road No. 1  Banjara Hills
 city: Hyderabad
 postalcode: 500 034
-phone: 40-66669999
+phone: 40-66669999,
 mobile: ''
 email: banjara.hyderabad@tajhotels.com
 website: http://www.tajhotels.com/Business/Taj%20Banjara,HYDERABAD/default.htm
 note: ''
 type: hotel
 category:
+  - H
+  - COM
+  - A
   - WEB
 showHotel: 1
 starCategory: 0
@@ -59,5 +62,36 @@ rates:
     specialPeriod: 0
     notes: Eates not updated correctly. Please check first.
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://www.tajhotels.com/Business/Taj%20Banjara,HYDERABAD/default.htm
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 An old-fashioned business hotel with character. Built in 1949, the hotel offers spacious rooms with comfortable furnishings. The coffee shop and kebab restaurant serve South Indian and North Indian food specialities, with a particular emphasis on regional cuisine.

@@ -6,7 +6,7 @@ mailto: ''
 address: ''
 city: Bhavnagar
 postalcode: 364 002
-phone: 278-242 9323, 242 4241, 251 5854
+phone: 278-242 9323, 242 4241, 251 5854,
 mobile: ''
 email: nilambag@bsnl.com  reservation@nilambagpalace.com
 website: www.nilambagpalace.com
@@ -169,5 +169,18 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 5
+bookThrough: North West Safaries
+gstType: 0
+gstin: ''
+www: www.nilambagpalace.com
+web: 1
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 A 19th-century palace set in beautiful formal gardens. The decor is rich with much of the original furniture intact. There are 18 spacious air-conditioned rooms with large bathrooms and 5 rooms at the royal cottage, an annexe of the palace. Set among 10 acres of woodland, this hotel also features an enormous Roman-style swimming pool, a fitness centre, and tennis courts.

@@ -6,7 +6,7 @@ mailto: ''
 address: National Highway-8
 city: Delhi
 postalcode: 110 037
-phone: 11-26779191
+phone: 11-26779191,
 mobile: ''
 email: reservations@radissondel.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

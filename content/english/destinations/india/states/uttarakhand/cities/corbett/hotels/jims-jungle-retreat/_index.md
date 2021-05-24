@@ -8,13 +8,15 @@ address: >-
   Uttarakhand –
 city: Corbett
 postalcode: 244 715
-phone: '-'
+phone: '-,'
 mobile: ''
 email: reservations@jimsjungleretreat.com
 website: http://www.jimsjungleretreat.com
 note: ''
 type: hotel
 category:
+  - H
+  - COM
   - WEB
 showHotel: 0
 starCategory: 0
@@ -169,5 +171,30 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: Jim's Jungle Retreat - Booking Office
+gstType: 0
+gstin: ''
+www: http://www.jimsjungleretreat.com
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 A comfortable wildlife lodge, in which you can spend hours by the pool, at the jungle-inspired chemical-free spa or on your private verandah. The delightful, airy cafe and the restaurant serve organic farm-to-table meals, and their in-house naturalists can show you unique and fascinating aspects of the property, from medicinal plants to termite hills. Birdsong, privacy, and great meals are your personal luxuries here.

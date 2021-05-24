@@ -6,7 +6,7 @@ mailto: ''
 address: Next To Health Center  Candolim
 city: Goa
 postalcode: ''
-phone: 832-227 5272
+phone: 832-227 5272,
 mobile: ''
 email: info@siddhartha.de
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

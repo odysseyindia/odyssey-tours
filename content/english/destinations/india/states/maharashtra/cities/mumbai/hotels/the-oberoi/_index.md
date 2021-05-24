@@ -6,7 +6,7 @@ mailto: ''
 address: Nariman Point
 city: Mumbai
 postalcode: 400 021
-phone: 22-6632 5757
+phone: 22-6632 5757,
 mobile: ''
 email: ''
 website: ''
@@ -16,7 +16,7 @@ category:
   - H
 showHotel: 1
 starCategory: 5
-checkout: '12:00:00'
+checkout: 12.00 Noon
 accessRail: 3 km. to Nearest Railway Station
 accessAir: 25 kms. from International Airport & 21 kms. from Domestic Airport
 accessBus: ''
@@ -24,7 +24,7 @@ advantage: In the Heart of the Business District, Nariman Point
 rooms: 337
 rates:
   - roomType: Luxury Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,7 +60,7 @@ rates:
     notes: 'Day Use: Rs 11500/-  50% adv payment at the time of booking.'
     agentCommission: 0
   - roomType: Bay View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -96,7 +96,7 @@ rates:
     notes: 'Day Use: Rs 11500/-  50% adv payment at the time of booking.'
     agentCommission: 0
   - roomType: Ocean View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -132,7 +132,7 @@ rates:
     notes: 'Day Use: Rs 11500/-  50% adv payment at the time of booking.'
     agentCommission: 0
   - roomType: Luxury Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -168,7 +168,7 @@ rates:
     notes: 'Day Use: Rs 10,000/-  50% adv payment at the time of booking.'
     agentCommission: 0
   - roomType: Bay View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -204,7 +204,7 @@ rates:
     notes: 'Day Use: Rs 10,000/-  50% adv payment at the time of booking.'
     agentCommission: 0
   - roomType: Ocean View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -239,5 +239,18 @@ rates:
     specialPeriod: 0
     notes: 'Day Use: Rs 10,000/-  50% adv payment at the time of booking.'
     agentCommission: 0
+bookThrough: Oberoi Contact Centre
+gstType: 0
+gstin: ''
+www: ''
+web: 1
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 One of the most distinguished hotels in Mumbai. The hotel overlooks the ocean and is located in the heart of Mumbai's commercial and banking districts. The 350 rooms are spacious with separate dressing rooms and luxurious bathrooms. The Oberoi has three exclusive restaurants, bar,  24-hour business centre, swimming pool and  health club.

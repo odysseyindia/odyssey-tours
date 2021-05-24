@@ -6,7 +6,7 @@ mailto: ''
 address: 'Baga Beach  Bardez  '
 city: Calangute
 postalcode: 403 731
-phone: 832-227 6084, 274 0318 - 20
+phone: 832-227 6084, 274 0318 - 20,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

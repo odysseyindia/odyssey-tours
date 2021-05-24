@@ -6,13 +6,17 @@ mailto: ''
 address: Village Kuppitola  Tehsil Turai  District Seoni
 city: Pench
 postalcode: 480 881
-phone: '-'
+phone: '-,'
 mobile: ''
 email: ''
 website: https://www.vresorts.in/resorts/v-resorts-mahua-vann-pench
 note: ''
 type: hotel
 category:
+  - H
+  - RIK
+  - ST
+  - A
   - WEB
 showHotel: 0
 starCategory: 0
@@ -347,5 +351,42 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: V Resorts
+gstType: 0
+gstin: ''
+www: https://www.vresorts.in/resorts/v-resorts-mahua-vann-pench
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Mahua Vann Pench is a boutique eco-resort, just 6km from the Turia Gate of Pench wildlife reserve.  The resort is spread across a large estate. Each of the rooms is comfortably sized, tastefully decorated and equipped with modern amenities yet maintaining an earthen touch. With a rivulet crossing right through the resort, there are plenty of activities, including nature walks, cycling tours, swimming pool & spa.

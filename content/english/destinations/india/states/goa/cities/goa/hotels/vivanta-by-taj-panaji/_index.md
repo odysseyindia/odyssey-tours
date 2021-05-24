@@ -6,7 +6,7 @@ mailto: ''
 address: Off D. B. Bandodkar Road
 city: Goa
 postalcode: 403 001
-phone: 832-663 3636
+phone: 832-663 3636,
 mobile: ''
 email: ''
 website: http://www.vivantabytaj.com/Panaji-Goa
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://www.vivantabytaj.com/Panaji-Goa
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

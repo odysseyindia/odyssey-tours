@@ -6,7 +6,7 @@ mailto: ''
 address: Distt. Tikamgarh
 city: Orchha
 postalcode: ''
-phone: '-'
+phone: '-,'
 mobile: ''
 email: info@colleaguetours.in  reservations@colleaguetours.in
 website: ''
@@ -24,7 +24,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: Room only
     currency: INR
     currencyPT: INR
@@ -59,5 +59,18 @@ rates:
     specialPeriod: 0
     notes: booking purpose
     agentCommission: 5
+bookThrough: Colleague Tours Pvt. Ltd.
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 In a spectacular location, overlooking the Betwa River and the monuments and palaces of Orchha, this old fashioned resort has comfortable rooms, a large swimming pool, and a garden area which also boasts tented accommodation. 

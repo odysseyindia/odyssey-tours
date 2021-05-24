@@ -6,13 +6,15 @@ mailto: ''
 address: Mira Park ke Gati  Bhatiyani Chohatta  Rao Ji Ka Hata
 city: Udaipur
 postalcode: 313 001
-phone: '-'
+phone: '-,72298 32101'
 mobile: 72298 32101
 email: theneemtreeudaipur@gmail.com
 website: instagram.com/theneemtreeudaipur  facebook.com/theneemtreeudaipur
 note: ''
 type: hotel
 category:
+  - H
+  - ST
   - RIK
 showHotel: 0
 starCategory: 0
@@ -24,7 +26,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -63,7 +65,7 @@ rates:
       old
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -102,7 +104,7 @@ rates:
       old
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -141,7 +143,7 @@ rates:
       old
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -180,7 +182,7 @@ rates:
       old
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -219,7 +221,7 @@ rates:
       old
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -258,7 +260,7 @@ rates:
       old
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -297,7 +299,7 @@ rates:
       children under 13 years old
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -336,7 +338,7 @@ rates:
       children under 13 years old
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -375,7 +377,7 @@ rates:
       children under 13 years old
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -414,7 +416,7 @@ rates:
       children under 13 years old
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -453,7 +455,7 @@ rates:
       children under 13 years old
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -491,5 +493,30 @@ rates:
       a 3 inch foam mattress. Please note that the property is not suitable for
       children under 13 years old
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: instagram.com/theneemtreeudaipur  facebook.com/theneemtreeudaipur
+web: 0
+mailTo: ''
+ranking: 3
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 The Neem Tree is a new, eco-conscious boutique retreat, a short walk through the bustling bazaar from the City Palace and Pichola Lake. Local craftsmen have created the ornate exterior, and the unique bedrooms feature beautifully carved stone windows and hand-carved furniture. There is a tranquil courtyard with a magnificent neem tree and turquoise swimming pool, and a spectacular view of the City Palace.

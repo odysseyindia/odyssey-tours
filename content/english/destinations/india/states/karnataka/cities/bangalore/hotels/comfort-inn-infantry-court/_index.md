@@ -6,7 +6,7 @@ mailto: ''
 address: 'No. 66, Infantry Road  YMCA Gem Plaza Commercial Complex  '
 city: Bangalore
 postalcode: 560 001
-phone: 80-559 1800, 559 2283
+phone: 80-559 1800, 559 2283,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+ranking: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
 ---
+
+
+
+
+
+

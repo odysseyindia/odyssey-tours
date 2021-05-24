@@ -6,7 +6,7 @@ mailto: ''
 address: Village Sathin  Near Pipar City  Distt. Jodhpur
 city: Jodhpur
 postalcode: ''
-phone: 2930-242160, 09829814966, 09929251740
+phone: 2930-242160, 09829814966, 09929251740,
 mobile: ''
 email: sathingarh@yahoo.co.in
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

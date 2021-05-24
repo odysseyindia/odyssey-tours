@@ -48,4 +48,25 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+address: Main Square Bhagsu Nag  Upper Dharamsala  Distt. Kangra
+city: Dharamsala
+postalcode: 176 219
+phone: 1892-221 679, 220 403, 220 405,
+gstType: 1
+gstin: 02ABDPN9828K1ZE
+email: office@summit-adventures.net  milap@summit-adventures.net
+www: www.summit-adventures.net
+note: ''
+web: 0
+mailTo: ''
+ranking: 0
+category:
+  - A
 ---
+
+
+
+
+
+

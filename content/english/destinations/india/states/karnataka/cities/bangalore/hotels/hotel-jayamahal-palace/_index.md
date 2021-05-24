@@ -6,7 +6,7 @@ mailto: ''
 address: 1, Jayamahal Road
 city: Bangalore
 postalcode: 560 046
-phone: 80-4153 5715-8
+phone: 80-4153 5715-8,
 mobile: ''
 email: info@jayamahalpalace.in  jayamahalpalace@hghhotels.com
 website: www.jayamahalpalace.com
@@ -24,7 +24,7 @@ advantage: ''
 rooms: 37
 rates:
   - roomType: Deluxe Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,7 +60,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Luxury Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -96,7 +96,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Royal Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -131,5 +131,18 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.jayamahalpalace.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 The Jayamahal Palace was originally constructed in the 1900s by the British Resident of Bangalore, and is at present owned by the grandson of the Maharaja of Gondal, an erstwhile princely State in Gujarat. Renovated at the beginning of this century, it is now the only heritage palace hotel in Bangalore, situated in 19 acres of spawling grounds.    The guestrooms exude a colonial charm and have an atmospheric lived-in quality that no fancy design can duplicate. There is a garden restaurant, a coffee shop and two lounge bars, all designed with a motor sports theme, reflecting the love the family has for motor racing.

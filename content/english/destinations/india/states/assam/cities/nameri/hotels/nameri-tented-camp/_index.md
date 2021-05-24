@@ -6,7 +6,7 @@ mailto: ''
 address: ''
 city: Nameri
 postalcode: ' '
-phone: '-'
+phone: '-,'
 mobile: ''
 email: ''
 website: ''
@@ -22,5 +22,18 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 1
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 A well organised tented camp where you stay on full board basis. Your stay also includes all jungle activities including a boat ride on the river.

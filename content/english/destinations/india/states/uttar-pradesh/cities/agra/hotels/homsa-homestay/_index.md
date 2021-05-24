@@ -6,7 +6,7 @@ mailto: ''
 address: Agra
 city: Agra
 postalcode: ''
-phone: '-'
+phone: '-,'
 mobile: ''
 email: ''
 website: ''
@@ -24,8 +24,8 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: Bed & Breakfast
     currency: INR
     currencyPT: INR
     costSingle: 0
@@ -59,4 +59,17 @@ rates:
     specialPeriod: 0
     notes: Rates only for booking on 07/01/2020.
     agentCommission: 5
+bookThrough: Colleague Tours Pvt. Ltd.
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

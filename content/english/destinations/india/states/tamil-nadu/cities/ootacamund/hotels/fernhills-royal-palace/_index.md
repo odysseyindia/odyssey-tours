@@ -6,7 +6,7 @@ mailto: ''
 address: Fernhill Post, Fernhill
 city: Ootacamund
 postalcode: 643 004
-phone: 423-2443910 / 15
+phone: 423-2443910 / 15,
 mobile: ''
 email: fernhillspalace@gmail.com  Regencyvillas@gmail.com
 website: http://www.fernhillspalace.co.in
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://www.fernhillspalace.co.in
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

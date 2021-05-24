@@ -6,7 +6,7 @@ mailto: ''
 address: Distr. Ahmedabad
 city: Utelia
 postalcode: 382 230
-phone: 2714-29 5001
+phone: 2714-29 5001,
 mobile: ''
 email: ''
 website: ''
@@ -24,5 +24,18 @@ advantage: >-
   Peaceful Village Location. An Ideal Base to Visit Lothal, A Site where
   Remnants of Indus Valley Civilization were found
 rooms: 14
+bookThrough: The Estate Manager (Utelia)
+gstType: 0
+gstin: ''
+www: ''
+web: 1
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 Even from a distance the domes of The Palace Utelia are seen silhouetted over the flat plateau of the region as they rise above the humbler tiled roofs of the small village.     The palace is built in the best of the Indo Saracenic styles with domes, arches, and pillars.     The rooms are of 2 types - standard and deluxe but are all graced with the same enchanting period furniture and high ceilings.     The magic of Utelia coupled with conversations with the feudalistic hosts are sure to take you on a trip back in time. 

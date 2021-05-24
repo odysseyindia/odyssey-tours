@@ -6,7 +6,7 @@ mailto: ''
 address: (Near the cross), Dhawalkhazan  Agonda Beach
 city: Goa
 postalcode: ''
-phone: '-'
+phone: '-,'
 mobile: ''
 email: info@agondawhitesand.com
 website: ''
@@ -253,4 +253,17 @@ rates:
       2 sea-facing cottages & 10 garden cottages (most with partial sea view).
       Restaurant & bar and beach loungers.
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

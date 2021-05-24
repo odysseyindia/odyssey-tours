@@ -6,7 +6,7 @@ mailto: ''
 address: 'Near Jhulta Pul  District Rajkot        '
 city: Morvi
 postalcode: 363 641
-phone: 2822-222100
+phone: 2822-222100,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

@@ -6,7 +6,7 @@ mailto: ''
 address: ''
 city: Kochi
 postalcode: ''
-phone: '-'
+phone: '-,'
 mobile: ''
 email: ''
 website: ''
@@ -24,8 +24,8 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Superior Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: Bed & Breakfast
     currency: INR
     currencyPT: INR
     costSingle: 0
@@ -60,8 +60,8 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Garden View Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: Bed & Breakfast
     currency: INR
     currencyPT: INR
     costSingle: 0
@@ -96,8 +96,8 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Garden Cottage
-    mealPlan: Bed & breakfast
-    mealPlanPT: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: Bed & Breakfast
     currency: INR
     currencyPT: INR
     costSingle: 0
@@ -168,8 +168,8 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Superior Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: Bed & Breakfast
     currency: INR
     currencyPT: INR
     costSingle: 0
@@ -204,8 +204,8 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Garden View Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: Bed & Breakfast
     currency: INR
     currencyPT: INR
     costSingle: 0
@@ -240,8 +240,8 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Garden Cottage
-    mealPlan: Bed & breakfast
-    mealPlanPT: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: Bed & Breakfast
     currency: INR
     currencyPT: INR
     costSingle: 0
@@ -312,8 +312,8 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Superior Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: Bed & Breakfast
     currency: INR
     currencyPT: INR
     costSingle: 0
@@ -352,8 +352,8 @@ rates:
       are sold only on MAPAI basis and cost per person is Rs 2250/- per dinner
     agentCommission: 0
   - roomType: Garden View Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: Bed & Breakfast
     currency: INR
     currencyPT: INR
     costSingle: 0
@@ -392,8 +392,8 @@ rates:
       are sold only on MAPAI basis and cost per person is Rs 2250/- per dinner
     agentCommission: 0
   - roomType: Garden Cottage
-    mealPlan: Bed & breakfast
-    mealPlanPT: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: Bed & Breakfast
     currency: INR
     currencyPT: INR
     costSingle: 0
@@ -472,8 +472,8 @@ rates:
       are sold only on MAPAI basis and cost per person is Rs 2250/- per dinner
     agentCommission: 0
   - roomType: Superior Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: Bed & Breakfast
     currency: INR
     currencyPT: INR
     costSingle: 0
@@ -508,8 +508,8 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Garden View Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: Bed & Breakfast
     currency: INR
     currencyPT: INR
     costSingle: 0
@@ -544,8 +544,8 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Garden Cottage
-    mealPlan: Bed & breakfast
-    mealPlanPT: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: Bed & Breakfast
     currency: INR
     currencyPT: INR
     costSingle: 0
@@ -615,4 +615,17 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: Old Harbour Hotel
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

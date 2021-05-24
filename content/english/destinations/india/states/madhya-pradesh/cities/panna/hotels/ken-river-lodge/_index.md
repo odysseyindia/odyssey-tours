@@ -6,13 +6,17 @@ mailto: ''
 address: Panna National Park  Village Madla  (1/2 Km from Madla Police Station)
 city: Panna
 postalcode: 488 001
-phone: '-'
+phone: '-,'
 mobile: ''
 email: ''
 website: http://www.kenriverlodge.com/
 note: ''
 type: hotel
 category:
+  - H
+  - ST
+  - A
+  - RIK
   - WEB
 showHotel: 0
 starCategory: 0
@@ -99,5 +103,42 @@ rates:
       rates copied from 2019-2020  Mandatory New Year's dinner: Rs 2,000/- p.p. 
       Mandatory 3-nights' stay over New Year Eve
     agentCommission: 0
+bookThrough: Pugdundee Safaris
+gstType: 0
+gstin: ''
+www: http://www.kenriverlodge.com/
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Situated right above the Ken river, this wildlife lodge offers a great jungle experience, whether you're on the wooden restaurant and deck area, built around trees, walking around in the thickly forested grounds, or in the spacious 'huts' that belie their name. These 'huts' feature large, comfortable beds, rustic-looking but efficient bathrooms and even a little terrace at treetop height. 

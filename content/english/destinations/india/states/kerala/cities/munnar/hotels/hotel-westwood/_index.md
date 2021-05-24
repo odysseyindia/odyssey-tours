@@ -6,7 +6,7 @@ mailto: ''
 address: Near MSA
 city: Munnar
 postalcode: 685 612
-phone: 4865-230884
+phone: 4865-230884,
 mobile: ''
 email: info@westwood.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Kerala Adventures Pvt Ltd
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

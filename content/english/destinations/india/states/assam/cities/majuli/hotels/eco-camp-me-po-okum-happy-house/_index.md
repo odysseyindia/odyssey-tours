@@ -6,7 +6,7 @@ mailto: ''
 address: ''
 city: Majuli
 postalcode: ''
-phone: '-'
+phone: '-,'
 mobile: ''
 email: ''
 website: ''
@@ -22,5 +22,18 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Wild Grass
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 Due to a wonderful initiative of the council of the Mishing tribe in Majuli island, tribal people built and run a small resort in exactly the same style of their own traditional homes.    Po Okum is an eco camp consisting of several bamboo huts perched on stilts a few metres above the ground that can be accessed by sturdy wooden steps. There is a pleasant sit-out in the front which catches the breeze.

@@ -6,7 +6,7 @@ mailto: ''
 address: ''
 city: Khajuraho
 postalcode: 471 606
-phone: 124-3252035, 3252036
+phone: 124-3252035, 3252036,
 mobile: ''
 email: 'experience@grandkhajuraho.com  '
 website: www.grandkhajuraho.com
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.grandkhajuraho.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

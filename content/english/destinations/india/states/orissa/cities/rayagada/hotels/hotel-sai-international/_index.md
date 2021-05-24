@@ -6,7 +6,7 @@ mailto: ''
 address: J.K. Road
 city: Rayagada
 postalcode: '  '
-phone: 6856-25554, 25555
+phone: 6856-25554, 25555,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 1
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

@@ -6,14 +6,17 @@ mailto: ''
 address: 'Saraca Estate  19, Mall Avenue  '
 city: Lucknow
 postalcode: 226 001
-phone: 522-2238 333
+phone: 522-2238 333,
 mobile: ''
 email: reservationslucknow@lebua.com
 website: www.lebua.com
 note: ''
 type: hotel
 category:
+  - H
+  - COM
   - WEB
+  - A
 showHotel: 0
 starCategory: 0
 checkout: ''
@@ -24,7 +27,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Awadh Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,7 +63,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Residency Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -96,7 +99,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Heritage Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -132,7 +135,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Awadh Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -172,7 +175,7 @@ rates:
       person per meal
     agentCommission: 0
   - roomType: Residency Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -212,7 +215,7 @@ rates:
       person per meal
     agentCommission: 0
   - roomType: Heritage Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -252,7 +255,7 @@ rates:
       person per meal
     agentCommission: 0
   - roomType: Awadh Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -288,7 +291,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Residency Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -324,7 +327,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Heritage Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -360,7 +363,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Awadh Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -396,7 +399,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Residency Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -432,7 +435,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Heritage Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -468,7 +471,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Awadh Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -508,7 +511,7 @@ rates:
       INR 3000 + 18% Taxes Taxes per person per meal
     agentCommission: 0
   - roomType: Residency Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -548,7 +551,7 @@ rates:
       INR 3000 + 18% Taxes Taxes per person per meal
     agentCommission: 0
   - roomType: Heritage Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -588,7 +591,7 @@ rates:
       INR 3000 + 18% Taxes Taxes per person per meal
     agentCommission: 0
   - roomType: Awadh Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -624,7 +627,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Residency Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -660,7 +663,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Heritage Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -695,5 +698,36 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.lebua.com
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This is a beautiful luxury hotel, designed as a large bungalow with lush green lawns, 1900s Art Deco architecture and a charming feel, perfect for the olde-worlde atmosphere of Lucknow.

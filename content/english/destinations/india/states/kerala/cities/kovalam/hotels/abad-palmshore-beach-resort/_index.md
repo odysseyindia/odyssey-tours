@@ -6,7 +6,7 @@ mailto: ''
 address: Light House Road  Kovalam Beach,   Vizhinjam
 city: Trivandrum
 postalcode: 695 521
-phone: 471-248 1481
+phone: 471-248 1481,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Kerala Adventures Pvt Ltd
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

@@ -6,14 +6,15 @@ mailto: ''
 address: 'Thekkady Road  Idukki District  '
 city: Thekkady
 postalcode: 685 536
-phone: 4869- 223 286-7
+phone: 4869- 223 286-7,98950 77199
 mobile: 98950 77199
 email: reservations@hoteltreetop.com
 website: www.hoteltreetop.com
 note: ''
-ranking: '2'
+ranking: 2
 type: hotel
 category:
+  - H
   - ST
 showHotel: 0
 starCategory: 0
@@ -25,331 +26,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 3800
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 3800
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1000
-    extraBedPT: 0
-    wef: '2019-01-11T00:00:00'
-    wet: '2019-02-28T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Cottage
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Cottage
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 4500
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 4500
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1000
-    extraBedPT: 0
-    wef: '2019-01-11T00:00:00'
-    wet: '2019-02-28T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Cottage
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Bungalow
-    mealPlan: Bed & breakfast
-    mealPlanPT: Bed & breakfast
-    currency: INR
-    currencyPT: INR
-    costSingle: 11200
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 11200
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1000
-    extraBedPT: 0
-    wef: '2019-01-11T00:00:00'
-    wet: '2019-02-28T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Cottage
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 3000
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 3000
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1000
-    extraBedPT: 0
-    wef: '2019-03-01T00:00:00'
-    wet: '2019-05-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Cottage
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Cottage
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 3600
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 3600
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1000
-    extraBedPT: 0
-    wef: '2019-03-01T00:00:00'
-    wet: '2019-05-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Cottage
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Bungalow
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 9600
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 9600
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1000
-    extraBedPT: 0
-    wef: '2019-03-01T00:00:00'
-    wet: '2019-05-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Cottage
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 2500
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 2500
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1000
-    extraBedPT: 0
-    wef: '2019-06-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Cottage
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Cottage
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 3000
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 3000
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1000
-    extraBedPT: 0
-    wef: '2019-06-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Cottage
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Bungalow
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 8600
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 8600
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1000
-    extraBedPT: 0
-    wef: '2019-06-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Cottage
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -385,7 +62,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -421,8 +98,8 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Bungalow
-    mealPlan: Bed & breakfast
-    mealPlanPT: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: Bed & Breakfast
     currency: INR
     currencyPT: INR
     costSingle: 11200
@@ -457,7 +134,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -493,7 +170,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -529,8 +206,8 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Bungalow
-    mealPlan: Bed & breakfast
-    mealPlanPT: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: Bed & Breakfast
     currency: INR
     currencyPT: INR
     costSingle: 13400
@@ -565,7 +242,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -601,7 +278,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -637,8 +314,8 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Bungalow
-    mealPlan: Bed & breakfast
-    mealPlanPT: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: Bed & Breakfast
     currency: INR
     currencyPT: INR
     costSingle: 11200
@@ -673,7 +350,115 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 4550
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 4550
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 1200
+    extraBedPT: 0
+    wef: '2019-12-10T00:00:00'
+    wet: '2020-01-10T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Cottage
+    defaultAc: 0
+    specialPeriod: 0
+    notes: '24/12: 1500pp  31/12:2000pp'
+    agentCommission: 0
+  - roomType: Cottage
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 5400
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 5400
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 1200
+    extraBedPT: 0
+    wef: '2019-12-10T00:00:00'
+    wet: '2020-01-10T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Cottage
+    defaultAc: 0
+    specialPeriod: 0
+    notes: '24/12: 1500pp  31/12:2000pp'
+    agentCommission: 0
+  - roomType: Bungalow
+    mealPlan: Bed & Breakfast
+    mealPlanPT: Bed & Breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 13400
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 13400
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 1200
+    extraBedPT: 0
+    wef: '2019-12-10T00:00:00'
+    wet: '2020-01-10T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Cottage
+    defaultAc: 0
+    specialPeriod: 0
+    notes: '24/12: 1500pp  31/12:2000pp'
+    agentCommission: 0
+  - roomType: Deluxe Room
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -709,7 +494,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -745,8 +530,8 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Bungalow
-    mealPlan: Bed & breakfast
-    mealPlanPT: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: Bed & Breakfast
     currency: INR
     currencyPT: INR
     costSingle: 11200
@@ -781,7 +566,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -817,7 +602,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -853,8 +638,8 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Bungalow
-    mealPlan: Bed & breakfast
-    mealPlanPT: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: Bed & Breakfast
     currency: INR
     currencyPT: INR
     costSingle: 9600
@@ -889,115 +674,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 4550
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 4550
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1200
-    extraBedPT: 0
-    wef: '2019-12-10T00:00:00'
-    wet: '2020-01-10T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Cottage
-    defaultAc: 0
-    specialPeriod: 0
-    notes: '24/12: 1500pp  31/12:2000pp'
-    agentCommission: 0
-  - roomType: Cottage
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 5400
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 5400
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1200
-    extraBedPT: 0
-    wef: '2019-12-10T00:00:00'
-    wet: '2020-01-10T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Cottage
-    defaultAc: 0
-    specialPeriod: 0
-    notes: '24/12: 1500pp  31/12:2000pp'
-    agentCommission: 0
-  - roomType: Bungalow
-    mealPlan: Bed & breakfast
-    mealPlanPT: Bed & breakfast
-    currency: INR
-    currencyPT: INR
-    costSingle: 13400
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 13400
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1200
-    extraBedPT: 0
-    wef: '2019-12-10T00:00:00'
-    wet: '2020-01-10T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Cottage
-    defaultAc: 0
-    specialPeriod: 0
-    notes: '24/12: 1500pp  31/12:2000pp'
-    agentCommission: 0
-  - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1033,7 +710,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1069,8 +746,8 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Bungalow
-    mealPlan: Bed & breakfast
-    mealPlanPT: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: Bed & Breakfast
     currency: INR
     currencyPT: INR
     costSingle: 8600
@@ -1105,7 +782,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1141,7 +818,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1177,8 +854,8 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Bungalow
-    mealPlan: Bed & breakfast
-    mealPlanPT: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: Bed & Breakfast
     currency: INR
     currencyPT: INR
     costSingle: 11200
@@ -1213,7 +890,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1249,7 +926,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1285,8 +962,8 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Bungalow
-    mealPlan: Bed & breakfast
-    mealPlanPT: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: Bed & Breakfast
     currency: INR
     currencyPT: INR
     costSingle: 13400
@@ -1321,7 +998,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1357,7 +1034,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1393,8 +1070,8 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Bungalow
-    mealPlan: Bed & breakfast
-    mealPlanPT: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: Bed & Breakfast
     currency: INR
     currencyPT: INR
     costSingle: 11200
@@ -1429,7 +1106,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1465,7 +1142,7 @@ rates:
     notes: 'rates copied from 2019-2020  24/12: 1500pp  31/12:2000pp'
     agentCommission: 0
   - roomType: Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1501,8 +1178,8 @@ rates:
     notes: 'rates copied from 2019-2020  24/12: 1500pp  31/12:2000pp'
     agentCommission: 0
   - roomType: Bungalow
-    mealPlan: Bed & breakfast
-    mealPlanPT: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: Bed & Breakfast
     currency: INR
     currencyPT: INR
     costSingle: 13400
@@ -1537,7 +1214,7 @@ rates:
     notes: 'rates copied from 2019-2020  24/12: 1500pp  31/12:2000pp'
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1573,7 +1250,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1609,8 +1286,8 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Bungalow
-    mealPlan: Bed & breakfast
-    mealPlanPT: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: Bed & Breakfast
     currency: INR
     currencyPT: INR
     costSingle: 11200
@@ -1645,7 +1322,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1681,7 +1358,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1717,8 +1394,8 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Bungalow
-    mealPlan: Bed & breakfast
-    mealPlanPT: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: Bed & Breakfast
     currency: INR
     currencyPT: INR
     costSingle: 9600
@@ -1753,7 +1430,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1789,7 +1466,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1825,8 +1502,8 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Bungalow
-    mealPlan: Bed & breakfast
-    mealPlanPT: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: Bed & Breakfast
     currency: INR
     currencyPT: INR
     costSingle: 8600
@@ -1860,5 +1537,23 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: ''
+gstType: 1
+gstin: 32ACJPJ5274C1ZW
+www: www.hoteltreetop.com
+web: 0
+mailTo: ''
 ---
+
+
+
+
+
+
+
+
+
+
+
+
 Hotel Treetop comprises of neat little gabled cottages and rooms with tiled roofs reminiscent of the Raj bungalows. Each cottage has its own private sit-out from where one can see birds, sambar or wild boars. The multi-cuisine restaurant of the hotel offers a range of delectable dishes. In addition, the hotel organizes water safaris and even Ayurvedic massages.

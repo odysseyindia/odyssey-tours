@@ -6,7 +6,7 @@ mailto: ''
 address: ''
 city: Mumbai
 postalcode: ''
-phone: '-'
+phone: '-,'
 mobile: ''
 email: itd.bom@tajhotels.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

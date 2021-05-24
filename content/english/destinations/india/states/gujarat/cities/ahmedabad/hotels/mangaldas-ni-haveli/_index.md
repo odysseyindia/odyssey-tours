@@ -6,7 +6,7 @@ mailto: ''
 address: 'Lakha Patel ni Pol  Sakdi Sheri, Kahadi  '
 city: Ahmedabad
 postalcode: 380 001
-phone: 79-2550 6946
+phone: 79-2550 6946,
 mobile: ''
 email: customercare@houseofmg.com
 website: ''
@@ -131,5 +131,18 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 5
+bookThrough: Indo West Tours
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 Mangaldas ni Haveli is located in the heart of the historic walled city of Ahmedabad. It is estimated to be over 200 years old and it originally belonged to a Nagar Brahmin family (Brahmins were considered the highest amongst all castes in India). It is one of the finest examples of carved wooden architecture typical of that time. It was bought by the Mangaldas family in 2006 and has since been restored. It now houses a café and a Learning Centre and is accessible by a shuttle service from The House of MG. There is no parking available around the haveli.

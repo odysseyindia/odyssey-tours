@@ -8,7 +8,7 @@ address: >-
   India          
 city: Kovalam
 postalcode: 695 521
-phone: 471-2480950, 2480951
+phone: 471-2480950, 2480951,
 mobile: ''
 email: aparnaseaide@yahoo.co.in
 website: www.aparnahotelkovalam.com
@@ -24,4 +24,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.aparnahotelkovalam.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

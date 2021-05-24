@@ -6,7 +6,7 @@ mailto: ''
 address: ''
 city: Thanjavur
 postalcode: '  '
-phone: 4362-39451-6
+phone: 4362-39451-6,
 mobile: ''
 email: hotelsangam@vsnl.com
 website: hotelsangam.com
@@ -16,7 +16,7 @@ category:
   - H
 showHotel: 1
 starCategory: 0
-checkout: '12:00:00'
+checkout: 12.00 Noon
 accessRail: 1km. from Railway Station
 accessAir: 50 kms from Airport
 accessBus: 2 kms. from Bus Stand
@@ -24,7 +24,7 @@ advantage: Few minutes walk from Sri Brahadeeswarar Temple ( Big Temple)
 rooms: 54
 rates:
   - roomType: Executive Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -59,5 +59,18 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: Travelcart India Pvt Ltd
+gstType: 0
+gstin: ''
+www: hotelsangam.com
+web: 1
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 Thanjavur's newest luxury hotel is just a few minutes walk from the Sri Brihadishwara Temple. It has 54 centrally air-conditioned rooms, an excellent restaurant, a bar, swimming pool and beautiful Tanjore paintings.

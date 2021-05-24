@@ -84,5 +84,26 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+address: C/o Hotel Priya  C.V.Singh Colony
+city: Jaisalmer
+postalcode: 345 001
+phone: 2992-252 755, 254 087, 250 577-Extn.308,
+gstType: 4
+gstin: ''
+email: thegurukripa26@yahoo.com
+www: ''
+note: ''
+web: 0
+mailTo: ''
+ranking: 0
+category:
+  - A
 ---
+
+
+
+
+
+
 The tented camp is set up in a peaceful location close to sand dunes. The tents are simple, but all bedding is supplied, and hot water is provided for washing. The camp staff prepares dinner and breakfast, and the highlight is spending the evening under a blanket of stars.

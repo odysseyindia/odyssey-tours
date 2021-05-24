@@ -6,13 +6,15 @@ mailto: ''
 address: 7/1-143, Local Fund Road  Kanadukathan
 city: Chettinad
 postalcode: 630 103
-phone: 4565-273 354, 273 301
+phone: 4565-273 354, 273 301,
 mobile: ''
 email: visalam@cghearth.com
 website: http://www.cghearth.com/visalam
 note: ''
 type: hotel
 category:
+  - H
+  - COM
   - WEB
 showHotel: 0
 starCategory: 0
@@ -24,223 +26,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Chettinad Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 12300
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 12300
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2655
-    extraBedPT: 0
-    wef: '2019-01-11T00:00:00'
-    wet: '2019-01-31T00:00:00'
-    fromPax: 1
-    toPax: 10
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Chettinad Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 5
-  - roomType: Chettinad Suite
-    mealPlan: Bed & breakfast
-    mealPlanPT: Room only
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 13800
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 13800
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2655
-    extraBedPT: 0
-    wef: '2019-01-11T00:00:00'
-    wet: '2019-01-31T00:00:00'
-    fromPax: 1
-    toPax: 10
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Chettinad Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 5
-  - roomType: Chettinad Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 12300
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 12300
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2655
-    extraBedPT: 0
-    wef: '2019-03-01T00:00:00'
-    wet: '2019-03-31T00:00:00'
-    fromPax: 1
-    toPax: 10
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Chettinad Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 5
-  - roomType: Chettinad Suite
-    mealPlan: Bed & breakfast
-    mealPlanPT: Room only
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 13800
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 13800
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2655
-    extraBedPT: 0
-    wef: '2019-03-01T00:00:00'
-    wet: '2019-03-31T00:00:00'
-    fromPax: 1
-    toPax: 10
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Chettinad Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 5
-  - roomType: Chettinad Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 14250
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 14250
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2655
-    extraBedPT: 0
-    wef: '2019-02-01T00:00:00'
-    wet: '2019-02-28T00:00:00'
-    fromPax: 1
-    toPax: 10
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Chettinad Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 5
-  - roomType: Chettinad Suite
-    mealPlan: Bed & breakfast
-    mealPlanPT: Room only
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 15750
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 15750
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2655
-    extraBedPT: 0
-    wef: '2019-02-01T00:00:00'
-    wet: '2019-02-28T00:00:00'
-    fromPax: 1
-    toPax: 10
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Chettinad Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 5
-  - roomType: Chettinad Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -276,7 +62,7 @@ rates:
     notes: 0
     agentCommission: 5
   - roomType: Chettinad Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -312,151 +98,7 @@ rates:
     notes: 0
     agentCommission: 5
   - roomType: Chettinad Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 12300
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 12300
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2655
-    extraBedPT: 0
-    wef: '2020-01-11T00:00:00'
-    wet: '2020-01-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Chettinad Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 5
-  - roomType: Chettinad Suite
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 13800
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 13800
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2655
-    extraBedPT: 0
-    wef: '2020-01-11T00:00:00'
-    wet: '2020-01-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Chettinad Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 5
-  - roomType: Chettinad Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 12300
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 12300
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2655
-    extraBedPT: 0
-    wef: '2020-03-01T00:00:00'
-    wet: '2020-04-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Chettinad Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 5
-  - roomType: Chettinad Suite
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 13800
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 13800
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2655
-    extraBedPT: 0
-    wef: '2020-03-01T00:00:00'
-    wet: '2020-04-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Chettinad Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 5
-  - roomType: Chettinad Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -492,7 +134,7 @@ rates:
     notes: Supplement cost for 31/12 INR 7000 pp
     agentCommission: 5
   - roomType: Chettinad Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -528,7 +170,79 @@ rates:
     notes: Supplement cost for 31/12 INR 7000 pp
     agentCommission: 5
   - roomType: Chettinad Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 12300
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 12300
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 2655
+    extraBedPT: 0
+    wef: '2020-01-11T00:00:00'
+    wet: '2020-01-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Chettinad Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: Chettinad Suite
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 13800
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 13800
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 2655
+    extraBedPT: 0
+    wef: '2020-01-11T00:00:00'
+    wet: '2020-01-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Chettinad Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: Chettinad Room
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -564,7 +278,7 @@ rates:
     notes: 0
     agentCommission: 5
   - roomType: Chettinad Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -600,7 +314,79 @@ rates:
     notes: 0
     agentCommission: 5
   - roomType: Chettinad Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 12300
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 12300
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 2655
+    extraBedPT: 0
+    wef: '2020-03-01T00:00:00'
+    wet: '2020-04-30T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Chettinad Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: Chettinad Suite
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 13800
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 13800
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 2655
+    extraBedPT: 0
+    wef: '2020-03-01T00:00:00'
+    wet: '2020-04-30T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Chettinad Room
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: Chettinad Room
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -636,7 +422,7 @@ rates:
     notes: 0
     agentCommission: 5
   - roomType: Chettinad Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -672,7 +458,7 @@ rates:
     notes: 0
     agentCommission: 5
   - roomType: Chettinad Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -708,7 +494,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 5
   - roomType: Chettinad Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -744,7 +530,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 5
   - roomType: Chettinad Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -780,7 +566,7 @@ rates:
     notes: rates copied from 2019-2020  Supplement cost for 31/12 INR 7000 pp
     agentCommission: 5
   - roomType: Chettinad Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -816,7 +602,7 @@ rates:
     notes: rates copied from 2019-2020  Supplement cost for 31/12 INR 7000 pp
     agentCommission: 5
   - roomType: Chettinad Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -852,7 +638,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 5
   - roomType: Chettinad Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -888,7 +674,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 5
   - roomType: Chettinad Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -924,7 +710,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 5
   - roomType: Chettinad Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -960,7 +746,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 5
   - roomType: Chettinad Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -996,7 +782,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 5
   - roomType: Chettinad Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1032,7 +818,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 5
   - roomType: Chettinad Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1068,7 +854,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 5
   - roomType: Chettinad Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1103,5 +889,30 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 5
+bookThrough: Travelcart India Pvt Ltd
+gstType: 0
+gstin: ''
+www: http://www.cghearth.com/visalam
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 The beautifully polished traditional red terracotta floors are a highlight of this Chettiar mansion, as is the handcrafted teak wood furniture. The ceilings are lofty and the spaces uncluttered. The overall feel is definitely one of a home rather than a hotel, something reinforced by the warm and attentive service of the staff. A great place to catch your breath on a South India tour.

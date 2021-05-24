@@ -6,13 +6,14 @@ mailto: ''
 address: ''
 city: Rimbik
 postalcode: ''
-phone: '-'
+phone: '-,'
 mobile: ''
 email: ''
 website: ''
 note: ''
 type: hotel
 category:
+  - H
   - ST
 showHotel: 0
 starCategory: 0
@@ -22,4 +23,23 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
+
+
+
+
+
+

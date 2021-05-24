@@ -6,14 +6,15 @@ mailto: ''
 address: Kakaji Ki Kothi  Old Agra Road
 city: Bharatpur
 postalcode: ''
-phone: 5644-223 523, 231 199
+phone: 5644-223 523, 231 199,
 mobile: ''
 email: reservations@laxminiwas.com
 website: ''
 note: ''
-ranking: '2'
+ranking: 2
 type: hotel
 category:
+  - H
   - COM
 showHotel: 0
 starCategory: 0
@@ -25,7 +26,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,5 +61,23 @@ rates:
     specialPeriod: 0
     notes: Mandatory New Year Supplement Rs 3,500 pp + GST
     agentCommission: 0
+bookThrough: The Consortium Hotels
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
 ---
+
+
+
+
+
+
+
+
+
+
+
+
 Laxmi Niwas is the new wing of Bharatpur’s palace. Constructed in 2008, it has large, elaborate suites and an attractive large restaurant. Between the 2 wings is an enticing swimming pool. The entire property is surrounded by extensive lawns giving it a rural and relaxing feel. 

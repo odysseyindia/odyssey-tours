@@ -6,14 +6,15 @@ mailto: ''
 address: 369 Green Avenue  Near District Shopping Complex   Ranjit Avenue
 city: Amritsar
 postalcode: '143001'
-phone: 183- 515 1000
+phone: 183- 515 1000,
 mobile: ''
 email: 'gmgspa@sarovarhotels.com  '
 website: ''
 note: ''
-ranking: '2'
+ranking: 2
 type: hotel
 category:
+  - H
   - ST
 showHotel: 0
 starCategory: 0
@@ -25,7 +26,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Superior Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -61,7 +62,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Superior Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -97,7 +98,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Superior Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -133,7 +134,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Superior Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -168,5 +169,23 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: Sarovar Hotels & Resorts
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
 ---
+
+
+
+
+
+
+
+
+
+
+
+
 A brand-new, modern hotel, the Golden Sarovar Portico offers a calming environment, with well-appointed rooms and bang up-to-date bathrooms. There is also a cosy bar with an outdoor terrace, and a café that serves up a vast breakfast. Convenient for both the city's sights as well as the Wagah excursion, this is a comfortable base from which to explore Amritsar.

@@ -6,7 +6,7 @@ mailto: ''
 address: Collector's Office Road
 city: Tiruchirappalli
 postalcode: 620 001
-phone: 431-414 700, 414 480
+phone: 431-414 700, 414 480,
 mobile: ''
 email: ''
 website: hotelsangam.com
@@ -16,7 +16,7 @@ category:
   - H
 showHotel: 1
 starCategory: 4
-checkout: '12:00:00'
+checkout: 12.00 Noon
 accessRail: 1km. from Railway Station
 accessAir: 7 kms. from Airport
 accessBus: 1km. from Bus Stand
@@ -24,10 +24,10 @@ advantage: Situated at Contonment Area
 rooms: 56
 rates:
   - roomType: Executive Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
-    currencyPT: INR
+    currencyPT: ''
     costSingle: 0
     costSinglePT: 0
     costSingleAc: 4100
@@ -59,5 +59,18 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: hotelsangam.com
+web: 1
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 Trichy's top hotel boasts all the facilities of a 4-star hotel. It has 58 comfortable a/c rooms and restaurants, good breakfast in coffee shop, pleasant bar, excellent swimming pool and spacious lawns.

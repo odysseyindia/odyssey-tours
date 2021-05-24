@@ -6,13 +6,15 @@ mailto: ''
 address: 'Post Box #8  '
 city: Stok
 postalcode: 194 101
-phone: '-'
+phone: '-,98917 96671'
 mobile: 98917 96671
 email: reservations.stokpalace@gmail.com
 website: https://www.stokpalaceheritage.com/
 note: ''
 type: hotel
 category:
+  - H
+  - COM
   - WEB
 showHotel: 0
 starCategory: 0
@@ -239,5 +241,30 @@ rates:
     specialPeriod: 0
     notes: rates copied from 15/05/2020
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: https://www.stokpalaceheritage.com/
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Stok Palace, belonging to the royal Namgyal family, is part of Ladakh's cultural heritage. The 200-year-old mural-adorned walls, the Buddhist chants, a traditional Ladakhi meal under apricot and walnut trees, are the Ladakhi way of life. Perched on a hill, the building is stately outside and mysterious inside, with shaded corridors and courtyards, and richly-decorated suites.

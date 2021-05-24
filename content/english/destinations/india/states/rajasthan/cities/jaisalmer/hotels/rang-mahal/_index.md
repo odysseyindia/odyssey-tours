@@ -6,7 +6,7 @@ mailto: ''
 address: 5, Hotel Complex  Sam Road  P.B. No.50
 city: Jaisalmer
 postalcode: 345 001
-phone: 2992-50 907, 50 908
+phone: 2992-50 907, 50 908,
 mobile: ''
 email: ''
 website: ''
@@ -22,5 +22,18 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+ranking: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
 ---
+
+
+
+
+
+
 A massive fort-like entrance distinguishes this hotel from the others in the neighbourhood. Set on a slight slope, the Rang Mahal is indeed an impressive building. The fifty rooms are well furnished with cheerful bright colours. There is a restaurant and a good sized swimming pool. The hotel is situated on Sam Road, a few km from the city.

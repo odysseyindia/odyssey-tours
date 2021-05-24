@@ -2,11 +2,8 @@
 
 {{- .Scratch.Set "layout" "layouts/reports/hotel-costings/single.html" -}}
 
-
-
 <section id="reports-hotel-costings">  
   {{ partial "heading.html" . }}
-
 
   <div class="wrapper">
 
@@ -95,7 +92,14 @@
       </thead>
 <tbody>
       {{- range  (where (where .Site.Pages "Section" "destinations") ".Params.type" "hotel") }}
-      {{- range sort (where .Data.Pages ".Params.ranking" "gt" "0" ) ".Params.ranking"}}
+
+{{.Title}}<br>
+{{- range  .Data.Pages }}
+
+title={{ .Title }}-{{ ,Params.ranking }}<br>
+
+
+      {{- range sort (where .Data.Pages ".Params.ranking" "gt" 0 ) ".Params.ranking"}}
 
       {{ $hotel := path.Base .Parent.Parent.RelPermalink | humanize }}
       {{ $category := .Params.category }}

@@ -6,7 +6,7 @@ mailto: ''
 address: Charring Cross
 city: Ootacamund (Ooty)
 postalcode: 643 001
-phone: 423-42 , 43 685173
+phone: 423-42 , 43 685173,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: 80 kms from Airport
 accessBus: 1km. from Bus Stand
 advantage: Centrally Located at Charing Cross
 rooms: 80
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

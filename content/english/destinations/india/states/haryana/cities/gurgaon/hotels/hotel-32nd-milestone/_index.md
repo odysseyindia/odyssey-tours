@@ -6,7 +6,7 @@ mailto: ''
 address: Jaipur Bypass, Chander Nagar  Haryana National Highway
 city: Gurgaon
 postalcode: 122 002
-phone: 124-233 2571 - 75
+phone: 124-233 2571 - 75,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

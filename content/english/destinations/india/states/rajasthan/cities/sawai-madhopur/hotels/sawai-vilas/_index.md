@@ -6,7 +6,7 @@ mailto: ''
 address: 'Ranthambore Road    '
 city: Sawai Madhopur
 postalcode: 322 001
-phone: '-'
+phone: '-,9810726252, 8860518883, 8860518885, 8860078045'
 mobile: 9810726252, 8860518883, 8860518885, 8860078045
 email: reservation@sawaivilas.com
 website: http://sawaivilas.com
@@ -59,4 +59,17 @@ rates:
     specialPeriod: 0
     notes: 'Christmas Eve: Rs 2500 pp + tax  New Year''s Eve: Rs 3000 pp + tax'
     agentCommission: 0
+bookThrough: The Consortium Hotels
+gstType: 0
+gstin: ''
+www: http://sawaivilas.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

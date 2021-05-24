@@ -6,7 +6,7 @@ mailto: ''
 address: ''
 city: Mon
 postalcode: ''
-phone: '-'
+phone: '-,'
 mobile: ''
 email: ''
 website: ''
@@ -22,5 +22,18 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Wild Grass
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 Perched on a ridge overlooking Mon town in the valley on one side and steep green hill range on the other, Mon View has a million dollar location. Despite this, the amenities here are very basic.     It is has to be remembered that Mon is the base to see some of the most interesting tribes in Nagaland and the accommodation here is certainly not a highlight but just a step above camping. 

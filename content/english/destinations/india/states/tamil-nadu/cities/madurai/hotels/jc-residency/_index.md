@@ -6,14 +6,15 @@ mailto: ''
 address: 14, Lady Doak College Road
 city: Madurai
 postalcode: 625 002
-phone: 452-420 0399, 420 0388, 420 0377
+phone: 452-420 0399, 420 0388, 420 0377,73737 37302, 73737 37303
 mobile: 73737 37302, 73737 37303
 email: madurai@jcresidency.com  sales@jcresidency.com
 website: www.jcresidency.com
 note: ''
-ranking: '1'
+ranking: 1
 type: hotel
 category:
+  - H
   - ST
 showHotel: 0
 starCategory: 0
@@ -25,7 +26,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Executive Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -61,7 +62,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Heritage Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -97,7 +98,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Royal Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -132,5 +133,23 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.jcresidency.com
+web: 0
+mailTo: ''
 ---
+
+
+
+
+
+
+
+
+
+
+
+
 A new, airy hotel in Madurai, known for its spacious rooms, pleasantly decorated with wood carvings, and for the art that lines practically every wall. There’s even an audio-guide tour of the hotel, which tells you the history of Madurai through sketches and paintings. There is a pleasant pool and a choice between the multi-cuisine restaurant on the ground floor and a specialty South Indian one on the rooftop terrace. 

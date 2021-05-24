@@ -6,7 +6,7 @@ mailto: ''
 address: 'Pernem District   '
 city: Tiracol
 postalcode: 403 524
-phone: 832-652 9653
+phone: 832-652 9653,
 mobile: ''
 email: 'info@forttiracol.com  reservations@forttiracol.com  '
 website: www.forttiracol.com
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.forttiracol.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

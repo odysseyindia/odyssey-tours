@@ -6,7 +6,7 @@ mailto: ''
 address: 'Old Road Leh  '
 city: Leh
 postalcode: '194101'
-phone: '-'
+phone: '-,'
 mobile: ''
 email: reservations@rimoexpeditions.com  info@rimoexpeditions.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Rimo Expeditions
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

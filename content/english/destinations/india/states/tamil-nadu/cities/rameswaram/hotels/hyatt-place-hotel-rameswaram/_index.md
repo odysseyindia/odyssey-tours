@@ -6,7 +6,7 @@ mailto: ''
 address: 'Madurai-Dhanushkodi NH Road  '
 city: Rameswaram
 postalcode: 623 526
-phone: 457-323 1234
+phone: 457-323 1234,
 mobile: ''
 email: rameswaram.place@hyatt.com
 website: https://www.hyatt.com/en-US/hotel/india/hyatt-place-rameshwaram/ixmzr
@@ -95,5 +95,18 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: https://www.hyatt.com/en-US/hotel/india/hyatt-place-rameshwaram/ixmzr
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 At the modern Hyatt Place Rameswaram, you’ll enjoy comfort and convenience on your holy visit to Rameswaram. Plus, you’ll be in the heart of the town, close to Ramanathaswamy Temple and Agnitheertham. With comfortable rooms and a large restaurant, this is a pleasant stay option in this beach town.

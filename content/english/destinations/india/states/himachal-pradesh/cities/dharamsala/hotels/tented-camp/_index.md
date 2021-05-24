@@ -6,14 +6,15 @@ mailto: ''
 address: ''
 city: Dharamsala
 postalcode: ''
-phone: '-'
+phone: '-,'
 mobile: ''
 email: ''
 website: ''
 note: ''
-ranking: '4'
+ranking: 4
 type: hotel
 category:
+  - H
   - ST
 showHotel: 0
 starCategory: 0
@@ -60,4 +61,22 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: Summit Adventures
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
 ---
+
+
+
+
+
+
+
+
+
+
+
+

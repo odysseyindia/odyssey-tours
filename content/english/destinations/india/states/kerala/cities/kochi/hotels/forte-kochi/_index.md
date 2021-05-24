@@ -6,7 +6,7 @@ mailto: ''
 address: 1/373, Princess St  Fort Nagar  Fort Cochin
 city: Kochi
 postalcode: 682 001
-phone: 484-270 4800
+phone: 484-270 4800,
 mobile: ''
 email: reservationfk@thepaul.in
 website: http://www.fortekochi.in
@@ -239,5 +239,18 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://www.fortekochi.in
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 In the heart of Fort Kochi, this bright yellow hotel welcomes you with pleasant rooms, each a nice mix of old world charm and modern luxury amenities. Colourfully tinted windows, solid wooden furniture, and large, inviting four-poster beds rub shoulders with cushioned wicker sofas atop a medley of coloured tiles and wooden floors. The rooms are built around an inviting pool area, next to which are the cosy restaurant and bar. 

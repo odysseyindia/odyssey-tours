@@ -8,13 +8,15 @@ address: >-
   Coorg District, Karnataka -
 city: Madikeri
 postalcode: '571237'
-phone: '-'
+phone: '-,+91 97898 96454'
 mobile: +91 97898 96454
 email: reservations@oldkentestates.com  binu@oldkentestates.com
 website: http://www.oldkentestates.com/
 note: ''
 type: hotel
 category:
+  - H
+  - COM
   - WEB
 showHotel: 0
 starCategory: 0
@@ -385,5 +387,30 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020  for some dates its less 1000 per night
     agentCommission: 0
+bookThrough: Old Kent Resorts & Spa - Booking Office
+gstType: 0
+gstin: ''
+www: http://www.oldkentestates.com/
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Old Kent is located on a 200-acre plantation of coffee, pepper and cardamom in India. Built in 1864, Old Kent Lodge is perched at a vantage point within the estate. The verandah of the lodge offers a breathtaking view of the surrounding mountains. The spacious cottages, under a lush canopy of teak, rosewood and mahogany trees, combine luxury with colonial charm (including fitted Epsom-salt foot baths!).

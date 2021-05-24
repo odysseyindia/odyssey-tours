@@ -6,13 +6,15 @@ mailto: ''
 address: Olaulim  Pomburpa
 city: Goa
 postalcode: 403 523
-phone: 832-229 5620
+phone: 832-229 5620,93260 17731
 mobile: 93260 17731
 email: pirkko.fernandes@gmail.com
 website: www.olaulimgoa.com
 note: ''
 type: hotel
 category:
+  - H
+  - ST
   - WEB
 showHotel: 0
 starCategory: 0
@@ -59,5 +61,30 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.olaulimgoa.com
+web: 0
+mailTo: ''
+ranking: 7
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Olaulim Backyards is located in one of Goa's most picturesque, peaceful spots. A small homestay, it offers fan- and breeze-cooled cottages made out of local bamboo, laterite stone and wood, over many lakeside acres. Natural boulders are kept intact and the beds are built around them, and the semi-outdoor bathrooms are delightful and well planned. Each room offers verandahs overlooking the forest or the lake. A lagoon-shaped pool, hammocks, kayaks and cycles offer plenty of active possibilities, watched over by a pony, dogs, and even a donkey! The meals are fresh and tasty, and the whole setup gives you a very different Goan experience. 

@@ -6,7 +6,7 @@ mailto: ''
 address: 'Azhithala Beach  Thaikadapparam PO  '
 city: Neeleshwar
 postalcode: 671 314
-phone: '-'
+phone: '-,94955 12356, 94009 02356'
 mobile: 94955 12356, 94009 02356
 email: krishnanoppa@gmail.com  kvinukumark@gmail.com
 website: ''
@@ -59,4 +59,17 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

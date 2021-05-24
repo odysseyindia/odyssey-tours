@@ -6,7 +6,7 @@ mailto: ''
 address: Delhi Gate,  Ring Road,
 city: Surat
 postalcode: ''
-phone: 261-418 300, 414 291-6
+phone: 261-418 300, 414 291-6,
 mobile: ''
 email: lordsint@bom6.vsnl.net.in
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

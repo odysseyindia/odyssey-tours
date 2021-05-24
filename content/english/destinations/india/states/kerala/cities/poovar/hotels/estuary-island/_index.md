@@ -6,7 +6,7 @@ mailto: ''
 address: Poovar P.O
 city: Poovar
 postalcode: '695525'
-phone: 471-2214355
+phone: 471-2214355,
 mobile: ''
 email: sales@estuaryisland.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

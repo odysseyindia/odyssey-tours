@@ -6,13 +6,15 @@ mailto: ''
 address: Chenganda  Cherthala
 city: Alleppey
 postalcode: 688 524
-phone: '-'
+phone: '-,95266 88266'
 mobile: 95266 88266
 email: vismaya.chenganda@gmail.com
 website: http://vismaya.in/
 note: ''
 type: hotel
 category:
+  - H
+  - SH
   - WEB
 showHotel: 0
 starCategory: 0
@@ -95,5 +97,30 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://vismaya.in/
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Sitting on the edge of a peninsula, surrounded by three sides of the pristine Vembanad lake, Vismaya is a boutique 2-room hideaway, a 400-year-old royal house that has been completely restored and renovated by a Swiss architect. This is an airy refuge, meant for tranquil relaxation with great meals and breathtaking lake views all around. 

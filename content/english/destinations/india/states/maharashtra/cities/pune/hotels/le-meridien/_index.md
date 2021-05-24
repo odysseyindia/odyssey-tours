@@ -6,7 +6,7 @@ mailto: ''
 address: Raja Bahudur Mill Road
 city: Pune
 postalcode: 411 001
-phone: 20-6050505
+phone: 20-6050505,
 mobile: ''
 email: lmpune@lemeridien-pune.com
 website: ''
@@ -22,5 +22,18 @@ accessAir: 7 kms. from Airport
 accessBus: ''
 advantage: ''
 rooms: 178
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 1
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 A new luxury hotel located in the heart of the main business district. This hotel is done (inexplicably) in Rajasthani style. It offers 177 rooms and suites, multiple restaurants and bars, all business facilities. The leisure facilities are also what you would expect of a first class hotel. There is a swimming pool, health club, sauna, steam room and jacuzzi.

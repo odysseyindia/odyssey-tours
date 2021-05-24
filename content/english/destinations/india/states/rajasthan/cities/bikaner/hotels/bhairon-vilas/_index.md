@@ -6,14 +6,15 @@ mailto: ''
 address: Next To Junagarh Fort  Opp. G.P.O.
 city: Bikaner
 postalcode: 334 001
-phone: 151-254 4751
+phone: 151-254 4751,
 mobile: ''
 email: hbhairon@rediffmail.com  andyrathore@rediffmail.com
 website: http://hotelbhaironvilas.com/
 note: ''
-ranking: '3'
+ranking: 3
 type: hotel
 category:
+  - H
   - ST
 showHotel: 1
 starCategory: 3
@@ -25,7 +26,7 @@ advantage: Next to Junagadh Fort
 rooms: 21
 rates:
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -61,7 +62,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -96,5 +97,23 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: 08ACAPR6431N1Z8
+www: http://hotelbhaironvilas.com/
+web: 1
+mailTo: ''
 ---
+
+
+
+
+
+
+
+
+
+
+
+
 Bhairon Vilas is a most unusual hotel with quirky decorations and wonderful colours and design. The rooms are eclectically decorated with antique clothes, vivid colours and old family photographs. Bhairon Vilas has a garden and dining terrace, and a great location right across from Junagarh Fort. The hotel has a comfortable and atmospheric restaurant, and a delightful small bar.

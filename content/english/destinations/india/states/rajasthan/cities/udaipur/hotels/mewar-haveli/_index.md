@@ -6,7 +6,7 @@ mailto: ''
 address: 34-35 Lal Ghat
 city: Udaipur
 postalcode: 313 001
-phone: 294-252 1140, 242 2108
+phone: 294-252 1140, 242 2108,
 mobile: ''
 email: info@mewarhaveli.com  mewarhaveli@yahoo.co.in
 website: www.mewarhaveli.com
@@ -131,5 +131,18 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: 08AAWPJ0846M1ZI
+www: www.mewarhaveli.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 Mewar Haveli is located directly on Lake Pichola, and the rooftop restaurant provides amazing views of the lake and all its surroundings.     The rooms, although small, are clean and adorned with beautiful hand paintings    The shops and restaurants of the old city are also on the doorstep, and there is a shop adjacent to the hotel selling books, snacks and toiletries, and also has an internet cafe.

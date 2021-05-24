@@ -6,7 +6,7 @@ mailto: ''
 address: B.M. Road  Post Box No. 97
 city: Hassan
 postalcode: 573 201
-phone: 8172-66 774, 64 006, 64 279, 63 822
+phone: 8172-66 774, 64 006, 64 279, 63 822,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: 0.5 kms. from Bus Stand
 advantage: Enroute to Belur Halebid
 rooms: 68
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

@@ -8,7 +8,7 @@ address: >-
   Almora
 city: Corbett
 postalcode: 244 715
-phone: 5947-52131, 51520, 51230, 53234
+phone: 5947-52131, 51520, 51230, 53234,
 mobile: ''
 email: ctc_auli@mickyonline.com, mlaique@indiatimes.com
 website: ''
@@ -24,5 +24,18 @@ accessAir: ''
 accessBus: ''
 advantage: Located in 13 Acres of Reserve Forest overlooking Kosi River
 rooms: 20
+ranking: 0
+bookThrough: Trailfinders Resorts Pvt. Ltd.
+gstType: 0
+gstin: ''
+www: ''
+web: 1
+mailTo: ''
 ---
+
+
+
+
+
+
 An excellent resort situated in 13 acres of Kumerian Reserve Forest overlooking the Kosi river. The resort offers comfortable accommodation in 20 cottages built of stone and elegantly designed with wood panelled walls, a fireplace, and an open verandah with a private terrace. The resort has its own resident elephant for jungle safaris. Jeep excursions into the park can be booked directly with the hotel.

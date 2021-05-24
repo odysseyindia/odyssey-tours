@@ -6,15 +6,17 @@ mailto: ''
 address: Post Mukki, Tehsil Baihar District  Balaghat, Samnapur
 city: Kanha
 postalcode: 481 111
-phone: '-'
+phone: '-,'
 mobile: ''
 email: ''
 website: http://www.chitvan.com/
 note: ''
-ranking: '2'
+ranking: 2
 type: hotel
 category:
+  - H
   - ST
+  - A
 showHotel: 0
 starCategory: 0
 checkout: ''
@@ -369,5 +371,29 @@ rates:
       Rs 3,000 p.p. + GST  (Check extra bed cost with hotel at the time of
       booking)
     agentCommission: 0
+bookThrough: The Consortium Hotels
+gstType: 0
+gstin: ''
+www: http://www.chitvan.com/
+web: 0
+mailTo: ''
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Located very close to the Mukki Gate of Kanha National Park, Chitvan Jungle Lodge offers spacious cottages spread out among pleasant gardens and linked by meandering paths. This is a comfortable option for Kanha, with a swimming pool, airy restaurant (which gets a lot of its produce from the lodge's organic farm) and forested grounds that attract plenty of bird life.

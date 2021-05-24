@@ -6,133 +6,28 @@ mailto: ''
 address: Bhawani Singh Road
 city: Jaipur
 postalcode: 302 005
-phone: 141-2211919
+phone: 141-2211919,
 mobile: ''
 email: rambagh.jaipur@tajhotels.com  travelindustrysales@tajhotels.com
 website: >-
   http://www.tajhotels.com/Luxury/Grand-Palaces-And-Iconic-Hotels/Rambagh-Palace-Jaipur
 note: ''
-ranking: '1'
+ranking: 1
 type: hotel
 category:
+  - H
   - TL
+  - HH
+  - WEB
 showHotel: 1
 starCategory: 5
-checkout: '12:00:00'
+checkout: 12.00 Noon
 accessRail: 5 kms. from Railway Station
 accessAir: 11 kms. from Airport
 accessBus: 5 kms. from Bus Stand
 advantage: Hotel located downtown near to City Centre
 rooms: 106
 rates:
-  - roomType: Palace Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 31000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 32700
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 7100
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-04-04T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Palace Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Historical Suite
-    mealPlan: ''
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 0
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-04-04T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Palace Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Royal Suite
-    mealPlan: ''
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 0
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-04-04T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Palace Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
   - roomType: Palace Room
     mealPlan: Room only
     mealPlanPT: ''
@@ -717,5 +612,36 @@ rates:
       24/12 dinner: 8000pp+taxes  25/12 lunch: 5500pp+taxes  31/12 Dinner:
       18000pp+tax  01/01 brunch: 5500pp+taxes
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: 08AAACH6899P1ZL
+www: >-
+  http://www.tajhotels.com/Luxury/Grand-Palaces-And-Iconic-Hotels/Rambagh-Palace-Jaipur
+web: 1
+mailTo: ''
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 One of the most celebrated palace hotels, the Rambagh Palace is a fabulous building with wide corridors, arches, courtyards and shaded verandahs overlooking the immaculate gardens.    The 78 rooms and suites offer the latest of modern comforts in a period ambience. There are several restaurants, the legendary Polo Bar, indoor swimming pool and much more.

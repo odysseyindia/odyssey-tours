@@ -6,7 +6,7 @@ mailto: ''
 address: 5/158, near St. Sebastian Chapel  Fontainhas, Mala  Panjim
 city: Goa
 postalcode: 403 001
-phone: 832-223 5555, 223 5554
+phone: 832-223 5555, 223 5554,
 mobile: ''
 email: info@lamaisongoa.com
 website: www.lamaisongoa.com
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.lamaisongoa.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

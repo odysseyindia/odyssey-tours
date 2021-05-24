@@ -6,7 +6,7 @@ mailto: ''
 address: Sansar Chandra Road
 city: Jaipur
 postalcode: 302 001
-phone: 141-237 5219, 236 4200, 510 6081
+phone: 141-237 5219, 236 4200, 510 6081,
 mobile: ''
 email: reservation@castlemandawa.com  anngadmandawa@castlemandawa.com
 website: ''
@@ -24,7 +24,7 @@ advantage: Close to the Pink City
 rooms: 27
 rates:
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -59,5 +59,18 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: Hotel Castle Mandawa Pvt. Ltd.
+gstType: 0
+gstin: ''
+www: ''
+web: 1
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 The former town house of the rulers of Mandawa has been converted into a heritage hotel and so has a really characterful feel. Situated on Sansar Chandra Road, in close proximity to the old city, the haveli is tucked away amidst tranquil gardens. It has 27 comfortable rooms with attached baths. All rooms in the rambling building have been furnished in the traditional style. There are nice little seating areas outside to relax and read. 

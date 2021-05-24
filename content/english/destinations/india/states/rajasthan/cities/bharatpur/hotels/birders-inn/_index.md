@@ -6,14 +6,18 @@ mailto: ''
 address: Bird Sanctuary Road
 city: Bharatpur
 postalcode: 321 001
-phone: 5644-227 346, 222 830
+phone: 5644-227 346, 222 830,
 mobile: ''
 email: brdinn@yahoo.com  bookings@birdersinn.com
 website: www.birdersinn.com
 note: ''
 type: hotel
 category:
+  - H
+  - ST
+  - WEB
   - RIK
+  - A
 showHotel: 0
 starCategory: 0
 checkout: ''
@@ -24,7 +28,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,7 +64,7 @@ rates:
     notes: Xmas/New's Eve Supplement applies. Check with the hotel.
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -97,5 +101,42 @@ rates:
       rates copied from 2019-2020  Xmas/New's Eve Supplement applies. Check with
       the hotel.
     agentCommission: 0
+bookThrough: ''
+gstType: 1
+gstin: 08ASBPS1493C1ZS
+www: www.birdersinn.com
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Located next to the entrance gate of the bird sanctuary, Birder's Inn is a quiet, peaceful haven with a friendly atmosphere, great for the keen birdwatcher. The spacious air-conditioned rooms overlook a garden with fruit trees that attract various birds. There is a large restaurant and a small swimming pool, and their naturalists are always available to accompany visits to the bird sanctuary.

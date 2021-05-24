@@ -6,7 +6,7 @@ mailto: ''
 address: 'PO - Moti-Virani  Taluka-Nakhtrana  Kutch  '
 city: Moti Virani
 postalcode: 370 665
-phone: 2835-200025, 221284
+phone: 2835-200025, 221284,
 mobile: ''
 email: cedoindia@yahoo.com
 website: www.cedobirding.com
@@ -14,6 +14,7 @@ note: ''
 type: hotel
 category:
   - H
+  - A
 showHotel: 0
 starCategory: 0
 checkout: ''
@@ -95,5 +96,24 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020  4500 per safari with naturalist (1 - 4 pax)
     agentCommission: 5
+bookThrough: Indo West Tours
+gstType: 0
+gstin: ''
+www: www.cedobirding.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
+
+
+
+
+
+
 The Centre for Desert and Ocean (CEDO) is the brainchild of ecologist and ornithologist Jugal Tiwari. The CEDO project is his attempt at wildlife conservation in the desert area of Kutch. The accommodation at CEDO is fairly basic, with only a handful of rooms in a small villa. Mr Tiwari and his family live in a house adjoining the guest quarters, and CEDO is therefore also a homestay.

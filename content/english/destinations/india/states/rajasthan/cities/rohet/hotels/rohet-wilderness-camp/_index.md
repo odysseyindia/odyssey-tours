@@ -6,7 +6,7 @@ mailto: ''
 address: ''
 city: Rohet
 postalcode: ''
-phone: '-'
+phone: '-,'
 mobile: ''
 email: reservations@houseofrohet.com
 website: ''
@@ -131,5 +131,18 @@ rates:
     specialPeriod: 0
     notes: 'Christmas & New Year Supplement: Rs. 2,200/- p.p. + Tax'
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 1
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 This beautiful camp has deluxe tents in a picturesque location. The tents are very spacious and have solid wooden furniture. There is a large thatched pavilion which is the gathering place for the camp guests and the safari riders who may visit at sunset. The dining room is also similarly constructed with the thatch and traditional mud plaster of the Bishnoi tribe. Comfortable cushions on L-shaped seats are great for relaxing.

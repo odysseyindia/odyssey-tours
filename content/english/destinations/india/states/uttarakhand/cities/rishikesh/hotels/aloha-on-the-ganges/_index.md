@@ -6,7 +6,7 @@ mailto: ''
 address: 'Tapovan  Village Gugtayani talli  Badrinath Highway  '
 city: Rishikesh
 postalcode: 249 192
-phone: 11-4652 0000
+phone: 11-4652 0000,95550 88000,
 mobile: 95550 88000,
 email: aog@prasadheritage.com
 website: ''
@@ -14,6 +14,7 @@ note: ''
 type: hotel
 category:
   - H
+  - A
 showHotel: 0
 starCategory: 0
 checkout: ''
@@ -24,7 +25,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: One Bedroom Standard Apartment
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -62,7 +63,7 @@ rates:
       to 8 oct,10 nov to 12 nov,23-26 dec,30 dec to 2 jan,21-23 jan, 8-10 march.
     agentCommission: 0
   - roomType: Superior Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -100,7 +101,7 @@ rates:
       to 8 oct,10 nov to 12 nov,23-26 dec,30 dec to 2 jan,21-23 jan, 8-10 march.
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -138,7 +139,7 @@ rates:
       to 8 oct,10 nov to 12 nov,23-26 dec,30 dec to 2 jan,21-23 jan, 8-10 march.
     agentCommission: 0
   - roomType: Two Bedroom Deluxe Apartment
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -176,7 +177,7 @@ rates:
       to 8 oct,10 nov to 12 nov,23-26 dec,30 dec to 2 jan,21-23 jan, 8-10 march.
     agentCommission: 0
   - roomType: One Bedroom Standard Apartment
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -214,7 +215,7 @@ rates:
       to 8 oct,10 nov to 12 nov,23-26 dec,30 dec to 2 jan,21-23 jan, 8-10 march.
     agentCommission: 0
   - roomType: Superior Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -252,7 +253,7 @@ rates:
       to 8 oct,10 nov to 12 nov,23-26 dec,30 dec to 2 jan,21-23 jan, 8-10 march.
     agentCommission: 0
   - roomType: One Bedroom Standard Apartment
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -290,7 +291,7 @@ rates:
       to 8 oct,10 nov to 12 nov,23-26 dec,30 dec to 2 jan,21-23 jan, 8-10 march.
     agentCommission: 0
   - roomType: Superior Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -328,7 +329,7 @@ rates:
       to 8 oct,10 nov to 12 nov,23-26 dec,30 dec to 2 jan,21-23 jan, 8-10 march.
     agentCommission: 0
   - roomType: One Bedroom Standard Apartment
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -367,7 +368,7 @@ rates:
       to 2 jan,21-23 jan, 8-10 march.
     agentCommission: 0
   - roomType: Superior Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -406,7 +407,7 @@ rates:
       to 2 jan,21-23 jan, 8-10 march.
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -445,7 +446,7 @@ rates:
       to 2 jan,21-23 jan, 8-10 march.
     agentCommission: 0
   - roomType: Two Bedroom Deluxe Apartment
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -484,7 +485,7 @@ rates:
       to 2 jan,21-23 jan, 8-10 march.
     agentCommission: 0
   - roomType: One Bedroom Standard Apartment
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -523,7 +524,7 @@ rates:
       to 2 jan,21-23 jan, 8-10 march.
     agentCommission: 0
   - roomType: Superior Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -562,7 +563,7 @@ rates:
       to 2 jan,21-23 jan, 8-10 march.
     agentCommission: 0
   - roomType: One Bedroom Standard Apartment
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -601,7 +602,7 @@ rates:
       to 2 jan,21-23 jan, 8-10 march.
     agentCommission: 0
   - roomType: Superior Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -639,5 +640,24 @@ rates:
       dates  29 sep to 02 oct,06 oct to 8 oct,10 nov to 12 nov,23-26 dec,30 dec
       to 2 jan,21-23 jan, 8-10 march.
     agentCommission: 0
+bookThrough: Leisure Hotels Ltd
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
+
+
+
+
+
+
 This large property has the best location in Rishikesh, above the River Ganges at the northern end of the town, facing the hills. The best views are from the infinity swimming pool and the patio cafe, which offers highly imaginative vegetarian dishes. The rooms are large and well-equipped, as many were originally designed to be individual apartments. This family-friendly place offers lots of space and plenty of free activities. 

@@ -6,7 +6,7 @@ mailto: ''
 address: Naddi PO Dal Lake Dharamsala Cant Distt.Kangra Himachal Pradesh Pin. 176216.
 city: Dharamsala
 postalcode: ''
-phone: 1892-221405
+phone: 1892-221405,
 mobile: ''
 email: ''
 website: www.udecheehuts.com
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Summit Adventures
+gstType: 0
+gstin: ''
+www: www.udecheehuts.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

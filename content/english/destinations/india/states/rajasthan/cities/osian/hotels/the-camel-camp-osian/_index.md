@@ -6,13 +6,16 @@ mailto: ''
 address: ''
 city: Osian
 postalcode: '  '
-phone: 291-243 7023, 261 0192, 513 2277, 513 2288
+phone: 291-243 7023, 261 0192, 513 2277, 513 2288,
 mobile: ''
 email: 'info@indiasafariclub.com  camelcamposian@yahoo.com  info@camelcamposian.com  '
 website: www.camelcamposian.com
 note: ''
 type: hotel
 category:
+  - H
+  - COM
+  - A
   - RIK
 showHotel: 1
 starCategory: 0
@@ -97,5 +100,36 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: 'The Safari Club '
+gstType: 1
+gstin: 08ASZPS2112C1ZM
+www: www.camelcamposian.com
+web: 1
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Staying at this amazing camp is a unique and unforgettable experience. From the royal welcome, to the reception areas, to the entertainment and dining places (especially the wonderful bar), the swimming pool overlooking the nearby town of Osian and the surrounding desert, and finally the delightful, comfortable, fully equipped safari tents, this is a regal desert experience.

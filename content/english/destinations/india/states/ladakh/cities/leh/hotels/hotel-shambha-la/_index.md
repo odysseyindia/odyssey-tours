@@ -6,7 +6,7 @@ mailto: ''
 address: Leh
 city: Ladakh
 postalcode: 194 101
-phone: 1982-51 100, 52 607, 53 500
+phone: 1982-51 100, 52 607, 53 500,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

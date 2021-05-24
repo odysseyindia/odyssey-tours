@@ -6,14 +6,17 @@ mailto: ''
 address: 6/30-B Agraharam Thimmakudi  Baburajapuram Post  Swamimalai
 city: Kumbakonam
 postalcode: 612 302
-phone: 435-420 044, 428 385, 428 406
+phone: 435-420 044, 428 385, 428 406,
 mobile: ''
 email: 'reservations@indecohotels.com  swamimalai@indecohotels.com  '
 website: www.indecohotels.com
 note: ''
-ranking: '1'
+ranking: 1
 type: hotel
 category:
+  - H
+  - HH
+  - WEB
   - ST
 showHotel: 1
 starCategory: 0
@@ -27,115 +30,7 @@ advantage: >-
 rooms: 0
 rates:
   - roomType: Heritage Deluxe Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 4480
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 4480
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1400
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Palace Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Zamin Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 5040
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 5040
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1400
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Palace Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Palace Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 5824
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 5824
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1400
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Palace Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Heritage Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -173,7 +68,7 @@ rates:
       December 24, 31, January 15 and 17 = Rs. 1500 / head
     agentCommission: 0
   - roomType: Zamin Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -211,7 +106,7 @@ rates:
       December 24, 31, January 15 and 17 = Rs. 1500 / head
     agentCommission: 0
   - roomType: Palace Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -249,7 +144,7 @@ rates:
       December 24, 31, January 15 and 17 = Rs. 1500 / head
     agentCommission: 0
   - roomType: Heritage Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -285,7 +180,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Zamin Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -321,7 +216,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Palace Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -357,7 +252,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Heritage Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -396,7 +291,7 @@ rates:
       1500 / head
     agentCommission: 0
   - roomType: Zamin Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -435,7 +330,7 @@ rates:
       1500 / head
     agentCommission: 0
   - roomType: Palace Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -474,7 +369,7 @@ rates:
       1500 / head
     agentCommission: 0
   - roomType: Heritage Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -510,7 +405,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Zamin Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -546,7 +441,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Palace Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -581,5 +476,35 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: ''
+gstType: 1
+gstin: 33AABCI3547C1Z2
+www: www.indecohotels.com
+web: 1
+mailTo: ''
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Indeco Swamimalai is less a hotel and more a cross between a cultural village and an eccentric, wonderful museum. The reception building is an old lighthouse, transferred stone by stone from Chennai, and now contains a museum of British-era artifacts, alongside many others around the property. The rooms are large and stuffed with curios, the vegetarian food is excellent, and there are plenty of activities available.   There are innumerable statues and artifact collections here, as well as a deer enclosure, a space for ducks, a special outdoor dining table with piped 'rain' for the summers, a swimming pool made to resemble a temple tank, and even the vast blue gate of the old Madras Central Jail!   

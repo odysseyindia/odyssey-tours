@@ -6,7 +6,7 @@ mailto: ''
 address: Beach Resort Complex
 city: Mahabalipuram
 postalcode: 603 104
-phone: 4114-42 235, 42 361
+phone: 4114-42 235, 42 361,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

@@ -6,13 +6,15 @@ mailto: ''
 address: 15A/6, W.E.A. Ajmal Khan Road  Karol Bagh  Near New Bloom School
 city: Delhi
 postalcode: 110 005
-phone: 11-4502 5555, 4504 9755, 4502 5500
+phone: 11-4502 5555, 4504 9755, 4502 5500,
 mobile: ''
 email: 'sales@florencegroup.in  resvn@florencegroup.in  gm@florencegroup.in  '
 website: www.hotelflorenceinn.in
 note: ''
 type: hotel
 category:
+  - H
+  - ST
   - RIK
 showHotel: 0
 starCategory: 3
@@ -24,7 +26,7 @@ advantage: ''
 rooms: 26
 rates:
   - roomType: Premium Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,7 +62,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Executive Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -96,7 +98,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Premium Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -132,7 +134,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Executive Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -167,5 +169,30 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: ''
+gstType: 1
+gstin: 07BCXPS5998B1ZO
+www: www.hotelflorenceinn.in
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Florence Inn is an attractive mid-range hotel, at the edge of the colourful Karol Bagh market area of. It is a two-minute walk from the Metro station that connects you to Connaught Place - the centre of New Delhi - in just five minutes, and from where you can quickly and easily reach anywhere in Delhi. The hotel has well-appointed rooms and a small restaurant, a pleasant marble lobby, and friendly and helpful staff.

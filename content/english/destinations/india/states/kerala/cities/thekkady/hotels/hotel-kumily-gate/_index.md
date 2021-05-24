@@ -6,7 +6,7 @@ mailto: ''
 address: Kumily  Dist. Idukki
 city: Thekkady
 postalcode: 685 509
-phone: 4863-22 279
+phone: 4863-22 279,
 mobile: ''
 email: kumilygate@yahoo.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

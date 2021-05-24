@@ -6,7 +6,7 @@ mailto: ''
 address: B Block, Sushant Lok  Phase 1
 city: Gurgaon
 postalcode: '122002'
-phone: 124-471 9000
+phone: 124-471 9000,
 mobile: ''
 email: res@radissonsuitesggn.com  sales4@radissonsuitesggn.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

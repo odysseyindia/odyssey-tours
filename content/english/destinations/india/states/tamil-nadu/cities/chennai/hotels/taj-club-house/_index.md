@@ -6,7 +6,7 @@ mailto: ''
 address: Club House Road
 city: Chennai
 postalcode: 600 002
-phone: 44-66313131
+phone: 44-66313131,
 mobile: ''
 email: clubhouse.chennai@tajhotels.com
 website: http://www.tajhotels.com/Business/Taj%20Club%20House,CHENNAI/default.htm
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://www.tajhotels.com/Business/Taj%20Club%20House,CHENNAI/default.htm
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

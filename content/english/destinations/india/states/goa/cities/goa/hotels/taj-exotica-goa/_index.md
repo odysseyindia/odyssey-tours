@@ -6,7 +6,7 @@ mailto: ''
 address: Calwaddo  Benaulim, Salcete
 city: Goa
 postalcode: 403 716
-phone: 832-6683333
+phone: 832-6683333,
 mobile: ''
 email: exoticabc.goa@tajhotels.com
 website: http://www.tajhotels.com/Leisure/Taj%20Exotica,GOA/default.htm
@@ -16,7 +16,7 @@ category:
   - H
 showHotel: 1
 starCategory: 5
-checkout: '12:00:00'
+checkout: 12.00 Noon
 accessRail: 8 kms. from Margao Railway Station
 accessAir: 27 kms. from Airport
 accessBus: 8 kms. from Bus Stand
@@ -1285,5 +1285,18 @@ rates:
     specialPeriod: 0
     notes: New Year Dinner 25th Dec - Supplement -19750pp + tax
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://www.tajhotels.com/Leisure/Taj%20Exotica,GOA/default.htm
+web: 1
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 A truly luxurious resort set in spectacular tropical surroundings. Located on Benaulim beach in south Goa, this hotel offers the finest standards in accommodation and service. The 140 centrally air-conditioned rooms are spacious and luxuriously appointed with large bathrooms and private verandah or balcony. Most rooms have a sea view.

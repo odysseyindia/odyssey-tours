@@ -6,13 +6,17 @@ mailto: ''
 address: Near Hiraneshwar Check dam  Taluka Talala  Distr. Junagadh
 city: Sasangir
 postalcode: ''
-phone: 2877-295507-08
+phone: 2877-295507-08,
 mobile: ''
 email: sasangir@campsofindia.com
 website: www.campsofindia.com
 note: ''
 type: hotel
 category:
+  - H
+  - COM
+  - WEB
+  - A
   - RIK
 showHotel: 0
 starCategory: 0
@@ -59,5 +63,42 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 5
+bookThrough: Palaces of India
+gstType: 0
+gstin: ''
+www: www.campsofindia.com
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 At the Lion Safari Camp, the accommodation consists of a series of sophisticated tents pitched in a well-manicured garden. High-quality Indian and Continental meals are served under the canopy of a larger tent overlooking the Hiran River. The camp has its own jeeps and safaris into the sanctuary.

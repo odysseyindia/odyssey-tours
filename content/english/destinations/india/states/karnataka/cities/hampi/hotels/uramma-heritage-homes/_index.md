@@ -6,13 +6,17 @@ mailto: ''
 address: ''
 city: Hampi
 postalcode: 583 227
-phone: '-267 777, 267792'
+phone: '-267 777, 267792,9448284658'
 mobile: '9448284658'
 email: 'urammahh@gmail.com  '
 website: ''
 note: ''
 type: hotel
 category:
+  - H
+  - ST
+  - WEB
+  - A
   - RIK
 showHotel: 0
 starCategory: 0
@@ -23,116 +27,8 @@ accessBus: ''
 advantage: ''
 rooms: 7
 rates:
-  - roomType: Uramma Cultural Residency Cottage
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 2240
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 3776
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 900
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-07-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Uramma Cultural Residency Cottage
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
   - roomType: Uramma House homestay Cottage
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 2420
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 4779
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 600
-    extraBedPT: 0
-    wef: '2019-08-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Uramma Cultural Residency Cottage
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Uramma Cultural Residency Cottage
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 2420
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 4779
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 600
-    extraBedPT: 0
-    wef: '2019-08-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Uramma Cultural Residency Cottage
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Uramma House homestay Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -168,7 +64,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Uramma Cultural Residency Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -204,7 +100,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Uramma House homestay Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -240,7 +136,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Uramma Cultural Residency Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -276,7 +172,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Uramma House homestay Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -312,7 +208,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Uramma Cultural Residency Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -348,7 +244,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Uramma House homestay Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -384,7 +280,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Uramma Cultural Residency Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -419,5 +315,42 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: ''
+gstType: 1
+gstin: 29ACGPS5812C1ZL
+www: ''
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Across the river from Hampi, in the heritage village of Anegundi, is a small but prettily landscaped boutique property called Uramma Cottages. The attractive cottages look out onto the lawn, and are distinctively furnished using local fabrics. There is a restaurant serving excellent local dishes.    The friendly staff can take guests for a stroll around the village to see the various other eco-tourism initiatives which the owners of the hotel are involved in, such as a school, library, weaving centre, and craft centre. Mountain bikes are available to explore the surrounding villages and temples, or the ruins of Hampi.

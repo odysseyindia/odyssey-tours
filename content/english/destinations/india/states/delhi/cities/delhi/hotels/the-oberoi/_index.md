@@ -6,7 +6,7 @@ mailto: ''
 address: Dr. Zakir Hussain Marg
 city: New Delhi
 postalcode: 110 003
-phone: 11-2436 3030
+phone: 11-2436 3030,
 mobile: ''
 email: ''
 website: ''
@@ -16,7 +16,7 @@ category:
   - H
 showHotel: 1
 starCategory: 5
-checkout: '12:00:00'
+checkout: 12.00 Noon
 accessRail: 10 kms. from Railway Station
 accessAir: 18 kms. from International Airport
 accessBus: ''
@@ -24,7 +24,7 @@ advantage: 4 km from Downtown Area
 rooms: 287
 rates:
   - roomType: Luxury Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,7 +60,7 @@ rates:
     notes: 'Day Use: Rs 11500/-  50% adv payment at the time of booking.'
     agentCommission: 0
   - roomType: Premier Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -96,7 +96,7 @@ rates:
     notes: 'Day Use: Rs 11500/-  50% adv payment at the time of booking.'
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -132,7 +132,7 @@ rates:
     notes: 'Day Use: Rs 11500/-  50% adv payment at the time of booking.'
     agentCommission: 0
   - roomType: Premier Plus Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -168,7 +168,7 @@ rates:
     notes: 'Day Use: Rs 11500/-  50% adv payment at the time of booking.'
     agentCommission: 0
   - roomType: Luxury Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -204,7 +204,7 @@ rates:
     notes: 'Day Use: Rs 8000/-  50% adv payment at the time of booking.'
     agentCommission: 0
   - roomType: Premier Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -240,7 +240,7 @@ rates:
     notes: 'Day Use: Rs 8000/-  50% adv payment at the time of booking.'
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -276,7 +276,7 @@ rates:
     notes: 'Day Use: Rs 8000/-  50% adv payment at the time of booking.'
     agentCommission: 0
   - roomType: Premier Plus Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -311,4 +311,17 @@ rates:
     specialPeriod: 0
     notes: 'Day Use: Rs 8000/-  50% adv payment at the time of booking.'
     agentCommission: 0
+bookThrough: Oberoi Contact Centre
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

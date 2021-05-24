@@ -6,7 +6,7 @@ mailto: ''
 address: 33-34 Seshadri Road
 city: Bangalore
 postalcode: 560 009
-phone: 80-287 2304, 225 2266
+phone: 80-287 2304, 225 2266,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

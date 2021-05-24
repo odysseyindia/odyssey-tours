@@ -6,7 +6,7 @@ mailto: ''
 address: Middle/Southern end of the beach road  Agonda
 city: Goa
 postalcode: 403 702
-phone: '-'
+phone: '-,'
 mobile: ''
 email: info@cinnamonagonda.com
 website: ''
@@ -139,4 +139,17 @@ rates:
       19 cottages (10 with AC) in a palm grove, 4 minutes walk from the beach;
       swimming pool 
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

@@ -6,7 +6,7 @@ mailto: ''
 address: 1/315, Church Road  next to St Francis Church  Fort Cochin
 city: Kochi
 postalcode: 682 001
-phone: 484-221 7181-2-3-4
+phone: 484-221 7181-2-3-4, 80866 77472
 mobile: ' 80866 77472'
 email: lecolonial@neemranahotels.com
 website: www.neemranahotels.com
@@ -779,5 +779,18 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: Neemrana Hotels Pvt. Ltd.
+gstType: 0
+gstin: ''
+www: www.neemranahotels.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 Tucked away, facing the waterfront and near the Church, is Le Colonial, very easy to miss behind the thick canopy of an imposing rain tree.     This colonial building has a central living room with deep cushioned sofas in luxurious fabrics, while a verandah runs along the front of the house and the swimming pool. The verandah, both downstairs and upstairs has wonderfully cozy seating arrangements to appreciate the surrounding areas full of trees and the waterfront beyond.

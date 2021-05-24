@@ -6,7 +6,7 @@ mailto: ''
 address: 11, Sunder Nagar
 city: New Delhi
 postalcode: 110 003
-phone: 11-2435 4771, 2435 5831, 2435 9670
+phone: 11-2435 4771, 2435 5831, 2435 9670,
 mobile: ''
 email: starhotels@touchtelindia.net
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

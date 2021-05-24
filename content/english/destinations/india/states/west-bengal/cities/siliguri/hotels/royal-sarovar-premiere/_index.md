@@ -6,7 +6,7 @@ mailto: ''
 address: '3rd Mile, Sevoke Road       '
 city: Siliguri
 postalcode: 734 008
-phone: 353-221 6999
+phone: 353-221 6999,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

@@ -6,7 +6,7 @@ mailto: ''
 address: 'Shanag Road  P.O. Bahang  Tehsil Manali         Email:'
 city: Manali
 postalcode: 175 103
-phone: 1902-256 040
+phone: 1902-256 040,88940 05626
 mobile: 88940 05626
 email: reservations@urvashisretreat.com
 website: https://www.urvashisretreat.com
@@ -398,5 +398,18 @@ rates:
       Independence Day, Bakr Eid week, Ganesh Chaturthi weekend, Dussehra,
       Diwali, Christmas and New Years wherein On-Season rates will be charged.
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: https://www.urvashisretreat.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 A lovely boutique hotel run by an aristocratic Rajput family, and one of the more upmarket options in this Himalayan town. Beautiful pine-panelled rooms and stone walls give it an air somewhere between a chalet and a hunting lodge, with pretty chintzy prints to complete the picture. There's a wellness centre and dining options including authentic local cuisine, and a glorious setting.

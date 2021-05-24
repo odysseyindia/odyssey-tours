@@ -6,7 +6,7 @@ mailto: ''
 address: Khanpur Road
 city: Ahmedabad
 postalcode: 380 001
-phone: 79-550 2490, 550 2590
+phone: 79-550 2490, 550 2590,
 mobile: ''
 email: rivera@satyam.net.in
 website: ambassadorahmedabad.com
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ambassadorahmedabad.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

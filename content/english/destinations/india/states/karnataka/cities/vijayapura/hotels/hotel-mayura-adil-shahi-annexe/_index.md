@@ -6,7 +6,7 @@ mailto: ''
 address: 'Anand Mahal Road  '
 city: Bijapur
 postalcode: 586 101
-phone: 8352-20401
+phone: 8352-20401,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

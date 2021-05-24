@@ -6,7 +6,7 @@ mailto: ''
 address: C – 46 / 452 (II)  Bristow Road  Willingdon Island
 city: Kochi
 postalcode: 682 003
-phone: 484-266 9595, 266 6816
+phone: 484-266 9595, 266 6816,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Oberoi Contact Centre
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

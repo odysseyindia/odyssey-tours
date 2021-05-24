@@ -6,7 +6,7 @@ mailto: ''
 address: ' Village Kuchwahi'
 city: Bandhavgarh
 postalcode: 484 661
-phone: '-'
+phone: '-,'
 mobile: ''
 email: ''
 website: http://www.bandhavvilas.com
@@ -14,6 +14,7 @@ note: ''
 type: hotel
 category:
   - H
+  - A
 showHotel: 0
 starCategory: 0
 checkout: ''
@@ -99,5 +100,24 @@ rates:
       Christmas Eve supplement: Rs 2,500 p.p. + GST  New Year's Eve supplement:
       Rs 3,000 p.p. + GST
     agentCommission: 0
+bookThrough: The Consortium Hotels
+gstType: 0
+gstin: ''
+www: http://www.bandhavvilas.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
+
+
+
+
+
+
 Bandhav Vilas is a luxury jungle resort on the edge of the Bandhavgarh tiger reserve, with a multi-cuisine restaurant a swimming pool and a spa.    The resort has 20 large air-conditioned cottages with a bedroom, a private sit out, a dressing area, spacious bathroom, private courtyard with rain shower and a private deck.   

@@ -6,7 +6,7 @@ mailto: ''
 address: 'B-104, Greater Kailash-1  '
 city: Delhi
 postalcode: 110 048
-phone: 11-49037777
+phone: 11-49037777,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Kaustubh Holidays Tours & Travels Pvt Ltd
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

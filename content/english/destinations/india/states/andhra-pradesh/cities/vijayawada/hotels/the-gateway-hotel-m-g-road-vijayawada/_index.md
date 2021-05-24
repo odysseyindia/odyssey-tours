@@ -6,7 +6,7 @@ mailto: ''
 address: 39-1-63, M G Road
 city: Vijayawada
 postalcode: 520 010
-phone: 866-6644444
+phone: 866-6644444,
 mobile: ''
 email: gateway.vijayawada@tajhotels.com
 website: http://www.thegatewayhotels.com/mgroadvijayawada/overview.aspx
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://www.thegatewayhotels.com/mgroadvijayawada/overview.aspx
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

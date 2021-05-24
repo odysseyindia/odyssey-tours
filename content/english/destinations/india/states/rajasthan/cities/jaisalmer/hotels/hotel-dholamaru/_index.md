@@ -6,7 +6,7 @@ mailto: ''
 address: No.1. Ramgarh Road
 city: Jaisalmer
 postalcode: '345 001 '
-phone: 2992-252002~4
+phone: 2992-252002~4,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

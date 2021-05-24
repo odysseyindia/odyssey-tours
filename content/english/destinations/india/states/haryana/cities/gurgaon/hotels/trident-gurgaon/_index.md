@@ -6,7 +6,7 @@ mailto: ''
 address: 443 Udyog Vihar, Phase V
 city: Gurgaon
 postalcode: 122 016
-phone: 124-245 0505
+phone: 124-245 0505,
 mobile: ''
 email: reservations@tridenthotels.com
 website: www.tridenthotels.com
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.tridenthotels.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

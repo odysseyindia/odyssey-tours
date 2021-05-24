@@ -6,14 +6,15 @@ mailto: ''
 address: Pollathai PO
 city: Mararikulam
 postalcode: 686 522
-phone: 78768-6807
+phone: 78768-6807,98291 88974
 mobile: 98291 88974
 email: getaway@treeleafhospitality.com
 website: http://marari.treeleafhospitality.com
 note: ''
-ranking: '2'
+ranking: 2
 type: hotel
 category:
+  - H
   - COM
 showHotel: 0
 starCategory: 0
@@ -25,79 +26,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Palm View Cottage
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 7110
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 7900
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1800
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Palm View Cottage
-    defaultAc: 1
-    specialPeriod: 0
-    notes: rates not valid over long week-ends
-    agentCommission: 0
-  - roomType: Palm View Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 5310
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 5900
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1800
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Palm View Cottage
-    defaultAc: 1
-    specialPeriod: 0
-    notes: rates not valid over long week-ends
-    agentCommission: 0
-  - roomType: Palm View Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -133,7 +62,7 @@ rates:
     notes: rates not valid over long week-ends
     agentCommission: 0
   - roomType: Palm View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -169,79 +98,7 @@ rates:
     notes: rates not valid over long week-ends
     agentCommission: 0
   - roomType: Palm View Cottage
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 10080
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 11200
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2000
-    extraBedPT: 0
-    wef: '2020-01-06T00:00:00'
-    wet: '2020-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Palm View Cottage
-    defaultAc: 1
-    specialPeriod: 0
-    notes: rates not valid over long week-ends
-    agentCommission: 0
-  - roomType: Palm View Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 7830
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 8700
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 2000
-    extraBedPT: 0
-    wef: '2020-01-06T00:00:00'
-    wet: '2020-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Palm View Cottage
-    defaultAc: 1
-    specialPeriod: 0
-    notes: rates not valid over long week-ends
-    agentCommission: 0
-  - roomType: Palm View Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -280,7 +137,7 @@ rates:
       below) plus taxes.
     agentCommission: 0
   - roomType: Palm View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -319,7 +176,79 @@ rates:
       below) plus taxes.
     agentCommission: 0
   - roomType: Palm View Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 10080
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 11200
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 2000
+    extraBedPT: 0
+    wef: '2020-01-06T00:00:00'
+    wet: '2020-03-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Palm View Cottage
+    defaultAc: 1
+    specialPeriod: 0
+    notes: rates not valid over long week-ends
+    agentCommission: 0
+  - roomType: Palm View Room
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 7830
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 8700
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 2000
+    extraBedPT: 0
+    wef: '2020-01-06T00:00:00'
+    wet: '2020-03-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Palm View Cottage
+    defaultAc: 1
+    specialPeriod: 0
+    notes: rates not valid over long week-ends
+    agentCommission: 0
+  - roomType: Palm View Cottage
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -355,7 +284,7 @@ rates:
     notes: rates not valid over long week-ends
     agentCommission: 0
   - roomType: Palm View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -391,7 +320,7 @@ rates:
     notes: rates not valid over long week-ends
     agentCommission: 0
   - roomType: Palm View Cottage
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -430,7 +359,7 @@ rates:
       INR 4100 per person (50% for child of age 12 years and below) plus taxes.
     agentCommission: 0
   - roomType: Palm View Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -468,5 +397,23 @@ rates:
       a supplement of INR 5,500 per night.    Mandatory Gala Dinner charges at
       INR 4100 per person (50% for child of age 12 years and below) plus taxes.
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: 32AAICA4010D3ZH
+www: http://marari.treeleafhospitality.com
+web: 0
+mailTo: ''
 ---
+
+
+
+
+
+
+
+
+
+
+
+
 With just 13 rooms and private villas, surrounded by swaying green palms, this ‘hideaway’ gives you time to do all that you have always wanted to – take a dip in the sea or, a stroll on the beach, or finish that tome. Or have a soothing Ayurveda experience in the spa, or simply do nothing between meals at the restaurant, which specialises in local Kerala cuisine.

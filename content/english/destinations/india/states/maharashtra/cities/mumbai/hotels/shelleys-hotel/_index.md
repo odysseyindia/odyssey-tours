@@ -6,7 +6,7 @@ mailto: ''
 address: 30, P.J. Ramchandani Marg  Colaba Sea Face
 city: Mumbai
 postalcode: 400 039
-phone: 22-284 0229, 284 0210, 288 1436-37
+phone: 22-284 0229, 284 0210, 288 1436-37,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

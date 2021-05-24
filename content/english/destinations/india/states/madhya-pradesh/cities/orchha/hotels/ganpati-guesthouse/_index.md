@@ -6,7 +6,7 @@ mailto: ''
 address: Main Bazar  Distt. Tikamgarh
 city: Orchha
 postalcode: 472 246
-phone: 7680-252765, 252657
+phone: 7680-252765, 252657,
 mobile: ''
 email: ganpatiwala@yahoo.co.in
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

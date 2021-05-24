@@ -6,7 +6,7 @@ mailto: ''
 address: Calangute
 city: Goa
 postalcode: ''
-phone: 832-2277 535
+phone: 832-2277 535,
 mobile: ''
 email: vilagoesa@gmail.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

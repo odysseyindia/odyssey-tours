@@ -6,7 +6,7 @@ mailto: Hotel Madhuban
 address: 'V & PO Patan  Tanwarawati  Tehsil: Neem Ka Thana  District: Sikar'
 city: Patan
 postalcode: 332 718
-phone: 1574-282596, 282311
+phone: 1574-282596, 282311,
 mobile: ''
 email: ''
 website: www.patanmahal.com
@@ -24,7 +24,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,7 +60,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Royal Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -95,5 +95,18 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.patanmahal.com
+web: 0
+mailTo: Hotel Madhuban
+ranking: 0
 ---
+
+
+
+
+
+
 Patan Mahal is a delightful palace set above Patan village in Rajasthan, mid-way Delhi and Jaipur. Patan Mahal has a fine collection of spacious rooms with period furniture, large beds, and exquisitely decorated windows and doors. The rooms are well-lit, and offer a wonderful view of peaceful surroundings. The palace serves wonderful meals in their airconditioned dining room. There is also a lovely pool.

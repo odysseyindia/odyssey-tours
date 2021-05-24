@@ -6,7 +6,7 @@ mailto: ''
 address: The Mall
 city: Varanasi
 postalcode: 221 002
-phone: 542-348 091/ 92
+phone: 542-348 091/ 92,
 mobile: ''
 email: clarkvns@satyam.net.in
 website: ''
@@ -22,5 +22,18 @@ accessAir: 21 kms From Varanasi Airport
 accessBus: ''
 advantage: ''
 rooms: 40
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 1
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 An excellent moderate hotel, located in the quiet Cantonment area. The 40 rooms are comfortably airconditioned and well furnished with all mod-cons. The hotel offers a multi-cuisine restaurant and a swimming pool with sun-deck.

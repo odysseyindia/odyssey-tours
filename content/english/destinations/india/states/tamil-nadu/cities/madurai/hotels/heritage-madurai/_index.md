@@ -6,7 +6,7 @@ mailto: ''
 address: 11 Melakkal Main Road  Kochadai
 city: Madurai
 postalcode: 625 016
-phone: 452-2385455
+phone: 452-2385455,
 mobile: ''
 email: reservations@grandluxehotelsindia.com  sales@grandluxehotelsindia.com
 website: www.heritancemadurai.com
@@ -15,6 +15,8 @@ note: >-
   Email: sales@grandluxehotelsindia.com   
 type: hotel
 category:
+  - H
+  - COM
   - WEB
 showHotel: 0
 starCategory: 5
@@ -26,79 +28,7 @@ advantage: ''
 rooms: 68
 rates:
   - roomType: Luxury Villa
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 9000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 9500
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1750
-    extraBedPT: 0
-    wef: '2019-01-21T00:00:00'
-    wet: '2019-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Club Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Deluxe Club Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 6250
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 6750
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1750
-    extraBedPT: 0
-    wef: '2019-01-21T00:00:00'
-    wet: '2019-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Club Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Luxury Villa
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -134,7 +64,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Club Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -170,79 +100,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Luxury Villa
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 8400
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 9000
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1750
-    extraBedPT: 0
-    wef: '2020-01-21T00:00:00'
-    wet: '2020-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Club Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Deluxe Club Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 6250
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 6750
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1750
-    extraBedPT: 0
-    wef: '2020-01-21T00:00:00'
-    wet: '2020-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Club Room
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 0
-  - roomType: Luxury Villa
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -278,7 +136,7 @@ rates:
     notes: 24/12 - INR 2500pp  31/12 - INR 4000pp  Mandatory
     agentCommission: 0
   - roomType: Deluxe Club Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -314,25 +172,25 @@ rates:
     notes: 24/12 - INR 2500pp  31/12 - INR 4000pp  Mandatory
     agentCommission: 0
   - roomType: Luxury Villa
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
     costSingle: 0
     costSinglePT: 0
-    costSingleAc: 6000
+    costSingleAc: 8400
     costSingleAcPT: 0
     costDouble: 0
     costDoublePT: 0
-    costDoubleAc: 6500
+    costDoubleAc: 9000
     costDoubleAcPT: 0
     nett: 1
     nettPT: 0
     freeTransfer: 0
     extraBed: 1750
     extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
+    wef: '2020-01-21T00:00:00'
+    wet: '2020-03-31T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -350,25 +208,25 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Club Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
     costSingle: 0
     costSinglePT: 0
-    costSingleAc: 5000
+    costSingleAc: 6250
     costSingleAcPT: 0
     costDouble: 0
     costDoublePT: 0
-    costDoubleAc: 5000
+    costDoubleAc: 6750
     costDoubleAcPT: 0
     nett: 1
     nettPT: 0
     freeTransfer: 0
     extraBed: 1750
     extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
+    wef: '2020-01-21T00:00:00'
+    wet: '2020-03-31T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -386,7 +244,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Luxury Villa
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -422,7 +280,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Club Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -458,7 +316,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Luxury Villa
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -494,7 +352,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Deluxe Club Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -530,7 +388,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Luxury Villa
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -568,7 +426,7 @@ rates:
       Mandatory
     agentCommission: 0
   - roomType: Deluxe Club Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -606,7 +464,7 @@ rates:
       Mandatory
     agentCommission: 0
   - roomType: Luxury Villa
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -642,7 +500,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Deluxe Club Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -678,7 +536,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Luxury Villa
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -714,7 +572,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Deluxe Club Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -749,5 +607,30 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: ''
+gstType: 1
+gstin: 33AABCE5542K1ZQ
+www: www.heritancemadurai.com
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This property was designed in the 1970s by renowned Sri Lankan architect Geoffrey Bawa as the Coat's Madurai Club. It has now been artfully renovated; the result is a hotel with lots of charm, and huge rooms. The restaurant serves Indian and international cuisine and there is a magnificent swimming pool to enjoy. There is also a 'heritage village', where you can see a potter at work, have some tea, and take a cooking class.

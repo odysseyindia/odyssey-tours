@@ -6,13 +6,17 @@ mailto: Hotel Castle Mandawa Pvt. Ltd.
 address: 'Shekhavati  Dist. Jhunjhunu  '
 city: Mandawa
 postalcode: 333 704
-phone: 1592-223 151, 223 245, 223 514
+phone: 1592-223 151, 223 245, 223 514,
 mobile: ''
 email: reservation@castlemandawa.com  anngadmandawa@castlemandawa.com
 website: www.mandawahotels.com
 note: ''
 type: hotel
 category:
+  - H
+  - A
+  - ST
+  - WEB
   - RIK
 showHotel: 1
 starCategory: 2
@@ -24,7 +28,7 @@ advantage: ''
 rooms: 60
 rates:
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,7 +64,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -95,5 +99,42 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+ranking: 1
+bookThrough: Hotel Castle Mandawa Pvt. Ltd.
+gstType: 1
+gstin: 08ABXPD6162A1ZO
+www: www.mandawahotels.com
+web: 1
+mailTo: Hotel Castle Mandawa Pvt. Ltd.
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Located on the outskirts of Mandawa and overlooking fields and sand dunes, the unique and atmospheric Desert Resort is a truly original place to stay. It's a purpose-built village, with streets leading to clusters of huts and thatched pavilions from which to enjoy the surroundings. The delightful "mud huts" are surprisingly comfortable, with large modern bathrooms, and are brightly decorated with local textiles and craftwork. There is an azure swimming pool, and elaborate buffet meals are served in the cool dining room, which is decorated with shells.

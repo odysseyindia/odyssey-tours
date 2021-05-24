@@ -8,7 +8,7 @@ address: >-
   Gate Taj Mahal, Tajganj
 city: Agra
 postalcode: 282 001
-phone: 562-2230765
+phone: 562-2230765,98376 09088, 98370 20688
 mobile: 98376 09088, 98370 20688
 email: >-
   gopal_agra@yahoo.com  vandnapatholia@ymail.com 
@@ -17,6 +17,9 @@ website: http://thecoraltreehomestay.com/
 note: ''
 type: hotel
 category:
+  - H
+  - RIK
+  - ST
   - WEB
 showHotel: 0
 starCategory: 0
@@ -28,7 +31,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -64,7 +67,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -99,5 +102,36 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: ''
+gstType: 1
+gstin: 09APJPS7801R1ZX
+www: http://thecoraltreehomestay.com/
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This six-room home-stay is just a short walk away from the entrance to the Taj Mahal. The bright, cheerful rooms, verandahs and garden are all decorated with interesting pieces of art. The well-travelled owners are keen to interact with their guests, and are full of ideas to help you to get the most out of your time in Agra. 

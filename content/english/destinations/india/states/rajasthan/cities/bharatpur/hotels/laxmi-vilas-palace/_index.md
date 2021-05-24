@@ -6,17 +6,22 @@ mailto: ''
 address: Kakaji Ki Kothi  Old Agra Road
 city: Bharatpur
 postalcode: 321 001
-phone: 5644-223 523, 231 199
+phone: 5644-223 523, 231 199,
 mobile: ''
 email: 'reservations@laxmivilas.com  '
 website: www.laxmivilas.com
 note: ''
 type: hotel
 category:
+  - H
+  - HH
+  - COM
+  - WEB
+  - A
   - RIK
 showHotel: 1
 starCategory: 0
-checkout: '11:00:00'
+checkout: 11.00 a.m.
 accessRail: 5 kms. from Bharatpur Railway Station
 accessAir: 55 kms. from Agra Airport
 accessBus: 5 kms. from Bharatpur Bus Stand
@@ -24,79 +29,7 @@ advantage: Near Circuit House Bharatpur & Near Bird Sanctuary
 rooms: 30
 rates:
   - roomType: Deluxe Room (Old wing)
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 3500
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 3500
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1100
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room (Old wing)
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 'Supplement for Suite room: INR 2200 per room per night'
-    agentCommission: 0
-  - roomType: Deluxe Room (New Wing)
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 4500
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 4500
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1100
-    extraBedPT: 0
-    wef: '2019-04-01T00:00:00'
-    wet: '2019-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Deluxe Room (Old wing)
-    defaultAc: 1
-    specialPeriod: 0
-    notes: 'Supplement for Suite room: INR 2200 per room per night'
-    agentCommission: 0
-  - roomType: Deluxe Room (Old wing)
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -134,7 +67,7 @@ rates:
       Supplement for Suite room: INR 2200 per room per night
     agentCommission: 0
   - roomType: Deluxe Room (New Wing)
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -172,7 +105,7 @@ rates:
       Supplement for Suite room: INR 2200 per room per night
     agentCommission: 0
   - roomType: Suite (Old Wing)
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -248,7 +181,7 @@ rates:
       Supplement for Suite room: INR 2200 per room per night
     agentCommission: 0
   - roomType: Deluxe Room (Old wing)
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -284,7 +217,7 @@ rates:
     notes: 'Supplement for Suite room: INR 2200 per room per night'
     agentCommission: 0
   - roomType: Deluxe Room (New Wing)
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -320,7 +253,7 @@ rates:
     notes: 'Supplement for Suite room: INR 2200 per room per night'
     agentCommission: 0
   - roomType: Deluxe Room (Old wing)
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -356,7 +289,7 @@ rates:
     notes: 'Mandatory Xmas/New year Supplement: Rs 4000 + tax per person per meal  '
     agentCommission: 0
   - roomType: Deluxe Room (New Wing)
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -392,7 +325,7 @@ rates:
     notes: 'Mandatory Xmas/New year Supplement: Rs 4000 + tax per person per meal  '
     agentCommission: 0
   - roomType: Suite (Old Wing)
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -428,7 +361,7 @@ rates:
     notes: 'Mandatory Xmas/New year Supplement: Rs 4000 + tax per person per meal  '
     agentCommission: 0
   - roomType: Suite (New Wing)
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -464,7 +397,7 @@ rates:
     notes: 'Mandatory Xmas/New year Supplement: Rs 4000 + tax per person per meal  '
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -500,7 +433,7 @@ rates:
     notes: 'Mandatory Xmas/New year Supplement: Rs 3500 + tax per person per meal  '
     agentCommission: 0
   - roomType: Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -535,5 +468,48 @@ rates:
     specialPeriod: 0
     notes: 'Mandatory Xmas/New year Supplement: Rs 3500 + tax per person per meal  '
     agentCommission: 0
+bookThrough: The Consortium Hotels
+gstType: 0
+gstin: ''
+www: www.laxmivilas.com
+web: 1
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This large heritage hotel is the premier place to stay in Bharatpur. Laxmi Vilas is the older, 18th-century wing of the palace, with comfortable, well-furnished rooms. Between the two wings is an enticing swimming pool. The entire property is surrounded by extensive lawns giving it a rural and relaxing feel.

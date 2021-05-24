@@ -6,7 +6,7 @@ mailto: ''
 address: Old Fuwara, M. G. Road
 city: Porbandar
 postalcode: 360 575
-phone: 286-2244230, 2244231
+phone: 286-2244230, 2244231,
 mobile: ''
 email: info@hotelharmony.in
 website: www.hotelharmony.in
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: North West Safaries
+gstType: 0
+gstin: ''
+www: www.hotelharmony.in
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

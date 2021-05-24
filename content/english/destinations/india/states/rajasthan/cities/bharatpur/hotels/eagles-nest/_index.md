@@ -6,7 +6,7 @@ mailto: ''
 address: Bird Sanctuary Road
 city: Bharatpur
 postalcode: 321 001
-phone: 5644-25 144
+phone: 5644-25 144,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+ranking: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
 ---
+
+
+
+
+
+

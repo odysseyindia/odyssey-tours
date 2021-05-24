@@ -8,7 +8,7 @@ address: >-
   Post  Kurumbadi
 city: Coonoor
 postalcode: '643102'
-phone: 423-223 7222, 223 1222
+phone: 423-223 7222, 223 1222,
 mobile: ''
 email: kurumba@natureresorts.in  nilgiris@kurumbavillageresort.com
 website: www.kurumbavillageresort.com
@@ -24,4 +24,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.kurumbavillageresort.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

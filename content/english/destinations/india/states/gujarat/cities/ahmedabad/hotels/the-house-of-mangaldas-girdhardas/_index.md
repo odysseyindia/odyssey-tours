@@ -6,13 +6,17 @@ mailto: ''
 address: Opp. Sidi Saiyad Mosque  Lal Darwaja
 city: Ahmedabad
 postalcode: 380 001
-phone: 79-25506946
+phone: 79-25506946,
 mobile: ''
 email: customercare@houseofmg.com
 website: www.houseofmg.com
 note: ''
 type: hotel
 category:
+  - H
+  - HH
+  - WEB
+  - COM
   - RIK
 showHotel: 0
 starCategory: 3
@@ -239,5 +243,42 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 5
+bookThrough: Indo West Tours
+gstType: 0
+gstin: ''
+www: www.houseofmg.com
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 The House of MG is a bastion of tranquility and early 20th-century charm against the swirling noise and colour of modern-day Ahmedabad. It has beautifully decorated rooms and a wonderful ambience. Located in the heart of the city, the House of MG is also the home to the perennially popular Agashiye, a rooftop restaurant that serves delicious traditional Gujarati food.

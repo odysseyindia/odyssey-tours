@@ -292,27 +292,41 @@ app.post('/import',function (req, res) {
       var fileContents = fs.readFileSync(mdfile+'_index.md', 'utf8', (err) => {       
         if (err) throw err; 
       }) 
-      let contents = fileContents.split("---");
-      var data = yaml.loadAll(contents[1]);
     } 
     catch (error) {
-     console.log(mdfile);
+      var fileContents = "---\n\n---\n";
     }
 
 /*
-  0=country 1=state 2=city  3=organisation  4=description 5=showhotel 6=starcategories_id 7=checkout  8=accessrail  9=accessair 10=accessbus 
-  11=advantage 12=rooms
+0=country 1-state 2-city  3=organisation  4-bookthrough 5=mailto  6=address 7=city  8=postalcode  
+9=areacode  10=phone 11=org_mobile  12=email 13=www 14=web 15=showhotel 16=GstVendorTypes_id 
+17=note  18=description 19=starcategories_id 20=checkout  
+21-accessrail  22=accessair 23=accessbus 24=advantage 25=rooms
 */
+      let contents = fileContents.split("---");
+      var data = yaml.loadAll(contents[1]);
+
      try {
-      data[0].showHotel     = Number(array[5]);
-      data[0].starCategory  = Number(array[6]);
-      data[0].checkout      = array[7];
-      data[0].accessRail    = array[8];
-      data[0].accessAir     = array[9];
-      data[0].accessBus     = array[10];
-      data[0].advantage     = array[11];
-      data[0].rooms         = Number(array[12]);
-      data[1] = array[4].replace(/[`]/g, "'");
+      data[0].bookThrough   = array[4];
+      data[0].mailTo        = array[5];
+      data[0].address       = array[6];
+      data[0].city          = array[7];
+      data[0].postalcode    = array[8];
+      data[0].phone         = array[9]+'-'+array[10]+','+array[11];
+      data[0].gstType       = Number(array[16]);
+      data[0].email         = array[12];
+      data[0].www           = array[13];
+      data[0].note          = array[17];
+      data[0].web           = Number(array[14]);
+      data[0].showHotel     = Number(array[15]);
+      data[0].starCategory  = Number(array[19]);
+      data[0].checkout      = array[20];
+      data[0].accessRail    = array[21];
+      data[0].accessAir     = array[22];
+      data[0].accessBus     = array[23];
+      data[0].advantage     = array[24];
+      data[0].rooms         = Number(array[25]);
+      data[1]               = array[18].replace(/[`]/g, "'");
       
         let output = `---\n` + yaml.dump(data[0]) + "---\n" + data[1] ;
 
@@ -328,7 +342,7 @@ app.post('/import',function (req, res) {
 
      var state     = urlize(array[0]);
      var city      = urlize(array[1]);
-     var data      = {};
+     var data      = [];
      data[0]   = {};
 
      var mdfile = dir+'/destinations/india/states/'+state+'/cities/'+city+'/hotels/'+urlize(array[2])+'/';
@@ -341,7 +355,7 @@ app.post('/import',function (req, res) {
       var fileContents = fs.readFileSync(mdfile+'_index.md', 'utf8', (err) => {       
         if (err) throw err; 
       }) 
-      let contents = fileContents.split("---");
+      var contents = fileContents.split("---");
       data = yaml.loadAll(contents[1]);
     } 
     catch (error) {
@@ -405,10 +419,10 @@ app.post('/import',function (req, res) {
       };
 
         // reset rates to null
-        // data[0].rates = []; 
-        data[0].rates.push( ratesData );
+        //data[0].rates = []; 
+         data[0].rates.push( ratesData );
 
-        let output = `---\n` + yaml.dump(data[0]) + "---\n" + data[1] ;
+        let output = `---\n` + yaml.dump(data[0]) + "---\n" + contents[2] ;
 
         fs.writeFileSync(mdfile+'_index.md', output, 'utf8', (err) => {       
           if (err) throw err; 
@@ -416,6 +430,65 @@ app.post('/import',function (req, res) {
       } catch (err) {
         console.log("Route import writing "+mdfile+": " + err.message);
       } 
+
+    } else if ( request.file == 'hotel-categories.csv') {
+
+     var country   = urlize(array[0]);
+     var state     = urlize(array[1]);
+     var city      = urlize(array[2]);
+
+     var mdfile = dir+'/destinations/'+country+'/states/'+state+'/cities/'+city+'/hotels/'+urlize(array[3])+'/';
+
+     console.log('Processing ',mdfile);
+
+     const made = mkdirp.sync(mdfile);
+     
+     try {
+      var fileContents = fs.readFileSync(mdfile+'_index.md', 'utf8', (err) => {       
+        if (err) throw err; 
+      }) 
+      var contents = fileContents.split("---");
+      data = yaml.loadAll(contents[1]);
+    } 
+    catch (error) {
+      var data = [];
+      data[0]  = {};
+      data[0].title           = array[3];
+      data[0].translationKey  = urlize(array[3]);
+      data[0].type            = 'hotel';
+      data[0].id              = 'hotel';
+    }
+
+    /*
+    0=country 1=state 2=city  3=organisation 4=Ranking 5=category
+
+     */
+
+     try {
+
+      if (typeof array[4] === 'undefined'){
+        data[0].ranking = 0;
+      };
+      if (typeof array[5] === 'undefined'){
+        data[0].category = [];
+      };
+
+      if (Number(array[4]) > 0) {
+        data[0].ranking = Number(array[4]);
+      }
+
+        // reset rates to null
+        // data[0].category = []; 
+        // data[0].category.push(array[5]);
+
+        let output = `---\n` + yaml.dump(data[0]) + "---\n" + contents[2];
+
+        fs.writeFileSync(mdfile+'_index.md', output, 'utf8', (err) => {       
+          if (err) throw err; 
+        })
+      } catch (err) {
+        console.log("Route import writing "+mdfile+": " + err.message);
+      }   
     } else if ( request.file == 'costservices-entrance.csv') {
 
       /*

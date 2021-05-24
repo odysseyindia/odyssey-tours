@@ -6,13 +6,15 @@ mailto: ''
 address: Village and P.O. North Bawali  24 Parganas (South)
 city: Kolkata
 postalcode: 700 137
-phone: '-'
+phone: '-,90733 12000'
 mobile: 90733 12000
 email: stay@therajbari.com
 website: https://www.therajbari.com/
 note: ''
 type: hotel
 category:
+  - H
+  - COM
   - WEB
 showHotel: 0
 starCategory: 0
@@ -383,5 +385,30 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: https://www.therajbari.com/
+web: 0
+mailTo: ''
+ranking: 3
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 The zamindars or landed gentry of Bengal led a lavish life full of wealth and privileges, building impressive mansions and temples. One such mansion is the Rajbari Bawali, over 250 years old and now a very comfortable heritage hotel, with gorgeous four-poster beds, etched mirrors and beautiful common areas (including a swimming pool) in an olde-worlde setting near the Hooghly River.

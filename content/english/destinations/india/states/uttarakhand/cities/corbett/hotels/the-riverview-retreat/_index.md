@@ -6,7 +6,7 @@ mailto: ''
 address: Zero Garjia  Dhikuli  Ramnagar
 city: Corbett
 postalcode: ''
-phone: 5947-284135, 284236
+phone: 5947-284135, 284236,
 mobile: ''
 email: ''
 website: ''
@@ -14,6 +14,7 @@ note: ''
 type: hotel
 category:
   - H
+  - A
 showHotel: 0
 starCategory: 0
 checkout: ''
@@ -99,4 +100,23 @@ rates:
       Rates increased by 25% due to the blackout dates  29 sep to 02 oct,06 oct
       to 8 oct,10 nov to 12 nov,23-26 dec,30 dec to 2 jan,21-23 jan, 8-10 march.
     agentCommission: 0
+bookThrough: Leisure Hotels Ltd
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
+
+
+
+
+
+

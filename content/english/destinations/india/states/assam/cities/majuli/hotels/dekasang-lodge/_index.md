@@ -6,13 +6,16 @@ mailto: ''
 address: Sitadar Chuk  Near River Luit  Garmur Chariali
 city: Majuli
 postalcode: 785 104
-phone: '-'
+phone: '-,098547 15435'
 mobile: 098547 15435
 email: ''
 website: ''
 note: ''
 type: hotel
 category:
+  - H
+  - ST
+  - RIK
   - WEB
 showHotel: 0
 starCategory: 0
@@ -95,5 +98,36 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2018-2019
     agentCommission: 0
+bookThrough: NE India Safar
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Overlooking a tributary of the Brahmaputra, Dekasang Lodge offers modern comforts and amenities in traditional settings. The entire resort is built with organic materials and takes inspiration from the the surrounding rural and tribal areas. The rooms are airy and spacious with fully-equipped bathrooms.

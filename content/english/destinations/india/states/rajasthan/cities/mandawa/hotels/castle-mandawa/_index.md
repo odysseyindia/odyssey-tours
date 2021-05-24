@@ -6,13 +6,17 @@ mailto: ''
 address: Jhunjhunu District  Shekhavati
 city: Mandawa
 postalcode: 333 704
-phone: 1592-223 124, 223 432, 223 480-83
+phone: 1592-223 124, 223 432, 223 480-83,
 mobile: ''
 email: reservation@castlemandawa.com  anngadmandawa@castlemandawa.com
 website: www.mandawahotels.com
 note: ''
 type: hotel
 category:
+  - H
+  - HH
+  - COM
+  - WEB
   - RIK
 showHotel: 1
 starCategory: 0
@@ -24,7 +28,7 @@ advantage: Centre of Town
 rooms: 80
 rates:
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,7 +64,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -95,5 +99,42 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+ranking: 1
+bookThrough: Hotel Castle Mandawa Pvt. Ltd.
+gstType: 1
+gstin: 08AACCH0368K1ZH
+www: www.mandawahotels.com
+web: 1
+mailTo: ''
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Castle Mandawa is literally a castle in the centre of Mandawa, a maze of terraces, courtyards, narrow staircases and other intriguing elements. Sword-bearing guards welcome you at the gate; inside, the walls display 16th-century portraits of the Mandawa family and lovely frescoes. The rooms have period furniture, murals and alcoved sitting areas, and the fabrics are in bold colours. The dinners in the central courtyards or garden are dramatic, with dancers with lit torches.

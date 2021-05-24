@@ -6,13 +6,16 @@ mailto: ''
 address: ''
 city: Hodka
 postalcode: ''
-phone: '-'
+phone: '-,'
 mobile: ''
 email: hodka.in@gmail.com
 website: www.hodka.in
 note: ''
 type: hotel
 category:
+  - H
+  - ST
+  - WEB
   - RIK
 showHotel: 0
 starCategory: 0
@@ -172,294 +175,6 @@ rates:
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
-    costSingle: 5220
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 5220
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1500
-    extraBedPT: 0
-    wef: '2019-11-01T00:00:00'
-    wet: '2019-12-24T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Suite Bhunga
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 5
-  - roomType: Family Cottage
-    mealPlan: Fullboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 4500
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 4500
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1500
-    extraBedPT: 0
-    wef: '2019-11-01T00:00:00'
-    wet: '2019-12-24T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Suite Bhunga
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 5
-  - roomType: Eco-friendly Tent
-    mealPlan: Fullboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 3870
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 3870
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1500
-    extraBedPT: 0
-    wef: '2019-11-01T00:00:00'
-    wet: '2019-12-24T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Suite Bhunga
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 5
-  - roomType: Standard Bhunga
-    mealPlan: Fullboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 3870
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 3870
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1500
-    extraBedPT: 0
-    wef: '2019-11-01T00:00:00'
-    wet: '2019-12-24T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Suite Bhunga
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 5
-  - roomType: Suite Bhunga
-    mealPlan: Fullboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 5220
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 5220
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1500
-    extraBedPT: 0
-    wef: '2020-01-01T00:00:00'
-    wet: '2020-03-15T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Suite Bhunga
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 5
-  - roomType: Family Cottage
-    mealPlan: Fullboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 4500
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 4500
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1500
-    extraBedPT: 0
-    wef: '2020-01-01T00:00:00'
-    wet: '2020-03-15T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Suite Bhunga
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 5
-  - roomType: Eco-friendly Tent
-    mealPlan: Fullboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 3870
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 3870
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1500
-    extraBedPT: 0
-    wef: '2020-01-01T00:00:00'
-    wet: '2020-03-15T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Suite Bhunga
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 5
-  - roomType: Standard Bhunga
-    mealPlan: Fullboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 3870
-    costSinglePT: 0
-    costSingleAc: 0
-    costSingleAcPT: 0
-    costDouble: 3870
-    costDoublePT: 0
-    costDoubleAc: 0
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 1500
-    extraBedPT: 0
-    wef: '2020-01-01T00:00:00'
-    wet: '2020-03-15T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Suite Bhunga
-    defaultAc: 0
-    specialPeriod: 0
-    notes: 0
-    agentCommission: 5
-  - roomType: Suite Bhunga
-    mealPlan: Fullboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
     costSingle: 5400
     costSinglePT: 0
     costSingleAc: 0
@@ -604,6 +319,150 @@ rates:
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
+    costSingle: 5220
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 5220
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 1500
+    extraBedPT: 0
+    wef: '2019-11-01T00:00:00'
+    wet: '2019-12-24T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Suite Bhunga
+    defaultAc: 0
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: Family Cottage
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 4500
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 4500
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 1500
+    extraBedPT: 0
+    wef: '2019-11-01T00:00:00'
+    wet: '2019-12-24T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Suite Bhunga
+    defaultAc: 0
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: Eco-friendly Tent
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 3870
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 3870
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 1500
+    extraBedPT: 0
+    wef: '2019-11-01T00:00:00'
+    wet: '2019-12-24T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Suite Bhunga
+    defaultAc: 0
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: Standard Bhunga
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 3870
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 3870
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 1500
+    extraBedPT: 0
+    wef: '2019-11-01T00:00:00'
+    wet: '2019-12-24T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Suite Bhunga
+    defaultAc: 0
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: Suite Bhunga
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
     costSingle: 5400
     costSinglePT: 0
     costSingleAc: 0
@@ -727,6 +586,150 @@ rates:
     extraBedPT: 0
     wef: '2019-12-25T00:00:00'
     wet: '2019-12-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Suite Bhunga
+    defaultAc: 0
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: Suite Bhunga
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 5220
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 5220
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 1500
+    extraBedPT: 0
+    wef: '2020-01-01T00:00:00'
+    wet: '2020-03-15T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Suite Bhunga
+    defaultAc: 0
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: Family Cottage
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 4500
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 4500
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 1500
+    extraBedPT: 0
+    wef: '2020-01-01T00:00:00'
+    wet: '2020-03-15T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Suite Bhunga
+    defaultAc: 0
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: Eco-friendly Tent
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 3870
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 3870
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 1500
+    extraBedPT: 0
+    wef: '2020-01-01T00:00:00'
+    wet: '2020-03-15T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Suite Bhunga
+    defaultAc: 0
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: Standard Bhunga
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 3870
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 3870
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 1500
+    extraBedPT: 0
+    wef: '2020-01-01T00:00:00'
+    wet: '2020-03-15T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -887,5 +890,36 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 5
+bookThrough: Indo West Tours
+gstType: 0
+gstin: ''
+www: www.hodka.in
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 The tribal people of Hodka, with the support of development agencies, built the Shaam-E-Sarhad Resort, using only local building materials and natural products used also in their own houses. You can visit different families to see their nicely decorated and painted mud houses, learn about their livelihoods and customs and admire their fine embroideries and leather works.

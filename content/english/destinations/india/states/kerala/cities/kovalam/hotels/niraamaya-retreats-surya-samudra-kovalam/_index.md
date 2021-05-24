@@ -6,17 +6,19 @@ mailto: ''
 address: Pulinkudi  P.O.Mullur  Thiruvananthapuram
 city: Kovalam
 postalcode: 695 521
-phone: 471-2267333,  2480413, 2267824
+phone: 471-2267333,  2480413, 2267824,
 mobile: ''
 email: reservations@niraamaya.in
 website: http://www.niraamaya.in
 note: ''
 type: hotel
 category:
+  - H
+  - SH
   - WEB
 showHotel: 1
 starCategory: 0
-checkout: '12:00:00'
+checkout: 12.00 Noon
 accessRail: ''
 accessAir: 8 kms. from Airport
 accessBus: ''
@@ -24,7 +26,7 @@ advantage: Situated on the Beach
 rooms: 13
 rates:
   - roomType: Heritage Premium
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -62,7 +64,7 @@ rates:
       www.niraamaya.com as the rates are dynamic.
     agentCommission: 5
   - roomType: Family Villa
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -100,7 +102,7 @@ rates:
       www.niraamaya.com as the rates are dynamic.
     agentCommission: 5
   - roomType: Rock Garden Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -138,7 +140,7 @@ rates:
       www.niraamaya.com as the rates are dynamic.
     agentCommission: 5
   - roomType: Heritage Classic Room/Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -176,7 +178,7 @@ rates:
       www.niraamaya.com as the rates are dynamic.
     agentCommission: 5
   - roomType: Heritage Superior Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -214,7 +216,7 @@ rates:
       www.niraamaya.com as the rates are dynamic.
     agentCommission: 5
   - roomType: Banyan Tree
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -252,7 +254,7 @@ rates:
       www.niraamaya.com as the rates are dynamic.
     agentCommission: 5
   - roomType: Octagon Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -290,7 +292,7 @@ rates:
       www.niraamaya.com as the rates are dynamic.
     agentCommission: 5
   - roomType: Heritage Premium
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -328,7 +330,7 @@ rates:
       www.niraamaya.com as the rates are dynamic.
     agentCommission: 5
   - roomType: Family Villa
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -366,7 +368,7 @@ rates:
       www.niraamaya.com as the rates are dynamic.
     agentCommission: 5
   - roomType: Rock Garden Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -404,7 +406,7 @@ rates:
       www.niraamaya.com as the rates are dynamic.
     agentCommission: 5
   - roomType: Heritage Classic Room/Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -442,7 +444,7 @@ rates:
       www.niraamaya.com as the rates are dynamic.
     agentCommission: 5
   - roomType: Heritage Superior Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -480,7 +482,7 @@ rates:
       www.niraamaya.com as the rates are dynamic.
     agentCommission: 5
   - roomType: Banyan Tree
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -518,7 +520,7 @@ rates:
       www.niraamaya.com as the rates are dynamic.
     agentCommission: 5
   - roomType: Octagon Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -556,273 +558,7 @@ rates:
       www.niraamaya.com as the rates are dynamic.
     agentCommission: 5
   - roomType: Heritage Premium
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 26000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 26000
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3500
-    extraBedPT: 0
-    wef: '2021-03-01T00:00:00'
-    wet: '2021-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 10
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Heritage Classic Room/Suite
-    defaultAc: 1
-    specialPeriod: 0
-    notes: >-
-      Niraamaya are able to offer a 10% off on our web rates on
-      www.niraamaya.com as the rates are dynamic.
-    agentCommission: 5
-  - roomType: Family Villa
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 35000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 35000
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3500
-    extraBedPT: 0
-    wef: '2021-03-01T00:00:00'
-    wet: '2021-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 10
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Heritage Classic Room/Suite
-    defaultAc: 1
-    specialPeriod: 0
-    notes: >-
-      Niraamaya are able to offer a 10% off on our web rates on
-      www.niraamaya.com as the rates are dynamic.
-    agentCommission: 5
-  - roomType: Rock Garden Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 15500
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 15500
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3500
-    extraBedPT: 0
-    wef: '2021-03-01T00:00:00'
-    wet: '2021-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 10
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Heritage Classic Room/Suite
-    defaultAc: 1
-    specialPeriod: 0
-    notes: >-
-      Niraamaya are able to offer a 10% off on our web rates on
-      www.niraamaya.com as the rates are dynamic.
-    agentCommission: 5
-  - roomType: Heritage Classic Room/Suite
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 16500
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 16500
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3500
-    extraBedPT: 0
-    wef: '2021-03-01T00:00:00'
-    wet: '2021-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 10
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Heritage Classic Room/Suite
-    defaultAc: 1
-    specialPeriod: 0
-    notes: >-
-      Niraamaya are able to offer a 10% off on our web rates on
-      www.niraamaya.com as the rates are dynamic.
-    agentCommission: 5
-  - roomType: Heritage Superior Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 22000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 22000
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3500
-    extraBedPT: 0
-    wef: '2021-03-01T00:00:00'
-    wet: '2021-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 10
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Heritage Classic Room/Suite
-    defaultAc: 1
-    specialPeriod: 0
-    notes: >-
-      Niraamaya are able to offer a 10% off on our web rates on
-      www.niraamaya.com as the rates are dynamic.
-    agentCommission: 5
-  - roomType: Banyan Tree
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 37000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 37000
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3500
-    extraBedPT: 0
-    wef: '2021-03-01T00:00:00'
-    wet: '2021-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 10
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Heritage Classic Room/Suite
-    defaultAc: 1
-    specialPeriod: 0
-    notes: >-
-      Niraamaya are able to offer a 10% off on our web rates on
-      www.niraamaya.com as the rates are dynamic.
-    agentCommission: 5
-  - roomType: Octagon Suite
-    mealPlan: Bed & breakfast
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 38500
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 38500
-    costDoubleAcPT: 0
-    nett: 0
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 3500
-    extraBedPT: 0
-    wef: '2021-03-01T00:00:00'
-    wet: '2021-03-31T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 10
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Heritage Classic Room/Suite
-    defaultAc: 1
-    specialPeriod: 0
-    notes: >-
-      Niraamaya are able to offer a 10% off on our web rates on
-      www.niraamaya.com as the rates are dynamic.
-    agentCommission: 5
-  - roomType: Heritage Premium
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -860,7 +596,7 @@ rates:
       www.niraamaya.com as the rates are dynamic.
     agentCommission: 5
   - roomType: Family Villa
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -898,7 +634,7 @@ rates:
       www.niraamaya.com as the rates are dynamic.
     agentCommission: 5
   - roomType: Rock Garden Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -936,7 +672,7 @@ rates:
       www.niraamaya.com as the rates are dynamic.
     agentCommission: 5
   - roomType: Heritage Classic Room/Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -974,7 +710,7 @@ rates:
       www.niraamaya.com as the rates are dynamic.
     agentCommission: 5
   - roomType: Heritage Superior Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1012,7 +748,7 @@ rates:
       www.niraamaya.com as the rates are dynamic.
     agentCommission: 5
   - roomType: Banyan Tree
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1050,7 +786,7 @@ rates:
       www.niraamaya.com as the rates are dynamic.
     agentCommission: 5
   - roomType: Octagon Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1088,7 +824,7 @@ rates:
       www.niraamaya.com as the rates are dynamic.
     agentCommission: 5
   - roomType: Heritage Premium
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1126,7 +862,7 @@ rates:
       www.niraamaya.com as the rates are dynamic. 
     agentCommission: 5
   - roomType: Family Villa
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1164,7 +900,7 @@ rates:
       www.niraamaya.com as the rates are dynamic. 
     agentCommission: 5
   - roomType: Rock Garden Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1202,7 +938,7 @@ rates:
       www.niraamaya.com as the rates are dynamic. 
     agentCommission: 5
   - roomType: Heritage Classic Room/Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1240,7 +976,7 @@ rates:
       www.niraamaya.com as the rates are dynamic. 
     agentCommission: 5
   - roomType: Heritage Superior Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1278,7 +1014,7 @@ rates:
       www.niraamaya.com as the rates are dynamic. 
     agentCommission: 5
   - roomType: Banyan Tree
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1316,7 +1052,7 @@ rates:
       www.niraamaya.com as the rates are dynamic. 
     agentCommission: 5
   - roomType: Octagon Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -1353,5 +1089,296 @@ rates:
       Niraamaya are able to offer a 10% off on our web rates on
       www.niraamaya.com as the rates are dynamic. 
     agentCommission: 5
+  - roomType: Heritage Premium
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 26000
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 26000
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3500
+    extraBedPT: 0
+    wef: '2021-03-01T00:00:00'
+    wet: '2021-03-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 10
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Heritage Classic Room/Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: >-
+      Niraamaya are able to offer a 10% off on our web rates on
+      www.niraamaya.com as the rates are dynamic.
+    agentCommission: 5
+  - roomType: Family Villa
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 35000
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 35000
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3500
+    extraBedPT: 0
+    wef: '2021-03-01T00:00:00'
+    wet: '2021-03-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 10
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Heritage Classic Room/Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: >-
+      Niraamaya are able to offer a 10% off on our web rates on
+      www.niraamaya.com as the rates are dynamic.
+    agentCommission: 5
+  - roomType: Rock Garden Room
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 15500
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 15500
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3500
+    extraBedPT: 0
+    wef: '2021-03-01T00:00:00'
+    wet: '2021-03-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 10
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Heritage Classic Room/Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: >-
+      Niraamaya are able to offer a 10% off on our web rates on
+      www.niraamaya.com as the rates are dynamic.
+    agentCommission: 5
+  - roomType: Heritage Classic Room/Suite
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 16500
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 16500
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3500
+    extraBedPT: 0
+    wef: '2021-03-01T00:00:00'
+    wet: '2021-03-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 10
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Heritage Classic Room/Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: >-
+      Niraamaya are able to offer a 10% off on our web rates on
+      www.niraamaya.com as the rates are dynamic.
+    agentCommission: 5
+  - roomType: Heritage Superior Room
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 22000
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 22000
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3500
+    extraBedPT: 0
+    wef: '2021-03-01T00:00:00'
+    wet: '2021-03-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 10
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Heritage Classic Room/Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: >-
+      Niraamaya are able to offer a 10% off on our web rates on
+      www.niraamaya.com as the rates are dynamic.
+    agentCommission: 5
+  - roomType: Banyan Tree
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 37000
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 37000
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3500
+    extraBedPT: 0
+    wef: '2021-03-01T00:00:00'
+    wet: '2021-03-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 10
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Heritage Classic Room/Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: >-
+      Niraamaya are able to offer a 10% off on our web rates on
+      www.niraamaya.com as the rates are dynamic.
+    agentCommission: 5
+  - roomType: Octagon Suite
+    mealPlan: Bed & Breakfast
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 38500
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 38500
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3500
+    extraBedPT: 0
+    wef: '2021-03-01T00:00:00'
+    wet: '2021-03-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 10
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Heritage Classic Room/Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: >-
+      Niraamaya are able to offer a 10% off on our web rates on
+      www.niraamaya.com as the rates are dynamic.
+    agentCommission: 5
+bookThrough: Niraamaya Retreats Private Limited
+gstType: 1
+gstin: 32AADCS2669D1ZL
+www: http://www.niraamaya.in
+web: 1
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 A very private and unique beach resort on a stunning cliff top location, south of Kovalam. Beautiful, lush grounds and huge trees envelop lovely, tastefully furnished rooms, several of them original Kerala wooden houses. Bathrooms are among banana plants in open courtyards. The resort has an extraordinary swimming pool cut into a rock, overlooking the secluded beach. Great dining options, an elaborate spa, privacy and great service make it an upmarket, exclusive stay in Kovalam.

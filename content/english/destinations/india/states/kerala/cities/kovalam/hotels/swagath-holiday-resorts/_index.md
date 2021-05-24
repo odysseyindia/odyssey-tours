@@ -6,7 +6,7 @@ mailto: ''
 address: Near Upasana Hospital
 city: Kovalam
 postalcode: 695 527
-phone: 471-2481148 - 49
+phone: 471-2481148 - 49,
 mobile: ''
 email: swagathresort@asianetindia.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+ranking: 0
+bookThrough: Travelcart India Pvt Ltd
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
 ---
+
+
+
+
+
+

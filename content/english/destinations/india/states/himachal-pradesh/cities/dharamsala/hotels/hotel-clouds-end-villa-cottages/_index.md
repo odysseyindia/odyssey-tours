@@ -6,7 +6,7 @@ mailto: ''
 address: Via Divi  Commissioners House
 city: Dharamsala
 postalcode: 176 215
-phone: 1892-224 904, 222 109
+phone: 1892-224 904, 222 109,
 mobile: ''
 email: 'sales@cloudsendvilla.com  '
 website: www.cloudsendvilla.com
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.cloudsendvilla.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

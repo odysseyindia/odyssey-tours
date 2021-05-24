@@ -6,7 +6,7 @@ mailto: ''
 address: 1/371, Princess Street  Fort Cochin
 city: Kochi
 postalcode: 682 001
-phone: 484-221 6302, 221 5035
+phone: 484-221 6302, 221 5035,
 mobile: ''
 email: 'reservations@oldcourtyard.com  '
 website: www.oldcourtyard.com
@@ -167,5 +167,18 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.oldcourtyard.com
+web: 1
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 Built over 200 years ago in the Portuguese style, the Old Courtyard has been lovingly restored to its original glory.     The hotel has only eight rooms, furnished with the heavy wooden furniture, overlooking the central courtyard with its ancient mango tree. The building features handsome arches and niches cut into the thick white-washed walls.

@@ -6,14 +6,16 @@ mailto: ''
 address: 40, TPK Road  Pasumalai Hill
 city: Madurai
 postalcode: 625 004
-phone: 452-6633000
+phone: 452-6633000,
 mobile: ''
 email: gateway.madurai@tajhotels.com
 website: http://www.thegatewayhotels.com/pasumalaimadurai/overview.aspx
 note: ''
-ranking: '2'
+ranking: 2
 type: hotel
 category:
+  - H
+  - HH
   - COM
 showHotel: 1
 starCategory: 0
@@ -244,5 +246,29 @@ rates:
       24/12 (Dinner): INR 3000 pp + taxes  25/12 (Lunch): INR 4000 pp + taxes 
       31/12 (Dinner): INR 3000 pp + taxes
     agentCommission: 0
+bookThrough: Kerala Adventures Pvt Ltd
+gstType: 0
+gstin: ''
+www: http://www.thegatewayhotels.com/pasumalaimadurai/overview.aspx
+web: 1
+mailTo: ''
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 The Gateway Hotel Pasumalai Madurai is located on 60 acres of land on a hill overlooking Madurai, a peaceful place to relax in a beautiful setting. An old colonial villa forms the core of the hotel with the rooms in low-rise blocks set amongst the gardens, many with fine views of the city. A large pool surrounded by lush vegetation provides a place to relax after exploring the town.

@@ -6,7 +6,7 @@ mailto: ''
 address: ''
 city: Sawai Madhopur
 postalcode: ''
-phone: 746-225 2281
+phone: 746-225 2281,
 mobile: ''
 email: alsisar@satyam.net.in  alsisar@alsisar.com
 website: ''
@@ -311,4 +311,17 @@ rates:
     specialPeriod: 0
     notes: Mandatory New Year's Eve Dinner @ Rs 4000 p.p.
     agentCommission: 0
+bookThrough: Kaustubh Holidays Tours & Travels Pvt Ltd
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

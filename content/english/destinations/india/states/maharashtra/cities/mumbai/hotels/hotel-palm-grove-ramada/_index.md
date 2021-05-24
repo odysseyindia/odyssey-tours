@@ -6,7 +6,7 @@ mailto: ''
 address: 'Juhu Beach  '
 city: Mumbai
 postalcode: 400 049
-phone: 22-611 2323
+phone: 22-611 2323,
 mobile: ''
 email: palmgrov@giasbm01.vsnl.net.in
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

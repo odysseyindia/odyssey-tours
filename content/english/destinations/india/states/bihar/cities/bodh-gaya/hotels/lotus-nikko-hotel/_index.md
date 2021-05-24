@@ -6,7 +6,7 @@ mailto: ''
 address: Distt. Gaya
 city: Bodh Gaya
 postalcode: 824 231
-phone: 631-2200700 / 789 / 790
+phone: 631-2200700 / 789 / 790,
 mobile: ''
 email: info@colleaguetours.in  reservations@colleaguetours.in
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Colleague Tours Pvt. Ltd.
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

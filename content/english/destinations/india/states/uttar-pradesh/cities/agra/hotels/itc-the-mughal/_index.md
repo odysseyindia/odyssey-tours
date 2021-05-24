@@ -6,7 +6,7 @@ mailto: ''
 address: Fatehabad Road  Taj Ganj
 city: Agra
 postalcode: 282 001
-phone: 562-233 1701 - 728
+phone: 562-233 1701 - 728,
 mobile: ''
 email: reservations@itchotels.in
 website: ''
@@ -16,7 +16,7 @@ category:
   - H
 showHotel: 1
 starCategory: 5
-checkout: '12:00:00'
+checkout: 12.00 Noon
 accessRail: 7 kms. from Railway Station
 accessAir: 14 kms. from Airport
 accessBus: ''
@@ -26,7 +26,7 @@ advantage: >-
 rooms: 285
 rates:
   - roomType: Mughal Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -62,7 +62,7 @@ rates:
     notes: booking purpose online FLEXIBLE rate
     agentCommission: 0
   - roomType: Mughal Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: Room only
     currency: INR
     currencyPT: INR
@@ -97,5 +97,18 @@ rates:
     specialPeriod: 0
     notes: booking purpose online rate
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 1
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 One of Agra's top luxury hotels is a low and sprawling structure, set in 30 acres of Mughal gardens, punctuated with many interconnecting courtyards, with the swimming pool set in the largest central courtyard. The hotel offers 285 centrally air-conditioned rooms, four restaurants, two bars, health club, swimming pool, tennis, mini-golf, croquets, billiards.

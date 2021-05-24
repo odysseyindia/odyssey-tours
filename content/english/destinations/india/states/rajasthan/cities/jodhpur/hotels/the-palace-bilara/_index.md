@@ -6,7 +6,7 @@ mailto: ''
 address: P.O.  Bilara  Dist. Jodhpur
 city: Jodhpur
 postalcode: ''
-phone: 2930-22 125
+phone: 2930-22 125,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

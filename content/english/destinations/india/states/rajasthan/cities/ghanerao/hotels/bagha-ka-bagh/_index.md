@@ -6,7 +6,7 @@ mailto: ''
 address: ''
 city: Ghanerao
 postalcode: ''
-phone: '-9799391882'
+phone: '-9799391882,'
 mobile: ''
 email: shaktighanerao@hotmail.com
 website: ''
@@ -14,6 +14,7 @@ note: ''
 type: hotel
 category:
   - H
+  - A
 showHotel: 0
 starCategory: 0
 checkout: ''
@@ -22,4 +23,23 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Ghanerao Royal Castle
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
+
+
+
+
+
+

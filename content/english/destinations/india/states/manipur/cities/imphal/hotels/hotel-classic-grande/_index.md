@@ -6,7 +6,7 @@ mailto: ''
 address: Chingmeirong
 city: Imphal
 postalcode: ''
-phone: 385-2421663, 2422139
+phone: 385-2421663, 2422139,8794741298
 mobile: '8794741298'
 email: contact@classicgrande.com
 website: http://classicgrande.com
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: NE India Safar
+gstType: 0
+gstin: ''
+www: http://classicgrande.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

@@ -6,7 +6,7 @@ mailto: ''
 address: Sakthan Thampuran Nagar  T. B. road
 city: Thrissur
 postalcode: 680 001
-phone: 487-2444333
+phone: 487-2444333,
 mobile: ''
 email: info@ashokainn.co.in
 website: www.ashokainn.co.in/
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Travelcart India Pvt Ltd
+gstType: 0
+gstin: ''
+www: www.ashokainn.co.in/
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

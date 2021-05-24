@@ -6,7 +6,7 @@ mailto: ''
 address: Opp. Railway Board Building  The Mall
 city: Shimla
 postalcode: ''
-phone: 177-265 3078
+phone: 177-265 3078,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Rimo Expeditions
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

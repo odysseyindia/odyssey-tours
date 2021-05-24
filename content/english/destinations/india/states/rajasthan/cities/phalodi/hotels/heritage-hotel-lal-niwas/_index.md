@@ -6,7 +6,7 @@ mailto: ''
 address: 'Dadha''s Mohalla    '
 city: Phalodi
 postalcode: 342 301
-phone: 2925-223813 / 222940 / 224886
+phone: 2925-223813 / 222940 / 224886,
 mobile: ''
 email: info@lalniwas.com  lalniwas_metha@yahoo.co.in
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

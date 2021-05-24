@@ -6,13 +6,16 @@ mailto: ''
 address: ''
 city: Dibrugarh
 postalcode: ''
-phone: 373-230 1120, 230 0035
+phone: 373-230 1120, 230 0035,
 mobile: ''
 email: purvi@sancharnet.in  purvidiscovery@gmail.com
 website: www.asseamteatourism.com  www.specialinteresttours.in
 note: ''
 type: hotel
 category:
+  - H
+  - COM
+  - HH
   - RIK
 showHotel: 0
 starCategory: 0
@@ -24,8 +27,8 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: First Floor Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: Bed & Breakfast
     currency: INR
     currencyPT: INR
     costSingle: 0
@@ -60,8 +63,8 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Ground Floor Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: Bed & Breakfast
     currency: INR
     currencyPT: INR
     costSingle: 0
@@ -96,8 +99,8 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: First Floor Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: Bed & Breakfast
     currency: INR
     currencyPT: INR
     costSingle: 0
@@ -132,8 +135,8 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Ground Floor Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: Bed & Breakfast
     currency: INR
     currencyPT: INR
     costSingle: 0
@@ -168,8 +171,8 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: First Floor Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: Bed & Breakfast
     currency: INR
     currencyPT: INR
     costSingle: 0
@@ -204,8 +207,8 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Ground Floor Room
-    mealPlan: Bed & breakfast
-    mealPlanPT: Bed & breakfast
+    mealPlan: Bed & Breakfast
+    mealPlanPT: Bed & Breakfast
     currency: INR
     currencyPT: INR
     costSingle: 0
@@ -239,5 +242,36 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: Wild Grass
+gstType: 0
+gstin: ''
+www: www.asseamteatourism.com  www.specialinteresttours.in
+web: 0
+mailTo: ''
+ranking: 2
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Chowkidinghee Chang Bungalow is a former tea manager's property. It lies within a tea garden in the centre of Dibrugarh. Perched on stilts about 4 four metres above the ground in classic Chang bungalow style, the view from the verandah looks across the tea plantation. The shared area boasts comfortable sofas around a fireplace, a dining area and a TV room, with polished wood flooring throughout.

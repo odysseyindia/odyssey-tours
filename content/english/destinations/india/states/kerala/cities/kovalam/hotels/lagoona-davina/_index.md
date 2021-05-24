@@ -6,7 +6,7 @@ mailto: ''
 address: 'P.O. Pachalloor  Thiruvananthapuram  '
 city: Kovalam
 postalcode: 695 027
-phone: 471-480 049
+phone: 471-480 049,
 mobile: ''
 email: davindia@hotmail.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

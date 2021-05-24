@@ -6,7 +6,7 @@ mailto: ''
 address: 6th Floor, Hiraprava Apartment  12A, H.C.Road  Uzanbazar
 city: Guwahati
 postalcode: 781 001
-phone: 361-273 6810
+phone: 361-273 6810,
 mobile: ''
 email: riverbreezehome@gmail.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Wild Grass
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

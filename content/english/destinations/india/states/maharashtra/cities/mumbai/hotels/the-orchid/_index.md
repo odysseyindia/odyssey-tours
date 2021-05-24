@@ -6,17 +6,20 @@ mailto: ''
 address: Adjacent to Domestic Airport  70-C, Nehru Road  Vile Parle (East)
 city: Mumbai
 postalcode: 400 099
-phone: 22-2616 4040
+phone: 22-2616 4040,
 mobile: ''
 email: 'resmgr@orchidhotel.com  '
 website: orchidhotel.com
 note: ''
 type: hotel
 category:
+  - H
+  - COM
   - RIK
+  - A
 showHotel: 1
 starCategory: 5
-checkout: '12:00:00'
+checkout: 12.00 Noon
 accessRail: 1 km. from Railway Station
 accessAir: 1/2 km. from Domestic Airport
 accessBus: ''
@@ -24,7 +27,7 @@ advantage: Adj. to Domestic Airport, Close to International Airport
 rooms: 245
 rates:
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -60,7 +63,7 @@ rates:
     notes: On Sat/Sun rates for double rooms are the same as single rooms.
     agentCommission: 0
   - roomType: Executive Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -96,7 +99,7 @@ rates:
     notes: On Sat/Sun rates for double rooms are the same as single rooms.
     agentCommission: 0
   - roomType: Premier Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -132,7 +135,7 @@ rates:
     notes: On Sat/Sun rates for double rooms are the same as single rooms.
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -168,7 +171,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Executive Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -204,7 +207,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -242,7 +245,7 @@ rates:
       same as single rooms.
     agentCommission: 0
   - roomType: Executive Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -280,7 +283,7 @@ rates:
       same as single rooms.
     agentCommission: 0
   - roomType: Premier Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -318,7 +321,7 @@ rates:
       same as single rooms.
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -354,7 +357,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Executive Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -389,5 +392,36 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: ''
+gstType: 1
+gstin: 27AAACK2912L1ZK
+www: orchidhotel.com
+web: 1
+mailTo: ''
+ranking: 3
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 A delightful airport hotel, which has been awarded the 'Ecotel' mark for its environmentally sound policies. The air-conditioned  rooms offer great in-room hospitality. The central atrium floods the building with a lot of natural light. The hotel has three restaurants, including an excellent coffee shop, and a bar, plus a rooftop swimming pool.

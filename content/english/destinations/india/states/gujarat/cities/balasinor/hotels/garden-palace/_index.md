@@ -6,13 +6,15 @@ mailto: ''
 address: ''
 city: Balasinor
 postalcode: 388 255
-phone: 2690-63786/ 62008
+phone: 2690-63786/ 62008,
 mobile: ''
 email: 'palacebalasinor@gmail.com  '
 website: ''
 note: ''
 type: hotel
 category:
+  - H
+  - ST
   - WEB
 showHotel: 1
 starCategory: 0
@@ -26,7 +28,7 @@ advantage: >-
 rooms: 0
 rates:
   - roomType: Standard Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: Room only
     currency: INR
     currencyPT: INR
@@ -61,5 +63,30 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2014-2015
     agentCommission: 0
+bookThrough: North West Safaries
+gstType: 0
+gstin: ''
+www: ''
+web: 1
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 A charming 19th-century mansion in a lovely garden setting. The drawing room has original French furniture amongst other period bric-a-brac, giving it a wonderfully period feel. The Nawabs of Balasinor were known for their hospitality, with kitchens famous for their distinctive Nawabi cuisine, and this is a great place to actually spend time with royalty in their own home.

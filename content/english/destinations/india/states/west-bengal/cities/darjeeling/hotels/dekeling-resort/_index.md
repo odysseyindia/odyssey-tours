@@ -6,7 +6,7 @@ mailto: ''
 address: 'Hawks Nest  2, A.J.C. Bose Road  '
 city: Darjeeling
 postalcode: 734 101
-phone: 354-225 3092, 225 3347
+phone: 354-225 3092, 225 3347,
 mobile: ''
 email: 'dekeling@outlook.com  norbu@dekeling.com  '
 website: ''
@@ -599,5 +599,18 @@ rates:
     specialPeriod: 0
     notes: New Wing Family Suite is for 4 people
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 This late 19th-century house originally served as a summer retreat for the British. Now it has been restored as a heritage hotel. The building is constructed predominantly of wood and glass. The four spacious suites have original tiled fireplaces, and this is a peaceful place to relax away from the hustle and bustle of Darjeeling town, which is a 15-minute stroll away.

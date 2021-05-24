@@ -6,7 +6,7 @@ mailto: ''
 address: ''
 city: Digboi
 postalcode: ''
-phone: '-'
+phone: '-,'
 mobile: ''
 email: ''
 website: ''
@@ -22,5 +22,18 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
 Hollonghabi is a small independent tea estate a short drive from Digboi town. In this working tea factory guests can witness all the processes from leaf picking to final packing of the tea.     The best way to learn about the tea processing is by staying in the home of Ranjit & Indira Baruah, the owners of the tea estate. They have created two spacious guest rooms in their tea bungalow.  

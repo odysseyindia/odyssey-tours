@@ -6,13 +6,16 @@ mailto: ''
 address: 'Mela Kothi Road  Village and P.O. Jarar  District Agra      '
 city: Bah
 postalcode: 283 104
-phone: '-'
+phone: '-,99970 66002, 98374 15512'
 mobile: 99970 66002, 98374 15512
 email: rpsjarar@chambalsafari.com
 website: www.chambalsafari.com
 note: ''
 type: hotel
 category:
+  - H
+  - COM
+  - A
   - WEB
 showHotel: 0
 starCategory: 0
@@ -95,5 +98,36 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2018-2019
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.chambalsafari.com
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Mela Kothi was once a 'camp office' for the aristocratic family of nearby Jarar, used when they organised the Bateshwar fair. It is now a comfortable eco-lodge run by the family, who are also conservationists, and this is a fabulous place for birders in particular. The suites and cottages are spread out under ancient trees, separated by pleasant lawns and tree-canopied pathways. Farm-to-table meals are served every day.  Once the farm for the local royal family, the Retreat still has an extensive organic vegetable garden, and the meals are served in different alfresco spots around the property. A great space to relax after days of culture and monuments!

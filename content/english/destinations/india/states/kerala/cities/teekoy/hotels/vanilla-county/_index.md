@@ -6,13 +6,16 @@ mailto: ''
 address: Mavady Estate  Kottayam District
 city: Teekoy
 postalcode: 686 580
-phone: 4822-281 225
+phone: 4822-281 225,
 mobile: ''
 email: vanillacounty@gmail.com
 website: vanillacounty.in
 note: ''
 type: hotel
 category:
+  - H
+  - HS
+  - ST
   - WEB
 showHotel: 0
 starCategory: 0
@@ -167,5 +170,36 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: ''
+gstType: 1
+gstin: 32AHSPM7259E1Z1
+www: vanillacounty.in
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Vanilla County is a colonial bungalow with sloping roofs, belonging to the very warm couple Rani and Baby Mathew. They provide a wonderful homestay in the centre of a working plantation of vanilla, coffee and rubber. Rani is a gifted cook and the meals from her immaculate kitchen are a delight. 

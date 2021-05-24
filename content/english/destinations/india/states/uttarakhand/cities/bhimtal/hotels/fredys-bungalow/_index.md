@@ -6,13 +6,15 @@ mailto: ''
 address: June State Road
 city: Bhimtal
 postalcode: 263 136
-phone: '-'
+phone: '-,98187 05508'
 mobile: 98187 05508
 email: ''
 website: https://www.itmenaanlodges.com/fredys-bungalow/
 note: ''
 type: hotel
 category:
+  - H
+  - ST
   - WEB
 showHotel: 0
 starCategory: 0
@@ -59,5 +61,30 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: https://www.itmenaanlodges.com/fredys-bungalow/
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This colonial-style homestead nestles among cypress and deodar trees, on a peaceful wooded hillside overlooking the Bhimtal valley. This peaceful, cosy haven is a birder's and butterfly-watcher's paradise, and a haven for writers seeking a retreat.

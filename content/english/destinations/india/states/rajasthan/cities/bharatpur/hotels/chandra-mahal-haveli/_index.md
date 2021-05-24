@@ -6,7 +6,7 @@ mailto: Chandra Mahal Haveli
 address: Peharsar  Jaipur-Agra Road  Nadbai Tehsil
 city: Bharatpur
 postalcode: 321 001
-phone: 5643-264336
+phone: 5643-264336,
 mobile: ''
 email: resv@chandramahalhaveli.com
 website: www.chandramahalhaveli.com
@@ -26,7 +26,7 @@ advantage: >-
 rooms: 23
 rates:
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -62,7 +62,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -98,7 +98,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -134,7 +134,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -169,5 +169,18 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+ranking: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.chandramahalhaveli.com
+web: 1
+mailTo: Chandra Mahal Haveli
 ---
+
+
+
+
+
+
 A charming 19th century haveli in a rural setting, 25 km from Bharatpur. Constructed in Mughal style with scalloped arches in red stone and beautiful white stuccoed walls, there is a central courtyard with a marble fountain and numerous balconies. There are 23 rooms, fairly small and simple but nicely decorated with Rajasthani fabrics.

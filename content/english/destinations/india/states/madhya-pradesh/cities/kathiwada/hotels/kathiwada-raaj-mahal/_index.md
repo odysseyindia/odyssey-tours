@@ -6,13 +6,15 @@ mailto: ''
 address: '1 Raaj Mahal  Palace Road  '
 city: Kathiwada
 postalcode: 457 885
-phone: '-'
+phone: '-,'
 mobile: ''
 email: gm@kathiwada.com
 website: https://www.kathiwadaraajmahal.com/
 note: ''
 type: hotel
 category:
+  - H
+  - SH
   - WEB
 showHotel: 0
 starCategory: 0
@@ -131,5 +133,30 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: https://www.kathiwadaraajmahal.com/
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This former hunting lodge, built in the 19th century, sits pretty amid 120 acres of private orchards. The suites have been restored but retain an old-world charm, and the common areas are studded with photographs and modern art, and particularly hunting memorabilia. The peaceful grounds are great for meditation and yoga, and the forests around are excellent for birding. A special stay in an undiscovered part of India.

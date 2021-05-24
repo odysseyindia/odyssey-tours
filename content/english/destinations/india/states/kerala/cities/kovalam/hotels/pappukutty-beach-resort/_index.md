@@ -6,7 +6,7 @@ mailto: ''
 address: Light House Road  Vizhinjam P.O.
 city: Kovalam
 postalcode: 695 027
-phone: 471-2480 235
+phone: 471-2480 235,
 mobile: ''
 email: nadarajan@hotmail.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

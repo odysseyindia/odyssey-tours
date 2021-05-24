@@ -6,14 +6,17 @@ mailto: ''
 address: P.O. Sarekha  Narna
 city: Kanha
 postalcode: 481 111
-phone: '-9810192192'
+phone: '-9810192192,'
 mobile: ''
 email: ''
 website: https://www.kanhaearthlodge.com
 note: ''
 type: hotel
 category:
+  - H
+  - A
   - WEB
+  - COM
 showHotel: 0
 starCategory: 0
 checkout: ''
@@ -99,5 +102,36 @@ rates:
       rates copied from 2019-2020  Mandatory New Year's Eve dinner: Rs 3,000/-
       p.p.  Mandatory 3-nights' stay over New Year Eve
     agentCommission: 0
+bookThrough: Pugdundee Safaris
+gstType: 0
+gstin: ''
+www: https://www.kanhaearthlodge.com
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Kanha Earth Lodge is a luxurious, eco-friendly wildlife resort, tucked in a small hamlet not far from Kanha's Khatiya Gate. The very pleasant, characterful cottages are made from local materials, including waste wood, and offer a nice place to relax in after a game drive, and the cosy common lounge, bar and restaurant (using produce from their organic farm) make it a fun place to stay. 

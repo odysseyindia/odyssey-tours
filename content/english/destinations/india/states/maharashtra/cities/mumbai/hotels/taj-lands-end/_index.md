@@ -6,7 +6,7 @@ mailto: ''
 address: 'Band Stand  Bandra (West)       '
 city: Mumbai
 postalcode: 400 050
-phone: 22-6668 1234
+phone: 22-6668 1234,
 mobile: ''
 email: ''
 website: http://www.tajhotels.com/Luxury/City-Hotels/Taj-Lands-End-Mumbai
@@ -1103,4 +1103,17 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://www.tajhotels.com/Luxury/City-Hotels/Taj-Lands-End-Mumbai
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

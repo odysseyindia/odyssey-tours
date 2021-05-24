@@ -6,7 +6,7 @@ mailto: ''
 address: Andheri Kurla Road  International Airport Zone  Andheri East
 city: Mumbai
 postalcode: 400 059
-phone: 22-2827 0707, 6151 7555
+phone: 22-2827 0707, 6151 7555,
 mobile: ''
 email: resvmumbai@khil.com
 website: http://www.vitshotels.com/mumbai/
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://www.vitshotels.com/mumbai/
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

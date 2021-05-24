@@ -6,7 +6,7 @@ mailto: ''
 address: Assi Ghat
 city: Varanasi
 postalcode: ''
-phone: 542-2311305
+phone: 542-2311305,
 mobile: ''
 email: ''
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

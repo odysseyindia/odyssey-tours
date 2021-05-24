@@ -6,14 +6,15 @@ mailto: ''
 address: 'East of Muhamma Police Station  Muhamma P.O.      '
 city: Alleppey
 postalcode: 688 525
-phone: '-'
+phone: '-,'
 mobile: ''
 email: ''
 website: http://malabarhouse.com/purity-muhamma/index.html
 note: ''
-ranking: '2'
+ranking: 2
 type: hotel
 category:
+  - H
   - SH
 showHotel: 0
 starCategory: 3
@@ -23,5 +24,23 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 14
+bookThrough: The Malabar House
+gstType: 0
+gstin: ''
+www: http://malabarhouse.com/purity-muhamma/index.html
+web: 0
+mailTo: ''
 ---
+
+
+
+
+
+
+
+
+
+
+
+
 A serene, romantic waterfront retreat on palm-fringed Lake Vembanad, Purity's rooms all offer terraces or balconies overlooking the lake. The art gallery-like hotel showcases plenty of antiques and modern art, and the idyllic lakeside garden houses a waterfront pavilion for arrival and departure by boat, a stunning pool, as well as an ayurvedic spa and yoga space.

@@ -6,7 +6,7 @@ mailto: ''
 address: 14/7 Mahatma Gandhi Road,
 city: Bangalore
 postalcode: 560 042
-phone: 80-2559 4666
+phone: 80-2559 4666,
 mobile: ''
 email: resv.blr@theparkhotels.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Kerala Adventures Pvt Ltd
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

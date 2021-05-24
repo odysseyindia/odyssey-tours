@@ -6,13 +6,15 @@ mailto: ''
 address: 'Village Naugaon  Tehsil Bhanoli  '
 city: Binsar
 postalcode: 263 623
-phone: '-'
+phone: '-,98187 05508'
 mobile: 98187 05508
 email: ''
 website: https://www.itmenaanlodges.com/itmenaan-estate/
 note: ''
 type: hotel
 category:
+  - H
+  - ST
   - WEB
 showHotel: 0
 starCategory: 0
@@ -59,5 +61,30 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: Itmenaan Lodges Pvt Ltd
+gstType: 0
+gstin: ''
+www: https://www.itmenaanlodges.com/itmenaan-estate/
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Itmenaan Estate is a fairytale resort near Binsar, one of the most beautiful spots in the Kumaon Himalayas. The 10-acre resort includes virgin pine, oak and rhododendron trees and even a little natural spring. This restored 100-year-old house offers panoramic views of the Himalayas including the majestic Nanda Devi, and plenty of pleasant walks around - or just a delightful place to put your feet up and enjoy Kumaoni hospitality.

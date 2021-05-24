@@ -6,7 +6,7 @@ mailto: ''
 address: H.No 955, La Vie En Rose Pequen  Peddem, Anjuna
 city: Goa
 postalcode: 403 509
-phone: 832-645 2601, 227 4848
+phone: 832-645 2601, 227 4848,98223 88283
 mobile: 98223 88283
 email: michelegoa@gmail.com
 website: https://michelesgardencafe.wordpress.com/
@@ -59,4 +59,17 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: https://michelesgardencafe.wordpress.com/
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

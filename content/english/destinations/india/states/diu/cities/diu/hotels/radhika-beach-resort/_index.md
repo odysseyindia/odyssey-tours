@@ -6,13 +6,16 @@ mailto: ''
 address: Nagoa
 city: Diu
 postalcode: 362 520
-phone: 2875-25 2553-55
+phone: 2875-25 2553-55,99248 85555, 98244 18555
 mobile: 99248 85555, 98244 18555
 email: 'radhikaresort@gmail.com  info@radhikaresort.com  '
 website: www.radhikaresort.com
 note: ''
 type: hotel
 category:
+  - H
+  - ST
+  - RIK
   - WEB
 showHotel: 1
 starCategory: 0
@@ -24,7 +27,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Classic Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -62,7 +65,7 @@ rates:
       Time.
     agentCommission: 0
   - roomType: Comfort Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -100,7 +103,7 @@ rates:
       Time.
     agentCommission: 0
   - roomType: Classic Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -138,7 +141,7 @@ rates:
       such as Diwali, and New Year Time.
     agentCommission: 0
   - roomType: Comfort Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -175,5 +178,36 @@ rates:
       rates copied from 2019-2020  Rates are not valid during festive period
       such as Diwali, and New Year Time.
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.radhikaresort.com
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 With double storied tile roofed villas surrounding a paved garden and swimming pool, this is generally considered the best hotel in Diu. It is located on Diu's best beach - Nagoa. The rooms are spacious and imaginatively done up. Radhika Beach Resort also features a swimming pool, health club and indoor games.

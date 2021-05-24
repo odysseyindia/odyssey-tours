@@ -6,13 +6,16 @@ mailto: ''
 address: Ranthambore Road
 city: Sawai Madhopur
 postalcode: 322 001
-phone: 7462-223456, 221176, 223606
+phone: 7462-223456, 221176, 223606,
 mobile: ''
 email: regency@Ranthambhor.com   ranthambhoreregency@gmail.com
 website: http://www.ranthambhor.com
 note: ''
 type: hotel
 category:
+  - H
+  - A
+  - COM
   - RIK
 showHotel: 0
 starCategory: 0
@@ -95,5 +98,36 @@ rates:
     specialPeriod: 0
     notes: 'Christmas Eve: Rs 2,500 p.p. + tax  New Year''s Eve: Rs 3,000 p.p. + tax'
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://www.ranthambhor.com
+web: 0
+mailTo: ''
+ranking: 2
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 The largest of the hotels close to Ranthambore National Park, the Regency Resort has 70 large, well-appointed and immaculate rooms, a swimming pool, a bar, and a large restaurant where varied hearty buffet meals are served. It provides an efficient and comfortable base for relaxing before and after safaris.

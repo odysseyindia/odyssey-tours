@@ -6,7 +6,7 @@ mailto: ''
 address: P.B. No. 2, Appelby Road  Wellington  The Nilgiris
 city: Ootacamund (Ooty)
 postalcode: 643 232
-phone: '423-31 512, 31 742, '
+phone: 423-31 512, 31 742, ,
 mobile: ''
 email: sacsbcc@giasmd01.vsnl.net.in
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

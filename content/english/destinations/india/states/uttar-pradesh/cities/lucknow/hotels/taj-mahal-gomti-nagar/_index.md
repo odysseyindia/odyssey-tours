@@ -6,18 +6,19 @@ mailto: ''
 address: Vipin Khand  Gomti Nagar
 city: Lucknow
 postalcode: 226 010
-phone: 522-671 1000
+phone: 522-671 1000,
 mobile: ''
 email: ''
 website: http://www.vivantabytaj.com/Gomti-Nagar-Lucknow
 note: ''
-ranking: '2'
+ranking: 2
 type: hotel
 category:
+  - H
   - COM
 showHotel: 1
 starCategory: 5
-checkout: '12:00:00'
+checkout: 12.00 Noon
 accessRail: 7 kms. from Charbagh Railway Station
 accessAir: 18 kms. from Airport
 accessBus: ''
@@ -244,5 +245,23 @@ rates:
       24/12 dinner & 25/12 lunch: 1500 pp + taxes  31/12 Dinner & 01/01 brunch:
       2500 pp + taxes
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: http://www.vivantabytaj.com/Gomti-Nagar-Lucknow
+web: 1
+mailTo: ''
 ---
+
+
+
+
+
+
+
+
+
+
+
+
 Lucknow's most luxurious hotel. The Taj Residency is set in 33 acres of lavish landscaped gardens on the banks of the river Gomti. The elegant rooms either overlook the blooming gardens or the swimming pool. There are three restaurants, including one serving authentic Awadhi cuisine.

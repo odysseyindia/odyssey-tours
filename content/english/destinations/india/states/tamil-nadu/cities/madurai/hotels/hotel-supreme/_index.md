@@ -6,7 +6,7 @@ mailto: ''
 address: '110, West Perumal Maistry Street  '
 city: Madurai
 postalcode: 625 001
-phone: 452-2343 151- 4, 5372 555
+phone: 452-2343 151- 4, 5372 555,
 mobile: ''
 email: hsupreme@sancharnet.in
 website: supremehotels.com
@@ -22,4 +22,17 @@ accessAir: 12 kms. from Airport
 accessBus: ''
 advantage: Near to Commercial centre, Shopping Area & Meenakshi Temple
 rooms: 69
+ranking: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: supremehotels.com
+web: 0
+mailTo: ''
 ---
+
+
+
+
+
+

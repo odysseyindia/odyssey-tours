@@ -6,14 +6,17 @@ mailto: ''
 address: 'Bheeramballi Village and Post  H. D. Kote Taluk  Mysore District   '
 city: Nagarhole
 postalcode: 571 116
-phone: 8228-269 100
+phone: 8228-269 100,
 mobile: ''
 email: kabini@evolveback.com
 website: https://www.evolveback.com/kabini/
 note: ''
 type: hotel
 category:
+  - H
+  - SH
   - WEB
+  - A
 showHotel: 0
 starCategory: 0
 checkout: ''
@@ -119,120 +122,6 @@ rates:
     extraBedPT: 0
     wef: '2019-10-01T00:00:00'
     wet: '2019-12-22T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Jacuzzi Hut
-    defaultAc: 1
-    specialPeriod: 0
-    notes: >-
-      Different rates apply for a 2 or 3 nights' stay.  Extra commission for
-      using multiple group resorts.  See the quotation mail from the hotel.
-    agentCommission: 0
-  - roomType: Pool Reserve
-    mealPlan: Fullboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 33000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 33000
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 4000
-    extraBedPT: 0
-    wef: '2020-01-01T00:00:00'
-    wet: '2020-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Jacuzzi Hut
-    defaultAc: 1
-    specialPeriod: 0
-    notes: >-
-      Different rates apply for a 2 or 3 nights' stay.  Extra commission for
-      using multiple group resorts.  See the quotation mail from the hotel.
-    agentCommission: 0
-  - roomType: Pool Hut
-    mealPlan: Fullboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 30000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 30000
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 4000
-    extraBedPT: 0
-    wef: '2020-01-01T00:00:00'
-    wet: '2020-09-30T00:00:00'
-    fromPax: 1
-    toPax: 15
-    git: 0
-    serviceCharges: 0
-    commission: 0
-    commissionPT: 0
-    commissionOnPlan: 0
-    commissionOnPlanPT: 0
-    serviceChargesOnPlan: 0
-    blackout: 0
-    dayOfTheWeek: 127
-    defaultRoomType: Jacuzzi Hut
-    defaultAc: 1
-    specialPeriod: 0
-    notes: >-
-      Different rates apply for a 2 or 3 nights' stay.  Extra commission for
-      using multiple group resorts.  See the quotation mail from the hotel.
-    agentCommission: 0
-  - roomType: Jacuzzi Hut
-    mealPlan: Fullboard
-    mealPlanPT: ''
-    currency: INR
-    currencyPT: INR
-    costSingle: 0
-    costSinglePT: 0
-    costSingleAc: 27000
-    costSingleAcPT: 0
-    costDouble: 0
-    costDoublePT: 0
-    costDoubleAc: 27000
-    costDoubleAcPT: 0
-    nett: 1
-    nettPT: 0
-    freeTransfer: 0
-    extraBed: 4000
-    extraBedPT: 0
-    wef: '2020-01-01T00:00:00'
-    wet: '2020-09-30T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -486,19 +375,19 @@ rates:
     currencyPT: INR
     costSingle: 0
     costSinglePT: 0
-    costSingleAc: 31000
+    costSingleAc: 33000
     costSingleAcPT: 0
     costDouble: 0
     costDoublePT: 0
-    costDoubleAc: 31000
+    costDoubleAc: 33000
     costDoubleAcPT: 0
     nett: 1
     nettPT: 0
     freeTransfer: 0
-    extraBed: 6000
+    extraBed: 4000
     extraBedPT: 0
-    wef: '2020-10-01T00:00:00'
-    wet: '2020-12-22T00:00:00'
+    wef: '2020-01-01T00:00:00'
+    wet: '2020-09-30T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -524,19 +413,19 @@ rates:
     currencyPT: INR
     costSingle: 0
     costSinglePT: 0
-    costSingleAc: 29000
+    costSingleAc: 30000
     costSingleAcPT: 0
     costDouble: 0
     costDoublePT: 0
-    costDoubleAc: 29000
+    costDoubleAc: 30000
     costDoubleAcPT: 0
     nett: 1
     nettPT: 0
     freeTransfer: 0
-    extraBed: 6000
+    extraBed: 4000
     extraBedPT: 0
-    wef: '2020-10-01T00:00:00'
-    wet: '2020-12-22T00:00:00'
+    wef: '2020-01-01T00:00:00'
+    wet: '2020-09-30T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -562,19 +451,19 @@ rates:
     currencyPT: INR
     costSingle: 0
     costSinglePT: 0
-    costSingleAc: 26000
+    costSingleAc: 27000
     costSingleAcPT: 0
     costDouble: 0
     costDoublePT: 0
-    costDoubleAc: 26000
+    costDoubleAc: 27000
     costDoubleAcPT: 0
     nett: 1
     nettPT: 0
     freeTransfer: 0
-    extraBed: 6000
+    extraBed: 4000
     extraBedPT: 0
-    wef: '2020-10-01T00:00:00'
-    wet: '2020-12-22T00:00:00'
+    wef: '2020-01-01T00:00:00'
+    wet: '2020-09-30T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -611,8 +500,8 @@ rates:
     freeTransfer: 0
     extraBed: 6000
     extraBedPT: 0
-    wef: '2021-01-01T00:00:00'
-    wet: '2021-09-30T00:00:00'
+    wef: '2020-10-01T00:00:00'
+    wet: '2020-12-22T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -649,8 +538,8 @@ rates:
     freeTransfer: 0
     extraBed: 6000
     extraBedPT: 0
-    wef: '2021-01-01T00:00:00'
-    wet: '2021-09-30T00:00:00'
+    wef: '2020-10-01T00:00:00'
+    wet: '2020-12-22T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -687,8 +576,8 @@ rates:
     freeTransfer: 0
     extraBed: 6000
     extraBedPT: 0
-    wef: '2021-01-01T00:00:00'
-    wet: '2021-09-30T00:00:00'
+    wef: '2020-10-01T00:00:00'
+    wet: '2020-12-22T00:00:00'
     fromPax: 1
     toPax: 15
     git: 0
@@ -935,5 +824,150 @@ rates:
       Different rates apply for a 2 or 3 nights' stay.  Extra commission for
       using multiple group resorts.  See the quotation mail from the hotel.
     agentCommission: 0
+  - roomType: Pool Reserve
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 31000
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 31000
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 6000
+    extraBedPT: 0
+    wef: '2021-01-01T00:00:00'
+    wet: '2021-09-30T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Jacuzzi Hut
+    defaultAc: 1
+    specialPeriod: 0
+    notes: >-
+      Different rates apply for a 2 or 3 nights' stay.  Extra commission for
+      using multiple group resorts.  See the quotation mail from the hotel.
+    agentCommission: 0
+  - roomType: Pool Hut
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 29000
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 29000
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 6000
+    extraBedPT: 0
+    wef: '2021-01-01T00:00:00'
+    wet: '2021-09-30T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Jacuzzi Hut
+    defaultAc: 1
+    specialPeriod: 0
+    notes: >-
+      Different rates apply for a 2 or 3 nights' stay.  Extra commission for
+      using multiple group resorts.  See the quotation mail from the hotel.
+    agentCommission: 0
+  - roomType: Jacuzzi Hut
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 26000
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 26000
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 6000
+    extraBedPT: 0
+    wef: '2021-01-01T00:00:00'
+    wet: '2021-09-30T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Jacuzzi Hut
+    defaultAc: 1
+    specialPeriod: 0
+    notes: >-
+      Different rates apply for a 2 or 3 nights' stay.  Extra commission for
+      using multiple group resorts.  See the quotation mail from the hotel.
+    agentCommission: 0
+bookThrough: Evolve Back Resorts
+gstType: 1
+gstin: 29AACCT1334P1ZZ
+www: https://www.evolveback.com/kabini/
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This luxury lodge is built in authentic tribal village style. Each thatched hut has a plunge pool or jacuzzi in a private, open-to-sky courtyard. The resort is in the heart of the tribal area of Nagarhole forest, surrounded on three sides by the Kabini river. It's a wonderful, luxurious option in Nagarhole, with an infinity pool, two very good restaurants, and activities like a night walk to look for smaller wildlife.

@@ -6,7 +6,7 @@ mailto: ''
 address: 1, Panchdevri Marg  Outside Chandpole
 city: Udaipur
 postalcode: 313 001
-phone: 294-2432 801-03, 2431 732
+phone: 294-2432 801-03, 2431 732,
 mobile: ''
 email: pummy_rock@hotmail.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

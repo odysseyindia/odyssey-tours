@@ -6,7 +6,7 @@ mailto: ''
 address: Thirunakkara, Kottayam
 city: Kottayam
 postalcode: 686 001
-phone: 481-581 440, 580 210, 580 710
+phone: 481-581 440, 580 210, 580 710,
 mobile: ''
 email: aiswarya_int@yahoo.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

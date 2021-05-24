@@ -6,7 +6,7 @@ mailto: ''
 address: ''
 city: Amritsar
 postalcode: ''
-phone: '-'
+phone: '-,'
 mobile: ''
 email: office@summit-adventures.net  milap@summit-adventures.net
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Summit Adventures
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

@@ -6,7 +6,7 @@ mailto: ''
 address: Lower Samdur Block  Ranipool
 city: Gangtok
 postalcode: 737 135
-phone: 3592-250 555
+phone: 3592-250 555,
 mobile: ''
 email: ''
 website: www.mayfairhotels.com
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Mayfair Hotels & Resorts
+gstType: 0
+gstin: ''
+www: www.mayfairhotels.com
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

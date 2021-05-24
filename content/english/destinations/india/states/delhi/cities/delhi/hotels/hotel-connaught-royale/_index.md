@@ -6,16 +6,17 @@ mailto: ''
 address: '106, Babar Road  Opp. World Trade Center  Connaught Place      '
 city: Delhi
 postalcode: 110 001
-phone: '-'
+phone: '-,90691 45070'
 mobile: 90691 45070
 email: sales@connaughtroyale.com  reservations@connaughtroyale.com
 website: >-
   www.connaughtroyale.com  www.connaughtroyale.com  www.connaughtroyale.com 
   www.connaughtroyale.com
 note: ''
-ranking: '5'
+ranking: 5
 type: hotel
 category:
+  - H
   - ST
 showHotel: 0
 starCategory: 0
@@ -27,7 +28,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -63,7 +64,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -98,5 +99,25 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: >-
+  www.connaughtroyale.com  www.connaughtroyale.com  www.connaughtroyale.com 
+  www.connaughtroyale.com
+web: 0
+mailTo: ''
 ---
+
+
+
+
+
+
+
+
+
+
+
+
 Located at the heart of the capital city, Hotel Connaught Royale is a very pleasant hotel, a few minutes’s walk from Connaught Place and the Airport Express Line Metro Station, and convenient for Old Delhi. The rooms are not large but are clean, modern and very stylish, and the cafe in the lobby offers good multi-cuisine fare. 

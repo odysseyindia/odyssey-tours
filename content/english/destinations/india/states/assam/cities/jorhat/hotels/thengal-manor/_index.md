@@ -6,13 +6,18 @@ mailto: ''
 address: Jalukonibari
 city: Jorhat
 postalcode: ''
-phone: '-'
+phone: '-,'
 mobile: ''
 email: heritagenortheast@gmail.com  uttara@barooahs.in  hne@barooahs.com
 website: www.heritagetourismindia.com
 note: ''
 type: hotel
 category:
+  - H
+  - COM
+  - HH
+  - WEB
+  - A
   - RIK
 showHotel: 0
 starCategory: 0
@@ -171,5 +176,48 @@ rates:
       rates copied from 2019-2020  The rate for a Colonial Deluxe Suite has not
       been updated as yet
     agentCommission: 0
+bookThrough: ''
+gstType: 1
+gstin: 18AABCH3337B1Z1
+www: www.heritagetourismindia.com
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 The best place to stay in Jorhat is Thengal Manor, the colonial-era family home of one of Assam's leading planter families. The architecture with its colonnaded verandah, chandeliered sit-out overlooking lush lawns, fireplace and Louis XV furniture, is an immediate throwback to opulent Raj times. High ceilings, family photos, stately furniture, carpets and the stunning collection of art add atmosphere.

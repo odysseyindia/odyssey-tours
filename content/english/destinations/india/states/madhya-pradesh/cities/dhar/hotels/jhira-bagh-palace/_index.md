@@ -6,13 +6,14 @@ mailto: ''
 address: Mandu Road
 city: Dhar
 postalcode: 454 001
-phone: 7292-255 6183
+phone: 7292-255 6183,
 mobile: ''
 email: jhiraplc@sancharnet.in
 website: www.jhirapalace.co.in
 note: ''
 type: hotel
 category:
+  - H
   - HH
 showHotel: 1
 starCategory: 0
@@ -167,5 +168,24 @@ rates:
     specialPeriod: 0
     notes: TDS 5% applicable
     agentCommission: 0
+bookThrough: Jhira Bagh Reservations Office
+gstType: 0
+gstin: ''
+www: www.jhirapalace.co.in
+web: 1
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
+
+
+
+
+
+
 Built in 1860 for the Maharaja of the princely state of Dhar, this palace was upgraded in 1945. Now it stands as an excellent example of Art Deco and Bauhaus styles with a smooth dove-grey exterior, large open spaces and minimalist furniture. The palace is set amongst acres of gardens and farm and orchard land, and offers a cool oasis (with excellent food and service) in the dry Malwa landscape.

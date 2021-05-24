@@ -8,7 +8,7 @@ address: >-
   Express Highway  Santacruz (East)
 city: Mumbai
 postalcode: 400 099
-phone: '-'
+phone: '-,'
 mobile: ''
 email: Naira.Dsouza@tajhotels.com
 website: ''
@@ -565,4 +565,17 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

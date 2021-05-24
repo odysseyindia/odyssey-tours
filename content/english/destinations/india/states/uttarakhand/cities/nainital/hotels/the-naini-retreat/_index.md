@@ -6,13 +6,14 @@ mailto: ''
 address: 'Ayarpatta Slopes  Mallital    '
 city: Nainital
 postalcode: 263 001
-phone: 5942-235105-08
+phone: 5942-235105-08,
 mobile: ''
 email: ''
 website: ''
 note: ''
 type: hotel
 category:
+  - H
   - HH
 showHotel: 1
 starCategory: 0
@@ -24,7 +25,7 @@ advantage: Lakeside View
 rooms: 38
 rates:
   - roomType: Superior Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -62,5 +63,24 @@ rates:
       to 8 oct,10 nov to 12 nov,23-26 dec,30 dec to 2 jan,21-23 jan, 8-10 march.
       Min 2 nights applicable in April, May & June
     agentCommission: 0
+bookThrough: Leisure Hotels Ltd
+gstType: 0
+gstin: ''
+www: ''
+web: 1
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+
+
+
+
+
+
+
 The Naini Retreat is one of the finest hotels in Nainital. Once the residence of the Maharaja of Pilbhit, it is an aristocratic building with a peaceful and soothing ambience. Beautifully situated high above the lake, with extensive and immaculate grounds, the hotel's rooms have tasteful furnishings. The dining room offers lovely views of the Alpine scenery.

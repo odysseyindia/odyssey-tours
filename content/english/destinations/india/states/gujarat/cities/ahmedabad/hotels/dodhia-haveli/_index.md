@@ -8,7 +8,7 @@ address: >-
   Kalupur
 city: Ahmedabad
 postalcode: 380 001
-phone: '-'
+phone: '-,99789 10730'
 mobile: 99789 10730
 email: ''
 website: ''
@@ -24,4 +24,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Indo West Tours
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

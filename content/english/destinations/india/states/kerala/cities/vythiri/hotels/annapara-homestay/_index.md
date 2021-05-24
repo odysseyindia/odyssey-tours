@@ -48,4 +48,16 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+address: Wayanad
+city: Vythiri
+postalcode: 673 576
+phone: '-,94430 69697, 94430 23320'
+gstType: 0
+gstin: ''
+email: annaparahomestay@gmail.com
+www: http://www.annaparahomestay.com
+note: ''
+web: 0
+mailTo: ''
 ---

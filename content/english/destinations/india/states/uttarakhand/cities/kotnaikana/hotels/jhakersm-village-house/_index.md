@@ -6,13 +6,15 @@ mailto: ''
 address: 'Pithoragarh-Almora Road  Jageshwar Range  Almora district  '
 city: Kotnaikana
 postalcode: 263 623
-phone: '-'
+phone: '-,98187 05508'
 mobile: 98187 05508
 email: ''
 website: ''
 note: ''
 type: hotel
 category:
+  - H
+  - ST
   - WEB
 showHotel: 0
 starCategory: 0
@@ -59,5 +61,30 @@ rates:
     specialPeriod: 0
     notes: 0
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 In the midst of oak, rhododendron, pine, and deodar forest is a painstakingly renovated old house, now a two-bedroom homestay that's a treat for nature lovers.

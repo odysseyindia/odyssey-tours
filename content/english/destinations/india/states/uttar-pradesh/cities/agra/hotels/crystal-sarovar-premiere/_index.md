@@ -6,7 +6,7 @@ mailto: ''
 address: Fatehabad Road
 city: Agra
 postalcode: 282 001
-phone: 562-7110711
+phone: 562-7110711,
 mobile: ''
 email: fom@crystalsarovaragra.com
 website: http://www.sarovarhotels.com/agra-hotels/crystal-sarovar-premiere
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Sarovar Hotels & Resorts
+gstType: 0
+gstin: ''
+www: http://www.sarovarhotels.com/agra-hotels/crystal-sarovar-premiere
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

@@ -6,13 +6,15 @@ mailto: ''
 address: Goyghat, Har Ki Pouri
 city: Haridwar
 postalcode: 249 401
-phone: 1334-220017, 220018
+phone: 1334-220017, 220018,
 mobile: ''
 email: ''
 website: ''
 note: ''
 type: hotel
 category:
+  - H
+  - ST
   - RIK
 showHotel: 0
 starCategory: 0
@@ -24,7 +26,7 @@ advantage: ''
 rooms: 0
 rates:
   - roomType: Superior Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -62,7 +64,7 @@ rates:
       be 25% cheaper.  Transfers by private rickshaw included.
     agentCommission: 0
   - roomType: River View Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -100,7 +102,7 @@ rates:
       be 25% cheaper.  Transfers by private rickshaw included.
     agentCommission: 0
   - roomType: Superior Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -138,7 +140,7 @@ rates:
       be 25% cheaper.  Transfers by private rickshaw included.
     agentCommission: 0
   - roomType: River View Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -176,7 +178,7 @@ rates:
       be 25% cheaper.  Transfers by private rickshaw included.
     agentCommission: 0
   - roomType: Superior Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -214,7 +216,7 @@ rates:
       be 25% cheaper.  Transfers by private rickshaw included.
     agentCommission: 0
   - roomType: River View Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -252,7 +254,7 @@ rates:
       be 25% cheaper.  Transfers by private rickshaw included.
     agentCommission: 0
   - roomType: Superior Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -291,7 +293,7 @@ rates:
       rickshaw included.
     agentCommission: 0
   - roomType: River View Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -330,7 +332,7 @@ rates:
       rickshaw included.
     agentCommission: 0
   - roomType: Superior Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -369,7 +371,7 @@ rates:
       rickshaw included.
     agentCommission: 0
   - roomType: River View Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -408,7 +410,7 @@ rates:
       rickshaw included.
     agentCommission: 0
   - roomType: Superior Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -447,7 +449,7 @@ rates:
       rickshaw included.
     agentCommission: 0
   - roomType: River View Suite
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -485,5 +487,30 @@ rates:
       dates. On other dates, rates may be 25% cheaper.  Transfers by private
       rickshaw included.
     agentCommission: 0
+bookThrough: Leisure Hotels Ltd
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 2
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 In a very central location, the small entrance and staircase - off the main market street - does little to prepare you for the grandeur of the building above. There is a verandah overlooking the busy ghat and river below, a lovely place to sit. The rooms are large, and some feature antique furniture. There is a restaurant, and the hotel offers various activities to help you to get the most out of your stay in Haridwar. 

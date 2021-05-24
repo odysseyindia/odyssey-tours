@@ -6,13 +6,15 @@ mailto: ''
 address: Tangste
 city: Tangste
 postalcode: ''
-phone: '-'
+phone: '-,'
 mobile: ''
 email: ''
 website: ''
 note: ''
 type: hotel
 category:
+  - H
+  - ST
   - RIK
 showHotel: 0
 starCategory: 0
@@ -95,5 +97,30 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 5
+bookThrough: Rimo Expeditions
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Pangong Residency is a simple, comfortable hotel, after crossing the Chang-la pass. It is a combination of modern facilities with pretty local architecture, located a half-hour drive from Pangong Lake.

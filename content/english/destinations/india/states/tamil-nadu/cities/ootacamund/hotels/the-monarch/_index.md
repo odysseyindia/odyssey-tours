@@ -6,7 +6,7 @@ mailto: ''
 address: Off Havelock Road  Church Hill
 city: Ootacamund
 postalcode: 643 001
-phone: 423-2444418 / 08
+phone: 423-2444418 / 08,
 mobile: ''
 email: themonarch@sancharnet.in
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Kerala Adventures Pvt Ltd
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

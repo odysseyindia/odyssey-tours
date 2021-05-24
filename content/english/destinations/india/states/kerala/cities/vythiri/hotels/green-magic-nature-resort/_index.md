@@ -6,7 +6,7 @@ mailto: ''
 address: Wayanad
 city: Vythiri
 postalcode: '  '
-phone: '-'
+phone: '-,'
 mobile: ''
 email: ''
 website: www.richsoft.com/tourindia
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.richsoft.com/tourindia
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

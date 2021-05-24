@@ -6,7 +6,7 @@ mailto: ''
 address: Buddha Marg
 city: Kushinagar
 postalcode: 274 403
-phone: 5564-273 096, 273 097
+phone: 5564-273 096, 273 097,
 mobile: ''
 email: >-
   sales@hoteltheimperial.com  info@hoteltheimperial.com 
@@ -15,6 +15,9 @@ website: www.hoteltheimperial.com
 note: ''
 type: hotel
 category:
+  - H
+  - ST
+  - WEB
   - RIK
 showHotel: 0
 starCategory: 0
@@ -98,7 +101,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -134,7 +137,7 @@ rates:
     notes: 0
     agentCommission: 0
   - roomType: Super Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -242,7 +245,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -278,7 +281,7 @@ rates:
     notes: rates copied from 2019-2020
     agentCommission: 0
   - roomType: Super Deluxe Room
-    mealPlan: Bed & breakfast
+    mealPlan: Bed & Breakfast
     mealPlanPT: ''
     currency: INR
     currencyPT: INR
@@ -313,5 +316,36 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: The Imperial Bodh Gaya/Kushinagar booking office
+gstType: 0
+gstin: ''
+www: www.hoteltheimperial.com
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This hotel is one of the best on the "Buddhist Circuit", and it is a pleasant surprise to find such a comfortable and well run property in such a remote area. The staff are very friendly and helpful. The chef is well versed in preparing dishes from throughout Asia to cater to the pilgrims from different Buddhist nations - we recommend asking him for the "Thai Special Meal" - delicious!

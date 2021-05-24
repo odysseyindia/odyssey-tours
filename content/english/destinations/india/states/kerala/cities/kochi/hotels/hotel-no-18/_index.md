@@ -6,7 +6,7 @@ mailto: ''
 address: Near Private Bus Terminal  Fort Kochi
 city: Kochi
 postalcode: ''
-phone: '-'
+phone: '-,'
 mobile: ''
 email: mail@travelcartindia.com  accounts@travelcartindia.com
 website: ''
@@ -22,4 +22,17 @@ accessAir: ''
 accessBus: ''
 advantage: ''
 rooms: 0
+bookThrough: Travelcart India Pvt Ltd
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 0
 ---
+
+
+
+
+
+

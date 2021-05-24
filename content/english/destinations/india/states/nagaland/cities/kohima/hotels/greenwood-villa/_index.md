@@ -6,13 +6,16 @@ mailto: ''
 address: Kohima
 city: Kohima
 postalcode: ''
-phone: '-'
+phone: '-,'
 mobile: ''
 email: explorenagaland@gmail.com
 website: ''
 note: ''
 type: hotel
 category:
+  - H
+  - ST
+  - WEB
   - RIK
 showHotel: 0
 starCategory: 0
@@ -59,5 +62,36 @@ rates:
     specialPeriod: 0
     notes: Booking purpose only
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Greenwood Villa is a welcoming homestay, a little south of Kohima, on the foothills of Mt Japfu. Four simple but comfortable rooms in this family home are let out during the Hornbill Festival, and you have the chance to interact with the family, who are very helpful and informative about the region.

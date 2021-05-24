@@ -6,13 +6,15 @@ mailto: ''
 address: Taj East Gate Road  Taj Nagri Scheme
 city: Agra
 postalcode: '282 001 '
-phone: 562-223 1515
+phone: 562-223 1515,
 mobile: ''
 email: reservations.agra@oberoihotels.com
 website: www.oberoihotels.com
 note: ''
 type: hotel
 category:
+  - H
+  - TL
   - WEB
 showHotel: 1
 starCategory: 5
@@ -169,5 +171,30 @@ rates:
     specialPeriod: 0
     notes: Extra bed provided for children below 12 yrs only
     agentCommission: 0
+bookThrough: Oberoi Contact Centre
+gstType: 0
+gstin: ''
+www: www.oberoihotels.com
+web: 1
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 One of India's most exclusive hotels, the Oberoi Amarvilas is the only hotel in Agra to offer unobstructed views of the Taj Mahal, merely 600 metres away. You have breathtaking views from throughout the complex - from the lobby, the restaurants, the bar, the swimming pool, and all of the sumptuous guest rooms and private balconies. Staying here is a memorable experience which will remain with you forever.

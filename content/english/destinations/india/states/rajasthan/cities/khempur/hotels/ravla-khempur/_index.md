@@ -6,14 +6,18 @@ mailto: ''
 address: Village Khempur  District Udaipur
 city: Khempur
 postalcode: 313 203
-phone: 2955-237154
+phone: 2955-237154,
 mobile: ''
 email: mail@ravlakhempur.com
 website: www.ravlakhempur.com
 note: ''
 type: hotel
 category:
+  - H
+  - HH
+  - ST
   - WEB
+  - A
 showHotel: 0
 starCategory: 0
 checkout: ''
@@ -95,5 +99,42 @@ rates:
     specialPeriod: 0
     notes: rates copied from 2019-2020
     agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: www.ravlakhempur.com
+web: 0
+mailTo: ''
+ranking: 1
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Ravla Khempur is a grand, two-storey haveli, pale yellow in colour, with arched windows trimmed with ornate white carvings. This was the place where The Best Exotic Marigold Hotel was filmed. With a history dating to the early 17th century, the palace was once famed for its stable of fine Marwari horses and is still home to dancing stallions, which perform when requested in front of the magnificent turreted building.
