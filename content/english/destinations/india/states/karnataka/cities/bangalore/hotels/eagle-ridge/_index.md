@@ -1,0 +1,25 @@
+---
+title: Eagle Ridge
+translationKey: eagle-ridge
+bookthrough: ''
+mailto: ''
+address: 16 km. Begur Kopa Road  Bangalore South
+city: Bangalore
+postalcode: 560 068
+phone: '-'
+mobile: ''
+email: ''
+website: ''
+note: ''
+type: hotel
+category:
+  - H
+showHotel: 0
+starCategory: 0
+checkout: ''
+accessRail: ''
+accessAir: ''
+accessBus: ''
+advantage: ''
+rooms: 0
+---

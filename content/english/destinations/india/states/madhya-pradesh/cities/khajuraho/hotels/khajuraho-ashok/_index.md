@@ -1,0 +1,25 @@
+---
+title: Khajuraho Ashok
+translationKey: khajuraho-ashok
+bookthrough: Agra Tours & Travels Pvt Ltd
+mailto: ''
+address: ' '
+city: Khajuraho
+postalcode: 471 606
+phone: 7686-44 024, 44 042, 44 361, 44 336
+mobile: ''
+email: ''
+website: ''
+note: ''
+type: hotel
+category:
+  - H
+showHotel: 1
+starCategory: 3
+checkout: '12:00:00'
+accessRail: 175 kms. from Jhansi Railway Station
+accessAir: 5 kms. from Airport
+accessBus: 1 km. from Bus Stand
+advantage: Walking distance from temples
+rooms: 37
+---

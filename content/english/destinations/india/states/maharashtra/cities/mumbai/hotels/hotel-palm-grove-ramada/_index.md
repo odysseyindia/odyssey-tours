@@ -1,0 +1,25 @@
+---
+title: Hotel Palm Grove - Ramada
+translationKey: hotel-palm-grove-ramada
+bookthrough: ''
+mailto: ''
+address: 'Juhu Beach  '
+city: Mumbai
+postalcode: 400 049
+phone: 22-611 2323
+mobile: ''
+email: palmgrov@giasbm01.vsnl.net.in
+website: ''
+note: ''
+type: hotel
+category:
+  - H
+showHotel: 0
+starCategory: 0
+checkout: ''
+accessRail: ''
+accessAir: ''
+accessBus: ''
+advantage: ''
+rooms: 0
+---

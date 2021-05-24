@@ -1,0 +1,25 @@
+---
+title: Vivanta by Taj - Trivandrum
+translationKey: vivanta-by-taj-trivandrum
+bookthrough: ''
+mailto: ''
+address: C V Raman Pillai Road  Thycaud
+city: Trivandrum
+postalcode: 695 014
+phone: 471-661 2345
+mobile: ''
+email: ''
+website: http://www.vivantabytaj.com/Trivandrum-Kerala
+note: ''
+type: hotel
+category:
+  - H
+showHotel: 0
+starCategory: 0
+checkout: ''
+accessRail: ''
+accessAir: ''
+accessBus: ''
+advantage: ''
+rooms: 0
+---

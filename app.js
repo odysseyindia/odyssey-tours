@@ -274,6 +274,56 @@ app.post('/import',function (req, res) {
    } catch (error) {
     console.log("Route import writing "+state+": " + error.message);
   } 
+
+} else if ( request.file == 'hotels.csv') {
+
+
+     var country   = urlize(array[0]);
+     var state     = urlize(array[1]);
+     var city      = urlize(array[2]);
+
+     var mdfile = dir+'/destinations/'+country+'/states/'+state+'/cities/'+city+'/hotels/'+urlize(array[3])+'/';
+
+     console.log('Processing ',mdfile);
+
+     const made = mkdirp.sync(mdfile);
+     
+     try {
+      var fileContents = fs.readFileSync(mdfile+'_index.md', 'utf8', (err) => {       
+        if (err) throw err; 
+      }) 
+      let contents = fileContents.split("---");
+      var data = yaml.loadAll(contents[1]);
+    } 
+    catch (error) {
+     console.log(mdfile);
+    }
+
+/*
+  0=country 1=state 2=city  3=organisation  4=description 5=showhotel 6=starcategories_id 7=checkout  8=accessrail  9=accessair 10=accessbus 
+  11=advantage 12=rooms
+*/
+     try {
+      data[0].showHotel     = Number(array[5]);
+      data[0].starCategory  = Number(array[6]);
+      data[0].checkout      = array[7];
+      data[0].accessRail    = array[8];
+      data[0].accessAir     = array[9];
+      data[0].accessBus     = array[10];
+      data[0].advantage     = array[11];
+      data[0].rooms         = Number(array[12]);
+      data[1] = array[4].replace(/[`]/g, "'");
+      
+        let output = `---\n` + yaml.dump(data[0]) + "---\n" + data[1] ;
+
+        fs.writeFileSync(mdfile+'_index.md', output, 'utf8', (err) => {       
+          if (err) throw err; 
+        })
+      } catch (err) {
+        console.log("Route import writing "+mdfile+": " + err.message);
+      } 
+
+
 } else if ( request.file == 'hotelrates.csv') {
 
      var state     = urlize(array[0]);
@@ -288,7 +338,7 @@ app.post('/import',function (req, res) {
      const made = mkdirp.sync(mdfile);
      
      try {
-      var fileContents = fs.readFileSync(mdfile+'index.md', 'utf8', (err) => {       
+      var fileContents = fs.readFileSync(mdfile+'_index.md', 'utf8', (err) => {       
         if (err) throw err; 
       }) 
       let contents = fileContents.split("---");
@@ -297,72 +347,70 @@ app.post('/import',function (req, res) {
     catch (error) {
       data[0].title           = array[2];
       data[0].translationKey  = urlize(array[2]);
-      data[0].type            = 'hotels';
+      data[0].type            = 'hotel';
       data[0].id              = 'hotel';
     }
 
     /*
-     0=state, 1=city, 2=organisation, 3=roomtype, 4=mealplan, 5=mealplanPT, hoteltariffs_id, seasons_id, roomtypes_id,
-     9=currencies_id, 10=currencies_pt_id, 11=cost_single, 12=cost_single_pt, 13=cost_single_ac, 14=cost_single_ac_pt,
-     15=cost_double, 16=cost_double_pt, 17=cost_double_ac, 18=cost_double_ac_pt, 19=nett, 20=nett_pt,
-     mealplans_id, mealplans_pt_id, 23=freetransfer, 24=extrabed, 25=extrabed_pt, seasons_id, addressbook_id,
-     28=fromdate, 29=todate, 30=frompax, 31=to_pax, 32=git, 33=servicecharges, 34=tac, 35=tac_pt, 36=taconmealplan,
-     37=taconmealplan_pt, 38=servicechargesonplan, 39=closed, tl_discount, tl_discountabove, tl_freeabove, tl_halfdouble,
-     extrabedcost, policyonescorts_id, 46=dayoftheweek, 47=extrabedpercentage,
-     luxtax, luxtaxonpt, exptax, salestax, salestaxinclusive, 53=default_roomtypes_id, 54=default_ac,
-     exptax_notapplicable, salestaxinclusive_pt, 57=SpecialPeriod, 58=Notes, 59=AgentCommPerc     
+    0=state 1=city  2=organisation  3=roomtype  4=default_roomtype  5=currency  6=currencyPT  7=mealplan  8=mealplanPT  
+    9=cost_single 10=cost_single_pt  11=cost_single_ac  12=cost_single_ac_pt 
+    13=cost_double 14=cost_double_pt  15=cost_double_ac  16=cost_double_ac_pt 
+    17=nett  18=nett_pt 19=freetransfer  20=extrabed  21=extrabed_pt 
+    22=fromdate  23=todate  24=frompax 25=to_pax  26=git 27=servicecharges  
+    28=tac 29=tac_pt  30=taconmealplan 31=taconmealplan_pt  32=servicechargesonplan  33=closed  extrabedcost  
+    35=dayoftheweek  extrabedpercentage  37=default_ac  38=SpecialPeriod 39=Notes 40=AgentCommPerc
      */
-     
+
      try {
       var ratesData = {};
       ratesData.roomType             = array[3];
-      ratesData.mealPlan             = array[4];
-      ratesData.mealPlanPT           = array[5];
-      ratesData.currency             = (array[9] == 13) ? 'INR' : 'USD';
-      ratesData.currencyPT           = (array[10] == 13) ? 'INR' : 'USD';
-      ratesData.costSingle           = Number(array[11]);
-      ratesData.costSinglePT         = Number(array[12]);
-      ratesData.costSingleAc         = Number(array[13]);
-      ratesData.costSingleAcPT       = Number(array[14]);
-      ratesData.costDouble           = array[15];
-      ratesData.costDoublePT         = array[16];
-      ratesData.costDoubleAc         = array[17];
-      ratesData.costDoubleAcPT       = array[18];
-      ratesData.nett                 = array[19] || 0;
-      ratesData.nettPT               = array[20] || 0;
-      ratesData.freeTransfer         = array[23] || 0;
-      ratesData.extraBed             = Number(array[24]) || 0;
-      ratesData.extraBedPT           = Number(array[25]) || 0;
-      ratesData.wef                  = array[28]; 
-      ratesData.wet                  = array[29];
-      ratesData.fromPax              = Number(array[30]) || 0;
-      ratesData.toPax                = Number(array[31]) || 0;
-      ratesData.git                  = array[32] || 0;       
-      ratesData.serviceCharges       = array[33] || 0;
-      ratesData.commission           = array[34] || 0;
-      ratesData.commissionPT         = array[35] || 0;
-      ratesData.commissionOnPlan     = array[36] || 0;
-      ratesData.commissionOnPlanPT   = array[37] || 0;
-      ratesData.serviceChargesOnPlan = array[38] || 0;
-      ratesData.blackout             = array[39] || 0;
-      ratesData.dayOfTheWeek         = Number(array[46]) || 127;
-      ratesData.defaultRoomType      = array[60];
-      ratesData.defaultAc            = array[54] || 0;
-      ratesData.specialPeriod        = array[57] || 0;
-      ratesData.notes                = array[58] || 0;
-      ratesData.agentCommission      = array[59] || 0;
+      ratesData.mealPlan             = array[7];
+      ratesData.mealPlanPT           = array[8];
+      ratesData.currency             = array[5];
+      ratesData.currencyPT           = array[6];
+      ratesData.costSingle           = Number(array[9])  || 0;
+      ratesData.costSinglePT         = Number(array[10]) || 0;
+      ratesData.costSingleAc         = Number(array[11]) || 0;
+      ratesData.costSingleAcPT       = Number(array[12]) || 0;
+      ratesData.costDouble           = Number(array[13]) || 0;
+      ratesData.costDoublePT         = Number(array[14]) || 0;
+      ratesData.costDoubleAc         = Number(array[15]) || 0;
+      ratesData.costDoubleAcPT       = Number(array[16]) || 0;
+      ratesData.nett                 = Number(array[17]) || 0;
+      ratesData.nettPT               = Number(array[18]) || 0;
+      ratesData.freeTransfer         = Number(array[19]) || 0;
+      ratesData.extraBed             = Number(array[20]) || 0;
+      ratesData.extraBedPT           = Number(array[21]) || 0;
+      ratesData.wef                  = array[22]; 
+      ratesData.wet                  = array[23];
+      ratesData.fromPax              = Number(array[24]) || 0;
+      ratesData.toPax                = Number(array[25]) || 0;
+      ratesData.git                  = Number(array[26]) || 0;       
+      ratesData.serviceCharges       = Number(array[27]) || 0;
+      ratesData.commission           = Number(array[28]) || 0;
+      ratesData.commissionPT         = Number(array[29]) || 0;
+      ratesData.commissionOnPlan     = Number(array[30]) || 0;
+      ratesData.commissionOnPlanPT   = Number(array[31]) || 0;
+      ratesData.serviceChargesOnPlan = Number(array[32]) || 0;
+      ratesData.blackout             = Number(array[33]) || 0;
+      ratesData.dayOfTheWeek         = Number(array[35]) || 127;
+      ratesData.defaultRoomType      = array[4];
+      ratesData.defaultAc            = Number(array[37]) || 0;
+      ratesData.specialPeriod        = Number(array[38]) || 0;
+      ratesData.notes                = array[39] || 0;
+      ratesData.agentCommission      = Number(array[40]) || 0;
 
       if (typeof data[0].rates === 'undefined'){
         data[0].rates = [];
       };
 
         // reset rates to null
-        // data[0].entranceFees = []; 
+        // data[0].rates = []; 
         data[0].rates.push( ratesData );
 
         let output = `---\n` + yaml.dump(data[0]) + "---\n" + data[1] ;
 
-        fs.writeFileSync(mdfile+'index.md', output, 'utf8', (err) => {       
+        fs.writeFileSync(mdfile+'_index.md', output, 'utf8', (err) => {       
           if (err) throw err; 
         })
       } catch (err) {
@@ -688,41 +736,67 @@ app.post('/import',function (req, res) {
       } catch (error) {
         console.log("Route import writing "+state+": " + error.message);
       } 
-    } else if ( request.file == 'hotels.csv') {
+    } else if ( request.file == 'hotels-addressbook.csv') {
 
-      // state city  organisation  addressbook_id  postalcode  description starcategories_id rooms
+      /*
+      0=country 1=state 2=city  3=bookthrough 4=mailto 5=organisation  6=address 7=city  8=postalcode 9=phone 10-email 
+      11=www 12=note  13=areacode  14=currencies_id 15=org_mobile  16=category  17=ranking
+      */ 
 
-      var state             = urlize(array[0]);
-      var city              = urlize(array[1]);
-      var organisation      = urlize(array[2]);
 
-      var mdfile = dir+'/destinations/india/states/'+state+'/cities/'+city+'/hotels/'+organisation+'/';
+      var country           = urlize(array[0]);
+      var state             = urlize(array[1]);
+      var city              = urlize(array[2]);
+      var organisation      = urlize(array[5]);
+
+      var mdfile = dir+'/destinations/'+country+'/states/'+state+'/cities/'+city+'/hotels/'+organisation+'/';
 
       console.log('Processing ',mdfile);
 
       const made = mkdirp.sync(mdfile);
 
       try {
+        var fileContents = fs.readFileSync(mdfile+'_index.md', 'utf8', (err) => {       
+          if (err) throw err; 
+        }) 
+      } 
+      catch (error) {
+        var fileContents = "---\n\n---\n";
+      }
 
-        frontMatter                 = {};
-        frontMatter.title           = array[2];
+      try {
+
+        var frontMatter                 = {};
+        frontMatter.title           = array[5];
         frontMatter.translationKey  = organisation;
-        frontMatter.addressbook_id  = Number(array[3]) || '';
-        frontMatter.postalcode      = Number(array[4]) || '';
-        frontMatter.starcategories_id  = Number(array[6]) || '';
-        frontMatter.rooms           = Number(array[7]) || '';
-        frontMatter.draft           = false;
-        frontMatter.id              = 'hotel';
-        frontMatter.type            = 'hotels';
-        frontMatter.tags            = ['Hotels',array[2].replace(/[.]/g, '') ];
-        frontMatter.category        = array[8];
+        frontMatter.bookthrough     = array[3] ;
+        frontMatter.mailto          = array[4];
+        frontMatter.address         = array[6];
+        frontMatter.city            = array[7];
+        frontMatter.postalcode      = array[8];
+        frontMatter.phone           = array[13]+'-'+array[9];
+        frontMatter.mobile          = array[15];
+        frontMatter.email           = array[10];
+        frontMatter.website         = array[11];
+        frontMatter.note            = array[12];
+        
+        if (array[17] > 0) {
+          frontMatter.ranking       = array[17];
+        }
+        frontMatter.type            = 'hotel';
+        
+        if (typeof frontMatter.category === 'undefined'){
+          frontMatter.category = [];
+        };
 
-        let output = `---\n` 
-        + yaml.dump(frontMatter) 
-        + "---\n" 
-        + (array[5] == 'NULL' ? '' : array[5].replace(/[`]/g, "'"));
+        // reset rates to null
+        // frontmatter.category = []; 
+        frontMatter.category.push(array[16]);
 
-        fs.writeFileSync(mdfile+'index.md', output, 'utf8', (err) => {       
+        let output = `---\n` + yaml.dump(frontMatter) + "---\n" ;
+        // + array[ 5].replace(/[`]/g, "'");
+
+        fs.writeFileSync(mdfile+'_index.md', output, 'utf8', (err) => {       
           if (err) throw err; 
         })
 

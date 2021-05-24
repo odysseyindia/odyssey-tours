@@ -2,21 +2,155 @@
 
 {{- .Scratch.Set "layout" "layouts/reports/hotel-rates/single.html" -}}
 
-<section id="{{ .Scratch.Get "id" | lower }}">  
-  {{ partial "heading.html" . }}
-  <div class="container">
-    <h2>test</h2>
-    
-   
-     {{- range  $.Site.Sections  }}
-     {{  .Title }}<br>
-     {{end}}
+<style>
 
-     {{- range (where (where .Site.Pages "Section" "destinations") ".Params.type" "hotels") }}
-    <h2>{{ .Title }}</h2>
-   
-    {{- end }}
-  </div>
+  .flexbox {
+    display: flex;
+    font-size: 0.8rem;
+  }
+  .grey {
+    background: #adadad;
+    flex: 1;
+    padding-left: 5px;
+  }
+  .lightgrey {
+    background: lightgray;
+    flex: 1;
+    padding-left: 5px;
+    text-align: center;
+  }
+  .green {
+    background: #32c962;
+    flex: 1;
+    text-align: right;
+    padding-right:5px;
+  }
+  .blue {
+    background: #3b66db;
+    flex: 1;
+    text-align: right;
+    padding-right:5px;
+  }
+  .double-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 2;
+    text-align: center;
+  }
+
+</style>
+
+<section id="{{ .Scratch.Get "id" | lower }}">   
+  {{ partial "heading.html" . }}
+
+  <div class="flexbox">
+   <div class="blue double-column">Period</div>
+   <div class="grey">Room type</div>
+   <div class="blue double-column">Meal Plan</div>
+   <div class="green double-column">Single</div>
+   <div class="blue double-column">Single AC </div>
+   <div class="green double-column">Double</div>
+   <div class="blue double-column">Double AC </div>
+   <div class="green double-column">Extra Bed</div>
+   <div class="lightgrey">Free</div>
+   <div class="green double-column">Pax</div>
+   <div class="lightgrey">GIT</div>
+   <div class="blue double-column">Commission</div>
+   <div class="green double-column">TAC on plan</div>
+   <div class="blue double-column">Service Charges</div>
+   <div class="green double-column">Currency</div>
+   <div class="blue double-column">Nett</div>
+ </div>
+ <div class="flexbox">
+  <div class="blue">From</div>
+  <div class="blue">To</div>
+  <div class="grey"></div>
+  <div class="blue">Special</div>
+  <div class="blue">Publ</div>
+  <div class="green">Special</div>
+  <div class="green">Publ</div>
+  <div class="blue">Special</div>
+  <div class="blue">Publ</div>
+  <div class="green">Special</div>
+  <div class="green">Publ</div>
+  <div class="blue">Special</div>
+  <div class="blue">Publ</div>
+  <div class="green">Special</div>
+  <div class="green">Publ</div>
+  <div class="lightgrey">Transfer</div>
+  <div class="green">From</div>
+  <div class="green">To</div>
+  <div class="lightgrey"></div>
+  <div class="blue">Special</div>
+  <div class="blue">Publ</div>
+  <div class="green">Special</div>
+  <div class="green">Publ</div>
+  <div class="blue"></div>
+  <div class="blue">on plan</div>
+  <div class="green">Special</div>
+  <div class="green">Publ</div>
+  <div class="blue"></div>
+  <div class="blue">on plan</div>
+</div>
+
+{{- range (where (where .Site.Pages "Section" "destinations") ".Params.type" "hotels") }}
+<div><h4>{{ trim (delimit (split .Parent.RelPermalink "/") ", ") ","}}</h4></div>
+
+{{- range .Data.Pages }}
+{{ .Title }} <br>
+{{- $year := 0 }}
+{{- range .Params.rates -}}
+
+{{- if gt (dateFormat "2006" .wef) $year }}
+{{- $year = (dateFormat "2006" .wef) }}
+<h5>{{ $year }}</h5>
+{{- end -}}
+
+<div class="flexbox">
+ <div class="blue">{{ dateFormat "02/01/06" .wef }}</div>
+ <div class="blue">{{ dateFormat "02/01/06" .wet }}</div>
+ <div class="grey">{{ .roomType }}</div>
+ <div class="blue">{{ .mealPlan }}</div>
+ <div class="blue">{{ .mealPlanPT }}</div>
+ <div class="green">{{ int .costSingle | lang.NumFmt 0}}</div>
+ <div class="green">{{ int .costSinglePT | lang.NumFmt 0}}</div>
+ <div class="blue">{{ int .costSingleAc | lang.NumFmt 0 }}</div>
+ <div class="blue">{{ int .costSingleAcPT | lang.NumFmt 0 }}</div>
+ <div class="green">{{ int .costDouble | lang.NumFmt 0 }}</div>
+ <div class="green">{{ int .costDoublePT | lang.NumFmt 0 }}</div>
+ <div class="blue">{{ int .costDoubleAc | lang.NumFmt 0 }}</div>
+ <div class="blue">{{ int .costDoubleAcPT | lang.NumFmt 0 }}</div>
+ <div class="green">{{ int .extraBed | lang.NumFmt 0 }}</div>
+ <div class="green">{{ int .extraBedPT | lang.NumFmt 0 }}</div>
+ <div class="lightgrey">{{ .freeTransfer }}</div>
+ <div class="green">{{ .fromPax }}</div>
+ <div class="green">{{ .toPax }}</div>
+ <div class="lightgrey">{{ .git }}</div>
+ <div class="blue">{{ float .commission | lang.NumFmt 0 }}</div>
+ <div class="blue">{{ float .commissionPT | lang.NumFmt 0 }}</div>
+ <div class="green">{{ .comissionOnPlan }}</div>
+ <div class="green">{{ .commissionOnPlanPT }}</div>
+ <div class="blue">{{ int .serviceCharges | lang.NumFmt 0 }}</div>
+ <div class="blue">{{ int .serviceChargesOnPlan | lang.NumFmt 0 }}</div>
+ <div class="green">{{ .currency }}</div>
+ <div class="green">{{ .currencyPT }}</div>
+ <div class="blue">{{ .nett }}</div>
+ <div class="blue">{{ .nettPT }}</div>
+</div>
+{{ .notes}} test {{- with .notes -}}
+<div>
+ Note: {{ . }}
+</div>
+{{- end }}
+
+
+
+
+{{ end }}
+{{ end }}
+{{- end }}
+
 </section>
 
 {{ end }}

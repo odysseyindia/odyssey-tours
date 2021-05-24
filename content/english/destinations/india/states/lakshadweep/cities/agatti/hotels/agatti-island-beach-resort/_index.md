@@ -1,0 +1,25 @@
+---
+title: Agatti Island Beach Resort
+translationKey: agatti-island-beach-resort
+bookthrough: ''
+mailto: ''
+address: ''
+city: Agatti
+postalcode: ''
+phone: '-'
+mobile: ''
+email: ''
+website: ''
+note: ''
+type: hotel
+category:
+  - H
+showHotel: 0
+starCategory: 0
+checkout: ''
+accessRail: ''
+accessAir: ''
+accessBus: ''
+advantage: ''
+rooms: 0
+---

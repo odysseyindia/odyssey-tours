@@ -1,0 +1,25 @@
+---
+title: Vivanta by Taj - Whitefield
+translationKey: vivanta-by-taj-whitefield
+bookthrough: ''
+mailto: ''
+address: ITPB, Whitefield
+city: Bangalore
+postalcode: 560 066
+phone: 80-6693 3333
+mobile: ''
+email: ''
+website: http://www.vivantabytaj.com/Whitefield-Bangalore
+note: ''
+type: hotel
+category:
+  - H
+showHotel: 0
+starCategory: 0
+checkout: ''
+accessRail: ''
+accessAir: ''
+accessBus: ''
+advantage: ''
+rooms: 0
+---

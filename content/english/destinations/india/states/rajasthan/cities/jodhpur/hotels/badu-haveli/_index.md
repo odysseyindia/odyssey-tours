@@ -1,0 +1,25 @@
+---
+title: Badu Haveli
+translationKey: badu-haveli
+bookthrough: ''
+mailto: ''
+address: ''
+city: Jodhpur
+postalcode: ''
+phone: '-'
+mobile: ''
+email: ''
+website: ''
+note: ''
+type: hotel
+category:
+  - H
+showHotel: 1
+starCategory: 0
+checkout: ''
+accessRail: ''
+accessAir: ''
+accessBus: ''
+advantage: ''
+rooms: 0
+---

@@ -1,0 +1,98 @@
+#reports-hotel-costings {
+
+
+	.wrapper {
+		overflow: auto;
+		width: 95vw;
+		height: 40vw;
+		border: 1px solid;
+		background-color: aliceblue;
+	}
+
+	
+	.freeze-table {
+	  border-spacing: 0;
+	  padding: 0;
+	  border-top: 1px solid grey;
+	}
+
+	thead th {
+		top: 0;
+		position: sticky;
+		background-color: white;
+		z-index: 20;
+		min-height: 30px;
+		height: 30px;
+		vertical-align: top;
+		min-width: 50px;
+		padding-left: 5px;
+		padding-right: 5px;
+		font-weight: 600;
+	}
+
+	.row2 {
+		z-index: 20;
+		min-height: 30px;
+		height: 30px;
+		top: 30px;
+	}
+
+	tr:nth-child(even) {
+		background-color: lightgray;
+	}
+
+	th, td {
+		outline: 1px solid lightgray;
+		border: none;
+		outline-offset: -1px;
+		padding-left: 5px;
+		min-width: 100px;
+		text-align: right;
+	}
+
+	tr {
+		min-height: 25px;
+		height: 25px;
+	}
+	.col-id-no {
+		left: 0;
+		position: sticky;
+		background-color: white;
+	}
+	.col-first-name {
+		left: 100px;
+		position: sticky;
+		background-color: white;
+	}
+	.fixed-header {
+		z-index: 50;
+	}
+
+
+	.single {
+		background: aliceblue;
+	}
+	.double {
+		background: lightblue;
+	}
+	.triple {
+		background: #ccffd9;
+	}
+	.first-block {
+		background: #ffe6ff;
+	}
+	.color4 {
+		background: #ffffcc;
+	}
+	.color5 {
+		background: #e6ffcc;
+	}
+
+	.center {
+		text-align: center;
+	}
+	.left {
+		text-align: left;
+	}
+
+}

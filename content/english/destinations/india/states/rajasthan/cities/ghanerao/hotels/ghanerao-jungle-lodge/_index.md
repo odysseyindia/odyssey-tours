@@ -1,0 +1,25 @@
+---
+title: Ghanerao Jungle Lodge
+translationKey: ghanerao-jungle-lodge
+bookthrough: ''
+mailto: ''
+address: Village Post Ghanerao   Pali
+city: Ghanerao
+postalcode: 306 704
+phone: '-'
+mobile: ' 98297 84035'
+email: reservations@ghanerao.com
+website: ''
+note: ''
+type: hotel
+category:
+  - H
+showHotel: 0
+starCategory: 0
+checkout: ''
+accessRail: ''
+accessAir: ''
+accessBus: ''
+advantage: ''
+rooms: 0
+---
