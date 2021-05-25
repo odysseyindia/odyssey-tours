@@ -243,36 +243,30 @@ function displayExcursions(urldata){
 
   document.getElementById("save").addEventListener("click", function(){
 
-    const source         = document.getElementById("excursions")
+    const source            = document.getElementById("excursions")
 
-     try {
+    try {
 
     if (source.selectedIndex == 0 ) throw "No selection made";
 
-   
-
-      const permalink      = source[source.selectedIndex].value ;
-
-    const content        = document.getElementById("content").innerHTML;
+    const permalink         = source[source.selectedIndex].value ;
+    const content           = document.getElementById("content").innerHTML;
+    var   dayAtLeisure      = document.getElementById("dayAtLeisure").checked;
+    var   guide             = document.getElementById("guide").checked ;
+    var   vehicle           = document.getElementById("vehicle").checked ;
+    var   url               = document.getElementById("url").innerText;
+    const newKey            = permalink.split("/");
+    const key               = newKey.length-2;
     
-    var dayAtLeisure    = document.getElementById("dayAtLeisure").checked ;
-    dayAtLeisure = (dayAtLeisure == true) ? true : false;
+    dayAtLeisure            = (dayAtLeisure == true) ? true : false;
+    guide                   = (guide == true) ? true : false;
+    vehicle                 = (vehicle == true) ? true : false;
 
-    var guide = document.getElementById("guide").checked ;
-    guide     = (guide == true) ? true : false;
-
-    var vehicle = document.getElementById("vehicle").checked ;
-    vehicle     = (vehicle == true) ? true : false;
-
-    var url = document.getElementById("url").innerText;
-
-    const oldKey            = permalink.split("/");
-    const key               = oldKey.length-2;
-          oldKey[key]       = url;
+    newKey[key]             = url;
 
     var data                = [];
     data[0]                 = {};
-    data[0].translationKey  = oldKey.join('/');
+    data[0].translationKey  = newKey.join('/');
     data[0].title           = document.getElementById("title").innerText;
     data[0].duration        = document.getElementById("duration").innerText;
     data[0].startTime       = document.getElementById("startTime").innerText;
@@ -282,15 +276,47 @@ function displayExcursions(urldata){
     data[0].dayAtLeisure    = dayAtLeisure;
     data[1]                 = content.replace(/[`]/g, "'");
 
-     if (permalink != data[0].translationKey){
-      if (confirm("URL will be changed to "+ url)){
-        alert('ok');
+    if (permalink != data[0].translationKey){
+      if (confirm("URL will be changed to \n"+ url+"\nAre you certain you want to do this?")){
         let spinner = document.getElementById("in-progress");
         spinner.style.display  = 'block';
+
+        docLoad({
+        url:    'rename', 
+        method: 'POST',
+        data:   JSON.stringify({ 
+          "newFileName" : newKey.join('/')+'index.md',
+          "data"        : data,
+          "oldFileName" : permalink+'index.md',
+        }) 
+      })
+    .then(
+      function(response){ 
+        // console.log( statusText ); 
+      }, 
+      function(Error   ){ console.log( Error ); }
+      );
+
       }
     } else {
       let spinner = document.getElementById("in-progress");
       spinner.style.display  = 'block';
+
+      docLoad({
+      url:    'ajax', 
+      method: 'POST',
+      data:   JSON.stringify({ 
+        "file"   : permalink+'index.md', 
+        "data"   : data,
+      }) 
+    })
+    .then(
+      function(response){ 
+        console.log( statusText ); 
+      }, 
+      function(Error   ){ console.log( Error ); }
+      );
+
     }
 }
 

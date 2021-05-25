@@ -1174,7 +1174,7 @@ app.post('/rename',function (req, res) {
   var oldFileName = dir + request.oldFileName;
   var oldDir      = oldFileName.replace("index.md","");
 
-  console.log('Processing '+newFileName);
+  console.log('Renaming '+oldFileName+' to '+ newFileName);
 
   try {
     var fileContents = fs.readFileSync(oldFileName, 'utf8', (err) => {       
@@ -1192,20 +1192,19 @@ app.post('/rename',function (req, res) {
     let oldData        = data[0];
     let newData        = {...oldData, ...fm };
     let output         = `---\n` + yaml.dump( newData ) + "---\n"; 
-        output        += ( request.data[1].length > 0 ) ? request.data[1] : contents[2];
+    
+    output += ( request.data[1].length > 0 ) ? request.data[1] : contents[2];
 
-    mkdirp(getDirName(newFileName));
+    mkdirp( getDirName( newFileName ));
 
-    fs.writeFile(newFileName, output, function(err) {
+    fs.writeFile( newFileName, output, function(err) {
       if(err) return console.error(err);
       console.log('Successfully wrote to the file!');
-      fs.rmdir(oldD, { recursive: true }, (err) => {
-        if (err) {
-          throw err;
-        }
+      fs.rmdir(oldDir, { recursive: true }, (err) => {
+        if (err) throw err;
         console.log(`${oldDir} is deleted!`);
       });
-    }
+    });
   } 
   catch (error) {
     console.log('Route ajax writing: ' + error.message);
