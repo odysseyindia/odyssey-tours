@@ -91,20 +91,16 @@
       </tr>
       </thead>
 <tbody>
-      {{- range  (where (where .Site.Pages "Section" "destinations") ".Params.type" "hotel") }}
 
-{{.Title}}<br>
-{{- range  .Data.Pages }}
+      {{- $categories := slice "ST,DH,TL" }}
 
-title={{ .Title }}-{{ ,Params.ranking }}<br>
+      {{- range (where (where .Site.Pages "Section" "destinations") ".Params.type" "hotels") }}
+      {{- range sort (where .Data.Pages ".Params.ranking" "gt" 0 ) ".Params.ranking" }}
 
-
-      {{- range sort (where .Data.Pages ".Params.ranking" "gt" 0 ) ".Params.ranking"}}
-
-      {{ $hotel := path.Base .Parent.Parent.RelPermalink | humanize }}
-      {{ $category := .Params.category }}
-      {{ $ranking := .Params.ranking }}
-      {{ $title := .Title }}
+      {{ $hotel     :=  path.Base .Parent.Parent.RelPermalink | humanize }}
+      {{ $category  := .Params.category }}
+      {{ $ranking   := .Params.ranking }}
+      {{ $title     := .Title }}
 
       {{- range $i,$v := .Params.rates -}}
       {{- if eq .roomType .defaultRoomType }}

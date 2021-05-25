@@ -1167,6 +1167,54 @@ app.post('/ajax',function (req, res) {
   res.end();
 });
 
+app.post('/rename',function (req, res) {
+
+  var request     = JSON.parse(req.body.data);
+  var newFileName = dir + request.newFileName;
+  var oldFileName = dir + request.oldFileName;
+  var oldDir      = oldFileName.replace("index.md","");
+
+  console.log('Processing '+newFileName);
+
+  try {
+    var fileContents = fs.readFileSync(oldFileName, 'utf8', (err) => {       
+      if (err) throw err; 
+    }) 
+  } 
+  catch (error) {
+    console.log('Route rename reading: ' + error.message);
+  } 
+
+  try {
+    let contents       = fileContents.split("---");
+    let data           = yaml.loadAll(contents[1]);
+    let fm             = request.data[0];
+    let oldData        = data[0];
+    let newData        = {...oldData, ...fm };
+    let output         = `---\n` + yaml.dump( newData ) + "---\n"; 
+        output        += ( request.data[1].length > 0 ) ? request.data[1] : contents[2];
+
+    mkdirp(getDirName(newFileName));
+
+    fs.writeFile(newFileName, output, function(err) {
+      if(err) return console.error(err);
+      console.log('Successfully wrote to the file!');
+      fs.rmdir(oldD, { recursive: true }, (err) => {
+        if (err) {
+          throw err;
+        }
+        console.log(`${oldDir} is deleted!`);
+      });
+    }
+  } 
+  catch (error) {
+    console.log('Route ajax writing: ' + error.message);
+  } 
+
+  res.end();
+});
+
+
 app.post('/copytotours',function (req, res) { 
 
   var request = JSON.parse(req.body.data);

@@ -1,18 +1,22 @@
 
 {
-  "this":           "excursions.json.son",
-  "title": 			    "{{ .Title }}",
-  "date": 			    "{{ .Date }}",
-  "permalink":	    "{{ .RelPermalink }}",
-  "content": 		    "{{ replace (trim (.Content | plainify ) "\n") "\n" "linebreak" }}",
-  "draft": 			    "{{ .Params.draft }}",
-  "depdate":        "{{ .Params.depdate }}",
-  "etd":            "{{ cond (isset .Params "etd") .Params.etd "09:00"}}",
-  "duration":       "{{ .Params.duration }}",
-  "vehicle" :       "{{ .Params.vehicle }}",
-  "id":             "{{ .Params.id }}",
-  "type":           "{{ .Params.type }}",
-  "translationKey": "{{ .Params.translationKey }}"
+  "this":             "excursions.json.son",
+  "title": 			      "{{ .Title }}",
+  "date": 			      "{{ .Date }}",
+  "permalink":	      "{{ .RelPermalink }}",
+  "content": 		      "{{ replace (trim (.Content | plainify ) "\n") "\n" "linebreak" }}",
+  "draft": 			      "{{ .Params.draft }}",
+  "depdate":          "{{ .Params.depdate }}",
+  "etd":              "{{ cond (isset .Params "etd") .Params.etd "09:00"}}",
+  "duration":         "{{ .Params.duration }}",
+  "vehicle" :         "{{ .Params.vehicle }}",
+  "guide" :           "{{ .Params.guide }}",
+  "daysOfOperation":  "{{ .Params.daysOfOperation }}",
+  "dayAtLeisure":     "{{ .Params.dayAtLeisure }}",
+  "startTime":        "{{ .Params.startTime }}",
+  "id":               "{{ .Params.id }}",
+  "type":             "{{ .Params.type }}",
+  "translationKey":   "{{ .Params.translationKey }}"
   {{- range $i,$e := (.Resources.ByType "image") }} 
     {{- if eq $i 0 }}
   ,"image": "{{ . }}"
