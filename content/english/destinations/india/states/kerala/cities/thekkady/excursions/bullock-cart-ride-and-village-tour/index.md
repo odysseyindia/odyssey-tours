@@ -1,21 +1,14 @@
 ---
-title: Bullock Cart Ride and Village Tour
+title: Bullock cart ride and village tour
 translationKey: bullock-cart-ride-and-village-tour
+type: excursions
+id: services
 duration: '02:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: ''
-owntransport: true
-guide: false
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Bullock Cart Ride and Village Tour
+vehicle: 1
+guide: 0
+dayAtLeisure: 0
 ---
-0
+Travelcart India Pvt Ltd

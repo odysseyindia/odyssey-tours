@@ -25,7 +25,11 @@ disallow_search_engines = false
 logo                    = "/logo.gif"
 googleMapsAPIKey        = "AIzaSyD7brYWRgjb-1K4vXXGxSPukB1dXxwvK7o"
 dpoEmail                = "dpo@odyssey.co.in"
+<<<<<<< HEAD
 appHost                 = "http://192.168.0.130:1314/"
+=======
+appHost                 = "http://localhost:1314/"
+>>>>>>> hotfix
 
 [params.csp] 
   childsrc = ["'self'"]

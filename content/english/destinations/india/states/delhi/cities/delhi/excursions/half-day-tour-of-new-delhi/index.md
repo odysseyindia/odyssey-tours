@@ -1,21 +1,14 @@
 ---
-title: Half day tour of New Delhi
+title: Half-day tour of New Delhi
 translationKey: half-day-tour-of-new-delhi
+type: excursions
+id: services
 duration: '04:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: '0'
-owntransport: false
-guide: true
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Half day tour of New Delhi
+vehicle: 0
+guide: 1
+dayAtLeisure: 0
 ---
-0
+Ramico Tours & Travels Pvt. Ltd.

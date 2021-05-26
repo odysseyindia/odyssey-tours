@@ -1,21 +1,14 @@
 ---
 title: Early morning guided visit to the Taj
 translationKey: early-morning-guided-visit-to-the-taj
+type: excursions
+id: services
 duration: '02:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 95
-toCity: ''
-toCitiesId: ''
-owntransport: false
-guide: true
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Early morning guided visit to the Taj
+vehicle: 0
+guide: 1
+dayAtLeisure: 0
 ---
-0
+Colleague Tours Pvt. Ltd.

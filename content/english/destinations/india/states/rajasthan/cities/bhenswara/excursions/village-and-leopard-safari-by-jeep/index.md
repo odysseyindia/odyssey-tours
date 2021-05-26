@@ -1,21 +1,14 @@
 ---
 title: Village and leopard safari by Jeep
 translationKey: village-and-leopard-safari-by-jeep
+type: excursions
+id: services
 duration: '03:30'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: ''
-owntransport: false
-guide: false
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Village and leopard safari by Jeep
+vehicle: 0
+guide: 0
+dayAtLeisure: 0
 ---
-0
+Ravla Bhenswara

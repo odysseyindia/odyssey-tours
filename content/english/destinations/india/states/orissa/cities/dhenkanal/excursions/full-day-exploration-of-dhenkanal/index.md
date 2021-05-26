@@ -1,21 +1,14 @@
 ---
-title: Full day exploration of Dhenkanal
+title: Full-day exploration of Dhenkanal
 translationKey: full-day-exploration-of-dhenkanal
+type: excursions
+id: services
 duration: '08:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: ''
-owntransport: true
-guide: false
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Full day exploration of Dhenkanal
+vehicle: 1
+guide: 0
+dayAtLeisure: 0
 ---
-0
+Travel Link Pvt Ltd

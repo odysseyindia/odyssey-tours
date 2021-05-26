@@ -1,21 +1,14 @@
 ---
 title: Audio-guide tour of Jodhpur's Meherangarh Fort
 translationKey: audio-guide-tour-of-jodhpurs-meherangarh-fort
+type: excursions
+id: services
 duration: '04:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: '0'
-owntransport: true
-guide: false
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Audio-guide tour of Jodhpur's Meherangarh Fort
+vehicle: 1
+guide: 0
+dayAtLeisure: 0
 ---
-0
+Kaustubh Holidays Tours & Travels Pvt Ltd

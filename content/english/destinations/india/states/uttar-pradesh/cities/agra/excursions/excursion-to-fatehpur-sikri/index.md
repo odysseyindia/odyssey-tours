@@ -1,21 +1,14 @@
 ---
 title: Excursion to Fatehpur Sikri
 translationKey: excursion-to-fatehpur-sikri
+type: excursions
+id: services
 duration: '04:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: '0'
-owntransport: true
-guide: true
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Excursion to Fatehpur Sikri
+vehicle: 1
+guide: 1
+dayAtLeisure: 0
 ---
-0
+Colleague Tours Pvt. Ltd.

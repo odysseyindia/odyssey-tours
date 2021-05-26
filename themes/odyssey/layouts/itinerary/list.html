@@ -52,7 +52,7 @@
         <select name="region" id="region">
           <option value="0">Select a region</option>
           {{- range (where (where .Site.Pages "Section" "destinations") ".Params.type" "region") }}
-          <option value="{{ .Title}}" {{if eq .Title $.Params.region }}selected{{ end }}>{{ .Title }}</option>
+          <option value="{{ .RelPermalink }}" {{if eq .RelPermalink $.Params.region }}selected{{ end }}>{{ .Title }}</option>
           {{- end }}
         </select> 
       </div>
@@ -61,6 +61,10 @@
 
   <div id="in-progress" class="spinner" role="status">
     <span class="sr-only">In progress...</span>
+  </div>
+
+  <div id="alert" class="center alert-box success">
+    <strong>Success!</strong> <span ></span> 
   </div>
 
   <div class="columns">
@@ -258,14 +262,23 @@
       <div class="main-container">
         <div class="row dossier">
           <div>
+<<<<<<< HEAD
             <a  href="#0" class="button" onclick="saveItinerary()" data-toggle="tooltip" title="Save"><i class="icon-floppy"></i></a>
             <a  href="#0" class="button" onclick="copyToTours()" data-toggle="tooltip" title="Save to Tours"><i class="icon-floppy"></i></a>
+=======
+            <a href="#0" class="button" onclick="saveItinerary()" data-toggle="tooltip" title="Save"><i class="icon-floppy"></i></a>
+>>>>>>> hotfix
             <a href="#0" class="button" id="toggleContent" data-toggle="tooltip" title="Compact" onclick="toggleContent()"><i class="icon-plus-squared"></i></a>
             <a href="#0" class="button" id="toggleCalendar" data-toggle="tooltip" title="Display dates" onclick="toggleCalendar()"><i class="icon-blind"></i></a>
             <a href="#0" class="button" data-toggle="tooltip" title="Insert a day" onclick="insertDay()"><i class="icon-plus"></i></a>
-            <a  href="#0" class="button" data-toggle="tooltip" title="Delete a day"  onclick="deleteDay()"><i class="icon-minus"></i></a>
+            <a href="#0" class="button" data-toggle="tooltip" title="Delete a day"  onclick="deleteDay()"><i class="icon-minus"></i></a>
             <a href="#0" class="button" data-toggle="tooltip" title="Append a day" onclick="addDay()"><i class="icon-plus"></i></a>
             <a href="#0" class="button showWorkspace" data-toggle="tooltip" title="Workspace" id="toggleWorkspace" onclick="toggleWorkspace()"><i class="icon-wrench"></i></a>
+          </div>
+        </div>
+        <div class="row dossier">
+          <div >
+            <a href="#0" id="writeButton" class="button" onclick="writeToTour()" data-toggle="tooltip" title="Write to tour"><i class="icon-edit-alt"></i></a>
           </div>
         </div>
       </div>
@@ -769,18 +782,16 @@
   });
 
   changeCity(city);
+  toggleRegion();
 
   // add EventListeners
-  document.getElementById("cities").addEventListener("change", (event) => {
-    changeCity();
-  });
-  document.getElementById("hotels").addEventListener("change", changeHotel() );
-  document.getElementById("excursions").addEventListener("change", changeExcursion() );
-  document.getElementById("carhire").addEventListener("change", changeCarHire() );
-  document.getElementById("cars").addEventListener("change", changeCar() );
-  document.getElementById("flights").addEventListener("change", changeFlight() );
-  document.getElementById("trains").addEventListener("change", changeTrain() );
+  document.getElementById("cities").addEventListener("change", (event) => { changeCity();  });
+ //  document.getElementById("hotels").addEventListener("change", (event) => { changeHotel(); });
+ //  document.getElementById("excursions").addEventListener("change", (event) => { changeExcursion(); });
+  
+
   document.addEventListener('DOMContentLoaded', (event) => { draggable(); });
+  
 
   var clickClose = document.getElementsByClassName("close-modal-btn");
   var clickEdit  = document.getElementsByClassName("editButton");
@@ -803,6 +814,7 @@
       })
     })(i);
   }
+
 
   document.getElementById("save-modal-hotel").addEventListener("click", function(){
 
@@ -902,6 +914,20 @@ function draggable(){
     });
   });
 };
+
+function toggleRegion (){
+
+  const region = document.getElementById('region');
+  var   button = document.getElementById('writeButton');
+  const option = region.selectedIndex ;
+  
+  if ( option > 0 ){
+    button.style.display = 'block';
+  } else {
+    button.style.display = 'none';
+  }
+};
+
 
 function getDragAfterElement(container,y){
   const draggableElements = [...container.querySelectorAll('.draggable:not(.dragging)')]
@@ -1090,9 +1116,8 @@ function saveItinerary(deleteDay){
     };
   };
 
-  let spinner = document.getElementById("in-progress");
-  spinner.style.display  = 'block';
-
+  var spinner        = document.getElementById("in-progress");
+  const region       = document.getElementById('region');  
   var content        = document.getElementById('intro-content').value;
   var data           = []; 
   data[0]            = {};
@@ -1101,8 +1126,10 @@ function saveItinerary(deleteDay){
   data[0].weight     = document.getElementById('intro-weight').value;
   data[0].highlights = highlights;
   data[0].themes     = themes;
-  data[0].region     = document.getElementById('region').value;
+  data[0].region     = region[region.selectedIndex].value;
   data[1]            = content.replace(/[`]/g, "'");
+
+  spinner.style.display  = 'block';
 
   docLoad({
     url:    'ajax', 
@@ -1120,6 +1147,33 @@ function saveItinerary(deleteDay){
       console.log( Error ); 
     }
     );
+};
+
+
+function writeToTour(){
+
+
+  if (confirm("Are you certain?\n")){
+    let alert = document.getElementById("alert");
+    alert.innerText = 'Itinerary saved as a tour';
+
+    docLoad({
+      url:    'write-to-tour', 
+      method: 'POST',
+      data:   JSON.stringify({ 
+        "file"  : {{ .RelPermalink }}, 
+        "region": document.getElementById('region').value,
+      }) 
+    })
+    .then(
+      function(response){ 
+        let alert = document.getElementById("alert");
+        alert.innerText = 'Itinerary saved as a tour'; 
+        fadeOut();
+      }, 
+      function(Error){  console.log( Error );       }
+    );
+  };
 };
 
 function displayCity(urldata){
@@ -1652,6 +1706,23 @@ function docLoad(object) {
     };
     request.send(JSON.stringify(object));
   });
+}
+
+window.onload = fadeOut;
+  
+function fadeOut() {
+    
+    var fade = document.getElementById("alert");
+    var opacity = 1;
+    var intervalID = setInterval(function() {
+
+        if (opacity > 0) {
+            opacity = opacity - 0.1
+            fade.style.opacity = opacity;
+        } else {
+            clearInterval(intervalID);
+        }
+    }, 300);
 }
 
 </script>

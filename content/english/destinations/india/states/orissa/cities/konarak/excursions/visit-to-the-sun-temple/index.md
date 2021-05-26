@@ -1,21 +1,14 @@
 ---
 title: Visit to the Sun Temple
 translationKey: visit-to-the-sun-temple
+type: excursions
+id: services
 duration: '02:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: ''
-owntransport: true
-guide: true
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Visit to the Sun Temple
+vehicle: 1
+guide: 1
+dayAtLeisure: 0
 ---
-0
+Travel Link Pvt Ltd

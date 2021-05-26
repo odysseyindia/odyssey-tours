@@ -1,21 +1,14 @@
 ---
 title: Visit Konarak enroute to Puri
 translationKey: visit-konarak-enroute-to-puri
+type: excursions
+id: services
 duration: '02:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: ''
-owntransport: true
-guide: true
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Visit Konarak enroute to Puri
+vehicle: 1
+guide: 1
+dayAtLeisure: 0
 ---
-0
+Travel Link Pvt Ltd

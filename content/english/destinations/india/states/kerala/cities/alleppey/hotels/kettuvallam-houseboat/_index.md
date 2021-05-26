@@ -1,0 +1,1350 @@
+---
+title: Kettuvallam (Houseboat)
+translationKey: kettuvallam-houseboat
+bookthrough: Travelcart India Pvt Ltd
+mailto: ''
+address: ''
+city: Alleppey
+postalcode: ''
+phone: 484-266 9933, 266 8594, 266 9944, 266 9955,
+mobile: ''
+email: mail@travelcartindia.com
+website: ''
+note: ''
+type: hotel
+category:
+  - H
+  - COM
+  - WEB
+showHotel: 0
+starCategory: 0
+checkout: '09:30'
+accessRail: ''
+accessAir: ''
+accessBus: ''
+advantage: ''
+rooms: 0
+rates:
+  - roomType: One bedroom Premium Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 20900
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 20900
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 4200
+    extraBedPT: 0
+    wef: '2019-10-01T00:00:00'
+    wet: '2019-12-19T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: Two Bedroom Premium Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 33600
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 33600
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 4200
+    extraBedPT: 0
+    wef: '2019-10-01T00:00:00'
+    wet: '2019-12-19T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: Three bedroom Premium Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 47250
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 47250
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 4200
+    extraBedPT: 0
+    wef: '2019-10-01T00:00:00'
+    wet: '2019-12-19T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: One Bedroom Standard Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 14600
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 14600
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3150
+    extraBedPT: 0
+    wef: '2019-10-01T00:00:00'
+    wet: '2019-12-19T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: Two Bedroom Standard Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 21500
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 21500
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3150
+    extraBedPT: 0
+    wef: '2019-10-01T00:00:00'
+    wet: '2019-12-19T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: Three Bedroom Standard Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 28000
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 28000
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3150
+    extraBedPT: 0
+    wef: '2019-10-01T00:00:00'
+    wet: '2019-12-19T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: One bedroom Premium Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 26125
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 26125
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 5250
+    extraBedPT: 0
+    wef: '2019-12-20T00:00:00'
+    wet: '2020-01-10T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: Two Bedroom Premium Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 42000
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 42000
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 5250
+    extraBedPT: 0
+    wef: '2019-12-20T00:00:00'
+    wet: '2020-01-10T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: Three bedroom Premium Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 59063
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 59063
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 5250
+    extraBedPT: 0
+    wef: '2019-12-20T00:00:00'
+    wet: '2020-01-10T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: One Bedroom Standard Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 18250
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 18250
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3938
+    extraBedPT: 0
+    wef: '2019-12-20T00:00:00'
+    wet: '2020-01-10T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: Two Bedroom Standard Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 26875
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 26875
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3938
+    extraBedPT: 0
+    wef: '2019-12-20T00:00:00'
+    wet: '2020-01-10T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: Three Bedroom Standard Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 30800
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 30800
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3938
+    extraBedPT: 0
+    wef: '2019-12-20T00:00:00'
+    wet: '2020-01-10T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: One bedroom Premium Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 20900
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 20900
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 4200
+    extraBedPT: 0
+    wef: '2020-01-11T00:00:00'
+    wet: '2020-04-30T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: Two Bedroom Premium Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 33600
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 33600
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 4200
+    extraBedPT: 0
+    wef: '2020-01-11T00:00:00'
+    wet: '2020-04-30T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: Three bedroom Premium Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 47250
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 47250
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 4200
+    extraBedPT: 0
+    wef: '2020-01-11T00:00:00'
+    wet: '2020-04-30T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: One Bedroom Standard Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 14600
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 14600
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3150
+    extraBedPT: 0
+    wef: '2020-01-11T00:00:00'
+    wet: '2020-04-30T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: Two Bedroom Standard Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 21500
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 21500
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3150
+    extraBedPT: 0
+    wef: '2020-01-11T00:00:00'
+    wet: '2020-04-30T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: Three Bedroom Standard Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 28000
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 28000
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3150
+    extraBedPT: 0
+    wef: '2020-01-11T00:00:00'
+    wet: '2020-04-30T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 5
+  - roomType: One bedroom Premium Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 20900
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 20900
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 4200
+    extraBedPT: 0
+    wef: '2020-10-01T00:00:00'
+    wet: '2020-12-19T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: rates copied from 2019-2020
+    agentCommission: 5
+  - roomType: Two Bedroom Premium Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 33600
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 33600
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 4200
+    extraBedPT: 0
+    wef: '2020-10-01T00:00:00'
+    wet: '2020-12-19T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: rates copied from 2019-2020
+    agentCommission: 5
+  - roomType: Three bedroom Premium Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 47250
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 47250
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 4200
+    extraBedPT: 0
+    wef: '2020-10-01T00:00:00'
+    wet: '2020-12-19T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: rates copied from 2019-2020
+    agentCommission: 5
+  - roomType: One Bedroom Standard Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 14600
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 14600
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3150
+    extraBedPT: 0
+    wef: '2020-10-01T00:00:00'
+    wet: '2020-12-19T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: rates copied from 2019-2020
+    agentCommission: 5
+  - roomType: Two Bedroom Standard Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 21500
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 21500
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3150
+    extraBedPT: 0
+    wef: '2020-10-01T00:00:00'
+    wet: '2020-12-19T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: rates copied from 2019-2020
+    agentCommission: 5
+  - roomType: Three Bedroom Standard Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 28000
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 28000
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3150
+    extraBedPT: 0
+    wef: '2020-10-01T00:00:00'
+    wet: '2020-12-19T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: rates copied from 2019-2020
+    agentCommission: 5
+  - roomType: One bedroom Premium Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 26125
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 26125
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 5250
+    extraBedPT: 0
+    wef: '2020-12-20T00:00:00'
+    wet: '2021-01-10T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: rates copied from 2019-2020
+    agentCommission: 5
+  - roomType: Two Bedroom Premium Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 42000
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 42000
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 5250
+    extraBedPT: 0
+    wef: '2020-12-20T00:00:00'
+    wet: '2021-01-10T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: rates copied from 2019-2020
+    agentCommission: 5
+  - roomType: Three bedroom Premium Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 59063
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 59063
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 5250
+    extraBedPT: 0
+    wef: '2020-12-20T00:00:00'
+    wet: '2021-01-10T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: rates copied from 2019-2020
+    agentCommission: 5
+  - roomType: One Bedroom Standard Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 18250
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 18250
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3938
+    extraBedPT: 0
+    wef: '2020-12-20T00:00:00'
+    wet: '2021-01-10T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: rates copied from 2019-2020
+    agentCommission: 5
+  - roomType: Two Bedroom Standard Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 26875
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 26875
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3938
+    extraBedPT: 0
+    wef: '2020-12-20T00:00:00'
+    wet: '2021-01-10T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: rates copied from 2019-2020
+    agentCommission: 5
+  - roomType: Three Bedroom Standard Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 30800
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 30800
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3938
+    extraBedPT: 0
+    wef: '2020-12-20T00:00:00'
+    wet: '2021-01-10T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: rates copied from 2019-2020
+    agentCommission: 5
+  - roomType: One bedroom Premium Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 20900
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 20900
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 4200
+    extraBedPT: 0
+    wef: '2021-01-11T00:00:00'
+    wet: '2021-04-30T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: rates copied from 2019-2020
+    agentCommission: 5
+  - roomType: Two Bedroom Premium Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 33600
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 33600
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 4200
+    extraBedPT: 0
+    wef: '2021-01-11T00:00:00'
+    wet: '2021-04-30T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: rates copied from 2019-2020
+    agentCommission: 5
+  - roomType: Three bedroom Premium Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 47250
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 47250
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 4200
+    extraBedPT: 0
+    wef: '2021-01-11T00:00:00'
+    wet: '2021-04-30T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: rates copied from 2019-2020
+    agentCommission: 5
+  - roomType: One Bedroom Standard Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 14600
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 14600
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3150
+    extraBedPT: 0
+    wef: '2021-01-11T00:00:00'
+    wet: '2021-04-30T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: rates copied from 2019-2020
+    agentCommission: 5
+  - roomType: Two Bedroom Standard Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 21500
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 21500
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3150
+    extraBedPT: 0
+    wef: '2021-01-11T00:00:00'
+    wet: '2021-04-30T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: rates copied from 2019-2020
+    agentCommission: 5
+  - roomType: Three Bedroom Standard Houseboat
+    mealPlan: Fullboard
+    mealPlanPT: ''
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 28000
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 28000
+    costDoubleAcPT: 0
+    nett: 1
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 3150
+    extraBedPT: 0
+    wef: '2021-01-11T00:00:00'
+    wet: '2021-04-30T00:00:00'
+    fromPax: 1
+    toPax: 6
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 0
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: One Bedroom Standard Houseboat
+    defaultAc: 1
+    specialPeriod: 0
+    notes: rates copied from 2019-2020
+    agentCommission: 5
+bookThrough: Travelcart India Pvt Ltd
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+ranking: 1
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+One of the most tranquil and relaxing things you can do in India is to cruise through the backwaters in a Kerala houseboat, known as a kettuvallam. There is an open sitting area where you can relax and watch the world go by, sipping from a tender coconut and enjoying the sheer peace of the surroundings. Freshly cooked Indian food and chilled beer make the experience even more enjoyable.

@@ -154,7 +154,7 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/sikkim/cities/pelling/excursions/early-morning-hike-to-sanga-choling-monastery/
+          /destinations/india/states/sikkim/cities/pelling/excursions/sanga-choling-monastery/
         content: >-
           Early in the morning, your guide will lead you on the 3km hike to
           Sanga Choling Monastery, perched on top of a hill. It will take you no
@@ -194,7 +194,7 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/sikkim/cities/gangtok/excursions/full-day-excursion-to-phodang-and-labrang-by-nac-jeep/
+          /destinations/india/states/sikkim/cities/gangtok/excursions/phodang-and-labrang/
         content: >-
           It is a winding and bumpy drive to Phodang monastery, a small
           monastery 40km north of Gangtok, with a serene, timeless atmosphere.

@@ -1,21 +1,14 @@
 ---
 title: Dharavi slum tour
 translationKey: dharavi-slum-tour
+type: excursions
+id: services
 duration: '04:30'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: ''
-owntransport: false
-guide: false
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Dharavi slum tour
+vehicle: 0
+guide: 0
+dayAtLeisure: 0
 ---
-0
+Reality Tours & Travel

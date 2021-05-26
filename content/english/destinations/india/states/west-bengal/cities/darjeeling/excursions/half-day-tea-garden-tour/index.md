@@ -1,21 +1,14 @@
 ---
-title: Half day Tea Garden tour
+title: Half-day Tea Garden tour
 translationKey: half-day-tea-garden-tour
+type: excursions
+id: services
 duration: '04:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 125
-toCity: ''
-toCitiesId: ''
-owntransport: true
-guide: true
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Half day Tea Garden tour
+vehicle: 1
+guide: 1
+dayAtLeisure: 0
 ---
-0
+Clubside Tours & Travels Pvt Ltd

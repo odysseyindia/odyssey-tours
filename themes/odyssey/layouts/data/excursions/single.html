@@ -1,0 +1,360 @@
+{{ define "main" }}
+{{ .Scratch.Set "layout" "layouts/data/excursions/single.html" -}}
+
+<section id="{{ .Scratch.Get "id" | lower }}"> 
+  {{ partial "heading.html" . }}
+
+ <div id="message">&nbsp;</div>
+
+  <div class="row">
+    <div id="image"></div>
+    <div class="data">
+
+     
+
+      <div class="table even">
+
+
+      
+        <div class="custom-select">
+          <label for="cities" class="search-label">City</label>
+          <select class="maxwidth" id="cities" name="cities">
+            <option value="">Select a city</option>
+            {{ range ( sort (where (where .Site.Pages "Section" "destinations") ".Params.id" "city") ".Title" "asc" ) }}
+            {{ $urlArray := split .Permalink "/" }}
+            {{ $path := index $urlArray (sub (len $urlArray) 4) }}
+            <option value="{{ .RelPermalink }}">{{ .Title }} {{ if ne $path "destinations" }}, {{ $path | humanize }}{{ end }}</option>
+            {{ end }}
+          </select>
+        </div>
+      </div>
+
+  <div class="table even">
+      <div class="custom-select">
+          <label for="excursions" class="search-label">Excursions</label>
+          <select class="maxwidth" id="excursions" name="excursions">
+            <option value="">Select an excursion</option>
+          </select>
+      </div>
+</div>
+
+      <div class="table">
+        <div class="item-1"><b>Field</b></div>
+        <div class="item-2"><b>Data</b></div>
+      </div>
+
+      <div class="table even">
+        <div class="item-1">URL </div>
+        <div id="url" contenteditable="true" class="item-2"></div>
+      </div>
+
+     <div class="table even">
+        <div class="item-1">Excursion Name </div>
+        <div id="title" contenteditable="true" class="item-2"></div>
+      </div>
+
+      <div class="table odd">
+        <div class="item-1">Start Time</div>
+        <div id="startTime" contenteditable="true" class="item-2"></div>
+      </div>
+
+      <div class="table odd">
+        <div class="item-1">Duration</div>
+        <div id="duration" contenteditable="true" class="item-2"></div>
+      </div>
+
+      <div class="table even">
+        <div class="item-1">Days of Operation </div>
+        <div class="item-2">
+          <div class="form-check">
+            <input id="daysOfOperation" class="custom-control-input" required type="number" min=0 max=127 step=1 value="">
+          </div>
+        </div>
+      </div>
+
+      <div class="table odd">
+        <div class="item-1">Own transport</div>
+        <div class="item-2">
+          <div class="form-check">
+            <input id="vehicle" class="custom-control-input" type="checkbox">
+          </div>
+        </div>
+      </div>
+
+      <div class="table even">
+        <div class="item-1">Guide</div>
+        <div class="item-2">
+          <div class="form-check">
+            <input id="guide" class="custom-control-input" type="checkbox">
+          </div>
+        </div>
+      </div>
+
+       <div class="table even">
+        <div class="item-1">Day at leisure</div>
+        <div class="item-2">
+          <div class="form-check">
+            <input id="dayAtLeisure" class="custom-control-input" type="checkbox">
+          </div>
+        </div>
+      </div>
+
+      <div class="table odd">
+        <div class="item-1">Content</div>
+        <div id="content" contenteditable="true" class="item-2"></div>
+      </div>
+
+    </div>
+    <div id="map"></div>
+  </div>
+
+  <div class="mx-auto w-50">
+    <div id="in-progress" class="spinner" role="status">
+      <span class="sr-only">In progress...</span>
+    </div>
+    <div>
+      <button class="save btn btn-success" id="save">
+        <i class="icon-floppy"></i>
+        Save
+      </button>
+    </div>
+  </div>
+
+</section>
+{{- end }}
+{{- define "postscript" }}
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZ1TWStdIWQYeNDBKpE6SgJSEd4EerEdg&amp;callback=initMap" async="" defer=""></script>
+
+<script>
+  const source = document.querySelector("#cities");
+  const city   = source[source.selectedIndex].value ;
+  var host = window.location.href.split("/");
+  host     = host[0] + "//" + host[2];
+
+  changeCity(city);
+
+  // add EventListeners
+  document.getElementById("cities").addEventListener("change", (event) => {
+    changeCity();
+  });
+
+
+  document.getElementById("excursions").addEventListener("change", (event) => {
+    changeExcursion();
+  });
+
+
+function changeCity(){
+  const source = document.querySelector("#cities")
+  const city   = source[source.selectedIndex].value ;
+
+  if (city){
+    displayExcursions(city);
+  }
+};
+
+function displayExcursions(urldata){
+
+
+    docLoad({url: host+urldata+"excursions/index.json" }).then(
+
+      function(response) {
+
+      const nonl  = response.replace(/(\n)/gm,"");
+      var   data  = JSON.parse(nonl);
+      const items = data.data.items;
+      var   sel   = '<option value="">Select an excursion</option>';
+
+      if (items.length > 0) {
+        for(let i=0;i<items.length;i++) {
+          sel += "<option value='"+items[i].permalink+"'>"+items[i].title+"</option>"
+        }
+
+        document.getElementById("excursions").innerHTML = sel;
+       } 
+      }, 
+      function(Error) {
+        console.log(Error);
+      }
+      );
+  };
+
+
+
+  function changeExcursion(){
+    const source = document.getElementById("excursions");
+    if ( typeof source[source.selectedIndex] !== 'undefined'){
+      var option = source[source.selectedIndex].value;
+      displayData(option);
+    }
+  };
+
+  function displayData(urldata){
+
+    docLoad({url: host+urldata+"/index.json" }).then(
+
+      function(response) {
+
+        const data  = JSON.parse(response);
+        const image = host+urldata+data.image;
+
+        if (data.image){
+          document.getElementById("image").innerHTML = '<img src="'+image+'" alt="excursion image">';
+        } else {
+          document.getElementById("image").innerHTML = '';
+        }
+
+        const url = data.permalink.split("/");
+    
+        document.getElementById("url").innerText              = url[url.length-2];
+        document.getElementById("title").innerText            = data.title;
+        document.getElementById("duration").innerText         = data.duration;
+        document.getElementById("startTime").innerText        = data.startTime;
+        document.getElementById("daysOfOperation").innerText  = data.daysOfOperation;
+        document.getElementById("vehicle").checked            = (data.vehicle == 'true')? true : false; ;
+        document.getElementById("guide").checked              = (data.guide == 'true')? true : false; ;
+        document.getElementById("dayAtLeisure").checked       = (data.dayAtLeisure == 'true')? true : false; ;
+        document.getElementById("content").innerHTML          = data.content;
+
+      }, 
+      function(Error) {
+        console.log(Error);
+      }
+      );
+  };
+
+  function initMap(latitude, longitude ) {
+
+    var lat = (latitude  > 0) ? latitude  : 0;
+    var lng = (longitude > 0) ? longitude : 0;
+
+    const target = { lat: lat, lng: lng };
+
+    const map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 7,
+      center: target,
+    });
+
+    const marker = new google.maps.Marker({
+      position: target,
+      map: map,
+    });
+  }
+
+  document.getElementById("save").addEventListener("click", function(){
+
+    const source            = document.getElementById("excursions")
+
+    try {
+
+    if (source.selectedIndex == 0 ) throw "No selection made";
+
+    const permalink         = source[source.selectedIndex].value ;
+    const content           = document.getElementById("content").innerHTML;
+    var   dayAtLeisure      = document.getElementById("dayAtLeisure").checked;
+    var   guide             = document.getElementById("guide").checked ;
+    var   vehicle           = document.getElementById("vehicle").checked ;
+    var   url               = document.getElementById("url").innerText;
+    const newKey            = permalink.split("/");
+    const key               = newKey.length-2;
+    
+    dayAtLeisure            = (dayAtLeisure == true) ? true : false;
+    guide                   = (guide == true) ? true : false;
+    vehicle                 = (vehicle == true) ? true : false;
+
+    newKey[key]             = url;
+
+    var data                = [];
+    data[0]                 = {};
+    data[0].translationKey  = newKey.join('/');
+    data[0].title           = document.getElementById("title").innerText;
+    data[0].duration        = document.getElementById("duration").innerText;
+    data[0].startTime       = document.getElementById("startTime").innerText;
+    data[0].daysOfOperation = document.getElementById("daysOfOperation").value;
+    data[0].vehicle         = vehicle;
+    data[0].guide           = guide;
+    data[0].dayAtLeisure    = dayAtLeisure;
+    data[1]                 = content.replace(/[`]/g, "'");
+
+    if (permalink != data[0].translationKey){
+      if (confirm("URL will be changed to \n"+ url+"\nAre you certain you want to do this?")){
+        let spinner = document.getElementById("in-progress");
+        spinner.style.display  = 'block';
+
+        docLoad({
+        url:    'rename', 
+        method: 'POST',
+        data:   JSON.stringify({ 
+          "destFileName" : newKey.join('/')+'index.md',
+          "data"         : data,
+          "srcFileName"  : permalink+'index.md',
+        }) 
+      })
+    .then(
+      function(response){ 
+        // console.log( statusText ); 
+      }, 
+      function(Error   ){ console.log( Error ); }
+      );
+
+      }
+    } else {
+      let spinner = document.getElementById("in-progress");
+      spinner.style.display  = 'block';
+
+      docLoad({
+      url:    'ajax', 
+      method: 'POST',
+      data:   JSON.stringify({ 
+        "file"   : permalink+'index.md', 
+        "data"   : data,
+      }) 
+    })
+    .then(
+      function(response){ 
+        console.log( statusText ); 
+      }, 
+      function(Error   ){ console.log( Error ); }
+      );
+
+    }
+}
+
+catch (error) {
+  var element                 = document.getElementById("message");
+  element.innerText           = "No item selected";
+  element.style.color         = "red";
+  element.style["text-align"] = "center";
+}
+    
+  });
+
+
+  function docLoad(object) {
+
+    return new Promise(function(resolve, reject) {
+
+      var host = ((object.method == 'POST')? {{ .Site.Params.appHost }} : "") + object.url;
+
+      var request = new XMLHttpRequest();
+      request.open(object.method || "GET", host);
+      request.setRequestHeader("Content-Type", "application/json");
+
+      request.onload = function() {
+        if (request.status === 200) {
+          resolve(request.response);
+        } else {
+          reject(Error('Document requested did not load successfully; error code:' + request.statusText));
+        }
+      };
+
+      request.onerror = function() {
+        reject(Error('There was a network error.'));
+      };
+      request.send(JSON.stringify(object));
+    });
+  }
+
+</script>
+
+{{- end }}

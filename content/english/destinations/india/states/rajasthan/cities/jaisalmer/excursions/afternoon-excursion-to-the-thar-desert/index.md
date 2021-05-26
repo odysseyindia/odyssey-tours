@@ -1,21 +1,14 @@
 ---
 title: Afternoon excursion to the Thar desert
 translationKey: afternoon-excursion-to-the-thar-desert
+type: excursions
+id: services
 duration: '04:00'
 startTime: '00:00.0'
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: '0'
-owntransport: true
-guide: false
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Afternoon excursion to the Thar desert
+vehicle: 1
+guide: 0
+dayAtLeisure: 0
 ---
-0
+The Guru Kripa Tours

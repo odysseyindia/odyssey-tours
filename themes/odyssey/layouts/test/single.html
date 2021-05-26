@@ -13,9 +13,19 @@
 <div class="container">
     <div class="row">
       <div class="content mx-auto w-50 p-3">
-{{- range (  ( where .Site.Pages "Section" "destinations")  ) }}
-{{ .Title }}<br>
-{{- end }}
+
+      
+
+
+
+
+{{- range (where .Site.Pages  ".Params.type" "city") }}
+{{- range (where .Data.Pages ".Params.type" "hotel") }}
+
+
+{{.Title }}<br>
+
+{{ end }}{{ end }}
 
 </div>
 </div>

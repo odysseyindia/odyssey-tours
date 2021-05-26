@@ -1,21 +1,14 @@
 ---
-title: Half day excursion to Somnathpur
+title: Half-day excursion to Somnathpur
 translationKey: half-day-excursion-to-somnathpur
+type: excursions
+id: services
 duration: '04:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: ''
-owntransport: true
-guide: true
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Half day excursion to Somnathpur
+vehicle: 1
+guide: 1
+dayAtLeisure: 0
 ---
-0
+Travelzone

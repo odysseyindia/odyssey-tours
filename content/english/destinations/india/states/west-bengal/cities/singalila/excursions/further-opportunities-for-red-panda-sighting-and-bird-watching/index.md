@@ -1,21 +1,14 @@
 ---
-title: Further opportunities for Red Panda sighting and bird watching
+title: Further opportunities for Red Panda sighting and bird-watching
 translationKey: further-opportunities-for-red-panda-sighting-and-bird-watching
+type: excursions
+id: services
 duration: '12:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: ''
-owntransport: true
-guide: false
-dayAtLeisure: true
-id: services
-type: excursions
-tags:
-  - Services
-  - Further opportunities for Red Panda sighting and bird watching
+vehicle: 1
+guide: 0
+dayAtLeisure: 1
 ---
-1
+Odyssey Tours & Travels Pvt Ltd

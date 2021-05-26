@@ -1,21 +1,14 @@
 ---
 title: Excursion to Mamallapuram (with local guide)
 translationKey: excursion-to-mamallapuram-with-local-guide
+type: excursions
+id: services
 duration: '06:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: '0'
-owntransport: false
-guide: true
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Excursion to Mamallapuram (with local guide)
+vehicle: 0
+guide: 1
+dayAtLeisure: 0
 ---
-0
+South Tourism

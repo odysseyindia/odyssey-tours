@@ -1,21 +1,14 @@
 ---
 title: Afternoon visit to Gandhi's Sabarmati Ashram & Law Garden Market
 translationKey: afternoon-visit-to-gandhis-sabarmati-ashram-and-law-garden-market
+type: excursions
+id: services
 duration: '03:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: ''
-owntransport: true
-guide: true
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Afternoon visit to Gandhi's Sabarmati Ashram & Law Garden Market
+vehicle: 1
+guide: 1
+dayAtLeisure: 0
 ---
-0
+Indo West Tours

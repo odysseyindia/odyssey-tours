@@ -1,0 +1,1775 @@
+---
+title: Anahata Retreat
+translationKey: anahata-retreat
+bookthrough: ''
+mailto: ''
+address: 'Ashwem Beach  Next to Ajoba Temple  Mandrem Village        '
+city: Goa
+postalcode: 403 527
+phone: '-,98225 90123'
+mobile: 98225 90123
+email: bookings@anahataretreat.com
+website: ''
+note: ''
+ranking: 3
+type: hotel
+category:
+  - H
+  - COM
+showHotel: 0
+starCategory: 0
+checkout: ''
+accessRail: ''
+accessAir: ''
+accessBus: ''
+advantage: ''
+rooms: 0
+rates:
+  - roomType: Garden Cottage
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 7000
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 7000
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2020-10-01T00:00:00'
+    wet: '2020-10-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Sea View Cottage
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 9000
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 9000
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2020-10-01T00:00:00'
+    wet: '2020-10-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Sea View Suite
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 10000
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 10000
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2020-10-01T00:00:00'
+    wet: '2020-10-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Beach Front Room
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 12000
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 12000
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2020-10-01T00:00:00'
+    wet: '2020-10-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Garden Suite
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 8500
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 8500
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2020-10-01T00:00:00'
+    wet: '2020-10-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Anahata Villa
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 13000
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 13000
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2020-10-01T00:00:00'
+    wet: '2020-10-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Garden Cottage
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 7400
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 7400
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2020-11-01T00:00:00'
+    wet: '2020-11-30T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Sea View Cottage
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 10000
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 10000
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2020-11-01T00:00:00'
+    wet: '2020-11-30T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Sea View Suite
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 10500
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 10500
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2020-11-01T00:00:00'
+    wet: '2020-11-30T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Beach Front Room
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 13000
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 13000
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2020-11-01T00:00:00'
+    wet: '2020-11-30T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Garden Suite
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 9000
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 9000
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2020-11-01T00:00:00'
+    wet: '2020-11-30T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Anahata Villa
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 14000
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 14000
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2020-11-01T00:00:00'
+    wet: '2020-11-30T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Garden Cottage
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 8000
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 8000
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2020-12-01T00:00:00'
+    wet: '2020-12-23T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Sea View Cottage
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 11000
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 11000
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2020-12-01T00:00:00'
+    wet: '2020-12-23T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Sea View Suite
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 12000
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 12000
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2020-12-01T00:00:00'
+    wet: '2020-12-23T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Beach Front Room
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 14000
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 14000
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2020-12-01T00:00:00'
+    wet: '2020-12-23T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Garden Suite
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 10000
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 10000
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2020-12-01T00:00:00'
+    wet: '2020-12-23T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Anahata Villa
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 15000
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 15000
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2020-12-01T00:00:00'
+    wet: '2020-12-23T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Garden Cottage
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 10000
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 10000
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 5000
+    wef: '2020-12-24T00:00:00'
+    wet: '2021-01-05T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Sea View Cottage
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 14000
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 14000
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 5000
+    wef: '2020-12-24T00:00:00'
+    wet: '2021-01-05T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Sea View Suite
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 15000
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 15000
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 5000
+    wef: '2020-12-24T00:00:00'
+    wet: '2021-01-05T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Beach Front Room
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 16000
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 16000
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 5000
+    wef: '2020-12-24T00:00:00'
+    wet: '2021-01-05T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Garden Suite
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 13000
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 13000
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 5000
+    wef: '2020-12-24T00:00:00'
+    wet: '2021-01-05T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Anahata Villa
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 18000
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 18000
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 5000
+    wef: '2020-12-24T00:00:00'
+    wet: '2021-01-05T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Garden Cottage
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 9000
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 9000
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2021-01-06T00:00:00'
+    wet: '2021-01-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Sea View Cottage
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 13000
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 13000
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2021-01-06T00:00:00'
+    wet: '2021-01-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Sea View Suite
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 14000
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 14000
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2021-01-06T00:00:00'
+    wet: '2021-01-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Beach Front Room
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 15000
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 15000
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2021-01-06T00:00:00'
+    wet: '2021-01-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Garden Suite
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 12000
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 12000
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2021-01-06T00:00:00'
+    wet: '2021-01-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Anahata Villa
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 17000
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 17000
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2021-01-06T00:00:00'
+    wet: '2021-01-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Garden Cottage
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 8500
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 8500
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2021-02-01T00:00:00'
+    wet: '2021-02-28T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Sea View Cottage
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 12500
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 12500
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2021-02-01T00:00:00'
+    wet: '2021-02-28T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Sea View Suite
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 13500
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 13500
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2021-02-01T00:00:00'
+    wet: '2021-02-28T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Beach Front Room
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 14500
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 14500
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2021-02-01T00:00:00'
+    wet: '2021-02-28T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Garden Suite
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 11500
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 11500
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2021-02-01T00:00:00'
+    wet: '2021-02-28T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Anahata Villa
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 16500
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 16500
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2021-02-01T00:00:00'
+    wet: '2021-02-28T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Garden Cottage
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 7400
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 7400
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2021-03-01T00:00:00'
+    wet: '2021-03-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Sea View Cottage
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 10000
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 10000
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2021-03-01T00:00:00'
+    wet: '2021-03-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Sea View Suite
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 10500
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 10500
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2021-03-01T00:00:00'
+    wet: '2021-03-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Beach Front Room
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 13000
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 13000
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2021-03-01T00:00:00'
+    wet: '2021-03-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Garden Suite
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 9000
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 9000
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2021-03-01T00:00:00'
+    wet: '2021-03-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Anahata Villa
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 14000
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 14000
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2021-03-01T00:00:00'
+    wet: '2021-03-31T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Garden Cottage
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 7000
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 7000
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2021-04-01T00:00:00'
+    wet: '2021-04-30T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Sea View Cottage
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 9000
+    costSingleAc: 0
+    costSingleAcPT: 0
+    costDouble: 0
+    costDoublePT: 9000
+    costDoubleAc: 0
+    costDoubleAcPT: 0
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2021-04-01T00:00:00'
+    wet: '2021-04-30T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Sea View Suite
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 10000
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 10000
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2021-04-01T00:00:00'
+    wet: '2021-04-30T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Beach Front Room
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 12000
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 12000
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2021-04-01T00:00:00'
+    wet: '2021-04-30T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Garden Suite
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 8500
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 8500
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2021-04-01T00:00:00'
+    wet: '2021-04-30T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+  - roomType: Anahata Villa
+    mealPlan: ''
+    mealPlanPT: Bed & breakfast
+    currency: INR
+    currencyPT: INR
+    costSingle: 0
+    costSinglePT: 0
+    costSingleAc: 0
+    costSingleAcPT: 13000
+    costDouble: 0
+    costDoublePT: 0
+    costDoubleAc: 0
+    costDoubleAcPT: 13000
+    nett: 0
+    nettPT: 0
+    freeTransfer: 0
+    extraBed: 0
+    extraBedPT: 3000
+    wef: '2021-04-01T00:00:00'
+    wet: '2021-04-30T00:00:00'
+    fromPax: 1
+    toPax: 15
+    git: 0
+    serviceCharges: 0
+    commission: 0
+    commissionPT: 15
+    commissionOnPlan: 0
+    commissionOnPlanPT: 0
+    serviceChargesOnPlan: 0
+    blackout: 0
+    dayOfTheWeek: 127
+    defaultRoomType: Sea View Suite
+    defaultAc: 1
+    specialPeriod: 0
+    notes: 0
+    agentCommission: 0
+bookThrough: ''
+gstType: 0
+gstin: ''
+www: ''
+web: 0
+mailTo: ''
+---
+
+
+
+
+
+
+
+
+
+
+
+
+A lovely, rustic beach resort focussed on health and wellbeing (and a lot of lazing on one of Goa's best beaches). Find yourself chilling out by the simple bamboo cottages and air-conditioned rooms, eating tasty, healthy food, doing a spot of yoga, selecting a hammock or curling your toes in the sand. Coma-like peace is guaranteed.

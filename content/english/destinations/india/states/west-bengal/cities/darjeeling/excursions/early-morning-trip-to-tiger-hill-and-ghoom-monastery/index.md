@@ -1,21 +1,14 @@
 ---
 title: Early morning trip to Tiger Hill & Ghoom Monastery
 translationKey: early-morning-trip-to-tiger-hill-and-ghoom-monastery
+type: excursions
+id: services
 duration: '04:00'
 startTime: '00:00.0'
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: '0'
-owntransport: true
-guide: true
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Early morning trip to Tiger Hill & Ghoom Monastery
+vehicle: 1
+guide: 1
+dayAtLeisure: 0
 ---
-0
+Clubside Tours & Travels Pvt Ltd

@@ -1,21 +1,14 @@
 ---
-title: Half day sightseeing tour of Kohima
+title: Half-day sightseeing tour of Kohima
 translationKey: half-day-sightseeing-tour-of-kohima
+type: excursions
+id: services
 duration: '04:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: ''
-owntransport: true
-guide: true
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Half day sightseeing tour of Kohima
+vehicle: 1
+guide: 1
+dayAtLeisure: 0
 ---
-0
+NE India Safar

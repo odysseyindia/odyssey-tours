@@ -1,0 +1,246 @@
+{{- define "main" }}
+
+{{- .Scratch.Set "layout" "layouts/reports/hotel-costings/single.html" -}}
+
+<section id="reports-hotel-costings">  
+  {{ partial "heading.html" . }}
+
+  <div class="wrapper">
+
+    <table class="freeze-table">
+      <thead>
+      <tr>
+        <th class="col-id-no fixed-header" rowspan="2">City</th>
+        <th class="col-first-name fixed-header center" rowspan="2">Category</td>
+        <th class="center" rowspan="2">Rank</td>
+        <th class="left" rowspan="2">Hotel</td>
+        <th class="center" colspan="2">Period</td>
+        <th class="center" rowspan="2">A/C</td>
+        <th class="left" rowspan="2">Room Type</td>
+        <th class="left" rowspan="2">Meal Plan</td>
+        <th class="center first-block">Single</td>
+        <th class="center first-block">Double</td>
+        <th class="center first-block">Triple</td>
+        <th class="center single" colspan="5">Single</td>
+        <th class="center double" colspan="5">Double</td>
+        <th class="center triple" colspan="5">Triple</td>
+        <th class="center" rowspan="2">Nett</td>
+        <th class="center single" colspan="4">Meal Cost</td>
+        <th class="center color4" colspan="4">Extra Meals (extra bed)</td>
+        <th class="center color5" colspan="3">Agent GST</td>
+        <th class="center single" colspan="3">Total (Rs)</td>
+        <th class="center double" colspan="3">Margin (%)</td>
+        <th class="center triple" colspan="3">Quote (Rs)</td>
+        <th class="center single" colspan="3">Quote with GST (Rs)</td>
+      </tr>
+      <tr>
+        <th class="row2 center">From</td>
+        <th class="row2 center">To</td>
+        <th class="row2 center first-block">INR</td>
+        <th class="row2 center first-block">INR</td>
+        <th class="row2 center first-block">INR</td>
+
+        <th class="row2 center single">Room</td>
+        <th class="row2 center single">TAC</td>
+        <th class="row2 center single">SC</td>
+        <th class="row2 center single">GST %</td>
+        <th class="row2 center single">GST </td>
+
+        <th class="row2 center double">Room</td>
+        <th class="row2 center double">TAC</td>
+        <th class="row2 center double">SC</td>
+        <th class="row2 center double">GST %</td>
+        <th class="row2 center double">GST </td>
+
+        <th class="row2 center triple">Room</td>
+        <th class="row2 center triple">TAC</td>
+        <th class="row2 center triple">SC</td>
+        <th class="row2 center triple">GST %</td>
+        <th class="row2 center triple">GST </td>
+
+        <th class="row2 single"></td>
+        <th class="row2 single center ">TAC</td>
+        <th class="row2 single center ">SC</td>
+        <th class="row2 single center ">GST </td>
+
+        <th class="row2 color4"></td>
+        <th class="row2 color4 center ">TAC</td>
+        <th class="row2 color4 center ">SC</td>
+        <th class="row2 color4 center ">GST </td>
+
+        <th class="row2 color5 center">Single</td>
+        <th class="row2 color5 center">Double</td>
+        <th class="row2 color5 center">Triple</td>
+
+        <th class="row2 single center">Single</td>
+        <th class="row2 single center">Double</td>
+        <th class="row2 single center">Triple</td>
+
+        <th class="row2 double center">Single</td>
+        <th class="row2 double center">Double</td>
+        <th class="row2 double center">Triple</td>
+
+        <th class="row2 triple center">Single</td>
+        <th class="row2 triple center">Double</td>
+        <th class="row2 triple center">Triple</td>
+
+        <th class="row2 single center">Single</td>
+        <th class="row2 single center">Double</td>
+        <th class="row2 single center">Triple</td>
+
+      </tr>
+      </thead>
+<tbody>
+
+      {{- $categories := slice "ST,DH,TL" }}
+
+      {{- range (where (where .Site.Pages "Section" "destinations") ".Params.type" "hotels") }}
+      {{- range sort (where .Data.Pages ".Params.ranking" "gt" 0 ) ".Params.ranking" }}
+
+      {{ $hotel     :=  path.Base .Parent.Parent.RelPermalink | humanize }}
+      {{ $category  := .Params.category }}
+      {{ $ranking   := .Params.ranking }}
+      {{ $title     := .Title }}
+
+      {{- range $i,$v := .Params.rates -}}
+      {{- if eq .roomType .defaultRoomType }}
+
+      <tr>        
+       {{- if eq $i 0 }}
+       <th class="col-id-no left" scope="row">{{ $hotel }}</th>
+       <td class="col-first-name left" scope="row">{{ $category }}</td>
+       <td class="center">{{ $ranking }}</td>
+       <td class="left">{{ $title }}</td>
+       {{ else }}
+       <td colspan="4"></td>
+       {{- end }}
+       <td class="center">{{ dateFormat "02/01/06" .wef }}</td>
+       <td class="center">{{ dateFormat "02/01/06" .wet }}</td>
+       <td class="center">{{ cond (eq .defaultAc 1) "Yes" "No"}}</td>
+       <td class="left">{{ .roomType }}</td> 
+       <td class="left">{{ .mealPlan }}</td> 
+       <td class="first-block">{{ .costSingle | lang.NumFmt 0 }}</td>
+       <td class="first-block">{{ .costDouble | lang.NumFmt 0 }}</td>
+       <td class="first-block">{{ add .costSingle .costDouble | lang.NumFmt 0 }}</td>
+
+{{ $single     := 0 }}
+{{ $commissionSingle := 0 }}
+
+{{ if eq .defaultAc 1 }}
+  {{ if (gt .costSingleAc  0)}}
+    {{ $single           := .costSingleAc }}
+    {{ $commissionSingle := .commission }}
+  {{ else }}
+    {{ $single           := .costSingleAcPT }}
+    {{ $commissionSingle := .commissionPT }}
+  {{ end }}
+{{ else }}
+  {{ if (gt .costSingleAc  0)}}
+    {{ $single           := .costSingle }}
+    {{ $commissionSingle := .commission }}
+  {{ else }}
+    {{ $single           := .costSinglePT }}
+    {{ $commissionSingle := .commissionPT }}
+  {{ end }}
+{{ end }}
+{{ $gst       := cond (gt $single 7500) 18 12 }}
+{{ $gstAmount := mul $single $gst }}
+
+       <td class="single">{{ $single | lang.NumFmt 0 }}</td>
+       <td class="single">{{ $commissionSingle | lang.NumFmt 0 }}</td>
+       <td class="single">{{ .serviceCharges | lang.NumFmt 0 }}</td>
+       <td class="single">{{ $gst }}%</td>
+       <td class="single">{{ $gstAmount | lang.NumFmt 0 }}</td>
+
+{{ $double     := 0 }}
+{{ $commissionDouble := 0 }}
+
+{{ if eq .defaultAc 1 }}
+  {{ if (gt .costdoubleAc  0)}}
+    {{ $double     := .costdoubleAc }}
+    {{ $commissionDouble := .commission }}
+  {{ else }}
+    {{ $double     := .costdoubleAcPT }}
+    {{ $commissionDouble := .commissionPT }}
+  {{ end }}
+{{ else }}
+  {{ if (gt .costdoubleAc  0)}}
+    {{ $double     := .costdouble }}
+    {{ $commissionDouble := .commission }}
+  {{ else }}
+    {{ $double     := .costdoublePT }}
+    {{ $commissionDouble := .commissionPT }}
+  {{ end }}
+{{ end }}
+{{ $gst       := cond (gt $double 7500) 18 12 }}
+{{ $gstAmount := mul $double $gst }}
+
+       <td class="double">{{ .costDouble | lang.NumFmt 0 }}</td>
+       <td class="double">{{ .commission | lang.NumFmt 0 }}</td>
+       <td class="double">{{ .serviceCharges | lang.NumFmt 0 }}</td>
+       <td class="double">GST %</td>
+       <td class="double">GST </td>
+
+
+{{ $triple           := add $single $double }}
+{{ $commissionTriple := add $commissionSingle $commissionDouble }}
+{{ $gst              := cond (gt $triple 7500) 18 12 }}
+{{ $gstAmount        := mul $triple $gst }}
+
+       <td class="triple">{{ $triple }}</td>
+       <td class="triple">{{ $commissionTriple | lang.NumFmt 0 }}</td>
+       <td class="triple">{{ .serviceCharges | lang.NumFmt 0 }}</td>
+       <td class="triple">{{ $gst }}</td>
+       <td class="triple">{{ $gstAmount }}</td>
+
+       <td class="center">{{ cond (eq .nett 1) "Yes" "No"}}</td>
+
+       <td class="single">Meal Cost</td>
+       <td class="single">{{ .commissionOnPlan | lang.NumFmt 0 }}</td>
+       <td class="single">{{ .serviceChargesOnPlan | lang.NumFmt 0 }}</td>
+       <td class="single">GST </td>
+
+       <td class="color4">extra bed meal</td>
+       <td class="color4">{{ .commissionOnPlan | lang.NumFmt 0 }}</td>
+       <td class="color4">{{ .serviceChargesOnPlan | lang.NumFmt 0 }}</td>
+       <td class="color4">GST </td>
+
+       <td class="color5">{{ .agentCommision }}</td>
+       <td class="color5">{{ .agentCommision }}</td>
+       <td class="color5">{{ .agentCommision }}</td>
+
+       <td class="single">{{ .agentCommision }}</td>
+       <td class="single">{{ .agentCommision }}</td>
+       <td class="single">{{ .agentCommision }}</td>
+
+       <td class="double">{{ .agentCommision }}</td>
+       <td class="double">{{ .agentCommision }}</td>
+       <td class="double">{{ .agentCommision }}</td>
+
+       <td class="triple">{{ .agentCommision }}</td>
+       <td class="triple">{{ .agentCommision }}</td>
+       <td class="triple">{{ .agentCommision }}</td>
+
+       <td class="single">{{ .agentCommision }}</td>
+       <td class="single">{{ .agentCommision }}</td>
+       <td class="single">{{ .agentCommision }}</td>
+
+       {{- if ne $i 0 }}
+     </tr>
+     {{- end }}
+     {{- end }}
+     {{- end }} 
+   </tr>
+   {{- end }}
+   {{- end }}
+ </tbody>
+ </table>
+</div>
+
+</section>
+
+{{ end }}
+{{- define "postscript" }}
+
+
+{{ end }}

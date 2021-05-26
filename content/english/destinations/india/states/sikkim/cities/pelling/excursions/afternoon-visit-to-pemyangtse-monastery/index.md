@@ -1,21 +1,14 @@
 ---
 title: Afternoon visit to Pemyangtse Monastery
 translationKey: afternoon-visit-to-pemyangtse-monastery
+type: excursions
+id: services
 duration: '03:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: ''
-owntransport: true
-guide: false
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Afternoon visit to Pemyangtse Monastery
+vehicle: 1
+guide: 0
+dayAtLeisure: 0
 ---
-0
+Clubside Tours & Travels Pvt Ltd

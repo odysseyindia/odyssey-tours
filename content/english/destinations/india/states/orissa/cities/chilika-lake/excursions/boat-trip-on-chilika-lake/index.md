@@ -1,21 +1,14 @@
 ---
 title: Boat trip on Chilika Lake
 translationKey: boat-trip-on-chilika-lake
+type: excursions
+id: services
 duration: '02:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: ''
-owntransport: true
-guide: false
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Boat trip on Chilika Lake
+vehicle: 1
+guide: 0
+dayAtLeisure: 0
 ---
-0
+Travel Link Pvt Ltd

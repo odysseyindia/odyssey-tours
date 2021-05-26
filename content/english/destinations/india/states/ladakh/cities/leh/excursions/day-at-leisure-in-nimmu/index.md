@@ -1,21 +1,14 @@
 ---
 title: Day at leisure in Nimmu
 translationKey: day-at-leisure-in-nimmu
+type: excursions
+id: services
 duration: '12:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: ''
-owntransport: true
-guide: false
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Day at leisure in Nimmu
+vehicle: 1
+guide: 0
+dayAtLeisure: 0
 ---
-0
+Odyssey Tours & Travels Pvt Ltd
