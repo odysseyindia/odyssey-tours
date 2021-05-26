@@ -1,21 +1,14 @@
 ---
 title: Lunch at Palácio do Deão
 translationKey: lunch-at-palácio-do-deão
+type: excursions
+id: services
 duration: '02:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: ''
-owntransport: true
-guide: false
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Lunch at Palácio do Deão
+vehicle: 1
+guide: 0
+dayAtLeisure: 0
 ---
-0
+Palacio do Deao

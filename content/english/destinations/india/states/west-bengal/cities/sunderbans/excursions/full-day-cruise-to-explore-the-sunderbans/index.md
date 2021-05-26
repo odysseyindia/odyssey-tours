@@ -1,21 +1,14 @@
 ---
-title: Full day cruise to explore the Sunderbans
+title: Full-day cruise to explore the Sunderbans
 translationKey: full-day-cruise-to-explore-the-sunderbans
+type: excursions
+id: services
 duration: '08:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: ''
-owntransport: false
-guide: false
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Full day cruise to explore the Sunderbans
+vehicle: 0
+guide: 0
+dayAtLeisure: 0
 ---
-0
+Help Tourism

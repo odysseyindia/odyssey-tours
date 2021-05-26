@@ -1,21 +1,14 @@
 ---
-title: Tracking the Red Panda and bird watching
+title: Tracking the Red Panda and bird-watching
 translationKey: tracking-the-red-panda-and-bird-watching
+type: excursions
+id: services
 duration: '12:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: ''
-owntransport: true
-guide: false
-dayAtLeisure: true
-id: services
-type: excursions
-tags:
-  - Services
-  - Tracking the Red Panda and bird watching
+vehicle: 1
+guide: 0
+dayAtLeisure: 1
 ---
-1
+Odyssey Tours & Travels Pvt Ltd

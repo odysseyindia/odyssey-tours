@@ -1,21 +1,14 @@
 ---
 title: Afternoon jeep safari (Rural Ramble)
 translationKey: afternoon-jeep-safari-rural-ramble
+type: excursions
+id: services
 duration: '03:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: ''
-owntransport: false
-guide: false
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Afternoon jeep safari (Rural Ramble)
+vehicle: 0
+guide: 0
+dayAtLeisure: 0
 ---
-0
+Deogarh Mahal

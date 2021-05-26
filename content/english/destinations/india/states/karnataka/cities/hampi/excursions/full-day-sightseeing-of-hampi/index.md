@@ -1,21 +1,14 @@
 ---
-title: Full day sightseeing of Hampi
+title: Full-day sightseeing of Hampi
 translationKey: full-day-sightseeing-of-hampi
+type: excursions
+id: services
 duration: '08:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: ''
-owntransport: false
-guide: true
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Full day sightseeing of Hampi
+vehicle: 0
+guide: 1
+dayAtLeisure: 0
 ---
-0
+My Way Tour & Travel

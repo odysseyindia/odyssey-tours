@@ -1,21 +1,14 @@
 ---
 title: Night visit to the Golden Temple
 translationKey: night-visit-to-the-golden-temple
+type: excursions
+id: services
 duration: '02:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: '0'
-owntransport: false
-guide: true
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Night visit to the Golden Temple
+vehicle: 0
+guide: 1
+dayAtLeisure: 0
 ---
-0
+Summit Adventures

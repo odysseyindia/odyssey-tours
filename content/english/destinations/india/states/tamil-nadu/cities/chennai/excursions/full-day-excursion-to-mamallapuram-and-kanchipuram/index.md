@@ -1,21 +1,14 @@
 ---
-title: Full day excursion to Mamallapuram and Kanchipuram
+title: Full-day excursion to Mamallapuram and Kanchipuram
 translationKey: full-day-excursion-to-mamallapuram-and-kanchipuram
+type: excursions
+id: services
 duration: '08:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: '0'
-owntransport: false
-guide: true
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Full day excursion to Mamallapuram and Kanchipuram
+vehicle: 0
+guide: 1
+dayAtLeisure: 0
 ---
-0
+South Tourism

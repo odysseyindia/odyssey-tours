@@ -1,21 +1,14 @@
 ---
-title: Full day excursion to Ajanta
+title: Full-day excursion to Ajanta
 translationKey: full-day-excursion-to-ajanta
+type: excursions
+id: services
 duration: '08:00'
 startTime: '00:00.0'
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 125
-toCity: ''
-toCitiesId: '0'
-owntransport: false
-guide: true
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Full day excursion to Ajanta
+vehicle: 0
+guide: 1
+dayAtLeisure: 0
 ---
-0
+JK Tours and Travels

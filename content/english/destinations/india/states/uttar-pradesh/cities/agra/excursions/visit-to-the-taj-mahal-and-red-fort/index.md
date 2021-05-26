@@ -1,21 +1,14 @@
 ---
 title: Visit to the Taj Mahal & Red Fort
 translationKey: visit-to-the-taj-mahal-and-red-fort
+type: excursions
+id: services
 duration: '04:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 95
-toCity: ''
-toCitiesId: '0'
-owntransport: true
-guide: true
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Visit to the Taj Mahal & Red Fort
+vehicle: 1
+guide: 1
+dayAtLeisure: 0
 ---
-0
+Colleague Tours Pvt. Ltd.

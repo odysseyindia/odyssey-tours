@@ -1,21 +1,14 @@
 ---
 title: Cycling tour of Pondicherry
 translationKey: cycling-tour-of-pondicherry
+type: excursions
+id: services
 duration: '01:30'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: ''
-owntransport: false
-guide: false
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Cycling tour of Pondicherry
+vehicle: 0
+guide: 0
+dayAtLeisure: 0
 ---
-0
+South Tourism

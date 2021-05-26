@@ -1,21 +1,14 @@
 ---
-title: Half day tour of Bodh Gaya
+title: Half-day tour of Bodh Gaya
 translationKey: half-day-tour-of-bodh-gaya
+type: excursions
+id: services
 duration: '04:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: ''
-owntransport: false
-guide: true
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Half day tour of Bodh Gaya
+vehicle: 0
+guide: 1
+dayAtLeisure: 0
 ---
-0
+Steps India Tours

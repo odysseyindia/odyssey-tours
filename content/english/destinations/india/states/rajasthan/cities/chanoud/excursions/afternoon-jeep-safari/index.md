@@ -1,21 +1,14 @@
 ---
 title: Afternoon jeep safari
 translationKey: afternoon-jeep-safari
+type: excursions
+id: services
 duration: '02:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: ''
-owntransport: false
-guide: false
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Afternoon jeep safari
+vehicle: 0
+guide: 0
+dayAtLeisure: 0
 ---
-0
+Hotel Chanoud Garh

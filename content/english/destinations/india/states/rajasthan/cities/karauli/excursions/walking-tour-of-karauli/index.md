@@ -1,21 +1,14 @@
 ---
 title: Walking tour of Karauli
 translationKey: walking-tour-of-karauli
+type: excursions
+id: services
 duration: '03:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: '0'
-owntransport: false
-guide: false
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Walking tour of Karauli
+vehicle: 0
+guide: 0
+dayAtLeisure: 0
 ---
-0
+Bhanwar Vilas Palace

@@ -1,21 +1,14 @@
 ---
 title: Day at leisure at Hornbill Camp for walking, cycling & kayaking
 translationKey: day-at-leisure-at-hornbill-camp-for-walking-cycling-and-kayaking
+type: excursions
+id: services
 duration: '03:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: ''
-owntransport: true
-guide: false
-dayAtLeisure: true
-id: services
-type: excursions
-tags:
-  - Services
-  - Day at leisure at Hornbill Camp for walking, cycling & kayaking
+vehicle: 1
+guide: 0
+dayAtLeisure: 1
 ---
-1
+Odyssey Tours & Travels Pvt Ltd

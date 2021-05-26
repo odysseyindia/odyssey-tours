@@ -1,21 +1,14 @@
 ---
 title: Evening Kathakali dance performance
 translationKey: evening-kathakali-dance-performance
+type: excursions
+id: services
 duration: '02:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: '0'
-owntransport: false
-guide: false
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Evening Kathakali dance performance
+vehicle: 0
+guide: 0
+dayAtLeisure: 0
 ---
-0
+Travelcart India Pvt Ltd

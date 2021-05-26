@@ -1,6 +1,6 @@
 ---
 title: alfred
-subtitle: ''
+subtitle: subtitle
 translationKey: test
 type: itinerary
 tour: test
@@ -11,7 +11,12 @@ itinerary:
       - type: city
         url: /destinations/india/states/uttar-pradesh/cities/agra/
         title: Agra , Uttar pradesh
-        content: ''
+        content: >-
+          Agra is home to possibly the most famous and beautiful building in the
+          world: the Taj Mahal, built in the 17th century by the Mughal emperor
+          Shah Jahan as a tomb and memorial for his wife Mumtaz Mahal. Along the
+          river Yamuna is the impressive Red Fort, the capital of the Mughal
+          Empire during the 16th and 17th centuries.
   - day: 1
     item:
       - type: city
@@ -26,7 +31,7 @@ itinerary:
           tigers and elephants. The birdlife is especially impressive, with over
           500 species.
 themes: []
-region: '0'
+region: /destinations/india/regions/andamans/
 weight: '0'
 ---
-
+intro

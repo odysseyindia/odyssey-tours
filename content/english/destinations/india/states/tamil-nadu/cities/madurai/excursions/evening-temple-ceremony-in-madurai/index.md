@@ -1,21 +1,14 @@
 ---
 title: Evening temple ceremony in Madurai
 translationKey: evening-temple-ceremony-in-madurai
+type: excursions
+id: services
 duration: '01:30'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: '0'
-owntransport: false
-guide: true
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Evening temple ceremony in Madurai
+vehicle: 0
+guide: 1
+dayAtLeisure: 0
 ---
-0
+South Tourism

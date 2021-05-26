@@ -1,21 +1,14 @@
 ---
 title: Morning city tour of Udaipur
 translationKey: morning-city-tour-of-udaipur
+type: excursions
+id: services
 duration: '03:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: '0'
-owntransport: true
-guide: true
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Morning city tour of Udaipur
+vehicle: 1
+guide: 1
+dayAtLeisure: 0
 ---
-0
+Kaustubh Holidays Tours & Travels Pvt Ltd

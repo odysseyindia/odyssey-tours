@@ -1,21 +1,14 @@
 ---
-title: Full day excursion to Name Phake and Digboi
+title: Full-day excursion to Name Phake and Digboi
 translationKey: full-day-excursion-to-name-phake-and-digboi
+type: excursions
+id: services
 duration: '08:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: ''
-owntransport: true
-guide: false
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Full day excursion to Name Phake and Digboi
+vehicle: 1
+guide: 0
+dayAtLeisure: 0
 ---
-0
+NE India Safar

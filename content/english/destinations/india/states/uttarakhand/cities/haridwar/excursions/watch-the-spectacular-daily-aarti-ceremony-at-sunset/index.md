@@ -1,21 +1,14 @@
 ---
 title: Watch the spectacular daily aarti ceremony at sunset
 translationKey: watch-the-spectacular-daily-aarti-ceremony-at-sunset
+type: excursions
+id: services
 duration: '02:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: ''
-owntransport: true
-guide: false
-dayAtLeisure: true
-id: services
-type: excursions
-tags:
-  - Services
-  - Watch the spectacular daily aarti ceremony at sunset
+vehicle: 1
+guide: 0
+dayAtLeisure: 1
 ---
-1
+Odyssey Tours & Travels Pvt Ltd

@@ -1,21 +1,14 @@
 ---
 title: Delhi by cycle (Nizamuddin tour)
 translationKey: delhi-by-cycle-nizamuddin-tour
+type: excursions
+id: services
 duration: '03:30'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: ''
-owntransport: true
-guide: false
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Delhi by cycle (Nizamuddin tour)
+vehicle: 1
+guide: 0
+dayAtLeisure: 0
 ---
-0
+Jack's Adventures Pvt. Ltd.

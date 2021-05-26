@@ -1,21 +1,14 @@
 ---
-title: Half day city tour of Chennai
+title: Half-day city tour of Chennai
 translationKey: half-day-city-tour-of-chennai
+type: excursions
+id: services
 duration: '04:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: '0'
-owntransport: false
-guide: true
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Half day city tour of Chennai
+vehicle: 0
+guide: 1
+dayAtLeisure: 0
 ---
-0
+South Tourism

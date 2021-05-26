@@ -1,26 +1,17 @@
 ---
 title: >-
-  Half day tour of Himalayan Mountaineering Institute, Zoo and Tibetan Refugee
+  Half-day tour of Himalayan Mountaineering Institute, Zoo and Tibetan Refugee
   Centre
 translationKey: >-
   half-day-tour-of-himalayan-mountaineering-institute-zoo-and-tibetan-refugee-centre
+type: excursions
+id: services
 duration: '04:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: ''
-owntransport: true
-guide: true
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - >-
-    Half day tour of Himalayan Mountaineering Institute, Zoo and Tibetan Refugee
-    Centre
+vehicle: 1
+guide: 1
+dayAtLeisure: 0
 ---
-0
+Clubside Tours & Travels Pvt Ltd

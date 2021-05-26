@@ -1,21 +1,14 @@
 ---
 title: See a Bollywood movie
 translationKey: see-a-bollywood-movie
+type: excursions
+id: services
 duration: '03:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: ''
-owntransport: true
-guide: false
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - See a Bollywood movie
+vehicle: 1
+guide: 0
+dayAtLeisure: 0
 ---
-0
+Kaustubh Holidays Tours & Travels Pvt Ltd

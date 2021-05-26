@@ -1,21 +1,14 @@
 ---
 title: Evening Feni and Tapas Food Trail
 translationKey: evening-feni-and-tapas-food-trail
+type: excursions
+id: services
 duration: '03:30'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: ''
-owntransport: true
-guide: false
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Evening Feni and Tapas Food Trail
+vehicle: 1
+guide: 0
+dayAtLeisure: 0
 ---
-0
+Make It Happen

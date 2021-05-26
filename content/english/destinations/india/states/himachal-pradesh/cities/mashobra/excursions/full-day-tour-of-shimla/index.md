@@ -1,21 +1,14 @@
 ---
-title: Full day tour of Shimla
+title: Full-day tour of Shimla
 translationKey: full-day-tour-of-shimla
+type: excursions
+id: services
 duration: '05:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: ''
-owntransport: false
-guide: true
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Full day tour of Shimla
+vehicle: 0
+guide: 1
+dayAtLeisure: 0
 ---
-0
+Summit Adventures

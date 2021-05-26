@@ -285,9 +285,9 @@ function displayExcursions(urldata){
         url:    'rename', 
         method: 'POST',
         data:   JSON.stringify({ 
-          "newFileName" : newKey.join('/')+'index.md',
-          "data"        : data,
-          "oldFileName" : permalink+'index.md',
+          "destFileName" : newKey.join('/')+'index.md',
+          "data"         : data,
+          "srcFileName"  : permalink+'index.md',
         }) 
       })
     .then(

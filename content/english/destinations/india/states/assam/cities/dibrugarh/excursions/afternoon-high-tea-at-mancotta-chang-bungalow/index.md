@@ -1,21 +1,14 @@
 ---
 title: Afternoon high tea at Mancotta Chang Bungalow
 translationKey: afternoon-high-tea-at-mancotta-chang-bungalow
+type: excursions
+id: services
 duration: '00:30'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: ''
-owntransport: false
-guide: false
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Afternoon high tea at Mancotta Chang Bungalow
+vehicle: 0
+guide: 0
+dayAtLeisure: 0
 ---
-0
+Purvi Discovery Pvt Ltd

@@ -1,21 +1,14 @@
 ---
 title: Jeep safari in Central Range
 translationKey: jeep-safari-in-central-range
+type: excursions
+id: services
 duration: '03:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: ''
-owntransport: false
-guide: false
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Jeep safari in Central Range
+vehicle: 0
+guide: 0
+dayAtLeisure: 0
 ---
-0
+Wild Grass Resort

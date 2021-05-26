@@ -1,21 +1,14 @@
 ---
 title: Day at leisure in Gopalpur-on-Sea
 translationKey: day-at-leisure-in-gopalpur-on-sea
+type: excursions
+id: services
 duration: '04:00'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: ''
-owntransport: true
-guide: false
-dayAtLeisure: true
-id: services
-type: excursions
-tags:
-  - Services
-  - Day at leisure in Gopalpur-on-Sea
+vehicle: 1
+guide: 0
+dayAtLeisure: 1
 ---
-1
+Odyssey Tours & Travels Pvt Ltd

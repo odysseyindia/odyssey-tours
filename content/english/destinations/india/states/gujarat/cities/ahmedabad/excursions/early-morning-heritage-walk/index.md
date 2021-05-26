@@ -1,21 +1,14 @@
 ---
 title: Early morning heritage walk
 translationKey: early-morning-heritage-walk
+type: excursions
+id: services
 duration: '02:45'
 startTime: ''
-transfer: false
-transferCode: ''
-draft: false
+transfer: 0
 daysOfOperation: 127
-toCity: ''
-toCitiesId: ''
-owntransport: true
-guide: false
-dayAtLeisure: false
-id: services
-type: excursions
-tags:
-  - Services
-  - Early morning heritage walk
+vehicle: 1
+guide: 0
+dayAtLeisure: 0
 ---
-0
+Indo West Tours
