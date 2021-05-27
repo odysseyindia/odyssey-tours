@@ -2,7 +2,7 @@
 title: Orissa
 subtitle: Bhubaneswar, Dhenkanal, Konarak, Puri, Chilika Lake
 translationKey: orissa
-type: itinerary
+type: tour
 tour: Orissa
 highlights:
   - The beautiful temples of Bhubaneswar
@@ -243,4 +243,5 @@ themes:
 region: /destinations/india/regions/kolkata-orissa-and-the-northeast/
 weight: '306'
 ---
+
 Think you’ve seen India? Well, Orissa is still going to blow you away. Utterly rich in temples, beaches and untouched villages, it makes for a great, offbeat trip. Starting with the vibrant temples of Bhubaneswar, you carry on to the hidden-away Dhenkanal Palace, a great base to explore little villages and markets in the hinterland. Then, you visit the world-famous Sun Temple at Konark, and a sweet artisans' village, famous for its cloth paintings, and finally go on to the largest brackish-water lagoon in the world at Chilika, and look for exotic birds and incredibly rare dolphins and dugongs.

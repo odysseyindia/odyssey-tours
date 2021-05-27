@@ -3,7 +3,7 @@ title: An Introduction to Kerala
 subtitle: Kochi, Thekkady, Alleppey, Mararikulam
 translationKey: an-introduction-to-kerala
 type: itinerary
-weight: 601
+weight: '601'
 tour: An Introduction to Kerala
 highlights:
   - >-
@@ -265,6 +265,6 @@ itinerary:
 themes:
   - Beach vacations
   - Classic tours
-region: Kerala & South India
+region: /destinations/india/regions/kerala-and-south-india/
 ---
 Strewn with rivers, lagoons and meandering backwaters, covered in coconut groves and flanked by sunny, palm-fringed beaches, Kerala is a slice of paradise. Explore fishing villages where colourful boats stand in the harbour against a backdrop of Chinese fishing nets, unwind aboard your private traditional kettuvallam houseboat as you sail through the uniquely quiet backwaters, and discover a world of exotic spices.

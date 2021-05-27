@@ -1,7 +1,7 @@
 ---
 title: Family Tour of Rajasthan
 subtitle: Delhi, Udaipur, Deogarh, Jaipur, Sawai Madhopur, Karauli, Agra
-weight: 109
+weight: '109'
 translationKey: family-tour-of-rajasthan
 type: itinerary
 tour: Family Tour of Rajasthan
@@ -429,25 +429,25 @@ itinerary:
           the magnificent Jama Masjid, India’s largest mosque. In New Delhi you
           can find India Gate - a war memorial arch, the impressive Parliament
           Building and Rashtrapati Bhawan, the residence of the President.
-          Towards the South are Qutab Minar and Humayun's Tomb, both World
+          Towards the South are Qutab Minar and Humayun’s Tomb, both World
           Heritage Sites.
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/half-day-tour-of-new-delhi/
         title: Morning guided tour of New Delhi
         content: >-
-          New Delhi has a number of attractions, like Humayun's Tomb, a
+          New Delhi has a number of attractions, like Humayun’s Tomb, a
           sandstone mausoleum in the authentic Mughal style - the Taj Mahal,
           built much later, follows a similar style of architecture. Nearby you
           can see India Gate, the Parliament Buildings, the Lodhi Gardens, the
-          Lotus Temple, the President's House, and the Sikh temple, Gurudwara
+          Lotus Temple, the President’s House, and the Sikh temple, Gurudwara
           Bangla Sahib. However, Delhi is huge and traffic is usually heavy, and
           half a day is not enough to see all of the attractions, so it is best
           to discuss with your guide which sights you might wish to visit.
 
 
           The afternoon is free for you to relax or explore further on your own.
-          If you'd like to go shopping, Connaught Place is a good place to
+          If you’d like to go shopping, Connaught Place is a good place to
           explore.
         date: ''
         etd: ''
@@ -472,6 +472,6 @@ highlights:
   - Running wild in the safe, friendly grounds of Karauli's palace
 themes:
   - Family holidays
-region: Rajasthan & the North
+region: /destinations/india/regions/rajasthan-and-the-north/
 ---
 Rajasthan is full of great monuments, but often for families, the highlights are the little offbeat places in between the major cities, and getting to experience something different everywhere. This tour takes you on a tiger safari in Ranthambhore, to a maze-like castle in Deogarh, to a lovely palace with horses, ducks and vintage cars in Karauli, and to the highlights of Udaipur, Jaipur and the Taj Mahal. With a comfortable pace and fun activities, this is a great way to show the kids a bit of India without tears and sulks!

@@ -114,6 +114,10 @@
 
             {{- if (eq $v.type "city") }}
             {{- $url =  printf "%s%s" $v.url "_index.md" }}
+            {{- end }} 
+
+            {{- if (eq $v.type "hotel") }}
+            {{- $url =  printf "%s%s" $v.url "_index.md" }}
             {{- end }}            
 
             {{- with $.Site.GetPage (string $url) }}
@@ -262,12 +266,7 @@
       <div class="main-container">
         <div class="row dossier">
           <div>
-<<<<<<< HEAD
-            <a  href="#0" class="button" onclick="saveItinerary()" data-toggle="tooltip" title="Save"><i class="icon-floppy"></i></a>
-            <a  href="#0" class="button" onclick="copyToTours()" data-toggle="tooltip" title="Save to Tours"><i class="icon-floppy"></i></a>
-=======
             <a href="#0" class="button" onclick="saveItinerary()" data-toggle="tooltip" title="Save"><i class="icon-floppy"></i></a>
->>>>>>> hotfix
             <a href="#0" class="button" id="toggleContent" data-toggle="tooltip" title="Compact" onclick="toggleContent()"><i class="icon-plus-squared"></i></a>
             <a href="#0" class="button" id="toggleCalendar" data-toggle="tooltip" title="Display dates" onclick="toggleCalendar()"><i class="icon-blind"></i></a>
             <a href="#0" class="button" data-toggle="tooltip" title="Insert a day" onclick="insertDay()"><i class="icon-plus"></i></a>
@@ -1152,10 +1151,7 @@ function saveItinerary(deleteDay){
 
 function writeToTour(){
 
-
-  if (confirm("Are you certain?\n")){
-    let alert = document.getElementById("alert");
-    alert.innerText = 'Itinerary saved as a tour';
+  if (confirm("This will republish this itinerary as a tour.\nAre you certain?\n")){
 
     docLoad({
       url:    'write-to-tour', 
@@ -1163,13 +1159,11 @@ function writeToTour(){
       data:   JSON.stringify({ 
         "file"  : {{ .RelPermalink }}, 
         "region": document.getElementById('region').value,
-      }) 
+      })
     })
     .then(
       function(response){ 
-        let alert = document.getElementById("alert");
-        alert.innerText = 'Itinerary saved as a tour'; 
-        fadeOut();
+        fadeOut('Itinerary saved as a tour');
       }, 
       function(Error){  console.log( Error );       }
     );
@@ -1710,9 +1704,10 @@ function docLoad(object) {
 
 window.onload = fadeOut;
   
-function fadeOut() {
+function fadeOut(message) {
     
     var fade = document.getElementById("alert");
+    alert.innerText = message; 
     var opacity = 1;
     var intervalID = setInterval(function() {
 

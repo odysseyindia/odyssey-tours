@@ -4,9 +4,9 @@ subtitle: >-
   Delhi, Mandawa, Bikaner, Jaisalmer, Jodhpur, Padarla, Udaipur, Chittaurgarh,
   Bundi, Sawai Madhopur, Jaipur, Agra
 translationKey: rajasthan-safari
-weight: 105
+weight: '105'
 type: itinerary
-tour: Rajasthan Safari 
+tour: Rajasthan Safari
 itinerary:
   - day: 0
     item:
@@ -746,6 +746,6 @@ themes:
   - Active outdoor trips
   - Classic tours
   - Wildlife/Birding tours
-region: Rajasthan & the North
+region: /destinations/india/regions/rajasthan-and-the-north/
 ---
 A wild, adventurous journey through Rajasthan, for those who love culture, wildlife and the outdoors. Enjoy the desert in Mandawa, explore the castles of Bikaner, Jaisalmer and Jodhpur, and go looking for leopards by jeep in Padarla. Then you have time to enjoy the lake city of Udaipur, and smaller, fascinating towns before you go on tiger safaris in Ranthambhore, and end with the wonders of Jaipur and the Taj Mahal in Agra.

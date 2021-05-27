@@ -2,7 +2,7 @@
 title: Gokarna Extension
 subtitle: Gokarna
 translationKey: gokarna-extension
-type: itinerary
+type: tour
 tour: Gokarna Extension
 highlights:
   - Tailor-made wellness programmes
@@ -50,4 +50,5 @@ themes:
 region: /destinations/india/regions/mumbai-goa-and-the-deccan/
 weight: '505'
 ---
+
 Take a wellness break by a lovely beach on India’s Western coast - a great end to an active holiday. The retreat offers ayurvedic programmes that combine yoga, ayurvedic therapies, a none-too-onerous diet (including seafood) and plenty of time to choose between being active and just relaxing.

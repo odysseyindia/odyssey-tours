@@ -29,7 +29,7 @@ itinerary:
           Kanchenjunga mountain range. Established in colonial times, it now
           offers a vineyard-like tea experience, where you can learn about tea
           in relaxed luxury, with outdoor sitouts, tea tastings, walking trails,
-          massage treatments, fishing and more, amid lovingly restored planter's
+          massage treatments, fishing and more, amid lovingly restored planter’s
           bungalows.
         checkInDate: ''
         checkInTime: ''
@@ -45,7 +45,7 @@ itinerary:
 themes:
   - Honeymoon ideas
   - Staying in style
-region: Kolkata, Orissa & the Northeast
-weight: 307
+region: /destinations/india/regions/kolkata-orissa-and-the-northeast/
+weight: '307'
 ---
 Glenburn, with colonial-era bungalows and gorgeous views of the snow-capped Himalayas, including Kanchenjunga, the world’s third-highest peak. A stay here is an escape into old-world luxury, a great experience of the British planter’s life that’s easy to add on to a trip to West Bengal.

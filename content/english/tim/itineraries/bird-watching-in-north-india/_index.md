@@ -1,7 +1,7 @@
 ---
 title: Bird Watching in North India
 subtitle: Delhi, Bharatpur, Chambal River Sanctuary, Agra, Bhopal, Satpura National Park
-weight: 111
+weight: '111'
 translationKey: bird-watching-in-north-india
 type: itinerary
 tour: Bird Watching in North India
@@ -100,10 +100,10 @@ itinerary:
         content: >-
           Today, your first stop is the deserted Mughal city of Fatehpur Sikri,
           a complex of sandstone forts, palaces and mosques. Fatehpur Sikri was
-          Emperor Akbar's capital for only 12 years before it was abandoned,
+          Emperor Akbar’s capital for only 12 years before it was abandoned,
           apparently due to a lack of water. Today it is a ghost city, its
           architecture perfectly preserved. The white marble tomb of Sheikh
-          Salim Chisti, Akbar's spiritual adviser, is a Muslim pilgrimage spot.
+          Salim Chisti, Akbar’s spiritual adviser, is a Muslim pilgrimage spot.
 
 
           You continue to the village of Bah, near the ravines of the Chambal
@@ -132,7 +132,7 @@ itinerary:
           /destinations/india/states/uttar-pradesh/cities/bah/hotels/mela-kothi-the-chambal-safari-lodge/
         title: Mela Kothi - The Chambal Safari Lodge
         content: >-
-          Mela Kothi was once a 'camp office' for the aristocratic family of
+          Mela Kothi was once a ‘camp office’ for the aristocratic family of
           nearby Jarar, used when they organised the Bateshwar fair. It is now a
           comfortable eco-lodge run by the family, who are also
           conservationists, and this is a fabulous place for birders in
@@ -160,7 +160,7 @@ itinerary:
           look for more birds and reptiles.
 
 
-          Your afternoon is at leisure, and if you're keen, there's plenty of
+          Your afternoon is at leisure, and if you’re keen, there’s plenty of
           birding to be done around the property itself.
         date: ''
         etd: ''
@@ -184,8 +184,8 @@ itinerary:
         content: >-
           The Taj Mahal is one of the most fascinating and beautiful monuments
           in the world. About 20,000 workers were employed in its construction,
-          which took some 20 years. Agra's Red Fort, built in the form of a half
-          moon on the Yamuna river, is a masterpiece of design. The fort's
+          which took some 20 years. Agra’s Red Fort, built in the form of a half
+          moon on the Yamuna river, is a masterpiece of design. The fort’s
           colossal walls are encircled by a moat and contain a maze of
           buildings, that form a small city within a city. You visit both on a
           half-day guided tour.
@@ -197,7 +197,7 @@ itinerary:
           /destinations/india/states/uttar-pradesh/cities/agra/hotels/the-grand-imperial/
         title: The Grand Imperial
         content: >-
-          This 100-year-old building is testimony to India's long and varied
+          This 100-year-old building is testimony to India’s long and varied
           history. The low, white colonial building dating back to the Raj era
           is peppered with Mughal paintings and memorabilia, and was host at one
           time to the Crown Princes of England as well as to Mohammad Ali
@@ -258,7 +258,7 @@ itinerary:
           You drive on for about three hours to Satpura, a less-known but
           extremely scenic national park, and a great place to simply experience
           the forest. Apart from the beautiful core zone, known for its leopard
-          sightings, Satpura's main feature is the Denwa river; boat safaris and
+          sightings, Satpura’s main feature is the Denwa river; boat safaris and
           canoeing are possible, as are night safaris, cycling and walks in the
           buffer zone, so the experience here goes beyond simply looking for
           tigers.
@@ -336,7 +336,6 @@ highlights:
   - Being awed by prehistoric cave paintings in Bhimbetka
 themes:
   - Wildlife/Birding tours
-region: Rajasthan & the North
+region: /destinations/india/regions/rajasthan-and-the-north/
 ---
-India&rsquo;s varied terrain and large forest area make it a wonderful destination for birders, and in arid north and central India in particular, the smallest water body becomes a thriving avian metropolis. You start your tour with a multi-day stay at Bharatpur&rsquo;s Keoladeo Ghana bird sanctuary, whose wetlands are home to vast numbers of aquatic birds. You then take a trip on the Chambal river near Agra, a fabulous place to spot a variety of ducks, skimmers, herons and raptors, as well as endangered gharial crocodiles, muggers, turtles and the very rare Gangetic dolphins.
-A cultural interlude takes you to the fabulous Taj Mahal and the wonderful cave art outside Bhopal, and then you end up at the little-known Satpura national park, a beautiful forest that can be explored by jeep, boat, cycle or even on foot. With close to 400 species of birds and plenty of time in each spot, this is sure to be a momentous birding journey.
+India’s varied terrain and large forest area make it a wonderful destination for birders, and in arid north and central India in particular, the smallest water body becomes a thriving avian metropolis. You start your tour with a multi-day stay at Bharatpur’s Keoladeo Ghana bird sanctuary, whose wetlands are home to vast numbers of aquatic birds. You then take a trip on the Chambal river near Agra, a fabulous place to spot a variety of ducks, skimmers, herons and raptors, as well as endangered gharial crocodiles, muggers, turtles and the very rare Gangetic dolphins. A cultural interlude takes you to the fabulous Taj Mahal and the wonderful cave art outside Bhopal, and then you end up at the little-known Satpura national park, a beautiful forest that can be explored by jeep, boat, cycle or even on foot. With close to 400 species of birds and plenty of time in each spot, this is sure to be a momentous birding journey.

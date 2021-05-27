@@ -1,7 +1,7 @@
 ---
 title: Tamil Nadu - The Temple Trail
 subtitle: 'Chennai, Mamallapuram, Pondicherry, Kumbakonam, Thanjavur, Madurai '
-weight: 602
+weight: '602'
 translationKey: tamil-nadu-the-temple-trail
 type: itinerary
 tour: Tamil Nadu - The Temple Trail
@@ -188,7 +188,7 @@ itinerary:
         title: Kumbakonam
         content: >-
           You continue southwards today, stopping at the temple town of
-          Chidambaram. One of Tamil Nadu's most important holy towns,
+          Chidambaram. One of Tamil Nadu’s most important holy towns,
           Chidambaram was the capital of the Chola empire for 400 years. The
           great Nataraja temple, dedicated to the dancing Shiva, was built
           during this period, and is one of the finest examples of Dravidian
@@ -203,7 +203,7 @@ itinerary:
           temples dedicated to Shiva, some with highly refined Chola stone
           carving. Nearby at Darasuram is a magnificent 12th-century Chola
           temple, which should not be missed. The village of Swamimalai, just a
-          bike ride away, is the state's principal centre for traditional
+          bike ride away, is the state’s principal centre for traditional
           bronze-casting.
       - type: hotel
         url: >-
@@ -243,14 +243,14 @@ itinerary:
         title: Svatma
         content: >-
           Svatma is a luxurious wellness resort in a quiet corner of Thanjavur.
-          There's an air of calm throughout, from the rooms to the stylish pool
+          There’s an air of calm throughout, from the rooms to the stylish pool
           area to the spa.
 
 
           You can get a health regimen here based on the Vedic principles of
-          'siddha', even a treatment in the 'sound spa', where the resonance of
+          ‘siddha’, even a treatment in the ‘sound spa’, where the resonance of
           gongs and chimes provides healing vibrations. The food is extremely
-          good (and healthy!), and there's a proper bar up on the top floor!
+          good (and healthy!), and there’s a proper bar up on the top floor!
         checkInDate: ''
         checkInTime: ''
         checkOutDate: ''
@@ -273,7 +273,7 @@ itinerary:
 
 
           A huge nandi bull faces the inner sanctum. Created from a single piece
-          of rock, it weighs 25 tonnes and is one of India's largest nandi
+          of rock, it weighs 25 tonnes and is one of India’s largest nandi
           statues.
 
 
@@ -298,7 +298,7 @@ itinerary:
 
 
           If you have the time (and have been doing your cardio exercises),
-          there is also Trichy's Rock Fort temple, reached by climbing up a
+          there is also Trichy’s Rock Fort temple, reached by climbing up a
           tunnel of 437 steps to a splendid view.
       - type: city
         url: /destinations/india/states/tamil-nadu/cities/madurai/
@@ -310,24 +310,24 @@ itinerary:
           thousands of visitors each day.
 
 
-          Madurai's main attraction is the famous temple dedicated to the
+          Madurai’s main attraction is the famous temple dedicated to the
           Goddess Meenakshi. Each evening, there is a closing ceremony,
           accompanied by chanting priests, drummers and torchbearers in which an
-          image of Shiva is carried in procession to Parvati's bedroom.
+          image of Shiva is carried in procession to Parvati’s bedroom.
       - type: hotel
         url: >-
           /destinations/india/states/tamil-nadu/cities/madurai/hotels/heritage-madurai/
         title: Heritage Madurai
         content: >-
           This property was designed in the 1970s by renowned Sri Lankan
-          architect Geoffrey Bawa as the Coat's Madurai Club. It has now been
+          architect Geoffrey Bawa as the Coat’s Madurai Club. It has now been
           artfully renovated; the result is a hotel with lots of charm, and huge
           rooms.
 
 
           The restaurant serves Indian and international cuisine and there is a
-          magnificent swimming pool to enjoy. There is also a 'heritage
-          village', where you can see a potter at work, have some tea, and take
+          magnificent swimming pool to enjoy. There is also a ‘heritage
+          village’, where you can see a potter at work, have some tea, and take
           a cooking class.
         checkInDate: ''
         checkInTime: ''
@@ -351,8 +351,8 @@ itinerary:
           The Thirumalai Nayak Palace is situated 1km from the temple. Built in
           1636 by the king Thirumalai Nayak, it has pillars in Italian style, a
           Mughal arch and Dravidian decoration. The Vandiyur Mariamman Tank is a
-          huge temple tank with a mandapam in the centre. During the 'Floating
-          Festival' , the temple deities are taken out in the tank on floats.
+          huge temple tank with a mandapam in the centre. During the ‘Floating
+          Festival’ , the temple deities are taken out in the tank on floats.
         date: ''
         etd: ''
         duration: ''
@@ -363,14 +363,14 @@ itinerary:
         content: >-
           Madurai is a city of surprises, its food being one of the biggest.
           Stroll along the area around the Meenakshi temple, and learn about
-          Madurai's customs as you meet shopkeepers, wander through bazaars and
-          nibble on snacks. Try a milky jigar-thanda (literally, "cools the
-          heart"), and even a wonderful drink made from cotton seeds! Finish off
-          with a meal at a 'mess', with meat and fish to belie Tamil Nadu's
+          Madurai’s customs as you meet shopkeepers, wander through bazaars and
+          nibble on snacks. Try a milky jigar-thanda (literally, “cools the
+          heart”), and even a wonderful drink made from cotton seeds! Finish off
+          with a meal at a ‘mess’, with meat and fish to belie Tamil Nadu’s
           vegetarian reputation.
 
 
-          If you're interested, you can also visit the Meenakshi temple for its
+          If you’re interested, you can also visit the Meenakshi temple for its
           charming night ceremony, on your own.
         date: ''
         etd: ''
@@ -390,6 +390,6 @@ itinerary:
 themes:
   - Cultural journeys
   - Staying in style
-region: Kerala & South India
+region: /destinations/india/regions/kerala-and-south-india/
 ---
 Temples in the Tamil tradition are utterly distinctive: gopurams (spires) rising well above the skyline, elaborately decorated with celestial figures and often rainbow-coloured, and like nothing else on Earth. But the temples are only the outward expression of a millenia-old religion, and spending time at the temples is a great way to learn about South Indian Hinduism. You’ll travel to amazing temples in Chennai, Mamallapuram, Kumbakonam and Thanjavur, ending with the huge Meenakshi temple in Madurai. You’ll explore through stories, guided tours, a night ceremony and more.

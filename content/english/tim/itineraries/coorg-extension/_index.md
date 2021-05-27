@@ -71,7 +71,7 @@ themes:
   - Active outdoor trips
   - Family holidays
   - Honeymoon ideas
-region: Kerala & South India
-weight: 607
+region: /destinations/india/regions/kerala-and-south-india/
+weight: '607'
 ---
 Coorg is a cool, green, mountainous area, famed for picturesque countryside, where the roads are lined with hedgerows, flowering trees, spice plantations and coffee estates. It is a perfect area for walks, ranging from simple strolls through the coffee plantations to longer treks in the surrounding mountains. Hiking cross-country, or simply driving down the mountain roads, you encounter panoramic views of the morning mist rolling down thickly wooded hills, undulating paddy fields and neat rows of coffee bushes. This is also a great spot for birding, with plenty of species endemic to the Western Ghats biodiversity hotspot.

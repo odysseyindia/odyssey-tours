@@ -59,13 +59,13 @@ itinerary:
           /destinations/india/states/himachal-pradesh/cities/dharamsala/excursions/trek-from-bahl-to-triund-2900m-45-hours-walk/
         title: Trek from Bahl to Triund (2,900m - 4/5 hours' walk)
         content: >-
-          This morning, an hour's walk on a steep slope takes us to the Galu
+          This morning, an hour’s walk on a steep slope takes us to the Galu
           Devi temple from where we have good views of the Dhauladhar mountains
           and the valley. Another three hours of gradual ascent through mixed
           forests takes us to Triund, an alpine meadow situated atop a ridge.
           From Triund we have superb views of the snowy peaks of the Dhauladhars
           on one side and the Kangra valley on the other. We camp here for our
-          night's stay.
+          night’s stay.
         date: ''
         etd: ''
         duration: ''
@@ -93,7 +93,7 @@ itinerary:
 themes:
   - Off the beaten track
   - Active outdoor trips
-region: Foothills of the Himalayas
-weight: 0
+region: /destinations/india/regions/foothills-of-the-himalayas/
+weight: '0'
 ---
 The Gaddi are a semi-nomadic shepherd tribe, who migrate with big herds of sheep and goats from the plains to the mountains during summer and vice versa during the winter. Starting from Dharamsala, this trekking trail takes you to several of their villages in the foothills of the Himalayas, a good way to get to know these gentle people. The trail also takes you to the beautiful alpine meadow of Triund, one of the biggest trekking highlights in Himachal Pradesh. We camp each night close to a small village beside a river, with the last night at the base of the Dhauladhar mountains, from where we have superb close views of the snow-covered peaks of the Himalayas.

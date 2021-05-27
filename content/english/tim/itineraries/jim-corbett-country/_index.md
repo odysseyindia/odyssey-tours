@@ -33,7 +33,7 @@ itinerary:
           the magnificent Jama Masjid, India’s largest mosque. In New Delhi you
           can find India Gate - a war memorial arch, the impressive Parliament
           Building and Rashtrapati Bhawan, the residence of the President.
-          Towards the South are Qutab Minar and Humayun's Tomb, both World
+          Towards the South are Qutab Minar and Humayun’s Tomb, both World
           Heritage Sites.
       - type: hotel
         url: >-
@@ -60,7 +60,7 @@ itinerary:
           A half-day tour to Old Delhi using the modern Metro and the
           traditional cycle rickshaw. The Metro brings you to the heart of Old
           Delhi in just a few minutes, to visit the magnificent Jama Masjid
-          mosque, India's largest. You then use walk and ride cycle rickshaws
+          mosque, India’s largest. You then use walk and ride cycle rickshaws
           through the fascinating maze of narrow streets around the main street
           of Old Delhi, Chandni Chowk, a bustling jumble of craft shops,
           traders, mosques and temples.
@@ -77,7 +77,7 @@ itinerary:
           colourful Sikh Gurdwara.
 
 
-          The rest of your day is at leisure. If you'd like to go shopping or
+          The rest of your day is at leisure. If you’d like to go shopping or
           explore a bit more after the tour, you can take the Metro to vibrant
           Connaught Place to enjoy the many restaurants and more modern shops.
         date: ''
@@ -129,7 +129,7 @@ itinerary:
           /destinations/india/states/uttarakhand/cities/binsar/excursions/bird-watching-with-naturalist/
         title: Early-morning birding with a naturalist
         content: >-
-          The birding walk at Mary Budden is called Hodgson's Trail, in homage
+          The birding walk at Mary Budden is called Hodgson’s Trail, in homage
           to Brian Houghton Hodgson, who served as the Assistant Commissioner in
           Kumaon in the early 19th century and whose seminal work was to
           identify a vast variety of birds in the Himalayas. Walk through the
@@ -165,7 +165,7 @@ itinerary:
         content: >-
           After breakfast, drive for three hours to the orchards of Ramgarh,
           famous for plums, peaches, pears and apples. Many writers and thinkers
-          have been drawn to the beauty of Ramgarh and some of India's leading
+          have been drawn to the beauty of Ramgarh and some of India’s leading
           industrial families continue to have sprawling orchards here.
       - type: hotel
         url: >-
@@ -194,7 +194,7 @@ itinerary:
           purpose of your visit as you come here mainly to enjoy the peace and
           quiet and the beautiful scenery. The most you may want to do is to go
           on an easy walk in the neighborhood. Ramgarh also makes an idyllic
-          base for visiting the nearby hill station of Nainital, but it's best
+          base for visiting the nearby hill station of Nainital, but it’s best
           enjoyed at a very relaxed pace around your hotel.
         date: ''
         etd: ''
@@ -206,9 +206,9 @@ itinerary:
         title: Corbett
         content: >-
           Today, you drive further down the hills to Corbett National Park. This
-          was India's first national park, and remains one of its finest. It is
+          was India’s first national park, and remains one of its finest. It is
           named after the legendary hunter Jim Corbett, who lived in this area
-          for many years and wrote 'The Man Eaters of Kumaon'. Extending over
+          for many years and wrote ‘The Man Eaters of Kumaon’. Extending over
           520 sq. km., the sanctuary is endowed with breathtaking natural beauty
           and an abundance of wildlife including tigers and elephants. The
           birdlife is especially impressive, with over 500 species. The best
@@ -273,7 +273,7 @@ itinerary:
           The hotel can organise jungle walks, birding, a wonderful termite
           walk, and show you the medicinal plants that are grown in the
           property. Please note: safaris can generally not be booked on the
-          spot, so please let us know when you book this tour if you'd like to
+          spot, so please let us know when you book this tour if you’d like to
           go on further jeep or canter excursions in Corbett National Park.
   - day: 10
     item:
@@ -310,10 +310,10 @@ itinerary:
         date: ''
         etd: ''
         duration: ''
-weight: 204
+weight: '204'
 themes:
   - Active outdoor trips
   - Wildlife/Birding tours
-region: Foothills of the Himalayas
+region: /destinations/india/regions/foothills-of-the-himalayas/
 ---
 Jim Corbett was the best of the British colonials, a hunter-turned-conservationist who protected villagers from man-eating tigers and leopards, a primal terror we can scarcely imagine today. His hunting grounds in the Kumaon Himalayas are full of sleepy villages, beautiful views, amazing wildlife and a distinct, charming way of life. You get to learn about him and this land while looking for tigers and birds in Corbett National Park, and with stays in beautiful colonial-era mountain getaways in Ramgarh and Binsar. Enjoy foggy mornings, hot cups of tea, great opportunities for birding and tiger-spotting, and some of the most beautiful forests in India.

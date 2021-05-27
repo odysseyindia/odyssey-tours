@@ -3,7 +3,7 @@ title: A Taste of India
 subtitle: >-
   Delhi, Lucknow, Agra, Jaipur, Barli, Chittaurgarh, Udaipur, Dungarpur,
   Ahmedabad, Mumbai, Goa
-weight: 110
+weight: '110'
 translationKey: a-taste-of-india
 type: itinerary
 tour: A Taste of India
@@ -730,6 +730,6 @@ highlights:
 themes:
   - Cultural journeys
   - Signature trips
-region: Rajasthan & the North
+region: /destinations/india/regions/rajasthan-and-the-north/
 ---
 Join us for a veritable feast of a tour, as you journey from bustling Delhi to tranquil Goa. You begin by trying Lucknow’s spectacular kebabs and visiting the amazing Taj Mahal in Agra. You then continue to towns and palaces of Rajasthan, experience the bustling modern city of Mumbai, and finish on Goa’s beautiful beaches. Along the way you will discover many facets of Indian culture, but your focus will always be on the country’s delicious food. You will enjoy unique opportunities to sample a wealth of traditional delicacies, from the sublime vegetarian cuisine of Jaipur to the spicy seafood of the coast.

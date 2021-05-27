@@ -222,8 +222,6 @@ app.post('/import',function (req, res) {
      var city         = urlize(array[1]);
      var to_city      = urlize(array[4]);
      var organisation = urlize(array[2]);
-<<<<<<< HEAD
-=======
 
      var mdfile = dir+'/destinations/india/states/'+state+'/cities/'+city+'/point2point/'+to_city+'/'+organisation+'/';
 
@@ -505,16 +503,11 @@ app.post('/import',function (req, res) {
       var city      = urlize(array[1]);
       
       var mdfile = dir+'/destinations/india/states/'+state+'/cities/'+city+'/excursions/'+urlize(array[2])+'/';
->>>>>>> hotfix
 
-     var mdfile = dir+'/destinations/india/states/'+state+'/cities/'+city+'/point2point/'+to_city+'/'+organisation+'/';
+      console.log('Processing ',mdfile);
 
-     console.log('Processing ',mdfile);
+      const made = mkdirp.sync(mdfile);
 
-<<<<<<< HEAD
-     const made = mkdirp.sync(mdfile);
-
-=======
       try {
         var fileContents = fs.readFileSync(mdfile+'index.md', 'utf8', (err) => {       
           if (err) throw err; 
@@ -523,145 +516,12 @@ app.post('/import',function (req, res) {
       catch (error) {
         var fileContents = "---\n\n---\n";
       }
->>>>>>> hotfix
 
-     try {
-      var fileContents = fs.readFileSync(mdfile+'_index.md', 'utf8', (err) => {       
-        if (err) throw err; 
-      }) 
-    } 
-    catch (error) {
-      var fileContents = "---\n---\n";
-    }
+      try {
 
-    try {
+        let contents = fileContents.split("---");
+        let data     = yaml.loadAll(contents[1]);
 
-<<<<<<< HEAD
-      let contents = fileContents.split("---");
-      let data     = yaml.loadAll(contents[1]);
-
-    //    data[0] = {};
-    data[0].title           = array[2];
-    data[0].translationKey  = urlize(array[2]);
-    data[0].type            = 'point2point';
-
-    var ratesData = {};
-    ratesData.vehicle         = array[28];
-    ratesData.fromPax         = Number(array[6]) || 0;
-    ratesData.toPax           = Number(array[7]) || 0;
-    ratesData.wef             = (array[8]); 
-    ratesData.wet             = (array[9]);
-    ratesData.cost            = Number(array[11]) || 0;
-    ratesData.currency        = (array[12] == 13) ? 'INR' : array[12];
-    ratesData.commission      = Number(array[13]) || 0;
-    ratesData.rep             = Number(array[14]) || 0;
-    ratesData.guide           = Number(array[15]) || 0;
-
-    if (typeof data[0].rates === 'undefined'){
-      data[0].rates = [];
-    };
-
-        // reset rates to null
-     // data[0].rates = []; 
-     data[0].rates.push( ratesData );
-
-     let output = `---\n` + yaml.dump(data[0]) + "---\n" + contents[2] ;
-
-     fs.writeFileSync(mdfile+'_index.md', output, 'utf8', (err) => {       
-      if (err) throw err; 
-    })
-   } catch (error) {
-    console.log("Route import writing "+state+": " + error.message);
-  } 
-} else if ( request.file == 'hotelrates.csv') {
-
-     var state     = urlize(array[0]);
-     var city      = urlize(array[1]);
-     var data      = {};
-     data[0]   = {};
-
-     var mdfile = dir+'/destinations/india/states/'+state+'/cities/'+city+'/hotels/'+urlize(array[2])+'/';
-
-     console.log('Processing ',mdfile);
-
-     const made = mkdirp.sync(mdfile);
-     
-     try {
-      var fileContents = fs.readFileSync(mdfile+'index.md', 'utf8', (err) => {       
-        if (err) throw err; 
-      }) 
-      let contents = fileContents.split("---");
-      data = yaml.loadAll(contents[1]);
-    } 
-    catch (error) {
-      data[0].title           = array[2];
-      data[0].translationKey  = urlize(array[2]);
-      data[0].type            = 'hotels';
-      data[0].id              = 'hotel';
-    }
-
-    /*
-     0=state, 1=city, 2=organisation, 3=roomtype, 4=mealplan, 5=mealplanPT, hoteltariffs_id, seasons_id, roomtypes_id,
-     9=currencies_id, 10=currencies_pt_id, 11=cost_single, 12=cost_single_pt, 13=cost_single_ac, 14=cost_single_ac_pt,
-     15=cost_double, 16=cost_double_pt, 17=cost_double_ac, 18=cost_double_ac_pt, 19=nett, 20=nett_pt,
-     mealplans_id, mealplans_pt_id, 23=freetransfer, 24=extrabed, 25=extrabed_pt, seasons_id, addressbook_id,
-     28=fromdate, 29=todate, 30=frompax, 31=to_pax, 32=git, 33=servicecharges, 34=tac, 35=tac_pt, 36=taconmealplan,
-     37=taconmealplan_pt, 38=servicechargesonplan, 39=closed, tl_discount, tl_discountabove, tl_freeabove, tl_halfdouble,
-     extrabedcost, policyonescorts_id, 46=dayoftheweek, 47=extrabedpercentage,
-     luxtax, luxtaxonpt, exptax, salestax, salestaxinclusive, 53=default_roomtypes_id, 54=default_ac,
-     exptax_notapplicable, salestaxinclusive_pt, 57=SpecialPeriod, 58=Notes, 59=AgentCommPerc     
-     */
-     
-     try {
-      var ratesData = {};
-      ratesData.roomType             = array[3];
-      ratesData.mealPlan             = array[4];
-      ratesData.mealPlanPT           = array[5];
-      ratesData.currency             = (array[9] == 13) ? 'INR' : 'USD';
-      ratesData.currencyPT           = (array[10] == 13) ? 'INR' : 'USD';
-      ratesData.costSingle           = Number(array[11]);
-      ratesData.costSinglePT         = Number(array[12]);
-      ratesData.costSingleAc         = Number(array[13]);
-      ratesData.costSingleAcPT       = Number(array[14]);
-      ratesData.costDouble           = array[15];
-      ratesData.costDoublePT         = array[16];
-      ratesData.costDoubleAc         = array[17];
-      ratesData.costDoubleAcPT       = array[18];
-      ratesData.nett                 = array[19] || 0;
-      ratesData.nettPT               = array[20] || 0;
-      ratesData.freeTransfer         = array[23] || 0;
-      ratesData.extraBed             = Number(array[24]) || 0;
-      ratesData.extraBedPT           = Number(array[25]) || 0;
-      ratesData.wef                  = array[28]; 
-      ratesData.wet                  = array[29];
-      ratesData.fromPax              = Number(array[30]) || 0;
-      ratesData.toPax                = Number(array[31]) || 0;
-      ratesData.git                  = array[32] || 0;       
-      ratesData.serviceCharges       = array[33] || 0;
-      ratesData.commission           = array[34] || 0;
-      ratesData.commissionPT         = array[35] || 0;
-      ratesData.commissionOnPlan     = array[36] || 0;
-      ratesData.commissionOnPlanPT   = array[37] || 0;
-      ratesData.serviceChargesOnPlan = array[38] || 0;
-      ratesData.blackout             = array[39] || 0;
-      ratesData.dayOfTheWeek         = Number(array[46]) || 127;
-      ratesData.defaultRoomType      = array[53];
-      ratesData.defaultAc            = array[54] || 0;
-      ratesData.specialPeriod        = array[57] || 0;
-      ratesData.notes                = array[58] || 0;
-      ratesData.agentCommission      = array[59] || 0;
-
-      if (typeof data[0].rates === 'undefined'){
-        data[0].rates = [];
-      };
-
-        // reset rates to null
-        // data[0].entranceFees = []; 
-        data[0].rates.push( ratesData );
-
-        let output = `---\n` + yaml.dump(data[0]) + "---\n" + data[1] ;
-
-=======
         data[0] = {};
         data[0].title           = array[2];
         data[0].translationKey  = urlize(array[2]);
@@ -677,17 +537,12 @@ app.post('/import',function (req, res) {
 
         let output = `---\n` + yaml.dump(data[0]) + "---\n" + array[3] ;
 
->>>>>>> hotfix
         fs.writeFileSync(mdfile+'index.md', output, 'utf8', (err) => {       
           if (err) throw err; 
         })
       } catch (err) {
         console.log("Route import writing "+mdfile+": " + err.message);
-<<<<<<< HEAD
-      } 
-=======
       }   
->>>>>>> hotfix
     } else if ( request.file == 'costservices-entrance.csv') {
 
       /*
@@ -1366,8 +1221,6 @@ app.post('/ajax',function (req, res) {
   res.end();
 });
 
-<<<<<<< HEAD
-=======
 app.post('/rename',function (req, res) {
 
   var request      = JSON.parse(req.body.data);
@@ -1437,7 +1290,6 @@ app.post('/rename',function (req, res) {
 });
 
 
->>>>>>> hotfix
 app.post('/copytotours',function (req, res) { 
 
   var request = JSON.parse(req.body.data);

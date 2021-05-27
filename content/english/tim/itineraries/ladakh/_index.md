@@ -263,9 +263,9 @@ itinerary:
         url: /destinations/india/states/ladakh/cities/leh/
         title: Leh
         content: Today, you drive to Leh airport to board your onward flight.
-weight: 202
+weight: '202'
 themes:
   - Family holidays
-region: Foothills of the Himalayas
+region: /destinations/india/regions/foothills-of-the-himalayas/
 ---
 A spectacular flight across the Indian Himalayas takes you to the barren landscapes of Ladakh. In this remote area monasteries and ancient palaces have striking locations, perched on lofty hilltops. Get to know Ladakh’s Tibet-derived culture and its starkly beautiful vistas as you go from Leh to the desert Nubra Valley and to the royal palace at Stok, taking in monasteries, lakes and apricot orchards along the way.

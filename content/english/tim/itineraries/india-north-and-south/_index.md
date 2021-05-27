@@ -29,7 +29,7 @@ itinerary:
 
           In New Delhi you can find India Gate - a war memorial arch, the
           impressive Parliament Building and Rashtrapati Bhawan, the residence
-          of the President. Towards the South are Qutab Minar and Humayun's
+          of the President. Towards the South are Qutab Minar and Humayun’s
           Tomb, both World Heritage Sites.
       - type: hotel
         url: >-
@@ -64,7 +64,7 @@ itinerary:
           Masjid, well worth a visit.
 
 
-          The rest of your day is at leisure. If you'd like to go shopping or
+          The rest of your day is at leisure. If you’d like to go shopping or
           explore a bit more after the tour, you can take the Metro to vibrant
           Connaught Place to enjoy the many restaurants and more modern shops.
         date: ''
@@ -89,7 +89,7 @@ itinerary:
         content: >-
           Agra has much to offer besides the Taj Mahal, such as Agra Fort, a
           masterpiece of design and construction. You then visit
-          Itimad-ud-Daulah's tomb - better known as the Baby Taj, which also
+          Itimad-ud-Daulah’s tomb - better known as the Baby Taj, which also
           features the same marble inlay work as the Taj Mahal. Finally you will
           visit Mehtab Bagh, a formally laid-out Mughal garden that offers
           stupendous views of the Taj Mahal, especially in the late afternoon.
@@ -101,7 +101,7 @@ itinerary:
           /destinations/india/states/uttar-pradesh/cities/agra/hotels/the-grand-imperial/
         title: The Grand Imperial
         content: >-
-          This 100-year-old building is testimony to India's long and varied
+          This 100-year-old building is testimony to India’s long and varied
           history. The low, white colonial building dating back to the Raj era
           is peppered with Mughal paintings and memorabilia, and was host at one
           time to the Crown Princes of England as well as to Mohammad Ali
@@ -125,7 +125,7 @@ itinerary:
           The best time of day to appreciate this stunning monument is as soon
           as the Taj Mahal opens, when it is at its quietest and most serene.
           You can enjoy the gardens, the mausoleum and the mosque, without
-          needing a professional guide. Don't miss the marble inlay work and the
+          needing a professional guide. Don’t miss the marble inlay work and the
           various vantage points offered throughout the peaceful gardens.
 
 
@@ -218,7 +218,7 @@ itinerary:
           A flight takes you to the other end of India, to lush, pretty Kerala.
           Kochi (or Cochin) is set on a cluster of islands and narrow peninsulas
           and has one of the best natural harbours in the world. The famed
-          'Malabar Spices' were exported from this very port, bringing to Kochi
+          ‘Malabar Spices’ were exported from this very port, bringing to Kochi
           visitors as varied as the Arabs, the Dutch, the Portuguese and,
           finally, the British. All of them have left their mark on the
           architecture, making Kochi one of the most unique and fascinating
@@ -259,7 +259,7 @@ itinerary:
 
           Also in Fort Kochi is a 17th-century Jewish synagogue. Scrolls of the
           Old Testament and copper plates inscribed in Hebrew are preserved
-          here. There is also the 'Dutch' Palace, built by the Portuguese for
+          here. There is also the ‘Dutch’ Palace, built by the Portuguese for
           the Raja of Cochin in 1555.
         date: ''
         etd: ''
@@ -339,13 +339,13 @@ itinerary:
         url: /destinations/india/states/kerala/cities/alleppey/
         title: Alleppey
         content: >-
-          Today, your four-hour drive takes you to Kerala's picture-postcard
+          Today, your four-hour drive takes you to Kerala’s picture-postcard
           backwaters, and for a very special stay.
 
 
           Alleppey (also called Allapuzha) is a bustling town south of Kochi,
           and a major trading centre for the coir industry. It is also the
-          centre of Kerala's backwaters, with many interesting homestays in
+          centre of Kerala’s backwaters, with many interesting homestays in
           nearby villages. Caressed by the Arabian Sea and with a vast network
           of lakes, lagoons and rivers, this region shelters some unique animal
           and birdlife.
@@ -377,7 +377,7 @@ itinerary:
         url: /destinations/india/states/kerala/cities/alleppey/hotels/ameya-kerala/
         title: Ameya Kerala
         content: >-
-          At Ameya, you'll find barefoot luxury on the backwaters of Kerala.
+          At Ameya, you’ll find barefoot luxury on the backwaters of Kerala.
           Situated a little away from Kumarakom, it offers just four spacious
           cottages with large bathrooms around an infinity swimming pool, and
           guests can enjoy panoramic views of the lake from the cottages'
@@ -403,7 +403,7 @@ itinerary:
           swaying palms. In the village, life still goes on much as it did a
           hundred years ago, with the men going out to sea each day to earn a
           living bringing in the daily catch. It is an idyllic retreat for those
-          who want to "get away from it all".
+          who want to “get away from it all”.
 
 
           You have two full days to simply enjoy the beach, and perhaps explore
@@ -432,7 +432,7 @@ itinerary:
           /destinations/india/states/kerala/cities/mararikulam/excursions/transfer-from-hotel-to-kochi-airport/
         title: Transfer from your hotel to Kochi's international airport
         content: >-
-          Today, you drive to Kochi's airport, to connect with your onward
+          Today, you drive to Kochi’s airport, to connect with your onward
           flight
         date: ''
         etd: ''
@@ -443,10 +443,10 @@ highlights:
   - Exploring Fort Kochi's lovely lanes
   - Finding the perfect patch of sand on Marari beach
   - Plenty of time to relax and have fun
-weight: 112
+weight: '112'
 themes:
   - Classic tours
   - Family holidays
-region: Rajasthan & the North
+region: /destinations/india/regions/rajasthan-and-the-north/
 ---
-The perfect India trip for a family, combining the highlights of Rajasthan with the green, relaxed beauty of Kerala. At a family-friendly pace, you explore the Golden Triangle&rsquo;s highlights, including the Taj Mahal and colossal Amber Fort, and then fly to Kochi. You have time to explore pretty Fort Kochi, and then go on to the spice plantations and wildlife of Thekkady. Kerala&rsquo;s backwaters come next - and you can enjoy them on your own private houseboat for an overnight cruise. Finally, you can enjoy total me-time on the excellent beach at Mararikulam, for the perfect cap to a great family trip.
+The perfect India trip for a family, combining the highlights of Rajasthan with the green, relaxed beauty of Kerala. At a family-friendly pace, you explore the Golden Triangle’s highlights, including the Taj Mahal and colossal Amber Fort, and then fly to Kochi. You have time to explore pretty Fort Kochi, and then go on to the spice plantations and wildlife of Thekkady. Kerala’s backwaters come next - and you can enjoy them on your own private houseboat for an overnight cruise. Finally, you can enjoy total me-time on the excellent beach at Mararikulam, for the perfect cap to a great family trip.

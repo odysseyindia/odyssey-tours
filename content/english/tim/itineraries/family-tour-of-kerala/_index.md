@@ -1,7 +1,7 @@
 ---
 title: Family Tour of Kerala
 subtitle: Kochi, Thattekad, Teekoy, Alleppey, Mararikulam
-weight: 604
+weight: '604'
 translationKey: family-tour-of-kerala
 type: itinerary
 tour: Family Tour of Kerala
@@ -318,6 +318,6 @@ itinerary:
         duration: ''
 themes:
   - Family holidays
-region: Kerala & South India
+region: /destinations/india/regions/kerala-and-south-india/
 ---
 Kerala is a fantastic place to go with a family - its short driving times, beaches, hills and warm homestays make it a very easy choice. You’ll get to explore colonial-era Fort Kochi, then go on to a tented camp by the river in Thattekad, with cycling, archery, kayaking, birding and many other activities. You then carry on to a plantation homestay with excellent food and the chance to pick your own spices, then to a relaxed resort on Kerala’s famous backwaters. You end with pure beach time at pristine Mararikulam.

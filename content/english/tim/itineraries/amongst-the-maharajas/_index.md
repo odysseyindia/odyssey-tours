@@ -339,7 +339,7 @@ itinerary:
           /destinations/india/states/rajasthan/cities/delwara/hotels/raas-devigarh/
         title: Raas Devigarh
         content: >-
-          The design of Devigarh's interiors is completely contemporary, almost
+          The design of Devigarh’s interiors is completely contemporary, almost
           austere. You will not see the typical riot of colours associated with
           Rajasthan. The dominant colour here is white - of marble, of white on
           white plaster motifs on walls. Highly luxurious, the hotel offers
@@ -357,7 +357,7 @@ itinerary:
           /destinations/india/states/rajasthan/cities/delwara/excursions/day-at-leisure-in-delwara/
         title: Day at leisure in Delwara
         content: >-
-          Apart from the many attractions of the hotel, there's plenty to see
+          Apart from the many attractions of the hotel, there’s plenty to see
           nearby. Delwara town has some excellent Jain temples, said to predate
           the more famous ones at Dilwara near Mount Abu. There is also a large
           complex of temples at nearby Eklingji, which is worth a visit.
@@ -367,7 +367,7 @@ itinerary:
           a temple to Lord Krishna, and the famous pichhwai paintings originate
           from this place. Pichhwai are large banner-sized paintings that tell
           stories from the life of Krishna or from the Mahabharata. The main
-          purpose of these paintings was to serve as a backdrop to the deity's
+          purpose of these paintings was to serve as a backdrop to the deity’s
           statue in a temple. Another use of these paintings was as a story
           board - whereby bards would use the pictures to tell a story. In the
           narrow streets of Nathdwara town, you will see several painters busy
@@ -383,11 +383,11 @@ itinerary:
         content: >-
           Today, you drive an hour to Udaipur airport to connect with your
           onward flight.
-weight: 405
+weight: '405'
 themes:
   - Off the beaten track
   - Signature trips
   - Staying in style
-region: Gujarat & Central India
+region: /destinations/india/regions/gujarat-and-central-india/
 ---
 Hidden around India are some of the finest palaces in the world, homes to royalty in out-of-the-way places. You start your journey in the famous Taj Mahal hotel in Mumbai, then the pilgrimage town of Maheshwar, dominated by serene Ahilya Fort, and go on to verdant Kathiwada and its snow-white palace. Then, you continue the royal journey in the hidden gems of Santrampur and astonishing Dungarpur, and cap it off with a stay at the very luxe Devigarh, outside Udaipur.

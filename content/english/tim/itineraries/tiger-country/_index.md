@@ -234,9 +234,9 @@ itinerary:
         content: >-
           Today, you will drive two hours to Nagpur, to connect with your onward
           flight.
-weight: 403
+weight: '403'
 themes:
   - Wildlife/Birding tours
-region: Gujarat & Central India
+region: /destinations/india/regions/gujarat-and-central-india/
 ---
 This tour combines the best of Central India’s national parks, giving you fabulous opportunities to spot tigers, as well as leopards, an amazing variety of bird-life and plenty of other fauna. The wonderful thing is here is the variation in landscapes, from the rocky outcrops of Bandhavgarh to the fairy-tale forest of Kanha to the ‘ghost trees’ of Pench and the bamboo forests of Tadoba.

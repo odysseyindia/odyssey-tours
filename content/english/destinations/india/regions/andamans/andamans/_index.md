@@ -2,7 +2,7 @@
 title: Andamans
 subtitle: Havelock Island, Port Blair
 translationKey: andamans
-type: itinerary
+type: tour
 tour: Andamans
 highlights:
   - Diving and snorkelling in the fantastic Mahatma Gandhi Marine National Park
@@ -72,4 +72,5 @@ themes:
 region: /destinations/india/regions/andamans/
 weight: '701'
 ---
+
 The beautiful Andaman Islands are one of the best diving spots in the world: clear turquoise waters, coral reefs and great biodiversity make it a truly special spot to leap in. However, with Asia’s best beach, mangrove forests and great eco-resorts, it’s also a fantastic place for a relaxing holiday for a non-diver who prefers excitement in the form of perfectly grilled shrimp and pina coladas! With plenty of easy activities and safe locations, it’s also a lovely family destination.

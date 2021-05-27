@@ -51,7 +51,7 @@ itinerary:
         content: >-
           The Vivanta by Taj in Aurangabad is a low, sprawling white building
           with Mughal-style cupolas, arches, and even an onion-shaped dome. The
-          hotel's rooms are set amongst lovingly landscaped and terraced lawns.
+          hotel’s rooms are set amongst lovingly landscaped and terraced lawns.
           The rooms are pleasantly appointed with all standard facilities.
 
 
@@ -88,7 +88,7 @@ itinerary:
           Artists worked at the cave site of Ellora, 30km from Aurangabad, from
           about 600 to 1000 A.D. They created Buddhist, Hindu, and Jain caves
           next to each other. The masterpiece at Ellora is the astonishing
-          temple dedicated to the Hindu god Shiva. It is the world's largest
+          temple dedicated to the Hindu god Shiva. It is the world’s largest
           monolithic sculpture, carved out of one single rock cliff by 7,000
           labourers over 150 years.
         date: ''
@@ -106,7 +106,7 @@ itinerary:
         duration: ''
 themes:
   - Cultural journeys
-region: Mumbai, Goa & the Deccan
-weight: 502
+region: /destinations/india/regions/mumbai-goa-and-the-deccan/
+weight: '502'
 ---
 Not far from the city of Aurangabad, at Ellora and Ajanta, are some of the finest examples of cave architecture in the world. Constructed mainly by Buddhist monks as early as 200 B.C., the caves form a pocket history of Buddhist art and thought. At Ellora the caves are masterpieces of sculpture whereas at Ajanta the caves are famous for their magnificent paintings.

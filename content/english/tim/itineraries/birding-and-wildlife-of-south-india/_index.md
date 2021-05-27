@@ -4,7 +4,7 @@ subtitle: >-
   Kochi, Thattekad bird sanctuary, Munnar, Periyar national park (Thekkady),
   Dindigul, Perumparai, Kodaikanal, Pollachi, Ooty, Nagarhole national park,
   Mysore, Ranganathittu bird sanctuary, Bangalore 
-weight: 606
+weight: '606'
 translationKey: birding-and-wildlife-of-south-india
 type: itinerary
 tour: Birding & Wildlife of South India
@@ -667,6 +667,6 @@ itinerary:
 themes:
   - Signature trips
   - Wildlife/Birding tours
-region: Kerala & South India
+region: /destinations/india/regions/kerala-and-south-india/
 ---
 On this magnificent journey traversing south India’s hills, you enjoy a stunning array of delights: the historical city of Kochi, lowland riverine forests of Thattekad, tea estates of Munnar, dense evergreen forests of Thekkady, a stay at a heritage property amongst hills. A stay on an 100-acre farm, which was on the migratory route of wild elephants. Enjoy the cool air of the tropical highlands at Thekkady, charming old-fashioned hill stations of Kodaikanal and Ooty, and the pleasant city of Mysore with its impressive palace and the Ranganathittu bird sanctuary nearby. Along with 200+ species of birds, you have the chance to spot the rare Niligiri tahr, sloth bears, wild elephants, deer, nilgai, Malabar flying squirrel, wild dogs, leopards and even tigers on this fantastic holiday!
