@@ -62,7 +62,7 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/rajasthan/cities/udaipur/excursions/morning-city-tour-of-udaipur-followed-by-a-boat-trip-on-lake-pichola-by-shared-boat/
+          /destinations/india/states/rajasthan/cities/udaipur/excursions/city-tour-followed-by-boat-trip/
         content: >-
           The highlight of this guided city tour is a visit to the City Palace,
           now largely preserved as a museum with a large and varied collection
@@ -231,7 +231,7 @@ itinerary:
           semi-precious stones, brass ornaments and many other arts and crafts.
       - type: excursion
         url: >-
-          /destinations/india/states/rajasthan/cities/jaipur/excursions/a-culinary-tour-with-an-indian-housewife-lunch-or-dinner/
+          /destinations/india/states/rajasthan/cities/jaipur/excursions/culinary-tour/
         content: >-
           You join local resident Payal, a keen cook and food blogger, who will
           share with you the secrets of her home cooking. She will take you to

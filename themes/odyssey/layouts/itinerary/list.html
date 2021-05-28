@@ -109,12 +109,7 @@
           </div>
           <div class="program">
             {{- $content := $v.content | default " " }}
-
-            {{- $url :=  printf "%s%s" $v.url "index.md" }}
-
-            {{- if (eq $v.type "city") }}
-            {{- $url =  printf "%s%s" $v.url "_index.md" }}
-            {{- end }}            
+            {{- $url     := printf "%s%s" $v.url "_index.md" -}}
 
             {{- with $.Site.GetPage (string $url) }}
             <div>
@@ -247,6 +242,10 @@
                 {{- end }}  
               </div>            
             </div>
+            {{ else }}
+            <div class="center alert-box warning">
+              {{ $url }} is no longer on file?!
+            </div>
             {{ end }}
           </div>
           <div class="editButton">
@@ -297,68 +296,9 @@
         </div>
       </div>
 
-      <div class="select-flex">
-        <div class="custom-select" id="selectHotels">
-          <label for="hotels" class="search-label">Hotels</label>
-          <select class="maxwidth" id="hotels" name="hotels">
-          </select>
-          <a href="#0" class="button" onclick="addHotel()">
-            <i class="select icon icon-hotel" ></i>
-          </a>
-        </div>
-      </div>
-
-      <div class="select-flex">
-        <div class="custom-select" id="selectExcursions">
-          <label for="excursions" class="search-label">Excursions</label>
-          <select class="maxwidth" id="excursions" name="excursions">
-          </select>
-          <a href="#0" class="button"  onclick="addExcursion()">
-            <i class="select icon icon-excursion"></i>
-          </a>
-        </div>
-      </div>
-
-      <div class="select-flex">
-        <div class="custom-select" id="selectCarHire">
-          <label for="carhire" class="search-label">Car hire</label>
-          <select class="maxwidth" id="carhire" name="carhire">
-          </select>
-        </div>
-      </div>
-
-      <div class="select-flex">
-        <div class="custom-select" id="selectCars">
-          <label for="cars" class="search-label">Cars</label>
-          <select class="maxwidth" id="cars" name="cars">
-          </select>
-          <a href="#0" class="button" onclick="addCar()">
-            <i class="select icon icon-cab"></i>
-          </a>
-        </div>
-      </div>
-
-      <div class="select-flex">
-        <div class="custom-select" id="selectFlights">
-          <label for="flights" class="search-label">Flights</label>
-          <select class="maxwidth" id="flights" name="flights">
-          </select>
-          <a href="#0" class="button" onclick="addFlight()">
-            <i class="select icon icon-flight"></i>
-          </a>
-        </div>
-      </div>
-
-      <div class="select-flex">
-        <div class="custom-select" id="selectTrains">
-          <label for="trains" class="search-label">Trains</label>
-          <select class="maxwidth" id="trains" name="trains">
-          </select>
-          <a href="#0" class="button" onclick="addTrain()">
-            <i class="select icon icon-train"></i>
-          </a>
-        </div>
-      </div>
+{{ partial "modal-select.html" (dict "dot" . "modal" "hotel" "text" "Hotels"  ) }}
+{{ partial "modal-select.html" (dict "dot" . "modal" "excursion" "text" "Excursions"  ) }}
+{{ partial "modal-select.html" (dict "dot" . "modal" "transfer" "text" "Transfers"  ) }}
 
       <div id="image"></div>
       <div id="info"></div>
@@ -378,191 +318,11 @@
     </div> 
   </div>
 
-
-  <div id="modal-hotel" class="modal">
-    <div class="modal-content">
-      <div class="container">
-        <div class="row">
-          <div id="modal-category-accommodation"></div>
-          <div class="modal-url"></div>
-          <div class="cancel close-modal-btn">
-            <i class="icon-cancel"></i>
-          </div>
-        </div>
-        <div class="row">
-          <input type="text" name="modal-title" class="modal-title" value="">
-        </div>
-        <div class="row">
-          <form>
-            <textarea class="content"></textarea>
-          </form>
-        </div>
-        {{ partial "modal-hotel.html" . }}
-        <div class="row buttons">
-          <div>
-            <button class="default default-modal-btn">
-              <i class="icon-trash"></i> 
-              Default
-            </button>
-          </div>
-          <div>
-            <button class="save" id="save-modal-hotel">
-              <i class="icon-floppy"></i>
-              Save
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> 
-
-  <div id="modal-city" class="modal">
-    <div class="modal-content">
-      <div class="container">
-        <div class="row">
-          <div id="modal-category-city"></div>
-          <div class="modal-url"></div>
-          <div class="cancel close-modal-btn">
-            <i class="icon-cancel"></i>
-          </div>
-        </div>
-        <div class="row">
-          <input type="text" name="modal-title" class="modal-title" value="">
-        </div>
-        <div class="row">
-          <form>
-            <textarea class="content"></textarea>
-          </form>
-        </div>
-        {{ partial "modal-city.html" . }}
-        <div class="row buttons">
-          <div>
-            <button class="default default-modal-btn">
-              <i class="icon-trash"></i>
-              Default
-            </button>
-          </div>
-          <div>
-            <button class="save" id="save-modal-city">
-              <i class="icon-floppy"></i>
-              Save
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> 
-
-  <div id="modal-excursion" class="modal">
-    <div class="modal-content">
-      <div class="container">
-        <div class="row">
-          <div id="modal-category-excursion"></div>
-          <div class="modal-url"></div>
-          <div class="cancel close-modal-btn">
-            <i class="icon-cancel"></i>
-          </div>
-        </div>
-        <div class="row">
-          <input type="text" name="modal-title" class="modal-title" value="">
-        </div>
-        <div class="row">
-          <form>
-            <textarea class="content"></textarea>
-          </form>
-        </div>
-        {{ partial "modal-excursion.html" . }}
-        <div class="row buttons">
-          <div>
-            <button class="default default-modal-btn">
-              <i class="icon-trash"></i>
-              Default
-            </button>
-          </div>
-          <div>
-            <button class="save" id="save-modal-excursion">
-              <i class="icon-floppy"></i>
-              Save
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> 
-
-  <div id="modal-car-hire" class="modal">
-    <div class="modal-content">
-      <div class="container">
-        <div class="row">
-          <div id="modal-category-car-hire"></div>
-          <div class="modal-url"></div>
-          <div class="cancel close-modal-btn">
-            <i class="icon-cancel"></i>
-          </div>
-        </div>
-        <div class="row">
-          <input type="text" name="modal-title" class="modal-title" value="">
-        </div>
-        <div class="row">
-          <form>
-            <textarea class="content"></textarea>
-          </form>
-        </div>
-        {{ partial "modal-car-hire.html" . }}
-        <div class="row buttons">
-          <div>
-            <button class="default default-modal-btn">
-              <i class="icon-trash"></i>
-              Default
-            </button>
-          </div>
-          <div>
-            <button class="save" id="save-modal-car-hire">
-              <i class="icon-floppy"></i>
-              Save
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> 
-
-  <div id="modal-flight" class="modal">
-    <div class="modal-content">
-      <div class="container">
-        <div class="row">
-          <div id="modal-category-flight"></div>
-          <div class="modal-url"></div>
-          <div class="cancel close-modal-btn">
-            <i class="icon-cancel"></i>
-          </div>
-        </div>
-        <div class="row">
-          <input type="text" name="modal-title" class="modal-title" value="">
-        </div>
-        <div class="row">
-          <form>
-            <textarea class="content"></textarea>
-          </form>
-        </div>
-        {{ partial "modal-flight.html" . }}
-        <div class="row buttons">
-          <div>
-            <button class="default default-modal-btn">
-              <i class="icon-trash"></i>
-              Default
-            </button>
-          </div>
-          <div>
-            <button class="save" id="save-modal-flight">
-              <i class="icon-floppy"></i>
-              Save
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> 
+{{ partial "modal.html" (dict "dot" . "modal" "hotel"    ) }}
+{{ partial "modal.html" (dict "dot" . "modal" "city"     ) }}
+{{ partial "modal.html" (dict "dot" . "modal" "excursion") }}
+{{ partial "modal.html" (dict "dot" . "modal" "carhire"  ) }}
+{{ partial "modal.html" (dict "dot" . "modal" "flight"   ) }}
 
   <div id="modal-insert-day" class="modal">
     <div class="modal-content">

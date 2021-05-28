@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ .Scratch.Set "layout" "layouts/_default/single.html" -}}
+{{ .Scratch.Set "layout" "layouts/excursions/single.html" -}}
 
 {{- $image := cond (isset .Params "image") ( .Params.image ) (.CurrentSection.Params.image) }}
         

@@ -4,7 +4,7 @@ var   bodyParser  = require('body-parser');
 const mkdirp      = require('mkdirp');
 const fs          = require('fs');
 const fse         = require('fs-extra');
-const {spawn}     = require('child_process'); 
+const spawn       = require('child_process'); 
 var   getDirName  = require('path').dirname;
 const yaml 			  = require('js-yaml');
 const env         = require('dotenv').config();
@@ -496,7 +496,7 @@ app.post('/import',function (req, res) {
 
       /*
       0 state 1 city  2 description 3 organisation  4 duration  5 starttime 6 transfer  7 daysofoperation 
-      8 owntransport  9 Guide 10 DayAtLeisure
+      8 owntransport  9 Guide 10 DayAtLeisure 11 writeup
       */
 
       var state     = urlize(array[0]);
@@ -535,7 +535,7 @@ app.post('/import',function (req, res) {
         data[0].guide           = Number(array[9]);
         data[0].dayAtLeisure    = Number(array[10]);
 
-        let output = `---\n` + yaml.dump(data[0]) + "---\n" + array[3] ;
+        let output = `---\n` + yaml.dump(data[0]) + "---\n" + array[13] ;
 
         fs.writeFileSync(mdfile+'index.md', output, 'utf8', (err) => {       
           if (err) throw err; 
@@ -1254,7 +1254,7 @@ app.post('/rename',function (req, res) {
 
     fs.writeFileSync( destFileName, output, function(err) {
       if(err) return console.error('write error: '+err);
-      console.log('Successfully wrote to the file!');
+      // console.log('Successfully wrote to the file!');
     });
   } 
   catch (err) {
@@ -1263,9 +1263,11 @@ app.post('/rename',function (req, res) {
 
   try {
     fse.copySync(srcDir, destDir, { overwrite: true } ,function (err) {
-      if (err) { console.error(err); } 
+      if (err) { 
+        console.error(err); 
+      } 
       else { 
-        console.log("success!"); 
+        // console.log("success!"); 
       }
     });
   }
@@ -1275,20 +1277,22 @@ app.post('/rename',function (req, res) {
 
   try {
     fs.rmdirSync(srcDir, { recursive: true });
-    console.log('Successfully deleted ',srcDir);
+    // console.log('Successfully deleted ',srcDir);
   } 
   catch (err) {
     console.error('Error deleting:', err.message);
   }
 
-  const cmd    = "grep -RiIl '"+srcDir+"' | xargs sed -i 's/"+srcDir+"/"+destDir+"/g'";
-  const search = spawnSync(cmd);
+  const cmd = "grep -RiIl '"+srcDir+"' | xargs sed -i 's|"+srcDir+"|"+destDir+"|g'";
+  
+  console.log(cmd);
 
-  console.log(`Stdout: ${search.stdout.toString()}`);
-  console.log(`Stderr: ${search.stderr.toString()}`);
+  const search = spawn.spawnSync(cmd);
+
+  console.log(`Stdout: ${search.stdout}`);
+  console.log(`Stderr: ${search.stderr}`);
 
 });
-
 
 app.post('/copytotours',function (req, res) { 
 

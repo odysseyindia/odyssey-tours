@@ -106,7 +106,7 @@ itinerary:
           ornaments and many other arts and crafts.
       - type: excursion
         url: >-
-          /destinations/india/states/rajasthan/cities/jaipur/excursions/a-culinary-tour-with-an-indian-housewife-lunch-or-dinner/
+          /destinations/india/states/rajasthan/cities/jaipur/excursions/culinary-tour/
         content: >-
           You join local resident Payal, a keen cook and food blogger, who will
           share with you the secrets of her home cooking. She will take you to

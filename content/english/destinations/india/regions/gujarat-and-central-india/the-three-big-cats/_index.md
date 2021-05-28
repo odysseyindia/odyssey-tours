@@ -66,7 +66,7 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/rajasthan/cities/sawai-madhopur/excursions/morning-and-afternoon-jeep-safaris-in-ranthambore-np/
+          /destinations/india/states/rajasthan/cities/sawai-madhopur/excursions/jeep-safaris/
         content: >-
           Ranthambore National Park is one of the best places in India in which
           to see a tiger in the wild. The varied landscapes within the park are
@@ -197,7 +197,7 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/gujarat/cities/dasada/excursions/early-morning-wildlife-safari-in-the-little-rann-of-kutch/
+          /destinations/india/states/gujarat/cities/dasada/excursions/wildlife-safari/
         content: >-
           A shared jeep safari across the Little Rann of Kutch, a vast expanse
           of salt flats and grasslands. This unique ecosystem supports a variety
