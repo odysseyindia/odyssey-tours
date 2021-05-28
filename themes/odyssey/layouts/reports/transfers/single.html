@@ -1,0 +1,26 @@
+{{- define "main" }}
+
+{{- .Scratch.Set "layout" "layouts/reports/transfers/single.html" -}}
+
+
+{{- range (where (where .Site.Pages "Section" "destinations") ".Params.transfer" true ) }}
+
+{{ $path := split .RelPermalink "/" }}
+
+{{ .RelPermalink }}
+
+{{ range $i,$v := $path }}
+
+{{ if eq $v "excursions" }}<b>YES</b>{{ end }}
+
+{{ end }}
+<br>
+{{ end }}
+
+
+
+{{ end }}
+{{- define "postscript" }}
+
+
+{{ end }}

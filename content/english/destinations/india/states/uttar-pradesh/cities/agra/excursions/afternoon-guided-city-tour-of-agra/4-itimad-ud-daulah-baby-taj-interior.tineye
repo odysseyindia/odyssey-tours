@@ -1,0 +1,73 @@
+stats:
+  timestamp: '1611166729.51'
+  query_time: '3.33'
+  total_backlinks: 11
+  total_collection: 0
+  total_results: 6
+  total_stock: 3
+  total_filtered_results: 3
+  positive: false
+code: 200
+messages: []
+results:
+  matches:
+    - domain: dreamstime.com
+      backlinks:
+        - url: >-
+            https://thumbs.dreamstime.com/b/interior-thetomb-itimad-ud-daula-agra-india-interior-tomb-itimad-ud-daula-agra-india-often-referred-to-135256746.jpg
+          crawl_date: '2019-08-30'
+          backlink: >-
+            https://www.dreamstime.com/editorial-stock-image-lattice-jali-screen-decorated-wall-inside-taj-mahal-agra-u-uttar-pradesh-india-was-built-mughal-emperor-shah-image91410199
+      format: JPEG
+      filesize: 125499
+      overlay: >-
+        overlay/26d763fb500f4646015b097b8c962b2adc8e4da9/2ce7831fd42c30b9e1ce4724d0761fda02fabdaac260947cc7f1c09f62cbb6a6?m21=-0.00751377&m22=1.15086&m23=-53.4269&m11=1.15086&m13=10.1763&m12=0.00751377
+      height: 678
+      width: 800
+      score: 18.954
+      image_url: >-
+        https://img.tineye.com/result/2ce7831fd42c30b9e1ce4724d0761fda02fabdaac260947cc7f1c09f62cbb6a6
+      query_hash: 26d763fb500f4646015b097b8c962b2adc8e4da9
+      tags:
+        - stock
+      size: 542400
+    - domain: dreamstime.com
+      backlinks:
+        - url: >-
+            https://thumbs.dreamstime.com/z/interior-thetomb-itimad-ud-daula-agra-india-interior-tomb-itimad-ud-daula-agra-india-often-referred-to-135256746.jpg
+          crawl_date: '2019-02-02'
+          backlink: >-
+            https://www.dreamstime.com/interior-thetomb-itimad-ud-daula-agra-india-interior-tomb-itimad-ud-daula-agra-india-often-referred-to-image135256746
+      format: JPEG
+      filesize: 449879
+      overlay: >-
+        overlay/26d763fb500f4646015b097b8c962b2adc8e4da9/32927b81c85ad80d75ab98bca6610834291c19df7ee07c405994cf5120b8a2c4?m21=-0.00623772&m22=1.23149&m23=-54.8686&m11=1.23149&m13=10.0018&m12=0.00623772
+      height: 1446
+      width: 1600
+      score: 15.033
+      image_url: >-
+        https://img.tineye.com/result/32927b81c85ad80d75ab98bca6610834291c19df7ee07c405994cf5120b8a2c4
+      query_hash: 26d763fb500f4646015b097b8c962b2adc8e4da9
+      tags:
+        - stock
+      size: 2313600
+    - domain: gettyimages.com
+      backlinks:
+        - url: >-
+            https://media.gettyimages.com/photos/mausoleum-of-itimaduddaulah-in-agra-uttar-pradesh-india-picture-id1189368787
+          crawl_date: '2020-10-17'
+          backlink: >-
+            https://www.gettyimages.com/detail/photo/mausoleum-of-itimad-ud-daulah-in-agra-uttar-pradesh-royalty-free-image/1189368787
+      format: JPEG
+      filesize: 52263
+      overlay: >-
+        overlay/26d763fb500f4646015b097b8c962b2adc8e4da9/fdb0ddb08e87141b982838a427640388c9b4d32455d48621143475a46d223833?m21=0.00768565&m22=1.37293&m23=12.8387&m11=1.37293&m13=-90.388&m12=-0.00768565
+      height: 4000
+      width: 6000
+      score: 12.418
+      image_url: >-
+        https://img.tineye.com/result/fdb0ddb08e87141b982838a427640388c9b4d32455d48621143475a46d223833
+      query_hash: 26d763fb500f4646015b097b8c962b2adc8e4da9
+      tags:
+        - stock
+      size: 24000000

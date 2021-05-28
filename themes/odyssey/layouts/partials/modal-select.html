@@ -1,0 +1,10 @@
+          <div class="select-flex">
+            <div class="custom-select" id="select{{ .modal }}">
+              <label for="{{ .modal }}" class="search-label">{{ .text }}</label>
+              <select class="maxwidth" id="{{ .modal }}" name="{{ .modal }}">
+              </select>
+              <a href="#0" class="button" onclick="add{{ .modal }}()">
+                <i class="select icon icon-{{ .modal }}" ></i>
+              </a>
+            </div>
+          </div>
