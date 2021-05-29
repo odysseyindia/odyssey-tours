@@ -3,7 +3,7 @@ title: Classic India
 subtitle: Delhi, Jaipur, Agra, Orchha, Khajuraho, Varanasi
 type: itinerary
 tour: classic-india
-weight: 102
+weight: '102'
 itinerary:
   - day: 0
     item:
@@ -200,12 +200,12 @@ itinerary:
         duration: ''
       - type: excursion
         url: >-
-          /destinations/india/states/uttar-pradesh/cities/agra/excursions/half-day-city-tour-of-agra/
+          /destinations/india/states/uttar-pradesh/cities/agra/excursions/afternoon-guided-city-tour-of-agra/
         title: Afternoon guided tour of Agra's other monuments
         content: >-
           Agra has much to offer besides the Taj Mahal, such as Agra Fort, a
           masterpiece of design and construction. You then visit
-          Itimad-ud-Daulah’s tomb - better known as the Baby Taj, which also
+          Itimad-ud-Daulah's tomb - better known as the Baby Taj, which also
           features the same marble inlay work as the Taj Mahal. Finally you will
           visit Mehtab Bagh, a formally laid-out Mughal garden that offers
           stupendous views of the Taj Mahal, especially in the late afternoon.
@@ -315,7 +315,7 @@ itinerary:
         title: Varanasi
         content: >-
           A short flight takes you to Varanasi, one of the most important places
-          for Hindus: it's believed that anyone who dies here will be liberated
+          for Hindus: it’s believed that anyone who dies here will be liberated
           from the cycle of reincarnation, and bathing in the Ganges River is
           said to cleanse away all sins. The fascinating thing is that the
           rituals are conducted openly along the many riverside ghats, which are
@@ -324,7 +324,7 @@ itinerary:
           it is certainly one of the most memorable places you will ever visit.
 
 
-          Varanasi's riverside ghats are fabulous for exploring on your own -
+          Varanasi’s riverside ghats are fabulous for exploring on your own -
           the rest of the day is free for you to walk around and absorb the
           unique atmosphere.
       - type: hotel
@@ -352,7 +352,7 @@ itinerary:
         title: Early morning Ganges aarti, boat ride and walking tour
         content: >-
           Your guide meets you at the hotel before sunrise, so you can watch the
-          amazing Subah-e-Benares spectacle, which takes place on Varanasi's
+          amazing Subah-e-Benares spectacle, which takes place on Varanasi’s
           waterfront every morning. The principal attraction of Varanasi is the
           long string of bathing ghats by the river, where pilgrims make their
           sin-cleansing dip in the holy river and on which bodies are cremated.
@@ -396,6 +396,6 @@ highlights:
 themes:
   - Classic tours
   - Cultural journeys
-region: '0'
+region: /destinations/india/regions/rajasthan-and-the-north/
 ---
 A classic adventure in northern India. The journey includes the palaces of Jaipur, the immortal beauty of the Taj Mahal, the medieval temple town of Orchha, the erotic statues of Khajuraho and sunrise over the sacred Ganges. A boat ride on the Ganges at dawn, when it is full of pilgrims making their sin-cleansing dip in the holy river, is an amazing experience.
