@@ -1,7 +1,7 @@
 ---
 title: Clubside Tours & Travels Pvt Ltd
 translationKey: clubside-tours-and-travels-pvt-ltd
-type: point2point
+type: ''
 rates:
   - fromPax: 1
     toPax: 4
@@ -22,6 +22,8 @@ rates:
     rep: 2200
     guide: 0
 ---
+
+
 
 
 

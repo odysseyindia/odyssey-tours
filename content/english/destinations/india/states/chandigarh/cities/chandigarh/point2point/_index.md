@@ -1,6 +1,5 @@
 ---
-title: Patiala
-translationKey: patiala
+title: Point to Point from Chandigarh
 ---
 
 

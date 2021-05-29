@@ -1,26 +1,29 @@
 {{- define "main" }}
-
 {{- .Scratch.Set "layout" "layouts/reports/transfers/single.html" -}}
 
+<section id="reports-excursions"> 
+{{ partial "heading.html" . }}
+<div class="container">
 
-{{- range (where (where .Site.Pages "Section" "destinations") ".Params.transfer" true ) }}
+{{ $lastState := 0 }}
+{{ $lastCity  := 0 }}
 
-{{ $path := split .RelPermalink "/" }}
+{{- range sort (where (where .Site.Pages "Section" "destinations") ".Params.type" "transfer" ) ".RelPermalink"  }}
 
-{{ .RelPermalink }}
+{{ $path  := split .RelPermalink "/" }}
+{{ $state := index $path 4 }}
+{{ $city  := index $path 6 }}
 
-{{ range $i,$v := $path }}
+{{ if ne $state $lastState }}<h3>{{ $state | humanize }}</h3>{{ $lastState = $state }}{{ end }}
+{{ if ne $city  $lastCity  }}<h4>{{ $city  | humanize }}</h4>{{ $lastCity  = $city  }}{{ end }}
 
-{{ if eq $v "excursions" }}<b>YES</b>{{ end }}
+<h5><a href="{{ .RelPermalink }}">{{ .Title }}</a></h5>
 
-{{ end }}
-<br>
-{{ end }}
+{{- end }}
+</div>
+</section>
 
-
-
-{{ end }}
+{{- end }}
 {{- define "postscript" }}
 
-
-{{ end }}
+{{- end }}

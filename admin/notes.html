@@ -1,3 +1,10 @@
+grep -RiIl 'full-day-at-leisure-to-explore-elephant-valley'
+
+find . -path './*/cities/*/transfers' -exec sh -c 'echo "---\ntype=transfers\n---" > $1/_index.md' _ {} \;
+
+grep -lrIZ 'active: 0' . | xargs -0 rm -f --
+
+
 {{ apply .Site.Data.books "index" "." "Year" | uniq | len }}
 
 find .  -name 'excursions' -type d -exec cp west-bengal/cities/kolkata/excursions/_index.md
@@ -14,6 +21,10 @@ This is how you check if index.md exists:
 
 
 {{ if not (findRE "banner" .RelPermalink 1) }} 
+
+find . -name index.md -print0 | xargs -0 -n1 bash -c 'mv "$0" "${0/index.md/_index.md}"'
+grep -lrIZ 'active: 0' . | xargs -0 rm -f --
+find . -path './*/cities/*/transfers' -exec sh -c 'echo "---\ntype=transfers\n---" > $1/_index.md' _ {} \;
 
 {{- range ( where ( where .Site.RegularPages "Section" "experience") ".Params.id" "interest" ) }}
 

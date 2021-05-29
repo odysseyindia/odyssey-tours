@@ -1,7 +1,7 @@
 ---
 title: Colleague Tours Pvt. Ltd.
 translationKey: colleague-tours-pvt-ltd
-type: point2point
+type: ''
 rates:
   - fromPax: 10
     toPax: 18
@@ -40,6 +40,10 @@ rates:
     rep: 0
     guide: 0
 ---
+
+
+
+
 
 
 

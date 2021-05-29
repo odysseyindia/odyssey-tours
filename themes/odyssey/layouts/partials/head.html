@@ -51,14 +51,7 @@
 <link href="{{ .Permalink }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
 {{- end }}
 {{"<!-- Schema -->" | safeHTML }}
-{{- if eq .CurrentSection.Params.translationKey "accommodation" }} 
-{{- partial "schemas/accommodation.html" . }} 
-{{- end }}
-{{- if eq .CurrentSection.Params.translationKey "reviews" }} 
-{{- partial "schemas/reviews.html" . }} {{ end }}    
-{{- if and (ne .CurrentSection.Params.translationKey "accommodation" ) (ne .CurrentSection.Params.translationKey "reviews")}} 
-{{- partial "schemas/base.html" . }} 
-{{- end }}
+
 {{"<!-- Favicon Tags -->" | safeHTML }}
 {{- partial "favicons.html" . }} 
 {{"<!-- Search Engine Crawler Tags -->" | safeHTML }}

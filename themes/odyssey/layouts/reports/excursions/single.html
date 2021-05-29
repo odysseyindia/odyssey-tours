@@ -1,0 +1,30 @@
+{{- define "main" }}
+
+{{- .Scratch.Set "layout" "layouts/reports/excursions/single.html" -}}
+
+<section id="reports-excursions"> 
+{{ partial "heading.html" . }}
+<div class="container">
+{{- range (where (where .Site.Pages "Section" "destinations") ".Params.type" "state" ) }}
+<h3>{{ .Title }}</h3>
+{{- range .Sections }}
+{{- range .Sections }}
+<h4>{{ .Title }}</h4>
+{{- range .Sections }}
+{{- range .Sections }}
+{{ if in .RelPermalink "excursions" }}
+<h5><a href="{{ .RelPermalink }}">{{ .Title }}</a></h5>
+{{- end }}
+{{- end }}
+{{- end }}
+{{- end }}
+{{- end }}
+{{- end }}
+</div>
+</section>
+
+{{- end }}
+{{- define "postscript" }}
+
+
+{{ end }}

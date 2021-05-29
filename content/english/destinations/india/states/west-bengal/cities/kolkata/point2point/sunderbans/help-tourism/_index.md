@@ -1,7 +1,7 @@
 ---
 title: Help Tourism
 translationKey: help-tourism
-type: point2point
+type: ''
 rates:
   - fromPax: 1
     toPax: 2
@@ -22,6 +22,8 @@ rates:
     rep: 0
     guide: 0
 ---
+
+
 
 
 

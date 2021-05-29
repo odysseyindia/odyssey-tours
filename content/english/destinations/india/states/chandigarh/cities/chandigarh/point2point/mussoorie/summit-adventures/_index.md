@@ -1,7 +1,6 @@
 ---
 title: Summit Adventures
 translationKey: summit-adventures
-type: point2point
 rates:
   - fromPax: 1
     toPax: 4
@@ -12,6 +11,8 @@ rates:
     commission: 0
     rep: 0
     guide: 0
+type: ''
 ---
+
 
 

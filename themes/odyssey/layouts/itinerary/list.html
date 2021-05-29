@@ -595,7 +595,7 @@
     data[3].innerHTML  = inputs.checkOutTime.value ;
     data[4].innerHTML  = inputs.nights.value ;
 
-    document.getElementById("modal-hotel").style.display = "none";
+    elements.style.display = "none";
   });
 
   document.getElementById("save-modal-excursion").addEventListener("click", function(){
@@ -622,7 +622,7 @@
     data[1].innerHTML  = inputs.excursionEtd.value ;
     data[2].innerHTML  = inputs.excursionDuration.value ;
 
-    document.getElementById("modal-excursions").style.display = "none";
+    elements.style.display = "none";
   });
 
   document.getElementById("save-modal-city").addEventListener("click", function(){
@@ -637,7 +637,7 @@
     var content          = items[index].getElementsByClassName('content-details');
     content[0].innerHTML = "<p>"+modalContent[0].value.replace(/\n\n/g, "</p><p>")+"</p>";
 
-    document.getElementById("modal-city").style.display = "none";
+    elements.style.display = "none";
   });
 
 // allow drag and drop
