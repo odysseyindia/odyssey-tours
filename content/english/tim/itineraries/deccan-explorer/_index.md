@@ -8,7 +8,7 @@ itinerary:
     item:
       - type: transfer
         url: >-
-          /destinations/india/states/telangana/cities/hyderabad/excursions/transfer-from-airport-to-hotel/
+          /destinations/india/states/telangana/cities/hyderabad/transfers/transfer-from-airport-to-hotel/
         title: Transfer from Hyderabad's airport to your hotel
         content: >-
           Your tour starts on arrival in Hyderabad airport, where you are met by
@@ -393,7 +393,7 @@ itinerary:
     item:
       - type: transfer
         url: >-
-          /destinations/india/states/karnataka/cities/bangalore/excursions/transfer-from-hotel-to-airport/
+          /destinations/india/states/karnataka/cities/bangalore/transfers/transfer-from-hotel-to-airport/
         title: Transfer from hotel to airport
         content: >-
           Today, you have a departure transfer to Bangalore airport to catch

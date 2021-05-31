@@ -1,6 +1,6 @@
 
 {
-  "this":             "excursions.json.son",
+  "this":             "excursions/single.json.json",
   "title": 			      "{{ .Title }}",
   "date": 			      "{{ .Date }}",
   "permalink":	      "{{ .RelPermalink }}",

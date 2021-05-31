@@ -349,7 +349,7 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/tamil-nadu/cities/kodaikanal/excursions/full-day-at-leisure-to-explore-elephant-valley/
+          /destinations/india/states/tamil-nadu/cities/kodaikanal/excursions/explore-elephant-valley/
         content: >-
           Elephant Valley lies along the migration route of the pachyderms, and
           they are often found close to the resort. Follow nature trails of

@@ -10,7 +10,7 @@ itinerary:
     item:
       - type: transfer
         url: >-
-          /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-international-airport-to-hotel/
+          /destinations/india/states/delhi/cities/delhi/transfers/transfer-from-international-airport-to-hotel/
         title: Transfer from Delhi's international airport to your hotel
         content: >-
           You start your tour on arrival in Delhi, where you will be met by our
@@ -448,7 +448,7 @@ itinerary:
           Heritage Sites.
       - type: transfer
         url: >-
-          /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-hotel-to-international-airport/
+          /destinations/india/states/delhi/cities/delhi/transfers/transfer-from-hotel-to-international-airport/
         title: Transfer from your hotel to the international airport
         content: >-
           In the evening, you have a departure transfer from your hotel to Delhi

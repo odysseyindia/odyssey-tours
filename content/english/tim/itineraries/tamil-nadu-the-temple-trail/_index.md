@@ -16,7 +16,7 @@ itinerary:
     item:
       - type: transfer
         url: >-
-          /destinations/india/states/tamil-nadu/cities/chennai/excursions/transfer-from-airport-to-hotel/
+          /destinations/india/states/tamil-nadu/cities/chennai/transfers/transfer-from-airport-to-hotel/
         title: Transfer from Chennai's international airport to your hotel
         content: >-
           Your tour begins at Chennai airport, where you are met by our
@@ -379,7 +379,7 @@ itinerary:
     item:
       - type: transfer
         url: >-
-          /destinations/india/states/tamil-nadu/cities/madurai/excursions/transfer-from-hotel-to-airport/
+          /destinations/india/states/tamil-nadu/cities/madurai/transfers/transfer-from-hotel-to-airport/
         title: Transfer from your hotel to the airport
         content: >-
           Today, you drive to Madurai airport, to connect with your onward

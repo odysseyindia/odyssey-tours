@@ -1,7 +1,7 @@
 ---
 title: Himalayan Adventurers
 translationKey: himalayan-adventurers
-type: point2point
+type: ''
 rates:
   - fromPax: 1
     toPax: 4
@@ -13,5 +13,6 @@ rates:
     rep: 0
     guide: 0
 ---
+
 
 

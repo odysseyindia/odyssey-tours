@@ -63,7 +63,7 @@ itinerary:
         duration: ''
       - type: excursion
         url: >-
-          /destinations/india/states/gujarat/cities/ahmedabad/excursions/afternoon-visit-to-gandhis-sabarmati-ashram-and-law-garden-market/
+          /destinations/india/states/gujarat/cities/ahmedabad/excursions/sabarmati-ashram-and-law-garden-market/
         content: >-
           Alongside the Sabaramati River, the Ashram was the home of Mahatma
           Gandhi from 1915 to 1930, and the seeds of India’s Independence

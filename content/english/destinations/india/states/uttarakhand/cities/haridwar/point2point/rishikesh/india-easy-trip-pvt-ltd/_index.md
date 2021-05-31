@@ -1,7 +1,7 @@
 ---
 title: India Easy Trip Pvt. Ltd
 translationKey: india-easy-trip-pvt-ltd
-type: point2point
+type: ''
 rates:
   - fromPax: 1
     toPax: 4
@@ -31,6 +31,9 @@ rates:
     rep: 1000
     guide: 0
 ---
+
+
+
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: Ramico Tours & Travels Pvt. Ltd.
 translationKey: ramico-tours-and-travels-pvt-ltd
-type: point2point
+type: ''
 rates:
   - fromPax: 1
     toPax: 4
@@ -31,6 +31,9 @@ rates:
     rep: 0
     guide: 0
 ---
+
+
+
 
 
 

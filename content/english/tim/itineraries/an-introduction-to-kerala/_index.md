@@ -18,7 +18,7 @@ itinerary:
     item:
       - type: transfer
         url: >-
-          /destinations/india/states/kerala/cities/kochi/excursions/transfer-from-airport-to-hotel/
+          /destinations/india/states/kerala/cities/kochi/transfers/transfer-from-airport-to-hotel/
         title: Transfer from airport to hotel
         content: >-
           Your tour begins at Kochi airport, where you are met by our
@@ -252,7 +252,7 @@ itinerary:
     item:
       - type: transfer
         url: >-
-          /destinations/india/states/kerala/cities/kochi/excursions/transfer-from-hotel-to-airport/
+          /destinations/india/states/kerala/cities/kochi/transfers/transfer-from-hotel-to-airport/
         title: Transfer from hotel to airport
         content: >-
           Today, you drive to Kochi’s airport, to connect with your onward

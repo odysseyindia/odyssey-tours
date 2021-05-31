@@ -467,4 +467,5 @@ themes:
 region: /destinations/india/regions/rajasthan-and-the-north/
 ---
 
-Rajasthan is India at its exotic and colourful best, with forts, palaces, deserts, tigers, rivers, jungles, temples and just about everything else that the word ‘India’ brings to mind! Women are dressed in colourful saris with chunky jewellery while men wear elaborate turbans and sport huge moustaches. Here you can travel by camel, cycle rickshaw, jeep and boat to explore the myriad attractions.
+Rajasthan is India at its most exotic and colourful best, with forts, palaces, deserts, tigers, rivers, jungles, temples and just about everything else that the word 'India' brings to mind! Women are dressed in colourful saris with chunky jewellery whilst men wear elaborate turbans and sport huge moustaches. Here you can travel by camel, cycle rickshaw, jeep and boat to explore the myriad attractions.
+

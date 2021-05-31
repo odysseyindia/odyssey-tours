@@ -60,7 +60,7 @@ itinerary:
         duration: ''
       - type: excursion
         url: >-
-          /destinations/india/states/gujarat/cities/ahmedabad/excursions/afternoon-visit-to-gandhis-sabarmati-ashram-and-law-garden-market/
+          /destinations/india/states/gujarat/cities/ahmedabad/excursions/sabarmati-ashram-and-law-garden-market/
         content: >-
           Alongside the Sabaramati River, the Ashram was the home of Mahatma
           Gandhi from 1915 to 1930, and the seeds of India’s Independence
@@ -110,7 +110,7 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/gujarat/cities/dasada/excursions/early-morning-wildlife-safari-in-the-little-rann-of-kutch/
+          /destinations/india/states/gujarat/cities/dasada/excursions/wildlife-safari/
         content: >-
           A shared jeep safari across the Little Rann of Kutch, a vast expanse
           of salt flats and grasslands. This unique ecosystem supports a variety

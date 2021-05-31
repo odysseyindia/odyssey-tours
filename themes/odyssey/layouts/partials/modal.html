@@ -1,0 +1,44 @@
+<!-- used by layouts/itinerary/list.html -->
+
+  <div id="modal-{{ .modal }}" class="modal">
+    <div class="modal-content">
+      <div class="container">
+        <div class="row">
+          <div id="modal-category-{{ .modal }}"></div>
+          <div class="modal-url"></div>
+          <div class="cancel close-modal-btn">
+            <i class="icon-cancel"></i>
+          </div>
+        </div>
+        <div class="row">
+          <input type="text" name="modal-title" class="modal-title" value="">
+        </div>
+        <div class="row">
+          <form>
+            <textarea class="content"></textarea>
+          </form>
+        </div>
+        {{- if (eq .modal "excursion")   }}{{ partial "modal-excursion.html" .dot }}
+        {{- else if eq .modal "transfer" }}{{ partial "modal-excursion.html" .dot }}
+        {{- else if eq .modal "hotel"    }}{{ partial "modal-hotel.html"     .dot }}
+        {{- else if eq .modal "city"     }}{{ partial "modal-city.html"      .dot }}
+        {{- else if eq .modal "flight"   }}{{ partial "modal-flight.html"    .dot }}
+        {{- else if eq .modal "carhire"  }}{{ partial "modal-carhire.html"   .dot }}
+        {{- end }}
+        <div class="row buttons">
+          <div>
+            <button class="default default-modal-btn">
+              <i class="icon-trash"></i>
+              Default
+            </button>
+          </div>
+          <div>
+            <button class="save" id="save-modal-{{ .modal }}">
+              <i class="icon-floppy"></i>
+              Save
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 

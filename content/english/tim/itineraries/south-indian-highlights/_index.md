@@ -4,7 +4,7 @@ itinerary:
     item:
       - type: transfer
         url: >-
-          /destinations/india/states/tamil-nadu/cities/chennai/excursions/transfer-from-airport-to-hotel/
+          /destinations/india/states/tamil-nadu/cities/chennai/transfers/transfer-from-airport-to-hotel/
         title: Transfer from Chennai's international airport to your hotel
         content: >-
           Your tour begins at Chennai airport, where you are met by our
@@ -535,7 +535,7 @@ itinerary:
     item:
       - type: transfer
         url: >-
-          /destinations/india/states/kerala/cities/kochi/excursions/transfer-from-hotel-to-airport/
+          /destinations/india/states/kerala/cities/kochi/transfers/transfer-from-hotel-to-airport/
         title: Transfer from your hotel to Kochi's intermational airport
         content: >-
           Today, you have a departure transfer to Kochi airport to connect with

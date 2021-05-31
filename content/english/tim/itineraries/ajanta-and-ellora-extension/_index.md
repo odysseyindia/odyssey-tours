@@ -13,7 +13,7 @@ itinerary:
     item:
       - type: transfer
         url: >-
-          /destinations/india/states/maharashtra/cities/aurangabad/excursions/transfer-from-airport-to-hotel/
+          /destinations/india/states/maharashtra/cities/aurangabad/transfers/transfer-from-airport-to-hotel/
         title: Transfer from Aurangabad airport to your hotel
         content: >-
           Your tour begins on arrival at Aurangabad airport, where you are met
@@ -96,7 +96,7 @@ itinerary:
         duration: ''
       - type: transfer
         url: >-
-          /destinations/india/states/maharashtra/cities/aurangabad/excursions/transfer-from-hotel-to-airport/
+          /destinations/india/states/maharashtra/cities/aurangabad/transfers/transfer-from-hotel-to-airport/
         title: Transfer from your hotel to the airport
         content: >-
           In the afternoon you transfer to Aurangabad airport to connect with

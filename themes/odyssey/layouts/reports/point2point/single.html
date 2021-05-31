@@ -1,0 +1,29 @@
+{{- define "main" }}
+{{- .Scratch.Set "layout" "layouts/reports/point2point/single.html" -}}
+
+<section id="reports-excursions"> 
+{{ partial "heading.html" . }}
+<div class="container">
+
+{{ $lastState := 0 }}
+{{ $lastCity  := 0 }}
+
+{{- range sort (where (where .Site.Pages "Section" "destinations") ".Params.type" "point2point" ) ".RelPermalink"  }}
+
+{{ $path  := split .RelPermalink "/" }}
+{{ $state := index $path 4 }}
+{{ $city  := index $path 6 }}
+
+{{ if ne $state $lastState }}<h3>{{ $state | humanize }}</h3>{{ $lastState = $state }}{{ end }}
+{{ if ne $city  $lastCity  }} {{ $lastCity  = $city  }}{{ end }}
+
+<h5><a href="{{ .RelPermalink }}">{{ $city | humanize }} - {{ .Title }}</a></h5>
+
+{{- end }}
+</div>
+</section>
+
+{{- end }}
+{{- define "postscript" }}
+
+{{- end }}

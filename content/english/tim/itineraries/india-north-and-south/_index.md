@@ -9,7 +9,7 @@ itinerary:
     item:
       - type: transfer
         url: >-
-          /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-international-airport-to-hotel/
+          /destinations/india/states/delhi/cities/delhi/transfers/transfer-from-international-airport-to-hotel/
         title: Transfer from Delhi's international airport to your hotel
         content: >-
           You start your tour on arrival in Delhi, where you will be met by our
@@ -429,7 +429,7 @@ itinerary:
     item:
       - type: transfer
         url: >-
-          /destinations/india/states/kerala/cities/mararikulam/excursions/transfer-from-hotel-to-kochi-airport/
+          /destinations/india/states/kerala/cities/mararikulam/transfers/transfer-from-hotel-to-kochi-airport/
         title: Transfer from your hotel to Kochi's international airport
         content: >-
           Today, you drive to Kochi’s airport, to connect with your onward

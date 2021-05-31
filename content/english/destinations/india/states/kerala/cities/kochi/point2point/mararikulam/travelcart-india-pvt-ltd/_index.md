@@ -1,7 +1,7 @@
 ---
 title: Travelcart India Pvt Ltd
 translationKey: travelcart-india-pvt-ltd
-type: point2point
+type: ''
 rates:
   - fromPax: 1
     toPax: 2
@@ -40,6 +40,10 @@ rates:
     rep: 0
     guide: 0
 ---
+
+
+
+
 
 
 
