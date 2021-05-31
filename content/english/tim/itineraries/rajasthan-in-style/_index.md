@@ -1,10 +1,10 @@
 ---
 title: Rajasthan in Style
 subtitle: Delhi, Samode, Jaipur, Raipur, Jodhpur, Chanoud, Udaipur
-weight: 106
+weight: '106'
 translationKey: rajasthan-in-style
 type: itinerary
-tour: Rajasthan in Style 
+tour: Rajasthan in Style
 itinerary:
   - day: 0
     item:
@@ -319,7 +319,7 @@ itinerary:
         duration: ''
       - type: hotel
         url: >-
-          /destinations/india/states/rajasthan/cities/chanoud/hotels/chanoud-garh/
+          /destinations/india/states/rajasthan/cities/chanoud/hotels/hotel-chanoud-garh/
         title: Hotel Chanoud Garh
         content: >-
           This recently-restored palace offers a heritage homestay experience.
@@ -445,6 +445,6 @@ themes:
   - Honeymoon ideas
   - Signature trips
   - Staying in style
-region: Rajasthan & the North
+region: /destinations/india/regions/rajasthan-and-the-north/
 ---
 Nowhere in India is the romance of the Maharajahs as strong as in Rajasthan, the land of kings. Impressive forts and castles, opulent palaces, and havelis built around courtyards dot this desert state. In this very special tour, we take you to some stunning examples of India’s royal past. Most of the overnight halts on this tour are in castles and princely homes, which are still the residence of the erstwhile royal families.

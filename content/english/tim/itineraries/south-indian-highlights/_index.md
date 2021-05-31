@@ -555,9 +555,9 @@ highlights:
   - 'The best of Kerala: backwaters, spices, Chinese fishing nets and beaches'
 themes:
   - Cultural journeys
-region: Kerala & South India
+region: /destinations/india/regions/kerala-and-south-india/
 title: South Indian highlights
 type: itinerary
 translationKey: south-india-highlights
 ---
-This leisurely journey through Tamil Nadu and Kerala encompasses all the highlights of South India. Start by walking around the beach-side temple town of Mamallapuram and the historic 'French' town of Pondicherry. Find yourself next in an old Danish settlement and the temple cities of Tamil Nadu. Carry on to the lush tropical land of Kerala with wildlife and palm-fringed backwaters and the harbour city of Cochin, with its diverse architectural and religious influences.
+This leisurely journey through Tamil Nadu and Kerala encompasses all the highlights of South India. Start by walking around the beach-side temple town of Mamallapuram and the historic &lsquo;French&rsquo; town of Pondicherry. Find yourself next in an old Danish settlement and the temple cities of Tamil Nadu. Carry on to the lush tropical land of Kerala with wildlife and palm-fringed backwaters and the harbour city of Cochin, with its diverse architectural and religious influences.

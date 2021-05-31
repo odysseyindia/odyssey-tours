@@ -71,9 +71,9 @@ itinerary:
           You end the day after a short drive to Serampore, once a feudal town,
           then a Danish colony called Frederiknagore in the 18th and 19th
           centuries, then one of the places that saw the Bengal Renaissance when
-          the British started India's second ever railway line here. Today, it
+          the British started India’s second ever railway line here. Today, it
           shows off a collection of colonial-era buildings among a variety of
-          temples, a great place to check out Bengal's amazing past.
+          temples, a great place to check out Bengal’s amazing past.
       - type: hotel
         url: >-
           /destinations/india/states/west-bengal/cities/serampore/hotels/the-denmark-tavern/
@@ -83,8 +83,8 @@ itinerary:
           Hooghly was a tavern and hotel where the Danes kept their flagstaff
           and cannons. It took around two years to restore the tavern to its
           former glory, and is now a very attractive hotel, with a cafe
-          attached. Inside you'll find a cosy colonial ambience and lovely,
-          high-ceilinged rooms with the hotel's pretty green shutters.
+          attached. Inside you’ll find a cosy colonial ambience and lovely,
+          high-ceilinged rooms with the hotel’s pretty green shutters.
         checkInDate: ''
         checkInTime: ''
         checkOutDate: ''
@@ -231,7 +231,7 @@ itinerary:
         title: Morning guided tour of Kolkata
         content: >-
           Kolkata has fascinating street life and interesting colonial
-          architecture. You drive via the historic St John's Church to the
+          architecture. You drive via the historic St John’s Church to the
           famous Dalhousie Square, the commercial centre of the city, now
           renamed BBD Bagh. From here you continue to the bank of the river
           Hoogly, where you see the famous Howrah Bridge, which more than 5
@@ -240,11 +240,11 @@ itinerary:
 
 
           Next is the Karmatuly area, where they make the huge effigies used in
-          Kolkata's most famous festival, Durga Puja. To the North of the centre
+          Kolkata’s most famous festival, Durga Puja. To the North of the centre
           you visit the exquisite, richly decorated Jain Temple before
           continuing to College Street book market, with its hundreds of
           bookstalls, and finally enjoy a coffee at the famous Indian Coffee
-          House - still a gathering place for the city's intellectuals.
+          House - still a gathering place for the city’s intellectuals.
 
 
           The afternoon is at leisure to enjoy the hotel or explore on your own.
@@ -263,11 +263,11 @@ itinerary:
         date: ''
         etd: ''
         duration: ''
-weight: 305
+weight: '305'
 themes:
   - Off the beaten track
   - Cultural journeys
   - Signature trips
-region: Kolkata, Orissa & the Northeast
+region: /destinations/india/regions/kolkata-orissa-and-the-northeast/
 ---
 Bengal was once one of the richest parts of the world: the weaving town of Murshidabad alone was by itself 5% of the entire global economy! Bengal saw trading posts of the Danish and French before British domination, and was known for the opulent lives of its zamindars, or landed gentry. On this stylish tour, you get to explore a Bengal of days gone by, from atmospheric hotels in the storied city of Kolkata to a little Danish outpost in Serampore, past the site of a pivotal battle at Plassey, and to a gorgeous restored mansion in Murshidabad, your base for exploring a forgotten giant of world history.

@@ -47,9 +47,7 @@ themes:
   - Active outdoor trips
   - Beach vacations
   - Cultural journeys
-region: Mumbai, Goa & the Deccan
-weight: 505
+region: /destinations/india/regions/mumbai-goa-and-the-deccan/
+weight: '505'
 ---
 Take a wellness break by a lovely beach on India’s Western coast - a great end to an active holiday. The retreat offers ayurvedic programmes that combine yoga, ayurvedic therapies, a none-too-onerous diet (including seafood) and plenty of time to choose between being active and just relaxing.
-
-

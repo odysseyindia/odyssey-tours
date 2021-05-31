@@ -61,7 +61,7 @@ itinerary:
           bazaars, exquisitely carved facades, temples, subterranean stepwells,
           and even a secret passageway. You first walk through a Hindu-dominated
           area, then a section dominated by Jains, then finally to the Muslim
-          market area to end at the city's largest mosque.
+          market area to end at the city’s largest mosque.
         date: ''
         etd: ''
         duration: ''
@@ -71,14 +71,14 @@ itinerary:
         title: Afternoon visit to Gandhi's Sabarmati Ashram and Law Garden Market
         content: >-
           Alongside the Sabarmati River, the Ashram was the home of Mahatma
-          Gandhi from 1915 to 1930, and the seeds of India's Independence
+          Gandhi from 1915 to 1930, and the seeds of India’s Independence
           campaign were sown here. His simple living quarters are maintained
           exactly as they were at that time. There is also a museum dedicated to
           his life.
 
 
           The nearby Law Garden Market operates from late afternoon and has
-          stalls selling colourful local fabrics, as well as a "food street"
+          stalls selling colourful local fabrics, as well as a “food street”
           with local fast food outlets - the kulfi falooda is highly recommended
           at the end of a hot day.
         date: ''
@@ -100,7 +100,7 @@ itinerary:
           perfect base from which to explore the Rann of Kutch, the last refuge
           in India of the Asiatic wild ass, an elegant member of the horse
           family. In winter it is also home to migratory birds such as
-          flamingoes, MacQueen's bustard etc.
+          flamingoes, MacQueen’s bustard etc.
       - type: hotel
         url: /destinations/india/states/gujarat/cities/dasada/hotels/rann-riders/
         title: Rann Riders
@@ -200,7 +200,7 @@ itinerary:
           printing blocks are often shaped and carved by hand using absolute
           precision and skill. Almost every family in the village contributes to
           this complex art form in some way. Ajrakhpur has also a wonderful
-          'Living and Learning Design Center’.
+          ‘Living and Learning Design Center’.
 
 
           A little further is Dhaneti village, where you can see the embroidery
@@ -258,7 +258,7 @@ itinerary:
         content: >-
           Today, you drive for six hours to the princely state of Gondal, known
           for its progressive rulers. In the late 19th century, Gondal did away
-          with the women's purdah or veil, abolished land taxes and insisted on
+          with the women’s purdah or veil, abolished land taxes and insisted on
           education for girls. Gondal is an interesting city with some
           finely-carved palaces. The town is also home to an interesting
           100-year-old ayurvedic pharmacy.
@@ -269,8 +269,8 @@ itinerary:
         content: >-
           A lovely palace with just seven guest rooms, set in a huge complex of
           fruit orchards, lawns and gardens. A delightful accommodation option
-          is the beautifully restored Rail Saloon of the royal family! The "room
-          of miniatures" is a splendid sitting room with a collection of
+          is the beautifully restored Rail Saloon of the royal family! The “room
+          of miniatures” is a splendid sitting room with a collection of
           miniature paintings, brass and antique furniture. The vast property
           also includes an impressive collection of classic and vintage cars.
         checkInDate: ''
@@ -284,7 +284,7 @@ itinerary:
         url: /destinations/india/states/gujarat/cities/sasangir/
         title: Sasangir
         content: >-
-          Today, you drive four hours to Sasan Gir, and with any luck, you'll
+          Today, you drive four hours to Sasan Gir, and with any luck, you’ll
           get to see lions! Sasangir is the only habitat of the lion left
           outside Africa, and with the lion population 300-strong, your chances
           of spotting one are very good. Other wildlife includes panthers,
@@ -328,7 +328,7 @@ itinerary:
         url: /destinations/india/states/diu/cities/diu/
         title: Diu
         content: >-
-          You drive today to Gujarat's coast today, a four-hour drive taking you
+          You drive today to Gujarat’s coast today, a four-hour drive taking you
           to the former Portuguese colony of Diu. To this day, it retains a
           distinctive atmosphere. The town of Diu is a maze of narrow, winding
           streets and many of the houses are well ornamented and brightly
@@ -345,7 +345,7 @@ itinerary:
         content: >-
           With double-storied tile-roofed villas surrounding a paved garden and
           swimming pool, this is generally considered the best hotel in Diu. It
-          is located on Diu's best beach - Nagoa. The rooms are spacious and
+          is located on Diu’s best beach - Nagoa. The rooms are spacious and
           imaginatively done up. Radhika Beach Resort also features a swimming
           pool, health club and indoor games.
         checkInDate: ''
@@ -396,7 +396,7 @@ itinerary:
         content: >-
           The Palitana temples are on top of Shatrunjay hill. The winding 3.5-km
           path to the top has 3,950 steps and you can do this on your own
-          without a guide. There's also a thriving local industry of people who
+          without a guide. There’s also a thriving local industry of people who
           will carry you up the steps in baskets, or even literally push you up
           the steps! The reward for the climb is a superb view and the
           extraordinary temples themselves.
@@ -456,12 +456,12 @@ itinerary:
         url: /destinations/india/states/gujarat/cities/ahmedabad/
         title: Ahmedabad
         content: >-
-          Today, you drive the three hours to Ahmedabad's airport to connect
+          Today, you drive the three hours to Ahmedabad’s airport to connect
           with your onward flight.
-weight: 401
+weight: '401'
 themes:
   - Cultural journeys
   - Wildlife/Birding tours
-region: Gujarat & Central India
+region: /destinations/india/regions/gujarat-and-central-india/
 ---
-Though not completely unknown, Gujarat is so culturally rich you wonder why more people don&rsquo;t visit it! Extremely varied, it goes from Ahmedabad&rsquo;s bustling lanes to vast carved monuments to the endless salt plains of Kutch, a lovely palace built by a feminist ruler in Gondal, (literally) breathtaking temples at Palitana, and the Asiatic lion in Sasangir forest. You get to meet locals and explore the beautiful mirror-work embroidery, look for amazing wildlife including birds, desert foxes, hyenas, the very rare Wild Ass and of course lions, and try great food on this offbeat trip.
+Though not completely unknown, Gujarat is so culturally rich you wonder why more people don’t visit it! Extremely varied, it goes from Ahmedabad’s bustling lanes to vast carved monuments to the endless salt plains of Kutch, a lovely palace built by a feminist ruler in Gondal, (literally) breathtaking temples at Palitana, and the Asiatic lion in Sasangir forest. You get to meet locals and explore the beautiful mirror-work embroidery, look for amazing wildlife including birds, desert foxes, hyenas, the very rare Wild Ass and of course lions, and try great food on this offbeat trip.

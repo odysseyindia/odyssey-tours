@@ -85,7 +85,7 @@ itinerary:
         duration: ''
 themes:
   - Cultural journeys
-region: Mumbai, Goa & the Deccan
-weight: 504
+region: /destinations/india/regions/mumbai-goa-and-the-deccan/
+weight: '504'
 ---
 Hampi was once a huge capital city in the Vijaynagaran Empire, larger at that time than Paris or London. Like Fatehpur Sikri in the north, it has been deserted for centuries, a ghost city of impressively carved ruins amid a boulder-strewn landscape. One of the most famous ruins is the massive stone carriage that is parked in front of an impressive gallery of decorated pillars, each sculpted from a single block of stone, and there are plenty of temples, pillars and other features to keep you busy exploring for days. With a laidback vibe, it’s also a great place to simply relax by the river. In the early mornings and late afternoons, the combination of gentle light and striking landscape gives Hampi a special ambience that defies description.

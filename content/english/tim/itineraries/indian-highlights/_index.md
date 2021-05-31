@@ -1,7 +1,7 @@
 ---
 title: Indian Highlights
 subtitle: Delhi, Agra, Jaipur
-weight: 101
+weight: '101'
 translationKey: indian-highlights
 days: 7
 tourStart: New Delhi
@@ -257,6 +257,6 @@ highlights:
   - Exploring medieval-era Old Delhi by cycle rickshaw
 themes:
   - Classic tours
-region: Rajasthan & the North
+region: /destinations/india/regions/rajasthan-and-the-north/
 ---
 The ideal itinerary for anyone wanting to see the best of India in a week. The magical Golden Triangle in India is one of the country’s most popular tourist circuits. Comprising Delhi, Agra and Jaipur, it gets its name from the triangle that these cities form. Roughly equidistant in northern India, the cities provide a classic and unforgettable introduction to the country and its charms.

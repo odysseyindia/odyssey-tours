@@ -87,7 +87,7 @@ itinerary:
         url: /destinations/india/states/orissa/cities/dhenkanal/
         title: Dhenkanal
         content: >-
-          After breakfast, you drive two hours into Orissa's interior, to the
+          After breakfast, you drive two hours into Orissa’s interior, to the
           busy market town of Dhenkanal. For 12 days every year, following the
           Dusshera festival, it is taken over by a large and colourful festival,
           during which elaborately decorated shrines to the goddess Laxmi draw
@@ -156,18 +156,18 @@ itinerary:
 
 
           You continue to Puri, a popular seaside resort, famous for the great
-          'Car Festival' held at the Temple of Jagannath in June or July. During
+          ‘Car Festival’ held at the Temple of Jagannath in June or July. During
           this festival, the image of Jagannath is placed on an enormous
           15m-high wooden chariot and drawn through the streets by thousands of
           penitents. In times past, ecstatic pilgrims would hurl themselves
-          under the wheels of this "juggernaut". Throughout the year, the long
+          under the wheels of this “juggernaut”. Throughout the year, the long
           sandy beach is a popular attraction.
       - type: hotel
         url: /destinations/india/states/orissa/cities/puri/hotels/hans-coco-palms/
         title: Hans Coco Palms
         content: >-
           The Hans Coco Palms is a resort in the true sense of the word: with
-          swaying fan shaped traveller's palms catching the breeze from the
+          swaying fan shaped traveller’s palms catching the breeze from the
           nearby sea, and a dozen lounge chairs around an inviting swimming
           pool.
 
@@ -240,7 +240,7 @@ itinerary:
         duration: ''
 themes:
   - Off the beaten track
-region: Kolkata, Orissa & the Northeast
-weight: 306
+region: /destinations/india/regions/kolkata-orissa-and-the-northeast/
+weight: '306'
 ---
 Think you’ve seen India? Well, Orissa is still going to blow you away. Utterly rich in temples, beaches and untouched villages, it makes for a great, offbeat trip. Starting with the vibrant temples of Bhubaneswar, you carry on to the hidden-away Dhenkanal Palace, a great base to explore little villages and markets in the hinterland. Then, you visit the world-famous Sun Temple at Konark, and a sweet artisans' village, famous for its cloth paintings, and finally go on to the largest brackish-water lagoon in the world at Chilika, and look for exotic birds and incredibly rare dolphins and dugongs.

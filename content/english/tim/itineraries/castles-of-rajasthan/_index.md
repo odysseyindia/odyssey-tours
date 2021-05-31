@@ -1,7 +1,7 @@
 ---
 title: Castles of Rajasthan
 subtitle: Delhi, Jaipur, Barli, Jodhpur, Narlai, Deogarh, Udaipur
-weight: 107
+weight: '107'
 translationKey: castles-of-rajasthan
 type: itinerary
 tour: Castles of Rajasthan
@@ -309,7 +309,7 @@ itinerary:
           /destinations/india/states/rajasthan/cities/deogarh/hotels/deogarh-mahal/
         title: Deogarh Mahal
         content: >-
-          One of Rajasthan's most spectacular palaces, Deogarh Mahal is a
+          One of Rajasthan’s most spectacular palaces, Deogarh Mahal is a
           fabulous building of yellow ochre with ornate domes and white accents.
           The rooms are spread across the palace on different, maze-like levels.
           Many rooms have original furniture and some have exquisite frescoes
@@ -349,7 +349,7 @@ itinerary:
         content: >-
           After breakfast, a three-hour drive takes you to lovely Udaipur. Set
           around the vast Pichola Lake and dominated by dramatic palaces,
-          Udaipur is surely Rajasthan's most picturesque city. High whitewashed
+          Udaipur is surely Rajasthan’s most picturesque city. High whitewashed
           houses and narrow, winding alleys lend it an almost medieval charm.
           The huge City Palace, still the residence of the Maharana, is carved
           out of yellow sandstone and stands on the banks of Lake Pichola, from
@@ -357,7 +357,7 @@ itinerary:
           Hotel.
 
 
-          You're at leisure for the afternoon to explore the charming alleys and
+          You’re at leisure for the afternoon to explore the charming alleys and
           shops around your hotel.
       - type: hotel
         url: >-
@@ -392,10 +392,10 @@ itinerary:
 
 
           The city tour is followed by a relaxing, hour-long (shared) motor boat
-          ride on the lake, with views of the activity on the "ghats" used by
+          ride on the lake, with views of the activity on the “ghats” used by
           local people for washing and bathing, the City Palace complex, and the
           Aravalli Hills to the west. You also pass the famous luxury Lake
-          Palace hotel, and stop to visit the serene "pleasure island" of Jag
+          Palace hotel, and stop to visit the serene “pleasure island” of Jag
           Mandir.
         date: ''
         etd: ''
@@ -421,6 +421,6 @@ highlights:
 themes:
   - Signature trips
   - Staying in style
-region: Rajasthan & the North
+region: /destinations/india/regions/rajasthan-and-the-north/
 ---
 Rajasthan’s castles aren’t just romantic fortresses - they’re often at the heart of villages, still as relevant to the communities as they were 300 years ago. Best of all, they’re all unique, from the huge, maze-like fortress of Deogarh to the romantic lakeside palaces in Udaipur and the intimate fort at Barli. You’ll also stay in old royal hunting lodges, from the opulent Ajit Bhawan in Jodhpur to laidback Rawla Narlai, for a taste of the royal life.

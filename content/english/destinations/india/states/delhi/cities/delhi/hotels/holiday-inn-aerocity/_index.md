@@ -6,7 +6,7 @@ mailto: ''
 address: Aerocity Access Road  Aerocity  Hospitality District  Asset Area 12
 city: Delhi
 postalcode: 110 037
-phone: 11-4222 2000,
+phone: 11-4222 2000
 mobile: ''
 email: ''
 website: ''
@@ -142,28 +142,5 @@ web: 0
 mailTo: ''
 ranking: 7
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 For a comfortable stay before for after a long flight, the Holiday Inn at Aerocity, close to Delhi's International Airport, is ideal. The rooms are large, modern, and, most important of all, quiet. There is a swimming pool, a large restaurant with abundant buffets, a bar, and a speciality Italian restaurant. 

@@ -454,7 +454,7 @@ itinerary:
           The best time of day to appreciate this stunning monument is as soon
           as the Taj Mahal opens, when it is at its quietest and most serene.
           You can enjoy the gardens, the mausoleum and the mosque, without
-          needing a professional guide. Don't miss the marble inlay work and the
+          needing a professional guide. Don’t miss the marble inlay work and the
           various vantage points offered throughout the peaceful gardens.
 
 
@@ -502,9 +502,9 @@ itinerary:
         date: ''
         etd: ''
         duration: ''
-weight: 405
+weight: '405'
 themes:
   - Off the beaten track
-region: Gujarat & Central India
+region: /destinations/india/regions/gujarat-and-central-india/
 ---
 A trip through one of the most fascinating, yet most easily overlooked belts of India. Starting in the culturally rich city of Ahmedabad, visiting Mahatma Gandhi’s Sabarmati Ashram, you go on to two royal stays, one a charming garden palace by a park containing amazing dinosaur fossils, and the other a completely hidden and beautifully decorated palace by the lake in Santrampur. You carry on to tiny Barnagar, to a castle that feels like it dropped out of history, and then to the utterly surprising Bhopal, a city of great culture, to stay in a lovely palace and explore prehistoric caves and soothing Buddhist sites. You then travel along the river Chambal to Gwalior’s huge fort and end at serene Dholpur’s castle, a great base to look for birds and endangered crocodiles on the water. A stirring, offbeat trip.

@@ -109,6 +109,7 @@
           </div>
           <div class="program">
             {{- $content := $v.content | default " " }}
+
             {{- $url     := printf "%s%s" $v.url "_index.md" -}}
 
             {{- with $.Site.GetPage (string $url) }}
@@ -511,6 +512,10 @@
     $('[data-toggle="tooltip"]').tooltip();
   });
 
+  import { docLoad } from './js/app/docload.js';
+  import { fadeAlert } from './js/app/fadealert.js';
+
+
   const source = document.querySelector("#cities");
   const city   = source[source.selectedIndex].value ;
   var   host   = window.location.href.split("/");
@@ -889,6 +894,7 @@ function saveItinerary(deleteDay){
   docLoad({
     url:    'ajax', 
     method: 'POST',
+    apphost: '{{ .Site.Params.appHost }}', 
     data:   JSON.stringify({ 
       "file": {{ .RelPermalink }}+'_index.md', 
       "data": data
@@ -907,24 +913,20 @@ function saveItinerary(deleteDay){
 
 function writeToTour(){
 
-
-  if (confirm("Are you certain?\n")){
-    let alert = document.getElementById("alert");
-    alert.innerText = 'Itinerary saved as a tour';
+  if (confirm("This will republish this itinerary as a tour.\nAre you certain?\n")){
 
     docLoad({
       url:    'write-to-tour', 
       method: 'POST',
+      apphost: '{{ .Site.Params.appHost }}', 
       data:   JSON.stringify({ 
         "file"  : {{ .RelPermalink }}, 
         "region": document.getElementById('region').value,
-      }) 
+      })
     })
     .then(
       function(response){ 
-        let alert = document.getElementById("alert");
-        alert.innerText = 'Itinerary saved as a tour'; 
-        fadeOut();
+        fadeOut('Itinerary saved as a tour');
       }, 
       function(Error){  console.log( Error );       }
     );
@@ -1408,49 +1410,39 @@ function editItem(obj){
   } 
 };
 
+function copyToTours(){
 
-function docLoad(object) {
+  const source = document.querySelector("#region");
+  const region = source[source.selectedIndex].value ;
 
-  return new Promise(function(resolve, reject) {
+  var from = host[2];
+  var to   = region
+alert('from ',from)
+alert('to ',to)
+  docLoad({
+        url:    'copytotours',
+        method: 'POST', 
+        apphost: '{{ .Site.Params.appHost }}', 
+        data: JSON.stringify({
+          "from": from,
+          "to": to
+        })
+      })
+      .then(
 
-    var host = ((object.method == 'POST')? {{ .Site.Params.appHost }} : "") + object.url;
+      function(response){
+        alert("Copied "+from+" to "+to);
+      }, 
+      function(Error) {
+        alert(Error);
+        console.log(Error);
+      });
 
-    var request = new XMLHttpRequest();
-    request.open(object.method || "GET", host);
-    request.setRequestHeader("Content-Type", "application/json");
+};
 
-    request.onload = function() {
-      if (request.status === 200) {
-        resolve(request.response);
-      } else {
-        reject(Error('Document requested did not load successfully; error code:' + request.statusText));
-      }
-    };
 
-    request.onerror = function() {
-      reject(Error('There was a network error.'));
-    };
-    request.send(JSON.stringify(object));
-  });
-}
-
-window.onload = fadeOut;
+window.onload = fadeAlert;
   
-function fadeOut() {
-    
-    var fade = document.getElementById("alert");
-    var opacity = 1;
-    var intervalID = setInterval(function() {
-
-        if (opacity > 0) {
-            opacity = opacity - 0.1
-            fade.style.opacity = opacity;
-        } else {
-            clearInterval(intervalID);
-        }
-    }, 300);
-}
-
 </script>
 
 {{- end }}

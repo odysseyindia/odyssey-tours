@@ -1,7 +1,7 @@
 ---
 title: Goa
 subtitle: Colonial Panjim, beaches
-weight: 501
+weight: '501'
 translationKey: goa
 type: itinerary
 tour: Goa
@@ -87,7 +87,7 @@ itinerary:
         title: The Bay Agonda
         content: >-
           The Bay Agonda offers the most stylish and comfortable accommodation
-          at one of Goa's most desirable beaches. The River View cottages offer
+          at one of Goa’s most desirable beaches. The River View cottages offer
           privacy and tranquil river views, while the Sea View Cottages (reached
           by a fun 2-minute journey in a small boat pulled by rope are set right
           on the beach. Rooms come with comfy beds, open-to-sky bathrooms, AC
@@ -119,6 +119,6 @@ themes:
   - Classic tours
   - Family holidays
   - Honeymoon ideas
-region: Mumbai, Goa & the Deccan
+region: /destinations/india/regions/mumbai-goa-and-the-deccan/
 ---
-The little state of Goa is one of India&rsquo;s most popular destinations, with a fun vibe, great beaches and excellent food. However, tempting as it is to just lie on the beach, there&rsquo;s more to Goa. Its colonial past under the Portuguese has given it architecture and urban design unlike anywhere else in India, and this is worth exploring too.
+The little state of Goa is one of India’s most popular destinations, with a fun vibe, great beaches and excellent food. However, tempting as it is to just lie on the beach, there’s more to Goa. Its colonial past under the Portuguese has given it architecture and urban design unlike anywhere else in India, and this is worth exploring too.

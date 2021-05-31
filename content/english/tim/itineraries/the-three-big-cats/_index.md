@@ -382,10 +382,10 @@ itinerary:
 
           Your tour ends at Mumbai, where you can either catch a connecting
           flight, or stay on an explore India some more.
-weight: 402
+weight: '402'
 themes:
   - Signature trips
   - Wildlife/Birding tours
-region: Gujarat & Central India
+region: /destinations/india/regions/gujarat-and-central-india/
 ---
 India has an extremely rich and varied wildlife. On this remarkable tour you focus on the three big cats: you search for tigers in Ranthambhore National Park, leopards in the remote areas of southern Rajasthan and Asiatic lions in the Gir National Park in Gujarat. Along the way, you will be aided and abetted by the rulers of the small princely states of Shahpura and Gondal, who run their palaces almost as home-stays. Add to this the dramatic Rann of Kutch, famous for the Indian Wild Ass, and you’ll understand why this Indian wildlife tour is bound to be a roaring success!

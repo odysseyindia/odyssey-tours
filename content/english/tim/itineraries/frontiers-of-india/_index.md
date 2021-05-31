@@ -398,8 +398,8 @@ itinerary:
         url: /destinations/india/states/meghalaya/cities/shillong/
         title: Shillong
         content: >-
-          After breakfast, you have a long drive (seven hours) to 'the abode of
-          clouds', Meghalaya, known for the rainiest spots in the world!
+          After breakfast, you have a long drive (seven hours) to ‘the abode of
+          clouds’, Meghalaya, known for the rainiest spots in the world!
 
 
           Your destination for today, Shillong, is the capital of Meghalaya.
@@ -416,10 +416,10 @@ itinerary:
         content: >-
           Tucked away on a hillside lined with pine trees, bamboo groves and
           cherry blossoms is Tripura Castle, summer retreat of the Maharajas of
-          Tripura. The first "heritage" hotel in the north-east, it was opened
-          in 2003 in the castle's annexe. There are pine-framed rooms with
+          Tripura. The first “heritage” hotel in the north-east, it was opened
+          in 2003 in the castle’s annexe. There are pine-framed rooms with
           period furniture, and a high level of service that makes Tripura
-          Castle one of Shillong's finest hotels.
+          Castle one of Shillong’s finest hotels.
         checkInDate: ''
         checkInTime: ''
         checkOutDate: ''
@@ -434,7 +434,7 @@ itinerary:
         content: >-
           The 90km drive from Shillong to Mawlynnong offers magnificent views of
           dense foliage and hidden waterfalls. Elected as the cleanest village
-          in Asia in 2005, Mawlynnong's citizens ensure that their environment
+          in Asia in 2005, Mawlynnong’s citizens ensure that their environment
           is clean and their way of living sustainable. You can visit Sky View,
           a viewing platform built in a tree, with views over forests and the
           Bangladesh plains.
@@ -442,7 +442,7 @@ itinerary:
 
           Around 15 minutes away is a gorgeous living root bridge. About 500
           years old, this bridge was formed by the twisting roots of the Indian
-          rubber tree and is used by the village's residents for their daily
+          rubber tree and is used by the village’s residents for their daily
           commute. After lunch, you drive back to Shillong.
         date: ''
         etd: ''
@@ -454,7 +454,7 @@ itinerary:
           /destinations/india/states/meghalaya/cities/shillong/excursions/half-day-city-tour-of-shillong/
         title: Morning guided tour of Shillong
         content: >-
-          The best way to enjoy Shillong's sights is on foot. With no
+          The best way to enjoy Shillong’s sights is on foot. With no
           significant monuments, the attractions here are the scenic beauty,
           parks, waterfalls and panoramic views. Places worth visiting include
           the decorative Ward Lake, and Bara Bazaar where you can see local and
@@ -463,7 +463,7 @@ itinerary:
           popular picnic sites.
 
 
-          After the morning's excursion, transfer to a lovely hotel outside
+          After the morning’s excursion, transfer to a lovely hotel outside
           town. Your afternoon is at leisure to just enjoy the hotel.
         date: ''
         etd: ''
@@ -473,7 +473,7 @@ itinerary:
         title: Ri Kynjai
         content: >-
           Ri Kynjai, a spectacular resort overlooking the picturesque Umiam Lake
-          outside Shillong, translates from Khasi as 'land of serene environs'.
+          outside Shillong, translates from Khasi as ‘land of serene environs’.
           The architecture is inspired by Khasi thatch huts, which make a
           symbolic presence as a cap on the roof of the cottages. No expense has
           been spared in creating this luxurious and authentic resort, making
@@ -492,9 +492,9 @@ itinerary:
         content: >-
           After breakfast, drive three hours to Guwahati airport to connect with
           your onward flight.
-weight: 302
+weight: '302'
 themes:
   - Off the beaten track
-region: Kolkata, Orissa & the Northeast
+region: /destinations/india/regions/kolkata-orissa-and-the-northeast/
 ---
 This is a fascinating tour to one of the lesser known and visited parts of India, the remote north-eastern states of Assam, Meghalaya and Nagaland. Visit tea plantations in the far east of Assam, explore tribal villages in northern Nagaland, meet the wonderful dancing monks of Majuli island, look for the rare one-horned rhinoceros in Kaziranga, and travel through the beautiful hills of Meghalaya.

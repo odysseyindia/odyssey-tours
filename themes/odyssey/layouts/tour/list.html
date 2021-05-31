@@ -97,7 +97,7 @@
                       <div class="h3">
                       {{ if eq .type "hotel"}}You stay at {{- end }}
                       {{- with .title }}
-                        {{ .title }}
+                        {{ . }}
                       {{ else }}
                         {{- with ($.Site.GetPage (printf "%s%s" .url "index.md")) }}
                           {{.Title}}

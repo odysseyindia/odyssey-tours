@@ -74,7 +74,7 @@ itinerary:
           Deccan.
 
 
-          Bidar is still a centre of 'Bidriware', in which beautiful flowing
+          Bidar is still a centre of ‘Bidriware’, in which beautiful flowing
           floral and arabesque patterns are inlaid and engraved on various
           objects. This technique was developed by Persian silversmiths, whose
           descendants can be seen at work in the old part of town.
@@ -408,10 +408,10 @@ highlights:
   - Carved temples as beautiful as any in India
   - Easy exploring in Chikmagalur and Mysore
 subtitle: Hyderabad, Gulbarga, Vijayapura, Badami, Hampi, Chikmagalur, Mysore, Bangalore
-weight: 503
+weight: '503'
 themes:
   - Off the beaten track
   - Signature trips
-region: Mumbai, Goa & the Deccan
+region: /destinations/india/regions/mumbai-goa-and-the-deccan/
 ---
 Kerala’s backwaters and Tamil Nadu’s temples get all the attention, but the Deccan plateau in South India has astonishing monuments and culture to offer as well. You start with Hyderabad, a royal city with a character all its own, with the huge Golconda Fort and Charminar. You carry on to the wonderful domed monuments and mosques of Gulbarga and Vijayapura, and the temples of Badami. You then find yourself in spectacular Hampi, with its ruins amid a boulder-strewn landscape, and after that in lovely, green Chikmagalur’s coffee estates, a complete contrast. Carry on via the ornately-carved temples at belur and Halebid to lovely, cosy Mysore, city of Tipu Sultan, for a relaxed end to an eye-opening trip.

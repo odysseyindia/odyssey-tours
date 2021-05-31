@@ -33,13 +33,13 @@ itinerary:
           the magnificent Jama Masjid, India’s largest mosque. In New Delhi you
           can find India Gate - a war memorial arch, the impressive Parliament
           Building and Rashtrapati Bhawan, the residence of the President.
-          Towards the South are Qutab Minar and Humayun's Tomb, both World
+          Towards the South are Qutab Minar and Humayun’s Tomb, both World
           Heritage Sites.
       - type: hotel
         url: /destinations/india/states/delhi/cities/delhi/hotels/colonels-retreat/
         title: Colonel's Retreat
         content: >-
-          Colonel's Retreat is a very pleasant and homely guest house in an
+          Colonel’s Retreat is a very pleasant and homely guest house in an
           upmarket, tree-lined neighborhood. The large rooms are comfortable and
           artistically furnished. Each floor boasts a lovely lounge area with
           comfortable sofas for relaxing, books to read and borrow, and
@@ -60,7 +60,7 @@ itinerary:
           A half-day tour to Old Delhi using the modern Metro and the
           traditional cycle rickshaw. The Metro brings you to the heart of Old
           Delhi in just a few minutes, to visit the magnificent Jama Masjid
-          mosque, India's largest. You then use walk and ride cycle rickshaws
+          mosque, India’s largest. You then use walk and ride cycle rickshaws
           through the fascinating maze of narrow streets around the main street
           of Old Delhi, Chandni Chowk, a bustling jumble of craft shops,
           traders, mosques and temples.
@@ -77,7 +77,7 @@ itinerary:
           colourful Sikh Gurdwara.
 
 
-          The rest of your day is at leisure. If you'd like to go shopping or
+          The rest of your day is at leisure. If you’d like to go shopping or
           explore a bit more after the tour, you can take the Metro to vibrant
           Connaught Place to enjoy the many restaurants and more modern shops.
         date: ''
@@ -89,7 +89,7 @@ itinerary:
         url: /destinations/india/states/uttarakhand/cities/bhimtal/
         title: Bhimtal
         content: >-
-          Today, you start bright and early, with a train and an hour's drive
+          Today, you start bright and early, with a train and an hour’s drive
           that take you to the beautiful Himalayan foothills.
 
 
@@ -106,7 +106,7 @@ itinerary:
         content: >-
           This colonial-style homestead nestles among cypress and deodar trees,
           on a peaceful wooded hillside overlooking the Bhimtal valley. This
-          peaceful, cosy haven is a birder's and butterfly-watcher's paradise,
+          peaceful, cosy haven is a birder’s and butterfly-watcher’s paradise,
           and a haven for writers seeking a retreat.
         checkInDate: ''
         checkInTime: ''
@@ -128,7 +128,7 @@ itinerary:
           route to Sattal.
 
 
-          After returning to Fredy's Bungalow for lunch, you head off in the
+          After returning to Fredy’s Bungalow for lunch, you head off in the
           late afternoon to walk around Chafi, one of the nicest birding spots
           in the hills. Look for whistling thrushes and spotted owls, among
           others.
@@ -161,7 +161,7 @@ itinerary:
           An old local house in the village of Thikalna was renovated into a
           cute, colourful stay, with views of Nanda Devi East and other
           Himalayan highlights from the cliff-edge courtyard. Though simple,
-          it's a cosy, authentic two-bedroom house, ideal for exploring the
+          it’s a cosy, authentic two-bedroom house, ideal for exploring the
           hills.
         checkInDate: ''
         checkInTime: ''
@@ -198,7 +198,7 @@ itinerary:
           18th centuries.
 
 
-          You'll have a picnic lunch after visiting the temples, and then carry
+          You’ll have a picnic lunch after visiting the temples, and then carry
           on through pleasant forests to the villages of Kotnaikana, where you
           stay the night. The entire walk today takes about five hours. You also
           have a 15-minute walk later to a sunset point near the house. You can
@@ -209,7 +209,7 @@ itinerary:
         title: Jhakersm Village House
         content: >-
           In the midst of oak, rhododendron, pine, and deodar forest is a
-          painstakingly renovated old house, now a two-bedroom homestay that's a
+          painstakingly renovated old house, now a two-bedroom homestay that’s a
           treat for nature lovers.
         checkInDate: ''
         checkInTime: ''
@@ -258,7 +258,7 @@ itinerary:
           /destinations/india/states/uttarakhand/cities/binsar/excursions/day-at-leisure-at-itmenaan-estate/
         title: Day at leisure at Itmenaan Estate
         content: >-
-          At Itmenaan Estate you may choose to just 'do nothing' - laze around
+          At Itmenaan Estate you may choose to just ‘do nothing’ - laze around
           or read a book, admire mesmerising valleys and snow-clad peaks, enjoy
           the warmth of a bonfire, gaze at the countless stars at night time or
           just gorge yourself on lovely Kumaoni thali meals. Those who are
@@ -304,9 +304,9 @@ itinerary:
         date: ''
         etd: ''
         duration: ''
-weight: 205
+weight: '205'
 themes:
   - Active outdoor trips
-region: Foothills of the Himalayas
+region: /destinations/india/regions/foothills-of-the-himalayas/
 ---
-The Kumaon Himalayas are some of India&rsquo;s prettiest hills, with rhododendron and cedar forests dotted with villages smelling of woodsmoke and inhabited by some of the friendliest people in India. On this walking trail, you will take light hikes along green slopes, visiting villages, lakes and temples, enjoying picnics, birding and great views of the snowy Himalayan peaks. You will stay in converted village houses and British-era homesteads with beautiful wood panelling and cosy sitouts. A wonderful, leisurely way of seeing a lovely part of India.
+The Kumaon Himalayas are some of India’s prettiest hills, with rhododendron and cedar forests dotted with villages smelling of woodsmoke and inhabited by some of the friendliest people in India. On this walking trail, you will take light hikes along green slopes, visiting villages, lakes and temples, enjoying picnics, birding and great views of the snowy Himalayan peaks. You will stay in converted village houses and British-era homesteads with beautiful wood panelling and cosy sitouts. A wonderful, leisurely way of seeing a lovely part of India.

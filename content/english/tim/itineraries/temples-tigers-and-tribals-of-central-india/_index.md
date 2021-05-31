@@ -34,13 +34,13 @@ itinerary:
 
           In New Delhi you can find India Gate - a war memorial arch, the
           impressive Parliament Building and Rashtrapati Bhawan, the residence
-          of the President. Towards the South are Qutab Minar and Humayun's
+          of the President. Towards the South are Qutab Minar and Humayun’s
           Tomb, both World Heritage Sites.
       - type: hotel
         url: /destinations/india/states/delhi/cities/delhi/hotels/colonels-retreat/
         title: Colonel's Retreat
         content: >-
-          Colonel's Retreat is a very pleasant and homely guest house in an
+          Colonel’s Retreat is a very pleasant and homely guest house in an
           upmarket, tree-lined neighborhood. The large rooms are comfortable and
           artistically furnished.
 
@@ -63,7 +63,7 @@ itinerary:
           A half-day tour to Old Delhi using the modern Metro and the
           traditional cycle rickshaw. The Metro brings you to the heart of Old
           Delhi in just a few minutes, to visit the magnificent Jama Masjid
-          mosque, India's largest. You then use walk and ride cycle rickshaws
+          mosque, India’s largest. You then use walk and ride cycle rickshaws
           through the fascinating maze of narrow streets around the main street
           of Old Delhi, Chandni Chowk, a bustling jumble of craft shops,
           traders, mosques and temples.
@@ -80,7 +80,7 @@ itinerary:
           colourful Sikh Gurdwara.
 
 
-          The rest of your day is at leisure. If you'd like to go shopping or
+          The rest of your day is at leisure. If you’d like to go shopping or
           explore a bit more after the tour, you can take the Metro to vibrant
           Connaught Place to enjoy the many restaurants and more modern shops.
         date: ''
@@ -106,7 +106,7 @@ itinerary:
           /destinations/india/states/madhya-pradesh/cities/orchha/hotels/amar-mahal/
         title: Amar Mahal
         content: >-
-          Built to resemble Orchha's palaces of the distinctive 'Bundela' style,
+          Built to resemble Orchha’s palaces of the distinctive ‘Bundela’ style,
           Amar Mahal is a low white building with open lawns, with comfortable
           rooms surrounding a large swimming pool. Its gardens have an
           unrestricted view of the famous royal cenotaphs and there are plenty
@@ -202,7 +202,7 @@ itinerary:
 
 
           Situated in the Vindhya Hills along the Ken River, Panna hosts lush
-          teak forest and waterfalls, and shelters one of India's most renowned
+          teak forest and waterfalls, and shelters one of India’s most renowned
           tiger reserves, along with more than 200 other animal and bird
           species. You explore the wilderness of the park by jeep with your
           guide, and look for the elusive tigers and other animals in the
@@ -315,7 +315,7 @@ itinerary:
 
           The morning park excursions begin before dawn, and take around 3
           hours. The afternoon jeep safari begins at 3pm and ends at dusk. You
-          can ask for a preferred safari zone, but it's subject to availability.
+          can ask for a preferred safari zone, but it’s subject to availability.
         date: ''
         etd: ''
         duration: ''
@@ -331,7 +331,7 @@ itinerary:
 
 
           The Maikal Hills that surround Bhoramdeo are home to many species of
-          central India's spectacular wildlife as well as to the indigenous
+          central India’s spectacular wildlife as well as to the indigenous
           Baiga and Gond tribes, whose tolas (villages) dot the countryside.
           Bhoramdeo is also known for its 11th-century temple complex, a
           miniature local Khajuraho of similar antiquity but rather more
@@ -339,8 +339,8 @@ itinerary:
 
 
           You arrive in time for a home-grown lunch, and you can either just
-          relax or saunter outside to visit the temples, a minute's walk from
-          the farm-stay. There's usually some excursion every day as well,
+          relax or saunter outside to visit the temples, a minute’s walk from
+          the farm-stay. There’s usually some excursion every day as well,
           either to a tribal market or village, or a nature walk, so please
           check with your host.
       - type: hotel
@@ -348,13 +348,13 @@ itinerary:
           /destinations/india/states/chhattisgarh/cities/bhoramdeo/hotels/bhoramdeo-jungle-retreat/
         title: Bhoramdeo Jungle Retreat
         content: >-
-          Satyendra "Sunny" Upadhyay's farm-stay is close to the famous
+          Satyendra “Sunny” Upadhyay’s farm-stay is close to the famous
           Bhoramdeo temple complex. From here, you can visit the temples, trek
           in the hills, or simply relax and enjoy the peace and delicious
           farm-grown food.
 
 
-          However, the retreat's main focus is on real interaction with the
+          However, the retreat’s main focus is on real interaction with the
           gentle tribal people who live close by, in their tolas (villages), or
           while visiting the many colourful weekly haats (tribal markets).
         checkInDate: ''
@@ -406,11 +406,11 @@ itinerary:
         content: >-
           Today, you drive three hours to Raipur airport to connect with your
           onward flight.
-weight: 404
+weight: '404'
 themes:
   - Off the beaten track
   - Signature trips
   - Wildlife/Birding tours
-region: Gujarat & Central India
+region: /destinations/india/regions/gujarat-and-central-india/
 ---
-This tour combines visits to the ancient temple cities of Orchha and Khajuraho with two outstanding wildlife sanctuaries at Bandhavgarh and Kanha. Bandhavgarh is famous for its tigers, and Kanha’s gorgeous forest also offers good chances of spotting the majestic cat. Other wildlife includes leopards, Indian bison, deer and blackbuck. You round off your journey with a visit to remote Bhoramdeo, a village beside a 11th-century temple complex, where you can get to know India&rsquo;s aboriginal tribes.
+This tour combines visits to the ancient temple cities of Orchha and Khajuraho with two outstanding wildlife sanctuaries at Bandhavgarh and Kanha. Bandhavgarh is famous for its tigers, and Kanha’s gorgeous forest also offers good chances of spotting the majestic cat. Other wildlife includes leopards, Indian bison, deer and blackbuck. You round off your journey with a visit to remote Bhoramdeo, a village beside a 11th-century temple complex, where you can get to know India’s aboriginal tribes.

@@ -35,7 +35,7 @@ itinerary:
           /destinations/india/states/west-bengal/cities/singalila/hotels/habres-nest/
         title: Habre's Nest
         content: >-
-          Right on the Indian-Nepalese border, Habre's Nest is a quaint homestay
+          Right on the Indian-Nepalese border, Habre’s Nest is a quaint homestay
           perched on the Singalila ridge at 2,900m. It is a small, intimate
           lodge with just four double rooms, and although remote, it still
           provides the amenities needed for a comfortable stay.
@@ -59,7 +59,7 @@ itinerary:
         title: Tracking the red panda and bird watching
         content: >-
           During your stay first preference is given to red panda sightings and
-          you are therefore asked to stay close to Habre's Nest. All the
+          you are therefore asked to stay close to Habre’s Nest. All the
           trackers will be out looking for the red panda during daylight with
           necessary breaks. In case of sightings, you will start your journey
           with all the necessary field support.
@@ -106,7 +106,7 @@ themes:
   - Off the beaten track
   - Active outdoor trips
   - Wildlife/Birding tours
-region: Kolkata, Orissa & the Northeast
-weight: 308
+region: /destinations/india/regions/kolkata-orissa-and-the-northeast/
+weight: '308'
 ---
 In one of India’s most hidden national parks lurks the red panda, a small, endangered bundle of cuteness. Getting on this little predator’s trail means going to Singalila National Park, not far from Darjeeling on the border of India and Nepal, and staying at a forest lodge dedicated to the habre, as the red panda is called in Nepali. This four-day extension can be added to any tour, and gives you time to track the red panda, to spot Himalayan birds, black bears, even the critically endangered pangolin, all with gorgeous views of the Eastern Himalayas.

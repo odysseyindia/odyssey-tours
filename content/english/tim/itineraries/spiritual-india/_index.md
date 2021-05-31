@@ -392,6 +392,6 @@ itinerary:
 weight: '203'
 themes:
   - Cultural journeys
-region: Foothills of the Himalayas
+region: /destinations/india/regions/foothills-of-the-himalayas/
 ---
 India is a rich tapestry of religion, from the various, colourful sects of Hinduism to Islam, Sikhism to Christianity, Buddhism, Jainism and more. On this tour, you get to visit some of the holiest places for Hindus, Sufis, Sikhs and Buddhists, all blessed with lovely architecture, incredible people and lots to learn.

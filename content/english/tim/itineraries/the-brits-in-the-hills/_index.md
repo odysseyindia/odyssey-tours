@@ -336,9 +336,9 @@ itinerary:
         date: ''
         etd: ''
         duration: ''
-weight: 201
+weight: '201'
 themes:
   - Off the beaten track
-region: Foothills of the Himalayas
+region: /destinations/india/regions/foothills-of-the-himalayas/
 ---
 The British Raj had its capitals in Calcutta and later New Delhi, but in the sweltering summers, they’d decamp with massive entourages to ‘hill stations’, which became charming little towns. Here, they set up pointy-steepled churches, narrow-gauge steam ‘toy trains’, stone cottages, and tea estates, all of which you can visit on this lovely tour of the Himalayan foothills. You’ll find Raj memorabilia everywhere, and plenty of stories, as well as delightful accommodation and amazing views.

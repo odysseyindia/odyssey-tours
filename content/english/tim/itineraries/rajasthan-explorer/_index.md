@@ -1,7 +1,7 @@
 ---
 title: Rajasthan Explorer
 subtitle: Delhi, Agra, Jaipur, Pushkar, Chandelao, Jaisalmer, Jodhpur, Narlai, Udaipur
-weight: 104
+weight: '104'
 translationKey: rajasthan-explorer
 type: itinerary
 tour: Rajasthan Explorer
@@ -542,6 +542,6 @@ highlights:
   - A camel safari and staying in the desert in Jaisalmer
 themes:
   - Classic tours
-region: Rajasthan & the North
+region: /destinations/india/regions/rajasthan-and-the-north/
 ---
 The perfect round trip of Rajasthan, covering all its major highlights. This journey starts with a visit to the Taj Mahal, and takes in some of Rajasthan’s most enchanting cities such as Jaipur and Udaipur. You have time to explore the walled desert city of Jaisalmer, and stay a night out in the desert dunes. There’s also time to relax in the laidback oasis town of Pushkar and visit the fantastic Meherangarh Fort in Jodhpur.

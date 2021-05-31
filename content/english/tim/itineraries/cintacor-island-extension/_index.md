@@ -44,7 +44,7 @@ themes:
   - Beach vacations
   - Family holidays
   - Honeymoon ideas
-region: Mumbai, Goa & the Deccan
-weight: 506
+region: /destinations/india/regions/mumbai-goa-and-the-deccan/
+weight: '506'
 ---
 An astonishing thing: a completely private island in bustling India! At this private island in the Arabian Sea, just off the coast of Karnataka, you can go on and vegetate, or take part in a whole host of activities. You’ll love the comfortable cabins, the stunning views, and most of all, the seclusion. A very different side to India, and a great end to a trip.
