@@ -1,7 +1,7 @@
 ---
 title: Full-day excursion to Hodka and other textile villages north of Bhuj
 translationKey: full-day-excursion-to-hodka-and-other-textile-villages-north-of-bhuj
-type: excursions
+type: excursion
 id: services
 duration: '08:00'
 startTime: ''

@@ -1,7 +1,7 @@
 ---
 title: Full-day exploration of Dhenkanal
 translationKey: full-day-exploration-of-dhenkanal
-type: excursions
+type: excursion
 id: services
 duration: '08:00'
 startTime: ''

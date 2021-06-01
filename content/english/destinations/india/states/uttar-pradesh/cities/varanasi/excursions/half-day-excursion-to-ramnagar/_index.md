@@ -1,7 +1,7 @@
 ---
 title: Half-day excursion to Ramnagar
 translationKey: half-day-excursion-to-ramnagar
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

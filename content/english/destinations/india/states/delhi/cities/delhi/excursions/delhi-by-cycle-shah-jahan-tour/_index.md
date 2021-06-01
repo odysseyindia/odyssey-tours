@@ -1,7 +1,7 @@
 ---
 title: Delhi by cycle (Shah Jahan Tour)
 translationKey: delhi-by-cycle-shah-jahan-tour
-type: excursions
+type: excursion
 id: services
 duration: '03:30'
 startTime: ''

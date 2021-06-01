@@ -1,7 +1,7 @@
 ---
 title: Full day excursion to Longkhum and Mopunchuket
 translationKey: full-day-excursion-to-longkhum-and-mopunchuket
-type: excursions
+type: excursion
 id: services
 duration: '06:00'
 startTime: ''

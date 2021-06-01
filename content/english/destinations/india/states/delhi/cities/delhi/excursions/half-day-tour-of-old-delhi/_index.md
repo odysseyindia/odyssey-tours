@@ -1,7 +1,7 @@
 ---
 title: Half-day tour of Old Delhi
 translationKey: half-day-tour-of-old-delhi
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

@@ -1,7 +1,7 @@
 ---
 title: Day trip from Delhi to Agra by Gatimaan Express train
 translationKey: day-trip-from-delhi-to-agra-by-gatimaan-express-train
-type: excursions
+type: excursion
 id: services
 duration: '08:00'
 startTime: ''

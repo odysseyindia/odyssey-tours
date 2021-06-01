@@ -1,7 +1,7 @@
 ---
 title: Afternoon bullock cart trip through Barli village
 translationKey: afternoon-bullock-cart-trip-through-barli-village
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: ''

@@ -1,7 +1,7 @@
 ---
 title: Day at leisure in Ramgarh
 translationKey: day-at-leisure-in-ramgarh
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

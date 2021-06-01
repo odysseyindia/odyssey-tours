@@ -1,7 +1,7 @@
 ---
 title: Half-day city tour and visit to the Marble Rocks
 translationKey: half-day-city-tour-and-visit-to-the-marble-rocks
-type: excursions
+type: excursion
 id: services
 duration: '06:00'
 startTime: ''

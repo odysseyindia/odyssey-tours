@@ -1,7 +1,7 @@
 ---
 title: Day at leisure in Shahpura
 translationKey: day-at-leisure-in-shahpura
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

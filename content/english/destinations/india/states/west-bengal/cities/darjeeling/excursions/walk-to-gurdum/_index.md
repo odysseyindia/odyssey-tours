@@ -1,7 +1,7 @@
 ---
 title: Walk to Gurdum
 translationKey: walk-to-gurdum
-type: excursions
+type: excursion
 id: services
 duration: '04:30'
 startTime: ''

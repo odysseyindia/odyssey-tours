@@ -1,7 +1,7 @@
 ---
 title: Full-day cruise to explore the Sunderbans
 translationKey: full-day-cruise-to-explore-the-sunderbans
-type: excursions
+type: excursion
 id: services
 duration: '08:00'
 startTime: ''

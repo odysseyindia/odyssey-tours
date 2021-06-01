@@ -1,7 +1,7 @@
 ---
 title: Visit to the bird sanctuary
 translationKey: visit-to-the-bird-sanctuary
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: ''

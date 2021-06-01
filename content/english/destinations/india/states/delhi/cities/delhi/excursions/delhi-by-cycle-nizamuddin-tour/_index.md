@@ -1,7 +1,7 @@
 ---
 title: Delhi by cycle (Nizamuddin tour)
 translationKey: delhi-by-cycle-nizamuddin-tour
-type: excursions
+type: excursion
 id: services
 duration: '03:30'
 startTime: ''

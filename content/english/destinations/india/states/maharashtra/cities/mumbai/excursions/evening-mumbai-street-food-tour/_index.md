@@ -1,7 +1,7 @@
 ---
 title: Evening Mumbai street food tour
 translationKey: evening-mumbai-street-food-tour
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

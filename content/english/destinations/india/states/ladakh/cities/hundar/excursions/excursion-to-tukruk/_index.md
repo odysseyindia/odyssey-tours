@@ -1,7 +1,7 @@
 ---
 title: Excursion to Tukruk
 translationKey: excursion-to-tukruk
-type: excursions
+type: excursion
 id: services
 duration: '08:00'
 startTime: ''

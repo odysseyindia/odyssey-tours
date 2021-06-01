@@ -1,7 +1,7 @@
 ---
 title: Half-day tour of Old Delhi by metro & rickshaw
 translationKey: half-day-tour-of-old-delhi-by-metro-and-rickshaw
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

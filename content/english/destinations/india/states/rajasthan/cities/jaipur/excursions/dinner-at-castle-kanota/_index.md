@@ -1,7 +1,7 @@
 ---
 title: Dinner at Castle Kanota
 translationKey: dinner-at-castle-kanota
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

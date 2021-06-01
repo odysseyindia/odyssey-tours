@@ -1,7 +1,7 @@
 ---
 title: Nature walk in Periyar Wildlife Sanctuary
 translationKey: nature-walk-in-periyar-wildlife-sanctuary
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

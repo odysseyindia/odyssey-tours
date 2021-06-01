@@ -1,7 +1,7 @@
 ---
 title: Day excursion to Belur & Halebid
 translationKey: day-excursion-to-belur-and-halebid
-type: excursions
+type: excursion
 id: services
 duration: '08:00'
 startTime: ''

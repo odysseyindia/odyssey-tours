@@ -1,7 +1,7 @@
 ---
 title: Jeep safari in Central Range
 translationKey: jeep-safari-in-central-range
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

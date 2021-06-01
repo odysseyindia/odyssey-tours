@@ -1,7 +1,7 @@
 ---
 title: Day at leisure
 translationKey: day-at-leisure
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

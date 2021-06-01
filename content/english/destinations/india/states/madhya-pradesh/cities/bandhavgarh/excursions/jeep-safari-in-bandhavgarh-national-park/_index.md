@@ -1,7 +1,7 @@
 ---
 title: Jeep safari in Bandhavgarh National Park
 translationKey: jeep-safari-in-bandhavgarh-national-park
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

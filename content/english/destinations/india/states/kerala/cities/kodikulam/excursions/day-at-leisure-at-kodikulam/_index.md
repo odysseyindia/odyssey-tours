@@ -1,7 +1,7 @@
 ---
 title: Day at leisure at Kodikulam
 translationKey: day-at-leisure-at-kodikulam
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

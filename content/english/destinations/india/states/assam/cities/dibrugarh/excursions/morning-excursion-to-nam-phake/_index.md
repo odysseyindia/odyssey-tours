@@ -1,7 +1,7 @@
 ---
 title: Morning excursion to Nam Phake
 translationKey: morning-excursion-to-nam-phake
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

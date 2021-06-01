@@ -1,7 +1,7 @@
 ---
 title: Walk to Thikalna
 translationKey: walk-to-thikalna
-type: excursions
+type: excursion
 id: services
 duration: '01:30'
 startTime: ''

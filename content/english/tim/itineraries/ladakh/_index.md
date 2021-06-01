@@ -15,7 +15,7 @@ itinerary:
     item:
       - type: transfer
         url: >-
-          /destinations/india/states/ladakh/cities/leh/excursions/transfer-from-airport-to-hotel/
+          /destinations/india/states/ladakh/cities/leh/transfers/transfer-from-airport-to-hotel/
         title: Transfer from Leh airport to your hotel
         content: >-
           After your awe-inspiring flight to Leh airport, you are met by our

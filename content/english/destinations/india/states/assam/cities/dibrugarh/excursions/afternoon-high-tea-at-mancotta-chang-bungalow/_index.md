@@ -1,7 +1,7 @@
 ---
 title: Afternoon high tea at Mancotta Chang Bungalow
 translationKey: afternoon-high-tea-at-mancotta-chang-bungalow
-type: excursions
+type: excursion
 id: services
 duration: '00:30'
 startTime: ''

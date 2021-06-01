@@ -1,7 +1,7 @@
 ---
 title: Camel cart ride to Old City Palace
 translationKey: camel-cart-ride-to-old-city-palace
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

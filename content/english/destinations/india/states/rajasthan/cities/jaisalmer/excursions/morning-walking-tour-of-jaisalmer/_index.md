@@ -1,7 +1,7 @@
 ---
 title: Morning walking tour of Jaisalmer
 translationKey: morning-walking-tour-of-jaisalmer
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

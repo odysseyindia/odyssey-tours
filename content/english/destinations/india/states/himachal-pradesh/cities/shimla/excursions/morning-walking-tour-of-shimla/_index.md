@@ -1,7 +1,7 @@
 ---
 title: Morning walking tour of Shimla
 translationKey: morning-walking-tour-of-shimla
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

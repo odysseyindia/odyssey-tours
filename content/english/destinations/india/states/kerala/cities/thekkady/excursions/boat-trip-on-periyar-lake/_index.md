@@ -1,7 +1,7 @@
 ---
 title: Boat trip on Periyar lake
 translationKey: boat-trip-on-periyar-lake
-type: excursions
+type: excursion
 id: services
 duration: '01:30'
 startTime: ''

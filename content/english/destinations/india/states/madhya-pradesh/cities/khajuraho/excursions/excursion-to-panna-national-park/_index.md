@@ -1,7 +1,7 @@
 ---
 title: Excursion to Panna National Park
 translationKey: excursion-to-panna-national-park
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

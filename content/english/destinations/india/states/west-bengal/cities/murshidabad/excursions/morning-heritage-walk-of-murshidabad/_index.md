@@ -1,7 +1,7 @@
 ---
 title: Morning heritage walk of Murshidabad
 translationKey: morning-heritage-walk-of-murshidabad
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

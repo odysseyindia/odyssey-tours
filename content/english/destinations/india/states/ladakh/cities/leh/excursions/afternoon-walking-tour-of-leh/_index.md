@@ -1,7 +1,7 @@
 ---
 title: Afternoon walking tour of Leh
 translationKey: afternoon-walking-tour-of-leh
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

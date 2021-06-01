@@ -1,7 +1,7 @@
 ---
 title: Half-day city tour of Thanjavur
 translationKey: half-day-city-tour-of-thanjavur
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

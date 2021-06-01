@@ -1,7 +1,7 @@
 ---
 title: Half-day sightseeing of Bundi
 translationKey: half-day-sightseeing-of-bundi
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

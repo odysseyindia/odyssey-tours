@@ -1,7 +1,7 @@
 ---
 title: Ox cart ride
 translationKey: ox-cart-ride
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

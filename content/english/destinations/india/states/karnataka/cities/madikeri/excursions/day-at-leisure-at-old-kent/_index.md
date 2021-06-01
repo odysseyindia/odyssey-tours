@@ -1,7 +1,7 @@
 ---
 title: Day at leisure at Old Kent
 translationKey: day-at-leisure-at-old-kent
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

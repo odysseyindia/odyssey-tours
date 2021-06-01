@@ -1,7 +1,7 @@
 ---
 title: Excursion to Fatehpur Sikri
 translationKey: excursion-to-fatehpur-sikri
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

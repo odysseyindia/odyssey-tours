@@ -1,7 +1,7 @@
 ---
 title: Full-day excursion to Sanchi & Udaigiri
 translationKey: full-day-excursion-to-sanchi-and-udaigiri
-type: excursions
+type: excursion
 id: services
 duration: '08:00'
 startTime: ''

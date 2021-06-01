@@ -1,7 +1,7 @@
 ---
 title: Afternoon village safari
 translationKey: afternoon-village-safari
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

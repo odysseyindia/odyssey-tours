@@ -1,7 +1,7 @@
 ---
 title: Walk to Sandakphu
 translationKey: walk-to-sandakphu
-type: excursions
+type: excursion
 id: services
 duration: '05:30'
 startTime: ''

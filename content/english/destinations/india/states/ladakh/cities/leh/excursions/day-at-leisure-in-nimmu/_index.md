@@ -1,7 +1,7 @@
 ---
 title: Day at leisure in Nimmu
 translationKey: day-at-leisure-in-nimmu
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

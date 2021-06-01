@@ -1,7 +1,7 @@
 ---
 title: Half-day sightseeing of Chandigarh
 translationKey: half-day-sightseeing-of-chandigarh
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

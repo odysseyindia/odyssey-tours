@@ -1,7 +1,7 @@
 ---
 title: Day at leisure in Ramathra
 translationKey: day-at-leisure-in-ramathra
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

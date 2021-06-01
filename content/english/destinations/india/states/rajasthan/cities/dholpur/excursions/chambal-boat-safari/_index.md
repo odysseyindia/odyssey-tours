@@ -1,7 +1,7 @@
 ---
 title: Chambal boat safari
 translationKey: chambal-boat-safari
-type: excursions
+type: excursion
 id: services
 duration: '01:00'
 startTime: ''

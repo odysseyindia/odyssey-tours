@@ -1,7 +1,7 @@
 ---
 title: Delhi by cycle (Yamuna Tour)
 translationKey: delhi-by-cycle-yamuna-tour
-type: excursions
+type: excursion
 id: services
 duration: '03:30'
 startTime: ''

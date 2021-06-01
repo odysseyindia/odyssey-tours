@@ -1,7 +1,7 @@
 ---
 title: Visit to the local market and the Bhanja Palace ruins
 translationKey: visit-to-the-local-market-and-the-bhanja-palace-ruins
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

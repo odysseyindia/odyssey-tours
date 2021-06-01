@@ -1,7 +1,7 @@
 ---
 title: Full-day at leisure to explore Elephant Valley
 translationKey: full-day-at-leisure-to-explore-elephant-valley
-type: excursions
+type: excursion
 id: services
 duration: '08:00'
 startTime: ''

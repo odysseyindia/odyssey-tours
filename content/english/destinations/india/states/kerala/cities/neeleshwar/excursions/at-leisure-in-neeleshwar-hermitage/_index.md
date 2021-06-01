@@ -1,7 +1,7 @@
 ---
 title: At leisure in Neeleshwar Hermitage
 translationKey: at-leisure-in-neeleshwar-hermitage
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

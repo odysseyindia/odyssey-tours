@@ -1,7 +1,7 @@
 ---
 title: Jeep safari in Sasangir National Park
 translationKey: jeep-safari-in-sasangir-national-park
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

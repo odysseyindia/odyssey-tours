@@ -1,7 +1,7 @@
 ---
 title: Full-day city tour
 translationKey: full-day-city-tour
-type: excursions
+type: excursion
 id: services
 duration: '08:00'
 startTime: ''

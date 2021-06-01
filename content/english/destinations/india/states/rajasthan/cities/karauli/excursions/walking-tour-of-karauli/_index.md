@@ -1,7 +1,7 @@
 ---
 title: Walking tour of Karauli
 translationKey: walking-tour-of-karauli
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

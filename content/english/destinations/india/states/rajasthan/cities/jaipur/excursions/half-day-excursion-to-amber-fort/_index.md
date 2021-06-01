@@ -1,7 +1,7 @@
 ---
 title: Half-day excursion to Amber Fort
 translationKey: half-day-excursion-to-amber-fort
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

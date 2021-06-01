@@ -1,7 +1,7 @@
 ---
 title: Visit Sayla's textile centers
 translationKey: visit-saylas-textile-centers
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

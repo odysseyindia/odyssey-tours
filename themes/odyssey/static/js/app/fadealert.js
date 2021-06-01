@@ -1,0 +1,14 @@
+export default function fadeAlert(message='', element=document.getElementById('alert') ) {
+    
+    element.innerText = message; 
+    var opacity = 1;
+    var intervalID = setInterval(function() {
+
+        if (opacity > 0) {
+            opacity = opacity - 0.1
+            element.style.opacity = opacity;
+        } else {
+            clearInterval(intervalID);
+        }
+    }, 300);
+}

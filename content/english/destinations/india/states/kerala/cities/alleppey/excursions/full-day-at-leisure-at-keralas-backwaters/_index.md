@@ -1,7 +1,7 @@
 ---
 title: Full-day at leisure at Kerala's backwaters
 translationKey: full-day-at-leisure-at-keralas-backwaters
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

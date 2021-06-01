@@ -1,7 +1,7 @@
 ---
 title: Safari in Nagarhole National Park
 translationKey: safari-in-nagarhole-national-park
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

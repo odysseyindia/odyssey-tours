@@ -1,7 +1,7 @@
 ---
 title: Jeep safari with naturalist in Panna National Park
 translationKey: jeep-safari-with-naturalist-in-panna-national-park
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

@@ -1,7 +1,7 @@
 ---
 title: Audio-guide tour of Jodhpur's Meherangarh Fort
 translationKey: audio-guide-tour-of-jodhpurs-meherangarh-fort
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

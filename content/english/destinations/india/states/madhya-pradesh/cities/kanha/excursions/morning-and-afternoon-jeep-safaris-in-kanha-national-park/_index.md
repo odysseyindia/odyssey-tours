@@ -1,7 +1,7 @@
 ---
 title: Morning and afternoon jeep safaris in Kanha National Park
 translationKey: morning-and-afternoon-jeep-safaris-in-kanha-national-park
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

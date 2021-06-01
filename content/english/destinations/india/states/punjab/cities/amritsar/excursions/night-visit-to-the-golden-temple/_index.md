@@ -1,7 +1,7 @@
 ---
 title: Night visit to the Golden Temple
 translationKey: night-visit-to-the-golden-temple
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: ''

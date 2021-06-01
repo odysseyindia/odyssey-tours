@@ -1,7 +1,7 @@
 ---
 title: Morning excursion to Baranagar and Cossimbazar
 translationKey: morning-excursion-to-baranagar-and-cossimbazar
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

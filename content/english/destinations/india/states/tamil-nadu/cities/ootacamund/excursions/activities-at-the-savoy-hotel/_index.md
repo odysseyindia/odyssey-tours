@@ -1,7 +1,7 @@
 ---
 title: Activities at the Savoy Hotel
 translationKey: activities-at-the-savoy-hotel
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

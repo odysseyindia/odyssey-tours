@@ -1,7 +1,7 @@
 ---
 title: Trek to Himalayan Gaddi Kingdom
 translationKey: trek-to-himalayan-gaddi-kingdom
-type: excursions
+type: excursion
 id: services
 duration: '09:00'
 startTime: ''

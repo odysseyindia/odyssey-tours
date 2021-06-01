@@ -1,7 +1,7 @@
 ---
 title: Activities at Castle Bijaipur
 translationKey: activities-at-castle-bijaipur
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

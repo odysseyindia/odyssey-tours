@@ -1,7 +1,7 @@
 ---
 title: Afternoon jeep safari in Satpura National Park
 translationKey: afternoon-jeep-safari-in-satpura-national-park
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

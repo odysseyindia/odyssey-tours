@@ -1,7 +1,7 @@
 ---
 title: Afternoon jeep safari
 translationKey: afternoon-jeep-safari
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: ''

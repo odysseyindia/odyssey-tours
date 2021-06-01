@@ -1,7 +1,7 @@
 ---
 title: Early morning yoga class
 translationKey: early-morning-yoga-class
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: ''

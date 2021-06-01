@@ -1,7 +1,7 @@
 ---
 title: Walk to Sirikhola
 translationKey: walk-to-sirikhola
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: ''

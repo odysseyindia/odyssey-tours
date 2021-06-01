@@ -1,7 +1,7 @@
 ---
 title: Watch the spectacular daily aarti ceremony at sunset
 translationKey: watch-the-spectacular-daily-aarti-ceremony-at-sunset
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: ''

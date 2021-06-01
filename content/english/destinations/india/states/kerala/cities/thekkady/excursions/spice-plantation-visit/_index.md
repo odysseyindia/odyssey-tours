@@ -1,7 +1,7 @@
 ---
 title: Spice plantation visit
 translationKey: spice-plantation-visit
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: ''

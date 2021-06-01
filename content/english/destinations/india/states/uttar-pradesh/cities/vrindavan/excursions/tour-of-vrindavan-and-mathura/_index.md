@@ -1,7 +1,7 @@
 ---
 title: Tour of Vrindavan and Mathura
 translationKey: tour-of-vrindavan-and-mathura
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

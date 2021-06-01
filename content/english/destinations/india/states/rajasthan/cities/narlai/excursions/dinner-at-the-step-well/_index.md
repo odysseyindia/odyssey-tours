@@ -1,7 +1,7 @@
 ---
 title: Dinner at the step-well
 translationKey: dinner-at-the-step-well
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

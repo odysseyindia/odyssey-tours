@@ -1,7 +1,7 @@
 ---
 title: Early morning hike to Sanga Choling Monastery
 translationKey: early-morning-hike-to-sanga-choling-monastery
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: ''

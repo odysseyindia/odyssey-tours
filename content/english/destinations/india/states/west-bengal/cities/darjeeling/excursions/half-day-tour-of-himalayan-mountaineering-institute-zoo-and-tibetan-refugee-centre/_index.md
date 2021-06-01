@@ -4,7 +4,7 @@ title: >-
   Centre
 translationKey: >-
   half-day-tour-of-himalayan-mountaineering-institute-zoo-and-tibetan-refugee-centre
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

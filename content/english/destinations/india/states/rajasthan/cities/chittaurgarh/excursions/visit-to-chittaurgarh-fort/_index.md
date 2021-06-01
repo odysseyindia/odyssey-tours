@@ -1,7 +1,7 @@
 ---
 title: Visit to Chittaurgarh Fort
 translationKey: visit-to-chittaurgarh-fort
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

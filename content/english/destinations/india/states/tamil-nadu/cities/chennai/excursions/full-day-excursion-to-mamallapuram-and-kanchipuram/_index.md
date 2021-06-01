@@ -1,7 +1,7 @@
 ---
 title: Full-day excursion to Mamallapuram and Kanchipuram
 translationKey: full-day-excursion-to-mamallapuram-and-kanchipuram
-type: excursions
+type: excursion
 id: services
 duration: '08:00'
 startTime: ''

@@ -1,7 +1,7 @@
 ---
 title: Visit to Lamayuru monastery
 translationKey: visit-to-lamayuru-monastery
-type: excursions
+type: excursion
 id: services
 duration: '01:00'
 startTime: ''

@@ -1,7 +1,7 @@
 ---
 title: Day at leisure in Santrampur
 translationKey: day-at-leisure-in-santrampur
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

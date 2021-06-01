@@ -1,7 +1,7 @@
 ---
 title: Half-day city tour of Jaipur
 translationKey: half-day-city-tour-of-jaipur
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

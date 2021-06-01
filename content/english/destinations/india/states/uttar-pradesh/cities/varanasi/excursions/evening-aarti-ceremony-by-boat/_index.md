@@ -1,7 +1,7 @@
 ---
 title: Evening aarti ceremony by boat
 translationKey: evening-aarti-ceremony-by-boat
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: ''

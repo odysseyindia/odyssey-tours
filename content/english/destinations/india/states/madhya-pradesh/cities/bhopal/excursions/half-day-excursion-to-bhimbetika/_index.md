@@ -1,7 +1,7 @@
 ---
 title: Half-day excursion to Bhimbetika
 translationKey: half-day-excursion-to-bhimbetika
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

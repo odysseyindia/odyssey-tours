@@ -1,7 +1,7 @@
 ---
 title: Early morning visit on your own to the Taj Mahal
 translationKey: early-morning-visit-on-your-own-to-the-taj-mahal
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: ''

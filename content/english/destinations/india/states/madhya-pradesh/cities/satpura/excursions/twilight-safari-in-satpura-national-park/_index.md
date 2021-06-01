@@ -1,7 +1,7 @@
 ---
 title: Twilight safari in Satpura National Park
 translationKey: twilight-safari-in-satpura-national-park
-type: excursions
+type: excursion
 id: services
 duration: '02:30'
 startTime: ''

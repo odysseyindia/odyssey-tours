@@ -1,7 +1,7 @@
 ---
 title: Early morning guided visit to the Taj
 translationKey: early-morning-guided-visit-to-the-taj
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: ''

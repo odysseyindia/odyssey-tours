@@ -1,7 +1,7 @@
 ---
 title: Exploring lakes and birding
 translationKey: exploring-lakes-and-birding
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

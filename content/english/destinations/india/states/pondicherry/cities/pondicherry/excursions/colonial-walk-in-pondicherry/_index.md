@@ -1,7 +1,7 @@
 ---
 title: Colonial walk in Pondicherry
 translationKey: colonial-walk-in-pondicherry
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: ''

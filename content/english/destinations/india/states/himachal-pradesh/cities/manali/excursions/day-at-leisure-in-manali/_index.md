@@ -1,7 +1,7 @@
 ---
 title: Day at leisure in Manali
 translationKey: day-at-leisure-in-manali
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

@@ -1,7 +1,7 @@
 ---
 title: Half-day city tour of Mumbai
 translationKey: half-day-city-tour-of-mumbai
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

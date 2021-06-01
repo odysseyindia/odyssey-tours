@@ -1,7 +1,7 @@
 ---
 title: Visit to the Sun Temple
 translationKey: visit-to-the-sun-temple
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: ''

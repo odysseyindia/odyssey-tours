@@ -1,7 +1,7 @@
 ---
 title: Half-day city tour of Hyderabad
 translationKey: half-day-city-tour-of-hyderabad
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

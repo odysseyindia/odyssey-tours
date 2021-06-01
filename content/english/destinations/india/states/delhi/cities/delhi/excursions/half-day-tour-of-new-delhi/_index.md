@@ -1,7 +1,7 @@
 ---
 title: Half-day tour of New Delhi
 translationKey: half-day-tour-of-new-delhi
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

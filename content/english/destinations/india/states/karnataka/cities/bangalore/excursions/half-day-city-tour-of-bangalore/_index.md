@@ -1,7 +1,7 @@
 ---
 title: Half-day city tour of Bangalore
 translationKey: half-day-city-tour-of-bangalore
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

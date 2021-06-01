@@ -1,7 +1,7 @@
 ---
 title: See a Bollywood movie
 translationKey: see-a-bollywood-movie
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

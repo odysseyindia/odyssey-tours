@@ -1,7 +1,7 @@
 ---
 title: Jungle trek in Nameri National Park
 translationKey: jungle-trek-in-nameri-national-park
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

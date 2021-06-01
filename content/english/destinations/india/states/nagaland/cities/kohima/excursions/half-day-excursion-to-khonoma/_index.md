@@ -1,7 +1,7 @@
 ---
 title: Half-day excursion to Khonoma
 translationKey: half-day-excursion-to-khonoma
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

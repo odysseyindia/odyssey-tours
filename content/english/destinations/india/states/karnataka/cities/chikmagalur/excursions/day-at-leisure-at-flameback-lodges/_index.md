@@ -1,7 +1,7 @@
 ---
 title: Day at leisure at Flameback Lodges
 translationKey: day-at-leisure-at-flameback-lodges
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

@@ -1,7 +1,7 @@
 ---
 title: Half-day city tour of Aurangabad
 translationKey: half-day-city-tour-of-aurangabad
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

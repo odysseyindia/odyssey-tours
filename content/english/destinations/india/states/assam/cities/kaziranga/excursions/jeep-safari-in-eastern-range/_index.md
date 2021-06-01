@@ -1,7 +1,7 @@
 ---
 title: Jeep safari in Eastern Range
 translationKey: jeep-safari-in-eastern-range
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

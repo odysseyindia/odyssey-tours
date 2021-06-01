@@ -1,7 +1,7 @@
 ---
 title: Half-day excursion to Ellora
 translationKey: half-day-excursion-to-ellora
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

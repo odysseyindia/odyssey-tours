@@ -1,7 +1,7 @@
 ---
 title: Boat trip on Chilika Lake
 translationKey: boat-trip-on-chilika-lake
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: ''

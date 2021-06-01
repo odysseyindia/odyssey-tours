@@ -1,7 +1,7 @@
 ---
 title: Half-day sightseeing of Mamallapuram
 translationKey: half-day-sightseeing-of-mamallapuram
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

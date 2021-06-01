@@ -1,7 +1,7 @@
 ---
 title: Ferry from Bali Island to Gadhkali
 translationKey: ferry-from-bali-island-to-gadhkali
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: ''

@@ -1,7 +1,7 @@
 ---
 title: Full day at leisure to explore Vanilla County
 translationKey: full-day-at-leisure-to-explore-vanilla-county
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

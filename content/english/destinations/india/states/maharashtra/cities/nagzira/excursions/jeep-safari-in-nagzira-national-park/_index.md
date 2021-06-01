@@ -1,7 +1,7 @@
 ---
 title: Jeep safari in Nagzira National Park
 translationKey: jeep-safari-in-nagzira-national-park
-type: excursions
+type: excursion
 id: services
 duration: '03:30'
 startTime: ''

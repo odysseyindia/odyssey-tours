@@ -1,7 +1,7 @@
 ---
 title: Day at leisure in Meppadi
 translationKey: day-at-leisure-in-meppadi
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

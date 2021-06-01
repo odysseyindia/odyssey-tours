@@ -1,7 +1,7 @@
 ---
 title: Day at leisure in Samode
 translationKey: day-at-leisure-in-samode
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

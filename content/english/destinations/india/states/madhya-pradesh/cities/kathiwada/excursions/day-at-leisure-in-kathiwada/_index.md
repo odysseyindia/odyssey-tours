@@ -1,7 +1,7 @@
 ---
 title: Day at leisure in Kathiwada
 translationKey: day-at-leisure-in-kathiwada
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

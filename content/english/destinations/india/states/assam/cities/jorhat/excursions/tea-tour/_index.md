@@ -1,7 +1,7 @@
 ---
 title: Tea tour
 translationKey: tea-tour
-type: excursions
+type: excursion
 id: services
 duration: '01:00'
 startTime: ''

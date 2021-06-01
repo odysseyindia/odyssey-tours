@@ -1,7 +1,7 @@
 ---
 title: Early morning Ganges aarti, boat ride and walking tour
 translationKey: early-morning-ganges-aarti-boat-ride-and-walking-tour
-type: excursions
+type: excursion
 id: services
 duration: '02:30'
 startTime: ''

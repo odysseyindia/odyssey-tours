@@ -1,7 +1,7 @@
 ---
 title: Bird watching with naturalist
 translationKey: bird-watching-with-naturalist
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

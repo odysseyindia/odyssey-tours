@@ -1,7 +1,7 @@
 ---
 title: Bundi School of Painting workshop
 translationKey: bundi-school-of-painting-workshop
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: ''

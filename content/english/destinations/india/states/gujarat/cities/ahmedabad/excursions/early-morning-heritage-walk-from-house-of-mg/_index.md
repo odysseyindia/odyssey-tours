@@ -1,7 +1,7 @@
 ---
 title: Early morning heritage walk from House of MG
 translationKey: early-morning-heritage-walk-from-house-of-mg
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: ''

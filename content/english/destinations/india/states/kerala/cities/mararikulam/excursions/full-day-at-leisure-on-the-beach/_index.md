@@ -1,7 +1,7 @@
 ---
 title: Full day at leisure on the beach
 translationKey: full-day-at-leisure-on-the-beach
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

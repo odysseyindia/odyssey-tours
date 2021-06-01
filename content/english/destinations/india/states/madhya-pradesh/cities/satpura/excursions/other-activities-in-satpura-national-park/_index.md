@@ -1,7 +1,7 @@
 ---
 title: Other activities in Satpura National Park
 translationKey: other-activities-in-satpura-national-park
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

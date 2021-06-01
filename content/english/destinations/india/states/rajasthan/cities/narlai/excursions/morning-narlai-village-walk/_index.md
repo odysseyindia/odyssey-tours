@@ -1,7 +1,7 @@
 ---
 title: Morning Narlai village walk
 translationKey: morning-narlai-village-walk
-type: excursions
+type: excursion
 id: services
 duration: '01:30'
 startTime: ''

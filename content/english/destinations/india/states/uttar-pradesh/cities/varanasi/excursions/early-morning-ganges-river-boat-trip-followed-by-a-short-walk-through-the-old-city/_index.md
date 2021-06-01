@@ -4,7 +4,7 @@ title: >-
   City
 translationKey: >-
   early-morning-ganges-river-boat-trip-followed-by-a-short-walk-through-the-old-city
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: ''

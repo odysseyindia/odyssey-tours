@@ -1,7 +1,7 @@
 ---
 title: Day at leisure in Dungarpur
 translationKey: day-at-leisure-in-dungarpur
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

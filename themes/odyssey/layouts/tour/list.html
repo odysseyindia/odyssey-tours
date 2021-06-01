@@ -106,7 +106,7 @@
                       </div>
                     </div>
 
-                  <p>{{ replace .content "\n" "</p><p>" }}</p>
+                  <p>{{ .content }}</p>
 
                   {{- if eq .type "city" }} 
                     {{- range ( where ( where $.Site.Pages "Section" "destinations") ".RelPermalink" .url ) }} 

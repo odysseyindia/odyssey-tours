@@ -1,7 +1,7 @@
 ---
 title: Morning and afternoon jeep safaris in Central and Western Range
 translationKey: morning-and-afternoon-jeep-safaris-in-central-and-western-range
-type: excursions
+type: excursion
 id: services
 duration: '06:00'
 startTime: ''

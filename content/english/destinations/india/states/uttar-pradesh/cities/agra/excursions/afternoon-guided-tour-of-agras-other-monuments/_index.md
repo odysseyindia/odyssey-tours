@@ -1,7 +1,7 @@
 ---
 title: Afternoon guided tour of Agra's other monuments
 translationKey: afternoon-guided-tour-of-agras-other-monuments
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

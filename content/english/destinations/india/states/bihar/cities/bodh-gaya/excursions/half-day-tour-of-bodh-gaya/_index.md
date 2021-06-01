@@ -1,7 +1,7 @@
 ---
 title: Half-day tour of Bodh Gaya
 translationKey: half-day-tour-of-bodh-gaya
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

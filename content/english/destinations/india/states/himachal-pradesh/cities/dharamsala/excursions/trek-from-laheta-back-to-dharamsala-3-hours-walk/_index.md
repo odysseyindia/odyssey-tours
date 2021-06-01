@@ -1,7 +1,7 @@
 ---
 title: Trek from Laheta back to Dharamsala (3 hours walk)
 translationKey: trek-from-laheta-back-to-dharamsala-3-hours-walk
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

@@ -1,7 +1,7 @@
 ---
 title: Jeep safari to villages surrounding Chandelao
 translationKey: jeep-safari-to-villages-surrounding-chandelao
-type: excursions
+type: excursion
 id: services
 duration: '03:30'
 startTime: ''

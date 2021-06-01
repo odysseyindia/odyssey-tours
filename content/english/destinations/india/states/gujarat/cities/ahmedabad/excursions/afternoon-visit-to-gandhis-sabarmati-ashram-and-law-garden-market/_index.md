@@ -1,7 +1,7 @@
 ---
 title: Afternoon visit to Gandhi's Sabarmati Ashram & Law Garden Market
 translationKey: afternoon-visit-to-gandhis-sabarmati-ashram-and-law-garden-market
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

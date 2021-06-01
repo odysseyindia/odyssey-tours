@@ -1,7 +1,7 @@
 ---
 title: Full-day city tour of Old & New Delhi
 translationKey: full-day-city-tour-of-old-and-new-delhi
-type: excursions
+type: excursion
 id: services
 duration: '08:00'
 startTime: ''

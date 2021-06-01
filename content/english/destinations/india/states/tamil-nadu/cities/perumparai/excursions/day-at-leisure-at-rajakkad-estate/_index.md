@@ -1,7 +1,7 @@
 ---
 title: Day at leisure at Rajakkad Estate
 translationKey: day-at-leisure-at-rajakkad-estate
-type: excursions
+type: excursion
 id: services
 duration: '09:00'
 startTime: ''

@@ -1,7 +1,7 @@
 ---
 title: Morning walking tour of Jaipur
 translationKey: morning-walking-tour-of-jaipur
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

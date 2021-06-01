@@ -1,7 +1,7 @@
 ---
 title: Private jeep safari in Bandhavgarh N.P.
 translationKey: private-jeep-safari-in-bandhavgarh-np
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

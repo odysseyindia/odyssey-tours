@@ -1,7 +1,7 @@
 ---
 title: Morning rural ramble with picnic
 translationKey: morning-rural-ramble-with-picnic
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

@@ -1,7 +1,7 @@
 ---
 title: Walk back to Rimbik
 translationKey: walk-back-to-rimbik
-type: excursions
+type: excursion
 id: services
 duration: '06:30'
 startTime: ''

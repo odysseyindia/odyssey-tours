@@ -1,7 +1,7 @@
 ---
 title: Mumbai heritage walk
 translationKey: mumbai-heritage-walk
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: ''

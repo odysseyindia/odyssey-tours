@@ -1,7 +1,7 @@
 ---
 title: Visit Bhimbetka enroute to Satpura
 translationKey: visit-bhimbetka-enroute-to-satpura
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: ''

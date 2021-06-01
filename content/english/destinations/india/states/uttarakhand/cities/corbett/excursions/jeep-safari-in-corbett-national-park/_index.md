@@ -1,7 +1,7 @@
 ---
 title: Jeep safari in Corbett National Park
 translationKey: jeep-safari-in-corbett-national-park
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

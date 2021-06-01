@@ -1,7 +1,7 @@
 ---
 title: Visit Chilika lake enroute to Bhubaneswar
 translationKey: visit-chilika-lake-enroute-to-bhubaneswar
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: ''

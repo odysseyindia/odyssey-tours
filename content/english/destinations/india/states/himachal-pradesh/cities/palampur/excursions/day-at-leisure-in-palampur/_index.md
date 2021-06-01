@@ -1,7 +1,7 @@
 ---
 title: Day at leisure in Palampur
 translationKey: day-at-leisure-in-palampur
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

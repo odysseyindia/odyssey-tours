@@ -1,7 +1,7 @@
 ---
 title: Half-day tour of Orchha
 translationKey: half-day-tour-of-orchha
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

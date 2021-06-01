@@ -1,7 +1,7 @@
 ---
 title: Tracking the Red Panda and bird-watching
 translationKey: tracking-the-red-panda-and-bird-watching
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

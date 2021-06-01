@@ -13,7 +13,10 @@
 {{- range .Sections }}
 {{- range .Sections }}
 {{ if in .RelPermalink "excursions" }}
-<h5><a href="{{ .RelPermalink }}">{{ .Title }}</a></h5>
+{{ $index := in .Content "   " }} 
+{{ if $index }}
+<h5><a href="{{ .RelPermalink }}">{{ $index }} {{ .Title }}</a></h5>
+{{ end }}
 {{- end }}
 {{- end }}
 {{- end }}

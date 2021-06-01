@@ -1,7 +1,7 @@
 ---
 title: Trek to the living root bridges
 translationKey: trek-to-the-living-root-bridges
-type: excursions
+type: excursion
 id: services
 duration: '05:00'
 startTime: ''

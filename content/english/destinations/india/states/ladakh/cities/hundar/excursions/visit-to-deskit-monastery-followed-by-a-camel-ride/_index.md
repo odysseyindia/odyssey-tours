@@ -1,7 +1,7 @@
 ---
 title: Visit to Deskit monastery followed by a camel ride
 translationKey: visit-to-deskit-monastery-followed-by-a-camel-ride
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

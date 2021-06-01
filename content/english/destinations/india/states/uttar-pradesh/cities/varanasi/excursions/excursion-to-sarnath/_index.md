@@ -1,7 +1,7 @@
 ---
 title: Excursion to Sarnath
 translationKey: excursion-to-sarnath
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

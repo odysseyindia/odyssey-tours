@@ -1,7 +1,7 @@
 ---
 title: Day at leisure at the Belgadia Palace
 translationKey: day-at-leisure-at-the-belgadia-palace
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

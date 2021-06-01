@@ -1,7 +1,7 @@
 ---
 title: Half-day city tour
 translationKey: half-day-city-tour
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

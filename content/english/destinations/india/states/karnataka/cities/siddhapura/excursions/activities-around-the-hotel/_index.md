@@ -1,7 +1,7 @@
 ---
 title: Activities around the hotel
 translationKey: activities-around-the-hotel
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

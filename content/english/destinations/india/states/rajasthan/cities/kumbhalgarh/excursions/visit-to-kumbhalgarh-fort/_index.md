@@ -1,7 +1,7 @@
 ---
 title: Visit to Kumbhalgarh Fort
 translationKey: visit-to-kumbhalgarh-fort
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: ''

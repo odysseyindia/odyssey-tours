@@ -1,7 +1,7 @@
 ---
 title: Village and leopard safari by Jeep
 translationKey: village-and-leopard-safari-by-jeep
-type: excursions
+type: excursion
 id: services
 duration: '03:30'
 startTime: ''

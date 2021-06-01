@@ -1,7 +1,7 @@
 ---
 title: Day at leisure in Hampi
 translationKey: day-at-leisure-in-hampi
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

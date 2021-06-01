@@ -1,7 +1,7 @@
 ---
 title: Evening Feni and Tapas Food Trail
 translationKey: evening-feni-and-tapas-food-trail
-type: excursions
+type: excursion
 id: services
 duration: '03:30'
 startTime: ''

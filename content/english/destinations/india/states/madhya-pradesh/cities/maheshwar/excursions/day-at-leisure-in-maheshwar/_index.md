@@ -1,7 +1,7 @@
 ---
 title: Day at leisure in Maheshwar
 translationKey: day-at-leisure-in-maheshwar
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

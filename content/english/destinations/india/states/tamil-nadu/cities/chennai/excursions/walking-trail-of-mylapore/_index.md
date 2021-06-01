@@ -1,7 +1,7 @@
 ---
 title: Walking trail of Mylapore
 translationKey: walking-trail-of-mylapore
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

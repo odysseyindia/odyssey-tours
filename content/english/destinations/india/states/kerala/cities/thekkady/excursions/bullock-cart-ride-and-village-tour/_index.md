@@ -1,7 +1,7 @@
 ---
 title: Bullock cart ride and village tour
 translationKey: bullock-cart-ride-and-village-tour
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: ''

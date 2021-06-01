@@ -1,0 +1,38 @@
+{
+  {{- range $i, $e :=  .Parent.Data.Pages }} 
+  {{- if eq $e.Params.translationKey $.Params.translationKey}}  
+  "this":           "hotel/list.json.json",
+  "title":          "{{ .Title }}",
+  "date":           "{{ .Date }}",
+  "permalink":      "{{ .RelPermalink }}",
+  "content":        "{{ replace (trim (.Content | plainify ) "\n") "\n" "linebreak" }}",
+  "draft":          "{{ .Params.draft }}",
+  "bookThrough":    "{{ .Params.bookThrough }}",
+  "mailTo":         "{{ .Params.mailTo}}",
+  "address":        "{{ .Params.address }}",
+  "city":           "{{ .Params.city }}",
+  "postalcode":     "{{ .Params.postalcode }}",
+  "phone":          "{{ .Params.phone }}",
+  "mobile":         "{{ .Params.mobile }}",
+  "email":          "{{ .Params.email }}",
+  "wwww":           "{{ .Params.wwww }}",
+  "note":           "{{ .Params.note }}",
+  "showHotel":      "{{ .Params.showHotel }}",
+  "starCategory":   "{{ .Params.starCategory }}",
+  "checkout":       "{{ .Params.checkout }}",
+  "accessRail":     "{{ .Params.accessRail }}",
+  "accessAir":      "{{ .Params.accessAir }}",
+  "accessBus":      "{{ .Params.accessBus }}",
+  "advantage":      "{{ .Params.advantage }}",
+  "rooms":          "{{ .Params.rooms }}",
+  "gstType":        "{{ .Params.gstType }}",
+  "gstin":          "{{ .Params.gstin }}",
+  "web":            "{{ .Params.web }}",
+  "category":       "{{ .Params.category }}",
+  "ranking":        "{{ .Params.ranking }}",
+  "translationKey": "{{ .Params.translationKey }}",
+  "image":          "{{- range $i,$e := (.Resources.ByType "image") }}{{- if eq $i 0 }}{{ . }}{{- end }}{{- end }}"
+  {{- end }}
+  {{- end }}
+}
+

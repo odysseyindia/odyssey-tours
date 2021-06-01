@@ -1,7 +1,7 @@
 ---
 title: Kangra-Palampur toy train
 translationKey: kangra-palampur-toy-train
-type: excursions
+type: excursion
 id: services
 duration: '01:11'
 startTime: ''

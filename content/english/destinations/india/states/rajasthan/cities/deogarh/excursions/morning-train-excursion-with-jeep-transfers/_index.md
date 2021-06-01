@@ -1,7 +1,7 @@
 ---
 title: Morning train excursion with jeep transfers
 translationKey: morning-train-excursion-with-jeep-transfers
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

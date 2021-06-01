@@ -1,7 +1,7 @@
 ---
 title: Morning and afternoon jeep safaris in Sasangir National Park
 translationKey: morning-and-afternoon-jeep-safaris-in-sasangir-national-park
-type: excursions
+type: excursion
 id: services
 duration: '06:00'
 startTime: ''

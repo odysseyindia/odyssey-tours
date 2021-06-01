@@ -1,7 +1,7 @@
 ---
 title: Excursion to Raghurajpur
 translationKey: excursion-to-raghurajpur
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

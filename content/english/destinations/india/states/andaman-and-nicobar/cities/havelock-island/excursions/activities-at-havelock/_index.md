@@ -1,7 +1,7 @@
 ---
 title: Activities at Havelock
 translationKey: activities-at-havelock
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

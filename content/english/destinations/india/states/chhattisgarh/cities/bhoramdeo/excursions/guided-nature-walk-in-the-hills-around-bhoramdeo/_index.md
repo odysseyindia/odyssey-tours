@@ -1,7 +1,7 @@
 ---
 title: Guided nature walk in the hills around Bhoramdeo
 translationKey: guided-nature-walk-in-the-hills-around-bhoramdeo
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

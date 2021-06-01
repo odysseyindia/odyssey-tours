@@ -1,7 +1,7 @@
 ---
 title: Half-day city tour of Panjim and the Churches of Old Goa
 translationKey: half-day-city-tour-of-panjim-and-the-churches-of-old-goa
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

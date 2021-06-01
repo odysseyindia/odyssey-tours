@@ -1,7 +1,7 @@
 ---
 title: Excursion to Pipar bazaar
 translationKey: excursion-to-pipar-bazaar
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

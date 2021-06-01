@@ -1,7 +1,7 @@
 ---
 title: Morning city tour of Udaipur
 translationKey: morning-city-tour-of-udaipur
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

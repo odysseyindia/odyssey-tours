@@ -1,7 +1,7 @@
 ---
 title: White-water rafting trip in Nameri
 translationKey: white-water-rafting-trip-in-nameri
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

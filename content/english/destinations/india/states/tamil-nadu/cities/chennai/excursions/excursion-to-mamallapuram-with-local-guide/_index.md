@@ -1,7 +1,7 @@
 ---
 title: Excursion to Mamallapuram (with local guide)
 translationKey: excursion-to-mamallapuram-with-local-guide
-type: excursions
+type: excursion
 id: services
 duration: '06:00'
 startTime: ''

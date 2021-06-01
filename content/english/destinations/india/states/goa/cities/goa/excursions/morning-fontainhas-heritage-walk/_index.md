@@ -1,7 +1,7 @@
 ---
 title: Morning Fontainhas Heritage Walk
 translationKey: morning-fontainhas-heritage-walk
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: ''

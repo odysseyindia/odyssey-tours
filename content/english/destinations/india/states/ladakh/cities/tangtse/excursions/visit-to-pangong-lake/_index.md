@@ -1,7 +1,7 @@
 ---
 title: Visit to Pangong Lake
 translationKey: visit-to-pangong-lake
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

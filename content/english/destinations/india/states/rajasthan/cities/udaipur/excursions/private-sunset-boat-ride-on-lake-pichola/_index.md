@@ -1,7 +1,7 @@
 ---
 title: Private sunset boat ride on Lake Pichola
 translationKey: private-sunset-boat-ride-on-lake-pichola
-type: excursions
+type: excursion
 id: services
 duration: '01:00'
 startTime: ''

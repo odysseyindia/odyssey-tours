@@ -1,7 +1,7 @@
 ---
 title: Afternoon camel ride to villages near Mandawa
 translationKey: afternoon-camel-ride-to-villages-near-mandawa
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: '30:00.0'

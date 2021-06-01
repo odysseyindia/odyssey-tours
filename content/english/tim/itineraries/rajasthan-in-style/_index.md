@@ -10,7 +10,7 @@ itinerary:
     item:
       - type: transfer
         url: >-
-          /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-international-airport-to-hotel/
+          /destinations/india/states/delhi/cities/delhi/transfers/transfer-from-international-airport-to-hotel/
         title: Transfer from Delhi's international airport to your hotel
         content: >-
           You start your tour on arrival in Delhi, where you will be met by our
@@ -427,7 +427,7 @@ itinerary:
     item:
       - type: transfer
         url: >-
-          /destinations/india/states/rajasthan/cities/udaipur/excursions/transfer-from-hotel-to-airport/
+          /destinations/india/states/rajasthan/cities/udaipur/transfers/transfer-from-hotel-to-airport/
         title: Transfer from your hotel to the airport
         content: >-
           Today, you have a departure transfer in Udaipur to the airport, to

@@ -1,7 +1,7 @@
 ---
 title: Private jeep safari in Ranthambhore National Park
 translationKey: private-jeep-safari-in-ranthambhore-national-park
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

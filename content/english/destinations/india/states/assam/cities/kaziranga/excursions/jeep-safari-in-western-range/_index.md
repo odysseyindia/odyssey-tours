@@ -1,7 +1,7 @@
 ---
 title: Jeep safari in Western Range
 translationKey: jeep-safari-in-western-range
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

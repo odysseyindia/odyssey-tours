@@ -1,7 +1,7 @@
 ---
 title: Visit Konarak enroute to Puri
 translationKey: visit-konarak-enroute-to-puri
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: ''

@@ -1,7 +1,7 @@
 ---
 title: Afternoon excursion to the Thar desert
 translationKey: afternoon-excursion-to-the-thar-desert
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: '00:00.0'

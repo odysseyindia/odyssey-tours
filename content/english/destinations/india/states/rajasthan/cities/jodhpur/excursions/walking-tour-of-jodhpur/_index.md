@@ -1,7 +1,7 @@
 ---
 title: Walking tour of Jodhpur
 translationKey: walking-tour-of-jodhpur
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: ''

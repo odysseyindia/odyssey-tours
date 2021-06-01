@@ -1,7 +1,7 @@
 ---
 title: Early morning heritage walk
 translationKey: early-morning-heritage-walk
-type: excursions
+type: excursion
 id: services
 duration: '02:45'
 startTime: ''

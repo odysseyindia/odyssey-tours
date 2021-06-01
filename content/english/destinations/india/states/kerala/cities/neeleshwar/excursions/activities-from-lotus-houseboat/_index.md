@@ -1,7 +1,7 @@
 ---
 title: Activities from Lotus Houseboat
 translationKey: activities-from-lotus-houseboat
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

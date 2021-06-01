@@ -1,7 +1,7 @@
 ---
 title: Walking tour of Mandawa
 translationKey: walking-tour-of-mandawa
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

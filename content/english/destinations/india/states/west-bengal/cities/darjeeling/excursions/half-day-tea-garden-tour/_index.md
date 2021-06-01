@@ -1,7 +1,7 @@
 ---
 title: Half-day Tea Garden tour
 translationKey: half-day-tea-garden-tour
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

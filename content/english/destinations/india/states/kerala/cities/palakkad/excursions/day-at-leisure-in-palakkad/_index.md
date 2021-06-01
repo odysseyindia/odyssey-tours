@@ -1,7 +1,7 @@
 ---
 title: Day at leisure in Palakkad
 translationKey: day-at-leisure-in-palakkad
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

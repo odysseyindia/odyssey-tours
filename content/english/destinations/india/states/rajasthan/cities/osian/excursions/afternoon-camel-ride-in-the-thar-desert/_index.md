@@ -1,7 +1,7 @@
 ---
 title: Afternoon camel ride in the Thar desert
 translationKey: afternoon-camel-ride-in-the-thar-desert
-type: excursions
+type: excursion
 id: services
 duration: '01:30'
 startTime: ''

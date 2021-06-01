@@ -1,0 +1,21 @@
+{
+  {{- range $i, $e :=  .Parent.Data.Pages }} 
+  {{- if eq $e.Params.translationKey $.Params.translationKey}}  
+  "this":           "excursion/list.json.json",
+  "title":          "{{ .Title }}",
+  "date":           "{{ .Date }}",
+  "permalink":      "{{ .RelPermalink }}",
+  "content":        "{{ replace (trim (.Content | plainify ) "\n") "\n" "linebreak" }}",
+  "draft":          "{{ .Params.draft }}",
+  "duration":       "{{ .Params.duration }}",
+  "startTime":      "{{ .Params.startTime}}",
+  "daysOfOperation":"{{ .Params.daysOfOperation }}",
+  "vehicle":        "{{ .Params.vehicle }}",
+  "guide":          "{{ .Params.guide }}",
+  "dayAtLeisure":   "{{ .Params.dayAtLeisure }}",
+  "active":         "{{ .Params.active }}",
+  "translationKey": "{{ .Params.translationKey }}",
+  "image":          "{{- range $i,$e := (.Resources.ByType "image") }}{{- if eq $i 0 }}{{ . }}{{- end }}{{- end }}"
+  {{- end }}
+  {{- end }}
+}

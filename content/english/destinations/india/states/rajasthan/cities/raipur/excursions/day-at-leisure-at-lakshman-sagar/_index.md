@@ -1,7 +1,7 @@
 ---
 title: Day at leisure at Lakshman Sagar
 translationKey: day-at-leisure-at-lakshman-sagar
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

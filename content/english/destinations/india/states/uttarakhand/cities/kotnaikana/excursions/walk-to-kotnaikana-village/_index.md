@@ -1,7 +1,7 @@
 ---
 title: Walk to Kotnaikana village
 translationKey: walk-to-kotnaikana-village
-type: excursions
+type: excursion
 id: services
 duration: '05:00'
 startTime: ''

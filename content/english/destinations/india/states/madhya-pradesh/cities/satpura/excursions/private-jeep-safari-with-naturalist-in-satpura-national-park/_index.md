@@ -1,7 +1,7 @@
 ---
 title: Private jeep safari with naturalist in Satpura National Park
 translationKey: private-jeep-safari-with-naturalist-in-satpura-national-park
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

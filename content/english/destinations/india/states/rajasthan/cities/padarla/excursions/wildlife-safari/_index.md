@@ -1,7 +1,7 @@
 ---
 title: Wildlife safari
 translationKey: wildlife-safari
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

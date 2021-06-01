@@ -1,7 +1,7 @@
 ---
 title: Visit Hundar & Deskit and ride a Bactrian camel
 translationKey: visit-hundar-and-deskit-and-ride-a-bactrian-camel
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

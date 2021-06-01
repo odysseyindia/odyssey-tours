@@ -1,7 +1,7 @@
 ---
 title: Chambal jeep safari
 translationKey: chambal-jeep-safari
-type: excursions
+type: excursion
 id: services
 duration: '05:00'
 startTime: ''

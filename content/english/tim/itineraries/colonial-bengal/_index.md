@@ -16,7 +16,7 @@ itinerary:
     item:
       - type: transfer
         url: >-
-          /destinations/india/states/west-bengal/cities/kolkata/excursions/transfer-from-airport-to-rajbari-bawali/
+          /destinations/india/states/west-bengal/cities/kolkata/transfers/transfer-from-airport-to-rajbari-bawali/
         title: Transfer from Kolkata's international airport to your hotel
         content: >-
           Your tour starts on arrival at Kolkata airport, where you are met by
@@ -255,7 +255,7 @@ itinerary:
     item:
       - type: transfer
         url: >-
-          /destinations/india/states/west-bengal/cities/kolkata/excursions/transfer-from-hotel-to-airport/
+          /destinations/india/states/west-bengal/cities/kolkata/transfers/transfer-from-hotel-to-airport/
         title: Transfer from your hotel to the airport
         content: >-
           Today, you have a departure transfer to Kolkata airport to board your

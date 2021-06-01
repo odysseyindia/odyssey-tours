@@ -1,7 +1,7 @@
 ---
 title: Explore Pushkar on your own
 translationKey: explore-pushkar-on-your-own
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

@@ -1,7 +1,7 @@
 ---
 title: A day at leisure in Rajbari Bawali
 translationKey: a-day-at-leisure-in-rajbari-bawali
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

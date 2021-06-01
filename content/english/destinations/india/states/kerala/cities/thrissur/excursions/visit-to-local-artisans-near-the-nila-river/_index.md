@@ -1,7 +1,7 @@
 ---
 title: Visit to local artisans near the Nila river
 translationKey: visit-to-local-artisans-near-the-nila-river
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

@@ -1,7 +1,7 @@
 ---
 title: Drive into Singalila National Park by Land Rover
 translationKey: drive-into-singalila-national-park-by-land-rover
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: ''

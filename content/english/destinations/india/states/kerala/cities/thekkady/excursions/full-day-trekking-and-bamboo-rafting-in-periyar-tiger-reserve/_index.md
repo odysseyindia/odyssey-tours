@@ -1,7 +1,7 @@
 ---
 title: Full-day trekking and bamboo rafting in Periyar Tiger Reserve
 translationKey: full-day-trekking-and-bamboo-rafting-in-periyar-tiger-reserve
-type: excursions
+type: excursion
 id: services
 duration: '09:00'
 startTime: ''

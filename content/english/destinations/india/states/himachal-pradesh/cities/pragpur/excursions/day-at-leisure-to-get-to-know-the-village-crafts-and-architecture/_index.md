@@ -1,7 +1,7 @@
 ---
 title: Day at leisure to get to know the village crafts and architecture
 translationKey: day-at-leisure-to-get-to-know-the-village-crafts-and-architecture
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

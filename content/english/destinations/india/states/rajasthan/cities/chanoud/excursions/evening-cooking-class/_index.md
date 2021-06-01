@@ -1,7 +1,7 @@
 ---
 title: Evening cooking class
 translationKey: evening-cooking-class
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: ''

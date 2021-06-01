@@ -1,7 +1,7 @@
 ---
 title: Game ride by canter in Ranthambhore National Park
 translationKey: game-ride-by-canter-in-ranthambhore-national-park
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

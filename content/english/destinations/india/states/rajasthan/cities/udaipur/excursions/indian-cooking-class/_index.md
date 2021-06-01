@@ -1,7 +1,7 @@
 ---
 title: Indian cooking class
 translationKey: indian-cooking-class
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

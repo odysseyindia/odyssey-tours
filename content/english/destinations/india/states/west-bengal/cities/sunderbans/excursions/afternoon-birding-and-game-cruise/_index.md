@@ -1,7 +1,7 @@
 ---
 title: Afternoon birding and game cruise
 translationKey: afternoon-birding-and-game-cruise
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: ''

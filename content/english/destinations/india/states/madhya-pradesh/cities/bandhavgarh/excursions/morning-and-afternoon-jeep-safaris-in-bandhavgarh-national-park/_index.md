@@ -1,7 +1,7 @@
 ---
 title: Morning and afternoon jeep safaris in Bandhavgarh National Park
 translationKey: morning-and-afternoon-jeep-safaris-in-bandhavgarh-national-park
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

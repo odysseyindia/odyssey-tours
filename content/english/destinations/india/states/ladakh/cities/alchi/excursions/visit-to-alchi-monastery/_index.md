@@ -1,7 +1,7 @@
 ---
 title: Visit to Alchi Monastery
 translationKey: visit-to-alchi-monastery
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: ''

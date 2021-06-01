@@ -1,7 +1,7 @@
 ---
 title: Cycling tour of Pondicherry
 translationKey: cycling-tour-of-pondicherry
-type: excursions
+type: excursion
 id: services
 duration: '01:30'
 startTime: ''

@@ -1,7 +1,7 @@
 ---
 title: Early morning trip to Tiger Hill & Ghoom Monastery
 translationKey: early-morning-trip-to-tiger-hill-and-ghoom-monastery
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: '00:00.0'

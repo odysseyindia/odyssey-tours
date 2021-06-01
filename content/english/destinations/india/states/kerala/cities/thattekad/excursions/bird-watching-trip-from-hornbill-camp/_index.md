@@ -1,7 +1,7 @@
 ---
 title: Bird-watching trip from Hornbill Camp
 translationKey: bird-watching-trip-from-hornbill-camp
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

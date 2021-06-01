@@ -1,7 +1,7 @@
 ---
 title: Day at leisure at Hornbill Camp for walking, cycling & kayaking
 translationKey: day-at-leisure-at-hornbill-camp-for-walking-cycling-and-kayaking
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

@@ -1,7 +1,7 @@
 ---
 title: Bollywood dance workshop
 translationKey: bollywood-dance-workshop
-type: excursions
+type: excursion
 id: services
 duration: '01:00'
 startTime: ''

@@ -1,7 +1,7 @@
 ---
 title: Visit to Themisgaam gompa
 translationKey: visit-to-themisgaam-gompa
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: ''

@@ -1,7 +1,7 @@
 ---
 title: Excursion to Elephantastic
 translationKey: excursion-to-elephantastic
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

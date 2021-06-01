@@ -1,7 +1,7 @@
 ---
 title: Early morning private cycle tour of Jaipur
 translationKey: early-morning-private-cycle-tour-of-jaipur
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

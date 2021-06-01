@@ -1,7 +1,7 @@
 ---
 title: Day at leisure at Pepper Trail
 translationKey: day-at-leisure-at-pepper-trail
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

@@ -1,7 +1,7 @@
 ---
 title: Dharavi slum tour
 translationKey: dharavi-slum-tour
-type: excursions
+type: excursion
 id: services
 duration: '04:30'
 startTime: ''

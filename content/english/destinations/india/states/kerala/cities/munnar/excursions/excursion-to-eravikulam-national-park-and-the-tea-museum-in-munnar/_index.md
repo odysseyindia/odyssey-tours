@@ -1,7 +1,7 @@
 ---
 title: Excursion to Eravikulam National Park and the Tea Museum in Munnar
 translationKey: excursion-to-eravikulam-national-park-and-the-tea-museum-in-munnar
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

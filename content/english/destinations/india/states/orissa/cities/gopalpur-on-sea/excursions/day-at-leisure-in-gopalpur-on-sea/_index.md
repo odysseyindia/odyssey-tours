@@ -1,7 +1,7 @@
 ---
 title: Day at leisure in Gopalpur-on-Sea
 translationKey: day-at-leisure-in-gopalpur-on-sea
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

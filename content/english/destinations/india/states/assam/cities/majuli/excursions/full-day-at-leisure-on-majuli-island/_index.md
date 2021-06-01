@@ -1,7 +1,7 @@
 ---
 title: Full day at leisure on Majuli island
 translationKey: full-day-at-leisure-on-majuli-island
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

@@ -1,7 +1,7 @@
 ---
 title: Activities at SwaSwara
 translationKey: activities-at-swaswara
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

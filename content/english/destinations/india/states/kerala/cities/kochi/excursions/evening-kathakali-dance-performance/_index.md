@@ -1,7 +1,7 @@
 ---
 title: Evening Kathakali dance performance
 translationKey: evening-kathakali-dance-performance
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: ''

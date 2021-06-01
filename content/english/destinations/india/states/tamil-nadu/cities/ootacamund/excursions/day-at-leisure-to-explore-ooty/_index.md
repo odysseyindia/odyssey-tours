@@ -1,7 +1,7 @@
 ---
 title: Day at leisure to explore Ooty
 translationKey: day-at-leisure-to-explore-ooty
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

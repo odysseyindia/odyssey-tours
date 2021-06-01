@@ -1,7 +1,7 @@
 ---
 title: Canter safari to Dhikala
 translationKey: canter-safari-to-dhikala
-type: excursions
+type: excursion
 id: services
 duration: '06:00'
 startTime: ''

@@ -1,7 +1,7 @@
 ---
 title: Afternoon visit to one of Majuli's unique monasteries
 translationKey: afternoon-visit-to-one-of-majulis-unique-monasteries
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

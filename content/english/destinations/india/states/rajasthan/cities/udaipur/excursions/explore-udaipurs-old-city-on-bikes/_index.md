@@ -1,7 +1,7 @@
 ---
 title: Explore Udaipur's old city on bikes
 translationKey: explore-udaipurs-old-city-on-bikes
-type: excursions
+type: excursion
 id: services
 duration: '02:30'
 startTime: ''

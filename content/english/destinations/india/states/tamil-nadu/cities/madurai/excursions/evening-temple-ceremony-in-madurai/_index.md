@@ -1,7 +1,7 @@
 ---
 title: Evening temple ceremony in Madurai
 translationKey: evening-temple-ceremony-in-madurai
-type: excursions
+type: excursion
 id: services
 duration: '01:30'
 startTime: ''

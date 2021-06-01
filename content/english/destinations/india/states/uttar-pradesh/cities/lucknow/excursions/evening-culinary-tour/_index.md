@@ -1,7 +1,7 @@
 ---
 title: Evening culinary tour
 translationKey: evening-culinary-tour
-type: excursions
+type: excursion
 id: services
 duration: '02:30'
 startTime: ''

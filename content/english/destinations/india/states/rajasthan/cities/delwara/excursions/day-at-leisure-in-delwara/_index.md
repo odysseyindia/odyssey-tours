@@ -1,7 +1,7 @@
 ---
 title: Day at leisure in Delwara
 translationKey: day-at-leisure-in-delwara
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

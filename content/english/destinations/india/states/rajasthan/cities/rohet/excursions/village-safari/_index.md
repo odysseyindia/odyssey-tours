@@ -1,7 +1,7 @@
 ---
 title: Village safari
 translationKey: village-safari
-type: excursions
+type: excursion
 id: services
 duration: '03:30'
 startTime: ''

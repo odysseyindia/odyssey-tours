@@ -1,7 +1,7 @@
 ---
 title: Afternoon jeep safari (Rural Ramble)
 translationKey: afternoon-jeep-safari-rural-ramble
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

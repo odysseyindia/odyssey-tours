@@ -1,7 +1,7 @@
 ---
 title: Guided visit to local tribal villages
 translationKey: guided-visit-to-local-tribal-villages
-type: excursions
+type: excursion
 id: services
 duration: '08:00'
 startTime: ''

@@ -1,7 +1,7 @@
 ---
 title: Visit to the Taj Mahal & Red Fort
 translationKey: visit-to-the-taj-mahal-and-red-fort
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

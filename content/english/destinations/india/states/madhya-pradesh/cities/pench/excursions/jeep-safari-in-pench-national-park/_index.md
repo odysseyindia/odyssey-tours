@@ -1,7 +1,7 @@
 ---
 title: Jeep safari in Pench National Park
 translationKey: jeep-safari-in-pench-national-park
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

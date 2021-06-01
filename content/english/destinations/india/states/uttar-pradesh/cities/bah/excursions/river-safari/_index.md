@@ -1,7 +1,7 @@
 ---
 title: River safari
 translationKey: river-safari
-type: excursions
+type: excursion
 id: services
 duration: '03:30'
 startTime: ''

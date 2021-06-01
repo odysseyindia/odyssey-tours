@@ -36,7 +36,7 @@
   }
 
   label {
-    display: flex;
+    display: flex; 
     align-items: center;
     height: 1.8rem;
   }
@@ -259,6 +259,7 @@
 
   .search-label {
     width: 20%;
+    display: none;
   }
 
   .to-do-column {

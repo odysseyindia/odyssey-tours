@@ -1,7 +1,7 @@
 ---
 title: Half-day tour of Khajuraho temples
 translationKey: half-day-tour-of-khajuraho-temples
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

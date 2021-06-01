@@ -1,7 +1,7 @@
 ---
 title: Early morning hike to the Palitana temples
 translationKey: early-morning-hike-to-the-palitana-temples
-type: excursions
+type: excursion
 id: services
 duration: '06:00'
 startTime: ''

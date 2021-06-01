@@ -1,7 +1,7 @@
 ---
 title: Morning village walk
 translationKey: morning-village-walk
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: ''

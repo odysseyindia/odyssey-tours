@@ -1,7 +1,7 @@
 ---
 title: Activities at Windermere Riverhouse
 translationKey: activities-at-windermere-riverhouse
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

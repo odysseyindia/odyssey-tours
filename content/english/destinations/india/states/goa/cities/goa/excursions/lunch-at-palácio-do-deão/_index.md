@@ -1,7 +1,7 @@
 ---
 title: Lunch at Palácio do Deão
 translationKey: lunch-at-palácio-do-deão
-type: excursions
+type: excursion
 id: services
 duration: '02:00'
 startTime: ''

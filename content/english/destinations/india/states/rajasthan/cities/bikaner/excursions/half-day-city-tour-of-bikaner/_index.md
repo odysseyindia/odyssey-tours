@@ -1,7 +1,7 @@
 ---
 title: Half-day city tour of Bikaner
 translationKey: half-day-city-tour-of-bikaner
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

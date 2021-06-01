@@ -1,7 +1,7 @@
 ---
 title: Further opportunities for Red Panda sighting and bird-watching
 translationKey: further-opportunities-for-red-panda-sighting-and-bird-watching
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

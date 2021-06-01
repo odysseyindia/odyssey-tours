@@ -1,7 +1,7 @@
 ---
 title: Day at leisure in Kumarakom
 translationKey: day-at-leisure-in-kumarakom
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

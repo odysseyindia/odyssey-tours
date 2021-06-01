@@ -1,7 +1,7 @@
 ---
 title: Day at leisure in Chettinad
 translationKey: day-at-leisure-in-chettinad
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

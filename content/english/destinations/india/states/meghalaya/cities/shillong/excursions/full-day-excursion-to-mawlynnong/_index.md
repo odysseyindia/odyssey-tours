@@ -1,7 +1,7 @@
 ---
 title: Full-day excursion to Mawlynnong
 translationKey: full-day-excursion-to-mawlynnong
-type: excursions
+type: excursion
 id: services
 duration: '08:00'
 startTime: ''

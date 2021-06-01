@@ -1,7 +1,7 @@
 ---
 title: Full-day excursion to Bhujodi, Ajrakpur and Dhaneti
 translationKey: full-day-excursion-to-bhujodi-ajrakpur-and-dhaneti
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

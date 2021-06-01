@@ -1,7 +1,7 @@
 ---
 title: Day at leisure at Itmenaan Estate
 translationKey: day-at-leisure-at-itmenaan-estate
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

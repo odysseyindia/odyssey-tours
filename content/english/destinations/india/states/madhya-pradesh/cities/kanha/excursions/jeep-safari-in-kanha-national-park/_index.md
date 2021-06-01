@@ -1,7 +1,7 @@
 ---
 title: Jeep safari in Kanha National Park
 translationKey: jeep-safari-in-kanha-national-park
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''

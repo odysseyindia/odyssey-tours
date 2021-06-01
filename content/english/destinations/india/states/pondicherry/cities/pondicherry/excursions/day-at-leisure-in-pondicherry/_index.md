@@ -1,7 +1,7 @@
 ---
 title: Day at leisure in Pondicherry
 translationKey: day-at-leisure-in-pondicherry
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

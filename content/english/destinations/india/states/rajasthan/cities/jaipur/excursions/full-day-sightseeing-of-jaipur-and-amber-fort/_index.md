@@ -1,7 +1,7 @@
 ---
 title: Full-day sightseeing of Jaipur and Amber Fort
 translationKey: full-day-sightseeing-of-jaipur-and-amber-fort
-type: excursions
+type: excursion
 id: services
 duration: '08:00'
 startTime: ''

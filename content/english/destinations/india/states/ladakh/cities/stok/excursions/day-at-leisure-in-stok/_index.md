@@ -1,7 +1,7 @@
 ---
 title: Day at leisure in Stok
 translationKey: day-at-leisure-in-stok
-type: excursions
+type: excursion
 id: services
 duration: '12:00'
 startTime: ''

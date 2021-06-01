@@ -1,7 +1,7 @@
 ---
 title: Half-day excursion to Somnathpur
 translationKey: half-day-excursion-to-somnathpur
-type: excursions
+type: excursion
 id: services
 duration: '04:00'
 startTime: ''

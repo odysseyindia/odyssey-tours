@@ -1,7 +1,7 @@
 ---
 title: Visit of Ranthambhore Fort
 translationKey: visit-of-ranthambhore-fort
-type: excursions
+type: excursion
 id: services
 duration: '03:00'
 startTime: ''
