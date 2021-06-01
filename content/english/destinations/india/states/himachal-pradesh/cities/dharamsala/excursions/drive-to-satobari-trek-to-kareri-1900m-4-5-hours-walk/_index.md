@@ -12,4 +12,5 @@ guide: 0
 dayAtLeisure: 0
 active: 1
 ---
+
 Today, you first drive from McLeod Ganj to Satobari, the starting point of the trek. From Satobari, it is a downhill walk passing through Barnet village to Ghera village, where we have lunch near the river. From Ghera it is a steep ascent for about two hours to Kareri village (1,900m), a Gaddi tribal village of about 50 houses. We camp here near a small stream.

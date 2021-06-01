@@ -12,4 +12,5 @@ guide: 0
 dayAtLeisure: 0
 active: 1
 ---
+
 This morning, an hour's walk on a steep slope takes us to the Galu Devi temple from where we have good views of the Dhauladhar mountains and the valley. Another three hours of gradual ascent through mixed forests takes us to Triund, an alpine meadow situated atop a ridge. From Triund we have superb views of the snowy peaks of the Dhauladhars on one side and the Kangra valley on the other. We camp here for our night's stay.
