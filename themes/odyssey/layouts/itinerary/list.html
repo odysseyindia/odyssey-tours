@@ -967,14 +967,14 @@ function displayHotels(city){
           };
         };
 
-        document.getElementById("selectHotels").style.visibility = "visible"; 
+        document.getElementById("select-hotel").style.visibility = "visible"; 
         document.getElementById("hotels").innerHTML = sel;
       } else {
-        document.getElementById("selectHotels").style.visibility = "hidden";
+        document.getElementById("select-hotel").style.visibility = "hidden";
       };
     }, 
     function(Error) {
-      document.getElementById("selectHotels").style.visibility = "hidden";
+      document.getElementById("select-hotel").style.visibility = "hidden";
     }
     );
 };
@@ -994,15 +994,43 @@ function displayExcursions(city){
           // if (items[i].transfer != 'true'){
             var option = '{"url":"'+items[i].permalink+'","transfer":'+items[i].transfer+'}';
             sel += "<option value='"+option+"'>"+items[i].title+"</option>"
-            document.getElementById("selectExcursions").style.visibility = "visible"; 
-            document.getElementById("excursions").innerHTML = sel;
+            document.getElementById("select-excursion").style.visibility = "visible"; 
+            document.getElementById("excursion").innerHTML = sel;
           };
         } else {
-          document.getElementById("selectExcursions").style.visibility = "hidden";
+          document.getElementById("select-excursion").style.visibility = "hidden";
         };
       }, 
       function(Error) {
-        document.getElementById("selectExcursions").style.visibility = "hidden";
+        document.getElementById("select-excursion").style.visibility = "hidden";
+      }
+      );
+};
+
+function displayTransfers(city){
+
+  docLoad({url: host+city+"transfers/index.json"}).then(
+
+    function(response) {
+      const nonl  = response.replace(/(\n)/gm,"");
+      var   data  = JSON.parse(nonl);
+      const items = data.data.items;
+      var   sel   = '<option value="">Select a transfer</option>';
+
+      if (items.length > 0) {
+        for(let i=0;i<items.length;i++) {       
+          // if (items[i].transfer != 'true'){
+            var option = '{"url":"'+items[i].permalink+'","transfer":'+items[i].transfer+'}';
+            sel += "<option value='"+option+"'>"+items[i].title+"</option>"
+            document.getElementById("select-transfer").style.visibility = "visible"; 
+            document.getElementById("transfer").innerHTML = sel;
+          };
+        } else {
+          document.getElementById("select-transfer").style.visibility = "hidden";
+        };
+      }, 
+      function(Error) {
+        document.getElementById("select-transfer").style.visibility = "hidden";
       }
       );
 };

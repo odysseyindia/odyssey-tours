@@ -142,38 +142,7 @@ itinerary:
         checkOutTime: ''
         nights: ''
   - day: 4
-    item:
-      - type: excursion
-        url: >-
-          /destinations/india/states/uttar-pradesh/cities/agra/excursions/early-morning-visit-to-the-taj-mahal-without-guide/
-        title: Early morning visit on your own to the Taj Mahal
-        content: >-
-          The best time of day to appreciate this stunning monument is as soon
-          as the Taj Mahal opens, when it is at its quietest and most serene.
-          You can enjoy the gardens, the mausoleum and the mosque, without
-          needing a professional guide. Don’t miss the marble inlay work and the
-          various vantage points offered throughout the peaceful gardens.
-
-
-          Once you have taken it all in, you can return to your hotel for a late
-          breakfast.
-        date: ''
-        etd: ''
-        duration: ''
-      - type: excursion
-        url: >-
-          /destinations/india/states/uttar-pradesh/cities/agra/excursions/afternoon-guided-city-tour-of-agra/
-        title: Afternoon guided tour of Agra's other monuments
-        content: >-
-          Agra has much to offer besides the Taj Mahal, such as Agra Fort, a
-          masterpiece of design and construction. You then visit
-          Itimad-ud-Daulah’s tomb - better known as the Baby Taj, which also
-          features the same marble inlay work as the Taj Mahal. Finally you will
-          visit Mehtab Bagh, a formally laid-out Mughal garden that offers
-          stupendous views of the Taj Mahal, especially in the late afternoon.
-        date: ''
-        etd: ''
-        duration: ''
+    item: []
   - day: 5
     item:
       - type: city
