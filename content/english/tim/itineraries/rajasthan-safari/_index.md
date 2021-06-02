@@ -385,7 +385,7 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/rajasthan/cities/udaipur/excursions/morning-city-tour-of-udaipur-followed-by-a-boat-trip-on-lake-pichola-by-shared-boat/
+          /destinations/india/states/rajasthan/cities/udaipur/excursions/morning-city-tour-followed-by-a-boat-trip/
         title: >-
           Morning guided city tour of Udaipur followed by a boat trip on Lake
           Pichola
@@ -555,8 +555,8 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/rajasthan/cities/sawai-madhopur/excursions/morning-and-afternoon-jeep-safaris-in-ranthambore-np/
-        title: Morning and afternoon jeep safaris in Ranthambore N.P.
+          /destinations/india/states/rajasthan/cities/sawai-madhopur/excursions/morning-and-afternoon-jeep-safaris/
+        title: Morning and afternoon jeep safaris
         content: >-
           Ranthambore National Park is one of the best places in India in which
           to see a tiger in the wild. The varied landscapes within the park are
@@ -675,7 +675,7 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/uttar-pradesh/cities/agra/excursions/early-morning-visit-to-the-taj-mahal-without-guide/
+          /destinations/india/states/uttar-pradesh/cities/agra/excursions/early-morning-visit-on-your-own-to-the-taj-mahal/
         title: Early morning visit on your own to the Taj Mahal
         content: >-
           The best time of day to appreciate this stunning monument is as soon

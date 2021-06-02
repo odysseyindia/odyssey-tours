@@ -306,9 +306,9 @@ function saveItinerary(deleteDay){
         obj.type    = items[j].getAttribute("type");
         obj.url     = items[j].getAttribute("url");
         let title   = items[j].getElementsByClassName('title');
-        obj.title   = title[0].innerText.trim().replace(/(`)/gm,"'");
+        obj.title   = (typeof title === 'undefined') ? "" : title[0].innerText.trim().replace(/(`)/gm,"'");
         let content = items[j].getElementsByClassName('content-text');
-        obj.content = (content.length != 0) ? content[0].innerText.trim().replace(/(`)/gm,"'") : "";
+        obj.content = (typeof content === 'undefined') ? "" : content[0].innerText.trim().replace(/(`)/gm,"'");
 
         let inputs  = items[j].getElementsByClassName('details');
         for(let k=0;k<inputs.length;k++) {

@@ -71,7 +71,7 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/rajasthan/cities/udaipur/excursions/morning-city-tour-of-udaipur-followed-by-a-boat-trip-on-lake-pichola-by-shared-boat/
+          /destinations/india/states/rajasthan/cities/udaipur/excursions/morning-city-tour-followed-by-a-boat-trip/
         title: Morning guided tour of Udaipur followed by a boat trip on Lake Pichola
         content: >-
           The highlight of this guided city tour is a visit to the City Palace,
@@ -127,7 +127,7 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/rajasthan/cities/khempur/excursions/day-at-leisure-in-kempur/
+          /destinations/india/states/rajasthan/cities/khempur/excursions/day-at-leisure-in-khempur/
         title: Day at leisure in Khempur
         content: >-
           Today is a free day to enjoy all that this Real Exotic Marigold Hotel
