@@ -1,5 +1,5 @@
 import docLoad from './docload.js';
-import * as Items from './selectItems.js';
+import { changeType, getSelection } from './selectItems.js';
 import fadeAlert from './fadealert.js';
 
 $(document).ready(function(){
@@ -599,8 +599,8 @@ function saveModalTransfer(){
 const types = ['city','hotel','excursion','transfer'];
 for(var i = 0; i < types.length; i++) {
   let type = types[i];
-  document.getElementById(`${type}`).addEventListener("change", (event) => { Items.changeType(`${type}` ); });
-  document.getElementById(`add-${type}`).addEventListener("click", (event) => { Items.getSelection( `${type}` ); });
+  document.getElementById(`${type}`).addEventListener("change", (event) => { changeType(`${type}` ); });
+  document.getElementById(`add-${type}`).addEventListener("click", (event) => { getSelection( `${type}` ); });
 }
 
 document.getElementById("toggleWorkspace"     ).addEventListener("click", (event) => { toggleWorkspace();  });

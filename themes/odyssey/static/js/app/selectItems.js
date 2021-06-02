@@ -3,8 +3,19 @@
 import docLoad from './docload.js';
 import draggable from './itinerary.js';
 
-var host = window.location.host + "/";
-
+export function changeType(id){
+	const source = document.getElementById(id);
+	if ( typeof source[source.selectedIndex] !== 'undefined'){
+		var url = source[source.selectedIndex].value;
+		processRequest(url);
+		if (id == 'city'){
+			//displayCity(city);
+			selectHotels(url,id);
+			selectExcursions(url,id);
+			selectTransfers(url,id);
+		}
+	}
+};
 
 /* CREATE THE SELECT BOXES OTHER THAN CITIES (that one is done in Hugo) */
 
@@ -13,12 +24,12 @@ function selectHotels(city, type){
 
 	var element = document.getElementById("select-hotel");
 
-	docLoad( {url: host+city+"hotels/index.json"} ).then(
+	docLoad( {url: window.location.origin+city+"hotels/index.json"} ).then(
 
 		function(response){
 
 			const data  = JSON.parse(response);
-			const image = host+city+data.image;
+			const image = window.location.origin+city+data.image;
 			const items = data.data.items;
 			var   sel   = '<option value="">Select a hotel</option>';
 
@@ -29,14 +40,14 @@ function selectHotels(city, type){
 					};
 				};
 
-				element.style.visibility = "visible"; 
+				element.style.display = "flex"; 
 				document.getElementById("hotel").innerHTML = sel;
 			} else {
-				element.style.visibility = "hidden";
+				element.style.display = "none";
 			};
 		}, 
 		function(Error) {
-			element.style.visibility = "hidden";
+			element.style.display = "none";
 		});
 };
 
@@ -44,7 +55,7 @@ function selectExcursions(city){
 
 	var element = document.getElementById("select-excursion");
 
-	docLoad({url: host+city+"excursions/index.json"}).then(
+	docLoad({url: window.location.origin+city+"excursions/index.json"}).then(
 
 		function(response) {
 			const nonl  = response.replace(/(\n)/gm,"");
@@ -55,15 +66,15 @@ function selectExcursions(city){
 			if (items.length > 0) {
 				for(let i=0;i<items.length;i++) {
 					sel += "<option value='"+items[i].permalink+"'>"+items[i].title+"</option>";
-					element.style.visibility = "visible"; 
+					element.style.display = "flex"; 
 					document.getElementById("excursion").innerHTML = sel;
 				};
 			} else {
-				element.style.visibility = "hidden";
+				element.style.display = "none";
 			};
 		}, 
 		function(Error) {
-			element.style.visibility = "hidden";
+			element.style.display = "none";
 		});
 };
 
@@ -71,7 +82,7 @@ function selectTransfers(city){
 
 	var element = document.getElementById("select-transfer");
 
-	docLoad({url: host+city+"transfers/index.json"}).then(
+	docLoad({url: window.location.origin+city+"transfers/index.json"}).then(
 
 		function(response) {
 			const nonl  = response.replace(/(\n)/gm,"");
@@ -82,39 +93,25 @@ function selectTransfers(city){
 			if (items.length > 0) {
 				for(let i=0;i<items.length;i++) {       
 					sel += "<option value='"+items[i].permalink+"'>"+items[i].title+"</option>";
-					element.style.visibility = "visible"; 
+					element.style.display = "flex"; 
 					document.getElementById("transfer").innerHTML = sel;
 				};
 			} else {
-				element.style.visibility = "hidden";
+				element.style.display = "none";
 			};
 		}, 
 		function(Error) {
-			element.style.visibility = "hidden";
+			element.style.display = "none";
 		});
 };
 
-/* CHANGES IN A SELECT BOX */
 
-export default function changeType(id){
-	const source = document.getElementById(id);
-	if ( typeof source[source.selectedIndex] !== 'undefined'){
-		var url = source[source.selectedIndex].value;
-		processRequest(url);
-		if (id == 'city'){
-			//displayCity(city);
-			selectHotels(url,id);
-			selectExcursions(url,id);
-			selectTransfers(url,id);
-		};
-	};
-};
 
 /* DISPLAY THE INFO OF THE OPTION CHANGED */
 
 function processRequest(url){
 
-	var file = host+url+"index.json";
+	var file = window.location.origin+url+"index.json";
 
 	docLoad({url: file }).then(
 
@@ -126,7 +123,7 @@ function processRequest(url){
 			document.getElementById("info").innerHTML = content;
 
 			if ( data.image != undefined){
-				const image = 'url("'+host+url+(data.image)+'")';
+				const image = 'url("'+window.location.origin+url+(data.image)+'")';
 				document.getElementById("image").style["background-image"] = image;
 			};
 		}, 
@@ -139,7 +136,7 @@ function processRequest(url){
 /*
 export default function displayCity(city){
 
-	var file = host+city+"index.json";
+	var file = window.location.origin+city+"index.json";
 
 	docLoad({url: file }).then(
 
@@ -148,7 +145,7 @@ export default function displayCity(city){
 			const data  = JSON.parse(response);
 
 			if ( data.image != undefined){
-				const image = 'url("'+host+city+(data.image)+'")';
+				const image = 'url("'+window.location.origin+city+(data.image)+'")';
 				document.getElementById("image").style.backgroundImage = 'url("'+image+'")';
 			};
 			document.getElementById("info").innerHTML = data.content;
@@ -162,12 +159,12 @@ export default function displayCity(city){
 
 function displayHotel(city){
 
-	docLoad({url: host+city+"hotels/index.json" }).then(
+	docLoad({url: window.location.origin+city+"hotels/index.json" }).then(
 
 		function(response) {
 
 			const data  = JSON.parse(response);
-			const image = host+city+data.image;
+			const image = window.location.origin+city+data.image;
 
 			if (image){
 				document.getElementById("image").style.backgroundImage = 'url("'+image+'")';
