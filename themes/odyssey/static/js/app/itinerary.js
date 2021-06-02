@@ -1,143 +1,42 @@
-  import docLoad from './docload.js';
-  import * as Items from './selectItems.js';
-  import fadeAlert from './fadealert.js';
+import docLoad from './docload.js';
+import * as Items from './selectItems.js';
+import fadeAlert from './fadealert.js';
 
-  $(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();
-  });
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+});
 
-  const source = document.querySelector("#cities");
-  const city   = source[source.selectedIndex].value ;
-  var   host   = window.location.href.split("/");
-        host   = host[0] + "//" + host[2];
+var appHost = window.location.protocol + "//" + window.location.hostname + ":" + (parseFloat(window.location.port) + parseFloat(1)) +'/';
 
-  var renewables = document.querySelectorAll(".draggable");
+var renewables = document.querySelectorAll(".draggable");
 
-  renewables.forEach(renewable => {
-    let url = renewable.getAttribute("url");
-    let myClass = renewable.getElementsByClassName("content-text");
+renewables.forEach(renewable => {
+  let url = renewable.getAttribute("url");
+  let myClass = renewable.getElementsByClassName("content-text");
 
-    if (url.includes("{{ htmlUnescape .RelPermalink }}")){
-      let xhr = new XMLHttpRequest();
-      xhr.open('get',url+"/index.json" );
-      xhr.setRequestHeader("Content-Type", "application/json");
-      xhr.onreadystatechange = function () {
-        if (xhr.readyState === 4 && xhr.status === 200) { 
-          let data = JSON.parse(xhr.responseText);
-          myClass[0].innerText = data.content;
-        };
+  if (url.includes("{{ htmlUnescape .RelPermalink }}")){
+    let xhr = new XMLHttpRequest();
+    xhr.open('get',url+"/index.json" );
+    xhr.setRequestHeader("Content-Type", "application/json");
+    xhr.onreadystatechange = function () {
+      if (xhr.readyState === 4 && xhr.status === 200) { 
+        let data = JSON.parse(xhr.responseText);
+        myClass[0].innerText = data.content;
       };
-      xhr.send();
-    }
-  });
-
-  Items.changeCity(city);
-  toggleRegion();
-
-  // add EventListeners
-  document.getElementById("cities"   ).addEventListener("change", (event) => { Items.changeCity();      });
-  document.getElementById("hotel"    ).addEventListener("change", (event) => { Items.changeHotel();     });
-  document.getElementById("excursion").addEventListener("change", (event) => { Items.changeExcursion(); });
-  document.getElementById("transfer" ).addEventListener("change", (event) => { Items.changeTransfer();  });
-
-  document.addEventListener('DOMContentLoaded', (event) => { draggable(); });
-  
-
-  var clickClose = document.getElementsByClassName("close-modal-btn");
-  var clickEdit  = document.getElementsByClassName("editButton");
-
-  for(var i = 0; i < clickClose.length; i++) {
-    (function(index) {
-      clickClose[index].addEventListener("click", function() {
-        var close = document.getElementsByClassName("modal");
-        for(var i = 0; i < close.length; i++) {
-          close[index].style.display = "none";
-        };
-      })
-    })(i);
+    };
+    xhr.send();
   }
+});
 
-  for(var i = 0; i < clickEdit.length; i++) {
-    (function(index) {
-      clickEdit[index].addEventListener("click", function() {
-        editItem(clickEdit[index].parentElement);
-      })
-    })(i);
-  }
+window.onload = fadeAlert();
 
+toggleRegion();
 
-  document.getElementById("save-modal-hotel").addEventListener("click", function(){
-
-    const elements = document.getElementById("modal-hotel");
-    const inputs   = elements.getElementsByClassName('input');
-    const index    = inputs[0].index;
-    const days     = document.getElementById('myItinerary').getElementsByClassName('containers');
-    const items    = days[ inputs[0].day ].getElementsByClassName('draggable');
-    var   data     = items[index].getElementsByClassName('details');
-
-    const modalContent   = elements.getElementsByClassName('content');
-    var content          = items[index].getElementsByClassName('content-details');
-    content[0].innerHTML = "<p>"+modalContent[0].value.replace(/\n\n/g, "</p><p>")+"</p>";
-
-    data[0].setAttribute("value", inputs.checkInDate.value ) ; 
-    data[1].setAttribute("value", inputs.checkInTime.value ) ;
-    data[2].setAttribute("value", inputs.checkOutDate.value) ;
-    data[3].setAttribute("value", inputs.checkOutTime.value) ;
-    data[4].setAttribute("value", inputs.nights.value) ;
-    data[0].innerHTML  = inputs.checkInDate.value ; 
-    data[1].innerHTML  = inputs.checkInTime.value ;
-    data[2].innerHTML  = inputs.checkOutDate.value ;
-    data[3].innerHTML  = inputs.checkOutTime.value ;
-    data[4].innerHTML  = inputs.nights.value ;
-
-    elements.style.display = "none";
-  });
-
-  document.getElementById("save-modal-excursion").addEventListener("click", function(){
-
-    const elements        = document.getElementById("modal-excursion");
-    const inputs          = elements.getElementsByClassName('input');
-    const index           = inputs[0].index;
-    const days            = document.getElementById('myItinerary').getElementsByClassName('containers');
-    const items           = days[ inputs[0].day ].getElementsByClassName('draggable');
-    var   data            = items[index].getElementsByClassName('details');
-
-    const modalTitle      = elements.getElementsByClassName('modal-title');
-    var title             = items[index].getElementsByClassName('title');
-    title[0].innerText    = modalTitle[0].value;
-
-    const modalContent    = elements.getElementsByClassName('content');
-    var content           = items[index].getElementsByClassName('content-details');
-    content[0].innerHTML  = "<p>"+modalContent[0].value.replace(/\n\n/g, "</p><p>")+"</p>";
-
-    data[0].setAttribute("value", inputs.excursionDate.value ) ; 
-    data[1].setAttribute("value", inputs.excursionEtd.value ) ;
-    data[2].setAttribute("value", inputs.excursionDuration.value) ;
-    data[0].innerHTML  = inputs.excursionDate.value ; 
-    data[1].innerHTML  = inputs.excursionEtd.value ;
-    data[2].innerHTML  = inputs.excursionDuration.value ;
-
-    elements.style.display = "none";
-  });
-
-  document.getElementById("save-modal-city").addEventListener("click", function(){
-
-    const elements = document.getElementById("modal-city");
-    const inputs   = elements.getElementsByClassName('input');
-    const index    = inputs[0].index;
-    const days     = document.getElementById('myItinerary').getElementsByClassName('containers');
-    const items    = days[ inputs[0].day ].getElementsByClassName('draggable');
-
-    const modalContent   = elements.getElementsByClassName('content');
-    var content          = items[index].getElementsByClassName('content-details');
-    content[0].innerHTML = "<p>"+modalContent[0].value.replace(/\n\n/g, "</p><p>")+"</p>";
-
-    elements.style.display = "none";
-  });
+/* ==========================  ========================= */
 
 // allow drag and drop
 
-function draggable(){
+export default function draggable(){
   var draggables = document.querySelectorAll('.draggable');
   var containers = document.querySelectorAll('.containers');
 
@@ -165,19 +64,6 @@ function draggable(){
   });
 };
 
-function toggleRegion (){
-
-  const region = document.getElementById('region');
-  var   button = document.getElementById('writeButton');
-  const option = region.selectedIndex ;
-  
-  if ( option > 0 ){
-    button.style.display = 'block';
-  } else {
-    button.style.display = 'none';
-  }
-};
-
 
 function getDragAfterElement(container,y){
   const draggableElements = [...container.querySelectorAll('.draggable:not(.dragging)')]
@@ -195,9 +81,28 @@ function getDragAfterElement(container,y){
 
 };
 
+/* ==================== TOGGLES ==================*/
 
+// toggle the display of the dates etc for all the itinerary items
 
+function toggleCalendar(){
 
+  let days   = document.getElementById('myItinerary').getElementsByClassName('containers');
+
+  for(let i=0;i<days.length;i++) {
+
+    var items   = days[i].getElementsByClassName('rowdetails');
+    for(let j=0;j<items.length;j++) {
+      if (items[j].style.visibility === "visible") {
+        items[j].style.visibility = "hidden";
+      } else {
+        items[j].style.visibility = "visible";
+      }
+    };
+  };
+};
+
+// toggle the display of the details of each day. This allows for a compact display as and when desired.
 
 function toggleContent(){
   let days   = document.getElementById('myItinerary').getElementsByClassName('containers');
@@ -222,22 +127,22 @@ function toggleContent(){
   };
 };
 
-function toggleCalendar(){
+// toggle the display of the button to write this itinerary to the tours section (regions) and for it to be published as a tour.
 
-  let days   = document.getElementById('myItinerary').getElementsByClassName('containers');
+function toggleRegion (){
 
-  for(let i=0;i<days.length;i++) {
-
-    var items   = days[i].getElementsByClassName('rowdetails');
-    for(let j=0;j<items.length;j++) {
-      if (items[j].style.visibility === "visible") {
-        items[j].style.visibility = "hidden";
-      } else {
-        items[j].style.visibility = "visible";
-      }
-    };
-  };
+  const region = document.getElementById('region');
+  var   button = document.getElementById('writeToTour');
+  const option = region.selectedIndex ;
+  
+  if ( option > 0 ){
+    button.style.display = 'block';
+  } else {
+    button.style.display = 'none';
+  }
 };
+
+// toggle to either add new items to the current itinerary or the workspace area on the right
 
 function toggleWorkspace(){
 
@@ -250,6 +155,7 @@ function toggleWorkspace(){
   }
 };
 
+/* =================================   ============================*/
 
 function activateTour(){
   var tourRelated = document.getElementsByClassName('tour-section');
@@ -264,10 +170,11 @@ function activateTour(){
   };
 };
 
+// append a new day at the end of the current itinerary
 
-function addDay(){
+function appendDay(){
 
-  let element  = document.getElementById('addDay');
+  let element  = document.getElementById('appendDay');
   let days     = document.getElementById('myItinerary').getElementsByClassName('containers');
 
   let div   = document.createElement('hr');
@@ -284,6 +191,80 @@ function addDay(){
 
   draggable();
 };
+
+
+// display the modal to delete a day 
+
+function deleteDay(){
+  let modal = document.getElementById("modal-delete-day");
+  modal.style.display = "block";
+  let input = modal.querySelector("input");
+  input.value = "";
+};
+
+// delete a day upon clicking save in the modal. Itinerary gets saved.
+
+function deleteModalDay(){
+
+  const modal = document.getElementById("modal-delete-day");
+
+  let index   = modal.querySelector("input").value;
+  let doc     = document.getElementById('myItinerary');
+  let days    = doc.getElementsByClassName('containers');
+  let label   = modal.querySelector("label");
+
+  if ( index < 1 || index > days.length) {
+    label.innerHTML   = '<div class="alert">Input not valid</div>';
+  } else {   
+    modal.style.display = "none";
+    saveItinerary(index-1);
+  };
+};
+
+// display the modal to insert a day 
+
+function insertDay(){
+  let modal = document.getElementById("modal-insert-day");
+  modal.style.display = "block";
+  let input = modal.querySelector("input");
+  input.value = "";
+};
+
+
+// insert a day upon clicking save in the modal. Itinerary gets saved.
+
+function saveModalDay(){
+
+  const modal = document.getElementById("modal-insert-day");
+  const index = modal.querySelector("input").value;
+  const doc   = document.getElementById('myItinerary');
+  var days    = doc.getElementsByClassName('containers');
+  var label   = modal.querySelector("label");
+  
+  // var newDays = [];
+
+  if ( index < 1 || index > days.length) {
+    label.innerHTML = '<div class="alert">Input not valid</div>';
+  } else {
+
+
+    //for (let i = days.length; i > index; i--) {
+    //  days[i] = days[i-1];
+    //};
+
+    var div     = document.createElement('div');
+    div.className = "containers";
+    div.innerText = "\n";
+    days[index].parentNode.insertBefore(div, days[index]);
+
+    modal.style.display = "none";
+    saveItinerary();
+  };
+};
+
+/* ======================== SAVE & EDIT ====================== */
+
+// this saves the current itinerary. Note that if deleteDay has a value, that day will be deleted.
 
 function saveItinerary(deleteDay){
 
@@ -371,9 +352,9 @@ function saveItinerary(deleteDay){
   docLoad({
     url:    'ajax', 
     method: 'POST',
-    apphost: '{{ .Site.Params.appHost }}', 
+    appHost: appHost, 
     data:   JSON.stringify({ 
-      "file": "{{ .RelPermalink }}"+'_index.md', 
+      "file": window.location.pathname +'_index.md', 
       "data": data
     }) 
   })
@@ -387,6 +368,7 @@ function saveItinerary(deleteDay){
     );
 };
 
+// This will republish this itinerary as a tour in the tours' section (i.e. in one of the regions)
 
 function writeToTour(){
 
@@ -395,7 +377,7 @@ function writeToTour(){
     docLoad({
       url:    'write-to-tour', 
       method: 'POST',
-      apphost: '{{ .Site.Params.appHost }}', 
+      appHost: appHost, 
       data:   JSON.stringify({ 
         "file"  : "{{ .RelPermalink }}", 
         "region": document.getElementById('region').value,
@@ -406,137 +388,23 @@ function writeToTour(){
         fadeOut('Itinerary saved as a tour');
       }, 
       function(Error){  console.log( Error );       }
-    );
+      );
   };
 };
 
-
-function addToWorkspace(type,url,text){
-  let ws     = document.getElementById('toggleWorkspace');
-  const html = '<div class="draggable" draggable="true" type ="'+type+'" url="' + url + '"><i class="icon-'+type+'"></i>&nbsp;<span class="title">' + text+'</span></div>';
-
-  if (ws.className.includes("showWorkspace") === true){
-    document.getElementById("workspace").innerHTML += html;
-  } else {
-    let days   = document.getElementById('myItinerary').getElementsByClassName('containers');
-    let length = days.length;
-    days[days.length -1 ].innerHTML += html;
-  };
-  draggable();
-};
-
-function addCity(){
-
-  const source = document.querySelector("#cities");
-  const i      = source.selectedIndex;
-  const url    = source[i].value ;
-  const text   = source[i].innerHTML;
-  
-  if (i > 0) {
-    addToWorkspace('city',url,text);
-  };
-};
-
-function addHotel(){
-
-  const source = document.querySelector("#hotels");
-  const ws     = document.getElementById('toggleWorkspace');
-  const i      = source.selectedIndex;
-  const url    = source[i].value ;
-  const text   = source[i].innerHTML;
-
-  if (i > 0) {
-    addToWorkspace('hotel',url,text);
-  };
-};
-
-function addExcursion(){
-
-  const source    = document.querySelector("#excursions");
-  const ws        = document.getElementById('toggleWorkspace');
-  const i         = source.selectedIndex;
-  const value     = JSON.parse(source[i].value );
-  const url       = value.url;
-  const transfer  = value.transfer;
-  const text      = source[i].innerHTML;
-
-  if (transfer == true){
-    addToWorkspace('transfer',url,text);
-  } else {
-    addToWorkspace('excursion',url,text);
-  };
-};
-
+// Not really required as simply refreshing the screen will delete the trash
 
 function emptyTrash(){
   var trash = document.getElementById("trash");
   trash.innerHTML = "";
 }
 
-
-function insertDay(){
-  let modal = document.getElementById("modal-insert-day");
-  modal.style.display = "block";
-  let input = modal.querySelector("input");
-  input.value = "";
-};
-
-function deleteDay(){
-  let modal = document.getElementById("modal-delete-day");
-  modal.style.display = "block";
-  let input = modal.querySelector("input");
-  input.value = "";
-};
-
-function deleteModalDay(){
-
-  const modal = document.getElementById("modal-delete-day");
-
-  let index   = modal.querySelector("input").value;
-  let doc     = document.getElementById('myItinerary');
-  let days    = doc.getElementsByClassName('containers');
-  let label   = modal.querySelector("label");
-
-  if (isNaN(index) || index < 1 || index > days.length) {
-    label.innerHTML = '<div class="alert">Input not valid</div>';
-  } else {   
-    modal.style.display = "none";
-    saveItinerary(index-1);
-  };
-};
-
-function saveModalDay(){
-
-  const modal = document.getElementById("modal-insert-day");
-
-  let div;
-  let index   = modal.querySelector("input").value;
-  let doc     = document.getElementById('myItinerary');
-  let days    = doc.getElementsByClassName('containers');
-  let label   = modal.querySelector("label");
-
-  if (isNaN(index) || index < 1 || index > days.length) {
-    label.innerHTML = '<div class="alert">Input not valid</div>';
-  } else {
-
-    for (let i = days.length; i > index; i--) {
-      days[i] = days[i-1];
-    };
-
-    div = document.createElement('div');
-    div.className = "containers";
-    div.innerText = "\n";
-    days[index].parentNode.insertBefore(div, days[index]);
-
-    modal.style.display = "none";
-    saveItinerary();
-  };
-};
+// Most important: the editing of an itinerary item
 
 function editItem(obj){
 
   /* 
-  // Do close modal when clicking outside the modal range 
+  // uncomment the following lines if you want to close the modal when clicking outside the modal range 
 
   window.onclick = function(event) {
     if (event.target == modal) {
@@ -596,6 +464,7 @@ function editItem(obj){
   } 
 };
 
+/*
 function copyToTours(){
 
   const source = document.querySelector("#region");
@@ -605,28 +474,174 @@ function copyToTours(){
   var to   = region
 
   docLoad({
-        url:    'copytotours',
-        method: 'POST', 
-        apphost: '{{ .Site.Params.appHost }}', 
-        data: JSON.stringify({
-          "from": from,
-          "to": to
-        })
-      })
-      .then(
+    url:    'copytotours',
+    method: 'POST', 
+    appHost: appHost, 
+    data: JSON.stringify({
+      "from": from,
+      "to": to
+    })
+  })
+  .then(
 
-      function(response){
-        alert("Copied "+from+" to "+to);
-      }, 
-      function(Error) {
-        alert(Error);
-        console.log(Error);
-      });
+    function(response){
+      alert("Copied "+from+" to "+to);
+    }, 
+    function(Error) {
+      alert(Error);
+      console.log(Error);
+    });
+};
+*/
 
+
+/* ============== SAVE MODAL DATA ===============*/
+
+function saveModalCity(){
+
+  const elements = document.getElementById("modal-city");
+  const inputs   = elements.getElementsByClassName('input');
+  const index    = inputs[0].index;
+  const days     = document.getElementById('myItinerary').getElementsByClassName('containers');
+  const items    = days[ inputs[0].day ].getElementsByClassName('draggable');
+
+  const modalContent   = elements.getElementsByClassName('content');
+  var content          = items[index].getElementsByClassName('content-details');
+  content[0].innerHTML = "<p>"+modalContent[0].value.replace(/\n\n/g, "</p><p>")+"</p>";
+
+  elements.style.display = "none";
 };
 
-window.onload = fadeAlert();
+function saveModalHotel(){
+
+  const elements = document.getElementById("modal-hotel");
+  const inputs   = elements.getElementsByClassName('input');
+  const index    = inputs[0].index;
+  const days     = document.getElementById('myItinerary').getElementsByClassName('containers');
+  const items    = days[ inputs[0].day ].getElementsByClassName('draggable');
+  var   data     = items[index].getElementsByClassName('details');
+
+  const modalContent   = elements.getElementsByClassName('content');
+  var content          = items[index].getElementsByClassName('content-details');
+  content[0].innerHTML = "<p>"+modalContent[0].value.replace(/\n\n/g, "</p><p>")+"</p>";
+
+  data[0].setAttribute("value", inputs.checkInDate.value ) ; 
+  data[1].setAttribute("value", inputs.checkInTime.value ) ;
+  data[2].setAttribute("value", inputs.checkOutDate.value) ;
+  data[3].setAttribute("value", inputs.checkOutTime.value) ;
+  data[4].setAttribute("value", inputs.nights.value) ;
+  data[0].innerHTML  = inputs.checkInDate.value ; 
+  data[1].innerHTML  = inputs.checkInTime.value ;
+  data[2].innerHTML  = inputs.checkOutDate.value ;
+  data[3].innerHTML  = inputs.checkOutTime.value ;
+  data[4].innerHTML  = inputs.nights.value ;
+
+  elements.style.display = "none";
+};
+
+function saveModalExcursion(){
+
+  const elements        = document.getElementById("modal-excursion");
+  const inputs          = elements.getElementsByClassName('input');
+  const index           = inputs[0].index;
+  const days            = document.getElementById('myItinerary').getElementsByClassName('containers');
+  const items           = days[ inputs[0].day ].getElementsByClassName('draggable');
+  var   data            = items[index].getElementsByClassName('details');
+
+  const modalTitle      = elements.getElementsByClassName('modal-title');
+  var title             = items[index].getElementsByClassName('title');
+  title[0].innerText    = modalTitle[0].value;
+
+  const modalContent    = elements.getElementsByClassName('content');
+  var content           = items[index].getElementsByClassName('content-details');
+  content[0].innerHTML  = "<p>"+modalContent[0].value.replace(/\n\n/g, "</p><p>")+"</p>";
+
+  data[0].setAttribute("value", inputs.excursionDate.value ) ; 
+  data[1].setAttribute("value", inputs.excursionEtd.value ) ;
+  data[2].setAttribute("value", inputs.excursionDuration.value) ;
+  data[0].innerHTML  = inputs.excursionDate.value ; 
+  data[1].innerHTML  = inputs.excursionEtd.value ;
+  data[2].innerHTML  = inputs.excursionDuration.value ;
+
+  elements.style.display = "none";
+};
+
+function saveModalTransfer(){
+
+  const elements        = document.getElementById("modal-transfer");
+  const inputs          = elements.getElementsByClassName('input');
+  const index           = inputs[0].index;
+  const days            = document.getElementById('myItinerary').getElementsByClassName('containers');
+  const items           = days[ inputs[0].day ].getElementsByClassName('draggable');
+  var   data            = items[index].getElementsByClassName('details');
+
+  const modalTitle      = elements.getElementsByClassName('modal-title');
+  var title             = items[index].getElementsByClassName('title');
+  title[0].innerText    = modalTitle[0].value;
+
+  const modalContent    = elements.getElementsByClassName('content');
+  var content           = items[index].getElementsByClassName('content-details');
+  content[0].innerHTML  = "<p>"+modalContent[0].value.replace(/\n\n/g, "</p><p>")+"</p>";
+
+  data[0].setAttribute("value", inputs.excursionDate.value ) ; 
+  data[1].setAttribute("value", inputs.excursionEtd.value ) ;
+  data[2].setAttribute("value", inputs.excursionDuration.value) ;
+  data[0].innerHTML  = inputs.excursionDate.value ; 
+  data[1].innerHTML  = inputs.excursionEtd.value ;
+  data[2].innerHTML  = inputs.excursionDuration.value ;
+
+  elements.style.display = "none";
+};
 
 
-/* =============== SELECT ITEMS ============ */
+/* =============== add EventListeners ============ */
 
+const types = ['city','hotel','excursion','transfer'];
+for(var i = 0; i < types.length; i++) {
+  let type = types[i];
+  document.getElementById(`${type}`).addEventListener("change", (event) => { Items.changeType(`${type}` ); });
+  document.getElementById(`add-${type}`).addEventListener("click", (event) => { Items.getSelection( `${type}` ); });
+}
+
+document.getElementById("toggleWorkspace"     ).addEventListener("click", (event) => { toggleWorkspace();  });
+document.getElementById("saveItinerary"       ).addEventListener("click", (event) => { saveItinerary();  });
+document.getElementById("toggleContent"       ).addEventListener("click", (event) => { toggleContent();  });
+document.getElementById("toggleCalendar"      ).addEventListener("click", (event) => { toggleCalendar();  });
+document.getElementById("insertDay"           ).addEventListener("click", (event) => { insertDay();  });
+document.getElementById("deleteDay"           ).addEventListener("click", (event) => { deleteDay();  });
+document.getElementById("addDay"              ).addEventListener("click", (event) => { appendDay();  });
+document.getElementById("writeToTour"         ).addEventListener("click", (event) => { writeToTour();  });
+document.getElementById("emptyTrash"          ).addEventListener("click", (event) => { emptyTrash();  });
+
+document.getElementById("saveModalDay"        ).addEventListener("click", (event) => { saveModalDay();  });
+document.getElementById("deleteModalDay"      ).addEventListener("click", (event) => { deleteModalDay();  });
+
+document.getElementById("save-modal-city"     ).addEventListener("click", (event) => { saveModalCity();  });
+document.getElementById("save-modal-hotel"    ).addEventListener("click", (event) => { saveModalHotel();  });
+document.getElementById("save-modal-excursion").addEventListener("click", (event) => { saveModalExcursion();  });
+document.getElementById("save-modal-transfer" ).addEventListener("click", (event) => { saveModalTransfer();  });
+
+document.addEventListener('DOMContentLoaded', (event) => { draggable(); });
+
+
+var clickClose = document.getElementsByClassName("close-modal-btn");
+var clickEdit  = document.getElementsByClassName("editButton");
+
+for(var i = 0; i < clickClose.length; i++) {
+  (function(index) {
+    clickClose[index].addEventListener("click", function() {
+      var close = document.getElementsByClassName("modal");
+      for(var i = 0; i < close.length; i++) {
+        close[index].style.display = "none";
+      };
+    })
+  })(i);
+}
+
+for(var i = 0; i < clickEdit.length; i++) {
+  (function(index) {
+    clickEdit[index].addEventListener("click", function() {
+      editItem(clickEdit[index].parentElement);
+    })
+  })(i);
+}

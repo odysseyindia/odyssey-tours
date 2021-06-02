@@ -256,24 +256,24 @@
         {{- end }}
       </div>
       {{- end }}
-      <div id="addDay"></div>
+      <div id="appendDay"></div>
     </div>
     <div class="to-do-column overflow-hidden">
       <div class="main-container">
         <div class="row dossier">
           <div>
-            <a href="#0" class="button" onclick="saveItinerary()" data-toggle="tooltip" title="Save"><i class="icon-floppy"></i></a>
-            <a href="#0" class="button" id="toggleContent" data-toggle="tooltip" title="Compact" onclick="toggleContent()"><i class="icon-plus-squared"></i></a>
-            <a href="#0" class="button" id="toggleCalendar" data-toggle="tooltip" title="Display dates" onclick="toggleCalendar()"><i class="icon-blind"></i></a>
-            <a href="#0" class="button" data-toggle="tooltip" title="Insert a day" onclick="insertDay()"><i class="icon-plus"></i></a>
-            <a href="#0" class="button" data-toggle="tooltip" title="Delete a day"  onclick="deleteDay()"><i class="icon-minus"></i></a>
-            <a href="#0" class="button" data-toggle="tooltip" title="Append a day" onclick="addDay()"><i class="icon-plus"></i></a>
-            <a href="#0" class="button showWorkspace" data-toggle="tooltip" title="Workspace" id="toggleWorkspace" onclick="toggleWorkspace()"><i class="icon-wrench"></i></a>
+            <a href="#0" class="button" id="saveItinerary" data-toggle="tooltip" title="Save"><i class="icon-floppy"></i></a>
+            <a href="#0" class="button" id="toggleContent" data-toggle="tooltip" title="Compact"><i class="icon-plus-squared"></i></a>
+            <a href="#0" class="button" id="toggleCalendar" data-toggle="tooltip" title="Display dates"><i class="icon-calendar"></i></a>
+            <a href="#0" class="button" id="insertDay" data-toggle="tooltip" title="Insert a day"><i class="icon-plus"></i></a>
+            <a href="#0" class="button" id="deleteDay" data-toggle="tooltip" title="Delete a day"><i class="icon-minus"></i></a>
+            <a href="#0" class="button" id="addDay" data-toggle="tooltip" title="Append a day"><i class="icon-plus"></i></a>
+            <a href="#0" class="button" id="toggleWorkspace" data-toggle="tooltip" title="Workspace" showWorkspace><i class="icon-wrench"></i></a>
           </div>
         </div>
         <div class="row dossier">
           <div >
-            <a href="#0" id="writeButton" class="button" onclick="writeToTour()" data-toggle="tooltip" title="Write to tour"><i class="icon-edit-alt"></i></a>
+            <a href="#0" id="writeToTour" class="button" data-toggle="tooltip" title="Write to tour"><i class="icon-edit-alt"></i></a>
           </div>
         </div>
       </div>
@@ -283,7 +283,7 @@
       <div  class="select-flex">
         <div class="custom-select">
           <label for="cities" class="search-label">City</label>
-          <select class="maxwidth" id="cities" name="cities">
+          <select class="maxwidth" id="city" name="cities">
             <option value="">Select a city</option>
             {{ range ( sort (where (where .Site.Pages "Section" "destinations") ".Params.id" "city") ".Title" "asc" ) }}
             {{ $urlArray := split .Permalink "/" }}
@@ -291,14 +291,16 @@
             <option value="{{ .RelPermalink }}">{{ .Title }} {{ if ne $path "destinations" }}, {{ $path | humanize }}{{ end }}</option>
             {{ end }}
           </select>
-          <a href="#0" class="button"  onclick="addCity()">
+          <a href="#0" class="button"  id="add-city">
             <i class="select icon icon-city"></i>
           </a>
         </div>
       </div>
+  
       {{ partial "modal-select.html" (dict "dot" . "modal" "hotel" "text" "Hotels"  ) }}
       {{ partial "modal-select.html" (dict "dot" . "modal" "excursion" "text" "Excursions"  ) }}
       {{ partial "modal-select.html" (dict "dot" . "modal" "transfer" "text" "Transfers"  ) }}
+  
       <div id="info"></div>
       <div id="image"></div>
 
@@ -309,18 +311,19 @@
       <div class="containers" id="workspace"></div>
       <div class="trash-column">
         <div class="column-header">
-          <h4><i class="icon-trash"  onclick="emptyTrash()"></i> Trash</h4>
+          <h4><i class="icon-trash"  id="emptyTrash"></i> Trash</h4>
         </div>
         <div class="containers" id="trash">
         </div>
       </div>
     </div> 
   </div>
+  
   {{ partial "modal.html" (dict "dot" . "modal" "hotel"    ) }}
   {{ partial "modal.html" (dict "dot" . "modal" "city"     ) }}
   {{ partial "modal.html" (dict "dot" . "modal" "excursion") }}
-  {{ partial "modal.html" (dict "dot" . "modal" "carhire"  ) }}
-  {{ partial "modal.html" (dict "dot" . "modal" "flight"   ) }}
+  {{ partial "modal.html" (dict "dot" . "modal" "transfer" ) }}
+  
   <div id="modal-insert-day" class="modal">
     <div class="modal-content">
       <div class="container">
@@ -337,7 +340,7 @@
         </div>
         <div class="row buttons">
           <div>
-            <button type="button" class="save" onclick="saveModalDay()">
+            <button type="button" class="save" id="saveModalDay">
               <i class="icon-floppy"></i>
               Save
             </button>
@@ -363,7 +366,7 @@
         </div>
         <div class="row buttons">
           <div>
-            <button type="button" class="save" onclick="deleteModalDay()">
+            <button type="button" class="save" id="deleteModalDay">
               <i class="icon-floppy"></i>
               Save
             </button>

@@ -194,6 +194,10 @@
   content: '\e824'; }
 
 /* '' */
+.icon-calendar:before {
+  content: '\e825'; }
+
+/* '' */
 .icon-monument:before {
   content: '\e827'; }
 

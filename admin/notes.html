@@ -6,6 +6,7 @@ find . -path './*/cities/*/transfers' -exec sh -c 'echo "---\ntype=transfers\n--
 
 grep -lrIZ 'active: 0' . | xargs -0 rm -f --
 
+// const city = urldata.split("/")[(urldata.split("/")).length-2];
 
 {{ apply .Site.Data.books "index" "." "Year" | uniq | len }}
 
