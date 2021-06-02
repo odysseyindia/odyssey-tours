@@ -73,7 +73,7 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/rajasthan/cities/sawai-madhopur/excursions/morning-and-afternoon-jeep-safaris-in-ranthambore-np/
+          /destinations/india/states/rajasthan/cities/sawai-madhopur/excursions/morning-and-afternoon-jeep-safaris/
         title: Morning and afternoon jeep safaris in Ranthambore National Park
         content: >-
           Ranthambore National Park is one of the best places in India in which

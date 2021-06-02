@@ -119,7 +119,7 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/uttar-pradesh/cities/agra/excursions/early-morning-visit-to-the-taj-mahal-without-guide/
+          /destinations/india/states/uttar-pradesh/cities/agra/excursions/early-morning-visit-on-your-own-to-the-taj-mahal/
         title: Early morning visit on your own to the Taj Mahal
         content: >-
           The best time of day to appreciate this stunning monument is as soon

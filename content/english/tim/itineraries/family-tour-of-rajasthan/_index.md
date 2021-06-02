@@ -269,7 +269,7 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/rajasthan/cities/sawai-madhopur/excursions/morning-and-afternoon-jeep-safaris-in-ranthambore-np/
+          /destinations/india/states/rajasthan/cities/sawai-madhopur/excursions/morning-and-afternoon-jeep-safaris/
         title: Morning and afternoon jeep safaris in Ranthambore National Park
         content: >-
           Ranthambore National Park is one of the best places in India in which
@@ -372,7 +372,7 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/uttar-pradesh/cities/agra/excursions/early-morning-visit-to-the-taj-mahal-without-guide/
+          /destinations/india/states/uttar-pradesh/cities/agra/excursions/early-morning-visit-on-your-own-to-the-taj-mahal/
         title: Early morning visit on your own to the Taj Mahal
         content: >-
           The best time of day to appreciate this stunning monument is as soon
@@ -389,7 +389,7 @@ itinerary:
         duration: ''
       - type: excursion
         url: >-
-          /destinations/india/states/uttar-pradesh/cities/agra/excursions/afternoon-guided-city-tour-of-agra/
+          /destinations/india/states/uttar-pradesh/cities/agra/excursions/afternoon-guided-tour-of-agras-other-monuments/
         title: Afternoon guided tour of Agra's other monuments
         content: >-
           Agra has much to offer besides the Taj Mahal, such as Agra Fort, a

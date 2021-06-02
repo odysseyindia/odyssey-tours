@@ -179,7 +179,7 @@ itinerary:
           16th and 17th centuries.
       - type: excursion
         url: >-
-          /destinations/india/states/uttar-pradesh/cities/agra/excursions/half-day-city-tour-of-agra/
+          /destinations/india/states/uttar-pradesh/cities/agra/excursions/visit-to-the-taj-mahal-and-red-fort/
         title: Afternoon guided tour of the Taj Mahal and Red Fort
         content: >-
           The Taj Mahal is one of the most fascinating and beautiful monuments
@@ -264,7 +264,7 @@ itinerary:
           tigers.
       - type: excursion
         url: >-
-          /destinations/india/states/madhya-pradesh/cities/satpura/excursions/jeep-safari-in-satpura-national-park/
+          /destinations/india/states/madhya-pradesh/cities/satpura/excursions/afternoon-jeep-safari-in-satpura-national-park/
         title: Jeep safari in Satpura National Park
         content: >-
           There’s nothing quite like exploring Satpura Tiger Reserve in an
@@ -295,7 +295,7 @@ itinerary:
         nights: '2'
       - type: excursion
         url: >-
-          /destinations/india/states/madhya-pradesh/cities/satpura/excursions/jeep-safari-in-satpura-national-park/
+          /destinations/india/states/madhya-pradesh/cities/satpura/excursions/morning-jeep-safari-in-satpura-national-park/
         title: Jeep safari in Satpura National Park
         content: >-
           The best way to experience the jungle is to start at the crack of dawn

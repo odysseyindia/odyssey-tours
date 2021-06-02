@@ -158,7 +158,7 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/himachal-pradesh/cities/pragpur/excursions/day-at-leisure-to-get-to-know-the-village-crafts-and-architecture/
+          /destinations/india/states/himachal-pradesh/cities/pragpur/excursions/day-at-leisure/
         title: Day at leisure to get to know the village crafts and architecture
         content: >-
           Vijai Lal, who traces his family’s presence in Pragpur back several
@@ -270,7 +270,7 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/himachal-pradesh/cities/shimla/excursions/half-day-city-tour/
+          /destinations/india/states/himachal-pradesh/cities/shimla/excursions/morning-walking-tour-of-shimla/
         title: Morning walking tour of Shimla
         content: >-
           The best way to see Shimla is on foot, visiting the Botanical Gardens
