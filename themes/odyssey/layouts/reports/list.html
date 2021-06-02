@@ -9,8 +9,16 @@
           {{ .Content }}
         </div>
     </div>
-    {{- range .Data.Pages }}
-    {{- .Render "summary" }}
+    {{- $category := 0 -}}
+
+    {{- range sort (.Data.Pages ) ".Params.category" -}}
+
+        {{- if ne .Params.category $category }}
+            <h3>{{ .Params.category | humanize }}</h3>
+            {{-  $category = .Params.category }}
+        {{- end -}}
+
+        <div class="text"><a href="{{ .RelPermalink }}">{{- .Title }}</a></div>
     {{- end }}
   </div>
 </section>

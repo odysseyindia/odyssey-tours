@@ -1,4 +1,4 @@
 ---
-title: Reporting
+title: Reports
 type: reports
 ---

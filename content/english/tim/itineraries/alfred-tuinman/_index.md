@@ -5,7 +5,7 @@ type: itinerary
 arrdate: 2020-02-03T14:15:59-06:00
 depdate: 2020-02-23T14:15:59-06:00
 status: confirmed
-archived: false
+archived: true
 stage: proposal
 consultant: phil
 itinerary:

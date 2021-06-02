@@ -97,35 +97,11 @@ taxonomy                = ["html","json"]
     url = "/tim"
     weight = 11
    [[Languages.en.menu.main]]
-    name = "Report- Excursions"
+    name = "Reports"
     parent = "tim"
     pre = "tim"
-    url = "/tim/reports/excursions/"
+    url = "/tim/reports/"
     weight = 12
-   [[Languages.en.menu.main]]
-    name = "Report - Hotels"
-    parent = "tim"
-    pre = "tim"
-    url = "/tim/reports/hotels/"
-    weight = 13
-   [[Languages.en.menu.main]]
-    name = "Report - Point2Point"
-    parent = "tim"
-    pre = "tim"
-    url = "/tim/reports/point2point/"
-    weight = 14
-   [[Languages.en.menu.main]]
-    name = "Report - Transfers"
-    parent = "tim"
-    pre = "tim"
-    url = "/tim/reports/transfers/"
-    weight = 15
-   [[Languages.en.menu.main]]
-    name = "Report - Costings"
-    parent = "tim"
-    pre = "tim"
-    url = "/tim/reports/hotel-costings/"
-    weight = 17
   [[Languages.en.menu.main]]
     name = "Tour Ideas"
     identifier = "tour-ideas"

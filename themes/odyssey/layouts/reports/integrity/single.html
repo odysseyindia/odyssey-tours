@@ -1,0 +1,43 @@
+{{- define "main" }}
+{{- .Scratch.Set "layout" "layouts/reports/integrity/single.html" -}}
+
+<section id="reports-integrity"> 
+{{ partial "heading.html" . }}
+<div class="container">
+<h3>Itineraries</h3>
+{{- range sort (where (where .Site.Pages "Section" "tim") ".Params.type" "itinerary" )  ".RelPermalink"  }}
+
+    {{- $missing := slice }}
+    {{ if ne .Params.archived true }}
+        {{- range $index,$e := .Params.itinerary }}
+            {{- range $i,$v := .item }}
+
+                {{- $url := printf "%s%s" $v.url "_index.md" -}}
+
+                {{- with $.Site.GetPage (string $url) }}
+                    <!-- all ok -->
+                {{- else }}
+                    {{ $missing = $missing | append $v.url }}
+                {{- end }}
+
+            {{- end }}
+        {{- end }}
+
+        {{- if gt (len $missing) 0 }}
+            <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+            {{- range $missing }}
+                <div class="text">
+                {{ . }}
+                </div>
+                {{- end }}
+        {{- end }}
+    {{- end }}
+{{- end }}
+
+</div>
+</section>
+
+{{- end }}
+{{- define "postscript" }}
+
+{{- end }}
