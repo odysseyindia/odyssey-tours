@@ -58,7 +58,7 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/ladakh/cities/leh/excursions/half-day-walking-tour-of-leh/
+          /destinations/india/states/ladakh/cities/leh/excursions/afternoon-walking-tour-of-leh/
         title: Afternoon walking tour of Leh
         content: >-
           The morning is at leisure to help the acclimatisation process. Stroll
@@ -79,8 +79,8 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/ladakh/cities/leh/excursions/full-day-excursion-to-shey-thiksey-and-hemis/
-        title: Full day excursion to Shey, Thiksey and Hemis monasteries
+          /destinations/india/states/ladakh/cities/leh/excursions/full-day-excursion-to-shey-thikse-and-hemis/
+        title: Full day excursion to Shey, Thikse and Hemis monasteries
         content: >-
           Today you get to visit the three major Buddhist monasteries around
           Leh, starting with Shey. This is the oldest of the three monasteries
@@ -88,7 +88,7 @@ itinerary:
           two-storey-high statue of the Buddha seated in meditation.
 
 
-          Up ahead is the twelve-storey, 800-year-old Thiksey Gompa, a good
+          Up ahead is the twelve-storey, 800-year-old Thikse Gompa, a good
           place to witness religious ceremonies. It’s a magical moment when the
           monks say their prayers amidst mystical chanting, the ringing of
           bells, the clashing of cymbals, and the blowing of horns.

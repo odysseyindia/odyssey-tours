@@ -354,7 +354,7 @@ itinerary:
         duration: ''
       - type: excursion
         url: >-
-          /destinations/india/states/uttar-pradesh/cities/agra/excursions/afternoon-guided-city-tour-of-agra/
+          /destinations/india/states/uttar-pradesh/cities/agra/excursions/afternoon-guided-tour-of-agra/
         content: >-
           Agra has much to offer besides the Taj Mahal, such as Agra Fort, a
           masterpiece of design and construction. You then visit

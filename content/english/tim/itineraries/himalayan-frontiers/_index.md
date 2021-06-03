@@ -108,7 +108,7 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/sikkim/cities/rinchenpong/excursions/day-at-leisure-in-rinchenpong/
+          /destinations/india/states/sikkim/cities/rinchenpong/excursions/activities-at-yangsum-farm/
         title: Day at leisure in Rinchenpong
         content: >-
           There’s always something to do at a farm: you can help with the daily
@@ -144,8 +144,8 @@ itinerary:
           of Rabdentse, Sikkim’s second capital.
       - type: excursion
         url: >-
-          /destinations/india/states/sikkim/cities/pelling/excursions/afternoon-visit-to-pemyangtse-monastery/
-        title: Afternoon visit to Pemyangtse Monastery
+          /destinations/india/states/sikkim/cities/pelling/excursions/afternoon-visit-to-pemayangtse-monastery/
+        title: Afternoon visit to Pemayangtse Monastery
         content: >-
           The awe-inspiring ancient monastery of Pemayangtse, literally ‘perfect
           sublime lotus’, is the second-oldest in Sikkim. Traditional frescoes
@@ -176,7 +176,7 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/sikkim/cities/pelling/excursions/sanga-choling-monastery/
+          /destinations/india/states/sikkim/cities/pelling/excursions/early-morning-hike-to-sanga-choling-monastery/
         title: Early morning hike to Sanga Choling Monastery
         content: >-
           Early in the morning, your guide will lead you on the 3km hike to
@@ -224,7 +224,7 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/sikkim/cities/gangtok/excursions/phodang-and-labrang/
+          /destinations/india/states/sikkim/cities/gangtok/excursions/full-day-excursion-to-phodang-and-labrang-by-jeep/
         title: Full day excursion to Phodang and Labrang monasteries
         content: >-
           It is a winding and bumpy drive by jeep to Phodang monastery, a small

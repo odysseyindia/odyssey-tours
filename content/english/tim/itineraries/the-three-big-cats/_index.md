@@ -155,7 +155,7 @@ itinerary:
           migratory birds, as well as crocodiles and turtles.
       - type: excursion
         url: >-
-          /destinations/india/states/rajasthan/cities/bera/excursions/morning-and-evening-leopard-safaris/
+          /destinations/india/states/rajasthan/cities/bera/excursions/afternoon-leopard-safari/
         title: Evening leopard safari
         content: >-
           The region around Bera is a beautiful combination of semi-desert
@@ -190,7 +190,7 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/rajasthan/cities/bera/excursions/morning-birdwatching-safari/
+          /destinations/india/states/rajasthan/cities/bera/excursions/morning-bird-watching-safari/
         title: Morning bird-watching safari
         content: >-
           A highlight of any trip to the Bera region is a visit to the nearby
@@ -312,7 +312,7 @@ itinerary:
           hatchery.
       - type: excursion
         url: >-
-          /destinations/india/states/gujarat/cities/sasangir/excursions/jeep-safari-into-sasangir-national-park/
+          /destinations/india/states/gujarat/cities/sasangir/excursions/jeep-safari-in-sasangir-national-park/
         title: Afternoon jeep safari into Sasangir National Park
         content: >-
           Gir National Park & Wildlife Sanctuary is a hilly tract of dry

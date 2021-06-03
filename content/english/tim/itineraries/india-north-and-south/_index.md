@@ -84,7 +84,7 @@ itinerary:
           16th and 17th centuries.
       - type: excursion
         url: >-
-          /destinations/india/states/uttar-pradesh/cities/agra/excursions/half-day-city-tour-of-agra/
+          /destinations/india/states/uttar-pradesh/cities/agra/excursions/afternoon-guided-tour-of-agras-other-monuments/
         title: Afternoon guided tour of Agra's other monuments
         content: >-
           Agra has much to offer besides the Taj Mahal, such as Agra Fort, a

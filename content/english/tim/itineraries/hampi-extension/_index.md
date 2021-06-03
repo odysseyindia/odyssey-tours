@@ -73,9 +73,9 @@ itinerary:
     item: []
   - day: 3
     item:
-      - type: excursion
+      - type: transfer
         url: >-
-          /destinations/india/states/karnataka/cities/hampi/excursions/transfer-from-hampi-hotel-to-hospet-railway-station/
+          /destinations/india/states/karnataka/cities/hampi/transfers/transfer-from-hampi-hotel-to-hospet-railway-station/
         title: Departure
         content: >-
           Today, you drive on to your next destination, or drive to Hospet

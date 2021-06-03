@@ -108,7 +108,7 @@ itinerary:
           frogmouth and the mottled wood owl are also seen here.
       - type: excursion
         url: >-
-          /destinations/india/states/kerala/cities/thattekad/excursions/bird-watching-trip/
+          /destinations/india/states/kerala/cities/thattekad/excursions/bird-watching-trip-from-hornbill-camp/
         title: Afternoon birding walk
         content: >-
           Thattekad Bird Sanctuary is one of the richest bird habitats in
@@ -146,7 +146,7 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/kerala/cities/thattekad/excursions/day-at-leisure-for-walking-cycling-and-kayaking/
+          /destinations/india/states/kerala/cities/thattekad/excursions/day-at-leisure-at-hornbill-camp-for-walking-cycling-and-kayaking/
         title: >-
           Early morning birding walk. Day at leisure for walking, cycling and
           kayaking

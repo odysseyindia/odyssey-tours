@@ -48,7 +48,7 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/karnataka/cities/madikeri/excursions/day-at-leisure-in-madikeri/
+          /destinations/india/states/karnataka/cities/madikeri/excursions/day-at-leisure-at-old-kent/
         title: Day at leisure in Madikeri
         content: >-
           A coffee plantation offers plenty of active and completely inactive

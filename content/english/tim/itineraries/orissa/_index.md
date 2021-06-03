@@ -57,10 +57,10 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/orissa/cities/bhubaneswar/excursions/half-day-city-tour-of-bhubaneshwar-temples/
-        title: Morning guided tour of Bhubaneshwar's temples
+          /destinations/india/states/orissa/cities/bhubaneswar/excursions/half-day-city-tour-of-bhubaneswar-temples/
+        title: Morning guided tour of Bhubaneswar's temples
         content: >-
-          The lively old city of Bhubanehwar is full of ancient temples. The
+          The lively old city of Bhubaneswar is full of ancient temples. The
           most famous, the Lingaraj Temple, is closed to non-Hindus, but can be
           observed from a raised platform opposite.
 

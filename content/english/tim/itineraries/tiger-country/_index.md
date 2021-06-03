@@ -211,7 +211,7 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/maharashtra/cities/tadoba/excursions/morning-and-afternoon-jeep-safaries-in-tadoba-national-park/
+          /destinations/india/states/maharashtra/cities/tadoba/excursions/morning-and-afternoon-jeep-safaris-in-tadoba-national-park/
         title: Morning and afternoon jeep safaries in Tadoba National Park
         content: >-
           Morning and afternoon jeep rides will ensure that you make the most of

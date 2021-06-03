@@ -293,7 +293,7 @@ itinerary:
           sanctuary entrance is a crocodile hatchery.
       - type: excursion
         url: >-
-          /destinations/india/states/gujarat/cities/sasangir/excursions/jeep-safari-into-sasangir-national-park/
+          /destinations/india/states/gujarat/cities/sasangir/excursions/jeep-safari-in-sasangir-national-park/
         title: Afternoon jeep safari into Sasangir National Park
         content: >-
           Gir National Park & Wildlife Sanctuary is a hilly tract of dry

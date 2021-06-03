@@ -129,7 +129,7 @@ itinerary:
         duration: ''
       - type: excursion
         url: >-
-          /destinations/india/states/punjab/cities/amritsar/excursions/afternoon-excursion-to-the-wagah-border/
+          /destinations/india/states/punjab/cities/amritsar/excursions/afternoon-excursion-to-the-wagah-border-ceremony/
         title: Afternoon excursion to the Wagah border ceremony
         content: >-
           The daily border closing ceremony at the Wagah Border between India
@@ -276,7 +276,7 @@ itinerary:
           a variety of items ranging from handlooms to travel bags to
           traditional clothing. Plenty of cafes have sprung up around the city
           where you can sip on a hot coffee and watch the world go by. In the
-          evening worshippers congregate for the ‘Ganga aarti’ with ‘diyas’
+          evening worshippers congregate for the *Ganga aarti* with *diyas*
           (earthen lamps), garlands and chanting of mantras (ancient sacred
           texts), a fascinating spectacle to watch.
         date: ''

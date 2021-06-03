@@ -25,7 +25,7 @@ itinerary:
           the best base to explore Tibetan Buddhism, history and culture.
       - type: excursion
         url: >-
-          /destinations/india/states/himachal-pradesh/cities/dharamsala/excursions/drive-to-satobari-trek-to-kareri-1900m-4-hours-walk/
+          /destinations/india/states/himachal-pradesh/cities/dharamsala/excursions/drive-to-satobari-trek-to-kareri-1900m-4-5-hours-walk/
         title: Drive to Satobari, trek to Kareri (1,900m - 4/5 hours' walk)
         content: >-
           Today, you first drive from McLeod Ganj to Satobari, the starting
@@ -35,13 +35,13 @@ itinerary:
           village (1,900m), a Gaddi tribal village of about 50 houses. We camp
           here near a small stream.
         date: ''
-        etd: ''
+        etd: '' 
         duration: ''
   - day: 1
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/himachal-pradesh/cities/dharamsala/excursions/trek-from-kareri-to-bahl-2000m-5-hours-walk/
+          /destinations/india/states/himachal-pradesh/cities/dharamsala/excursions/trek-from-kareri-to-bahl-2000m-5-6-hours-walk/
         title: Trek from Kareri to Bahl (2,000m - 5/6 hours' walk)
         content: >-
           We start a gradual, two-hour walk after breakfast, crossing several
@@ -56,7 +56,7 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/himachal-pradesh/cities/dharamsala/excursions/trek-from-bahl-to-triund-2900m-45-hours-walk/
+          /destinations/india/states/himachal-pradesh/cities/dharamsala/excursions/trek-from-bahl-to-triund-2900m-4-5-hours-walk/
         title: Trek from Bahl to Triund (2,900m - 4/5 hours' walk)
         content: >-
           This morning, an hour’s walk on a steep slope takes us to the Galu
