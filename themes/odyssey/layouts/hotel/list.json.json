@@ -15,7 +15,7 @@
   "phone":          "{{ .Params.phone }}",
   "mobile":         "{{ .Params.mobile }}",
   "email":          "{{ .Params.email }}",
-  "wwww":           "{{ .Params.wwww }}",
+  "www":            "{{ .Params.www }}",
   "note":           "{{ .Params.note }}",
   "showHotel":      "{{ .Params.showHotel }}",
   "starCategory":   "{{ .Params.starCategory }}",

@@ -14,8 +14,12 @@
   "guide":          "{{ .Params.guide }}",
   "dayAtLeisure":   "{{ .Params.dayAtLeisure }}",
   "active":         "{{ .Params.active }}",
-  "translationKey": "{{ .Params.translationKey }}",
-  "image":          "{{- range $i,$e := (.Resources.ByType "image") }}{{- if eq $i 0 }}{{ . }}{{- end }}{{- end }}"
+  "translationKey": "{{ .Params.translationKey }}"
+   {{- range $i,$e := (.Resources.ByType "image") }} 
+    {{- if eq $i 0 }}
+  ,"image": "{{ . }}"
+    {{- end }}
+{{- end }} 
   {{- end }}
   {{- end }}
 }

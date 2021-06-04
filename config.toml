@@ -103,6 +103,12 @@ taxonomy                = ["html","json"]
     url = "/tim/reports/"
     weight = 12
   [[Languages.en.menu.main]]
+    name = "Reports"
+    parent = "tim"
+    pre = "tim"
+    url = "/tim/data/"
+    weight = 13
+  [[Languages.en.menu.main]]
     name = "Tour Ideas"
     identifier = "tour-ideas"
     pre = "pen-tool"

@@ -1,0 +1,15 @@
+find -regextype posix-extended -regex '.{257,}'
+
+find . -wholename '*/cities/*/excursions/*/_index.md' -exec sed -i 's/type: excursions/type: excursion/g' {} \;
+
+grep -RiIl 'full-day-at-leisure-to-explore-elephant-valley'
+
+find . -path './*/cities/*/transfers' -exec sh -c 'echo "---\ntype=transfers\n---" > $1/_index.md' _ {} \;
+
+grep -lrIZ 'active: 0' . | xargs -0 rm -f --
+
+find . -name index.md -print0 | xargs -0 -n1 bash -c 'mv "$0" "${0/index.md/_index.md}"'
+grep -lrIZ 'active: 0' . | xargs -0 rm -f --
+find . -path './*/cities/*/transfers' -exec sh -c 'echo "---\ntype=transfers\n---" > $1/_index.md' _ {} \;
+
+find .  -name 'excursions' -type d -exec cp west-bengal/cities/kolkata/excursions/_index.md

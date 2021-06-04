@@ -1,3 +1,4 @@
 ---
-title: Main data
+title: Data screens
+type: data
 ---

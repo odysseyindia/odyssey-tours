@@ -3,12 +3,8 @@
 
 <section id="{{ .Scratch.Get "id" | lower }}"> 
   {{ partial "heading.html" . }}
-  <div class="container">
-    <div class="row">
-      <div class="mx-auto w-50 p-1">
-
-      </div>
-    </div>
+ <div class="row">
+    <div id="image"></div>
     <div class="data">
 
       <div class="table even">
@@ -16,9 +12,12 @@
           <option value="0">Select a hotel</option>
         </div>
         <div class="item-2">
-          <select name="destination" id="field">
-           {{- range ( where ( where $.Site.Pages "Section" "destinations") ".Params.type" "hotel" ) }}     
-           <option value="{{ .RelPermalink }}">{{ .Title }}</option>
+          <select name="destination" id="hotels">
+            <option value="0"></option>
+           {{- range sort ( where ( where $.Site.Pages "Section" "destinations") ".Params.type" "hotel" ) ".Title" "asc" }}
+             {{ $array := split .RelPermalink "/" }}
+            {{ $path  := index $array (sub (len $array) 4) }}
+              <option value="{{ .RelPermalink }}">{{ .Title }}{{ if ne $path "destinations" }}, {{ $path | humanize }}{{ end }}</option>
            {{- end }}
          </select> 
        </div>
@@ -28,40 +27,117 @@
       <div class="item-1"><b>Field</b></div>
       <div class="item-2"><b>Data</b></div>
     </div>
+
+     <div class="table even">
+      <div class="item-1">URL </div>
+      <div id="url" contenteditable="true" class="item-2"></div>
+    </div>
     
     <div class="table even">
       <div class="item-1">Title </div>
-      <div id="pTitle" contenteditable="true" class="item-2"></div>
+      <div id="title" contenteditable="true" class="item-2"></div>
     </div>
 
     <div class="table odd">
       <div class="item-1">Address</div>
-      <div id="pAddress" contenteditable="true" class="item-2">{{ .Params.address }}</div>
+      <div class="item-2">
+         <textarea id="address" contenteditable="true" class="custom-control-input" type="text"></textarea>
+      </div>
+    </div>
+
+    <div class="table odd">
+      <div class="item-1">City</div>
+      <div id="city" contenteditable="true" class="item-2"></div>
     </div>
 
     <div class="table odd">
       <div class="item-1">Postal code</div>
       <div class="item-2">
         <div class="form-check">
-          <input id="pPostalcode" class="custom-control-input" type="int" min=0 max=900000 step=1 value="{{ with .Params.postalcode }}{{ . }}{{ end }}">
+          <input id="postalcode" class="custom-control-input" type="int" min=0 max=900000 step=1 value="">
         </div>
       </div>
     </div>
 
     <div class="table odd">
-      <div class="item-1">Star Category</div>
+      <div class="item-1">Phone</div>
       <div class="item-2">
-        <div class="form-check">
-          <input id="pStarCategory" class="custom-control-input" type="int" min=0 max=6 step=1 value="{{ with .Params.starcategory }}{{ . }}{{ else }}0{{ end }}">
-        </div>
+         <textarea id="phone" contenteditable="true" class="custom-control-input" type="text"></textarea>
       </div>
+    </div>
+
+    <div class="table odd">
+      <div class="item-1">Email</div>
+      <div class="item-2">
+        <textarea id="email" contenteditable="true" class="custom-control-input" type="text"></textarea>
+      </div>
+    </div>
+
+    <div class="table odd">
+      <div class="item-1">Website</div>
+      <div id="www" contenteditable="true" class="item-2"></div>
+    </div>
+    
+    <div class="table odd">
+      <div class="item-1">Book through</div>
+      <div id="bookThrough" contenteditable="true" class="item-2"></div>
+    </div>
+
+    <div class="table odd">
+      <div class="item-1">Mail to</div>
+      <div id="mailTo" contenteditable="true" class="item-2"></div>
+    </div>
+
+    <div class="table odd">
+      <div class="item-1">Note</div>
+       <div id="note" contenteditable="true" class="item-2"></div>
+    </div>
+
+    <div class="table odd">
+      <div class="item-1">Access by air</div>
+       <div id="accessAir" contenteditable="true" class="item-2"></div>
+    </div>
+
+   
+    <div class="table odd">
+      <div class="item-1">Access by rail</div>
+       <div id="accessRail" contenteditable="true" class="item-2"></div>
+    </div>
+
+   
+    <div class="table odd">
+      <div class="item-1">Access by bus</div>
+       <div id="accessBus" contenteditable="true" class="item-2"></div>
+    </div>
+
+    <div class="table odd">
+      <div class="item-1">Check Out</div>
+       <div id="checkout" contenteditable="true" class="item-2"></div>
     </div>
 
     <div class="table even">
       <div class="item-1">Rooms</div>
       <div class="item-2">
         <div class="form-check">
-          <input id="pRooms" class="custom-control-input" type="int" min=0 max=500 step=1 value="{{ .Params.rooms }}">
+          <input id="rooms" class="custom-control-input" type="int" min=0 max=500 step=1 value="">
+        </div>
+      </div>
+    </div>
+
+     <div class="table even">
+      <div class="item-1">Star rating</div>
+      <div class="item-2">
+        <div class="form-check">
+          <input id="starCategory" class="custom-control-input" type="int" min=0 max=6 step=1 value="">
+        </div>
+      </div>
+    </div>
+
+    <div class="table even">
+      <div class="item-1">Ranking</div>
+      <div class="item-2">
+        <div class="form-check">
+          <input id="ranking" class="custom-control-input" type="int" min=0 max=5 step=1 value="">
         </div>
       </div>
     </div>
@@ -70,7 +146,7 @@
       <div class="item-1">Nighthalt</div>
       <div class="item-2">
         <div class="form-check">
-          <input id="pNighthalt" class="custom-control-input" type="checkbox" {{ with .Params.nighthalt }}{{ if eq .Params.nighthalt true}}checked {{ end }}{{ end }} value="">
+          <input id="nighthalt" class="custom-control-input" type="checkbox" value="">
         </div>
       </div>
     </div>
@@ -78,7 +154,7 @@
     <div class="table even">
       <div class="item-1">Category</div>
       <div class="item-2">
-       <select name="pCategory">
+       <select id="category" name="category">
          <option value="0">No category</option>
          <option value="Standard Hotel">Standard Hotel</option>
          <option value="Comfortable Hotel">Comfortable Hotel</option>
@@ -88,136 +164,47 @@
     </div>
 
     <div class="table odd">
-      <div class="item-1">Draft</div>
+      <div class="item-1">Display</div>
       <div class="item-2">
         <div class="form-check">
-          <input id="pDraft" class="custom-control-input" type="checkbox" {{ with .Params.draft }}{{ if eq .Params.draft true}}checked {{ end }}{{ end }} value="">
+          <input id="showHotel" class="custom-control-input" type="checkbox" value="">
+        </div>
+      </div>
+    </div>
+
+     <div class="table odd">
+      <div class="item-1">Used for web site</div>
+      <div class="item-2">
+        <div class="form-check">
+          <input id="web" class="custom-control-input" type="checkbox" value="">
         </div>
       </div>
     </div>
 
     <div class="table even">
-      <div class="item-1">Content</div>
-      <div id="pContent" contenteditable="true" class="item-2">{{ .Content }}</div>
+      <div class="item-1">GST type</div>
+      <div id="gstType" contenteditable="true" class="item-2"></div>
     </div>
 
   </div>
-  <button class="save btn btn-success" id="save">
-    <i class="icon-floppy"></i>
-    Save
-  </button>
+  <div class="content">
+      <textarea id="content" contenteditable="true" class="content-column custom-control-input" type="text"> </textarea>
+  </div>
 </div>
+
+<div class="mx-auto w-50">
+    <div id="in-progress" class="spinner" role="status">
+      <span class="sr-only">In progress...</span>
+    </div>
+    <div>
+      <button class="save btn btn-success" id="save">
+        <i class="icon-floppy"></i>
+        Save
+      </button>
+    </div>
+  </div>
 </section>
 {{- end }}
 {{- define "postscript" }}
-
-<script>
-
-  var   host   = window.location.href.split("/");
-  var   host   = host[0] + "//" + host[2];
-
-  document.getElementById("field").addEventListener("change", (event) => {
-    changeOption();
-  });
-
-  function changeOption(){
-    const source = document.querySelector("#field");
-    if ( typeof source[source.selectedIndex] !== 'undefined'){
-      var option = source[source.selectedIndex].value;
-      displayData(option);
-    }
-  };
-
-  function displayData(urldata){
-
-    //const uri  = urldata.split("/")[(urldata.split("/")).length-2];
-    const path = host+"/destinations/india/states/index.json";
-
-    docLoad({url: path}).then(
-
-      function(response) {
-
-        const parsedData = JSON.parse(response);
-        const data       = parsedData.data.items;
-
-        for (var i = 0; i<data.length; i++) { 
-          if (data[i].permalink == urldata){
-            document.getElementById("pTitle").innerText       = data[i].title;
-            document.getElementById("pAddress").innerText     = data[i].address;
-            document.getElementById("pPostalcode").innerText  = data[i].postalcode;
-            document.getElementById("pStarcategory").value    = data[i].starcategory;
-            document.getElementById("pNighthalt").value       = data[i].nighthalt;
-            document.getElementById("pRooms").value           = data[i].rooms;
-            document.getElementById("pCategory").value        = data[i].category;
-            document.getElementById("pDraft").value           = data[i].draft;
-            document.getElementById("pContent").innerText     = data[i].content;
-          };
-        };
-      }, 
-
-      function(Error) {
-        console.log(Error);
-      }
-    );
-  };
-
-  document.getElementById("save").addEventListener("click", function(){
-
-    const source      = document.querySelector("#field")
-    const permalink   = source[source.selectedIndex].value ;
-
-    var data          = [];
-        data.title    = document.getElementById("pTitle").innerText;
-        data.draft    = document.getElementById("pDraft").value;
-    var content       = document.getElementById("pContent").innerText;
-
-    docLoad({
-      url:    'ajax', 
-      method: 'POST',
-      data:   JSON.stringify({ 
-        "file"   : {{ .RelPermalink }}, 
-        "data"   : data,
-        "content": content
-      }) 
-    })
-    .then(
-
-      function(response){ 
-        console.log( statusText ); 
-      }, 
-
-      function(Error){ 
-        console.log( Error ); 
-      }
-    );
-});
-
-
-function docLoad(object) {
-
-    return new Promise(function(resolve, reject) {
-
-      var host = ((object.method == 'POST')? {{ .Site.Params.appHost }} : "") + object.url;
-
-      var request = new XMLHttpRequest();
-      request.open(object.method || "GET", host);
-      request.setRequestHeader("Content-Type", "application/json");
-
-      request.onload = function() {
-        if (request.status === 200) {
-          resolve(request.response);
-        } else {
-          reject(Error('Document requested did not load successfully; error code:' + request.statusText));
-        }
-      };
-
-      request.onerror = function() {
-        reject(Error('There was a network error.'));
-      };
-      request.send(JSON.stringify(object));
-    });
-  }
-
-</script>
-
+<script type="module" src="/js/app/dataHotels.js"></script>
 {{- end }}

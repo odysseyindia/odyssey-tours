@@ -1,5 +1,10 @@
 #data {
 	
+	textarea.content-column {
+		height: 350px;
+		padding: 5px;
+	}
+
     #in-progress.spinner {
     border: 10px solid #f3f3f3; 
     border-top: 10px solid green;
@@ -20,12 +25,15 @@
 		line-height: initial;
 	}
 
-	#map, #image {
+	#map, #image, .content {
 		width: 30%;
 	}
+
 	.data{
 		background-color: lightblue;
 		width: 40%;
+		padding-top: 15px;
+		padding-bottom: 15px;
 	}
 
 	.mx-auto {
@@ -75,5 +83,9 @@
 
 	.hidden {
 		visibility: hidden;
+	}
+
+	textarea {
+		width: 100%;
 	}
 }
