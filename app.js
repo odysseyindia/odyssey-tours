@@ -433,6 +433,66 @@ app.post('/import',function (req, res) {
       } catch (err) {
         console.log("Route import writing "+mdfile+": " + err.message);
       } 
+      } else if ( request.file == 'hotel-contacts.csv') {
+
+     var country   = urlize(array[0]);
+     var state     = urlize(array[1]);
+     var city      = urlize(array[2]);
+
+     var mdfile = dir+'/destinations/'+country+'/states/'+state+'/cities/'+city+'/hotels/'+urlize(array[3])+'/';
+
+     console.log('Processing ',mdfile);
+
+     const made = mkdirp.sync(mdfile);
+     
+     try {
+      var fileContents = fs.readFileSync(mdfile+'_index.md', 'utf8', (err) => {       
+        if (err) throw err; 
+      }) 
+      var contents = fileContents.split("---");
+      data = yaml.loadAll(contents[1]);
+    } 
+    catch (error) {
+      var data = [];
+      data[0]  = {};
+      data[0].title           = array[3];
+      data[0].translationKey  = urlize(array[3]);
+      data[0].type            = 'hotel';
+    }
+
+    /*
+    0=country 1=state  2=city  3=organisation  addressdetails_id addressbook_id  6=salutation  7=firstname 8=lastname  9=title extension 11=email 
+    12=phoneres  13=mobile  OrderNo
+     */
+
+     try {
+
+      let newData = {};
+
+      newData.salutation  = array[6];
+      newData.firstname   = array[7];
+      newData.lastname    = array[8];
+      newData.title       = array[9];
+      newData.email       = array[11];
+      newData.phone       = array[12];
+      newData.mobile      = array[13];
+
+        if (typeof data[0].contacts === 'undefined'){
+          data[0].contacts = [];
+        };
+
+        // reset rates to null
+        // data[0].contacts = []; 
+        data[0].contacts.push(newData);
+
+        let output = `---\n` + yaml.dump(data[0]) + "---\n" + contents[2];
+
+        fs.writeFileSync(mdfile+'_index.md', output, 'utf8', (err) => {       
+          if (err) throw err; 
+        })
+      } catch (err) {
+        console.log("Route import writing "+mdfile+": " + err.message);
+      }   
 
     } else if ( request.file == 'hotel-categories.csv') {
 

@@ -1,210 +1,137 @@
 {{ define "main" }}
 {{ .Scratch.Set "layout" "layouts/data/hotels/single.html" -}}
 
+{{- $categoryData  := .Site.Data.categories }}
+{{- $tagData       := .Site.Data.tags }}
+
 <section id="{{ .Scratch.Get "id" | lower }}"> 
   {{ partial "heading.html" . }}
- <div class="row">
-    <div id="image"></div>
-    <div class="data">
 
-      <div class="table even">
-        <div class="item-1">
-          <option value="0">Select a hotel</option>
+
+
+<main>
+    <div class="container">
+        <div class="jss374 jss371 jss413">
+            <div>
+                <div class="jss4548">
+                    <div class="jss4549">
+                        <div class="supplier-hdr">
+                            <div class="mr-30"><h2 class="title-header" data-test="itineraries_title">Hotels</h2></div>
+                            <div class="jss4555">
+                                <a class="create-button" tabindex="0" role="button" data-test="create_supplier_button" href="/suppliers/create"><span >Create hotel</span></a>
+                            </div>
+                        </div>
+                        <div class="odc2">
+                            <div class="section">
+                                <div>
+                                    <button class="search" tabindex="0" type="button">
+                                        <span class="jss502">
+                                            <svg class="jss470" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation">
+                                                <path
+                                                    d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                                                ></path>
+                                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                    <input class="search-box" placeholder="Search" role="searchbox" value="" />
+                                </div>
+                            
+                                <div class="flex" role="switch" aria-checked="false" tabindex="0">
+                                    <div class="show-archived" data-test="archive_toggle_text">Show archived</div>
+                                    <button class="btn-archive" tabindex="0" type="button">
+                                        <span>
+                                            <svg class="svg-archive" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation">
+                                                <path d="M17 7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h10c2.76 0 5-2.24 5-5s-2.24-5-5-5zM7 15c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"></path>
+                                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th scope="col">
+                                    <span class="odc8" tabindex="0" role="button" data-column="name">
+                                        <span class="supplier-name">Hotel name</span>
+                                        <svg class="svg-arrow" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation">
+                                            <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path>
+                                            <path fill="none" d="M0 0h24v24H0V0z"></path>
+                                        </svg>
+                                    </span>
+                                </th>
+                                <th scope="col" width="200">
+                                    <span class="odc8" tabindex="0" role="button" data-column="type">
+                                        <span class="supplier-name">City</span>
+                                        <svg class="svg-arrow" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation">
+                                            <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path>
+                                            <path fill="none" d="M0 0h24v24H0V0z"></path>
+                                        </svg>
+                                    </span>
+                                </th>
+                                <th scope="col" width="300">
+                                    <span class="supplier-name">Country</span></th>
+                                <th scope="col" width="170">
+                                    <span class="odc8" tabindex="0" role="button" data-column="created_at">
+                                        <span class="odc1">Created</span>
+                                        <svg class="svg-arrow" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation">
+                                            <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path>
+                                            <path fill="none" d="M0 0h24v24H0V0z"></path>
+                                        </svg>
+                                    </span>
+                                </th>
+                                <th scope="col" width="34"><span></span></th>
+                                <th scope="col" width="34"><span></span></th>
+                            </tr>
+                        </thead>
+                        <tbody class="jss4652">
+                          {{ $range     := sort ( where ( where .Site.Pages "Section" "destinations") ".Params.type" "hotel" ) ".Title" "asc" }}
+                          {{ with ($.Site.GetPage (printf "/%s/%s" "tags" "Cities")) }}
+                          {{ $paginator := (.Paginator 10).Pages }}
+                          
+                          {{ range (.Paginator 10).Pages }}
+                            {{ $array := split .RelPermalink "/" }}
+                            {{ $city  := index $array (sub (len $array) 4) }}
+                            {{ $country := index $array 2 }}
+                            <tr class="jss4635 t6 jss4637 t8" data-index="7">
+                                <td class="jss4640 t10 jss4642 jss5036"><div class="jss5076" style="max-width: 300px;"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div></td>
+                                <td class="jss4640 t10 jss4642">{{ if ne $city "destinations" }}{{ $city | humanize }}{{ end }}</td>
+                                <td class="jss4640 t10 jss4642"><div class="jss5076" style="max-width: 300px;">{{ $country | humanize }}</div></td>
+                                <td class="jss4640 t10 jss4642">{{ .PublishDate.Format "January 2, 2006" }}</td>
+                                <td class="jss4640 t10 jss4642 jss5039"></td>
+                                <td class="jss4640 t10 jss4642" data-test="supplier_options_menu">
+                                    <div class="menu-icon">
+                                        <button class="menu-icon-btn" tabindex="0" type="button" data-test="options" aria-label="More" aria-haspopup="true" title="More">
+                                            <span class="svg-menu-span">
+                                                <svg class="svg-menu" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation">
+                                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                                    <path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path>
+                                                </svg>
+                                            </span>
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                          {{- end }}
+                          {{ template "_internal/pagination.html" . }}
+  {{ end }}
+                         
+                        </tbody>
+                    </table>
+                </div>
+                <div class="jss4546">
+                    <button class="jss503 jss5040 jss4572 jss5042 jss5044 jss5045 jss5047 jss4575 jss5063 jss4573" tabindex="0" type="button" data-test="more"><span class="jss5041 jss4580">Load more</span></button>
+                </div>
+            </div>
         </div>
-        <div class="item-2">
-          <select name="destination" id="hotels">
-            <option value="0"></option>
-           {{- range sort ( where ( where $.Site.Pages "Section" "destinations") ".Params.type" "hotel" ) ".Title" "asc" }}
-             {{ $array := split .RelPermalink "/" }}
-            {{ $path  := index $array (sub (len $array) 4) }}
-              <option value="{{ .RelPermalink }}">{{ .Title }}{{ if ne $path "destinations" }}, {{ $path | humanize }}{{ end }}</option>
-           {{- end }}
-         </select> 
-       </div>
-     </div>
+    </div>
+</main>
 
-    <div class="table">
-      <div class="item-1"><b>Field</b></div>
-      <div class="item-2"><b>Data</b></div>
-    </div>
-
-     <div class="table even">
-      <div class="item-1">URL </div>
-      <div id="url" contenteditable="true" class="item-2"></div>
-    </div>
-    
-    <div class="table even">
-      <div class="item-1">Title </div>
-      <div id="title" contenteditable="true" class="item-2"></div>
-    </div>
-
-    <div class="table odd">
-      <div class="item-1">Address</div>
-      <div class="item-2">
-         <textarea id="address" contenteditable="true" class="custom-control-input" type="text"></textarea>
-      </div>
-    </div>
-
-    <div class="table odd">
-      <div class="item-1">City</div>
-      <div id="city" contenteditable="true" class="item-2"></div>
-    </div>
-
-    <div class="table odd">
-      <div class="item-1">Postal code</div>
-      <div class="item-2">
-        <div class="form-check">
-          <input id="postalcode" class="custom-control-input" type="int" min=0 max=900000 step=1 value="">
-        </div>
-      </div>
-    </div>
-
-    <div class="table odd">
-      <div class="item-1">Phone</div>
-      <div class="item-2">
-         <textarea id="phone" contenteditable="true" class="custom-control-input" type="text"></textarea>
-      </div>
-    </div>
-
-    <div class="table odd">
-      <div class="item-1">Email</div>
-      <div class="item-2">
-        <textarea id="email" contenteditable="true" class="custom-control-input" type="text"></textarea>
-      </div>
-    </div>
-
-    <div class="table odd">
-      <div class="item-1">Website</div>
-      <div id="www" contenteditable="true" class="item-2"></div>
-    </div>
-    
-    <div class="table odd">
-      <div class="item-1">Book through</div>
-      <div id="bookThrough" contenteditable="true" class="item-2"></div>
-    </div>
-
-    <div class="table odd">
-      <div class="item-1">Mail to</div>
-      <div id="mailTo" contenteditable="true" class="item-2"></div>
-    </div>
-
-    <div class="table odd">
-      <div class="item-1">Note</div>
-       <div id="note" contenteditable="true" class="item-2"></div>
-    </div>
-
-    <div class="table odd">
-      <div class="item-1">Access by air</div>
-       <div id="accessAir" contenteditable="true" class="item-2"></div>
-    </div>
-
-   
-    <div class="table odd">
-      <div class="item-1">Access by rail</div>
-       <div id="accessRail" contenteditable="true" class="item-2"></div>
-    </div>
-
-   
-    <div class="table odd">
-      <div class="item-1">Access by bus</div>
-       <div id="accessBus" contenteditable="true" class="item-2"></div>
-    </div>
-
-    <div class="table odd">
-      <div class="item-1">Check Out</div>
-       <div id="checkout" contenteditable="true" class="item-2"></div>
-    </div>
-
-    <div class="table even">
-      <div class="item-1">Rooms</div>
-      <div class="item-2">
-        <div class="form-check">
-          <input id="rooms" class="custom-control-input" type="int" min=0 max=500 step=1 value="">
-        </div>
-      </div>
-    </div>
-
-     <div class="table even">
-      <div class="item-1">Star rating</div>
-      <div class="item-2">
-        <div class="form-check">
-          <input id="starCategory" class="custom-control-input" type="int" min=0 max=6 step=1 value="">
-        </div>
-      </div>
-    </div>
-
-    <div class="table even">
-      <div class="item-1">Ranking</div>
-      <div class="item-2">
-        <div class="form-check">
-          <input id="ranking" class="custom-control-input" type="int" min=0 max=5 step=1 value="">
-        </div>
-      </div>
-    </div>
-
-    <div class="table odd">
-      <div class="item-1">Nighthalt</div>
-      <div class="item-2">
-        <div class="form-check">
-          <input id="nighthalt" class="custom-control-input" type="checkbox" value="">
-        </div>
-      </div>
-    </div>
-
-    <div class="table even">
-      <div class="item-1">Category</div>
-      <div class="item-2">
-       <select id="category" name="category">
-         <option value="0">No category</option>
-         <option value="Standard Hotel">Standard Hotel</option>
-         <option value="Comfortable Hotel">Comfortable Hotel</option>
-         <option value="Superior Hotel">Superior Hotel</option>
-       </select>
-      </div>
-    </div>
-
-    <div class="table odd">
-      <div class="item-1">Display</div>
-      <div class="item-2">
-        <div class="form-check">
-          <input id="showHotel" class="custom-control-input" type="checkbox" value="">
-        </div>
-      </div>
-    </div>
-
-     <div class="table odd">
-      <div class="item-1">Used for web site</div>
-      <div class="item-2">
-        <div class="form-check">
-          <input id="web" class="custom-control-input" type="checkbox" value="">
-        </div>
-      </div>
-    </div>
-
-    <div class="table even">
-      <div class="item-1">GST type</div>
-      <div id="gstType" contenteditable="true" class="item-2"></div>
-    </div>
-
-  </div>
-  <div class="content">
-      <textarea id="content" contenteditable="true" class="content-column custom-control-input" type="text"> </textarea>
-  </div>
-</div>
-
-<div class="mx-auto w-50">
-    <div id="in-progress" class="spinner" role="status">
-      <span class="sr-only">In progress...</span>
-    </div>
-    <div>
-      <button class="save btn btn-success" id="save">
-        <i class="icon-floppy"></i>
-        Save
-      </button>
-    </div>
-  </div>
-</section>
-{{- end }}
-{{- define "postscript" }}
-<script type="module" src="/js/app/dataHotels.js"></script>
-{{- end }}
+  </section>
+  {{- end }}
+  {{- define "postscript" }}
+  <script type="module" src="/js/app/dataHotels.js"></script>
+  {{- end }}

@@ -1,7 +1,7 @@
 baseURL 				        = "/"
 title 					        = "Odyssey Tours"
 theme                   = ["odyssey"] # ,"pdf"] ,"hugo-module-img-srcset"]
-paginate 				        = "50"
+paginate 				        = "20"
 summaryLength 			    = "15"
 disqusShortname 		    = "" # get your shortname form here : https://disqus.com
 defaultContentLanguage 	= "en"

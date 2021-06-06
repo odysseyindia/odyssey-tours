@@ -1,0 +1,107 @@
+<style>
+
+.panel {
+    color: #343642;
+    margin: 0;
+    box-sizing: border-box;
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+    padding: 0 15px;
+}
+
+.panel-space {
+    color: #343642;
+    box-sizing: inherit;
+    padding: 10px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background-color: #fff;
+}
+
+.row {
+    box-sizing: inherit;
+    display: flex;
+}
+
+.icon {
+    box-sizing: inherit;
+    width: 60px;
+    color: #fff;
+    height: 60px;
+    display: flex;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: #5996c5;
+}
+
+.svg-icon {
+	color: #fff;
+    box-sizing: inherit;
+    touch-action: none;
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    font-size: 24px;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    user-select: none;
+    flex-shrink: 0;
+}
+
+.{
+    align-self: center;
+    margin-left: 10px;
+}
+.p-10 {
+	padding: 10px;
+}
+.h4 {
+	color: #343642;
+    margin: 0;
+    font-size: 16px;
+    font-family: Libre Franklin, sans-serif;
+    font-weight: 500;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+.panel-text {
+	color: rgba(52, 54, 66, 0.7);
+    font-size: 14px;
+    margin-top: 3px;
+    font-weight: 300;
+    line-height: 16px;
+}
+
+.panel-p {
+	color: #343642;
+    font-size: 16px;
+    font-family: Libre Franklin, sans-serif;
+    font-weight: 300;
+    line-height: 22px;
+}
+</style>
+
+
+<div class="panel">
+    <div class="panel-space">
+        <div class="row">
+            <div class="icon">
+                <svg class="svg-icon" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation">
+                    <path d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </svg>
+            </div>
+            <div class="p-10">
+                <h4 class="h4">Upcoming itineraries</h4>
+                <div class="panel-text">This week</div>
+            </div>
+        </div>
+        <div class="p-10">
+        	<p class="panel-a">You have no itineraries commencing</p></div>
+    </div>
+</div>

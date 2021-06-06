@@ -27,7 +27,7 @@ rooms: 0
 rates:
   - roomType: Garden Cottage
     mealPlan: ''
-    mealPlanPT: Bed & breakfast
+    mealPlanPT: Bed & Breakfast
     currency: INR
     currencyPT: INR
     costSingle: 0

@@ -1,11 +1,16 @@
-{{- .Scratch.Set "id" (cond (isset .Params "id") .Params.id (cond (isset .Params "type" ) .Params.type (path.Base .RelPermalink))) }}
+{{- $css := (cond (isset .Params "id") .Params.id (cond (isset .Params "type" ) .Params.type (path.Base .RelPermalink))) }}
+{{- if eq $.Kind "term" }}
+    {{- .Scratch.Set "id" (printf "%s%s" "tags-" $css) }}
+{{- else }}
+    {{- .Scratch.Set "id" $css }}
+{{- end }}
 
-{{ $id := .Scratch.Get "id" }}
+{{- $id := .Scratch.Get "id" }}
 <!DOCTYPE html>
 <html>
     	{{- partial "head.html" . -}}
     <body>
-        {{- partial "header.html" . -}}
+        {{ if eq .CurrentSection "tim" }}{{- partial "header-tim.html" . -}}{{ else }}{{- partial "header.html" . -}}{{ end }}
        
         {{- block "main" . }}{{- end }}
        
