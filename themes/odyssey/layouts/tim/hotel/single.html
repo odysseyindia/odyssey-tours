@@ -303,6 +303,9 @@
 {{ define "postscript" }}
 <script>
 
+var element = document.getElementById("new-contact-modal");
+ element.style.display = "none";
+
 function toggleDropDown(){
     var modal = document.getElementById("select-option");
     if (modal.style.display == "none") {
@@ -340,6 +343,7 @@ document.getElementById("add-existing-contact").addEventListener("click", (event
 
 document.getElementById("new-contact-add"     ).addEventListener("click", (event) => { addContact();  });
 document.getElementById("new-contact-cancel"  ).addEventListener("click", (event) => { cancelNewContact();  });
+document.onload = function(){ cancelNewContact() };
 
 
 </script>
