@@ -1,9 +1,9 @@
 stats:
-  timestamp: '1611171914.45'
-  query_time: '3.31'
-  total_backlinks: 25
+  timestamp: '1611172586.66'
+  query_time: '6.62'
+  total_backlinks: 3
   total_collection: 0
-  total_results: 21
+  total_results: 2
   total_stock: 0
   total_filtered_results: 0
 code: 200
