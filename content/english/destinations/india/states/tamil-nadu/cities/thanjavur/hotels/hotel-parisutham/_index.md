@@ -12,6 +12,8 @@ email: ''
 website: www.bayarea.net/~jude/india/tanjavur.html
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

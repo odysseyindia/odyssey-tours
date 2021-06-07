@@ -12,6 +12,8 @@ email: crs@udaipur.hrhindia.com
 website: www.hrh.com, www.eternalmewar.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

@@ -12,6 +12,8 @@ email: info@tharavadheritageresort.com  alleppeytharavad@gmail.com
 website: www.tharavadheritageresort.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

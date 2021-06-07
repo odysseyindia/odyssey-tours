@@ -12,6 +12,8 @@ email: tranquilresort@gmail.com
 website: www.tranquilresort.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

@@ -1,7 +1,9 @@
 ---
 title: Annapara Homestay
 translationKey: annapara-homestay
-type: hotels
+type: hotel
+tags:
+  - Hotelss
 id: hotel
 rates:
   - roomType: Standard Room

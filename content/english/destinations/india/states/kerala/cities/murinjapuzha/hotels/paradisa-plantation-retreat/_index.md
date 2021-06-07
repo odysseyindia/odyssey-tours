@@ -12,6 +12,8 @@ email: info@paradisaretreat.com  paradisa@rediffmail.com  paradisaretreat@yahoo.
 website: www.paradisaretreat.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: gkvhotel@sancharnet.in  rajpalac@sancharnet.in
 website: www.rajpalace.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

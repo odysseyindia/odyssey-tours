@@ -12,6 +12,8 @@ email: fort_hs@yahoo.com
 website: www.hotelforthouse.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

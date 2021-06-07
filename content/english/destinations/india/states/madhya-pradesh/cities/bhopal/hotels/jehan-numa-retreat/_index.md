@@ -12,6 +12,8 @@ email: res.retreat@jnph.in  saleem@jnph.in
 website: www.jehannuma.com/retreat-bhopal/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

@@ -12,6 +12,8 @@ email: sales@lyttonhotelindia.com  resv@lyttonhotelindia.com
 website: www.Lyttonhotel.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

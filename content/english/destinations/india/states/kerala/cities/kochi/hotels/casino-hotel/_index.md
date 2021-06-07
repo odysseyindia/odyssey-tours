@@ -12,6 +12,8 @@ email: casinohotel@cghearth.com
 website: www.cghearth.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - BA
   - H

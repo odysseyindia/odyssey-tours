@@ -12,6 +12,8 @@ email: info@hotelnarainniwas.com  kanota@sancharnet.in
 website: hotelnarainniwas.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

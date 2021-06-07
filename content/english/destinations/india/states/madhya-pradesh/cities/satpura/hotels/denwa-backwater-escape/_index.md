@@ -12,6 +12,8 @@ email: ''
 website: https://www.denwabackwaterescape.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - A
   - COM

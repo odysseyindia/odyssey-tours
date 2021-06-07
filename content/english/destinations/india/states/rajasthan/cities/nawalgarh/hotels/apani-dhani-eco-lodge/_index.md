@@ -12,6 +12,8 @@ email: apanidhani@gmail.com
 website: www.apanidhani.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - A

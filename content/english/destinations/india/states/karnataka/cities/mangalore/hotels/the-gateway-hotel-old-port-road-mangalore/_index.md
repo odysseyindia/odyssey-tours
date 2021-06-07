@@ -12,6 +12,8 @@ email: gateway.mangalore@tajhotels.com
 website: https://gateway.tajhotels.com/en-in/old-port-road-mangalore
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

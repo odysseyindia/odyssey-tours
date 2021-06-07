@@ -12,6 +12,8 @@ email: 'stay@aranyakam.com  '
 website: www.aranyakam.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HS

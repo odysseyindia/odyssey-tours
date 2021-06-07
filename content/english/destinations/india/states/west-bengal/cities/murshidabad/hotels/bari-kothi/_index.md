@@ -12,6 +12,8 @@ email: info@barikothi.com
 website: https://barikothi.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

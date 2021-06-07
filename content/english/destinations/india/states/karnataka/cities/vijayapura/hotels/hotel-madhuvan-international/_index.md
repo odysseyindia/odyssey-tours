@@ -12,6 +12,8 @@ email: madhuvan_hotel@yahoo.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

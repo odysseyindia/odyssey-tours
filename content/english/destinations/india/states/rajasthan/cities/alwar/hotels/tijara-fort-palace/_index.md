@@ -13,6 +13,8 @@ website: http://www.neemranahotels.com/tijara-fort-palace-alwar-rajasthan
 note: ''
 ranking: 1
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

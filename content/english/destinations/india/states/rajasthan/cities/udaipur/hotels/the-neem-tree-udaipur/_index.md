@@ -12,6 +12,8 @@ email: theneemtreeudaipur@gmail.com
 website: instagram.com/theneemtreeudaipur  facebook.com/theneemtreeudaipur
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

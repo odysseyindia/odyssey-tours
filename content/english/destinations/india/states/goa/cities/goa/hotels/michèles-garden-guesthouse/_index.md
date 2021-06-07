@@ -12,6 +12,8 @@ email: michelegoa@gmail.com
 website: https://michelesgardencafe.wordpress.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

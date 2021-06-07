@@ -12,6 +12,8 @@ email: info@hotelmilanpalace.com
 website: www.hotelmilanpalace.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: karnotmahal@rediffmail.com
 website: karnotmahal.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

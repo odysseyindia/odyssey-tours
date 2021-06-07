@@ -14,6 +14,8 @@ email: >-
 website: www.royalorchidhotels.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

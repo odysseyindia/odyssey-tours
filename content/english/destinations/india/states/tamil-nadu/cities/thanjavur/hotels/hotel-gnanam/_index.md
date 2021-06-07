@@ -12,6 +12,8 @@ email: hotelgnanam@gmail.com
 website: www.hotelgnanam.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

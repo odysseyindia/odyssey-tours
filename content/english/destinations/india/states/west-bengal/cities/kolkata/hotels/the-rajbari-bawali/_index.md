@@ -12,6 +12,8 @@ email: stay@therajbari.com
 website: https://www.therajbari.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

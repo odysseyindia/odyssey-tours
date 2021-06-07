@@ -12,6 +12,8 @@ email: helpdesk@dolphinn.in  buti.tyagi@dolphinn.com
 website: www.dolphinn.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

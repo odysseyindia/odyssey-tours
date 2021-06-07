@@ -12,6 +12,8 @@ email: info@goldentulipamritsar.com  reservations@goldentulipamritsar.com
 website: www.goldentulipamritsar.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: info@mararivillas.com
 website: https://www.mararivillas.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

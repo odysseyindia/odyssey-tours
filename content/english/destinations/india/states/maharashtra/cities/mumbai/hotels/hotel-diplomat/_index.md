@@ -12,6 +12,8 @@ email: diplomat@vsnl.com
 website: www.hoteldiplomat-bombay.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

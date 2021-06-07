@@ -14,6 +14,8 @@ email: Info@TheRoyalSafariCamp.com
 website: http://www.theroyalsafaricamp.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

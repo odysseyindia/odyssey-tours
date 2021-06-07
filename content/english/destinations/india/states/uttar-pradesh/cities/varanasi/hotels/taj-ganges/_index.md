@@ -12,6 +12,8 @@ email: gateway.varanasi@tajhotels.com
 website: http://www.thegatewayhotels.com/gangesvaranasi/overview.aspx
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

@@ -12,6 +12,8 @@ email: wildgrasskaziranga@gmail.com
 website: www.oldassam.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

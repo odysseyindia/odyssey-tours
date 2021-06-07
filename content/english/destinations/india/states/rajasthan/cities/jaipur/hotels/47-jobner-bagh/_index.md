@@ -12,6 +12,8 @@ email: info@jobnerbagh.com
 website: http://www.jobnerbagh.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

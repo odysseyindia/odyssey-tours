@@ -12,6 +12,8 @@ email: 'sales@florencegroup.in  resvn@florencegroup.in  gm@florencegroup.in  '
 website: www.hotelflorenceinn.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

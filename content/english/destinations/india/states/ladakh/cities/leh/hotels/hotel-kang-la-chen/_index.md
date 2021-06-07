@@ -13,6 +13,8 @@ website: http://www.lehladakhhotels.com/Deluxe%20Hotels/Hotel_Kang_la_Chen.html
 note: ''
 ranking: 1
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - RIK

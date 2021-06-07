@@ -12,6 +12,8 @@ email: 'info@mkhotel.com  sales@mkhotel.com  '
 website: www.mkhotel.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

@@ -12,6 +12,8 @@ email: vanghat@gmail.com  info@vanghat.com
 website: https://www.vanghat.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

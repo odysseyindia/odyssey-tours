@@ -12,6 +12,8 @@ email: info@kankarwahaveli.com  kankarwahaveli@hotmail.com
 website: www.indianheritagehotels.com, www.kankarwahaveli.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

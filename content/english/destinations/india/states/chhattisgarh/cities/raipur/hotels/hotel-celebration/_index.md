@@ -12,6 +12,8 @@ email: celeindia@yahoo.com  fom.celebration@yahoo.in
 website: www.celebrationworld.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

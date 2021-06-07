@@ -12,6 +12,8 @@ email: info@hotelannamalai.com
 website: www.hotelannamalai.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

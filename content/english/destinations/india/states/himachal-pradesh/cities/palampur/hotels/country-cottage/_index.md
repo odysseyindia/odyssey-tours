@@ -12,6 +12,8 @@ email: ksarin@sancharnet.in
 website: www.countrycottageindia.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

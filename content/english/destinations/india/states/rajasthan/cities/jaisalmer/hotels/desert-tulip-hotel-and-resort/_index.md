@@ -12,6 +12,8 @@ email: reservation@hoteldeserttulip.com
 website: www.hoteldeserttulip.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

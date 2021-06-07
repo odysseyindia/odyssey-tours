@@ -12,6 +12,8 @@ email: reservation@expressworld.com
 website: www.expressworld.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

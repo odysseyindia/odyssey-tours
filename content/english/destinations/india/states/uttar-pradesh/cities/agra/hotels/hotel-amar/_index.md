@@ -12,6 +12,8 @@ email: 'reservation@hotelamar.com  '
 website: www.hotelamar.com
 note: hotelamar@airtelbroadband.in
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

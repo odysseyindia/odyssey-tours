@@ -12,6 +12,8 @@ email: Reservations@asteyasafaris.com
 website: https://www.asteyasafaris.com/asteya-nagzira/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

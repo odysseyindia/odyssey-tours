@@ -12,6 +12,8 @@ email: ashanu@hotmail.com
 website: http://www.ahilyafort.com/your_stay_indore.php
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

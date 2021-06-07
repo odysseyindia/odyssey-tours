@@ -12,6 +12,8 @@ email: info@wildflowergoa.com
 website: www.wildflowergoa.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

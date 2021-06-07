@@ -12,6 +12,8 @@ email: nnpjsm@sancharnet.in, info@narayannwias.com
 website: narayanniwas.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

@@ -12,6 +12,8 @@ email: hotelashu@indiatimes.com
 website: ''
 note: hotelashu@touchtelindia.net
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

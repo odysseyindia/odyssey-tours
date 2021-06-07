@@ -2,6 +2,8 @@
 title: Old Kent Resorts & Spa - Booking Office
 translationKey: old-kent-resorts-and-spa-booking-office
 type: hotel
+tags:
+  - Hotels
 id: hotel
 ranking: 0
 category:

@@ -12,6 +12,8 @@ email: mail@ravlakhempur.com
 website: www.ravlakhempur.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

@@ -13,6 +13,8 @@ website: www.thebangala.com
 note: ''
 ranking: 3
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - WEB

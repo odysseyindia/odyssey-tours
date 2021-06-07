@@ -12,6 +12,8 @@ email: singhikhotel@gmail.com  info@singhikhotel.com
 website: www.singhikhotel.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

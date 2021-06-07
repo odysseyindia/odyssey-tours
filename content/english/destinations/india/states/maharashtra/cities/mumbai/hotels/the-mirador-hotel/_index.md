@@ -12,6 +12,8 @@ email: reservation@themirador.com   sunil@themirador.com
 website: http://www.themirador.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: swaswara@cghearth.com
 website: http://www.swaswara.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

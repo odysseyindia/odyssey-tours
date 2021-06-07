@@ -12,6 +12,8 @@ email: gateway.chikmagalur@tajhotels.com
 website: http://www.thegatewayhotels.com/kmroadchikmagalur/overview.aspx
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

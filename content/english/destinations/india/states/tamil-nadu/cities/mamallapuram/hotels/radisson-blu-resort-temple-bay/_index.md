@@ -12,6 +12,8 @@ email: reservations@rdtemplebay.com  irfankhan@rdtemplebay.com
 website: http://www.radissonblu.com/hotel-mamallapuram
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

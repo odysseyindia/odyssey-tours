@@ -12,6 +12,8 @@ email: reservations@devvilas.com  sales@devvilas.com
 website: www.devvilas.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

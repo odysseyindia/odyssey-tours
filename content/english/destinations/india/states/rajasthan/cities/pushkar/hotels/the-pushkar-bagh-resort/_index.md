@@ -12,6 +12,8 @@ email: info@thepushkarbaghresort.com  thepushkarbagh@live.com
 website: http://www.thepushkarbaghresort.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

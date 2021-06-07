@@ -12,6 +12,8 @@ email: info@savista.com
 website: https://www.savista.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

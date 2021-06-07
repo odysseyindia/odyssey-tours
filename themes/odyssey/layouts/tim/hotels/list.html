@@ -5,7 +5,7 @@
 <section id="{{ .Scratch.Get "id" | lower }}"> 
     <main>
         <div class="container">
-            <div class="subcontainer">
+            <div class="container details">
                 <div>
                     <div class="odc21">
                         <div class="odc22">
@@ -131,5 +131,20 @@
 </section>
 {{- end }}
 {{- define "postscript" }}
+<script>
 
+
+/* add event selectors */
+var urls = document.querySelectorAll('[data-url]');
+
+  for(var i = 0; i < urls.length; i++) {
+    (function(index) {
+      urls[index].addEventListener("click", function(){
+       let url = urls[index].dataset.url;
+       location.href=String(url);
+     })
+    })(i);
+  }
+
+</script>
 {{- end }}

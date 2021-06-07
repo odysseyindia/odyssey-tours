@@ -12,6 +12,8 @@ email: info@tigertrails.in
 website: www.tigertrails.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - A

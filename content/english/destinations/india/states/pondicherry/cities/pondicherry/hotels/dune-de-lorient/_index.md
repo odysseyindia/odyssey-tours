@@ -13,6 +13,8 @@ website: >-
   http://dunewellnessgroup.com/dune-de-l-orient-hotel-puducherry-tamil-nadu-india
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

@@ -12,6 +12,8 @@ email: contact@wildernest-kerala.com
 website: www.wildernest-kerala.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

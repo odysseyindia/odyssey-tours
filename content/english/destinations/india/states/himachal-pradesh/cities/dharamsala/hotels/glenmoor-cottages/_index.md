@@ -12,6 +12,8 @@ email: info@glenmoorcottages.com
 website: www.glenmoorcottages.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

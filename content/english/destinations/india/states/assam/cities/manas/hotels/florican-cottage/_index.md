@@ -12,6 +12,8 @@ email: info@floricancottage.com  mewssociety@yahoo.com
 website: https://www.floricancottage.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

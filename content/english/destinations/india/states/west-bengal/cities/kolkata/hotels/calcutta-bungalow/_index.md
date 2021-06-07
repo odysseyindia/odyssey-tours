@@ -12,6 +12,8 @@ email: bungalow@calcuttawalks.com
 website: https://calcuttabungalow.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

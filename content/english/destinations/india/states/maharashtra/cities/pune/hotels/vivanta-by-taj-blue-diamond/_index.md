@@ -12,6 +12,8 @@ email: ''
 website: http://www.vivantabytaj.com/Blue-Diamond-Pune
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

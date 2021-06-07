@@ -14,6 +14,8 @@ email: >-
 website: www.jehannuma.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

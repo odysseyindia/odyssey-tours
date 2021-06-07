@@ -12,6 +12,8 @@ email: resv.cal@theparkhotels.com
 website: www.theparkhotels.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

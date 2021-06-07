@@ -12,6 +12,8 @@ email: hotelsandesh@sify.com, info@sandeshtheprince.com
 website: sandeshtheprince.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

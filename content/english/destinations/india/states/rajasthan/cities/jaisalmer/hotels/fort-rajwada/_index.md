@@ -12,6 +12,8 @@ email: sales@rajwadafort.com
 website: www.fortrajwada.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

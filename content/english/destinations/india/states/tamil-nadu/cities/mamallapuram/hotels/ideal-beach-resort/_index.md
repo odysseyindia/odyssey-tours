@@ -12,6 +12,8 @@ email: reservation@idealresort.com
 website: www.idealresort.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

@@ -12,6 +12,8 @@ email: beachstreetgoa@gmail.com
 website: www.beachstreet.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

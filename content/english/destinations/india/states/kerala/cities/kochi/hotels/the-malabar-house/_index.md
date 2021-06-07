@@ -12,6 +12,8 @@ email: info@malabarhouse.com
 website: www.malabarhouse.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

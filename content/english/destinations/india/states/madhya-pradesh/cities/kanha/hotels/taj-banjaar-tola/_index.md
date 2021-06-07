@@ -12,6 +12,8 @@ email: ''
 website: http://www.tajhotels.com/Luxury/Taj-Safaris/Banjaar-Tola-Kanha-National-Park
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

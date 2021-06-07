@@ -12,6 +12,8 @@ email: contact@marybuddenestate.in
 website: http://www.marybuddenestate.in/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

@@ -13,6 +13,8 @@ website: www.cghearth.com/spice-coast-cruises
 note: ''
 ranking: 1
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

@@ -12,6 +12,8 @@ email: info@ttr.in
 website: www.ttr.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

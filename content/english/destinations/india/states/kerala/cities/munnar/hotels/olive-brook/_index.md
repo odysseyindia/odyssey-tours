@@ -12,6 +12,8 @@ email: 'mail@olivebrookmunnar.com  '
 website: www.olivebrookmunnar.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

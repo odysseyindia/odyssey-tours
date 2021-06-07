@@ -12,6 +12,8 @@ email: summer@satyam.net.in
 website: www. mangaloreinfo.com/tth/summer
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

@@ -13,6 +13,8 @@ website: http://www.thegatewayhotels.com/pasumalaimadurai/overview.aspx
 note: ''
 ranking: 2
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

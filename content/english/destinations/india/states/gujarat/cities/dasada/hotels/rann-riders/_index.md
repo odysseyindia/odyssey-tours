@@ -12,6 +12,8 @@ email: reservations@rannriders.com  rann-riders@usa.net
 website: www.rannriders.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

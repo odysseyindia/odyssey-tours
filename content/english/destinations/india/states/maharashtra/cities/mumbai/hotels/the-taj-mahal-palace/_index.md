@@ -12,6 +12,8 @@ email: itd.bom@tajhotels.com  Tmhresv.Bom@tajhotels.com
 website: www.tajhotels.com/Taj_Mahal_Palace
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - TL

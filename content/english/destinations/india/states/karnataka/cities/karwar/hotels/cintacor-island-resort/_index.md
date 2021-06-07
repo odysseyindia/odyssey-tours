@@ -12,6 +12,8 @@ email: meeta@littlearth.in  holiday@littlearth.in
 website: http://www.cintacorislandresort.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

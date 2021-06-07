@@ -12,6 +12,8 @@ email: ushakiran.gwalior@tajhotels.com
 website: http://www.tajhotels.com/Leisure/USHA%20KIRAN%20PALACE,GWALIOR/default.htm
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

@@ -12,6 +12,8 @@ email: info@hotelmahendraprakash.com
 website: www.hotelmahendraprakash.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - WEB

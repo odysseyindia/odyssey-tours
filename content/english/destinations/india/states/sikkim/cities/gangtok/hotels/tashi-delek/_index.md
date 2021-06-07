@@ -12,6 +12,8 @@ email: tashidelek@wbbs.com
 website: www.hoteltashidelek.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

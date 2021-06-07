@@ -12,6 +12,8 @@ email: shaktighanerao@hotmail.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - A

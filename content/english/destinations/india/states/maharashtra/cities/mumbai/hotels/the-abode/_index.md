@@ -14,6 +14,8 @@ email: enquiries@abodeboutiquehotels.com
 website: https://abodeboutiquehotels.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

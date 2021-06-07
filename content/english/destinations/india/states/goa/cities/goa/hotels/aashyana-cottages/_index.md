@@ -12,6 +12,8 @@ email: contact@aashyanalakhanpal.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: reservations@ramathrafort.com  gitanjali@ramathrafort.com
 website: www.ramathrafort.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

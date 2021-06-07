@@ -12,6 +12,8 @@ email: rockholm@techpark.net
 website: www.rockholm.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

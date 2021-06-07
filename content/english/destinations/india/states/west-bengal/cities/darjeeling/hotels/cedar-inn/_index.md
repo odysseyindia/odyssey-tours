@@ -12,6 +12,8 @@ email: reservations@clubside.in  darjoperations@clubside.in
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

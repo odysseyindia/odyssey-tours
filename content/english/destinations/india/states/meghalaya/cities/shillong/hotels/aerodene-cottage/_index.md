@@ -12,6 +12,8 @@ email: sharlene.das@gmail.com
 website: www.aerodene.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

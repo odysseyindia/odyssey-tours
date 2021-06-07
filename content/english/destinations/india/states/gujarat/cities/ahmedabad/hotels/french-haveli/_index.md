@@ -15,6 +15,8 @@ email: info@3foundation.org
 website: http://frenchhaveli.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

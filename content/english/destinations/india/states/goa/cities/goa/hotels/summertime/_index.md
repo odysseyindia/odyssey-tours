@@ -12,6 +12,8 @@ email: info@summertimegoa.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

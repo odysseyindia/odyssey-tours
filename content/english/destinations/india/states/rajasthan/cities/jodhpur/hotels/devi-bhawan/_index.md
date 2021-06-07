@@ -12,6 +12,8 @@ email: devibhawanjdh@gmail.com  info@devibhawan.com
 website: www.devibhawan.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

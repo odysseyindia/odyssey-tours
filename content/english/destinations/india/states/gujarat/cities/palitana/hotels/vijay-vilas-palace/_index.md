@@ -12,6 +12,8 @@ email: vishwa_adpur@yahoo.co.in
 website: www.ahmedabadcity.com/palitana
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

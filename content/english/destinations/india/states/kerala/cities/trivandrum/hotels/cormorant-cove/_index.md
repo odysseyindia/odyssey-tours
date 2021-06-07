@@ -12,6 +12,8 @@ email: gits@md3.vsnl.net.in
 website: www.keralatours.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

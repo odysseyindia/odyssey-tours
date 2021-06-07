@@ -12,6 +12,8 @@ email: colonelsretreat@gmail.com
 website: https://www.colonelsretreat.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

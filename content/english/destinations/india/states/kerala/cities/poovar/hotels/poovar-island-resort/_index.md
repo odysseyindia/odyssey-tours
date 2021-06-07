@@ -14,6 +14,8 @@ email: poovar@md5.vsnl.net.in
 website: sarovarparkplaza.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

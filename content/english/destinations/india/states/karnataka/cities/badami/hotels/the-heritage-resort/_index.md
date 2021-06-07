@@ -12,6 +12,8 @@ email: info@theheritage.co.in  theheritage.co.in@gmail.com
 website: www.theheritage.co.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

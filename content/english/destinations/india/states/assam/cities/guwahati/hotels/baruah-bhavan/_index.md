@@ -12,6 +12,8 @@ email: meghnawarehousing@hotmail.com
 website: www.heritagehomeassam.com  www.baruahbhavan.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

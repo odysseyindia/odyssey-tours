@@ -12,6 +12,8 @@ email: barsingha@yahoo.com  info@barsinghavilla.com  narendra@barsinghavilla.com
 website: http://www.barsinghavilla.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: 'info@rajmahalagra.com  '
 website: www.rajmahalagra.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

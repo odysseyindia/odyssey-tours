@@ -12,6 +12,8 @@ email: femina@md3.vsnl.net.in
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

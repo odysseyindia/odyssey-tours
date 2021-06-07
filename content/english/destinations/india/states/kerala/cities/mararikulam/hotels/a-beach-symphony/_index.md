@@ -12,6 +12,8 @@ email: reservations@amritara.co.in
 website: www.abeachsymphony.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

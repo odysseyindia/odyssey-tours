@@ -12,6 +12,8 @@ email: banonresorts@vsnl.net  sales@banonresortsmanali.com  sanjeevmanali@gmail.
 website: www.banonresortsmanali.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

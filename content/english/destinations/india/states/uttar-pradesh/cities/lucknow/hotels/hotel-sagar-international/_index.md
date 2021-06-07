@@ -12,6 +12,8 @@ email: hotelsagar@satyam.net.in, info@hotelsagar.com
 website: hotelsagar.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

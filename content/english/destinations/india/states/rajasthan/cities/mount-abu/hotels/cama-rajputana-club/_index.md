@@ -12,6 +12,8 @@ email: reservations@camarajputanaclubresort.com
 website: www.camahotelsindia.com
 note: camarajputana@gmail.com
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

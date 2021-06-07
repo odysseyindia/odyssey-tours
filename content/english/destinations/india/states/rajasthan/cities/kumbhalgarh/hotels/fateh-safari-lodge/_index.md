@@ -12,6 +12,8 @@ email: 'resv@fatehsafarilodge.com  '
 website: www.fatehsafarilodge.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

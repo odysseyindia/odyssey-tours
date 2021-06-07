@@ -12,6 +12,8 @@ email: 'ratanvilas@gmail.com  res@ratanvilas.com  '
 website: www.ratanvilas.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

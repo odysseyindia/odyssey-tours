@@ -12,6 +12,8 @@ email: reservations@museumhotel.in  info@museumhotel.in
 website: http://museumhotel.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

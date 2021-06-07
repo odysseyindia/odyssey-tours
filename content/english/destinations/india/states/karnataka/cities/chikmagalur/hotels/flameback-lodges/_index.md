@@ -12,6 +12,8 @@ email: info@flameback.in  flamebacklodges@gmail.com
 website: https://www.flameback.in/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

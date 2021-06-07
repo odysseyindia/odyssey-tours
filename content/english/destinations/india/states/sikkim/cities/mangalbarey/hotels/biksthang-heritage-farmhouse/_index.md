@@ -12,6 +12,8 @@ email: info@biksthang.com  biksthang@gmail.com
 website: www.biksthang.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

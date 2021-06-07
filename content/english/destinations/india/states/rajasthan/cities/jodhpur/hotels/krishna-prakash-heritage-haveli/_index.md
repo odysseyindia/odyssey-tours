@@ -12,6 +12,8 @@ email: info@kpheritage.com  kpheritage@gmail.com  kphh1902@rediffmail.com
 website: www.heritagehoteljodhpur.com  www.kpheritage.net
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

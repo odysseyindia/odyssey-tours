@@ -12,6 +12,8 @@ email: reservationfk@thepaul.in
 website: http://www.fortekochi.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

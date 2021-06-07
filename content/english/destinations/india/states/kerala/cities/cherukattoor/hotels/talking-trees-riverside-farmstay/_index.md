@@ -12,6 +12,8 @@ email: nitish@talkingtrees.in
 website: http://talkingtrees.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

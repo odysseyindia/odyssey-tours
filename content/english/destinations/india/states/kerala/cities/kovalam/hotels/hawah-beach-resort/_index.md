@@ -12,6 +12,8 @@ email: 'info@hawahbeach.com  '
 website: www.hawahbeach.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

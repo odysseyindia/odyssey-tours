@@ -12,6 +12,8 @@ email: ''
 website: http://www.bandhavvilas.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - A

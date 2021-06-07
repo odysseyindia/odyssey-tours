@@ -12,6 +12,8 @@ email: info@udaikothi.com
 website: www.udaikothi.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

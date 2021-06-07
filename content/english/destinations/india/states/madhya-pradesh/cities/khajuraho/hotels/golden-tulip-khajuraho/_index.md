@@ -12,6 +12,8 @@ email: reservations.khajuraho@goldentulipindia.com
 website: https://www.goldentulip.com/en/hotels/golden-tulip-khajuraho/emplacement
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

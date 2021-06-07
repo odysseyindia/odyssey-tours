@@ -12,6 +12,8 @@ email: 'reservations@taragarh.com  c.jamwal@taragarh.com  '
 website: www.taragarh.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

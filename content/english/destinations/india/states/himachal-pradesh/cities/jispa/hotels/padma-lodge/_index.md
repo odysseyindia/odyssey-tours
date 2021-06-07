@@ -12,6 +12,8 @@ email: reservations@rimoexpeditions.com  info@rimoexpeditions.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

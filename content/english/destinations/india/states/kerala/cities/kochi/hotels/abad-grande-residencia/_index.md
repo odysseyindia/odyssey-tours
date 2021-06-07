@@ -12,6 +12,8 @@ email: abad.grande@gmail.com  abad@vsnl.com  crs3@abadhotels.in
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

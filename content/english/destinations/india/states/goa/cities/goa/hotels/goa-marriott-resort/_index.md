@@ -12,6 +12,8 @@ email: ''
 website: www.marriott.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - C
   - H

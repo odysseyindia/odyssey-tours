@@ -12,6 +12,8 @@ email: nadesar.varanasi@tajhotels.com
 website: http://www.tajhotels.com/Business/Nadesar%20Palace,VARANASI/default.htm
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

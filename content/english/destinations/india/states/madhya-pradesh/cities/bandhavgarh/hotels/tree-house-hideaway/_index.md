@@ -12,6 +12,8 @@ email: ''
 website: https://www.treehousehideaway.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - A

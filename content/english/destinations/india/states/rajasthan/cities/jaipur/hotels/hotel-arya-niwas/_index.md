@@ -12,6 +12,8 @@ email: tarun@aryaniwas.com  reservation@aryaniwas.com  info@aryaniwas.com
 website: www.aryaniwas.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

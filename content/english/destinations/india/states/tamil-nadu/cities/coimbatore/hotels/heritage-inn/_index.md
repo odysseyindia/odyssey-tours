@@ -12,6 +12,8 @@ email: heritageinn@vsnl.com
 website: www.richsoft.com/heritageinn
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

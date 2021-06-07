@@ -13,6 +13,8 @@ website: >-
   http://www.tajhotels.com/Luxury/Grand-Palaces-And-Iconic-Hotels/Umaid-Bhawan-Palace-Jodhpur
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - TL

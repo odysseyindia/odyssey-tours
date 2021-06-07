@@ -12,6 +12,8 @@ email: gateway.ajmer@tajhotels.com
 website: www.thegatewayhotels.com    www.thegatewayhotels.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: gateway.coonoor@tajhotels.com
 website: http://www.thegatewayhotels.com/churchroadcoonoor/overview.aspx
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

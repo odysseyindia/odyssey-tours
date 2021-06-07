@@ -12,6 +12,8 @@ email: reservations@raasdevigarh.com
 website: http://www.raasdevigarh.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

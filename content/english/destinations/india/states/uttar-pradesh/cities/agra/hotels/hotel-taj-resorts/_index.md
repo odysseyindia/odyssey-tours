@@ -12,6 +12,8 @@ email: 'reservation@hoteltajresorts.com  info@hoteltajresorts.com  snkrdm@gmail.
 website: www.hoteltajresorts.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

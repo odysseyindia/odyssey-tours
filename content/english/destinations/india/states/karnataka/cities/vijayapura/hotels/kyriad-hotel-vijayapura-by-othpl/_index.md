@@ -12,6 +12,8 @@ email: reservations.vijayapura@kyriadindia.com
 website: https://www.kyriadindia.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

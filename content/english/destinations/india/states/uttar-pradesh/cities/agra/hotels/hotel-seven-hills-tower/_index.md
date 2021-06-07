@@ -14,6 +14,8 @@ email: 'reservation@sevenhillstower.com  sales@sevenhillstower.com  '
 website: www.hotelsevenhillstower.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

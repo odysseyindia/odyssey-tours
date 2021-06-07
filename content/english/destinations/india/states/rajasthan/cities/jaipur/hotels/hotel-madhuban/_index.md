@@ -12,6 +12,8 @@ email: madhuban@usa.net
 website: www.madhuban.net
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

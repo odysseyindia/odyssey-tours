@@ -12,6 +12,8 @@ email: aog@prasadheritage.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - A

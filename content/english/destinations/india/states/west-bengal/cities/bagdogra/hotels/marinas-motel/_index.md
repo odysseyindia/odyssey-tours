@@ -12,6 +12,8 @@ email: siliguri@clubside.in  clubside@sancharnet.in  tours@clubside.in
 website: http://www.marinasmotel.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: enquiries@theserai.in
 website: https://www.theserai.in/bandipur-resort/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

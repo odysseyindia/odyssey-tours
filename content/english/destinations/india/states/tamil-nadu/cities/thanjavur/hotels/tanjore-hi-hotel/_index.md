@@ -12,6 +12,8 @@ email: ''
 website: http://dunewellnessgroup.com/tanjore-hi-hotel
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

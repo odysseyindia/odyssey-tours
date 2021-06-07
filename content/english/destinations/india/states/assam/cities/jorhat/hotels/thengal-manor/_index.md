@@ -12,6 +12,8 @@ email: heritagenortheast@gmail.com  uttara@barooahs.in  hne@barooahs.com
 website: www.heritagetourismindia.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

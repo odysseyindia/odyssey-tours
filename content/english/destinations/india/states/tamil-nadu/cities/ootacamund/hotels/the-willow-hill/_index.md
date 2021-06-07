@@ -12,6 +12,8 @@ email: willow@willowhill.in
 website: www.willowhill.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

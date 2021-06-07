@@ -12,6 +12,8 @@ email: info@ledupleix.com  ledupleix@sarovarhotels.com
 website: www.ledupleix.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

@@ -12,6 +12,8 @@ email: 'sukhdhamkothi@gmail.com  info@sukhdhamkothi.com  '
 website: www.sukhdhamkothi.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

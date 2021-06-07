@@ -12,6 +12,8 @@ email: lecolonial@neemranahotels.com
 website: www.neemranahotels.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

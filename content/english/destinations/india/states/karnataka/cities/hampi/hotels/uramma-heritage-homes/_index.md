@@ -12,6 +12,8 @@ email: 'urammahh@gmail.com  '
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

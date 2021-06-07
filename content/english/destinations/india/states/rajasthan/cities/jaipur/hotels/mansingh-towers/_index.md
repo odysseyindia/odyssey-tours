@@ -12,6 +12,8 @@ email: sales.delhi@mansinghhotels.com  sales.agra@mansinghhotels.com
 website: ''
 note: mansinghtower.jaipur@mailcity.com
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

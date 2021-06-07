@@ -12,6 +12,8 @@ email: hotelpriya@yahoo.com
 website: www.hotelpriya.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

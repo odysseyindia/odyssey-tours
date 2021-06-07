@@ -12,6 +12,8 @@ email: info@hotelpradeep.com, hotelpradeep@satyam.net.in
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

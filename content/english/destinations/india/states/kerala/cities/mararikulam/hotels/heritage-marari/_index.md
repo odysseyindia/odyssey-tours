@@ -12,6 +12,8 @@ email: 'heritagemarari@gmail.com   '
 website: http://heritagemarari.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

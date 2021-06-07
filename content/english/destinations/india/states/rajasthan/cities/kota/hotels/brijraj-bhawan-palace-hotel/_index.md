@@ -12,6 +12,8 @@ email: ''
 website: fhraindia.com/hotel/kota/brijraj
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

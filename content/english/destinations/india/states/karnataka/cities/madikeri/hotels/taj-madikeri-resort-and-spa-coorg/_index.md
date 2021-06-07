@@ -12,6 +12,8 @@ email: ''
 website: https://taj.tajhotels.com/en-in/taj-madikeri-coorg/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

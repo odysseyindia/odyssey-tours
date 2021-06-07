@@ -12,6 +12,8 @@ email: accommodations@hotelnewmarrion.com  chidanand.mallick@hotelnewmarrion.com
 website: http://www.hotelnewmarrion.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

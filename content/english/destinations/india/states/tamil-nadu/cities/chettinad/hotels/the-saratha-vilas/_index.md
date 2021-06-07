@@ -12,6 +12,8 @@ email: sarathavilas@gmail.com
 website: www.sarathavilas.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

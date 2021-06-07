@@ -12,6 +12,8 @@ email: savoy.ooty@tajhotels.com
 website: http://www.tajhotels.com/Leisure/Savoy%20Hotel,OOTY/default.htm
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

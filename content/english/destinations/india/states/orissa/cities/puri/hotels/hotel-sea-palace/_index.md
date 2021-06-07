@@ -12,6 +12,8 @@ email: seapalace@rediffmail.com
 website: www.hotel_seapalace.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: anchor_house1954@yahoo.co.in  booking@anchorhouse.in
 website: www.anchorhouse.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

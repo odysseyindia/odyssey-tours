@@ -12,6 +12,8 @@ email: 'pankaj.k.singh@gangamonastery.co.in  info@gangamonastery.com  '
 website: www.gangamonastery.com; www.gangamonastery.co.in  www.goldenriverpalacevns.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

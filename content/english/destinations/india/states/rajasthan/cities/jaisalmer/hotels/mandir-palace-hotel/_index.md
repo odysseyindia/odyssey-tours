@@ -13,6 +13,8 @@ website: www.mandirpalace.com
 note: ''
 ranking: 2
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - RIK

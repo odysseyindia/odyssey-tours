@@ -12,6 +12,8 @@ email: fernhillspalace@gmail.com  Regencyvillas@gmail.com
 website: http://www.fernhillspalace.co.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

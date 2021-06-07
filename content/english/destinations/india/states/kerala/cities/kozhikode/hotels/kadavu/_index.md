@@ -12,6 +12,8 @@ email: reservations@kadavuresorts.com  sales@kadavuresorts.com
 website: www.kadavuresorts.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

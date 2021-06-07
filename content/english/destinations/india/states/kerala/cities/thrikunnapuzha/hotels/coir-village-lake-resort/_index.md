@@ -12,6 +12,8 @@ email: coir@atdcalleppey.com  info@coirvillage.com  atdcboat@md4.vsnl.net.in
 website: atdcalleppey.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

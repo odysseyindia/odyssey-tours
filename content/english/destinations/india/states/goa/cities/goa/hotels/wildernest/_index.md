@@ -12,6 +12,8 @@ email: reservations@wildernest-goa.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

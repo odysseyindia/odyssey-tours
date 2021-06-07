@@ -12,6 +12,8 @@ email: spa@svaasa.com  a.svaasa@gmail.com
 website: www.svaasa.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

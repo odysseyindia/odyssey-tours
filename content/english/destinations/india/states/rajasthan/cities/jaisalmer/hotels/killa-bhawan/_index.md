@@ -12,6 +12,8 @@ email: kbhawan@sancharnet.in  reservations@killabhawan.com
 website: http://www.killabhawan.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

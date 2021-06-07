@@ -12,6 +12,8 @@ email: 'info@forttiracol.com  reservations@forttiracol.com  '
 website: www.forttiracol.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: tajview.agra@tajhotels.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

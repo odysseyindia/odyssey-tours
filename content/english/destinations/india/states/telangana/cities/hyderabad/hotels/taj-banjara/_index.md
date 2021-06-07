@@ -12,6 +12,8 @@ email: banjara.hyderabad@tajhotels.com
 website: http://www.tajhotels.com/Business/Taj%20Banjara,HYDERABAD/default.htm
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

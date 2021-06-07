@@ -14,6 +14,8 @@ email: kanhavillage@gmail.com
 website: http://www.kanhavillage.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

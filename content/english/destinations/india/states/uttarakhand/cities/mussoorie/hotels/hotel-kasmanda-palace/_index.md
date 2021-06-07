@@ -12,6 +12,8 @@ email: 'reservations@kasmandapalace.com  '
 website: www.kasmandapalace.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

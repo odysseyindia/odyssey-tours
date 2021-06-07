@@ -12,6 +12,8 @@ email: reservation@guleriakothi.com  gm@guleriakothi.com
 website: www.guleriakothi.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

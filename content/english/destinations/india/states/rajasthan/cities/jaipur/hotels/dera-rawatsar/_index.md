@@ -12,6 +12,8 @@ email: service@derarawatsar.com  animandy@rediffmail.com
 website: www.derarawatsar.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

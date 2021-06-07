@@ -12,6 +12,8 @@ email: dewalokam@gmail.com
 website: http://dewalokam.in/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

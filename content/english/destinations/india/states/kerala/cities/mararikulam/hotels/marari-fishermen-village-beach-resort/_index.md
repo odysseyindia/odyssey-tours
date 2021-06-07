@@ -12,6 +12,8 @@ email: info@mararifishermenvillagebeachresort.com  info@atdcalleppey.com
 website: www.mararifishermenvillagebeachresort.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

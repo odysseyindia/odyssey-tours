@@ -12,6 +12,8 @@ email: reservations@theblackbucklodge.com
 website: http://www.theblackbucklodge.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

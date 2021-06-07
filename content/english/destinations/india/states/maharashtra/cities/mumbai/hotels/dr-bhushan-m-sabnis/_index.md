@@ -2,6 +2,8 @@
 title: Dr Bhushan M Sabnis
 translationKey: dr-bhushan-m-sabnis
 type: hotel
+tags:
+  - Hotels
 id: hotel
 ranking: 0
 category:

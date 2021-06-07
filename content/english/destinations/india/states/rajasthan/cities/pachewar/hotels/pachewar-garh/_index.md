@@ -12,6 +12,8 @@ email: fortpachewargarh@hotmail.com  info@fortpachewargarh.com
 website: www.pachewargarh.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

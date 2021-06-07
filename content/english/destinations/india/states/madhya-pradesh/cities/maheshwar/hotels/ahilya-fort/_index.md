@@ -12,6 +12,8 @@ email: info@ahilyafort.com
 website: www.ahilyafort.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

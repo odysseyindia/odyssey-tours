@@ -12,6 +12,8 @@ email: info@hotelsuryavns.com
 website: https://www.hotelsuryavns.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

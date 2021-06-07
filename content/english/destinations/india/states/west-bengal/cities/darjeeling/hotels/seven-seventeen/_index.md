@@ -12,6 +12,8 @@ email: manager@hotel717.com
 website: www.hotel717.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

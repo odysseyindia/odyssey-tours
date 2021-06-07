@@ -12,6 +12,8 @@ email: chrislucas@cardamomhouse.com  cardamomhouse@yahoo.com
 website: www.cardamomhouse.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

@@ -12,6 +12,8 @@ email: reservations@wildflowerhall.com  sales@wildflowerhall.com
 website: www.oberoihotels.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - TL

@@ -12,6 +12,8 @@ email: hotelbanarashaveli@gmail.com
 website: http://www.hotelbanarashaveli.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

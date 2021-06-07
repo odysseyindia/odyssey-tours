@@ -12,6 +12,8 @@ email: olappamannadamodaran@gmail.com
 website: www.olappamannamana.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

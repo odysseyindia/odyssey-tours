@@ -12,6 +12,8 @@ email: teanest@natureresorts.in
 website: https://www.natureresorts.in/teanest/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

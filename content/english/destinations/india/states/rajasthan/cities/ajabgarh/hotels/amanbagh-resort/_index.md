@@ -12,6 +12,8 @@ email: amanbagh@amanresorts.com
 website: http://www.amanresorts.com/amanbagh
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

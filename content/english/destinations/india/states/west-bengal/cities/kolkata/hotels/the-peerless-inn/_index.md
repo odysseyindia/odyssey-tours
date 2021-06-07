@@ -12,6 +12,8 @@ email: sm@peerlesshotels.com
 website: http://www.peerlesshotels.com/Kolkata
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

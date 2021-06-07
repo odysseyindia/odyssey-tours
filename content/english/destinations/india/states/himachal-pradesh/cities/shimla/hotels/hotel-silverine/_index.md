@@ -12,6 +12,8 @@ email: info@silverine.net  reservations@silverine.net
 website: www.silverine.net
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

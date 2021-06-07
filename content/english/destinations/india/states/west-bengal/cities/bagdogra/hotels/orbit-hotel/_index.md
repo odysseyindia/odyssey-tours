@@ -12,6 +12,8 @@ email: ankit_gangtok @ yahoo.com
 website: http://www.orbitairporthotel.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

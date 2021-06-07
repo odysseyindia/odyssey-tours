@@ -12,6 +12,8 @@ email: mintokling@yahoo.co.in  mintokling@hotmail.com
 website: www.mintokling.com  www.mintoklingsikkim.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

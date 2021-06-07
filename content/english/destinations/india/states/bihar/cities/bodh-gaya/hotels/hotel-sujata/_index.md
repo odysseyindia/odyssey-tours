@@ -12,6 +12,8 @@ email: htsujata@vsnl.com  info@sujatahotel.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

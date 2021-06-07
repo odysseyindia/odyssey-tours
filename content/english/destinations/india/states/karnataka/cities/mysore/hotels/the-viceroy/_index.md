@@ -12,6 +12,8 @@ email: viceroymys@dataone.in
 website: theviceroygroup.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

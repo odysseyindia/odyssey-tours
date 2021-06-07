@@ -14,6 +14,8 @@ email: suryaresorts@gmail.com  info@suryamcleod.com  reservation@suryamcleod.com
 website: www.suryamcleod.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

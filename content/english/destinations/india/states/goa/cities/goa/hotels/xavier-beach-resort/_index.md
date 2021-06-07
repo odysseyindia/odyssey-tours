@@ -12,6 +12,8 @@ email: xavieran@goatelecom.com
 website: goacom.com/hotels/xavier
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

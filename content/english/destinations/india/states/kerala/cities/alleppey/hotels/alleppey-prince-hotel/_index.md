@@ -12,6 +12,8 @@ email: princehotel@satyam.net.in
 website: alleppeyprincehotel.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

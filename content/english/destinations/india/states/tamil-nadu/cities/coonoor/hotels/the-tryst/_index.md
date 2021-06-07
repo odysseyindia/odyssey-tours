@@ -12,6 +12,8 @@ email: tryst@md3.vsnl.net.in
 website: trystindia.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

@@ -12,6 +12,8 @@ email: info@ashokainn.co.in
 website: www.ashokainn.co.in/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

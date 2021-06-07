@@ -12,6 +12,8 @@ email: info@palhaveli.com  palhaveli@yahoo.co.in
 website: www.palgarh.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

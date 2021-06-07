@@ -12,6 +12,8 @@ email: sonammaja@8aushimview.com  tseringd@8aushimview.com
 website: http://www.8aushimview.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

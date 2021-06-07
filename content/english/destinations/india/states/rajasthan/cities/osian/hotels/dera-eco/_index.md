@@ -12,6 +12,8 @@ email: deraeco@yahoo.co.in
 website: www.deraeco.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

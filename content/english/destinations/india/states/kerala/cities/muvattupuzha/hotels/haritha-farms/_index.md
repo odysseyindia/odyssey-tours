@@ -12,6 +12,8 @@ email: harithafarms@hotmail.com  haritha@satyam.net.in  h
 website: www.harithafarms.indianet.orgib
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

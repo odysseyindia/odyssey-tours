@@ -12,6 +12,8 @@ email: haciendagoa@gmail.com
 website: www.haciendadegoa.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

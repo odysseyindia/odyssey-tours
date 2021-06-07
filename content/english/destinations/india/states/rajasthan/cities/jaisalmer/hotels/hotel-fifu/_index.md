@@ -12,6 +12,8 @@ email: hotelfifu@gmail.com  fifutravel@yahoo.com
 website: www.fifuguesthouse.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: 'info@indiasafariclub.com  camelcamposian@yahoo.com  info@camelcamposian.
 website: www.camelcamposian.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

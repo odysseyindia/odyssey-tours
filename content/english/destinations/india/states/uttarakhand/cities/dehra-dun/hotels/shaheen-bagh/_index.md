@@ -14,6 +14,8 @@ email: >-
 website: www.shaheenbagh.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

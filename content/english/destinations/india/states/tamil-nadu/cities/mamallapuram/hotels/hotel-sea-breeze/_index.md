@@ -12,6 +12,8 @@ email: seabreezehotel@hotmail.com  seabreezehotel1@gmail.com
 website: www.hotelseabreeze.net
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - A

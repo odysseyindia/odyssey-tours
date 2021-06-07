@@ -12,6 +12,8 @@ email: ''
 website: http://www.tajhotels.com/Luxury/City-Hotels/Taj-Bengal-Kolkata
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

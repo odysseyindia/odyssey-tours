@@ -12,6 +12,8 @@ email: 'johnsonshotel@gmail.com    '
 website: www.johnsonhotel.in
 note: 253023 number can be connected to the clients rooms
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

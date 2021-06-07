@@ -12,6 +12,8 @@ email: reservations@neeleshwarhermitage.com
 website: www.neeleshwarhermitage.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

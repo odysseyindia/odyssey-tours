@@ -12,6 +12,8 @@ email: 'fom@radissonvns.com  reservations@radissonvns.com  '
 website: www.radisson.com/varanasiin
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -13,6 +13,8 @@ website: ''
 note: For Reservations - Call Mr Ashish Sharda on 4502 5555 / 4504 9755 / 45025500
 ranking: 2
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - RIK

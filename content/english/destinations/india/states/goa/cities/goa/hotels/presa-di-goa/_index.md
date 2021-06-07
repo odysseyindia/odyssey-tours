@@ -12,6 +12,8 @@ email: reservation@presadigoa.com
 website: www.presadigoa.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

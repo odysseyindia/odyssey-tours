@@ -12,6 +12,8 @@ email: info@teabungalow.in  sales@teabungalow.in
 website: www.teabungalow.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

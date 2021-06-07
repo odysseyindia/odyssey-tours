@@ -12,6 +12,8 @@ email: gateway.varkala@tajhotels.com
 website: http://www.thegatewayhotels.com/janardhanapuramvarkala/overview.aspx
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

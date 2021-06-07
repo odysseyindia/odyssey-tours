@@ -12,6 +12,8 @@ email: prashar26@yahoo.com
 website: www.ivysuites.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

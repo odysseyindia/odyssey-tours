@@ -12,6 +12,8 @@ email: hghgroup@yahoo.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

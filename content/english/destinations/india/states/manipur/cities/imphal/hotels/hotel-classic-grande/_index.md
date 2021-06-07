@@ -12,6 +12,8 @@ email: contact@classicgrande.com
 website: http://classicgrande.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

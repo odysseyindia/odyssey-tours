@@ -12,6 +12,8 @@ email: spanres@del3.vsnl.net.in
 website: spanresorts.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

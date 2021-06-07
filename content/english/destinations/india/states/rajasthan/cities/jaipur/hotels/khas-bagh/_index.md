@@ -13,6 +13,8 @@ website: http://khasbagh.com/
 note: ''
 ranking: 5
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

@@ -12,6 +12,8 @@ email: cruise@thelotuskerala.com
 website: http://www.thelotuskerala.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

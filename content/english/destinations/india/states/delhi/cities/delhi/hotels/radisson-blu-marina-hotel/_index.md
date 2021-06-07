@@ -12,6 +12,8 @@ email: ados@rdmardel.com  reservations@rdmardel.com  sales@rdmardel.com
 website: 'https://www.radissonblu.com/en/marinahotel-newdelhi  www.radisonblu.com  '
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

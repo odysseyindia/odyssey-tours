@@ -12,6 +12,8 @@ email: reservations@hotelorientaltowers.com  tnj_hotowers@sancharnet.in
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

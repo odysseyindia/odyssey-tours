@@ -12,6 +12,8 @@ email: malabarhouseboat@hotmail.com  kainady@md4.vsnl.net
 website: www.kainady.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

@@ -13,6 +13,8 @@ website: >-
   http://www.tajhotels.com/Luxury/Residences-And-Villas/Taj-Wellington-Mews-Luxury-Residences-Mumbai
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

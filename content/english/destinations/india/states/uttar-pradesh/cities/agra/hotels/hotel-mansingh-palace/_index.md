@@ -14,6 +14,8 @@ email: >-
 website: www.mansinghhotels.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

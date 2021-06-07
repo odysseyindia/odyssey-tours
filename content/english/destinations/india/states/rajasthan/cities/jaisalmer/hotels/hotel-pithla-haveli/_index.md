@@ -12,6 +12,8 @@ email: royalmarwarhotels@yahoo.co.in
 website: www.royalmarwarhotels.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

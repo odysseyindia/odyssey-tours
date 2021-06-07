@@ -12,6 +12,8 @@ email: hotelsatlaj@yahoo.co.in  hotelsatlaj@hotelsatlaj.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

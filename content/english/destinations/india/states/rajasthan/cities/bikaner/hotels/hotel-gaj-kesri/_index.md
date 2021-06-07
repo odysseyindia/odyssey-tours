@@ -12,6 +12,8 @@ email: bhanwarniwas@rediffmail.com
 website: www.gajkesri.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

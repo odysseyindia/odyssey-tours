@@ -15,6 +15,8 @@ email: >-
 website: www.ajitbhawan.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

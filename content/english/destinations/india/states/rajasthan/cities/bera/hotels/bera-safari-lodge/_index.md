@@ -12,6 +12,8 @@ email: berasafari@gmail.com
 website: https://www.berasafarilodge.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

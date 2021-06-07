@@ -12,6 +12,8 @@ email: ''
 website: http://www.vivantabytaj.com/Sawai-Madhopur-Ranthambore
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

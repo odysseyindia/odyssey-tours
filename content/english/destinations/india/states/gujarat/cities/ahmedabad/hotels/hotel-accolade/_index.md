@@ -12,6 +12,8 @@ email: info@hotelaccolade.com
 website: http://www.hotelaccolade.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

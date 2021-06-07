@@ -12,6 +12,8 @@ email: reservations@hpagra.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

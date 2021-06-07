@@ -12,6 +12,8 @@ email: info@hotelcityheartchamba.com
 website: www.hotelcityheartchamba.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

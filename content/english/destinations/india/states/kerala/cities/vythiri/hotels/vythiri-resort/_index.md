@@ -12,6 +12,8 @@ email: vythiri@lezeldor.com  marketing@lezeldor.com
 website: www.vythiriresort.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

@@ -12,6 +12,8 @@ email: contact@udaibilaspalace.com
 website: www.udaibilaspalace.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

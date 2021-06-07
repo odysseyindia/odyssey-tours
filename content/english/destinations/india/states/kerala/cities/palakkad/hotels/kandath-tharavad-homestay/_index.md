@@ -12,6 +12,8 @@ email: tharavad15@yahoo.com  tharavad15@gmail.com
 website: www.tharavad.info
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

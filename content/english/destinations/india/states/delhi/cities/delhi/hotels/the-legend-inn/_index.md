@@ -12,6 +12,8 @@ email: legendinn@vnsl.net
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

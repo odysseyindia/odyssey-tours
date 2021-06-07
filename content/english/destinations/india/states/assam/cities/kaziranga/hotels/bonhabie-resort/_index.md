@@ -12,6 +12,8 @@ email: e7safari@rediffmail.com  bonhabi_resort@yahoo.com
 website: www.bonhabiresort.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

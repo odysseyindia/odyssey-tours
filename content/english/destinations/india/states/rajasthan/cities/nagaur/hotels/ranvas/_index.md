@@ -12,6 +12,8 @@ email: reservations@jodhanaheritage.com
 website: http://ranvasnagaur.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

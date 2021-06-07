@@ -13,6 +13,8 @@ website: https://www.welcomheritagehotels.in/hotel-details/badi-kothi
 note: ''
 ranking: 1
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

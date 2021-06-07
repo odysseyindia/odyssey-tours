@@ -12,6 +12,8 @@ email: 'ebourne@sancharnet.in  ebourneindia@hotmail.com  eastbourneshimla@gmail.
 website: www.eastbourneindia.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

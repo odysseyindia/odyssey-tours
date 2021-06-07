@@ -12,6 +12,8 @@ email: info@hotelgrandcentral.in
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

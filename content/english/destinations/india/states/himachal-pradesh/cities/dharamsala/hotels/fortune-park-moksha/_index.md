@@ -12,6 +12,8 @@ email: ''
 website: https://www.fortunehotels.in/mcleod-ganj-fortune-park-moksha.dh.27
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

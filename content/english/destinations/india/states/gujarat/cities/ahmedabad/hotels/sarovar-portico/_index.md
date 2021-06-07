@@ -12,6 +12,8 @@ email: apo@sarovarhotels.com
 website: www.sarovarhotels.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

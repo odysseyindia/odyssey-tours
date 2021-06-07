@@ -12,6 +12,8 @@ email: agondaserenityresort@gmail.com
 website: http://www.agondaserenityresort.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - A

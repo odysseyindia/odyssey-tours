@@ -12,6 +12,8 @@ email: reservations@tridenthotels.com
 website: www.tridenthotels.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

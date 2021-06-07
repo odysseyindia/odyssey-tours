@@ -12,6 +12,8 @@ email: southpark@vsnl.com
 website: www.thesouthpark.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

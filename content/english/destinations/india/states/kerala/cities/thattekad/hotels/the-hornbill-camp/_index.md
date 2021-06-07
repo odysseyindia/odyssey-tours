@@ -12,6 +12,8 @@ email: mail@thehornbillcamp.com
 website: http://thehornbillcamp.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

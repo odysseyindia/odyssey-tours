@@ -12,6 +12,8 @@ email: info@gkztawang.com  hotelgaykikhangzhang@gmail.com
 website: http://gkztawang.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

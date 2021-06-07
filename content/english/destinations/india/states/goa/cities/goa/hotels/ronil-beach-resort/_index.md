@@ -12,6 +12,8 @@ email: ronil_goa@sancharnet.in
 website: ''
 note: For rates please check the Imtrav file.
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

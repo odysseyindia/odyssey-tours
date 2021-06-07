@@ -12,6 +12,8 @@ email: reservations@urvashisretreat.com
 website: https://www.urvashisretreat.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

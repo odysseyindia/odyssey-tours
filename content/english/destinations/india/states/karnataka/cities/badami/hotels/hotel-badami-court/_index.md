@@ -12,6 +12,8 @@ email: 'rafiqmht@dataone.in  '
 website: www.hotelbadamicourt.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

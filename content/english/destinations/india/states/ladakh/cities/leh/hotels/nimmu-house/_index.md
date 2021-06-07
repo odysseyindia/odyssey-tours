@@ -12,6 +12,8 @@ email: manager@nimmu-house.com  communication@nimmu-house.com
 website: https://ladakh.nimmu-house.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

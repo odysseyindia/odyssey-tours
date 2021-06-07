@@ -12,6 +12,8 @@ email: royaleresidencyagra@yahoo.com
 website: www.royaleresidency.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

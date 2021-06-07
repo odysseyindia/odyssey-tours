@@ -12,6 +12,8 @@ email: ras.sil@egujrat.net.in
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

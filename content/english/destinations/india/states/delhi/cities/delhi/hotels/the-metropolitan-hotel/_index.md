@@ -14,6 +14,8 @@ email: >-
 website: http://www.hotelmetdelhi.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

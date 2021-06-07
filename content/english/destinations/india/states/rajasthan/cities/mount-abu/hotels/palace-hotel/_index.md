@@ -12,6 +12,8 @@ email: bikhousemountabu@gmail.com  bikhouse@sancharnet.in
 website: http://www.palacehotelbikanerhouse.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

@@ -12,6 +12,8 @@ email: gurutt@satyam.net.in  gurutt@dte.vsnl.net.in
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

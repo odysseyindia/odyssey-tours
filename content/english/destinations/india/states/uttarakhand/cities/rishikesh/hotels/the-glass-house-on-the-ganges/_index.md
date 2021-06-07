@@ -14,6 +14,8 @@ email: glasshouse@neemranahotels.com
 website: http://www.neemranahotels.com/glass-house-on-the-ganges-rishikesh
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

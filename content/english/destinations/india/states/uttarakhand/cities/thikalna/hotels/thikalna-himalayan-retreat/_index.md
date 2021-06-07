@@ -12,6 +12,8 @@ email: ''
 website: https://www.itmenaanlodges.com/thikalna-himalayan-retreat/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

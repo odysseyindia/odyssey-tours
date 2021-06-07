@@ -12,6 +12,8 @@ email: sales@utkarshvilas.com  sumit_utkarsh@hotmail.com
 website: www.utkarshvilas.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

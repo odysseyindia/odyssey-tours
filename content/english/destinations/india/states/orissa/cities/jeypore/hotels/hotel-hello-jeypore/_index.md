@@ -12,6 +12,8 @@ email: reservation@hotelhellojeypore.com
 website: www.hellojeypore.netfirms.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

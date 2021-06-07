@@ -12,6 +12,8 @@ email: info@hotelpresident.in
 website: www.hotelpresident.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

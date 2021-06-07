@@ -12,6 +12,8 @@ email: 'cherrapunjee@hotmail.com   '
 website: www.cherrapunjee.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - A

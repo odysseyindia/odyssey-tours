@@ -12,6 +12,8 @@ email: bassifortpalace@yahoo.com  resv@bassifortpalace.com
 website: www.bassifortpalace.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

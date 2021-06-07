@@ -12,6 +12,8 @@ email: ''
 website: www.richsoft.com/tourindia
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

@@ -12,6 +12,8 @@ email: info@ragaontheganges.com
 website: https://www.ragaontheganges.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

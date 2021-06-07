@@ -12,6 +12,8 @@ email: ameyabooking@gmail.com
 website: https://ameyakerala.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

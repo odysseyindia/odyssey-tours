@@ -12,6 +12,8 @@ email: hotelmayura@rediffmail.com
 website: www.hotelmayuraraipur.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

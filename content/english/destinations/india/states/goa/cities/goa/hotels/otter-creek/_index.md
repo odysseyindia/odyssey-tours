@@ -12,6 +12,8 @@ email: sandra@aseascape.com  gaze@aseascape.com
 website: www.aseascape.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

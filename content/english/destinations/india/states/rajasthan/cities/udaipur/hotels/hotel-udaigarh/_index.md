@@ -12,6 +12,8 @@ email: udaigarhudaipur@yahoo.com
 website: www.udaigarhudaipur.com  http://www.udaigarhudaipur.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

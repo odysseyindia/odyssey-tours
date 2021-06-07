@@ -13,6 +13,8 @@ website: hrhindia.com
 note: ''
 ranking: 1
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

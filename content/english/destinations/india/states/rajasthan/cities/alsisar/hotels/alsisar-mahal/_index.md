@@ -12,6 +12,8 @@ email: alsisar@sify.com  alsisar@alsisar.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

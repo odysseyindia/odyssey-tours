@@ -12,6 +12,8 @@ email: info@devrajniwas.com
 website: www.devrajniwas.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

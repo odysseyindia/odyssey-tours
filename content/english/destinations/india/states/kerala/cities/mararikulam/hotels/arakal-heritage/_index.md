@@ -12,6 +12,8 @@ email: arakalheritage@gmail.com  abi@arakal.com
 website: www.arakal.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

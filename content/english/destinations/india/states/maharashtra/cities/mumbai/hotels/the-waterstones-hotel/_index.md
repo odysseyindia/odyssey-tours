@@ -12,6 +12,8 @@ email: vinayak.khule@mars-world.com  nitin.wahi@mars-world.com  dmwh@mars-world.
 website: http://www.waterstoneshotel.com
 note: Earlier Known as Gordon House Suites
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

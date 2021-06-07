@@ -12,6 +12,8 @@ email: gateway.ernakulam@tajhotels.com
 website: http://www.thegatewayhotels.com/marinedriveernakulam/overview.aspx
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

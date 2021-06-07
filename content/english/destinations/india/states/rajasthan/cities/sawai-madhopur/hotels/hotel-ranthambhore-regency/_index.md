@@ -12,6 +12,8 @@ email: regency@Ranthambhor.com   ranthambhoreregency@gmail.com
 website: http://www.ranthambhor.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - A

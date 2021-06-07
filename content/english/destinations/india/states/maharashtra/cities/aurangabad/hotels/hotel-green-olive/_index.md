@@ -12,6 +12,8 @@ email: info@hotelgreenolive.com
 website: https://www.hotelgreenolive.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

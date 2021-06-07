@@ -12,6 +12,8 @@ email: reservation@sawaivilas.com
 website: http://sawaivilas.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

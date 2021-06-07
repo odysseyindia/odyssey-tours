@@ -12,6 +12,8 @@ email: sales@amarpreethotel.com
 website: www.amarpreethotel.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: norbughangretreat@yahoo.com  norbughangretreat@gmail.com
 website: http://www.norbughang.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

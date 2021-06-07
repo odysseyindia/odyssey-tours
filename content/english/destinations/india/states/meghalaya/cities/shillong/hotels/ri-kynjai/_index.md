@@ -12,6 +12,8 @@ email: bookings@rikynjai.com
 website: www.rikynjai.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

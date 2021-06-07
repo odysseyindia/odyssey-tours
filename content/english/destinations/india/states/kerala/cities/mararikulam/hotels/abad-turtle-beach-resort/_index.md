@@ -12,6 +12,8 @@ email: jojo@magicmomentholidays.com  crs4@abadhotels.in  reservations@abadhotels
 website: http://www.abadhotels.com/mararibeach/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

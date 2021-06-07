@@ -12,6 +12,8 @@ email: resvcbe@theresidency.com
 website: www.theresidency.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

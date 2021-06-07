@@ -12,6 +12,8 @@ email: stay@233parkstreet.com
 website: www.233parkstreet.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

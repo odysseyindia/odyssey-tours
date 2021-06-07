@@ -12,6 +12,8 @@ email: hsupreme@sancharnet.in
 website: supremehotels.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

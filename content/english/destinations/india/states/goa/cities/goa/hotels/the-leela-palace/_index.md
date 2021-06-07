@@ -12,6 +12,8 @@ email: leela@goa1.dot.net.in
 website: www.theleela.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

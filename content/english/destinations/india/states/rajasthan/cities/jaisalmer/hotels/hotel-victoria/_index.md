@@ -12,6 +12,8 @@ email: hotelvictoria@rediffmail.com
 website: www.hotelvictoriajaisalmer.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

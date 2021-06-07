@@ -2,6 +2,8 @@
 title: Tulip Star Hotels Ltd.
 translationKey: tulip-star-hotels-ltd
 type: hotel
+tags:
+  - Hotels
 id: hotel
 ranking: 0
 category:

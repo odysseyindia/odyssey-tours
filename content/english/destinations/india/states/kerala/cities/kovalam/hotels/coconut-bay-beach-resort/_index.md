@@ -12,6 +12,8 @@ email: cocobay@vsnl.com
 website: www.coconutbay.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

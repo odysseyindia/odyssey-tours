@@ -12,6 +12,8 @@ email: reservations@jodhanaheritage.com
 website: www.jodhanaheritage.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - A

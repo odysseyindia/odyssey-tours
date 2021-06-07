@@ -12,6 +12,8 @@ email: ''
 website: https://hotel-karni-fort.business.site/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

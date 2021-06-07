@@ -14,6 +14,8 @@ email: >-
 website: www.windamerehotel.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

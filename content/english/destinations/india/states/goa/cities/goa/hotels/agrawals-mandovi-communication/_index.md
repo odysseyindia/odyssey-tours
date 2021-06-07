@@ -2,6 +2,8 @@
 title: Agrawals Mandovi Communication
 translationKey: agrawals-mandovi-communication
 type: hotel
+tags:
+  - Hotels
 id: hotel
 ranking: 0
 category:

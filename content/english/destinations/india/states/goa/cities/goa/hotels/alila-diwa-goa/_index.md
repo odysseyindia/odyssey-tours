@@ -12,6 +12,8 @@ email: diwagoa@alilahotels.com  spatil@alilahotels.com
 website: https://www.alilahotels.com/diwagoa
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

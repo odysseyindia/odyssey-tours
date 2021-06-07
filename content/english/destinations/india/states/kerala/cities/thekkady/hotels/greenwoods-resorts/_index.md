@@ -12,6 +12,8 @@ email: info@greenwoods.in  greenwoods@asianetindia.com
 website: www.greenwoods.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

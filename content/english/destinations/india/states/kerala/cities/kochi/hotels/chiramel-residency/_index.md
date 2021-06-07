@@ -12,6 +12,8 @@ email: chiramelhomestay@yahoo.co.in
 website: www.chiramelhomestay.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

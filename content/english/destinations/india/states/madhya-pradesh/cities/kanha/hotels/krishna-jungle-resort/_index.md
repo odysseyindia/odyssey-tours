@@ -12,6 +12,8 @@ email: shalinidev@airtelmail.in  info@krishnahotels.com
 website: www.jungleresort.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - A

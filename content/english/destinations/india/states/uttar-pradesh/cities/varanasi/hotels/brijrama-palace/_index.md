@@ -12,6 +12,8 @@ email: sm@brijrama.com  info@1589hotels.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - WEB
   - H

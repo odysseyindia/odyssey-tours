@@ -12,6 +12,8 @@ email: info@1stgate.in  manoj@1stgate.in
 website: http://www.1stgate.in/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

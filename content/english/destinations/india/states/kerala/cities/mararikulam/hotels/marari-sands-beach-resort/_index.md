@@ -13,6 +13,8 @@ website: http://marari.treeleafhospitality.com
 note: ''
 ranking: 2
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

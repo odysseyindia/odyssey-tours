@@ -12,6 +12,8 @@ email: ''
 website: http://www.summithotels.in/summit-swiss-hotel-darjeeling
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

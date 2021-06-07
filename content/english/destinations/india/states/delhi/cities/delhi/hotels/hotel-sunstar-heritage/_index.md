@@ -12,6 +12,8 @@ email: sunstarheritage@yahoo.co.in
 website: www.hotelsunstarheritage.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

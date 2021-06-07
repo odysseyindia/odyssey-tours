@@ -12,6 +12,8 @@ email: hhivaranasi@satyam.net.in
 website: www.hhihotels.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

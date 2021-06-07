@@ -12,6 +12,8 @@ email: reservations@oldlighthousehotel.com
 website: www.oldlighthousehotel.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

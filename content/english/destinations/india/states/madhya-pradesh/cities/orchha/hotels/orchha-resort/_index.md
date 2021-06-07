@@ -12,6 +12,8 @@ email: info@colleaguetours.in  reservations@colleaguetours.in
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: info@dasaprakashgroup.com
 website: www.dasaprakashgroup.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

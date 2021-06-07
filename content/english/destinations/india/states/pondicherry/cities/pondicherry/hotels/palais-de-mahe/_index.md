@@ -12,6 +12,8 @@ email: palaisdemahe@cghearth.com
 website: http://www.cghearth.com/palaisdemahe
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

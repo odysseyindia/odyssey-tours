@@ -12,6 +12,8 @@ email: yangsumfarm@yahoo.com
 website: www.yangsumfarm.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - RIK

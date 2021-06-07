@@ -12,6 +12,8 @@ email: info@hotelkanhashyam.com
 website: www.kanhashyam.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

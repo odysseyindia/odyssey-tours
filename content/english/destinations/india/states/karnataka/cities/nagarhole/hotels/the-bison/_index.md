@@ -12,6 +12,8 @@ email: agentbookings@thebisonresort.com
 website: http://thebisonresort.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

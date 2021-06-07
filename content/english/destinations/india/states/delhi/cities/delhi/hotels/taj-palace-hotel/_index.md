@@ -12,6 +12,8 @@ email: ''
 website: http://www.tajhotels.com/Luxury/City-Hotels/Taj-Palace-Hotel-New-Delhi
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

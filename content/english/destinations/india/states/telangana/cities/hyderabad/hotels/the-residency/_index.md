@@ -12,6 +12,8 @@ email: marketing@theresidency-hyd.com  reservations@there
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

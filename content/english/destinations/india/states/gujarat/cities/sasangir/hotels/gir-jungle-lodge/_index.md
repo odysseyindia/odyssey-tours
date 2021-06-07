@@ -12,6 +12,8 @@ email: girjungle@gmail.com  info@girjungle.com
 website: www.girjungle.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

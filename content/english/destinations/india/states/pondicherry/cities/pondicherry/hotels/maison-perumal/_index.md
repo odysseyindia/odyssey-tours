@@ -13,6 +13,8 @@ website: www.cghearth.com
 note: ''
 ranking: 3
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

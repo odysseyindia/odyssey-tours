@@ -12,6 +12,8 @@ email: info@mewarhaveli.com  mewarhaveli@yahoo.co.in
 website: www.mewarhaveli.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

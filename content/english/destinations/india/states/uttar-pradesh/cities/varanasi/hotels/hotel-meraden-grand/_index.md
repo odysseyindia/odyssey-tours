@@ -12,6 +12,8 @@ email: meradengrand@gmail.com
 website: www.meradengrand.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

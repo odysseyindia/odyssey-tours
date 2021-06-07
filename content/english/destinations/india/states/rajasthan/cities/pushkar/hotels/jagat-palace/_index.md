@@ -12,6 +12,8 @@ email: 'info@pushkarpalace.com  hotelpushkarpalace@gmail.com  '
 website: hotelpushkarpalace.com
 note: hppalace@dil.in
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

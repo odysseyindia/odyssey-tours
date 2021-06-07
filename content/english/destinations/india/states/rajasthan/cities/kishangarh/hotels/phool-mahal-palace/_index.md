@@ -12,6 +12,8 @@ email: phoolmahalpalace@yahoo.com
 website: www.royalkishangarh.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

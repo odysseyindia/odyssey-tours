@@ -12,6 +12,8 @@ email: shrijoravervilas@gmail.com
 website: https://www.royalsantrampur.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

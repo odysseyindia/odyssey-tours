@@ -12,6 +12,8 @@ email: 'info@nilaya.com  reservations@nilaya.com  '
 website: www.nilaya.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

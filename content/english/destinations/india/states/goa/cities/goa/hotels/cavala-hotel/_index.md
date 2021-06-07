@@ -12,6 +12,8 @@ email: cavala@sancharnet.in
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

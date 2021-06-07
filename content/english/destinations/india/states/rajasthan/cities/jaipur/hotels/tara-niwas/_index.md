@@ -12,6 +12,8 @@ email: tarun@aryaniwas.com  reservation@aryaniwas.com  kirti@taraniwas.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

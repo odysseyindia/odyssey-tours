@@ -12,6 +12,8 @@ email: reservations@rudrahospitality.com, sales@rudrahospitality.com
 website: http://www.naturezoneresort.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

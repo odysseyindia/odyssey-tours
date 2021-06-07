@@ -12,6 +12,8 @@ email: reservations@citrushotels.in
 website: http://www.citrushotels.com/hotels/alleppey-hotels/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

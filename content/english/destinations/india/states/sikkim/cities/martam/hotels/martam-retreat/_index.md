@@ -12,6 +12,8 @@ email: martamretreat@gmail.com
 website: http://www.martamretreat.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

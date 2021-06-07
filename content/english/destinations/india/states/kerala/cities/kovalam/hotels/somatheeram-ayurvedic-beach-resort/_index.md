@@ -12,6 +12,8 @@ email: somatheeram@vsnl.com
 website: somatheeram.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

@@ -12,6 +12,8 @@ email: rameswaram.place@hyatt.com
 website: https://www.hyatt.com/en-US/hotel/india/hyatt-place-rameshwaram/ixmzr
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: reservation@narendrabhawan.com
 website: www.narendrabhawan.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

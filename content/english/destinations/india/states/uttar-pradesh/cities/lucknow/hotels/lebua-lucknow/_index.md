@@ -12,6 +12,8 @@ email: reservationslucknow@lebua.com
 website: www.lebua.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

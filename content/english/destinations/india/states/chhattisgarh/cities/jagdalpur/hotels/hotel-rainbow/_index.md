@@ -12,6 +12,8 @@ email: hotelrainbow@indiatimes.com hotelrainbow@rediffmail.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - A

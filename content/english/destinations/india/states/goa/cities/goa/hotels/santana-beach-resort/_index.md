@@ -12,6 +12,8 @@ email: reservations@santana-goa.com  info@santana-goa.com
 website: www.santana-goa.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

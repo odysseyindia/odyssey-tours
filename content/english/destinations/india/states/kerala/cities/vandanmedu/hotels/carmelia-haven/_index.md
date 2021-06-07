@@ -12,6 +12,8 @@ email: reservation@carmeliahaven.com  carmelia@sancharnet.in
 website: www.carmeliahaven.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

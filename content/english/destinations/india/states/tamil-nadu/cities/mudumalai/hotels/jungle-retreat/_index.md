@@ -12,6 +12,8 @@ email: bookings@jungleretreat.com
 website: www.jungleretreat.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - A

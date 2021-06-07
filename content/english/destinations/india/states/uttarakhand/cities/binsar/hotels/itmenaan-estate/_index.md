@@ -12,6 +12,8 @@ email: ''
 website: https://www.itmenaanlodges.com/itmenaan-estate/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

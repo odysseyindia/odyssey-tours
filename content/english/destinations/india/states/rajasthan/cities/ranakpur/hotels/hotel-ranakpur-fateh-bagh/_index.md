@@ -12,6 +12,8 @@ email: crs@hrhhotels.com  CRS@udaipur.hrhindia.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

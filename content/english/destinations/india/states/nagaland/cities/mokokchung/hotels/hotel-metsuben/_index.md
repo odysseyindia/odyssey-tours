@@ -12,6 +12,8 @@ email: metsuben@yahoo.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

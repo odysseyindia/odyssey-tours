@@ -12,6 +12,8 @@ email: bookinghaveli@amaryagroup.com
 website: www.amaryagroup.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: gopal_agra@yahoo.com  vandnapatholia@ymail.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

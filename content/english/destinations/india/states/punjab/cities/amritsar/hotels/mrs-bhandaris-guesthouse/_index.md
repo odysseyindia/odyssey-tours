@@ -12,6 +12,8 @@ email: bgha10@gmail.com
 website: www.bhandari_guesthouse.tripod.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

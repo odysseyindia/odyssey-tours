@@ -14,6 +14,8 @@ email: kurumba@natureresorts.in  nilgiris@kurumbavillageresort.com
 website: www.kurumbavillageresort.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

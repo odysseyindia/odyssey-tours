@@ -12,6 +12,8 @@ email: swagathresort@asianetindia.com
 website: ''
 note: The Booking is made  through GITC for FIT's
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

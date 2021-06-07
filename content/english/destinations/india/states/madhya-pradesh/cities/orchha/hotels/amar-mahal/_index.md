@@ -12,6 +12,8 @@ email: reservation@amarmahal.com
 website: http://www.amarmahal.com/
 note: '  '
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

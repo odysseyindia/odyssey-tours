@@ -12,6 +12,8 @@ email: rama@welcomemail.wiprobt.vsnl.net.in
 website: fhrai.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

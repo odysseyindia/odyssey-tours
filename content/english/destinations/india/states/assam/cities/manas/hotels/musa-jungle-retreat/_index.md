@@ -13,6 +13,8 @@ website: https://www.musa.co.in/
 note: ''
 ranking: 2
 type: hotel
+tags:
+  - Hotels
 category:
   - WEB
   - H

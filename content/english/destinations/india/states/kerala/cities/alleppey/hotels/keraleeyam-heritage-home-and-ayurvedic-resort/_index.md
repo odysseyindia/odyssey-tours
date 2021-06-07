@@ -12,6 +12,8 @@ email: mail@keraleeyam.com
 website: www.keraleeyam.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

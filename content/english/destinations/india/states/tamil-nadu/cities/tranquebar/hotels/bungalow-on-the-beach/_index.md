@@ -12,6 +12,8 @@ email: bungalowonthebeach@neemranahotels.com
 website: http://www.neemranahotels.com/the-bungalow-on-the-beach-tranquebar-tamil-nadu/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

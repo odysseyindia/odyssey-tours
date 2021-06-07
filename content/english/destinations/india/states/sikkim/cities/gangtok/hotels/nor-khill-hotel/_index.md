@@ -12,6 +12,8 @@ email: norkhill@elginhotels.com  norkhill@sify.com
 website: www.elginhotels.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

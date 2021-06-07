@@ -12,6 +12,8 @@ email: info@mayasbeachhouse.com  mayasbeachhouse@gmail.com
 website: http://mayasbeachhouse.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

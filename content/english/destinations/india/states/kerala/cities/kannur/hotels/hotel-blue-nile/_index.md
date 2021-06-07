@@ -12,6 +12,8 @@ email: ''
 website: http://hotelbluenile.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: gmshk@shk.hrhindia.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

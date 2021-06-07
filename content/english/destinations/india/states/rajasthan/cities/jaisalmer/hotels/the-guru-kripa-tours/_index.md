@@ -1,7 +1,9 @@
 ---
 title: The Guru Kripa Tours
 translationKey: the-guru-kripa-tours
-type: hotels
+type: hotel
+tags:
+  - Hotelss
 id: hotel
 rates:
   - roomType: Tent

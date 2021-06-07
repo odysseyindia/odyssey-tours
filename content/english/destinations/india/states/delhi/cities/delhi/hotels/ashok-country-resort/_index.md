@@ -12,6 +12,8 @@ email: acr@bol.net.in  acrhotel@gmail.com  acrfom@gmail.com
 website: www.ashokcountryresort.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

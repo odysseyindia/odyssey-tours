@@ -12,6 +12,8 @@ email: reservations@tripuracastle.com
 website: www.tripuracastle.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

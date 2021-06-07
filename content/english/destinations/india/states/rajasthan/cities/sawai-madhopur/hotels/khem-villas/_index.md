@@ -12,6 +12,8 @@ email: khemvillas@anokhi.com
 website: http://www.khemvillas.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

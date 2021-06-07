@@ -12,6 +12,8 @@ email: resorts@raincountryresort.com  ekanil@sancharnet.in
 website: www.raincountryresort.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

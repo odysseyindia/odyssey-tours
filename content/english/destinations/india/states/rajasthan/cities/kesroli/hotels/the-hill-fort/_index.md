@@ -12,6 +12,8 @@ email: hillfort@neemranahotels.com
 website: http://www.neemranahotels.com/hill-fort-kesroli-alwar-rajasthan
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

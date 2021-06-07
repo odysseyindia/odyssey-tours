@@ -12,6 +12,8 @@ email: safari_resorts@yahoo.com
 website: www.safariresortsomnath.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: aiswarya_int@yahoo.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

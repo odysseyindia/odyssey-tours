@@ -12,6 +12,8 @@ email: ''
 website: www.siolimhouse.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

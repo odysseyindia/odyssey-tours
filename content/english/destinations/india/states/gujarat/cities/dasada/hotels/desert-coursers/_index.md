@@ -12,6 +12,8 @@ email: zainabad@hotmail.com
 website: www.desertcoursers.net
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - A

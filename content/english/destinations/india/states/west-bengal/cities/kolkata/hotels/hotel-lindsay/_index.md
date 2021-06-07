@@ -12,6 +12,8 @@ email: sales@hotellindsay.com
 website: http://www.hotellindsay.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

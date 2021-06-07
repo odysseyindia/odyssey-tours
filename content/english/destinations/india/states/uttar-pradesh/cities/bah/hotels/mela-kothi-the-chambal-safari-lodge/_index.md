@@ -12,6 +12,8 @@ email: rpsjarar@chambalsafari.com
 website: www.chambalsafari.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

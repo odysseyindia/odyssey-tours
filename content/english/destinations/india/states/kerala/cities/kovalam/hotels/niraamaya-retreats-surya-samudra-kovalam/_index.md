@@ -12,6 +12,8 @@ email: reservations@niraamaya.in
 website: http://www.niraamaya.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

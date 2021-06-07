@@ -12,6 +12,8 @@ email: southernstar@vsnl.com
 website: www.southernstarmysore.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

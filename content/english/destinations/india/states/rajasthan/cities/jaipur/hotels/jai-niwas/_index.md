@@ -12,6 +12,8 @@ email: tarun@aryaniwas.com  reservation@aryaniwas.com  aryahotel@sancharnet.in
 website: www.aryaniwas.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

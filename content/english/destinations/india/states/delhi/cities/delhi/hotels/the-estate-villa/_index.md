@@ -12,6 +12,8 @@ email: contact@theestatebnb.com
 website: www.theestatebnb.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

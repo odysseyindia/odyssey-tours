@@ -12,6 +12,8 @@ email: ''
 website: http://www.vivantabytaj.com/Hari-Mahal-Jodhpur
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

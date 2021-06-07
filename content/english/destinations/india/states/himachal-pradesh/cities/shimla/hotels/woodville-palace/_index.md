@@ -12,6 +12,8 @@ email: woodvillepalacehotel@yahoo.com  woodville@woodvillepalacehotel.com
 website: www.woodvillepalacehotel.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

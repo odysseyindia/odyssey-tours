@@ -12,6 +12,8 @@ email: sales.ajmer@mansinghhotels.com  sales.delhi@mansinghhotels.com
 website: www.mansinghhotels.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

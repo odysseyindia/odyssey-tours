@@ -12,6 +12,8 @@ email: chanoudgarh@gmail.com
 website: https://chanoudgarh.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

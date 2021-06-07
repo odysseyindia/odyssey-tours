@@ -12,6 +12,8 @@ email: gn.kakatiya@welcomemail.wiprobt.ems.vsnl.net.in
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

@@ -12,6 +12,8 @@ email: info@GlenburnPenthouse.com
 website: http://glenburnpenthouse.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

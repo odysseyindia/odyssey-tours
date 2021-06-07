@@ -12,6 +12,8 @@ email: info@deogarhmahal.com  reservations@consortiumhotels.org
 website: www.deogarhmahal.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

@@ -14,6 +14,8 @@ email: >-
 website: www.claridges.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

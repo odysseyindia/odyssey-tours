@@ -12,6 +12,8 @@ email: admin@parkroyal.co.in
 website: www.parkroyal.com.au
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

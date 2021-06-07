@@ -12,6 +12,8 @@ email: 'info@ritzhotel.in  '
 website: www.ritzhotel.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

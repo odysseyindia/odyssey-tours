@@ -12,6 +12,8 @@ email: rajmahaljaipur@gmail.com  rajmahal@datainfosys.net
 website: rajmahalpalacejaipur.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

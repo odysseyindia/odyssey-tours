@@ -12,6 +12,8 @@ email: reservation@suryagarh.com
 website: www.suryagarh.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

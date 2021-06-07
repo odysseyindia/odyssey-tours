@@ -12,6 +12,8 @@ email: mail@ranakpurhillresort.com
 website: www.ranakpurhillresort.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: ''
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

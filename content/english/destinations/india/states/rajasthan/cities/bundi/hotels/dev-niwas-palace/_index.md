@@ -12,6 +12,8 @@ email: mail@devniwas.com
 website: http://jagatcollection.com/devniwas
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

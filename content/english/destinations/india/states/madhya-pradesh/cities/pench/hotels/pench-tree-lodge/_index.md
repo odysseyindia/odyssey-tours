@@ -12,6 +12,8 @@ email: ''
 website: https://www.penchtreelodge.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

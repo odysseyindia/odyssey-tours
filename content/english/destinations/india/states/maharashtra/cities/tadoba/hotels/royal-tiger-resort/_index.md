@@ -12,6 +12,8 @@ email: 'support@royaltigertadoba.com    '
 website: www.royaltigertadoba.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - A

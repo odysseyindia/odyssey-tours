@@ -14,6 +14,8 @@ website: >-
 note: ''
 ranking: 1
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - TL

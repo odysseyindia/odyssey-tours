@@ -2,6 +2,8 @@
 title: North West Safaries
 translationKey: north-west-safaries
 type: hotel
+tags:
+  - Hotels
 id: hotel
 ranking: 0
 category:

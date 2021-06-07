@@ -12,6 +12,8 @@ email: hotelnaveen@hotmail.com
 website: www.hotelnaveen.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: sunny@bhoramdeojungleretreat.com  sabrina.hug@gmx.ch  sophie@sophiehartma
 website: http://www.bhoramdeojungleretreat.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

@@ -12,6 +12,8 @@ email: nkhsales@cal3.vsnl.net.in
 website: bestwesternkenilworth.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

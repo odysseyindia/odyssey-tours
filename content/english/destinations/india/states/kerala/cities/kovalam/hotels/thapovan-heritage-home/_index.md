@@ -12,6 +12,8 @@ email: 'thapovan@gmail.com  '
 website: www.thapovan.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

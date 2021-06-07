@@ -13,6 +13,8 @@ website: http://www.neemranahotels.com/fort-palace-neemrana
 note: ''
 ranking: 1
 type: hotel
+tags:
+  - Hotels
 category:
   - HH
   - H

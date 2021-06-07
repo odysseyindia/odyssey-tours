@@ -12,6 +12,8 @@ email: ''
 website: https://www.vresorts.in/resorts/v-resorts-mahua-vann-pench
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - RIK

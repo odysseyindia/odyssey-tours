@@ -12,6 +12,8 @@ email: ''
 website: http://www.vivantabytaj.com/Ambassador-New-Delhi
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

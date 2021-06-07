@@ -12,6 +12,8 @@ email: info@ahilyabythesea.com  info@ahilyafort.com
 website: https://www.facebook.com/AhilyabytheSea
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

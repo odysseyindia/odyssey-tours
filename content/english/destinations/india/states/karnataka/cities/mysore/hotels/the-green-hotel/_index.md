@@ -12,6 +12,8 @@ email: booking@greenhotelindia.com
 website: www.greenhotelindia.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

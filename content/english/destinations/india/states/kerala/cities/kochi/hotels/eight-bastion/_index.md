@@ -12,6 +12,8 @@ email: ''
 website: http://www.cghearth.com/eighth-bastion
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

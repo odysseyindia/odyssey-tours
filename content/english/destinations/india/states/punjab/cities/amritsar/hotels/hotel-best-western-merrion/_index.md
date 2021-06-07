@@ -12,6 +12,8 @@ email: office@summit-adventures.net  milap@summit-adventures.net
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

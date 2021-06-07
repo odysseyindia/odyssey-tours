@@ -12,6 +12,8 @@ email: ask@hammeergarhi.in
 website: www.hammeergarhi.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

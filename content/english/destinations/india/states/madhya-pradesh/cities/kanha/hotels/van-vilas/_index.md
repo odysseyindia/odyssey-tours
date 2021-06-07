@@ -14,6 +14,8 @@ email: >-
 website: www.celebrationworld.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

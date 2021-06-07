@@ -12,6 +12,8 @@ email: ramgarhbungalows@neemranahotels.com
 website: http://www.neemranahotels.com/the-ramgarh-bungalows-kumaon-hills-nainital
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

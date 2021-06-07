@@ -12,6 +12,8 @@ email: jambughodapalace@rediffmail.com
 website: http://www.jambughoda.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

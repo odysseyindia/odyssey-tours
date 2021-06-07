@@ -12,6 +12,8 @@ email: namrahotel@gmail.com
 website: http://namrahotel.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

@@ -12,6 +12,8 @@ email: info@ramadajhvvns.com
 website: www.ramadajhvvns.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

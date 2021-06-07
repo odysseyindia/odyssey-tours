@@ -14,6 +14,8 @@ email: >-
 website: cmarinatowers.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

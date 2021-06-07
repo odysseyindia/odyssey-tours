@@ -12,6 +12,8 @@ email: info@windermeremunnar.com
 website: http://www.windermerethattekad.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

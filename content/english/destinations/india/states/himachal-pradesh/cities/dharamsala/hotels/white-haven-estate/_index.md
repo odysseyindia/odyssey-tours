@@ -12,6 +12,8 @@ email: 'whitehavenestate@gmail.com  '
 website: http://hotelwhitehaven.in/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0
