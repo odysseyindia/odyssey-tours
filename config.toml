@@ -89,25 +89,8 @@ taxonomy                = ["html","json"]
     name = "TIM"
     identifier = "tim"
     pre = "tim"
+    url = "/tim/"
     weight = 10
-  [[Languages.en.menu.main]]
-    name = "Itineraries"
-    parent = "tim"
-    pre = "tim"
-    url = "/tim"
-    weight = 11
-   [[Languages.en.menu.main]]
-    name = "Reports"
-    parent = "tim"
-    pre = "tim"
-    url = "/tim/reports/"
-    weight = 12
-  [[Languages.en.menu.main]]
-    name = "Reports"
-    parent = "tim"
-    pre = "tim"
-    url = "/tim/data/"
-    weight = 13
   [[Languages.en.menu.main]]
     name = "Tour Ideas"
     identifier = "tour-ideas"
@@ -194,6 +177,33 @@ taxonomy                = ["html","json"]
     pre = "bed"
     url = "/contact/contact-us/"
     weight = 80
+
+  [[Languages.en.menu.tim]]
+    name = "Itineraries"
+    identifier = "itineraries"
+    url = "/tim/itineraries/"
+    weight = 11
+  [[Languages.en.menu.tim]]
+    name = "Hotels"
+    identifier = "hotels"
+    url = "/tim/hotels/"
+    weight = 12
+  [[Languages.en.menu.tim]]
+    name = "Suppliers"
+    identifier = "suppliers"
+    url = "/tim/suppliers/"
+    weight = 13
+  [[Languages.en.menu.tim]]
+    name = "Contacts"
+    identifier = "contacts"
+    url = "/tim/contacts/"
+    weight = 14
+  [[Languages.en.menu.tim]]
+    name = "Resources"
+    identifier = "resources"
+    url = "/tim/resources/"
+    weight = 15
+
 
 [markup]
   [markup.goldmark]

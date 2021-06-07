@@ -1,4 +1,6 @@
-#itinerary {
+section {
+  padding-top: 50px;
+}
 
 .alert-box {
   padding: 15px;
@@ -596,6 +598,4 @@ $timing-function: ease-out;
     0 ($depth*1.8+px) 9px rgba(0,0,0,.2);
     
   
-}
-
 }

@@ -19,7 +19,7 @@
 </script>
 
 <!-- append page specific style sheet: id is set in layouts/baseof.html -->
-{{- $scss := printf "scss/main/%s.scss" (.Scratch.Get "id") -}}
+{{- $scss := printf "scss/main/%s.scss" (.Scratch.Get "id") }}
 {{- if fileExists (printf "assets/%s" $scss) -}}
   {{- $style := resources.Get $scss | toCSS | minify -}}
   <script>
@@ -32,6 +32,7 @@
   })();
   </script>
 {{- end -}}
+
 
 <!-- get scripts ready to bundle as /js/script.js -->
 {{- $cookie  := resources.Get "/js/cookie-consent.js" | resources.ExecuteAsTemplate "js/cookie-consent.js" . }}

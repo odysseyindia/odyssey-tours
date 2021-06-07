@@ -1,0 +1,701 @@
+{{- define "main" }}
+{{- .Scratch.Set "layout" "layouts/tim/itineraries/list.html" -}}
+
+{{ $now := now.Format "2006-01-02" }}
+
+<section id="{{ .Scratch.Get "id" | lower }}"> 
+
+  <div class="row nowrap">
+    <div id="navbar">
+      <div class="wrapper">
+        <button id="new-trip">
+          <i class="icon-plus"></i>New Trip 
+        </button>
+        <ul>
+          <li id="trips-all-trips">
+            <span class="mouse">
+              <i class="icon-group"></i>
+              All Trips
+            </span>
+          </li>
+          <li id="trips-my-trips">
+            <span class="mouse">
+              <i class="icon-adult"></i> 
+              My Trips
+            </span>
+          </li>
+          <li id="trips-archived">
+            <span class="mouse">
+              <i class="icon-archive"></i>
+              Archived
+            </span>
+          </li>
+        </ul>
+        <h5>Filter by Type</h5>
+        <ul>
+          <li id="type-proposal">
+            <span class="mouse">
+              <i class="icon-folder-open-empty"></i>Proposal
+            </span>
+          </li>
+          <li id="type-itinerary">
+            <span class="mouse">
+              <i class="icon-folder-open-empty"></i> 
+              Itinerary
+            </span>
+          </li>
+        </ul>
+        <h5>Filter by Date</h5>
+        <ul>
+          <li id="date-upcoming">
+            <span class="mouse">
+              <i class="icon-forward"></i> 
+              Upcoming
+            </span>
+          </li>
+          <li id="date-in-progress">
+            <span class="mouse">
+              <i class="icon-spin3"></i> 
+              In progress
+            </span>
+          </li>
+          <li id="date-past">
+            <span class="mouse">
+              <i class="icon-archive"></i> 
+              Past
+            </span>
+          </li>
+        </ul>
+        <h5>Filter by Status</h5>
+        <ul>
+          <li id="status-quote">
+            <span class="mouse">
+              <i class="icon-hourglass"></i>
+              Quote
+            </span>
+          </li>
+          <li id="status-confirmed">
+            <span class="mouse">
+              <i class="icon-check"></i> 
+              Confirmed
+            </span>
+          </li>
+          <li id="status-paid">
+            <span class="mouse">
+              <i class="icon-rupee"></i>
+              Paid
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="listing">
+      <div class="row alerts">
+    <div class="alert alert-success"></div>
+    <div class="alert alert-warning"></div>
+    <div class="alert alert-danger"></div>
+  </div>
+
+      <div class="row">
+        <div class="input-icons">
+          <i class="icon-search"></i>
+          <input class="input-field" type="text" list="datalist" placeholder="Search" onkeyup="ac(this.value)"> 
+          <datalist id="datalist"> 
+            {{- range (where (where .Site.Pages "Section" "tim") ".Params.type" "itinerary") }}
+            <option value="{{.RelPermalink}}">{{.Title}}</option> 
+            {{- end }}
+          </datalist> 
+        </div>
+      </div>
+
+  
+      <div class="table">
+        <div class="item-1"><b>Client Name</b></div>
+        <div class="item-2"><b>Trip name</b></div>
+        <div class="item-date"><b>Date</b></div>
+        <div class="item-date"><b>Action</b></div>
+        <div class="item-icon"></div>
+        <div class="item-icon"></div>
+        <div class="item-icon"></div>
+      </div>
+      <div class="wrapper">
+        {{- range $i,$e := (where (where .Site.Pages "Section" "tim") ".Params.type" "itinerary") }}
+
+        <div class="booking {{if not (modBool $i 2)}}odd{{end}}" tabindex="-1" id="data-{{ $i }}" type="" >
+          <div class="table">
+            <!-- field 1 -->
+            <div class="item-1">
+              <a class="link-unstyled" href="{{ .RelPermalink }}">
+                {{ $e.Title }} 
+              </a>
+            </div>
+            <!-- field 2 -->
+            <div class="item-2">
+              {{ $e.Params.tour }}
+            </div>
+            <!-- field 3 -->
+            <div class="item-date">
+              {{- with $e.Params.arrdate }}
+              {{ dateFormat "02/01/06" . }}
+              {{- end }}
+            </div>
+            <!-- field 4 -->
+            <div class="item-date">
+              {{ $e.Lastmod.Format "02/01/06" }}
+            </div>
+            <!-- field 5 -->
+            <div class="item-icon">
+              <i class="{{ if eq $e.Params.stage "proposal" }}icon-folder-empty{{ else }}icon-folder-open-empty{{ end }}"></i>
+            </div>
+            <!-- field 6 -->
+            <div class="item-icon">
+              <i class="{{ if eq $e.Params.status "quote" }}icon-hourglass{{ end }}
+              {{ if eq $e.Params.status "confirmed" }}icon-check{{ end }}
+              {{ if eq $e.Params.status "paid" }}icon-rupee{{ end }}"></i>
+            </div>
+            <!-- field 7 -->
+            <div class="item-icon">
+              <i class="{{ if and (ge $now .Params.arrdate) (le now .Params.depdate) }}icon-spin3{{end}}
+              {{with .Params.depdate}}{{ if gt $now . }}icon-fast-backward{{end}}{{end}} {{ if gt .Params.arrdate $now}}icon-forward{{end}}"></i>
+            </div>
+            <!-- field 8 -->
+            <div class="item-icon">
+              <i class="{{ if eq  $e.Params.archived true }}icon-archive{{ end }}"></i>
+            </div>
+            <!-- field 9: stage (enquiry/proposal/itinerary -->
+            <div class="hide">{{- cond (isset .Params "stage") .Params.stage "enquiry" -}}
+            </div>
+            <!-- field 10: in progress-->
+            <div class="hide">{{- if and (ge $now .Params.arrdate) (le now .Params.depdate) -}}1{{- end -}}
+              {{- with .Params.depdate -}}
+              {{- if gt $now . -}}0{{- end -}}
+              {{- end -}} 
+              {{- if gt .Params.arrdate $now -}}2{{- end -}}
+            </div>
+            <!-- field 11: archived -->
+            <div class="hide">{{- cond (isset .Params "archived") .Params.archived false -}}</div>
+            <!-- field 12: status -->
+            <div class="hide">{{ .Params.status }}</div>
+            <!-- field 13: consultant -->
+            <div class="hide">{{ .Params.consultant }}</div>
+          </div>
+        </div>
+        {{- end }}
+      </div>
+    </div>
+
+    <div id="sidebar">
+      <div class="row">
+        <div id="closebtn">
+          <i class="icon-cancel" ></i>
+        </div>
+      </div>
+      <div class="row menu">
+        <div >
+          <i class="icon-pencil" id="edit"></i><br>Edit
+        </div>
+        <div >
+          <i class="icon-file-pdf" id="preview"></i><br>Preview
+        </div>
+        <div >
+          <i class="icon-docs" id="copy"></i><br>Copy
+        </div>
+        <div >
+          <i class="icon-archive" id="archive"></i><br>Archive
+        </div>
+      </div>
+      <hr>
+
+      <div class="row">
+        <div class="label">
+          <label>URL</label>
+        </div>
+        <div  id="url"></div>
+      </div>
+
+      <div class="row hidden">
+       <div id="permalink"></div>
+     </div>
+
+     <div class="row">
+      <div class="label">
+        <label for="name">Contact</label>
+      </div>
+      <div class="input">
+        <input name="name" id="name" placeholder="Contact person">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="label">
+        <label for="stage">Stage</label>
+      </div>
+      <div class="select">
+        <select id="stage" name="stage">
+          <option value="enquiry">Enquiry</option>
+          <option value="itinerary">Itinerary</option>
+          <option value="proposal">Proposal</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="label">
+        <label for="status">Status</label>
+      </div>
+      <div class="select">
+        <select id="status" name="status">
+          <option ></option>
+          <option value="quote">Quote</option>
+          <option value="confirmed">Confirmed</option>
+          <option value="paid">Paid</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="label">
+        <label for="archived">Archived</label>
+      </div>
+      <div class="select">
+        <select name="archived" id="archived">
+          <option value="false">No</option>
+          <option value="true">Yes</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="label">
+        <label for="consultant">Consultant</label>
+      </div>
+      <div class="input">
+        <input name="consultant" id="consultant" placeholder="Consultant">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="label">
+        <label for="arrdate">Arrival Date</label>
+      </div>
+      <div class="input">
+        <input name="arrdate" id="arrdate" placeholder="dd/mm/yyyy">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="label">
+        <label for="depdate">Departure Date</label>
+      </div>
+      <div class="input">
+        <input name="depdate" id="depdate" placeholder="dd/mm/yyyy">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="input" id="save"><button>Save</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <div class="container">
+        <div class="row">
+          <div><i class="icon-docs"></i></div>
+          <div class="cancel close-modal-btn">
+            <i class="icon-cancel"></i>
+          </div>
+        </div>
+        <div id="content">
+          <div><label for="copyto"></label>
+          </div>
+          <div><input type="text" name="copyto" required>
+          </div>
+        </div>
+        <div class="row buttons">
+          <div>
+            <button class="save" id=save-modal-btn>
+            <i class="icon-floppy"></i>
+              Save
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+  <div id="modal-new" class="modal">
+    <div class="modal-content">
+      <div class="container">
+        <div class="row">
+          <div><i class="icon-docs"></i></div>
+          <div class="cancel close-modal-btn">
+            <i class="icon-cancel"></i>
+          </div>
+        </div>
+        <div id="content2">
+          <div>
+            <label for="title">Client Name</label>
+          </div>
+          <div>
+            <input type="text" name="title" value="" required>
+          </div>
+          <div>
+            <label for="tour">File Name</label>
+          </div>
+          <div>
+            <input type="text" name="tour" value="" required>
+          </div>
+        </div>
+        <div class="row buttons">
+          <div>
+            <button class="save" id=save-modal-new-btn>
+            <i class="icon-floppy"></i>
+              Save
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+</section>
+
+{{ end }}
+{{ define "postscript" }}
+
+<script>
+  /* search script */
+  var tags = [
+    {{- range (where (where .Site.Pages "Section" "tim") ".Params.type" "itinerary") }}
+    "{{ .Title }}", 
+    {{- end }}
+  ];
+
+  var n= tags.length;     
+  var str = ("data-");
+
+  function ac(value) { 
+    document.getElementById('datalist').innerHTML = ''; 
+    l=value.length; 
+
+
+    for (var i = 0; i<n; i++) { 
+      if(((tags[i].toLowerCase()).indexOf(value.toLowerCase()))>-1) 
+      { 
+        var node = document.createElement("option"); 
+        var val = document.createTextNode(tags[i]); 
+        node.appendChild(val); 
+        // document.getElementById("datalist").appendChild(node); 
+
+        var item = str.concat(i);
+        document.getElementById(item).style.display = "block";
+
+      } else {
+
+        var item = str.concat(i);
+        document.getElementById(item).style.display = "none";
+      }
+    }
+  } 
+</script>
+
+<script>
+
+  var userSelection = document.getElementsByClassName('booking');
+
+  for(var i = 0; i < userSelection.length; i++) {
+    (function(index) {
+      userSelection[index].addEventListener("click", function(){
+       openNav(index);
+     })
+    })(i);
+  }
+
+  document.getElementById("trips-all-trips").addEventListener('click', () => {
+    var numTours = 0;
+
+    row = document.querySelectorAll(".booking");
+
+    for (i = 0; i < row.length; i++) {
+      numTours += 1;
+      row[i].classList.add(isOdd(numTours))
+      row[i].style.display = "block"
+    }
+  });
+
+ document.getElementById("new-trip").onclick = function() {
+   document.getElementById("modal-new").style.display = "block";
+  }
+
+  document.getElementById("trips-my-trips").onclick = function() {
+    display(13,"hans")
+  }
+
+  document.getElementById("trips-archived").onclick = function() {
+    display(11,"true")
+  }
+
+  document.getElementById("type-proposal").onclick = function() {
+    display(9,"proposal")
+  }
+
+  document.getElementById("type-itinerary").onclick = function() {
+    display(9,"itinerary")
+  }
+
+  document.getElementById("status-quote").onclick = function() {
+    display(12,"quote")
+  }
+
+  document.getElementById("status-confirmed").onclick = function() {
+    display(12,"confirmed")
+  }
+
+  document.getElementById("status-paid").onclick = function() {
+    display(12,"paid")
+  }
+
+  document.getElementById("date-upcoming").onclick = function() {
+    display(10,2)
+  }
+
+  document.getElementById("date-in-progress").onclick = function() {
+    display(10,1)
+  }
+
+  document.getElementById("date-past").onclick = function() {
+    display(10,0)
+  }
+
+  document.getElementById("closebtn").addEventListener('click', () => {
+    document.getElementById("sidebar").style.display = "none";
+    document.getElementById("navbar").style.display  = "block";
+  });
+
+  document.getElementById("edit").onclick = function() {
+    window.location.href =  "/tim/itineraries/"+ document.getElementById("url").innerHTML 
+  }
+
+  document.getElementById("preview").onclick = function() {
+    const file = document.getElementById("url").innerText;
+    window.open("{{ .Permalink }}/itineraries/"+file);
+  };
+
+  document.getElementById("copy").onclick = function(){
+    document.getElementById("modal").style.display = "block"
+;
+    var url = document.getElementById("url").innerText;
+
+    document.getElementById("content").children[2].firstChild.innerHTML = "Copy <b>"+url+"</b> to ";
+  };
+
+  document.getElementById("archive").onclick = function(){
+    document.getElementById("archived").value = true;
+  }
+
+  document.getElementById("save").onclick = function() {
+    const url = document.getElementById("url").innerHTML 
+    var data  = [];
+
+    data.push({"name":document.getElementById("name").value})
+    data.push({"arrdate":document.getElementById("arrdate").value})
+    data.push({"depdate":document.getElementById("depdate").value})
+    data.push({"stage":document.getElementById("stage").value})
+    data.push({"status":document.getElementById("status").value})
+    data.push({"archived":document.getElementById("archived").value})
+    data.push({"consultant":document.getElementById("consultant").value})
+
+    docLoad({
+      url:    'ajax',
+      method: 'POST',  
+      data: {
+        "file": url,
+        "data": data
+      } 
+    })
+    .then(
+
+    function(response){
+
+    }, 
+
+    function(Error) {
+      alert(Error);
+      console.log(Error);
+    });
+  }
+
+var closeModals = document.getElementsByClassName("close-modal-btn");
+
+for (var i = 0; i < closeModals.length; i++) {
+    closeModals[i].addEventListener('click', () => {
+      let modals = document.getElementsByClassName("modal");
+      for (var j = 0; j < modals.length; j++) {
+        modals[j].style.display = "none";
+      };
+    });
+};
+
+document.getElementById("save-modal-btn")
+  .addEventListener('click', () => {
+
+  document.getElementById("modal").style.display = "none";
+  var from = document.getElementById("url").innerText;
+  var to   = document.getElementById("content").children[3].children[0].value;
+
+  docLoad({
+        url:    'copy',
+        method: 'POST',  
+        data: JSON.stringify({
+          "from": from,
+          "to": to
+        })
+      })
+      .then(
+
+      function(response){
+        alert("Copied "+from+" to "+to);
+      }, 
+
+      function(Error) {
+        alert(Error);
+        console.log(Error);
+      });
+
+  });
+
+  document.getElementById("save-modal-new-btn")
+  .addEventListener('click', () => {
+
+  // document.getElementById("modal-new").style.display = "none";
+  var title = document.getElementById("content2").children[1].children[0].value;
+  var tour  = document.getElementById("content2").children[3].children[0].value;
+
+  docLoad({
+        url:    'create',
+        method: 'POST',  
+        data: JSON.stringify({
+          "title": title,
+          "tour": tour
+        })
+      })
+      .then(
+
+      function(response){
+        alert("Created "+tour);
+      }, 
+
+      function(Error) {
+        alert(Error);
+        console.log(Error);
+      });
+
+  });
+
+  function display(column,title){
+
+    var   numTours = 0;
+    const row = document.querySelectorAll(".booking");
+
+    for (i = 0; i < row.length; i++) {
+      var items  = row[i].getElementsByTagName('div')  
+      var status = items[column].innerText
+      if (status == title){
+        numTours += 1;
+        row[i].classList.add(isOdd(numTours))
+        row[i].style.display = "block"
+      } else {
+        row[i].style.display = "none"
+      }
+    }
+  }
+
+  function capitalize(word) {
+    return word.charAt(0).toUpperCase() + word.slice(1)
+  }
+
+  function isOdd(num) { 
+    if (num % 2) {
+      return "odd"
+    } else {
+      return "even"
+    }
+  }
+
+  function openNav(index) {
+
+    document.getElementById("sidebar").style.display = "block";
+    document.getElementById("sidebar").style.width = "350px;";
+    document.getElementById("navbar").style.display = "none";
+
+    const divs      = userSelection[index].getElementsByTagName('div')  
+    const permalink = divs[0].firstElementChild.firstElementChild.getAttribute("href") 
+
+    docLoad({url: "/tim/itineraries/index.json"}).then(
+      function(response){
+
+  console.table(response);
+
+        const data  = JSON.parse(response);
+        const items = data.data.items
+
+        for(let i=0;i<items.length;i++) {
+          if (items[i].permalink == permalink ){
+            let myData = items[i]
+
+
+
+            document.getElementById("name").value       = myData.title
+            document.getElementById("arrdate").value    = myData.arrdate
+            document.getElementById("depdate").value    = myData.depdate
+            document.getElementById("stage").value      = myData.stage
+            document.getElementById("status").value     = myData.status
+            document.getElementById("archived").value   = myData.archived
+            document.getElementById("consultant").value = myData.consultant
+            document.getElementById("url").innerHTML    =  myData.permalink.split("/")[(myData.permalink.split("/")).length-2]
+            document.getElementById("permalink").innerHTML    =  myData.permalink
+          }
+        }
+      }, 
+      function(Error) {
+        console.log(Error);
+      });
+  };
+
+  function docLoad(object) {
+
+    return new Promise(function(resolve, reject) {
+
+      var host = ((object.method == 'POST')? 
+        {{- if (len (getenv "APP")) }}
+        {{ getenv "APP" }}
+        {{- else -}}
+        {{ .Site.Params.appHost }}
+        {{- end -}}
+        : "")+object.url;
+
+      var request = new XMLHttpRequest();
+      request.open(object.method || "GET", host);
+      request.setRequestHeader("Content-Type", "application/json");
+
+      request.onload = function() {
+        if (request.status === 200) {
+          resolve(request.response);
+        } else {
+          reject(Error('Document requested did not load successfully; error code:' + request.statusText));
+        }
+      };
+
+      request.onerror = function() {
+        reject(Error('There was a network error.'));
+      };
+      request.send(JSON.stringify(object));
+    });
+  }
+
+</script>
+
+{{ end }}

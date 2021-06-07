@@ -1,6 +1,6 @@
 {{- define "main" }}
 
-{{- .Scratch.Set "layout" "layouts/taxonomy/tag.html" -}}
+{{- .Scratch.Set "layout" "layouts/tim/suppliers/list.html" -}}
  
 <section id="{{ .Scratch.Get "id" | lower }}"> 
     <main>
@@ -10,9 +10,9 @@
                     <div class="odc21">
                         <div class="odc22">
                             <div class="supplier-hdr">
-                                <div class="mr-30"><h2 class="title-header">Cities</h2></div>
+                                <div class="mr-30"><h2 class="title-header">Suppliers</h2></div>
                                 <div class="create-button">
-                                    <a class="create-button" tabindex="0" role="button" href="/cities/create"><span >Create city</span></a>
+                                    <a class="create-button" tabindex="0" role="button" href="/cities/create"><span >Create Supplier</span></a>
                                 </div>
                             </div>
                             <div class="odc2">
@@ -49,7 +49,7 @@
                                 <tr>
                                     <th class="col1" scope="col">
                                         <span class="odc8" tabindex="0" role="button" data-column="name">
-                                            <span class="supplier-name">City</span>
+                                            <span class="supplier-name">Supplier</span>
                                             <svg class="svg-arrow" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation">
                                                 <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path>
                                                 <path fill="none" d="M0 0h24v24H0V0z"></path>
@@ -58,7 +58,7 @@
                                     </th>
                                     <th class="col2" scope="col">
                                         <span class="odc8" tabindex="0" role="button" data-column="type">
-                                            <span class="supplier-name">State</span>
+                                            <span class="supplier-name">City</span>
                                             <svg class="svg-arrow" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation">
                                                 <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path>
                                                 <path fill="none" d="M0 0h24v24H0V0z"></path>
@@ -66,7 +66,7 @@
                                         </span>
                                     </th>
                                     <th class="col3" scope="col">
-                                        <span class="supplier-name">Country</span>
+                                        <span class="supplier-name">State / Country</span>
                                     </th>
                                     <th class="col4" scope="col">
                                         <span class="odc8" tabindex="0" role="button" data-column="created_at">
@@ -86,7 +86,7 @@
                                 </tr>
                             </thead>
                             <tbody>
-                            {{ with ($.Site.GetPage (printf "/%s/%s" "tags" "Cities")) }}
+                            {{ with ($.Site.GetPage (printf "/%s/%s" "tags" "Suppliers")) }}
                             {{ range (.Paginator 10).Pages }}
                                 {{ $array     := split .RelPermalink "/" }}
                                 {{ $city      := index $array (sub (len $array) 4) }}

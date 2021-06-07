@@ -1,4 +1,4 @@
 ---
 title: Itineraries
-type: tim
+type: tim/itineraries
 ---

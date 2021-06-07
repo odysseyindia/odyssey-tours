@@ -13,3 +13,6 @@ find . -name index.md -print0 | xargs -0 -n1 bash -c 'mv "$0" "${0/index.md/_ind
 grep -lrIZ 'active: 0' . | xargs -0 rm -f --
 
 find .  -name 'excursions' -type d -exec cp west-bengal/cities/kolkata/excursions/_index.md
+
+
+sed 's/---/tags: [Hotels]\n---/2' 
