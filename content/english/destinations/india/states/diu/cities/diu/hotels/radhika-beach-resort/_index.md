@@ -12,6 +12,8 @@ email: 'radhikaresort@gmail.com  info@radhikaresort.com  '
 website: www.radhikaresort.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

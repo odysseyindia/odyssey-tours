@@ -12,6 +12,8 @@ email: reservations@noorussabahpalace.com
 website: www.noorussabahpalace.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

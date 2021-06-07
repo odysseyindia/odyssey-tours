@@ -12,6 +12,8 @@ email: crs@hrhhotels.com  gmsnp@udaipur.hrhindia.com  esales@hrhhotels.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

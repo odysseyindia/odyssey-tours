@@ -12,6 +12,8 @@ email: ivorytower@aswati.com
 website: www.hotelivorytower.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

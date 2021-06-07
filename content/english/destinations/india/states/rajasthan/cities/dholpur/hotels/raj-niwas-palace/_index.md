@@ -12,6 +12,8 @@ email: ''
 website: http://www.dholpurpalace.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

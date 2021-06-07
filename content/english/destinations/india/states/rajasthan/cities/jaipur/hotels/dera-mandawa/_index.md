@@ -12,6 +12,8 @@ email: info@deramandawa.com  deramandawa@gmail.com
 website: www.deramandawa.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

@@ -12,6 +12,8 @@ email: info@casadelfauno.in
 website: www.casadelfauno.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

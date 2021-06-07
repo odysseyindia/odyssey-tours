@@ -12,6 +12,8 @@ email: manager@kalmatia-sangam.com
 website: www.kalmatia-sangam.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - A

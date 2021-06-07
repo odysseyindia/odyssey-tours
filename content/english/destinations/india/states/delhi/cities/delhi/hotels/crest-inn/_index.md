@@ -12,6 +12,8 @@ email: crestinn@vsnl.net
 website: www.crestindia.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

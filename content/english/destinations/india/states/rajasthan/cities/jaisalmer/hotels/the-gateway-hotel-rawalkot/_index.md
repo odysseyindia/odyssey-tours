@@ -12,6 +12,8 @@ email: gateway.jaisalmer@tajhotels.com
 website: http://www.thegatewayhotels.com/rawalkotjaisalmer/overview.aspx
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

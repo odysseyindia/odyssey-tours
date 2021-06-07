@@ -12,6 +12,8 @@ email: jaimahal.jaipur@tajhotels.com
 website: http://www.tajhotels.com/Leisure/Jai%20Mahal%20Palace,JAIPUR/default.htm
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

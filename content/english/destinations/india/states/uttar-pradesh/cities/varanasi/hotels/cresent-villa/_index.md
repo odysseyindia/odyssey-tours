@@ -12,6 +12,8 @@ email: cresentvilla@yahoo.com  info@cresentvilla.com
 website: http://cresentvilla.com/home.html
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

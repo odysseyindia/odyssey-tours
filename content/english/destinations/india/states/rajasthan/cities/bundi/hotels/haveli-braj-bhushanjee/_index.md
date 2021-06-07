@@ -12,6 +12,8 @@ email: haveli@jp1.dot.net.in
 website: www.kiplingsbundi.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

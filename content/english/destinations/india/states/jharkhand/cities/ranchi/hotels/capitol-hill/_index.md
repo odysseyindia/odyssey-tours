@@ -12,6 +12,8 @@ email: info@hotelcapitolhill.com
 website: www.hotelcapitolhill.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: visalam@cghearth.com
 website: http://www.cghearth.com/visalam
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

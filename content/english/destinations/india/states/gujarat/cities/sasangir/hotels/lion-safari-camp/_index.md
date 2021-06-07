@@ -12,6 +12,8 @@ email: sasangir@campsofindia.com
 website: www.campsofindia.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

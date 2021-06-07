@@ -12,6 +12,8 @@ email: reservations@bawahotels.com  bawawalson@bawahotels.com
 website: http://walson.bawahotels.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -13,6 +13,8 @@ website: >-
   www.indiaprofile.com/new-delhi-hotels/hotel-https://www.hotelbroadwaydelhi.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

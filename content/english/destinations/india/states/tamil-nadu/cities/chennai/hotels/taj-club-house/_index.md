@@ -12,6 +12,8 @@ email: clubhouse.chennai@tajhotels.com
 website: http://www.tajhotels.com/Business/Taj%20Club%20House,CHENNAI/default.htm
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

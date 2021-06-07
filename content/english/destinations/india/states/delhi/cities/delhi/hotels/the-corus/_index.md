@@ -12,6 +12,8 @@ email: thecorus@rediffmail.com  resv@hotelcorus.com
 website: www.hotelcorus.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

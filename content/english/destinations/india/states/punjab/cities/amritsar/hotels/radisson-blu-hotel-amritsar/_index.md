@@ -12,6 +12,8 @@ email: ados@rdamritsar.com
 website: http://www.radissonblu.com/hotel-amritsar
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

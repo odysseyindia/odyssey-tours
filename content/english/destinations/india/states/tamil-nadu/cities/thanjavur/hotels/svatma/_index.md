@@ -12,6 +12,8 @@ email: info@svatma.in
 website: www.svatma.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

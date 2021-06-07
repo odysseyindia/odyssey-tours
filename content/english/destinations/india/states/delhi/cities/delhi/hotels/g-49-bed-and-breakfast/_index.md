@@ -12,6 +12,8 @@ email: bed-breakfast@zaza.co.in  sunderlal@indianinc.com
 website: http://www.bed-breakfast.asia/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

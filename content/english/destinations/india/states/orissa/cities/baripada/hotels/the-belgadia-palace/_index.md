@@ -12,6 +12,8 @@ email: houseofmayurbhanj@gmail.com
 website: https://www.thebelgadiapalace.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

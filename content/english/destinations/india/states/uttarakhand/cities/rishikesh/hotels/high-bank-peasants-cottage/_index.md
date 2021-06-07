@@ -12,6 +12,8 @@ email: info@rishikesh.in
 website: www.rishikesh.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

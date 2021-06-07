@@ -12,6 +12,8 @@ email: reservations@houseofrohet.com
 website: http://houseofrohet.com/mihir_garh/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

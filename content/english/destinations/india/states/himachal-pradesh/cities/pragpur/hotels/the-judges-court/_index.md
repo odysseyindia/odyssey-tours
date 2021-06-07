@@ -14,6 +14,8 @@ email: >-
 website: www.judgescourt.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

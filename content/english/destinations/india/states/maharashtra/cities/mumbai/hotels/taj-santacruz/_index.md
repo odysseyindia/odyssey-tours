@@ -14,6 +14,8 @@ email: Naira.Dsouza@tajhotels.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

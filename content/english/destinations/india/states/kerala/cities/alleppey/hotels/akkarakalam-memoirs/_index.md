@@ -12,6 +12,8 @@ email: info@akkarakalammemoirs.com
 website: www.akkarakalammemoirs.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: hampi@evolveback.com
 website: https://www.evolveback.com/hampi/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

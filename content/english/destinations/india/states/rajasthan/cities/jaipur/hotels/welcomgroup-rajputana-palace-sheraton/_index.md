@@ -12,6 +12,8 @@ email: rajputana@welcomgroup.com
 website: sheraton.con/rajputanapalace
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

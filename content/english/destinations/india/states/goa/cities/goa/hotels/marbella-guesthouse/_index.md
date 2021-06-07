@@ -12,6 +12,8 @@ email: marbella_goa@yahoo.com
 website: www.marbellagoa.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: reservations@ghanerao.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

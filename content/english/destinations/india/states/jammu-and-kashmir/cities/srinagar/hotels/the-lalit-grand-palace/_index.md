@@ -12,6 +12,8 @@ email: srinagar@thelalit.com
 website: www.thelalit.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

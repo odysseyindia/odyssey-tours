@@ -12,6 +12,8 @@ email: sales_hotelpresident@airtelbroadband.in  viceroymys@dataone.in
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

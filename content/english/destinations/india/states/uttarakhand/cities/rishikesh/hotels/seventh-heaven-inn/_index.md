@@ -12,6 +12,8 @@ email: 'reservations@seventhheaveninnrishikesh.com  '
 website: http://seventhheaveninnrishikesh.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - WEB
   - H

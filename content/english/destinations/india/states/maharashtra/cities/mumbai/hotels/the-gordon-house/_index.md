@@ -12,6 +12,8 @@ email: 'salesghh@mars-world.com  neil.nunes@mars-world.com  dmghh@mars-world.com
 website: www.ghhotel.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - A

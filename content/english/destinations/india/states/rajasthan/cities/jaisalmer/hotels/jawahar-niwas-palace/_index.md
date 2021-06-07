@@ -12,6 +12,8 @@ email: info@jawaharniwaspalace.com
 website: www.jawaharniwaspalace.co.in
 note: jawaharniwas@yahoo.co.in
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

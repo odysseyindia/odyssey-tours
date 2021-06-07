@@ -12,6 +12,8 @@ email: in_heritage@indiatimes.com  balbhadrasingh@ishwariniwas.com
 website: www.ishwariniwas.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

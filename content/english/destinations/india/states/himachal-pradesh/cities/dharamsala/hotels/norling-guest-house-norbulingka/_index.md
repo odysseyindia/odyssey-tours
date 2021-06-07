@@ -12,6 +12,8 @@ email: guesthouse@norbulingka.org
 website: www.norbulingka.org/norling/index.html
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - WEB

@@ -12,6 +12,8 @@ email: thedenmarktavern@theparkhotels.com
 website: https://www.facebook.com/thedenmarktavernserampore/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

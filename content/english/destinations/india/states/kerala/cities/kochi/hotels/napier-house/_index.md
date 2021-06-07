@@ -12,6 +12,8 @@ email: contact@napierhouse.com  napierhouse@gmail.com
 website: www.napierhouse.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

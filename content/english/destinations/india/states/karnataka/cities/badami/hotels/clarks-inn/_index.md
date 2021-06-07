@@ -12,6 +12,8 @@ email: fo.badami@clarksinn.in
 website: www.clarksinn.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

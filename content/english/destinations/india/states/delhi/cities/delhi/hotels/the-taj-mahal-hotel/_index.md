@@ -12,6 +12,8 @@ email: ''
 website: http://www.tajhotels.com/Luxury/City-Hotels/The-Taj-Mahal-Hotel-New-Delhi
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

@@ -12,6 +12,8 @@ email: aida@sancharnet.com
 website: aidahotmail.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

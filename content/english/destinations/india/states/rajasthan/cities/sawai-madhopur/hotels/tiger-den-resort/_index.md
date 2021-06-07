@@ -12,6 +12,8 @@ email: info@tigerdenresort.com
 website: www.tigerdenresort.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

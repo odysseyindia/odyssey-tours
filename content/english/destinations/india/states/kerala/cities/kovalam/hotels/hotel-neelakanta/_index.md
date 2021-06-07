@@ -12,6 +12,8 @@ email: info@hotelneelkanta.com
 website: www.hotelneelkanta.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

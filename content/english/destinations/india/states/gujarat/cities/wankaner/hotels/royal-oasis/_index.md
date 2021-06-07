@@ -12,6 +12,8 @@ email: wankanerheritage@yahoo.co.in
 website: www.wankanerheritagehotels.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

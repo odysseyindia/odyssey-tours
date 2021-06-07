@@ -12,6 +12,8 @@ email: reservations@raasjodhpur.com
 website: www.raasjodhpur.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

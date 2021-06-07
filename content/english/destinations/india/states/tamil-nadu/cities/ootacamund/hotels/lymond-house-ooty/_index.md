@@ -12,6 +12,8 @@ email: thewildstay@yahoo.com
 website: www.serendipityo.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

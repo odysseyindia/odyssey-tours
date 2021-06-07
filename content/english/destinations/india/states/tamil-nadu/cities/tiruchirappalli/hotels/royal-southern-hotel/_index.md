@@ -12,6 +12,8 @@ email: royalsouthern@eth.net
 website: royalsouthern.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: kuteeram.bangalore@tajhotels.com
 website: http://www.tajhotels.com/Leisure/Kuteeram,BANGALORE/default.htm
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

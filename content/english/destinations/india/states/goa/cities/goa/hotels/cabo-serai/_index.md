@@ -12,6 +12,8 @@ email: contact@caboserai.com
 website: https://caboserai.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

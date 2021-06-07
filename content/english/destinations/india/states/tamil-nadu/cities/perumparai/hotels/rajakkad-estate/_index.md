@@ -14,6 +14,8 @@ email: reservation@rajakkadestate.com, jessie@rajakkadestate.com
 website: http://www.rajakkadestate.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

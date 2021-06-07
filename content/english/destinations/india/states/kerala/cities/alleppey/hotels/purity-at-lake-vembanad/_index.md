@@ -13,6 +13,8 @@ website: http://malabarhouse.com/purity-muhamma/index.html
 note: ''
 ranking: 2
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

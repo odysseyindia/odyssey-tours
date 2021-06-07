@@ -12,6 +12,8 @@ email: reservations@samode.com
 website: www.samode.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

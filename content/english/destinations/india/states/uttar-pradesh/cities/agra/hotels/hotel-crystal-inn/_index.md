@@ -12,6 +12,8 @@ email: 'info@hotelcrystalinn.com  hotelcrystalinn@gmail.com  '
 website: ''
 note: info@hotelcrystalinn.com
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

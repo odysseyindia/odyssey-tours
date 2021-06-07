@@ -12,6 +12,8 @@ email: shalinidev66@gmail.com  shalinidev@airtelmail.in
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - A

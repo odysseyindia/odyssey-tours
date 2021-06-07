@@ -12,6 +12,8 @@ email: info@hotelclarkindia.com
 website: www.hotelclarkindia.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

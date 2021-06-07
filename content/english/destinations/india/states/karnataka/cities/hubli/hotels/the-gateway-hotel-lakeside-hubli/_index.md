@@ -12,6 +12,8 @@ email: gateway.hubli@tajhotels.com
 website: http://www.thegatewayhotels.com/lakesidehubli/overview.aspx
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

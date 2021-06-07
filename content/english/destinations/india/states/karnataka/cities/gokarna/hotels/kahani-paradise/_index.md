@@ -12,6 +12,8 @@ email: reservations@kahaniparadise.com
 website: https://kahaniparadise.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

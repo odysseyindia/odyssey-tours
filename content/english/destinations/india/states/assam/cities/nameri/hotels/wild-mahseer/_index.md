@@ -12,6 +12,8 @@ email: reservations@wildmahseer.com
 website: www.wildmahseer.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

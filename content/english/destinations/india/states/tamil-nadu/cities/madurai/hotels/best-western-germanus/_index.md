@@ -12,6 +12,8 @@ email: resvn@bestwesterngermanus.com
 website: bestwesterngermanus.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

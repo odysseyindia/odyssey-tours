@@ -12,6 +12,8 @@ email: rs@kalyanbhawan.com
 website: www.kalyanbhawan.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

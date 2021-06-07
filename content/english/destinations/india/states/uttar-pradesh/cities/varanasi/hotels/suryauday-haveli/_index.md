@@ -12,6 +12,8 @@ email: ''
 website: www.suryaudayhaveli.com
 note: 'Sales off: +91 11 6661 7837, 838. 839'
 type: hotel
+tags:
+  - Hotels
 category:
   - WEB
   - H

@@ -14,6 +14,8 @@ email: stargrandvilla@gmail.com
 website: www.stargrandvillas.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

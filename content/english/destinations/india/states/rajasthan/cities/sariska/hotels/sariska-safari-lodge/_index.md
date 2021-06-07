@@ -12,6 +12,8 @@ email: info@sariskasafarilodge.com
 website: https://sariskasafarilodge.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - A

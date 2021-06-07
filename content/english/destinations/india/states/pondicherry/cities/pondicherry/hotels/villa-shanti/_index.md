@@ -12,6 +12,8 @@ email: welcome@lavillashanti.com
 website: www.lavillashanti.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: ganpatiwalla@yahoo.co.in
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: 'reservation@seapalacehotel.net  '
 website: http://seapalacehotel.net/
 note: seapalacereservations@yahoo.co.in
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: info@ashokpatna.com  ashokhotel@gmail.com
 website: www.ashokpatna.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

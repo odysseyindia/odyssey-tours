@@ -13,6 +13,8 @@ website: http://www.tajhotels.com/Business/Taj%20Residency,AURANGABAD/default.ht
 note: ''
 ranking: 1
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - WEB

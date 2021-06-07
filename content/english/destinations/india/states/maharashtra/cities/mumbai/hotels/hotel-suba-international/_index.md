@@ -12,6 +12,8 @@ email: reservations@hotelsubainternational.com
 website: www.subahotels.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

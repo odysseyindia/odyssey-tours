@@ -12,6 +12,8 @@ email: 'saylaheritage@rediffmail.com  '
 website: http://bellguesthouse.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

@@ -12,6 +12,8 @@ email: res@shahpurabagh.com  bkg@shahpurabagh.com
 website: www.shahpurabagh.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

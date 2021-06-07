@@ -12,6 +12,8 @@ email: reserve@hotelsubagalaxy.com
 website: www.subahotels.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

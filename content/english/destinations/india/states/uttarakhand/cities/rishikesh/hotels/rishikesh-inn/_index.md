@@ -12,6 +12,8 @@ email: ''
 website: http://oneearthhotels.com/Destinations/Hotel_Rishikesh_Inn
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

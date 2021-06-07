@@ -12,6 +12,8 @@ email: 'razhupru@yahoo.co.in  '
 website: http://kohima.nic.in/ACCOMODATION123.htm
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

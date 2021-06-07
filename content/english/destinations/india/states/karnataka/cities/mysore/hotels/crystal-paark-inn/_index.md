@@ -14,6 +14,8 @@ email: >-
 website: www.crystalpaarkinn.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

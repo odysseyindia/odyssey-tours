@@ -12,6 +12,8 @@ email: sudhir.casa@gmail.com  casaboutiquehotels@gmail.com
 website: www.casaboutiquehotels.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: 'business@sunilog.com  '
 website: www.ogbeach.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

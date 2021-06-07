@@ -12,6 +12,8 @@ email: resv@hotelrampratap.com
 website: rampratap.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

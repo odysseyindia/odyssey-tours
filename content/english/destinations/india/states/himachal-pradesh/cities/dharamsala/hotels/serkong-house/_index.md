@@ -12,6 +12,8 @@ email: serkonghouse@norbulingka.org
 website: http://www.norbulingkahotels.com/serkong-house1.html
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

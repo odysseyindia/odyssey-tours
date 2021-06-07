@@ -15,6 +15,8 @@ website: >-
 note: ''
 ranking: 5
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

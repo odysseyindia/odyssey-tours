@@ -12,6 +12,8 @@ email: info@kalakettyestate.com
 website: http://kalakettyestate.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

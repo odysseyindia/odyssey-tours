@@ -12,6 +12,8 @@ email: info@hoteldevrajniwasudaipur.com
 website: http://www.hoteldevrajniwasudaipur.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

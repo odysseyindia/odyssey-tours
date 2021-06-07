@@ -12,6 +12,8 @@ email: info@buddhaheritage.com
 website: http://www.buddhaheritage.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

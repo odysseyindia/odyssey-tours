@@ -12,6 +12,8 @@ email: mysore@laika.in
 website: https://laika.in/mysore/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

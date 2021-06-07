@@ -12,6 +12,8 @@ email: mail@jagatniwaspalace.com
 website: www.jagatniwaspalace.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

@@ -12,6 +12,8 @@ email: residency.mds@smj.sprintrpg.ems.vsnl.net.in
 website: globalindia.com/hotels/reshotel.htm
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

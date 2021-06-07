@@ -12,6 +12,8 @@ email: gm@kathiwada.com
 website: https://www.kathiwadaraajmahal.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

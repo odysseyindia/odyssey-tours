@@ -12,6 +12,8 @@ email: greengates@seagot.com, greengates@sify.com
 website: greengateshotel.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

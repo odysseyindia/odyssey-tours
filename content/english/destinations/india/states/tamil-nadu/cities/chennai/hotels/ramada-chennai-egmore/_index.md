@@ -16,6 +16,8 @@ email: >-
 website: www.ramadachennaiegmore.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

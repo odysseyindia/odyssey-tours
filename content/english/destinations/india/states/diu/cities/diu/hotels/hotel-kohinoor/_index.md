@@ -12,6 +12,8 @@ email: kohinoor_diu@yahoo.co.in  info@hotelkohinoordiu.com
 website: www.hotelkohinoordiu.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

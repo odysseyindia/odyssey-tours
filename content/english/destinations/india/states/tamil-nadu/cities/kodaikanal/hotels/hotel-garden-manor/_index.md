@@ -12,6 +12,8 @@ email: ''
 website: indiamart.com/sealordhotel/gardenmanor
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

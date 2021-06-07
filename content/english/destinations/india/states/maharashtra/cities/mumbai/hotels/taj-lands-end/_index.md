@@ -12,6 +12,8 @@ email: ''
 website: http://www.tajhotels.com/Luxury/City-Hotels/Taj-Lands-End-Mumbai
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

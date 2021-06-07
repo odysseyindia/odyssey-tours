@@ -12,6 +12,8 @@ email: info@hotelbundihaveli.com
 website: www.hotelbundihaveli.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

@@ -12,6 +12,8 @@ email: ''
 website: https://www.abadhotels.com/fort-kochi-hotel-dutch-bungalow
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

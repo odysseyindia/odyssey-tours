@@ -12,6 +12,8 @@ email: kingskourt@vsnl.com
 website: kingskourt.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

@@ -12,6 +12,8 @@ email: hi.ar@lemontreehotels.com
 website: www.lemontreehotels.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

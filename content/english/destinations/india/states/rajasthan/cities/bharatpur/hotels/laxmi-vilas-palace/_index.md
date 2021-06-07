@@ -12,6 +12,8 @@ email: 'reservations@laxmivilas.com  '
 website: www.laxmivilas.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

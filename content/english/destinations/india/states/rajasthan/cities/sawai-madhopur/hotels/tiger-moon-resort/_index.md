@@ -12,6 +12,8 @@ email: indad@bom3.vsnl.net.in
 website: www.indianadventures.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

@@ -12,6 +12,8 @@ email: khimsar@jp1.vsnl.net.in
 website: www.rajasthanonline.com/khimsarfort
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

@@ -12,6 +12,8 @@ email: freedom@penchjunglecamp.com pench_camp@yahoo.com
 website: http://www.penchjunglecamp.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - A

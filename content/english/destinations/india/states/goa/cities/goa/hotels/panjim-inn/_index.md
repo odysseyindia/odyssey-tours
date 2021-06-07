@@ -12,6 +12,8 @@ email: panjimin@bsnl.in  ajit_sukhija@yahoo.com  reservations@panjiminn.com
 website: www.panjiminn.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

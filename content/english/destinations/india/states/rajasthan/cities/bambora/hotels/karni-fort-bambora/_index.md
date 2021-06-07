@@ -12,6 +12,8 @@ email: karnihotels@satyam.net.in
 website: karnihotels.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

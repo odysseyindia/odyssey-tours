@@ -12,6 +12,8 @@ email: hotelindraprasth@hotmail.com
 website: www.hotelindraprasth.biz
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

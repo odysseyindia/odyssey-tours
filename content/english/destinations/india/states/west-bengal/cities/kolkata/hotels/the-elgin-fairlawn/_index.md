@@ -13,6 +13,8 @@ website: https://www.elginhotels.com/fairlawn.php
 note: ''
 ranking: 1
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

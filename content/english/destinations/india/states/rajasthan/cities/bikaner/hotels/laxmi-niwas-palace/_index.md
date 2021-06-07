@@ -12,6 +12,8 @@ email: reservation@laxminiwaspalace.com  bikaner@laxminiwaspalace.com
 website: lalgarhpalace.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

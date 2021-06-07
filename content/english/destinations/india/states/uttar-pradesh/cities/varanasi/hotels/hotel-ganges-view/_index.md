@@ -12,6 +12,8 @@ email: hotelgangesview@yahoo.com
 website: www.hotelgangesview.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

@@ -12,6 +12,8 @@ email: customercare@houseofmg.com
 website: www.houseofmg.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

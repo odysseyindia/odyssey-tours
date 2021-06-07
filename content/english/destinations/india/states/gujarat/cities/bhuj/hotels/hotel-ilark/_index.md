@@ -12,6 +12,8 @@ email: 'info@hotelilark.com     '
 website: www.hotelilark.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

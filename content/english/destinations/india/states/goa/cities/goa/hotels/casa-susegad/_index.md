@@ -12,6 +12,8 @@ email: admin@casasusegad.com
 website: http://casasusegad.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

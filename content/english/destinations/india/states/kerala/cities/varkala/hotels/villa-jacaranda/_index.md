@@ -12,6 +12,8 @@ email: villajacaranda@yahoo.co.in
 website: www.villa-jacaranda.biz
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: reservation@sonestainns.com  sonesta@sonestainns.com
 website: www.sonestainns.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

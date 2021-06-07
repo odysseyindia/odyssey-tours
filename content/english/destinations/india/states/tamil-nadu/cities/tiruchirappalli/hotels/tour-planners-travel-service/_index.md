@@ -2,6 +2,8 @@
 title: Tour Planners Travel Service
 translationKey: tour-planners-travel-service
 type: hotel
+tags:
+  - Hotels
 id: hotel
 ranking: 0
 category:

@@ -12,6 +12,8 @@ email: sales@infinityresorts.com  jksingh@infinityresorts.com
 website: www.infinityresorts.com
 note: 'Hotel Number : 9911813300/96 5019 3662  Delhi Office: 0124 - 4655800/833'
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - A

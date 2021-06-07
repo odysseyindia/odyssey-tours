@@ -12,6 +12,8 @@ email: lambaindianhomestay@yahoo.co.in
 website: www.ratestogo.com/Hotel/EN/Col_Lamba_Indian_Homestay
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: cardamomcounty@satyam.net.in
 website: www.cardamomcounty.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

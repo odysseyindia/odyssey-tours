@@ -12,6 +12,8 @@ email: hotel_anandpalace@yahoo.co.in  hotel_anandpalace@sancharnet.in
 website: www.anandpalace.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

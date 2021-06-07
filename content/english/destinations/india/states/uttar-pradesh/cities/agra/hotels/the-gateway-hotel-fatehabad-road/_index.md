@@ -12,6 +12,8 @@ email: gateway.agra@tajhotels.com
 website: http://www.thegatewayhotels.com/fatehabadroadagra/overview.aspx
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

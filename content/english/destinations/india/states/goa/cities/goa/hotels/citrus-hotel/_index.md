@@ -12,6 +12,8 @@ email: sandeep.chandan@citrushotels.in
 website: www.citrushotels.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

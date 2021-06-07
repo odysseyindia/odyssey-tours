@@ -12,6 +12,8 @@ email: reservations@tridenthotels.com
 website: https://www.tridenthotels.com/hotels-in-agra
 note: reservations@tridentag.com  ttag@tridentag.com
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

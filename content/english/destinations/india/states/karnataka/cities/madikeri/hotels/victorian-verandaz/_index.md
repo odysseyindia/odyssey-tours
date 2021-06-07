@@ -12,6 +12,8 @@ email: dthimaiah@yahoo.com  ccthimaiah@yahoo.com
 website: http://www.victorianverandaz.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

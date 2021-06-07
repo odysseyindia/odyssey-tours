@@ -12,6 +12,8 @@ email: reservations@sealordhotels.com  sealord@asianetindia.com
 website: sealordcochin.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

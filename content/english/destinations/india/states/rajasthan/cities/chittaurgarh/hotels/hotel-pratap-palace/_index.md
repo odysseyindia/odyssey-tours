@@ -12,6 +12,8 @@ email: hpratapp@hotmail.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

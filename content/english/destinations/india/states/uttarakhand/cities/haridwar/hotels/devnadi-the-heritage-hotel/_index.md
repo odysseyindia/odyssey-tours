@@ -14,6 +14,8 @@ email: >-
 website: www.devnadi.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - RIK

@@ -12,6 +12,8 @@ email: reservations@heritageresortbikaner.com
 website: http://www.heritageresortbikaner.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

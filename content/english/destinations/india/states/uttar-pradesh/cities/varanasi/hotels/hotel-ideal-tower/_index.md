@@ -12,6 +12,8 @@ email: 'info@hotelidealtower.com   idealtower@yahoo.co.in   '
 website: www.hotelidealtower.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

@@ -12,6 +12,8 @@ email: gateway.surat@tajhotels.com
 website: http://www.thegatewayhotels.com/athwalinessurat/overview.aspx
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

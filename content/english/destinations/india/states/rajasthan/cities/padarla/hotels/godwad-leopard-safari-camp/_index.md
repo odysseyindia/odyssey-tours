@@ -14,6 +14,8 @@ email: ''
 website: http://leopardsafaricamp.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - A

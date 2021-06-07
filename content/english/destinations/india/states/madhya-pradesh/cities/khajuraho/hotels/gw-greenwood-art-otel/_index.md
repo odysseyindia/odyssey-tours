@@ -12,6 +12,8 @@ email: 'experience@grandkhajuraho.com  '
 website: www.grandkhajuraho.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

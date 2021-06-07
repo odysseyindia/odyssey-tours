@@ -12,6 +12,8 @@ email: oystergul@rediffmail.com
 website: www.oysteropera.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

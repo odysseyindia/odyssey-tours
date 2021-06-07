@@ -12,6 +12,8 @@ email: booking@quest-asia.com
 website: https://www.quest-asia.com/kathadi-north
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

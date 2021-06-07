@@ -12,6 +12,8 @@ email: Reservations@peppertrail.in
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

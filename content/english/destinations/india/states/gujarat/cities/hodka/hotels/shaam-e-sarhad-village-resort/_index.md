@@ -12,6 +12,8 @@ email: hodka.in@gmail.com
 website: www.hodka.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

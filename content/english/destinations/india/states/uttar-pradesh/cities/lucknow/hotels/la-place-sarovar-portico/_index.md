@@ -12,6 +12,8 @@ email: lpsp@sarovarhotels.com  gmlpsp@sarovarhotels.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

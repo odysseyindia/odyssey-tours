@@ -12,6 +12,8 @@ email: purvi@sancharnet.in  purvidiscovery@gmail.com
 website: www.assamteatourism.com  www.specialinteresttours.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

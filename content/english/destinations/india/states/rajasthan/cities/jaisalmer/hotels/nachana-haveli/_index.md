@@ -12,6 +12,8 @@ email: 'nachana_haveli@yahoo.com  '
 website: www.nachanahaveli.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

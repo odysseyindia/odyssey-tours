@@ -12,6 +12,8 @@ email: info@windermeremunnar.com
 website: www.windermeremunnar.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

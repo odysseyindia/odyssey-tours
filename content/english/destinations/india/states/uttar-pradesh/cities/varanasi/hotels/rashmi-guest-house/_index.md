@@ -12,6 +12,8 @@ email: 'info@palaceonriver.com  rashmiguesthouse@gmail.com  '
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

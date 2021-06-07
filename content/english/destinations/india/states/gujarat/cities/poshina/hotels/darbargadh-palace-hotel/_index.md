@@ -12,6 +12,8 @@ email: poshina@hotmail.com
 website: www.poshina.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

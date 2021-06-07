@@ -12,6 +12,8 @@ email: 'info@emeraldislekerala.com  '
 website: www.emeraldislekerala.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

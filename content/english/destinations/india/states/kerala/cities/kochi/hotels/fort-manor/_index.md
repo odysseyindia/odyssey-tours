@@ -14,6 +14,8 @@ email: reservations@fortmanor.com
 website: www.fortmanor.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

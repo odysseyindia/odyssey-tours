@@ -12,6 +12,8 @@ email: grand@jla.vsnl.net.in
 website: www.hotelgrand.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

@@ -12,6 +12,8 @@ email: info@indyhotels.in
 website: http://indyhotels.in/hotel-indy-old-court-house
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: reservation@castlemandawa.com  anngadmandawa@castlemandawa.com
 website: www.mandawahotels.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - A

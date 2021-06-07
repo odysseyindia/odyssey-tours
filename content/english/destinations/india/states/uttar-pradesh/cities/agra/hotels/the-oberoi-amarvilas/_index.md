@@ -12,6 +12,8 @@ email: reservations.agra@oberoihotels.com
 website: www.oberoihotels.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - TL

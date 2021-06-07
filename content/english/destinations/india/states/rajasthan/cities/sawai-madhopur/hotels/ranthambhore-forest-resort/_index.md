@@ -12,6 +12,8 @@ email: 'reservations@ranthambhoreforestresort.in      '
 website: www.ranthambhoreforestresort.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - A

@@ -12,6 +12,8 @@ email: sandeep@penchtribalcamp.com
 website: http://www.penchtribalcamp.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - A

@@ -12,6 +12,8 @@ email: info@yogamagic.net
 website: www.yogamagic.net
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

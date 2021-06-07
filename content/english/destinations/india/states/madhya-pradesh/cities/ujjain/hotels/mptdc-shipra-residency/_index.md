@@ -12,6 +12,8 @@ email: shipra@mptourism.com
 website: www.mptourism.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

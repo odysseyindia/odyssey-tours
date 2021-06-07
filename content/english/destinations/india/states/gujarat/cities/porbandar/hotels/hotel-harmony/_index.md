@@ -12,6 +12,8 @@ email: info@hotelharmony.in
 website: www.hotelharmony.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

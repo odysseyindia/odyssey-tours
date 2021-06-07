@@ -12,6 +12,8 @@ email: resv@chandramahalhaveli.com
 website: www.chandramahalhaveli.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

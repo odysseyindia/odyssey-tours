@@ -12,6 +12,8 @@ email: info@islaingoa.com
 website: www.islaingoa.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

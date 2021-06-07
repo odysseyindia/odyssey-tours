@@ -12,6 +12,8 @@ email: 'sales@ubkstar.com  fomubk@ushalexushotels.com  '
 website: www.ushalexushotels.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

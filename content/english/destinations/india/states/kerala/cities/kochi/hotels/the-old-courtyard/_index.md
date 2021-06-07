@@ -12,6 +12,8 @@ email: 'reservations@oldcourtyard.com  '
 website: www.oldcourtyard.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

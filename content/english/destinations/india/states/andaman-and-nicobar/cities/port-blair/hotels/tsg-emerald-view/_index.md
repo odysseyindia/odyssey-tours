@@ -12,6 +12,8 @@ email: tsg_hotel@rediffmail.com
 website: andamantsghotels.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

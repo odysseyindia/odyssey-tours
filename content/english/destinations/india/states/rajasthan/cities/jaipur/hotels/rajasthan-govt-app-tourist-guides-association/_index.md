@@ -2,6 +2,8 @@
 title: Rajasthan Govt App. Tourist Guide's Association
 translationKey: rajasthan-govt-app-tourist-guides-association
 type: hotel
+tags:
+  - Hotels
 id: hotel
 ranking: 0
 category:

@@ -12,6 +12,8 @@ email: ''
 website: www.norbulingka.org
 note: chonorhs@norbulingka.org
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

@@ -12,6 +12,8 @@ email: info@camahotelsindia.com  reservations@camahotelsindia.com
 website: www.camahotels.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

@@ -12,6 +12,8 @@ email: gateway.jodhpur@tajhotels.com
 website: http://www.thegatewayhotels.com/jodhpur/overview.aspx
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

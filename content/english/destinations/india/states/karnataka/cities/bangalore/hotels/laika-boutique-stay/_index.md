@@ -12,6 +12,8 @@ email: reservation@laikabangalore.in
 website: http://www.laikabangalore.in/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

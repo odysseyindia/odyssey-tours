@@ -12,6 +12,8 @@ email: hoteljacksons@hotmail.com
 website: www.jacksons-hotel.net
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

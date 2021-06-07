@@ -12,6 +12,8 @@ email: info@hoteltsepalyangjom.co.in  gm@hoteltsepalyangjom.co.in
 website: http://www.hoteltsepalyangjom.co.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

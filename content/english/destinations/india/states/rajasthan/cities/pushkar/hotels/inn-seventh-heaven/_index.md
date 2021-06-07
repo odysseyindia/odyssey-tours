@@ -12,6 +12,8 @@ email: anoop_loves_you@yahoo.co.in
 website: www.inn-seventh-heaven.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

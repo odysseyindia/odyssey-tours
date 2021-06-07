@@ -12,6 +12,8 @@ email: peppercounty@rediffmail.com
 website: www.peppercounty.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

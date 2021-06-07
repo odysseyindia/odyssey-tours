@@ -12,6 +12,8 @@ email: tiger@ranthambhorebagh.com  booking@ranthambhorebagh.com
 website: www.ranthambhorebagh.com
 note: 'gs@ranthambhorebagh.com                                  '
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - A

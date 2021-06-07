@@ -12,6 +12,8 @@ email: ''
 website: http://www.pridehotel.com/delhi/new-delhi-aerocity/overview/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - ST
   - RIK

@@ -12,6 +12,8 @@ email: nestholidays@hotmail.com
 website: www.mundackalhomestay.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

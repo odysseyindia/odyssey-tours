@@ -12,6 +12,8 @@ email: reservations.stokpalace@gmail.com
 website: https://www.stokpalaceheritage.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

@@ -12,6 +12,8 @@ email: tours@clubside.in  siliguri@clubside.in
 website: www.clubside.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - A
   - H

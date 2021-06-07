@@ -12,6 +12,8 @@ email: reservations@stmarkshotel.com
 website: https://www.stmarkshotel.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

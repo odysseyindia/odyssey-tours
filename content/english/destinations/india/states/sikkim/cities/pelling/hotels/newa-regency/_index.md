@@ -12,6 +12,8 @@ email: newa_regency@rediffmail.com  orangevillageresort@rediffmail.com
 website: www.hotelnewaregency.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

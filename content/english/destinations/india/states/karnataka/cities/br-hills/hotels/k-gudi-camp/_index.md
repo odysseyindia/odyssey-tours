@@ -12,6 +12,8 @@ email: ''
 website: junglelodges.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

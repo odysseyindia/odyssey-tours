@@ -12,6 +12,8 @@ email: roopniwaskothi@yahoo.co.in  info@roopniwaskothi.com
 website: www.roopniwaskothi.com
 note: Hotel name has been changed from Roop Niwas Palace to Roop Niwas Kothi
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

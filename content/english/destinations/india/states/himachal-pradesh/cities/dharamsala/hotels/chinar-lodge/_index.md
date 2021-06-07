@@ -12,6 +12,8 @@ email: chinarlodge@123himachal.com
 website: www.chinarlodge.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

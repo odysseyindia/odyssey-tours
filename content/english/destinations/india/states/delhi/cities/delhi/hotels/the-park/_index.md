@@ -12,6 +12,8 @@ email: 'resv.del@theparkhotels.com  '
 website: theparkhotels.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: taj.chandigarh@tajhotels.com
 website: http://www.tajhotels.com/Business/Taj%20Chandigarh,CHANDIGARH/default.htm
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

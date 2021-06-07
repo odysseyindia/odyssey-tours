@@ -14,6 +14,8 @@ note: >-
   Grand Luxe Hotels Limited  Tel No  44-2456 0540 / 0541  Mob: 91-75502 43146 
   Email: sales@grandluxehotelsindia.com   
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

@@ -12,6 +12,8 @@ email: gateway.vijayawada@tajhotels.com
 website: http://www.thegatewayhotels.com/mgroadvijayawada/overview.aspx
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

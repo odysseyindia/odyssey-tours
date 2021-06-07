@@ -12,6 +12,8 @@ email: info@fatehgarh.in  frontoffice@fatehgarh.in
 website: www.fatehgarh.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

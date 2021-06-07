@@ -12,6 +12,8 @@ email: elevendelhi@gmail.com  ajay.anandd@elevendelhi.com
 website: http://www.elevendelhi.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

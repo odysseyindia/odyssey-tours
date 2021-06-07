@@ -12,6 +12,8 @@ email: fombbsr@hindusthan.com
 website: http://www.hhihotels.com/bhubaneswar/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

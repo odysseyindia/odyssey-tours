@@ -12,6 +12,8 @@ email: info@dewaretreat.com  sales@dewaretreat.com
 website: www.dewaretreat.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

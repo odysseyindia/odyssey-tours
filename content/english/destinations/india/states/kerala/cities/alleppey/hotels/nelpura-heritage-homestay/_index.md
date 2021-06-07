@@ -13,6 +13,8 @@ website: http://www.nelpura.com
 note: ''
 ranking: 2
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

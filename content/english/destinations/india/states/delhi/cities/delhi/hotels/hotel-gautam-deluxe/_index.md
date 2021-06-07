@@ -14,6 +14,8 @@ email: reservations@gautamhoteldelhi.com   info@gautamhoteldelhi.com
 website: www.gautamhoteldelhi.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: capoors@yahoo.com
 website: www.hotelcapoors.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

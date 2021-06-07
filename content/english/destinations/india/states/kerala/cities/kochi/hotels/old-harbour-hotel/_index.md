@@ -12,6 +12,8 @@ email: raintree@fortcochin.com  edgarpinto@yahoo.com
 website: www.oldharbourhotel.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

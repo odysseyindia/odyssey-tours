@@ -12,6 +12,8 @@ email: gopalpuronsea@mayfairhotels.com
 website: www.mayfairhotels.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

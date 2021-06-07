@@ -14,6 +14,8 @@ email: H6367-SL2@accor.com
 website: www.accorhotels.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

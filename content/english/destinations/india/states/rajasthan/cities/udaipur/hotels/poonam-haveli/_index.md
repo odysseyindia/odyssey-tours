@@ -12,6 +12,8 @@ email: poonamhaveli@hotmail.com  info@poonamhaveli.com
 website: www.poonamhaveli.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: mail@philipkuttysfarm.com  philipkuttys@satyam.net.in
 website: www.philipkuttysfarm.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

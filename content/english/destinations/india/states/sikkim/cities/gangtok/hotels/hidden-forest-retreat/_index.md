@@ -13,6 +13,8 @@ website: www.hiddenforestretreat.org
 note: ''
 ranking: 1
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - RIK

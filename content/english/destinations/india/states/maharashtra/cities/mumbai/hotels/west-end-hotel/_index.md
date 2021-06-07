@@ -12,6 +12,8 @@ email: west.hotel@gems.vsnl.net.in, westhotel@vsnl.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

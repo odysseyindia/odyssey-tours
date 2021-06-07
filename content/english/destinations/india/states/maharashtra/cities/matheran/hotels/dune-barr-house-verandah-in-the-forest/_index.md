@@ -13,6 +13,8 @@ website: >-
   http://dunewellnessgroup.com/dune-barr-house-verandah-in-the-forest-matheran-near-mumbai-india
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

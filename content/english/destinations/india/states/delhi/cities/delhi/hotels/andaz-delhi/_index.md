@@ -12,6 +12,8 @@ email: delhi.andaz@hyatt.com
 website: https://www.hyatt.com/en-US/hotel/india/andaz-delhi/delaz
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

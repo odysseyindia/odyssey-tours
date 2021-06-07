@@ -12,6 +12,8 @@ email: 'crs@rawlanarlai.com  '
 website: http://www.rawlanarlai.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

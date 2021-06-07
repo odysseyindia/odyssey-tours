@@ -12,6 +12,8 @@ email: karmifarm@yahoo.co.uk
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - A

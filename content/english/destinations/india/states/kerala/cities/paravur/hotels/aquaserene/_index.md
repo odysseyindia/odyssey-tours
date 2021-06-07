@@ -12,6 +12,8 @@ email: aqserene@md3.vsnl.net.in
 website: www.aquasereneindia.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

@@ -12,6 +12,8 @@ email: info@haveliinnpal.com  haveliinnpal@yahoo.com
 website: http://www.haveliinnpal.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

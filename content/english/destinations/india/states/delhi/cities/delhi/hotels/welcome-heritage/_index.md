@@ -2,6 +2,8 @@
 title: Welcome Heritage
 translationKey: welcome-heritage
 type: hotel
+tags:
+  - Hotels
 id: hotel
 ranking: 0
 category:

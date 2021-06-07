@@ -12,6 +12,8 @@ email: 'dekeling@outlook.com  norbu@dekeling.com  '
 website: www.dekeling.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

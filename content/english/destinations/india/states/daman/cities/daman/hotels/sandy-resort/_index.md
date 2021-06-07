@@ -12,6 +12,8 @@ email: info@sandyresort.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

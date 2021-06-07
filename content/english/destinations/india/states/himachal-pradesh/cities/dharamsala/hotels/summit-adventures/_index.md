@@ -1,7 +1,9 @@
 ---
 title: Summit Adventures
 translationKey: summit-adventures
-type: hotels
+type: hotel
+tags:
+  - Hotelss
 id: hotel
 rates:
   - roomType: Tent

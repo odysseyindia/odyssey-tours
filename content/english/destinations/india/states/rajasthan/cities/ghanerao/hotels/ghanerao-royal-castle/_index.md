@@ -13,6 +13,8 @@ website: www.ghaneraoroyalcastle.com
 note: ''
 ranking: 1
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

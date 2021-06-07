@@ -12,6 +12,8 @@ email: mail@hotelindralok.com  mail@hotelindralok.com
 website: www.hotelindralok.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

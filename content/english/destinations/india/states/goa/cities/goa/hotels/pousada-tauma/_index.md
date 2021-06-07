@@ -12,6 +12,8 @@ email: neville@pousada-tauma.com
 website: www.pousada-tauma.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

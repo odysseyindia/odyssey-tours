@@ -12,6 +12,8 @@ email: reservation@1000island.in  info@1000island.in  sales@1000island.in
 website: https://www.woodsatsasan.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

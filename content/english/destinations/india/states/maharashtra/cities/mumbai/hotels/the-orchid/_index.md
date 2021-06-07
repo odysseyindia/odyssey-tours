@@ -12,6 +12,8 @@ email: 'resmgr@orchidhotel.com  '
 website: orchidhotel.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

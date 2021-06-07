@@ -12,6 +12,8 @@ email: suncourtyatri@yahoo.co.in
 website: www.suncourthotelyatri.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

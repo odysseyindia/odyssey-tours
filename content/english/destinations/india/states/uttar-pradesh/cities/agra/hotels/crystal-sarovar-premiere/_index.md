@@ -12,6 +12,8 @@ email: fom@crystalsarovaragra.com
 website: http://www.sarovarhotels.com/agra-hotels/crystal-sarovar-premiere
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

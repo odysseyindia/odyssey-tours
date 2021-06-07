@@ -12,6 +12,8 @@ email: priyainhampi@yahoo.com  priyainhampi@india.com
 website: www.priyainnhampi.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

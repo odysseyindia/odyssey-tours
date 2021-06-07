@@ -13,6 +13,8 @@ website: http://www.fortbarli.com
 note: ''
 ranking: 1
 type: hotel
+tags:
+  - Hotels
 category:
   - HH
   - RIK

@@ -12,6 +12,8 @@ email: 'marketingmgr1@thejoys.in  reservation@thetravancoreheritage.com  '
 website: www.thetravancoreheritage.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

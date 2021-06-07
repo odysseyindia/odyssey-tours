@@ -12,6 +12,8 @@ email: pummy_rock@hotmail.com  info@picholahaveli.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

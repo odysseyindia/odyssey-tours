@@ -12,6 +12,8 @@ email: info@hoteldaressalam.com
 website: www.hoteldaressalam.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

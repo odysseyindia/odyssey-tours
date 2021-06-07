@@ -12,6 +12,8 @@ email: '  '
 website: http://dunewellnessgroup.com/dune-eco-village-and-spa
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

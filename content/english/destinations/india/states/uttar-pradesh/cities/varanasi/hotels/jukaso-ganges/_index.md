@@ -12,6 +12,8 @@ email: gmvaranasi@jukaso.co.in  reserve.varanasi@jukaso.co.in
 website: http://www.jukaso.co.in/hotel_varanasi.php
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: exoticabc.goa@tajhotels.com
 website: http://www.tajhotels.com/Leisure/Taj%20Exotica,GOA/default.htm
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

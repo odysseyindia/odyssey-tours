@@ -12,6 +12,8 @@ email: martamvillageresort@gmail.com
 website: http://sikkim-martam-resort.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

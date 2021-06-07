@@ -13,6 +13,8 @@ website: http://www.tajhotels.com/Luxury/City-Hotels/The-Taj-West-End-Bangalore
 note: ''
 ranking: 1
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - WEB

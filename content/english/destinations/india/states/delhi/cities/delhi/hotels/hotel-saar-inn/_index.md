@@ -12,6 +12,8 @@ email: hotelsaar@gmail.com
 website: www.saarinn.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

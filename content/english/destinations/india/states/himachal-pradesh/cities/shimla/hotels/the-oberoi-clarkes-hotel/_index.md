@@ -12,6 +12,8 @@ email: reservations.clarkes@clarkesshimla.com
 website: www.clarkesshimla.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

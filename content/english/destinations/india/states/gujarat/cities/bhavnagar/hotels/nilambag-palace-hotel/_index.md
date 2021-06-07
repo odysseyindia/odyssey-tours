@@ -12,6 +12,8 @@ email: nilambag@bsnl.com  reservation@nilambagpalace.com
 website: www.nilambagpalace.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

@@ -12,6 +12,8 @@ email: hotelmandawahaveli@yahoo.com
 website: http://hotelmandawa.free.fr/
 note: res_haveli@yahoo.co.in
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

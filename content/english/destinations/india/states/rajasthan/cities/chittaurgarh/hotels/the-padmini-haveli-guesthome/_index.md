@@ -14,6 +14,8 @@ email: >-
 website: http://thepadminihaveli.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - WEB
   - H

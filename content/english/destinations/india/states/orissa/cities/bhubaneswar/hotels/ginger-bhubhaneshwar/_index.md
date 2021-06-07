@@ -12,6 +12,8 @@ email: reservations.bhubaneshwar@gingerhotels.com
 website: www.gingerhotels.com/bhubaneshwar
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: ''
 website: http://www.sarovarhotels.com/mathura-hotels/nidhivan-sarovar-portico-vrindavan
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

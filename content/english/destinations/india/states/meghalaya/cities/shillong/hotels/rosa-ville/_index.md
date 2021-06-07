@@ -12,6 +12,8 @@ email: rosaville_2010@yahoo.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

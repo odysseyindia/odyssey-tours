@@ -12,6 +12,8 @@ email: ''
 website: www.amritara.co.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

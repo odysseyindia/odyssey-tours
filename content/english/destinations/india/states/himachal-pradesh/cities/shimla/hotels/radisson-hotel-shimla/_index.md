@@ -12,6 +12,8 @@ email: sales@radissonshimla.com
 website: www.radisson.com/shimlain
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: jhiraplc@sancharnet.in
 website: www.jhirapalace.co.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

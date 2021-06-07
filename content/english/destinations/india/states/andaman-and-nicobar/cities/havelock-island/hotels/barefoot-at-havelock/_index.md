@@ -12,6 +12,8 @@ email: ''
 website: www.barefoot-andaman.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

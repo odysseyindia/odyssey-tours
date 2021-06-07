@@ -12,6 +12,8 @@ email: jungle@giasbg01.vsnl.net.in
 website: www.junglelodges.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

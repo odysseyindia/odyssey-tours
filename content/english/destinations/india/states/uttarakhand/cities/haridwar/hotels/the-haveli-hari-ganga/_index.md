@@ -12,6 +12,8 @@ email: 'haridwar@leisurehotels.in  reservations@leisurehotels.in  '
 website: www.leisurehotels.co.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

@@ -12,6 +12,8 @@ email: reservations@shreyasretreat.com
 website: www.shreyasretreat.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -2,6 +2,8 @@
 title: Parmanand & Co.
 translationKey: parmanand-and-co
 type: hotel
+tags:
+  - Hotels
 id: hotel
 ranking: 0
 category:

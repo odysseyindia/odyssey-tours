@@ -12,6 +12,8 @@ email: pradeep@sianaadventures.com
 website: www.sianaadventures.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - A

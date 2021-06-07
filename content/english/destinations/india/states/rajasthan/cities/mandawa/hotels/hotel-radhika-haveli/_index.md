@@ -12,6 +12,8 @@ email: info@hotelradhikahavelimandawa.com
 website: https://radhika-haveli-in.book.direct/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

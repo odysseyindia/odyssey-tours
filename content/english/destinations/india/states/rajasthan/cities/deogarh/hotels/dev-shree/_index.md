@@ -12,6 +12,8 @@ email: 'info@devshreedeogarh.com  '
 website: www.devshreedeogarh.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

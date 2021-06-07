@@ -12,6 +12,8 @@ email: 'sales@cloudsendvilla.com  '
 website: www.cloudsendvilla.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

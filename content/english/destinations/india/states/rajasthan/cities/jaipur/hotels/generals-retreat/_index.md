@@ -12,6 +12,8 @@ email: bist@generalsretreat.com  singhketaki@rediffmail.com
 website: http://www.generalsretreat.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

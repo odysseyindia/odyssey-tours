@@ -14,6 +14,8 @@ email: aparnaseaide@yahoo.co.in
 website: www.aparnahotelkovalam.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

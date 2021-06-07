@@ -12,6 +12,8 @@ email: yatrik_hotel@rediffmail.com
 website: www.hotelyatrik.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

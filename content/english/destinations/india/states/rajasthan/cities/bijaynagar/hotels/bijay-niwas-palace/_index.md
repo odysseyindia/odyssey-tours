@@ -14,6 +14,8 @@ email: bookbijayniwas@gmail.com
 website: http://bijayniwaspalace.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

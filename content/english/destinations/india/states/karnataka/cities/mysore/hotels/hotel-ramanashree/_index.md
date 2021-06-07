@@ -12,6 +12,8 @@ email: ramanmys@bgl.vsnl.com
 website: www.ramanashree
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

@@ -12,6 +12,8 @@ email: 'mukesh@theamber.in  info@theamber.in  '
 website: http://theamber.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

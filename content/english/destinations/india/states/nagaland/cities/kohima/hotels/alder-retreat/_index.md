@@ -12,6 +12,8 @@ email: ''
 website: https://www.airbnb.co.in/rooms/32198472
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

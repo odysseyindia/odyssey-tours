@@ -12,6 +12,8 @@ email: theinternational@vsnl.com
 website: www.theinternationalhotel.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

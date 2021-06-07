@@ -12,6 +12,8 @@ email: rahulsamdariya@rediffmail.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

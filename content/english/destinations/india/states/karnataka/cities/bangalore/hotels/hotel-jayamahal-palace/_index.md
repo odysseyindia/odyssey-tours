@@ -12,6 +12,8 @@ email: info@jayamahalpalace.in  jayamahalpalace@hghhotels.com
 website: www.jayamahalpalace.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

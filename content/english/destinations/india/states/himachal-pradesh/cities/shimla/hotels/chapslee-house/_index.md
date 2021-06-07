@@ -12,6 +12,8 @@ email: chapslee@vsnl.com  chapsleesm@dataone.in  chapslee@sancharnet.in
 website: www.chapslee.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

@@ -12,6 +12,8 @@ email: nath@lutyensbungalow.co.in
 website: www.lutyensbungalow.co.in
 note: Bookings to be made online
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

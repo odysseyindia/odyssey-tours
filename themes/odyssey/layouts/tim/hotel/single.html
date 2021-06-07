@@ -1,0 +1,222 @@
+{{- define "main" }}
+{{- .Scratch.Set "layout" "layouts/tim/list.html" -}}
+
+{{ $now := now.Format "2006-01-02" }}
+
+<style>
+
+
+
+
+</style>
+
+<section id="{{ .Scratch.Get "id" | lower }}"> 
+    <main>
+        <div class="hotel-container">
+            <div class="subcontainer">
+                <div class="details">
+                    <div class="fw">                      
+                        <form>
+                            <div class="hotel1">
+                                <div class="hotel2">
+                                    <h2>
+                                        Hotel setup
+                                        <p class="setup-text" role="heading">General hotel information lives here</p>
+                                    </h2>
+                                </div>
+
+                                <div class="item">
+                                    <label>Search for a hotel online</label>
+                                    <input autocomplete="off" name="location" type="text" value="Summertime">
+                                </div>
+
+                                <div class="flex-item">
+                                    <div class="item">
+                                        <label>Hotel name</label>
+                                        <input name="name" required type="text" value="Summertime Goa">
+                                    </div>
+
+                                    <div class="item">
+                                        <label>Category</label>
+                                        <input name="type" type="text" value="0" />
+                                        <svg class="svg-input" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation">
+                                            <path d="M7 10l5 5 5-5z"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+
+                                <div class="flex-item">
+                                    <div class="item">
+                                        <label>Industry rating</label>
+                                        <input autocomplete="off" name="rating" type="number" value="5" min="1" max="5" step="1">
+                                    </div>
+
+                                    <div class="item">
+                                        <div>
+                                            <label>&nbsp;</label>
+                                            <div><i class="icon-star bottom"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="flex-item">
+                                    <div class="item">
+                                        <label>Check-in time</label>
+                                        <input autocomplete="off" name="start" type="text" value="12:00">
+                                    </div>
+
+                                    <div class="item">
+                                        <label>Check-out time</label>
+                                        <input autocomplete="off" name="end" type="text" value="12:00">
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <label>Reservations email</label>
+                                    <textarea rows="1" name="email" type="text" value="info@summertimegoa.com"></textarea>
+                                </div>
+
+                                <div class="flex-item">
+                                    <div class="item country">
+                                        <div>
+                                            <label>Country</label>
+                                        </div>
+                                        <div class="flex-item">
+                                            <input name="isd" type="text" value="+91">
+                                            <div class="isd"><p>India</p></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="item">
+                                        <label>Area</label>
+                                        <input name="areaCode" type="text" value="0832">
+                                    </div>
+
+                                    <div class="item">
+                                        <label>Phone</label>
+                                        <textarea rows="1" name="phone" type="text" value="277691"></textarea>
+                                    </div>
+                                </div>
+                                <div class="flex-item">
+                                    <div class="item">
+                                        <label>Mobile</label>
+                                        <input name="mobile" type="text" value="9923752407">
+                                    </div>
+
+                                    <div class="item">
+                                        <label>Website</label>
+                                        <input name="website" type="text" value="http://www.summertimegoa.com/">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="details">
+                    <div class="fw">                      
+
+                        <div class="row">
+                            <div>
+                                <h2>
+                                    Contacts
+                                    <p class="setup-text" role="heading">Add contacts that work at this hotel</p>
+                                </h2>
+                            </div>
+                            <div class="mr-0">
+                                <label class="btn-contact" role="button">
+                                    <span class="odc10">
+                                        <span class="add-contact">Add contact</span>
+                                        <svg id="add-contact" class="svg-arrow-down" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation">
+                                            <path d="M7 10l5 5 5-5z"></path>
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                        </svg>
+                                        <div id="select-option" class="dropdown-content">
+                                          <ul>
+                                            <li><a href="#">Add existing contact</a></li>
+                                            <li><a href="#">Create new contact</a></li>
+                                        </ul>
+                                    </div>
+
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+                    <div>
+
+                        <div class="flex-item">
+                            <div class="item">
+                                <label for="contacts-salutation">Salutation</label>
+                                <input autocomplete="off" name="contacts-salutation" required type="text" value="Mr">
+                            </div>
+                            <div class="item">
+                                <label for="contacts-firstname">First Name</label>
+                                <input autocomplete="off" name="contacts-firstname" type="text" value="Alfred">
+                            </div>
+                            <div class="item">
+                                <label for="contacts-lastname">Last Name</label>
+                                <input autocomplete="off" name="contacts-lastname" type="text" value="Tuinman">
+                            </div>
+                            <div class="item">
+                                <label for="contacts-position">Position</label>
+                                <input autocomplete="off" name="contacts-position" type="text" value="Director">
+                            </div>
+                        </div>
+
+                        <div class="flex-item">
+                            <div class="item">
+                                <label for="contacts-mobile">Mobile</label>
+                                <input name="contacts-mobile" type="text" value="9923752407">
+                            </div>
+                            <div class="item">
+                                <label for="contacts-email">Email</label>
+                                <input autocomplete="off" name="contacts-email" type="text" value="info@summertimegoa.com">
+                            </div>
+                        </div>
+                        <div class="flex-item">
+                            <div class="item country">
+                                <div>
+                                    <label for="contacts-isd">Country</label>
+                                </div>
+                                <div class="flex-item">
+                                    <input name="contacts-isd" type="text" value="+91">
+                                    <div class="isd">
+                                        <p>India</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <label for="contacts-areaCode">Area</label>
+                                <input name="contacts-areaCode" type="text" value="0832">
+                            </div>
+                            <div class="item">
+                                <label for="contacts-phone">Phone</label>
+                                <input name="contacts-phone" type="text" value="277691">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+    </main>
+</section>
+
+{{ end }}
+{{ define "postscript" }}
+<script>
+
+    document.getElementById("add-contact").addEventListener("click", (event) => { dropDown();  });
+
+    function dropDown(){
+        var modal = document.getElementById("select-option");
+        if (modal.style.display == "none") {
+            modal.style.display = "block";
+        } else {
+            modal.style.display = "none";
+        }
+    };
+
+</script>
+{{ end }}

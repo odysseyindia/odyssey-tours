@@ -12,6 +12,8 @@ email: fortheritage@fortheritage.com  hapynest@fortheritage.com
 website: www.fortheritage.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - HH
   - H

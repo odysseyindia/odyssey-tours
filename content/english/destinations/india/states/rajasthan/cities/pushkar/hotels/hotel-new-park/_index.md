@@ -12,6 +12,8 @@ email: manager@newparkpushkar.com
 website: http://newparkpushkar.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

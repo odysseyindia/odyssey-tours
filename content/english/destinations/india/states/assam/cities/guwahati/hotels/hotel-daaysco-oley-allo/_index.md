@@ -12,6 +12,8 @@ email: reservation@hoteldaaysco.com
 website: www.hoteldaaysco.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -14,6 +14,8 @@ email: reservations@jimsjungleretreat.com
 website: http://www.jimsjungleretreat.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

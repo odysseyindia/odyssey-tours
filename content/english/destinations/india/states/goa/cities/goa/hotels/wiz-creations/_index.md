@@ -2,6 +2,8 @@
 title: Wiz Creations
 translationKey: wiz-creations
 type: hotel
+tags:
+  - Hotels
 id: hotel
 ranking: 0
 category:

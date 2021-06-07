@@ -12,6 +12,8 @@ email: reservation@breezehotel.com  breeze@vsnl.com
 website: breezehotel.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

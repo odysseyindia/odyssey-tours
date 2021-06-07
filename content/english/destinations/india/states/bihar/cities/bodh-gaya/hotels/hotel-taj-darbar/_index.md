@@ -12,6 +12,8 @@ email: info@hoteltajdarbar.com  tajdarbar@rediffmail.com
 website: www.hoteltajdarbar.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - WEB
   - RIK

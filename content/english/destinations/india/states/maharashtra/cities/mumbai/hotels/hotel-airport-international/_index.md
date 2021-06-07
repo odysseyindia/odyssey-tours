@@ -12,6 +12,8 @@ email: hotelairport@gmail.com  reservations@hotelairportinternational.com
 website: www.hotelairportinternational.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

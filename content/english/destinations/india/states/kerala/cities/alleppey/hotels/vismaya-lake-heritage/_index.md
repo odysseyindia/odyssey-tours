@@ -12,6 +12,8 @@ email: vismaya.chenganda@gmail.com
 website: http://vismaya.in/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

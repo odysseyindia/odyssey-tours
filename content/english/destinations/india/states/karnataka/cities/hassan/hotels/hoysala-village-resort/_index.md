@@ -13,6 +13,8 @@ website: http://www.hoysalavillageresorts.com
 note: ''
 ranking: 1
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

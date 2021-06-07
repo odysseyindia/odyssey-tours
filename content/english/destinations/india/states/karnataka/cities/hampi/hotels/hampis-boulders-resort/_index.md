@@ -12,6 +12,8 @@ email: sales@hampisboulders.com  hampisbouldersresort@gmail.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

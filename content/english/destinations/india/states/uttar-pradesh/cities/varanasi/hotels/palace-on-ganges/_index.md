@@ -14,6 +14,8 @@ note: >-
   hotelpradeep@satyam.net.in. POG nos direct are : 231 4304/305  Hotel
   Pradeep:0542 220 4963, 220 4994  
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

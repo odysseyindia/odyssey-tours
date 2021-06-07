@@ -12,6 +12,8 @@ email: holidays@welcomheritagehotels.com
 website: www.welcomeheritagehotels.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

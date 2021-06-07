@@ -12,6 +12,8 @@ email: madurairesidency@airtelmail.in
 website: madurairesidency.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

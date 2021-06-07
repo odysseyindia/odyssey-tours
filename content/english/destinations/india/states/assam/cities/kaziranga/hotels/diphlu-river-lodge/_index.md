@@ -12,6 +12,8 @@ email: ''
 website: www.diphluriverlodge.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

@@ -12,6 +12,8 @@ email: dwarkagoa@gmail.com
 website: www.dwarkagoa.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

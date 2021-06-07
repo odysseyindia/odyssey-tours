@@ -12,6 +12,8 @@ email: 'gmpromenade@sarovarhotels.com  '
 website: http://www.sarovarhotels.com/Hotel/hotel_detail.asp?id=125
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

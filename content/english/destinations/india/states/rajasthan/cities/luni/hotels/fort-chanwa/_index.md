@@ -12,6 +12,8 @@ email: info@fortchanwa.com
 website: www.fortchanwa.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

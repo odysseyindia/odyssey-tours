@@ -13,6 +13,8 @@ website: http://www.vivantabytaj.com/Gomti-Nagar-Lucknow
 note: ''
 ranking: 2
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

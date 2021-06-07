@@ -16,6 +16,8 @@ email: >-
 website: http://thecoraltreehomestay.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - RIK

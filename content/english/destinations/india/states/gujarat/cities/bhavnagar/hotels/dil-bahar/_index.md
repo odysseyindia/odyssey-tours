@@ -12,6 +12,8 @@ email: ''
 website: www.gujarat.net/gondal
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

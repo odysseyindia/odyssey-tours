@@ -12,6 +12,8 @@ email: htltibet@yahoo.com
 website: www.sikkiminfo.net/hoteltibet
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

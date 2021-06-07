@@ -12,6 +12,8 @@ email: reservations@casaseverina.com  gm@casaseverina.com
 website: www.casaseverina.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

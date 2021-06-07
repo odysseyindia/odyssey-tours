@@ -12,6 +12,8 @@ email: rajvant@narmada.net.in
 website: ahmedabadcity.com/rajpipla
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

@@ -12,6 +12,8 @@ email: info@forestdwellers.org
 website: https://habresnest.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

@@ -12,6 +12,8 @@ email: hotelk@yahoo.in
 website: http://hotelkempton.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

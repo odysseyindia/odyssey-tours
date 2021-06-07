@@ -12,6 +12,8 @@ email: pavanemann@gmail.com  pm@casasdelhimalaya.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

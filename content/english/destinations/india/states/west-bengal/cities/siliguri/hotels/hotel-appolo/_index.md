@@ -14,6 +14,8 @@ email: 'clubside@sify.com  tours@clubside.in    '
 website: www.hotelappolo.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

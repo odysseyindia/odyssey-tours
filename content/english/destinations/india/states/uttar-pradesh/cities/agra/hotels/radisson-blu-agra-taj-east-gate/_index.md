@@ -12,6 +12,8 @@ email: 'reservations@rdagra.in  '
 website: www.radissonblu.com/hotel-agra
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

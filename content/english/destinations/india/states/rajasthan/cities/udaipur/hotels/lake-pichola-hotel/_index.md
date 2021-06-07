@@ -13,6 +13,8 @@ website: http://www.lakepicholahotel.in/
 note: ''
 ranking: 5
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

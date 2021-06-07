@@ -12,6 +12,8 @@ email: thetowerhouse@neemranahotels.com
 website: http://www.neemranahotels.com/the-tower-house-cochin-kerala/location.html
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

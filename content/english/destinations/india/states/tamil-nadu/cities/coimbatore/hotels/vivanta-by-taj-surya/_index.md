@@ -12,6 +12,8 @@ email: ''
 website: http://www.vivantabytaj.com/Surya-Coimbatore
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

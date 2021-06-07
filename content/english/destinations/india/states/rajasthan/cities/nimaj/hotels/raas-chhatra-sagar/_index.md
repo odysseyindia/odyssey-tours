@@ -12,6 +12,8 @@ email: harsh@chhatrasagar.com
 website: www.chhatrasagar.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

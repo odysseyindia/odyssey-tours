@@ -12,6 +12,8 @@ email: munnar@clubmahindra.com, resv.munnar@clubmahindra.
 website: www.clubmahindra.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

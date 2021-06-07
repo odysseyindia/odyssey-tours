@@ -12,6 +12,8 @@ email: rajmahalorchha@gmail.com  rajmahalreservation@gmail.com
 website: http://www.rajmahalorchha.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

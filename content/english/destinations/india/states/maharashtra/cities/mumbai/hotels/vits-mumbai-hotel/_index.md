@@ -12,6 +12,8 @@ email: resvmumbai@khil.com
 website: http://www.vitshotels.com/mumbai/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

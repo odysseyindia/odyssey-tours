@@ -12,6 +12,8 @@ email: chirmi@vsnl.net
 website: chirmi.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

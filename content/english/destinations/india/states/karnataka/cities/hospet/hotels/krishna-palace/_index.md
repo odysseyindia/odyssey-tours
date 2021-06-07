@@ -12,6 +12,8 @@ email: contact@krishnapalacehotel.com
 website: www.krishnapalacehospet.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

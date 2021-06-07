@@ -14,6 +14,8 @@ email: nagziranaturecamp1@gmail.com
 website: http://www.nagziranaturecamp.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

@@ -12,6 +12,8 @@ email: gateway.calicut@tajhotels.com
 website: http://www.thegatewayhotels.com/beachroadcalicut/overview.aspx
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

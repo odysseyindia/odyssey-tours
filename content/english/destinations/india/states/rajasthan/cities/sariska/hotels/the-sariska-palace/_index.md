@@ -12,6 +12,8 @@ email: 'manager@thesariskapalace.in   info@thesariskapalace.in  '
 website: http://www.thesariskapalace.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

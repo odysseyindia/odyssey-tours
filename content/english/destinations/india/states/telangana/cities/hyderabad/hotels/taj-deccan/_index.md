@@ -12,6 +12,8 @@ email: deccan.hyderabad@tajhotels.com
 website: http://www.tajhotels.com/Business/Taj%20Deccan,HYDERABAD/default.htm
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

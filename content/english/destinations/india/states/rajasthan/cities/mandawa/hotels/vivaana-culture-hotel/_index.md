@@ -12,6 +12,8 @@ email: heritage@vivaana.com
 website: http://www.vivaana.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - A

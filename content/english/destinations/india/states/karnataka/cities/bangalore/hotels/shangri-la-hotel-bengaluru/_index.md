@@ -12,6 +12,8 @@ email: info.slbl@shangri-la.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

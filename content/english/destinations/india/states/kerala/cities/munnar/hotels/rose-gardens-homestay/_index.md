@@ -12,6 +12,8 @@ email: mail@munnarhomestays.com
 website: www.munnarhomestays.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

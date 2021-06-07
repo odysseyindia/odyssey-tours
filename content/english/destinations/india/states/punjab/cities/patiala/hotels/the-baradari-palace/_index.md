@@ -12,6 +12,8 @@ email: baradaripalace@neemranahotels.com
 website: http://www.neemranahotels.com/the-baradari-palace-patiala-punjab
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

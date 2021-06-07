@@ -12,6 +12,8 @@ email: contact@raheemresidency.com
 website: www.raheemresidency.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

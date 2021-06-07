@@ -13,6 +13,8 @@ website: www.jcresidency.com
 note: ''
 ranking: 1
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

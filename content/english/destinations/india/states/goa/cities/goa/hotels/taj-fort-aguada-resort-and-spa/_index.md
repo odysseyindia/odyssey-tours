@@ -12,6 +12,8 @@ email: vivanta.holidayvillage@tajhotels.com
 website: http://www.vivantabytaj.com/Fort-Aguada-Goa
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

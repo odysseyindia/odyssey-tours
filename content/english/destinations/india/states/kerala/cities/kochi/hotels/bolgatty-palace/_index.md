@@ -12,6 +12,8 @@ email: bolgatty@vsnl.com
 website: ktdc.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

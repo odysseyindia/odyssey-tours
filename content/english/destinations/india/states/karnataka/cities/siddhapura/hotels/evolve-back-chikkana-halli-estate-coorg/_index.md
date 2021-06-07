@@ -12,6 +12,8 @@ email: coorg@evolveback.com
 website: https://www.evolveback.com/coorg/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

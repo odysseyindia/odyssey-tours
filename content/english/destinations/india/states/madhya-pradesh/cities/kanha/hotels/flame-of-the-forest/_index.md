@@ -14,6 +14,8 @@ email: karanmod@gmail.com,  info@flameoftheforest.in,  karan@flameoftheforest.in
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

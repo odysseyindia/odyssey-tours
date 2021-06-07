@@ -12,6 +12,8 @@ email: info@themanordelhi.com
 website: www.themanordelhi.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

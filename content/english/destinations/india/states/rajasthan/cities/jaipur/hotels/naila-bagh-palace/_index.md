@@ -12,6 +12,8 @@ email: reservation@nailabaghpalace.com
 website: nailabaghpalace.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

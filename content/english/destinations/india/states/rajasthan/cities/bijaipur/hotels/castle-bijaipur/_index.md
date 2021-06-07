@@ -14,6 +14,8 @@ email: >-
 website: www.castlebijaipur.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

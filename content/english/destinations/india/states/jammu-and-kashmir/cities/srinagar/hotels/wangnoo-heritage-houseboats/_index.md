@@ -12,6 +12,8 @@ email: wangnoo@live.in  hilltour@bsnl.in
 website: www.wangnooheritagehouseboats.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

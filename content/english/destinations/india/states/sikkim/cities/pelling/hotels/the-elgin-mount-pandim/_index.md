@@ -12,6 +12,8 @@ email: pandim@sancharnet.in
 website: www.elginhotels.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

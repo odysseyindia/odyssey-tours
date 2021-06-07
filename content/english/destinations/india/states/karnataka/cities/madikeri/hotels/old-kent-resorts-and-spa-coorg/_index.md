@@ -14,6 +14,8 @@ email: reservations@oldkentestates.com  binu@oldkentestates.com
 website: http://www.oldkentestates.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

@@ -12,6 +12,8 @@ email: reservation@thehive.co.in
 website: www.thehive.co.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

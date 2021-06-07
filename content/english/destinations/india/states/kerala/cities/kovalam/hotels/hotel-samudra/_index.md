@@ -12,6 +12,8 @@ email: samudra@md3.vsnl.net.in
 website: ktdc@vsnl.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

@@ -12,6 +12,8 @@ email: ''
 website: http://www.tajhotels.com/Luxury/Taj-Safaris/Pashan-Garh-Panna-National-Park
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

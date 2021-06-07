@@ -14,6 +14,8 @@ email: bookings@forsythlodge.com
 website: https://forsythlodge.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - RIK
   - WEB

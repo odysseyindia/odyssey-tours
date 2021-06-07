@@ -12,6 +12,8 @@ email: lasagrit@del3.vsnl.net.in
 website: www.lasagrita.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

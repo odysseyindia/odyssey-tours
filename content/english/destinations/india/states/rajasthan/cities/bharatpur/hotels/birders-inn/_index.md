@@ -12,6 +12,8 @@ email: brdinn@yahoo.com  bookings@birdersinn.com
 website: www.birdersinn.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

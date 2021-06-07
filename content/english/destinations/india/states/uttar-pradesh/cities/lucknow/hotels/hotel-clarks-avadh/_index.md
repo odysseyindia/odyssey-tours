@@ -14,6 +14,8 @@ email: >-
 website: www.clarksavadh.com, www.hotelclarks.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

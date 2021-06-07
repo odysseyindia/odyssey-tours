@@ -12,6 +12,8 @@ email: sms.jaipur@tajhotels.com
 website: http://www.tajhotels.com/Leisure/SMS%20Hotel,JAIPUR/default.htm
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

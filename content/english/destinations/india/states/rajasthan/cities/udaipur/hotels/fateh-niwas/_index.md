@@ -12,6 +12,8 @@ email: resv@fatehniwas.com
 website: http://www.fatehniwas.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

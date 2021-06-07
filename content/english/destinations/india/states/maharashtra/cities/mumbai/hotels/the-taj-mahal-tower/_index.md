@@ -12,6 +12,8 @@ email: itd.bom@tajhotels.com  Tmhresv.Bom@tajhotels.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

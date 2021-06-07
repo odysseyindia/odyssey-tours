@@ -12,6 +12,8 @@ email: mermaid@md4.vsnl.net.in  mermaid@satyam.net.in
 website: www.milmermaid.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

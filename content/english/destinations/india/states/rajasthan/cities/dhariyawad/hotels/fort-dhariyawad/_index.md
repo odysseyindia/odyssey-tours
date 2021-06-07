@@ -12,6 +12,8 @@ email: ''
 website: ''
 note: Credit cards not accepted
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

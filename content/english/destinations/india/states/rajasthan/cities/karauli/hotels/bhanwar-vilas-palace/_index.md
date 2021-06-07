@@ -12,6 +12,8 @@ email: 'bvpkarauli@gmail.com      '
 website: www.karauli.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

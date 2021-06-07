@@ -12,6 +12,8 @@ email: 'bprhot@ad1.vsnl.net.in  '
 website: www.semaphore-software.com/balaram
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

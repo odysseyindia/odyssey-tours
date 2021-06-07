@@ -12,6 +12,8 @@ email: networkgroup@satyam.net.in
 website: www.networktravelsindia.net
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

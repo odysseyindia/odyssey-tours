@@ -12,6 +12,8 @@ email: ankurresort@yahoo.com  ankurswm@sancharnet.in
 website: ankurresort.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

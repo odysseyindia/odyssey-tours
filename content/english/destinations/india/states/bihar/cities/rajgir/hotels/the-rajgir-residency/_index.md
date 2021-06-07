@@ -12,6 +12,8 @@ email: therajgirresidency@gmail.com
 website: www.rajgir-residency.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

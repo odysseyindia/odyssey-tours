@@ -12,6 +12,8 @@ email: madrihaveli@gmail.com  info@madrihaveli.com
 website: http://www.madrihaveli.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

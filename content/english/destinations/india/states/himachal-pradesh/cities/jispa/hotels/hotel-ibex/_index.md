@@ -12,6 +12,8 @@ email: ''
 website: http://www.hotelibexjispa.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

@@ -12,6 +12,8 @@ email: info@colleaguetours.in
 website: ''
 note: sales@hotelyamunaviewagra.com
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

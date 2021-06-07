@@ -12,6 +12,8 @@ email: gateway.visakhapatnam@ tajhotels.com
 website: http://www.thegatewayhotels.com/beachroadvisakhapatnam/overview.aspx
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

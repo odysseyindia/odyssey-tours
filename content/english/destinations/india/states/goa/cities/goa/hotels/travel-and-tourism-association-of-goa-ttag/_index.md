@@ -2,6 +2,8 @@
 title: Travel and Tourism Association of Goa (TTAG)
 translationKey: travel-and-tourism-association-of-goa-ttag
 type: hotel
+tags:
+  - Hotels
 id: hotel
 ranking: 0
 category:

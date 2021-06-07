@@ -12,6 +12,8 @@ email: hillviewmnr@satyam.net.in
 website: hillviewhotel.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

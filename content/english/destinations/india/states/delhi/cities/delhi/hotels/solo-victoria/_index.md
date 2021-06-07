@@ -12,6 +12,8 @@ email: seemasabharwal@yahoo.com  victoriasolo@hotmail.com
 website: www.solovictoria.net
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

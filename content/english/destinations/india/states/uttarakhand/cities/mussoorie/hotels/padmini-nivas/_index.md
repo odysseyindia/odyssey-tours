@@ -12,6 +12,8 @@ email: 'harshada@vsnl.com  hotelpadmininiwas@vsnl.net  pnivas96@yahoo.in  '
 website: www.hotelpadmininivas.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

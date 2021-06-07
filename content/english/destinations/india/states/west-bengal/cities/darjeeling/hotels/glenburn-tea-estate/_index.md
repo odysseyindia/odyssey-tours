@@ -12,6 +12,8 @@ email: info@glenburnteaestate.com
 website: http://www.glenburnteaestate.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - SH

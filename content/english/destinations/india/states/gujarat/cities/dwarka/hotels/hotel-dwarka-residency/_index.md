@@ -12,6 +12,8 @@ email: info@dwarkaresidency.com
 website: www.hoteldwarkaresidency.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

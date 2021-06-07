@@ -12,6 +12,8 @@ email: jehan@thebhujhouse.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

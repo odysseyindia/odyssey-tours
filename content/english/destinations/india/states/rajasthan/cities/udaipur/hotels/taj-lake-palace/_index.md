@@ -12,6 +12,8 @@ email: lake.palace.udaipur@tajhotels.com  itd.bom@tajhotels.com
 website: www.tajhotels.com/tajlakepalace
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - WEB

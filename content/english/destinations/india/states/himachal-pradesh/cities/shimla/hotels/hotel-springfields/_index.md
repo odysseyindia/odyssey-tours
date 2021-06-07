@@ -12,6 +12,8 @@ email: 'hotelspringfields@gmail.com  '
 website: www.hotelspringfields.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

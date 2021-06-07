@@ -12,6 +12,8 @@ email: info@nimajkothi.com
 website: www.nimajkothi.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

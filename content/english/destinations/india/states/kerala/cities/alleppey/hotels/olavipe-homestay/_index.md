@@ -12,6 +12,8 @@ email: olavipeconnect@gmail.com
 website: http://www.olavipe.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

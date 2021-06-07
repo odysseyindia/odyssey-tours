@@ -12,6 +12,8 @@ email: info@saraiattoria.com
 website: http://www.saraiattoria.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

@@ -12,6 +12,8 @@ email: 'netukhouse@gmail.com  '
 website: www.envisionsikkim.com/netukhouse
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

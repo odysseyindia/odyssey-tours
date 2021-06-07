@@ -12,6 +12,8 @@ email: hotelvishala@gmail.com
 website: www.hotelvishala.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

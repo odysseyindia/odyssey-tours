@@ -12,6 +12,8 @@ email: reservations@ramadakhajuraho.com  dso@ramadakhajuraho.com
 website: www.ramadakhajuraho.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - RIK

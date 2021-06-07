@@ -12,6 +12,8 @@ email: 'sales.goa@marquishotels.in  info@marquisgoa.in  '
 website: www.marquisgoa.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

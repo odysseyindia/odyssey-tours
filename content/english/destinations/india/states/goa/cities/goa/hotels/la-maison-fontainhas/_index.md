@@ -12,6 +12,8 @@ email: info@lamaisongoa.com
 website: www.lamaisongoa.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

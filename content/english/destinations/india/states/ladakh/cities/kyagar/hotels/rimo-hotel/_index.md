@@ -12,6 +12,8 @@ email: rimohotel@gmail.com  lvisuddha@yahoo.com
 website: http://www.rimohotel.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

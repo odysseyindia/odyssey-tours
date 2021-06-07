@@ -13,6 +13,8 @@ website: http://www.neemranahotels.com/wallwood-garden-coonoor/
 note: ''
 ranking: 2
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

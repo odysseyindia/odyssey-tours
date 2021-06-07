@@ -12,6 +12,8 @@ email: vanillacounty@gmail.com
 website: vanillacounty.in
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HS

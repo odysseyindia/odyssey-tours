@@ -12,6 +12,8 @@ email: info@willowbanks.com  sales@willowbank.com
 website: www.willowbanks.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

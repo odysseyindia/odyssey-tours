@@ -12,6 +12,8 @@ email: harasar_haveli@yahoo.com  inquiry@harasar.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

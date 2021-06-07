@@ -12,6 +12,8 @@ email: 'hotelbuddha@gmail.com  hotelbuddha@rediffmail.com  '
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

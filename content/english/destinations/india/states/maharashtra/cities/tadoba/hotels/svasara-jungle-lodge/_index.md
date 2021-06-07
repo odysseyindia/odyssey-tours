@@ -12,6 +12,8 @@ email: info@svasararesorts.com  ranjit@svasararesorts.com
 website: http://svasararesorts.com/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

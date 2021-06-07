@@ -12,6 +12,8 @@ email: info@hotelgrandimperial.com
 website: www.hotelgrandimperial.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

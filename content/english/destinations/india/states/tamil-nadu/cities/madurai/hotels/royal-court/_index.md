@@ -12,6 +12,8 @@ email: royalcourtinfo@gmail.com  info@royalcourtindia.com
 website: www.royalcourtindia.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 0

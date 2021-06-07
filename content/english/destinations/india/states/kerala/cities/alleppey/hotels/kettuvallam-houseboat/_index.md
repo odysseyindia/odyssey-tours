@@ -12,6 +12,8 @@ email: mail@travelcartindia.com
 website: ''
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

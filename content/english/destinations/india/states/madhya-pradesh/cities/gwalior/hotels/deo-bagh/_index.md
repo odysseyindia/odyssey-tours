@@ -12,6 +12,8 @@ email: deobagh@neemranahotels.com
 website: http://www.neemranahotels.com/deo-bagh-gwalior-madhya-pradesh
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - ST

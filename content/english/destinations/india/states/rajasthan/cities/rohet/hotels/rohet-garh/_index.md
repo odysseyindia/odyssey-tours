@@ -12,6 +12,8 @@ email: reservations@houseofrohet.com  vipina@houseofrohet.com
 website: www.rohetgarh.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - HH
   - H

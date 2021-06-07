@@ -12,6 +12,8 @@ email: hotalvaibhav@satyam.net.in  hotalvaibhav@sify.com
 website: www.hotelvaibhav.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
 showHotel: 1

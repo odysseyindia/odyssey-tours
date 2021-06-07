@@ -12,6 +12,8 @@ email: 'alsisar@alsisar.com  santosh@alsisar.com    '
 website: www.alsisarhaveli.com, www.alsisar.com
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - HH

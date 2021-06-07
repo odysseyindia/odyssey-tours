@@ -12,6 +12,8 @@ email: ''
 website: http://www.vivantabytaj.com/Fishermans-Cove-Chennai
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - COM

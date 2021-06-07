@@ -12,6 +12,8 @@ email: ''
 website: https://www.kingslodge.in/
 note: ''
 type: hotel
+tags:
+  - Hotels
 category:
   - H
   - A
