@@ -1,0 +1,9 @@
+hotelCategories:
+  - id: ST
+    category: Standard
+  - id: COM
+    category: Comfortable
+  - id: SH
+    category: Superior 
+  - id: TL
+    category: Top of the line

@@ -1,1042 +1,1036 @@
-state,city,organisation,addressdetails_id,addressbook_id,salutation,firstname,lastname,title,extension,email,phoneres,mobile,OrderNo
-Uttar Pradesh,Agra,Lamba Indian Homestay,490,2127,Col,I. J. S.,Lamba,Prop.,,,,9319842921,1
-Uttar Pradesh,Agra,Hotel Amar Yatri Niwas,552,610,Mr,Mayank,S,FOM,,,,,1
-Uttar Pradesh,Agra,Pushp Villa,567,2192,Mr,Amir,Uddin,GM,,,,9897522527,1
-Uttar Pradesh,Agra,Hotel Royale Residency,620,2223,Mr,Amir,Uddin,Gen Manager,,,,98997522527,1
-Uttar Pradesh,Agra,The Coral House Homestay,1547,2987,Mrs,Pratibha,Talan,,,,,9627208481,1
-Uttar Pradesh,Agra,The Grand Imperial,1760,2208,Ms,Anu,Jain,Manager Reservations,,,,93198 42954,1
-Uttar Pradesh,Agra,The Coral Tree Homestay,1449,2882,Mrs,Vandna,Singh,,,,,,1
-Uttar Pradesh,Agra,Four Points by Sheraton Agra,1497,2883,Mr,Zaffar,Khan,Asst. Sales Manager,,,,81930 23991,1
-Uttar Pradesh,Agra,Radisson Blu Agra Taj East Gate,1584,2659,Mr,,Sadaf,,,,,,1
-Uttar Pradesh,Agra,The Coral Court Homestay,1517,2960,Mr,Suraj,Talan,Director,,,,9760010354,1
-Uttar Pradesh,Agra,Hotel Atulyaa Taj,1519,2961,Mr,Padam,Chaudhary,Manager Reservations,,,,89548 90347,1
-Uttar Pradesh,Agra,Hotel Dasaprakash,1346,2710,Mr,,Akram,,,,,81713 90055,1
-Uttar Pradesh,Agra,Hotel Crystal Inn,1213,2504,Mr,Farukh,Khan,GM,,,9258334400,9368658225,1
-Uttar Pradesh,Agra,The Retreat,1248,2707,Mr,Anurag,Yadav,GM,,,,0 8810022200,1
-Uttar Pradesh,Agra,The Oberoi Amarvilas,1087,1425,Mr,Nigel,Badminton,GM,,,,,1
-Uttar Pradesh,Agra,ITC The Mughal,1088,1288,Mr,Sanjay,Sharma,GM,,,,,1
-Uttar Pradesh,Agra,Hotel Amar,1131,745,Ms,Hina,,Reservations,,,,,1
-Uttar Pradesh,Agra,Hotel Utkarsh Vilas,1144,2502,Mr,Udai,Singh,Reservations,,,,94140 23378,1
-Uttar Pradesh,Allahabad,Hotel Kanha Shyam,295,1390,Mr,Rajeev,Shandillya,Manager,,,,99182 01932,1
-Uttar Pradesh,Allahabad,Hotel Milan Palace,910,2428,Mr,,Roshan,Reservations,,,,,1
-Uttar Pradesh,Agra,Howard Sarovar Portico,1187,1426,Mr,Sandeep,Jaiswal,GM,,,,,1
-Uttar Pradesh,Agra,Rajmahal Hotel,1196,2584,Ms,Hina,Khan,,,info@rajmahalagra.com,,93686 50709,1
-Uttar Pradesh,Allahabad,Yatrik Hotel,969,1391,Ms,Neelam,Varma,GM,,,,,1
-Kerala,Alleppey,Alleppey Prince Hotel,56,214,,,,,,,243 752- to 243 757,,1
-Kerala,Alleppey,Nelpura Heritage Homestay,1789,3224,Mr,, Chackochan,,,,,,1
-Kerala,Alleppey,Vismaya Lake Heritage,1767,2934,Mr,Jan,Arryn,,,,,97442 97123,1
-Kerala,Alleppey,Citrus Retreats - Alleppey,1407,2675,Mr,Rosario,Lobo,Sales Executive,,rosario.lobo@citrushotels.in,0832-304 4444,95278 05352,1
-Kerala,Alleppey,Casa Del Fauno Boutique Backwater Homestay,1035,2310,Ms,Suni,Eipe,,,,,098957 66444,1
-Kerala,Alleppey,Taamara,1119,2586,Ms,Nirmala,Babu,,,,,93889 88811,1
-Kerala,Alleppey,Tharavad Heritage Resort,783,2306,Mr,Biju,Mohan,,,,,,1
-Kerala,Alleppey,Raheem Residency,784,2307,Ms,Bibi,(Baskin),,,,,,1
-Kerala,Alleppey,Emerald Isle,785,2308,Mr,Vinod,Job,,,,94470 77555,94957 77888,1
-Kerala,Alleppey,Akkarakalam Memoirs,786,2309,Mr,Bijil,Thomas,Executive Reservations,,,,94952 19110,1
-Gujarat,Ahmedabad,Hotel Host Inn,631,2086,Mr,Daud,Mir,FOM,,,,,1
-Gujarat,Ahmedabad,Cama Hotel,725,1383,Ms,Kamana,Mishra,Reservations,,,,,1
-Gujarat,Ahmedabad,Arts Reverie,1028,2500,Ms,Anupa,Mehta,,,,,,1
-Gujarat,Ahmedabad,Hotel Accolade,1381,2833,Mr,,Manjoor,,,,,97240 14740,1
-Gujarat,Ahmedabad,Krios Hotel,1453,2887,Mr,Mehul,Patel,GM,,gm@krioshotel.com,,87588 26553,1
-Gujarat,Ahmedabad,Divans Bungalow,1496,2794,Ms,Farzana,Kadri,,,,,,1
-Punjab,Amritsar,Grand Hotel,337,1560,Mr,Sanjay,Kumar,M.D.,,,,98140 50447,1
-Punjab,Amritsar,Ritz Plaza,551,646,Mr,Piyush,Kapoor,GM,,,,98728 55208,1
-Punjab,Amritsar,Mrs Bhandaris Guesthouse,661,2236,Mr,Kamal,Kishore,Reservations,,,,98159 46373,1
-Punjab,Amritsar,Golden Tulip Amritsar,1612,3031,Ms,Neha,Kumar Nayyar,Asst. Front office Manager,,,,92161 04007,1
-Uttarakhand,Almora,AyurvAID: Kalmatia,1458,2894,Mr,Partha,Banerjee,Manager,,,,99176 54303,1
-Gujarat,Ahmedabad,Hotel Centra,492,691,Mr,Rahul,Goel,Manager,,,,,1
-Punjab,Amritsar,M.K. Hotel,756,2290,Ms,Payal,Sharma,Reservations,,,,,1
-Punjab,Amritsar,Ranjit Svaasa,919,2387,Mr,Deepak,,FO,,,,,1
-Karnataka,Badami,Mookambika Deluxe,325,758,Mr,Ramesh,Kunder,MD,,,,,1
-Karnataka,Badami,Hotel Badami Court,698,1009,Mr,Sangamesh,Kadal,Reservations,,,fax: 080-2525 3943,080-25295451/2,1
-Karnataka,Badami,The Heritage Resort,1609,2750,Mr,,Srinivas,,,,,98452 02086,1
-Madhya Pradesh,Bandhavgarh,Tiger Trails,704,356,Mr,Amrut,,Manager,,,,,1
-Madhya Pradesh,Bandhavgarh,Nature Heritage Resort,1130,2217,Ms,Shalini,Shukla,Reservations,,,,98101 92192,1
-Madhya Pradesh,Bandhavgarh,Samode Safari Lodge,1171,2616,Mr,,Lodge Manager,,,,,95759 56442,1
-Gujarat,Balasinor,Garden Palace,1254,1470,Ms,Aliya,Sultana Babi,,,,,2690 267786,1
-Orissa,Bhubaneswar,The Royale Midtown,456,2087,Mr,Debasish,Banerjee,General Manager,,,,9861086299,1
-Orissa,Bhubaneswar,Mayfair Lagoon,1050,1958,Mr,Harihar,Mahapatra,FOM,,,,,1
-Orissa,Bhubaneswar,Hotel Hindustan International,1318,2784,Mr,Chandra Manni,Bittu,Asst F.O Manager,,,,9937290558,1
-Rajasthan,Bhenswara,Ravla Bhenswara,663,934,Mr,Dalvir,Singh,,,,,94141 33087,1
-Gujarat,Bhuj,The Kutch Safari Lodge,881,120,Mr,,Vaghela,,,93743 35853,,98250 13392,1
-Gujarat,Bhuj,Hotel Prince,888,940,Ms,,Meeta,,,,,97274 11441,1
-Gujarat,Bhuj,Hotel Ilark,896,2399,Mr,,Shiraz,F.O. Manager,,,,98793 44940,1
-Gujarat,Bhuj,The Bhuj House,1490,2931,Mr,Jehan,Bhujwala,Owner,,,,,1
-Madhya Pradesh,Bhopal,Ivy Suites,824,2338,Mr,Pramod,Sharma,,,,,98260 58680,1
-Gujarat,Bhavnagar,Nilambag Palace Hotel,892,1275,Mr,Shakti,Singh,FO Manager,,,,94262 72450,1
-Rajasthan,Bijaynagar,Bijay Niwas Palace,1718,3018,Ms,,Neha,,,,,85111 98433,1
-Rajasthan,Bijaipur,Castle Bijaipur,635,863,Mr,Shailender,Singh,,,,,94611 41153,1
-Rajasthan,Bikaner,Palace View Hotel,128,396,Mr,Vikram,Singh,Prop.,,,,,1
-Rajasthan,Bikaner,Hotel Harasar Haveli,608,2210,Mr,Bilal,,,,,9414009891,9414142318,1
-Rajasthan,Bikaner,Hotel Gaj Kesri,664,2205,Mr,Prashant,,Reservations,,,,,1
-Orissa,Bhubaneswar,The New Marrion Hotel,1446,2257,Mr,Saroj,Das,Manager Sales & Marketing,,,,92380 22002,1
-Rajasthan,Bharatpur,Laxmi Vilas Palace,630,860,Mr,Surendra,Singh,Manager,,,,98283 34493,1
-Rajasthan,Bharatpur,Birders Inn,716,2241,Mr,Tirath,Singh,M.D.,,,,94140 23340,1
-Rajasthan,Bharatpur,Laxmi Niwas Palace,1351,2827,Mr,Surendra,Singh,,,,,98283 34493,1
-Rajasthan,Bikaner,Bhairon Vilas,932,1548,Mr,Anuj,Saxena,,,,,9649911064,1
-Rajasthan,Bikaner,Hotel Lallgarh Palace,1269,865,Mr,Amarjeet,Singh,Reservations,,,,92143 76006,1
-Rajasthan,Bikaner,Maharaja Ganga Mahal,1280,2739,Mr,Vikram,Singh,Reservations & Sales Manager,,,,92144 88611,1
-Rajasthan,Bikaner,Bhanwar Niwas,1352,715,Mr,,Prashant,,,,,,1
-Rajasthan,Bikaner,Narendra Bhawan,1690,3045,Mr,Deepender,Singh Rathore,Sales Executive,,,,,1
-Karnataka,Bangalore,Hotel Ivory Tower ,821,1011,Mr,Krishna,Shantakumar,General Manager,,,,98804 44335,1
-Karnataka,Bangalore,Hotel Jayamahal Palace,1401,2749,Mr,Joel,John,Manager Operations,,,,88840 65592,1
-Madhya Pradesh,Bhopal,Jehan Numa Retreat,1660,3098,Mr,Saleem,Quraishi,Sales Manager,,saleem@jnph.in,,99819 97714,1
-Madhya Pradesh,Bhopal,The Hub Street Hotel,1649,3084,Mr,Rohit,Gurjar,Front Office,,,,91091 22244,1
-Karnataka,Bangalore,Laika Boutique Stay,1682,3124,Ms,,Clara,,,,,,1
-Karnataka,Bangalore,The Richmond Hotel,934,2430,Mr,.,Guneshekhar,Sales Mgr,,sales.bangalore@theresidency.com,,9901991313,1
-Karnataka,Bangalore,Casa Piccola Cottage,1037,2482,Mrs,Benjamine,Oberoi,Prop.,,,,,1
-Karnataka,Bangalore,Shreyas Retreat,1288,2617,Mr,Nidhi,Sood,,,,,,1
-Bihar,Bodh Gaya,Hotel Tathagat International,999,2254,Mr,Gautam,,Reservations,,,,,1
-Bihar,Bodh Gaya,Hotel Taj Darbar,1100,2552,Mr,Anand Kumar,Azad,Manager,,,,94710 02293,1
-Bihar,Bodh Gaya,The Imperial Bodhgaya,1714,2972,Mr,,SANDEEP,,, bodhgaya@hoteltheimperial.com,7004130319,9123268823,1
-Maharashtra,Mumbai,The Taj Mahal Palace,230,711,Ms,Azmin,Siganporia,Corpt. Sales,,azmin.siganporia@tajhotels.com,,,1
-Maharashtra,Mumbai,West End Hotel,232,89,Mr,.,Ramani,,,,,,1
-Maharashtra,Mumbai,Sea Palace Hotel,1597,2462,Ms,Komal,Dutt,,,,,97664 87680,1
-Maharashtra,Mumbai,The Mirador Hotel,1599,3019,Mr,Sunil,Bhatia,Director Sales & Marketing,,,,95949 58888,1
-Maharashtra,Mumbai,The Gordon House,1602,2106,Ms,Nivedeeta,Kurle,Senior Sales Manager,,,,986 750 5247,1
-Maharashtra,Mumbai,Hotel Suba Palace,1633,3050,Ms,Arfa,Shaikh,Reservations,,,,,1
-Maharashtra,Mumbai,Hotel Suba International,1634,3051,Ms,Deepa,Suryawanshi,Reservations Executive,,,,,1
-Maharashtra,Mumbai,Ibis Mumbai Airport,1210,2679,Ms,Sunayana,Chiplunkar,Sales Executive,,,,91677 97744,1
-Maharashtra,Mumbai,Hotel Heritage,309,1878,Mr,Lawrence,Dsouza,FOM,,lawrence@comfortinnheritage.com,,,1
-Maharashtra,Mumbai,Taj Group of Hotels,1380,2832,Ms,Charmaine,Mirza,,,,,,1
-Maharashtra,Mumbai,The Orchid,1522,730,Mr,Ishan,Jadhav,Asst. Sales Manager,,smtravel@orchidhotel.com,,84229 39030,1
-Maharashtra,Mumbai,Residency Hotel,883,2379,Mr,R.,Lawrence,,,,,98925 20409,1
-Maharashtra,Mumbai,Hotel Godwin,921,2403,Mr,N,Singh,FO,,,,,1
-Maharashtra,Mumbai,Hotel Airport International,986,2477,Mr,,Kiran,Sales Manager,,,,,1
-Rajasthan,Bundi,Ishwari Niwas Palace,327,1343,Mr,Balbhadra,Singh,,,,,9414175851,1
-Rajasthan,Bundi,Badi Haveli,397,2045,Mr,Mukesh,Mehta,,,,,,1
-Rajasthan,Bundi,Hotel Bundi Haveli,1306,2214,Mr,Surendra,,,,,,99292 91552,1
-Rajasthan,Bundi,Dev Niwas Palace,1637,3054,Mr,Rajdev,Singh,,,,,,1
-Kerala,Kozhikode,Kadavu,813,1268,Mr,,Ganam,Reservations,,,,98950 36104,1
-Kerala,Kozhikode,Harivihar Wellness Retreat,1111,2576,Dr,Sri,Kumar,Managing Partner,,,,,1
-West Bengal,Kolkata,Lytton Hotel,293,5,Mr,Soumen,Ghosh,Reservations,,,,,1
-West Bengal,Kolkata,The Astor,1090,1865,Mr,Pathak,,Reservation,,,,,1
-West Bengal,Kolkata,The Oberoi Grand,1146,796,Mr,Shiraj,Shikhar,Director of Sales & Marketing,,,,,1
-West Bengal,Kolkata,Hotel Kempton,1249,2690,Mr,Sanjay,Sarkar,GM,,gmhotelkempton@yahoo.in,,9830507242,1
-West Bengal,Kolkata,Hotel 233 Park Street,1426,2864,Mr,Balbhadra,Marothia,Manager,,,,98300 28570,1
-West Bengal,Kolkata,Ivy House,1506,2954,Ms,Priti,Arora,,,,,98850 30830,1
-West Bengal,Kolkata,Calcutta Bungalow,1794,3225,Ms,,Keya,,,,,91631 86934,1
-Rajasthan,Chandelao,Chandelao Garh,430,868,Mr,Praduman Singh,Rathore,Prop.,,,,92144 03292,1
-Karnataka,Chikmagalur,Flameback Lodges,1795,3238,Ms,Vibhuti,Shah,,,,,96060 35220,1
-Rajasthan,Chittaurgarh,Hotel Pratap Palace,579,869,Mr,Rishi,Singh,,,,,9414111510,1
-Rajasthan,Chittaurgarh,The Padmini Haveli Guesthome,1314,2778,Ms,Parvati,Sukhwal,,,,,94147 34497,1
-Maharashtra,Mumbai,Hotel Bawa International,758,2292,Mr,Aniket,,Reservations,,,,,1
-Kerala,Kochi,Bolgatty Palace,236,1909,Mr ,Jaibee,Kollarmalil,,,,,,1
-Kerala,Kochi,Sealord Hotel,396,24,Mr,Mathew,George,Reservations,,,,,1
-Kerala,Kochi,The Fort House Hotel,721,2269,Ms,Patricia,Melvin,Reservations,,,,98955 96782,1
-Kerala,Kochi,Chiramel Residency,760,1458,Mr,Abraham,Mathew,,,,,94478 18930,1
-Kerala,Kochi,Napier House,761,2293,Ms,,Sobin,,,,,,1
-Kerala,Kochi,Forte Kochi,1655,3094,Ms,Rupali,Desai,Sales Manager,,rupali@thepaul.in,,97697 39221,1
-Kerala,Kochi,Indy Old Court House,1722,3088,Ms,Sheetal,Pangam,Manager Sales & Marketing,,,,74474 01168,1
-Kerala,Kochi,Old Lighthouse Bristow Hotel,1397,2585,Ms,Sheeba,Joseph,Reservations Manager,,,,99460 18101,1
-Kerala,Kochi,Fort Manor,1402,2846,Mr,Vicky,Raj,Managing Director,,,,,1
-Kerala,Kochi,Victory Dawn,1403,2847,Mr,Vicky,Raj,Managing Director,,,,,1
-Kerala,Kochi,Ginger House Museum Hotel,1653,3093,Mr,Nishad,OP,Manager Sales & Reservations,,,,95444 45526,1
-Kerala,Kochi,Rain Tree,974,2456,Mr,Edgar,Pinto,,,,,,1
-Kerala,Kochi,The Tower House,997,2485,Mr,Ajay Singh,Rawat,Reservations,,,,,1
-Kerala,Kochi,Waltons Home Stay,1120,2587,Mr,Christopher,Walton,Owner,,,99951 56161,92497 21935,1
-Kerala,Kochi,Hotel Arches,1277,2734,Mr,Rajnish,Manohar,GRE,,,,94472 21234,1
-Kerala,Kochi,Le Colonial,769,2298,Ms,Smita,Daravala,,,,,98461 26190,1
-Kerala,Kochi,The Malabar House,772,980,Mr,Adrian Philip,D'Souza,Asst Manager - Sales,,,,,1
-Kerala,Kochi,Fort Heritage,782,981,Mr,S.,Issac,Managing Director,,,,,1
-Kerala,Kochi,Old Harbour Hotel,762,2294,Mr,Edgar,Pinto,,,,,98470 29000,1
-Kerala,Kochi,The Old Courtyard ,763,1510,Mrs,Rose,BK,,,,,,1
-Kerala,Kochi,Koder House,767,2295,Mr,Abilash,Nayar,Manager,,,,,1
-Tamil Nadu,Coonoor,The Tryst,307,949,Dr,A,Rao,,,,,,1
-Uttarakhand,Corbett,Quality Inn Corbett Jungle Resort,9,7,Mr,Arun,Sharma,Director,,,112    ,,1
-Uttarakhand,Corbett,Quality Inn Corbett Jungle Resort,245,7,Mr,M,Laique,Manager Reservations,,mlaique@indiatimes.com,,,1
-Kerala,Kochi,Anchor House,765,2240,Ms,Finitha,,Reservations,,,,,1
-Uttarakhand,Corbett,The Corbett Hideaway,996,1386,Mr,Manoj,Yadav,Sales & Mktg.,,,,,1
-Uttarakhand,Corbett,Vanghat,1801,3244,Ms,Sumantha,Ghosh,,,,97611 66777,97192 43939,1
-West Bengal,Darjeeling,Hotel Garuda,211,1562,Mr,Karma,Sherpa,Managing Director,,,54563,,1
-West Bengal,Darjeeling,Clubside Tours & Travels Pvt Ltd,636,236,Mr,Amit,Periwal,,,amit@clubside.in,,99320 60980,1
-West Bengal,Darjeeling,Dekeling Hotel,654,2153,Mr,Norbu,Dekeva,MD,,,,94344 62408,1
-West Bengal,Darjeeling,Seven Seventeen,668,2194,Mr,Jigme,Bhutia,Manager,,,,,1
-West Bengal,Darjeeling,The Elgin,1015,1365,Mr,Badal,,Manager,,,,,1
-West Bengal,Darjeeling,Dekeling Resort,1110,2573,Mr,Norbu,Dekeva,Prop.,,,,94344 62408,1
-West Bengal,Darjeeling,Windamere Hotel,1215,1364,Ms,Shubhana,,Sales & Mkt,,shubhana@windamerehotel.net,,,1
-Himachal Pradesh,Dalhousie,Grand View Hotel,944,642,Mr,Ashish,Chaddha,Owner,,,94180 10659,98164 02786,1
-West Bengal,Darjeeling,Glenburn Tea Estate,1790,3226,Mrs,Darlene,Khan,,,,,98300 70213,1
-Uttarakhand,Dehra Dun,Shaheen Bagh,953,2406,Mr,Arun,Gupta,Owner,,,,9810146353,1
-Delhi,Delhi,Park Royal,202,1509,Mr,Surojit,Ghose,Manager - Travel Trade,,admin@parkroyal.co.in,622 3344,,1
-Delhi,Delhi,The Maidens Hotel,290,798,Mr,B.S,Parmar,,,,"252 5464, 397 5",38650001,1
-Delhi,Delhi,Jukaso Inn,402,11,Mr,Rajeev,Khanna,,,,,98100 01549,1
-Delhi,Delhi,Maharani Guest House,408,2054,Mr,Mahavir ,Singh,FO Manager,,,,,1
-Delhi,Delhi,La Sagrita,419,2062,Mr,Hemant,Ahuja,,,,,,1
-Delhi,Delhi,Bed & Breakfast at Eleven,1667,3112,Mr,Ajay,Anandd,,,ajay.anandd@elevendelhi.com,,98110 88966,1
-Delhi,Delhi,G-49 Bed & Breakfast,1668,3113,Mr,,Deepak,,,,,,1
-Delhi,Delhi,Colonel's Retreat,1675,3119,Mrs,,Khanna,,,,,98102 65121,1
-Delhi,Delhi,Colonel's Retreat 2,1676,3120,Mrs,,Khanna,,,,,98102 65121,1
-Delhi,Delhi,Colonel's Retreat At The Airport,1677,3121,Mrs,,Khanna,,,,,98102 65121,1
-Delhi,Delhi,Radisson Blu Marina Hotel,1520,2080,Mr,Sachin,Ansal,Sales Manager,,,sales@rdmardel.com,72900 85174,1
-Delhi,Delhi,The Estate Villa,1540,2981,Ms,,Deepika,,,,,98103 06211,1
-Delhi,Delhi,The Metropolitan Hotel,1548,2782,Mr,Deepak,Thapa,Sales Manager,,,,81301 94147,1
-Delhi,Delhi,The Claridges,1586,1389,Mr,Rahul,Popli,Associate Director of Sales,,,3955 5103,88006 54441,1
-Delhi,Delhi,Hotel Connaught Royale,1591,3007,Mr,Gordon,David,Sales Manager,,,,88007 77434,1
-Delhi,Delhi,Hotel Palace Heights,1501,2944,Mr,Gerard,Joseph,General Manager,,,,98712  53030,1
-Delhi,Delhi,Shanti Home,1510,2820,Ms,Surbhi,Singh,,,,,82854 05403,1
-Delhi,Delhi,The Manor,859,2370,Mr,,Anubhav,,,,,,1
-Delhi,Delhi,Casa Dera Mandi,861,2372,Mr,,Sudhir,,,,,99714 25558,1
-Delhi,Delhi,The Amber,1160,2631,Mr,Mukesh,Sharma,GM,,,,98186 33212,1
-Delhi,Delhi,Hotel Star Grand Villa,1182,2654,Ms,Anjali,Arora,Sales Manager,,,,95609 03336,1
-Delhi,Delhi,Hotel Gautam Deluxe,1183,2655,Mr,Ravi,Dar,GM,,,,99582 92955,1
-Delhi,Delhi,Hotel Saar Inn,1184,2656,Mr,Jasmeet,Singh,Manager,,,,9873900132,1
-Delhi,Delhi,Hotel Sunstar Heritage,672,2195,Mr,Harendra,Singh,Reservations Incharge,,,,98185 15027,1
-Delhi,Delhi,Hotel Sunstar Residency,673,2196,Mr,Harendra,Singh,Reservations Incharge,,,,098185 15027,1
-Delhi,Delhi,Hotel Sunstar Grand,674,2246,Mr,Harendra,Singh,Reservations Incharge,,,,098185 15027,1
-Delhi,Delhi,Amarya Garden,741,2278,Ms,Jaspreet,,Reservations,,,,,1
-Delhi,Delhi,Amarya Haveli,742,2277,Ms,Jaspreet,,Reservations,,,,,1
-Delhi,Delhi,DolphInn,858,2369,Mr,O B,Lal,GM,,,,99101 05544,1
-Delhi,Delhi,Suncourt Hotel Yatri,618,2190,Mr,Harendra,Singh,Reservations Incharge,,,,098185 15027,1
-Delhi,Delhi,Hotel Grand Central,624,2230,Mr,Dhiren,Yadhav,Director,,dhirenyadav@rediffmail.com,,9871848754,1
-Delhi,Delhi,Florence Inn,669,2113,Mr,Ashish,Sharma,Reservations,,,98996 28512,95600 03372,1
-Delhi,Delhi,Hotel Florence,670,2134,Mr,Ashish,Sharma,Reservations,,,,98996 28512,1
-Delhi,Delhi,Hotel Broadway,508,2135,Mr,Zahid,Ali,Front Office Mgr,,,,89204 49953,1
-Delhi,Delhi,Lutyens Guest House,529,2163,Ms,Shukla,Nath,Prop.,,,99581 70993,98913 86330,1
-Delhi,Delhi,The Park,451,2085,Mr,Vinod,Kargeti,Director Sales,,vkargeti@theparkhotels.com,,98188 22556,1
-Delhi,Delhi,Ashu Palace,478,2116,Mr,Niranjan,Kumar,S & M Manager,,,,093122 73905,1
-Delhi,Delhi,Ashoka International,482,2121,Mr,Niranjan,Kumar,Mgr Sales&Marketing,,,55188047,9312273905,1
-Delhi,Delhi,Pablas International,485,2123,Mr,Satyam,Das,Manager,,,,9818860201,1
-Delhi,Delhi,Surya Shelter,501,2133,Mr,Amir,Ali,General Manager,,,,9810936867,1
-Delhi,Delhi,Shervani Fortview,429,2072,Mr,Sanjay,Kalra,Manager,,,,,1
-Delhi,Delhi,The Legend Inn,436,2075,Mr,Yogesh,,,,,,,1
-Delhi,Delhi,The Legend Inn,437,2075,Mr ,Vineet,Puri,,,,,,1
-Delhi,Delhi,Solo Victoria,438,2076,Mrs,Seema,Sabharwal,Manager,,,,9312435214,1
-Delhi,Delhi,Hotel Clark International,441,2077,Mr,Pankaj,Badoni,Sr Manager Operation,,clark@bol.net.in,,9811023375,1
-Delhi,Delhi,Crest Inn,442,2078,Mr,Ashwani,Bansal,Manager,,,,9811647495,1
-Rajasthan,Deogarh,Deogarh Mahal,568,401,Mr,Parvez,Parvez,FO,,resv.dgh@deogarh.in,99288 34777,93144 20016,1
-Rajasthan,Deogarh,Dev Shree,1574,2997,Mr,Shatrunjai Singh,Chhundawat,Owner,,sjs@devvaas.com,,99291 72000,1
-Rajasthan,Dhariyawad,Fort Dhariyawad,600,871,Mr,Bhanu Pratap,Singh,Owner,,,9414296746,9829820516,1
-Madhya Pradesh,Dhar,Jhira Bagh Palace,846,1375,Mr,R.B.,Singh,,,,,,1
-Himachal Pradesh,Dharamsala,Hotel Tibet,394,1501,Ms,Yanchen,Deputy GM,,,,,,1
-Himachal Pradesh,Dharamsala,Hotel Tibet,395,1501,Mr,Dorjee,Gyaltsen,GM,,,,,1
-Himachal Pradesh,Dharamsala,Hotel Natraj,400,2047,Mr,Gaurav,Duggal,,,,,,1
-Himachal Pradesh,Dharamsala,Pema Thang Guesthouse,619,2222,Mr,Tseten,Dorjee,Manager,,,,94183 98764,1
-Himachal Pradesh,Dharamsala,Chonor House,626,1863,Mr,Dechen,Namgyal Maja,Manager,,,,94180 31468,1
-Himachal Pradesh,Dharamsala,Hotel Anand Palace,738,2084,Mr,Jitender Kumar,Shrivastav,GM,,,9418074111,9816004150,1
-Himachal Pradesh,Dharamsala,Serkong House,1423,2863,Mrs,,Tentso,,,,,,1
-Delhi,Delhi,Bloomrooms,1443,2876,Mr,Premjith,Edassery,,,,,9810814170,1
-Himachal Pradesh,Dharamsala,Surya McLeod,1139,644,Ms,Mansi,,Reservations,,,,98887 04453,1
-Himachal Pradesh,Dharamsala,Him View Guesthouse,1221,2681,Mr,Tsering,Dorjee,Manager,,,,94182 36603,1
-Himachal Pradesh,Dharamsala,Glenmoor Cottages,950,1413,Mr,Ajai,Singh,Owner,,,,94180 25800,1
-Himachal Pradesh,Dharamsala,Hotel Clouds End Villa Cottages,946,1503,Mr,R.,Singh,Manager,,,,,1
-Himachal Pradesh,Dharamsala,Norling Guest House Norbulingka,948,2424,Mr,Dechen,Maja,,,98160 21006,,94180 31468,1
-Assam,Dibrugarh,Mancotta Chang Bungalow,1069,2509,Mr,Rishi,Kumar Saraf,Manager Tours,,,,94351 30014,1
-Diu,Diu,Hotel Kohinoor,173,776,Mr,Anil,Jaiswal,,,,,98242 76660,1
-Diu,Diu,Radhika Beach Resort,893,941,Mr,,Lalit,Reservations Manager,,98244 18555,,94269 95475,1
-Rajasthan,Dungarpur,Udai Bilas Palace,853,873,Mr,Kalvendra,Singh,Manager,,,,93146 53967,1
-Sikkim,Gangtok,Hidden Forest Retreat,675,2225,Ms,Kesang,Lachungpa,Prop.,,kesang27@gmail.com,9474981367,94341 37409,1
-Sikkim,Gangtok,Nor Khill Hotel,1016,1366,Mr,Basu,,Manager,,,,,1
-Sikkim,Gangtok,Hotel Tibet,1034,12,Mr,Tsering,,Reservations,,,,,1
-Sikkim,Gangtok,Netuk House,1212,1367,Mr,Sonam T.,Namgyal,Owner,,,,95938 84926,1
-Sikkim,Gangtok,Mintokling Guest House,1231,2686,Ms,Pema,L Pulger,Manager,,,,,1
-Assam,Guwahati,River Breeze Hotel,1043,2514,Mr,Santanu,Choudhury,,,,,98640 23613,1
-Assam,Guwahati,Hotel Daaysco Oley Allo,1062,2516,Ms,Mandita,Sarma,Reservations,,,,97060 98003,1
-Assam,Guwahati,Dynasty Hotel,1347,272,Mr,Sourav,Majumdar,Sales & Marketing Executive,,,,75780 09372,1
-Assam,Guwahati,Baruah Bhavan,1375,2828,Mr,D,Sarkar,Manager,,,,99540 24165,1
-Rajasthan,Ghanerao,Bagha-ka-Bagh,1025,2498,Mr,Shakti,Singh,Proprietor,,,,9799391882,1
-Rajasthan,Ghanerao,Ghanerao Royal Castle,1026,874,Mr,Himmat,Singh,Proprietor,,,,,1
-Goa,Goa,Albuquerque Guest House,33,96,Mr,Tony,Albuquerque,,,,"27 6804, 27 6805",,1
-Goa,Goa,Ronil Beach Resort,77,291,Mr,Austin,Fernandes,Reservation Manager,,ronil_goa@sify.com,"276 101, 276 099, 275 033",,1
-Goa,Goa,Shalala Residency,161,731,Mr,,Shakur,,,,275 411,,1
-Goa,Goa,Hotel Carys ,206,1547,Mr,Cary,Sequeira,,,,,,1
-Goa,Goa,Ronil Beach Resort,244,291,Mr,Rui,de Deus,,,,,9822100035,1
-Goa,Goa,Agonda Serenity Resort,1717,3151,Ms,,Divya,,,,,,1
-Goa,Goa,The Cape Goa,1641,3060,Mr,John,Fernandes,,,,,,1
-Goa,Goa,Agonda Cottages,1642,3057,Mr,John,Fernandes,,,,,,1
-Goa,Goa,Cinnamon,1643,3058,Mr,John,Fernandes,,,,,,1
-Goa,Goa,Dwarka Eco Beach Resort,1673,2354,Ms,,Shilpika,,,,,8551056490,1
-Goa,Goa,Casa Susegad,1678,3122,Mr,,Norman,,,,,98504 73174,1
-Goa,Goa,Agonda Villas,1638,3059,Mr,John,Fernandes,,,,,,1
-Goa,Goa,Agonda Beach Resort,1639,3055,Mr,John,Fernandes,,,,,,1
-Goa,Goa,Agonda White Sand,1640,3056,Mr,John,Fernandes,,,,,,1
-Goa,Goa,The Bay Agonda,1505,2953,Mr,Shaan,Jaffer,Owner,,,,9823548277,1
-Goa,Goa,Mangaal Farm Homestay,1538,2980,Ms,Sandra,,,,,0832 2464001,,1
-Goa,Goa,Ahilya By-the-Sea,1444,2877,Ms,Smita,Daruvala,Manager,,,8459386478,98461 26190,1
-Goa,Goa,La Maison Fontainhas,1467,2911,Mr,Luis,da Silva,Director,,,,,1
-Goa,Goa,Aashyana Cottages,1472,2922,Mr,Pradeep,Sethi,Manager,,,,98224 88672,1
-Goa,Goa,Alila Diwa Goa,1170,2635,Ms,Smita,Patil,Sales Co-ordinator,,,,,1
-Goa,Goa,Wildflower Villas,1177,2619,Mr,Amol,Navelkar,,,,,98221 26929,1
-Goa,Goa,Marquis Beach Resort,1250,743,Mr,Ashvek,Sirsat,Sales,,,,90110 29511,1
-Goa,Goa,Hacienda de Goa Resort,1256,2713,Mr,Koruth,Thomas,M.D.,,,,98221 61905,1
-Goa,Goa,Santana Beach Resort,1257,2714,Mr,Verner,Da Costa Frias,Partner,,,,93261 02242,1
-Goa,Goa,Sonesta Inns,1343,2823,Ms,Detessa,,,,,,,1
-Goa,Goa,Panjim Inn,1588,2351,Ms,Divya,Gawas,,,,,77220 39306,1
-Goa,Goa,Summertime,1592,3008,Ms,,Nora,,,,,73500 82224,1
-Goa,Goa,Citrus Hotel,1624,3036,Mr,Sandeep,Chandan,General Manager,,,,85549 99489,1
-Goa,Goa,Beach Street Eco Resort & Spa,1635,3053,Mr,Gopal,Kaushik,Partner,,,,98732 33331,1
-Goa,Goa,Hotel Bougainvillea,983,1897,Ms,Cecilia,,Res,,,,,1
-Goa,Goa,Yab Yum Beach Resort,1010,2441,Mr,Joe,,Res.,,,,,1
-Goa,Goa,Otter Creek,838,2019,Ms,Sandra,Dmello,,,,,,1
-Goa,Goa,Marbella Guesthouse,840,2353,Mr,,Dian,,,,,9822100811,1
-Goa,Goa,Fort Tiracol Heritage Hotel,843,2356,Mr,Lumen,D'Souza,Reservations Manager,,,,23662 27631,1
-Goa,Goa,Olaulim Backyards,1086,2546,Mrs,Pirkko,Fernandes,,,,,93260 17731,1
-Goa,Goa,La Paz Gardens,902,210,Ms,Victoria,,Reservations,,,,,1
-Goa,Goa,Kerkar Retreat,737,2273,Ms,Carmin,,Reservations,,,,,1
-Goa,Goa,Panchavatti,833,2350,Ms,Isla ‘Loulou’,Van Damme,,,,,9822580632,1
-Goa,Goa,Pousada Tauma,834,1355,Mr,Neville,Proenca,,,,,,1
-Goa,Goa,Nilaya Hermitage,835,1353,Ms,Claudia,Ajwani,,,,,,1
-Goa,Goa,Elsewhere,837,2018,Ms,Sandra,Dmello,,,,,,1
-Goa,Goa,Presa di Goa,541,2108,Ms,Cynthia,,Res,,,,,1
-Goa,Goa,Wildernest,555,2181,Mr,Prasad,,Reservations In Charge,,,(0831) 4207954,9341112721,1
-Goa,Goa,Wildernest,572,2181,Mr,Sudhir,Naik,G M,,,9341108838,,1
-Goa,Goa,Wildernest,573,2181,Ms,Kunda,,Receptionist,,,,9881402665,1
-Goa,Goa,Yoga Magic Canvas Ecotel,641,2242,Mr,Phil,Dane,Proprietor,,,,9370565717,1
-Goa,Goa,Xavier Beach Resort,284,737,Ms,Antonette,Xaviers,,,,,9823079559,1
-Goa,Goa,Lui Beach Resort,288,1963,Ms,Linda,Fernandes,,,,,,1
-Goa,Goa,Oriental Villa,339,2000,Mr,Henry,Pfeifer,Proprietor,,,,98221 21549,1
-Goa,Goa,Melodious Waves,351,2011,Mr,N,Carvalho,Prop.,,,241 7421 (R),,1
-Goa,Goa,Vila Goesa Resort,371,2026,Mr,Ignatius,FO,,,,,,1
-Karnataka,Gokarna,SwaSwara,1414,2331,Mr,,Chimmay,,,,,,1
-Karnataka,Gokarna,Kahani Paradise,1671,3115,Ms,Violet,Mascarenhas,Reservations Manager,,,,,1
-Gujarat,Gondal,Orchard Palace,890,777,Mr,,Paarth,Manager,,,,99240 13416,1
-Karnataka,Hampi,Shama's Cottages,913,2435,Ms,Shama,Pawar,,,,9268488499,94805 46362,1
-Karnataka,Hampi,Hampis Boulders Resort,917,1989,Mr,Venkat,Raj,Reservations,,,,94480 34202,1
-Karnataka,Hampi,Uramma Heritage Homes,1361,2717,Mr,,Siraj,Manager,,,,9449972230,1
-Uttarakhand,Haridwar,Hotel Ganga Lahari,1227,2685,Mr,,Manager,,,,,94120 74417,1
-Uttarakhand,Haridwar,Devnadi - The Heritage Hotel,1625,3037,Mr,Rohan,Saigal,Managing Director,,,,98978 99207,1
-Karnataka,Hassan,Hoysala Village Resort,1680,1240,Ms,Meena,R,,,marketing1@hoysalavillageresorts.com,95919 96525,95910 77400,1
-Madhya Pradesh,Khajuraho,Khajuraho Ashok,1,50, , , ,,,,"44 024, 44 042, 44 361, 44 336",,1
-Madhya Pradesh,Khajuraho,Hotel Harmony,226,1888,Mr,Ganga,Prasad,,,,,,1
-Madhya Pradesh,Khajuraho,Hotel Siddharth,691,1887,Mr,D,Patel,Manager,,,,,1
-Madhya Pradesh,Khajuraho,Usha Bundela,1055,2103,Mr,Sharad,Raina,FO Mgr,,,,97551 29010,1
-Madhya Pradesh,Khajuraho,GW Greenwood Art Otel,1167,2633,Mr,Debabrata,Dutta,,,,,,1
-Madhya Pradesh,Khajuraho,Ramada Khajuraho,1208,2638,Mr,Gaurav,Verma,Sales Manager,,,,99714 66660,1
-Madhya Pradesh,Khajuraho,Hammeer Garh,1266,2724,Mr,Shailaish,Pratap Singh,,,,99937 70008,94072 05737,1
-Madhya Pradesh,Khajuraho,Hotel Chandela,1499,811,Mr,Ishaq,Khan,,,,74155 25146,94253 04979,1
-Karnataka,Hospet,Hotel Priyadarshini,376,757,Ms,Metilda,,Reservations,,,,,1
-Karnataka,Hospet,Krishna Palace,1074,2434,Mr,Kiran,Kumar,Manager,,,,99019 12127,1
-Karnataka,Hospet,Hotel Hampi International,1245,2702,Mr,Piyush,Parmar,GM,,,,092431 61111,1
-Madhya Pradesh,Indore,Rashid Kothi,827,2339,Mr,Ashish,Dubey,,,,,,1
-Madhya Pradesh,Khajuraho,Golden Tulip Khajuraho,1536,2978,Mr,Deepak,Kumar,Asst. front office Manager,,,,95166 17502,1
-Karnataka,Hospet,Hotel Malligi,184,1243,Mr,P.D.,Gautam,Managing Director,,,28 101,,1
-West Bengal,Bagdogra,Orbit Hotel,1237,2689,Mr,,Manager,,,,,97350 00595,1
-Ladakh,Leh,Omasila,1113,2581,Mr,Nawang,Tshering,Manager,,manager@hotelomasila.com,,94191 78815,1
-Ladakh,Leh,Nimmu House,1802,3246,Mr,Patrice,Avossa,GM,,,,,1
-Tamil Nadu,Madurai,Best Western Germanus,346,1445,Mr,R,Vijayaraghavan,,,,,98432 38200,1
-Tamil Nadu,Madurai,Hotel Supreme,350,148,Mr,,Director,,,,,98421 90090,1
-Tamil Nadu,Madurai,The Madurai Residency,428,2071,Mr,P K,Chandrashekar,Sales & Marketing,,,,9842923431,1
-Tamil Nadu,Madurai,JC Residency,1746,3193,Mr,A. Azees,Basha,Sales & Marketing Manager,,,,73737 37308,1
-Tamil Nadu,Madurai,Royal Court,1295,2169,Ms,N,Brindha,Reservations,,,,,1
-Maharashtra,Aurangabad,Hotel Green Olive,1689,3130,Mr,Umesh,Nalawade,Front Office Executive,,,,,1
-Madhya Pradesh,Jabalpur,Narmada Jacksons,1135,857,Mr,Arun,Sarkar,"Manager, Front Office",,,,78284 44499,1
-Rajasthan,Jaipur,Hotel Madhuban,369,2024,Mr,Digvijay Singh,Patan,Prop.,,,,98290 63237,1
-Rajasthan,Jaipur,Mandawa Haveli,1800,1858,Mr,Anngad,Mandawa,Reservations,,anngadmandawa@castlemandawa.com,,98280 16161,1
-Rajasthan,Jaipur,Khas Bagh,1761,3202,Mr,Biplob,Ghosh,,,,,,1
-Rajasthan,Jaipur,Generals Retreat,1393,2845,Ms,Ketaki,Bist,,,,,98284 32250,1
-Rajasthan,Jaipur,Rajmahal Palace Hotel,1180,854,Mr,Rakesh,Katoch,CEO,,,,,1
-Rajasthan,Jaipur,Dera Mandawa,1185,2657,Mr,Durga,Singh,,,Singhdurga2002@yahoo.co.in,,94140 79934,1
-Rajasthan,Jaipur,Rambagh Palace ,1282,94,Mr,Pradeep Kumar,Ludhani,Sales Manager,,pradeep.ludhani@tajhotels.com,,9251088859,1
-Rajasthan,Jaipur,Naila Bagh Palace,728,2248,Ms,Palavi,Naila,,,,,,1
-Rajasthan,Jaipur,Hotel Diggi Palace,862,2375,Mr,Shakti,Singh,Director,,,,94140 66085,1
-Rajasthan,Jaipur,Le Meridien,1124,2590,Mr,Anil,Sharma,,,,,,1
-Rajasthan,Jaipur,Devraj Niwas,1141,2606,Mr,Manish,Mathur,Manager,,,,90012 77888,1
-Rajasthan,Jaipur,Hotel Mansingh ,1151,1540,Mr,Bharat,Aggarwal,,,,,9810006533,1
-Rajasthan,Jaipur,Jai Niwas,680,1983,Mr,Chetan,Bansal,Reservations,,,,,1
-Rajasthan,Jaipur,Tara Niwas,681,2124,Mr,Chetan,Bansal,Reservations,,,,,1
-Rajasthan,Jaipur,Om Niwas,682,2184,Mr,Chetan,Bansal,Reservations,,,,,1
-Rajasthan,Jaipur,Hari Mahal Palace,683,2259,Mr,Pratap,Singh,,,,,,1
-Rajasthan,Jaipur,Narain Niwas Palace,684,1856,Mr,Gajendra,Singh,Reservations,,,,,1
-Jharkhand,Ranchi,Chanakya BNR Hotel,1104,2555,Mr,Rupesh,,Exe. F & B,,,,99436280,1
-Maharashtra,Aurangabad,Hotel Amarpreet,460,2090,Mr,Munawar,Baig,Front Office Manager,,,,99229 96178,1
-Rajasthan,Jaipur,Loharu House,1161,2632,Mr,,Siraj,,,,,94149 62062,1
-Rajasthan,Jaipur,Samode Haveli,589,624,Mr,Pawan,Singh,Manager Reservations,,pawan@samode.com,,98285 84454,1
-Rajasthan,Jaipur,Alsisar Haveli,678,92,Mr,Santosh,,Sales & Mrkt,,santosh@alsisar.com,,98280 77864,1
-Rajasthan,Jaipur,Hotel Arya Niwas,679,13,Mr,Shyam,Singh,Reservations,,,,98293 67879,1
-Rajasthan,Jaipur,The Raj Palace,452,877,Ms,Ankur,Rara,AGM Sales&Marketing,,,,93144-02000,1
-Rajasthan,Jaipur,Bissau Palace,496,875,Mr,,Sandeep,,,,,9828156563,1
-Rajasthan,Jaipur,Dera Rawatsar,498,2130,Mrs,Mandvi,Rathore,Prop.,,,,98291 72595,1
-Rajasthan,Jaipur,Karnot Mahal,548,2176,Mr,Giriraj Singh,Ranawat,Owner,,,,093529 05735,1
-Gujarat,Jambughoda,Jambughoda Palace,1255,2712,Mr,,Manager,,,98250 41215,94273 01641,94276 55944,1
-Rajasthan,Jaisalmer,Royal Desert Safaries Pvt. Ltd.,45,189,Mr,Jeetendra,Singh Rathore,,,jeetu.safaries@gndel.global.net.in,,9414149599,1
-Rajasthan,Jaisalmer,Rang Mahal,105,350,,,,,,,"50 907, 50 908",,1
-Rajasthan,Jaisalmer,Saroj Palace,130,399,Mr,Praveen,Bhatia,,,,50 016,,1
-Rajasthan,Jaisalmer,Sonaar Haveli,1693,3109,Mr,Mahaveer,Singh,Manager,,,,93511 37576,1
-Rajasthan,Jaisalmer,Suryagarh,1721,3046,Mr,Sheikh,Rahaman,Director Sales and Marketing,,sheikh.rahaman@themrsgroup.com,78271 51151,97115 96883,1
-Rajasthan,Jaisalmer,1st Gate Home Fusion,1762,3203,Mr,Manoj,Vyas,,,,,,1
-Rajasthan,Jaisalmer,Deoki Niwas Palace,473,1563,Mr,Hameed,,FO Manager,,,9214838731,9828809900,1
-Rajasthan,Jaisalmer,Nachana Haveli,1095,1344,Mr,Kesri,Singh,Sales & reservations,,,,94141 50617,1
-Rajasthan,Jaisalmer,Hotel Fifu,1217,2445,Mr,Antrik,,,,,,,1
-Rajasthan,Jaisalmer,Hotel Priya,655,2249,Mr,Mayank, Bhatia,Manager,,,,9414150157,1
-Rajasthan,Jaisalmer,Royal Desert Safaries Pvt. Ltd.,549,189,Mr,P P,Mishra,,,,,9414149636,1
-Rajasthan,Jaisalmer,Himmatgarh Palace,550,1890,Mr,Tulsi,Dharan,Reservations,,,,9413774134,1
-Rajasthan,Jaisalmer,Jawahar Niwas Palace,566,714,Mr,Sunil,Nair,Reservations Mgr,,,,,1
-Rajasthan,Jaisalmer,Hotel Pithla Haveli,621,2221,Mr,Mahaveer,Singh,Prop.,,,,99820-88568,1
-Rajasthan,Jaisalmer,Hotel Victoria,638,2238,Mr,Pankaj,Purohit,Proprietor,,,9351616669,9374757770,1
-Rajasthan,Jodhpur,Madho Niwas Hotel,420,1881,Mr,Shiv Pratap,Singh,Prop,,,,9414133087,1
-Rajasthan,Jodhpur,Bhev Vilas Hotel,464,2094,Mr,Rishiraj,Singh,,,,,,1
-Rajasthan,Jodhpur,Karni Bhawan,477,205,Mr,Vikramaditya,Singh,,,,,9829023325,1
-Rajasthan,Jodhpur,Devi Bhawan,502,1279,Mr,Rakesh,Singh,Manager,,,99298 49000,98280 35359,1
-Rajasthan,Jodhpur,Pal Haveli,525,2147,Mr,Manoj,Chhaya,Delhi office,,,96021 03847,,1
-Rajasthan,Jodhpur,Hotel Haveli Inn Pal,1265,2722,Mr,Pushpendra,Rathore,Reservations Supervisor,,,98280 77510,94141 45479,1
-Rajasthan,Jodhpur,Jodhana Heritage Resorts Pvt. Ltd,1329,2804,Mr,Devendra,Singh,,,,,,1
-Rajasthan,Jodhpur,Ratan Vilas,1363,884,Mr,Harish,Rathore,Reservations,,,,,1
-Rajasthan,Jodhpur,Karni Bhawan,602,205,Mr,Victor,Bhandari,Res,,,,9214988092,1
-Rajasthan,Jodhpur,Raas Jodhpur,1117,2578,Mr,Lokesh,Thakur,Manager-Reservation & Sales,,,,95870 22952,1
-Rajasthan,Jodhpur,Inn Season,1198,1262,Mr,Veer Vijay,Singh,Owner,,,,,1
-Orissa,Jeypore,Hotel Hello Jeypore,267,1549,Mr,Amol,Agrawal,Proprietor,,hellojeypore@rediffmail.com,,94370 32440,1
-Orissa,Jeypore,Hotel Hello Jeypore,268,1549,Mr,,Nagesh,Manager,,,,,1
-Himachal Pradesh,Jispa,Padma Lodge,1045,2515,Ms,Goldy,,,,,,94187 19313,1
-Himachal Pradesh,Jispa,Hotel Ibex,1418,1507,Mr,,Manager,,,,,98160 36860,1
-West Bengal,Kalimpong,Silver Oaks,1017,1368,Mr,Sushanta,,Manager,,,,,1
-West Bengal,Kalimpong,Himalayan Hotel,1341,1369,Mr,Nigam,Basnet,FO,,,,,1
-Kerala,Kalpetta,Silver Woods Resort,1205,2669,Mr,John,Abraham,,,,,094460 53077,1
-Madhya Pradesh,Kanha,Kipling Camp,133,609,Mr,Bob,Wright,,,,77 219,,1
-Madhya Pradesh,Kanha,Van Vilas,1138,2599,Mr,Sandeep,Shrivas,Manager,,,,9981173151,1
-Madhya Pradesh,Kanha,Kanha Earth Lodge,1251,2700,Ms,Shalini,Shukla,,,,,9810192192,1
-Madhya Pradesh,Kanha,Courtyard House,1276,2733,Ms,Shalini,Shukla,,,,,98101 92192,1
-Madhya Pradesh,Kanha,Kanha Village Eco Resort,1405,2848,Mr,,Kamal,,,,,95758 00584,1
-Assam,Jorhat,Thengal Manor,1320,2510,Mrs,Uttara,Gogoi,,,,,,1
-Assam,Jorhat,Banyan Grove,1428,2866,Mr,Uttara,Gogoi,,,,,9435514177,1
-Gujarat,Junagadh,Hotel Indralok,1253,2711,Mr,,Manager,,,,,96012 85800,1
-Rajasthan,Junia,Amar Bagh,185,1263,Th,Kishore ,Singhji,Director,,,88 622,,1
-West Bengal,Kalimpong,Gurudongma House,224,1505,Mr,Peter,Lobo,,,,59146,,1
-West Bengal,Kalimpong,Holumba Haven,689,2224,Mrs,Thinlay,Pempahishey,Prop.,,,,,1
-Madhya Pradesh,Kanha,Flame Of The Forest,1687,3129,Mr,Karan,Modi,,,,,,1
-Chhattisgarh,Kanker,Kanker Palace ,198,1379,Mr,Surya Pratap ,Deo,,,,22 005,,1
-Uttar Pradesh,Kanpur,The Landmark,1134,2596,Ms,,Gayatri,Reservations,,,,,1
-Assam,Kaziranga,Diphlu River Lodge,1063,2513,Mr,Bijoy,Baruah,Manager,,,,94351 46414,1
-Assam,Kaziranga,Bonhabie Resort,1064,2520,Mr,,Manager,,,,,94355 04268,1
-Assam,Kaziranga,"Infinity Resort, Kaziranga",1732,3180,Mr,J. K.,Singh,Manager,,,jksingh@infinityresorts.com,9650193664,1
-Rajasthan,Khejarla,Fort Khejarla,692,888,Mr,L.R.,Meena,Manager Operations,,,,9829096866,1
-Rajasthan,Khimsar,Khimsar Fort,179,889,,,,,,khimsar@jp1.vsnl.net.in,62 345 to 62 349,,1
-Rajasthan,Kishangarh,Phool Mahal Palace,854,890,Mr,D.D.,Purohit,Manager,,,,98295 47405,1
-Tamil Nadu,Kodaikanal,Elephant Valley Eco Farm Hotel,877,2392,Mr,Stephen,Fayon,,,,,,1
-Nagaland,Kohima,Greenwood Villa,1422,2829,Mrs,Nino,Zhasa,,,,,9856343037,1
-Rajasthan,Kota,Sukhdham Kothi,238,892,Mr,Harshvardhan, Singh,,,,,,1
-Kerala,Kottayam,Anjali Hotel,176,791,Mr,Thomas,Dominic,Excutive Director,,,563 661 (8 lines),,1
-Kerala,Kovalam,Thapovan Heritage Home,1699,2270,Mr,,Sreekanth,,,,,,1
-Kerala,Kovalam,The Travancore Heritage,1740,2053,Mr,Rathindran,V,Reservations Manager,,marketingmgr1@thejoys.in,,94477 63394,1
-Uttar Pradesh,Kuchesar,The Mud Fort,474,923,Mr,Vikramjit,Singh,,,,,,1
-Kerala,Kumarakom,Philip Kuttys Farm,789,2313,Mrs,Anu,Mathew,,,,,98950 75130,1
-Rajasthan,Kumbhalgarh,The Aodhi,1573,895,Mr,Ummed Singh,Karnot,Manager,,ummedsingh.karnot@hrhhotels.com,,99280 15305,1
-Tamil Nadu,Kumbakonam,Indeco Swamimalai (Anandham),1605,1443,Ms,,Mahalakhsmi,Reservations,,,94444 10394,94444 10396,1
-West Bengal,Kurseong,Cochrane Place,1218,2492,Mr,Sanjeev,Lama,,,,,99320 35660,1
-Uttar Pradesh,Kushinagar,The Imperial Kushinagar,1103,2554,Mr,,Rajeev,Sales & Marketing,,,,98102 04666,1
-Kerala,Kovalam,Hawah Beach Resort,658,2250,Mr,Sanal,,FO Manager,,,,9895588056,1
-Kerala,Kovalam,Pappukutty Beach Resort,697,752,Mr,Nadarajan,,Prop.,,,,,1
-Uttar Pradesh,Lucknow,Hotel Sagar International,296,1869,mr ,g ,gill,,,,,,1
-Uttar Pradesh,Lucknow,Capoors Hotel Bar & Restaurant,911,2429,Mr,S.K.,Srivastava,,,,,,1
-Uttar Pradesh,Lucknow,Comfort Inn Lucknow,940,2451,Mr,Javed,Khan,Sales Manager,,,,,1
-Uttar Pradesh,Lucknow,Hotel Clarks Avadh,970,1392,Mr,P.L.,Gupta,Sales Executive,,,,94150 19657,1
-Uttar Pradesh,Lucknow,Lebua Lucknow,1724,3176,Mr,Shariq,Khan,Duty Manager,,reservationslucknow@lebua.com,,7081000347,1
-Rajasthan,Luni,Fort Chanwa,1038,898,Ms,Apeksha,Rajpurohit,Manager Reservations,,,,,1
-Rajasthan,Jodhpur,Krishna Prakash Heritage Haveli,563,2189,Mr,Nikhil,Mathur,Director,,,"98292 41547, 99288 19979",9314 6 73457,1
-Rajasthan,Jodhpur,Haveli Guest house,564,2191,Mr,Upindra,Shrimali,9414 295539,,,,,1
-Tamil Nadu,Chennai,Breeze Hotel,972,1442,Mr,Jai,Anand,Front Office Mgr,,,,,1
-Karnataka,Madikeri,"Old Kent Resorts & Spa, Coorg",1737,3186,Mr,Binu,Rajendra,Manager - Reservations & Guest Relations,,binu@oldkentestates.com,,+91 97898 96454,1
-Tamil Nadu,Mamallapuram,Ideal Beach Resort,262,28,Mr,Krishnan,Mathy,Manager,,,,,1
-Tamil Nadu,Mamallapuram,Hotel Sea Breeze,556,2183,Ms,Janani,,Reservations,,,,99529 90700,1
-Tamil Nadu,Mamallapuram,Radisson Blu Resort Temple Bay,1400,2729,Mr,Chandran,,,,,,,1
-Tamil Nadu,Mamallapuram,Grande Bay Resort & Spa,1741,3190,Ms,,Manikandam,,,,,98402 60672,1
-Tamil Nadu,Mamallapuram,Taj Fisherman's Cove Resort & Spa,1774,829,Mr,Sankar,Esakkimuthu,Revenue Manager,,,,81220 74308,1
-Tamil Nadu,Mamallapuram,Chariot Beach Resort,1775,3079,Mr,Subbiyah,Babu,Operations Manager,,,,94449 92702,1
-Madhya Pradesh,Maheshwar,Ahilya Fort,829,2340,Mr,S.J.,Rana,,,9329251881,,9893057705,1
-Rajasthan,Mandawa,Castle Mandawa,54,212,Mr,Anngad,Mandawa,Reservations,,anngadmandawa@castlemandawa.com,,98280 16161,1
-Rajasthan,Mandawa,Mandawa Haveli,433,1870,Mr,Dinesh,Dhabhai,Prop.,,,9413366546,9829193798,1
-Rajasthan,Mandawa,Desert Resort,1014,53,Mr,Anngad,Mandawa,Reservations,,,,98280 16161,1
-Rajasthan,Mandawa,Vivaana Culture Hotel,1370,2741,Mr,,General Manager,,,,,99290 69002,1
-Gujarat,Mandvi,Beach Camp,889,2364,Mr,Rajendra,Singh,,,,,98790 13118,1
-Kerala,Mararikulam,Arakal Heritage,777,2302,Mr,Abi,Arakal,,,,,98472 68661,1
-Kerala,Mararikulam,A Beach Symphony,779,2304,Mr,Jan,Arryn,,,,,97442 97123,1
-Tamil Nadu,Chennai,Taj Connemara,1773,837,Mr,Deepak,Kumar,Sales Executive,,,,98741 49899,1
-Karnataka,Madikeri,Capitol Village,359,1469,Mr,Baskar,Reservations,,,,,,1
-Karnataka,Madikeri,Victorian Verandaz,1683,3125,Mr,Tim,Thimaiah,,,,,9448059850,1
-Kerala,Mararikulam,Abad Turtle Beach Resort,1203,2287,Mr,Sreejith,Chandra,Resort Manager,,,,98958 90776,1
-Kerala,Mararikulam,OG's Beach,1325,2797,Mr,Jithin,Babu,,,,,8589975890,1
-Kerala,Mararikulam,Heritage Marari,1544,2983,Mr,Dilip Kumar,Vasudevan,,,,,,1
-Tamil Nadu,Chennai,Ramada Chennai Egmore,1750,2720,Mr,Syed,Jawdath,Reservations Manager,,resvmgr@ramadachennaiegmore.com,,98408 37252,1
-Kerala,Mararikulam,Marari Sands Beach Resort,1617,2928,Mr,Nishchay,Sharma,Assts Manager Business Development,,,,98990 80476,1
-Kerala,Mararikulam,Marari Villas,1769,3212,Mr,Rupert,Evers,,,,,,1
-Sikkim,Martam,Martam Village Resort,1181,1370,Ms,Shenphen,Topden,,,,,7550801542,1
-Sikkim,Martam,Martam Retreat,1482,2926,Mr,Kunzang,Topden,,,,78729 96624,94349 23314,1
-Himachal Pradesh,Manali,Banon Resorts,951,303,Mr,Sanjeev,Chandel,,,92185 00553,,94180 63591,1
-Kerala,Munnar,Royal Retreat,328,997,Mr,Narayanankutty,Velloth (FO),,,,,,1
-Kerala,Munnar,Edassery Eastend,329,998,Mr,Raesh,Nair,GM,,,,,1
-Kerala,Munnar,Olive Brook,793,2317,Mr,Manoj,Joseph,,,,,94477 99458,1
-Kerala,Munnar,Rose Gardens Homestay,794,2318,Mr,Tomy,Joseph,,,,,94473 78524,1
-Kerala,Munnar,Casa Del Fauno Boutique Homestay on the Hills,1290,2322,Mrs,Suni,Elizabeth,,,,,,1
-Kerala,Munnar,The Tall Trees Resort,1459,2896,Mr,Jijo,John,F.O. Manager,,,,,1
-Uttarakhand,Mussoorie,Savoy Hotel,58,217,Mr,Ajit,Sharma,General Manager,,,"632 120, 632 010",,1
-Uttarakhand,Mussoorie,Hotel Kasmanda Palace,941,1394,Mr,Navneer,Chandel,GM,,,,99174 35001,1
-Uttarakhand,Mussoorie,Padmini Nivas,958,2421,Mr,Vikram,Zutshi,Manager,,,,93581 11498,1
-Uttarakhand,Mussoorie,Karma Vilas,1080,2541,Mr,Gaurav,Tomar,,,,,98912 32322,1
-Kerala,Muvattupuzha,Haritha Farms,181,982,Mrs ,,Mathew,,,harithafarms@hotmail.com  haritha@satyam.net.in  h,260 216,,1
-Karnataka,Mysore,Hotel Siddharta,320,756,Mr,,Manager,,,siddhartahotel@hotmail.com,,,1
-Karnataka,Mysore,Sandesh The Prince,334,1994,Mr,Ramesh K,(GM),,,,,,1
-Karnataka,Mysore,The Viceroy,623,1257,Ms,Reetha,,Manager,,,,9845317149,1
-Karnataka,Mysore,Crystal Paark Inn,1040,2508,Mr,Vaidehi,R,Manager Reservations/ Sales,,,,,1
-Karnataka,Mysore,Royal Orchid Metropole Hotel,1411,2415,Mr,Harish,Kumar,Lobby Manager,,,99020 00142,77601 26126,1
-Himachal Pradesh,Manali,Urvashi’s Retreat,1688,3131,Ms,Urvashi,Singh,,,urvashi@urvashisretreat.com,98293 08772,99580 11862,1
-Himachal Pradesh,Manali,The Lama House,1691,3134,Ms,Pavane,Mann,,,,,9810184360,1
-Himachal Pradesh,Manali,Casa Bella Vista,1692,3135,Ms,Pavane,Mann,,,,,9810184360,1
-Himachal Pradesh,Manali,Johnson Hotel & Jimmy Johnson Lodge,1716,2443,Mr,,Nitin,Reservation Desk,,,97360 01973,98160 45123,1
-Rajasthan,Mount Abu,Cama Rajputana Club,596,2164,Mr,Matthew,,Reservations Mgr,,,,,1
-Rajasthan,Mount Abu,Palace Hotel ,1162,1265,Mr,Revat,Singh,,,,,9928036608,1
-Tamil Nadu,Mudumalai,The Monarch Safari Park,104,349,Mr,K. N.,Haldhurai,General Manager,,,"56 250, 56 343",,1
-Tamil Nadu,Mudumalai,Jungle Retreat,937,961,Ms,Sushmita,Gulrajani,Reservations,,,2526 469 / 470,9787321170,1
-Tamil Nadu,Mudumalai,The Wilds at Northernhay,1408,2855,Mrs,Ambareen,Seth,,,,,,1
-Karnataka,Mysore,Mysore Bed and Breakfast,1764,3206,Mr,Stephen,Farrell,Owner,,,,,1
-Karnataka,Mysore,The President,647,2193,Ms,Reetha,,Manager,,,0821 2424001,,1
-Karnataka,Mysore,The Green Hotel,980,31,Mr,Syed,,Reservations,,,,,1
-Karnataka,Nagarhole,The Bison,1646,3064,Ms,,Vaishnavi,Senior Manager (Travel Agents),,,,,1
-Uttarakhand,Nainital,The Naini Retreat,417,1387,Mr,Sanjeev ,Joshi,Resort Manager,,,,9837015100,1
-Himachal Pradesh,Nalagarh,The Fort Nalagarh,1006,1373,Mr,Brij Mohan,Sharma,Mgr S & M,,,"011 24690741, 24634139",9871949373,1
-Assam,Nameri,Nameri Eco Camp,1066,2522,Mr,Pradip,Chetry,,,,,98540 19932,1
-Rajasthan,Nawalgarh,Apani Dhani Eco-Lodge,517,2148,Mr,Ramesh,Jangid,Prop.,,rcjangid@yahoo.com,,,1
-Rajasthan,Nawalgarh,Roop Niwas Kothi,528,902,Mr,Yatendra,Singh,Manager,,,,098284-99517,1
-Tamil Nadu,Ootacamund,The Monarch,699,2213,Mr,M,Nawaz,GM,,,,,1
-Tamil Nadu,Ootacamund,Fernhills Royal Palace,1300,2775,Mr,,Jenkin,,,,,9943999945,1
-Madhya Pradesh,Orchha,Ganpati Guesthouse,356,2001,Mr,Vinod,Manager,,,,,9425342502,1
-Madhya Pradesh,Orchha,Hotel Ganpati,472,2109,Mr,Vinod,Vaidya,Manager,,,,9425342502,1
-Madhya Pradesh,Orchha,Amar Mahal,1312,2107,Mr,Shankar,Singh Tomar,Manager Reservations,,,, 98934 96031,1
-Madhya Pradesh,Orchha,Hotel Bundelkhand Riverside,1585,2162,Mr,Amir,Khan,,,,,90097 49630,1
-Madhya Pradesh,Orchha,Hotel Raj Mahal,1752,3006,Mr,Pradeep,Pandey,,,,,,1
-Rajasthan,Osian,The Camel Camp Osian,336,1345,Mr ,Reggie ,Singh,Prop.,,,98280 09608,98280 32100,1
-Rajasthan,Osian,Dera Eco,700,2139,Mr, Harish Chandra,Singh,Prop.,,,,9414720653,1
-Rajasthan,Pachewar,Pachewar Garh,586,905,Mrs, Madhulika Singh,Kangarot,Prop.,,,9413340169,83909 07004,1
-Kerala,Paravur,Aquaserene,182,985,,,,,,aqserene@md3.vsnl.net.in,512 410 to 512 417,,1
-Bihar,Patna,Hotel Patliputra Ashok,1102,1551,Mr,Sanjay,Mishra,GM,,,,9431493690,1
-Bihar,Patna,Hotel Buddha Heritage,1529,2801,Ms,,Sweta,,,,,99732 62626,1
-Sikkim,Pelling,Newa Regency,639,2226,Mr,Roshan,,Res,,,9332262575,,1
-Sikkim,Pelling,The Elgin Mount Pandim,1018,2266,Mr,Surojit,,Manager,,,,,1
-Sikkim,Pelling,Norbu Ghang Retreat and Spa,1338,2819,Mr,,Manager,,,,99330 04493,99330 04491,1
-Pondicherry,Pondicherry,Pondicherry Ashok,103,347,Mr,A. C.,Howladar,The Gereral Manager,,,655 160 - 67,,1
-Pondicherry,Pondicherry,Annamalai International,642,2182,Mr,Vimal,,Manager,,,,,1
-Pondicherry,Pondicherry,Dune Eco Village & Spa,1279,2735,Mr,,Murugaian,Central Reservations Manager,,,,9364455440,1
-Pondicherry,Pondicherry,Coloniale Heritage,1289,2413,Mr,Michel,Sabine,,,,,,1
-Pondicherry,Pondicherry,Villa Helena,1788,3195,Ms,,Sudha,,,,,,1
-Pondicherry,Pondicherry,The Richmond Puducherry,1748,3077,Mr,K.,Murali,Resident Manager,,murali@theresidency.com,,96263 11555,1
-Pondicherry,Pondicherry,Villa Shanti,1749,3194,Mr,Daniel,Santoshh A,Assistant Manager FO,,,,63844 41202,1
-Pondicherry,Pondicherry,Dune de Lorient,1776,1407,Mr,Suresh,Charoth,Manager,,,,97877 48664,1
-Pondicherry,Pondicherry,Palais de Mahe,1778,2730,Mr,Dinu,Ramakrishnan,General Manager,,dinu@gchearth.com,,94421 27519,1
-Pondicherry,Pondicherry,Maison Perumal,1779,2591,Mr,Sam,John,Manager,,samjohn@cghearth.com,,94880 09576,1
-Gujarat,Poshina,Darbargadh Palace Hotel ,1596,943,Mr,Harendrapal,Sinh,Owner,,,,,1
-Himachal Pradesh,Pragpur,The Judges Court,923,1374,Mr,Vijay,Lal,,,,,,1
-Orissa,Puri,Mayfair Heritage,292,109,Ms,Pradipta,Mohapatra,Dep General Manager Marketing,,,,,1
-Orissa,Puri,Hotel Sea Palace,493,2129,Mr,P.K.,Dash,General Manager,,,,9937205369,1
-Orissa,Puri,Hotel Holiday Resort,569,2093,Mr,J,Halder,GM,,,,9338047871,1
-Orissa,Puri,Shakti International,657,2252,Mr,Shrikanth,Sahu,CEO,,,,,1
-Orissa,Puri,Hans Coco Palms,733,1432,Mr,Harish,,FOM,,fomcocopalm@hanshotels.com,,,1
-Sikkim,Pelling,Norbu Ghang Resort,649,1433,Mr,B. R.,Lama,Manager,,,,99330 04493,1
-Rajasthan,Pushkar,Hotel New Park,145,648,Mr,Diwakar,Kaushal,Manager,,,,95300 62069,1
-Rajasthan,Pushkar,Pushkar Resort,603,2209,Mr,Delhi office,,,,,,011 24647370,1
-Rajasthan,Pushkar,Jagat Palace,1366,728,Mr,Amit,Jasoria,Manager Reservations,,,,98280 60601,1
-Rajasthan,Pushkar,Nimaj Kothi,1460,2899,Mr,Purnjai,Rathore,,,,,94619 78000,1
-Rajasthan,Pushkar,Hotel Brahma Horizon,1558,2993,Mr,Krishna,Mahara,FOM,,,,91161 09691,1
-Rajasthan,Ranakpur,Hotel Ranakpur Fateh Bagh,591,2150,Mr,Jitendra,Singh,,,PRESIDNT@udaipur.hrhindia.com,,,1
-Rajasthan,Ranakpur,Ranakpur Hill Resort,462,2044,Mr,Raghu Raj,Singh,Manager,,,,94141 57303,1
-Uttarakhand,Rishikesh,Ganga Kinare,51,206,Mr,John,Guerra,Manager,,,430 566,,1
-Uttarakhand,Rishikesh,Rimo River Rafting Camp,143,640,Mr,Chewang,Motup,,,,,,1
-Uttarakhand,Rishikesh,High Bank Peasants Cottage,909,2427,Mr,Rajeev,Tiwari,MD,,,,98370 55578,1
-Uttarakhand,Rishikesh,Rainforest House,938,2449,Mr,Steve,Dunjey,Owner,,,,97191 43013,1
-Bihar,Rajgir,The Rajgir Residency,1101,2553,Mr,rajesh,Ranjan,FOM,,,,9386454110,1
-Tamil Nadu,Rameswaram,Kathadi North,1763,3198,Mr,Jehan,Driver,,,,,,1
-Uttarakhand,Rishikesh,Dewa Retreat,1616,3034,Mr,Gaurav,Sajwan,Director - Sales,,,,98113 18883,1
-Uttarakhand,Rishikesh,Himalayan Hideaway,1623,2448,Ms,Kanchan,Rana,,,info2@himalayanhideaway.in,,97110 69956,1
-Uttarakhand,Rishikesh,Ananda In The Himalayas,1154,1424,Ms,Dhanwanti,P,Reservations,,,,,1
-Uttarakhand,Rishikesh,Seventh Heaven Inn,1416,2860,Mrs,Charlotte,Suthrell,,,csuthrell@gmail.com,,84491 71925,1
-Rajasthan,Rohet,Rohet Wilderness Camp,587,2203,Ms,Manisha,Kumari,Reservations Manager,,,,,1
-Rajasthan,Rohet,Mihirgarh,1349,2825,Ms,Manisha,Kumari,Reservations,,,,,1
-Rajasthan,Rohet,Rohet Garh,1704,909,Ms,Vipina,Unni,Reservations Manager,,,,99998 38590,1
-Rajasthan,Roopangarh,Roopangarh Fort,306,910,Ms,Maharani Meenakshi,Devi,,,,,,1
-Chhattisgarh,Raipur,Hotel Celebration,264,1931,Mr,Sandeep,Shrivas,Asst FO Manager,,,,96911 56457,1
-Chhattisgarh,Raipur,Hotel Mayura,461,2092,Mr,Satya,Prakash,Manager Operations,,,,9826382558,1
-Chhattisgarh,Raipur,Hotel Satluj,527,2091,Mr,Philips,John,,,,,,1
-Rajasthan,Samode,Samode Palace,55,213,Mr,Pawan,Singh,Manager Reservations,,,,,1
-Rajasthan,Samode,Samode Bagh,106,352,Mr,Pawan,Singh,Manager Reservations,,,,,1
-Rajasthan,Sariska,Sariska Tiger Heaven,319,1987,Mr,,Durrani,,,,,,1
-Gujarat,Sasangir,Anil Farm House Balcheel,880,2401,Mr,,Hussain,Manager,,97252 33011,,98790 01098,1
-Gujarat,Sasangir,Lion Safari Camp,882,2402,Mr,Mahendra,Singh,Manager,,,,93282 74093,1
-Gujarat,Sasangir,Gir Birding Lodge,884,2365,Mr,Mithun,Gosh,Manager,,98998 10456,,97239 71842,1
-Gujarat,Sasangir,Maneland Jungle Lodge,894,196,Mr,,Bharat,Manager,,,,99743 14260,1
-Rajasthan,Sawai Madhopur,Ankur Resort,147,675,Mr,Dinesh,Shukla,Manager,,,,9828346504,1
-Rajasthan,Sawai Madhopur,Nahargarh Ranthambhore,703,2243,Mr,Santosh,,Sales & Mrkt,,santosh@alsisar.com,,,1
-Rajasthan,Sawai Madhopur,Ranthambhore Forest Resort,1515,2271,Mr,Nagendra Singh,Naruka,,,,,93510 06071,1
-Rajasthan,Sawai Madhopur,Tiger Den Resort,1632,3049,Mr,Siyaram,Rana,,,,,,1
-Rajasthan,Sawai Madhopur,Khem Villas,867,2382,Mrs,Usha,Rathore,General Manager,,,,94140 30262,1
-Rajasthan,Sawai Madhopur,Dev Vilas,868,2383,Mr,Pramode,Rathore,,,,,,1
-Rajasthan,Sawai Madhopur,The Ranthambhore Bagh,900,2126,Mr,Vikram,Singh Rathore,Resvn,,,,82391 66777,1
-Rajasthan,Sawai Madhopur,Hotel Ranthambhore Regency,1268,2725,Mr,Ravindra,Jain,,,,,94140 16100,1
-Meghalaya,Shillong,Ri Kynjai,1056,2512,Mr,Dariti,Marbaniang,Reservations Manager,,,,98620 56192,1
-Meghalaya,Shillong,Rosa Ville,1057,2511,Mrs,Topi,Bauri,Owner,,,,94361 10180,1
-Meghalaya,Shillong,Tripura Castle,1058,2518,Mr,Deboji,Roy,Manager,,,,84139 66879,1
-Meghalaya,Shillong,Centre Point Group Enterprises,1070,2525,Mr, Prabhat D.,Sawyan,Chairman,,,,98620 65535,1
-Meghalaya,Shillong,Aerodene Cottage,1377,2830,Mrs,Sharlene,Das,Owner,,sharlene.das@gmail.com,,97740 65366,1
-Himachal Pradesh,Shimla,Hotel Silverine,399,2046,Mr,Siddharth,Shukla,Prop.,,sidharth_shukla@yahoo.com,,98160 29382,1
-Himachal Pradesh,Shimla,Hotel Willow Banks,1694,2381,Ms,Megha,Kochhar,Manager Sales & Marketing,,,,99101 70312,1
-Himachal Pradesh,Shimla,Radisson Hotel - Shimla,1317,2783,Mr,Sharad,Sharma,Senior Sales Mngr,,,,9910031451,1
-Himachal Pradesh,Shimla,Hotel Springfields,1514,1926,Mr,Dayal,Thakur,,,,,9816141441,1
-Himachal Pradesh,Shimla,Woodville Palace,1516,302,Mr,Sunil,Khagta,Manager Operations & Reservations,,,,94187 06341,1
-Himachal Pradesh,Shimla,Chapslee House,920,20,Mrs,Alka,Sharma,Manager,,,,,1
-Himachal Pradesh,Shimla,East Bourne Resort,961,2446,Mr,Shyam,Sharma,FO,,,,98161 28954,1
-Himachal Pradesh,Shimla,The Oberoi Cecil,964,1415,Mr,Srikant,Peri,GM,,,,,1
-Jammu & Kashmir,Srinagar,The Lalit Grand Palace,1390,2843,Mr,Anima,Bajpai,Asst Mngr Reservations,,,,99066 40340,1
-Tamil Nadu,Thanjavur,Hotel Oriental Towers,705,965,Mr,Peter,Jeyarethinam,Manager,,,,,1
-Tamil Nadu,Thanjavur,Tanjore Hi Hotel,1292,2736,Mr,Raja,Sekar,Manager,,manager@tanjorehihotel.com,,,1
-Tamil Nadu,Thanjavur,Hotel Gnanam,1421,2862,Mr,A,Ganeshamoorthy,Manager,,,,,1
-Tamil Nadu,Thanjavur,Svatma,1745,2880,Mr,Kannan,Sridhar,GM,,gm@svatma.in,,73587 72559,1
-Kerala,Tellicherry,Ayisha Manzil,820,2336,Mr,C.P.,Moosa,,,,,0 9847002340,1
-Kerala,Thekkady,Hotel Ambadi,574,753,Mr,Tinku,Verghes,Prop.,,,,9447122194,1
-Kerala,Thekkady,Silver Crest,695,1874,Mr,Boby,George,Reservations,,,,,1
-Kerala,Sultan Battery,Tranquil Resort,819,1347,Mr,Ajay,Mathulla,,,,,9947588507,1
-Kerala,Sultan Battery,Pepper Trail,1735,3184,Mr,Anand,Jayan,,,,,+91 95622 77000,1
-Uttar Pradesh,Sunauli,Hotel Everest,289,1968,Mr,Ramez,Tandan,Manager,,,,,1
-Jammu & Kashmir,Srinagar,Wangnoo Heritage Houseboats,1387,2841,Mr,Farooq,Ahmad,Reservation Manager,,,94190 16868,99065 69655,1
-Jammu & Kashmir,Srinagar,Hotel Dar-Es-Salam,1388,2842,Mr,Khurram,Hussain,,,,98108 99584,99066 09096,1
-Himachal Pradesh,Shimla,The Oberoi Wildflower Hall,966,1414,Mr,Manoj,Biswas,Product Manager,,,,98161 22002,1
-Kerala,Thekkady,The Wildernest,803,2323,Mr,Rollin,Augustin,,,,,98959 99666,1
-Kerala,Thekkady,Pepper County,805,2324,Mr,K.I.,Cyriac,,,,,94472 78216,1
-Kerala,Thekkady,Greenwoods Resorts,806,2239,Mr,Anoop,Dharan,Reservation Manager,,,,94465 74383,1
-Kerala,Thekkady,Hotel Tree Top,1439,2063,Ms,,Jency,,,,,,1
-Kerala,Thrikunnapuzha,Coir Village Lake Resort,403,1412,Mr,T G,Raghu,Partner,,,,9847050693,1
-Rajasthan,Udaipur,Quality Inn Vishnupriya,64,239,Mr,S,Roy,General Manager,,hotel_vishnupriya@hotmail.com,421 313-16,,1
-Rajasthan,Udaipur,Taj Fateh Prakash Palace,304,917,Mr,Dashrath,Singh,,,,,,1
-Rajasthan,Udaipur,Shiv Niwas Palace,352,726,Mr,Varun,Sharma,Cntrl. Res,,,,,1
-Rajasthan,Udaipur,The Neem Tree Udaipur,1696,3136,Ms,Helena,Singh Bhati,,,,,98282 15311,1
-Rajasthan,Udaipur,Udai Kothi,1700,1861,Mr,Bhaumik,Dalal,Reservations office,,,,,1
-Rajasthan,Udaipur,Hotel Udaigarh,1463,2897,Mr,Kr. Mahendra,Singh Panwar,,,,,9660055500,1
-Rajasthan,Udaipur,Poonam Haveli,1464,2905,Ms,Sonia,Soni,,,,,,1
-Rajasthan,Udaipur,Madri Haveli,1480,2869,Mr,Shankar Singh,Charan,General Manager,,,,98291 16621,1
-Rajasthan,Udaipur,Fateh Niwas,1576,2963,Mr,Madan Singh,Panwar,F&B Manager,,,,99288 35412,1
-Rajasthan,Udaipur,Mahendra Prakash,1008,400,Mr,Ashwin,,Res.,,,,,1
-Rajasthan,Udaipur,Hotel Thamala Haveli,1149,2444,Mr,Sanjay,Jain,Reservations,,,,9982988899,1
-Rajasthan,Udaipur,Hotel Devraj Niwas,1432,2868,Mr,,Vikram,,,,,98282 15506,1
-Rajasthan,Udaipur,Kankarwa Haveli,857,406,Mr,Janardan,Singh,,,,,99291 99927,1
-Rajasthan,Udaipur,Amet Haveli,865,2275,Mr,Dheer,Singh,,,,,,1
-Rajasthan,Udaipur,The Tiger,924,2229,Mr,Ranjeet,Singh,,,,,94142 96958,1
-Rajasthan,Udaipur,Hotel Sarovar,930,1438,Mr,Praveen,Chouhan,Partner,,,,9414156576,1
-Rajasthan,Udaipur,Ram Pratap Palace,712,2110,Mr,Gajendra,Burbia,Reservations,,,,,1
-Rajasthan,Udaipur,Karohi Haveli,750,2260,Mr,Natraj Singh,Karohi,Prop.,,,,94141 66434,1
-Rajasthan,Udaipur,Hotel Pichola Haveli,753,2289,Mr,Praveen,Chouhan,Partner,,,9352604886,9414156576,1
-Rajasthan,Udaipur,Fateh Garh,855,2368,Mr,Bishwajit,Singh,Manager,,frontoffice@fatehgarh.in,,99829 93974,1
-Rajasthan,Udaipur,Hotel Hilltop Palace,426,21,Mr,Rajiv ,Khurana,Director,,,,9414169474,1
-Rajasthan,Udaipur,Mewar Haveli,546,2145,Mr,Kamal,Jain,Prop.,,mewarhaveli@yahoo.co.in,,93525 08928,1
-Rajasthan,Udaipur,Jaiwana Haveli,601,2186,Mr,Yash,,,,,,,1
-Rajasthan,Udaipur,Jagat Niwas Palace Hotel,710,226,Mr,Ali,Hussain,Reservations,,,99283 88352,98292 90634,1
-Kerala,Varkala,Villa Jacaranda,811,2328,Mr,Ajay,Ojha,,,,,,1
-Uttar Pradesh,Varanasi,Hotel Vaibhav,148,678,Mr,K D,Rai,Manager,,,,9839655286,1
-Uttar Pradesh,Varanasi,Pallavi International Hotel,318,627,Mr,K. K.,Singh,Chief Exc.,,,,,1
-Uttar Pradesh,Varanasi,Hotel India,398,330,Mr,Abhishek,Sharma,Manager Sales,,,,,1
-Uttar Pradesh,Varanasi,Hotel Ganges View,471,2104,Mr,Prakash,Kumar,,,,,98388 31353,1
-Uttar Pradesh,Varanasi,Hotel Pradeep,561,2188,Mr,Pradeep,Singh,Managing Director,,,,,1
-Uttar Pradesh,Varanasi,Rashmi Guest House,634,2161,Mr,Ramesh,Verma,FO Manager,,,,94152 74126,1
-Uttar Pradesh,Varanasi,Panchkote Raj Ganges,1669,3114,Ms,Rani Ruchi,Singh Deo,,,,,,1
-Kerala,Vandanmedu,Carmelia Haven,801,661,Mr,Bijil,Thomas,Executive Reservations,,,,94952 19110,1
-Uttar Pradesh,Varanasi,Brijrama Palace,1489,2930,Mr,Ashish,Kumar,Sales Manager,,,96501 57813,95992 31589,1
-Uttar Pradesh,Varanasi,Hotel Banaras Haveli,1598,2948,Mr,Shyam,Sunder Pandey,Owner,,,,,1
-Uttar Pradesh,Varanasi,"Hotel Surya, Kaiser Palace",1665,2158,Mr,Anil,Sharma,Accommodation Manager,,,,88530 02354,1
-Uttar Pradesh,Varanasi,Guleria Kothi,1666,3029,Mr,Nitish,Kumar,,,,,79919 19103,1
-Uttar Pradesh,Varanasi,Hotel Meraden Grand,1220,2187,Mr,Ranvijay,Singh,,,,,94152 22993,1
-Uttar Pradesh,Varanasi,Hotel Buddha,1240,2696,Ms,Pooja,Sharma,,,,,9161063458,1
-Uttar Pradesh,Varanasi,Rivatas By Ideal,1286,2744,Mr,Ujjwal,Kumar,FOM,,,,87564 10004,1
-Uttar Pradesh,Varanasi,Cresent Villa,1324,2531,Mr,Amit,Pal,,,,,91612 88222,1
-Uttar Pradesh,Varanasi,The Clarks Varanasi,918,1388,Mr,Sumant,Katara,FOM,,,,,1
-Uttar Pradesh,Varanasi,Radisson Hotel,1099,2551,Mr,Brijesh,Singh,FOM,,,,,1
-Uttar Pradesh,Varanasi,Hotel Ganga Monastery,1450,2875,Mr,Pankaj,Singh,,,,,97942 49936,1
-Uttar Pradesh,Varanasi,Jukaso Ganges,1207,2673,Mr,Nitesh,Kumar,GM,,gmvaranasi@jukaso.co.in,,96702 40666,1
-Kerala,Vythiri,Vythiri Resort,817,1007,Mr,Mathew,Vengalathil,Asst Manager Sales & Marketing,,,,93875 55250,1
-Gujarat,Velavadar,The Blackbuck Lodge,1311,2776,Mr,,Manager,,,,9978979729,9979157058,1
-Meghalaya,Cherrapunji,Cherrapunjee Holiday Resort,1082,2543,Mr,Denis P.,Rayen,,,96153 38500,98630 79856,94361 15925,1
-Haryana,Gurgaon,Jukaso IT Suites,405,2051,Mr,Rajiv,Khanna,,,reservations@jukasohotels.com,,95124 2324761,1
-Haryana,Gurgaon,Hotel 32nd Milestone,418,2061,Mr,Tarun,,,,,,,1
-Haryana,Gurgaon,Siris18,443,2079,Mr,Sumeet,Chopra,,,,98734 08698,98112 92889,1
-Haryana,Gurgaon,Jukaso IT Suites,487,2051,Ms,Anjali,FO,,,,,,1
-Haryana,Gurgaon,Jukaso IT Suites,593,2051,Mr,Amit,,G M,,,9871599339,,1
-Haryana,Gurgaon,Royal Retreat,676,2055,Mr,Asif Mazhar,Khan,Asst FOM,,,0124 4578000,9971047758,1
-Haryana,Gurgaon,Le Residency,1190,2660,Mr,Aakash,Poudel,Sales Manager,,,9811023458,,1
-Haryana,Gurgaon,The Pllazio Hotel,1226,2684,Mr,Ashish,Soni,Owner,,,,97118 78505,1
-Gujarat,Wankaner,Ranjit Vilas Palace,46,195,Dr,Digvijay,Sinha,,,,20 000,,1
-Gujarat,Wankaner,Royal Oasis,897,405,Mr,Anil,Bhagat,,,,,99131 00959,1
-Himachal Pradesh,Palampur,Country Cottage,908,2425,Mr,Karan,Sarin,Owner,,,94181 30173,98160 47047,1
-Himachal Pradesh,Palampur,Taragarh Palace Hotel,959,790,Mr,Chander,Jamwal,General Manager,,,,98173 47919,1
-Haryana,Gurgaon,Tikli Bottom,1456,2892,Mr,Martin,Howard,,,,,93133 70853,1
-Haryana,Gurgaon,Park Premier,730,2167,Mr,Chetan,Sachar,Sales Co-ordinator,,,,,1
-Haryana,Gurgaon,The Galleria Residency,1163,2630,Mr,Dhiraj,Rawat,,,,,,1
-Chhattisgarh,Jagdalpur,Hotel Rainbow,453,1932,Mr,Bunty,D S Kushwaha,,,,,9425258128,1
-Kerala,Palakkad,Kandath Tharavad Homestay,344,2004,Mr,,Bagwaldas,,,94460 84124,,93499 04124,1
-Kerala,Palakkad,The Olappamanna Mana,812,2329,Mr,Narayan,Damodaran,,,,,,1
-Rajasthan,Jojawar,Rawla Jojawar,439,2002,Mr,Amit Vikram,Singh,Reservations,,,,9414159969,1
-Maharashtra,Tadoba,Royal Tiger Resort,1648,3083,Ms,Meenal, Dorlikar,,,,,+91 74474 97818,1
-Maharashtra,Tadoba,Tigertrails,457,2088,Mr,Adhitya,Dhanwatay,,,98229 30703,,98230 12707,1
-Rajasthan,Nimaj,Raas Chhatra Sagar,581,2199,Mr,Harshvardhan,Singh,,,,,94141 23118,1
-Rajasthan,Nimaj,Nimaj Palace,583,2180,Mr,Bharat,Singh,,,,,94140 74546,1
-Rajasthan,Madhogarh,Fort Madhogarh,580,2198,Mr,Shiv,Singh,Manager,,,,9829056676,1
-Rajasthan,Siana,Siana Gardens,582,2200,Mr,Pradeep,Singh,,,,,94146 74949,1
-Maharashtra,Tadoba,Svasara Jungle Lodge,1619,3035,Mr,Ranjit,Mandal,General Manager,,ranjit@svasararesorts.com,,93726 40322,1
-Sikkim,Ravangla,Mt Narsingh Village Resort,1109,2235,Mr,Satyan,,Resident Manager,,,,097331 31677,1
-Sikkim,Ravangla,Cherry Resort,1247,2704,Mr,,Manager,,,,8016488737,9733545592,1
-Rajasthan,Shahpura,Shahpura Bagh,723,2272,Mrs,Maya,Singh,,,maya@shahpurabagh.com,,98281 22013,1
-Gujarat,Dasada,Desert Coursers,48,197,Mr,Dhanraj,Malik,,,942706670,,9426372113,1
-Gujarat,Dasada,Rann Riders,659,2256,Mr,Mujahid,Malik,Prop.,,,,98797 86006,1
-Rajasthan,Barli,Fort Barli,1651,2284,Mr,Karni,Singh,,,,,,1
-Kerala,Kothamangalam,Mundackal Plantation Homestay,792,2316,Mr,Jose,Mundackal,,,,,93886 20399,1
-Kerala,Murinjapuzha,Paradisa Plantation Retreat,807,2325,Ms,,Jayalatha,,,,,94470 88119,1
-Kerala,Teekoy,Vanilla County,808,2327,Mr,Baby Mathew,Vallikappan,,,, 97441 83835,90486 24648,1
-Kerala,Meppadi,Aranyakam,815,2333,Mr,K.G.,Rajesh,,,93883 88203,,94477 81203,1
-Kerala,Lakkidi,Rain Country Resorts,816,2334,Mr,K.,Abhilash,General Manager,,,,94465 48064,1
-Tamil Nadu,Dindigul,Cardamom House,876,2391,Mr,Chris,Lucas,,,,,9360 691793,1
-Kerala,Neeleshwar,Neeleshwar Hermitage,860,2373,Ms,Aditi,Seghal,Reservations Executive,,,,,1
-Kerala,Neeleshwar,River Lap Homestay,1734,3183,Mr,Krishnan,P,,,,,,1
-Kerala,Kalaketty,Kalaketty Estate,1781,3213,Mr,V.P.,Kurian,,,,,,1
-Madhya Pradesh,Pench,Tribal Camp,1333,2811,Mr,Sandeep,Singh,,,,,86002 22743,1
-Madhya Pradesh,Pench,Pench Jungle Camp,1650,3086,Mr,Abhishek,Aggarwal,,,,011-2613-9096,99997 42000,1
-Madhya Pradesh,Barnagar,Fort Amla,831,2342,Mr,Raghavendra,Singh,,,,,94250 64976,1
-Gujarat,Hodka,Shaam-E-Sarhad Village Resort,891,2358,Mr,Parth,Mehta,,,,,94269 68790,1
-Gujarat,Sayla,Bell Guest House,844,2360,Mr,Yuvraj Somraj,Singh Jhala,,,,, 97246 78145,1
-Gujarat,Moti Virani,Centre for Desert and Ocean (CEDO),850,2363,Mr,Jugal,Tiwari,Ecologist,,,,9825248135,1
-Himachal Pradesh,Chamba,Hotel Aroma Palace,903,2420,Mr,Anil,Mahajan,,,,,94180 22098,1
-Sikkim,Yuksom,Yuksom Residency,1371,2499,Mr,Sanjay,Tamang,,,,,99331 33330,1
-Himachal Pradesh,Chamba,Hotel City Heart,939,2450,Mr,Manohar,Singh,Manager,,,,94180 07578,1
-Assam,Majuli,La Maison de Ananda,1485,2927,Mr,Monjit,Risong,Manager,,monjitrisong@yahoo.com,,99571 86356,1
-Assam,Digboi,Hollonghabi Tea Bungalow,1081,2542,Mr,Ranjit,Barooah,,,,,94350 33825,1
-Nagaland,Mon,Helsa Resort,1192,2662,Mr,,Sushant,,,,,98746 34314,1
-Nagaland,Mokokchung,Hotel Metsuben,1478,2529,Ms,,Amu,,,,,,1
-Madhya Pradesh,Panna,The Sarai at Toria,1697,3137,Dr,Raghu,Chhundawat,,,,,,1
-Rajasthan,Ramathra,Ramathra Fort,1115,2582,Ms,Gitanjali,Rajpal,Owner,,,,99833 47057,1
-Arunachal Pradesh,Bomdila,Hotel Tsepal Yangjom,1319,2785,Mr,Rinchen,Trashi,,,,,9436241432,1
-Arunachal Pradesh,Daporijo,Hotel Singhik,1412,2857,Mr,,Manager,,,,94368 96229,94366 16666,1
-Arunachal Pradesh,Ziro,Siro Resort,1413,2790,Mr,,Manager,,,,80140 50952,94360 72663,1
-West Bengal,Karmi,Karmi Farm,1211,2680,Mr,Andrew,,,,,,,1
-Uttar Pradesh,Vrindavan,Nidhivan Sarovar Portico,1440,2798,Ms,,Manju,Sales Manager,,,,99585 92242,1
-Rajasthan,Chanoud,Hotel Chanoud Garh,1382,2836,Mr,Jairaj,Singh,,,,,99833 22955,1
-Rajasthan,Bhap,Barsingha Villa,1096,2549,Mr,Narendra,Singh,,,,,9413319546,1
-Kerala,Padanna,Oyster Opera,1121,2588,Mr,Gul,Mohammed,Managing Partner,,,,94471 76465,1
-Uttar Pradesh,Meerut,Hotel Naveen,1137,2597,Mr,Sunil,Sunil,Director,,,,098970 56525,1
-Sikkim,Rinchenpong,Yangsum Heritage Farm,1168,2634,Mr,Thendup Tashi,Bhutia,,,,,94341 79029,1
-Sikkim,Kewzing,Bon Farmhouse,1235,2687,Mr,Chewang R,Bonpo,,,,,97359 00165,1
-Sikkim,Mangalbarey,Biksthang Heritage Farmhouse,1452,2886,Mr,Dekyi,Gyatso,,,,,,1
-Uttarakhand,Rajaji,Wild Brook Retreat,1473,2921,Mr,Manoj,Kulshreshta,,,,93148 80887,81070 02924,1
-Chhattisgarh,Bhoramdeo,Bhoramdeo Jungle Retreat,1492,2937,Mr,Satyendra (Sunny),Upadhyay,Owner,,,,,1
-Rajasthan,Raipur,Lakshman Sagar,1707,2950,Mr,Tejinder,Kumar Singh,Resort Manager,,tejinder@sewara.com,,98733 74745,1
-Kerala,Thattekad,The Hornbill Camp,1543,2982,Ms,Nirmala,Jacob,,,,,94460 05067,1
-Kerala,Thattekad,Windermere Riverhouse,1723,3175,Ms,,Vineetha,,,,,,1
-Rajasthan,Padarla,Godwad Leopard Safari Camp,1549,2988,Mr,Nattwar,Singh,Naturalist,,,96101 10740,99832 11191,1
-Madhya Pradesh,Satpura,Reni Pani Jungle Lodge,1661,3099,Mr,Saleem,Quraishi,Sales Manager,,saleem@jnph.in,,9981997714,1
-Madhya Pradesh,Satpura,Forsyth Lodge,1702,3081,Mr,,Sushant,,,,,,1
-Maharashtra,Nagzira,Nagzira Nature Camp,1663,3100,Mr,Sanjay,Sharma,,,,96573 35277,85549 76873,1
-Maharashtra,Nagzira,Asteya Nagzira,1686,3128,Ms,Isha,Motwani,Senior Executive - Reservation & Online Sales,,,,77770 68144,1
-Uttar Pradesh,Bah,Mela Kothi - The Chambal Safari Lodge,1787,3102,Mr,Kunwar Ram,Pratap Singh,,,,,,1
-Kerala,Cherukattoor,Talking Trees Riverside Farmstay,1681,3123,Mr,Nitish,Ramanujam,,,,,95390 99927,1
-Tamil Nadu,Chettinad,Visalam,1744,2332,Mr,,Febin,GM,,,,98474 93311,1
-Tamil Nadu,Perumparai,Rajakkad Estate,1755,3197,Mr,Robesh,George,Manager,,reservation@rajakkadestate.com,94874 44333,89734 44555,1
-Kerala,Kodikulam,Dewalokam Homestay,1783,3214,Mr,Professor,Jose,,,,,,1
-Rajasthan,Bera,Bera Safari Lodge,1793,3234,Mr,,Shatrunjay,,,,,94133 12133,1
-Madhya Pradesh,Kathiwada,Kathiwada Raaj Mahal,1792,3235,Mr,Aditya,Singh,,,gm@kathiwada.com,,93723 76324,1
-West Bengal,Serampore,The Denmark Tavern,1814,3236,Mr,Dwaipayan,Ghosh,Director,,,,,1
-Orissa,Baripada,The Belgadia Palace,1798,3237,Mr,Parwez,Zafar,,,,,,1
-West Bengal,Singalila,Habre's Nest,1799,3243,Mr,Shantanu,Prasad,,,,,62912 82879,1
-Rajasthan,Alsisar,Alsisar Mahal,1206,2672,Mr,Santosh,,,,,,9828077864,1
-Tamil Nadu,Chettinad,The Bangala,1395,2376,Mr,,Rudramurthy,,,,,,1
-Tamil Nadu,Chettinad,The Saratha Vilas,1742,2990,Mr,Bernard,Dragon,Director,,,,98849 36158,1
-Tamil Nadu,Chettinad,The Saratha Vilas,1743,2990,Mr,Michel,Adment,Director,,,,98842 03175,2
-Tamil Nadu,Chettinad,The Bangala,864,2376,Ms,Meenakshi,Meyyappan,Director,,,,94431 83021,2
-Uttarakhand,Rajaji,Wild Brook Retreat,1471,2921,Dr,,Chaturbuj,,,,,,2
-Sikkim,Kewzing,Bon Farmhouse,1236,2687,Mr,Sonam R,Bonpo,,,,,95476 67788,2
-Sikkim,Rinchenpong,Yangsum Heritage Farm,1169,2634,Mrs,Pema Chuki,Bhutia,,,,,,2
-Rajasthan,Chanoud,Hotel Chanoud Garh,1383,2836,Mr,Mahiraj,Singh,,,,,98286 69221,2
-Nagaland,Mokokchung,Hotel Metsuben,1479,2529,Mr,Moasangba,Jamir,,,,,,2
-Himachal Pradesh,Chamba,Hotel City Heart,943,2450,Mr,Ajay,Mahajan,Owner,,,,94180 35450,2
-Sikkim,Ravangla,Mt Narsingh Village Resort,852,2235,Mr,Karma P.,Takapa,Prop.,,,,9434026822,2
-Himachal Pradesh,Chamba,Hotel Aroma Palace,904,2420,Ms,Divya,Mahajan,,,,,94180 22710,2
-Kerala,Kalaketty,Kalaketty Estate,1782,3213,Mrs,Anuja,Kurian,,,,,,2
-Rajasthan,Shahpura,Shahpura Bagh,724,2272,Mr,Shatrujeet,Singh,,,ss@shahpurabagh.com,,,2
-Maharashtra,Tadoba,Svasara Jungle Lodge,1620,3035,Ms,,Nandita,Lodge Manager,,nandita@svasararesorts.com,,93726 40323,2
-Haryana,Gurgaon,Royal Retreat,1029,2055,Mr,Sreenu,Pillai,FOM,,,,9650324104,2
-Sikkim,Yuksom,Hotel Tashi Gang,1224,2212,Mr,Sudhir,Tamang,Manager,,,90023 72247,99330 07720,2
-Rajasthan,Khempur,Ravla Khempur,584,2202,Mr,Hemant,Deval,Proprietor,,,,9829371424,2
-Rajasthan,Jojawar,Rawla Jojawar,1305,2002,Mr,Yogendra,Chhangani,,,,,,2
-Chhattisgarh,Jagdalpur,Hotel Rainbow,494,1932,Mr,Manoj,Parte,,,,,94252 62852,2
-Haryana,Gurgaon,The Galleria Residency,1164,2630,Mr,Pradeep,Chetry,Manager,,95559 16622,,95829 39107,2
-Haryana,Gurgaon,Tikli Bottom,1457,2892,Mrs,Annie,Howard,,,,,98180 39382,2
-Himachal Pradesh,Palampur,Country Cottage,960,2425,Ms,,Bhavna,Reservations,,,,98162 47047,2
-Haryana,Gurgaon,Siris18,1360,2079,Ms,Nisha,Kalia,,,nisha@siris18.com,,,2
-Kerala,Vythiri,Vythiri Resort,1398,1007,Ms,,Rani,,,,,94470 55367,2
-Uttar Pradesh,Varanasi,"Hotel Surya, Kaiser Palace",643,2158,Mr,Ajay,Mishra,Operations Manager,,,,88530 02359,2
-Uttar Pradesh,Varanasi,Hotel Pradeep,1150,2188,Mr,.,Chaturvedi,Manager,,,,9935955313,2
-Uttar Pradesh,Varanasi,Palace on Ganges,1173,2131,Mr,Pradeep,Singh,MD,,info@hotelpradeep.com,,98390 59273,2
-Uttar Pradesh,Varanasi,Rashmi Guest House,1369,2161,Mr,A.S.,Tiwari,Owner,,,,,2
-Uttar Pradesh,Varanasi,Guleria Kothi,1610,3029,Mr,,Faizan,,,,,79919 19101,2
-Kerala,Vandanmedu,Carmelia Haven,802,661,Mr,Vineeth,Nambiar,General Manager,,,,94471 76252,2
-Uttar Pradesh,Varanasi,Brijrama Palace,1488,2930,Mrs,Manju,Mazumder,Regional Manager Sales Clarks Hotels,,delhioffice@clarksamer.com,,98114 24886,2
-Rajasthan,Udaipur,Mewar Haveli,711,2145,Mr,Harish,Jain,Prop. Brother,,,,9414771698,2
-Rajasthan,Udaipur,Fateh Garh,856,2368,Mr,Dushyant Singh,Rathore,Director,,dushikelwa@hotmail.com,,99286 66009,2
-Rajasthan,Udaipur,Karohi Haveli,754,2260,Mr,Pramod Kumar,Sharma,FOM,,,,97990 03229,2
-Rajasthan,Udaipur,Hotel Thamala Haveli,931,2444,Mr,.,,Partner,,,,,2
-Rajasthan,Udaipur,Madri Haveli,1433,2869,Mr,Vipul,Kapoor,Reservations Manager,,,,90019 92599,2
-Rajasthan,Udaipur,Udai Kothi,1372,1861,Mr,,Rajesh,Reservations,,,,92510 56826,2
-Rajasthan,Udaipur,Ram Pratap Palace,926,2110,Mr,Dushyant,Singh,,,,,99286 66009,2
-Rajasthan,Udaipur,The Tiger,1179,2229,Mr,Pritam,,,,,,94142 33573,2
-Rajasthan,Udaipur,Kankarwa Haveli,1575,406,Mr,,Divyarishi,,,,,97829 50000,2
-Rajasthan,Udaipur,Poonam Haveli,1621,2905,Mr,Hemant,Soni,,,,,98281 12828,2
-Rajasthan,Udaipur,Taj Fateh Prakash Palace,305,917,Mr,Harishchandra,Singh,,,,,,2
-Rajasthan,Udaipur,Mahendra Prakash,131,400,Mr,Ajay Singh,Shekawat,Prop.,,,,94141 67090,2
-Kerala,Thrikunnapuzha,Coir Village Lake Resort,709,1412,Mr,Goban,,,,,,,2
-Rajasthan,Udaipur,Jagat Niwas Palace Hotel,60,226,Mr,Devraj,Singh,,,,"2415 547, 2418 512",98290 42128,2
-Kerala,Thekkady,The Wildernest,804,2323,Mr,Mathew,Kuruvinakunnel,,,,,,2
-Jammu & Kashmir,Srinagar,Hotel Dar-Es-Salam,1389,2842,Mr,Abdul,Hamid,Front Office,,,,97972 57845,2
-Kerala,Thekkady,Hotel Ambadi,706,753,Mrs,Sumithra,Verghes,Reservations,,ambadi@airtel.blackberry.com,"0481 2563797,2566447",9746473736,2
-Himachal Pradesh,Shimla,The Oberoi Cecil,965,1415,Mr,Adin,Jaisinghani,FO,,,,,2
-Himachal Pradesh,Shimla,Woodville Palace,1368,302,Mr,Narinder,Bhardwaj,,,,,,2
-Himachal Pradesh,Shimla,Hotel Willow Banks,1695,2381,Mr,Sanjay,Sharma,Front Office Manager,,,,9816076512,2
-Himachal Pradesh,Shimla,Hotel Springfields,247,1926,Mr,Vijay,Singh,Prop,,,,98160 87611,2
-Meghalaya,Shillong,Rosa Ville,1059,2511,Mr,,Manager,,,,,96129 01066,2
-Rajasthan,Sawai Madhopur,Dev Vilas,1578,2383,Mr,Balendu,Singh,Owner,,,,,2
-Rajasthan,Sawai Madhopur,Khem Villas,1579,2382,Mr,Manvendra,Singh,,,,,9950070888,2
-Rajasthan,Nawalgarh,Apani Dhani Eco-Lodge,989,2148,Mr,Gajendra,Jangid,Prop. Son,,,,093142 85064,2
-Rajasthan,Sawai Madhopur,Ranthambhore Forest Resort,735,2271,Mr,B S,Pawar,FOM,,,9214485259,99284 63859,2
-Rajasthan,Sawai Madhopur,Ankur Resort,425,675,Mr,Raju,Meena,,,,,9414030301,2
-Rajasthan,Sawai Madhopur,The Ranthambhore Bagh,488,2126,Mrs,Poonam,Singh,Prop.,,poonam@ranthambhorebagh.com,,94140 31221,2
-Gujarat,Sasangir,Maneland Jungle Lodge,895,196,Mr,Chintu,Bhai,Booking Office Mumbai,,,,99200 18568,2
-Gujarat,Sasangir,Gir Birding Lodge,885,2365,Mr,,Iqbal,,,,,98117 04651,2
-Rajasthan,Samode,Samode Palace,686,213,Mr,Vijay,,Reservations,,,,,2
-Rajasthan,Samode,Samode Bagh,687,352,Mr,Vijay,,Reservations,,,,,2
-Chhattisgarh,Raipur,Hotel Celebration,263,1931,Mr,Kamaljeet,Singh,Owner,,,,,2
-Rajasthan,Rohet,Rohet Garh,1703,909,Mr,Avijit,Singh,Owner,,avijit@houseofrohet.com,,95714 44456,2
-Uttarakhand,Rishikesh,Rainforest House,1047,2449,Ms,Tripti,Dunjey,Owner's wife,,,,97588 11701,2
-Rajasthan,Ranakpur,Ranakpur Hill Resort,1303,2044,Mr,Devendra Kumar,Tank,Reservation,,,,91160 40262,2
-Rajasthan,Pushkar,Hotel New Park,1562,648,Mr,Naresh,Mahawar,Manager,,,,9414354825,2
-Rajasthan,Pushkar,Hotel Brahma Horizon,1563,2993,Mr,Kunal,Chhatwani,Owner,,,,97699 02320,2
-Uttarakhand,Rishikesh,Himalayan Hideaway,967,2448,Mr,Dinesh,Kumar,,,,,,2
-Uttarakhand,Rishikesh,High Bank Peasants Cottage,973,2427,Mr,,Hari,Manager,,,,93581 01987,2
-Uttarakhand,Rishikesh,Seventh Heaven Inn,1417,2860,Mr,Kalam,Singh Chauhan,,,,,,2
-Rajasthan,Pushkar,Pushkar Palace,1310,16,Mr,Amit,Jasoria,Manager Reservation,,,,98280 60601,2
-Orissa,Puri,Hans Coco Palms,736,1432,Mr,Sanjeeb,Patnaik,GM,,,,943709006,2
-Pondicherry,Pondicherry,Palais de Mahe,1777,2730,Mr,,Amaljith,Front Office Manager,,,,98955 69369,2
-Pondicherry,Pondicherry,Annamalai International,702,2182,Ms,Divya,,Reservations,,,,,2
-Sikkim,Pelling,Newa Regency,640,2226,Mr,Sunanto,,Res,,9434235565/9733077825,9332262580,9333793708,2
-Bihar,Patna,Hotel Buddha Heritage,1481,2801,Mr,Praveen,Sinha,Front Office Manager,,,,85218 58117,2
-Gujarat,Palitana,Vijay Vilas Palace,886,2361,Mr,Yashpal,Singh,Owner,,,,94271 82809,2
-Rajasthan,Osian,The Camel Camp Osian,1551,1345,Mr,Mick,S,,,,,9928009610,2
-Rajasthan,Osian,Dera Eco,514,2139,Mr,Yudhishter Singh,Rathore,Manager,,,, 098280 70732,2
-Madhya Pradesh,Orchha,Hotel Bundelkhand Riverside,565,2162,Mr,Pushpendra,Jain,,,,90097 49630,81204 75248,2
-Madhya Pradesh,Orchha,Amar Mahal,575,2107,Mr,Nitendra,Singh Rathore,Director,,,,,2
-Tamil Nadu,Ootacamund,Fernhills Royal Palace,1301,2775,Mr,,Magesh,,,,,9994555530,2
-Himachal Pradesh,Manali,Hotel Mayflower,1219,1862,Mr,Amit,Negi,Owner,,,,,2
-Himachal Pradesh,Manali,Johnson Hotel & Jimmy Johnson Lodge,1340,2443,Capt,Seema,Sharma,,,,,86268 14404,2
-Rajasthan,Nawalgarh,Roop Niwas Kothi,599,902,Mr,Ranjeet Singh,Jaipur office,Manager,,,"0141 2623413, 2622949",,2
-Karnataka,Mysore,The Green Hotel,981,31,Mr,Hillar,Manohar,Reservations Mgr,,,,,2
-Tamil Nadu,Mudumalai,The Wilds at Northernhay,1409,2855,Mr,Junald,Seth,,,,,,2
-Karnataka,Mysore,Crystal Paark Inn,1425,2508,Mr,Akshay,B,Manager Front Office,,,,96202 00021,2
-Karnataka,Mysore,Royal Orchid Metropole Hotel,1530,2415,Mr,,Vishwanath,Deputy Manager,,avpsales.south@royalorchidhotels.coml,,,2
-Kerala,Mararikulam,Marari Villas,1770,3212,Mrs,Olga,Evers,,,,,,2
-Tamil Nadu,Chennai,Ramada Chennai Egmore,1772,2720,Mr,S.,Logesh,Asst Sales Manager,,,,,2
-Karnataka,Madikeri,Victorian Verandaz,1684,3125,Mrs,Diana,Thimaiah,,,,,94497 68800,2
-Kerala,Mararikulam,A Beach Symphony,780,2304,Mrs,Christel,Arryn,,,,,90484 00150,2
-Kerala,Mararikulam,Abad Turtle Beach Resort,1200,2287,Ms,Preeti,,,,,,,2
-Rajasthan,Jodhpur,Pal Haveli,592,2147,Mr,Mahesh,Karan,Jodhpur,,,98292 43247,,2
-Assam,Kaziranga,Wild Grass Resort,1042,87,Mr,Manju,Barua,,,,,99544 16945,2
-Tamil Nadu,Chennai,Hotel Marina Towers,667,2166,Ms,Jenitha,,Reservations,,,,,2
-Kerala,Kovalam,Thapovan Heritage Home,739,2270,Mr,E. P.,Haridas,Manager,,,,93497 52072,2
-Uttar Pradesh,Kushinagar,The Imperial Kushinagar,1378,2554,Mr,,Shailesh,Sales & Marketing,,,,98103 50951,2
-Kerala,Kovalam,The Travancore Heritage,407,2053,Mr,Ratheesh,Kumar,Asst Reservation Manager,,,,94464 74894,2
-Rajasthan,Kishangarh,Phool Mahal Palace,847,890,Ms,Maharani Meenakshi,Devi,,,,,,2
-Uttar Pradesh,Kanpur,The Landmark,1136,2596,Mr,Anupam,Saxena,Dy. F.O. Manager,,,,,2
-Rajasthan,Karauli,Bhanwar Vilas Palace,1365,395,Mr,Neeraj,Singh,,,,,99297 73744,2
-West Bengal,Kalimpong,Holumba Haven,690,2224,Mr,Norden,Pempahishey,Prop.,,,,93324 14999,2
-Madhya Pradesh,Kanha,Kanha Village Eco Resort,1406,2848,Mr,,Navneet,M.D.,,,,99778 53263,2
-Assam,Jorhat,Thengal Manor,1068,2510,Ms,Rupa,Borbora,,,,,99544 51548,2
-Rajasthan,Jodhpur,Hotel Haveli Inn Pal,1571,2722,Mr,Narpat Singh,Pal,,,,,,2
-Rajasthan,Jodhpur,Ratan Vilas,454,884,Mr,Brijraj,Singh,Prop.,,,,98291 27877,2
-Rajasthan,Jaisalmer,Nachana Haveli,503,1344,Mr,R.K. Vikramaditya,Singh,Director,,,,94141 49311,2
-Rajasthan,Jaisalmer,Fort Rajwada,1230,738,Ms,Preeti,,Asst Mngr Reservations,,,,98281 49555,2
-Rajasthan,Jaisalmer,Himmatgarh Palace,1362,1890,Mr,Yogendra,Singh,,,,,,2
-Rajasthan,Jaisalmer,Mandir Palace Hotel,1287,14,Mr,Shivendra,Singh Bhati,Owner,,,,97832 89449,2
-Rajasthan,Jaisalmer,Deoki Niwas Palace,440,1563,Mr,Alok,Rathi,Prop.,,,,0941414 9432,2
-Rajasthan,Jaipur,Samode Haveli,560,624,Mr,Vijay,Singh,Reservations,,,,,2
-Rajasthan,Jaipur,Alsisar Haveli,677,92,Mr,Shafeeq,,Reservations,,,,,2
-Rajasthan,Jaipur,Loharu House,1165,2632,Mrs,Begum Fauzia,Ahmad Khan,,,,,,2
-Maharashtra,Aurangabad,Hotel Amarpreet,1321,2090,Mr,Santosh,Sonawane,Asst.Supervisor-Front Office,,,,75077 74498,2
-Rajasthan,Jaipur,Dera Rawatsar,1521,2130,Mr,Anirudh,Rathore,,,,,98292 12050,2
-Rajasthan,Jaipur,Dera Mandawa,1555,2657,Mr,Narendra,Singh,,,,,9785000365,2
-Rajasthan,Jaipur,Hotel Arya Niwas,11,13,Mr,Tarun,Bansal,Proprietor,,,,93146 39592,2
-Rajasthan,Jaipur,Jai Niwas,312,1983,Mr,Tarun,Bansal,Manager,,,,,2
-Tamil Nadu,Madurai,Royal Court,533,2169,Mr,A,Rajgopal,Manager,,,,9360329985,2
-Tamil Nadu,Madurai,JC Residency,1747,3193,Mr,V.,Ramkumar,Sales Manager,,,,73737 37305,2
-Tamil Nadu,Madurai,Heritage Madurai,1593,2517,Mr,,Mythili,Sales,,,,75502 43146,2
-Chandigarh,Chandigarh,Hotel Western Court,1523,2397,Mr,Rajender,Sahni,Manager Front Office,,,,99157 52554,2
-Karnataka,Hospet,Hotel Priyadarshini,249,757,Mr,Srinivas,Rao,Director,,,9448282260,9844085247,2
-Madhya Pradesh,Indore,Rashid Kothi,828,2339,Mrs,Anuradha,Dubey,,,,,,2
-Madhya Pradesh,Khajuraho,Hotel Chandela,1500,811,Mr,Bhanu,Pratap,,,,94243 45537,98932 16396,2
-Madhya Pradesh,Khajuraho,Usha Bundela,470,2103,Mr,A.L.,Patel,,,,,,2
-Himachal Pradesh,Dharamsala,Hotel Clouds End Villa Cottages,945,1503,Mr,Aditya,Katoch,Sales Manager,,,,94184 10888,2
-Karnataka,Hampi,Uramma Heritage Homes,1262,2717,Ms,Shama,Pawar,Owner,,,,92684 88499,2
-Karnataka,Hampi,Shama's Cottages,1022,2435,Mr,Anjani,,,,,,9449144133,2
-Karnataka,Hampi,Hampis Boulders Resort,326,1989,Mr,D.V. (Bobby),Chandra,Owner,,,,,2
-Goa,Goa,Marquis Beach Resort,362,743,Mr,Simon,Fernandes,GM,,,,98221 24714,2
-Goa,Goa,Kerkar Retreat,726,2273,Mr,Subodh,Kerkar,Prop.,,,,9326119324,2
-Goa,Goa,Yab Yum Beach Resort,927,2441,Mr,,Kali,,,,,94223 95541,2
-Goa,Goa,Casa Severina,1118,2442,Mr,Johnson,Pereira,FOM,,johnson.pereira@casaseverina.com,,95525 65697,2
-Goa,Goa,Dwarka Eco Beach Resort,899,2354,Mr,Clemente,Rodrigues,,,,,98233 77025,2
-Goa,Goa,Beach Street Eco Resort & Spa,1636,3053,Mr,,Aditya,Partner,,,,94211 93820,2
-Goa,Goa,Sonesta Inns,1344,2823,Mr,Jose,Dsouza,G.M.,,,,98221 69473,2
-Goa,Goa,Panjim Inn,1373,2351,Mr,Jack,Sukhija,,,,,98230 25748,2
-Goa,Goa,Wildflower Villas,1431,2619,Mr,,Nishad,,,,,98224 59584,2
-Goa,Goa,Mangaal Farm Homestay,1539,2980,Mr,Jaywant,,,,,,9822129789,2
-Goa,Goa,The Bay Agonda,1554,2953,Ms,,Puja,Reservations,,,,,2
-Goa,Goa,Casa Susegad,1679,3122,Mrs,,Carol,,,,,98221 06341,2
-Goa,Goa,Aashyana Cottages,1685,2922,Ms,Madhumita,Das,,,,9130156159,9325583382,2
-Goa,Goa,La Paz Gardens,53,210,Mr,Jusico,Fernandes,FOM,,jusico@vmsalgaocar.com,,,2
-Assam,Guwahati,Baruah Bhavan,1376,2828,Mr,H C,Kalita,Caretaker,,,,99578 62520,2
-Assam,Guwahati,River Breeze Hotel,1071,2514,Mrs,Sangeeta,Choudhury,,,,,98642 69776,2
-Sikkim,Gangtok,Mintokling Guest House,1232,2686,Mr,Tenzing,N Pulger,Proprietor,,,,,2
-Sikkim,Gangtok,Netuk House,1542,1367,Mr,Yangdup,,,,,,95933 61608,2
-Sikkim,Gangtok,Hotel Tibet,1033,12,Mr,Tenzing,,Front Office,,,,,2
-Rajasthan,Dungarpur,Udai Bilas Palace,340,873,Mr,Harshvardhan,Singh,,,,,94141 04949,2
-Himachal Pradesh,Dharamsala,White Haven Estate,947,2416,Mr,,Sidhu,Manager,,sidman123@rediffmail.com,86790 26162,94184 27531,2
-Himachal Pradesh,Dharamsala,Him View Guesthouse,1222,2681,Mrs,Sonam Y,Maja,Front Office Manager,,,,,2
-Himachal Pradesh,Dharamsala,Surya McLeod,751,644,Mr,Parul,Bamba,Director,,,8146666909,98164 33163,2
-Karnataka,Badami,The Heritage Resort,1404,2750,Mr,,Mahantesh,,,,,93530 23006,2
-Himachal Pradesh,Dharamsala,Norling Guest House Norbulingka,949,2424,Mr,Lobsang,Jinpa,Manager,,,,98166 46423,2
-Himachal Pradesh,Dharamsala,Serkong House,1424,2863,Mr,Tsultrim,Dorjee,,,,,,2
-Madhya Pradesh,Dhar,Jhira Bagh Palace,1657,1375,Ms,,Anita,,,,,9826033801,2
-Rajasthan,Deogarh,Deogarh Mahal,651,401,Mr,Veerbhadra,Singh,Owner,,vboffice@deogarh.in,,99291 73000,2
-Delhi,Delhi,Lutyens Guest House,530,2163,Ms,Vinita,Nath,Prop.,,,,98100 53013,2
-Delhi,Delhi,Suncourt Hotel Yatri,562,2190,Mr,Shubh,Taneja,Director,,shubh4@hotmail.com,Altn. 9911066628,098100 36814,2
-Delhi,Delhi,Hotel Sunstar Heritage,570,2195,Mr,Shubh,Taneja,Director,,shubh4@hotmail.com,,98100 36814,2
-Delhi,Delhi,Hotel Sunstar Residency,571,2196,Mr,Shubh,Taneja,Director,,shubh4@hotmail.com,,9810036814,2
-Delhi,Delhi,Hotel Sunstar Grand,653,2246,Mr,Shubh,Taneja,Director,,shubh4@hotmail.com,,9810036814,2
-Delhi,Delhi,The Imperial Hotel,1271,116,Ms,Prathna,Arora,Sales Executive,,parora@theimperialindia.com,,9811210620,2
-Delhi,Delhi,Hotel Gautam Deluxe,1298,2655,Mr,Subhash,Singha,,,,,,2
-Delhi,Delhi,The Metropolitan Hotel,1316,2782,Mr,Rakesh,Pasbola,Associate Head Sales,,,,9810697814,2
-Delhi,Delhi,Shanti Home,1353,2820,Ms,Pooja,Rajpal,,,,,98916 99625,2
-Delhi,Delhi,The Estate Villa,1541,2981,Ms,,Mamta,,,,987336 0002,98111 69692,2
-Delhi,Delhi,The Claridges,414,1389,Mr,Anuj,Bidani,Sales Manager,,,3955 5111,99105 06266,2
-Uttarakhand,Dehra Dun,Shaheen Bagh,1051,2406,Mr,Sanjay,Jain,Reservations,,,,9810718529,2
-West Bengal,Darjeeling,Clubside Tours & Travels Pvt Ltd,63,236,Mr,Suresh,Periwal,Managing Director,,,2254 052,98320 60980,2
-West Bengal,Darjeeling,Windamere Hotel,1216,1364,Ms,Anushka,,Reservations,,,,,2
-West Bengal,Darjeeling,Glenburn Tea Estate,1791,3226,Mrs,Husna-Tara,Prakash,,,,,,2
-Himachal Pradesh,Dalhousie,Grand View Hotel,144,642,Ms,,Radhika,Reservations,,,,,2
-Kerala,Kochi,Chiramel Residency,766,1458,Mrs,Asha,Abraham,,,,,,2
-Uttarakhand,Corbett,The Corbett Hideaway,415,1386,Mr,Ajay,Kareer,Area Resort Manager,,,,,2
-Kerala,Kochi,The Fort House Hotel,764,2269,Ms,Nisha,Bastian,,,,,,2
-Kerala,Kochi,Napier House,791,2293,Mr,,Lijo,,,,,,2
-Kerala,Kochi,The Malabar House,771,980,Mr,Mervin,Isaac,General Manager,,mervin@malabarhouse.com,,,2
-Kerala,Kochi,Hotel Arches,1278,2734,Mr,T.J.,Godson,FOM,,,,98472 15050,2
-Kerala,Kochi,Koder House,768,2295,Mr,Vicky,Raj,Owner,,,,98470 05332,2
-Kerala,Kochi,Waltons Home Stay,1123,2587,Ms,Charlotte,Duram,,,,,94470 08944,2
-Kerala,Kochi,Fort Heritage,1293,981,Mr,,David,Manager,,,,,2
-Kerala,Kochi,Tea Bungalow,1302,2461,Mr,Lloyd,Alvarez,GM,,,9388719679,9388719678,2
-Kerala,Kochi,Forte Kochi,1654,3094,Mr,Joseph,Barnes,,,jodeph@thepaul.in,,,2
-Kerala,Kochi,Sealord Hotel,447,24,Mr,Manoj,Peter,Director,,,,9446462473,2
-Maharashtra,Mumbai,Hotel Bawa International,851,2292,Ms,Agnes,,,,,,,2
-Rajasthan,Chittaurgarh,The Padmini Haveli Guesthome,1315,2778,Mr,Sudhir,Sukhwal,,,sudhirsimmu@rediffmail.com,,94141 10090,2
-West Bengal,Kolkata,Hotel 233 Park Street,1474,2864,Mr,Umesh,Pandey,,,,,96742 33233,2
-Kerala,Kozhikode,Kadavu,814,1268,Mr,Aravind,Ravi,Sales,,,,99950 03030,2
-Rajasthan,Bundi,Hotel Bundi Haveli,610,2214,Mrs,Lulu,,Prop.,,,,,2
-Maharashtra,Mumbai,The Gordon House,616,2106,Mr,Janak,Mangaonkar,Marketing Manager,,,,98675 05247,2
-Maharashtra,Mumbai,The Waterstones Hotel,1233,2404,Ms,Tulika,Karkada,Head - Sales & Marketing,,tulika.karkada@mars-world.com,,9967729857,2
-Maharashtra,Mumbai,Hotel Heritage,302,1878,Ms,Jaya,Patil,Reservations,,,,,2
-Karnataka,Bangalore,The Richmond Hotel,935,2430,Ms,Praveena,,Reservations,,,,,2
-Karnataka,Bangalore,Hotel Ivory Tower ,1410,1011,Mr,,Lohith,F.O.M.,,,,,2
-Rajasthan,Bikaner,Palace View Hotel,1297,396,Mr,Anirudh,S,Reservation,,,7665052345,,2
-Rajasthan,Bikaner,Hotel Lallgarh Palace,1322,865,Mr,Devendra,Sharma,Operations Manager,,,,99290 87540,2
-Rajasthan,Bhenswara,Ravla Bhenswara,435,934,Mr,Shiv Pratap,Singh,Prop.,,,,94141 32178,2
-Rajasthan,Bharatpur,Laxmi Vilas Palace,662,860,Mr,Deep,Raj,Reservations,,,,,2
-Rajasthan,Bikaner,Hotel Gaj Kesri,665,2205,Mr,Bhagwan,Singh,Manager,,,,,2
-Rajasthan,Bikaner,Bhanwar Niwas,718,715,Mr,Bhagwan,Singh,Reservations,,,,,2
-Madhya Pradesh,Bhopal,Ivy Suites,825,2338,Mrs,Manju,Sharma,,,,,94250 14421,2
-Orissa,Bhubaneswar,The New Marrion Hotel,1394,2257,Mr,Chidanand,Mallick,Deputy Operation Manager,,,,92380 22030,2
-Madhya Pradesh,Bandhavgarh,Nature Heritage Resort,1129,2217,Mr,Raj,Vardhan,Owner,,,,94253 31202,2
-Karnataka,Badami,Hotel Badami Court,354,1009,Mr,Yunis,F Off,,,,,,2
-Punjab,Amritsar,Ranjit Svaasa,942,2387,Mr,Abhimanyu,Mehra,,,,,98726 26618,2
-Punjab,Amritsar,M.K. Hotel,757,2290,Mr,Siddharth,Kathak,Admin Exec,,,,,2
-Gujarat,Ahmedabad,Cama Hotel,604,1383,Ms,Heena,Sakhiwalla,Reservations,,,,,2
-Punjab,Amritsar,Ritz Plaza,755,646,Mr,Arun,Chibbar,FO,,,,98157 53523,2
-Gujarat,Ahmedabad,Krios Hotel,1454,2887,Mr,Bhanwar,Singh,Front Office Executive,,info@krioshotel.com,, 78742 11144,2
-Kerala,Alleppey,Akkarakalam Memoirs,787,2309,Mr,Jobin J.,Akkarakalam,Managing Partner,,,,94463 66066,2
-Kerala,Alleppey,Vismaya Lake Heritage,1768,2934,Mr,,Vinod,,,,,70125 82858,2
-Uttar Pradesh,Allahabad,Hotel Milan Palace,968,2428,Mr,M.,Aslam,GM,,,,93352 38490,2
-Uttar Pradesh,Agra,Hotel Mansingh Palace,660,398,Mr,Krishan,Tara,General Manager,,gm.agra@mansinghhotels.com,,8191977755,2
-Uttar Pradesh,Agra,The Grand Imperial,1012,2208,Mr,Yogesh,Kumar,Reservations,,,,93198 42952,2
-Uttar Pradesh,Agra,Hotel Royale Residency,1420,2223,Mr,Aabid,Khan,Resr Manager,,,,9897522527,2
-Uttar Pradesh,Agra,Hotel Seven Hills Tower,1448,2881,Mr,Anand,Chaudhary,Reservation,,,,80777 35197,2
-Uttar Pradesh,Agra,Hotel Utkarsh Vilas,1145,2502,Ms,Hemlata,,Reservations,,,,98370 01210,2
-Uttar Pradesh,Agra,Hotel Dasaprakash,1283,2710,Mr,S L,Dogre,GM,,,81713 90066,81713 90033,2
-Uttar Pradesh,Agra,Howard Sarovar Portico,1323,1426,Mr,Ryan,Knight,,,,,,2
-Uttar Pradesh,Agra,The Coral Court Homestay,1518,2960,Mrs,Beena,Talan,Director,,,,9760019660,2
-Uttar Pradesh,Agra,The Coral Tree Homestay,1498,2882,Ms,Pooja,,,,,,,2
-Uttar Pradesh,Agra,Hotel Taj Resorts,1550,2955,Mr,Sunil,Kardam,Reservation Manager,,,,78300 50001,2
-Uttar Pradesh,Agra,Hotel Amar,597,745,Mr,.,Pandey,Reservations Mgr,,,,9927395422,2
-Uttar Pradesh,Agra,Hotel Amar,559,745,Mr,Y K,Verma,General Manager,,,,9837036767,3
-Uttar Pradesh,Agra,Hotel Mansingh Palace,1559,398,Mr,Rais,Uddin,FOM,,,,,3
-Uttar Pradesh,Agra,Hotel Taj Resorts,1664,2955,Mr,OP,Yadav,GM,,opyadav.136@gmail.com,,8191007406,3
-Uttar Pradesh,Agra,Hotel Dasaprakash,1345,2710,Mr,K.H.,Rao,,,,,81713 90099,3
-Uttar Pradesh,Allahabad,Hotel Milan Palace,1188,2428,Mr,Manoj,Singh,,,,,9648939584,3
-Uttar Pradesh,Agra,Hotel Utkarsh Vilas,1199,2502,Mr,Banu,Pratap,Executive Reservations,,,75002 97771,94580 50025,3
-Karnataka,Badami,Hotel Badami Court,933,1009,Ms,Indumati,,Blr Office,,,080 25295451/52,,3
-Madhya Pradesh,Bhopal,Jehan Numa Palace Hotel,1658,1455,Mr,Saleem,Quraishi,Sales Manager,,saleem@jnph.in,,99819 97714,3
-Maharashtra,Mumbai,The Waterstones Hotel,1234,2404,Mr,Vinayak,Khule,Duty Manager ,,vinayak.khule@mars-world.com,,9004059509,3
-Maharashtra,Mumbai,The Gordon House,727,2106,Mr,,Rohan,,,,,90040 38142,3
-West Bengal,Darjeeling,Windamere Hotel,1355,1364,Mr,,Aman,Reservations Executive,,,,92333 89790,3
-West Bengal,Darjeeling,Clubside Tours & Travels Pvt Ltd,1727,236,Mr,Pradip,Mitra,,,,,9733053359,3
-Delhi,Delhi,Shanti Home,1354,2820,Mr,Rajat,Verma,Owner,,,,98100 41741,3
-Delhi,Delhi,The Imperial Hotel,1391,116,Ms,Palka,Sehgal,Guest Relations Manager,,psehgal@theimperialindia.com,,,3
-Delhi,Delhi,Ashok Country Resort,1442,2056,Mr,Nanaji,"Razdan,",,,,,98111 12422,3
-Himachal Pradesh,Dharamsala,Serkong House,1613,2863,Ms,,Pema,,,,,98579 57131,3
-Himachal Pradesh,Dharamsala,Norling Guest House Norbulingka,1614,2424,Ms,,Tenzing,,,,,,3
-Delhi,Delhi,The Claridges,1486,1389,Mr,Jai,Nathani,Asst Sales Manager,,,3955 5100,95600 25385,3
-Himachal Pradesh,Dharamsala,Surya McLeod,752,644,Mr,Param,Bamba,Director,,,,98054 33163,3
-Goa,Goa,Yab Yum Beach Resort,1024,2441,Mr,Pal,,Resident Mgr.,,,,90498 83962,3
-Goa,Goa,Panjim Inn,836,2351,Mr,Ajit,Sukhija,,,,,98230 25748,3
-Karnataka,Hampi,Shama's Cottages,1023,2435,Ms,Nishka,,Reservation Mgr,,,,,3
-Karnataka,Hampi,Uramma Heritage Homes,1725,2717,Mr,Parashuram,K,Accountant and Interim Manager,,,,9448284657,3
-Chandigarh,Chandigarh,Hotel Western Court,1701,2397,Mr,Amarjit,Singh,Asst Manager Front Office,,,,98557 88028,3
-Karnataka,Hampi,Hampis Boulders Resort,1771,1989,Ms,,Margaret,,,,,,3
-Tamil Nadu,Madurai,Royal Court,734,2169,Mr,C,Jeevarajan,Sales Mgr,,,9842758087,,3
-Rajasthan,Jaipur,Dera Mandawa,1556,2657,Mr,Sandeep,Kasana,,,,,8562035040,3
-Rajasthan,Jaipur,Samode Haveli,685,624,Mr,E G,George,Reservations,,,,,3
-Rajasthan,Jaipur,Hotel Arya Niwas,615,13,Mr,Puneet,Bansal,,,,,98290 18432,3
-Rajasthan,Jaisalmer,Fort Rajwada,1339,738,Mr,Vijendra,Singh Kumpawar,GM,,,,,3
-Rajasthan,Jaisalmer,Nachana Haveli,1565,1344,Mr,Aasu,Singh,Sales & Reservations,,,,94615 33862,3
-Rajasthan,Jaisalmer,Mandir Palace Hotel,1622,14,Mr,Gopal,Singh Rathore,,,,,,3
-Rajasthan,Karauli,Bhanwar Vilas Palace,1567,395,Mr,Vivasvat,Pal,Owner,,vivasvatpal@gmail.com,,99285 90103,3
-Uttar Pradesh,Kushinagar,The Imperial Kushinagar,1709,2554,Mr,,Sawan,Front Office Manager,,,,95326 96580,3
-Kerala,Kovalam,Thapovan Heritage Home,740,2270,Mr,Andreas,Heitmann,Director,,,,,3
-Kerala,Kovalam,The Travancore Heritage,809,2053,Mr,Madan,Gopal,Manager Sales & Marketing,,,,94477 49390,3
-Tamil Nadu,Chennai,Hotel Marina Towers,646,2166,Mr,Bhumesh K.,Chopra,Sales Director,,,,9841815833,3
-Tamil Nadu,Chennai,Ramada Chennai Egmore,1264,2720,Ms,Jenitha,,,,,,97109 34745,3
-Kerala,Mararikulam,Abad Turtle Beach Resort,1581,2287,Mr,,Jojo,,,,,,3
-Himachal Pradesh,Manali,Johnson Hotel & Jimmy Johnson Lodge,952,2443,Mrs,Bala,Johnson,,,,,98162 73023,3
-Rajasthan,Narlai,Rawla Narlai,1572,404,Mr,Rafi,Siddiqui,Head of Sales - wEST,,,82866 682682,91191 44555,3
-Rajasthan,Nawalgarh,Apani Dhani Eco-Lodge,633,2148,Mr,.,,.,,,,.,3
-Madhya Pradesh,Orchha,Hotel Bundelkhand Riverside,652,2162,Mr,Pankaj,Gairola,Resvn Delhi,,,"011 25885709, 25889516",98103 83711,3
-Rajasthan,Osian,The Camel Camp Osian,1552,1345,Mr,Chauhan,S,,,,,9928009613,3
-Sikkim,Pelling,Newa Regency,650,2226,Mr,Hirak,,GM,,,,9332262583,3
-Rajasthan,Pushkar,Pushkar Palace,1561,16,Mr,Surendra,Singh,Reservations Manager,,,9828285655,9828060601,3
-Rajasthan,Pushkar,Hotel Brahma Horizon,1564,2993,Mr,Vaibhav,Chhatwani,Owner,,,,81070 44285,3
-Uttarakhand,Rishikesh,Himalayan Hideaway,1077,2448,Ms,Moumita,Robinson Paul,Reservations,,,,,3
-Rajasthan,Rohet,Rohet Garh,1348,909,Ms,Manisha,Kumari,Reservations,,,,,3
-Rajasthan,Sawai Madhopur,Ranthambhore Forest Resort,722,2271,Mr,Lalit,Shukla,Manager,,,,99105 13825,3
-Rajasthan,Sawai Madhopur,The Ranthambhore Bagh,1577,2126,Mr,Aditya 'Dicky',Singh,Prop.,,me@dickysingh.com,,94140 30221,3
-Himachal Pradesh,Shimla,Woodville Palace,576,302,Mr,Vijay,Sharma,General Manager,,,,92185 20516,3
-Rajasthan,Udaipur,Udai Kothi,1754,1861,Mr,Anjan,Kumar,Reservations,,,,,3
-Rajasthan,Udaipur,Fateh Garh,1308,2368,Mr,Naresh,Choubisa,,,,,86969 45109,3
-Rajasthan,Udaipur,Ram Pratap Palace,476,2110,Mr,Jitendra,Singh,Proprieter,,,,99288 63254,3
-Kerala,Vandanmedu,Carmelia Haven,1291,661,Mr,Joseph,Rojes,Asst General Manager,,sales@carmeliahaven.com,,9400005314,3
-Haryana,Gurgaon,Royal Retreat,823,2055,Mr,Ahnit,Chhetri,FO,,,,991925033,3
-Rajasthan,Khempur,Ravla Khempur,1327,2202,Mr,Nitin,Kumar,Sales Mngr,,,7568272852,9466114456,3
-Rajasthan,Shahpura,Shahpura Bagh,1367,2272,Mr,Jai,Singh,,,jai@shahpurabagh.com,,99822 26606,3
-Himachal Pradesh,Chamba,Hotel Aroma Palace,905,2420,Mr,Rajinder,Sharma,,,,,94182 23616,3
-Tamil Nadu,Chettinad,The Bangala,1396,2376,Ms,,Unnamalai,,,thebangalamsmm@yahoo.co.in,,,3
-Himachal Pradesh,Shimla,Woodville Palace,645,302,Mr,Divraj,Singh,Exec Director,,(Owner's son),9958440273,98166 44851,4
-Rajasthan,Sawai Madhopur,Ranthambhore Forest Resort,1281,2271,Mr,Vinod Kumar,Yadav,Reservations Manager,,,,93510 06071,4
-Rajasthan,Narlai,Rawla Narlai,1758,404,Mr,Keshav,Pratap Singh,General Manager,,gm@rawlanarlai.com,,,4
-Tamil Nadu,Chennai,Ramada Chennai Egmore,1263,2720,Ms,S.,Manikandan,Asst. Sales Manager,,,,98418 15833,4
-Kerala,Kovalam,The Travancore Heritage,810,2053,Mr,Jagadish B.,Nair,General Manager,,,,94477 59390,4
-Kerala,Kovalam,Thapovan Heritage Home,1294,2270,Mr,Sunil,Kumar,Sales & Reservations,,,,,4
-Rajasthan,Karauli,Bhanwar Vilas Palace,1568,395,Mrs,Anshika,Singh,Owner,,anshikasingh4@gmail.com,,,4
-Rajasthan,Jaisalmer,Nachana Haveli,1566,1344,Ms,Meghna,Singh,Owner,,,,94141 05311,4
-Rajasthan,Jaipur,Dera Mandawa,1557,2657,Mrs,Smriti,Singh,,,,,9818004027,4
-Karnataka,Hampi,Uramma Heritage Homes,1726,2717,Ms,Madhu,Lata,Front desk,,,,9448284658,4
-Karnataka,Hampi,Shama's Cottages,1243,2435,Ms,Puja,Mitra,,,,,9482830688,4
-Goa,Goa,Casa Severina,928,2442,Mr,Joseph,Sequeira,Prop.,,,,93261 10855,4
-Himachal Pradesh,Dharamsala,Surya McLeod,1054,644,Mr,Aman,Sharma,Reservations,,,,97790 70123,4
-Maharashtra,Mumbai,The Gordon House,1524,2106,Mr,Subash,Pawar,Accounts,,subhash.pawar@mars-world.com,,,4
-Madhya Pradesh,Bhopal,Jehan Numa Palace Hotel,1659,1455,Mr,Kamal,Bharati,GM,,,,,4
-Himachal Pradesh,Dharamsala,Surya McLeod,1359,644,Ms,Ankita,Karki,,,,,,5
-Rajasthan,Jodhpur,Ajit Bhawan,1582,15,Mr,Suraj,Panwar,Reservations,,,,,5
-Tamil Nadu,Chennai,Ramada Chennai Egmore,1332,2720,Mr,Manoj,,,,,,97109 39046,5
-Himachal Pradesh,Shimla,Woodville Palace,1309,302,Mr,B.S,Paul,Sales & M Manager,,,,97114 03855,5
-Tamil Nadu,Chennai,Ramada Chennai Egmore,1615,2720,Mr,,Mohan,Assistant Sales Manager,,sales3@ramadachennaiegmore.com,,73587 93624,6
-Rajasthan,Jodhpur,Ajit Bhawan,1583,15,Mr,Sharad,Sharma,Head of Sales,,,9910031451,9599080532,6
-Rajasthan,Jodhpur,Ajit Bhawan,1670,15,Mr,Rafi,Siddiqui,Head of Sales - West,,mumbaisales@ajitbhawan.com,9119144555,8286682682,7
+India,Uttar Pradesh,Agra,Lamba Indian Homestay,490,2127,Col,I. J. S.,Lamba,Prop.,,,,9319842921
+India,Uttar Pradesh,Agra,Hotel Amar Yatri Niwas,552,610,Mr,Mayank,S,FOM,,,,
+India,Uttar Pradesh,Agra,Pushp Villa,567,2192,Mr,Amir,Uddin,GM,,,,9897522527
+India,Uttar Pradesh,Agra,Hotel Royale Residency,620,2223,Mr,Amir,Uddin,Gen Manager,,,,9897522527
+India,Uttar Pradesh,Agra,The Coral House Homestay,1547,2987,Mrs,Pratibha,Talan,,,,,9627208481
+India,Uttar Pradesh,Agra,The Grand Imperial,1760,2208,Ms,Anu,Jain,Manager Reservations,,,,9319842954
+India,Uttar Pradesh,Agra,The Coral Tree Homestay,1449,2882,Mrs,Vandna,Singh,,,,,
+India,Uttar Pradesh,Agra,Four Points by Sheraton Agra,1497,2883,Mr,Zaffar,Khan,Asst. Sales Manager,,,,8193023991
+India,Uttar Pradesh,Agra,Radisson Blu Agra Taj East Gate,1584,2659,Mr,,Sadaf,,,,,
+India,Uttar Pradesh,Agra,The Coral Court Homestay,1517,2960,Mr,Suraj,Talan,Director,,,,9760010354
+India,Uttar Pradesh,Agra,Hotel Atulyaa Taj,1519,2961,Mr,Padam,Chaudhary,Manager Reservations,,,,8954890347
+India,Uttar Pradesh,Agra,Hotel Dasaprakash,1346,2710,Mr,,Akram,,,,,8171390055
+India,Uttar Pradesh,Agra,Hotel Crystal Inn,1213,2504,Mr,Farukh,Khan,GM,,,9258334400,9368658225
+India,Uttar Pradesh,Agra,The Retreat,1248,2707,Mr,Anurag,Yadav,GM,,,,8810022200
+India,Uttar Pradesh,Agra,The Oberoi Amarvilas,1087,1425,Mr,Nigel,Badminton,GM,,,,
+India,Uttar Pradesh,Agra,ITC The Mughal,1088,1288,Mr,Sanjay,Sharma,GM,,,,
+India,Uttar Pradesh,Agra,Hotel Amar,1131,745,Ms,Hina,,Reservations,,,,
+India,Uttar Pradesh,Agra,Hotel Utkarsh Vilas,1144,2502,Mr,Udai,Singh,Reservations,,,,9414023378
+India,Uttar Pradesh,Allahabad,Hotel Kanha Shyam,295,1390,Mr,Rajeev,Shandillya,Manager,,,,9918201932
+India,Uttar Pradesh,Allahabad,Hotel Milan Palace,910,2428,Mr,,Roshan,Reservations,,,,
+India,Uttar Pradesh,Agra,Howard Sarovar Portico,1187,1426,Mr,Sandeep,Jaiswal,GM,,,,
+India,Uttar Pradesh,Agra,Rajmahal Hotel,1196,2584,Ms,Hina,Khan,,,info@rajmahalagra.com,,9368650709
+India,Uttar Pradesh,Allahabad,Yatrik Hotel,969,1391,Ms,Neelam,Varma,GM,,,,
+India,Kerala,Alleppey,Nelpura Heritage Homestay,1789,3224,Mr,, Chackochan,,,,,
+India,Kerala,Alleppey,Vismaya Lake Heritage,1767,2934,Mr,Jan,Arryn,,,,,9744297123
+India,Kerala,Alleppey,Citrus Retreats - Alleppey,1407,2675,Mr,Rosario,Lobo,Sales Executive,,rosario.lobo@citrushotels.in,0832-304 4444,9527805352
+India,Kerala,Alleppey,Casa Del Fauno Boutique Backwater Homestay,1035,2310,Ms,Suni,Eipe,,,,,9895766444
+India,Kerala,Alleppey,Taamara,1119,2586,Ms,Nirmala,Babu,,,,,9388988811
+India,Kerala,Alleppey,Tharavad Heritage Resort,783,2306,Mr,Biju,Mohan,,,,,
+India,Kerala,Alleppey,Raheem Residency,784,2307,Ms,Bibi,Baskin,,,,,
+India,Kerala,Alleppey,Emerald Isle,785,2308,Mr,Vinod,Job,,,,94470 77555,9495777888
+India,Kerala,Alleppey,Akkarakalam Memoirs,786,2309,Mr,Bijil,Thomas,Executive Reservations,,,,9495219110
+India,Gujarat,Ahmedabad,Hotel Host Inn,631,2086,Mr,Daud,Mir,FOM,,,,
+India,Gujarat,Ahmedabad,Cama Hotel,725,1383,Ms,Kamana,Mishra,Reservations,,,,
+India,Gujarat,Ahmedabad,Arts Reverie,1028,2500,Ms,Anupa,Mehta,,,,,
+India,Gujarat,Ahmedabad,Hotel Accolade,1381,2833,Mr,,Manjoor,,,,,9724014740
+India,Gujarat,Ahmedabad,Krios Hotel,1453,2887,Mr,Mehul,Patel,GM,,gm@krioshotel.com,,8758826553
+India,Gujarat,Ahmedabad,Divans Bungalow,1496,2794,Ms,Farzana,Kadri,,,,,
+India,Punjab,Amritsar,Grand Hotel,337,1560,Mr,Sanjay,Kumar,M.D.,,,,9814050447
+India,Punjab,Amritsar,Ritz Plaza,551,646,Mr,Piyush,Kapoor,GM,,,,9872855208
+India,Punjab,Amritsar,Mrs Bhandaris Guesthouse,661,2236,Mr,Kamal,Kishore,Reservations,,,,9815946373
+India,Punjab,Amritsar,Golden Tulip Amritsar,1612,3031,Ms,Neha,Kumar Nayyar,Asst. Front office Manager,,,,9216104007
+India,Uttarakhand,Almora,AyurvAID Kalmatia,1458,2894,Mr,Partha,Banerjee,Manager,,,,9917654303
+India,Gujarat,Ahmedabad,Hotel Centra,492,691,Mr,Rahul,Goel,Manager,,,,
+India,Punjab,Amritsar,M.K. Hotel,756,2290,Ms,Payal,Sharma,Reservations,,,,
+India,Punjab,Amritsar,Ranjit Svaasa,919,2387,Mr,Deepak,,FO,,,,
+India,Karnataka,Badami,Mookambika Deluxe,325,758,Mr,Ramesh,Kunder,MD,,,,
+India,Karnataka,Badami,Hotel Badami Court,698,1009,Mr,Sangamesh,Kadal,Reservations,,,080-25295451/2,
+India,Karnataka,Badami,The Heritage Resort,1609,2750,Mr,,Srinivas,,,,,9845202086
+India,Madhya Pradesh,Bandhavgarh,Tiger Trails,704,356,Mr,Amrut,,Manager,,,,
+India,Madhya Pradesh,Bandhavgarh,Nature Heritage Resort,1130,2217,Ms,Shalini,Shukla,Reservations,,,,9810192192
+India,Madhya Pradesh,Bandhavgarh,Samode Safari Lodge,1171,2616,Mr,,Lodge Manager,,,,,9575956442
+India,Gujarat,Balasinor,Garden Palace,1254,1470,Ms,Aliya,Sultana Babi,,,,,2690267786
+India,Orissa,Bhubaneswar,The Royale Midtown,456,2087,Mr,Debasish,Banerjee,General Manager,,,,9861086299
+India,Orissa,Bhubaneswar,Mayfair Lagoon,1050,1958,Mr,Harihar,Mahapatra,FOM,,,,
+India,Orissa,Bhubaneswar,Hotel Hindustan International,1318,2784,Mr,Chandra Manni,Bittu,Asst F.O Manager,,,,9937290558
+India,Rajasthan,Bhenswara,Ravla Bhenswara,663,934,Mr,Dalvir,Singh,,,,,9414133087
+India,Gujarat,Bhuj,The Kutch Safari Lodge,881,120,Mr,,Vaghela,,,93743 35853,,9825013392
+India,Gujarat,Bhuj,Hotel Prince,888,940,Ms,,Meeta,,,,,9727411441
+India,Gujarat,Bhuj,Hotel Ilark,896,2399,Mr,,Shiraz,F.O. Manager,,,,9879344940
+India,Gujarat,Bhuj,The Bhuj House,1490,2931,Mr,Jehan,Bhujwala,Owner,,,,
+India,Madhya Pradesh,Bhopal,Ivy Suites,824,2338,Mr,Pramod,Sharma,,,,,9826058680
+India,Gujarat,Bhavnagar,Nilambag Palace Hotel,892,1275,Mr,Shakti,Singh,FO Manager,,,,9426272450
+India,Rajasthan,Bijaynagar,Bijay Niwas Palace,1718,3018,Ms,,Neha,,,,,8511198433
+India,Rajasthan,Bijaipur,Castle Bijaipur,635,863,Mr,Shailender,Singh,,,,,9461141153
+India,Rajasthan,Bikaner,Palace View Hotel,128,396,Mr,Vikram,Singh,Prop.,,,,
+India,Rajasthan,Bikaner,Hotel Harasar Haveli,608,2210,Mr,Bilal,,,,,9414009891,9414142318
+India,Rajasthan,Bikaner,Hotel Gaj Kesri,664,2205,Mr,Prashant,,Reservations,,,,
+India,Orissa,Bhubaneswar,The New Marrion Hotel,1446,2257,Mr,Saroj,Das,Manager Sales & Marketing,,,,9238022002
+India,Rajasthan,Bharatpur,Laxmi Vilas Palace,630,860,Mr,Surendra,Singh,Manager,,,,9828334493
+India,Rajasthan,Bharatpur,Birders Inn,716,2241,Mr,Tirath,Singh,M.D.,,,,9414023340
+India,Rajasthan,Bharatpur,Laxmi Niwas Palace,1351,2827,Mr,Surendra,Singh,,,,,9828334493
+India,Rajasthan,Bikaner,Bhairon Vilas,932,1548,Mr,Anuj,Saxena,,,,,9649911064
+India,Rajasthan,Bikaner,Hotel Lallgarh Palace,1269,865,Mr,Amarjeet,Singh,Reservations,,,,9214376006
+India,Rajasthan,Bikaner,Maharaja Ganga Mahal,1280,2739,Mr,Vikram,Singh,Reservations & Sales Manager,,,,9214488611
+India,Rajasthan,Bikaner,Bhanwar Niwas,1352,715,Mr,,Prashant,,,,,
+India,Rajasthan,Bikaner,Narendra Bhawan,1690,3045,Mr,Deepender,Singh Rathore,Sales Executive,,,,
+India,Karnataka,Bangalore,Hotel Ivory Tower ,821,1011,Mr,Krishna,Shantakumar,General Manager,,,,9880444335
+India,Karnataka,Bangalore,Hotel Jayamahal Palace,1401,2749,Mr,Joel,John,Manager Operations,,,,8884065592
+India,Madhya Pradesh,Bhopal,Jehan Numa Retreat,1660,3098,Mr,Saleem,Quraishi,Sales Manager,,saleem@jnph.in,,9981997714
+India,Madhya Pradesh,Bhopal,The Hub Street Hotel,1649,3084,Mr,Rohit,Gurjar,Front Office,,,,9109122244
+India,Karnataka,Bangalore,Laika Boutique Stay,1682,3124,Ms,,Clara,,,,,
+India,Karnataka,Bangalore,The Richmond Hotel,934,2430,Mr,,Guneshekhar,Sales Mgr,,sales.bangalore@theresidency.com,,9901991313
+India,Karnataka,Bangalore,Casa Piccola Cottage,1037,2482,Mrs,Benjamine,Oberoi,Prop.,,,,
+India,Karnataka,Bangalore,Shreyas Retreat,1288,2617,Mr,Nidhi,Sood,,,,,
+India,Bihar,Bodh Gaya,Hotel Tathagat International,999,2254,Mr,Gautam,,Reservations,,,,
+India,Bihar,Bodh Gaya,Hotel Taj Darbar,1100,2552,Mr,Anand Kumar,Azad,Manager,,,,9471002293
+India,Bihar,Bodh Gaya,The Imperial Bodhgaya,1714,2972,Mr,,SANDEEP,,, bodhgaya@hoteltheimperial.com,7004130319,9123268823
+India,Maharashtra,Mumbai,The Taj Mahal Palace,230,711,Ms,Azmin,Siganporia,Corpt. Sales,,azmin.siganporia@tajhotels.com,,
+India,Maharashtra,Mumbai,West End Hotel,232,89,Mr,,Ramani,,,,,
+India,Maharashtra,Mumbai,Sea Palace Hotel,1597,2462,Ms,Komal,Dutt,,,,,9766487680
+India,Maharashtra,Mumbai,The Mirador Hotel,1599,3019,Mr,Sunil,Bhatia,Director Sales & Marketing,,,,9594958888
+India,Maharashtra,Mumbai,The Gordon House,1602,2106,Ms,Nivedeeta,Kurle,Senior Sales Manager,,,,9867505247
+India,Maharashtra,Mumbai,Hotel Suba Palace,1633,3050,Ms,Arfa,Shaikh,Reservations,,,,
+India,Maharashtra,Mumbai,Hotel Suba International,1634,3051,Ms,Deepa,Suryawanshi,Reservations Executive,,,,
+India,Maharashtra,Mumbai,Ibis Mumbai Airport,1210,2679,Ms,Sunayana,Chiplunkar,Sales Executive,,,,9167797744
+India,Maharashtra,Mumbai,Hotel Heritage,309,1878,Mr,Lawrence,Dsouza,FOM,,lawrence@comfortinnheritage.com,,
+India,Maharashtra,Mumbai,Taj Group of Hotels,1380,2832,Ms,Charmaine,Mirza,,,,,
+India,Maharashtra,Mumbai,The Orchid,1522,730,Mr,Ishan,Jadhav,Asst. Sales Manager,,smtravel@orchidhotel.com,,8422939030
+India,Maharashtra,Mumbai,Residency Hotel,883,2379,Mr,R.,Lawrence,,,,,9892520409
+India,Maharashtra,Mumbai,Hotel Godwin,921,2403,Mr,N,Singh,FO,,,,
+India,Maharashtra,Mumbai,Hotel Airport International,986,2477,Mr,,Kiran,Sales Manager,,,,
+India,Rajasthan,Bundi,Ishwari Niwas Palace,327,1343,Mr,Balbhadra,Singh,,,,,9414175851
+India,Rajasthan,Bundi,Badi Haveli,397,2045,Mr,Mukesh,Mehta,,,,,
+India,Rajasthan,Bundi,Hotel Bundi Haveli,1306,2214,Mr,Surendra,,,,,,9929291552
+India,Rajasthan,Bundi,Dev Niwas Palace,1637,3054,Mr,Rajdev,Singh,,,,,
+India,Kerala,Kozhikode,Kadavu,813,1268,Mr,,Ganam,Reservations,,,,9895036104
+India,Kerala,Kozhikode,Harivihar Wellness Retreat,1111,2576,Dr,Sri,Kumar,Managing Partner,,,,
+India,West Bengal,Kolkata,Lytton Hotel,293,5,Mr,Soumen,Ghosh,Reservations,,,,
+India,West Bengal,Kolkata,The Astor,1090,1865,Mr,Pathak,,Reservation,,,,
+India,West Bengal,Kolkata,The Oberoi Grand,1146,796,Mr,Shiraj,Shikhar,Director of Sales & Marketing,,,,
+India,West Bengal,Kolkata,Hotel Kempton,1249,2690,Mr,Sanjay,Sarkar,GM,,gmhotelkempton@yahoo.in,,9830507242
+India,West Bengal,Kolkata,Hotel 233 Park Street,1426,2864,Mr,Balbhadra,Marothia,Manager,,,,9830028570
+India,West Bengal,Kolkata,Ivy House,1506,2954,Ms,Priti,Arora,,,,,9885030830
+India,West Bengal,Kolkata,Calcutta Bungalow,1794,3225,Ms,,Keya,,,,,9163186934
+India,Rajasthan,Chandelao,Chandelao Garh,430,868,Mr,Praduman Singh,Rathore,Prop.,,,,9214403292
+India,Karnataka,Chikmagalur,Flameback Lodges,1795,3238,Ms,Vibhuti,Shah,,,,,9606035220
+India,Rajasthan,Chittaurgarh,Hotel Pratap Palace,579,869,Mr,Rishi,Singh,,,,,9414111510
+India,Rajasthan,Chittaurgarh,The Padmini Haveli Guesthome,1314,2778,Ms,Parvati,Sukhwal,,,,,9414734497
+India,Maharashtra,Mumbai,Hotel Bawa International,758,2292,Mr,Aniket,,Reservations,,,,
+India,Kerala,Kochi,Bolgatty Palace,236,1909,Mr ,Jaibee,Kollarmalil,,,,,
+India,Kerala,Kochi,Sealord Hotel,396,24,Mr,Mathew,George,Reservations,,,,
+India,Kerala,Kochi,The Fort House Hotel,721,2269,Ms,Patricia,Melvin,Reservations,,,,9895596782
+India,Kerala,Kochi,Chiramel Residency,760,1458,Mr,Abraham,Mathew,,,,,9447818930
+India,Kerala,Kochi,Napier House,761,2293,Ms,,Sobin,,,,,
+India,Kerala,Kochi,Forte Kochi,1655,3094,Ms,Rupali,Desai,Sales Manager,,rupali@thepaul.in,,9769739221
+India,Kerala,Kochi,Indy Old Court House,1722,3088,Ms,Sheetal,Pangam,Manager Sales & Marketing,,,,7447401168
+India,Kerala,Kochi,Old Lighthouse Bristow Hotel,1397,2585,Ms,Sheeba,Joseph,Reservations Manager,,,,9946018101
+India,Kerala,Kochi,Fort Manor,1402,2846,Mr,Vicky,Raj,Managing Director,,,,
+India,Kerala,Kochi,Victory Dawn,1403,2847,Mr,Vicky,Raj,Managing Director,,,,
+India,Kerala,Kochi,Ginger House Museum Hotel,1653,3093,Mr,Nishad,O.P.,Manager Sales & Reservations,,,,9544445526
+India,Kerala,Kochi,Rain Tree,974,2456,Mr,Edgar,Pinto,,,,,
+India,Kerala,Kochi,The Tower House,997,2485,Mr,Ajay Singh,Rawat,Reservations,,,,
+India,Kerala,Kochi,Waltons Home Stay,1120,2587,Mr,Christopher,Walton,Owner,,,99951 56161,9249721935
+India,Kerala,Kochi,Hotel Arches,1277,2734,Mr,Rajnish,Manohar,GRE,,,,9447221234
+India,Kerala,Kochi,Le Colonial,769,2298,Ms,Smita,Daravala,,,,,9846126190
+India,Kerala,Kochi,The Malabar House,772,980,Mr,Adrian Philip,D'Souza,Asst Manager - Sales,,,,
+India,Kerala,Kochi,Fort Heritage,782,981,Mr,S.,Issac,Managing Director,,,,
+India,Kerala,Kochi,Old Harbour Hotel,762,2294,Mr,Edgar,Pinto,,,,,9847029000
+India,Kerala,Kochi,The Old Courtyard ,763,1510,Mrs,Rose,B.K.,,,,,
+India,Kerala,Kochi,Koder House,767,2295,Mr,Abilash,Nayar,Manager,,,,
+India,Tamil Nadu,Coonoor,The Tryst,307,949,Dr,A,Rao,,,,,
+India,Uttarakhand,Corbett,Quality Inn Corbett Jungle Resort,9,7,Mr,Arun,Sharma,Director,,,112    ,
+India,Uttarakhand,Corbett,Quality Inn Corbett Jungle Resort,245,7,Mr,M,Laique,Manager Reservations,,mlaique@indiatimes.com,,
+India,Kerala,Kochi,Anchor House,765,2240,Ms,Finitha,,Reservations,,,,
+India,Uttarakhand,Corbett,The Corbett Hideaway,996,1386,Mr,Manoj,Yadav,Sales & Mktg.,,,,
+India,Uttarakhand,Corbett,Vanghat,1801,3244,Ms,Sumantha,Ghosh,,,,97611 66777,9719243939
+India,West Bengal,Darjeeling,Hotel Garuda,211,1562,Mr,Karma,Sherpa,Managing Director,,,54563,
+India,West Bengal,Darjeeling,Clubside Tours & Travels Pvt Ltd,636,236,Mr,Amit,Periwal,,,amit@clubside.in,,9932060980
+India,West Bengal,Darjeeling,Dekeling Hotel,654,2153,Mr,Norbu,Dekeva,MD,,,,9434462408
+India,West Bengal,Darjeeling,Seven Seventeen,668,2194,Mr,Jigme,Bhutia,Manager,,,,
+India,West Bengal,Darjeeling,The Elgin,1015,1365,Mr,Badal,,Manager,,,,
+India,West Bengal,Darjeeling,Dekeling Resort,1110,2573,Mr,Norbu,Dekeva,Prop.,,,,9434462408
+India,West Bengal,Darjeeling,Windamere Hotel,1215,1364,Ms,Shubhana,,Sales & Mkt,,shubhana@windamerehotel.net,,
+India,Himachal Pradesh,Dalhousie,Grand View Hotel,944,642,Mr,Ashish,Chaddha,Owner,,,94180 10659,9816402786
+India,West Bengal,Darjeeling,Glenburn Tea Estate,1790,3226,Mrs,Darlene,Khan,,,,,9830070213
+India,Uttarakhand,Dehra Dun,Shaheen Bagh,953,2406,Mr,Arun,Gupta,Owner,,,,9810146353
+India,Delhi,Delhi,Park Royal,202,1509,Mr,Surojit,Ghose,Manager - Travel Trade,,admin@parkroyal.co.in,622 3344,
+India,Delhi,Delhi,The Maidens Hotel,290,798,Mr,B.S,Parmar,,,,"252 5464, 397 5",38650001
+India,Delhi,Delhi,Jukaso Inn,402,11,Mr,Rajeev,Khanna,,,,,9810001549
+India,Delhi,Delhi,Maharani Guest House,408,2054,Mr,Mahavir ,Singh,FO Manager,,,,
+India,Delhi,Delhi,La Sagrita,419,2062,Mr,Hemant,Ahuja,,,,,
+India,Delhi,Delhi,Bed & Breakfast at Eleven,1667,3112,Mr,Ajay,Anandd,,,ajay.anandd@elevendelhi.com,,9811088966
+India,Delhi,Delhi,G-49 Bed & Breakfast,1668,3113,Mr,,Deepak,,,,,
+India,Delhi,Delhi,Colonel's Retreat,1675,3119,Mrs,,Khanna,,,,,9810265121
+India,Delhi,Delhi,Colonel's Retreat 2,1676,3120,Mrs,,Khanna,,,,,9810265121
+India,Delhi,Delhi,Colonel's Retreat At The Airport,1677,3121,Mrs,,Khanna,,,,,9810265121
+India,Delhi,Delhi,Radisson Blu Marina Hotel,1520,2080,Mr,Sachin,Ansal,Sales Manager,,,sales@rdmardel.com,7290085174
+India,Delhi,Delhi,The Estate Villa,1540,2981,Ms,,Deepika,,,,,9810306211
+India,Delhi,Delhi,The Metropolitan Hotel,1548,2782,Mr,Deepak,Thapa,Sales Manager,,,,8130194147
+India,Delhi,Delhi,The Claridges,1586,1389,Mr,Rahul,Popli,Associate Director of Sales,,,3955 5103,8800654441
+India,Delhi,Delhi,Hotel Connaught Royale,1591,3007,Mr,Gordon,David,Sales Manager,,,,8800777434
+India,Delhi,Delhi,Hotel Palace Heights,1501,2944,Mr,Gerard,Joseph,General Manager,,,,9871253030
+India,Delhi,Delhi,Shanti Home,1510,2820,Ms,Surbhi,Singh,,,,,8285405403
+India,Delhi,Delhi,The Manor,859,2370,Mr,,Anubhav,,,,,
+India,Delhi,Delhi,Casa Dera Mandi,861,2372,Mr,,Sudhir,,,,,9971425558
+India,Delhi,Delhi,The Amber,1160,2631,Mr,Mukesh,Sharma,GM,,,,9818633212
+India,Delhi,Delhi,Hotel Star Grand Villa,1182,2654,Ms,Anjali,Arora,Sales Manager,,,,9560903336
+India,Delhi,Delhi,Hotel Gautam Deluxe,1183,2655,Mr,Ravi,Dar,GM,,,,9958292955
+India,Delhi,Delhi,Hotel Saar Inn,1184,2656,Mr,Jasmeet,Singh,Manager,,,,9873900132
+India,Delhi,Delhi,Hotel Sunstar Heritage,672,2195,Mr,Harendra,Singh,Reservations Incharge,,,,9818515027
+India,Delhi,Delhi,Hotel Sunstar Residency,673,2196,Mr,Harendra,Singh,Reservations Incharge,,,,9818515027
+India,Delhi,Delhi,Hotel Sunstar Grand,674,2246,Mr,Harendra,Singh,Reservations Incharge,,,,9818515027
+India,Delhi,Delhi,Amarya Garden,741,2278,Ms,Jaspreet,,Reservations,,,,
+India,Delhi,Delhi,Amarya Haveli,742,2277,Ms,Jaspreet,,Reservations,,,,
+India,Delhi,Delhi,DolphInn,858,2369,Mr,O B,Lal,GM,,,,9910105544
+India,Delhi,Delhi,Suncourt Hotel Yatri,618,2190,Mr,Harendra,Singh,Reservations Incharge,,,,9818515027
+India,Delhi,Delhi,Hotel Grand Central,624,2230,Mr,Dhiren,Yadhav,Director,,dhirenyadav@rediffmail.com,,9871848754
+India,Delhi,Delhi,Florence Inn,669,2113,Mr,Ashish,Sharma,Reservations,,,98996 28512,9560003372
+India,Delhi,Delhi,Hotel Florence,670,2134,Mr,Ashish,Sharma,Reservations,,,,9899628512
+India,Delhi,Delhi,Hotel Broadway,508,2135,Mr,Zahid,Ali,Front Office Mgr,,,,8920449953
+India,Delhi,Delhi,Lutyens Guest House,529,2163,Ms,Shukla,Nath,Prop.,,,99581 70993,9891386330
+India,Delhi,Delhi,The Park,451,2085,Mr,Vinod,Kargeti,Director Sales,,vkargeti@theparkhotels.com,,9818822556
+India,Delhi,Delhi,Ashu Palace,478,2116,Mr,Niranjan,Kumar,S & M Manager,,,,9312273905
+India,Delhi,Delhi,Ashoka International,482,2121,Mr,Niranjan,Kumar,Mgr Sales&Marketing,,,55188047,9312273905
+India,Delhi,Delhi,Pablas International,485,2123,Mr,Satyam,Das,Manager,,,,9818860201
+India,Delhi,Delhi,Surya Shelter,501,2133,Mr,Amir,Ali,General Manager,,,,9810936867
+India,Delhi,Delhi,Shervani Fortview,429,2072,Mr,Sanjay,Kalra,Manager,,,,
+India,Delhi,Delhi,The Legend Inn,436,2075,Mr,Yogesh,,,,,,
+India,Delhi,Delhi,The Legend Inn,437,2075,Mr ,Vineet,Puri,,,,,
+India,Delhi,Delhi,Solo Victoria,438,2076,Mrs,Seema,Sabharwal,Manager,,,,9312435214
+India,Delhi,Delhi,Hotel Clark International,441,2077,Mr,Pankaj,Badoni,Sr Manager Operation,,clark@bol.net.in,,9811023375
+India,Delhi,Delhi,Crest Inn,442,2078,Mr,Ashwani,Bansal,Manager,,,,9811647495
+India,Rajasthan,Deogarh,Deogarh Mahal,568,401,Mr,Parvez,Parvez,FO,,resv.dgh@deogarh.in,99288 34777,9314420016
+India,Rajasthan,Deogarh,Dev Shree,1574,2997,Mr,Shatrunjai Singh,Chhundawat,Owner,,sjs@devvaas.com,,9929172000
+India,Rajasthan,Dhariyawad,Fort Dhariyawad,600,871,Mr,Bhanu Pratap,Singh,Owner,,,9414296746,9829820516
+India,Madhya Pradesh,Dhar,Jhira Bagh Palace,846,1375,Mr,R.B.,Singh,,,,,
+India,Himachal Pradesh,Dharamsala,Hotel Tibet,394,1501,Ms,Yanchen,Deputy GM,,,,,
+India,Himachal Pradesh,Dharamsala,Hotel Tibet,395,1501,Mr,Dorjee,Gyaltsen,GM,,,,
+India,Himachal Pradesh,Dharamsala,Hotel Natraj,400,2047,Mr,Gaurav,Duggal,,,,,
+India,Himachal Pradesh,Dharamsala,Pema Thang Guesthouse,619,2222,Mr,Tseten,Dorjee,Manager,,,,9418398764
+India,Himachal Pradesh,Dharamsala,Chonor House,626,1863,Mr,Dechen,Namgyal Maja,Manager,,,,9418031468
+India,Himachal Pradesh,Dharamsala,Hotel Anand Palace,738,2084,Mr,Jitender Kumar,Shrivastav,GM,,,9418074111,9816004150
+India,Himachal Pradesh,Dharamsala,Serkong House,1423,2863,Mrs,,Tentso,,,,,
+India,Delhi,Delhi,Bloomrooms,1443,2876,Mr,Premjith,Edassery,,,,,9810814170
+India,Himachal Pradesh,Dharamsala,Surya McLeod,1139,644,Ms,Mansi,,Reservations,,,,9888704453
+India,Himachal Pradesh,Dharamsala,Him View Guesthouse,1221,2681,Mr,Tsering,Dorjee,Manager,,,,9418236603
+India,Himachal Pradesh,Dharamsala,Glenmoor Cottages,950,1413,Mr,Ajai,Singh,Owner,,,,9418025800
+India,Himachal Pradesh,Dharamsala,Hotel Clouds End Villa Cottages,946,1503,Mr,R.,Singh,Manager,,,,
+India,Himachal Pradesh,Dharamsala,Norling Guest House Norbulingka,948,2424,Mr,Dechen,Maja,,,98160 21006,,9418031468
+India,Assam,Dibrugarh,Mancotta Chang Bungalow,1069,2509,Mr,Rishi,Kumar Saraf,Manager Tours,,,,9435130014
+India,Diu,Diu,Hotel Kohinoor,173,776,Mr,Anil,Jaiswal,,,,,9824276660
+India,Diu,Diu,Radhika Beach Resort,893,941,Mr,,Lalit,Reservations Manager,,98244 18555,,9426995475
+India,Rajasthan,Dungarpur,Udai Bilas Palace,853,873,Mr,Kalvendra,Singh,Manager,,,,9314653967
+India,Sikkim,Gangtok,Hidden Forest Retreat,675,2225,Ms,Kesang,Lachungpa,Prop.,,kesang27@gmail.com,9474981367,9434137409
+India,Sikkim,Gangtok,Nor Khill Hotel,1016,1366,Mr,Basu,,Manager,,,,
+India,Sikkim,Gangtok,Hotel Tibet,1034,12,Mr,Tsering,,Reservations,,,,
+India,Sikkim,Gangtok,Netuk House,1212,1367,Mr,Sonam T.,Namgyal,Owner,,,,9593884926
+India,Sikkim,Gangtok,Mintokling Guest House,1231,2686,Ms,Pema,L Pulger,Manager,,,,
+India,Assam,Guwahati,River Breeze Hotel,1043,2514,Mr,Santanu,Choudhury,,,,,9864023613
+India,Assam,Guwahati,Hotel Daaysco Oley Allo,1062,2516,Ms,Mandita,Sarma,Reservations,,,,9706098003
+India,Assam,Guwahati,Dynasty Hotel,1347,272,Mr,Sourav,Majumdar,Sales & Marketing Executive,,,,7578009372
+India,Assam,Guwahati,Baruah Bhavan,1375,2828,Mr,D,Sarkar,Manager,,,,9954024165
+India,Rajasthan,Ghanerao,Bagha-ka-Bagh,1025,2498,Mr,Shakti,Singh,Proprietor,,,,9799391882
+India,Rajasthan,Ghanerao,Ghanerao Royal Castle,1026,874,Mr,Himmat,Singh,Proprietor,,,,
+India,Goa,Goa,Albuquerque Guest House,33,96,Mr,Tony,Albuquerque,,,,"27 6804, 27 6805",
+India,Goa,Goa,Ronil Beach Resort,77,291,Mr,Austin,Fernandes,Reservation Manager,,ronil_goa@sify.com,"276 101, 276 099, 275 033",
+India,Goa,Goa,Shalala Residency,161,731,Mr,,Shakur,,,,275 411,
+India,Goa,Goa,Hotel Carys ,206,1547,Mr,Cary,Sequeira,,,,,
+India,Goa,Goa,Ronil Beach Resort,244,291,Mr,Rui,de Deus,,,,,9822100035
+India,Goa,Goa,Agonda Serenity Resort,1717,3151,Ms,,Divya,,,,,
+India,Goa,Goa,The Cape Goa,1641,3060,Mr,John,Fernandes,,,,,
+India,Goa,Goa,Agonda Cottages,1642,3057,Mr,John,Fernandes,,,,,
+India,Goa,Goa,Cinnamon,1643,3058,Mr,John,Fernandes,,,,,
+India,Goa,Goa,Dwarka Eco Beach Resort,1673,2354,Ms,,Shilpika,,,,,8551056490
+India,Goa,Goa,Casa Susegad,1678,3122,Mr,,Norman,,,,,9850473174
+India,Goa,Goa,Agonda Villas,1638,3059,Mr,John,Fernandes,,,,,
+India,Goa,Goa,Agonda Beach Resort,1639,3055,Mr,John,Fernandes,,,,,
+India,Goa,Goa,Agonda White Sand,1640,3056,Mr,John,Fernandes,,,,,
+India,Goa,Goa,The Bay Agonda,1505,2953,Mr,Shaan,Jaffer,Owner,,,,9823548277
+India,Goa,Goa,Mangaal Farm Homestay,1538,2980,Ms,Sandra,,,,,0832 2464001,
+India,Goa,Goa,Ahilya By-the-Sea,1444,2877,Ms,Smita,Daruvala,Manager,,,8459386478,9846126190
+India,Goa,Goa,La Maison Fontainhas,1467,2911,Mr,Luis,da Silva,Director,,,,
+India,Goa,Goa,Aashyana Cottages,1472,2922,Mr,Pradeep,Sethi,Manager,,,,9822488672
+India,Goa,Goa,Alila Diwa Goa,1170,2635,Ms,Smita,Patil,Sales Co-ordinator,,,,
+India,Goa,Goa,Wildflower Villas,1177,2619,Mr,Amol,Navelkar,,,,,9822126929
+India,Goa,Goa,Marquis Beach Resort,1250,743,Mr,Ashvek,Sirsat,Sales,,,,9011029511
+India,Goa,Goa,Hacienda de Goa Resort,1256,2713,Mr,Koruth,Thomas,M.D.,,,,9822161905
+India,Goa,Goa,Santana Beach Resort,1257,2714,Mr,Verner,Da Costa Frias,Partner,,,,9326102242
+India,Goa,Goa,Sonesta Inns,1343,2823,Ms,Detessa,,,,,,
+India,Goa,Goa,Panjim Inn,1588,2351,Ms,Divya,Gawas,,,,,7722039306
+India,Goa,Goa,Summertime,1592,3008,Ms,,Nora,,,,,7350082224
+India,Goa,Goa,Citrus Hotel,1624,3036,Mr,Sandeep,Chandan,General Manager,,,,8554999489
+India,Goa,Goa,Beach Street Eco Resort & Spa,1635,3053,Mr,Gopal,Kaushik,Partner,,,,9873233331
+India,Goa,Goa,Hotel Bougainvillea,983,1897,Ms,Cecilia,,Res,,,,
+India,Goa,Goa,Yab Yum Beach Resort,1010,2441,Mr,Joe,,Res.,,,,
+India,Goa,Goa,Otter Creek,838,2019,Ms,Sandra,Dmello,,,,,
+India,Goa,Goa,Marbella Guesthouse,840,2353,Mr,,Dian,,,,,9822100811
+India,Goa,Goa,Fort Tiracol Heritage Hotel,843,2356,Mr,Lumen,D'Souza,Reservations Manager,,,,2366227631
+India,Goa,Goa,Olaulim Backyards,1086,2546,Mrs,Pirkko,Fernandes,,,,,9326017731
+India,Goa,Goa,La Paz Gardens,902,210,Ms,Victoria,,Reservations,,,,
+India,Goa,Goa,Kerkar Retreat,737,2273,Ms,Carmin,,Reservations,,,,
+India,Goa,Goa,Panchavatti,833,2350,Ms,Isla ‘Loulou’,Van Damme,,,,,9822580632
+India,Goa,Goa,Pousada Tauma,834,1355,Mr,Neville,Proenca,,,,,
+India,Goa,Goa,Nilaya Hermitage,835,1353,Ms,Claudia,Ajwani,,,,,
+India,Goa,Goa,Elsewhere,837,2018,Ms,Sandra,Dmello,,,,,
+India,Goa,Goa,Presa di Goa,541,2108,Ms,Cynthia,,Res,,,,
+India,Goa,Goa,Wildernest,555,2181,Mr,Prasad,,Reservations In Charge,,,(0831) 4207954,9341112721
+India,Goa,Goa,Wildernest,572,2181,Mr,Sudhir,Naik,G M,,,9341108838,
+India,Goa,Goa,Wildernest,573,2181,Ms,Kunda,,Receptionist,,,,9881402665
+India,Goa,Goa,Yoga Magic Canvas Ecotel,641,2242,Mr,Phil,Dane,Proprietor,,,,9370565717
+India,Goa,Goa,Xavier Beach Resort,284,737,Ms,Antonette,Xaviers,,,,,9823079559
+India,Goa,Goa,Lui Beach Resort,288,1963,Ms,Linda,Fernandes,,,,,
+India,Goa,Goa,Oriental Villa,339,2000,Mr,Henry,Pfeifer,Proprietor,,,,9822121549
+India,Goa,Goa,Melodious Waves,351,2011,Mr,N,Carvalho,Prop.,,,241 7421 (R),
+India,Goa,Goa,Vila Goesa Resort,371,2026,Mr,Ignatius,FO,,,,,
+India,Karnataka,Gokarna,SwaSwara,1414,2331,Mr,,Chimmay,,,,,
+India,Karnataka,Gokarna,Kahani Paradise,1671,3115,Ms,Violet,Mascarenhas,Reservations Manager,,,,
+India,Gujarat,Gondal,Orchard Palace,890,777,Mr,,Paarth,Manager,,,,9924013416
+India,Karnataka,Hampi,Shama's Cottages,913,2435,Ms,Shama,Pawar,,,,9268488499,9480546362
+India,Karnataka,Hampi,Hampis Boulders Resort,917,1989,Mr,Venkat,Raj,Reservations,,,,9448034202
+India,Karnataka,Hampi,Uramma Heritage Homes,1361,2717,Mr,,Siraj,Manager,,,,9449972230
+India,Uttarakhand,Haridwar,Hotel Ganga Lahari,1227,2685,Mr,,Manager,,,,,9412074417
+India,Uttarakhand,Haridwar,Devnadi - The Heritage Hotel,1625,3037,Mr,Rohan,Saigal,Managing Director,,,,9897899207
+India,Karnataka,Hassan,Hoysala Village Resort,1680,1240,Ms,Meena,R,,,marketing1@hoysalavillageresorts.com,95919 96525,9591077400
+India,Madhya Pradesh,Khajuraho,Khajuraho Ashok,1,50, , , ,,,,"44 024, 44 042, 44 361, 44 336",
+India,Madhya Pradesh,Khajuraho,Hotel Harmony,226,1888,Mr,Ganga,Prasad,,,,,
+India,Madhya Pradesh,Khajuraho,Hotel Siddharth,691,1887,Mr,D,Patel,Manager,,,,
+India,Madhya Pradesh,Khajuraho,Usha Bundela,1055,2103,Mr,Sharad,Raina,FO Mgr,,,,9755129010
+India,Madhya Pradesh,Khajuraho,GW Greenwood Art Otel,1167,2633,Mr,Debabrata,Dutta,,,,,
+India,Madhya Pradesh,Khajuraho,Ramada Khajuraho,1208,2638,Mr,Gaurav,Verma,Sales Manager,,,,9971466660
+India,Madhya Pradesh,Khajuraho,Hammeer Garh,1266,2724,Mr,Shailaish,Pratap Singh,,,,99937 70008,9407205737
+India,Madhya Pradesh,Khajuraho,Hotel Chandela,1499,811,Mr,Ishaq,Khan,,,,74155 25146,9425304979
+India,Karnataka,Hospet,Hotel Priyadarshini,376,757,Ms,Metilda,,Reservations,,,,
+India,Karnataka,Hospet,Krishna Palace,1074,2434,Mr,Kiran,Kumar,Manager,,,,9901912127
+India,Karnataka,Hospet,Hotel Hampi International,1245,2702,Mr,Piyush,Parmar,GM,,,,9243161111
+India,Madhya Pradesh,Indore,Rashid Kothi,827,2339,Mr,Ashish,Dubey,,,,,
+India,Madhya Pradesh,Khajuraho,Golden Tulip Khajuraho,1536,2978,Mr,Deepak,Kumar,Asst. front office Manager,,,,9516617502
+India,Karnataka,Hospet,Hotel Malligi,184,1243,Mr,P.D.,Gautam,Managing Director,,,28 101,
+India,West Bengal,Bagdogra,Orbit Hotel,1237,2689,Mr,,Manager,,,,,9735000595
+India,Ladakh,Leh,Omasila,1113,2581,Mr,Nawang,Tshering,Manager,,manager@hotelomasila.com,,9419178815
+India,Ladakh,Leh,Nimmu House,1802,3246,Mr,Patrice,Avossa,GM,,,,
+India,Tamil Nadu,Madurai,Best Western Germanus,346,1445,Mr,R,Vijayaraghavan,,,,,9843238200
+India,Tamil Nadu,Madurai,Hotel Supreme,350,148,Mr,,Director,,,,,9842190090
+India,Tamil Nadu,Madurai,The Madurai Residency,428,2071,Mr,P K,Chandrashekar,Sales & Marketing,,,,9842923431
+India,Tamil Nadu,Madurai,JC Residency,1746,3193,Mr,A. Azees,Basha,Sales & Marketing Manager,,,,7373737308
+India,Tamil Nadu,Madurai,Royal Court,1295,2169,Ms,N,Brindha,Reservations,,,,
+India,Maharashtra,Aurangabad,Hotel Green Olive,1689,3130,Mr,Umesh,Nalawade,Front Office Executive,,,,
+India,Madhya Pradesh,Jabalpur,Narmada Jacksons,1135,857,Mr,Arun,Sarkar,"Manager, Front Office",,,,7828444499
+India,Rajasthan,Jaipur,Hotel Madhuban,369,2024,Mr,Digvijay Singh,Patan,Prop.,,,,9829063237
+India,Rajasthan,Jaipur,Mandawa Haveli,1800,1858,Mr,Anngad,Mandawa,Reservations,,anngadmandawa@castlemandawa.com,,9828016161
+India,Rajasthan,Jaipur,Khas Bagh,1761,3202,Mr,Biplob,Ghosh,,,,,
+India,Rajasthan,Jaipur,Generals Retreat,1393,2845,Ms,Ketaki,Bist,,,,,9828432250
+India,Rajasthan,Jaipur,Rajmahal Palace Hotel,1180,854,Mr,Rakesh,Katoch,CEO,,,,
+India,Rajasthan,Jaipur,Dera Mandawa,1185,2657,Mr,Durga,Singh,,,Singhdurga2002@yahoo.co.in,,9414079934
+India,Rajasthan,Jaipur,Rambagh Palace ,1282,94,Mr,Pradeep Kumar,Ludhani,Sales Manager,,pradeep.ludhani@tajhotels.com,,9251088859
+India,Rajasthan,Jaipur,Naila Bagh Palace,728,2248,Ms,Palavi,Naila,,,,,
+India,Rajasthan,Jaipur,Hotel Diggi Palace,862,2375,Mr,Shakti,Singh,Director,,,,9414066085
+India,Rajasthan,Jaipur,Le Meridien,1124,2590,Mr,Anil,Sharma,,,,,
+India,Rajasthan,Jaipur,Devraj Niwas,1141,2606,Mr,Manish,Mathur,Manager,,,,9001277888
+India,Rajasthan,Jaipur,Hotel Mansingh ,1151,1540,Mr,Bharat,Aggarwal,,,,,9810006533
+India,Rajasthan,Jaipur,Jai Niwas,680,1983,Mr,Chetan,Bansal,Reservations,,,,
+India,Rajasthan,Jaipur,Tara Niwas,681,2124,Mr,Chetan,Bansal,Reservations,,,,
+India,Rajasthan,Jaipur,Om Niwas,682,2184,Mr,Chetan,Bansal,Reservations,,,,
+India,Rajasthan,Jaipur,Hari Mahal Palace,683,2259,Mr,Pratap,Singh,,,,,
+India,Rajasthan,Jaipur,Narain Niwas Palace,684,1856,Mr,Gajendra,Singh,Reservations,,,,
+India,Jharkhand,Ranchi,Chanakya BNR Hotel,1104,2555,Mr,Rupesh,,Exe. F & B,,,,99436280
+India,Maharashtra,Aurangabad,Hotel Amarpreet,460,2090,Mr,Munawar,Baig,Front Office Manager,,,,9922996178
+India,Rajasthan,Jaipur,Loharu House,1161,2632,Mr,,Siraj,,,,,9414962062
+India,Rajasthan,Jaipur,Samode Haveli,589,624,Mr,Pawan,Singh,Manager Reservations,,pawan@samode.com,,9828584454
+India,Rajasthan,Jaipur,Alsisar Haveli,678,92,Mr,Santosh,,Sales & Mrkt,,santosh@alsisar.com,,9828077864
+India,Rajasthan,Jaipur,Hotel Arya Niwas,679,13,Mr,Shyam,Singh,Reservations,,,,9829367879
+India,Rajasthan,Jaipur,The Raj Palace,452,877,Ms,Ankur,Rara,AGM Sales&Marketing,,,,9314402000
+India,Rajasthan,Jaipur,Bissau Palace,496,875,Mr,,Sandeep,,,,,9828156563
+India,Rajasthan,Jaipur,Dera Rawatsar,498,2130,Mrs,Mandvi,Rathore,Prop.,,,,9829172595
+India,Rajasthan,Jaipur,Karnot Mahal,548,2176,Mr,Giriraj Singh,Ranawat,Owner,,,,9352905735
+India,Gujarat,Jambughoda,Jambughoda Palace,1255,2712,Mr,,Manager,,,98250 41215,94273 01641,9427655944
+India,Rajasthan,Jaisalmer,Royal Desert Safaries Pvt. Ltd.,45,189,Mr,Jeetendra,Singh Rathore,,,jeetu.safaries@gndel.global.net.in,,9414149599
+India,Rajasthan,Jaisalmer,Saroj Palace,130,399,Mr,Praveen,Bhatia,,,,50 016,
+India,Rajasthan,Jaisalmer,Sonaar Haveli,1693,3109,Mr,Mahaveer,Singh,Manager,,,,9351137576
+India,Rajasthan,Jaisalmer,Suryagarh,1721,3046,Mr,Sheikh,Rahaman,Director Sales and Marketing,,sheikh.rahaman@themrsgroup.com,78271 51151,9711596883
+India,Rajasthan,Jaisalmer,1st Gate Home Fusion,1762,3203,Mr,Manoj,Vyas,,,,,
+India,Rajasthan,Jaisalmer,Deoki Niwas Palace,473,1563,Mr,Hameed,,FO Manager,,,9214838731,9828809900
+India,Rajasthan,Jaisalmer,Nachana Haveli,1095,1344,Mr,Kesri,Singh,Sales & reservations,,,,9414150617
+India,Rajasthan,Jaisalmer,Hotel Fifu,1217,2445,Mr,Antrik,,,,,,
+India,Rajasthan,Jaisalmer,Hotel Priya,655,2249,Mr,Mayank, Bhatia,Manager,,,,9414150157
+India,Rajasthan,Jaisalmer,Royal Desert Safaries Pvt. Ltd.,549,189,Mr,P P,Mishra,,,,,9414149636
+India,Rajasthan,Jaisalmer,Himmatgarh Palace,550,1890,Mr,Tulsi,Dharan,Reservations,,,,9413774134
+India,Rajasthan,Jaisalmer,Jawahar Niwas Palace,566,714,Mr,Sunil,Nair,Reservations Mgr,,,,
+India,Rajasthan,Jaisalmer,Hotel Pithla Haveli,621,2221,Mr,Mahaveer,Singh,Prop.,,,,9982088568
+India,Rajasthan,Jaisalmer,Hotel Victoria,638,2238,Mr,Pankaj,Purohit,Proprietor,,,9351616669,9374757770
+India,Rajasthan,Jodhpur,Madho Niwas Hotel,420,1881,Mr,Shiv Pratap,Singh,Prop,,,,9414133087
+India,Rajasthan,Jodhpur,Bhev Vilas Hotel,464,2094,Mr,Rishiraj,Singh,,,,,
+India,Rajasthan,Jodhpur,Karni Bhawan,477,205,Mr,Vikramaditya,Singh,,,,,9829023325
+India,Rajasthan,Jodhpur,Devi Bhawan,502,1279,Mr,Rakesh,Singh,Manager,,,99298 49000,9828035359
+India,Rajasthan,Jodhpur,Pal Haveli,525,2147,Mr,Manoj,Chhaya,Delhi office,,,96021 03847,
+India,Rajasthan,Jodhpur,Hotel Haveli Inn Pal,1265,2722,Mr,Pushpendra,Rathore,Reservations Supervisor,,,98280 77510,9414145479
+India,Rajasthan,Jodhpur,Jodhana Heritage Resorts Pvt. Ltd,1329,2804,Mr,Devendra,Singh,,,,,
+India,Rajasthan,Jodhpur,Ratan Vilas,1363,884,Mr,Harish,Rathore,Reservations,,,,
+India,Rajasthan,Jodhpur,Karni Bhawan,602,205,Mr,Victor,Bhandari,Res,,,,9214988092
+India,Rajasthan,Jodhpur,Raas Jodhpur,1117,2578,Mr,Lokesh,Thakur,Manager-Reservation & Sales,,,,9587022952
+India,Rajasthan,Jodhpur,Inn Season,1198,1262,Mr,Veer Vijay,Singh,Owner,,,,
+India,Orissa,Jeypore,Hotel Hello Jeypore,267,1549,Mr,Amol,Agrawal,Proprietor,,hellojeypore@rediffmail.com,,9437032440
+India,Orissa,Jeypore,Hotel Hello Jeypore,268,1549,Mr,,Nagesh,Manager,,,,
+India,Himachal Pradesh,Jispa,Padma Lodge,1045,2515,Ms,Goldy,,,,,,9418719313
+India,Himachal Pradesh,Jispa,Hotel Ibex,1418,1507,Mr,,Manager,,,,,9816036860
+India,West Bengal,Kalimpong,Silver Oaks,1017,1368,Mr,Sushanta,,Manager,,,,
+India,West Bengal,Kalimpong,Himalayan Hotel,1341,1369,Mr,Nigam,Basnet,FO,,,,
+India,Kerala,Kalpetta,Silver Woods Resort,1205,2669,Mr,John,Abraham,,,,,9446053077
+India,Madhya Pradesh,Kanha,Kipling Camp,133,609,Mr,Bob,Wright,,,,77 219,
+India,Madhya Pradesh,Kanha,Van Vilas,1138,2599,Mr,Sandeep,Shrivas,Manager,,,,9981173151
+India,Madhya Pradesh,Kanha,Kanha Earth Lodge,1251,2700,Ms,Shalini,Shukla,,,,,9810192192
+India,Madhya Pradesh,Kanha,Courtyard House,1276,2733,Ms,Shalini,Shukla,,,,,9810192192
+India,Madhya Pradesh,Kanha,Kanha Village Eco Resort,1405,2848,Mr,,Kamal,,,,,9575800584
+India,Assam,Jorhat,Thengal Manor,1320,2510,Mrs,Uttara,Gogoi,,,,,
+India,Assam,Jorhat,Banyan Grove,1428,2866,Mr,Uttara,Gogoi,,,,,9435514177
+India,Gujarat,Junagadh,Hotel Indralok,1253,2711,Mr,,Manager,,,,,9601285800
+India,Rajasthan,Junia,Amar Bagh,185,1263,Th,Kishore ,Singhji,Director,,,88 622,
+India,West Bengal,Kalimpong,Gurudongma House,224,1505,Mr,Peter,Lobo,,,,59146,
+India,West Bengal,Kalimpong,Holumba Haven,689,2224,Mrs,Thinlay,Pempahishey,Prop.,,,,
+India,Madhya Pradesh,Kanha,Flame Of The Forest,1687,3129,Mr,Karan,Modi,,,,,
+India,Chhattisgarh,Kanker,Kanker Palace ,198,1379,Mr,Surya Pratap ,Deo,,,,22 005,
+India,Uttar Pradesh,Kanpur,The Landmark,1134,2596,Ms,,Gayatri,Reservations,,,,
+India,Assam,Kaziranga,Diphlu River Lodge,1063,2513,Mr,Bijoy,Baruah,Manager,,,,9435146414
+India,Assam,Kaziranga,Bonhabie Resort,1064,2520,Mr,,Manager,,,,,9435504268
+India,Assam,Kaziranga,"Infinity Resort, Kaziranga",1732,3180,Mr,J. K.,Singh,Manager,,,jksingh@infinityresorts.com,9650193664
+India,Rajasthan,Khejarla,Fort Khejarla,692,888,Mr,L.R.,Meena,Manager Operations,,,,9829096866
+India,Rajasthan,Kishangarh,Phool Mahal Palace,854,890,Mr,D.D.,Purohit,Manager,,,,9829547405
+India,Tamil Nadu,Kodaikanal,Elephant Valley Eco Farm Hotel,877,2392,Mr,Stephen,Fayon,,,,,
+India,Nagaland,Kohima,Greenwood Villa,1422,2829,Mrs,Nino,Zhasa,,,,,9856343037
+India,Rajasthan,Kota,Sukhdham Kothi,238,892,Mr,Harshvardhan, Singh,,,,,
+India,Kerala,Kottayam,Anjali Hotel,176,791,Mr,Thomas,Dominic,Excutive Director,,,563 661 (8 lines),
+India,Kerala,Kovalam,Thapovan Heritage Home,1699,2270,Mr,,Sreekanth,,,,,
+India,Kerala,Kovalam,The Travancore Heritage,1740,2053,Mr,Rathindran,V,Reservations Manager,,marketingmgr1@thejoys.in,,9447763394
+India,Uttar Pradesh,Kuchesar,The Mud Fort,474,923,Mr,Vikramjit,Singh,,,,,
+India,Kerala,Kumarakom,Philip Kuttys Farm,789,2313,Mrs,Anu,Mathew,,,,,9895075130
+India,Rajasthan,Kumbhalgarh,The Aodhi,1573,895,Mr,Ummed Singh,Karnot,Manager,,ummedsingh.karnot@hrhhotels.com,,9928015305
+India,Tamil Nadu,Kumbakonam,Indeco Swamimalai (Anandham),1605,1443,Ms,,Mahalakhsmi,Reservations,,,94444 10394,9444410396
+India,West Bengal,Kurseong,Cochrane Place,1218,2492,Mr,Sanjeev,Lama,,,,,9932035660
+India,Uttar Pradesh,Kushinagar,The Imperial Kushinagar,1103,2554,Mr,,Rajeev,Sales & Marketing,,,,9810204666
+India,Kerala,Kovalam,Hawah Beach Resort,658,2250,Mr,Sanal,,FO Manager,,,,9895588056
+India,Kerala,Kovalam,Pappukutty Beach Resort,697,752,Mr,Nadarajan,,Prop.,,,,
+India,Uttar Pradesh,Lucknow,Hotel Sagar International,296,1869,mr ,g ,gill,,,,,
+India,Uttar Pradesh,Lucknow,Capoors Hotel Bar & Restaurant,911,2429,Mr,S.K.,Srivastava,,,,,
+India,Uttar Pradesh,Lucknow,Comfort Inn Lucknow,940,2451,Mr,Javed,Khan,Sales Manager,,,,
+India,Uttar Pradesh,Lucknow,Hotel Clarks Avadh,970,1392,Mr,P.L.,Gupta,Sales Executive,,,,9415019657
+India,Uttar Pradesh,Lucknow,Lebua Lucknow,1724,3176,Mr,Shariq,Khan,Duty Manager,,reservationslucknow@lebua.com,,7081000347
+India,Rajasthan,Luni,Fort Chanwa,1038,898,Ms,Apeksha,Rajpurohit,Manager Reservations,,,,
+India,Rajasthan,Jodhpur,Krishna Prakash Heritage Haveli,563,2189,Mr,Nikhil,Mathur,Director,,,"98292 41547, 99288 19979",9314673457
+India,Rajasthan,Jodhpur,Haveli Guest house,564,2191,Mr,Upindra,Shrimali,9414 295539,,,,
+India,Tamil Nadu,Chennai,Breeze Hotel,972,1442,Mr,Jai,Anand,Front Office Mgr,,,,
+India,Karnataka,Madikeri,"Old Kent Resorts & Spa, Coorg",1737,3186,Mr,Binu,Rajendra,Manager - Reservations & Guest Relations,,binu@oldkentestates.com,,9789896454
+India,Tamil Nadu,Mamallapuram,Ideal Beach Resort,262,28,Mr,Krishnan,Mathy,Manager,,,,
+India,Tamil Nadu,Mamallapuram,Hotel Sea Breeze,556,2183,Ms,Janani,,Reservations,,,,9952990700
+India,Tamil Nadu,Mamallapuram,Radisson Blu Resort Temple Bay,1400,2729,Mr,Chandran,,,,,,
+India,Tamil Nadu,Mamallapuram,Grande Bay Resort & Spa,1741,3190,Ms,,Manikandam,,,,,9840260672
+India,Tamil Nadu,Mamallapuram,Taj Fisherman's Cove Resort & Spa,1774,829,Mr,Sankar,Esakkimuthu,Revenue Manager,,,,8122074308
+India,Tamil Nadu,Mamallapuram,Chariot Beach Resort,1775,3079,Mr,Subbiyah,Babu,Operations Manager,,,,9444992702
+India,Madhya Pradesh,Maheshwar,Ahilya Fort,829,2340,Mr,S.J.,Rana,,,9329251881,,9893057705
+India,Rajasthan,Mandawa,Castle Mandawa,54,212,Mr,Anngad,Mandawa,Reservations,,anngadmandawa@castlemandawa.com,,9828016161
+India,Rajasthan,Mandawa,Mandawa Haveli,433,1870,Mr,Dinesh,Dhabhai,Prop.,,,9413366546,9829193798
+India,Rajasthan,Mandawa,Desert Resort,1014,53,Mr,Anngad,Mandawa,Reservations,,,,9828016161
+India,Rajasthan,Mandawa,Vivaana Culture Hotel,1370,2741,Mr,,General Manager,,,,,9929069002
+India,Gujarat,Mandvi,Beach Camp,889,2364,Mr,Rajendra,Singh,,,,,9879013118
+India,Kerala,Mararikulam,Arakal Heritage,777,2302,Mr,Abi,Arakal,,,,,9847268661
+India,Kerala,Mararikulam,A Beach Symphony,779,2304,Mr,Jan,Arryn,,,,,9744297123
+India,Tamil Nadu,Chennai,Taj Connemara,1773,837,Mr,Deepak,Kumar,Sales Executive,,,,9874149899
+India,Karnataka,Madikeri,Capitol Village,359,1469,Mr,Baskar,Reservations,,,,,
+India,Karnataka,Madikeri,Victorian Verandaz,1683,3125,Mr,Tim,Thimaiah,,,,,9448059850
+India,Kerala,Mararikulam,Abad Turtle Beach Resort,1203,2287,Mr,Sreejith,Chandra,Resort Manager,,,,9895890776
+India,Kerala,Mararikulam,OG's Beach,1325,2797,Mr,Jithin,Babu,,,,,8589975890
+India,Kerala,Mararikulam,Heritage Marari,1544,2983,Mr,Dilip Kumar,Vasudevan,,,,,
+India,Tamil Nadu,Chennai,Ramada Chennai Egmore,1750,2720,Mr,Syed,Jawdath,Reservations Manager,,resvmgr@ramadachennaiegmore.com,,9840837252
+India,Kerala,Mararikulam,Marari Sands Beach Resort,1617,2928,Mr,Nishchay,Sharma,Assts Manager Business Development,,,,9899080476
+India,Kerala,Mararikulam,Marari Villas,1769,3212,Mr,Rupert,Evers,,,,,
+India,Sikkim,Martam,Martam Village Resort,1181,1370,Ms,Shenphen,Topden,,,,,7550801542
+India,Sikkim,Martam,Martam Retreat,1482,2926,Mr,Kunzang,Topden,,,,78729 96624,9434923314
+India,Himachal Pradesh,Manali,Banon Resorts,951,303,Mr,Sanjeev,Chandel,,,92185 00553,,9418063591
+India,Kerala,Munnar,Royal Retreat,328,997,Mr,Narayanankutty,Velloth (FO),,,,,
+India,Kerala,Munnar,Edassery Eastend,329,998,Mr,Raesh,Nair,GM,,,,
+India,Kerala,Munnar,Olive Brook,793,2317,Mr,Manoj,Joseph,,,,,9447799458
+India,Kerala,Munnar,Rose Gardens Homestay,794,2318,Mr,Tomy,Joseph,,,,,9447378524
+India,Kerala,Munnar,Casa Del Fauno Boutique Homestay on the Hills,1290,2322,Mrs,Suni,Elizabeth,,,,,
+India,Kerala,Munnar,The Tall Trees Resort,1459,2896,Mr,Jijo,John,F.O. Manager,,,,
+India,Uttarakhand,Mussoorie,Savoy Hotel,58,217,Mr,Ajit,Sharma,General Manager,,,"632 120, 632 010",
+India,Uttarakhand,Mussoorie,Hotel Kasmanda Palace,941,1394,Mr,Navneer,Chandel,GM,,,,9917435001
+India,Uttarakhand,Mussoorie,Padmini Nivas,958,2421,Mr,Vikram,Zutshi,Manager,,,,9358111498
+India,Uttarakhand,Mussoorie,Karma Vilas,1080,2541,Mr,Gaurav,Tomar,,,,,9891232322
+India,Kerala,Muvattupuzha,Haritha Farms,181,982,Mrs ,,Mathew,,,harithafarms@hotmail.com  haritha@satyam.net.in  h,260 216,
+India,Karnataka,Mysore,Hotel Siddharta,320,756,Mr,,Manager,,,siddhartahotel@hotmail.com,,
+India,Karnataka,Mysore,Sandesh The Prince,334,1994,Mr,Ramesh K,,GM,,,,
+India,Karnataka,Mysore,The Viceroy,623,1257,Ms,Reetha,,Manager,,,,9845317149
+India,Karnataka,Mysore,Crystal Paark Inn,1040,2508,Mr,Vaidehi,R,Manager Reservations/ Sales,,,,
+India,Karnataka,Mysore,Royal Orchid Metropole Hotel,1411,2415,Mr,Harish,Kumar,Lobby Manager,,,99020 00142,7760126126
+India,Himachal Pradesh,Manali,Urvashi’s Retreat,1688,3131,Ms,Urvashi,Singh,,,urvashi@urvashisretreat.com,98293 08772,9958011862
+India,Himachal Pradesh,Manali,The Lama House,1691,3134,Ms,Pavane,Mann,,,,,9810184360
+India,Himachal Pradesh,Manali,Casa Bella Vista,1692,3135,Ms,Pavane,Mann,,,,,9810184360
+India,Himachal Pradesh,Manali,Johnson Hotel & Jimmy Johnson Lodge,1716,2443,Mr,,Nitin,Reservation Desk,,,97360 01973,9816045123
+India,Rajasthan,Mount Abu,Cama Rajputana Club,596,2164,Mr,Matthew,,Reservations Mgr,,,,
+India,Rajasthan,Mount Abu,Palace Hotel ,1162,1265,Mr,Revat,Singh,,,,,9928036608
+India,Tamil Nadu,Mudumalai,The Monarch Safari Park,104,349,Mr,K. N.,Haldhurai,General Manager,,,"56 250, 56 343",
+India,Tamil Nadu,Mudumalai,Jungle Retreat,937,961,Ms,Sushmita,Gulrajani,Reservations,,,2526 469 / 470,9787321170
+India,Tamil Nadu,Mudumalai,The Wilds at Northernhay,1408,2855,Mrs,Ambareen,Seth,,,,,
+India,Karnataka,Mysore,Mysore Bed and Breakfast,1764,3206,Mr,Stephen,Farrell,Owner,,,,
+India,Karnataka,Mysore,The President,647,2193,Ms,Reetha,,Manager,,,0821 2424001,
+India,Karnataka,Mysore,The Green Hotel,980,31,Mr,Syed,,Reservations,,,,
+India,Karnataka,Nagarhole,The Bison,1646,3064,Ms,,Vaishnavi,Senior Manager (Travel Agents),,,,
+India,Uttarakhand,Nainital,The Naini Retreat,417,1387,Mr,Sanjeev ,Joshi,Resort Manager,,,,9837015100
+India,Himachal Pradesh,Nalagarh,The Fort Nalagarh,1006,1373,Mr,Brij Mohan,Sharma,Mgr S & M,,,"011 24690741, 24634139",9871949373
+India,Assam,Nameri,Nameri Eco Camp,1066,2522,Mr,Pradip,Chetry,,,,,9854019932
+India,Rajasthan,Nawalgarh,Apani Dhani Eco-Lodge,517,2148,Mr,Ramesh,Jangid,Prop.,,rcjangid@yahoo.com,,
+India,Rajasthan,Nawalgarh,Roop Niwas Kothi,528,902,Mr,Yatendra,Singh,Manager,,,,9828499517
+India,Tamil Nadu,Ootacamund,The Monarch,699,2213,Mr,M,Nawaz,GM,,,,
+India,Tamil Nadu,Ootacamund,Fernhills Royal Palace,1300,2775,Mr,,Jenkin,,,,,9943999945
+India,Madhya Pradesh,Orchha,Ganpati Guesthouse,356,2001,Mr,Vinod,Manager,,,,,9425342502
+India,Madhya Pradesh,Orchha,Hotel Ganpati,472,2109,Mr,Vinod,Vaidya,Manager,,,,9425342502
+India,Madhya Pradesh,Orchha,Amar Mahal,1312,2107,Mr,Shankar,Singh Tomar,Manager Reservations,,,,9893496031
+India,Madhya Pradesh,Orchha,Hotel Bundelkhand Riverside,1585,2162,Mr,Amir,Khan,,,,,9009749630
+India,Madhya Pradesh,Orchha,Hotel Raj Mahal,1752,3006,Mr,Pradeep,Pandey,,,,,
+India,Rajasthan,Osian,The Camel Camp Osian,336,1345,Mr ,Reggie ,Singh,Prop.,,,98280 09608,9828032100
+India,Rajasthan,Osian,Dera Eco,700,2139,Mr, Harish Chandra,Singh,Prop.,,,,9414720653
+India,Rajasthan,Pachewar,Pachewar Garh,586,905,Mrs, Madhulika Singh,Kangarot,Prop.,,,9413340169,8390907004
+India,Bihar,Patna,Hotel Patliputra Ashok,1102,1551,Mr,Sanjay,Mishra,GM,,,,9431493690
+India,Bihar,Patna,Hotel Buddha Heritage,1529,2801,Ms,,Sweta,,,,,9973262626
+India,Sikkim,Pelling,Newa Regency,639,2226,Mr,Roshan,,Res,,,9332262575,
+India,Sikkim,Pelling,The Elgin Mount Pandim,1018,2266,Mr,Surojit,,Manager,,,,
+India,Sikkim,Pelling,Norbu Ghang Retreat and Spa,1338,2819,Mr,,Manager,,,,99330 04493,9933004491
+India,Pondicherry,Pondicherry,Pondicherry Ashok,103,347,Mr,A. C.,Howladar,The Gereral Manager,,,655 160 - 67,
+India,Pondicherry,Pondicherry,Annamalai International,642,2182,Mr,Vimal,,Manager,,,,
+India,Pondicherry,Pondicherry,Dune Eco Village & Spa,1279,2735,Mr,,Murugaian,Central Reservations Manager,,,,9364455440
+India,Pondicherry,Pondicherry,Coloniale Heritage,1289,2413,Mr,Michel,Sabine,,,,,
+India,Pondicherry,Pondicherry,Villa Helena,1788,3195,Ms,,Sudha,,,,,
+India,Pondicherry,Pondicherry,The Richmond Puducherry,1748,3077,Mr,K.,Murali,Resident Manager,,murali@theresidency.com,,9626311555
+India,Pondicherry,Pondicherry,Villa Shanti,1749,3194,Mr,Daniel,Santoshh A,Assistant Manager FO,,,,6384441202
+India,Pondicherry,Pondicherry,Dune de Lorient,1776,1407,Mr,Suresh,Charoth,Manager,,,,9787748664
+India,Pondicherry,Pondicherry,Palais de Mahe,1778,2730,Mr,Dinu,Ramakrishnan,General Manager,,dinu@gchearth.com,,9442127519
+India,Pondicherry,Pondicherry,Maison Perumal,1779,2591,Mr,Sam,John,Manager,,samjohn@cghearth.com,,9488009576
+India,Gujarat,Poshina,Darbargadh Palace Hotel ,1596,943,Mr,Harendrapal,Sinh,Owner,,,,
+India,Himachal Pradesh,Pragpur,The Judges Court,923,1374,Mr,Vijay,Lal,,,,,
+India,Orissa,Puri,Mayfair Heritage,292,109,Ms,Pradipta,Mohapatra,Dep General Manager Marketing,,,,
+India,Orissa,Puri,Hotel Sea Palace,493,2129,Mr,P.K.,Dash,General Manager,,,,9937205369
+India,Orissa,Puri,Hotel Holiday Resort,569,2093,Mr,J,Halder,GM,,,,9338047871
+India,Orissa,Puri,Shakti International,657,2252,Mr,Shrikanth,Sahu,CEO,,,,
+India,Orissa,Puri,Hans Coco Palms,733,1432,Mr,Harish,,FOM,,fomcocopalm@hanshotels.com,,
+India,Sikkim,Pelling,Norbu Ghang Resort,649,1433,Mr,B. R.,Lama,Manager,,,,9933004493
+India,Rajasthan,Pushkar,Hotel New Park,145,648,Mr,Diwakar,Kaushal,Manager,,,,9530062069
+India,Rajasthan,Pushkar,Pushkar Resort,603,2209,Mr,Delhi office,,,,,,1124647370
+India,Rajasthan,Pushkar,Jagat Palace,1366,728,Mr,Amit,Jasoria,Manager Reservations,,,,9828060601
+India,Rajasthan,Pushkar,Nimaj Kothi,1460,2899,Mr,Purnjai,Rathore,,,,,9461978000
+India,Rajasthan,Pushkar,Hotel Brahma Horizon,1558,2993,Mr,Krishna,Mahara,FOM,,,,9116109691
+India,Rajasthan,Ranakpur,Hotel Ranakpur Fateh Bagh,591,2150,Mr,Jitendra,Singh,,,PRESIDNT@udaipur.hrhindia.com,,
+India,Rajasthan,Ranakpur,Ranakpur Hill Resort,462,2044,Mr,Raghu Raj,Singh,Manager,,,,9414157303
+India,Uttarakhand,Rishikesh,Ganga Kinare,51,206,Mr,John,Guerra,Manager,,,430 566,
+India,Uttarakhand,Rishikesh,Rimo River Rafting Camp,143,640,Mr,Chewang,Motup,,,,,
+India,Uttarakhand,Rishikesh,High Bank Peasants Cottage,909,2427,Mr,Rajeev,Tiwari,MD,,,,9837055578
+India,Uttarakhand,Rishikesh,Rainforest House,938,2449,Mr,Steve,Dunjey,Owner,,,,9719143013
+India,Bihar,Rajgir,The Rajgir Residency,1101,2553,Mr,rajesh,Ranjan,FOM,,,,9386454110
+India,Tamil Nadu,Rameswaram,Kathadi North,1763,3198,Mr,Jehan,Driver,,,,,
+India,Uttarakhand,Rishikesh,Dewa Retreat,1616,3034,Mr,Gaurav,Sajwan,Director - Sales,,,,9811318883
+India,Uttarakhand,Rishikesh,Himalayan Hideaway,1623,2448,Ms,Kanchan,Rana,,,info2@himalayanhideaway.in,,9711069956
+India,Uttarakhand,Rishikesh,Ananda In The Himalayas,1154,1424,Ms,Dhanwanti,P,Reservations,,,,
+India,Uttarakhand,Rishikesh,Seventh Heaven Inn,1416,2860,Mrs,Charlotte,Suthrell,,,csuthrell@gmail.com,,8449171925
+India,Rajasthan,Rohet,Rohet Wilderness Camp,587,2203,Ms,Manisha,Kumari,Reservations Manager,,,,
+India,Rajasthan,Rohet,Mihirgarh,1349,2825,Ms,Manisha,Kumari,Reservations,,,,
+India,Rajasthan,Rohet,Rohet Garh,1704,909,Ms,Vipina,Unni,Reservations Manager,,,,9999838590
+India,Rajasthan,Roopangarh,Roopangarh Fort,306,910,Ms,Maharani Meenakshi,Devi,,,,,
+India,Chhattisgarh,Raipur,Hotel Celebration,264,1931,Mr,Sandeep,Shrivas,Asst FO Manager,,,,9691156457
+India,Chhattisgarh,Raipur,Hotel Mayura,461,2092,Mr,Satya,Prakash,Manager Operations,,,,9826382558
+India,Chhattisgarh,Raipur,Hotel Satluj,527,2091,Mr,Philips,John,,,,,
+India,Rajasthan,Samode,Samode Palace,55,213,Mr,Pawan,Singh,Manager Reservations,,,,
+India,Rajasthan,Samode,Samode Bagh,106,352,Mr,Pawan,Singh,Manager Reservations,,,,
+India,Rajasthan,Sariska,Sariska Tiger Heaven,319,1987,Mr,,Durrani,,,,,
+India,Gujarat,Sasangir,Anil Farm House Balcheel,880,2401,Mr,,Hussain,Manager,,97252 33011,,9879001098
+India,Gujarat,Sasangir,Lion Safari Camp,882,2402,Mr,Mahendra,Singh,Manager,,,,9328274093
+India,Gujarat,Sasangir,Gir Birding Lodge,884,2365,Mr,Mithun,Gosh,Manager,,98998 10456,,9723971842
+India,Gujarat,Sasangir,Maneland Jungle Lodge,894,196,Mr,,Bharat,Manager,,,,9974314260
+India,Rajasthan,Sawai Madhopur,Ankur Resort,147,675,Mr,Dinesh,Shukla,Manager,,,,9828346504
+India,Rajasthan,Sawai Madhopur,Nahargarh Ranthambhore,703,2243,Mr,Santosh,,Sales & Mrkt,,santosh@alsisar.com,,
+India,Rajasthan,Sawai Madhopur,Ranthambhore Forest Resort,1515,2271,Mr,Nagendra Singh,Naruka,,,,,9351006071
+India,Rajasthan,Sawai Madhopur,Tiger Den Resort,1632,3049,Mr,Siyaram,Rana,,,,,
+India,Rajasthan,Sawai Madhopur,Khem Villas,867,2382,Mrs,Usha,Rathore,General Manager,,,,9414030262
+India,Rajasthan,Sawai Madhopur,Dev Vilas,868,2383,Mr,Pramode,Rathore,,,,,
+India,Rajasthan,Sawai Madhopur,The Ranthambhore Bagh,900,2126,Mr,Vikram,Singh Rathore,Resvn,,,,8239166777
+India,Rajasthan,Sawai Madhopur,Hotel Ranthambhore Regency,1268,2725,Mr,Ravindra,Jain,,,,,9414016100
+India,Meghalaya,Shillong,Ri Kynjai,1056,2512,Mr,Dariti,Marbaniang,Reservations Manager,,,,9862056192
+India,Meghalaya,Shillong,Rosa Ville,1057,2511,Mrs,Topi,Bauri,Owner,,,,9436110180
+India,Meghalaya,Shillong,Tripura Castle,1058,2518,Mr,Deboji,Roy,Manager,,,,8413966879
+India,Meghalaya,Shillong,Centre Point Group Enterprises,1070,2525,Mr, Prabhat D.,Sawyan,Chairman,,,,9862065535
+India,Meghalaya,Shillong,Aerodene Cottage,1377,2830,Mrs,Sharlene,Das,Owner,,sharlene.das@gmail.com,,9774065366
+India,Himachal Pradesh,Shimla,Hotel Silverine,399,2046,Mr,Siddharth,Shukla,Prop.,,sidharth_shukla@yahoo.com,,9816029382
+India,Himachal Pradesh,Shimla,Hotel Willow Banks,1694,2381,Ms,Megha,Kochhar,Manager Sales & Marketing,,,,9910170312
+India,Himachal Pradesh,Shimla,Radisson Hotel - Shimla,1317,2783,Mr,Sharad,Sharma,Senior Sales Mngr,,,,9910031451
+India,Himachal Pradesh,Shimla,Hotel Springfields,1514,1926,Mr,Dayal,Thakur,,,,,9816141441
+India,Himachal Pradesh,Shimla,Woodville Palace,1516,302,Mr,Sunil,Khagta,Manager Operations & Reservations,,,,9418706341
+India,Himachal Pradesh,Shimla,Chapslee House,920,20,Mrs,Alka,Sharma,Manager,,,,
+India,Himachal Pradesh,Shimla,East Bourne Resort,961,2446,Mr,Shyam,Sharma,FO,,,,9816128954
+India,Himachal Pradesh,Shimla,The Oberoi Cecil,964,1415,Mr,Srikant,Peri,GM,,,,
+India,Jammu & Kashmir,Srinagar,The Lalit Grand Palace,1390,2843,Mr,Anima,Bajpai,Asst Mngr Reservations,,,,9906640340
+India,Tamil Nadu,Thanjavur,Hotel Oriental Towers,705,965,Mr,Peter,Jeyarethinam,Manager,,,,
+India,Tamil Nadu,Thanjavur,Tanjore Hi Hotel,1292,2736,Mr,Raja,Sekar,Manager,,manager@tanjorehihotel.com,,
+India,Tamil Nadu,Thanjavur,Hotel Gnanam,1421,2862,Mr,A,Ganeshamoorthy,Manager,,,,
+India,Tamil Nadu,Thanjavur,Svatma,1745,2880,Mr,Kannan,Sridhar,GM,,gm@svatma.in,,7358772559
+India,Kerala,Tellicherry,Ayisha Manzil,820,2336,Mr,C.P.,Moosa,,,,,9847002340
+India,Kerala,Thekkady,Hotel Ambadi,574,753,Mr,Tinku,Verghes,Prop.,,,,9447122194
+India,Kerala,Thekkady,Silver Crest,695,1874,Mr,Boby,George,Reservations,,,,
+India,Kerala,Sultan Battery,Tranquil Resort,819,1347,Mr,Ajay,Mathulla,,,,,9947588507
+India,Kerala,Sultan Battery,Pepper Trail,1735,3184,Mr,Anand,Jayan,,,,,9562277000
+India,Uttar Pradesh,Sunauli,Hotel Everest,289,1968,Mr,Ramez,Tandan,Manager,,,,
+India,Jammu & Kashmir,Srinagar,Wangnoo Heritage Houseboats,1387,2841,Mr,Farooq,Ahmad,Reservation Manager,,,94190 16868,9906569655
+India,Jammu & Kashmir,Srinagar,Hotel Dar-Es-Salam,1388,2842,Mr,Khurram,Hussain,,,,98108 99584,9906609096
+India,Himachal Pradesh,Shimla,The Oberoi Wildflower Hall,966,1414,Mr,Manoj,Biswas,Product Manager,,,,9816122002
+India,Kerala,Thekkady,The Wildernest,803,2323,Mr,Rollin,Augustin,,,,,9895999666
+India,Kerala,Thekkady,Pepper County,805,2324,Mr,K.I.,Cyriac,,,,,9447278216
+India,Kerala,Thekkady,Greenwoods Resorts,806,2239,Mr,Anoop,Dharan,Reservation Manager,,,,9446574383
+India,Kerala,Thekkady,Hotel Tree Top,1439,2063,Ms,,Jency,,,,,
+India,Kerala,Thrikunnapuzha,Coir Village Lake Resort,403,1412,Mr,T G,Raghu,Partner,,,,9847050693
+India,Rajasthan,Udaipur,Quality Inn Vishnupriya,64,239,Mr,S,Roy,General Manager,,hotel_vishnupriya@hotmail.com,421 313-16,
+India,Rajasthan,Udaipur,Taj Fateh Prakash Palace,304,917,Mr,Dashrath,Singh,,,,,
+India,Rajasthan,Udaipur,Shiv Niwas Palace,352,726,Mr,Varun,Sharma,Cntrl. Res,,,,
+India,Rajasthan,Udaipur,The Neem Tree Udaipur,1696,3136,Ms,Helena,Singh Bhati,,,,,9828215311
+India,Rajasthan,Udaipur,Udai Kothi,1700,1861,Mr,Bhaumik,Dalal,Reservations office,,,,
+India,Rajasthan,Udaipur,Hotel Udaigarh,1463,2897,Mr,Kr. Mahendra,Singh Panwar,,,,,9660055500
+India,Rajasthan,Udaipur,Poonam Haveli,1464,2905,Ms,Sonia,Soni,,,,,
+India,Rajasthan,Udaipur,Madri Haveli,1480,2869,Mr,Shankar Singh,Charan,General Manager,,,,9829116621
+India,Rajasthan,Udaipur,Fateh Niwas,1576,2963,Mr,Madan Singh,Panwar,F&B Manager,,,,9928835412
+India,Rajasthan,Udaipur,Mahendra Prakash,1008,400,Mr,Ashwin,,Res.,,,,
+India,Rajasthan,Udaipur,Hotel Thamala Haveli,1149,2444,Mr,Sanjay,Jain,Reservations,,,,9982988899
+India,Rajasthan,Udaipur,Hotel Devraj Niwas,1432,2868,Mr,,Vikram,,,,,9828215506
+India,Rajasthan,Udaipur,Kankarwa Haveli,857,406,Mr,Janardan,Singh,,,,,9929199927
+India,Rajasthan,Udaipur,Amet Haveli,865,2275,Mr,Dheer,Singh,,,,,
+India,Rajasthan,Udaipur,The Tiger,924,2229,Mr,Ranjeet,Singh,,,,,9414296958
+India,Rajasthan,Udaipur,Hotel Sarovar,930,1438,Mr,Praveen,Chouhan,Partner,,,,9414156576
+India,Rajasthan,Udaipur,Ram Pratap Palace,712,2110,Mr,Gajendra,Burbia,Reservations,,,,
+India,Rajasthan,Udaipur,Karohi Haveli,750,2260,Mr,Natraj Singh,Karohi,Prop.,,,,9414166434
+India,Rajasthan,Udaipur,Hotel Pichola Haveli,753,2289,Mr,Praveen,Chouhan,Partner,,,9352604886,9414156576
+India,Rajasthan,Udaipur,Fateh Garh,855,2368,Mr,Bishwajit,Singh,Manager,,frontoffice@fatehgarh.in,,9982993974
+India,Rajasthan,Udaipur,Hotel Hilltop Palace,426,21,Mr,Rajiv ,Khurana,Director,,,,9414169474
+India,Rajasthan,Udaipur,Mewar Haveli,546,2145,Mr,Kamal,Jain,Prop.,,mewarhaveli@yahoo.co.in,,9352508928
+India,Rajasthan,Udaipur,Jaiwana Haveli,601,2186,Mr,Yash,,,,,,
+India,Rajasthan,Udaipur,Jagat Niwas Palace Hotel,710,226,Mr,Ali,Hussain,Reservations,,,99283 88352,9829290634
+India,Kerala,Varkala,Villa Jacaranda,811,2328,Mr,Ajay,Ojha,,,,,
+India,Uttar Pradesh,Varanasi,Hotel Vaibhav,148,678,Mr,K D,Rai,Manager,,,,9839655286
+India,Uttar Pradesh,Varanasi,Pallavi International Hotel,318,627,Mr,K. K.,Singh,Chief Exc.,,,,
+India,Uttar Pradesh,Varanasi,Hotel India,398,330,Mr,Abhishek,Sharma,Manager Sales,,,,
+India,Uttar Pradesh,Varanasi,Hotel Ganges View,471,2104,Mr,Prakash,Kumar,,,,,9838831353
+India,Uttar Pradesh,Varanasi,Hotel Pradeep,561,2188,Mr,Pradeep,Singh,Managing Director,,,,
+India,Uttar Pradesh,Varanasi,Rashmi Guest House,634,2161,Mr,Ramesh,Verma,FO Manager,,,,9415274126
+India,Uttar Pradesh,Varanasi,Panchkote Raj Ganges,1669,3114,Ms,Rani Ruchi,Singh Deo,,,,,
+India,Kerala,Vandanmedu,Carmelia Haven,801,661,Mr,Bijil,Thomas,Executive Reservations,,,,9495219110
+India,Uttar Pradesh,Varanasi,Brijrama Palace,1489,2930,Mr,Ashish,Kumar,Sales Manager,,,96501 57813,9599231589
+India,Uttar Pradesh,Varanasi,Hotel Banaras Haveli,1598,2948,Mr,Shyam,Sunder Pandey,Owner,,,,
+India,Uttar Pradesh,Varanasi,"Hotel Surya, Kaiser Palace",1665,2158,Mr,Anil,Sharma,Accommodation Manager,,,,8853002354
+India,Uttar Pradesh,Varanasi,Guleria Kothi,1666,3029,Mr,Nitish,Kumar,,,,,7991919103
+India,Uttar Pradesh,Varanasi,Hotel Meraden Grand,1220,2187,Mr,Ranvijay,Singh,,,,,9415222993
+India,Uttar Pradesh,Varanasi,Hotel Buddha,1240,2696,Ms,Pooja,Sharma,,,,,9161063458
+India,Uttar Pradesh,Varanasi,Rivatas By Ideal,1286,2744,Mr,Ujjwal,Kumar,FOM,,,,8756410004
+India,Uttar Pradesh,Varanasi,Cresent Villa,1324,2531,Mr,Amit,Pal,,,,,9161288222
+India,Uttar Pradesh,Varanasi,The Clarks Varanasi,918,1388,Mr,Sumant,Katara,FOM,,,,
+India,Uttar Pradesh,Varanasi,Radisson Hotel,1099,2551,Mr,Brijesh,Singh,FOM,,,,
+India,Uttar Pradesh,Varanasi,Hotel Ganga Monastery,1450,2875,Mr,Pankaj,Singh,,,,,9794249936
+India,Uttar Pradesh,Varanasi,Jukaso Ganges,1207,2673,Mr,Nitesh,Kumar,GM,,gmvaranasi@jukaso.co.in,,9670240666
+India,Kerala,Vythiri,Vythiri Resort,817,1007,Mr,Mathew,Vengalathil,Asst Manager Sales & Marketing,,,,9387555250
+India,Gujarat,Velavadar,The Blackbuck Lodge,1311,2776,Mr,,Manager,,,,9978979729,9979157058
+India,Meghalaya,Cherrapunji,Cherrapunjee Holiday Resort,1082,2543,Mr,Denis P.,Rayen,,,96153 38500,98630 79856,9436115925
+India,Haryana,Gurgaon,Jukaso IT Suites,405,2051,Mr,Rajiv,Khanna,,,reservations@jukasohotels.com,,951242324761
+India,Haryana,Gurgaon,Hotel 32nd Milestone,418,2061,Mr,Tarun,,,,,,
+India,Haryana,Gurgaon,Siris18,443,2079,Mr,Sumeet,Chopra,,,,98734 08698,9811292889
+India,Haryana,Gurgaon,Jukaso IT Suites,487,2051,Ms,Anjali,FO,,,,,
+India,Haryana,Gurgaon,Jukaso IT Suites,593,2051,Mr,Amit,,G M,,,9871599339,
+India,Haryana,Gurgaon,Royal Retreat,676,2055,Mr,Asif Mazhar,Khan,Asst FOM,,,0124 4578000,9971047758
+India,Haryana,Gurgaon,Le Residency,1190,2660,Mr,Aakash,Poudel,Sales Manager,,,9811023458,
+India,Haryana,Gurgaon,The Pllazio Hotel,1226,2684,Mr,Ashish,Soni,Owner,,,,9711878505
+India,Gujarat,Wankaner,Ranjit Vilas Palace,46,195,Dr,Digvijay,Sinha,,,,20 000,
+India,Gujarat,Wankaner,Royal Oasis,897,405,Mr,Anil,Bhagat,,,,,9913100959
+India,Himachal Pradesh,Palampur,Country Cottage,908,2425,Mr,Karan,Sarin,Owner,,,94181 30173,9816047047
+India,Himachal Pradesh,Palampur,Taragarh Palace Hotel,959,790,Mr,Chander,Jamwal,General Manager,,,,9817347919
+India,Haryana,Gurgaon,Tikli Bottom,1456,2892,Mr,Martin,Howard,,,,,9313370853
+India,Haryana,Gurgaon,Park Premier,730,2167,Mr,Chetan,Sachar,Sales Co-ordinator,,,,
+India,Haryana,Gurgaon,The Galleria Residency,1163,2630,Mr,Dhiraj,Rawat,,,,,
+India,Chhattisgarh,Jagdalpur,Hotel Rainbow,453,1932,Mr,Bunty,D S Kushwaha,,,,,9425258128
+India,Kerala,Palakkad,Kandath Tharavad Homestay,344,2004,Mr,,Bagwaldas,,,94460 84124,,9349904124
+India,Kerala,Palakkad,The Olappamanna Mana,812,2329,Mr,Narayan,Damodaran,,,,,
+India,Rajasthan,Jojawar,Rawla Jojawar,439,2002,Mr,Amit Vikram,Singh,Reservations,,,,9414159969
+India,Maharashtra,Tadoba,Royal Tiger Resort,1648,3083,Ms,Meenal, Dorlikar,,,,,7447497818
+India,Maharashtra,Tadoba,Tigertrails,457,2088,Mr,Adhitya,Dhanwatay,,,98229 30703,,9823012707
+India,Rajasthan,Nimaj,Raas Chhatra Sagar,581,2199,Mr,Harshvardhan,Singh,,,,,9414123118
+India,Rajasthan,Nimaj,Nimaj Palace,583,2180,Mr,Bharat,Singh,,,,,9414074546
+India,Rajasthan,Madhogarh,Fort Madhogarh,580,2198,Mr,Shiv,Singh,Manager,,,,9829056676
+India,Rajasthan,Siana,Siana Gardens,582,2200,Mr,Pradeep,Singh,,,,,9414674949
+India,Maharashtra,Tadoba,Svasara Jungle Lodge,1619,3035,Mr,Ranjit,Mandal,General Manager,,ranjit@svasararesorts.com,,9372640322
+India,Sikkim,Ravangla,Mt Narsingh Village Resort,1109,2235,Mr,Satyan,,Resident Manager,,,,9733131677
+India,Sikkim,Ravangla,Cherry Resort,1247,2704,Mr,,Manager,,,,8016488737,9733545592
+India,Rajasthan,Shahpura,Shahpura Bagh,723,2272,Mrs,Maya,Singh,,,maya@shahpurabagh.com,,9828122013
+India,Gujarat,Dasada,Desert Coursers,48,197,Mr,Dhanraj,Malik,,,942706670,,9426372113
+India,Gujarat,Dasada,Rann Riders,659,2256,Mr,Mujahid,Malik,Prop.,,,,9879786006
+India,Rajasthan,Barli,Fort Barli,1651,2284,Mr,Karni,Singh,,,,,
+India,Kerala,Kothamangalam,Mundackal Plantation Homestay,792,2316,Mr,Jose,Mundackal,,,,,9388620399
+India,Kerala,Murinjapuzha,Paradisa Plantation Retreat,807,2325,Ms,,Jayalatha,,,,,9447088119
+India,Kerala,Teekoy,Vanilla County,808,2327,Mr,Baby Mathew,Vallikappan,,,, 97441 83835,9048624648
+India,Kerala,Meppadi,Aranyakam,815,2333,Mr,K.G.,Rajesh,,,93883 88203,,9447781203
+India,Kerala,Lakkidi,Rain Country Resorts,816,2334,Mr,K.,Abhilash,General Manager,,,,9446548064
+India,Tamil Nadu,Dindigul,Cardamom House,876,2391,Mr,Chris,Lucas,,,,,9360691793
+India,Kerala,Neeleshwar,Neeleshwar Hermitage,860,2373,Ms,Aditi,Seghal,Reservations Executive,,,,
+India,Kerala,Neeleshwar,River Lap Homestay,1734,3183,Mr,Krishnan,P,,,,,
+India,Kerala,Kalaketty,Kalaketty Estate,1781,3213,Mr,V.P.,Kurian,,,,,
+India,Madhya Pradesh,Pench,Tribal Camp,1333,2811,Mr,Sandeep,Singh,,,,,8600222743
+India,Madhya Pradesh,Pench,Pench Jungle Camp,1650,3086,Mr,Abhishek,Aggarwal,,,,011-2613-9096,9999742000
+India,Madhya Pradesh,Barnagar,Fort Amla,831,2342,Mr,Raghavendra,Singh,,,,,9425064976
+India,Gujarat,Hodka,Shaam-E-Sarhad Village Resort,891,2358,Mr,Parth,Mehta,,,,,9426968790
+India,Gujarat,Sayla,Bell Guest House,844,2360,Mr,Yuvraj Somraj,Singh Jhala,,,,,9724678145
+India,Gujarat,Moti Virani,Centre for Desert and Ocean (CEDO),850,2363,Mr,Jugal,Tiwari,Ecologist,,,,9825248135
+India,Himachal Pradesh,Chamba,Hotel Aroma Palace,903,2420,Mr,Anil,Mahajan,,,,,9418022098
+India,Sikkim,Yuksom,Yuksom Residency,1371,2499,Mr,Sanjay,Tamang,,,,,9933133330
+India,Himachal Pradesh,Chamba,Hotel City Heart,939,2450,Mr,Manohar,Singh,Manager,,,,9418007578
+India,Assam,Majuli,La Maison de Ananda,1485,2927,Mr,Monjit,Risong,Manager,,monjitrisong@yahoo.com,,9957186356
+India,Assam,Digboi,Hollonghabi Tea Bungalow,1081,2542,Mr,Ranjit,Barooah,,,,,9435033825
+India,Nagaland,Mon,Helsa Resort,1192,2662,Mr,,Sushant,,,,,9874634314
+India,Nagaland,Mokokchung,Hotel Metsuben,1478,2529,Ms,,Amu,,,,,
+India,Madhya Pradesh,Panna,The Sarai at Toria,1697,3137,Dr,Raghu,Chhundawat,,,,,
+India,Rajasthan,Ramathra,Ramathra Fort,1115,2582,Ms,Gitanjali,Rajpal,Owner,,,,9983347057
+India,Arunachal Pradesh,Bomdila,Hotel Tsepal Yangjom,1319,2785,Mr,Rinchen,Trashi,,,,,9436241432
+India,Arunachal Pradesh,Daporijo,Hotel Singhik,1412,2857,Mr,,Manager,,,,94368 96229,9436616666
+India,Arunachal Pradesh,Ziro,Siro Resort,1413,2790,Mr,,Manager,,,,80140 50952,9436072663
+India,West Bengal,Karmi,Karmi Farm,1211,2680,Mr,Andrew,,,,,,
+India,Uttar Pradesh,Vrindavan,Nidhivan Sarovar Portico,1440,2798,Ms,,Manju,Sales Manager,,,,9958592242
+India,Rajasthan,Chanoud,Hotel Chanoud Garh,1382,2836,Mr,Jairaj,Singh,,,,,9983322955
+India,Rajasthan,Bhap,Barsingha Villa,1096,2549,Mr,Narendra,Singh,,,,,9413319546
+India,Kerala,Padanna,Oyster Opera,1121,2588,Mr,Gul,Mohammed,Managing Partner,,,,9447176465
+India,Uttar Pradesh,Meerut,Hotel Naveen,1137,2597,Mr,Sunil,Sunil,Director,,,,9897056525
+India,Sikkim,Rinchenpong,Yangsum Heritage Farm,1168,2634,Mr,Thendup Tashi,Bhutia,,,,,9434179029
+India,Sikkim,Kewzing,Bon Farmhouse,1235,2687,Mr,Chewang R,Bonpo,,,,,9735900165
+India,Sikkim,Mangalbarey,Biksthang Heritage Farmhouse,1452,2886,Mr,Dekyi,Gyatso,,,,,
+India,Uttarakhand,Rajaji,Wild Brook Retreat,1473,2921,Mr,Manoj,Kulshreshta,,,,93148 80887,8107002924
+India,Chhattisgarh,Bhoramdeo,Bhoramdeo Jungle Retreat,1492,2937,Mr,Satyendra (Sunny),Upadhyay,Owner,,,,
+India,Rajasthan,Raipur,Lakshman Sagar,1707,2950,Mr,Tejinder,Kumar Singh,Resort Manager,,tejinder@sewara.com,,9873374745
+India,Kerala,Thattekad,The Hornbill Camp,1543,2982,Ms,Nirmala,Jacob,,,,,9446005067
+India,Kerala,Thattekad,Windermere Riverhouse,1723,3175,Ms,,Vineetha,,,,,
+India,Rajasthan,Padarla,Godwad Leopard Safari Camp,1549,2988,Mr,Nattwar,Singh,Naturalist,,,96101 10740,9983211191
+India,Madhya Pradesh,Satpura,Reni Pani Jungle Lodge,1661,3099,Mr,Saleem,Quraishi,Sales Manager,,saleem@jnph.in,,9981997714
+India,Madhya Pradesh,Satpura,Forsyth Lodge,1702,3081,Mr,,Sushant,,,,,
+India,Maharashtra,Nagzira,Nagzira Nature Camp,1663,3100,Mr,Sanjay,Sharma,,,,96573 35277,8554976873
+India,Maharashtra,Nagzira,Asteya Nagzira,1686,3128,Ms,Isha,Motwani,Senior Executive - Reservation & Online Sales,,,,7777068144
+India,Uttar Pradesh,Bah,Mela Kothi - The Chambal Safari Lodge,1787,3102,Mr,Kunwar Ram,Pratap Singh,,,,,
+India,Kerala,Cherukattoor,Talking Trees Riverside Farmstay,1681,3123,Mr,Nitish,Ramanujam,,,,,9539099927
+India,Tamil Nadu,Chettinad,Visalam,1744,2332,Mr,,Febin,GM,,,,9847493311
+India,Tamil Nadu,Perumparai,Rajakkad Estate,1755,3197,Mr,Robesh,George,Manager,,reservation@rajakkadestate.com,94874 44333,8973444555
+India,Kerala,Kodikulam,Dewalokam Homestay,1783,3214,Mr,Professor,Jose,,,,,
+India,Rajasthan,Bera,Bera Safari Lodge,1793,3234,Mr,,Shatrunjay,,,,,9413312133
+India,Madhya Pradesh,Kathiwada,Kathiwada Raaj Mahal,1792,3235,Mr,Aditya,Singh,,,gm@kathiwada.com,,9372376324
+India,West Bengal,Serampore,The Denmark Tavern,1814,3236,Mr,Dwaipayan,Ghosh,Director,,,,
+India,Orissa,Baripada,The Belgadia Palace,1798,3237,Mr,Parwez,Zafar,,,,,
+India,West Bengal,Singalila,Habre's Nest,1799,3243,Mr,Shantanu,Prasad,,,,,6291282879
+India,Rajasthan,Alsisar,Alsisar Mahal,1206,2672,Mr,Santosh,,,,,,9828077864
+India,Tamil Nadu,Chettinad,The Bangala,1395,2376,Mr,,Rudramurthy,,,,,
+India,Tamil Nadu,Chettinad,The Saratha Vilas,1742,2990,Mr,Bernard,Dragon,Director,,,,9884936158
+India,Tamil Nadu,Chettinad,The Saratha Vilas,1743,2990,Mr,Michel,Adment,Director,,,,9884203175
+India,Tamil Nadu,Chettinad,The Bangala,864,2376,Ms,Meenakshi,Meyyappan,Director,,,,9443183021
+India,Uttarakhand,Rajaji,Wild Brook Retreat,1471,2921,Dr,,Chaturbuj,,,,,
+India,Sikkim,Kewzing,Bon Farmhouse,1236,2687,Mr,Sonam R,Bonpo.,,,,,9547667788
+India,Sikkim,Rinchenpong,Yangsum Heritage Farm,1169,2634,Mrs,Pema Chuki,Bhutia,,,,,
+India,Rajasthan,Chanoud,Hotel Chanoud Garh,1383,2836,Mr,Mahiraj,Singh,,,,,9828669221
+India,Nagaland,Mokokchung,Hotel Metsuben,1479,2529,Mr,Moasangba,Jamir,,,,,
+India,Himachal Pradesh,Chamba,Hotel City Heart,943,2450,Mr,Ajay,Mahajan,Owner,,,,9418035450
+India,Sikkim,Ravangla,Mt Narsingh Village Resort,852,2235,Mr,Karma P.,Takapa,Prop.,,,,9434026822
+India,Himachal Pradesh,Chamba,Hotel Aroma Palace,904,2420,Ms,Divya,Mahajan,,,,,9418022710
+India,Kerala,Kalaketty,Kalaketty Estate,1782,3213,Mrs,Anuja,Kurian,,,,,
+India,Rajasthan,Shahpura,Shahpura Bagh,724,2272,Mr,Shatrujeet,Singh,,,ss@shahpurabagh.com,,
+India,Maharashtra,Tadoba,Svasara Jungle Lodge,1620,3035,Ms,,Nandita,Lodge Manager,,nandita@svasararesorts.com,,9372640323
+India,Haryana,Gurgaon,Royal Retreat,1029,2055,Mr,Sreenu,Pillai,FOM,,,,9650324104
+India,Sikkim,Yuksom,Hotel Tashi Gang,1224,2212,Mr,Sudhir,Tamang,Manager,,,90023 72247,9933007720
+India,Rajasthan,Khempur,Ravla Khempur,584,2202,Mr,Hemant,Deval,Proprietor,,,,9829371424
+India,Rajasthan,Jojawar,Rawla Jojawar,1305,2002,Mr,Yogendra,Chhangani,,,,,
+India,Chhattisgarh,Jagdalpur,Hotel Rainbow,494,1932,Mr,Manoj,Parte,,,,,9425262852
+India,Haryana,Gurgaon,The Galleria Residency,1164,2630,Mr,Pradeep,Chetry,Manager,,95559 16622,,9582939107
+India,Haryana,Gurgaon,Tikli Bottom,1457,2892,Mrs,Annie,Howard,,,,,9818039382
+India,Himachal Pradesh,Palampur,Country Cottage,960,2425,Ms,,Bhavna,Reservations,,,,9816247047
+India,Haryana,Gurgaon,Siris18,1360,2079,Ms,Nisha,Kalia,,,nisha@siris18.com,,
+India,Kerala,Vythiri,Vythiri Resort,1398,1007,Ms,,Rani,,,,,9447055367
+India,Uttar Pradesh,Varanasi,"Hotel Surya, Kaiser Palace",643,2158,Mr,Ajay,Mishra,Operations Manager,,,,8853002359
+India,Uttar Pradesh,Varanasi,Hotel Pradeep,1150,2188,Mr,,Chaturvedi,Manager,,,,9935955313
+India,Uttar Pradesh,Varanasi,Palace on Ganges,1173,2131,Mr,Pradeep,Singh,MD,,info@hotelpradeep.com,,9839059273
+India,Uttar Pradesh,Varanasi,Rashmi Guest House,1369,2161,Mr,A.S.,Tiwari,Owner,,,,
+India,Uttar Pradesh,Varanasi,Guleria Kothi,1610,3029,Mr,,Faizan,,,,,7991919101
+India,Kerala,Vandanmedu,Carmelia Haven,802,661,Mr,Vineeth,Nambiar,General Manager,,,,9447176252
+India,Uttar Pradesh,Varanasi,Brijrama Palace,1488,2930,Mrs,Manju,Mazumder,Regional Manager Sales Clarks Hotels,,delhioffice@clarksamer.com,,9811424886
+India,Rajasthan,Udaipur,Mewar Haveli,711,2145,Mr,Harish,Jain,Prop. Brother,,,,9414771698
+India,Rajasthan,Udaipur,Fateh Garh,856,2368,Mr,Dushyant Singh,Rathore,Director,,dushikelwa@hotmail.com,,9928666009
+India,Rajasthan,Udaipur,Karohi Haveli,754,2260,Mr,Pramod Kumar,Sharma,FOM,,,,9799003229
+India,Rajasthan,Udaipur,Madri Haveli,1433,2869,Mr,Vipul,Kapoor,Reservations Manager,,,,9001992599
+India,Rajasthan,Udaipur,Udai Kothi,1372,1861,Mr,,Rajesh,Reservations,,,,9251056826
+India,Rajasthan,Udaipur,Ram Pratap Palace,926,2110,Mr,Dushyant,Singh,,,,,9928666009
+India,Rajasthan,Udaipur,The Tiger,1179,2229,Mr,Pritam,,,,,,9414233573
+India,Rajasthan,Udaipur,Kankarwa Haveli,1575,406,Mr,,Divyarishi,,,,,9782950000
+India,Rajasthan,Udaipur,Poonam Haveli,1621,2905,Mr,Hemant,Soni,,,,,9828112828
+India,Rajasthan,Udaipur,Taj Fateh Prakash Palace,305,917,Mr,Harishchandra,Singh,,,,,
+India,Rajasthan,Udaipur,Mahendra Prakash,131,400,Mr,Ajay Singh,Shekawat,Prop.,,,,9414167090
+India,Kerala,Thrikunnapuzha,Coir Village Lake Resort,709,1412,Mr,Goban,,,,,,
+India,Rajasthan,Udaipur,Jagat Niwas Palace Hotel,60,226,Mr,Devraj,Singh,,,,"2415 547, 2418 512",9829042128
+India,Kerala,Thekkady,The Wildernest,804,2323,Mr,Mathew,Kuruvinakunnel,,,,,
+India,Jammu & Kashmir,Srinagar,Hotel Dar-Es-Salam,1389,2842,Mr,Abdul,Hamid,Front Office,,,,9797257845
+India,Kerala,Thekkady,Hotel Ambadi,706,753,Mrs,Sumithra,Verghes,Reservations,,ambadi@airtel.blackberry.com,"0481 2563797,2566447",9746473736
+India,Himachal Pradesh,Shimla,The Oberoi Cecil,965,1415,Mr,Adin,Jaisinghani,FO,,,,
+India,Himachal Pradesh,Shimla,Woodville Palace,1368,302,Mr,Narinder,Bhardwaj,,,,,
+India,Himachal Pradesh,Shimla,Hotel Willow Banks,1695,2381,Mr,Sanjay,Sharma,Front Office Manager,,,,9816076512
+India,Himachal Pradesh,Shimla,Hotel Springfields,247,1926,Mr,Vijay,Singh,Prop,,,,9816087611
+India,Meghalaya,Shillong,Rosa Ville,1059,2511,Mr,,Manager,,,,,9612901066
+India,Rajasthan,Sawai Madhopur,Dev Vilas,1578,2383,Mr,Balendu,Singh,Owner,,,,
+India,Rajasthan,Sawai Madhopur,Khem Villas,1579,2382,Mr,Manvendra,Singh,,,,,9950070888
+India,Rajasthan,Nawalgarh,Apani Dhani Eco-Lodge,989,2148,Mr,Gajendra,Jangid,Prop. Son,,,,9314285064
+India,Rajasthan,Sawai Madhopur,Ranthambhore Forest Resort,735,2271,Mr,B S,Pawar,FOM,,,9214485259,9928463859
+India,Rajasthan,Sawai Madhopur,Ankur Resort,425,675,Mr,Raju,Meena,,,,,9414030301
+India,Rajasthan,Sawai Madhopur,The Ranthambhore Bagh,488,2126,Mrs,Poonam,Singh,Prop.,,poonam@ranthambhorebagh.com,,9414031221
+India,Gujarat,Sasangir,Maneland Jungle Lodge,895,196,Mr,Chintu,Bhai,Booking Office Mumbai,,,,9920018568
+India,Gujarat,Sasangir,Gir Birding Lodge,885,2365,Mr,,Iqbal,,,,,9811704651
+India,Rajasthan,Samode,Samode Palace,686,213,Mr,Vijay,,Reservations,,,,
+India,Rajasthan,Samode,Samode Bagh,687,352,Mr,Vijay,,Reservations,,,,
+India,Chhattisgarh,Raipur,Hotel Celebration,263,1931,Mr,Kamaljeet,Singh,Owner,,,,
+India,Rajasthan,Rohet,Rohet Garh,1703,909,Mr,Avijit,Singh,Owner,,avijit@houseofrohet.com,,9571444456
+India,Uttarakhand,Rishikesh,Rainforest House,1047,2449,Ms,Tripti,Dunjey,Owner's wife,,,,9758811701
+India,Rajasthan,Ranakpur,Ranakpur Hill Resort,1303,2044,Mr,Devendra Kumar,Tank,Reservation,,,,9116040262
+India,Rajasthan,Pushkar,Hotel New Park,1562,648,Mr,Naresh,Mahawar,Manager,,,,9414354825
+India,Rajasthan,Pushkar,Hotel Brahma Horizon,1563,2993,Mr,Kunal,Chhatwani,Owner,,,,9769902320
+India,Uttarakhand,Rishikesh,Himalayan Hideaway,967,2448,Mr,Dinesh,Kumar,,,,,
+India,Uttarakhand,Rishikesh,High Bank Peasants Cottage,973,2427,Mr,,Hari,Manager,,,,9358101987
+India,Uttarakhand,Rishikesh,Seventh Heaven Inn,1417,2860,Mr,Kalam,Singh Chauhan,,,,,
+India,Rajasthan,Pushkar,Pushkar Palace,1310,16,Mr,Amit,Jasoria,Manager Reservation,,,,9828060601
+India,Orissa,Puri,Hans Coco Palms,736,1432,Mr,Sanjeeb,Patnaik,GM,,,,943709006
+India,Pondicherry,Pondicherry,Palais de Mahe,1777,2730,Mr,,Amaljith,Front Office Manager,,,,9895569369
+India,Pondicherry,Pondicherry,Annamalai International,702,2182,Ms,Divya,,Reservations,,,,
+India,Sikkim,Pelling,Newa Regency,640,2226,Mr,Sunanto,,Res,,9434235565/9733077825,9332262580,9333793708
+India,Bihar,Patna,Hotel Buddha Heritage,1481,2801,Mr,Praveen,Sinha,Front Office Manager,,,,8521858117
+India,Gujarat,Palitana,Vijay Vilas Palace,886,2361,Mr,Yashpal,Singh,Owner,,,,9427182809
+India,Rajasthan,Osian,The Camel Camp Osian,1551,1345,Mr,Mick,S,,,,,9928009610
+India,Rajasthan,Osian,Dera Eco,514,2139,Mr,Yudhishter Singh,Rathore,Manager,,,,9828070732
+India,Madhya Pradesh,Orchha,Hotel Bundelkhand Riverside,565,2162,Mr,Pushpendra,Jain,,,,90097 49630,8120475248
+India,Madhya Pradesh,Orchha,Amar Mahal,575,2107,Mr,Nitendra,Singh Rathore,Director,,,,
+India,Tamil Nadu,Ootacamund,Fernhills Royal Palace,1301,2775,Mr,,Magesh,,,,,9994555530
+India,Himachal Pradesh,Manali,Hotel Mayflower,1219,1862,Mr,Amit,Negi,Owner,,,,
+India,Himachal Pradesh,Manali,Johnson Hotel & Jimmy Johnson Lodge,1340,2443,Capt,Seema,Sharma,,,,,8626814404
+India,Rajasthan,Nawalgarh,Roop Niwas Kothi,599,902,Mr,Ranjeet Singh,Jaipur office,Manager,,,"0141 2623413, 2622949",
+India,Karnataka,Mysore,The Green Hotel,981,31,Mr,Hillar,Manohar,Reservations Mgr,,,,
+India,Tamil Nadu,Mudumalai,The Wilds at Northernhay,1409,2855,Mr,Junald,Seth,,,,,
+India,Karnataka,Mysore,Crystal Paark Inn,1425,2508,Mr,Akshay,B,Manager Front Office,,,,9620200021
+India,Karnataka,Mysore,Royal Orchid Metropole Hotel,1530,2415,Mr,,Vishwanath,Deputy Manager,,avpsales.south@royalorchidhotels.coml,,
+India,Kerala,Mararikulam,Marari Villas,1770,3212,Mrs,Olga,Evers,,,,,
+India,Tamil Nadu,Chennai,Ramada Chennai Egmore,1772,2720,Mr,S.,Logesh,Asst Sales Manager,,,,
+India,Karnataka,Madikeri,Victorian Verandaz,1684,3125,Mrs,Diana,Thimaiah,,,,,9449768800
+India,Kerala,Mararikulam,A Beach Symphony,780,2304,Mrs,Christel,Arryn,,,,,9048400150
+India,Kerala,Mararikulam,Abad Turtle Beach Resort,1200,2287,Ms,Preeti,,,,,,
+India,Rajasthan,Jodhpur,Pal Haveli,592,2147,Mr,Mahesh,Karan,Jodhpur,,,98292 43247,
+India,Assam,Kaziranga,Wild Grass Resort,1042,87,Mr,Manju,Barua,,,,,9954416945
+India,Tamil Nadu,Chennai,Hotel Marina Towers,667,2166,Ms,Jenitha,,Reservations,,,,
+India,Kerala,Kovalam,Thapovan Heritage Home,739,2270,Mr,E. P.,Haridas,Manager,,,,9349752072
+India,Uttar Pradesh,Kushinagar,The Imperial Kushinagar,1378,2554,Mr,,Shailesh,Sales & Marketing,,,,9810350951
+India,Kerala,Kovalam,The Travancore Heritage,407,2053,Mr,Ratheesh,Kumar,Asst Reservation Manager,,,,9446474894
+India,Rajasthan,Kishangarh,Phool Mahal Palace,847,890,Ms,Maharani Meenakshi,Devi,,,,,
+India,Uttar Pradesh,Kanpur,The Landmark,1136,2596,Mr,Anupam,Saxena,Dy. F.O. Manager,,,,
+India,Rajasthan,Karauli,Bhanwar Vilas Palace,1365,395,Mr,Neeraj,Singh,,,,,9929773744
+India,West Bengal,Kalimpong,Holumba Haven,690,2224,Mr,Norden,Pempahishey,Prop.,,,,9332414999
+India,Madhya Pradesh,Kanha,Kanha Village Eco Resort,1406,2848,Mr,,Navneet,M.D.,,,,9977853263
+India,Assam,Jorhat,Thengal Manor,1068,2510,Ms,Rupa,Borbora,,,,,9954451548
+India,Rajasthan,Jodhpur,Hotel Haveli Inn Pal,1571,2722,Mr,Narpat Singh,Pal,,,,,
+India,Rajasthan,Jodhpur,Ratan Vilas,454,884,Mr,Brijraj,Singh,Prop.,,,,9829127877
+India,Rajasthan,Jaisalmer,Nachana Haveli,503,1344,Mr,R.K. Vikramaditya,Singh,Director,,,,9414149311
+India,Rajasthan,Jaisalmer,Fort Rajwada,1230,738,Ms,Preeti,,Asst Mngr Reservations,,,,9828149555
+India,Rajasthan,Jaisalmer,Himmatgarh Palace,1362,1890,Mr,Yogendra,Singh,,,,,
+India,Rajasthan,Jaisalmer,Mandir Palace Hotel,1287,14,Mr,Shivendra,Singh Bhati,Owner,,,,9783289449
+India,Rajasthan,Jaisalmer,Deoki Niwas Palace,440,1563,Mr,Alok,Rathi,Prop.,,,,9414149432
+India,Rajasthan,Jaipur,Samode Haveli,560,624,Mr,Vijay,Singh,Reservations,,,,
+India,Rajasthan,Jaipur,Alsisar Haveli,677,92,Mr,Shafeeq,,Reservations,,,,
+India,Rajasthan,Jaipur,Loharu House,1165,2632,Mrs,Begum Fauzia,Ahmad Khan,,,,,
+India,Maharashtra,Aurangabad,Hotel Amarpreet,1321,2090,Mr,Santosh,Sonawane,Asst.Supervisor-Front Office,,,,7507774498
+India,Rajasthan,Jaipur,Dera Rawatsar,1521,2130,Mr,Anirudh,Rathore,,,,,9829212050
+India,Rajasthan,Jaipur,Dera Mandawa,1555,2657,Mr,Narendra,Singh,,,,,9785000365
+India,Rajasthan,Jaipur,Hotel Arya Niwas,11,13,Mr,Tarun,Bansal,Proprietor,,,,9314639592
+India,Rajasthan,Jaipur,Jai Niwas,312,1983,Mr,Tarun,Bansal,Manager,,,,
+India,Tamil Nadu,Madurai,Royal Court,533,2169,Mr,A,Rajgopal,Manager,,,,9360329985
+India,Tamil Nadu,Madurai,JC Residency,1747,3193,Mr,V.,Ramkumar,Sales Manager,,,,7373737305
+India,Tamil Nadu,Madurai,Heritage Madurai,1593,2517,Mr,,Mythili,Sales,,,,7550243146
+India,Chandigarh,Chandigarh,Hotel Western Court,1523,2397,Mr,Rajender,Sahni,Manager Front Office,,,,9915752554
+India,Karnataka,Hospet,Hotel Priyadarshini,249,757,Mr,Srinivas,Rao,Director,,,9448282260,9844085247
+India,Madhya Pradesh,Indore,Rashid Kothi,828,2339,Mrs,Anuradha,Dubey,,,,,
+India,Madhya Pradesh,Khajuraho,Hotel Chandela,1500,811,Mr,Bhanu,Pratap,,,,94243 45537,9893216396
+India,Madhya Pradesh,Khajuraho,Usha Bundela,470,2103,Mr,A.L.,Patel,,,,,
+India,Himachal Pradesh,Dharamsala,Hotel Clouds End Villa Cottages,945,1503,Mr,Aditya,Katoch,Sales Manager,,,,9418410888
+India,Karnataka,Hampi,Uramma Heritage Homes,1262,2717,Ms,Shama,Pawar,Owner,,,,9268488499
+India,Karnataka,Hampi,Shama's Cottages,1022,2435,Mr,Anjani,,,,,,9449144133
+India,Karnataka,Hampi,Hampis Boulders Resort,326,1989,Mr,D.V. (Bobby),Chandra,Owner,,,,
+India,Goa,Goa,Marquis Beach Resort,362,743,Mr,Simon,Fernandes,GM,,,,9822124714
+India,Goa,Goa,Kerkar Retreat,726,2273,Mr,Subodh,Kerkar,Prop.,,,,9326119324
+India,Goa,Goa,Yab Yum Beach Resort,927,2441,Mr,,Kali,,,,,9422395541
+India,Goa,Goa,Casa Severina,1118,2442,Mr,Johnson,Pereira,FOM,,johnson.pereira@casaseverina.com,,9552565697
+India,Goa,Goa,Dwarka Eco Beach Resort,899,2354,Mr,Clemente,Rodrigues,,,,,9823377025
+India,Goa,Goa,Beach Street Eco Resort & Spa,1636,3053,Mr,,Aditya,Partner,,,,9421193820
+India,Goa,Goa,Sonesta Inns,1344,2823,Mr,Jose,Dsouza,G.M.,,,,9822169473
+India,Goa,Goa,Panjim Inn,1373,2351,Mr,Jack,Sukhija,,,,,9823025748
+India,Goa,Goa,Wildflower Villas,1431,2619,Mr,,Nishad,,,,,9822459584
+India,Goa,Goa,Mangaal Farm Homestay,1539,2980,Mr,Jaywant,,,,,,9822129789
+India,Goa,Goa,The Bay Agonda,1554,2953,Ms,,Puja,Reservations,,,,
+India,Goa,Goa,Casa Susegad,1679,3122,Mrs,,Carol,,,,,9822106341
+India,Goa,Goa,Aashyana Cottages,1685,2922,Ms,Madhumita,Das,,,,9130156159,9325583382
+India,Goa,Goa,La Paz Gardens,53,210,Mr,Jusico,Fernandes,FOM,,jusico@vmsalgaocar.com,,
+India,Assam,Guwahati,Baruah Bhavan,1376,2828,Mr,H C,Kalita,Caretaker,,,,9957862520
+India,Assam,Guwahati,River Breeze Hotel,1071,2514,Mrs,Sangeeta,Choudhury,,,,,9864269776
+India,Sikkim,Gangtok,Mintokling Guest House,1232,2686,Mr,Tenzing,N Pulger,Proprietor,,,,
+India,Sikkim,Gangtok,Netuk House,1542,1367,Mr,Yangdup,,,,,,9593361608
+India,Sikkim,Gangtok,Hotel Tibet,1033,12,Mr,Tenzing,,Front Office,,,,
+India,Rajasthan,Dungarpur,Udai Bilas Palace,340,873,Mr,Harshvardhan,Singh,,,,,9414104949
+India,Himachal Pradesh,Dharamsala,White Haven Estate,947,2416,Mr,,Sidhu,Manager,,sidman123@rediffmail.com,86790 26162,9418427531
+India,Himachal Pradesh,Dharamsala,Him View Guesthouse,1222,2681,Mrs,Sonam Y,Maja,Front Office Manager,,,,
+India,Himachal Pradesh,Dharamsala,Surya McLeod,751,644,Mr,Parul,Bamba,Director,,,8146666909,9816433163
+India,Karnataka,Badami,The Heritage Resort,1404,2750,Mr,,Mahantesh,,,,,9353023006
+India,Himachal Pradesh,Dharamsala,Norling Guest House Norbulingka,949,2424,Mr,Lobsang,Jinpa,Manager,,,,9816646423
+India,Himachal Pradesh,Dharamsala,Serkong House,1424,2863,Mr,Tsultrim,Dorjee,,,,,
+India,Madhya Pradesh,Dhar,Jhira Bagh Palace,1657,1375,Ms,,Anita,,,,,9826033801
+India,Rajasthan,Deogarh,Deogarh Mahal,651,401,Mr,Veerbhadra,Singh,Owner,,vboffice@deogarh.in,,9929173000
+India,Delhi,Delhi,Lutyens Guest House,530,2163,Ms,Vinita,Nath,Prop.,,,,9810053013
+India,Delhi,Delhi,Suncourt Hotel Yatri,562,2190,Mr,Shubh,Taneja,Director,,shubh4@hotmail.com,Altn. 9911066628,9810036814
+India,Delhi,Delhi,Hotel Sunstar Heritage,570,2195,Mr,Shubh,Taneja,Director,,shubh4@hotmail.com,,9810036814
+India,Delhi,Delhi,Hotel Sunstar Residency,571,2196,Mr,Shubh,Taneja,Director,,shubh4@hotmail.com,,9810036814
+India,Delhi,Delhi,Hotel Sunstar Grand,653,2246,Mr,Shubh,Taneja,Director,,shubh4@hotmail.com,,9810036814
+India,Delhi,Delhi,The Imperial Hotel,1271,116,Ms,Prathna,Arora,Sales Executive,,parora@theimperialindia.com,,9811210620
+India,Delhi,Delhi,Hotel Gautam Deluxe,1298,2655,Mr,Subhash,Singha,,,,,
+India,Delhi,Delhi,The Metropolitan Hotel,1316,2782,Mr,Rakesh,Pasbola,Associate Head Sales,,,,9810697814
+India,Delhi,Delhi,Shanti Home,1353,2820,Ms,Pooja,Rajpal,,,,,9891699625
+India,Delhi,Delhi,The Estate Villa,1541,2981,Ms,,Mamta,,,,987336 0002,9811169692
+India,Delhi,Delhi,The Claridges,414,1389,Mr,Anuj,Bidani,Sales Manager,,,3955 5111,9910506266
+India,Uttarakhand,Dehra Dun,Shaheen Bagh,1051,2406,Mr,Sanjay,Jain,Reservations,,,,9810718529
+India,West Bengal,Darjeeling,Clubside Tours & Travels Pvt Ltd,63,236,Mr,Suresh,Periwal,Managing Director,,,2254 052,9832060980
+India,West Bengal,Darjeeling,Windamere Hotel,1216,1364,Ms,Anushka,,Reservations,,,,
+India,West Bengal,Darjeeling,Glenburn Tea Estate,1791,3226,Mrs,Husna-Tara,Prakash,,,,,
+India,Himachal Pradesh,Dalhousie,Grand View Hotel,144,642,Ms,,Radhika,Reservations,,,,
+India,Kerala,Kochi,Chiramel Residency,766,1458,Mrs,Asha,Abraham,,,,,
+India,Uttarakhand,Corbett,The Corbett Hideaway,415,1386,Mr,Ajay,Kareer,Area Resort Manager,,,,
+India,Kerala,Kochi,The Fort House Hotel,764,2269,Ms,Nisha,Bastian,,,,,
+India,Kerala,Kochi,Napier House,791,2293,Mr,,Lijo,,,,,
+India,Kerala,Kochi,The Malabar House,771,980,Mr,Mervin,Isaac,General Manager,,mervin@malabarhouse.com,,
+India,Kerala,Kochi,Hotel Arches,1278,2734,Mr,T.J.,Godson,FOM,,,,9847215050
+India,Kerala,Kochi,Koder House,768,2295,Mr,Vicky,Raj,Owner,,,,9847005332
+India,Kerala,Kochi,Waltons Home Stay,1123,2587,Ms,Charlotte,Duram,,,,,9447008944
+India,Kerala,Kochi,Fort Heritage,1293,981,Mr,,David,Manager,,,,
+India,Kerala,Kochi,Tea Bungalow,1302,2461,Mr,Lloyd,Alvarez,GM,,,9388719679,9388719678
+India,Kerala,Kochi,Forte Kochi,1654,3094,Mr,Joseph,Barnes,,,jodeph@thepaul.in,,
+India,Kerala,Kochi,Sealord Hotel,447,24,Mr,Manoj,Peter,Director,,,,9446462473
+India,Maharashtra,Mumbai,Hotel Bawa International,851,2292,Ms,Agnes,,,,,,
+India,Rajasthan,Chittaurgarh,The Padmini Haveli Guesthome,1315,2778,Mr,Sudhir,Sukhwal,,,sudhirsimmu@rediffmail.com,,9414110090
+India,West Bengal,Kolkata,Hotel 233 Park Street,1474,2864,Mr,Umesh,Pandey,,,,,9674233233
+India,Kerala,Kozhikode,Kadavu,814,1268,Mr,Aravind,Ravi,Sales,,,,9995003030
+India,Rajasthan,Bundi,Hotel Bundi Haveli,610,2214,Mrs,Lulu,,Prop.,,,,
+India,Maharashtra,Mumbai,The Gordon House,616,2106,Mr,Janak,Mangaonkar,Marketing Manager,,,,9867505247
+India,Maharashtra,Mumbai,The Waterstones Hotel,1233,2404,Ms,Tulika,Karkada,Head - Sales & Marketing,,tulika.karkada@mars-world.com,,9967729857
+India,Maharashtra,Mumbai,Hotel Heritage,302,1878,Ms,Jaya,Patil,Reservations,,,,
+India,Karnataka,Bangalore,The Richmond Hotel,935,2430,Ms,Praveena,,Reservations,,,,
+India,Karnataka,Bangalore,Hotel Ivory Tower ,1410,1011,Mr,,Lohith,F.O.M.,,,,
+India,Rajasthan,Bikaner,Palace View Hotel,1297,396,Mr,Anirudh,S,Reservation,,,7665052345,
+India,Rajasthan,Bikaner,Hotel Lallgarh Palace,1322,865,Mr,Devendra,Sharma,Operations Manager,,,,9929087540
+India,Rajasthan,Bhenswara,Ravla Bhenswara,435,934,Mr,Shiv Pratap,Singh,Prop.,,,,9414132178
+India,Rajasthan,Bharatpur,Laxmi Vilas Palace,662,860,Mr,Deep,Raj,Reservations,,,,
+India,Rajasthan,Bikaner,Hotel Gaj Kesri,665,2205,Mr,Bhagwan,Singh,Manager,,,,
+India,Rajasthan,Bikaner,Bhanwar Niwas,718,715,Mr,Bhagwan,Singh,Reservations,,,,
+India,Madhya Pradesh,Bhopal,Ivy Suites,825,2338,Mrs,Manju,Sharma,,,,,9425014421
+India,Orissa,Bhubaneswar,The New Marrion Hotel,1394,2257,Mr,Chidanand,Mallick,Deputy Operation Manager,,,,9238022030
+India,Madhya Pradesh,Bandhavgarh,Nature Heritage Resort,1129,2217,Mr,Raj,Vardhan,Owner,,,,9425331202
+India,Karnataka,Badami,Hotel Badami Court,354,1009,Mr,Yunis,F Off.,,,,,
+India,Punjab,Amritsar,Ranjit Svaasa,942,2387,Mr,Abhimanyu,Mehra,,,,,9872626618
+India,Punjab,Amritsar,M.K. Hotel,757,2290,Mr,Siddharth,Kathak,Admin Exec,,,,
+India,Gujarat,Ahmedabad,Cama Hotel,604,1383,Ms,Heena,Sakhiwalla,Reservations,,,,
+India,Punjab,Amritsar,Ritz Plaza,755,646,Mr,Arun,Chibbar,FO,,,,9815753523
+India,Gujarat,Ahmedabad,Krios Hotel,1454,2887,Mr,Bhanwar,Singh,Front Office Executive,,info@krioshotel.com,,7874211144
+India,Kerala,Alleppey,Akkarakalam Memoirs,787,2309,Mr,Jobin J.,Akkarakalam,Managing Partner,,,,9446366066
+India,Kerala,Alleppey,Vismaya Lake Heritage,1768,2934,Mr,,Vinod,,,,,7012582858
+India,Uttar Pradesh,Allahabad,Hotel Milan Palace,968,2428,Mr,M.,Aslam,GM,,,,9335238490
+India,Uttar Pradesh,Agra,Hotel Mansingh Palace,660,398,Mr,Krishan,Tara,General Manager,,gm.agra@mansinghhotels.com,,8191977755
+India,Uttar Pradesh,Agra,The Grand Imperial,1012,2208,Mr,Yogesh,Kumar,Reservations,,,,9319842952
+India,Uttar Pradesh,Agra,Hotel Royale Residency,1420,2223,Mr,Aabid,Khan,Resr Manager,,,,9897522527
+India,Uttar Pradesh,Agra,Hotel Seven Hills Tower,1448,2881,Mr,Anand,Chaudhary,Reservation,,,,8077735197
+India,Uttar Pradesh,Agra,Hotel Utkarsh Vilas,1145,2502,Ms,Hemlata,,Reservations,,,,9837001210
+India,Uttar Pradesh,Agra,Hotel Dasaprakash,1283,2710,Mr,S L,Dogre,GM,,,81713 90066,8171390033
+India,Uttar Pradesh,Agra,Howard Sarovar Portico,1323,1426,Mr,Ryan,Knight,,,,,
+India,Uttar Pradesh,Agra,The Coral Court Homestay,1518,2960,Mrs,Beena,Talan,Director,,,,9760019660
+India,Uttar Pradesh,Agra,The Coral Tree Homestay,1498,2882,Ms,Pooja,,,,,,
+India,Uttar Pradesh,Agra,Hotel Taj Resorts,1550,2955,Mr,Sunil,Kardam,Reservation Manager,,,,7830050001
+India,Uttar Pradesh,Agra,Hotel Amar,597,745,Mr,,Pandey,Reservations Mgr,,,,9927395422
+India,Uttar Pradesh,Agra,Hotel Amar,559,745,Mr,Y K,Verma,General Manager,,,,9837036767
+India,Uttar Pradesh,Agra,Hotel Mansingh Palace,1559,398,Mr,Rais,Uddin,FOM,,,,
+India,Uttar Pradesh,Agra,Hotel Taj Resorts,1664,2955,Mr,OP,Yadav,GM,,opyadav.136@gmail.com,,8191007406
+India,Uttar Pradesh,Agra,Hotel Dasaprakash,1345,2710,Mr,K.H.,Rao,,,,,8171390099
+India,Uttar Pradesh,Allahabad,Hotel Milan Palace,1188,2428,Mr,Manoj,Singh,,,,,9648939584
+India,Uttar Pradesh,Agra,Hotel Utkarsh Vilas,1199,2502,Mr,Banu,Pratap,Executive Reservations,,,75002 97771,9458050025
+India,Karnataka,Badami,Hotel Badami Court,933,1009,Ms,Indumati,,Blr Office,,,080 25295451/52,
+India,Madhya Pradesh,Bhopal,Jehan Numa Palace Hotel,1658,1455,Mr,Saleem,Quraishi,Sales Manager,,saleem@jnph.in,,9981997714
+India,Maharashtra,Mumbai,The Waterstones Hotel,1234,2404,Mr,Vinayak,Khule,Duty Manager ,,vinayak.khule@mars-world.com,,9004059509
+India,Maharashtra,Mumbai,The Gordon House,727,2106,Mr,,Rohan,,,,,9004038142
+India,West Bengal,Darjeeling,Windamere Hotel,1355,1364,Mr,,Aman,Reservations Executive,,,,9233389790
+India,West Bengal,Darjeeling,Clubside Tours & Travels Pvt Ltd,1727,236,Mr,Pradip,Mitra,,,,,9733053359
+India,Delhi,Delhi,Shanti Home,1354,2820,Mr,Rajat,Verma,Owner,,,,9810041741
+India,Delhi,Delhi,The Imperial Hotel,1391,116,Ms,Palka,Sehgal,Guest Relations Manager,,psehgal@theimperialindia.com,,
+India,Delhi,Delhi,Ashok Country Resort,1442,2056,Mr,Nanaji,"Razdan,",,,,,9811112422
+India,Himachal Pradesh,Dharamsala,Serkong House,1613,2863,Ms,,Pema,,,,,9857957131
+India,Himachal Pradesh,Dharamsala,Norling Guest House Norbulingka,1614,2424,Ms,,Tenzing,,,,,
+India,Delhi,Delhi,The Claridges,1486,1389,Mr,Jai,Nathani,Asst Sales Manager,,,3955 5100,9560025385
+India,Himachal Pradesh,Dharamsala,Surya McLeod,752,644,Mr,Param,Bamba,Director,,,,9805433163
+India,Goa,Goa,Yab Yum Beach Resort,1024,2441,Mr,Pal,,Resident Mgr.,,,,9049883962
+India,Goa,Goa,Panjim Inn,836,2351,Mr,Ajit,Sukhija,,,,,9823025748
+India,Karnataka,Hampi,Shama's Cottages,1023,2435,Ms,Nishka,,Reservation Mgr,,,,
+India,Karnataka,Hampi,Uramma Heritage Homes,1725,2717,Mr,Parashuram,K,Accountant and Interim Manager,,,,9448284657
+India,Chandigarh,Chandigarh,Hotel Western Court,1701,2397,Mr,Amarjit,Singh,Asst Manager Front Office,,,,9855788028
+India,Karnataka,Hampi,Hampis Boulders Resort,1771,1989,Ms,,Margaret,,,,,
+India,Tamil Nadu,Madurai,Royal Court,734,2169,Mr,C,Jeevarajan,Sales Mgr,,,9842758087,
+India,Rajasthan,Jaipur,Dera Mandawa,1556,2657,Mr,Sandeep,Kasana,,,,,8562035040
+India,Rajasthan,Jaipur,Samode Haveli,685,624,Mr,E G,George,Reservations,,,,
+India,Rajasthan,Jaipur,Hotel Arya Niwas,615,13,Mr,Puneet,Bansal,,,,,9829018432
+India,Rajasthan,Jaisalmer,Fort Rajwada,1339,738,Mr,Vijendra,Singh Kumpawar,GM,,,,
+India,Rajasthan,Jaisalmer,Nachana Haveli,1565,1344,Mr,Aasu,Singh,Sales & Reservations,,,,9461533862
+India,Rajasthan,Jaisalmer,Mandir Palace Hotel,1622,14,Mr,Gopal,Singh Rathore,,,,,
+India,Rajasthan,Karauli,Bhanwar Vilas Palace,1567,395,Mr,Vivasvat,Pal,Owner,,vivasvatpal@gmail.com,,9928590103
+India,Uttar Pradesh,Kushinagar,The Imperial Kushinagar,1709,2554,Mr,,Sawan,Front Office Manager,,,,9532696580
+India,Kerala,Kovalam,Thapovan Heritage Home,740,2270,Mr,Andreas,Heitmann,Director,,,,
+India,Kerala,Kovalam,The Travancore Heritage,809,2053,Mr,Madan,Gopal,Manager Sales & Marketing,,,,9447749390
+India,Tamil Nadu,Chennai,Hotel Marina Towers,646,2166,Mr,Bhumesh K.,Chopra,Sales Director,,,,9841815833
+India,Tamil Nadu,Chennai,Ramada Chennai Egmore,1264,2720,Ms,Jenitha,,,,,,9710934745
+India,Kerala,Mararikulam,Abad Turtle Beach Resort,1581,2287,Mr,,Jojo,,,,,
+India,Himachal Pradesh,Manali,Johnson Hotel & Jimmy Johnson Lodge,952,2443,Mrs,Bala,Johnson,,,,,9816273023
+India,Rajasthan,Narlai,Rawla Narlai,1572,404,Mr,Rafi,Siddiqui,Head of Sales - wEST,,,82866 682682,9119144555
+India,Madhya Pradesh,Orchha,Hotel Bundelkhand Riverside,652,2162,Mr,Pankaj,Gairola,Resvn Delhi,,,"011 25885709, 25889516",9810383711
+India,Rajasthan,Osian,The Camel Camp Osian,1552,1345,Mr,Chauhan,S,,,,,9928009613
+India,Sikkim,Pelling,Newa Regency,650,2226,Mr,Hirak,,GM,,,,9332262583
+India,Rajasthan,Pushkar,Pushkar Palace,1561,16,Mr,Surendra,Singh,Reservations Manager,,,9828285655,9828060601
+India,Rajasthan,Pushkar,Hotel Brahma Horizon,1564,2993,Mr,Vaibhav,Chhatwani,Owner,,,,8107044285
+India,Uttarakhand,Rishikesh,Himalayan Hideaway,1077,2448,Ms,Moumita,Robinson Paul,Reservations,,,,
+India,Rajasthan,Rohet,Rohet Garh,1348,909,Ms,Manisha,Kumari,Reservations,,,,
+India,Rajasthan,Sawai Madhopur,Ranthambhore Forest Resort,722,2271,Mr,Lalit,Shukla,Manager,,,,9910513825
+India,Rajasthan,Sawai Madhopur,The Ranthambhore Bagh,1577,2126,Mr,Aditya 'Dicky',Singh,Prop.,,me@dickysingh.com,,9414030221
+India,Himachal Pradesh,Shimla,Woodville Palace,576,302,Mr,Vijay,Sharma,General Manager,,,,9218520516
+India,Rajasthan,Udaipur,Udai Kothi,1754,1861,Mr,Anjan,Kumar,Reservations,,,,
+India,Rajasthan,Udaipur,Fateh Garh,1308,2368,Mr,Naresh,Choubisa,,,,,8696945109
+India,Rajasthan,Udaipur,Ram Pratap Palace,476,2110,Mr,Jitendra,Singh,Proprieter,,,,9928863254
+India,Kerala,Vandanmedu,Carmelia Haven,1291,661,Mr,Joseph,Rojes,Asst General Manager,,sales@carmeliahaven.com,,9400005314
+India,Haryana,Gurgaon,Royal Retreat,823,2055,Mr,Ahnit,Chhetri,FO,,,,991925033
+India,Rajasthan,Khempur,Ravla Khempur,1327,2202,Mr,Nitin,Kumar,Sales Mngr,,,7568272852,9466114456
+India,Rajasthan,Shahpura,Shahpura Bagh,1367,2272,Mr,Jai,Singh,,,jai@shahpurabagh.com,,9982226606
+India,Himachal Pradesh,Chamba,Hotel Aroma Palace,905,2420,Mr,Rajinder,Sharma,,,,,9418223616
+India,Tamil Nadu,Chettinad,The Bangala,1396,2376,Ms,,Unnamalai,,,thebangalamsmm@yahoo.co.in,,
+India,Himachal Pradesh,Shimla,Woodville Palace,645,302,Mr,Divraj,Singh,Exec Director,,(Owner's son),9958440273,9816644851
+India,Rajasthan,Sawai Madhopur,Ranthambhore Forest Resort,1281,2271,Mr,Vinod Kumar,Yadav,Reservations Manager,,,,9351006071
+India,Rajasthan,Narlai,Rawla Narlai,1758,404,Mr,Keshav,Pratap Singh,General Manager,,gm@rawlanarlai.com,,
+India,Tamil Nadu,Chennai,Ramada Chennai Egmore,1263,2720,Ms,S.,Manikandan,Asst. Sales Manager,,,,9841815833
+India,Kerala,Kovalam,The Travancore Heritage,810,2053,Mr,Jagadish B.,Nair,General Manager,,,,9447759390
+India,Kerala,Kovalam,Thapovan Heritage Home,1294,2270,Mr,Sunil,Kumar,Sales & Reservations,,,,
+India,Rajasthan,Karauli,Bhanwar Vilas Palace,1568,395,Mrs,Anshika,Singh,Owner,,anshikasingh4@gmail.com,,
+India,Rajasthan,Jaisalmer,Nachana Haveli,1566,1344,Ms,Meghna,Singh,Owner,,,,9414105311
+India,Rajasthan,Jaipur,Dera Mandawa,1557,2657,Mrs,Smriti,Singh,,,,,9818004027
+India,Karnataka,Hampi,Uramma Heritage Homes,1726,2717,Ms,Madhu,Lata,Front desk,,,,9448284658
+India,Karnataka,Hampi,Shama's Cottages,1243,2435,Ms,Puja,Mitra,,,,,9482830688
+India,Goa,Goa,Casa Severina,928,2442,Mr,Joseph,Sequeira,Prop.,,,,9326110855
+India,Himachal Pradesh,Dharamsala,Surya McLeod,1054,644,Mr,Aman,Sharma,Reservations,,,,9779070123
+India,Maharashtra,Mumbai,The Gordon House,1524,2106,Mr,Subash,Pawar,Accounts,,subhash.pawar@mars-world.com,,
+India,Madhya Pradesh,Bhopal,Jehan Numa Palace Hotel,1659,1455,Mr,Kamal,Bharati,GM,,,,
+India,Himachal Pradesh,Dharamsala,Surya McLeod,1359,644,Ms,Ankita,Karki,,,,,
+India,Rajasthan,Jodhpur,Ajit Bhawan,1582,15,Mr,Suraj,Panwar,Reservations,,,,
+India,Tamil Nadu,Chennai,Ramada Chennai Egmore,1332,2720,Mr,Manoj,,,,,,9710939046
+India,Himachal Pradesh,Shimla,Woodville Palace,1309,302,Mr,B.S,Paul,Sales & M Manager,,,,9711403855
+India,Tamil Nadu,Chennai,Ramada Chennai Egmore,1615,2720,Mr,,Mohan,Assistant Sales Manager,,sales3@ramadachennaiegmore.com,,7358793624
+India,Rajasthan,Jodhpur,Ajit Bhawan,1583,15,Mr,Sharad,Sharma,Head of Sales,,,9910031451,9599080532
+India,Rajasthan,Jodhpur,Ajit Bhawan,1670,15,Mr,Rafi,Siddiqui,Head of Sales - West,,mumbaisales@ajitbhawan.com,9119144555,8286682682
+>>>>>>> 6ab88e3404f61623749364ac079f218b4ed273f4

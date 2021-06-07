@@ -1,0 +1,239 @@
+{{ define "main" }}
+{{ .Scratch.Set "layout" "layouts/data/hotels/single.html" -}}
+
+{{- $categoryData  := .Site.Data.categories }}
+{{- $tagData       := .Site.Data.tags }}
+
+<section id="{{ .Scratch.Get "id" | lower }}"> 
+  {{ partial "heading.html" . }}
+
+  <div class="jss1377">
+    <div class="jss373 jss397 jss372">
+        <nav class="jss374 jss371 jss413">
+            <div class="jss1378 jss1379">
+                <a aria-current="page" class="jss1380 active" title="Summertime" href="/suppliers/0f76baa9-923d-4229-a3be-bded1cd8ec0c">
+                  Summertime
+                </a>
+                <svg class="jss470 jss1381" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation">
+                    <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"></path>
+                    <path fill="none" d="M0 0h24v24H0V0z"></path>
+                </svg>
+                <a class="jss1382 jss1384 active" href="/suppliers/0f76baa9-923d-4229-a3be-bded1cd8ec0c/setup" aria-current="page">
+                  <span data-test="Setup">Setup</span><span aria-hidden="true" class="jss1383">Setup</span>
+                </a>
+                <a class="jss1382" href="/suppliers/0f76baa9-923d-4229-a3be-bded1cd8ec0c/description">
+                  <span data-test="Description">Description</span><span aria-hidden="true" class="jss1383">Description</span>
+                </a>
+                <a class="jss1382" href="/suppliers/0f76baa9-923d-4229-a3be-bded1cd8ec0c/media">
+                  <span data-test="Media">Media</span>
+                  <span aria-hidden="true" class="jss1383">Media</span>
+                </a>
+                <a class="jss1382" href="/suppliers/0f76baa9-923d-4229-a3be-bded1cd8ec0c/amenities">
+                  <span data-test="Amenities">Amenities</span><span aria-hidden="true" class="jss1383">Amenities</span>
+                </a>
+                <a class="jss1382" href="/suppliers/0f76baa9-923d-4229-a3be-bded1cd8ec0c/pricing"><span data-test="Pricing">Pricing</span>
+                  <span aria-hidden="true" class="jss1383">Pricing</span>
+                </a>
+                <a class="jss1382" href="/suppliers/0f76baa9-923d-4229-a3be-bded1cd8ec0c/products">
+                  <span data-test="Products">Products</span><span aria-hidden="true" class="jss1383">Products</span>
+                </a>
+            </div>
+        </nav>
+    </div>
+</div>
+
+ <div class="row">
+    <div id="image"></div>
+    <div class="data">
+
+      <div class="table even">
+        <div class="item-1">
+          <option value="0">Select a hotel</option>
+        </div>
+        <div class="item-2">
+          <select name="destination" id="hotels">
+            <option value="0"></option>
+           {{- range sort ( where ( where $.Site.Pages "Section" "destinations") ".Params.type" "hotel" ) ".Title" "asc" }}
+             {{ $array := split .RelPermalink "/" }}
+            {{ $path  := index $array (sub (len $array) 4) }}
+              <option value="{{ .RelPermalink }}">{{ .Title }}{{ if ne $path "destinations" }}, {{ $path | humanize }}{{ end }}</option>
+           {{- end }}
+         </select> 
+       </div>
+     </div>
+
+    <div class="table">
+      <div class="item-1"><b>Field</b></div>
+      <div class="item-2"><b>Data</b></div>
+    </div>
+
+     <div class="table even">
+      <div class="item-1">URL </div>
+      <div id="url" contenteditable="true" class="item-2"></div>
+    </div>
+    
+    <div class="table even">
+      <div class="item-1">Title </div>
+      <div id="title" contenteditable="true" class="item-2"></div>
+    </div>
+
+    <div class="table odd">
+      <div class="item-1">Address</div>
+      <div class="item-2">
+         <textarea id="address" contenteditable="true" class="custom-control-input" type="text"></textarea>
+      </div>
+    </div>
+
+    <div class="table odd">
+      <div class="item-1">City</div>
+      <div id="city" contenteditable="true" class="item-2"></div>
+    </div>
+
+    <div class="table odd">
+      <div class="item-1">Postal code</div>
+      <div class="item-2">
+        <div class="form-check">
+          <input id="postalcode" class="custom-control-input" type="int" min=0 max=900000 step=1 value="">
+        </div>
+      </div>
+    </div>
+
+    <div class="table odd">
+      <div class="item-1">Area code</div>
+      <div class="item-2">
+         <textarea id="areaCode" contenteditable="true" class="custom-control-input" type="text"></textarea>
+      </div>
+    </div>
+
+    <div class="table odd">
+      <div class="item-1">Phone</div>
+      <div class="item-2">
+         <textarea id="phone" contenteditable="true" class="custom-control-input" type="text"></textarea>
+      </div>
+    </div>
+
+    <div class="table odd">
+      <div class="item-1">Mobile</div>
+      <div class="item-2">
+         <textarea id="mobile" contenteditable="true" class="custom-control-input" type="text"></textarea>
+      </div>
+    </div>
+
+    <div class="table odd">
+      <div class="item-1">Email</div>
+      <div class="item-2">
+        <textarea id="email" contenteditable="true" class="custom-control-input" type="text"></textarea>
+      </div>
+    </div>
+
+    <div class="table odd">
+      <div class="item-1">Website</div>
+      <div id="www" contenteditable="true" class="item-2"></div>
+    </div>
+    
+    <div class="table odd">
+      <div class="item-1">Book through</div>
+      <div id="bookThrough" contenteditable="true" class="item-2"></div>
+    </div>
+
+    <div class="table odd">
+      <div class="item-1">Note</div>
+       <div id="note" contenteditable="true" class="item-2"></div>
+    </div>
+
+    <div class="table odd">
+      <div class="item-1">Check In</div>
+       <div id="checkin" contenteditable="true" class="item-2"></div>
+    </div>
+
+    <div class="table odd">
+      <div class="item-1">Check Out</div>
+       <div id="checkout" contenteditable="true" class="item-2"></div>
+    </div>
+
+
+     <div class="table even">
+      <div class="item-1">Star rating</div>
+      <div class="item-2">
+        <div class="form-check">
+          <input id="starCategory" class="custom-control-input" type="int" min=0 max=6 step=1 value="">
+        </div>
+      </div>
+    </div>
+
+    <div class="table even">
+      <div class="item-1">Ranking</div>
+      <div class="item-2">
+        <div class="form-check">
+          <input id="ranking" class="custom-control-input" type="int" min=0 max=5 step=1 value="">
+        </div>
+      </div>
+    </div>
+
+    <div class="table even">
+      <div class="item-1">Category</div>
+      <div class="item-2">
+       <select id="category" name="category">
+         <option value="0">Select category</option>
+          {{- range $categoryData.hotelCategories }}
+          <option value="{{ .id }}">{{ .category }}</option>
+          {{- end }}
+       </select>
+      </div>
+    </div>
+
+    <div class="table even">
+      <div class="item-1">Tag</div>
+      <div class="item-2">
+      {{- range $tagData.hotelTags }}
+      <input type="checkbox" id="tag-{{ .id }}" name="tag-{{ .id }}" value="{{ .tag }}">
+      <label for="tag-{{ .id }}">Tag</label><br>
+      {{- end }}
+      </div>
+    </div>
+
+    <div class="table odd">
+      <div class="item-1">Display</div>
+      <div class="item-2">
+        <div class="form-check">
+          <input id="showHotel" class="custom-control-input" type="checkbox" value="">
+        </div>
+      </div>
+    </div>
+
+     <div class="table odd">
+      <div class="item-1">Used for web site</div>
+      <div class="item-2">
+        <div class="form-check">
+          <input id="web" class="custom-control-input" type="checkbox" value="">
+        </div>
+      </div>
+    </div>
+
+    <div class="table even">
+      <div class="item-1">GST type</div>
+      <div id="gstType" contenteditable="true" class="item-2"></div>
+    </div>
+
+  </div>
+  <div class="content">
+      <textarea id="content" contenteditable="true" class="content-column custom-control-input" type="text"> </textarea>
+  </div>
+</div>
+
+<div class="mx-auto w-50">
+    <div id="in-progress" class="spinner" role="status">
+      <span class="sr-only">In progress...</span>
+    </div>
+    <div>
+      <button class="save btn btn-success" id="save">
+        <i class="icon-floppy"></i>
+        Save
+      </button>
+    </div>
+  </div>
+</section>
+{{- end }}
+{{- define "postscript" }}
+<script type="module" src="/js/app/dataHotels.js"></script>
+{{- end }}

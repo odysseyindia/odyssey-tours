@@ -37,25 +37,24 @@ function displayData(urldata){
       document.getElementById("address").innerText     = data.address;
       document.getElementById("city").innerText        = data.city;
       document.getElementById("postalcode").innerText  = data.postalcode;
+      document.getElementById("areaCode").innerText    = data.areaCode;
       document.getElementById("phone").innerText       = data.phone;
+      document.getElementById("mobile").innerText      = data.mobile;
       document.getElementById("email").innerText       = data.email;
       document.getElementById("www").innerText         = data.wwww;
       document.getElementById("note").innerText        = data.note;
       document.getElementById("bookThrough").innerText = data.bookThrough;
-      document.getElementById("mailTo").innerText      = data.mailTo;
+      document.getElementById("checkin" ).innerText    = data.checkin;
       document.getElementById("checkout").innerText    = data.checkout;
-      document.getElementById("accessAir").innerText   = data.accessAir;
-      document.getElementById("accessRail").innerText  = data.accessRail;
-      document.getElementById("accessBus").innerText   = data.accessBus;
-      document.getElementById("content").innerHTML     = data.content;
       document.getElementById("gstType").innerText     = data.gstType;
 
+      document.getElementById("content").innerHTML     = data.content;
+      
       document.getElementById("starCategory").value    = Number(data.starCategory);
       document.getElementById("ranking").value         = Number(data.ranking);
-      document.getElementById("rooms").value           = Number(data.rooms);
       document.getElementById("category").selectedIndex = data.category;
+      document.getElementById("tags").selectedIndex    = data.tags;
       
-      document.getElementById("nighthalt").checked     = (data.nighthalt == 'true')? true : false;;
       document.getElementById("showHotel").checked     = (data.showHotel == 'true')? true : false;
       document.getElementById("web").checked           = (data.web == 'true')? true : false;
     }, 
@@ -83,28 +82,26 @@ document.getElementById("save").addEventListener("click", function(){
     data[0]                 = {};
     data[0].translationKey  = newKey.join('/');
     data[0].title           = document.getElementById("title").innerText ;
-    data[0].address         = document.getElementById("address").innerText ;
-    data[0].city            = document.getElementById("city").innerText ;
+    data[0].address         = document.getElementById("address").innerText;
+    data[0].city            = document.getElementById("city").innerText;
     data[0].postalcode      = document.getElementById("postalcode").innerText;
-    data[0].phone           = document.getElementById("phone").innerText   ;
+    data[0].areaCode        = document.getElementById("areaCode").innerText;
+    data[0].phone           = document.getElementById("phone").innerText;
+    data[0].mobile          = document.getElementById("mobile").innerText;
     data[0].email           = document.getElementById("email").innerText ;
     data[0].www             = document.getElementById("www").innerText ;
     data[0].note            = document.getElementById("note").innerText;
     data[0].bookThrough     = document.getElementById("bookThrough").innerText;
-    data[0].mailTo          = document.getElementById("mailTo").innerText ;
+    data[0].checkin         = document.getElementById("checkin").innerText ;
     data[0].checkout        = document.getElementById("checkout").innerText
-    data[0].accessAir       = document.getElementById("accessAir").innerText;
-    data[0].accessRail      = document.getElementById("accessRail").innerText;
-    data[0].accessBus       = document.getElementById("accessBus").innerText;
     data[1].content         = document.getElementById("content").innerText.replace(/[`]/g, "'");
     data[0].gstType         = document.getElementById("gstType").innerText;
 
     data[0].starCategory    = document.getElementById("starCategory").value;
     data[0].ranking         = document.getElementById("ranking").value;
-    data[0].rooms           = document.getElementById("rooms").value;
     data[0].category        = category[category.selectedIndex].value;
-
-    data[0].nighthalt       = (document.getElementById("nighthalt").checked == true) ? true : false;
+    data[0].tags            = tags[tags.selectedIndex].value;
+    
     data[0].showHotel       = (document.getElementById("showHotel").checked == true) ? true : false;
     data[0].web             = (document.getElementById("web").checked       == true) ? true : false;
 

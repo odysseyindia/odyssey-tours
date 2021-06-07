@@ -9,7 +9,10 @@ find . -path './*/cities/*/transfers' -exec sh -c 'echo "---\ntype=transfers\n--
 grep -lrIZ 'active: 0' . | xargs -0 rm -f --
 
 find . -name index.md -print0 | xargs -0 -n1 bash -c 'mv "$0" "${0/index.md/_index.md}"'
+
 grep -lrIZ 'active: 0' . | xargs -0 rm -f --
-find . -path './*/cities/*/transfers' -exec sh -c 'echo "---\ntype=transfers\n---" > $1/_index.md' _ {} \;
 
 find .  -name 'excursions' -type d -exec cp west-bengal/cities/kolkata/excursions/_index.md
+
+
+sed 's/---/tags: [Hotels]\n---/2' 

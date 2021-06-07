@@ -1,0 +1,17 @@
+{{ define "main" }}
+{{ .Scratch.Set "layout" "layouts/_default/tag.terms.html" -}}
+
+{{- $categoryData  := .Site.Data.categories }}
+{{- $tagData       := .Site.Data.tags }}
+
+<section id="{{ .Scratch.Get "id" | lower }}"> 
+    {{ partial "heading.html" . }}
+   {{ range .Data.Pages }}
+   {{ .Title }}
+   {{ end }}
+    </main>
+</section>
+{{- end }}
+{{- define "postscript" }}
+
+{{- end }}
