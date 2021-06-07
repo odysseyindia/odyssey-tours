@@ -133,8 +133,8 @@
                                         </svg>
                                         <div id="select-option" class="dropdown-content">
                                           <ul>
-                                            <li><a href="#">Add existing contact</a></li>
-                                            <li><a href="#">Create new contact</a></li>
+                                            <li id="add-existing-contact">Add existing contact</li>
+                                            <li id="create-new-contact">Create new contact</li>
                                         </ul>
                                     </div>
 
@@ -198,25 +198,149 @@
                 </div>
             </div>
         </div>
-        
-
     </main>
+
+    <div id="new-contact-modal" class="modal">
+        <div class="new-contact-panel">
+            <div class="col1"></div>
+            <div class="col2">
+                <!--
+                <div class="go-back">
+                    <button class="btn-go-back" tabindex="0" type="button">
+                        <span class="go-back">
+                            <svg class="-svg-go-back" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation">
+                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"></path>
+                            </svg>
+                        </span>
+                    </button>
+                </div>
+            -->
+            </div>
+            <div class="col3">
+                <div class="new-contact">
+                    <form>
+                        <div class="hotel1">
+                            <div class="hotel2">
+                                <h2>Add New Contact</h2>
+                            </div>
+                            <div class="flex-item">
+                                <div class="item">
+                                    <label for="salutation">Salutation</label>
+                                    <input aria-invalid="false" id="salutation" name="salutation" required type="text" value="">
+                                </div>
+                                <div class="item">
+                                    <label for="first_name">First name</label>
+                                    <input aria-invalid="false" id="first_name" name="first_name" type="text" value="">
+                                </div>
+                                <div class="item">
+                                    <label for="last_name">Last name</label>
+                                    <input aria-invalid="false" id="last_name" name="last_name" type="text" value="">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <label data-shrink="false" for="email">Email</label>
+                                <input aria-invalid="false" id="email" name="email" type="text" value="">
+                            </div>
+                            <div class="item">
+                                <label for="contacts-position">Position</label>
+                                <input autocomplete="off" name="contacts-position" type="text" value="Director">
+                            </div>
+                            <div class="flex-item">
+                                <div class="item">
+                                    <label for="contacts-mobile">Mobile</label>
+                                    <input name="contacts-mobile" type="text" value="9923752407">
+                                </div>
+                                <div class="item">
+                                    <label for="contacts-email">Email</label>
+                                    <input autocomplete="off" name="contacts-email" type="text" value="info@summertimegoa.com">
+                                </div>
+                            </div>
+                            <div class="flex-item">
+                                <div class="item country">
+                                    <div>
+                                        <label for="contacts-isd">Country</label>
+                                    </div>
+                                    <div class="flex-item">
+                                        <input name="contacts-isd" type="text" value="+91">
+                                        <div class="isd">
+                                            <p>India</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <label for="contacts-areaCode">Area</label>
+                                    <input name="contacts-areaCode" type="text" value="0832">
+                                </div>
+                                <div class="item">
+                                    <label for="contacts-phone">Phone</label>
+                                    <input name="contacts-phone" type="text" value="277691">
+                                </div>
+                            </div>
+                            <div class="flex-item">
+                                <div>
+                                 <button id="new-contact-cancel" class="btn-add-new-contact cancel" tabindex="0" type="submit">
+                                    <span class="add-new-contact" formnovalidate >Cancel</span>
+                                </button>
+                            </div>
+                               <div>
+                                 <button id="new-contact-add" class="btn-add-new-contact" tabindex="0" type="submit">
+                                    <span class="add-new-contact">Add contact</span>
+                                </button>
+                            </div>
+                            
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col4"></div>
+        </div>
+    </div>
 </section>
 
 {{ end }}
 {{ define "postscript" }}
 <script>
 
-    document.getElementById("add-contact").addEventListener("click", (event) => { dropDown();  });
+function toggleDropDown(){
+    var modal = document.getElementById("select-option");
+    if (modal.style.display == "none") {
+        modal.style.display = "block";
+    } else {
+        modal.style.display = "none";
+    }
+};
 
-    function dropDown(){
-        var modal = document.getElementById("select-option");
-        if (modal.style.display == "none") {
-            modal.style.display = "block";
-        } else {
-            modal.style.display = "none";
-        }
-    };
+function cancelNewContact(){
+ var element = document.getElementById("new-contact-modal");
+ element.style.display = "none";
+};
+
+ function createNewContact(){
+    var newModal  = document.getElementById("new-contact-modal");
+    var prevModal = document.getElementById("select-option");
+    newModal.style.display  = 'block';
+    prevModal.style.display = 'none';
+
+};
+
+function addContact(){
+
+};
+
+function addExisting(){
+
+};
+
+
+document.getElementById("add-contact"         ).addEventListener("click", (event) => { toggleDropDown();  });
+document.getElementById("create-new-contact"  ).addEventListener("click", (event) => { createNewContact();  });
+document.getElementById("add-existing-contact").addEventListener("click", (event) => { addExisting();  });
+
+document.getElementById("new-contact-add"     ).addEventListener("click", (event) => { addContact();  });
+document.getElementById("new-contact-cancel"  ).addEventListener("click", (event) => { cancelNewContact();  });
+
 
 </script>
 {{ end }}
