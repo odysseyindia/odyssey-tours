@@ -2,7 +2,7 @@
 title: The Three Big Cats
 subtitle: Delhi, Sawai Madhopur, Shahpura, Bera, Dasada, Gondal, Sasangir, Diu
 translationKey: the-three-big-cats
-type: itinerary
+type: tim/itinerary
 tour: The Three Big Cats
 highlights:
   - Exploring the only country in the world with both lions and tigers

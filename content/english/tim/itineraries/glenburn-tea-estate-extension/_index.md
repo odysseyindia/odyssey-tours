@@ -2,7 +2,7 @@
 title: Glenburn Tea Estate Extension
 subtitle: Glenburn Tea Estate - Darjeeling
 translationKey: glenburn-tea-estate-extension
-type: itinerary
+type: tim/itinerary
 tour: Glenburn Tea Estate Extension
 highlights:
   - A gracious old tea estate with beautiful bungalows

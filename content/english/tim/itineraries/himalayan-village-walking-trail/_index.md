@@ -2,7 +2,7 @@
 title: Himalayan Village Walking Trail
 subtitle: Delhi, Bhimtal, local villages, Binsar
 translationKey: himalayan-village-walking-trail
-type: itinerary
+type: tim/itinerary
 tour: Himalayan Village Walking Trail
 highlights:
   - Easy walks through beautiful forests

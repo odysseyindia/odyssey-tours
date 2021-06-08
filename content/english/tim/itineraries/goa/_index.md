@@ -3,7 +3,7 @@ title: Goa
 subtitle: Colonial Panjim, beaches
 weight: '501'
 translationKey: goa
-type: itinerary
+type: tim/itinerary
 tour: Goa
 itinerary:
   - day: 0

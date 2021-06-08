@@ -1,7 +1,7 @@
 ---
 title: Deccan Explorer
 translationKey: deccan-explorer
-type: itinerary
+type: tim/itinerary
 tour: Deccan Explorer
 itinerary:
   - day: 0

@@ -6,7 +6,7 @@ subtitle: >-
   Mysore, Ranganathittu bird sanctuary, Bangalore 
 weight: '606'
 translationKey: birding-and-wildlife-of-south-india
-type: itinerary
+type: tim/itinerary
 tour: Birding & Wildlife of South India
 highlights:
   - Birding and nature walks in Thattekad, Thekkady, Dindigul and Perumparai

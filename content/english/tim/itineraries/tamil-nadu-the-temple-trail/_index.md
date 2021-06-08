@@ -3,7 +3,7 @@ title: Tamil Nadu - The Temple Trail
 subtitle: 'Chennai, Mamallapuram, Pondicherry, Kumbakonam, Thanjavur, Madurai '
 weight: '602'
 translationKey: tamil-nadu-the-temple-trail
-type: itinerary
+type: tim/itinerary
 tour: Tamil Nadu - The Temple Trail
 highlights:
   - Learning about Hinduism through stories in Chennai

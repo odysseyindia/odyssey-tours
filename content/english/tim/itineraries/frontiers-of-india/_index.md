@@ -2,7 +2,7 @@
 title: Frontiers of India
 subtitle: Kolkata, Dibrugarh, Mon, Mokokchung, Jorhat, Majuli, Kaziranga, Shillong
 translationKey: frontiers-of-india
-type: itinerary
+type: tim/itinerary
 tour: Frontiers of India
 highlights:
   - Feel like a colonial burra sahib in tea-estate bungalows

@@ -2,7 +2,7 @@
 title: Gaddi Kingdom Trek Extension
 subtitle: Villages around Triund in Himachal Pradesh
 translationKey: gaddi-kingdom-trek-extension
-type: itinerary
+type: tim/itinerary
 tour: Gaddi Kingdom Trek Extension
 highlights:
   - Fabulous views of the snowy Himalayas

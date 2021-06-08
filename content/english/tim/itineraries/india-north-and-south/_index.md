@@ -2,7 +2,7 @@
 title: India – North & South
 subtitle: Delhi, Agra, Jaipur, Kochi, Thekkady, Alleppey, Houseboat, Mararikulam
 translationKey: india-north-and-south
-type: itinerary
+type: tim/itinerary
 tour: India North & South
 itinerary:
   - day: 0

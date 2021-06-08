@@ -5,7 +5,7 @@ subtitle: >-
   Ahmedabad, Mumbai, Goa
 weight: '110'
 translationKey: a-taste-of-india
-type: itinerary
+type: tim/itinerary
 tour: A Taste of India
 itinerary:
   - day: 0

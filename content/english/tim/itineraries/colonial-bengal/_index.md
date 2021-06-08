@@ -2,7 +2,7 @@
 title: Colonial Bengal
 subtitle: Kolkata, Serampore, Murshidabad
 translationKey: colonial-bengal
-type: itinerary
+type: tim/itinerary
 tour: Colonial Bengal
 highlights:
   - Staying in beautiful restored zamindar havelis

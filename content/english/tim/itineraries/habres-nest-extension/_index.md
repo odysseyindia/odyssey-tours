@@ -2,7 +2,7 @@
 title: Habre's Nest Extension
 subtitle: Singalila National Park
 translationKey: habres-nest-extension
-type: itinerary
+type: tim/itinerary
 tour: Habre's Nest Extension
 highlights:
   - Tracking the very cute and fascinating red panda

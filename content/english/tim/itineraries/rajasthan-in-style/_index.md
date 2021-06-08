@@ -3,7 +3,7 @@ title: Rajasthan in Style
 subtitle: Delhi, Samode, Jaipur, Raipur, Jodhpur, Chanoud, Udaipur
 weight: '106'
 translationKey: rajasthan-in-style
-type: itinerary
+type: tim/itinerary
 tour: Rajasthan in Style
 itinerary:
   - day: 0

@@ -3,7 +3,7 @@ title: Rajasthan Explorer
 subtitle: Delhi, Agra, Jaipur, Pushkar, Chandelao, Jaisalmer, Jodhpur, Narlai, Udaipur
 weight: '104'
 translationKey: rajasthan-explorer
-type: itinerary
+type: tim/itinerary
 tour: Rajasthan Explorer
 itinerary:
   - day: 0

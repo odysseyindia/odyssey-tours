@@ -4,7 +4,7 @@ subtitle: >-
   Varanasi, Sarnath, Bodh Gaya, Rajgir, Nalanda, Patna, Vaishali, Lumbini,
   Kapilavastu, Shravasti
 translationKey: in-the-footsteps-of-the-buddha
-type: itinerary
+type: tim/itinerary
 tour: In the Footsteps of the Buddha
 highlights:
   - Seven of the eight holiest sites of Buddhism

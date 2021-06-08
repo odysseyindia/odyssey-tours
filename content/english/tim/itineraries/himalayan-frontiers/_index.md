@@ -2,7 +2,7 @@
 title: Himalayan Frontiers
 subtitle: Darjeeling, Rinchenpong, Pelling, Gangtok, Kalimpong
 translationKey: himalayan-frontiers
-type: itinerary
+type: tim/itinerary
 tour: Himalayan Frontiers
 highlights:
   - Spectacular views from Tiger Hill

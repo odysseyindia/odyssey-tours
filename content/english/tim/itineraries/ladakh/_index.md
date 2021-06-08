@@ -2,7 +2,7 @@
 title: Ladakh
 subtitle: Leh, Nubra Valley, Stok
 translationKey: ladakh
-type: itinerary
+type: tim/itinerary
 tour: Ladakh
 highlights:
   - Acclimatising to the altitude in the lovely orchard at Nimmu House

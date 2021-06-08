@@ -2,7 +2,7 @@
 title: Andamans
 subtitle: Havelock Island, Port Blair
 translationKey: andamans
-type: itinerary
+type: tim/itinerary
 tour: Andamans
 highlights:
   - Diving and snorkelling in the fantastic Mahatma Gandhi Marine National Park

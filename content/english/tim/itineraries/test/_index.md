@@ -2,7 +2,7 @@
 title: alfred
 subtitle: subtitle
 translationKey: test
-type: itinerary
+type: tim/itinerary
 tour: test
 highlights: []
 itinerary:

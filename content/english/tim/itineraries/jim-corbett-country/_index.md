@@ -2,7 +2,7 @@
 title: Jim Corbett Country
 subtitle: Delhi, Binsar, Ramgarh, Corbett National Park
 translationKey: jim-corbett-country
-type: itinerary
+type: tim/itinerary
 tour: Jim Corbett Country
 highlights:
   - Spectacular views of snow-capped peaks

@@ -2,7 +2,7 @@
 title: An Introduction to Kerala
 subtitle: Kochi, Thekkady, Alleppey, Mararikulam
 translationKey: an-introduction-to-kerala
-type: itinerary
+type: tim/itinerary
 weight: '601'
 tour: An Introduction to Kerala
 highlights:

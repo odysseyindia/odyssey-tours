@@ -3,7 +3,7 @@ title: Family Tour of Kerala
 subtitle: Kochi, Thattekad, Teekoy, Alleppey, Mararikulam
 weight: '604'
 translationKey: family-tour-of-kerala
-type: itinerary
+type: tim/itinerary
 tour: Family Tour of Kerala
 highlights:
   - Exploring Fort Kochi's lovely lanes

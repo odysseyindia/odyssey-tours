@@ -4,7 +4,7 @@ subtitle: >-
   Ahmedabad, Balasinor, Santrampur, Barnagar, Bhopal, Gwalior, Dholpur, Agra,
   Delhi 
 translationKey: hidden-india
-type: itinerary
+type: tim/itinerary
 tour: Hidden India
 highlights:
   - Staying with royal families in beautiful, hidden palaces and forts

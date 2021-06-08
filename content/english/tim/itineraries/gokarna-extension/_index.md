@@ -2,7 +2,7 @@
 title: Gokarna Extension
 subtitle: Gokarna
 translationKey: gokarna-extension
-type: itinerary
+type: tim/itinerary
 tour: Gokarna Extension
 highlights:
   - Tailor-made wellness programmes

@@ -2,7 +2,7 @@
 title: Hampi Extension
 subtitle: Hampi
 translationKey: hampi-extension
-type: itinerary
+type: tim/itinerary
 tour: Hampi Extension
 highlights:
   - Exploring the ruins of exquisitely-carved temples and halls

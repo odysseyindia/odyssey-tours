@@ -2,7 +2,7 @@
 title: Ajanta and Ellora Extension
 subtitle: Aurangabad
 translationKey: ajanta-and-ellora-extension
-type: itinerary
+type: tim/itinerary
 tour: Ajanta and Ellora Extension
 highlights:
   - The Taj Mahal-esque Bibi ka Maqbara

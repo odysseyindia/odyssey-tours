@@ -2,7 +2,7 @@
 title: Orissa
 subtitle: Bhubaneswar, Dhenkanal, Konarak, Puri, Chilika Lake
 translationKey: orissa
-type: itinerary
+type: tim/itinerary
 tour: Orissa
 highlights:
   - The beautiful temples of Bhubaneswar

@@ -2,7 +2,7 @@
 title: Coorg Extension
 subtitle: Madikeri
 translationKey: coorg-extension
-type: itinerary
+type: tim/itinerary
 tour: Coorg Extension
 highlights:
   - Exploring lush coffee plantations

@@ -8,7 +8,7 @@ tourStart: New Delhi
 tourEnd: New Delhi
 bestTime: October-March
 price: null
-type: itinerary
+type: tim/itinerary
 tour: indian highlights
 itinerary:
   - day: 0

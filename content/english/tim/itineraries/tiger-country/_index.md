@@ -2,7 +2,7 @@
 title: Tiger Country
 subtitle: Delhi, Bandhavgarh, Kanha, Pench, Tadoba
 translationKey: tiger-country
-type: itinerary
+type: tim/itinerary
 tour: Tiger Country
 highlights:
   - Exploring four of India's best national parks

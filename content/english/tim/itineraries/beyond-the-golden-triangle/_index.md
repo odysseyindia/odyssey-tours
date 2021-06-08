@@ -1,7 +1,7 @@
 ---
 title: Beyond the Golden Triangle
 subtitle: Delhi, Mandawa, Jaipur, Sawai Madhopur, Karauli, Bharatpur, Agra
-type: itinerary
+type: tim/itinerary
 tour: Beyond the Golden Triangle
 weight: '103'
 translationKey: beyond-the-golden-triangle
