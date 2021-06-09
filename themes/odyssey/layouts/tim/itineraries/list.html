@@ -102,7 +102,7 @@
           <i class="icon-search"></i>
           <input class="input-field" type="text" list="datalist" placeholder="Search" onkeyup="ac(this.value)"> 
           <datalist id="datalist"> 
-            {{- range (where (where .Site.Pages "Section" "tim") ".Params.type" "itinerary") }}
+            {{- range (where (where .Site.Pages "Section" "tim") ".Params.type" "tim/itinerary") }}
             <option value="{{.RelPermalink}}">{{.Title}}</option> 
             {{- end }}
           </datalist> 
@@ -120,7 +120,7 @@
         <div class="item-icon"></div>
       </div>
       <div class="wrapper">
-        {{- range $i,$e := (where (where .Site.Pages "Section" "tim") ".Params.type" "itinerary") }}
+        {{- range $i,$e := (where (where .Site.Pages "Section" "tim") ".Params.type" "tim/itinerary") }}
 
         <div class="booking {{if not (modBool $i 2)}}odd{{end}}" tabindex="-1" id="data-{{ $i }}" type="" >
           <div class="table">
