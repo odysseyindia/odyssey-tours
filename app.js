@@ -1630,6 +1630,11 @@ app.post('/write-to-tour',function (req, res) {
   try {
     var contents = fileContents.split("---");
     var data     = yaml.loadAll(contents[1]);
+
+    if (typeof data[0] === 'undefined'){
+          data[0] = [];
+        };
+
     data[0].type = 'tour';
 
     let output = `---\n` + yaml.dump(data[0]) + "---\n" + contents[2] ;

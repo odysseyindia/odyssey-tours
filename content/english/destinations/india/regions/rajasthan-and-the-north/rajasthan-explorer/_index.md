@@ -10,7 +10,7 @@ itinerary:
     item:
       - type: transfer
         url: >-
-          /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-international-airport-to-hotel/
+          /destinations/india/states/delhi/cities/delhi/transfers/transfer-from-international-airport-to-hotel/
         title: Transfer from Delhi's international airport to your hotel
         content: >-
           You start your tour on arrival in Delhi, where you will be met by our
@@ -92,7 +92,7 @@ itinerary:
           16th and 17th centuries.
       - type: excursion
         url: >-
-          /destinations/india/states/uttar-pradesh/cities/agra/excursions/half-day-city-tour-of-agra/
+          /destinations/india/states/uttar-pradesh/cities/agra/excursions/visit-to-the-taj-mahal-and-red-fort/
         title: Afternoon guided tour of the Taj Mahal and Red Fort
         content: >-
           The Taj Mahal is one of the most fascinating and beautiful monuments
@@ -503,7 +503,7 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/rajasthan/cities/udaipur/excursions/morning-city-tour-of-udaipur-followed-by-a-boat-trip-on-lake-pichola-by-shared-boat/
+          /destinations/india/states/rajasthan/cities/udaipur/excursions/morning-city-tour-followed-by-a-boat-trip/
         title: Morning city tour of Udaipur followed by a boat trip on Lake Pichola
         content: >-
           The highlight of this guided city tour is a visit to the City Palace,
@@ -527,7 +527,7 @@ itinerary:
     item:
       - type: transfer
         url: >-
-          /destinations/india/states/rajasthan/cities/udaipur/excursions/transfer-from-hotel-to-airport/
+          /destinations/india/states/rajasthan/cities/udaipur/transfers/transfer-from-hotel-to-airport/
         title: Transfer from your hotel to the airport
         content: >-
           Today, you have a departure transfer in Udaipur to the airport, to

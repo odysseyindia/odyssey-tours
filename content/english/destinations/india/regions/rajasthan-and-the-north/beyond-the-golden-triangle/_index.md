@@ -10,7 +10,7 @@ itinerary:
     item:
       - type: transfer
         url: >-
-          /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-international-airport-to-hotel/
+          /destinations/india/states/delhi/cities/delhi/transfers/transfer-from-international-airport-to-hotel/
         title: Transfer from Delhi's international airport to your hotel
         content: >-
           You start your tour on arrival in Delhi, where you will be met by our
@@ -124,7 +124,7 @@ itinerary:
           other arts and crafts.
       - type: excursion
         url: >-
-          /destinations/india/states/rajasthan/cities/jaipur/excursions/a-culinary-tour-with-an-indian-housewife-lunch-or-dinner/
+          /destinations/india/states/rajasthan/cities/jaipur/excursions/a-culinary-tour-with-an-indian-housewife/
         title: Evening culinary tour with an Indian housewife, with dinner
         content: >-
           You join local resident Payal, a keen cook and food blogger, who will
@@ -240,7 +240,7 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/rajasthan/cities/sawai-madhopur/excursions/jeep-safari-in-ranthambhore-np/
+          /destinations/india/states/rajasthan/cities/sawai-madhopur/excursions/jeep-safari-in-ranthambhore-national-park/
         title: Morning and afternoon jeep safaris in Ranthambhore National Park
         content: >-
           Ranthambore National Park is one of the best places in India in which
@@ -363,7 +363,7 @@ itinerary:
           centuries.
       - type: excursion
         url: >-
-          /destinations/india/states/uttar-pradesh/cities/agra/excursions/afternoon-guided-city-tour-of-agra/
+          /destinations/india/states/uttar-pradesh/cities/agra/excursions/afternoon-guided-tour-of-agras-other-monuments/
         title: Afternoon guided tour of Agra's other monuments
         content: >-
           Agra has much to offer besides the Taj Mahal, such as Agra Fort, a
@@ -395,7 +395,7 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/uttar-pradesh/cities/agra/excursions/early-morning-visit-to-the-taj-mahal-without-guide/
+          /destinations/india/states/uttar-pradesh/cities/agra/excursions/early-morning-visit-on-your-own-to-the-taj-mahal/
         title: Early morning visit on your own to the Taj Mahal
         content: >-
           The best time of day to appreciate this stunning monument is as soon
@@ -448,7 +448,7 @@ itinerary:
           Heritage Sites.
       - type: transfer
         url: >-
-          /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-hotel-to-international-airport/
+          /destinations/india/states/delhi/cities/delhi/transfers/transfer-from-hotel-to-international-airport/
         title: Transfer from your hotel to the international airport
         content: >-
           In the evening, you have a departure transfer from your hotel to Delhi
@@ -467,5 +467,4 @@ themes:
 region: /destinations/india/regions/rajasthan-and-the-north/
 ---
 
-Rajasthan is India at its most exotic and colourful best, with forts, palaces, deserts, tigers, rivers, jungles, temples and just about everything else that the word 'India' brings to mind! Women are dressed in colourful saris with chunky jewellery whilst men wear elaborate turbans and sport huge moustaches. Here you can travel by camel, cycle rickshaw, jeep and boat to explore the myriad attractions.
-
+Rajasthan is India at its exotic and colourful best, with forts, palaces, deserts, tigers, rivers, jungles, temples and just about everything else that the word ‘India’ brings to mind! Women are dressed in colourful saris with chunky jewellery while men wear elaborate turbans and sport huge moustaches. Here you can travel by camel, cycle rickshaw, jeep and boat to explore the myriad attractions.

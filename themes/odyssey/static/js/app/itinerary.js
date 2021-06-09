@@ -14,7 +14,7 @@ renewables.forEach(renewable => {
   let url = renewable.getAttribute("url");
   let myClass = renewable.getElementsByClassName("content-text");
 
-  if (url.includes("{{ htmlUnescape .RelPermalink }}")){
+  if (url.includes(decodeURI( window.location.origin ))){
     let xhr = new XMLHttpRequest();
     xhr.open('get',url+"/index.json" );
     xhr.setRequestHeader("Content-Type", "application/json");
@@ -437,7 +437,7 @@ function editItem(obj){
   modal.style.display = "block";
 
   var defaultBtn= modal.querySelector(".default-modal-btn");
-  if (url.includes("{{ htmlUnescape .RelPermalink }}")){
+  if (url.includes(decodeURI(window.location.origin))){
     defaultBtn.style.display = "block"
   } else {
     defaultBtn.style.display = "none"
