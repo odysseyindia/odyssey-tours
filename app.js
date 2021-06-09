@@ -138,13 +138,13 @@ app.post('/import',function (req, res) {
 
     } 
 
-    else if ( request.file == 'suppliers.csv') {
+    else if ( request.file == 'addressbook.csv') {
       /*
       0=pan 1-gstin 2=addressbook_id  3=country 4=state 5=city  6=category  7=organisation  8=address 9=city  10=postalcode  
       11=areacode  12=phone 13=org_mobile  14=email 15=www 16=note  17=through_addressbook_id  18=currencycode  19=GstVendorTypes_id
       */
 
-      var mdfile = dir+'/addressbook/'+Number(array[2])+'/';
+      var mdfile = dir+'/suppliers/'+Number(array[0])+'/';
 
       console.log('Processing ',mdfile);
 
@@ -176,18 +176,18 @@ app.post('/import',function (req, res) {
         data[0].email           = array[14];
         data[0].www             = array[15];
         data[0].note            = array[16];
-        data[0].bookThrough     = array[17];
+        data[0].bookThrough     = Number(array[17]);
         data[0].currency        = array[18];
-        data[0].gstType         = array[19];
-        let state = (urlize(array[4]).length > 0) ? urlize(array[4])+'/' : '';
-        data[0].path            = '/'+urlize(array[3])+'/'+state+urlize(array[5])+'/';
+        data[0].gstType         = Number(array[19]);
+        let state = (urlize(array[4]).length > 0) ? '/states/'+urlize(array[4]) : '';
+        data[0].path            = '/destinations/'+urlize(array[3])+state+'/cities/'+urlize(array[5])+'/';
 
         if (typeof data[0].category === 'undefined'){
           data[0].category = [];
         };
 
         // reset category to null
-        // data[0].category = []; 
+        //data[0].category = []; 
         data[0].category.push( array[6] );
 
         let output = `---\n` + yaml.dump(data[0]) + "---\n" + contents[2] ;

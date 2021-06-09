@@ -13,7 +13,7 @@
         {{ if or (eq .Section "tim" ) (eq .Kind "term" ) }}{{ partial "header-tim.html" . }}{{ else }}{{ partial "header.html" . }}{{ end }}
        
         {{- block "main" . }}{{- end }}
-       
+        {{- partial "pagination.html" . }}
         {{- partial "footer.html" . -}}
 
         {{- partial "script.html" . -}}

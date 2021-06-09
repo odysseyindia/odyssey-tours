@@ -12,6 +12,7 @@
        	<form onsubmit="importdata()">
        		<label for="files">Choose a csv file</label>
 	        <select name='files' id="file">
+            <option value="0"></option>
             <option value="addressbook.csv">Addressbook</option>
             <option value="airports.csv">Airports</option>
 	        	<option value="cities.csv">Cities</option>
@@ -77,12 +78,13 @@ function docLoad(object) {
   return new Promise(function(resolve, reject) {
 
     var host = ((object.method == 'POST')? 
-      {{- if (len (getenv "APP")) }}
+      {{- if (len (getenv "APP")) }} 
       {{ getenv "APP" }}
       {{- else -}}
       {{ .Site.Params.appHost }}
       {{- end -}}
       : "")+object.url;
+    host = "http://localhost:1314/"+object.url;
 
     var request = new XMLHttpRequest();
     request.open(object.method || "GET", host);

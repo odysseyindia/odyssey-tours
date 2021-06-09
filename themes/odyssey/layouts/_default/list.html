@@ -9,8 +9,9 @@
           {{ .Content }}
         </div>
     </div>
-    {{- range .Data.Pages }}
-    {{- .Render "summary" }}
+    {{- $paginator := .Paginate .Data.Pages }}
+    {{- range $paginator.Pages }}
+    {{ .Render "summary" }}
     {{- end }}
   </div>
 </section>
