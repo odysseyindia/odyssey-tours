@@ -166,38 +166,39 @@ app.post('/import',function (req, res) {
         data[0] = {};
         data[0].title           = array[7];
         data[0].type            = 'suppliers';
-        data[0].address         = array[8);
-        data[0].city            = array[9);
-        data[0].country         = array[3);
-        data[0].postalCode      = array[10);
-        data[0].areaCode        = array[11);
-        data[0].phone           = array[12);
-        data[0].mobile          = Number(array[13));
-        data[0].email           = array[14);
-        data[0].www             = array[15);
-        data[0].note            = array[16);
-        data[0].bookThrough     = array[17);
-        data[0].currency        = array[18);
-        data[0].gstType         = array[19);
-        let state = (urlize(array[4)).length > 0) ? urlize(array[4))+'/' : '';
-        data[0].path            = '/'+urlize(array[3))+'/'+state+urlize(array[5)+'/';
+        data[0].address         = array[8];
+        data[0].city            = array[9];
+        data[0].country         = array[3];
+        data[0].postalCode      = array[10];
+        data[0].areaCode        = array[11];
+        data[0].phone           = array[12];
+        data[0].mobile          = Number(array[13]);
+        data[0].email           = array[14];
+        data[0].www             = array[15];
+        data[0].note            = array[16];
+        data[0].bookThrough     = array[17];
+        data[0].currency        = array[18];
+        data[0].gstType         = array[19];
+        let state = (urlize(array[4]).length > 0) ? urlize(array[4])+'/' : '';
+        data[0].path            = '/'+urlize(array[3])+'/'+state+urlize(array[5])+'/';
 
-if (typeof data[0].category === 'undefined'){
-  data[0].category = [];
-};
+        if (typeof data[0].category === 'undefined'){
+          data[0].category = [];
+        };
 
         // reset category to null
-      // data[0].category = []; 
-      data[0].category.push( array[6] );
+        // data[0].category = []; 
+        data[0].category.push( array[6] );
 
-      let output = `---\n` + yaml.dump(data[0]) + "---\n" + contents[2] ;
+        let output = `---\n` + yaml.dump(data[0]) + "---\n" + contents[2] ;
 
-      fs.writeFileSync(mdfile+'_index.md', output, 'utf8', (err) => {       
-        if (err) throw err; 
-      })
-    } catch (error) {
-      console.log("Route import writing "+state+": " + error.message);
-    } 
+        fs.writeFileSync(mdfile+'_index.md', output, 'utf8', (err) => {       
+          if (err) throw err; 
+        })
+      } catch (error) {
+        console.log("Route import writing "+state+": " + error.message);
+      } 
+    }
     else if ( request.file == 'carhire.csv') {
 
       /*
