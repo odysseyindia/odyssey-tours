@@ -9,7 +9,7 @@ itinerary:
     item:
       - type: transfer
         url: >-
-          /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-international-airport-to-hotel/
+          /destinations/india/states/delhi/cities/delhi/transfers/transfer-from-international-airport-to-hotel/
         title: Transfer from Delhi's international airport to your hotel
         content: >-
           Today, you start your tour on arrival in Delhi, where you will be met
@@ -183,7 +183,7 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/uttar-pradesh/cities/agra/excursions/early-morning-visit-to-the-taj-mahal-without-guide/
+          /destinations/india/states/uttar-pradesh/cities/agra/excursions/early-morning-visit-on-your-own-to-the-taj-mahal/
         title: Early morning visit on your own to the Taj Mahal
         content: >-
           The best time of day to appreciate this stunning monument is as soon
@@ -200,7 +200,7 @@ itinerary:
         duration: ''
       - type: excursion
         url: >-
-          /destinations/india/states/uttar-pradesh/cities/agra/excursions/afternoon-guided-city-tour-of-agra/
+          /destinations/india/states/uttar-pradesh/cities/agra/excursions/afternoon-guided-tour-of-agras-other-monuments/
         title: Afternoon guided tour of Agra's other monuments
         content: >-
           Agra has much to offer besides the Taj Mahal, such as Agra Fort, a
@@ -379,7 +379,7 @@ itinerary:
     item:
       - type: transfer
         url: >-
-          /destinations/india/states/uttar-pradesh/cities/varanasi/excursions/transfer-from-hotel-to-airport/
+          /destinations/india/states/uttar-pradesh/cities/varanasi/transfers/transfer-from-hotel-to-airport/
         title: Transfer from your hotel to the airport
         content: >-
           Today, you have a departure transfer to the airport, to board your

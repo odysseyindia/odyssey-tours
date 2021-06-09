@@ -2,7 +2,7 @@
 title: alfred
 subtitle: subtitle
 translationKey: test
-type: tim/itinerary
+type: tour
 tour: test
 highlights:
   - highlight 1
@@ -86,4 +86,5 @@ themes: []
 region: /destinations/india/regions/andamans/
 weight: '0'
 ---
+
 intro abc

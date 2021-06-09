@@ -307,8 +307,9 @@ function saveItinerary(deleteDay){
         obj.url     = items[j].getAttribute("url");
         let title   = items[j].getElementsByClassName('title');
         obj.title   = (typeof title === 'undefined') ? "" : title[0].innerText.trim().replace(/(`)/gm,"'");
-        let content = items[j].getElementsByClassName('content-text');
-        obj.content = (typeof content === 'undefined') ? "" : content[0].innerText.trim().replace(/(`)/gm,"'");
+    
+        var content = items[j].getElementsByClassName('content-text');
+        obj.content = (content.length == 0) ? "" : content[0].innerText.trim().replace(/(`)/gm,"'");
 
         let inputs  = items[j].getElementsByClassName('details');
         for(let k=0;k<inputs.length;k++) {
@@ -368,18 +369,23 @@ function saveItinerary(deleteDay){
     );
 };
 
-// This will republish this itinerary as a tour in the tours' section (i.e. in one of the regions)
+
+
+// This will re-publish this itinerary as a tour in the tours' section (i.e. in one of the regions)
 
 function writeToTour(){
 
-  if (confirm("This will republish this itinerary as a tour.\nAre you certain?\n")){
+  if (confirm("Have you saved any changes made?\nThis will re-publish this itinerary as a tour.\nAre you certain?\n")){
+
+    var spinner = document.getElementById("in-progress");
+    spinner.style.display = "block";
 
     docLoad({
       url:    'write-to-tour', 
       method: 'POST',
       appHost: appHost, 
       data:   JSON.stringify({ 
-        "file"  : "{{ .RelPermalink }}", 
+        "file"  : window.location.pathname, 
         "region": document.getElementById('region').value,
       })
     })
@@ -392,12 +398,16 @@ function writeToTour(){
   };
 };
 
+
+
 // Not really required as simply refreshing the screen will delete the trash
 
 function emptyTrash(){
   var trash = document.getElementById("trash");
   trash.innerHTML = "";
 }
+
+
 
 // Most important: the editing of an itinerary item
 
