@@ -18,9 +18,10 @@ itinerary:
           /destinations/india/states/delhi/cities/delhi/transfers/transfer-from-international-airport-to-hotel/
         title: Transfer from Delhi's international airport to your hotel
         content: >-
-          Today, you start your tour on arrival in Delhi, where you will be met
-          by our representative and transferred to your airport hotel,
-          convenient for driving straight to Jaipur the next day.
+          *Today*, you start your **tour** on arrival in Delhi, where you will
+          be met by our representative and transferred to your airport hotel,
+          convenient for driving straight to Jaipur the next day. TEST TEXT
+          ADDED.
         date: ''
         etd: ''
         duration: ''
@@ -64,9 +65,11 @@ itinerary:
           just behind the bus station, Dera Rawatsar lies in a quiet, leafy
           lane. Within its walls are small courtyards and terraces, lawns and
           secluded corners. The well-decorated and traditionally-furnished rooms
-          are all different. Meals, drinks and snacks are served in the family’s
-          dining room or the outdoor courtyard. There is also a small swimming
-          pool.
+          are all different.
+
+
+          Meals, drinks and snacks are served in the family’s dining room or the
+          outdoor courtyard. There is also a small swimming pool.
         checkInDate: ''
         checkInTime: ''
         checkOutDate: ''
@@ -142,7 +145,41 @@ itinerary:
         checkOutTime: ''
         nights: ''
   - day: 4
-    item: []
+    item:
+      - type: excursion
+        url: >-
+          /destinations/india/states/uttar-pradesh/cities/agra/excursions/early-morning-visit-on-your-own-to-the-taj-mahal/
+        title: Early morning visit on your own to the Taj Mahal
+        content: >-
+          The best time of day to appreciate this stunning monument is as soon
+          as the Taj Mahal opens, when it is at its quietest and most serene.
+          You can enjoy the gardens, the mausoleum and the mosque. Don’t miss
+          the marble inlay work and the various vantage points offered
+          throughout the peaceful gardens.
+
+
+          You can carry mobile phones, cameras, a water bottle and valuables
+          inside, but all other items must be deposited in safety lockers at the
+          entry gate. You are then free to enter the grounds of the Taj Mahal
+          for a maximum of three hours. Once you have taken it all in, you can
+          return to your hotel for a late breakfast.
+        date: ''
+        etd: ''
+        duration: ''
+      - type: excursion
+        url: >-
+          /destinations/india/states/uttar-pradesh/cities/agra/excursions/afternoon-guided-tour-of-agras-other-monuments/
+        title: Afternoon guided tour of Agra's other monuments
+        content: >-
+          Agra has much to offer besides the Taj Mahal, such as Agra Fort, a
+          masterpiece of design and construction. You then visit
+          Itimad-ud-Daulah’s tomb - better known as the Baby Taj, which also
+          features the same marble inlay work as the Taj Mahal. Finally you will
+          visit Mehtab Bagh, a formally laid-out Mughal garden that offers
+          stupendous views of the Taj Mahal, especially in the late afternoon.
+        date: ''
+        etd: ''
+        duration: ''
   - day: 5
     item:
       - type: city

@@ -439,9 +439,9 @@ highlights:
   - Visiting a flower market and Amber Fort in Jaipur
   - A cooking class in Jaipur to bring you the flavours of Rajasthan
   - Visiting the 'Viceroy Club' at Kanota
-  - Beautiful forts and palaces off the beaten track in Bundi and Bijaipur
+  - Serene luxury in the orchards of Shahpura Bagh
 themes:
   - Off the beaten track
 region: /destinations/india/regions/rajasthan-and-the-north/
 ---
-This quirky, cheerful movie and its sequel had everyone wondering: where on Earth is this place, exactly? Well, it’s not one place, it’s several - and on this tour you can visit all of them, and all while getting to know a lovely, offbeat part of India. You will get to stay at the main location at Rawla Khempur, plus smaller ones in Jaipur and Kanota, and stay at Jagat Niwas Palace in Udaipur, also featured in the movie, with views over the famous Lake Palace. As you also visit other offbeat destinations, like the wonderful Bundi and the striking Castle Bijaipur, this is a very enjoyable, different tour - even if you aren’t a movie buff!
+This quirky, cheerful movie and its sequel had everyone wondering: where on Earth is this place, exactly? Well, it’s not one place, it’s several - and on this tour you can visit all of them, and all while getting to know a lovely, offbeat part of India. You will get to stay at the main location at Rawla Khempur, plus smaller ones in Jaipur and Kanota, and stay at Jagat Niwas Palace in Udaipur, also featured in the movie, with views over the famous Lake Palace. As you also visit other offbeat destinations, like lovely Shahpura and the striking Castle Bijaipur, this is a very enjoyable, different tour - even if you aren’t a movie buff!

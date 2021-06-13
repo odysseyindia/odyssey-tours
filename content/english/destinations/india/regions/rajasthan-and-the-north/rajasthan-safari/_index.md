@@ -297,6 +297,9 @@ itinerary:
           their superb views. The Jaswant Thada memorial lies on the approach to
           the Fort, and the large white marble structure is surrounded by the
           cremation grounds of former rulers.
+
+
+          The rest of the day is at leisure.
         date: ''
         etd: ''
         duration: ''

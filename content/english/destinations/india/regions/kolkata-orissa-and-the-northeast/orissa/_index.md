@@ -15,7 +15,7 @@ itinerary:
     item:
       - type: transfer
         url: >-
-          /destinations/india/states/orissa/cities/bhubaneswar/excursions/transfer-from-airport-to-hotel/
+          /destinations/india/states/orissa/cities/bhubaneswar/transfers/transfer-from-airport-to-hotel/
         title: Transfer from Bhubaneswar's airport to your hotel
         content: >-
           Your tour starts on arrival at Bhubaneswar airport, where you are met
@@ -57,10 +57,10 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/orissa/cities/bhubaneswar/excursions/half-day-city-tour-of-bhubaneshwar-temples/
-        title: Morning guided tour of Bhubaneshwar's temples
+          /destinations/india/states/orissa/cities/bhubaneswar/excursions/half-day-city-tour-of-bhubaneswar-temples/
+        title: Morning guided tour of Bhubaneswar's temples
         content: >-
-          The lively old city of Bhubanehwar is full of ancient temples. The
+          The lively old city of Bhubaneswar is full of ancient temples. The
           most famous, the Lingaraj Temple, is closed to non-Hindus, but can be
           observed from a raised platform opposite.
 
@@ -230,7 +230,7 @@ itinerary:
     item:
       - type: transfer
         url: >-
-          /destinations/india/states/orissa/cities/bhubaneswar/excursions/transfer-from-hotel-to-airport/
+          /destinations/india/states/orissa/cities/bhubaneswar/transfers/transfer-from-hotel-to-airport/
         title: Transfer from your hotel to Bhubaneswar's airport
         content: >-
           Today, you have a departure transfer to Bhubaneswar airport to connect

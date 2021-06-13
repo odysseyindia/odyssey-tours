@@ -43,6 +43,21 @@ itinerary:
         checkOutDate: ''
         checkOutTime: ''
         nights: ''
+      - type: excursion
+        url: >-
+          /destinations/india/states/karnataka/cities/gokarna/excursions/activities-at-swaswara/
+        title: Activities at SwaSwara
+        content: >-
+          SwaSwara’s focus on holistic healing means there are various
+          activities available through the day, from yoga and meditation to a
+          number of spa and ayurveda therapies, designed for you in consultation
+          with ayurvedic doctors. You can also take part in fun, mindful
+          activities like art and pottery classes, healthy cookery workshops,
+          bird-watching, kayaking, nature trails and more, including visits to
+          the local towns and villages.
+        date: ''
+        etd: ''
+        duration: ''
 themes:
   - Active outdoor trips
   - Beach vacations

@@ -454,7 +454,7 @@ itinerary:
           /destinations/india/states/meghalaya/cities/shillong/excursions/half-day-city-tour-of-shillong/
         title: Morning guided tour of Shillong
         content: >-
-          The best way to enjoy Shillong's sights is on foot. With no
+          The best way to enjoy Shillong’s sights is on foot. With no
           significant monuments, the attractions here are the scenic beauty,
           parks, waterfalls and panoramic views. Places worth visiting include
           the decorative Ward Lake, and Bara Bazaar where you can see local and
@@ -463,7 +463,7 @@ itinerary:
           popular picnic sites.
 
 
-          After the morning's excursion, transfer to a lovely hotel outside
+          After the morning’s excursion, transfer to a lovely hotel outside
           town. Your afternoon is at leisure to just enjoy the hotel.
         date: ''
         etd: ''

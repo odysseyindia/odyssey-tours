@@ -23,19 +23,6 @@ itinerary:
         date: ''
         etd: ''
         duration: ''
-      - type: city
-        url: /destinations/india/states/maharashtra/cities/mumbai/
-        title: Mumbai
-        content: >-
-          Mumbai is the financial, commercial and industrial capital of India,
-          getting there at night. The city is also the centre of fashion and
-          film-making.
-
-
-          The city hums with activity and its 15 million residents seem to be
-          constantly on the move. Mumbai used to be just a collection of fishing
-          villages, and first grew only during British colonial rule, so most of
-          the historical monuments are relics from the Raj.
       - type: hotel
         url: >-
           /destinations/india/states/maharashtra/cities/mumbai/hotels/the-taj-mahal-palace/
@@ -56,6 +43,18 @@ itinerary:
         nights: ''
   - day: 1
     item:
+      - type: city
+        url: /destinations/india/states/maharashtra/cities/mumbai/
+        title: Mumbai
+        content: >-
+          Mumbai is the financial, commercial and industrial capital of India.
+          The city is also the centre of fashion and film-making.
+
+
+          The city hums with activity and its 15 million residents seem to be
+          constantly on the move. Mumbai used to be just a collection of fishing
+          villages, and first grew only during British colonial rule, so most of
+          the historical monuments are relics from the Raj.
       - type: excursion
         url: >-
           /destinations/india/states/maharashtra/cities/mumbai/excursions/half-day-city-tour-of-mumbai/

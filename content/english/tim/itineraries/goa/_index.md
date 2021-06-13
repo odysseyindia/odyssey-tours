@@ -96,7 +96,7 @@ itinerary:
         checkInTime: ''
         checkOutDate: ''
         checkOutTime: ''
-        nights: ''
+        nights: '5'
   - day: 3
     item:
       - type: transfer

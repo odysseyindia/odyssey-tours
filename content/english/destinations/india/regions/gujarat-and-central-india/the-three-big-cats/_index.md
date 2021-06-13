@@ -1,13 +1,13 @@
 ---
 title: The Three Big Cats
-subtitle: Delhi, Sawai Madhopur, Shahpura, Bera, Dasada, Gondal, Sasangir, Diu
+subtitle: Delhi, Sawai Madhopur, Deogarh, Bera, Dasada, Gondal, Sasangir, Diu
 translationKey: the-three-big-cats
 type: tour
 tour: The Three Big Cats
 highlights:
   - Exploring the only country in the world with both lions and tigers
   - Jeep safaris in Ranthambhore, Bera, Sasangir and the Little Rann of Kutch
-  - Staying at the stately, peaceful Shahpura Bagh
+  - Staying at the imposing Deogarh castle
   - Meeting passionate conservationist-hoteliers
   - Getting to know India's extremely varied landscapes and wildlife
 itinerary:
@@ -389,4 +389,4 @@ themes:
 region: /destinations/india/regions/gujarat-and-central-india/
 ---
 
-India has an extremely rich and varied wildlife. On this remarkable tour you focus on the three big cats: you search for tigers in Ranthambhore National Park, leopards in the remote areas of southern Rajasthan and Asiatic lions in the Gir National Park in Gujarat. Along the way, you will be aided and abetted by the rulers of the small princely states of Shahpura and Gondal, who run their palaces almost as home-stays. Add to this the dramatic Rann of Kutch, famous for the Indian Wild Ass, and you’ll understand why this Indian wildlife tour is bound to be a roaring success!
+India has an extremely rich and varied wildlife. On this remarkable tour you focus on the three big cats: you search for tigers in Ranthambhore National Park, leopards in the remote areas of southern Rajasthan and Asiatic lions in the Gir National Park in Gujarat. Along the way, you will be aided and abetted by the rulers of the small princely states of Deogarh and Gondal, with their unique palaces. Add to this the dramatic Rann of Kutch, famous for the Indian Wild Ass, and you’ll understand why this Indian wildlife tour is bound to be a roaring success!

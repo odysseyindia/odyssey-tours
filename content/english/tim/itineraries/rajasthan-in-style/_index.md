@@ -102,9 +102,10 @@ itinerary:
         nights: ''
   - day: 3
     item:
-      - type: city
-        url: /destinations/india/states/rajasthan/cities/samode/
-        title: Samode
+      - type: excursion
+        url: >-
+          /destinations/india/states/rajasthan/cities/samode/excursions/day-at-leisure-in-samode/
+        title: Day at leisure in Samode
         content: >-
           Today, you have the terrible burden of exploring and enjoying the
           palace, trying to decide which swimming pool to laze by, which
@@ -118,6 +119,9 @@ itinerary:
           For those with energy to burn, you can climb the 376 steps beside the
           Palace to the Samode Fort that once protected the kingdom. The climb
           is steep but the views across the valley make it worth the effort.
+        date: ''
+        etd: ''
+        duration: ''
   - day: 4
     item:
       - type: city
@@ -326,7 +330,7 @@ itinerary:
           The personable young owners will oversee every moment of your stay.
           They will show you round the property, including the museum-like Hall,
           and escort you to your sumptuous room. All meals are included, and are
-          served in different atmospheric “dining locations”.
+          served in different atmospheric "dining locations".
         checkInDate: ''
         checkInTime: ''
         checkOutDate: ''

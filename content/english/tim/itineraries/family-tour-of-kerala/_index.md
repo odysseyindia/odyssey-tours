@@ -291,27 +291,15 @@ itinerary:
         checkInTime: ''
         checkOutDate: ''
         checkOutTime: ''
-        nights: ''
+        nights: '2'
   - day: 9
-    item:
-      - type: city
-        url: /destinations/india/states/kerala/cities/mararikulam/
-        title: Mararikulam
-        content: >-
-          Situated 56km south of Kochi and just a few kilometres north of
-          Allapuzha, Mararikulam offers one of the most fabulous stretches of
-          soft sandy beach, fringed with swaying palms. In the village, life
-          still goes on much as it did a hundred years ago, with the men going
-          out to sea each day to earn a living bringing in the daily catch. It
-          is an idyllic retreat for those who want to “get away from it all”.
-  - day: 10
     item:
       - type: transfer
         url: >-
           /destinations/india/states/kerala/cities/mararikulam/transfers/transfer-from-hotel-to-kochi-airport/
-        title: Transfer from your hotel to Kochi's international airport
+        title: Transfer from hotel to Kochi airport
         content: >-
-          Today, you drive to Kochi’s airport, to connect with your onward
+          Today, you drive to Kochi's international airport to board your onward
           flight.
         date: ''
         etd: ''

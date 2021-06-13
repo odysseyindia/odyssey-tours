@@ -276,9 +276,9 @@ itinerary:
           a variety of items ranging from handlooms to travel bags to
           traditional clothing. Plenty of cafes have sprung up around the city
           where you can sip on a hot coffee and watch the world go by. In the
-          evening worshippers congregate for the *Ganga aarti* with *diyas*
-          (earthen lamps), garlands and chanting of mantras (ancient sacred
-          texts), a fascinating spectacle to watch.
+          evening worshippers congregate for the Ganga aarti with diyas (earthen
+          lamps), garlands and chanting of mantras (ancient sacred texts), a
+          fascinating spectacle to watch.
         date: ''
         etd: ''
         duration: ''

@@ -23,6 +23,21 @@ itinerary:
           islands are ringed with fine white coral sand, and one only has to
           wade in knee-deep to enter an underwater world filled with a dazzling
           variety of fish and corals.
+      - type: hotel
+        url: >-
+          /destinations/india/states/andaman-and-nicobar/cities/port-blair/hotels/the-nest/
+        title: The Nest
+        content: >-
+          The Nest is a 5-room bed and breakfast located 10 minutes from the
+          airport and offers a comfortable stay with all basic amenities. There
+          are 3 Premium AC Rooms which are located in one flat and 2 Standard AC
+          Rooms which are located in the opposite flat. The rooms are
+          air-conditioned with attached bathrooms and a private balcony.
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 1
     item:
       - type: city
@@ -63,6 +78,21 @@ itinerary:
           islands are ringed with fine white coral sand, and one only has to
           wade in knee-deep to enter an underwater world filled with a dazzling
           variety of fish and corals.
+      - type: hotel
+        url: >-
+          /destinations/india/states/andaman-and-nicobar/cities/port-blair/hotels/the-nest/
+        title: The Nest
+        content: >-
+          The Nest is a 5-room bed and breakfast located 10 minutes from the
+          airport and offers a comfortable stay with all basic amenities. There
+          are 3 Premium AC Rooms which are located in one flat and 2 Standard AC
+          Rooms which are located in the opposite flat. The rooms are
+          air-conditioned with attached bathrooms and a private balcony.
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 3
     item: []
 themes:

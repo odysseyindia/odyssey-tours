@@ -228,27 +228,8 @@ itinerary:
         checkInTime: ''
         checkOutDate: ''
         checkOutTime: ''
-        nights: ''
+        nights: '2'
   - day: 7
-    item:
-      - type: excursion
-        url: >-
-          /destinations/india/states/kerala/cities/mararikulam/excursions/full-day-at-leisure-on-the-beach/
-        title: Full day at leisure on the beach
-        content: >-
-          Mararikulam isn’t a tourist beach but rather a peaceful place to relax
-          and unwind. The village is spread along both sides of a narrow road.
-          You pass lush coconut and banana plantations hiding small traditional
-          houses. Cycles are still used commonly as a mode of transport as are
-          dug-out canoes punted on narrow canals. Mararikulam’s few
-          accommodation choices are well separated and all located in typical
-          Kerala countryside. Surrounded by simple village life and with the
-          impossibly white sandy beach, Mararikulam is a unique opportunity to
-          escape the world.
-        date: ''
-        etd: ''
-        duration: ''
-  - day: 8
     item:
       - type: transfer
         url: >-
@@ -260,7 +241,7 @@ itinerary:
         date: ''
         etd: ''
         duration: ''
-  - day: 9
+  - day: 8
     item: []
 themes:
   - Beach vacations

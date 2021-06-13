@@ -12,9 +12,10 @@ highlights:
 itinerary:
   - day: 0
     item:
-      - type: excursion
+      - type: transfer
         url: >-
-          /destinations/india/states/delhi/cities/delhi/excursions/transfer-from-international-airport-to-hotel/
+          /destinations/india/states/delhi/cities/delhi/transfers/transfer-from-international-airport-to-hotel/
+        title: Transfer from International airport to hotel
         content: >-
           Today, you start your tour on arrival in Delhi, where you will be met
           by our representative and transferred to your airport hotel,
@@ -25,6 +26,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/delhi/cities/delhi/hotels/holiday-inn-aerocity/
+        title: Holiday Inn (Aerocity)
         content: >-
           For a comfortable stay before for after a long flight, the Holiday Inn
           at Aerocity, close to Delhi’s International Airport, is ideal. The
@@ -40,6 +42,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/madhya-pradesh/cities/bandhavgarh/
+        title: Bandhavgarh
         content: >-
           Today, you fly from Delhi to Jabalpur, the closest airport to
           Bandhavgarh national park, a four-hour drive from your hotel.
@@ -52,6 +55,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/madhya-pradesh/cities/bandhavgarh/hotels/nature-heritage-resort/
+        title: Nature Heritage Resort
         content: >-
           Nature Heritage Resort is a jungle lodge located in the lush green
           surroundings of Bandhavgarh National Park. Each of the air-conditioned
@@ -69,6 +73,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/madhya-pradesh/cities/bandhavgarh/excursions/morning-and-afternoon-jeep-safaris-in-bandhavgarh-national-park/
+        title: Morning and afternoon jeep safaris in Bandhavgarh National Park
         content: >-
           The shared jeep safaris in Bandhavgarh National Park are escorted by a
           specialized naturalist for extensive wildlife viewing. Your day begins
@@ -83,6 +88,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/madhya-pradesh/cities/kanha/
+        title: Kanha
         content: >-
           After breakfast, you leave for Kanha, the second of the national
           parks, with possible stops at Ghugua fossil park (an amazing landscape
@@ -97,6 +103,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/madhya-pradesh/cities/kanha/hotels/courtyard-house/
+        title: Courtyard House
         content: >-
           A small, comfortable and upmarket country retreat with lots of
           thoughtful touches. The lodge is built in the Indian style around a
@@ -114,6 +121,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/madhya-pradesh/cities/kanha/excursions/morning-and-afternoon-jeep-safaris-in-kanha-national-park/
+        title: Morning and afternoon jeep safaris in Kanha National Park
         content: >-
           We organize open jeep safaris in the various zones of Kanha National
           Park. The naturalist guides know the ecosystem like the back of their
@@ -128,6 +136,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/madhya-pradesh/cities/pench/
+        title: Pench
         content: >-
           Today, you drive about five hours to Pench national park. This park,
           nestling in the lower southern reaches of the Satpura hills is named
@@ -136,9 +145,27 @@ itinerary:
           bordering the state of Maharashtra. A typical Central Indian teak
           jungle, Pench supports a rich variety of wildlife, including the
           tiger, leopard, wild dog, gaur, sambar, chital and brilliant birdlife.
+      - type: hotel
+        url: >-
+          /destinations/india/states/madhya-pradesh/cities/pench/hotels/mahua-vann-pench/
+        title: Mahua Vann Pench
+        content: >-
+          Mahua Vann Pench is a boutique eco-resort, just 6km from the Turia
+          Gate of Pench wildlife reserve. The resort is spread across a large
+          estate, with a rivulet crossing right through. Each of the rooms is
+          comfortably sized, tastefully decorated and equipped with modern
+          amenities yet maintaining an earthen touch.
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
+  - day: 6
+    item:
       - type: excursion
         url: >-
           /destinations/india/states/madhya-pradesh/cities/pench/excursions/jeep-safari-in-pench-national-park/
+        title: Early-morning jeep safari in Pench National Park
         content: >-
           The undulating topography of Pench supports vegetation ranging from
           moist, sheltered valleys to open, dry deciduous forest. Pench always
@@ -150,36 +177,23 @@ itinerary:
         date: ''
         etd: ''
         duration: ''
-      - type: hotel
-        url: >-
-          /destinations/india/states/madhya-pradesh/cities/pench/hotels/mahua-vann-pench/
-        content: >-
-          Mahua Vann Pench is a boutique eco-resort, just 6km from the Turia
-          Gate of Pench wildlife reserve. The resort is spread across a large
-          estate. Each of the rooms is comfortably sized, tastefully decorated
-          and equipped with modern amenities yet maintaining an earthen touch.
-          With a rivulet crossing right through the resort, there are plenty of
-          activities, including nature walks, cycling tours, swimming pool &
-          spa.
-        checkInDate: ''
-        checkInTime: ''
-        checkOutDate: ''
-        checkOutTime: ''
-        nights: ''
-  - day: 6
-    item:
       - type: city
         url: /destinations/india/states/maharashtra/cities/tadoba/
+        title: Tadoba
         content: >-
-          Your four-hour drive today takes you to the Tadoba-Andhari Tiger
-          Reserve, popularly called Tadoba. In the last decade, Tadoba has
-          become popular because of the number and quality of tiger sightings
-          and other varied wildlife including 200+ species of birds. The Big
-          Five mammals that can be sighted here include tiger, leopard, dhole
-          (Indian wild dog), sloth bear and Indian bison.
+          After your safari and breakfast, your four-hour drive takes you to the
+          Tadoba-Andhari Tiger Reserve, popularly called Tadoba.
+
+
+          In the last decade, Tadoba has become popular because of the number
+          and quality of tiger sightings and other varied wildlife including
+          200+ species of birds. The Big Five mammals that can be sighted here
+          include tiger, leopard, dhole (Indian wild dog), sloth bear and Indian
+          bison.
       - type: hotel
         url: >-
           /destinations/india/states/maharashtra/cities/tadoba/hotels/mahua-tola-tadoba/
+        title: Mahua Tola Tadoba
         content: >-
           Mahua Tola Tadoba, well located for two of Tadoba’s gates, is
           surrounded by dense forest. The property has airy cottages, suites,
@@ -197,7 +211,8 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/maharashtra/cities/tadoba/excursions/morning-and-afternoon-jeep-safaries-in-tadoba-national-park/
+          /destinations/india/states/maharashtra/cities/tadoba/excursions/morning-and-afternoon-jeep-safaris-in-tadoba-national-park/
+        title: Morning and afternoon jeep safaries in Tadoba National Park
         content: >-
           Morning and afternoon jeep rides will ensure that you make the most of
           your visit to Tadoba. With one of the highest tiger populations, your
@@ -215,9 +230,14 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/maharashtra/cities/tadoba/
+        title: Tadoba
         content: >-
           Today, you will drive two hours to Nagpur, to connect with your onward
           flight.
-weight: 403
+weight: '403'
+themes:
+  - Wildlife/Birding tours
+region: /destinations/india/regions/gujarat-and-central-india/
 ---
+
 This tour combines the best of Central India’s national parks, giving you fabulous opportunities to spot tigers, as well as leopards, an amazing variety of bird-life and plenty of other fauna. The wonderful thing is here is the variation in landscapes, from the rocky outcrops of Bandhavgarh to the fairy-tale forest of Kanha to the ‘ghost trees’ of Pench and the bamboo forests of Tadoba.

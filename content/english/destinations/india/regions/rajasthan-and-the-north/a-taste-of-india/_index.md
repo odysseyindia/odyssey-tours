@@ -724,7 +724,7 @@ itinerary:
 highlights:
   - At least eight different cuisines, from Awadhi to Indo-Portuguese
   - Cooking classes, walking trails, even a tapas-bar hop
-  - Stay in colonial buildings, homestays, forts, palaces and a purple dome
+  - Stay in colonial buildings, homestays, forts, palaces and by the beach
   - A cross-section of India through its food
   - Easy time on the beach
 themes:

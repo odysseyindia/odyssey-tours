@@ -8,13 +8,16 @@ highlights:
   - Spectacular views from Tiger Hill
   - Taking a British-era steam train to Ghoom monastery
   - Learning about Sikkim's eco-friendly farming with a family
-  - Amazing Buddhist monasteries at Pemayangtse, Sanga Choling, Phodang and Rumtek
+  - >-
+    Amazing Buddhist monasteries at Pemayangtse, Sanga Choling, Phodang and
+    Rumtek
   - Driving through Sikkim's rugged scenery
 itinerary:
   - day: 0
     item:
       - type: city
         url: /destinations/india/states/west-bengal/cities/darjeeling/
+        title: Darjeeling
         content: >-
           Your tour starts when you arrive at Badgogra airport, where you are
           met by our representative. You will be then take the three-hour drive
@@ -24,19 +27,20 @@ itinerary:
           Himalayas.
 
 
-          During the British Raj in India, Darjeeling's temperate climate led to
+          During the British Raj in India, Darjeeling’s temperate climate led to
           its development as a hill station (hill town) for British residents to
           escape the heat of the plains during the summers, becoming known as
           the Summer Capital.
       - type: hotel
         url: >-
           /destinations/india/states/west-bengal/cities/darjeeling/hotels/the-elgin/
+        title: The Elgin
         content: >-
-          A well-preserved Victorian mansion dating back to 1885, The Elgin has
-          interiors that are dominated by teak floorboards covered with
-          hand-made Tibetan rugs, comfortably over-stuffed armchairs, and
-          crackling log-fires. The rooms are all charmingly designed with period
-          furniture and many have marble bathrooms and open fire-places.
+          A well-preserved Victorian mansion dating back to 1885, The Elgin’s
+          interiors are dominated by teak floorboards covered with hand-made
+          Tibetan rugs, comfortably over-stuffed armchairs, and crackling
+          log-fires. The rooms are all charmingly designed with period
+          furniture, and many have marble bathrooms and open fireplaces.
         checkInDate: ''
         checkInTime: ''
         checkOutDate: ''
@@ -47,14 +51,17 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/west-bengal/cities/darjeeling/excursions/early-morning-trip-to-tiger-hill-and-ghoom-monastery/
+        title: Early morning trip to Tiger Hill and Ghoom Monastery
         content: >-
-          You start before dawn for an early morning drive through Ghoom and the
-          woodlands to watch the sunrise from Tiger Hill. This incredible
-          viewpoint, at an altitude of 2585 metres, provides an unparalleled
-          Himalayan panorama, including Everest and Kanchenjunga in clear
-          weather. On the way back to Darjeeling, you stop to visit the old
-          monastery of Ghoom. This is probably the most famous monastery in
-          Darjeeling.
+          You start before dawn for an early morning drive through the village
+          of Ghoom and the woodlands to watch the sunrise from Tiger Hill. This
+          incredible viewpoint, at an altitude of 2,585 metres, provides an
+          unparalleled Himalayan panorama, including Everest and Kanchenjunga in
+          clear weather.
+
+
+          On the way back to Darjeeling, you stop to visit the old monastery of
+          Ghoom. This is probably the most famous monastery in Darjeeling.
 
 
           The rest of the day is free for you to explore Darjeeling on your own.
@@ -65,27 +72,33 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/sikkim/cities/rinchenpong/
+        title: Rinchenpong
         content: >-
-          Today, you get to stay at a living, working farm! You cross into the
-          beautiful state of Sikkim, a tiny but beautiful state, sandwiched
-          between Tibet, Nepal and Bhutan. This three-hour drive takes you to
-          Rinchenpong, a small village at an altitude of nearly 6,000ft. The
-          name means "Assembly Place" in the local Lepcha dialect. It is a place
-          for the people who love tranquility and traditional lifestyles, far
-          from the madding crowd. The distant views of the Himalayas, abundant
-          fresh air, lush green forest, and surrounding farmland create a
-          pleasant and peaceful atmosphere.
+          Today, you get to stay at a living, working farm!
+
+
+          You cross into the beautiful state of Sikkim, a tiny but beautiful
+          state, sandwiched between Tibet, Nepal and Bhutan. This three-hour
+          drive takes you to Rinchenpong, a small village at an altitude of
+          nearly 6,000ft. The name means “Assembly Place” in the local Lepcha
+          dialect. It is a place for people who love tranquility and traditional
+          lifestyles, far from the madding crowd. The distant views of the
+          Himalayas, abundant fresh air, lush green forest, and surrounding
+          farmland create a pleasant and peaceful atmosphere.
       - type: hotel
         url: >-
           /destinations/india/states/sikkim/cities/rinchenpong/hotels/yangsum-heritage-farm/
+        title: Yangsum Heritage Farm
         content: >-
           Yangsum Farm is scenically located in idyllic countryside. The
           friendly owners are happy to show guests around the fully organic
           44-acre farm, with its abundant vegetables, fruits, flowers and trees.
-          There are six spacious and well-furnished bedrooms. Guided walks can
-          be arranged through the forest to a memorial to Rabindranath Tagore
-          and an old hilltop monastery. Delicious meals made from local produce
-          are a highlight.
+          There are six spacious and well-furnished bedrooms.
+
+
+          Guided walks can be arranged through the forest to a memorial to
+          Rabindranath Tagore and an old hilltop monastery. Delicious meals made
+          from local produce are a highlight.
         checkInDate: ''
         checkInTime: ''
         checkOutDate: ''
@@ -95,17 +108,21 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/sikkim/cities/rinchenpong/excursions/day-at-leisure-in-rinchenpong/
+          /destinations/india/states/sikkim/cities/rinchenpong/excursions/activities-at-yangsum-farm/
+        title: Activities at Yangsum Farm
         content: >-
-          THere's always something to do at a farm: you can help with the daily
+          There’s always something to do at a farm: you can help with the daily
           activities, feeding the animals and more, and learn how to make
           farm-to-table Sikkimese food. There are also a number of walking
           trails around Yangsum Farm and Rinchenpong, where hikers get to
           experience the rich and diverse vegetation of Sikkim. The walks are
-          through villages and forest, and you'll get to see the culture and the
-          unique cultivation methods used here. You can also go on birding
-          walks, along with a member of the family, who are keen birders. All
-          these activities can be booked directly at the farm.
+          through villages and forest, and you’ll get to see the culture and the
+          unique cultivation methods used here.
+
+
+          You can also go on birding walks, along with a member of the family,
+          who are keen birders. All these activities can be booked directly at
+          the farm.
         date: ''
         etd: ''
         duration: ''
@@ -113,18 +130,22 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/sikkim/cities/pelling/
+        title: Pelling
         content: >-
           After breakfast, drive about two hours to the mountain town of
           Pelling, perched on a ridge, where a number of hotels compete to offer
           the best views of the Kanchenjunga range of the Himalayas. The view is
           usually clearest in the early mornings, and is best seen from the
-          nearby hilltop Sanga Choeling Monastery. Pelling is also near the
-          famous monastery of Pemayangtse, where you can see an exceptional
-          collection of religious artworks, and the ruins of Rabdentse, Sikkim's
-          second capital.
+          nearby hilltop Sanga Choling Monastery.
+
+
+          Pelling is also near the famous monastery of Pemayangtse, where you
+          can see an exceptional collection of religious artworks, and the ruins
+          of Rabdentse, Sikkim’s second capital.
       - type: excursion
         url: >-
-          /destinations/india/states/sikkim/cities/pelling/excursions/afternoon-visit-to-pemyangtse-monastery/
+          /destinations/india/states/sikkim/cities/pelling/excursions/afternoon-visit-to-pemayangtse-monastery/
+        title: Afternoon visit to Pemayangtse Monastery
         content: >-
           The awe-inspiring ancient monastery of Pemayangtse, literally ‘perfect
           sublime lotus’, is the second-oldest in Sikkim. Traditional frescoes
@@ -138,6 +159,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/sikkim/cities/pelling/hotels/norbu-ghang-resort/
+        title: Norbu Ghang Resort
         content: >-
           Norbu Ghang Resort is at the end of the ridge in Upper Pelling, and so
           offers the best mountain views. The attractive cottages are positioned
@@ -154,12 +176,13 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/sikkim/cities/pelling/excursions/sanga-choling-monastery/
+          /destinations/india/states/sikkim/cities/pelling/excursions/early-morning-hike-to-sanga-choling-monastery/
+        title: Early morning hike to Sanga Choling Monastery
         content: >-
           Early in the morning, your guide will lead you on the 3km hike to
-          Sanga Choling Monastery, perched on top of a hill. It will take you no
-          more than an hour to hike up to the monastery along a narrow path, and
-          it’s definitely worth the effort. This is the oldest monastery in
+          Sanga Choeling Monastery, perched on top of a hill. It will take you
+          no more than an hour to hike up to the monastery along a narrow path,
+          and it’s definitely worth the effort. This is the oldest monastery in
           Sikkim, giving you magnificent views of the verdant foothills and the
           imposing mountains behind them.
         date: ''
@@ -167,17 +190,24 @@ itinerary:
         duration: ''
       - type: city
         url: /destinations/india/states/sikkim/cities/gangtok/
+        title: Gangtok
         content: >-
           After your hike and breakfast, you can rest on the five-hour drive to
           Gangtok, the capital of Sikkim. The mountainsides here are covered
-          with orchids and vast forests of rhododendrons. Apart from the
-          mountain scenery, the main attraction of Sikkim is its Buddhist
-          monasteries. Sikkim is home to over 250 of these, and while some are
-          deserted, most others like Rumtek are thriving centres of Buddhism.
-          The evening is at leisure if you'd like to explore the pleasant
+          with orchids and vast forests of rhododendrons.
+
+
+          Apart from the mountain scenery, the main attraction of Sikkim is its
+          Buddhist monasteries. Sikkim is home to over 250 of these, and while
+          some are deserted, most others like Rumtek are thriving centres of
+          Buddhism.
+
+
+          The evening is at leisure if you’d like to explore the pleasant
           pedestrianised centre of town.
       - type: hotel
         url: /destinations/india/states/sikkim/cities/gangtok/hotels/netuk-house/
+        title: Netuk House
         content: >-
           A member of the ‘Heritage Houses of the Himalayas’, Netuk House is the
           old house of a prominent Sikkimese family, the Dengzompas. This small
@@ -194,12 +224,15 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/sikkim/cities/gangtok/excursions/phodang-and-labrang/
+          /destinations/india/states/sikkim/cities/gangtok/excursions/full-day-excursion-to-phodang-and-labrang-by-jeep/
+        title: Full day excursion to Phodang and Labrang monasteries
         content: >-
-          It is a winding and bumpy drive to Phodang monastery, a small
+          It is a winding and bumpy drive by jeep to Phodang monastery, a small
           monastery 40km north of Gangtok, with a serene, timeless atmosphere.
-          Lying on a spur of the hill, it has views of the valley below. Labrang
-          Monastery is 2km uphill from Phodang, and is a small, unusual
+          Lying on a spur of the hill, it has views of the valley below.
+
+
+          Labrang Monastery is 2km uphill from Phodang, and is a small, unusual,
           octagonal structure. You can enjoy the spectacular scenery and views
           of the Kanchenjunga.
         date: ''
@@ -209,17 +242,18 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/west-bengal/cities/kalimpong/
+        title: Kalimpong
         content: >-
           Today, you drive out of Gangtok to the monastery at Rumtek, 24km away.
           Rumtek was built in 1740 but had to be rebuilt during the 1960s after
           an earthquake. Brightly-painted wooden latticework decorates the
           facade. Inside are beautiful murals and thangka paintings. You are
-          welcome to sit in on the prayer and chanting sessions. They'll even
-          bring you a cup of salted butter tea when it's served to the monks.
+          welcome to sit in on the prayer and chanting sessions. They’ll even
+          bring you a cup of salted butter tea when it’s served to the monks.
 
 
           After this, you drive to the hillside town of Kalimpong. Before the
-          Chinese takeover of Tibet, Kalimpong was the centre of India's wool
+          Chinese takeover of Tibet, Kalimpong was the centre of India’s wool
           trade with that country, with Tibetan caravans winding their way down
           from the Tibetan plateau to trade wool for manufactured goods. Even
           today, Kalimpong is home to diverse communities, and a short walk
@@ -232,13 +266,14 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/west-bengal/cities/kalimpong/hotels/silver-oaks/
+        title: Silver Oaks
         content: >-
           A luxury boutique hotel in Kalimpong, which offers 25 rooms of great
           charm. Most of the spacious rooms are furnished with heavy original
           furniture. The ivy-covered building is set in landscaped gardens
           filled with orchids and ferns. The gardens slope down towards pine,
           rhododendron and magnolia trees. Views from the front lawn are superb,
-          encompassing the entire Kalimpong valley and its environs.
+          encompassing the entire Kalimpong valley.
         checkInDate: ''
         checkInTime: ''
         checkOutDate: ''
@@ -248,9 +283,14 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/west-bengal/cities/kalimpong/
+        title: Kalimpong
         content: >-
           Today, you end your tour by driving three hours to Bagdogra airport to
           connect with your onward flight.
-weight: 301
+weight: '301'
+themes:
+  - Cultural journeys
+region: /destinations/india/regions/kolkata-orissa-and-the-northeast/
 ---
-Travel through the tea plantations of Darjeeling and the neighbouring state of Sikkim, still one of the last Himalayan Shangri-Las with its remoteness, spectacular mountain terrain, and hundreds of varieties of orchids. You will also enjoy a stay at a local farm in this fully organic state, visit ancient Buddhist monasteries and marvel at great views of the Kanchenjunga, the world's third highest peak.
+
+Travel through the tea plantations of Darjeeling and the neighbouring state of Sikkim, still one of the last Himalayan Shangri-Las with its remoteness, spectacular mountain terrain, and hundreds of varieties of orchids. You will also enjoy a stay at a local farm in this fully organic state, visit ancient Buddhist monasteries and marvel at great views of the Kanchenjunga, the world’s third highest peak.

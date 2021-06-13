@@ -109,7 +109,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/sikkim/cities/rinchenpong/excursions/activities-at-yangsum-farm/
-        title: Day at leisure in Rinchenpong
+        title: Activities at Yangsum Farm
         content: >-
           There’s always something to do at a farm: you can help with the daily
           activities, feeding the animals and more, and learn how to make

@@ -401,8 +401,8 @@ itinerary:
   - day: 13
     item:
       - type: city
-        url: /destinations/india/states/rajasthan/cities/raipur/
-        title: Raipur
+        url: /destinations/india/states/chhattisgarh/cities/raipur/
+        title: Raipur , Chhattisgarh
         content: >-
           Today, you drive three hours to Raipur airport to connect with your
           onward flight.

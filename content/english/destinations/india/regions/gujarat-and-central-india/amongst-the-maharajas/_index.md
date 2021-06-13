@@ -4,7 +4,7 @@ subtitle: Mumbai, Maheshwar, Kathiwada, Santrampur, Dungarpur, Delwara (Devigarh
 translationKey: amongst-the-maharajas
 type: tour
 tour: Amongst the Maharajas
-highlights: 
+highlights:
   - Opulent stays in royal palaces
   - Views over Maheshwar from Ahilya Fort
   - Beautiful, hidden palaces in Kathiwada and Santrampur
@@ -13,33 +13,29 @@ highlights:
 itinerary:
   - day: 0
     item:
-      - type: excursion
+      - type: transfer
         url: >-
-          /destinations/india/states/maharashtra/cities/mumbai/excursions/transfer-from-international-airport-to-hotel/
-        content: ''
+          /destinations/india/states/maharashtra/cities/mumbai/transfers/transfer-from-international-airport-to-hotel/
+        title: Transfer from Mumbai's international airport to your hotel
+        content: >-
+          Your tour starts on arrival at Mumbai airport, where you are met by
+          our representative and transferred to your hotel.
         date: ''
         etd: ''
         duration: ''
-      - type: city
-        url: /destinations/india/states/maharashtra/cities/mumbai/
-        content: >-
-          Mumbai is the financial, commercial and industrial capital of India.
-          The city is also the centre of fashion and film-making. As such the
-          city hums with activity and its more than 15 million residents seem to
-          be constantly on the move. Mumbai used to be just a collection of
-          fishing villages, and the real development commenced only during
-          British colonial rule. Hence, most of the historical monuments are
-          relics from the Raj.
       - type: hotel
         url: >-
           /destinations/india/states/maharashtra/cities/mumbai/hotels/the-taj-mahal-palace/
+        title: The Taj Mahal Palace
         content: >-
           A gracious landmark on the waterfront facing the Gateway of India, The
           Taj Mahal Hotel was built in 1905 using dark coloured stone with creme
           coloured facings. It is a fabulous piece of indigenous architecture.
-          The opulent rooms are divided between the Old and New Wing. There are
-          multiple restaurants and a swimming pool. The Taj Mahal Hotel is one
-          of the ‘Leading Hotels of the World’.
+
+
+          The opulent rooms are divided between the Old (palace) and New (tower)
+          Wing. There are multiple restaurants and a swimming pool. The Taj
+          Mahal Hotel is one of the ‘Leading Hotels of the World’.
         checkInDate: ''
         checkInTime: ''
         checkOutDate: ''
@@ -47,9 +43,22 @@ itinerary:
         nights: ''
   - day: 1
     item:
+      - type: city
+        url: /destinations/india/states/maharashtra/cities/mumbai/
+        title: Mumbai
+        content: >-
+          Mumbai is the financial, commercial and industrial capital of India.
+          The city is also the centre of fashion and film-making.
+
+
+          The city hums with activity and its 15 million residents seem to be
+          constantly on the move. Mumbai used to be just a collection of fishing
+          villages, and first grew only during British colonial rule, so most of
+          the historical monuments are relics from the Raj.
       - type: excursion
         url: >-
           /destinations/india/states/maharashtra/cities/mumbai/excursions/half-day-city-tour-of-mumbai/
+        title: Morning guided tour of Mumbai
         content: >-
           Mumbai’s most famous landmark is the ‘Gateway of India’, a triumphal
           archway built to commemorate the visit of King George V and Queen Mary
@@ -76,10 +85,13 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/madhya-pradesh/cities/maheshwar/
+        title: Maheshwar
         content: >-
           Today, you fly from Mumbai to Indore, and drive for about three hours
-          to the pilgrimage town of Maheshwar, renowned for its sarees. The
-          river banks are dotted with colourful shrines and are the site of
+          to the pilgrimage town of Maheshwar, renowned for its sarees.
+
+
+          The river banks are dotted with colourful shrines and are the site of
           daily worship of the sacred river. But the most eye-catching structure
           on the river bank is the 18th-century Ahilya Fort, residence of the
           erstwhile royal family of Indore, and now converted into a heritage
@@ -87,13 +99,17 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/madhya-pradesh/cities/maheshwar/hotels/ahilya-fort/
+        title: Ahilya Fort
         content: >-
           Selected as one of the world’s 101 best hotels by TATLER, the Ahilya
           Fort belonging to the Holkar dynasty of Indore, is a charming example
-          of 18th-century Maratha architecture. Broad, dark wood beams, cool
-          secluded rooms and sweet-smelling creepers welcome you and the wide
-          views over the Narmada River and temples encourage you to linger. All
-          meals are prepared using organic, home-grown vegetables.
+          of 18th-century Maratha architecture.
+
+
+          Broad, dark wood beams, cool secluded rooms and sweet-smelling
+          creepers welcome you and the wide views over the Narmada River and
+          temples encourage you to linger. All meals are prepared using organic,
+          home-grown vegetables.
         checkInDate: ''
         checkInTime: ''
         checkOutDate: ''
@@ -104,16 +120,19 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/madhya-pradesh/cities/maheshwar/excursions/day-at-leisure-in-maheshwar/
+        title: Day at leisure in Maheshwar
         content: >-
           Your day is at leisure for you to choose what you would like to do.
           Around the fort, you can explore the Rehwa Society, where weavers
           continue the age-old art of hand-weaving the beautiful Maheshwari
           sarees on traditional looms. You can also witness the lovely
           Lingacharan puja every morning, where priests make thousands of Shiva
-          lingams by hand. Ahilya Fort also arranges various excursions, like
-          picnics, boat rides, a walk around the villages across the river, plus
-          activities like yoga and more. All these can be booked directly at the
-          hotel.
+          lingams by hand.
+
+
+          Ahilya Fort also arranges various excursions, like picnics, boat
+          rides, a walk around the villages across the river, plus activities
+          like yoga and more. All these can be booked directly at the hotel.
         date: ''
         etd: ''
         duration: ''
@@ -122,6 +141,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/madhya-pradesh/cities/maheshwar/excursions/excursion-to-mandu/
+        title: Morning excursion to Mandu
         content: >-
           The extensive and mainly deserted hilltop fort of Mandu is one of the
           most evocative sights in central India. Impressive Islamic palaces,
@@ -140,24 +160,28 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/madhya-pradesh/cities/kathiwada/
+        title: Kathiwada
         content: >-
           A five-hour drive takes you to Kathiwada, near the Gujarat border and
           not far from the craft center of Chhota Udepur and the heritage town
           of Champaner. It houses the Kathiwada Raaj Mahal, a 19th-century
           mansion which was once the hunting lodge of the Kathiwada royal
-          family. It's been immaculately restored and today offers one of the
-          best heritage-hotel experiences in India.
+          family. The mansion has been immaculately restored and today offers
+          one of the best heritage-hotel experiences in India.
       - type: hotel
         url: >-
           /destinations/india/states/madhya-pradesh/cities/kathiwada/hotels/kathiwada-raaj-mahal/
+        title: Kathiwada Raaj Mahal
         content: >-
           This former hunting lodge, built in the 19th century, sits pretty amid
           120 acres of private orchards. The suites have been restored but
           retain an old-world charm, and the common areas are studded with
-          photographs and modern art, and particularly hunting memorabilia. The
-          peaceful grounds are great for meditation and yoga, and the forests
-          around are excellent for birding. A special stay in an undiscovered
-          part of India.
+          photographs and modern art, and particularly hunting memorabilia.
+
+
+          The peaceful grounds are great for meditation and yoga, and the
+          forests around are excellent for birding. A special stay in an
+          undiscovered part of India.
         checkInDate: ''
         checkInTime: ''
         checkOutDate: ''
@@ -168,6 +192,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/madhya-pradesh/cities/kathiwada/excursions/day-at-leisure-in-kathiwada/
+        title: Day at leisure in Kathiwada
         content: >-
           There are lots of things to see and do in Kathiwada. You can try
           hand-block printing at the palace’s in-house facility, design and
@@ -189,28 +214,35 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/gujarat/cities/santrampur/
+        title: Santrampur
         content: >-
           You drive for four hours into Gujarat, to another hidden treasure. In
           the lap of the Aravalli Hills in Gujarat lies the untouched town of
           Santrampur, which is riddled with ancient palaces and striking temple
-          ruins. Santrampur comprises two townships, Sant and Rampur. While
-          Rampur is the commercial town or the ‘city centre’, Sant was reserved
-          for the palaces. Santrampur and its neighbouring areas are
-          predominantly inhabited by tribals.
+          ruins.
+
+
+          Santrampur comprises two townships, Sant and Rampur. While Rampur is
+          the commercial town or the ‘city centre’, Sant was reserved for the
+          palaces. Santrampur and its neighbouring areas are predominantly
+          inhabited by tribals.
 
 
           Your afternoon is at leisure.
       - type: hotel
         url: >-
           /destinations/india/states/gujarat/cities/santrampur/hotels/shri-joraver-vilas/
+        title: Shri Joraver Vilas
         content: >-
-          Shri Joravar Vilas Palace at Santrampur is a lakeside Heritage getaway
-          offering a gateway into tribal areas of Gujarat. The palace was built
-          in 1926 in Art Deco style. Five contemporary rooms and suites occupy
-          the ground floor of the building, surrounding a magnificent central
-          courtyard. Inside the suite and out, a confluence of royal aesthetics
-          adorns the walls, the bathrooms, the tables, the door knockers, and
-          the furniture.
+          Shri Joravar Vilas Palace at Santrampur is a lakeside heritage getaway
+          offering a gateway into the tribal areas of Gujarat. The palace was
+          built in 1926 in Art Deco style.
+
+
+          Five contemporary rooms and suites occupy the ground floor of the
+          building, surrounding a magnificent central courtyard. Inside the
+          suites and out, a confluence of royal aesthetics adorns the walls, the
+          bathrooms, the tables, the door knockers, and the furniture.
         checkInDate: ''
         checkInTime: ''
         checkOutDate: ''
@@ -221,13 +253,15 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/gujarat/cities/santrampur/excursions/day-at-leisure-in-santrampur/
+        title: Day at leisure in Santrampur
         content: >-
           Stroll through the small town of Sant to see the majestic Raj Mahal
           and the Hawa Mahal, as well as ancient Hindu temples dating from the
-          11th to the 14th century. Enjoy a boat trip on the lake with an
-          opportunity to spot migratory birds. Take a walk in the neighbouring
-          forest to explore the local flora and fauna. Visit tribal homes and
-          farms to experience the local culture.
+          11th to the 14th century. You can also enjoy a boat trip on the lake
+          with an opportunity to spot migratory birds. Take a walk in the
+          neighbouring forest to explore the local flora and fauna, or visit
+          tribal homes and farms to experience the local culture, and have a
+          picnic in the countryside nearby.
         date: ''
         etd: ''
         duration: ''
@@ -235,27 +269,31 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/dungarpur/
+        title: Dungarpur
         content: >-
           A three-hour drive after breakfast takes you into southern Rajasthan,
-          and you end up at Dungarpur. Dungarpur has one of the finest palaces
-          in Rajasthan, the 19th-century Udai Bilas Palace, now a heritage
-          hotel. The palace is located on the shore of a peaceful lake, which
-          attracts a large number of aquatic birds like pelicans and spoonbills.
-          The lake contains a small island, which houses the family temple of
-          the owners of the palace.
+          and you end up at Dungarpur.
+
+
+          Dungarpur has one of the finest palaces in Rajasthan, the 19th-century
+          Udai Bilas Palace, now a heritage hotel. The palace is located on the
+          shore of a peaceful lake, which attracts a large number of aquatic
+          birds like pelicans and spoonbills. The lake contains a small island,
+          which houses the family temple of the owners of the palace.
 
 
           The afternoon is at leisure to explore the palace.
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/dungarpur/hotels/udai-bilas-palace/
+        title: Udai Bilas Palace
         content: >-
           A fabulous 19th-century palace overlooking a lake backed by green
-          hills. Still the residence of the former royal family, there are
+          hills. Still the residence of the former royal family, here are
           beautiful guest rooms furnished with authentic period furniture. The
           beautifully-designed swimming pool borders the lake beyond and has
-          some fabulous carved statuary around. The lake contains a small
-          island, which houses the family temple of the owners of the palace.
+          some fabulous carved statuary around. A highlight here is dinner
+          served at a long banquet table - with a water body in the middle!
         checkInDate: ''
         checkInTime: ''
         checkOutDate: ''
@@ -266,6 +304,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/dungarpur/excursions/day-at-leisure-in-dungarpur/
+        title: Day at leisure in Dungarpur
         content: >-
           There is a lot to do in and around the palace at Dungarpur, from
           taking a dip in the beautiful lakeside swimming pool (a great spot for
@@ -287,17 +326,19 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/delwara/
+        title: Delwara
         content: >-
           After breakfast, drive into the hills near Udaipur, to Delwara, an
-          ancient village with a medieval fort. The Devi Garh fort is set on top
+          ancient village with a medieval fort. The Devigarh fort is set on top
           of a rocky base and has a beautiful exterior with carved windows and
           delicate balconies supported by pillars. The fort is now the very
-          elegant Raas Devi Garh hotel.
+          elegant Raas Devigarh hotel.
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/delwara/hotels/raas-devigarh/
+        title: Raas Devigarh
         content: >-
-          The design of Devi Garh’s interiors is completely contemporary, almost
+          The design of Devigarh’s interiors is completely contemporary, almost
           austere. You will not see the typical riot of colours associated with
           Rajasthan. The dominant colour here is white - of marble, of white on
           white plaster motifs on walls. Highly luxurious, the hotel offers
@@ -313,8 +354,9 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/delwara/excursions/day-at-leisure-in-delwara/
+        title: Day at leisure in Delwara
         content: >-
-          Apart from the many attractions of the hotel, there's plenty to see
+          Apart from the many attractions of the hotel, there’s plenty to see
           nearby. Delwara town has some excellent Jain temples, said to predate
           the more famous ones at Dilwara near Mount Abu. There is also a large
           complex of temples at nearby Eklingji, which is worth a visit.
@@ -324,7 +366,7 @@ itinerary:
           a temple to Lord Krishna, and the famous pichhwai paintings originate
           from this place. Pichhwai are large banner-sized paintings that tell
           stories from the life of Krishna or from the Mahabharata. The main
-          purpose of these paintings was to serve as a backdrop to the deity's
+          purpose of these paintings was to serve as a backdrop to the deity’s
           statue in a temple. Another use of these paintings was as a story
           board - whereby bards would use the pictures to tell a story. In the
           narrow streets of Nathdwara town, you will see several painters busy
@@ -336,9 +378,16 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/rajasthan/cities/udaipur/
+        title: Udaipur
         content: >-
           Today, you drive an hour to Udaipur airport to connect with your
           onward flight.
-weight: 405
+weight: '405'
+themes:
+  - Off the beaten track
+  - Signature trips
+  - Staying in style
+region: /destinations/india/regions/gujarat-and-central-india/
 ---
-Hidden around India are some of the finest palaces in the world, homes to royalty in out-of-the-way places. You start your journey in the famous Taj Mahal hotel in Mumbai, then the pilgrimage town of Maheshwar, dominated by serene Ahilya Fort, and go on to verdant Kathiwada and its snow-white palace. Then, you continue the royal journey in the hidden gems of Santrampur and astonishing Dungarpur, and cap it off with a stay at the very luxe Devigarh, outside Udaipur. 
+
+Hidden around India are some of the finest palaces in the world, homes to royalty in out-of-the-way places. You start your journey in the famous Taj Mahal hotel in Mumbai, then the pilgrimage town of Maheshwar, dominated by serene Ahilya Fort, and go on to verdant Kathiwada and its snow-white palace. Then, you continue the royal journey in the hidden gems of Santrampur and astonishing Dungarpur, and cap it off with a stay at the very luxe Devigarh, outside Udaipur.

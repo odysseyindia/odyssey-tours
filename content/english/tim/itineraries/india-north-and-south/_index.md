@@ -424,7 +424,7 @@ itinerary:
         checkInTime: ''
         checkOutDate: ''
         checkOutTime: ''
-        nights: ''
+        nights: '2'
   - day: 13
     item:
       - type: transfer
