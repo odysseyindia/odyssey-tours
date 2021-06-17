@@ -11,5 +11,6 @@ vehicle: 1
 guide: 0
 dayAtLeisure: 0
 active: 1
+weight: 1
 ---
 Your 4-5 hour walk today takes you past the Jhakersm temple, then descends to terraced farms and small villages. After a picnic lunch at the bottom, you then walk uphill to the lovely Itmenaan Estate.      

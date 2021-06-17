@@ -37,9 +37,34 @@ itinerary:
         checkOutTime: ''
         nights: ''
   - day: 1
-    item: []
+    item:
+      - type: excursion
+        url: >-
+          /destinations/india/states/west-bengal/cities/darjeeling/excursions/full-day-glenburn-tea-estate-tour/
+        title: Full day Glenburn Tea Estate tour
+        content: >-
+          Today, you can explore your 1,600-acre private estate with an
+          introduction to the specialised art of growing and crafting Glenburn
+          tea. Visit the tea fields, interact with the tea pickers and follow
+          the journey of “two leaves and bud” into the tea factory, ending with
+          a tea tasting session to discover the incredible variety of flavours
+          and aromas that come from a single bush through the different seasons.
+          A picnic lunch is included.
+        date: ''
+        etd: ''
+        duration: ''
   - day: 2
-    item: []
+    item:
+      - type: excursion
+        url: >-
+          /destinations/india/states/west-bengal/cities/darjeeling/excursions/half-day-tea-garden-tour/
+        title: Half-day Tea Garden tour
+        content: ''
+      - type: excursion
+        url: >-
+          /destinations/india/states/west-bengal/cities/darjeeling/excursions/visit-to-glenburn-camp/
+        title: Half-day Tea Garden tour
+        content: ''
   - day: 3
     item: []
 themes:

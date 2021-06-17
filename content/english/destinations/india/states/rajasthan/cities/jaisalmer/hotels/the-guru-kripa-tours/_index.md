@@ -1,9 +1,9 @@
 ---
-title: The Guru Kripa Tours
+title: Jaisalmer tented camp
 translationKey: the-guru-kripa-tours
 type: hotel
 tags:
-  - Hotelss
+  - Hotels
 id: hotel
 rates:
   - roomType: Tent

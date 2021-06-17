@@ -42,7 +42,7 @@ itinerary:
         checkInTime: ''
         checkOutDate: ''
         checkOutTime: ''
-        nights: ''
+        nights: '3'
       - type: excursion
         url: >-
           /destinations/india/states/karnataka/cities/gokarna/excursions/activities-at-swaswara/

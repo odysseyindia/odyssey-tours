@@ -330,6 +330,22 @@ itinerary:
           regarded princely states of India, and the old town has their slightly
           over-the-top 19th-century Jai Vilas Palace. Part of the palace is the
           present Maharaja’s residence; the other is now a museum.
+      - type: hotel
+        url: >-
+          /destinations/india/states/madhya-pradesh/cities/gwalior/hotels/usha-kiran-palace/
+        title: Usha Kiran Palace
+        content: >-
+          An understated and chic offering of the Taj group of hotels, the Usha
+          Kiran Palace was originally built in the 1930s to welcome the King and
+          Queen of England. As you step into the manicured grounds it is clear
+          that the palace is unique. Luxurious without being overpoweringly
+          opulent, and sophisticated but not snobby, the Usha Kiran Palace will
+          be a highlight of your visit to Gwalior.
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
   - day: 10
     item:
       - type: excursion

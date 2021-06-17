@@ -328,7 +328,7 @@ itinerary:
       - type: hotel
         url: >-
           /destinations/india/states/rajasthan/cities/jaisalmer/hotels/the-guru-kripa-tours/
-        title: The Guru Kripa Tours
+        title: Jaisalmer tented camp
         content: >-
           The best way to experience the Thar Desert that surrounds Jaisalmer is
           on an overnight camel safari. Leaving Jaisalmer in the mid-afternoon,

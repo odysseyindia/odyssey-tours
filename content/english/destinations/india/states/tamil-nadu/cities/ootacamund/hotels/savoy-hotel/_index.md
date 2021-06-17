@@ -1,5 +1,5 @@
 ---
-title: Savoy Hotel
+title: The Savoy Hotel
 translationKey: savoy-hotel
 bookthrough: Travelcart India Pvt Ltd
 mailto: ''

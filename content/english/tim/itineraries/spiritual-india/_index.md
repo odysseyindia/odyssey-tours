@@ -299,17 +299,9 @@ itinerary:
           evening, the Ganges comes alive with a magical ceremony, the aarti.
       - type: excursion
         url: >-
-          /destinations/india/states/uttarakhand/cities/haridwar/excursions/watch-the-spectacular-daily-aarti-ceremony-at-sunset/
+          /destinations/india/states/uttarakhand/cities/haridwar/excursions/aarti-ceremony/
         title: Watch the spectacular daily aarti ceremony at sunset
-        content: >-
-          At dusk, the spectacular daily aarti ceremony is performed, drawing a
-          crowd of thousands onto the islands and ridges; your hotel will
-          organise a guide to take you to watch this extravaganza. Candles on
-          lotus petals are floated down the river, and priests perform rituals,
-          swinging torches to the accompaniment of gongs and music.
-        date: ''
-        etd: ''
-        duration: ''
+        content: ''
       - type: hotel
         url: >-
           /destinations/india/states/uttarakhand/cities/haridwar/hotels/the-haveli-hari-ganga/
@@ -334,7 +326,7 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/uttarakhand/cities/haridwar/excursions/watch-the-spectacular-daily-aarti-ceremony-at-sunset/
+          /destinations/india/states/uttarakhand/cities/haridwar/excursions/aarti-ceremony/
         title: Day at leisure in Haridwar
         content: >-
           Haridwar is an easy city to explore on your own, especially the

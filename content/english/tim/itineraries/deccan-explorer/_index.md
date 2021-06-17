@@ -99,7 +99,8 @@ itinerary:
         url: /destinations/india/states/karnataka/cities/vijayapura/
         title: Vijayapura
         content: >-
-          After breakfast, drive to Vijayapura (150kms, 03:30hrs).
+          After a morning’s sightseeing of Gulbarga, you drive about 4 hours to
+          Vijayapura.
 
 
           Vijayapura (formerly Bijapur) boasts some of India’s finest Muslim
@@ -129,7 +130,8 @@ itinerary:
         url: /destinations/india/states/karnataka/cities/badami/
         title: Badami
         content: >-
-          After breakfast, drive to Badami (124kms, 03:00hrs).
+          In the morning, you have a guided tour of Vijayapura. You then carry
+          on to Badami, a three-hour drive.
 
 
           The sleepy villages of Badami, Pattadakal and Aihole were once the
@@ -228,10 +230,19 @@ itinerary:
         duration: ''
   - day: 7
     item:
-      - type: city
-        url: /destinations/india/states/karnataka/cities/hampi/
-        title: Hampi
-        content: Today, you have a full day at leisure to explore Hampi on your own.
+      - type: excursion
+        url: >-
+          /destinations/india/states/karnataka/cities/hampi/excursions/day-at-leisure-in-hampi/
+        title: Day at leisure in Hampi
+        content: >-
+          Today, you have a full day at leisure to explore Hampi on your own.
+          It’s a great place to explore with a bicycle or even on foot - take a
+          little coracle ride across the river, saunter around the temples,
+          visit one of the many hippy-ish cafes, and watch the sun go down over
+          the dramatic landscape.
+        date: ''
+        etd: ''
+        duration: ''
   - day: 8
     item:
       - type: city
@@ -286,14 +297,11 @@ itinerary:
         duration: ''
   - day: 10
     item:
-      - type: city
-        url: /destinations/india/states/karnataka/cities/mysore/
-        title: Mysore
+      - type: excursion
+        url: >-
+          /destinations/india/states/karnataka/cities/hassan/excursions/day-excursion-to-belur-and-halebid/
+        title: Drive to Mysore via Belur and Halebid
         content: >-
-          Today, you drive to Mysore via the old Hoysala capitals of Belur and
-          Halebid, stuffed with amazing temples.
-
-
           Belur’s Chennakesava temple, still in use, is a fine example of the
           singular Hoysala style. It took 103 years to complete, with intricate
           sculptures outside and awe-inspiring filigreed pillars within. The
@@ -308,8 +316,11 @@ itinerary:
           years of work.
 
 
-          The entire drive to Mysore should take about five to six hours,
-          depending on how long you spend at each stop.
+          You carry on to Mysore after this. With the sightseeing, the drive
+          should take about six hours.
+        date: ''
+        etd: ''
+        duration: ''
       - type: hotel
         url: >-
           /destinations/india/states/karnataka/cities/mysore/hotels/royal-orchid-metropole-hotel/

@@ -14,36 +14,24 @@ itinerary:
   - day: 0
     item:
       - type: city
-        url: /destinations/india/states/andaman-and-nicobar/cities/port-blair/
-        title: Port Blair , Andaman and nicobar
-        content: >-
-          Port Blair, the capital of the Andaman & Nicobar Islands, lies on the
-          east coast of South Andaman Island and is the main entry point to the
-          islands. Ferry boats link Port Blair to outlying islands. These
-          islands are ringed with fine white coral sand, and one only has to
-          wade in knee-deep to enter an underwater world filled with a dazzling
-          variety of fish and corals.
-      - type: hotel
-        url: >-
-          /destinations/india/states/andaman-and-nicobar/cities/port-blair/hotels/the-nest/
-        title: The Nest
-        content: >-
-          The Nest is a 5-room bed and breakfast located 10 minutes from the
-          airport and offers a comfortable stay with all basic amenities. There
-          are 3 Premium AC Rooms which are located in one flat and 2 Standard AC
-          Rooms which are located in the opposite flat. The rooms are
-          air-conditioned with attached bathrooms and a private balcony.
-        checkInDate: ''
-        checkInTime: ''
-        checkOutDate: ''
-        checkOutTime: ''
-        nights: ''
-  - day: 1
-    item:
-      - type: city
         url: /destinations/india/states/andaman-and-nicobar/cities/havelock-island/
         title: Havelock Island , Andaman and nicobar
         content: >-
+          Your tour begins when you arrive at Port Blair airport, where you are
+          met by our representative, who will take you to the ferry bound for
+          Havelock Island. This journey over the turquoise Andaman waters takes
+          less than 2 hours, after which you are met at the jetty and
+          transferred to your hotel.
+
+
+          Please note: you can take the ferry to Havelock Island as long as your
+          flight lands in Port Blair by noon. Otherwise, you’ll need to stay a
+          night in Port Blair and take the ferry the next morning. Never fear
+          though, Port Blair is extremely interesting on its own, with the
+          sinister Cellular Jail (a British-era hellhole for political
+          prisoners) and other historical sights to explore.
+
+
           Radhanagar Beach (Beach #7) was rated as the best beach in Asia by
           Time Magazine in 2004, and is still exceptionally beautiful today,
           with gorgeous, silky white sand backed by a forest that provides
@@ -65,19 +53,17 @@ itinerary:
         checkInTime: ''
         checkOutDate: ''
         checkOutTime: ''
-        nights: '4'
-  - day: 2
+        nights: '5'
+  - day: 1
     item:
       - type: city
         url: /destinations/india/states/andaman-and-nicobar/cities/port-blair/
         title: Port Blair , Andaman and nicobar
         content: >-
-          Port Blair, the capital of the Andaman & Nicobar Islands, lies on the
-          east coast of South Andaman Island and is the main entry point to the
-          islands. Ferry boats link Port Blair to outlying islands. These
-          islands are ringed with fine white coral sand, and one only has to
-          wade in knee-deep to enter an underwater world filled with a dazzling
-          variety of fish and corals.
+          Today, you transfer to the jetty to board the ferry to Port Blair. By
+          the time you reach Port Blair it will probably be too late to catch an
+          onward flight, so you need to stay overnight near Port Blair's
+          airport.
       - type: hotel
         url: >-
           /destinations/india/states/andaman-and-nicobar/cities/port-blair/hotels/the-nest/
@@ -93,6 +79,8 @@ itinerary:
         checkOutDate: ''
         checkOutTime: ''
         nights: ''
+  - day: 2
+    item: []
   - day: 3
     item: []
 themes:

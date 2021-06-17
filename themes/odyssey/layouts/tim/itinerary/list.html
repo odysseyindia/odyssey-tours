@@ -78,7 +78,7 @@
       {{- $x := 0 }}
 
       {{- $fromDay := 1 }}
-      {{- $toDay   := 1 }}
+      {{- $toDay   := 1 }} 
 
       {{- $fromCity := 0 }}
 
@@ -288,7 +288,7 @@
             {{ range ( sort (where (where .Site.Pages "Section" "destinations") ".Params.id" "city") ".Title" "asc" ) }}
             {{ $urlArray := split .Permalink "/" }}
             {{ $path := index $urlArray (sub (len $urlArray) 4) }}
-            <option value="{{ .RelPermalink }}">{{ .Title }} {{ if ne $path "destinations" }}, {{ $path | humanize }}{{ end }}</option>
+            <option value="{{ .RelPermalink }}">{{ .Title }} {{ if ne $path "destinations" }}, {{ $path | humanize | title }}{{ end }}</option>
             {{ end }}
           </select>
           <a href="#0" class="button"  id="add-city">
@@ -393,7 +393,7 @@
               {{- if (eq $v.type "hotel") }}
               {{ $city := index (split $v.url "/") (sub (len (split $v.url "/")) 4 )  }}
               <div class="incldetails">
-                <div>{{ $city | humanize }}, {{ $v.title }}</div> 
+                <div>{{ $city | humanize | title }}, {{ $v.title }}</div> 
                 <div class="details" > </div>
               </div>
               {{- end }}  
@@ -412,7 +412,7 @@
               {{- if eq $v.type "excursion" }}
               {{ $city := index (split $v.url "/") (sub (len (split $v.url "/")) 4 )  }}
               <div class="incldetails">
-                <div>{{ $city | humanize }}, {{ $v.title }}</div> 
+                <div>{{ $city | humanize | title }}, {{ $v.title }}</div> 
               </div>
               {{- end }}
               {{- end }}

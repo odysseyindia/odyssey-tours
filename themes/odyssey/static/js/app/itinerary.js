@@ -196,26 +196,28 @@ function appendDay(){
 // display the modal to delete a day 
 
 function deleteDay(){
-  let modal = document.getElementById("modal-delete-day");
+  var modal   = document.getElementById("modal-delete-day");
+  var input   = modal.querySelector("input");
+
   modal.style.display = "block";
-  let input = modal.querySelector("input");
-  input.value = "";
+  input.value         = "";
 };
 
 // delete a day upon clicking save in the modal. Itinerary gets saved.
 
 function deleteModalDay(){
 
-  const modal = document.getElementById("modal-delete-day");
-
-  let index   = modal.querySelector("input").value;
-  let doc     = document.getElementById('myItinerary');
-  let days    = doc.getElementsByClassName('containers');
-  let label   = modal.querySelector("label");
+  var modal   = document.getElementById("modal-delete-day");
+  var doc     = document.getElementById('myItinerary');
+  
+  var index   = modal.querySelector("input").value;
+  var days    = doc.getElementsByClassName('containers');
+  var label   = modal.querySelector("label");
 
   if ( index < 1 || index > days.length) {
-    label.innerHTML   = '<div class="alert">Input not valid</div>';
+    label.innerHTML     = '<div class="alert">Input not valid</div>';
   } else {   
+    label.innerHTML     = "";
     modal.style.display = "none";
     saveItinerary(index-1);
   };

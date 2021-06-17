@@ -506,7 +506,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/tamil-nadu/cities/ootacamund/excursions/activities-at-the-savoy-hotel/
-        title: Activities at the Savoy Hotel
+        title: Activities at The Savoy Hotel
         content: >-
           The Savoy makes the best of its colonial heritage with very pukka
           British activities: high tea, croquet and letter-writing are on offer

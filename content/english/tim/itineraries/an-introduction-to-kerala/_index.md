@@ -241,8 +241,6 @@ itinerary:
         date: ''
         etd: ''
         duration: ''
-  - day: 8
-    item: []
 themes:
   - Beach vacations
   - Classic tours

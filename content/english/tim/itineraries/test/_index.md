@@ -50,6 +50,8 @@ itinerary:
         checkOutTime: ''
         nights: ''
   - day: 1
+    item: []
+  - day: 2
     item:
       - type: excursion
         url: >-
@@ -93,12 +95,6 @@ itinerary:
         checkOutDate: ''
         checkOutTime: ''
         nights: ''
-  - day: 2
-    item:
-      - type: city
-        url: /destinations/india/states/tripura/cities/agartala/
-        title: Agartala , Tripura
-        content: ''
 themes: []
 region: /destinations/india/regions/andamans/
 weight: '0'

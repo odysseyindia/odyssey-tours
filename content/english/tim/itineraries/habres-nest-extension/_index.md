@@ -28,8 +28,10 @@ itinerary:
           undergrowth which their favourite food.
 
 
-          At Manebhanjang, you get into Land Rovers (very Tomb Raider!) and
-          drive for around 2.5 hours to your forest hideaway.
+          At Manebhanjang, you get into historic Land Rovers (very Tomb Raider!)
+          and drive for around 2.5 hours to your forest hideaway; these
+          70-year-old vehicles make your journey fun and interesting as you make
+          your way through rhododendron copses to Habre’s Nest.
       - type: hotel
         url: >-
           /destinations/india/states/west-bengal/cities/singalila/hotels/habres-nest/
@@ -80,7 +82,7 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/west-bengal/cities/singalila/excursions/further-opportunities-for-red-panda-sighting-and-bird-watching/
+          /destinations/india/states/west-bengal/cities/singalila/excursions/further-red-panda-sighting/
         title: Further opportunities for red panda sighting and bird watching
         content: >-
           Today is another opportunity to follow the trail of a red panda,
@@ -101,7 +103,18 @@ itinerary:
         etd: ''
         duration: ''
   - day: 3
-    item: []
+    item:
+      - type: excursion
+        url: >-
+          /destinations/india/states/west-bengal/cities/singalila/excursions/drive-out-of-singalila-national-park-by-land-rover/
+        title: Drive out of Singalila National Park by Land Rover
+        content: >-
+          You drive back out of Singalila national park in the Land Rovers. The
+          two-hour drive is also a good opportunity for birding. From
+          Manebhanjang, you drive by road to your onward destination.
+        date: ''
+        etd: ''
+        duration: ''
 themes:
   - Off the beaten track
   - Active outdoor trips

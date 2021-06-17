@@ -17,12 +17,23 @@ itinerary:
         title: Karwar , Karnataka
         content: >-
           The port city of Karwar provides good connections for those travelling
-          along the scenic coastal highway between Goa and Mangalore, or the
-          equally good inland highway to Hampi via Hubli.
-
-
-          Karwar is where you board a boat to the private island retreat of
-          Cintacor.
+          to lovely Cintacor Island, a private island for those seeking to get
+          away from it all. Beaches, cliffs, jungles, birds, and relaxed luxury
+          at the Cintacor Island Resort await you here.
+      - type: excursion
+        url: >-
+          /destinations/india/states/karnataka/cities/karwar/excursions/activities-on-cintacor-island/
+        title: Activities on Cintacor Island
+        content: >-
+          You can enjoy multiple optional activities during your island stay,
+          with dolphin-spotting cruises (with a naturalist or without), nature
+          walks, climbing, rappelling, a tour of the lighthouse, fishing, water
+          sports, an infinity pool plus an indulgent spa. The 33-acre NatureLab
+          is a fascinating place for learning about marine life and the various
+          flora and fauna on the island.
+        date: ''
+        etd: ''
+        duration: ''
       - type: hotel
         url: >-
           /destinations/india/states/karnataka/cities/karwar/hotels/cintacor-island-resort/
@@ -32,12 +43,13 @@ itinerary:
           lovely retreat, with its airy cottages and total seclusion. The cabins
           are all spacious, and all offer views of the sea. There is an infinity
           pool, a restaurant, a casual bar and a lounge with a library, as if
-          having an island largely to yourself wasn’t enough.
+          having an island largely to yourself wasn’t enough. A very different
+          side to India, and a great end to a trip.
         checkInDate: ''
         checkInTime: ''
         checkOutDate: ''
         checkOutTime: ''
-        nights: '3'
+        nights: ''
 themes:
   - Off the beaten track
   - Active outdoor trips
