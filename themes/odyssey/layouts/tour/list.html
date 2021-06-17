@@ -99,63 +99,64 @@
             {{- end -}}
 
             <div class="card">
-              <button class="accordion">Day {{ if eq (sub $toDay $fromDay) 1 }}{{ $fromDay }}{{ else }}{{ $fromDay }} - {{ sub $toDay 1 }}{{ end }},
+              <button class="accordion">
+                Day {{ if eq (sub $toDay $fromDay) 1 }}{{ $fromDay }}{{ else }}{{ $fromDay }} - {{ sub $toDay 1 }}{{ end }},
                 {{- range $j, $element := $e.item }}
                     {{- if (eq .type "hotel") }}{{ $nighthalt = index (split .url "/" ) 6 | humanize | title }}{{ end }} 
                     {{- if (eq .type "excursion") }}
-                        {{ with .nighthalt }}{{ $nighthalt = . | title }}{{ end }}
-                    {{ end }}
-                {{- end }}
+                        {{- with .nighthalt }}{{ $nighthalt = . | title }}{{ end }}
+                    {{- end }}
+                {{- end -}}
 
-                {{ $fromDay = $toDay }}
+                {{- $fromDay = $toDay -}}
 
-                {{ if eq (add $i 1) (len $.Params.itinerary)}} Departure{{ else }} {{ $nighthalt }}{{ end }}
+                {{- if eq (add $i 1) (len $.Params.itinerary)}} Departure{{ else }} {{ $nighthalt }}{{ end }}
               </button>
               <div class="panel">
-              {{- range $j, $element := $e.item -}}
+              {{- range $j, $element := $e.item }}
                 <div class="row">
                   <div>
                     <i class="icon-{{ .type }}"></i>
                   </div>
                   <div class="h3">
                     {{ if eq .type "hotel"}}You stay  {{ if in .url "kettuvallam" }}in{{else }}at{{ end }}{{- end }}
-                    {{ .title }}
+                    {{- .title }}
                   </div>
                 </div>
                 <!-- display paras properly -->
-                {{- if in (string .content) "\n\n" }}
+                {{- if in (string .content) "\n\n" -}}
                     {{ .content | markdownify | safeHTML }}
-                {{- else }}
+                {{- else -}}
                     <p>{{ .content | markdownify | safeHTML }}</p>
                 {{- end -}}
                 <!-- check for duplicate images -->
-                {{- $display        := 1 }}
-                {{- $url            := printf "%s" .url }}
+                {{- $display        := 1 -}}
+                {{- $url            := printf "%s" .url -}}
 
-                {{- range $duplicateImages }}
-                    {{- if eq $url . }}{{ $display = 0 }}{{ end }}
-                {{- end }} 
+                {{- range $duplicateImages -}}
+                    {{- if eq $url . }}{{ $display = 0 }}{{ end -}}
+                {{- end -}} 
                 <!-- do not display image for a departure -->
-                {{- if eq (add $i 1) (len $.Params.itinerary)}}{{ $display = 0 }}{{ end }}
+                {{- if eq (add $i 1) (len $.Params.itinerary)}}{{ $display = 0 }}{{ end -}}
 
-                {{- $duplicateImages = $duplicateImages | append (slice .url) }}
+                {{- $duplicateImages = $duplicateImages | append (slice .url) -}}
                 
-                {{- if eq $display 1 }}
+                {{- if eq $display 1 -}}
                     <!-- display image(s) -->
-                    {{- if eq .type "city" }} 
+                    {{- if eq .type "city" -}} 
                         <!-- display a single image -->
-                        {{- range ( where ( where $.Site.Pages "Section" "destinations") ".RelPermalink" .url ) }} 
-                            {{ partial "image-single" . }}
+                        {{- range ( where ( where $.Site.Pages "Section" "destinations") ".RelPermalink" .url ) -}} 
+                            {{ partial "image-single" . -}}
                         {{- end }}
-                    {{- else }}
+                    {{- else -}}
                     <!-- display a box of 5 images -->
-                        {{- range ( where ( where $.Site.Pages "Section" "destinations") ".RelPermalink" .url ) }} 
-                            {{ partial "image-box.html" . }}
+                        {{- range ( where ( where $.Site.Pages "Section" "destinations") ".RelPermalink" .url ) -}} 
+                            {{ partial "image-box.html" . -}}
                         {{- end }}
                     {{- end -}}
-                {{- end }}
+                {{- end -}}
 
-                {{- if ne $j (sub (len $e.item) 1) }} <hr>{{ end -}}
+                {{- if ne $j (sub (len $e.item) 1) }} <hr />{{ end -}}
                
               {{- end }} <!-- end of items in a day -->
               </div>

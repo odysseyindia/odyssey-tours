@@ -1,33 +1,33 @@
-{{- $resources := .Resources.ByType "image" }} 
-{{- range first 1 (.Resources.ByType "image") }}
-{{ "<!-- image single --> " | safeHTML }}
-{{- $src := $resources.GetMatch ( printf "*%s*" (path.Base .RelPermalink) ) -}}
+				{{- $resources := .Resources.ByType "image" }} 
+				{{- range first 1 (.Resources.ByType "image") }}
+				{{ "<!-- image single --> " | safeHTML }}
+				{{ $src := $resources.GetMatch ( printf "*%s*" (path.Base .RelPermalink) ) -}}
 
-{{- if $src -}}
+				{{- if $src -}}
 
-{{- $tinyw   := default "500x"   }}
-{{- $smallw  := default "800x"   }}
-{{- $mediumw := default "1200x"  }}
-{{- $largew  := default "1500x" -}}
+				{{- $tinyw   := default "500x"   }}
+				{{- $smallw  := default "800x"   }}
+				{{- $mediumw := default "1200x"  }}
+				{{- $largew  := default "1500x" -}}
 
-{{- $.Scratch.Set "tiny"   ($src.Resize $tinyw)   }}
-{{- $.Scratch.Set "small"  ($src.Resize $smallw)  }}
-{{- $.Scratch.Set "medium" ($src.Resize $mediumw) }}
-{{- $.Scratch.Set "large"  ($src.Resize $largew) -}}
+				{{- $.Scratch.Set "tiny"   ($src.Resize $tinyw)   }}
+				{{- $.Scratch.Set "small"  ($src.Resize $smallw)  }}
+				{{- $.Scratch.Set "medium" ($src.Resize $mediumw) }}
+				{{- $.Scratch.Set "large"  ($src.Resize $largew) -}}
 
-{{- $tiny   := $.Scratch.Get "tiny"   }}
-{{- $small  := $.Scratch.Get "small"  }}
-{{- $medium := $.Scratch.Get "medium" }}
-{{- $large  := $.Scratch.Get "large" -}}
+				{{- $tiny   := $.Scratch.Get "tiny"   }}
+				{{- $small  := $.Scratch.Get "small"  }}
+				{{- $medium := $.Scratch.Get "medium" }}
+				{{- $large  := $.Scratch.Get "large" -}}
 
-  <div class="main-image"> 
-      <img class="lazyload" sizes="(min-width: 35em) 1200px, 100vw" data-srcset="
-    {{- with $tiny.RelPermalink }} {{.}} 500w{{ end }}
-    {{- with $small.RelPermalink }},{{.}} 800w{{ end }}
-    {{- with $medium.RelPermalink }},{{.}} 1200w{{ end }}
-    {{- with $large.RelPermalink }},{{.}} 1500w{{ end }}"
-    data-src="{{- $src.RelPermalink -}}" alt="{{ . }}" >
-  </div>
+				  <div class="main-image"> 
+				      <img class="lazyload" sizes="(min-width: 35em) 1200px, 100vw" data-srcset="
+				    {{- with $tiny.RelPermalink }} {{.}} 500w{{ end }}
+				    {{- with $small.RelPermalink }},{{.}} 800w{{ end }}
+				    {{- with $medium.RelPermalink }},{{.}} 1200w{{ end }}
+				    {{- with $large.RelPermalink }},{{.}} 1500w{{ end }}"
+				    data-src="{{- $src.RelPermalink -}}" alt="{{ . }}" >
+				  </div>
 
-{{- end }}
-{{- end }}
+				{{- end }}
+				{{- end }}

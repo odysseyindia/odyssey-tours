@@ -15,7 +15,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/himachal-pradesh/cities/dharamsala/
-        title: Dharamsala , Himachal pradesh
+        title: Dharamsala, Himachal pradesh
         content: >-
           Dharamsala is a hill station that was established by the British in
           the mid-19th century. It stands on a spur of the Dhauladhar range
@@ -37,6 +37,7 @@ itinerary:
         date: ''
         etd: ''
         duration: ''
+        nighthalt: Kareri
   - day: 1
     item:
       - type: excursion
@@ -52,6 +53,7 @@ itinerary:
         date: ''
         etd: ''
         duration: ''
+        nighthalt: Bahl
   - day: 2
     item:
       - type: excursion
@@ -69,12 +71,13 @@ itinerary:
         date: ''
         etd: ''
         duration: ''
+        nighthalt: Triund
   - day: 3
     item:
       - type: excursion
         url: >-
           /destinations/india/states/himachal-pradesh/cities/dharamsala/excursions/trek-from-laheta-back-to-dharamsala-3-hours-walk/
-        title: Trek from Laheta back to Dharamsala (3 hours' walk),
+        title: Trek from Laheta back to Dharamsala (3 hours' walk)
         content: >-
           First, we walk on a grassy ridge with fine views of the Dhauladhar
           range and Kangra valley. After two hours' walk on this ridge, we
@@ -90,6 +93,7 @@ itinerary:
         date: ''
         etd: ''
         duration: ''
+        nighthalt: Dharamsala
 themes:
   - Off the beaten track
   - Active outdoor trips
