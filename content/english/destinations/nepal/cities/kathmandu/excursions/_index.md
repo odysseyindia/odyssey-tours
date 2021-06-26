@@ -1,3 +1,3 @@
 ---
-type=excursions
+type: excursions
 ---
