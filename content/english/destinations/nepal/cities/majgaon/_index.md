@@ -4,7 +4,6 @@ translationKey: majgaon
 defaultDays: 1
 longitude: 83.795138611
 latitude: 28.314690627
-alias: ''
 draft: false
 nighthalt: true
 display: true

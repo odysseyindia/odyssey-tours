@@ -4,7 +4,6 @@ translationKey: namche-bazaar
 defaultDays: 2
 longitude: 86.712869899
 latitude: 27.804645512
-alias: ''
 draft: false
 nighthalt: true
 display: true

@@ -4,7 +4,6 @@ translationKey: birethanti
 defaultDays: 1
 longitude: 83.985567397
 latitude: 28.209592537
-alias: ''
 draft: false
 nighthalt: true
 display: true

@@ -4,7 +4,6 @@ translationKey: nuwakot
 defaultDays: 2
 longitude: 85.164772811
 latitude: 27.921285502
-alias: ''
 draft: false
 nighthalt: true
 display: true

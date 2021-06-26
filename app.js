@@ -344,23 +344,31 @@ app.post('/import',function (req, res) {
   } else if ( request.file == 'hotels.csv') {
 
 
-   var country   = urlize(array[0]);
-   var state     = urlize(array[1]);
-   var city      = urlize(array[2]);
+  var country   = urlize(array[0]);
+  var state     = urlize(array[1]);
+  var city      = urlize(array[2]);
 
-   var mdfile = dir+'/destinations/'+country+'/states/'+state+'/cities/'+city+'/hotels/'+urlize(array[3])+'/';
+  var mdfile = dir+'/destinations/'+country;
 
-   console.log('Processing ',mdfile);
+      if (country == 'india'){ 
+        if (typeof state === "undefined") throw "state for "+city+" is undefined";
+        mdfile += '/states/'+state; 
+      };
+      
+  mdfile += '/cities/'+city+'/hotels/'+urlize(array[3])+'/';
 
-   const made = mkdirp.sync(mdfile);
+  console.log('Processing ',mdfile);
 
-   try {
+  const made = mkdirp.sync(mdfile);
+
+  try {
     var fileContents = fs.readFileSync(mdfile+'_index.md', 'utf8', (err) => {       
       if (err) throw err; 
     }) 
   } 
   catch (error) {
     var fileContents = "---\n\n---\n";
+    var data = [];
   }
 
 /*
@@ -369,10 +377,15 @@ app.post('/import',function (req, res) {
 17=note  18=description 19=starcategories_id 20=checkout  
 21-accessrail  22=accessair 23=accessbus 24=advantage 25=rooms
 */
+
 let contents = fileContents.split("---");
 var data = yaml.loadAll(contents[1]);
 
 try {
+  data[0]={};
+  data[0].title         = array[3];
+  data[0].translationKey = urlize(array[3]);
+  data[0].type          = 'hotel';
   data[0].bookThrough   = array[4];
   data[0].mailTo        = array[5];
   data[0].address       = array[6];
@@ -386,12 +399,13 @@ try {
   data[0].web           = Number(array[14]);
   data[0].showHotel     = Number(array[15]);
   data[0].starCategory  = Number(array[19]);
-  data[0].checkout      = array[20];
+  data[0].checkin       = '';
+  data[0].checkout      = (array[20])? array[20] : '12:00';
   data[0].accessRail    = array[21];
   data[0].accessAir     = array[22];
   data[0].accessBus     = array[23];
   data[0].advantage     = array[24];
-  data[0].rooms         = Number(array[25]);
+  data[0].rooms         = (array[25]) ? array[25] : 0;
   data[1]               = array[18].replace(/[`]/g, "'");
 
   let output = `---\n` + yaml.dump(data[0]) + "---\n" + data[1] ;
@@ -559,11 +573,18 @@ catch (error) {
 
     } else if ( request.file == 'hotel-categories.csv') {
 
-     var country   = urlize(array[0]);
-     var state     = urlize(array[1]);
-     var city      = urlize(array[2]);
+    var country   = urlize(array[0]);
+    var state     = urlize(array[1]);
+    var city      = urlize(array[2]);
 
-     var mdfile = dir+'/destinations/'+country+'/states/'+state+'/cities/'+city+'/hotels/'+urlize(array[3])+'/';
+    var mdfile = dir+'/destinations/'+country;
+
+    if (country == 'india'){ 
+        if (typeof state === "undefined") throw "state for "+city+" is undefined";
+        mdfile += '/states/'+state; 
+    };
+      
+    mdfile += '/cities/'+city+'/hotels/'+urlize(array[3])+'/';
 
      console.log('Processing ',mdfile);
 
@@ -592,20 +613,8 @@ catch (error) {
 
     try {
 
-      if (typeof array[4] === 'undefined'){
-        data[0].ranking = 0;
-      };
-      if (typeof array[5] === 'undefined'){
-        data[0].category = [];
-      };
-
-      if (Number(array[4]) > 0) {
-        data[0].ranking = Number(array[4]);
-      }
-
-        // reset rates to null
-        // data[0].category = []; 
-        // data[0].category.push(array[5]);
+        data[0].ranking = (Number(array[4]) > 0) ? Number(array[4]) : 0;
+        data[0].category = (array[5])?array[5] : '';
 
         let output = `---\n` + yaml.dump(data[0]) + "---\n" + contents[2];
 
@@ -618,14 +627,21 @@ catch (error) {
     } else if ( request.file == 'services-desc.csv') {
 
       /*
-      0 state 1 city  2 description 3 organisation  4 duration  5 starttime 6 transfer  7 daysofoperation 
-      8 owntransport  9 Guide 10 DayAtLeisure 11 writeup, 12 active
-      */
-
-      var state     = urlize(array[0]);
-      var city      = urlize(array[1]);
+0=country 1=state 2=city  3=description 4=organisation  5=duration  6=starttime 7=transfer  8=daysofoperation 9=owntransport  10=Guide 11=DayAtLeisure  12=writeup 13=active
+*/
+      var country   = urlize(array[0]);
+      var state     = urlize(array[1]);
+      var city      = urlize(array[2]);
       
-      var mdfile = dir+'/destinations/india/states/'+state+'/cities/'+city+'/transfers/'+urlize(array[2])+'/';
+    
+      var mdfile = dir+'/destinations/'+country;
+
+      if (country == 'india'){ 
+        if (typeof state === "undefined") throw "state for "+city+" is undefined";
+        mdfile += '/states/'+state; 
+      };
+      
+      mdfile += '/cities/'+city+'/transfers/'+urlize(array[3])+'/';
 
       console.log('Processing ',mdfile);
 
@@ -646,19 +662,19 @@ catch (error) {
         let data     = yaml.loadAll(contents[1]);
 
         data[0] = {};
-        data[0].title           = array[2];
-        data[0].translationKey  = urlize(array[2]);
+        data[0].title           = array[3];
+        data[0].translationKey  = urlize(array[3]);
         data[0].type            = 'transfer';
-        data[0].duration        = array[4];
-        data[0].startTime       = array[5];
-        data[0].transfer        = Number(array[6]);
-        data[0].daysOfOperation = Number(array[7]);
-        data[0].vehicle         = Number(array[8]);
-        data[0].guide           = Number(array[9]);
-        data[0].dayAtLeisure    = Number(array[10]);
-        data[0].active          = Number(array[12]);
+        data[0].duration        = array[5];
+        data[0].startTime       = array[6];
+        data[0].transfer        = Number(array[7]);
+        data[0].daysOfOperation = Number(array[8]);
+        data[0].vehicle         = Number(array[9]);
+        data[0].guide           = Number(array[10]);
+        data[0].dayAtLeisure    = Number(array[11]);
+        data[0].active          = Number(array[13]);
 
-        let output = `---\n` + yaml.dump(data[0]) + "---\n" + array[11] ;
+        let output = `---\n` + yaml.dump(data[0]) + "---\n" + array[12] ;
 
         fs.writeFileSync(mdfile+'_index.md', output, 'utf8', (err) => {       
           if (err) throw err; 
@@ -1055,15 +1071,21 @@ catch (error) {
       } 
     } else if ( request.file == 'services.csv') {
 
-      // 0=state  1=city  2=description 3=duration 4=starttime 5=transfer  6=transfercode  7=active  8=daysofoperation 
-      // 9=city  10=to_cities_id  11=owntransport  12=guide  13=dayatleisure
+      // 0=country 1=state 2-city  3=description 4=duration  5=starttime 6=transfer  7=transfercode  8=active  9=daysofoperation 10=city  
+      // 11=to_cities_id  12=owntransport  13=guide 14=dayatleisure 15=writeup
 
+      var country           = urlize(array[0]);
+      var state             = urlize(array[1]);
+      var city              = urlize(array[2]);
+      var description       = urlize(array[3]);
+      var mdfile            = dir+'/destinations/'+country;
 
-      var state             = urlize(array[0]);
-      var city              = urlize(array[1]);
-      var description       = urlize(array[2]);
-
-      var mdfile = dir+'/destinations/india/states/'+state+'/cities/'+city+'/excursions/'+description+'/';
+      if (country == 'india'){ 
+        if (typeof state === "undefined") throw "state for "+city+" is undefined";
+        mdfile += '/states/'+state; 
+      };
+      
+      mdfile += '/cities/'+city+'/excursions/'+description+'/';
 
       console.log('Processing ',mdfile);
 
@@ -1071,26 +1093,25 @@ catch (error) {
 
       try {
 
-        var web     = Number(array[7]) || 0;
-        var writeup = array[13].trim().toString().replace(/[`]/g, "'");
+        var web     = Number(array[8]) || 0;
+        var writeup = array[15].trim().toString().replace(/[`]/g, "'");
 
         frontMatter                 = {};
-        frontMatter.title           = array[2];
+        frontMatter.title           = array[3];
         frontMatter.translationKey  = description;
-        frontMatter.duration        = array[3] || '';
-        frontMatter.startTime       = (array[4] == 'NULL') ?  '' : array[4];
-        frontMatter.transfer        = (array[5] == 'NULL') ?  false : true;
-        frontMatter.transferCode    = (array[6] == 'NULL') ?  '' : array[6];
+        frontMatter.duration        = array[4] || '';
+        frontMatter.startTime       = (array[5] == 'NULL') ?  '' : array[4];
+        frontMatter.transfer        = (array[6] == 'NULL') ?  false : true;
+        frontMatter.transferCode    = (array[7] == 'NULL') ?  '' : array[6];
         frontMatter.draft           = (web == 0) ?  true : false; 
-        frontMatter.daysOfOperation = (array[8] == 'NULL') ?  0  : Number(array[8]);
-        frontMatter.toCity          = (array[9] == 'NULL') ?  '' : array[9];
-        frontMatter.toCitiesId      = (array[10] == 'NULL') ?  '' : array[10];
-        frontMatter.owntransport    = (array[11] == 1) ?  true : false;
-        frontMatter.guide           = (array[12] == 1) ?  true : false;
-        frontMatter.dayAtLeisure    = (array[13] == 1) ?  true : false;
-        frontMatter.id              = 'services';
-        frontMatter.type            = 'excursions';
-        frontMatter.tags            = ['Services',array[2].replace(/[.]/g, '') ];
+        frontMatter.daysOfOperation = (array[9] == 'NULL') ?  0  : Number(array[8]);
+        frontMatter.toCity          = (array[10] == 'NULL') ?  '' : array[9];
+        frontMatter.toCitiesId      = (array[11] == 'NULL') ?  '' : array[10];
+        frontMatter.owntransport    = (array[12] == 1) ?  true : false;
+        frontMatter.guide           = (array[13] == 1) ?  true : false;
+        frontMatter.dayAtLeisure    = (array[14] == 1) ?  true : false;
+        frontMatter.type            = 'excursion';
+        frontMatter.tags            = ['Services',array[3].replace(/[.]/g, '') ];
 
         let output = `---\n` + yaml.dump(frontMatter) + "---\n" + writeup;
 

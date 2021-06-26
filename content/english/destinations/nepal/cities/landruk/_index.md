@@ -4,7 +4,6 @@ translationKey: landruk
 defaultDays: 1
 longitude: 83.826540569
 latitude: 28.370484642
-alias: ''
 draft: false
 nighthalt: true
 display: true

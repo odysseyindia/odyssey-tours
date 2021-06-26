@@ -4,7 +4,6 @@ translationKey: kongde
 defaultDays: 2
 longitude: 86.699994269
 latitude: 27.780030998
-alias: ''
 draft: false
 nighthalt: true
 display: true

@@ -4,7 +4,6 @@ translationKey: phulbari
 defaultDays: 1
 longitude: 85.589909597
 latitude: 27.580742454
-alias: ''
 draft: false
 nighthalt: true
 display: true

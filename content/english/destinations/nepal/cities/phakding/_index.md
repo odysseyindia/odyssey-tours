@@ -4,7 +4,6 @@ translationKey: phakding
 defaultDays: 1
 longitude: 86.711690397
 latitude: 27.735497098
-alias: ''
 draft: false
 nighthalt: true
 display: true
