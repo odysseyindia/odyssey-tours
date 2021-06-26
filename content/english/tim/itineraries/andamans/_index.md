@@ -15,7 +15,7 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/andaman-and-nicobar/cities/havelock-island/
-        title: Havelock Island , Andaman and nicobar
+        title: Havelock Island, Andaman and nicobar
         content: >-
           Your tour begins when you arrive at Port Blair airport, where you are
           met by our representative, who will take you to the ferry bound for
@@ -58,11 +58,11 @@ itinerary:
     item:
       - type: city
         url: /destinations/india/states/andaman-and-nicobar/cities/port-blair/
-        title: Port Blair , Andaman and nicobar
+        title: Port Blair, Andaman and nicobar
         content: >-
           Today, you transfer to the jetty to board the ferry to Port Blair. By
           the time you reach Port Blair it will probably be too late to catch an
-          onward flight, so you need to stay overnight near Port Blair's
+          onward flight, so you need to stay overnight near Port Blair’s
           airport.
       - type: hotel
         url: >-
@@ -80,8 +80,6 @@ itinerary:
         checkOutTime: ''
         nights: ''
   - day: 2
-    item: []
-  - day: 3
     item: []
 themes:
   - Active outdoor trips

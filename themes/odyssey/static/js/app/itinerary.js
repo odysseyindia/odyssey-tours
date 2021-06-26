@@ -521,6 +521,10 @@ function saveModalCity(){
   var content          = items[index].getElementsByClassName('content-details');
   content[0].innerHTML = "<p>"+modalContent[0].value.replace(/\n\n/g, "</p><p>")+"</p>";
 
+  const modalTitle      = elements.getElementsByClassName('modal-title');
+  var title             = items[index].getElementsByClassName('title');
+  title[0].innerText    = modalTitle[0].value;
+
   elements.style.display = "none";
 };
 

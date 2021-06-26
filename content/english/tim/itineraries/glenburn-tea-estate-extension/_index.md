@@ -57,22 +57,8 @@ itinerary:
     item:
       - type: excursion
         url: >-
-          /destinations/india/states/west-bengal/cities/darjeeling/excursions/half-day-tea-garden-tour/
-        title: Half-day Tea Garden tour
-        content: >-
-          Darjeeling is the Mecca of tea, producing what we know as the
-          “Champagne of Teas.” There are 80-odd operational tea gardens in
-          Darjeeling that span thousands of acres. On this tour you visit one of
-          the tea estates, where you are invited to learn about tea processing
-          in a factory where some of the best teas in the world are withered,
-          rolled, dried, sorted and packaged.
-        date: ''
-        etd: ''
-        duration: ''
-      - type: excursion
-        url: >-
           /destinations/india/states/west-bengal/cities/darjeeling/excursions/visit-to-glenburn-camp/
-        title: Visit to Glenbury Camp
+        title: Visit to Glenburn Camp
         content: >-
           Today, exploring another part of this vast estate, you walk down to
           the Glenburn Camp by the River Rangeet. You have the day to relax in

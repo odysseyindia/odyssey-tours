@@ -288,7 +288,7 @@
             {{ range ( sort (where (where .Site.Pages "Section" "destinations") ".Params.id" "city") ".Title" "asc" ) }}
             {{ $urlArray := split .Permalink "/" }}
             {{ $path := index $urlArray (sub (len $urlArray) 4) }}
-            <option value="{{ .RelPermalink }}">{{ .Title }} {{ if ne $path "destinations" }}, {{ $path | humanize | title }}{{ end }}</option>
+            <option value="{{ .RelPermalink }}">{{ .Title }}{{ if ne $path "destinations" }}, {{ $path | humanize | title }}{{ end }}</option>
             {{ end }}
           </select>
           <a href="#0" class="button"  id="add-city">

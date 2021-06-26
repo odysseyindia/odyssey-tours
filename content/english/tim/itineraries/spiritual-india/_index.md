@@ -301,7 +301,21 @@ itinerary:
         url: >-
           /destinations/india/states/uttarakhand/cities/haridwar/excursions/aarti-ceremony/
         title: Watch the spectacular daily aarti ceremony at sunset
-        content: ''
+        content: >-
+          Promenades, river channels and bridges create a pleasant riverfront
+          ambience, with the major ghats and religious activities clustered
+          around Har-ki-Pauri. Non-Hindus are not allowed onto this ghat, but
+          the island opposite it, topped by a clock tower, provides an excellent
+          vantage point.
+
+
+          At dusk, the spectacular daily aarti ceremony is performed, drawing a
+          crowd of thousands onto the islands and ridges. Candles on lotus
+          petals are floated down the river, and priests perform rituals,
+          swinging torches to the accompaniment of gongs and music.
+        date: ''
+        etd: ''
+        duration: ''
       - type: hotel
         url: >-
           /destinations/india/states/uttarakhand/cities/haridwar/hotels/the-haveli-hari-ganga/
@@ -324,10 +338,9 @@ itinerary:
         nights: ''
   - day: 10
     item:
-      - type: excursion
-        url: >-
-          /destinations/india/states/uttarakhand/cities/haridwar/excursions/aarti-ceremony/
-        title: Day at leisure in Haridwar
+      - type: city
+        url: /destinations/india/states/uttarakhand/cities/haridwar/
+        title: Day at leisure
         content: >-
           Haridwar is an easy city to explore on your own, especially the
           river-front area. Promenades, river channels and bridges create a
@@ -340,9 +353,6 @@ itinerary:
 
           In the evening, it’s fun to stroll around the markets and re-visit the
           aarti if you like.
-        date: ''
-        etd: ''
-        duration: ''
   - day: 11
     item:
       - type: city

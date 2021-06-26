@@ -119,8 +119,8 @@
                     <i class="icon-{{ .type }}"></i>
                   </div>
                   <div class="h3">
-                    {{ if eq .type "hotel"}}You stay  {{ if in .url "kettuvallam" }}in{{else }}at{{ end }}{{- end }}
-                    {{- .title }}
+                    {{ if eq .type "hotel"}}You stay  {{ if in .url "kettuvallam" }}in {{else }}at {{ end }}{{- end }}
+                    {{- .title | title }}
                   </div>
                 </div>
                 <!-- display paras properly -->
@@ -136,8 +136,10 @@
                 {{- range $duplicateImages -}}
                     {{- if eq $url . }}{{ $display = 0 }}{{ end -}}
                 {{- end -}} 
-                <!-- do not display image for a departure -->
-                {{- if eq (add $i 1) (len $.Params.itinerary)}}{{ $display = 0 }}{{ end -}}
+                <!-- do not display a city image for a departure day-->
+                {{- if and (eq (add $i 1) (len $.Params.itinerary)) (eq .type "city") }}
+                    {{ $display = 0 }}
+                {{ end -}}
 
                 {{- $duplicateImages = $duplicateImages | append (slice .url) -}}
                 
@@ -191,7 +193,7 @@
       if (panel.style.maxHeight) {
         panel.style.maxHeight = null;
       } else {
-        panel.style.maxHeight = panel.scrollHeight + "px";
+        panel.style.maxHeight = "3000px";
       } 
     });
   }
@@ -212,7 +214,7 @@
     for (i = 0; i < acc.length; i++) {
       acc[i].classList.add("activeAccordion");
       var panel = acc[i].nextElementSibling;
-      panel.style.maxHeight = panel.scrollHeight + "px";
+      panel.style.maxHeight = "3000px"; // was panel.scrollHeight+"px"
     }
   });
 </script>

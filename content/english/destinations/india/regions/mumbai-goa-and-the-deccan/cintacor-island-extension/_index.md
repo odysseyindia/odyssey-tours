@@ -50,6 +50,8 @@ itinerary:
         checkOutDate: ''
         checkOutTime: ''
         nights: ''
+  - day: 1
+    item: []
 themes:
   - Off the beaten track
   - Active outdoor trips
