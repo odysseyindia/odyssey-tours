@@ -1,40 +1,73 @@
-Nepal,,Kathmandu,Dwarika's Hotel,1,SH
-Nepal,,Pokhara,Fish Tail Lodge,2,COM
-Nepal,,Pokhara,Tiger Mountain Pokhara Lodge,1,SH
-Nepal,,Pokhara,Hotel The Kantipur,3,ST
-Nepal,,Kathmandu,Hotel Yak & Yeti,2,SH
-Nepal,,Nagarkot,The Fort Resort,1,COM
-Nepal,,Lumbini,Buddha Maya Gardens Hotel,2,ST
+Nepal,,Bardiya,Tiger Tops Karnali Lodge,1,COM
+Nepal,,Bardiya,Tiger Tops Karnali Lodge,,WEB
 Nepal,,Chitwan,Sapana Village Lodge,1,ST
-Nepal,,Kathmandu,Kantipur Temple House,1,ST
-Nepal,,Bhaktapur,Hotel Heritage Bhaktapur,1,COM
-Nepal,,Dhulikhel,Dhulikhel Mountain Resort,1,COM
-Nepal,,Patan,The Inn Patan,1,COM
-Nepal,,Bandipur,The Old Inn Bandipur,1,ST
+Nepal,,Chitwan,Sapana Village Lodge,,WEB
 Nepal,,Chitwan,Kasara Resort,1,COM
-Nepal,,Lumbini,Lumbini Hokke Hotel,1,ST
-Nepal,,Pokhara,Temple Tree Resort & Spa,1,COM
-Nepal,,Bardiya,Tiger Tops Karnali Lodge,1,SH
+Nepal,,Chitwan,Kasara Resort,,WEB
 Nepal,,Chitwan,Tiger Tops Tharu Lodge,1,SH
-Nepal,,Shuklaphanta,Suklaphanta Wildlife Camp,1,ST
-Nepal,,Seti River,Seti River Camp,1,ST
-Nepal,,Kathmandu,Dalai-La Boutique Hotel,2,COM
-Nepal,,Dhulikhel,Dwarika's Resort,1,SH
-Nepal,,Kathmandu,Gokarna Forest Resort,1,COM
-Nepal,,Pokhara,Shangri-La Village Resort,3,COM
+Nepal,,Chitwan,Tiger Tops Tharu Lodge,,WEB
 Nepal,,Chitwan,Taj Meghauli Serai,2,SH
-Nepal,,Birethanti,Sanctuary Lodge,1,ST
-Nepal,,Ghandruk,Himalaya Lodge,1,ST
-Nepal,,Landruk,La Bee Lodge,1,ST
-Nepal,,Majgaon,Mala Lodge,1,ST
-Nepal,,Phakding,YMH Phakding,1,ST
-Nepal,,Namche Bazaar,YMH Namche,1,ST
-Nepal,,Thame,YMH Thame,1,ST
-Nepal,,Kongde,YMH Kongde,1,ST
+Nepal,,Chitwan,Taj Meghauli Serai,,WEB
+Nepal,,Dhulikhel,Dhulikhel Mountain Resort,1,COM
+Nepal,,Dhulikhel,Dhulikhel Mountain Resort,,WEB
+Nepal,,Dhulikhel,Dwarika's Resort,1,SH
+Nepal,,Dhulikhel,Dwarika's Resort,,WEB
+Nepal,,Kathmandu,Dwarika's Hotel,1,SH
+Nepal,,Kathmandu,Dwarika's Hotel,,WEB
+Nepal,,Kathmandu,Kantipur Temple House,1,COM
+Nepal,,Kathmandu,Kantipur Temple House,,WEB
+Nepal,,Kathmandu,Dalai-La Boutique Hotel,3,COM
+Nepal,,Kathmandu,Dalai-La Boutique Hotel,,WEB
+Nepal,,Kathmandu,Gokarna Forest Resort,2,COM
+Nepal,,Kathmandu,Gokarna Forest Resort,,WEB
+Nepal,,Kathmandu,Nepali Ghar Hotel,1,ST
+Nepal,,Kathmandu,Nepali Ghar Hotel,,WEB
+Nepal,,Lumbini,Buddha Maya Gardens Hotel,1,ST
+Nepal,,Lumbini,Buddha Maya Gardens Hotel,,WEB
+Nepal,,Lumbini,Lumbini Hokke Hotel,2,ST
+Nepal,,Lumbini,Lumbini Hokke Hotel,,WEB
+Nepal,,Nagarkot,The Fort Resort,1,ST
+Nepal,,Pokhara,Fish Tail Lodge,2,COM
+Nepal,,Pokhara,Fish Tail Lodge,,WEB
+Nepal,,Pokhara,Tiger Mountain Pokhara Lodge,1,SH
+Nepal,,Pokhara,Tiger Mountain Pokhara Lodge,,WEB
+Nepal,,Pokhara,Temple Tree Resort & Spa,1,COM
+Nepal,,Pokhara,Temple Tree Resort & Spa,,WEB
+Nepal,,Pokhara,Shangri-La Village Resort,1,ST
+Nepal,,Pokhara,Shangri-La Village Resort,,WEB
+Nepal,,Shuklaphanta,Suklaphanta Wildlife Camp,1,ST
+Nepal,,Shuklaphanta,Suklaphanta Wildlife Camp,,WEB
 Nepal,,Lukla,YMH Lukla,1,ST
-Nepal,,Nuwakot,"The Famous Farm, Nuwakot",1,COM
-Nepal,,Balthali,Balthali Village Resort,1,ST
-Nepal,,Phulbari,Namo Buddha Resort,1,COM
-Nepal,,Pharping,Neydo Hotel,1,ST
-Nepal,,Kathmandu,Nepali Ghar Hotel,2,ST
+Nepal,,Lukla,YMH Lukla,,WEB
+Nepal,,Bandipur,The Old Inn Bandipur,1,ST
+Nepal,,Bandipur,The Old Inn Bandipur,,WEB
+Nepal,,Bhaktapur,Hotel Heritage Bhaktapur,1,ST
+Nepal,,Patan,The Inn Patan,1,ST
+Nepal,,Patan,The Inn Patan,,WEB
+Nepal,,Seti River,Seti River Camp,1,ST
+Nepal,,Seti River,Seti River Camp,,WEB
+Nepal,,Birethanti,Sanctuary Lodge,1,ST
+Nepal,,Birethanti,Sanctuary Lodge,,WEB
+Nepal,,Ghandruk,Himalaya Lodge,1,ST
+Nepal,,Ghandruk,Himalaya Lodge,,WEB
+Nepal,,Landruk,La Bee Lodge,1,ST
+Nepal,,Landruk,La Bee Lodge,,WEB
+Nepal,,Majgaon,Mala Lodge,1,ST
+Nepal,,Majgaon,Mala Lodge,,WEB
+Nepal,,Phakding,YMH Phakding,1,ST
+Nepal,,Phakding,YMH Phakding,,WEB
+Nepal,,Namche Bazaar,YMH Namche,1,ST
+Nepal,,Namche Bazaar,YMH Namche,,WEB
+Nepal,,Thame,YMH Thame,1,ST
+Nepal,,Thame,YMH Thame,,WEB
+Nepal,,Kongde,YMH Kongde,1,ST
+Nepal,,Kongde,YMH Kongde,,WEB
+Nepal,,Nuwakot,"The Famous Farm, Nuwakot",1,ST
+Nepal,,Nuwakot,"The Famous Farm, Nuwakot",,WEB
 Nepal,,Jomsom,Moksha Mustang,1,SH
+Nepal,,Jomsom,Moksha Mustang,,WEB
+Nepal,,Balthali,Balthali Village Resort,1,ST
+Nepal,,Balthali,Balthali Village Resort,,WEB
+Nepal,,Phulbari,Namo Buddha Resort,1,ST
+Nepal,,Phulbari,Namo Buddha Resort,,WEB
+Nepal,,Pharping,Neydo Hotel,1,ST

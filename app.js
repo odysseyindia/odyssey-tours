@@ -603,7 +603,6 @@ catch (error) {
       data[0].title           = array[3];
       data[0].translationKey  = urlize(array[3]);
       data[0].type            = 'hotel';
-      data[0].id              = 'hotel';
     }
 
     /*
@@ -613,8 +612,21 @@ catch (error) {
 
     try {
 
-        data[0].ranking = (Number(array[4]) > 0) ? Number(array[4]) : 0;
-        data[0].category = (array[5])?array[5] : '';
+        if (typeof array[4] === 'undefined'){
+          data[0].ranking = 0;
+        }
+
+        if (typeof array[5] === 'undefined'){
+          data[0].category = [];
+        }
+
+        if (Number(array[4]) > 0){
+          data[0].ranking = Number(array[4]);
+        }
+
+        // reset to null
+        //data[0].category = [];
+        data[0].category.push(array[5]);
 
         let output = `---\n` + yaml.dump(data[0]) + "---\n" + contents[2];
 
@@ -1087,7 +1099,7 @@ catch (error) {
       
       mdfile += '/cities/'+city+'/excursions/'+description+'/';
 
-      console.log('Processing ',mdfile);
+      console.log('Processing ',mdfile); 
 
       const made = mkdirp.sync(mdfile);
 
