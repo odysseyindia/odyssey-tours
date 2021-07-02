@@ -398,7 +398,7 @@ try {
   data[0].note          = array[17];
   data[0].web           = Number(array[14]);
   data[0].showHotel     = Number(array[15]);
-  data[0].starCategory  = Number(array[19]);
+  data[0].starCategory  = array[19];
   data[0].checkin       = '';
   data[0].checkout      = (array[20])? array[20] : '12:00';
   data[0].accessRail    = array[21];

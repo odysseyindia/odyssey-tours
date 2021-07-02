@@ -5,6 +5,8 @@ find . -wholename '*/cities/*/excursions/*/_index.md' -exec sed -i 's/type: excu
 grep -RiIl 'full-day-at-leisure-to-explore-elephant-valley'
 
 find . -path './*/cities/*/transfers' -exec sh -c 'echo "---\ntype=transfers\n---" > $1/_index.md' _ {} \;
+find . -path './*/cities/*/hotels' -exec sh -c 'echo "---\ntype=hotels\n---" > $1/_index.md' _ {} \;
+
 
 grep -lrIZ 'active: 0' . | xargs -0 rm -f --
 
