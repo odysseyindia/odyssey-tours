@@ -97,7 +97,7 @@
       {{ $toDay = add $toDay 1 }}
       {{ end }}
 
-      <hr class="hr-text" data-content="Day {{ if eq (sub $toDay $fromDay) 1 }} {{ $fromDay }} {{ else }} {{ $fromDay }} - {{ sub $toDay 1 }}{{ end }}">
+      <hr class="hr-text" data-content="Day {{ if eq (sub $toDay $fromDay) 1 }} {{ $fromDay }} {{ else }} {{ $fromDay }} - {{ sub $toDay 1 }}{{ end }} (Item {{add $index 1}})">
 
       {{ $fromDay = $toDay }}
 
@@ -360,7 +360,7 @@
         </div>
         <div class="row">
           <div>
-            <label for="deleteday">Delete a day</label>
+            <label for="deleteday">Delete item</label>
             <input id="deleteday" name="deleteday" value="">
           </div>
         </div>

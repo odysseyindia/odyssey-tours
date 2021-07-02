@@ -1,0 +1,14 @@
+{{"<!-- background image -->" | safeHTML }}
+  <div class="overlay">
+  {{- if eq (substr .Title 0 3) "404" }}
+    <img class="lazyload" src="/img/404.jpg" title="Odyssey Tours, the best tour operator in South Asia" 
+    alt="{{ .Title }}" srcset="/img/404.jpg 500w, /img/404.jpg 800w, /img/404.jpg 1200w, /img/404.jpg 1500w">
+  {{- else }} 
+    {{- $image := cond (isset .Params "image") ( .Params.image ) (.CurrentSection.Params.image) }}
+    {{- with $image }}
+        <img class="lazyload" src="{{.}}" title="Odyssey Tours, the best tour operator in South Asia" 
+    alt="{{ $.Title }}" srcset="{{.}} 500w, {{.}} 800w, {{.}} 1200w, {{.}} 1500w">
+        <div id="text">{{ $.Title }}</div>
+    {{- end }}
+  {{- end }}
+  </div>

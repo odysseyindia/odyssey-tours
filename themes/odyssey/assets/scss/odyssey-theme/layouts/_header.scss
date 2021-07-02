@@ -1,3 +1,5 @@
+#header {
+  
 
 .logo img {
 	height: 70px;
@@ -334,3 +336,20 @@ ol.breadcrumb {
   }
 }
 
+#text {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  font-size: 4rem;
+  font-weight: 600;
+  color: $white;
+  transform: translate(-50%,-50%);
+  text-shadow: 2px 2px 5px gray;
+}
+
+.overlay {
+  position: relative;
+}
+
+
+}

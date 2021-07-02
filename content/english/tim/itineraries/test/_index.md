@@ -95,6 +95,35 @@ itinerary:
         checkOutDate: ''
         checkOutTime: ''
         nights: ''
+      - type: city
+        url: /destinations/nepal/cities/kathmandu/
+        title: Kathmandu, Nepal
+        content: ''
+      - type: hotel
+        url: /destinations/nepal/cities/kathmandu/hotels/hotel-yak-and-yeti/
+        title: Hotel Yak & Yeti
+        content: ''
+      - type: excursion
+        url: /destinations/nepal/cities/kathmandu/excursions/everest-flight/
+        title: Everest flight
+        content: ''
+  - day: 3
+    item:
+      - type: city
+        url: /destinations/nepal/cities/pokhara/
+        title: Pokhara, Nepal
+        content: ''
+      - type: hotel
+        url: >-
+          /destinations/nepal/cities/pokhara/hotels/tiger-mountain-pokhara-lodge/
+        title: Tiger Mountain Pokhara Lodge
+        content: ''
+      - type: excursion
+        url: /destinations/nepal/cities/pokhara/excursions/pokhara-sightseeing/
+        title: Pokhara sightseeing
+        content: ''
+  - day: 4
+    item: []
 themes: []
 region: /destinations/india/regions/andamans/
 weight: '0'
