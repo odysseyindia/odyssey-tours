@@ -1,3 +1,3 @@
 ---
-type=hotels
+type: hotels
 ---

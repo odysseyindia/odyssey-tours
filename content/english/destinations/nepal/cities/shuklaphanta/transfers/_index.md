@@ -1,3 +1,3 @@
 ---
-type=transfers
+type: transfers
 ---
