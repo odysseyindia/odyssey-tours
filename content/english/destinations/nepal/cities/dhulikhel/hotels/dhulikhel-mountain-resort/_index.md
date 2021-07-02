@@ -14,7 +14,7 @@ www: http://www.dmrnepal.com/
 note: ''
 web: 0
 showHotel: 0
-starCategory: .nan
+starCategory: 
 checkin: ''
 checkout: '12:00'
 rooms: 0

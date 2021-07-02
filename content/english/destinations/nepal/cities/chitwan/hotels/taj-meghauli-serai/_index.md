@@ -14,7 +14,7 @@ www: https://www.tajhotels.com/en-in/taj/meghauli-serai-chitwan-national-park/
 note: ''
 web: 0
 showHotel: 0
-starCategory: .nan
+starCategory: 
 checkin: ''
 checkout: '12:00'
 rooms: 0
