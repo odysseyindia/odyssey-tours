@@ -1,0 +1,32 @@
+stats:
+  timestamp: '1624710477.69'
+  query_time: '0.25'
+  total_backlinks: 3
+  total_collection: 0
+  total_results: 2
+  total_stock: 1
+  total_domains_unavailable: 0
+  total_filtered_results: 1
+code: 200
+messages: []
+results:
+  matches:
+    - domain: shutterstock.com
+      overlay: >-
+        overlay/87efa22091b62c4988c9b889b8dfe1bc1d9fb1bf/e5570c1fd4ebe83b8ae89cace15465156996a547d60fe2b81d6f1ba30f18780d?m21=-0.0209793&m22=0.913772&m23=5.05888&m11=0.913772&m13=36.3218&m12=0.0209793
+      format: jpeg
+      height: 320
+      width: 450
+      score: 12.418
+      image_url: >-
+        https://img.tineye.com/result/e5570c1fd4ebe83b8ae89cace15465156996a547d60fe2b81d6f1ba30f18780d
+      filesize: 49427
+      query_hash: 87efa22091b62c4988c9b889b8dfe1bc1d9fb1bf
+      size: 144000
+      tags:
+        - stock
+      backlinks:
+        - url: ''
+          crawl_date: '2017-08-29'
+          backlink: >-
+            http://www.shutterstock.com/pic-700483510/stock-photo-the-ancient-city-lies-on-the-eastern-part-of-kathmandu-valley-the-historical-monument-on-around.html

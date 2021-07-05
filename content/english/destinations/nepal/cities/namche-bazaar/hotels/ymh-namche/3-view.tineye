@@ -1,0 +1,32 @@
+stats:
+  timestamp: '1624710986.93'
+  query_time: '4.18'
+  total_backlinks: 1
+  total_collection: 0
+  total_results: 1
+  total_stock: 1
+  total_domains_unavailable: 0
+  total_filtered_results: 1
+code: 200
+messages: []
+results:
+  matches:
+    - domain: shutterstock.com
+      backlinks:
+        - url: ''
+          crawl_date: '2019-02-07'
+          backlink: >-
+            http://www.shutterstock.com/pic-1230732010/stock-photo-a-view-of-kongde-ri-peak-from-namche-bazaar-trekking-route-to-everest-base-camp-ebc-nepal.html
+      format: jpeg
+      filesize: 204200
+      overlay: >-
+        overlay/448aee2c2ff0653b4c9838ad3eb2ae47ae6a0474/bf36156f6bc43f7a25993109a7ba2d2583e182e00d4575a6daedc8c15e8e48d9?m21=0.041039&m22=1.10187&m23=7.66039&m11=1.10187&m13=-11.8303&m12=-0.041039
+      height: 318
+      width: 450
+      score: 13.725
+      image_url: >-
+        https://img.tineye.com/result/bf36156f6bc43f7a25993109a7ba2d2583e182e00d4575a6daedc8c15e8e48d9
+      query_hash: 448aee2c2ff0653b4c9838ad3eb2ae47ae6a0474
+      tags:
+        - stock
+      size: 143100

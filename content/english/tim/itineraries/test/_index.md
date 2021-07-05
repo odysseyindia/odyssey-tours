@@ -36,14 +36,16 @@ itinerary:
           Indo-Portuguese style of its magnificent baroque churches, its stately
           ancestral mansions and its historic forts.
       - type: hotel
-        url: /destinations/india/states/goa/cities/goa/hotels/panjim-inn/
-        title: Panjim Inn
+        url: /destinations/nepal/cities/bhaktapur/hotels/hotel-heritage-bhaktapur/
+        title: Hotel Heritage Bhaktapur
         content: >-
-          A charming heritage hotel with lots of character, located amongst the
-          winding alleys of Fountainhas, the Latin quarter of Panjim.The
-          light-filled rooms are endowed with furniture worthy of any museum.
-          The restaurant serves perennial Goan and Continental favourites. There
-          are many sun-drenched balconies and shady courtyards for relaxation.
+          Heritage is a Newari-style boutique hotel influenced by the rich art
+          and architecture of the ancient city of Bhaktapur. The hotel is a
+          tasteful reproduction of Nepali architecture, and the rooms are
+          carefully designed with elaborately hand-carved wooden windows, beds
+          and mirrors. You can try Newari and Nepali cuisine in the restaurant,
+          or relax in the garden, under the shadow of the handsome red-brick
+          building.
         checkInDate: ''
         checkInTime: ''
         checkOutDate: ''
@@ -80,6 +82,20 @@ itinerary:
         etd: ''
         duration: ''
       - type: hotel
+        url: /destinations/india/states/goa/cities/goa/hotels/panjim-inn/
+        title: Panjim Inn
+        content: >-
+          A charming heritage hotel with lots of character, located amongst the
+          winding alleys of Fountainhas, the Latin quarter of Panjim.The
+          light-filled rooms are endowed with furniture worthy of any museum.
+          The restaurant serves perennial Goan and Continental favourites. There
+          are many sun-drenched balconies and shady courtyards for relaxation.
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
+      - type: hotel
         url: >-
           /destinations/india/states/gujarat/cities/ahmedabad/hotels/the-house-of-mangaldas-girdhardas/
         title: The House of Mangaldas Girdhardas
@@ -98,30 +114,72 @@ itinerary:
       - type: city
         url: /destinations/nepal/cities/kathmandu/
         title: Kathmandu, Nepal
-        content: ''
-      - type: hotel
-        url: /destinations/nepal/cities/kathmandu/hotels/hotel-yak-and-yeti/
-        title: Hotel Yak & Yeti
-        content: ''
+        content: >-
+          The ancient city of Kathmandu has expanded to occupy much of the
+          Kathmandu valley, which also shelters the historic cities of Patan and
+          Bhaktapur, and is surrounded by hills, with the Himalayan mountain
+          range visible to the North. There is a wealth of places to see,
+          wonderful shopping opportunities, and delicious food from around the
+          world.
       - type: excursion
         url: /destinations/nepal/cities/kathmandu/excursions/everest-flight/
         title: Everest flight
-        content: ''
+        content: >-
+          You can take an optional early morning sightseeing flight to Mount
+          Everest. The flight usually lasts around an hour, and you will catch a
+          glimpse of 20 of the highest peaks, from Langtang Lirung, the closest
+          peak to Kathmandu, to Mt. Everest in the East, and finally fly to
+          Chamlang peak. The mountain flight not only allows you to enjoy
+          fantastic views but also helps you to understand the geography of
+          Nepal. Flights operates at all time except during the monsoon months
+          of June and July.
+        date: ''
+        etd: ''
+        duration: ''
   - day: 3
     item:
       - type: city
         url: /destinations/nepal/cities/pokhara/
         title: Pokhara, Nepal
-        content: ''
+        content: >-
+          You will never forget your first view of the Annapurna range of the
+          Himalayas from Pokhara. The stunning Macchapucchare, also known as
+          “Fishtail Mountain”, seems almost close enough to touch, and behind it
+          loom the many peaks of the Annapurnas, several of them amongst the
+          highest mountains in the world. Pokahara has a relaxed atmosphere,
+          conducive to easy strolls and cups of tea by the lake, and enjoying
+          the stunning views.
       - type: hotel
         url: >-
           /destinations/nepal/cities/pokhara/hotels/tiger-mountain-pokhara-lodge/
         title: Tiger Mountain Pokhara Lodge
-        content: ''
+        content: >-
+          Perched 1,000 feet above the Pokhara Valley with a spectacular
+          Himalayan backdrop, the quietly luxurious Tiger Mountain Pokhara Lodge
+          is ideal for exploring local communities, bird-watching, or just to
+          relax. The stone cottages provide welcoming, understated seclusion
+          with rich Tibetan rugs, handmade wood furniture, and original artwork.
+          Large windows and glass double doors maximise the glorious views of
+          the Annapurnas.
+        checkInDate: ''
+        checkInTime: ''
+        checkOutDate: ''
+        checkOutTime: ''
+        nights: ''
       - type: excursion
         url: /destinations/nepal/cities/pokhara/excursions/pokhara-sightseeing/
         title: Pokhara sightseeing
-        content: ''
+        content: >-
+          The World Peace Pagoda is a massive Buddhist stupa set on top of a
+          hill by Pokhara’s Phewa Lake. You visit this impressive temple, built
+          after the Second World War by a Japanese Buddhist monk, sickened by
+          the violence he had seen. After your visit, you’re at leisure to just
+          relax, or to visit Pokhara’s cheerful, colourful bazaar and to explore
+          the lake. There are many boats on the lake, and you can hire one to
+          sail or row to the island temple in the middle of the water.
+        date: ''
+        etd: ''
+        duration: ''
   - day: 4
     item: []
 themes: []

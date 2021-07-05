@@ -1,0 +1,32 @@
+stats:
+  timestamp: '1624711010.41'
+  query_time: '0.38'
+  total_backlinks: 54
+  total_collection: 1
+  total_results: 12
+  total_stock: 1
+  total_domains_unavailable: 0
+  total_filtered_results: 1
+code: 200
+messages: []
+results:
+  matches:
+    - domain: gettyimages.com
+      overlay: >-
+        overlay/1b5f0c218b3b3b88661968c1a18106092feea689/ecb5d108a7ea88e167eb001dbc930e06530dd972d1a146a5aa4cd7135c711737?m21=-0.00205394&m22=0.883489&m23=1.61591&m11=0.883489&m13=0.449592&m12=0.00205394
+      format: JPEG
+      height: 337
+      width: 509
+      score: 83.007
+      image_url: >-
+        https://img.tineye.com/result/ecb5d108a7ea88e167eb001dbc930e06530dd972d1a146a5aa4cd7135c711737
+      filesize: 167006
+      query_hash: 1b5f0c218b3b3b88661968c1a18106092feea689
+      size: 171533
+      tags:
+        - stock
+      backlinks:
+        - url: ''
+          crawl_date: '2012-05-04'
+          backlink: >-
+            http://www.gettyimages.com/detail/photo/patan-durbar-square-royalty-free-image/136104381

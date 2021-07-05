@@ -1,0 +1,150 @@
+stats:
+  timestamp: '1624710480.43'
+  query_time: '1.02'
+  total_backlinks: 53
+  total_collection: 2
+  total_results: 39
+  total_stock: 7
+  total_domains_unavailable: 1
+  total_filtered_results: 7
+code: 200
+messages: []
+results:
+  matches:
+    - domain: mediabakery.com
+      backlinks:
+        - url: ''
+          crawl_date: '2019-02-22'
+          backlink: https://www.mediabakery.com/AFS3818611-nepal-bhaktapur.html
+      format: jpeg
+      filesize: 22332
+      overlay: >-
+        overlay/ec73b4afc30cc1486607aaddb1571d1ab34f657e/09e2647f4b74391cafd06868fee8790044caa4977bffaacfb9447abb4dfec415?m21=-0.00947155&m22=1.37901&m23=-22.12&m11=1.37901&m13=13.203&m12=0.00947155
+      height: 217
+      width: 325
+      score: 18.301
+      image_url: >-
+        https://img.tineye.com/result/09e2647f4b74391cafd06868fee8790044caa4977bffaacfb9447abb4dfec415
+      query_hash: ec73b4afc30cc1486607aaddb1571d1ab34f657e
+      tags:
+        - stock
+      size: 70525
+    - domain: depositphotos.com
+      backlinks:
+        - url: >-
+            https://st2.depositphotos.com/1012959/9709/i/950/depositphotos_97098974-stock-photo-nyatapola-pagoda-on-taumadhi-square.jpg
+          crawl_date: '2019-05-28'
+          backlink: >-
+            https://depositphotos.com/97098974/stock-photo-nyatapola-pagoda-on-taumadhi-square.html
+      format: JPEG
+      filesize: 139256
+      overlay: >-
+        overlay/ec73b4afc30cc1486607aaddb1571d1ab34f657e/f484c7fe9ddf6ad0a43c5aeb6dab945287129e4f7280ccdf38ae2158e4182091?m21=-0.01649&m22=1.01935&m23=-11.0236&m11=1.01935&m13=36.2571&m12=0.01649
+      height: 825
+      width: 1024
+      score: 15.686
+      image_url: >-
+        https://img.tineye.com/result/f484c7fe9ddf6ad0a43c5aeb6dab945287129e4f7280ccdf38ae2158e4182091
+      query_hash: ec73b4afc30cc1486607aaddb1571d1ab34f657e
+      tags:
+        - stock
+      size: 844800
+    - domain: dreamstime.com
+      backlinks:
+        - url: >-
+            https://thumbs.dreamstime.com/t/nyatapola-pagoda-taumadhi-square-bhaktapur-nepal-th-december-evening-view-kathmandu-valley-one-65673989.jpg
+          crawl_date: '2017-06-15'
+          backlink: https://www.dreamstime.com/photos-images/pogo.html
+      format: JPEG
+      filesize: 12114
+      overlay: >-
+        overlay/ec73b4afc30cc1486607aaddb1571d1ab34f657e/c8b32747474470db15f9b0ac6a7882f1173ebc05841c9bb174968621e09b6876?m21=0.00429128&m22=1.94198&m23=-17.3181&m11=1.94198&m13=33.9817&m12=-0.00429128
+      height: 160
+      width: 199
+      score: 15.033
+      image_url: >-
+        https://img.tineye.com/result/c8b32747474470db15f9b0ac6a7882f1173ebc05841c9bb174968621e09b6876
+      query_hash: ec73b4afc30cc1486607aaddb1571d1ab34f657e
+      tags:
+        - stock
+      size: 31840
+    - domain: shutterstock.com
+      backlinks:
+        - url: ''
+          crawl_date: '2015-10-26'
+          backlink: >-
+            http://www.shutterstock.com/pic-326272055/stock-photo-bhaktapur-nepal-th-december-evening-view-of-nyatapola-pagoda-on-taumadhi-square-in.html
+      format: jpeg
+      filesize: 46707
+      overlay: >-
+        overlay/ec73b4afc30cc1486607aaddb1571d1ab34f657e/cc8baf253a6bb0746a8f243e8d744dc780d78acf2a3f3ba5d8cc666a0faebe9f?m21=-0.00618719&m22=1.08181&m23=-14.5478&m11=1.08181&m13=36.2843&m12=0.00618719
+      height: 383
+      width: 450
+      score: 13.725
+      image_url: >-
+        https://img.tineye.com/result/cc8baf253a6bb0746a8f243e8d744dc780d78acf2a3f3ba5d8cc666a0faebe9f
+      query_hash: ec73b4afc30cc1486607aaddb1571d1ab34f657e
+      tags:
+        - stock
+      size: 172350
+    - domain: dreamstime.com
+      backlinks:
+        - url: >-
+            https://thumbs.dreamstime.com/z/nyatapola-pagoda-taumadhi-square-bhaktapur-nepal-th-december-evening-view-kathmandu-valley-one-65673989.jpg
+          crawl_date: '2019-02-10'
+          backlink: >-
+            https://www.dreamstime.com/editorial-stock-image-nyatapola-pagoda-taumadhi-square-bhaktapur-nepal-th-december-evening-view-kathmandu-valley-one-image65673989
+      format: JPEG
+      filesize: 202666
+      overlay: >-
+        overlay/ec73b4afc30cc1486607aaddb1571d1ab34f657e/186e77ea29fcc027851dafb4263887ed92bdb1dfe21af1ca80ac6afb899b76d9?m21=0.00488502&m22=1.12215&m23=-17.9597&m11=1.12215&m13=35.1053&m12=-0.00488502
+      height: 1138
+      width: 1300
+      score: 13.072
+      image_url: >-
+        https://img.tineye.com/result/186e77ea29fcc027851dafb4263887ed92bdb1dfe21af1ca80ac6afb899b76d9
+      query_hash: ec73b4afc30cc1486607aaddb1571d1ab34f657e
+      tags:
+        - stock
+      size: 1479400
+    - domain: bigstockphoto.com
+      backlinks:
+        - url: https://static1.bigstockphoto.com/5/1/1/large2/115786346.jpg
+          crawl_date: '2018-11-23'
+          backlink: >-
+            https://www.bigstockphoto.com/image-115786346/stock-photo-nyatapola-pagoda-on-taumadhi-square-in-bhaktapur
+        - url: http://static1.bigstockphoto.com/thumbs/5/1/1/large2/115786346.jpg
+          crawl_date: '2016-12-02'
+          backlink: https://www.bigstockphoto.com/image-115786346
+      format: JPEG
+      filesize: 62944
+      overlay: >-
+        overlay/ec73b4afc30cc1486607aaddb1571d1ab34f657e/db6e13ca9ec39743555ac6e41186a545feb55b0f99f33727d45c69e2c471ada7?m21=-0.000606212&m22=1.08344&m23=-15.3268&m11=1.08344&m13=35.647&m12=0.000606212
+      height: 382
+      width: 450
+      score: 12.418
+      image_url: >-
+        https://img.tineye.com/result/db6e13ca9ec39743555ac6e41186a545feb55b0f99f33727d45c69e2c471ada7
+      query_hash: ec73b4afc30cc1486607aaddb1571d1ab34f657e
+      tags:
+        - stock
+      size: 171900
+    - domain: alamy.com
+      backlinks:
+        - url: ''
+          crawl_date: '2014-10-29'
+          backlink: >-
+            http://www.alamy.com/image-details-popup.asp?imageid={7CE34E1E-FC04-436A-A64F-A9BB3A688451}
+      format: JPEG
+      filesize: 284800
+      overlay: >-
+        overlay/ec73b4afc30cc1486607aaddb1571d1ab34f657e/fab5ff5c32c0bdc3bfb2d1ecec9266fee0483a527a85ac2639fba0ef4b7afb6d?m21=-0.0100421&m22=1.02165&m23=-25.8636&m11=1.02165&m13=53.8865&m12=0.0100421
+      height: 445
+      width: 640
+      score: 12.418
+      image_url: >-
+        https://img.tineye.com/result/fab5ff5c32c0bdc3bfb2d1ecec9266fee0483a527a85ac2639fba0ef4b7afb6d
+      query_hash: ec73b4afc30cc1486607aaddb1571d1ab34f657e
+      tags:
+        - stock
+      size: 284800

@@ -1,0 +1,90 @@
+stats:
+  timestamp: '1624710736.20'
+  query_time: '1.33'
+  total_backlinks: 11
+  total_collection: 0
+  total_results: 10
+  total_stock: 4
+  total_domains_unavailable: 0
+  total_filtered_results: 4
+code: 200
+messages: []
+results:
+  matches:
+    - domain: gettyimages.com
+      backlinks:
+        - url: >-
+            https://media.gettyimages.com/photos/aerial-view-of-mt-everest-of-tibet-picture-id546013817
+          crawl_date: '2020-10-09'
+          backlink: >-
+            https://www.gettyimages.com/detail/photo/aerial-view-of-mt-everest-of-tibet-royalty-free-image/546013817
+      format: JPEG
+      filesize: 86063
+      overlay: >-
+        overlay/97bf18e535af41e9d6477ee5d7ec0ae9bcfbd9e4/b627d949f16a9c5f174fce1984b81dd8c088fd7e95650374ec4a979042647e91?m21=0.00917682&m22=1.00987&m23=87.4173&m11=1.00987&m13=3.83701&m12=-0.00917682
+      height: 3840
+      width: 5760
+      score: 13.725
+      image_url: >-
+        https://img.tineye.com/result/b627d949f16a9c5f174fce1984b81dd8c088fd7e95650374ec4a979042647e91
+      query_hash: 97bf18e535af41e9d6477ee5d7ec0ae9bcfbd9e4
+      tags:
+        - stock
+      size: 22118400
+    - domain: gettyimages.com
+      backlinks:
+        - url: >-
+            https://media.gettyimages.com/photos/aerial-view-of-mt-everest-picture-id547143031
+          crawl_date: '2020-10-10'
+          backlink: >-
+            https://www.gettyimages.com/detail/photo/aerial-view-of-mt-everest-royalty-free-image/547143031
+      format: JPEG
+      filesize: 85749
+      overlay: >-
+        overlay/97bf18e535af41e9d6477ee5d7ec0ae9bcfbd9e4/58ca1e8db8cf0023f3c13b339f2d8812e06e6081a68c49c49f4162cb12463e08?m21=0.00917682&m22=1.00987&m23=87.4173&m11=1.00987&m13=3.83701&m12=-0.00917682
+      height: 3840
+      width: 5760
+      score: 13.725
+      image_url: >-
+        https://img.tineye.com/result/58ca1e8db8cf0023f3c13b339f2d8812e06e6081a68c49c49f4162cb12463e08
+      query_hash: 97bf18e535af41e9d6477ee5d7ec0ae9bcfbd9e4
+      tags:
+        - stock
+      size: 22118400
+    - domain: mediabakery.com
+      backlinks:
+        - url: ''
+          crawl_date: '2018-03-14'
+          backlink: >-
+            https://www.mediabakery.com/STB0178694aerial-view-of-mt-everest-of-tibet.html
+      format: jpeg
+      filesize: 48274
+      overlay: >-
+        overlay/97bf18e535af41e9d6477ee5d7ec0ae9bcfbd9e4/e12c8191cefa8b47308b392ef0c2bcf31239002b39119811bee040554b315dc0?m21=0.0137209&m22=1.40284&m23=86.6645&m11=1.40284&m13=3.68473&m12=-0.0137209
+      height: 217
+      width: 325
+      score: 13.072
+      image_url: >-
+        https://img.tineye.com/result/e12c8191cefa8b47308b392ef0c2bcf31239002b39119811bee040554b315dc0
+      query_hash: 97bf18e535af41e9d6477ee5d7ec0ae9bcfbd9e4
+      tags:
+        - stock
+      size: 70525
+    - domain: mediabakery.com
+      backlinks:
+        - url: ''
+          crawl_date: '2018-03-14'
+          backlink: https://www.mediabakery.com/STB0178958aerial-view-of-mt-everest.html
+      format: jpeg
+      filesize: 48258
+      overlay: >-
+        overlay/97bf18e535af41e9d6477ee5d7ec0ae9bcfbd9e4/31c1b68af9f43b203538ed25b6e0969374e2f8653582c4226c894025b0109fcc?m21=0.0137209&m22=1.40284&m23=86.6645&m11=1.40284&m13=3.68473&m12=-0.0137209
+      height: 217
+      width: 325
+      score: 13.072
+      image_url: >-
+        https://img.tineye.com/result/31c1b68af9f43b203538ed25b6e0969374e2f8653582c4226c894025b0109fcc
+      query_hash: 97bf18e535af41e9d6477ee5d7ec0ae9bcfbd9e4
+      tags:
+        - stock
+      size: 70525

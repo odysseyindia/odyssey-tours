@@ -1484,7 +1484,7 @@ app.post('/create',function (req, res) {
   var title   = request.title;
   var folder  = urlize(tour);
   var file    = dir + "/tim/itineraries/" + folder + '/_index.md'; 
-  let output  = "---\ntitle: "+title+"\nsubtitle: \ntranslationKey: "+folder+"\ntype: itinerary\ntour: "+tour+"\nhighlights: \nitinerary: \n  - day: 0\n---\n" ;
+  let output  = "---\ntitle: "+title+"\nsubtitle: \ntranslationKey: "+folder+"\ntype: tim\itinerary\ntour: "+tour+"\nhighlights: \nitinerary: \n  - day: 0\n---\n" ;
 
   // console.log("file " ,file);
 
@@ -1643,8 +1643,14 @@ app.post('/write-to-tour',function (req, res) {
     const request       = JSON.parse(req.body.data);
     const srcFile       = dir + request.file + '_index.md';
     const array         = srcFile.split("/");
-    const destFile      = dir + request.region + array[array.length-2] + '/_index.md' ;
+    var   destFile      = '';
     var   fileContents  = "---\n ---\n";
+
+    if (request.destination == 'india'){
+      destFile = dir + request.region + array[array.length-2] + '/_index.md' ;
+    } else {
+      destFile = dir + 'itineraries/_index.md';   
+    }
 
     console.log('Processing to copy the itinerary ' + srcFile + ' to ' + destFile);
 

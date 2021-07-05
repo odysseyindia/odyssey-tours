@@ -1,0 +1,31 @@
+stats:
+  timestamp: '1624711167.25'
+  query_time: '4.31'
+  total_backlinks: 8
+  total_collection: 0
+  total_results: 3
+  total_stock: 1
+  total_domains_unavailable: 0
+  total_filtered_results: 1
+code: 200
+messages: []
+results:
+  matches:
+    - domain: stock.adobe.com
+      backlinks:
+        - url: ''
+          crawl_date: '2019-05-29'
+          backlink: https://stock.adobe.com/242417281
+      format: jpeg
+      filesize: 70872
+      overlay: >-
+        overlay/c562689f4030989b8a30ab8867f1da5dc7002cbb/47f50404b581e16288844060ac40a99b88efa0c9990a53a610d3e085ee177e35?m21=0.0572376&m22=1.1071&m23=-83.159&m11=1.1071&m13=-182.132&m12=-0.0572376
+      height: 334
+      width: 500
+      score: 13.072
+      image_url: >-
+        https://img.tineye.com/result/47f50404b581e16288844060ac40a99b88efa0c9990a53a610d3e085ee177e35
+      query_hash: c562689f4030989b8a30ab8867f1da5dc7002cbb
+      tags:
+        - stock
+      size: 167000

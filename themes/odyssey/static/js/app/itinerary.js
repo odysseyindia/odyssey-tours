@@ -30,7 +30,6 @@ renewables.forEach(renewable => {
 
 window.onload = fadeAlert();
 
-toggleRegion();
 
 /* ==========================  ========================= */
 
@@ -127,18 +126,39 @@ function toggleContent(){
   };
 };
 
+
+function destination(){
+  var items = document.getElementsByClassName('draggable');
+  for(let i=0;i<items.length;i++) {
+    let urls = items[i].getAttribute("url").split('/');
+    if (items[i].getAttribute("day") == 0 && urls.includes('hotels' )) {
+      return urls[2];
+    };
+  };
+};
+
 // toggle the display of the button to write this itinerary to the tours section (regions) and for it to be published as a tour.
 
 function toggleRegion (){
 
+  let dest = destination();
+
+  const block  = document.getElementById('region-block');
   const region = document.getElementById('region');
   var   button = document.getElementById('writeToTour');
-  const option = region.selectedIndex ;
-  
-  if ( option > 0 ){
-    button.style.display = 'block';
+
+  if (dest == 'india') {
+    const option = region.selectedIndex ;
+    
+    if ( option > 0 ){
+      button.style.display = 'block';
+    } else {
+      button.style.display = 'none';
+    }
+
   } else {
-    button.style.display = 'none';
+    block.style.display  = 'none';
+    button.style.display = 'block';
   }
 };
 
@@ -387,8 +407,9 @@ function writeToTour(){
       method: 'POST',
       appHost: appHost, 
       data:   JSON.stringify({ 
-        "file"  : window.location.pathname, 
-        "region": document.getElementById('region').value,
+        "file"       : window.location.pathname, 
+        "destination": destination(),
+        "region"     : document.getElementById('region').value,
       })
     })
     .then(
@@ -661,3 +682,5 @@ for(var i = 0; i < clickEdit.length; i++) {
     })
   })(i);
 }
+
+toggleRegion();
