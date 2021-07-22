@@ -2,7 +2,7 @@
 title: Highlights of Nepal
 subtitle: Kathmandu, Pokhara, Chitwan National Park, Dhulikhel
 translationKey: highlights-of-nepal
-type: tim/itinerary
+type: tour
 tour: Highlights of Nepal
 highlights:
   - Nepal's highlights, conveniently packaged
@@ -212,4 +212,5 @@ themes:
   - Classic tours
 region: '0'
 ---
+
 A great tour for someone visiting Nepal for the first time, encompassing all the highlights in just over a week. Starting in the capital, Kathmandu, you have time to explore its narrow streets, lovely medieval architecture and hidden temples. You continue to Pokhara, famous for its fabulous Himalayan views and beautiful lake, and then on to Chitwan National Park, with its abundant wildlife, especially the rare one-horned rhinos. Finally, you return to the Kathmandu valley, to explore it with an easy trek to a sacred Buddhist site and take in the views from picturesque Dhulikhel. A perfect trip either on its own or combined with India.

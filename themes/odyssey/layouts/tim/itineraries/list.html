@@ -308,10 +308,12 @@
             <i class="icon-cancel"></i>
           </div>
         </div>
-        <div id="content">
-          <div><label for="copyto"></label>
+        <div>
+          <div>
+            <label for="copyto"></label>
           </div>
-          <div><input type="text" name="copyto" required>
+          <div>
+            <input id='copy-to' type="text" name="copyto" required>
           </div>
         </div>
         <div class="row buttons">
@@ -476,7 +478,7 @@
   });
 
   document.getElementById("edit").onclick = function() {
-    window.location.href =  "/tim/itineraries/"+ document.getElementById("url").innerHTML 
+    window.location.href = "/tim/itineraries/"+ document.getElementById("url").innerHTML 
   }
 
   document.getElementById("preview").onclick = function() {
@@ -485,11 +487,8 @@
   };
 
   document.getElementById("copy").onclick = function(){
-    document.getElementById("modal").style.display = "block"
-;
+    document.getElementById("modal").style.display = "block";
     var url = document.getElementById("url").innerText;
-
-    document.getElementById("content").children[2].firstChild.innerHTML = "Copy <b>"+url+"</b> to ";
   };
 
   document.getElementById("archive").onclick = function(){
@@ -539,12 +538,11 @@ for (var i = 0; i < closeModals.length; i++) {
     });
 };
 
-document.getElementById("save-modal-btn")
-  .addEventListener('click', () => {
+document.getElementById("save-modal-btn").addEventListener('click', () => {
 
   document.getElementById("modal").style.display = "none";
   var from = document.getElementById("url").innerText;
-  var to   = document.getElementById("content").children[3].children[0].value;
+  var to   = document.getElementById("copy-to").value;
 
   docLoad({
         url:    'copy',
@@ -636,8 +634,6 @@ document.getElementById("save-modal-btn")
 
     docLoad({url: "/tim/itineraries/index.json"}).then(
       function(response){
-
-  console.table(response);
 
         const data  = JSON.parse(response);
         const items = data.data.items

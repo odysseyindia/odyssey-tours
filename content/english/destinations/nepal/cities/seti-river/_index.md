@@ -13,4 +13,8 @@ tags:
   - Cities
   - Seti River
 ---
-The Seti River Camp is set in the remote and beautiful Seti Valley. The only way to get to this river camp is by 2 and half hours rafting trip, on a grade to river rapid suitable for any age groups.
+Today, you start your rafting adventure after a drive through the countryside to Damauli, where you will familiarise yourself with your equipment and be briefed by your experienced crew.
+
+ 
+
+The unspoilt valley of the River Seti provides not just exciting rafting, but also a chance to see village life along the banks, and look for the valley's wonderful bird-life. After a picnic lunch, you get into the rapids (only Grades 1 and 2, and only 50m at a time, so it's not very strenuous). After about 3 hours of rafting and floating, you arrive at Seti River Camp, a simple, but fun and comfortable tented camp on the banks of the river.
