@@ -8,7 +8,7 @@ tourStart: New Delhi
 tourEnd: New Delhi
 bestTime: October-March
 price: null
-type: tim/itinerary
+type: tour
 tour: indian highlights
 itinerary:
   - day: 0
@@ -271,4 +271,5 @@ themes:
   - Classic tours
 region: /destinations/india/regions/rajasthan-and-the-north/
 ---
+
 The ideal itinerary for anyone wanting to see the best of India in a week. The magical Golden Triangle in India is one of the country’s most popular tourist circuits. Comprising Delhi, Agra and Jaipur, it gets its name from the triangle that these cities form. Roughly equidistant in northern India, the cities provide a classic and unforgettable introduction to the country and its charms.
