@@ -6,9 +6,10 @@ translationKey: indian-highlights
 days: 7
 tourStart: New Delhi
 tourEnd: New Delhi
-bestTime: October-March
-price: null
+bestTime: Oct-Mar
+price: Euro 1999
 type: tour
+image: 1-indian-highlights.jpg
 tour: indian highlights
 itinerary:
   - day: 0
@@ -80,8 +81,7 @@ itinerary:
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/excursions/early-morning-cycle-tour-of-jaipur/
         title: >-
-          Early morning cycle tour of Jaipur's Pink City ● Excursion to Amber
-          Fort
+          Early morning cycle tour of Jaipur's Pink City 
         content: >-
           In the early morning, you join a small group for a unique journey by
           bicycle into the old city. You cycle through narrow alleys, past
@@ -104,7 +104,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/excursions/half-day-excursion-to-amber-fort/
-        title: Morning guided excursion to Amber Fort
+        title: Excursion to Amber Fort
         content: >-
           You will meet your guide directly after the cycling tour, who will
           accompany you to Amber Fort, just to the north of Jaipur. There is a
@@ -159,8 +159,7 @@ itinerary:
         url: >-
           /destinations/india/states/uttar-pradesh/cities/agra/excursions/early-morning-visit-on-your-own-to-the-taj-mahal/
         title: >-
-          Early morning visit to the Taj Mahal ● Afternoon guided tour of Agra's
-          other monuments
+          Early morning visit to the Taj Mahal 
         content: >-
           The best time to appreciate the Taj Mahal is as soon as it opens, at
           its most serene. You can enjoy the gardens, the mausoleum and the
@@ -228,7 +227,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/half-day-tour-of-old-delhi-by-metro-and-rickshaw/
-        title: Morning tour of Old Delhi by Metro & rickshaw ● Evening departure
+        title: Morning tour of Old Delhi by Metro & rickshaw 
         content: >-
           A half-day tour to Old Delhi using the modern Metro and the
           traditional cycle rickshaw. The Metro brings you to the heart of Old

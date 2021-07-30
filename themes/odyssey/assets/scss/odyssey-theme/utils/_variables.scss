@@ -18,8 +18,8 @@ $softblack: #292f36;
 $darkgray: #4e595f;
 $silver: silver;
 $lightgray: #ddd;
-$cadetblue: cadetblue;
-$gold: #FFD700;
+$green: #00aa86;
+$orange: #ff7f26; 
 
 // icons
 
@@ -93,35 +93,11 @@ $z-indexes: (
     'c-modal':             1010
 );
 
-// Media Query Ranges
-// If you want to change ranges screen size, you can do it easily by changing only `$screen-min` values
-$screen-min: (
-    'xs-min': 320px,
-    'sm-min': 480px,
-     // If you change value of `md-min`,
-     // you have to change value of `mediumScreenWidth` too in `source/_js/sidebar.js`
-    'md-min': 768px,
-    'lg-min': 1024px,
-    'xlg-min': 1280px
-);
-$screen-max: (
-    'xs-max': map-get($screen-min, sm-min) - 1,
-    'sm-max': map-get($screen-min, md-min) - 1,
-    'md-max': map-get($screen-min, lg-min) - 1,
-    'lg-max': map-get($screen-min, xlg-min) - 1
-);
-// Merged screen-* Maps
-$screen: map-merge($screen-min, $screen-max);
-// Shortcuts for medias
-$xsmall-and-down: "only screen and (max-width : #{map-get($screen, xs-max)})" !default;
-$small-and-down:  "only screen and (max-width : #{map-get($screen, sm-max)})" !default;
-$small-only:      "only screen and (min-width : #{map-get($screen, sm-min)}) and (max-width : #{map-get($screen, sm-max)})" !default;
-$small-and-up:    "only screen and (min-width : #{map-get($screen, sm-min)})" !default;
-$medium-and-down: "only screen and (max-width : #{map-get($screen, md-max)})" !default;
-$medium-only:     "only screen and (min-width : #{map-get($screen, md-min)}) and (max-width : #{map-get($screen, md-max)})" !default;
-$medium-and-up:   "only screen and (min-width : #{map-get($screen, md-min)})" !default;
-$large-and-down:  "only screen and (max-width : #{map-get($screen, lg-max)})" !default;
-$large-only:      "only screen and (min-width : #{map-get($screen, lg-min)}) and (max-width : #{map-get($screen, lg-max)})" !default;
-$large-and-up:    "only screen and (min-width : #{map-get($screen, lg-min)})" !default;
-$xlarge-and-up:   "only screen and (min-width : #{map-get($screen, xlg-min)})" !default; 
+// Displays
+$phone:         320px;    
+$tablet:        500px;
+$laptop:        1200px;
+$desktop:       1400px;
+$large-display: 1920px;
+
 

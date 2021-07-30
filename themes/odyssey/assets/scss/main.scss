@@ -2,11 +2,12 @@ $displayMenuIcons: inline; // options: none | inline
 
 @import 
  	"odyssey-theme/utils/variables",
+ 	"odyssey-theme/utils/mixins/media",
+ 	"odyssey-theme/utils/mixins/resize",
 	"bootstrap/functions",
 	"bootstrap/variables",
     "third-party/fontello/css/fontello",
 	"odyssey-theme/components/figure",
-	"odyssey-theme/utils/mixins/prefix",
 	"odyssey-theme/layouts/footer",
 	"odyssey-theme/components/card",
 	"odyssey-theme/components/pagination",

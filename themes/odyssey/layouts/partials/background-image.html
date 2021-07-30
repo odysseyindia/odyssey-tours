@@ -1,14 +1,37 @@
 {{"<!-- background image -->" | safeHTML }}
-  <div class="overlay">
-  {{- if eq (substr .Title 0 3) "404" }}
-    <img class="lazyload" src="/img/404.jpg" title="Odyssey Tours, the best tour operator in South Asia" 
-    alt="{{ .Title }}" srcset="/img/404.jpg 500w, /img/404.jpg 800w, /img/404.jpg 1200w, /img/404.jpg 1500w">
-  {{- else }} 
-    {{- $image := cond (isset .Params "image") ( .Params.image ) (.CurrentSection.Params.image) }}
-    {{- with $image }}
-        <img class="lazyload" src="{{.}}" title="Odyssey Tours, the best tour operator in South Asia" 
-    alt="{{ $.Title }}" srcset="{{.}} 500w, {{.}} 800w, {{.}} 1200w, {{.}} 1500w">
-        <div id="text">{{ $.Title }}</div>
-    {{- end }}
-  {{- end }}
+<div id="background-image" class="carousel" style="padding: 0 !important;">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      {{- with (.Resources.ByType "image") }}
+      {{ range . }} 
+      <img class="w-100 lazyload" itemprop="image" data-src="{{ .RelPermalink }}" title="$.Title" alt="$.Title" srcset="{{ .RelPermalink }} 500w, {{ .RelPermalink }} 800w, {{ .RelPermalink }} 1200w, {{ .RelPermalink }} 1500w"> 
+      {{- end }}<!-- end range -->
+      {{- end }}<!-- end with -->
+      <div class="w-100" style="position: absolute; bottom: 0px; height: 40px; background-image: linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.65));"></div>
+    </div>
+    <div class="content container aligner">
+      <div class="aligner-item">
+        <h1 class="title">{{ if .IsHome }} {{ else }} {{ .Title }} {{ end }} </h1>
+      </div>
+    </div>
   </div>
+  {{ if eq .IsHome true }}
+  <!-- add the 'recommended by' box on the image -->
+  <div class="blok recommended">
+    <a href="/reviews/press-reviews/" style="text-decoration: none">
+      <h5>Our tours have been recommended by</h5>
+      <div>
+        <a href="https://travelandleisureindia.in/airbnb-homes-goa/" target="_blank">
+          <img class="logo logo-tnl" src="/img/recommendations/travel+leisure.svg" alt="Travel and Leisure Magazine">
+        </a>
+        <a href="https://www.cntraveller.in/story/10-gorgeous-villas-in-goa-rajasthan-maharashtra-coorg-kerala-to-rent-this-monsoon/" target="_blank">
+          <img class="logo logo-cnt" src="/img/recommendations/cnt-logo.png" alt="Conde Naste Traveller">
+        </a>
+        <a href="http://www.natgeotraveller.in/the-goa-that-flies-under-the-radar/" target="_blank">
+          <img class="logo logo-ngi" src="/img/recommendations/national-geo-logo.png" alt="National Geographic India">
+        </a>
+      </div>
+    </a>
+  </div>
+  {{- end }}
+</div>

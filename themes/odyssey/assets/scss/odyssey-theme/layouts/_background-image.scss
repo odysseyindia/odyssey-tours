@@ -1,0 +1,220 @@
+#background-image {
+
+
+    .carousel {
+        height: 530px;
+        background-size: cover;
+    }
+
+    .hero {
+        height: 500px;
+        position: relative;
+        width: 100%;
+        color: #fff;
+        text-align: center;
+    }
+
+    .bg-cover, .hero {
+        background-color: #e9ecef;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        background-position: 50% center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+    .mb-5, .my-5 {
+        margin-bottom: 3rem !important;
+    }
+
+    .carousel-indicators {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 15;
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+        margin-right: 15%;
+        margin-left: 15%;
+        list-style: none;
+    }
+    ol, ul, dl {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+    .carousel-indicators li {
+        box-sizing: content-box;
+        flex: initial;
+        width: 30px;
+        height: 3px;
+        margin-right: 3px;
+        margin-left: 3px;
+        text-indent: -999px;
+        cursor: pointer;
+        background-color: #fff;
+        background-clip: padding-box;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        opacity: .5;
+        transition: opacity .6s ease;
+    }
+
+    .carousel-item {
+        position: relative;
+        display: none;
+        float: left;
+        width: 100%;
+        margin-right: -100%;
+        backface-visibility: hidden;
+        transition: transform .6s ease-in-out;
+    }
+
+    .carousel-item.active, .carousel-item-next, .carousel-item-prev {
+        display: block;
+    }
+
+    .carousel-item > img {
+      object-fit: cover; 
+      height: 800px;
+  }
+
+  #content p, div {
+    text-align: center;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+.img-fluid, .blok .logo, img {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.title {
+    margin: 0 0 10px;
+    font-weight: 600;
+    text-shadow: 0 1px 2px RGB(0 0 0 / 90%);
+    font-size: 4.0rem;
+    color: $white;
+}
+
+.hero__cta {
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    color: #212529;
+    letter-spacing: 0.05rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    background-color: #ffc20e;
+    border-radius: 0.15rem;
+    border-color: #ffc20e;
+}
+
+.content {
+    position: relative;
+}
+
+.aligner-item {
+    max-width: 95%;
+    z-index: 1;
+    margin-top: auto; // align text to the bottom
+}
+
+.aligner {
+    align-items: flex-end;
+    display: flex;
+    justify-content: center; 
+    height: 800px;
+}
+
+.mt-3, .message, .my-3 {
+    margin-top: 1rem !important;
+}
+
+
+
+.recommended {
+    bottom: 20px;
+    left: 0;
+    padding: 10px;
+    position: absolute;
+    background: rgba(255,255,255,0.8);
+    text-align: left;
+    & h5 {
+        color: #333;
+        font-size: 13px;
+    }
+    & .logo {
+        display: inline-block;
+        max-height: 25px;
+        padding: 0 0.3rem;
+        padding-bottom: 0px;
+        padding-left: 0.3rem;
+    }
+    & .logo-lnt, .logo-cnt, .logo-ngi {
+        max-height: 20px;
+        padding-bottom: 3px;
+    }
+    & .logo-cnt, .logo-ngi {
+        max-height: 30px;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .aligner {
+        height: 570px;
+        align-items: center;
+    }
+    .title {
+        font-size: 2.2rem;
+    }
+    .recommended {
+        text-align: center;
+        bottom: 20px;
+        right: 0;
+        & .logo {
+            padding: 0 0.3rem;
+            padding-bottom: 0px;
+            padding-left: 0.3rem;
+        }
+    }
+
+    .carousel-item > img {
+        object-fit: cover; 
+        height: 570px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .hero__cta {
+        padding: 0.5rem 1rem;
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+}
+
+
+.text-light {
+    color: #f8f9fa !important;
+}
+small, .small {
+    font-size: 80%;
+    font-weight: 400;
+}
+a {
+    color: #007bfb;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+}

@@ -2,7 +2,9 @@ $displayMenuIcons: inline; // options: none | inline
 
 @import 
  	"odyssey-theme/utils/variables",
+ 	"odyssey-theme/utils/mixins/media",
 	"bootstrap/bootstrap",
 	"odyssey-theme/critical",
-	"odyssey-theme/layouts/header";
+	"odyssey-theme/layouts/header",
+	"odyssey-theme/layouts/background-image";
   

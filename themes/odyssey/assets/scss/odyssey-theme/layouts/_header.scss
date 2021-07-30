@@ -1,29 +1,86 @@
 #header {
-  
 
-.logo img {
-	height: 70px;
+.logo {
+  height: 50px;
+  width: 50px;
 }
+
+svg {
+  width: 111px;
+  height: 30px;
+  font-weight: 900;
+  font-size: 90px;
+  fill: $secondary; }
+
+h1, h2.odyssey {
+  padding-left: 5px;
+  margin: 0 0 0px;
+  font-weight: bolder;
+  text-align: center;
+  letter-spacing: .1em; 
+  color: $white;
+  text-shadow: 0 1px 2px RGB(0 0 0 / 90%);
+}
+
 
 h1 {
-  font-family: var(--font-secondary);
-  font-weight: 400;
-  color: $primary;
-  color: #63582c;
-  position: absolute;
-  top: 20px;
-  left: 130px;
-}
+  line-height: 1em;
+  font-size: 1.8rem;
+  color: $white; }
+
+h1.odyssey img {
+  height: 22px;
+  width: auto;
+  margin-bottom: 3px; }
+
+
+$phone: 320px;    
+  $tablet: 500px;
+  $laptop: 1200px;
+  $desktop: 1400px;
+  $large-display: 1920px;
+
+  @mixin resize($size) {
+    $result: $size;
+    @media only screen and (max-width: $large-display){
+      $result: $size * 2;
+      font-size: $result;
+    }
+    @media only screen and (max-width: $desktop){
+      $result: $size * 1.5;
+      font-size: $result;
+    }
+    @media only screen and (max-width: $laptop){
+      $result: $size * 1;
+      font-size: $result;
+    }
+    @media only screen and (max-width: $tablet){
+      $result: $size * .75;
+      font-size: $result;
+    }
+    @media only screen and (max-width: $phone) {
+      $result: $size * .5;
+      font-size: $result;
+    }
+  }
+
+
+  span.h1 {
+    @include resize(2rem);
+  }
+
 
 /*===  main menu ===*/
+
+.flex-container {
+  margin-top: 0;
+}
 
 @supports (position: sticky) {
   .sticky-top {
     position: sticky;
     top: 0;
-    z-index: 1020; 
-  } 
-}
+    z-index: 1020; } }
 
 .sr-only {
   position: absolute;
@@ -33,8 +90,7 @@ h1 {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
-  border: 0; 
-}
+  border: 0; }
 
 .sr-only-focusable:active, .sr-only-focusable:focus {
   position: static;
@@ -42,26 +98,23 @@ h1 {
   height: auto;
   overflow: visible;
   clip: auto;
-  white-space: normal; 
-}
-
-#menu.flex-container {
-  margin-top:0;
-}
-.navbar-nav .show > .nav-link,
-.navbar-nav .active > .nav-link,
-.navbar-nav .nav-link.show,
-.navbar-nav .nav-link.active {
-    color: $body; 
-}
+  white-space: normal; }
 
 nav {
   top: 0;
   width: 100%;
   z-index: 10; }
 
+.navbar-overlay {
+  margin-bottom: -104px;
+  z-index: 1; }
+
+/* margin-bottom pulls the content under the navbar up by 104px which is the height of your navbar.
+   z-index tells the browser that your navbar should be ontop of your content. This allows your links in your navbar to still work when you hover over them.
+*/
+
 .navbar {
-  background-color: $white; }
+  background-color: rgba(0, 0, 0, 0.3); }
 
 ul.navbar-nav {
   margin-top: 0;
@@ -69,11 +122,12 @@ ul.navbar-nav {
   padding-right: 0px; }
 
 .nav-item {
-  padding-right: 5px; }
+  padding-right: 20px; }
 
-.navbar-nav .nav-link {
-  color: $body; 
-  line-height:2;}
+.navbar-dark .navbar-nav .nav-link {
+  color: $white; 
+  line-height:2;
+  padding-right: 10px;}
 
 a#navbarDropdown0.nav-link.dropdown-toggle:hover,
 a#navbarDropdown1.nav-link.dropdown-toggle:hover,
@@ -88,24 +142,13 @@ a#navbarDropdown9.nav-link.dropdown-toggle:hover,
 a#navbarDropdown99.nav-link.dropdown-toggle:hover,
 .dropdown-item:hover, 
 .dropdown-item:focus {
-    background-color: $white;
-    color: $primary; 
-}
-
-.nav-pills {
-  .nav-link.active,
-  .show > .nav-link {
-    color: $nav-pills-link-active-color;
-    background-color: $nav-pills-link-active-bg;
-  }
-}
+  background-color: $white;
+  color: $black; }
 
 .navbar-collapse {
     flex-basis: 100%;
     flex-grow: 1;
-    align-items: center;
-    height: 50px;
-}
+    align-items: center;}
 
 .collapse:not(.show) {
     display: none;
@@ -114,8 +157,7 @@ a#navbarDropdown99.nav-link.dropdown-toggle:hover,
 .navbar-collapse {
     flex-basis: 100%;
     flex-grow: 1;
-    align-items: center;
-}
+    align-items: center;}
 
 .dropup, .dropright, .dropdown, .dropleft {
   position: relative; }
@@ -140,61 +182,68 @@ a#navbarDropdown99.nav-link.dropdown-toggle:hover,
   display: none; }
 
 .dropdown-menu {
-  background-color: $white; }
+  background-color: rgba(128, 128, 128, 0.5); }
 
 .dropdown-menu.show {
   padding-top: 0px;
   padding-bottom: 0px;
-}
+  opacity: 0.9; }
 
 a.nav-link {
   font-size: 1.2rem;
-  font-weight: bold; 
-  padding-bottom: 0;
-}
+  font-weight: bold; }
+
+.navbar-scroll {
+  background-color: rgba(0, 123, 255, 0.4);
+  transition: background-color 0.5s; }
+
+.fixed-bottom {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1030; }
+
+.fixed-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030; }
+
+.bg-primary {
+  background-color: #191970 !important; }
 
 .dropdown-item {
-    display: block;
-    position: relative;
-    margin: 0;
-    padding: 13px 20px 11px;
-    border-bottom: 1px dashed #e5e5e5;
-    color: var(--main-primary-font);
-    font-size: 15px;
-    font-weight: 500;
-}
-
+  font-weight: 600;
+  color: white;
+  font-size: 1rem;
+  background: gray;
+  padding: .25rem 0 .25rem 0.5rem; }
 
 
 /*=== breadcrumbs ===*/
 
 ol.breadcrumb {
-  padding: 0 1rem 0 1rem;
   background-color: transparent;
   margin-bottom: 0px;
   justify-content: flex-end;
   margin-right: 30px; 
-  & .breadcrumb ol {
+  padding-top: 0;}
+
+.breadcrumb ol {
   min-height: 24px;
   line-height: 24px;
   list-style: none;
-  overflow: auto; 
-  }
-}
-
+  overflow: auto; }
 
 .breadcrumb-item, .breadcrumb-item a, .breadcrumb-item.active {
-  color: $body;
+  color: white;
+  font-weight: bold;
   font-size: 0.9rem; }
 
 .breadcrumb-item + .breadcrumb-item::before {
-    color: $primary; 
-    content: "*";
-    font-size: 1rem; }
-.icon-home-1 {
-  color: $primary;
-} 
-
+    color: $white; }
 
 @media screen and (max-width: 778px) {
   p, li {
@@ -203,26 +252,14 @@ ol.breadcrumb {
 
   .navbar {
     background-color: transparent; } 
-
-
-
-
 }
 
 @media screen and (max-width: 991px) {
-
-
-
-
   .w-50, .w-25, .w-75 {
     width: 100% !important; }
 
-  .navbar  {
+  .navbar {
     background-color: transparent; }
-
-  header  .collapse {
-    background-color: $secondary;
-   }
 
   .navbar-toggler {
     visibility: visible; }
@@ -230,7 +267,7 @@ ol.breadcrumb {
   a.nav-link:hover {
     background-color: menu; }
 
-  .navbar-toggler {
+  .navbar-dark .navbar-toggler {
     border-color: $secondary; }
 
   .navbar-toggler {
@@ -245,7 +282,7 @@ ol.breadcrumb {
     background-color: $secondary;
     border-color: $primary; }
 
-  .color-changed{
+  .navbar-dark.color-changed{
     background-color:#282a28!important;
     opacity: 0.96;
   }
@@ -254,7 +291,6 @@ ol.breadcrumb {
     background-color: $gray-800;
     opacity: 0.96;
     text-align: center;
-    color: $white;
   }
 
   .mybar {
@@ -275,6 +311,29 @@ ol.breadcrumb {
     font-size: 1.6rem; }
 }
 
+@media screen and (min-width: 992px) {
+  .navbar {
+    padding: 5px 10px; }
+
+  .navbar-toggler {
+    display: none; 
+  }
+
+  .dropdown-menu {
+    background-color: rgba(128, 128, 128, 0.5); 
+    margin-top: 0;
+  }
+}
+
+  .dropdown-item {
+    font-weight: 600;
+    color: white; }
+
+   .navbar-nav .nav-link {
+    font-size: 1.0625rem;
+    font-weight: 600;
+    padding: 0;
+    color: white; }
 
   .bread-bar {
     visibility: visible; } 
@@ -304,6 +363,7 @@ ol.breadcrumb {
   padding: 0px;
   margin: 0px;
   font-size: 90%;
+  text-align: left;
 }
 
 .flag {
@@ -336,19 +396,27 @@ ol.breadcrumb {
   }
 }
 
-#text {
+
+#text{
   position: absolute;
-  top: 60%;
+  top: 80%;
   left: 50%;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 600;
-  color: $white;
+  color: white;
   transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
   text-shadow: 2px 2px 5px gray;
 }
 
 .overlay {
   position: relative;
+}
+
+@media screen and (max-width: 768px){
+  #text{
+ font-size: 1.3rem;
+}
 }
 
 

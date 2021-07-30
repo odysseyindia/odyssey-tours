@@ -1,10 +1,8 @@
 <header id="header" class="navbar-static-top">
   <nav class="navbar navbar-expand-lg bg-fade fixed-top">
-    <a class="navbar-brand" href="{{ "/" | absLangURL }}">
-        <div class="logo">
-            <img src="{{.Site.Params.logo}}" title="{{.Site.Title}}" alt="{{.Site.Title}} logo">
-            <h1>Odyssey Tours</h1>
-        </div>
+    <a class="navbar-brand" href="{{ "/" | absLangURL }}">    
+        <img class="logo" src="{{.Site.Params.logo}}" title="{{.Site.Title}}" alt="{{.Site.Title}} logo">
+        <span class="h1">Odyssey Tours</span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -51,5 +49,5 @@
       {{- partial "breadcrumbs.html" . }}
     </div>
   </nav>
-  {{ partial "background-image.html" }}
+  {{ partial "background-image.html" . }}
 </header>
