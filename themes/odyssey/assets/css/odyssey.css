@@ -992,6 +992,14 @@ h2 > span {
   top: 25px;
 }
 
+.icon-info {
+  background-color: #6bf;
+  /* icon-info-circled */
+}
+.icon-info:before {
+  content: "";
+}
+
 .icon-city {
   background-color: #dbacdf;
   /* monument */
@@ -1041,7 +1049,7 @@ h2 > span {
   content: "";
 }
 
-.icon-city, .icon-excursion, .icon-hotel, .icon-transfer, .icon-flight, .icon-train {
+.icon-info, .icon-city, .icon-excursion, .icon-hotel, .icon-transfer, .icon-flight, .icon-train {
   border-radius: 50%;
   padding: 5px;
   color: black;

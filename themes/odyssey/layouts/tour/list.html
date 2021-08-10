@@ -228,25 +228,16 @@
          </div>
          <!-- end carousel -->
          {{- range $j, $element := $e.item }}   
-         {{- if eq .type "city" }}
+         {{- if eq .type "info" }}
          <div class="row text ">
           <!-- display paragraphs properly -->
           {{- if in (string .content) "\n\n" -}}
-          {{ .content | markdownify | safeHTML }}
+            {{ .content | markdownify | safeHTML }}
           {{- else -}}
-          <p>{{ .content | markdownify | safeHTML }}</p>
+            <p>{{ .content | markdownify | safeHTML }}</p>
           {{- end -}}
         </div>
-        {{- else if and (eq .type "excursion") (eq $excursion 0) }}
-        {{ $excursion = 1 }}
-        <div class="row text ">
-          <!-- display paragraphs properly -->
-          {{- if in (string .content) "\n\n" -}}
-          {{ .content | markdownify | safeHTML }}
-          {{- else -}}
-          <p>{{ .content | markdownify | safeHTML }}</p>
-          {{- end -}}
-        </div>
+   
         {{- end }}
         {{- end }}
       </div>

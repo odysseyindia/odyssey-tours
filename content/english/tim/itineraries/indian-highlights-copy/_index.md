@@ -13,6 +13,10 @@ tour: indian highlights
 itinerary:
   - day: 0
     item:
+      - type: info
+        url: ''
+        title: Day 1
+        content: test test test est
       - type: transfer
         url: >-
           /destinations/india/states/delhi/cities/delhi/transfers/transfer-from-international-airport-to-hotel/
@@ -41,87 +45,16 @@ itinerary:
         nights: ''
   - day: 1
     item:
-      - type: city
-        url: /destinations/india/states/rajasthan/cities/jaipur/
-        title: Drive to Jaipur ● Afternoon at leisure
-        content: >-
-          Today, you drive to Jaipur, which takes about five hours along a good,
-          if busy, highway, with time to just relax afterwards.
-
-
-          The capital of the state of Rajasthan is one of the most interesting
-          cities in India, with exuberant 18th- and 19th-century palaces and
-          exotic street life. Jaipur is well known for its beautiful carpets,
-          enameled ornaments, precious and semi-precious stones, brass ornaments
-          and many other arts and crafts. Just outside town is the impressive
-          Amber Fort.
-      - type: hotel
-        url: >-
-          /destinations/india/states/rajasthan/cities/jaipur/hotels/dera-rawatsar/
-        title: Dera Rawatsar
-        content: >-
-          Dera Rawatsar is a family-run boutique hotel, warm as a home. Located
-          just behind the bus station, Dera Rawatsar lies in a quiet, leafy
-          lane. Within its walls are small courtyards and terraces, lawns and
-          secluded corners. The well-decorated and traditionally-furnished rooms
-          are all different.
-
-
-          Meals, drinks and snacks are served in the family’s dining room or the
-          outdoor courtyard. There is also a small swimming pool.
-        checkInDate: ''
-        checkInTime: ''
-        checkOutDate: ''
-        checkOutTime: ''
-        nights: ''
+      - type: info
+        url: ''
+        title: ''
+        content: ''
   - day: 2
     item:
-      - type: excursion
-        url: >-
-          /destinations/india/states/rajasthan/cities/jaipur/excursions/early-morning-cycle-tour-of-jaipur/
-        title: >-
-          Early morning cycle tour of Jaipur's Pink City ● Excursion to Amber
-          Fort
-        content: >-
-          In the early morning, you join a small group for a unique journey by
-          bicycle into the old city. You cycle through narrow alleys, past
-          homes, kitchens and workshops, learning about the lives of the locals,
-          and visiting the colourful vegetable and flower markets. You will also
-          enjoy a traditional Rajasthani breakfast in a local house.
-
-
-          You then proceed to Amber Fort, just to the north of Jaipur, a
-          magnificent complex of palaces, halls, pavilions, gardens and temples
-          built over 125 years, with excellent views down over the old town of
-          Amer
-
-
-          The rest of your day is at leisure to explore Jaipur’s lovely markets
-          on your own.
-        date: ''
-        etd: ''
-        duration: ''
-      - type: excursion
-        url: >-
-          /destinations/india/states/rajasthan/cities/jaipur/excursions/half-day-excursion-to-amber-fort/
-        title: Morning guided excursion to Amber Fort
-        content: >-
-          You will meet your guide directly after the cycling tour, who will
-          accompany you to Amber Fort, just to the north of Jaipur. There is a
-          short, steep walk up to the entrance courtyard, which leads to a
-          magnificent complex of palaces, halls, pavilions, gardens and temples
-          built over 125 years. There are excellent views down over the old town
-          of Amer, and up to the Jaigarh and Nahargarh Forts higher in the
-          hills.
-
-
-          The rest of your day is at leisure to explore Jaipur’s lovely markets
-          on your own.
-        date: ''
-        etd: ''
-        duration: ''
-  - day: 3
-    item:
+      - type: info
+        url: ''
+        title: Day 4
+        content: ''
       - type: city
         url: /destinations/india/states/uttar-pradesh/cities/agra/
         title: Drive to Agra via Abhaneri, Bharatpur & Fatehpur Sikri
@@ -153,8 +86,18 @@ itinerary:
         checkOutDate: ''
         checkOutTime: ''
         nights: ''
+  - day: 3
+    item:
+      - type: info
+        url: ''
+        title: Day 6
+        content: ''
   - day: 4
     item:
+      - type: info
+        url: ''
+        title: Day 5
+        content: ''
       - type: excursion
         url: >-
           /destinations/india/states/uttar-pradesh/cities/agra/excursions/early-morning-visit-on-your-own-to-the-taj-mahal/
@@ -192,6 +135,10 @@ itinerary:
         duration: ''
   - day: 5
     item:
+      - type: info
+        url: ''
+        title: Day 6
+        content: ''
       - type: city
         url: /destinations/india/states/delhi/cities/delhi/
         title: Drive to Delhi
@@ -225,6 +172,10 @@ itinerary:
         nights: ''
   - day: 6
     item:
+      - type: info
+        url: ''
+        title: Day 7
+        content: ''
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/half-day-tour-of-old-delhi-by-metro-and-rickshaw/
@@ -233,7 +184,7 @@ itinerary:
           A half-day tour to Old Delhi using the modern Metro and the
           traditional cycle rickshaw. The Metro brings you to the heart of Old
           Delhi in a few minutes, to visit the magnificent Jama Masjid mosque,
-          India's largest. You then walk and ride cycle rickshaws through the
+          India’s largest. You then walk and ride cycle rickshaws through the
           fascinating maze of narrow streets around Chandni Chowk, a jumble of
           craft shops, traders, mosques and temples.
 

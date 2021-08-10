@@ -2,10 +2,6 @@ import docLoad from './docload.js';
 import { changeType, getSelection } from './selectItems.js';
 import fadeAlert from './fadealert.js';
 
-$(document).ready(function(){
-  $('[data-toggle="tooltip"]').tooltip();
-});
-
 var appHost = window.location.protocol + "//" + window.location.hostname + ":" + (parseFloat(window.location.port) + parseFloat(1)) +'/';
 
 var renewables = document.querySelectorAll(".draggable");
@@ -28,8 +24,10 @@ renewables.forEach(renewable => {
   }
 });
 
-window.onload = fadeAlert();
-
+window.onload = function(){
+  fadeAlert();
+  testForInfo();
+};
 
 /* ==========================  ========================= */
 
@@ -79,6 +77,22 @@ function getDragAfterElement(container,y){
   },{offset: Number.NEGATIVE_INFINITY}).element;
 
 };
+
+/* ================= add info section to each day ===================*/
+
+function testForInfo(){
+
+  let test = document.querySelectorAll('[type="info"]');
+  if (test.length == 0){
+    let days = document.getElementById('myItinerary').getElementsByClassName('containers');
+
+    for(let i=0;i<days.length;i++) {
+      const html = '<div class="draggable" draggable="true" day="'+i+'" type ="info" url=""><i class="icon-info"></i>&nbsp;<span class="title"> </span></div>';
+      days[i].innerHTML = html + days[i].innerHTML;
+    };
+  };
+};
+
 
 /* ==================== TOGGLES ==================*/
 
@@ -194,19 +208,18 @@ function activateTour(){
 
 function appendDay(){
 
-  let element  = document.getElementById('appendDay');
-  let days     = document.getElementById('myItinerary').getElementsByClassName('containers');
+  let element   = document.getElementById('appendDay');
+  let days      = document.getElementById('myItinerary').getElementsByClassName('containers');
 
-  let div   = document.createElement('hr');
+  let div       = document.createElement('hr');
   div.className = "hr-text";
   div.dataset.content = "Day "+ (days.length + 1);
   
   element.parentNode.insertBefore(div, element);
 
   div = document.createElement('div');
-  div.className = "containers";
-  div.innerHTML = "\n";
-
+  div.className = "containers"; 
+  div.innerHTML = '<div class="draggable" draggable="true" day="'+(days.length-1)+'" type ="info" url=""><i class="icon-info"></i>&nbsp;<span class="title"> </span></div>';
   element.parentNode.insertBefore(div, element);
 
   draggable();
@@ -267,8 +280,8 @@ function saveModalDay(){
 
   if ( index < 1 || index > days.length) {
     label.innerHTML = '<div class="alert">Input not valid</div>';
-  } else {
-
+  } else 
+  {
 
     //for (let i = days.length; i > index; i--) {
     //  days[i] = days[i-1];
@@ -276,7 +289,7 @@ function saveModalDay(){
 
     var div     = document.createElement('div');
     div.className = "containers";
-    div.innerText = "\n";
+    div.innerHTML = '<div class="draggable" draggable="true" day="'+(days.length-1)+'" type ="info" url=""><i class="icon-info"></i>&nbsp;<span class="title"> </span></div>';
     days[index].parentNode.insertBefore(div, days[index]);
 
     modal.style.display = "none";
@@ -345,7 +358,6 @@ function saveItinerary(deleteDay){
           }
 
         };
-
         details.push(obj);
       };
 
@@ -357,10 +369,10 @@ function saveItinerary(deleteDay){
     };
   };
 
-  var spinner        = document.getElementById("in-progress");
+  var   spinner      = document.getElementById("in-progress");
   const region       = document.getElementById('region');  
-  var content        = document.getElementById('intro-content').value;
-  var data           = []; 
+  var   content      = document.getElementById('intro-content').value;
+  var   data         = []; 
   data[0]            = {};
   data[0].itinerary  = itinerary;
   data[0].subtitle   = document.getElementById('intro-subtitle').value;
@@ -448,12 +460,13 @@ function editItem(obj){
 
   const day   = obj.getAttribute("day");
   const index = obj.getAttribute("index");
-  const url   = obj.getAttribute("url");
+  const url   = obj.getAttribute("url") || "//";
   const type  = obj.getAttribute("type");
 
   var count = (url.match(/\//g) || []).length;
 
   var modal = document.getElementById("modal-"+type);
+
   if (type == 'transfer'){
     modal = document.getElementById("modal-excursion");
   };
@@ -484,17 +497,18 @@ function editItem(obj){
   const height          = rows[1].children[0].scrollHeight;
   rows[1].children[0].style.height = height + 'px';
 
-  let inputs      = modal.getElementsByClassName('input');
-  inputs[0].day   = day;
-  inputs[0].index = index;
-  inputs[0].url   = url;
+  var inputs = modal.getElementsByClassName('input') ;
 
-  let data = obj.getElementsByClassName('details');
-  for(let i=0;i<inputs.length;i++) {
-    if (data[i]) {
-      inputs[(i)].value = data[i].innerHTML;
+    inputs[0].day   = day;
+    inputs[0].index = index;
+    inputs[0].url   = url;
+
+    let data = obj.getElementsByClassName('details');
+    for(let i=0;i<inputs.length;i++) {
+      if (data[i]) {
+        inputs[(i)].value = data[i].innerHTML;
+      }
     }
-  } 
 };
 
 /*
@@ -529,6 +543,25 @@ function copyToTours(){
 
 
 /* ============== SAVE MODAL DATA ===============*/
+
+function saveModalInfo(){
+
+  const elements = document.getElementById("modal-info");
+  const inputs   = elements.getElementsByClassName('input');
+  const index    = inputs[0].index;
+  const days     = document.getElementById('myItinerary').getElementsByClassName('containers');
+  const items    = days[ inputs[0].day ].getElementsByClassName('draggable');
+
+  const modalContent   = elements.getElementsByClassName('content');
+  var content          = items[index].getElementsByClassName('content-details');
+  content[0].innerHTML = "<p>"+modalContent[0].value.replace(/\n\n/g, "</p><p>")+"</p>";
+
+  const modalTitle      = elements.getElementsByClassName('modal-title');
+  var title             = items[index].getElementsByClassName('title');
+  title[0].innerText    = modalTitle[0].value;
+
+  elements.style.display = "none";
+};
 
 function saveModalCity(){
 
@@ -633,7 +666,7 @@ function saveModalTransfer(){
 
 /* =============== add EventListeners ============ */
 
-const types = ['city','hotel','excursion','transfer'];
+const types = ['info','city','hotel','excursion','transfer'];
 for(var i = 0; i < types.length; i++) {
   let type = types[i];
   document.getElementById(`${type}`).addEventListener("change", (event) => { changeType(`${type}` ); });
@@ -653,6 +686,7 @@ document.getElementById("emptyTrash"          ).addEventListener("click", (event
 document.getElementById("saveModalDay"        ).addEventListener("click", (event) => { saveModalDay();  });
 document.getElementById("deleteModalDay"      ).addEventListener("click", (event) => { deleteModalDay();  });
 
+document.getElementById("save-modal-info"     ).addEventListener("click", (event) => { saveModalInfo();  });
 document.getElementById("save-modal-city"     ).addEventListener("click", (event) => { saveModalCity();  });
 document.getElementById("save-modal-hotel"    ).addEventListener("click", (event) => { saveModalHotel();  });
 document.getElementById("save-modal-excursion").addEventListener("click", (event) => { saveModalExcursion();  });

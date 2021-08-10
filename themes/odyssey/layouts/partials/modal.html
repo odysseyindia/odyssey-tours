@@ -19,6 +19,7 @@
           </form>
         </div>
         {{- if (eq .modal "excursion")   }}{{ partial "modal-excursion.html" .dot }}
+        {{- else if eq .modal "info"     }}{{ partial "modal-info.html"      .dot }}
         {{- else if eq .modal "transfer" }}{{ partial "modal-excursion.html" .dot }}
         {{- else if eq .modal "hotel"    }}{{ partial "modal-hotel.html"     .dot }}
         {{- else if eq .modal "city"     }}{{ partial "modal-city.html"      .dot }}

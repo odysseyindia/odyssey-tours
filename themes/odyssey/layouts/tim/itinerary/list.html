@@ -105,11 +105,10 @@
         {{- range $i,$v := .item }}
         <div class="draggable" draggable="true" type="{{ $v.type }}" day={{ $index }} index={{ $i }} url="{{ .url }}">
           <div>
-            <i class="icon-{{ $v.type }}"></i>
+            <i class="icon-{{ $v.type }}"></i> 
           </div>
           <div class="program">
             {{- $content := $v.content | default " " }}
-
             {{- $url     := printf "%s%s" $v.url "_index.md" -}}
 
             {{- with $.Site.GetPage (string $url) }}
@@ -120,57 +119,51 @@
               <div class="image">
                 {{- if (eq $v.type "city") -}}
 
-                {{- $duplicateCities = $duplicateCities | append (slice $url) }}
-                {{- $x = 0 }}
+                  {{- $duplicateCities = $duplicateCities | append (slice $url) }}
+                  {{- $x = 0 }}
 
-                {{- range $duplicateCities }}
-                {{- if eq $url . }}{{ $x = add $x 1 }}
-                {{- end }} 
+                  {{- range $duplicateCities }}
+                    {{- if eq $url . }}
+                      {{ $x = add $x 1 }}
+                    {{- end }} 
+                  {{- end -}}
 
-                {{- end -}}
+                  {{- if eq $x 1 }}
+                    {{- range first 1 (.Resources.ByType "image") }}
+                      {{ partial "image.html" . }}
+                    {{- end }}
+                  {{- else }}
+                    {{- range first 1 (after (sub $x 1) (.Resources.ByType "image")) }}
+                      {{ partial "image.html" . }}
+                    {{- end -}}
+                  {{- end -}}
 
-                {{- if eq $x 1 -}}
-
-                {{- range first 1 (.Resources.ByType "image") }}
-                {{ partial "image.html" . }}
-                {{- end }}
-
-                {{- else -}}
-
-                {{- range first 1 (after (sub $x 1) (.Resources.ByType "image")) }}
-                {{ partial "image.html" . }}
-                {{- end -}}
-
-                {{- end -}}
-
-                {{- else -}} 
-
-                {{- range first 1 (.Resources.ByType "image") }}
-                {{ partial "image.html" . }}
-                {{- end -}}
-
+                {{- else }} 
+                  {{- range first 1 (.Resources.ByType "image") }}
+                    {{ partial "image.html" . }}
+                  {{- end }}
                 {{- end }}           
               </div>
               <div class="mr-10 content-text details1"> 
                 <div class="content-details">
                   {{- if gt (len $v.content) 0 -}}
 
-                  {{- if in (string $v.content) "\n\n" }}
-                  {{ $v.content | markdownify | safeHTML }}
-                  {{- else }}
-                  <p>{{ $v.content | markdownify | safeHTML }}</p>
-                  {{- end }}
+                    {{- if in (string $v.content) "\n\n" }}
+                      {{ $v.content | markdownify | safeHTML }}
+                    {{- else }}
+                      <p>{{ $v.content | markdownify | safeHTML }}</p>
+                    {{- end }}
 
                   {{- else if gt (len .Content) 0 -}}
 
-                  {{- if in (string $v.content) "\n\n" }}
-                  {{ .Content | markdownify | safeHTML }}
-                  {{- else }}
-                  <p>{{ .Content | markdownify | safeHTML }}</p>
-                  {{- end }}
+                    {{- if in (string $v.content) "\n\n" }}
+                      {{ .Content | markdownify | safeHTML }}
+                    {{- else }}
+                      <p>{{ .Content | markdownify | safeHTML }}</p>
+                    {{- end }}
 
                   {{- else }}
-                  <p></p>
+                    <p></p>
                   {{- end }}
                 </div>
                 {{- if (eq $v.type "city") }}
@@ -244,9 +237,29 @@
               </div>            
             </div>
             {{ else }}
-            <div class="center alert-box warning">
-              {{ $url }} is no longer on file?!
+              {{ if (eq $v.type "info") }}
+                <div>
+              <h4 class="title">{{ with $v.title }}{{ . }}{{ end }}</h4>
             </div>
+            <div class="content">
+              <div class="mr-10 content-text details1"> 
+                <div class="content-details">
+                    {{- if in (string $v.content) "\n\n" }}
+                      {{ $v.content | markdownify | safeHTML }}
+                    {{- else }}
+                      <p>{{ $v.content | markdownify | safeHTML }}</p>
+                    {{- end }}
+                </div>
+                 <div class="rowdetails">
+                  &nbsp;
+                </div>
+              </div>
+            </div>
+              {{ else }}
+                <div class="center alert-box warning">
+                  {{ $url }} is no longer on file?!
+                </div>
+              {{ end }}
             {{ end }}
           </div>
           <div class="editButton">
@@ -297,6 +310,7 @@
         </div>
       </div>
   
+      {{ partial "modal-select.html" (dict "dot" . "modal" "info" "text" "Info"  ) }} 
       {{ partial "modal-select.html" (dict "dot" . "modal" "hotel" "text" "Hotels"  ) }}
       {{ partial "modal-select.html" (dict "dot" . "modal" "excursion" "text" "Excursions"  ) }}
       {{ partial "modal-select.html" (dict "dot" . "modal" "transfer" "text" "Transfers"  ) }}
@@ -319,6 +333,7 @@
     </div> 
   </div>
   
+  {{ partial "modal.html" (dict "dot" . "modal" "info"     ) }}
   {{ partial "modal.html" (dict "dot" . "modal" "hotel"    ) }}
   {{ partial "modal.html" (dict "dot" . "modal" "city"     ) }}
   {{ partial "modal.html" (dict "dot" . "modal" "excursion") }}
@@ -461,14 +476,14 @@
           <div class="content">
             <div class="mr-10 content-text details1"> 
               {{- range $index,$e := .Params.itinerary }} 
-              {{- range $i,$v := .item }}
-              {{- if (eq $v.type "train") }}
-              <div class="incldetails">
-                <div class="details">{{ $v.train }}</div>
-                <div class="details">{{ $v.from }}/{{ $v.to }}</div>
-              </div>
-              {{- end }}
-              {{- end }}
+                {{- range $i,$v := .item }}
+                  {{- if (eq $v.type "train") }}
+                  <div class="incldetails">
+                    <div class="details">{{ $v.train }}</div>
+                    <div class="details">{{ $v.from }}/{{ $v.to }}</div>
+                  </div>
+                  {{- end }}
+                {{- end }}
               {{- end }}
             </div>
           </div>

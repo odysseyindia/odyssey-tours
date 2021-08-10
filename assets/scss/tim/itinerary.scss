@@ -2,6 +2,10 @@ section {
   padding-top: 50px;
 }
 
+.row > * {
+  flex: 1;
+}
+
 .alert-box {
   padding: 15px;
     margin-bottom: 20px;
@@ -161,6 +165,7 @@ section {
     height: 2em;
     opacity: .5;
     font-size: 1.4em;
+    margin-bottom: 40px;
     &:before {
       content: '';
       // use the linear-gradient for the fading effect
@@ -198,6 +203,10 @@ section {
   }
 
   /* ----- */
+
+[id^="modal-"] > .container {
+  background-color: red;
+}
 
   .containers {
     min-height: 100px;
@@ -426,6 +435,7 @@ input {
   /* Modal Content/Box */
   #modal-insert-day, 
   #modal-delete-day, 
+  #modal-info, 
   #modal-city, 
   #modal-hotel, 
   #modal-excursion, 

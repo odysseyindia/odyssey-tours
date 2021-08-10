@@ -6,14 +6,17 @@ translationKey: indian-highlights
 days: 7
 tourStart: New Delhi
 tourEnd: New Delhi
-bestTime: Oct-Mar
-price: Euro 1999
+bestTime: October-March
+price: null
 type: tour
-image: 1-indian-highlights.jpg
 tour: indian highlights
 itinerary:
   - day: 0
     item:
+      - type: info
+        url: ''
+        title: Day 1
+        content: test test test est
       - type: transfer
         url: >-
           /destinations/india/states/delhi/cities/delhi/transfers/transfer-from-international-airport-to-hotel/
@@ -42,6 +45,10 @@ itinerary:
         nights: ''
   - day: 1
     item:
+      - type: info
+        url: ''
+        title: Day 2
+        content: ''
       - type: city
         url: /destinations/india/states/rajasthan/cities/jaipur/
         title: Drive to Jaipur ● Afternoon at leisure
@@ -77,11 +84,16 @@ itinerary:
         nights: ''
   - day: 2
     item:
+      - type: info
+        url: ''
+        title: Day 3
+        content: ''
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/excursions/early-morning-cycle-tour-of-jaipur/
         title: >-
-          Early morning cycle tour of Jaipur's Pink City 
+          Early morning cycle tour of Jaipur's Pink City ● Excursion to Amber
+          Fort
         content: >-
           In the early morning, you join a small group for a unique journey by
           bicycle into the old city. You cycle through narrow alleys, past
@@ -104,7 +116,7 @@ itinerary:
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/excursions/half-day-excursion-to-amber-fort/
-        title: Excursion to Amber Fort
+        title: Morning guided excursion to Amber Fort
         content: >-
           You will meet your guide directly after the cycling tour, who will
           accompany you to Amber Fort, just to the north of Jaipur. There is a
@@ -122,6 +134,10 @@ itinerary:
         duration: ''
   - day: 3
     item:
+      - type: info
+        url: ''
+        title: Day 4
+        content: ''
       - type: city
         url: /destinations/india/states/uttar-pradesh/cities/agra/
         title: Drive to Agra via Abhaneri, Bharatpur & Fatehpur Sikri
@@ -155,11 +171,16 @@ itinerary:
         nights: ''
   - day: 4
     item:
+      - type: info
+        url: ''
+        title: Day 5
+        content: ''
       - type: excursion
         url: >-
           /destinations/india/states/uttar-pradesh/cities/agra/excursions/early-morning-visit-on-your-own-to-the-taj-mahal/
         title: >-
-          Early morning visit to the Taj Mahal 
+          Early morning visit to the Taj Mahal ● Afternoon guided tour of Agra's
+          other monuments
         content: >-
           The best time to appreciate the Taj Mahal is as soon as it opens, at
           its most serene. You can enjoy the gardens, the mausoleum and the
@@ -191,6 +212,10 @@ itinerary:
         duration: ''
   - day: 5
     item:
+      - type: info
+        url: ''
+        title: Day 6
+        content: ''
       - type: city
         url: /destinations/india/states/delhi/cities/delhi/
         title: Drive to Delhi
@@ -224,15 +249,19 @@ itinerary:
         nights: ''
   - day: 6
     item:
+      - type: info
+        url: ''
+        title: Day 7
+        content: ''
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/half-day-tour-of-old-delhi-by-metro-and-rickshaw/
-        title: Morning tour of Old Delhi by Metro & rickshaw 
+        title: Morning tour of Old Delhi by Metro & rickshaw ● Evening departure
         content: >-
           A half-day tour to Old Delhi using the modern Metro and the
           traditional cycle rickshaw. The Metro brings you to the heart of Old
           Delhi in a few minutes, to visit the magnificent Jama Masjid mosque,
-          India's largest. You then walk and ride cycle rickshaws through the
+          India’s largest. You then walk and ride cycle rickshaws through the
           fascinating maze of narrow streets around Chandni Chowk, a jumble of
           craft shops, traders, mosques and temples.
 
