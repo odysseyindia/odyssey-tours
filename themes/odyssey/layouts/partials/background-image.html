@@ -2,8 +2,12 @@
 <div id="background-image" class="carousel" style="padding: 0 !important;">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      {{- with (.Resources.ByType "image") }}
-      {{ range . }} 
+      {{ $range := (.Resources.ByType "image") }}
+      {{ if .IsHome }}
+        {{ $range = (.Resources.ByType "image").Match "slide_*" }}
+      {{ end }}
+      {{- with $range }}
+      {{- range . }} 
       <img class="w-100 lazyload" itemprop="image" data-src="{{ .RelPermalink }}" title="$.Title" alt="$.Title" srcset="{{ .RelPermalink }} 500w, {{ .RelPermalink }} 800w, {{ .RelPermalink }} 1200w, {{ .RelPermalink }} 1500w"> 
       {{- end }}<!-- end range -->
       {{- end }}<!-- end with -->

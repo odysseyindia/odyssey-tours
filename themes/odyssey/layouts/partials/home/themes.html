@@ -6,8 +6,14 @@
           {{- range $index,$e := ( where ( where .Site.RegularPages "Section" "experience") ".Params.id" "interest" ) }}
           <div class="carousel-item {{ if not $index }}active{{ end }}">
             <div class="col-lg-2">
-              <a href="{{ .RelPermalink }}"><img class="img-fluid" src="{{ .RelPermalink }}{{ $e.Params.translationKey }}.jpg">
-              <h5>{{ $e.Title }}</h5></a>
+              <a href="{{ .RelPermalink }}">
+                {{- range (.Resources.ByType "image") }}
+               
+                <img class="img-fluid" src="{{ . }}">
+               
+                {{- end }}
+                <h5>{{ $e.Title }}</h5>
+              </a>
             </div>
           </div>
           {{ end }}
