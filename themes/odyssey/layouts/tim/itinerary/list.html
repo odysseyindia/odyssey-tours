@@ -138,6 +138,8 @@
                     {{- end -}}
                   {{- end -}}
 
+                {{- else if (eq $v.type "info") }}
+                  <!-- no image -->
                 {{- else }} 
                   {{- range first 1 (.Resources.ByType "image") }}
                     {{ partial "image.html" . }}

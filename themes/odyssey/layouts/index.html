@@ -3,32 +3,41 @@
 <section id="{{ .Scratch.Get "id" | lower }}"> 
 
 <!-- First Parallax Section -->
-<div class="jumbotron paral paralsec">
-<h3 class="display-1">Great!! It looks like you're thinking<br>of a trip to India!</h3>
-<p class="lead">
-<a class="btn btn-lg btn-md" href="/tour-ideas/" role="button">Welcome</a>
-</p>
+<div class="jumbotron paral paralsec position-relative">
+  <h3 class="display-1 position-absolute top-50 start-50 translate-middle">
+    Great!! It looks like you're thinking<br>of a trip to India!
+    <p class="lead">
+      <a class="btn btn-lg btn-md" href="/tour-ideas/" role="button">Welcome</a>
+    </p>
+  </h3>
 </div>
 
 {{ partial "home/we-are-odyssey.html" . }}
 
 <!-- Second Parallax Section -->
-<div class="jumbotron paral paralsec1">
-<h3 class="display-2">Tell us where you would like to go.<br /><em>We Provide You An Ultimate Travel Experience</em></h3>
-<p class="lead">
-<a class="btn btn-lg btn-md" href="/explore-india/by-state/" role="button">Have a taste</a>
-</p>
+<div class="jumbotron paral paralsec1 position-relative">
+  <h3 class="display-1 position-absolute top-50 start-50 translate-middle">
+    Tell us where you would like to go.<br />
+    <em>We Provide You An Ultimate Travel Experience</em>
+    <p class="lead">
+      <a class="btn btn-lg btn-md" href="/explore-india/by-state/" role="button">Have a taste</a>
+    </p>
+  </h3>
 </div>
 
 {{ partial "home/explore.html" . }}
 
 <!-- Third Parallax Section -->
-<div class="jumbotron paral paralsec2">
-<h3 class="display-2">What experiences or activities do you fancy?</h3>
-<p class="lead"><em>Just get in touch and we will start advising and planning ith you</em></p>
-<p class="lead">
-<a class="btn btn-lg btn-md" href="/experience/unique-experiences/" role="button">Explore</a>
-</p>
+<div class="jumbotron paral paralsec2 position-relative">
+  <h3 class="display-1 position-absolute top-50 start-50 translate-middle">
+    What experiences or activities do you fancy?
+    <p class="lead">
+      <em>Just get in touch and we will start advising and planning ith you</em>
+    </p>
+    <p class="lead">
+      <a class="btn btn-lg btn-md" href="/experience/unique-experiences/" role="button">Explore</a>
+    </p>
+  </h3>
 </div>
 
 {{ partial "home/themes.html" . }}
@@ -36,14 +45,15 @@
 {{ partial "home/region.html" . }}
 
 <!-- Fourth Parallax Section -->
-<div class="jumbotron paral paralsec3">
-<h3 class="display-2">Start planning your trip!</h3>
-<p class="lead"><em>We are just a chat session away</em></p>
-<p class="lead">
+<div class="jumbotron paral paralsec3 position-relative">
+  <h3 class="display-1 position-absolute top-50 start-50 translate-middle">
+    Start planning your trip!
+    <p class="lead"><em>We are just a chat session away</em></p>
+  </h3>
 </div>
 
 {{ partial "home/newspaper.html" . }}
-  
+
 </section>
 {{ end }}
 {{ define "postscript" }}

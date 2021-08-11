@@ -1,7 +1,9 @@
 {{- $range := (.Resources.ByType "image") -}}
 
-{{- if ne .IsHome true }}
- 
+{{- if eq .IsHome true }}
+  {{- $range = (.Resources.ByType "image").Match "slide_*" }}
+{{- end -}}
+
 {{"<!-- background image -->" | safeHTML }}
 <div id="backgroundImage" class="carousel hero" style="padding: 0 !important;">
   <div class="carousel-inner">
@@ -48,4 +50,3 @@
   </div>
   {{- end }}
 </div>
-{{- end -}}

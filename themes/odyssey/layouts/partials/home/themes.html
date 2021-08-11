@@ -1,3 +1,4 @@
+{{"<!-- Themes -->" | safeHTML }}
 <div id="themes">
   <div class="text-center my-3">
     <div class="row mx-auto my-auto">
@@ -7,10 +8,8 @@
           <div class="carousel-item {{ if not $index }}active{{ end }}">
             <div class="col-lg-2">
               <a href="{{ .RelPermalink }}">
-                {{- range (.Resources.ByType "image") }}
-               
-                <img class="img-fluid" src="{{ . }}">
-               
+                {{- range first 1 (.Resources.ByType "image") }}
+                <img class="img-fluid" src="{{ . | relURL }}">
                 {{- end }}
                 <h5>{{ $e.Title }}</h5>
               </a>

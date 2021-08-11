@@ -8,6 +8,10 @@ translationKey: beyond-the-golden-triangle
 itinerary:
   - day: 0
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: transfer
         url: >-
           /destinations/india/states/delhi/cities/delhi/transfers/transfer-from-international-airport-to-hotel/
@@ -36,6 +40,10 @@ itinerary:
         nights: ''
   - day: 1
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: city
         url: /destinations/india/states/rajasthan/cities/mandawa/
         title: Mandawa
@@ -74,6 +82,10 @@ itinerary:
         nights: ''
   - day: 2
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/mandawa/excursions/walking-tour-of-mandawa/
@@ -111,6 +123,10 @@ itinerary:
         duration: ''
   - day: 3
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: city
         url: /destinations/india/states/rajasthan/cities/jaipur/
         title: Jaipur
@@ -160,6 +176,10 @@ itinerary:
         nights: ''
   - day: 4
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/excursions/morning-walking-tour-of-jaipur/
@@ -195,6 +215,10 @@ itinerary:
         duration: ''
   - day: 5
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: city
         url: /destinations/india/states/rajasthan/cities/sawai-madhopur/
         title: Sawai Madhopur
@@ -238,6 +262,10 @@ itinerary:
         nights: ''
   - day: 6
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/sawai-madhopur/excursions/jeep-safari-in-ranthambhore-national-park/
@@ -256,6 +284,10 @@ itinerary:
         duration: ''
   - day: 7
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: city
         url: /destinations/india/states/rajasthan/cities/karauli/
         title: Karauli
@@ -301,6 +333,10 @@ itinerary:
         nights: ''
   - day: 8
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: city
         url: /destinations/india/states/rajasthan/cities/bharatpur/
         title: Bharatpur
@@ -343,6 +379,10 @@ itinerary:
         nights: ''
   - day: 9
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: city
         url: /destinations/india/states/uttar-pradesh/cities/agra/
         title: Agra
@@ -393,6 +433,10 @@ itinerary:
         nights: ''
   - day: 10
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: excursion
         url: >-
           /destinations/india/states/uttar-pradesh/cities/agra/excursions/early-morning-visit-on-your-own-to-the-taj-mahal/
@@ -431,6 +475,10 @@ itinerary:
         nights: ''
   - day: 11
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: city
         url: /destinations/india/states/delhi/cities/delhi/
         title: Delhi

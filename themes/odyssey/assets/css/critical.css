@@ -2673,12 +2673,12 @@ textarea.form-control-lg {
 }
 
 .input-group:not(.has-validation) > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu),
-.input-group:not(.has-validation) > .dropdown-toggle:nth-last-child(n + 3) {
+.input-group:not(.has-validation) > .dropdown-toggle:nth-last-child(n+3) {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
-.input-group.has-validation > :nth-last-child(n + 3):not(.dropdown-toggle):not(.dropdown-menu),
-.input-group.has-validation > .dropdown-toggle:nth-last-child(n + 4) {
+.input-group.has-validation > :nth-last-child(n+3):not(.dropdown-toggle):not(.dropdown-menu),
+.input-group.has-validation > .dropdown-toggle:nth-last-child(n+4) {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
@@ -3741,7 +3741,7 @@ textarea.form-control-lg {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
-.btn-group > .btn:nth-child(n + 3),
+.btn-group > .btn:nth-child(n+3),
 .btn-group > :not(.btn-check) + .btn,
 .btn-group > .btn-group:not(:first-child) > .btn {
   border-top-left-radius: 0;
@@ -11354,18 +11354,18 @@ iframe .gtm {
   }
 }
 
-#background-image .carousel {
+#backgroundImage .carousel {
   height: 530px;
   background-size: cover;
 }
-#background-image .hero {
+#backgroundImage .hero {
   height: 500px;
   position: relative;
   width: 100%;
   color: #fff;
   text-align: center;
 }
-#background-image .bg-cover, #background-image .hero {
+#backgroundImage .bg-cover, #backgroundImage .hero {
   background-color: #e9ecef;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -11374,10 +11374,10 @@ iframe .gtm {
   background-size: cover;
   height: 100%;
 }
-#background-image .mb-5, #background-image .my-5 {
+#backgroundImage .mb-5, #backgroundImage .my-5 {
   margin-bottom: 3rem !important;
 }
-#background-image .carousel-indicators {
+#backgroundImage .carousel-indicators {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -11390,11 +11390,11 @@ iframe .gtm {
   margin-left: 15%;
   list-style: none;
 }
-#background-image ol, #background-image ul, #background-image dl {
+#backgroundImage ol, #backgroundImage ul, #backgroundImage dl {
   margin-top: 0;
   margin-bottom: 1rem;
 }
-#background-image .carousel-indicators li {
+#backgroundImage .carousel-indicators li {
   box-sizing: content-box;
   flex: initial;
   width: 30px;
@@ -11410,7 +11410,7 @@ iframe .gtm {
   opacity: 0.5;
   transition: opacity 0.6s ease;
 }
-#background-image .carousel-item {
+#backgroundImage .carousel-item {
   position: relative;
   display: none;
   float: left;
@@ -11419,35 +11419,35 @@ iframe .gtm {
   backface-visibility: hidden;
   transition: transform 0.6s ease-in-out;
 }
-#background-image .carousel-item.active, #background-image .carousel-item-next, #background-image .carousel-item-prev {
+#backgroundImage .carousel-item.active, #backgroundImage .carousel-item-next, #backgroundImage .carousel-item-prev {
   display: block;
 }
-#background-image .carousel-item > img {
+#backgroundImage .carousel-item > img {
   object-fit: cover;
   height: 800px;
 }
-#background-image #content p, #background-image div {
+#backgroundImage #content p, #backgroundImage div {
   text-align: center;
 }
-#background-image .w-100 {
+#backgroundImage .w-100 {
   width: 100% !important;
 }
-#background-image .img-fluid, #background-image .blok .logo, #background-image img {
+#backgroundImage .img-fluid, #backgroundImage .blok .logo, #backgroundImage img {
   max-width: 100%;
   height: auto;
 }
-#background-image img {
+#backgroundImage img {
   vertical-align: middle;
   border-style: none;
 }
-#background-image .title {
+#backgroundImage .title {
   margin: 0 0 10px;
   font-weight: 600;
   text-shadow: 0 1px 2px RGB(0 0 0/90%);
   font-size: 4rem;
   color: #fff;
 }
-#background-image .hero__cta {
+#backgroundImage .hero__cta {
   margin-top: 1rem;
   padding: 0.75rem 1.5rem;
   color: #212529;
@@ -11458,24 +11458,23 @@ iframe .gtm {
   border-radius: 0.15rem;
   border-color: #ffc20e;
 }
-#background-image .content {
+#backgroundImage .content {
   position: relative;
 }
-#background-image .aligner-item {
+#backgroundImage .aligner-item {
   max-width: 95%;
   z-index: 1;
-  margin-top: auto;
 }
-#background-image .aligner {
+#backgroundImage .aligner {
   align-items: flex-end;
   display: flex;
   justify-content: center;
   height: 800px;
 }
-#background-image .mt-3, #background-image .message, #background-image .my-3 {
+#backgroundImage .mt-3, #backgroundImage .message, #backgroundImage .my-3 {
   margin-top: 1rem !important;
 }
-#background-image .recommended {
+#backgroundImage .recommended {
   bottom: 20px;
   left: 0;
   padding: 10px;
@@ -11483,62 +11482,62 @@ iframe .gtm {
   background: rgba(255, 255, 255, 0.8);
   text-align: left;
 }
-#background-image .recommended h5, #background-image .recommended .h5 {
+#backgroundImage .recommended h5, #backgroundImage .recommended .h5 {
   color: #333;
   font-size: 13px;
 }
-#background-image .recommended .logo {
+#backgroundImage .recommended .logo {
   display: inline-block;
   max-height: 25px;
   padding: 0 0.3rem;
   padding-bottom: 0px;
   padding-left: 0.3rem;
 }
-#background-image .recommended .logo-lnt, #background-image .recommended .logo-cnt, #background-image .recommended .logo-ngi {
+#backgroundImage .recommended .logo-lnt, #backgroundImage .recommended .logo-cnt, #backgroundImage .recommended .logo-ngi {
   max-height: 20px;
   padding-bottom: 3px;
 }
-#background-image .recommended .logo-cnt, #background-image .recommended .logo-ngi {
+#backgroundImage .recommended .logo-cnt, #backgroundImage .recommended .logo-ngi {
   max-height: 30px;
 }
 @media screen and (max-width: 576px) {
-  #background-image .aligner {
+  #backgroundImage .aligner {
     height: 570px;
     align-items: center;
   }
-  #background-image .title {
+  #backgroundImage .title {
     font-size: 2.2rem;
   }
-  #background-image .recommended {
+  #backgroundImage .recommended {
     text-align: center;
     bottom: 20px;
     right: 0;
   }
-  #background-image .recommended .logo {
+  #backgroundImage .recommended .logo {
     padding: 0 0.3rem;
     padding-bottom: 0px;
     padding-left: 0.3rem;
   }
-  #background-image .carousel-item > img {
+  #backgroundImage .carousel-item > img {
     object-fit: cover;
     height: 570px;
   }
 }
 @media screen and (max-width: 768px) {
-  #background-image .hero__cta {
+  #backgroundImage .hero__cta {
     padding: 0.5rem 1rem;
     font-size: 1.2rem;
     line-height: 1.5;
   }
 }
-#background-image .text-light {
+#backgroundImage .text-light {
   color: #f8f9fa !important;
 }
-#background-image small, #background-image .small {
+#backgroundImage small, #backgroundImage .small {
   font-size: 80%;
   font-weight: 400;
 }
-#background-image a {
+#backgroundImage a {
   color: #007bfb;
   text-decoration: none;
   background-color: transparent;

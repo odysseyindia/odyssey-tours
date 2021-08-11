@@ -1,5 +1,15 @@
 #home {
 
+.flexrow{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.column {
+  width: 100%;
+}
+
   /* Header Parallax Element Style*/ 
   .paral {
     min-height: 600px;
@@ -20,39 +30,25 @@
   .paral h3 {
     color: rgba(255, 255, 255, 0.8);
     font-size: 3rem;
-    text-align: right;
-    padding-top: 4vh;
-    line-height: 100px;
-    font-family: var(--font-secondary);
-    font-weight: 400;
-  }
-
-  /* Heading for Parallax Section */ 
-  .paral h3.display-2 {
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 3rem;
     text-align: center;
-    padding-top: 4vh;
     line-height: 100px;
     font-family: var(--font-secondary);
     font-weight: 400;
   }
 
+ @include media-below(sm) {
+  .paral h3 {
+    font-size: 2rem;
+    line-height: 50px;
+  }
+ }
+ 
   /* Image for Parallax Section */ 
-  .paralsec {
-    background-image: url("/slide_4.jpg");
-  }
-  .paralsec1 {
-    background-image: url("/slide_1.jpg");
-  }
+  .paralsec  { background-image: url("/slide_4.jpg");}
+  .paralsec1 { background-image: url("/slide_1.jpg");}
+  .paralsec2 { background-image: url("/slide_6.jpg");}
+  .paralsec3 { background-image: url("/slide_5.jpg");}
 
-  .paralsec2 {
-    background-image: url("/slide_6.jpg");
-  }
-
-  .paralsec3 {
-    background-image: url("/slide_5.jpg");
-  }
   .jumbotron {
     margin-bottom: 0;
   }
@@ -233,17 +229,31 @@
       z-index: 4;
       left: 180px;
       top: 100px;
+      & >a {
+      width: 100px; 
+      height: 100px;
+      }
     }
     li.z-index-2 {
       z-index: 2;
       left: 100px;
       top: 0;
+      & >a{
+      width: 160px; 
+      height: 160px;
+      }
     }
+    
     li.z-index-1 {
       z-index: 1;
       left: 0;
       top: 30px;
+      & >a{
+      width: 156px; 
+      height: 156px;
+      }
     }
+
 
     .middle-block{
       width: 100px;
