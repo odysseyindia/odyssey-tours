@@ -7,6 +7,10 @@ weight: '102'
 itinerary:
   - day: 0
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: transfer
         url: >-
           /destinations/india/states/delhi/cities/delhi/transfers/transfer-from-international-airport-to-hotel/
@@ -46,6 +50,10 @@ itinerary:
         nights: ''
   - day: 1
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/half-day-tour-of-old-delhi-by-metro-and-rickshaw/
@@ -79,6 +87,10 @@ itinerary:
         duration: ''
   - day: 2
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: city
         url: /destinations/india/states/rajasthan/cities/jaipur/
         title: Jaipur
@@ -112,6 +124,10 @@ itinerary:
         nights: ''
   - day: 3
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/excursions/early-morning-cycle-tour-of-jaipur/
@@ -148,6 +164,10 @@ itinerary:
         duration: ''
   - day: 4
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: city
         url: /destinations/india/states/uttar-pradesh/cities/agra/
         title: Agra
@@ -181,6 +201,10 @@ itinerary:
         nights: ''
   - day: 5
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: excursion
         url: >-
           /destinations/india/states/uttar-pradesh/cities/agra/excursions/early-morning-visit-on-your-own-to-the-taj-mahal/
@@ -205,7 +229,7 @@ itinerary:
         content: >-
           Agra has much to offer besides the Taj Mahal, such as Agra Fort, a
           masterpiece of design and construction. You then visit
-          Itimad-ud-Daulah's tomb - better known as the Baby Taj, which also
+          Itimad-ud-Daulah’s tomb - better known as the Baby Taj, which also
           features the same marble inlay work as the Taj Mahal. Finally you will
           visit Mehtab Bagh, a formally laid-out Mughal garden that offers
           stupendous views of the Taj Mahal, especially in the late afternoon.
@@ -214,6 +238,10 @@ itinerary:
         duration: ''
   - day: 6
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: city
         url: /destinations/india/states/madhya-pradesh/cities/orchha/
         title: Orchha
@@ -261,6 +289,10 @@ itinerary:
         nights: ''
   - day: 7
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: city
         url: /destinations/india/states/madhya-pradesh/cities/khajuraho/
         title: Khajuraho
@@ -289,6 +321,10 @@ itinerary:
         nights: ''
   - day: 8
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: excursion
         url: >-
           /destinations/india/states/madhya-pradesh/cities/khajuraho/excursions/half-day-tour-of-khajuraho-temples/
@@ -310,6 +346,10 @@ itinerary:
         duration: ''
   - day: 9
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: city
         url: /destinations/india/states/uttar-pradesh/cities/varanasi/
         title: Varanasi
@@ -346,6 +386,10 @@ itinerary:
         nights: ''
   - day: 10
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: excursion
         url: >-
           /destinations/india/states/uttar-pradesh/cities/varanasi/excursions/early-morning-ganges-aarti-boat-ride-and-walking-tour/
@@ -377,6 +421,10 @@ itinerary:
         duration: ''
   - day: 11
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: transfer
         url: >-
           /destinations/india/states/uttar-pradesh/cities/varanasi/transfers/transfer-from-hotel-to-airport/
