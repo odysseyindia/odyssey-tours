@@ -9,7 +9,7 @@
             <div class="col-lg-2">
               <a href="{{ .RelPermalink }}">
                 {{- range first 1 (.Resources.ByType "image") }}
-                <img class="img-fluid" src="{{ . | relURL }}">
+                <img class="img-fluid" src="{{ .RelPermalink }}{{ . }}">
                 {{- end }}
                 <h5>{{ $e.Title }}</h5>
               </a>

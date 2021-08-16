@@ -1,3 +1,5 @@
+Changes to gitignore: Run git rm -r --cached .
+
 find -regextype posix-extended -regex '.{257,}'
 
 find . -wholename '*/cities/*/excursions/*/_index.md' -exec sed -i 's/type: excursions/type: excursion/g' {} \;

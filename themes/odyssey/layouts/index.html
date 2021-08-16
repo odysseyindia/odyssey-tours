@@ -58,7 +58,10 @@
 {{ end }}
 {{ define "postscript" }}
 
-
+{{"<!-- Google map -->" | safeHTML }}
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZ1TWStdIWQYeNDBKpE6SgJSEd4EerEdg&amp;callback=initMap" async="" defer=""></script>
+{{- $js := resources.Get "/js/region.js" }}
+<script src="{{ $js.RelPermalink }}" defer></script>
 
 
 {{ end }} 
