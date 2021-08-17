@@ -10,6 +10,13 @@
   width: 100%;
 }
 
+@media (min-width: 1200px) {
+.column {
+  flex: 1;
+}
+
+}
+
   /* Header Parallax Element Style*/ 
   .paral {
     min-height: 600px;
@@ -71,6 +78,25 @@
   }
 
   #themes {
+
+    .visually-hidden {
+      visibility: hidden;
+    }
+
+    .card {
+      margin: 0 10px 0 0;
+    }
+
+    .card > :last-child {
+      margin-right: 0;
+    }
+
+    .card-img-overlay{
+      text-shadow: 0 1px 2px RGB(0 0 0/90%);
+      pointer-events: auto;
+    }
+
+
     padding: 20px 0 20px 0;
     background: url("/parallax4.jpg") no-repeat;
     color:  #e5e8e8 ;
@@ -87,38 +113,39 @@
       text-align: center;
     }
 
-    @media (max-width: 992px) {
+    @media (max-width: 767px) {
       .carousel-inner .carousel-item > div {
-        display: none;
+          display: none;
       }
       .carousel-inner .carousel-item > div:first-child {
-        display: block;
+          display: block;
       }
     }
 
     .carousel-inner .carousel-item.active,
     .carousel-inner .carousel-item-next,
     .carousel-inner .carousel-item-prev {
-      display: flex;
-      justify-content: center;
+        display: flex;
     }
 
-    @media (min-width: 992px) {
-      .carousel-inner .carousel-item-right.active,
+    @media (min-width: 768px) {
+
+      .carousel-inner .carousel-item-end.active,
       .carousel-inner .carousel-item-next {
-        transform: translateX(16.6%);
+        transform: translateX(25%);
       }
-
-      .carousel-inner .carousel-item-left.active, 
+      
+      .carousel-inner .carousel-item-start.active, 
       .carousel-inner .carousel-item-prev {
-        transform: translateX(-16.6%);
+        transform: translateX(-25%);
       }
     }
 
-    .carousel-inner .carousel-item-right,
-    .carousel-inner .carousel-item-left{ 
+    .carousel-inner .carousel-item-end,
+    .carousel-inner .carousel-item-start { 
       transform: translateX(0);
     }
+
   }
 
   #region {

@@ -3,6 +3,8 @@
 .logo {
   height: 50px;
   width: 50px;
+  margin-left: 20px;
+  margin-bottom: 10px;
 }
 
 svg {
@@ -66,7 +68,7 @@ $phone: 320px;
 
 
   span.h1 {
-    @include resize(2rem);
+    @include resize(1.5rem);
   }
 
 
@@ -82,7 +84,7 @@ $phone: 320px;
     top: 0;
     z-index: 1020; } }
 
-.sr-only {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;

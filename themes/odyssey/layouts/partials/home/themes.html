@@ -1,29 +1,31 @@
 {{"<!-- Themes -->" | safeHTML }}
 <div id="themes">
   <div class="text-center my-3">
-    <div class="row mx-auto my-auto">
-      <div id="myCarousel" class="carousel slide w-100" data-ride="carousel">
-        <div class="carousel-inner w-100" role="listbox">
+    <div class="row mx-auto my-auto justify-content-center">
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner" role="listbox">
           {{- range $index,$e := ( where ( where .Site.RegularPages "Section" "experience") ".Params.id" "interest" ) }}
           <div class="carousel-item {{ if not $index }}active{{ end }}">
-            <div class="col-lg-2">
-              <a href="{{ .RelPermalink }}">
-                {{- range first 1 (.Resources.ByType "image") }}
-                <img class="img-fluid" src="{{ .RelPermalink }}{{ . }}">
-                {{- end }}
-                <h5>{{ $e.Title }}</h5>
-              </a>
+            <div class="col-md-3">
+              <div class="card">
+                <div class="card-img">
+                  {{- range first 1 ((.Resources.ByType "image").Match "theme*") }} 
+                  <img class="img-fluid" src="{{ .RelPermalink }}">
+                  {{- end }}
+                </div>
+                <div class="card-img-overlay"><a href="{{ .RelPermalink }}">{{ $e.Title }} </a></div>             
+              </div>
             </div>
           </div>
           {{ end }}
         </div>
-        <a class="carousel-control-prev bg-dark w-auto" href="#myCarousel" role="button" data-slide="prev">
+        <a class="carousel-control-prev bg-transparent w-auto" href="#myCarousel" role="button" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
+          <span class="visually-hidden">Previous</span>
         </a>
-        <a class="carousel-control-next bg-dark w-auto" href="#myCarousel" role="button" data-slide="next">
+        <a class="carousel-control-next bg-transparent w-auto" href="#myCarousel" role="button" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
+          <span class="visually-hidden">Next</span>
         </a>
       </div>
     </div>

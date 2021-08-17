@@ -7,11 +7,13 @@
   <div class="carousel-inner">
     {{- with $range }}
       {{- range $index, $value := . }} 
+      {{- if not (in .Name "theme" ) }}
       <div class="carousel-item {{if eq  $index 0 }}active{{ end }}">
       <img class="w-100 lazyload" itemprop="image" data-src="{{ .RelPermalink }}" title="$.Title" alt="$.Title" srcset="{{ .RelPermalink }} 500w, {{ .RelPermalink }} 800w, {{ .RelPermalink }} 1200w, {{ .RelPermalink }} 1500w"> 
       <div class="w-100" style="position: absolute; bottom: 0px; height: 40px; background-image: linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.65));"></div>
       </div>
-      {{- end  }}<!-- end range -->
+      {{- end }}
+      {{- end }}<!-- end range -->
     {{- end -}}<!-- end with -->
     <div class="content container aligner">
       <div class="aligner-item">

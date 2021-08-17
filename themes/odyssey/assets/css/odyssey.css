@@ -410,15 +410,6 @@ footer a {
   display: block;
 }
 
-.bg {
-  background-color: beige;
-  padding: 30px;
-}
-
-img {
-  width: 100%;
-}
-
 .card-deck {
   display: flex;
   flex-flow: row wrap;
@@ -1049,7 +1040,13 @@ h2 > span {
   content: "";
 }
 
-.icon-info, .icon-city, .icon-excursion, .icon-hotel, .icon-transfer, .icon-flight, .icon-train {
+.icon-info,
+.icon-city,
+.icon-excursion,
+.icon-hotel,
+.icon-transfer,
+.icon-flight,
+.icon-train {
   border-radius: 50%;
   padding: 5px;
   color: black;

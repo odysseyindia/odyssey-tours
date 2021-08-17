@@ -10855,10 +10855,15 @@ a:not([href]):not([tabindex]):focus {
 img {
   max-width: 100%;
   height: auto;
+  width: 100%;
 }
 
 figcaption {
   width: 100%;
+}
+
+.bg {
+  background-color: #f4f4f5;
 }
 
 ol:before.no-content, li:before.no-content {
@@ -10984,6 +10989,8 @@ iframe .gtm {
 #header .logo {
   height: 50px;
   width: 50px;
+  margin-left: 20px;
+  margin-bottom: 10px;
 }
 #header svg {
   width: 111px;
@@ -11013,27 +11020,27 @@ iframe .gtm {
 }
 @media only screen and (max-width: 1920px) {
   #header span.h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 @media only screen and (max-width: 1400px) {
   #header span.h1 {
-    font-size: 3rem;
+    font-size: 2.25rem;
   }
 }
 @media only screen and (max-width: 1200px) {
   #header span.h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 @media only screen and (max-width: 500px) {
   #header span.h1 {
-    font-size: 1.5rem;
+    font-size: 1.125rem;
   }
 }
 @media only screen and (max-width: 320px) {
   #header span.h1 {
-    font-size: 1rem;
+    font-size: 0.75rem;
   }
 }
 #header .flex-container {
@@ -11046,7 +11053,7 @@ iframe .gtm {
     z-index: 1020;
   }
 }
-#header .sr-only {
+#header .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;

@@ -107,10 +107,16 @@ a:not([href]):not([tabindex]):focus {
 
 img {
   max-width: 100%;
-  height: auto; }
+  height: auto; 
+  width: 100%;
+}
 
 figcaption {
   width: 100%
+}
+
+.bg {
+  background-color: $page;  
 }
 
 ol:before.no-content, li:before.no-content {
