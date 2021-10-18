@@ -3,7 +3,7 @@ title: Hampi Extension
 subtitle: Hampi
 translationKey: hampi-extension
 type: tim/itinerary
-tour: Hampi Extension
+tours: Hampi Extension
 highlights:
   - Exploring the ruins of exquisitely-carved temples and halls
   - Relaxing with a mint-and-lime 'lemonana' in the heat of day

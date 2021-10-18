@@ -4,7 +4,7 @@ subtitle: Kochi, Thekkady, Alleppey, Mararikulam
 translationKey: an-introduction-to-kerala
 type: tim/itinerary
 weight: '601'
-tour: An Introduction to Kerala
+tours: An Introduction to Kerala
 highlights:
   - >-
     Exploring charming Fort Kochi, with its Portuguese, Dutch and British

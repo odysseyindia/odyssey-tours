@@ -3,7 +3,7 @@ title: Highlights of Nepal
 subtitle: Kathmandu, Pokhara, Chitwan National Park, Dhulikhel
 translationKey: highlights-of-nepal
 type: tim/itinerary
-tour: Highlights of Nepal
+tours: Highlights of Nepal
 highlights:
   - Nepal's highlights, conveniently packaged
   - Beautiful hotels, with Newari architecture and charm

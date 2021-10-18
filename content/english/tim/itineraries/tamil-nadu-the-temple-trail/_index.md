@@ -4,7 +4,7 @@ subtitle: 'Chennai, Mamallapuram, Pondicherry, Kumbakonam, Thanjavur, Madurai '
 weight: '602'
 translationKey: tamil-nadu-the-temple-trail
 type: tim/itinerary
-tour: Tamil Nadu - The Temple Trail
+tours: Tamil Nadu - The Temple Trail
 highlights:
   - Learning about Hinduism through stories in Chennai
   - Visiting the Shore Temple in Mamallapuram

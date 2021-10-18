@@ -1484,7 +1484,7 @@ app.post('/create',function (req, res) {
   var title   = request.title;
   var folder  = urlize(tour);
   var file    = dir + "/tim/itineraries/" + folder + '/_index.md'; 
-  let output  = "---\ntitle: "+title+"\nsubtitle: \ntranslationKey: "+folder+"\ntype: tim/itinerary\ntour: "+tour+"\nhighlights: \nitinerary: \n  - day: 0\n---\n" ;
+  let output  = "---\ntitle: "+title+"\nsubtitle: \ntranslationKey: "+folder+"\ntype: tim/itinerary\ntours: "+tour+"\nhighlights: \nitinerary: \n  - day: 0\n---\n" ;
 
   // console.log("file " ,file);
 

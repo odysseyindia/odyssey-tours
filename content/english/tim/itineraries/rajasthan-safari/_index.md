@@ -6,7 +6,7 @@ subtitle: >-
 translationKey: rajasthan-safari
 weight: '105'
 type: tim/itinerary
-tour: Rajasthan Safari
+tours: Rajasthan Safari
 itinerary:
   - day: 0
     item:

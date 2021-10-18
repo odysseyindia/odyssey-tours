@@ -3,7 +3,7 @@ title: Spiritual India
 subtitle: Delhi, Amritsar, Dharamsala, Rishikesh, Haridwar
 translationKey: spiritual-india
 type: tim/itinerary
-tour: Spiritual India
+tours: Spiritual India
 highlights:
   - Being awed by the serene Golden Temple in Amritsar
   - Learning about Buddhism and Tibetan culture in Dharamsala

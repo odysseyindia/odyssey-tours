@@ -3,7 +3,7 @@ title: Cintacor Island Extension
 subtitle: Karwar
 translationKey: cintacor-island-extension
 type: tim/itinerary
-tour: Cintacor Island Extension
+tours: Cintacor Island Extension
 highlights:
   - Total seclusion from the outside world
   - Spectacular views all round the island

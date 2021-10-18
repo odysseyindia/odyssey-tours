@@ -3,7 +3,7 @@ title: The Brits in the Hills
 subtitle: Delhi, Patiala, Pragpur, Palampur, Shimla
 translationKey: the-brits-in-the-hills
 type: tim/itinerary
-tour: The Brits in the Hills
+tours: The Brits in the Hills
 highlights:
   - Stay in charming hotels, from a palace to a cottage to a judge's mansion
   - >-

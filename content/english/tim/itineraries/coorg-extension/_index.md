@@ -3,7 +3,7 @@ title: Coorg Extension
 subtitle: Madikeri
 translationKey: coorg-extension
 type: tim/itinerary
-tour: Coorg Extension
+tours: Coorg Extension
 highlights:
   - Exploring lush coffee plantations
   - Looking for endemic bird species

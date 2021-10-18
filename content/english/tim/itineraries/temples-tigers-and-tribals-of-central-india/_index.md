@@ -3,7 +3,7 @@ title: Temples, Tigers & Tribals of Central India
 subtitle: Delhi, Orchha, Khajuraho, Bandhavgarh, Kanha, Bhoramdeo
 translationKey: temples-tigers-and-tribals-of-central-india
 type: tim/itinerary
-tour: Temples, Tigers & Tribals of Central India
+tours: Temples, Tigers & Tribals of Central India
 highlights:
   - Giant palaces, cenotaphs and temples in Orchha
   - Erotic carvings in Khajuraho (and even in Bhoramdeo!)

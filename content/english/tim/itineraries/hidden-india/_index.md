@@ -5,7 +5,7 @@ subtitle: >-
   Delhi 
 translationKey: hidden-india
 type: tim/itinerary
-tour: Hidden India
+tours: Hidden India
 highlights:
   - Staying with royal families in beautiful, hidden palaces and forts
   - Learning about Gandhi at Sabarmati ashram

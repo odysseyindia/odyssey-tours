@@ -3,7 +3,7 @@ title: Amongst the Maharajas
 subtitle: Mumbai, Maheshwar, Kathiwada, Santrampur, Dungarpur, Delwara (Devigarh)
 translationKey: amongst-the-maharajas
 type: tim/itinerary
-tour: Amongst the Maharajas
+tours: Amongst the Maharajas
 highlights:
   - Opulent stays in royal palaces
   - Views over Maheshwar from Ahilya Fort

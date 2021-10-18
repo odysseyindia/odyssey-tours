@@ -557,6 +557,7 @@ themes:
   - Cultural journeys
 region: /destinations/india/regions/kerala-and-south-india/
 title: South Indian highlights
+tours: South Indian highlights
 type: tim/itinerary
 translationKey: south-india-highlights
 ---

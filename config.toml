@@ -121,7 +121,7 @@ taxonomy                = ["html","json"]
     name = "Tour Ideas"
     identifier = "tour-ideas"
     pre = "pen-tool"
-    url = "/tour-ideas/"
+    url = "/tours/"
     weight = 20
   [[Languages.en.menu.main]]
     name = "Explore"
