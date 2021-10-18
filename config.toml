@@ -16,6 +16,7 @@ ignoreErrors            = ["error-output-taxonomy"]
   tag                   = "tags"
   interest              = "interests"
   region                = "regions"
+  tour                  = "tours"
 
 [params]
 env                     = "PUBLIC"
@@ -73,24 +74,49 @@ taxonomy                = ["html","json"]
   [Languages.en]
     languageName = "English"
     languageCode = "en-gb"
-    contentDir = "content/english"
+    contentDir   = "content/english"
     languageFlag = "🇬🇧"
-    weight = 1
-    home = "Home"
-    unicode = "&#127468;&#127463;"
+    weight       = 1
+    home         = "Home"
+    unicode      = "&#127468;&#127463;"
 
   [[Languages.en.menu.main]]
-    name = "Home"
+    name       = "Home"
     identifier = "home"
-    pre = "home"
-    url = "/"
-    weight = 0
+    pre        = "home"
+    url        = "/"
+    weight     = 1
   [[Languages.en.menu.main]]
-    name = "TIM"
+    name       = "TIM"
     identifier = "tim"
-    pre = "tim"
-    url = "/tim/"
-    weight = 10
+    pre        = "tim"
+    url        = "/tim/"
+    weight     = 10
+  [[Languages.en.menu.tim]]
+    name       = "Itineraries"
+    identifier = "itineraries"
+    url        = "/tim/itineraries/"
+    weight     = 11
+  [[Languages.en.menu.tim]]
+    name       = "Hotels"
+    identifier = "hotels"
+    url        = "/tim/hotels/"
+    weight     = 12
+  [[Languages.en.menu.tim]]
+    name       = "Suppliers"
+    identifier = "suppliers"
+    url        = "/tim/suppliers/"
+    weight     = 13
+  [[Languages.en.menu.tim]]
+    name       = "Contacts"
+    identifier = "contacts"
+    url        = "/tim/contacts/"
+    weight     = 14
+  [[Languages.en.menu.tim]]
+    name       = "Resources"
+    identifier = "resources"
+    url        = "/tim/resources/"
+    weight     = 15
   [[Languages.en.menu.main]]
     name = "Tour Ideas"
     identifier = "tour-ideas"
@@ -121,29 +147,29 @@ taxonomy                = ["html","json"]
     url = "/explore-india/by-city"
     weight = 33
   [[Languages.en.menu.main]]
-    name = "Experience"
+    name       = "Experience"
     identifier = "experience"
-    pre = "pen-tool"
-    url = "/experience/"
-    weight = 40
+    pre        = "pen-tool"
+    url        = "/experience/"
+    weight     = 40
   [[Languages.en.menu.main]]
-    name = "Unique experiences"
-    parent = "experience"
-    pre = "pen-tool"
-    url = "/experience/unique-experiences/"
-    weight = 41
+    name       = "Unique experiences"
+    parent     = "experience"
+    pre        = "pen-tool"
+    url        = "/experience/unique-experiences/"
+    weight     = 41
   [[Languages.en.menu.main]]
-    name = "Explore by Interest"
-    parent = "experience"
-    pre = "pen-tool"
-    url = "/experience/by-interest/"
-    weight = 42
+    name       = "Explore by Interest"
+    parent     = "experience"
+    pre        = "pen-tool"
+    url        = "/experience/by-interest/"
+    weight     = 42
   [[Languages.en.menu.main]]
-    name = "Hotels"
+    name       = "Hotels"
     identifier = "hotels"
-    pre = "bed"
-    url = "/special-hotels/"
-    weight = 50
+    pre        = "bed"
+    url        = "/special-hotels/"
+    weight     = 50
   [[Languages.en.menu.main]]
     name = "About Us"
     identifier = "about"
@@ -178,31 +204,7 @@ taxonomy                = ["html","json"]
     url = "/contact/contact-us/"
     weight = 80
 
-  [[Languages.en.menu.tim]]
-    name = "Itineraries"
-    identifier = "itineraries"
-    url = "/tim/itineraries/"
-    weight = 11
-  [[Languages.en.menu.tim]]
-    name = "Hotels"
-    identifier = "hotels"
-    url = "/tim/hotels/"
-    weight = 12
-  [[Languages.en.menu.tim]]
-    name = "Suppliers"
-    identifier = "suppliers"
-    url = "/tim/suppliers/"
-    weight = 13
-  [[Languages.en.menu.tim]]
-    name = "Contacts"
-    identifier = "contacts"
-    url = "/tim/contacts/"
-    weight = 14
-  [[Languages.en.menu.tim]]
-    name = "Resources"
-    identifier = "resources"
-    url = "/tim/resources/"
-    weight = 15
+  
 
 
 [markup]

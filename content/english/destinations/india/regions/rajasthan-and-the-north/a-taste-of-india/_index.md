@@ -6,7 +6,7 @@ subtitle: >-
 weight: '110'
 translationKey: a-taste-of-india
 type: tour
-tour: A Taste of India
+tours: A Taste of India
 itinerary:
   - day: 0
     item:

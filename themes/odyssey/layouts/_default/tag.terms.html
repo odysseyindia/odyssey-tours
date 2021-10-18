@@ -1,13 +1,23 @@
 {{ define "main" }}
 {{ .Scratch.Set "layout" "layouts/_default/tag.terms.html" -}}
 
+
+{{ range .Data.Terms.Alphabetical }}
+<p>
+  <a class="btn btn-outline-dark font-125" href="{{ .Page.Permalink }}">
+    <span class="badge badge-dark">{{ .Count }}</span> {{ .Page.Title }}
+  </a>
+</p>
+{{ end }}
+
+
 {{- $categoryData  := .Site.Data.categories }}
 {{- $tagData       := .Site.Data.tags }}
 
 <section id="{{ .Scratch.Get "id" | lower }}"> 
     {{ partial "heading.html" . }}
    {{ range .Data.Pages }}
-   {{ .Title }}
+   <h5><a href="{{ .RelPermalink }}">{{ .Title }}</a></h5>
    {{ end }}
     </main>
 </section>

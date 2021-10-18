@@ -99,6 +99,28 @@
   {{ .Content | safeCSS }}
 {{- end -}}
 </style>
+
+
+{{- $optionsPostCSS := (dict "use" "autoprefixer") -}}
+
+<!-- if .Site.IsServer -->
+
+{{"<!-- stylesheet for this site -->"| safeHTML }}
+{{- $cssOpts := (dict "targetPath" "css/main.css" "enableSourceMap" true ) }}
+{{- $scss := printf "scss/main/odyssey.scss" }}
+{{- if fileExists (printf "assets/%s" $scss) }}  
+{{- $styles := resources.Get $scss | resources.ToCSS }} 
+<link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+{{- end }}
+
+{{"<!-- stylesheet for this page -->"| safeHTML }}
+{{- $cssOpts := (dict "targetPath" (printf "css/%s" (.Scratch.Get "id")) ) }}
+{{- $scss := printf "scss/main/%s.scss" (.Scratch.Get "id") }}
+{{- if fileExists (printf "assets/%s" $scss) }}  
+{{- $styles := resources.Get $scss | resources.ToCSS | resources.PostCSS $optionsPostCSS }}
+<link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+{{- end }}
+
 {{- with .Params.css }}
 {{"<!-- Customs scripts -->" | safeHTML }}
   {{- range . }}

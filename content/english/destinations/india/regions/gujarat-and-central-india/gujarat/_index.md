@@ -3,7 +3,7 @@ title: Gujarat
 subtitle: Ahmedabad, Dasada, Bhuj, Gondal, Sasangir, Diu, Palitana, Sayla
 translationKey: gujarat
 type: tour
-tour: Gujarat
+tours: Gujarat
 highlights:
   - The incredible step-well and Sun Temple outside Ahmedabad
   - Chasing the Wild Ass in the Little Rann of Kutch

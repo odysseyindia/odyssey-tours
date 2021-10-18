@@ -4,7 +4,7 @@ subtitle: 'Delhi, Bharatpur, Chambal River Sanctuary, Agra, Bhopal, Satpura Nati
 weight: 111
 translationKey: bird-watching-in-north-india
 type: tour
-tour: Bird Watching in North India
+tours: Bird Watching in North India
 itinerary:
   - day: 0
     item:

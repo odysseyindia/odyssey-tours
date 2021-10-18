@@ -1,5 +1,7 @@
 #regions {
 
+	margin-top: 30px;
+
 	#map {
 		position: absolute;
 		top: 0;
@@ -10,6 +12,7 @@
 
 	.regions-map {
 		height: 450px;
+		position: relative;
 	}
 
 	.where-to-go {
@@ -18,7 +21,6 @@
 	}
 
   	.content {
-    	margin-top: 30px;
     	margin-bottom: 30px;
     	padding-left: 30px;
   	}
@@ -52,11 +54,29 @@
 	.wrapper{
 		display: flex;
 		flex-direction: row;
-		flex-wrap: nowrap;
+		flex-wrap: wrap;
 		justify-content: space-evenly;
+		margin-bottom: 30px;
+	}
+
+@media screen and (max-width: 991px) {
+label {
+	  width: 10%;
+	}
+
+	.wrapper{
+		flex-direction: column;
 		width: 100%;
 		margin-bottom: 30px;
 	}
+
+	#formContact select, #formContact input {
+		width: 80%;
+		text-indent: 5px;
+	}
+
+}
+
 
 	.submit {
 		text-align: center;
@@ -75,6 +95,10 @@
 
 	.bot{
     	display: none; 
+    }
+
+    .card-title {
+    	text-align: center;
     }
 
 /* end */

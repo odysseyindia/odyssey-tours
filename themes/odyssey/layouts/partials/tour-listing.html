@@ -3,34 +3,32 @@
     <figure >
       {{- range first 1 (.Resources.ByType "image") }} 
       <a href="{{ $.RelPermalink }}"  class="hover-effect">
-      <img class="lazyload" itemprop="image" data-src="{{ .RelPermalink }}" alt="{{ substr .Title  0 -4 | humanize }}" sizes="(min-width: 35em) 200px, 100vw" >
+        <img class="lazyload" itemprop="image" data-src="{{ .RelPermalink }}" alt="{{ substr .Title  0 -4 | humanize }}" sizes="(min-width: 35em) 200px, 100vw" >
       </a> 
       {{- end }}  
     </figure>
   </div>
-  <div class="article-text" > 
-    <div class="article">
-      <div class="article-details" > 
-        <a  href="{{ .Permalink }}" class="hover-effect">  
-          <h3>{{ .Title }}</h3>
-        </a>
-        <h4 class="subtitle">{{ .Params.subtitle }}</h4>
-        <h4 class="highlights">Highlights:</h4>
-        <ul class="ul">
-          {{ range .Params.highlights  }}
-          <li>{{ . }}</li>
-          {{ end }}
-        </ul>
-      </div>
-      <div class="article-pricing">
-        <div class="days">
-         
-          {{- with .Params.days }} {{ . }} {{ else }} {{ with $.Params.itinerary  }} {{ len $.Params.itinerary  }} {{ end}} {{ end }} Days</div>
-        <div>from</div>
-        <div class="price">{{ .Params.currency }} {{ .Params.cost }}</div>
-        <div class="view"><a title="View this tour" href="{{ .Permalink }}">View this tour</a></div>
-        <div class="request"><a title="Request a quote" href="/contact/contact-us">Request a quote</a></div>
-      </div>
-    </div>
+
+  <div class="article-details" > 
+    <a  href="{{ .Permalink }}" class="hover-effect">  
+      <h3>{{ .Title }}</h3>
+    </a>
+    <h4 class="subtitle">{{ .Params.subtitle }}</h4>
+    <h4 class="highlights">Highlights:</h4>
+    <ul class="ul">
+      {{ range .Params.highlights  }}
+      <li>{{ . }}</li>
+      {{ end }}
+    </ul>
   </div>
+
+  <div class="article-pricing">
+    <div class="days">
+    {{- with .Params.days }} {{ . }} {{ else }} {{ with $.Params.itinerary  }} {{ len $.Params.itinerary  }} {{ end}} {{ end }} Days</div>
+    <div>from</div>
+    <div class="price">{{ .Params.currency }} {{ .Params.cost }}</div>
+    <div class="view"><a title="View this tour" href="{{ .Permalink }}">View this tour</a></div>
+    <div class="request"><a title="Request a quote" href="/contact/contact-us">Request a quote</a></div>
+  </div>
+  
 </article>

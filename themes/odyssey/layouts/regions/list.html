@@ -4,7 +4,7 @@
 {{- $month := index .Site.Data "date" }}
 
 <section id="{{ .Scratch.Get "id" | lower }}"> 
-  {{ partial "heading.html" . }}
+
   <div class="container">
     <div class="row">
       <div class="col-sms-6 col-sm-8 col-md-9">
@@ -110,8 +110,52 @@
 
 {{"<!-- Google map -->" | safeHTML }}
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZ1TWStdIWQYeNDBKpE6SgJSEd4EerEdg&amp;callback=initMap" async="" defer=""></script>
-{{ $js := resources.Get "/js/region.js" -}}
-<script src="{{ $js.RelPermalink }}" defer></script>
+<script >
+  // collect regions
+  var locations = [
+    {{- range $i, $v := .Site.Data.regions.india }}
+      {{ if ne $v.draft true }}
+         [{{ $v.lat }},{{$v.long}}, {{$v.image}}, {{$v.url}}],
+      {{- end }}
+    {{- end }}
+  ];
+
+  function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 4,
+      center: new google.maps.LatLng(23.268764, 81.474609),
+      mapTypeId: google.maps.MapTypeId.TERRAIN,
+      mapTypeControl: false,
+      streetViewControl: false,
+      panControl: false,
+      scrollwheel: false,
+      navigationControl: false,
+      scaleControl: false,
+      draggable: false,
+      disableDefaultUI: true,
+    });
+
+    var gmarkers = new Array();
+
+    for (var i = 0; i < locations.length; i++) { 
+
+      var marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][0], locations[i][1]),
+        map: map,
+        icon: '/markers/' + locations[i][2],
+        url: locations[i][3]
+      });
+
+      gmarkers.push(marker);
+
+      google.maps.event.addListener(marker, 'click', function() {
+        window.location.href = this.url;
+      });
+
+    };
+  };
+
+</script>
 
 <script>
 // email confirmation message 

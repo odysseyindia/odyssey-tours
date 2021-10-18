@@ -1,7 +1,7 @@
 ---
 title: Explore by Region
 date: 2020-09-21T12:59:23+02:00
-type: "by-region"
+type: "regions"
 translationKey: "by-region"
 ---
 

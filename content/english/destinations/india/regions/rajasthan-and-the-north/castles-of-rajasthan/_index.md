@@ -4,7 +4,7 @@ subtitle: Delhi, Jaipur, Barli, Jodhpur, Narlai, Deogarh, Udaipur
 weight: '107'
 translationKey: castles-of-rajasthan
 type: tour
-tour: Castles of Rajasthan
+tours: Castles of Rajasthan
 itinerary:
   - day: 0
     item:

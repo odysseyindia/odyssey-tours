@@ -5,7 +5,7 @@ subtitle: >-
   Kapilavastu, Shravasti
 translationKey: in-the-footsteps-of-the-buddha
 type: tour
-tour: In the Footsteps of the Buddha
+tours: In the Footsteps of the Buddha
 highlights:
   - Seven of the eight holiest sites of Buddhism
   - >-

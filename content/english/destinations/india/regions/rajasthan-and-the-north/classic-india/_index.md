@@ -2,7 +2,7 @@
 title: Classic India
 subtitle: Delhi, Jaipur, Agra, Orchha, Khajuraho, Varanasi
 type: tour
-tour: classic-india
+tours: classic-india
 weight: '102'
 itinerary:
   - day: 0

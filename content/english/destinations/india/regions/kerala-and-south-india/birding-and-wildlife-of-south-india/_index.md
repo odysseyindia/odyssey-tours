@@ -7,7 +7,7 @@ subtitle: >-
 weight: '606'
 translationKey: birding-and-wildlife-of-south-india
 type: tour
-tour: Birding & Wildlife of South India
+tours: Birding & Wildlife of South India
 highlights:
   - Birding and nature walks in Thattekad, Thekkady, Dindigul and Perumparai
   - Looking for the endangered Nilgiri tahr ibex in Munnar

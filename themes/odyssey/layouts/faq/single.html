@@ -1,40 +1,37 @@
 {{- define "main" }}
-{{- .Scratch.Set "layout" "layouts/faq/single.html" }}
-
-<section id="{{ .Scratch.Get "id" | lower }}"> 
-  {{ partial "heading.html" . }}
+{{- .Scratch.Set "layout" "layouts/faq/single.html" -}}
+<section id="{{ .Scratch.Get "id" | lower }}">
   <div class="container">
     <div class="row">
-      <div class="mx-auto w-50 p-3">
+      <div class="mx-auto w-75 p-1">
+        {{"<!-- Question -->" | safeHTML }}
+        <div id="accordion" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          {{- range $i,$e := $.Page.Params.questions }}
+          <div class="card">
+            <div class="card-header" id="heading{{$i}}">
+              <h5 class="mb-0">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{$i}}" aria-expanded="false" aria-controls="collapse{{$i}}">
+                  <h4 itemprop="name">{{ .faq }}</h4>
+                </button>
+              </h5>
+            </div>
+            <div id="collapse{{$i}}" class="accordion-collapse collapse" aria-labelledby="heading{{$i}}" data-bs-parent="#accordion">
+              <div class="accordion-body">
+                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                  <div itemprop="text">
+                    {{ .text }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {{- end }}
+        </div>
+        <br>
         {{ .Content }}
       </div>
     </div>
   </div>
-  <div class="mx-auto w-80 p-1">
-    <div id="accordion" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-    {{"<!-- Questions -->" | safeHTML }}
-    {{- range $i,$e := $.Page.Params.questions }}
-      <div class="card">
-        <div class="card-header" id="heading{{$i}}">
-          <h5 class="mb-0">
-            <button class="btn btn-link" data-toggle="collapse" data-target="#collapse{{$i}}" aria-expanded="true" aria-controls="collapse{{$i}}">
-              <h4 itemprop="name">{{ .faq }}</h4>
-            </button>
-          </h5>
-        </div>
-        <div id="collapse{{$i}}" class="collapse" aria-labelledby="heading{{$i}}" data-parent="#accordion">
-          <div class="card-body">
-            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-              <div itemprop="text">
-                {{ .text }}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    {{- end }}
-    </div>
-  </div>
 </section>
-{{"<!-- end Content -->" | safeHTML}}
-{{- end }} 
+{{- end }}
+

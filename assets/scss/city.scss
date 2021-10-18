@@ -1,5 +1,7 @@
 #city {
 
+margin-top: 30px;
+
 	.icon-bar  {
 		display: flex;
 		flex-flow: row nowrap;
@@ -20,9 +22,8 @@
 
 	
   p {
-    text-align: left;
-    padding-left: 20px;
-    padding-right: 20px;
+    text-align: justify;
+    padding: 0px;
   }
 
 /* tab pages */

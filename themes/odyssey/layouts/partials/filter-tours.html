@@ -79,12 +79,14 @@
       {{"<!-- regions -->" | safeHTML }}
       <div class="box">
         <div class="panel style1 arrow-right">
-          <h4 class="label">Filter by region</h4>
-            {{- range .pages.ByWeight }}
+          <h4 class="label">Filter by region</h4>          
+            {{- range $i, $v := .dot.Site.Data.regions.india }}
+            {{ if ne $v.draft true }}
             <div class="form-check">
-              <input type="checkbox" class="custom-control-input" id="{{ .Params.translationKey }}" {{ if eq  .Params.translationKey $.dot.Page.Params.translationKey }}checked {{ end }} >&nbsp;
-              <label class="custom-control-label" for="r{{ .Params.translationKey }}"> {{ .Title }}</label>
+              <input type="checkbox" class="custom-control-input" id="{{ $v.id }}" {{ if eq  $.Params.translationKey $v.title }}checked {{ end }} >&nbsp;
+              <label class="custom-control-label" for="r{{ $v.id }}"> {{ $v.title }}</label>
             </div>
+            {{- end }}
             {{- end }}
         </div>
       </div>

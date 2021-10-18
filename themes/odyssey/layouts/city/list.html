@@ -3,18 +3,20 @@
 {{- $scratch := newScratch }}
 
 <section id="{{ .Scratch.Get "id" | lower }}">  
-  {{ partial "heading.html" . }}
+ 
   <div class="container">
       <div class="md-6">
         {{ .Content }}
       </div>
+      <!--
       <div class="md-6">
         <a href="{{ $.RelPermalink }}"  class="hover-effect">
           {{- range ( where ( where $.Site.Pages "Section" "destinations") ".RelPermalink" $.RelPermalink ) }} 
           {{ partial "image-single" . }}
-          {{- end }}
+          {{- end }} 
         </a>   
       </div>
+    -->
     </div>
     <div class="container">
     <div class="tab-wrapper">
@@ -96,7 +98,7 @@
 <script>
 function initMap() {
   
-  const target = { lat: {{ .Params.longitude }}, lng: {{ .Params.latitude }} };
+  const target = { lat: {{ .Params.latitude }}, lng: {{ .Params.longitude }} };
 
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 7,

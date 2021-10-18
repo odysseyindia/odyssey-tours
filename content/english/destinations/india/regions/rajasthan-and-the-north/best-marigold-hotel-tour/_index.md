@@ -4,7 +4,7 @@ subtitle: Delhi, Udaipur, Khempur, Bijaipur, Bundi, Jaipur, Agra, Delhi
 weight: '108'
 translationKey: best-marigold-hotel-tour
 type: tour
-tour: Best Marigold Hotel Tour
+tours: Best Marigold Hotel Tour
 itinerary:
   - day: 0
     item:

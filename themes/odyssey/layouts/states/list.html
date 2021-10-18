@@ -4,7 +4,6 @@
 {{- $scratch := newScratch }}
 
 <section id="{{ .Scratch.Get "id" | lower }}"> 
-  {{ partial "heading.html" . }}
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-6">
@@ -45,10 +44,10 @@
 {{ end}}
 {{- define "postscript" }}
 
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js" charset="utf-8"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mapael/2.1.0/js/jquery.mapael.min.js" charset="utf-8"></script>
-<script type="text/javascript" src="/mapael/india_states.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js" integrity="sha512-tBzZQxySO5q5lqwLWfu8Q+o4VkTcRGOeQGVQ0ueJga4A1RKuzmAu5HXDOXLEjpbKyV7ow9ympVoa6wZLEzRzDg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-mapael/2.2.0/js/jquery.mapael.min.js"></script>
+<script src="/mapael/india_states.js" charset="utf-8"></script>
 
 <script>
 $(".mapcontainer").mapael(

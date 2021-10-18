@@ -1,0 +1,62 @@
+india:
+- id: rajasthan-and-the-north
+  title : Rajasthan & the North
+  lat   : 26.92555556
+  long  : 75.82361111
+  image : '/image_1.png'
+  url   : '/destinations/india/regions/rajasthan-and-the-north/'
+  draft : false
+- id: foothills-of-the-himalayas
+  title : Foothills of the Himalaya
+  lat   : 32.28555556
+  long  : 77.16222222
+  image : '/image_2.png'
+  url   : '/destinations/india/regions/foothills-of-the-himalayas/'
+  draft : false
+- id: kolkata-orissa-and-the-northeast
+  title : Kolkata, Orissa and the North East
+  lat   : 24.63750000
+  long  : 87.84861100
+  image : '/image_3.png'
+  url   : '/destinations/india/regions/kolkata-orissa-and-the-northeast/'
+  draft : false
+- id: gujarat-and-central-india
+  title : Gujarat & Central India 
+  lat   : 23.02166667
+  long  : 72.59027778
+  image : '/image_4.png'
+  url   : '/destinations/india/regions/gujarat-and-central-india/'
+- id: mumbai-goa-and-the-deccan
+  title : Mumbai, Goa & the Deccan 
+  lat   : 18.999803
+  long  : 72.817383
+  image : '/image_5.png'
+  url   : '/destinations/india/regions/mumbai-goa-and-the-deccan/'
+- id: kerala-and-south-india
+  title : Kerala and South India
+  lat   : 8.36944444
+  long  : 77.00444444
+  image : '/image_7.png'
+  url   : '/destinations/india/regions/kerala-and-south-india/'
+  draft : false
+- id: andamans
+  title : Andamans
+  lat   : 11.65979
+  long  : 92.71582
+  image : '/image_8.png'
+  url   : '/destinations/india/regions/andamans/'
+  draft : false
+- id: the-lakshadweep-islands
+  title : The Lakshadweep Islands
+  lat   : 10.951111
+  long  : 72.287778
+  image : '/image_9.png'
+  url   : '/destinations/india/regions/the-lakshadweep-islands/'
+  draft : true
+- id: karnataka-and-tamil-nadu
+  title : Karnataka & Tamil Nadu
+  lat   : 13.05027778
+  long  : 80.23222222
+  image : '/image_6.png'
+  url   : '/destinations/india/regions/karnataka-and-tamil-nadu/'
+  draft : true 

@@ -3,7 +3,7 @@ title: Jim Corbett Country
 subtitle: Delhi, Binsar, Ramgarh, Corbett National Park
 translationKey: jim-corbett-country
 type: tour
-tour: Jim Corbett Country
+tours: Jim Corbett Country
 highlights:
   - Spectacular views of snow-capped peaks
   - Cosy cottage stays with crackling fires and Kumaoni folk songs
