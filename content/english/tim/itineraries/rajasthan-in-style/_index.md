@@ -8,6 +8,10 @@ tours: Rajasthan in Style
 itinerary:
   - day: 0
     item:
+      - type: info
+        url: ''
+        title: Start of the tour
+        content: Today you will arrive at Delhi airport and etc
       - type: transfer
         url: >-
           /destinations/india/states/delhi/cities/delhi/transfers/transfer-from-international-airport-to-hotel/
@@ -49,6 +53,10 @@ itinerary:
         nights: ''
   - day: 1
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: excursion
         url: >-
           /destinations/india/states/delhi/cities/delhi/excursions/half-day-tour-of-new-delhi/
@@ -70,6 +78,10 @@ itinerary:
         duration: ''
   - day: 2
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: city
         url: /destinations/india/states/rajasthan/cities/samode/
         title: Samode
@@ -102,6 +114,10 @@ itinerary:
         nights: ''
   - day: 3
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/samode/excursions/day-at-leisure-in-samode/
@@ -124,6 +140,10 @@ itinerary:
         duration: ''
   - day: 4
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: city
         url: /destinations/india/states/rajasthan/cities/jaipur/
         title: Jaipur
@@ -157,6 +177,10 @@ itinerary:
         nights: ''
   - day: 5
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/jaipur/excursions/morning-walking-tour-of-jaipur/
@@ -192,6 +216,10 @@ itinerary:
         duration: ''
   - day: 6
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: city
         url: /destinations/india/states/rajasthan/cities/raipur/
         title: Raipur
@@ -221,6 +249,10 @@ itinerary:
         nights: ''
   - day: 7
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/raipur/excursions/day-at-leisure-at-lakshman-sagar/
@@ -236,6 +268,10 @@ itinerary:
         duration: ''
   - day: 8
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: city
         url: /destinations/india/states/rajasthan/cities/jodhpur/
         title: Jodhpur
@@ -268,6 +304,10 @@ itinerary:
         nights: ''
   - day: 9
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/jodhpur/excursions/audio-guide-tour-of-jodhpurs-meherangarh-fort/
@@ -294,6 +334,10 @@ itinerary:
         duration: ''
   - day: 10
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: city
         url: /destinations/india/states/rajasthan/cities/chanoud/
         title: Chanoud
@@ -330,7 +374,7 @@ itinerary:
           The personable young owners will oversee every moment of your stay.
           They will show you round the property, including the museum-like Hall,
           and escort you to your sumptuous room. All meals are included, and are
-          served in different atmospheric "dining locations".
+          served in different atmospheric “dining locations”.
         checkInDate: ''
         checkInTime: ''
         checkOutDate: ''
@@ -338,6 +382,10 @@ itinerary:
         nights: ''
   - day: 11
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/chanoud/excursions/morning-village-walk/
@@ -371,6 +419,10 @@ itinerary:
         duration: ''
   - day: 12
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: city
         url: /destinations/india/states/rajasthan/cities/udaipur/
         title: Udaipur
@@ -405,6 +457,10 @@ itinerary:
         nights: ''
   - day: 13
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: excursion
         url: >-
           /destinations/india/states/rajasthan/cities/udaipur/excursions/morning-city-tour-followed-by-a-boat-trip/
@@ -429,6 +485,10 @@ itinerary:
         duration: ''
   - day: 14
     item:
+      - type: info
+        url: ''
+        title: ''
+        content: ''
       - type: transfer
         url: >-
           /destinations/india/states/rajasthan/cities/udaipur/transfers/transfer-from-hotel-to-airport/

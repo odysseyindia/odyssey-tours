@@ -1,9 +1,7 @@
 import docLoad from './docload.js';
 import { changeType, getSelection } from './selectItems.js';
-import fadeAlert from './fadealert.js';
 
-var appHost = window.location.protocol + "//" + window.location.hostname + ":" + (parseFloat(window.location.port) + parseFloat(1)) +'/';
-
+var appHost    = window.location.protocol + "//" + window.location.hostname + ":" + (parseFloat(window.location.port) + parseFloat(1)) +'/';
 var renewables = document.querySelectorAll(".draggable");
 
 renewables.forEach(renewable => {
@@ -19,13 +17,27 @@ renewables.forEach(renewable => {
         let data = JSON.parse(xhr.responseText);
         myClass[0].innerText = data.content;
       };
+      if (xhr.readyState === 4 && xhr.status !== 200) { 
+        let data = JSON.parse(xhr.responseText);
+        myClass[0].innerText = data.content;
+      };
     };
     xhr.send();
   }
 });
 
 window.onload = function(){
-  fadeAlert();
+  // test if the app server is online
+   
+  docLoad({
+      url:    'online', 
+      method: 'POST',
+      appHost: appHost, 
+      data:   JSON.stringify({ 
+        "file" : window.location.pathname+'config.yml'
+      })
+    })
+  
   testForInfo();
 };
 
@@ -400,7 +412,7 @@ function saveItinerary(deleteDay){
     function(Error){ 
       console.log( Error ); 
     }
-    );
+  );
 };
 
 

@@ -40,6 +40,14 @@ app.use(function (req, res, next) {
   next();
 });
 
+app.post('/online',function (req, res) {
+
+  var request    = JSON.parse(req.body.data);
+  var file       = root + request.file;
+
+  console.log('System is online ');
+});
+
 
 app.post('/import',function (req, res) {
 

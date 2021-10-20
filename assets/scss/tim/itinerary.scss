@@ -6,37 +6,16 @@ section {
   flex: 1;
 }
 
-.alert-box {
-  padding: 15px;
-    margin-bottom: 20px;
-    border: 1px solid transparent;
-    border-radius: 4px;  
+.alert-primary {
+    color: #084298;
+    background-color: #cfe2ff;
+    border-color: #b6d4fe;
 }
 
-.alert {
-  color: red;
+[id^='alert-'] {
+  display: none;
 }
-
-.success {
-    color: #3c763d;
-    background-color: #dff0d8;
-    border-color: #d6e9c6;
-  
-}
-
-.failure {
-    color: #a94442;
-    background-color: #f2dede;
-    border-color: #ebccd1;
-    display: none;
-}
-
-.warning {
-    background-color: #ff00005e;
-    border-color: #faebcc;
-}
-
-  .tour-region{
+ .tour-region{
     font-weight: 600;
     font-size: 1.2rem;
   }
